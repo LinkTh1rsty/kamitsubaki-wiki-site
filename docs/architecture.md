@@ -1,137 +1,86 @@
-# Architecture Notes
+# Architecture
 
-This project is a static Astro site with URL-based internationalization and content separated from implementation.
+This site is a static Astro wiki with URL-based internationalization and content separated from implementation.
 
-## Runtime Shape
+## Runtime
 
 ```text
-Browser
-  -> / redirects to /zh/
-  -> /zh/ /ja/ /en/
-  -> Astro-rendered static HTML
-  -> local Tailwind CSS bundle
-  -> small browser interaction script
+/      -> redirects to /zh/
+/zh/   -> Chinese site
+/ja/   -> Japanese site
+/en/   -> English site
 ```
 
-The site does not need a backend at runtime.
+The production build is static HTML, CSS, and browser JavaScript. It does not require a backend at runtime.
 
 ## Content Flow
 
 ```text
-src/content/*.json and *.md
+src/content/**/*.json or .md
   -> src/content.config.ts validates schemas
-  -> Astro remark/rehype plugins parse markdown and math
-  -> src/pages/[locale]/index.astro reads collections for home page
-  -> src/pages/[locale]/artists/[...id].astro generates detailed wiki pages
-  -> src/lib/homeData.mjs filters, groups, and sorts data
-  -> src/components/*.astro render page sections
+  -> Astro Content Collections load records
+  -> src/lib/homeData.mjs localizes, groups, and sorts records
+  -> src/pages/[locale]/index.astro renders the home page
+  -> src/pages/[locale]/artists/[...id].astro renders wiki articles
+  -> src/components/*.astro render UI
 ```
 
-Implementation files should not contain large content arrays. They should receive already-localized data through props.
+Implementation files should receive content through props. Do not hardcode large public-facing content arrays in components or pages.
 
-## Routing
+## Main Directories
 
 ```text
-src/pages/index.astro                   Root redirect page
-src/pages/[locale]/index.astro          Static localized home pages
-src/pages/[locale]/artists/[...id].astro Static detailed wiki article pages
+src/content.config.ts   Content Collection schemas
+src/content/            Editable wiki content
+src/lib/                Data shaping and i18n helpers
+src/pages/              Static routes
+src/components/         Presentational components
+src/layouts/            Shared HTML layout
+src/styles/global.css   Tailwind entry and global visual system
+src/scripts/            Browser interactions
+tests/                  Node test runner checks
 ```
 
-Supported locales are declared in `src/lib/i18n.mjs`:
+## Content Collections
 
-```text
-zh  default Chinese route
-ja  Japanese route
-en  English route
-```
+- `site`: site chrome and page labels from JSON
+- `artists`: Markdown wiki pages for artists, creators, units, and isotopes
+- `projects`: Markdown project records
+- `logs`: JSON timeline rows
 
-Astro builds four pages:
+Schemas live in `src/content.config.ts`. `pnpm check` validates them.
 
-```text
-/index.html
-/zh/index.html
-/ja/index.html
-/en/index.html
-```
+## Reader UI
 
-## Components
+Artist detail pages keep a stable wiki layout:
 
-Current page sections:
+- compact navigation bar
+- article header with language links and edit-source link
+- optional table of contents when headings exist
+- Markdown article body when content exists
+- infobox metadata panel
 
-```text
-SiteNav          Fixed brand/navigation/language switcher
-Hero             First viewport
-AboutSection     Preface copy
-ArtistDatabase   Category sidebar and artist rows
-ProjectsSection  Project cards
-LogSection       Update log rows
-WikiInfoBox      Sidebar metadata card for wiki pages
-TableOfContents  Scroll-spy sticky navigation for wiki articles
-SiteFooter       Footer links and disclaimers
-```
+Empty article bodies are valid and render without fake filler text.
 
-Components should stay presentational. If data needs filtering, grouping, fallback handling, or sorting, put that logic in `src/lib/`.
+## Styling And Assets
 
-## Styling
+Tailwind CSS v4 is compiled through `@tailwindcss/vite`. Do not add a runtime Tailwind CDN script.
 
-Tailwind CSS v4 is compiled locally through `@tailwindcss/vite` and uses `@tailwindcss/typography` to style parsed markdown articles.
+Global styles live in `src/styles/global.css`, including:
 
-The global style entry is:
+- theme fonts and colors
+- responsive wiki reader typography
+- infobox and table-of-contents styles
+- preloader, cursor, reveal, noise, and list-row effects
 
-```text
-src/styles/global.css
-```
+## Verification
 
-That file contains:
-
-- Tailwind import and theme tokens
-- custom cursor styles
-- preloader styles
-- reveal animation styles
-- list row hover effects
-- crosshair/noise/marquee visual effects
-
-Avoid adding a CDN Tailwind script back into the layout. The test suite checks for this.
-
-## Browser Interactions
-
-The browser script is:
-
-```text
-src/scripts/siteInteractions.js
-```
-
-It owns:
-
-- preloader hide timing
-- custom cursor movement and hover state
-- artist hover background reveal
-- scroll reveal animation
-
-Keep this file independent from content. It should query DOM elements and CSS classes, not know about specific artists or languages.
-
-## Tests
-
-The test suite uses Node's built-in test runner.
-
-Current coverage:
-
-```text
-tests/content-separation.test.mjs  Content lives in collections, not old data modules
-tests/i18n.test.mjs                Locale files and route assumptions
-tests/local-assets.test.mjs        No runtime Tailwind CDN dependency
-tests/site-data.test.mjs           Key content records and ordering
-```
-
-Astro schema and component type checks are covered by:
+CI and local development use the same commands:
 
 ```bash
+pnpm test
 pnpm check
-```
-
-Static route generation is covered by:
-
-```bash
 pnpm build
 ```
 
+The GitHub Actions workflow is `.github/workflows/ci.yml`.

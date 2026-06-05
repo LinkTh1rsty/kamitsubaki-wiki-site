@@ -14,49 +14,49 @@ interface Props {
 const { data } = Astro.props;
 ---
 
-<aside class="wiki-infobox w-full overflow-hidden rounded-lg border border-white/10 bg-white/[0.035] shadow-2xl backdrop-blur-md">
-  <div class="border-b border-white/10 bg-white/[0.03] px-4 py-3">
-    <p class="text-[10px] font-mono uppercase tracking-[0.28em] text-white/35">Infobox</p>
-    <h2 class="mt-1 font-serif text-2xl font-semibold tracking-[0.12em] text-white">{data.name}</h2>
+<aside class="wiki-infobox w-full overflow-hidden rounded-md border border-white/10 bg-white/[0.035] shadow-2xl backdrop-blur-md sm:rounded-lg">
+  <div class="border-b border-white/10 bg-white/[0.03] px-3 py-2.5 sm:px-4 sm:py-3">
+    <p class="text-[9px] font-mono uppercase tracking-[0.24em] text-white/35 sm:text-[10px] sm:tracking-[0.28em]">Infobox</p>
+    <h2 class="mt-1 font-serif text-xl font-semibold tracking-[0.1em] text-white sm:text-2xl sm:tracking-[0.12em]">{data.name}</h2>
   </div>
 
   <figure class="bg-black/30 p-1">
     <img
       src={data.image}
       alt={data.name}
-      class="aspect-square w-full rounded-md object-cover filter grayscale-[15%] contrast-125"
+      class="aspect-video w-full rounded-sm object-cover filter grayscale-[15%] contrast-125 sm:aspect-square sm:rounded-md lg:aspect-square"
     />
-    <figcaption class="px-3 py-2 text-center text-[10px] tracking-[0.2em] text-white/35">
+    <figcaption class="px-3 py-1.5 text-center text-[9px] tracking-[0.18em] text-white/35 sm:py-2 sm:text-[10px] sm:tracking-[0.2em]">
       {data.romanizedName}
     </figcaption>
   </figure>
 
-  <div class="p-4">
-    <div class="mb-4 border-b border-white/10 pb-4">
-      <p class="text-[10px] font-mono uppercase tracking-[0.24em] text-white/30">Classification</p>
-      <p class="mt-1 text-sm tracking-[0.18em] text-white/75">{data.categoryTitle}</p>
+  <div class="p-3 sm:p-4">
+    <div class="mb-3 border-b border-white/10 pb-3 sm:mb-4 sm:pb-4">
+      <p class="text-[9px] font-mono uppercase tracking-[0.2em] text-white/30 sm:text-[10px] sm:tracking-[0.24em]">Classification</p>
+      <p class="mt-1 text-xs tracking-[0.14em] text-white/75 sm:text-sm sm:tracking-[0.18em]">{data.categoryTitle}</p>
     </div>
 
-    <dl class="divide-y divide-white/5 text-sm">
-      <div class="grid grid-cols-[6rem_1fr] gap-3 py-3">
-        <dt class="text-[10px] font-mono uppercase tracking-[0.2em] text-white/35">Name</dt>
+    <dl class="divide-y divide-white/5 text-xs sm:text-sm">
+      <div class="grid grid-cols-[5.25rem_1fr] gap-3 py-2.5 sm:grid-cols-[6rem_1fr] sm:py-3">
+        <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">Name</dt>
         <dd class="text-white/80">{data.name}</dd>
       </div>
-      <div class="grid grid-cols-[6rem_1fr] gap-3 py-3">
-        <dt class="text-[10px] font-mono uppercase tracking-[0.2em] text-white/35">Romanized</dt>
+      <div class="grid grid-cols-[5.25rem_1fr] gap-3 py-2.5 sm:grid-cols-[6rem_1fr] sm:py-3">
+        <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">Romanized</dt>
         <dd class="text-white/80">{data.romanizedName}</dd>
       </div>
-      <div class="grid grid-cols-[6rem_1fr] gap-3 py-3">
-        <dt class="text-[10px] font-mono uppercase tracking-[0.2em] text-white/35">{data.statusLabel}</dt>
-        <dd class="flex items-center gap-2 tracking-[0.16em] text-white/85">
+      <div class="grid grid-cols-[5.25rem_1fr] gap-3 py-2.5 sm:grid-cols-[6rem_1fr] sm:py-3">
+        <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">{data.statusLabel}</dt>
+        <dd class="flex items-center gap-2 tracking-[0.12em] text-white/85 sm:tracking-[0.16em]">
           {data.status === 'ACTIVE' && <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>}
           {data.status}
         </dd>
       </div>
       
       {data.meta && (
-        <div class="grid grid-cols-[6rem_1fr] gap-3 py-3">
-          <dt class="text-[10px] font-mono uppercase tracking-[0.2em] text-white/35">Meta</dt>
+        <div class="grid grid-cols-[5.25rem_1fr] gap-3 py-2.5 sm:grid-cols-[6rem_1fr] sm:py-3">
+          <dt class="text-[9px] font-mono uppercase tracking-[0.18em] text-white/35 sm:text-[10px] sm:tracking-[0.2em]">Meta</dt>
           <dd class="text-white/80">{data.meta}</dd>
         </div>
       )}

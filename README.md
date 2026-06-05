@@ -1,108 +1,109 @@
-# KAMITSUBAKI Fan Wiki Site
+# KAMITSUBAKI Wiki Site
 
-An unofficial KAMITSUBAKI STUDIO fan wiki prototype built as a static Astro site.
+Unofficial KAMITSUBAKI STUDIO fan wiki built as a static Astro site.
 
-The project is intentionally split into two layers:
-
-- `src/content/` contains editable site content.
-- `src/components/`, `src/pages/`, `src/layouts/`, `src/styles/`, and `src/scripts/` contain the page implementation.
-
-## Documentation
-
-- [Content editing guide](docs/content-editing.md): how to edit artists, projects, logs, and translations.
-- [Architecture notes](docs/architecture.md): how content, routing, components, styles, and scripts fit together.
-- [Development guide](docs/development.md): local setup, verification, Git workflow, and troubleshooting.
+This repository is designed for a GitHub pull request workflow: contributors edit content files, run the same checks locally, open a PR, and let CI verify the wiki before it is merged and deployed.
 
 ## Languages
 
-The site uses URL-based internationalization:
+- [English](README.md)
+- [中文](README.zh.md)
+- [日本語](README.ja.md)
+
+## What To Edit
+
+Most contributors only need `src/content/`.
 
 ```text
-/zh/  Chinese, default
-/ja/  Japanese
-/en/  English
-/     Redirects to /zh/
+src/content/site/       Site navigation, section labels, footer text (.json)
+src/content/artists/    Artist, creator, unit, and isotope wiki pages (.md)
+src/content/projects/   Project cards and project wiki content (.md)
+src/content/logs/       Timeline/update rows (.json)
 ```
 
-Content files use this naming pattern:
+Implementation lives outside `src/content/`:
 
 ```text
-translation-key.locale.json
+src/components/         Astro UI components
+src/pages/              Routes and page composition
+src/layouts/            Shared document layout
+src/styles/             Global CSS and Tailwind styles
+src/scripts/            Browser interactions
+tests/                  Node test runner checks
 ```
 
-Example:
+## Quick Start
 
-```text
-src/content/artists/vwp/kaf.zh.json
-src/content/artists/vwp/kaf.ja.json
-src/content/artists/vwp/kaf.en.json
-```
-
-## Stack
-
-- Astro static output
-- pnpm package manager
-- Tailwind CSS v4 compiled locally through Vite
-- Astro Content Collections for structured content
-
-## Commands
+Use `pnpm`.
 
 ```bash
 pnpm install
 pnpm dev
-pnpm test
-pnpm check
-pnpm build
 ```
 
-Local development defaults to Astro's dev server. In this workspace it is currently being used at:
+Astro will print a local URL such as:
 
 ```text
-http://127.0.0.1:4323/
+http://127.0.0.1:4321/
 ```
 
-## Project Structure
+Open `/zh/`, `/ja/`, or `/en/` to preview a language version.
+
+## Editing Wiki Pages
+
+Artist pages are Markdown files with YAML frontmatter.
 
 ```text
-src/content.config.ts     Content collection schemas
-src/content/              Editable content JSON files
-src/lib/homeData.mjs      Content-to-component data shaping
-src/lib/i18n.mjs          Locale list and language switch helpers
-src/pages/index.astro     Root redirect to /zh/
-src/pages/[locale]/       Localized home pages
-src/components/           Presentational page sections
-src/styles/global.css     Tailwind entry and global visual system
-src/scripts/              Browser-side interactions
-tests/                    Node test runner checks
+src/content/artists/vwp/kaf/zh.md
+src/content/artists/vwp/kaf/ja.md
+src/content/artists/vwp/kaf/en.md
 ```
 
-## Content Model
-
-All public-facing content should live in Astro Content Collections under `src/content/`.
-
-Records that appear in all languages use a shared `translationKey` and one file per locale:
+Project pages use the same language-file pattern:
 
 ```text
-src/content/artists/vwp/kaf.zh.json
-src/content/artists/vwp/kaf.ja.json
-src/content/artists/vwp/kaf.en.json
+src/content/projects/arg/kamitsubaki-city/zh.md
+src/content/projects/arg/kamitsubaki-city/ja.md
+src/content/projects/arg/kamitsubaki-city/en.md
 ```
 
-The implementation reads collections, filters by locale, shapes records in `src/lib/homeData.mjs`, then passes data into presentational components.
+Keep the same `translationKey` across all translations of the same page.
 
-## Editing Rule
+```yaml
+---
+locale: zh
+translationKey: kaf
+code: "01"
+name: "花谱"
+romanizedName: "KAF"
+categoryId: "cat-vwp"
+categoryTitle: "虚拟世代的魔女们"
+categorySubtitle: "VIRTUAL WITCH PHENOMENON"
+categoryOrder: 1
+itemOrder: 1
+statusLabel: "STATUS"
+status: "ACTIVE"
+image: "https://placehold.co/1200x800/111/333?text=KAF"
+---
+```
 
-Change content in `src/content/`.
+Write article content after the second `---`. Empty article bodies are allowed, so you can add structured metadata first and fill the article later.
 
-Change layout, style, or interaction behavior in `src/components/`, `src/styles/`, or `src/scripts/`.
+Markdown supports headings, lists, tables, links, code blocks, and LaTeX math through KaTeX.
 
-Do not reintroduce large hardcoded content arrays into components or pages.
+## Adding A New Page
 
-Do not edit `dist/`, `.astro/`, or `node_modules/`; these are generated or installed artifacts.
+1. Pick the correct folder under `src/content/artists/` or `src/content/projects/`.
+2. Create one folder for the entry, for example `src/content/artists/vwp/new-artist/`.
+3. Add `zh.md`, `ja.md`, and `en.md`.
+4. Use the same `translationKey` in all three files.
+5. Set ordering fields such as `categoryOrder`, `itemOrder`, or `order`.
+6. Run the verification commands below.
+7. Open a pull request.
 
-## Verification
+## Local Verification
 
-After editing content or implementation, run:
+Run these before opening a PR:
 
 ```bash
 pnpm test
@@ -110,4 +111,45 @@ pnpm check
 pnpm build
 ```
 
-`pnpm check` is especially important after content edits because it validates the Astro Content Collections schema.
+What they do:
+
+- `pnpm test`: verifies content separation, i18n assumptions, and important content records.
+- `pnpm check`: runs Astro diagnostics and validates Content Collections schemas.
+- `pnpm build`: generates the static site and confirms all routes build.
+
+## GitHub PR And CI Flow
+
+1. Create or sync your branch from `main`.
+2. Edit content in `src/content/`.
+3. Run local verification.
+4. Commit your changes.
+5. Push your branch.
+6. Open a pull request into `main`.
+7. GitHub Actions runs CI with the same verification commands.
+8. Fix any CI errors in the same branch.
+9. After review and merge, the static site can be deployed from the `dist/` output generated by `pnpm build`.
+
+The CI workflow is defined in `.github/workflows/ci.yml`.
+
+## Rules For Contributors
+
+- Do edit wiki content in `src/content/`.
+- Do keep all three locales in sync when adding a translatable entry.
+- Do keep `translationKey` stable across languages.
+- Do run `pnpm test`, `pnpm check`, and `pnpm build` before PR.
+- Do not edit `dist/`, `.astro/`, or `node_modules/`.
+- Do not move content into components or pages.
+- Do not add filler article text. Empty content is better than fake content.
+
+## Documentation
+
+- [Contributing guide](docs/contributing.md)
+- [Architecture notes](docs/architecture.md)
+
+## Tech Stack
+
+- Astro static output
+- pnpm package manager
+- Astro Content Collections
+- Tailwind CSS v4 through Vite
+- Markdown with KaTeX math support

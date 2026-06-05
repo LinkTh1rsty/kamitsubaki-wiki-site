@@ -22,7 +22,7 @@ const { navItems, localeLinks, brandLines, compact = false } = Astro.props as {
 
 <nav class:list={[
   'fixed top-0 w-full z-50 mix-blend-difference flex justify-between pointer-events-none',
-  compact ? 'items-center px-5 py-5 md:px-8 md:py-5' : 'items-start px-6 py-8 md:px-12',
+  compact ? 'items-center px-4 py-4 md:px-8 md:py-5' : 'items-start px-6 py-8 md:px-12',
 ]}>
   <a href="#" class="pointer-events-auto group">
     <p class:list={[
@@ -30,7 +30,10 @@ const { navItems, localeLinks, brandLines, compact = false } = Astro.props as {
       compact ? 'text-[9px] leading-snug md:text-[10px]' : 'text-[10px] leading-relaxed md:text-xs',
     ]}>
       {compact ? (
-        brandLines.join(' ')
+        <>
+          <span class="sm:hidden">KAMITSUBAKI WIKI</span>
+          <span class="hidden sm:inline">{brandLines.join(' ')}</span>
+        </>
       ) : (
         brandLines.map((line, index) => (
           <>
