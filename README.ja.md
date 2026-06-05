@@ -6,8 +6,8 @@ Astro で構築された、非公式 KAMITSUBAKI STUDIO ファン Wiki の静的
 
 ## 言語
 
-- [English](README.md)
-- [中文](README.zh.md)
+- [English](README.en.md)
+- [中文](README.md)
 - [日本語](README.ja.md)
 
 ## 編集する場所
