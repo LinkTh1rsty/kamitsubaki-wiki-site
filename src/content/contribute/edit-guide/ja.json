@@ -1,0 +1,29 @@
+{
+  "locale": "ja",
+  "translationKey": "edit-guide",
+  "eyebrow": "CONTRIBUTOR ONBOARDING",
+  "title": "編集前のクイックガイド",
+  "intro": "GitHub でソースを編集する前に、この 3 つの手順を確認してください。確認しておくと、レビューとマージが進めやすくなります。",
+  "back": "ホームへ戻る",
+  "targetLabel": "編集対象",
+  "invalidTarget": "有効な編集先が見つかりません。Wiki 記事の「ソースを編集」から開いてください。",
+  "steps": [
+    {
+      "title": "編集範囲を確認する",
+      "body": "現在の記事に関係する内容だけを変更します。アーティスト記事は src/content/artists の下で分類、名前、言語ごとに分かれています。"
+    },
+    {
+      "title": "コンテンツ構造を保つ",
+      "body": "frontmatter の項目を残し、未確認のファイルは移動しないでください。本文は Markdown で書き、事実情報にはできるだけ出典を添えます。"
+    },
+    {
+      "title": "Pull Request で提出する",
+      "body": "GitHub の画面で編集したらブランチへコミットし、PR を作成します。CI が通ってからマージします。"
+    }
+  ],
+  "checkbox": "理解しました",
+  "ready": "学習を完了して GitHub で編集する",
+  "locked": "上の 3 つを完了すると GitHub 編集を開けます",
+  "docs": "詳しい投稿ガイドを見る",
+  "docsPath": "docs/contributing.ja.md"
+}

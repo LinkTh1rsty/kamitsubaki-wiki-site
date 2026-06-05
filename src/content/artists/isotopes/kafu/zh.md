@@ -3,7 +3,6 @@ locale: "zh"
 translationKey: "kafu"
 code: "M1"
 romanizedName: "KAFU"
-categoryId: "cat-isotope"
 categoryOrder: 4
 itemOrder: 1
 meta: "ORIGIN: KAF"

@@ -37,24 +37,6 @@
       "href": "#log"
     }
   ],
-  "databaseJumpLinks": [
-    {
-      "label": ">> V.W.P [魔女]",
-      "href": "#cat-vwp"
-    },
-    {
-      "label": ">> SOLO ARTISTS",
-      "href": "#cat-solo"
-    },
-    {
-      "label": ">> CREATORS",
-      "href": "#cat-creator"
-    },
-    {
-      "label": ">> MUSICAL ISOTOPES",
-      "href": "#cat-isotope"
-    }
-  ],
   "hero": {
     "brandLines": [
       "Kamitsubaki",

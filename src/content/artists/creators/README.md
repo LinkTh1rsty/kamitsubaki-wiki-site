@@ -2,12 +2,12 @@
 
 Use this folder for creators such as composers, illustrators, and related staff.
 
-Current category fields:
+The folder name `creators` creates the homepage category automatically.
+
+Optional display fields commonly used here:
 
 ```text
-categoryId: cat-creator
+categoryTitle: ...
+categorySubtitle: ...
 categoryOrder: 3
 ```
-
-Keep these fields consistent across every file in this folder unless the page category model changes.
-

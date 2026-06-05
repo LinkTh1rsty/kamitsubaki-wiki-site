@@ -53,6 +53,8 @@ tests/                  Node test runner checks
 
 Schemas live in `src/content.config.ts`. `pnpm check` validates them.
 
+Homepage DATABASE categories are derived from the first folder level in `src/content/artists/<category>/<entry>/<locale>.md`. `categoryTitle`, `categorySubtitle`, `categoryOrder`, `itemOrder`, and `code` are optional display overrides.
+
 ## Metadata
 
 Page metadata is built in `src/lib/metadata.mjs`. Content files can override it with optional `seo` frontmatter. When it is missing, the site scans the first Markdown paragraph as the description and uses `image` for link previews.

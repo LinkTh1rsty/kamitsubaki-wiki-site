@@ -3,7 +3,6 @@ locale: "zh"
 translationKey: "guiano"
 code: "C2"
 romanizedName: "GUIANO"
-categoryId: "cat-creator"
 categoryOrder: 3
 itemOrder: 2
 meta: "ROLE: COMPOSER"

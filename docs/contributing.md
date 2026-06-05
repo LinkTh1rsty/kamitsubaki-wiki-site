@@ -13,6 +13,7 @@ src/content/site/       站点导航、分区标题、页脚文案 (.json)
 src/content/artists/    艺人、创作者、组合、音乐同位体条目 (.md)
 src/content/projects/   企划页面和卡片内容 (.md)
 src/content/logs/       时间线/更新记录 (.json)
+src/content/contribute/ GitHub 编辑教程页文案 (.json)
 ```
 
 不要编辑 `dist/`、`.astro/` 或 `node_modules/`。
@@ -37,10 +38,8 @@ Markdown 文件使用 YAML frontmatter 存放结构化数据。
 ---
 locale: zh
 translationKey: kaf
-code: "01"
 name: "花谱"
 romanizedName: "KAF"
-categoryId: "cat-vwp"
 categoryTitle: "虚拟世代的魔女们"
 categorySubtitle: "VIRTUAL WITCH PHENOMENON"
 categoryOrder: 1
@@ -59,6 +58,17 @@ seo:
 ```
 
 正文写在第二个 `---` 后面。正文可以留空，但不要写占位介绍。
+
+## 首页展示
+
+首页 DATABASE 会自动扫描 `src/content/artists/` 的第一层文件夹作为分类。
+
+```text
+src/content/artists/vwp/kaf/zh.md
+                    ^^^ 首页分类
+```
+
+新增分类时，只需要新建第一层文件夹并放入三语条目。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder` 和 `code` 都是可选覆盖字段；不填时会使用文件夹名、条目名和默认排序。
 
 ## 元数据
 

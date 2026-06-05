@@ -3,7 +3,6 @@ locale: "en"
 translationKey: "albemuth"
 code: "07"
 romanizedName: "ALBEMUTH"
-categoryId: "cat-solo"
 categoryOrder: 2
 itemOrder: 2
 statusLabel: "STATUS"

@@ -1,0 +1,29 @@
+{
+  "locale": "zh",
+  "translationKey": "edit-guide",
+  "eyebrow": "CONTRIBUTOR ONBOARDING",
+  "title": "编辑前快速学习",
+  "intro": "先了解这三个步骤，再进入 GitHub 编辑源文件。这样每一次贡献都会更容易被检查、讨论和合并。",
+  "back": "返回首页",
+  "targetLabel": "即将编辑",
+  "invalidTarget": "未找到有效的编辑目标，请从具体 Wiki 条目的“编辑源文件”按钮进入。",
+  "steps": [
+    {
+      "title": "确认文件范围",
+      "body": "只修改当前条目相关内容。艺人条目位于 src/content/artists，按分类、名称、语言拆分。"
+    },
+    {
+      "title": "保持内容结构",
+      "body": "保留 frontmatter 字段，不移动未确认的文件。正文使用 Markdown，事实信息尽量附来源。"
+    },
+    {
+      "title": "通过 Pull Request 提交",
+      "body": "在 GitHub 网页编辑后提交到分支，创建 PR，等待 CI 通过后再合并。"
+    }
+  ],
+  "checkbox": "我已理解",
+  "ready": "我已完成学习，前往 GitHub 编辑",
+  "locked": "完成上方三步后解锁 GitHub 编辑",
+  "docs": "查看完整贡献指南",
+  "docsPath": "docs/contributing.md"
+}

@@ -3,7 +3,6 @@ locale: "en"
 translationKey: "palow"
 code: "C3"
 romanizedName: "PALOW."
-categoryId: "cat-creator"
 categoryOrder: 3
 itemOrder: 3
 meta: "ROLE: ILLUSTRATOR"

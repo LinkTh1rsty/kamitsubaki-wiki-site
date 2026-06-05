@@ -32,12 +32,6 @@ const site = defineCollection({
         href: z.string(),
       }),
     ),
-    databaseJumpLinks: z.array(
-      z.object({
-        label: z.string(),
-        href: z.string(),
-      }),
-    ),
     hero: z.object({
       brandLines: z.array(z.string()),
       systemVersion: z.string(),
@@ -89,14 +83,13 @@ const artists = defineCollection({
   schema: z.object({
     locale,
     translationKey: z.string(),
-    code: z.string(),
+    code: z.string().optional(),
     name: z.string(),
     romanizedName: z.string(),
-    categoryId: z.string(),
-    categoryTitle: z.string(),
-    categorySubtitle: z.string(),
-    categoryOrder: z.number(),
-    itemOrder: z.number(),
+    categoryTitle: z.string().optional(),
+    categorySubtitle: z.string().optional(),
+    categoryOrder: z.number().optional(),
+    itemOrder: z.number().optional(),
     meta: z.string().optional(),
     statusLabel: z.string(),
     status: z.string(),
@@ -131,9 +124,35 @@ const logs = defineCollection({
   }),
 });
 
+const editGuide = defineCollection({
+  loader: glob({ pattern: '{zh,ja,en}.json', base: './src/content/contribute/edit-guide' }),
+  schema: z.object({
+    locale,
+    translationKey: z.literal('edit-guide'),
+    eyebrow: z.string(),
+    title: z.string(),
+    intro: z.string(),
+    back: z.string(),
+    targetLabel: z.string(),
+    invalidTarget: z.string(),
+    steps: z.array(
+      z.object({
+        title: z.string(),
+        body: z.string(),
+      }),
+    ),
+    checkbox: z.string(),
+    ready: z.string(),
+    locked: z.string(),
+    docs: z.string(),
+    docsPath: z.string(),
+  }),
+});
+
 export const collections = {
   site,
   artists,
   projects,
   logs,
+  editGuide,
 };

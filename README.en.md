@@ -19,6 +19,7 @@ src/content/site/       Site navigation, section labels, footer text (.json)
 src/content/artists/    Artist, creator, unit, and isotope wiki pages (.md)
 src/content/projects/   Project cards and project wiki content (.md)
 src/content/logs/       Timeline/update rows (.json)
+src/content/contribute/ GitHub edit-guide copy (.json)
 ```
 
 Implementation lives outside `src/content/`:
@@ -76,7 +77,6 @@ translationKey: kaf
 code: "01"
 name: "花谱"
 romanizedName: "KAF"
-categoryId: "cat-vwp"
 categoryTitle: "虚拟世代的魔女们"
 categorySubtitle: "VIRTUAL WITCH PHENOMENON"
 categoryOrder: 1
@@ -98,6 +98,17 @@ Write article content after the second `---`. Empty article bodies are allowed, 
 
 Markdown supports headings, lists, tables, links, code blocks, and LaTeX math through KaTeX.
 
+## Homepage Display And Folders
+
+The homepage DATABASE scans the first folder level under `src/content/artists/` as the category.
+
+```text
+src/content/artists/vwp/kaf/zh.md
+                    ^^^ homepage category
+```
+
+To add a new category, create a new first-level folder and add three-language entries. `categoryTitle`, `categorySubtitle`, `categoryOrder`, `itemOrder`, and `code` are optional display overrides. When they are missing, the site uses the folder name, entry name, and default sorting.
+
 ## Metadata And Link Previews
 
 The `seo` block is optional. When it is missing, the site scans:
@@ -116,7 +127,7 @@ Set `PUBLIC_SITE_URL` during deployment, for example `https://example.com`. Cano
 2. Create one folder for the entry, for example `src/content/artists/vwp/new-artist/`.
 3. Add `zh.md`, `ja.md`, and `en.md`.
 4. Use the same `translationKey` in all three files.
-5. Set ordering fields such as `categoryOrder`, `itemOrder`, or `order`.
+5. Artist categories come from folders automatically. Add `categoryTitle`, `categorySubtitle`, `categoryOrder`, `itemOrder`, or `code` only when custom display is needed.
 6. Run the verification commands below.
 7. Open a pull request.
 

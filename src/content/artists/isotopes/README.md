@@ -2,12 +2,12 @@
 
 Use this folder for musical isotope entries.
 
-Current category fields:
+The folder name `isotopes` creates the homepage category automatically.
+
+Optional display fields commonly used here:
 
 ```text
-categoryId: cat-isotope
+categoryTitle: ...
+categorySubtitle: ...
 categoryOrder: 4
 ```
-
-Keep these fields consistent across every file in this folder unless the page category model changes.
-

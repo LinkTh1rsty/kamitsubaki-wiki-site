@@ -2,12 +2,12 @@
 
 Use this folder for solo artist and unit entries.
 
-Current category fields:
+The folder name `solo` creates the homepage category automatically.
+
+Optional display fields commonly used here:
 
 ```text
-categoryId: cat-solo
+categoryTitle: ...
+categorySubtitle: ...
 categoryOrder: 2
 ```
-
-Keep these fields consistent across every file in this folder unless the page category model changes.
-

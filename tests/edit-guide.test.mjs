@@ -35,3 +35,18 @@ test('localized contributor guide gates the GitHub edit link behind completion s
   assert.match(guidePage, /URLSearchParams/);
   assert.match(guidePage, /github\.com\/LinkTh1rsty\/kamitsubaki-wiki-site\/edit\/main\/src\/content\//);
 });
+
+test('contributor guide copy lives in editable content files', async () => {
+  for (const locale of ['zh', 'ja', 'en']) {
+    assert.equal(await fileExists(`../src/content/contribute/edit-guide/${locale}.json`), true);
+  }
+
+  const contentConfig = await readSource('../src/content.config.ts');
+  const guidePage = await readSource('../src/pages/[locale]/contribute/edit.astro');
+
+  assert.match(contentConfig, /editGuide/);
+  assert.match(guidePage, /getCollection\('editGuide'\)/);
+  assert.doesNotMatch(guidePage, /const copy = \{/);
+  assert.doesNotMatch(guidePage, /编辑前快速学习/);
+  assert.doesNotMatch(guidePage, /Quick guide before editing/);
+});

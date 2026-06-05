@@ -2,12 +2,12 @@
 
 Use this folder for Virtual Witch Phenomenon artist entries.
 
-Current category fields:
+The folder name `vwp` creates the homepage category automatically.
+
+Optional display fields commonly used here:
 
 ```text
-categoryId: cat-vwp
+categoryTitle: ...
+categorySubtitle: ...
 categoryOrder: 1
 ```
-
-Keep these fields consistent across every file in this folder unless the page category model changes.
-

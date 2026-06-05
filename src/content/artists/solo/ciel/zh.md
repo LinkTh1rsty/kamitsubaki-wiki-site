@@ -3,7 +3,6 @@ locale: "zh"
 translationKey: "ciel"
 code: "06"
 romanizedName: "CIEL"
-categoryId: "cat-solo"
 categoryOrder: 2
 itemOrder: 1
 statusLabel: "STATUS"

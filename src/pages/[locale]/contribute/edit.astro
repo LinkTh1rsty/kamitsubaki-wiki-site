@@ -15,7 +15,11 @@ export function getStaticPaths() {
 const { locale } = Astro.params;
 const localeCode = locale as 'zh' | 'ja' | 'en';
 const siteEntries = await getCollection('site');
+const editGuideEntries = await getCollection('editGuide');
 const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
+const copy =
+  editGuideEntries.find((entry) => entry.data.locale === localeCode)?.data ??
+  editGuideEntries.find((entry) => entry.data.locale === defaultLocale)?.data;
 const currentPath = '/contribute/edit';
 const localeLinks = buildLocaleLinks(homeContent, localeCode, currentPath);
 
@@ -24,89 +28,11 @@ const alternates = supportedLocales.map((localeCode) => ({
   href: `/${localeCode}${currentPath}`,
 }));
 
-const copy = {
-  zh: {
-    eyebrow: 'CONTRIBUTOR ONBOARDING',
-    title: '编辑前快速学习',
-    intro: '先了解这三个步骤，再进入 GitHub 编辑源文件。这样每一次贡献都会更容易被检查、讨论和合并。',
-    back: '返回首页',
-    targetLabel: '即将编辑',
-    invalidTarget: '未找到有效的编辑目标，请从具体 Wiki 条目的“编辑源文件”按钮进入。',
-    steps: [
-      {
-        title: '确认文件范围',
-        body: '只修改当前条目相关内容。艺人条目位于 src/content/artists，按分类、名称、语言拆分。',
-      },
-      {
-        title: '保持内容结构',
-        body: '保留 frontmatter 字段，不移动未确认的文件。正文使用 Markdown，事实信息尽量附来源。',
-      },
-      {
-        title: '通过 Pull Request 提交',
-        body: '在 GitHub 网页编辑后提交到分支，创建 PR，等待 CI 通过后再合并。',
-      },
-    ],
-    checkbox: '我已理解',
-    ready: '我已完成学习，前往 GitHub 编辑',
-    locked: '完成上方三步后解锁 GitHub 编辑',
-    docs: '查看完整贡献指南',
-    docsHref: 'https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/docs/contributing.md',
-  },
-  ja: {
-    eyebrow: 'CONTRIBUTOR ONBOARDING',
-    title: '編集前のクイックガイド',
-    intro: 'GitHub でソースを編集する前に、この 3 つの手順を確認してください。確認しておくと、レビューとマージが進めやすくなります。',
-    back: 'ホームへ戻る',
-    targetLabel: '編集対象',
-    invalidTarget: '有効な編集先が見つかりません。Wiki 記事の「ソースを編集」から開いてください。',
-    steps: [
-      {
-        title: '編集範囲を確認する',
-        body: '現在の記事に関係する内容だけを変更します。アーティスト記事は src/content/artists の下で分類、名前、言語ごとに分かれています。',
-      },
-      {
-        title: 'コンテンツ構造を保つ',
-        body: 'frontmatter の項目を残し、未確認のファイルは移動しないでください。本文は Markdown で書き、事実情報にはできるだけ出典を添えます。',
-      },
-      {
-        title: 'Pull Request で提出する',
-        body: 'GitHub の画面で編集したらブランチへコミットし、PR を作成します。CI が通ってからマージします。',
-      },
-    ],
-    checkbox: '理解しました',
-    ready: '学習を完了して GitHub で編集する',
-    locked: '上の 3 つを完了すると GitHub 編集を開けます',
-    docs: '詳しい投稿ガイドを見る',
-    docsHref: 'https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/docs/contributing.ja.md',
-  },
-  en: {
-    eyebrow: 'CONTRIBUTOR ONBOARDING',
-    title: 'Quick guide before editing',
-    intro: 'Review these three steps before editing the source file on GitHub. It keeps contributions easier to review, discuss, and merge.',
-    back: 'Back home',
-    targetLabel: 'Editing target',
-    invalidTarget: 'No valid edit target was found. Open this page from the Edit source button on a Wiki article.',
-    steps: [
-      {
-        title: 'Confirm the file scope',
-        body: 'Only change content related to the current article. Artist pages live under src/content/artists and are split by category, name, and locale.',
-      },
-      {
-        title: 'Keep the content structure',
-        body: 'Keep the frontmatter fields and avoid moving files unless the structure is being reviewed. Write the body in Markdown and cite sources when possible.',
-      },
-      {
-        title: 'Submit through a Pull Request',
-        body: 'After editing on GitHub, commit to a branch, open a PR, and wait for CI to pass before merging.',
-      },
-    ],
-    checkbox: 'I understand',
-    ready: 'I finished the guide, edit on GitHub',
-    locked: 'Complete the three steps above to unlock GitHub editing',
-    docs: 'Read the full contribution guide',
-    docsHref: 'https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/docs/contributing.en.md',
-  },
-}[localeCode];
+if (!copy) {
+  throw new Error(`Missing edit guide content for locale: ${localeCode}`);
+}
+
+const docsHref = `https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/${copy.docsPath}`;
 
 const metadata = {
   title: `${copy.title} - KAMITSUBAKI WIKI`,
@@ -123,7 +49,7 @@ const metadata = {
   <main class="mx-auto flex min-h-screen max-w-5xl flex-col px-4 pb-12 pt-24 sm:px-6 sm:pt-28 lg:pt-32">
     <div class="mb-8 flex flex-wrap items-center justify-between gap-4 text-[9px] font-mono uppercase tracking-[0.22em] text-white/40">
       <a href={`/${localeCode}/`} class="transition-colors hover:text-white">{copy.back}</a>
-      <a href={copy.docsHref} class="transition-colors hover:text-white" target="_blank" rel="noopener noreferrer">
+      <a href={docsHref} class="transition-colors hover:text-white" target="_blank" rel="noopener noreferrer">
         {copy.docs}
       </a>
     </div>

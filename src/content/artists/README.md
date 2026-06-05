@@ -19,4 +19,4 @@ vwp/kaf/ja.md
 vwp/kaf/en.md
 ```
 
-The `categoryId`, `categoryOrder`, and `itemOrder` fields still control how entries appear on the page. The folder is for editor convenience and repository organization.
+The first folder level controls the homepage category automatically. Optional fields such as `categoryTitle`, `categorySubtitle`, `categoryOrder`, `itemOrder`, and `code` only customize labels and ordering.

@@ -1,0 +1,29 @@
+{
+  "locale": "en",
+  "translationKey": "edit-guide",
+  "eyebrow": "CONTRIBUTOR ONBOARDING",
+  "title": "Quick guide before editing",
+  "intro": "Review these three steps before editing the source file on GitHub. It keeps contributions easier to review, discuss, and merge.",
+  "back": "Back home",
+  "targetLabel": "Editing target",
+  "invalidTarget": "No valid edit target was found. Open this page from the Edit source button on a Wiki article.",
+  "steps": [
+    {
+      "title": "Confirm the file scope",
+      "body": "Only change content related to the current article. Artist pages live under src/content/artists and are split by category, name, and locale."
+    },
+    {
+      "title": "Keep the content structure",
+      "body": "Keep the frontmatter fields and avoid moving files unless the structure is being reviewed. Write the body in Markdown and cite sources when possible."
+    },
+    {
+      "title": "Submit through a Pull Request",
+      "body": "After editing on GitHub, commit to a branch, open a PR, and wait for CI to pass before merging."
+    }
+  ],
+  "checkbox": "I understand",
+  "ready": "I finished the guide, edit on GitHub",
+  "locked": "Complete the three steps above to unlock GitHub editing",
+  "docs": "Read the full contribution guide",
+  "docsPath": "docs/contributing.en.md"
+}

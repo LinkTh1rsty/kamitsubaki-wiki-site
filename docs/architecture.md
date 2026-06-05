@@ -53,6 +53,8 @@ tests/                  Node 测试
 
 schema 位于 `src/content.config.ts`，由 `pnpm check` 校验。
 
+首页 DATABASE 的艺人分类从 `src/content/artists/<category>/<entry>/<locale>.md` 的第一层文件夹自动推导。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder` 和 `code` 只是可选展示覆盖。
+
 ## 元数据
 
 页面元数据由 `src/lib/metadata.mjs` 生成。内容文件可以用可选 `seo` frontmatter 覆盖；未填写时，系统会自动扫描 Markdown 第一段作为描述，并使用 `image` 生成分享卡片。

@@ -3,7 +3,6 @@ locale: "en"
 translationKey: "kaf"
 code: "01"
 romanizedName: "KAF"
-categoryId: "cat-vwp"
 categoryOrder: 1
 itemOrder: 1
 meta: "DEBUT: 2018.10.18"

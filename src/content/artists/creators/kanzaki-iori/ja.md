@@ -3,7 +3,6 @@ locale: "ja"
 translationKey: "kanzaki-iori"
 code: "C1"
 romanizedName: "KANZAKI IORI"
-categoryId: "cat-creator"
 categoryOrder: 3
 itemOrder: 1
 meta: "ROLE: COMPOSER"

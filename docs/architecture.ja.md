@@ -53,6 +53,8 @@ tests/                  Node テスト
 
 schema は `src/content.config.ts` にあり、`pnpm check` で検証されます。
 
+トップページ DATABASE のアーティスト分類は `src/content/artists/<category>/<entry>/<locale>.md` の第一階層フォルダから自動生成されます。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder`、`code` は任意の表示上書きです。
+
 ## メタデータ
 
 ページメタデータは `src/lib/metadata.mjs` で生成します。コンテンツファイルは任意の `seo` frontmatter で上書きできます。未設定の場合、Markdown の最初の段落を説明として自動取得し、`image` をリンクプレビューに使います。

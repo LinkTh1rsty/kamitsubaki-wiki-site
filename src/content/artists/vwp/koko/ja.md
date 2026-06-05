@@ -3,7 +3,6 @@ locale: "ja"
 translationKey: "koko"
 code: "05"
 romanizedName: "KOKO"
-categoryId: "cat-vwp"
 categoryOrder: 1
 itemOrder: 5
 meta: "DEBUT: 2020.10.25"

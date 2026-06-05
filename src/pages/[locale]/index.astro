@@ -8,7 +8,7 @@ import SiteFooter from '../../components/SiteFooter.astro';
 import SiteNav from '../../components/SiteNav.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { buildArtistCategories, getLocalizedEntries, getLocalizedSite, sortByOrder } from '../../lib/homeData.mjs';
+import { buildArtistCategories, buildDatabaseJumpLinks, getLocalizedEntries, getLocalizedSite, sortByOrder } from '../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../lib/i18n.mjs';
 import { buildHomeMetadata } from '../../lib/metadata.mjs';
 
@@ -26,6 +26,7 @@ const projectEntries = getLocalizedEntries(await getCollection('projects'), loca
 const logEntryCollection = getLocalizedEntries(await getCollection('logs'), locale, defaultLocale);
 
 const artistCategories = buildArtistCategories(artistEntries);
+const databaseJumpLinks = buildDatabaseJumpLinks(artistCategories);
 const projects = sortByOrder(projectEntries).map((entry) => entry.data);
 const logEntries = sortByOrder(logEntryCollection).map((entry) => entry.data);
 const localeLinks = buildLocaleLinks(homeContent, locale);
@@ -42,7 +43,7 @@ const metadata = buildHomeMetadata(homeContent, locale);
   <AboutSection content={homeContent.sections.about} />
   <ArtistDatabase
     artistCategories={artistCategories}
-    databaseJumpLinks={homeContent.databaseJumpLinks}
+    databaseJumpLinks={databaseJumpLinks}
     section={homeContent.sections.database}
     locale={locale}
   />

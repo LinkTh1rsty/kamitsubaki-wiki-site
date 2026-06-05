@@ -3,7 +3,6 @@ locale: "ja"
 translationKey: "isekaijoucho"
 code: "04"
 romanizedName: "ISEKAIJOUCHO"
-categoryId: "cat-vwp"
 categoryOrder: 1
 itemOrder: 4
 meta: "DEBUT: 2019.12.09"

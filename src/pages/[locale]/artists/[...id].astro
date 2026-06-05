@@ -6,7 +6,7 @@ import SiteFooter from '../../../components/SiteFooter.astro';
 import WikiInfoBox from '../../../components/WikiInfoBox.astro';
 import WikiArticleHeader from '../../../components/WikiArticleHeader.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
-import { getLocalizedSite } from '../../../lib/homeData.mjs';
+import { buildArtistDisplayData, getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArticleMetadata } from '../../../lib/metadata.mjs';
 
@@ -33,6 +33,7 @@ export async function getStaticPaths() {
 const { locale, id } = Astro.params;
 const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
+const articleData = buildArtistDisplayData(entry);
 const localeCode = locale as 'zh' | 'ja' | 'en';
 const hasArticleBody = Boolean(entry.body?.trim());
 const hasTableOfContents = headings.some((heading) => heading.depth === 2 || heading.depth === 3);
@@ -80,21 +81,21 @@ const articleLabels = {
 const githubSourceHref = `https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/edit/main/src/content/artists/${id}/${localeCode}.md`;
 const sourceHref = `/${localeCode}/contribute/edit?target=${encodeURIComponent(githubSourceHref)}`;
 const metadata = buildArticleMetadata({
-  data: entry.data,
+  data: articleData,
   body: entry.body,
   locale: localeCode,
   id,
 });
 ---
 
-<BaseLayout lang={locale} alternates={alternates} title={`${entry.data.name} - KAMITSUBAKI WIKI`} metadata={metadata}>
+<BaseLayout lang={locale} alternates={alternates} title={`${articleData.name} - KAMITSUBAKI WIKI`} metadata={metadata}>
   <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact />
 
   <div class="fixed left-0 top-0 z-[60] h-px w-full origin-left bg-white/70" data-reading-progress></div>
 
   <div class="mx-auto max-w-[92rem] px-4 pb-3 pt-17 sm:px-6 sm:pb-4 sm:pt-20 lg:pt-20">
     <WikiArticleHeader
-      data={entry.data}
+      data={articleData}
       localeLinks={localeLinks}
       labels={articleLabels}
       sourceHref={sourceHref}
@@ -138,7 +139,7 @@ const metadata = buildArticleMetadata({
       'w-full max-w-sm mx-auto lg:sticky lg:top-32 lg:max-w-none',
       hasArticleBody ? 'lg:col-span-3' : 'lg:col-start-2',
     ]}>
-      <WikiInfoBox data={entry.data} />
+      <WikiInfoBox data={articleData} />
     </aside>
     
   </div>

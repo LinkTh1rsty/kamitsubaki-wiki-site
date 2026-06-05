@@ -13,6 +13,7 @@ src/content/site/       Site navigation, section labels, footer text (.json)
 src/content/artists/    Artist, creator, unit, and isotope pages (.md)
 src/content/projects/   Project pages and cards (.md)
 src/content/logs/       Timeline/update rows (.json)
+src/content/contribute/ GitHub edit-guide copy (.json)
 ```
 
 Do not edit `dist/`, `.astro/`, or `node_modules/`.
@@ -37,10 +38,8 @@ Markdown files use YAML frontmatter for structured data.
 ---
 locale: zh
 translationKey: kaf
-code: "01"
 name: "花谱"
 romanizedName: "KAF"
-categoryId: "cat-vwp"
 categoryTitle: "虚拟世代的魔女们"
 categorySubtitle: "VIRTUAL WITCH PHENOMENON"
 categoryOrder: 1
@@ -59,6 +58,17 @@ seo:
 ```
 
 Write article content after the second `---`. Empty bodies are allowed, but do not add filler text.
+
+## Homepage Display
+
+The homepage DATABASE scans the first folder level under `src/content/artists/` as the category.
+
+```text
+src/content/artists/vwp/kaf/zh.md
+                    ^^^ homepage category
+```
+
+To add a new category, create a new first-level folder and add three-language entries. `categoryTitle`, `categorySubtitle`, `categoryOrder`, `itemOrder`, and `code` are optional display overrides. When they are missing, the site uses the folder name, entry name, and default sorting.
 
 ## Metadata
 

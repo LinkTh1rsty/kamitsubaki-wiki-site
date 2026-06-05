@@ -3,7 +3,6 @@ locale: "zh"
 translationKey: "rim"
 code: "02"
 romanizedName: "RIM"
-categoryId: "cat-vwp"
 categoryOrder: 1
 itemOrder: 2
 meta: "DEBUT: 2019.10.18"

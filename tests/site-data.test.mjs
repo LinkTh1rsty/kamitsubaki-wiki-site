@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 import test from 'node:test';
 import yaml from 'yaml';
 
-import { buildArtistCategories, sortByOrder } from '../src/lib/homeData.mjs';
+import { buildArtistCategories, buildDatabaseJumpLinks, sortByOrder } from '../src/lib/homeData.mjs';
 
 const artistFolders = new Map([
   ['kaf', 'vwp'],
@@ -70,7 +70,7 @@ test('artist database keeps the original four categories and key entities', asyn
 
   assert.deepEqual(
     artistCategories.map((category) => category.id),
-    ['cat-vwp', 'cat-solo', 'cat-creator', 'cat-isotope'],
+    ['cat-vwp', 'cat-solo', 'cat-creators', 'cat-isotopes'],
   );
 
   const vwp = artistCategories.find((category) => category.id === 'cat-vwp');
@@ -86,6 +86,116 @@ test('artist database keeps the original four categories and key entities', asyn
     status: 'ACTIVE',
     image: 'https://placehold.co/1200x800/111/333?text=KAF',
   });
+});
+
+test('artist database derives categories and jump links from folders', async () => {
+  const artistCategories = buildArtistCategories([
+    {
+      id: 'fan-units/example-unit/zh',
+      data: {
+        name: '示例组合',
+        romanizedName: 'Example Unit',
+        statusLabel: 'STATUS',
+        status: 'ACTIVE',
+        image: 'https://example.com/unit.jpg',
+      },
+    },
+    {
+      id: 'fan-units/another-unit/zh',
+      data: {
+        code: 'A2',
+        name: '另一个组合',
+        romanizedName: 'Another Unit',
+        categoryTitle: '自定义组合',
+        categorySubtitle: 'CUSTOM GROUP',
+        categoryOrder: 12,
+        itemOrder: 1,
+        statusLabel: 'STATUS',
+        status: 'DRAFT',
+        image: 'https://example.com/another.jpg',
+      },
+    },
+  ]);
+
+  assert.deepEqual(artistCategories, [
+    {
+      id: 'cat-fan-units',
+      title: '自定义组合',
+      subtitle: 'CUSTOM GROUP',
+      items: [
+        {
+          id: 'fan-units/another-unit',
+          code: 'A2',
+          name: '另一个组合',
+          romanizedName: 'Another Unit',
+          statusLabel: 'STATUS',
+          status: 'DRAFT',
+          image: 'https://example.com/another.jpg',
+        },
+        {
+          id: 'fan-units/example-unit',
+          code: '02',
+          name: '示例组合',
+          romanizedName: 'Example Unit',
+          statusLabel: 'STATUS',
+          status: 'ACTIVE',
+          image: 'https://example.com/unit.jpg',
+        },
+      ],
+    },
+  ]);
+
+  assert.deepEqual(buildDatabaseJumpLinks(artistCategories), [
+    {
+      label: '>> 自定义组合',
+      href: '#cat-fan-units',
+    },
+  ]);
+});
+
+test('artist database creates readable fallback labels from folder names', () => {
+  const artistCategories = buildArtistCategories([
+    {
+      id: 'vwp/test-entry/zh',
+      data: {
+        name: '测试条目',
+        romanizedName: 'Test Entry',
+        statusLabel: 'STATUS',
+        status: 'ACTIVE',
+        image: 'https://example.com/test.jpg',
+      },
+    },
+    {
+      id: 'fan-units/test-entry/zh',
+      data: {
+        name: '测试组合',
+        romanizedName: 'Test Unit',
+        statusLabel: 'STATUS',
+        status: 'ACTIVE',
+        image: 'https://example.com/unit.jpg',
+      },
+    },
+  ]);
+
+  assert.deepEqual(
+    artistCategories.map((category) => ({
+      id: category.id,
+      title: category.title,
+      subtitle: category.subtitle,
+    })),
+    [
+      {
+        id: 'cat-fan-units',
+        title: 'Fan Units',
+        subtitle: 'FAN UNITS',
+      },
+      {
+        id: 'cat-vwp',
+        title: 'VWP',
+        subtitle: 'VWP',
+      },
+    ],
+  );
 });
 
 test('projects and log entries preserve the static page content', async () => {

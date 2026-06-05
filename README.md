@@ -19,6 +19,7 @@ src/content/site/       导航、分区标题、页脚等站点文案 (.json)
 src/content/artists/    艺人、创作者、组合、音乐同位体条目 (.md)
 src/content/projects/   企划卡片与企划条目 (.md)
 src/content/logs/       时间线/更新记录 (.json)
+src/content/contribute/ GitHub 编辑教程页文案 (.json)
 ```
 
 实现代码在这些目录：
@@ -76,7 +77,6 @@ translationKey: kaf
 code: "01"
 name: "花谱"
 romanizedName: "KAF"
-categoryId: "cat-vwp"
 categoryTitle: "虚拟世代的魔女们"
 categorySubtitle: "VIRTUAL WITCH PHENOMENON"
 categoryOrder: 1
@@ -98,6 +98,17 @@ seo:
 
 Markdown 支持标题、列表、表格、链接、代码块，以及通过 KaTeX 渲染的 LaTeX 公式。
 
+## 首页展示与文件夹结构
+
+首页 DATABASE 会自动扫描 `src/content/artists/` 的第一层文件夹作为分类。
+
+```text
+src/content/artists/vwp/kaf/zh.md
+                    ^^^ 首页分类
+```
+
+新增分类时，只需要新建第一层文件夹并放入三语条目。`categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder` 和 `code` 都是可选覆盖字段；不填写时，站点会从文件夹名、条目名和排序规则自动生成展示。
+
 ## 元数据与分享卡片
 
 每个条目的 `seo` 字段都是可选的。没有填写时，站点会自动扫描：
@@ -116,7 +127,7 @@ Markdown 支持标题、列表、表格、链接、代码块，以及通过 KaTe
 2. 为条目创建一个文件夹，例如 `src/content/artists/vwp/new-artist/`。
 3. 添加 `zh.md`、`ja.md`、`en.md`。
 4. 三个文件使用相同的 `translationKey`。
-5. 设置排序字段，例如 `categoryOrder`、`itemOrder` 或 `order`。
+5. 艺人分类会从文件夹自动生成；需要自定义显示时再设置 `categoryTitle`、`categorySubtitle`、`categoryOrder`、`itemOrder` 或 `code`。
 6. 运行下面的验证命令。
 7. 发起 Pull Request。
 

@@ -3,7 +3,6 @@ locale: "ja"
 translationKey: "sekai"
 code: "M2"
 romanizedName: "SEKAI"
-categoryId: "cat-isotope"
 categoryOrder: 4
 itemOrder: 2
 meta: "ORIGIN: ISEKAIJOUCHO"

@@ -3,7 +3,6 @@ locale: "en"
 translationKey: "harusaruhi"
 code: "03"
 romanizedName: "HARUSARUHI"
-categoryId: "cat-vwp"
 categoryOrder: 1
 itemOrder: 3
 meta: "DEBUT: 2019.11.15"

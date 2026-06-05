@@ -63,7 +63,7 @@ const locale = Astro.props.locale ?? 'zh';
 
     <div class="lg:col-span-9 flex flex-col pb-20" id="artist-list">
       {artistCategories.map((category) => (
-        <div id={category.id} class={category.id === 'cat-isotope' ? 'mb-12 pt-8 scroll-mt-32' : 'mb-24 pt-8 scroll-mt-32'}>
+        <div id={category.id} class="mb-24 pt-8 scroll-mt-32 last:mb-12">
           <div class="border-b border-white/20 pb-4 mb-4 flex justify-between items-end reveal-up">
             <h4 class="font-serif text-base tracking-[0.4em] text-white/80">{category.title}</h4>
             <span class="text-[9px] font-mono text-white/40 hidden md:block">{category.subtitle}</span>
