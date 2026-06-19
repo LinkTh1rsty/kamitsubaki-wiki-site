@@ -808,3 +808,19 @@ input[type="reset"] {
     transition-duration: 0.01ms !important;
   }
 }
+
+.ai-chat__auth {
+  display: block;
+}
+
+.ai-chat__auth-actions {
+  display: flex;
+}
+
+.ai-chat__controls {
+  display: grid;
+}
+
+.ai-message__sources {
+  display: grid;
+}
