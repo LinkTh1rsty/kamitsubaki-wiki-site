@@ -38,16 +38,18 @@ const metadata = buildHomeMetadata(homeContent, locale);
 ---
 
 <BaseLayout lang={locale} alternates={alternates} metadata={metadata}>
-  <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`} />
-  <Hero hero={homeContent.hero} />
-  <AboutSection content={homeContent.sections.about} />
-  <ArtistDatabase
-    artistCategories={artistCategories}
-    databaseJumpLinks={databaseJumpLinks}
-    section={homeContent.sections.database}
-    locale={locale}
-  />
-  <ProjectsSection projects={projects} section={homeContent.sections.projects} />
-  <LogSection logEntries={logEntries} section={homeContent.sections.log} />
-  <SiteFooter footer={homeContent.footer} />
+  <div data-page-context-root>
+    <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`} />
+    <Hero hero={homeContent.hero} />
+    <AboutSection content={homeContent.sections.about} />
+    <ArtistDatabase
+      artistCategories={artistCategories}
+      databaseJumpLinks={databaseJumpLinks}
+      section={homeContent.sections.database}
+      locale={locale}
+    />
+    <ProjectsSection projects={projects} section={homeContent.sections.projects} />
+    <LogSection logEntries={logEntries} section={homeContent.sections.log} />
+    <SiteFooter footer={homeContent.footer} />
+  </div>
 </BaseLayout>

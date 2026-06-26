@@ -358,16 +358,42 @@ function compactText(value, maxLength) {
 }
 
 function collectPageContext(root) {
-  const main = document.querySelector('main') || document.body;
-  const title = document.querySelector('h1')?.textContent || document.title || '';
+  const main =
+    document.querySelector('[data-page-context-root]') ||
+    Array.from(document.querySelectorAll('main')).find((node) => !node.closest('[data-ai-chat]')) ||
+    document.body;
+  const title =
+    main.querySelector('h1')?.textContent ||
+    Array.from(document.querySelectorAll('h1')).find((node) => !node.closest('[data-ai-chat]'))?.textContent ||
+    document.title ||
+    '';
   const description = document.querySelector('meta[name="description"]')?.getAttribute('content') || '';
   const headings = Array.from(main.querySelectorAll('h1, h2, h3'))
+    .filter((heading) => !heading.closest('[data-ai-chat]'))
     .map((heading) => compactText(heading.textContent, 90))
     .filter(Boolean)
     .slice(0, 18);
   const clonedMain = main.cloneNode(true);
   if (clonedMain instanceof HTMLElement) {
-    clonedMain.querySelectorAll('[data-ai-chat], [data-ai-launcher], script, style, nav, footer, form, button').forEach((node) => node.remove());
+    clonedMain
+      .querySelectorAll(
+        [
+          '[data-ai-chat]',
+          '[data-ai-launcher]',
+          '[data-ai-bubble]',
+          '[data-ai-toggle]',
+          '[aria-live]',
+          'script',
+          'style',
+          'nav',
+          'footer',
+          'form',
+          'button',
+          'dialog',
+          'template',
+        ].join(', '),
+      )
+      .forEach((node) => node.remove());
   }
 
   const path = window.location.pathname;
@@ -382,7 +408,7 @@ function collectPageContext(root) {
     title: compactText(title, 160),
     description: compactText(description, 260),
     headings,
-    text: compactText(clonedMain.textContent || main.textContent || '', kind === 'home' ? 12000 : 10000),
+    text: compactText(clonedMain.textContent || '', kind === 'home' ? 12000 : 10000),
     kind,
     locale: root.dataset.locale || document.documentElement.lang || 'zh',
   };
@@ -1206,7 +1232,7 @@ function initWidget(root) {
     setThinking(root, copy, true);
 
     try {
-      setMessageMarkdown(assistantMessage.content, copy.challengeFallback || copy.thinking || '');
+      setMessageMarkdown(assistantMessage.content, copy.bubbleThinking || copy.thinking || '');
       const turnstileToken = await requestTurnstileToken(root, assistantMessage.content, copy, {
         action: 'ai_chat',
       });

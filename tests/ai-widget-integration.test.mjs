@@ -112,6 +112,7 @@ test('AI chat widget exposes interaction hooks and stream parser integration', a
 
 test('AI chat widget supports draggable launcher, compact settings, history, and safe rich text rendering', async () => {
   const component = await readProjectFile('../src/components/AiChatWidget.astro');
+  const homePage = await readProjectFile('../src/pages/[locale]/index.astro');
   const script = await readProjectFile('../src/scripts/aiChatWidget.js');
   const css = await readProjectFile('../src/styles/global.css');
   const packageJson = JSON.parse(await readProjectFile('../package.json'));
@@ -119,6 +120,7 @@ test('AI chat widget supports draggable launcher, compact settings, history, and
   assert.match(component, /data-ai-history-toggle/);
   assert.match(component, /data-ai-history-panel/);
   assert.match(component, /data-ai-thread-list/);
+  assert.match(homePage, /data-page-context-root/);
   assert.match(component, /viewBox="0 0 16 16"/);
   assert.match(component, /viewBox="0 0 48 48"/);
   assert.match(script, /localStorage/);
@@ -136,6 +138,11 @@ test('AI chat widget supports draggable launcher, compact settings, history, and
   assert.match(script, /data\.recentThreads/);
   assert.match(script, /collectPageContext/);
   assert.match(script, /pageContext: collectPageContext\(root\)/);
+  assert.match(script, /data-page-context-root/);
+  assert.match(script, /!node\.closest\('\[data-ai-chat\]'\)/);
+  assert.match(script, /clonedMain\.textContent \|\| ''/);
+  assert.match(script, /copy\.bubbleThinking \|\| copy\.thinking/);
+  assert.equal(script.includes('setMessageMarkdown(assistantMessage.content, copy.challengeFallback || copy.thinking || \'\')'), false);
   assert.match(script, /action: 'ai_chat'/);
   assert.match(script, /document\.createElement\('details'\)/);
   assert.match(script, /formatSourceKind/);
