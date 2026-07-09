@@ -1776,11 +1776,6 @@ input[type="reset"] {
 
 /* Dialog */
 .ai-chat__dialog {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  z-index: 80;
-  transform: translate(-50%, -50%);
   padding: 2rem;
   border: 1px solid var(--ai-accent);
   background: var(--ai-bg);
@@ -1807,11 +1802,11 @@ input[type="reset"] {
 @keyframes aiDialogScaleIn {
   from {
     opacity: 0;
-    transform: translate(-50%, -50%) scale(0.9);
+    transform: scale(0.9) translateY(20px);
   }
   to {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
+    transform: scale(1) translateY(0);
   }
 }
 

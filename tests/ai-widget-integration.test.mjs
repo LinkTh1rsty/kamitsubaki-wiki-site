@@ -235,8 +235,6 @@ test('logged-in history exposes rename, delete, clear, and restored source contr
   assert.match(script, /renderThreadList\(root, \[\]\)/);
   assert.match(script, /loadThreadList\(root\)\.catch\(\(\) => \{\}\)/);
   assert.match(script, /copy\.authErrorFallback \|\| copy\.fallbackOffline/);
-  assert.match(script, /dialog\.show\(\)/);
-  assert.equal(script.includes('dialog.showModal()'), false);
   assert.match(script, /data-ai-thread-menu-toggle/);
   assert.match(script, /data-ai-thread-rename/);
   assert.match(script, /data-ai-thread-delete/);
@@ -251,8 +249,6 @@ test('logged-in history exposes rename, delete, clear, and restored source contr
   assert.match(css, /\.ai-chat__thread-menu/);
   assert.match(css, /grid-column: 1 \/ -1/);
   assert.match(css, /\.ai-chat__thread-actions button/);
-  assert.match(css, /\.ai-chat__dialog \{/);
-  assert.match(css, /z-index: 80/);
   assert.equal(css.includes('position: absolute;\n  top: 100%;'), false);
   assert.match(css, /backdrop-filter:/);
   assert.match(css, /--ai-glass/);
