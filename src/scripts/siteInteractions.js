@@ -150,6 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (isExpanded) {
         collapsedRows.forEach((row) => {
           row.classList.add('hidden');
+          row.style.transitionDelay = '';
         });
         button.setAttribute('aria-expanded', 'false');
         requestAnimationFrame(() => {
@@ -165,6 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
             requestAnimationFrame(() => {
               row.style.opacity = '';
               row.style.transform = '';
+              row.style.transitionDelay = '';
             });
           });
         });

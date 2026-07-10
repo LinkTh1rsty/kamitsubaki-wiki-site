@@ -360,7 +360,9 @@ input[type="reset"] {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+              transform 0.75s cubic-bezier(0.16, 1, 0.3, 1),
+              background-color 0.4s ease,
+              padding-left 0.4s ease;
 }
 
 [data-reading-progress] {
