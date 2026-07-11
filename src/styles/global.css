@@ -139,7 +139,9 @@ html.has-js .reveal-up {
   transform: translate3d(0, 1.65rem, 0);
   transition:
     opacity 0.72s cubic-bezier(0.16, 1, 0.3, 1),
-    transform 0.72s cubic-bezier(0.16, 1, 0.3, 1);
+    transform 0.72s cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 0.4s ease,
+    padding-left 0.4s ease;
   will-change: opacity, transform;
 }
 
