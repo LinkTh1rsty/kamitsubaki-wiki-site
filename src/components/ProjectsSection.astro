@@ -31,7 +31,7 @@ const { projects, section } = Astro.props as {
     {projects.map((project, index) => (
       <a
         href={project.href}
-        class="wiki-card project-card group relative block overflow-hidden rounded-md border border-white/10 bg-white/[0.025] p-6 transition-colors duration-500 hover:border-white/30 reveal-up"
+        class="wiki-card group relative block overflow-hidden rounded-md border border-white/10 bg-white/[0.025] p-6 transition-colors duration-500 hover:border-white/30 reveal-up"
         style={`transition-delay: ${index * 0.1}s;`}
       >
         <div class="wiki-card__wash absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>

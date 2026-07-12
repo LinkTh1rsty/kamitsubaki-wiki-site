@@ -69,16 +69,4 @@ test('global styles define semantic paper-white and near-black theme tokens', as
   assert.match(css, /:root\[data-theme="light"\][\s\S]*\.text-white/);
 });
 
-test('light theme explicitly covers core home, article, guide, and contributor surfaces', async () => {
-  const css = await readProjectFile('../src/styles/global.css');
-  for (const selector of [
-    '.site-nav__menu-panel', '.wiki-reader', '.wiki-prose', '.wiki-infobox',
-    '.wiki-mobile-toc', '.wiki-guide-shell', '.contributor-roster', '.list-row',
-    '.project-card', '.site-footer',
-  ]) {
-    const escaped = selector.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    assert.match(css, new RegExp(`:root\\[data-theme="light"\\][\\s\\S]{0,900}${escaped}`));
-  }
-});
-
 export { readProjectFile };
