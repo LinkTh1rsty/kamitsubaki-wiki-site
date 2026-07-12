@@ -3358,6 +3358,329 @@ html.has-js .reveal-up.active {
   border-top: 0;
 }
 
+/* Contributor honor wall */
+.contributor-roster {
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  background:
+    radial-gradient(circle at 92% 5%, color-mix(in srgb, var(--wiki-accent-color) 9%, transparent), transparent 28rem),
+    linear-gradient(145deg, rgba(13, 16, 19, 0.92), rgba(5, 6, 8, 0.84));
+}
+
+.contributor-roster--summary {
+  margin: 0 auto 6rem;
+  padding: 0 clamp(1.25rem, 4vw, 3rem);
+}
+
+.contributor-roster__header {
+  gap: 2rem;
+  padding: clamp(1.7rem, 4vw, 3rem) 0 1.6rem;
+}
+
+.contributor-roster__header h2 {
+  max-width: 38rem;
+  font-size: clamp(1.55rem, 3.4vw, 2.8rem);
+  line-height: 1.12;
+  letter-spacing: 0.025em;
+}
+
+.contributor-roster__header > p {
+  max-width: 31rem;
+  font-size: 0.76rem;
+  line-height: 1.85;
+  color: rgba(245, 246, 248, 0.66);
+}
+
+.contributor-roster__kicker {
+  color: color-mix(in srgb, var(--wiki-accent-color) 72%, white 28%);
+}
+
+.contributor-roster__state {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 5.4rem;
+}
+
+.contributor-roster__state button {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  padding: 0.65rem 0.9rem;
+  color: rgba(255, 255, 255, 0.82);
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+.contributor-roster__stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-bottom: 0;
+}
+
+.contributor-roster__stats div {
+  display: flex;
+  min-height: 5.6rem;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem 1.25rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.075);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+}
+
+.contributor-roster__stats div:first-child {
+  padding-left: 0;
+}
+
+.contributor-roster__stats div:last-child {
+  border-right: 0;
+}
+
+.contributor-roster__stats strong {
+  font-size: clamp(1.45rem, 3vw, 2.15rem);
+}
+
+.contributor-roster__stats span {
+  margin: 0.4rem 0 0;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.contributor-roster__grid {
+  grid-template-columns: minmax(17rem, 0.85fr) minmax(0, 1.45fr);
+  gap: clamp(2rem, 5vw, 5rem);
+  padding: clamp(2rem, 4vw, 3.4rem) 0;
+}
+
+.contributor-roster__section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.9rem;
+}
+
+.contributor-roster__section-heading h3 {
+  margin: 0;
+}
+
+.contributor-roster__section-heading > span {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.18em;
+  color: color-mix(in srgb, var(--wiki-accent-color) 62%, transparent);
+}
+
+.contributor-roster__people {
+  grid-template-columns: 1fr;
+  border-top: 0;
+}
+
+.contributor-roster__person {
+  position: relative;
+  grid-template-columns: 3.1rem 2.75rem minmax(0, 1fr) auto;
+  gap: 0.85rem;
+  min-height: 5.1rem;
+  padding: 0.85rem 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.085);
+  background: rgba(255, 255, 255, 0.018);
+  transition: border-color 180ms ease, background-color 180ms ease, transform 180ms ease;
+}
+
+.contributor-roster__person + .contributor-roster__person {
+  border-top: 0;
+}
+
+.contributor-roster__person:hover {
+  padding-left: 0.8rem;
+  border-color: color-mix(in srgb, var(--wiki-accent-color) 28%, rgba(255, 255, 255, 0.1));
+  background: color-mix(in srgb, var(--wiki-accent-color) 5%, rgba(255, 255, 255, 0.018));
+  transform: translateX(0.25rem);
+}
+
+.contributor-roster__rank {
+  display: grid;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+}
+
+.contributor-roster__rank small {
+  font-size: 0.48rem;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.contributor-roster__avatar {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-color: color-mix(in srgb, var(--wiki-accent-color) 28%, rgba(255, 255, 255, 0.14));
+}
+
+.contributor-roster__identity strong {
+  font-size: 0.9rem;
+}
+
+.contributor-roster__profile-arrow {
+  color: rgba(255, 255, 255, 0.28);
+}
+
+.contributor-roster__recent {
+  border-top: 0;
+}
+
+.contributor-roster--summary .contributor-roster__recent {
+  grid-template-columns: 1fr;
+  column-gap: 0;
+}
+
+.contributor-roster__activity {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  min-height: 4.35rem;
+  padding: 0.85rem 0;
+}
+
+.contributor-roster__activity-main {
+  min-width: 0;
+}
+
+.contributor-roster__activity-main strong {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 0.82rem;
+}
+
+.contributor-roster__locales {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.45rem;
+}
+
+.contributor-roster__locale {
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  padding: 0.15rem 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.5rem;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.48);
+}
+
+.contributor-roster__activity-meta {
+  display: grid;
+  gap: 0.35rem;
+  justify-items: end;
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.contributor-roster__activity-meta a {
+  color: color-mix(in srgb, var(--wiki-accent-color) 68%, white 20%);
+  text-decoration: none;
+}
+
+.contributor-roster__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0 0 clamp(1.8rem, 4vw, 3rem);
+}
+
+.contributor-roster__action {
+  display: inline-flex;
+  min-height: 2.9rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 0.75rem 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.72);
+  text-decoration: none;
+  transition: border-color 180ms ease, background-color 180ms ease, color 180ms ease;
+}
+
+.contributor-roster__action--primary {
+  border-color: color-mix(in srgb, var(--wiki-accent-color) 45%, rgba(255, 255, 255, 0.15));
+  background: color-mix(in srgb, var(--wiki-accent-color) 12%, transparent);
+  color: white;
+}
+
+.contributor-roster__action:hover,
+.contributor-roster__action:focus-visible {
+  border-color: var(--wiki-accent-color);
+  background: color-mix(in srgb, var(--wiki-accent-color) 17%, transparent);
+  color: white;
+}
+
+.contributor-roster--entry {
+  padding: 0 1rem;
+}
+
+.contributor-roster--entry .contributor-roster__header {
+  display: block;
+  padding: 1.2rem 0 1rem;
+}
+
+.contributor-roster--entry .contributor-roster__header h2 {
+  font-size: 1.15rem;
+}
+
+.contributor-roster--entry .contributor-roster__header > p {
+  margin-top: 0.6rem;
+  text-align: left;
+}
+
+.contributor-roster--entry .contributor-roster__stats {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.contributor-roster--entry .contributor-roster__stats div:first-child {
+  padding-left: 0;
+}
+
+.contributor-roster--entry .contributor-roster__grid {
+  gap: 1.5rem;
+  padding: 1.35rem 0;
+}
+
+.contributor-roster--entry .contributor-roster__person {
+  grid-template-columns: 2.25rem minmax(0, 1fr) auto;
+  min-height: 3.8rem;
+  padding: 0.55rem;
+}
+
+.contributor-roster--entry .contributor-roster__avatar {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.contributor-roster--entry .contributor-roster__activity {
+  grid-template-columns: 1fr;
+  gap: 0.45rem;
+}
+
+.contributor-roster--entry .contributor-roster__activity-meta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contributor-roster--entry .contributor-roster__actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-bottom: 1rem;
+}
+
+.contributor-roster__empty p {
+  margin: 0 0 1rem;
+}
+
 
 @media (max-width: 639px) {
   :root {
@@ -3664,6 +3987,66 @@ html.has-js .reveal-up.active {
 
   .contributor-roster__recent-meta {
     justify-content: flex-start;
+  }
+
+  .contributor-roster--summary {
+    padding: 0 1rem;
+  }
+
+  .contributor-roster__stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .contributor-roster__stats div {
+    min-height: 4.6rem;
+    padding: 0.8rem 0.55rem;
+  }
+
+  .contributor-roster__stats div:first-child {
+    padding-left: 0;
+  }
+
+  .contributor-roster__stats strong {
+    font-size: 1.25rem;
+  }
+
+  .contributor-roster__stats span {
+    font-size: 0.52rem;
+  }
+
+  .contributor-roster__grid {
+    gap: 2rem;
+  }
+
+  .contributor-roster__person {
+    grid-template-columns: 2.6rem 2.5rem minmax(0, 1fr);
+  }
+
+  .contributor-roster__profile-arrow {
+    display: none;
+  }
+
+  .contributor-roster__activity {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+  }
+
+  .contributor-roster__activity-main strong {
+    white-space: normal;
+  }
+
+  .contributor-roster__activity-meta {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contributor-roster__actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .contributor-roster__action {
+    width: 100%;
   }
 }
 

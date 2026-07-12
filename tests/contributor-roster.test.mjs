@@ -163,3 +163,16 @@ test('contributor renderer builds honor wall cards, readable activity, and retry
   assert.match(script, /delete root\.dataset\.contributorRosterStatus/);
   assert.match(script, /copy\.error/);
 });
+
+test('contributor honor wall styles cover cards, actions, activity, focus, and mobile layouts', async () => {
+  const css = await readProjectFile('../src/styles/global.css');
+
+  assert.match(css, /\.contributor-roster__rank/);
+  assert.match(css, /\.contributor-roster__actions/);
+  assert.match(css, /\.contributor-roster__action--primary/);
+  assert.match(css, /\.contributor-roster__locale/);
+  assert.match(css, /\.contributor-roster__activity/);
+  assert.match(css, /\.contributor-roster--entry \.contributor-roster__person/);
+  assert.match(css, /\.contributor-roster__action:focus-visible/);
+  assert.match(css, /@media \(max-width: 639px\)[\s\S]*\.contributor-roster__actions/);
+});
