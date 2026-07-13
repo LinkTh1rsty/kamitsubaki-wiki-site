@@ -178,6 +178,17 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── Artist category expand/collapse ──
   const artistList = document.getElementById('artist-list');
   if (artistList instanceof HTMLElement) {
+    /** Stores active RAF / timeout IDs per category to avoid leaks on rapid clicks. */
+    const categoryAnimations = new Map();
+
+    const cancelCategoryAnim = (categoryId) => {
+      const ids = categoryAnimations.get(categoryId);
+      if (!ids) return;
+      if (ids.rafId) window.cancelAnimationFrame(ids.rafId);
+      if (ids.cleanupId) window.clearTimeout(ids.cleanupId);
+      categoryAnimations.delete(categoryId);
+    };
+
     artistList.addEventListener('click', (event) => {
       const button = event.target instanceof Element && event.target.closest('.artist-expand-btn');
       if (!button) return;
@@ -194,6 +205,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const collapsedRows = categoryContainer.querySelectorAll('.artist-row-collapsed');
       const isExpanded = button.getAttribute('aria-expanded') === 'true';
 
+      // Cancel any in-flight animation for this category before starting a new one
+      cancelCategoryAnim(categoryId);
+      collapsedRows.forEach((row) => { row.style.transitionDelay = ''; });
+
       if (isExpanded) {
         collapsedRows.forEach((row, index) => {
           const reverseIndex = collapsedRows.length - 1 - index;
@@ -209,23 +224,26 @@ document.addEventListener('DOMContentLoaded', () => {
         // 每帧把按钮推回原位，页面自然下沉
         const startTime = performance.now();
         const duration = 750;
+        let rafId = 0;
         function pinAnchor() {
           const elapsed = performance.now() - startTime;
-          if (elapsed >= duration) return;
+          if (elapsed >= duration) { rafId = 0; return; }
           const drift = button.getBoundingClientRect().top - anchorTop;
           if (Math.abs(drift) > 0.5) {
             window.scrollBy({ top: drift, behavior: 'instant' });
           }
-          requestAnimationFrame(pinAnchor);
+          rafId = requestAnimationFrame(pinAnchor);
         }
-        requestAnimationFrame(pinAnchor);
+        rafId = requestAnimationFrame(pinAnchor);
 
         // 动画完成后清除内联 delay
         const collapseMaxDelay = (collapsedRows.length - 1) * 0.04;
         const collapseCleanupMs = (collapseMaxDelay + 0.7) * 1000 + 50;
-        setTimeout(() => {
+        const cleanupId = setTimeout(() => {
           collapsedRows.forEach((row) => { row.style.transitionDelay = ''; });
+          categoryAnimations.delete(categoryId);
         }, collapseCleanupMs);
+        categoryAnimations.set(categoryId, { rafId, cleanupId });
       } else {
         collapsedRows.forEach((row, index) => {
           row.style.transitionDelay = `${index * 0.05}s`;
@@ -236,9 +254,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // 动画完成后清除内联 delay
         const expandMaxDelay = (collapsedRows.length - 1) * 0.05;
         const expandCleanupMs = (expandMaxDelay + 0.7) * 1000 + 50;
-        setTimeout(() => {
+        const cleanupId = setTimeout(() => {
           collapsedRows.forEach((row) => { row.style.transitionDelay = ''; });
+          categoryAnimations.delete(categoryId);
         }, expandCleanupMs);
+        categoryAnimations.set(categoryId, { rafId: 0, cleanupId });
       }
     });
   }

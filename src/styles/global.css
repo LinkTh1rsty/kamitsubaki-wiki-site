@@ -378,10 +378,6 @@ html.has-js .reveal-up.active {
   transform: rotate(180deg) scale(1.18);
 }
 
-
-
-
-
 /* 隔离类别内部布局变化，防止收起动画中其他板块闪烁 */
 .artist-category {
   contain: layout;
@@ -3123,9 +3119,11 @@ html.has-js .artist-collapsed-wrapper.is-expanded .artist-row-collapsed {
 
 .contributor-roster {
   position: relative;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(8, 10, 12, 0.24);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  background:
+    radial-gradient(circle at 92% 5%, color-mix(in srgb, var(--wiki-accent-color) 9%, transparent), transparent 28rem),
+    linear-gradient(145deg, rgba(13, 16, 19, 0.92), rgba(5, 6, 8, 0.84));
 }
 
 .contributor-roster--summary {
@@ -3386,15 +3384,6 @@ html.has-js .artist-collapsed-wrapper.is-expanded .artist-row-collapsed {
 
 .contributor-roster--summary .contributor-roster__recent li:nth-child(2) {
   border-top: 0;
-}
-
-/* Contributor honor wall */
-.contributor-roster {
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.11);
-  background:
-    radial-gradient(circle at 92% 5%, color-mix(in srgb, var(--wiki-accent-color) 9%, transparent), transparent 28rem),
-    linear-gradient(145deg, rgba(13, 16, 19, 0.92), rgba(5, 6, 8, 0.84));
 }
 
 .contributor-roster--summary {
@@ -4096,9 +4085,7 @@ html.has-js .artist-collapsed-wrapper.is-expanded .artist-row-collapsed {
   .ai-thinking__dots i {
     animation: none !important;
   }
-}
 
-@media (prefers-reduced-motion: reduce) {
   *,
   *::before,
   *::after {
