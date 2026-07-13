@@ -382,6 +382,11 @@ html.has-js .reveal-up.active {
 
 
 
+/* 隔离类别内部布局变化，防止收起动画中其他板块闪烁 */
+.artist-category {
+  contain: layout;
+}
+
 .artist-collapsed-wrapper {
   display: grid;
   grid-template-rows: 0fr;

@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const elapsed = performance.now() - startTime;
           if (elapsed >= duration) return;
           const drift = button.getBoundingClientRect().top - anchorTop;
-          if (Math.abs(drift) > 0.1) {
+          if (Math.abs(drift) > 0.5) {
             window.scrollBy({ top: drift, behavior: 'instant' });
           }
           requestAnimationFrame(pinAnchor);
