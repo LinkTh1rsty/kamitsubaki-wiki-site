@@ -189,6 +189,15 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryAnimations.delete(categoryId);
     };
 
+    // Prevent collapsed rows from being tabbable before the first toggle
+    artistList.querySelectorAll('[data-collapsed-wrapper]').forEach((el) => {
+      if (!(el instanceof HTMLElement) || el.classList.contains('is-expanded')) return;
+      el.setAttribute('aria-hidden', 'true');
+      el.querySelectorAll('.artist-row-collapsed').forEach((row) => {
+        if (row instanceof HTMLElement) row.tabIndex = -1;
+      });
+    });
+
     artistList.addEventListener('click', (event) => {
       const button = event.target instanceof Element && event.target.closest('.artist-expand-btn');
       if (!button) return;
@@ -219,6 +228,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const anchorTop = button.getBoundingClientRect().top;
 
         wrapper.classList.remove('is-expanded');
+        wrapper.setAttribute('aria-hidden', 'true');
+        collapsedRows.forEach((row) => { if (row instanceof HTMLElement) row.tabIndex = -1; });
         button.setAttribute('aria-expanded', 'false');
 
         // 每帧把按钮推回原位，页面自然下沉
@@ -230,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
           if (elapsed >= duration) { rafId = 0; return; }
           const drift = button.getBoundingClientRect().top - anchorTop;
           if (Math.abs(drift) > 0.5) {
-            window.scrollBy({ top: drift, behavior: 'instant' });
+            window.scrollBy(0, drift);
           }
           rafId = requestAnimationFrame(pinAnchor);
         }
@@ -249,6 +260,8 @@ document.addEventListener('DOMContentLoaded', () => {
           row.style.transitionDelay = `${index * 0.05}s`;
         });
         wrapper.classList.add('is-expanded');
+        wrapper.removeAttribute('aria-hidden');
+        collapsedRows.forEach((row) => { if (row instanceof HTMLElement) row.removeAttribute('tabindex'); });
         button.setAttribute('aria-expanded', 'true');
 
         // 动画完成后清除内联 delay
