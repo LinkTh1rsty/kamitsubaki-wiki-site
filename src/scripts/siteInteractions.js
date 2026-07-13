@@ -199,26 +199,28 @@ document.addEventListener('DOMContentLoaded', () => {
           const reverseIndex = collapsedRows.length - 1 - index;
           row.style.transitionDelay = `${reverseIndex * 0.04}s`;
         });
+
+        // 记录按钮视口位置作为锚点
+        const anchorTop = button.getBoundingClientRect().top;
+
         wrapper.classList.remove('is-expanded');
         button.setAttribute('aria-expanded', 'false');
 
-        const delay = 120;
-        const duration = 800;
+        // 每帧把按钮推回原位，页面自然下沉
         const startTime = performance.now();
-        function track() {
+        const duration = 750;
+        function pinAnchor() {
           const elapsed = performance.now() - startTime;
-          if (elapsed >= delay + duration) return;
-          if (elapsed >= delay) {
-            const target = button.getBoundingClientRect().top - window.innerHeight * 0.45;
-            if (Math.abs(target) > 1) {
-              window.scrollBy({ top: target * 0.08, behavior: 'instant' });
-            }
+          if (elapsed >= duration) return;
+          const drift = button.getBoundingClientRect().top - anchorTop;
+          if (Math.abs(drift) > 0.1) {
+            window.scrollBy({ top: drift, behavior: 'instant' });
           }
-          requestAnimationFrame(track);
+          requestAnimationFrame(pinAnchor);
         }
-        requestAnimationFrame(track);
+        requestAnimationFrame(pinAnchor);
 
-        // 动画完成后清除内联 delay，防止干扰后续 hover 过渡
+        // 动画完成后清除内联 delay
         const collapseMaxDelay = (collapsedRows.length - 1) * 0.04;
         const collapseCleanupMs = (collapseMaxDelay + 0.7) * 1000 + 50;
         setTimeout(() => {
