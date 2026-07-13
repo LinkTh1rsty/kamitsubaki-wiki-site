@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
           if (elapsed >= duration) { rafId = 0; return; }
           const drift = button.getBoundingClientRect().top - anchorTop;
           if (Math.abs(drift) > 0.5) {
-            window.scrollBy(0, drift);
+            window.scrollBy({ top: drift, behavior: 'instant' });
           }
           rafId = requestAnimationFrame(pinAnchor);
         }
