@@ -378,13 +378,38 @@ html.has-js .reveal-up.active {
   transform: rotate(180deg) scale(1.18);
 }
 
-.artist-row-collapsed {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.75s cubic-bezier(0.16, 1, 0.3, 1),
+
+
+
+
+.artist-collapsed-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.artist-collapsed-wrapper.is-expanded {
+  grid-template-rows: 1fr;
+}
+
+.artist-collapsed-inner {
+  overflow: hidden;
+  min-height: 0;
+}
+
+
+html.has-js .artist-collapsed-wrapper .artist-row-collapsed {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1),
               background-color 0.4s ease,
               padding-left 0.4s ease;
+}
+
+html.has-js .artist-collapsed-wrapper.is-expanded .artist-row-collapsed {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 [data-reading-progress] {

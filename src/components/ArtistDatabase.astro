@@ -34,6 +34,8 @@ const { artistCategories, databaseJumpLinks, section } = Astro.props as {
   locale: string;
 };
 
+
+
 const locale = Astro.props.locale ?? 'zh';
 const ITEMS_PER_CATEGORY = 6;
 ---
@@ -68,6 +70,31 @@ const ITEMS_PER_CATEGORY = 6;
         const hasMore = category.items.length > ITEMS_PER_CATEGORY;
         const collapsedId = `${category.id}-collapsed`;
 
+        const renderRow = (artist: Artist, extraClasses: string = '') => {
+          const className = `artist-row group block list-row py-6 reveal-up${extraClasses ? ' ' + extraClasses : ''}`;
+          return (
+            <a href={`/${locale}/artists/${artist.id}`} class={className} data-img={artist.image}>
+              <div class="flex flex-col md:flex-row md:items-center justify-between px-4 gap-4">
+                <div class="flex items-center gap-6">
+                  <span class="font-mono text-[9px] text-white/20 w-6">{artist.code}</span>
+                  <h4 class="font-serif text-xl md:text-2xl text-white/60 tracking-[0.2em] group-hover:text-white transition-all duration-300 glitch-text">
+                    {artist.name}
+                  </h4>
+                  <span class="text-[9px] tracking-kamidest font-light text-white/30 group-hover:text-white/80 transition-colors">
+                    {artist.romanizedName}
+                  </span>
+                </div>
+                <div class="text-[8px] font-mono text-white/30 flex gap-6 md:text-right">
+                  {artist.meta && <span class="hidden md:block">{artist.meta}</span>}
+                  <span class="w-16 text-left md:text-right">
+                    {artist.statusLabel}: <span class={artist.inactive ? 'text-white/30 line-through' : 'text-white/70'}>{artist.status}</span>
+                  </span>
+                </div>
+              </div>
+            </a>
+          );
+        };
+
         return (
           <div id={category.id} class="artist-category mb-16 pt-8 scroll-mt-32 last:mb-8 sm:mb-24 sm:last:mb-12">
             <div class="border-b border-white/20 pb-4 mb-4 flex justify-between items-end reveal-up">
@@ -76,31 +103,15 @@ const ITEMS_PER_CATEGORY = 6;
             </div>
 
             <div id={collapsedId}>
-              {category.items.map((artist, idx) => (
-                <a
-                  href={`/${locale}/artists/${artist.id}`}
-                  class={`artist-row group block list-row py-6 reveal-up${idx >= ITEMS_PER_CATEGORY ? ' artist-row-collapsed hidden' : ''}`}
-                  data-img={artist.image}
-                >
-                  <div class="flex flex-col md:flex-row md:items-center justify-between px-4 gap-4">
-                    <div class="flex items-center gap-6">
-                      <span class="font-mono text-[9px] text-white/20 w-6">{artist.code}</span>
-                      <h4 class="font-serif text-xl md:text-2xl text-white/60 tracking-[0.2em] group-hover:text-white transition-all duration-300 glitch-text">
-                        {artist.name}
-                      </h4>
-                      <span class="text-[9px] tracking-kamidest font-light text-white/30 group-hover:text-white/80 transition-colors">
-                        {artist.romanizedName}
-                      </span>
-                    </div>
-                    <div class="text-[8px] font-mono text-white/30 flex gap-6 md:text-right">
-                      {artist.meta && <span class="hidden md:block">{artist.meta}</span>}
-                      <span class="w-16 text-left md:text-right">
-                        {artist.statusLabel}: <span class={artist.inactive ? 'text-white/30 line-through' : 'text-white/70'}>{artist.status}</span>
-                      </span>
-                    </div>
+              {category.items.slice(0, ITEMS_PER_CATEGORY).map((artist) => renderRow(artist))}
+
+              {hasMore && (
+                <div class="artist-collapsed-wrapper" data-collapsed-wrapper>
+                  <div class="artist-collapsed-inner">
+                    {category.items.slice(ITEMS_PER_CATEGORY).map((artist) => renderRow(artist, 'artist-row-collapsed'))}
                   </div>
-                </a>
-              ))}
+                </div>
+              )}
             </div>
 
             {hasMore && (

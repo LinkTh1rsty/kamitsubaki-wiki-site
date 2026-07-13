@@ -188,39 +188,55 @@ document.addEventListener('DOMContentLoaded', () => {
       const categoryContainer = document.getElementById(categoryId);
       if (!categoryContainer) return;
 
+      const wrapper = categoryContainer.querySelector('[data-collapsed-wrapper]');
+      if (!wrapper) return;
+
       const collapsedRows = categoryContainer.querySelectorAll('.artist-row-collapsed');
       const isExpanded = button.getAttribute('aria-expanded') === 'true';
 
       if (isExpanded) {
-        collapsedRows.forEach((row) => {
-          row.classList.add('hidden');
-          row.style.transitionDelay = '';
+        collapsedRows.forEach((row, index) => {
+          const reverseIndex = collapsedRows.length - 1 - index;
+          row.style.transitionDelay = `${reverseIndex * 0.04}s`;
         });
+        wrapper.classList.remove('is-expanded');
         button.setAttribute('aria-expanded', 'false');
-        requestAnimationFrame(() => {
-          button.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        });
+
+        const delay = 120;
+        const duration = 800;
+        const startTime = performance.now();
+        function track() {
+          const elapsed = performance.now() - startTime;
+          if (elapsed >= delay + duration) return;
+          if (elapsed >= delay) {
+            const target = button.getBoundingClientRect().top - window.innerHeight * 0.45;
+            if (Math.abs(target) > 1) {
+              window.scrollBy({ top: target * 0.08, behavior: 'instant' });
+            }
+          }
+          requestAnimationFrame(track);
+        }
+        requestAnimationFrame(track);
+
+        // 动画完成后清除内联 delay，防止干扰后续 hover 过渡
+        const collapseMaxDelay = (collapsedRows.length - 1) * 0.04;
+        const collapseCleanupMs = (collapseMaxDelay + 0.7) * 1000 + 50;
+        setTimeout(() => {
+          collapsedRows.forEach((row) => { row.style.transitionDelay = ''; });
+        }, collapseCleanupMs);
       } else {
         collapsedRows.forEach((row, index) => {
-          row.classList.remove('hidden');
-          row.style.opacity = '0';
-          row.style.transform = 'translateY(24px)';
           row.style.transitionDelay = `${index * 0.05}s`;
-          row.addEventListener(
-            'transitionend',
-            () => {
-              row.style.transitionDelay = '';
-            },
-            { once: true },
-          );
-          requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-              row.style.opacity = '';
-              row.style.transform = '';
-            });
-          });
         });
+        wrapper.classList.add('is-expanded');
         button.setAttribute('aria-expanded', 'true');
+
+        // 动画完成后清除内联 delay
+        const expandMaxDelay = (collapsedRows.length - 1) * 0.05;
+        const expandCleanupMs = (expandMaxDelay + 0.7) * 1000 + 50;
+        setTimeout(() => {
+          collapsedRows.forEach((row) => { row.style.transitionDelay = ''; });
+        }, expandCleanupMs);
       }
     });
   }
