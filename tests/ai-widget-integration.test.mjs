@@ -46,6 +46,103 @@ test('AI chat bootstrap sends the active page locale for localized IP greetings'
   assert.match(script, /fetch\(bootstrapUrl/);
 });
 
+test('AI chat delays bootstrap until the panel opens and reuses the request', async () => {
+  const script = await readProjectFile('../src/scripts/aiChatWidget.js');
+  const initWidgetBody = script.slice(
+    script.indexOf('function initWidget'),
+    script.indexOf('widgets.forEach(initWidget)'),
+  );
+  const beforeOpenPanel = initWidgetBody.slice(0, initWidgetBody.indexOf('const openPanel'));
+
+  assert.match(script, /const bootstrapLoaders = new WeakMap\(\)/);
+  assert.doesNotMatch(beforeOpenPanel, /bootstrap\(root\)/);
+  assert.match(
+    initWidgetBody,
+    /const finishPanelOpen = \(\) => \{[\s\S]*ensureBootstrap\(root\)\.catch\(\(\) => \{\}\)/,
+  );
+  assert.match(initWidgetBody, /panel\.addEventListener\('transitionend',[\s\S]*finishPanelOpen\(\)/);
+  assert.equal((initWidgetBody.match(/ensureBootstrap\(root\)\.catch/g) || []).length, 1);
+  assert.match(script, /if \(!response\.ok\) \{\s*throw new Error\(`AI bootstrap returned \$\{response\.status\}`\)/);
+  assert.match(script, /bootstrapLoaders\.delete\(root\)/);
+});
+
+test('AI chat prepares compositor layers before opening the panel', async () => {
+  const script = await readProjectFile('../src/scripts/aiChatWidget.js');
+  const initWidgetBody = script.slice(
+    script.indexOf('function initWidget'),
+    script.indexOf('widgets.forEach(initWidget)'),
+  );
+
+  assert.match(
+    initWidgetBody,
+    /const preparePanel = \(\) => \{\s*root\.classList\.add\('is-preparing'\);\s*\}/,
+  );
+  assert.match(initWidgetBody, /toggle\.addEventListener\('pointerenter', preparePanel/);
+  assert.match(initWidgetBody, /toggle\.addEventListener\('focus', preparePanel/);
+  assert.match(initWidgetBody, /toggle\.addEventListener\('pointerdown', preparePanel/);
+  assert.match(
+    initWidgetBody,
+    /window\.requestAnimationFrame\(\(\) => \{\s*openFrame = window\.requestAnimationFrame\(\(\) => \{\s*openFrame = 0;\s*setExpanded\(root, true\)/,
+  );
+});
+
+test('AI chat defers bootstrap, pending Markdown, and focus until panel opening completes', async () => {
+  const script = await readProjectFile('../src/scripts/aiChatWidget.js');
+  const initWidgetBody = script.slice(
+    script.indexOf('function initWidget'),
+    script.indexOf('widgets.forEach(initWidget)'),
+  );
+  const finishPanelOpenBody = initWidgetBody.slice(
+    initWidgetBody.indexOf('const finishPanelOpen'),
+    initWidgetBody.indexOf("panel.addEventListener('transitionend'"),
+  );
+  const openPanelBody = initWidgetBody.slice(
+    initWidgetBody.indexOf('const openPanel'),
+    initWidgetBody.indexOf('resetLauncherDock()'),
+  );
+
+  assert.match(initWidgetBody, /event\.target !== panel \|\| event\.propertyName !== 'opacity'/);
+  assert.match(finishPanelOpenBody, /root\.classList\.remove\('is-preparing'\)/);
+  assert.match(finishPanelOpenBody, /ensureBootstrap\(root\)\.catch\(\(\) => \{\}\)/);
+  assert.match(finishPanelOpenBody, /const pendingGreeting = root\.querySelector\('\[data-pending-markdown\]'\)/);
+  assert.match(finishPanelOpenBody, /setMessageMarkdown\(pendingGreeting, greeting\)/);
+  assert.match(finishPanelOpenBody, /input\.focus\(\{ preventScroll: true \}\)/);
+  assert.doesNotMatch(openPanelBody, /ensureBootstrap\(root\)|setMessageMarkdown\(|input\.focus\(/);
+  assert.doesNotMatch(initWidgetBody, /setTimeout\(\(\) => input\.focus\(\), 160\)/);
+});
+
+test('AI chat completes opening when transitionend is not dispatched', async () => {
+  const script = await readProjectFile('../src/scripts/aiChatWidget.js');
+  const initWidgetBody = script.slice(
+    script.indexOf('function initWidget'),
+    script.indexOf('widgets.forEach(initWidget)'),
+  );
+
+  assert.match(initWidgetBody, /let openFallbackTimer = 0/);
+  assert.match(
+    initWidgetBody,
+    /const finishPanelOpen = \(\) => \{[\s\S]*window\.clearTimeout\(openFallbackTimer\)[\s\S]*ensureBootstrap\(root\)\.catch\(\(\) => \{\}\)[\s\S]*input\.focus\(\{ preventScroll: true \}\)/,
+  );
+  assert.match(
+    initWidgetBody,
+    /panel\.addEventListener\('transitionend',[\s\S]*finishPanelOpen\(\)/,
+  );
+  assert.match(
+    initWidgetBody,
+    /openFallbackTimer = window\.setTimeout\(finishPanelOpen, 320\)/,
+  );
+});
+
+test('AI chat opening optimization preserves the existing visual effects', async () => {
+  const css = await readProjectFile('../src/styles/global.css');
+
+  assert.match(css, /--ai-glass:\s*blur\(24px\) saturate\(130%\);/);
+  assert.match(css, /\.ai-chat__scrim\s*\{[^}]*backdrop-filter:\s*blur\(6px\);[^}]*\}/s);
+  assert.match(css, /\.ai-chat__panel\s*\{[^}]*backdrop-filter:\s*var\(--ai-glass\);[^}]*box-shadow:\s*0 28px 80px rgba\(0, 0, 0, 0\.62\), inset 0 1px 0 rgba\(255, 255, 255, 0\.06\);[^}]*transition:\s*opacity 260ms ease, transform 260ms ease;[^}]*\}/s);
+  assert.match(css, /\.ai-chat\.is-preparing \.ai-chat__scrim\s*\{[^}]*will-change:\s*opacity, backdrop-filter;[^}]*\}/s);
+  assert.match(css, /\.ai-chat\.is-preparing \.ai-chat__panel\s*\{[^}]*will-change:\s*opacity, transform, backdrop-filter;[^}]*\}/s);
+});
+
 test('AI chat implementation does not hardcode localized chat copy', async () => {
   const component = await readProjectFile('../src/components/AiChatWidget.astro');
   const script = await readProjectFile('../src/scripts/aiChatWidget.js');
@@ -130,7 +227,6 @@ test('AI chat widget keeps its launcher docked while supporting settings, histor
   assert.match(script, /legacyLauncherPositionKey/);
   assert.match(script, /localStorage\.removeItem\(legacyLauncherPositionKey\)/);
   assert.match(script, /style\.removeProperty\('left'\)/);
-  assert.equal(script.includes('pointerdown'), false);
   assert.equal(script.includes('pointermove'), false);
   assert.equal(script.includes('pointerup'), false);
   assert.equal(script.includes('suppressClick'), false);
@@ -179,6 +275,39 @@ test('AI chat widget keeps its launcher docked while supporting settings, histor
   assert.match(css, /overflow-wrap: anywhere/);
   assert.ok(packageJson.dependencies.micromark || packageJson.devDependencies.micromark);
   assert.ok(packageJson.dependencies.katex || packageJson.devDependencies.katex);
+});
+
+test('AI chat loads rich Markdown dependencies on demand', async () => {
+  const script = await readProjectFile('../src/scripts/aiChatWidget.js');
+  const markdownDependencies = [
+    'katex',
+    'micromark',
+    'micromark-extension-gfm',
+    'micromark-extension-math',
+  ];
+
+  for (const dependency of markdownDependencies) {
+    assert.equal(
+      new RegExp(`^import\\s.+?from\\s+['\"]${dependency}['\"];?$`, 'm').test(script),
+      false,
+      `${dependency} must not be statically imported by the site-wide widget`,
+    );
+    assert.match(script, new RegExp(`import\\(['\"]${dependency}['\"]\\)`));
+  }
+
+  assert.match(script, /let markdownRendererLoader/);
+  assert.match(script, /Promise\.all\(/);
+
+  const bootstrapBody = script.slice(
+    script.indexOf('async function bootstrap'),
+    script.indexOf('function loadTurnstile'),
+  );
+  assert.match(
+    bootstrapBody,
+    /if \(root\.classList\.contains\('is-open'\)\) \{\s*setMessageMarkdown\(firstAssistantMessage, data\.greeting\)/,
+  );
+  assert.match(script, /firstAssistantMessage\.dataset\.pendingMarkdown = data\.greeting/);
+  assert.match(script, /const pendingGreeting = root\.querySelector\('\[data-pending-markdown\]'\)/);
 });
 
 test('streaming uses one assistant bubble for thinking and the final answer', async () => {

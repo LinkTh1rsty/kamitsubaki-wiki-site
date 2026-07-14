@@ -2006,6 +2006,14 @@ html.has-js .reveal-up.active {
   position: relative;
 }
 
+.ai-chat.is-preparing .ai-chat__scrim {
+  will-change: opacity, backdrop-filter;
+}
+
+.ai-chat.is-preparing .ai-chat__panel {
+  will-change: opacity, transform, backdrop-filter;
+}
+
 .ai-chat.is-open .ai-chat__scrim {
   opacity: 1;
   pointer-events: auto;
@@ -3093,19 +3101,22 @@ html.has-js .reveal-up.active {
 
 .contributor-roster {
   position: relative;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(8, 10, 12, 0.24);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  background:
+    radial-gradient(circle at 92% 5%, color-mix(in srgb, var(--wiki-accent-color) 9%, transparent), transparent 28rem),
+    linear-gradient(145deg, rgba(13, 16, 19, 0.92), rgba(5, 6, 8, 0.84));
 }
 
 .contributor-roster--summary {
   max-width: 80rem;
   margin: 0 auto 6rem;
-  padding: 0;
+  padding: 0 clamp(1.25rem, 4vw, 3rem);
 }
 
 .contributor-roster--entry {
   margin-top: 1.15rem;
+  padding: 0 1rem;
 }
 
 .contributor-roster__header {
@@ -3359,19 +3370,6 @@ html.has-js .reveal-up.active {
 }
 
 /* Contributor honor wall */
-.contributor-roster {
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.11);
-  background:
-    radial-gradient(circle at 92% 5%, color-mix(in srgb, var(--wiki-accent-color) 9%, transparent), transparent 28rem),
-    linear-gradient(145deg, rgba(13, 16, 19, 0.92), rgba(5, 6, 8, 0.84));
-}
-
-.contributor-roster--summary {
-  margin: 0 auto 6rem;
-  padding: 0 clamp(1.25rem, 4vw, 3rem);
-}
-
 .contributor-roster__header {
   gap: 2rem;
   padding: clamp(1.7rem, 4vw, 3rem) 0 1.6rem;
@@ -3617,10 +3615,6 @@ html.has-js .reveal-up.active {
   border-color: var(--wiki-accent-color);
   background: color-mix(in srgb, var(--wiki-accent-color) 17%, transparent);
   color: white;
-}
-
-.contributor-roster--entry {
-  padding: 0 1rem;
 }
 
 .contributor-roster--entry .contributor-roster__header {
@@ -4052,23 +4046,6 @@ html.has-js .reveal-up.active {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .ai-chat__panel,
-  .ai-chat__scrim,
-  .ai-chat__launcher,
-  .ai-chat__orb,
-  .ai-chat__quick button {
-    transition-duration: 1ms !important;
-  }
-
-  .ai-chat__panel::before,
-  .ai-chat.is-thinking .ai-chat__orb,
-  .ai-thinking__beam,
-  .ai-thinking__dots i {
-    animation: none !important;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
   *,
   *::before,
   *::after {
@@ -4076,5 +4053,12 @@ html.has-js .reveal-up.active {
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+  }
+
+  .ai-chat__panel::before,
+  .ai-chat.is-thinking .ai-chat__orb,
+  .ai-thinking__beam,
+  .ai-thinking__dots i {
+    animation: none !important;
   }
 }

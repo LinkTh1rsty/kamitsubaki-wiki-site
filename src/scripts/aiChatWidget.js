@@ -1,13 +1,12 @@
-import katex from 'katex';
-import { micromark } from 'micromark';
-import { gfm, gfmHtml } from 'micromark-extension-gfm';
-import { math, mathHtml } from 'micromark-extension-math';
 import { readModelSettings, setSegmentedValue } from '../lib/aiChatControls.mjs';
 import { parseAiStreamChunk } from '../lib/aiStream.mjs';
 
 const widgets = document.querySelectorAll('[data-ai-chat]');
 const legacyLauncherPositionKey = 'kfw_ai_launcher_position';
 let turnstileLoader;
+let markdownRendererLoader;
+const markdownRenderRevisions = new WeakMap();
+const bootstrapLoaders = new WeakMap();
 
 function sanitizeRenderedHtml(html) {
   const template = document.createElement('template');
@@ -74,17 +73,49 @@ function sanitizeRenderedHtml(html) {
   return template.innerHTML;
 }
 
-function renderMarkdown(text) {
-  return sanitizeRenderedHtml(
-    micromark(String(text || ''), {
-      extensions: [gfm(), math()],
-      htmlExtensions: [gfmHtml(), mathHtml({ katex, throwOnError: false, strict: false })],
-    }),
-  );
+function loadMarkdownRenderer() {
+  if (!markdownRendererLoader) {
+    markdownRendererLoader = Promise.all([
+      import('katex'),
+      import('micromark'),
+      import('micromark-extension-gfm'),
+      import('micromark-extension-math'),
+    ])
+      .then(([{ default: katex }, { micromark }, { gfm, gfmHtml }, { math, mathHtml }]) => (text) =>
+        sanitizeRenderedHtml(
+          micromark(String(text || ''), {
+            extensions: [gfm(), math()],
+            htmlExtensions: [gfmHtml(), mathHtml({ katex, throwOnError: false, strict: false })],
+          }),
+        ),
+      )
+      .catch((error) => {
+        markdownRendererLoader = undefined;
+        throw error;
+      });
+  }
+
+  return markdownRendererLoader;
 }
 
 function setMessageMarkdown(content, text) {
-  content.innerHTML = renderMarkdown(text);
+  const source = String(text || '');
+  const revision = (markdownRenderRevisions.get(content) || 0) + 1;
+  markdownRenderRevisions.set(content, revision);
+  content.textContent = source;
+
+  if (!source) {
+    return;
+  }
+
+  loadMarkdownRenderer().then(
+    (renderMarkdown) => {
+      if (markdownRenderRevisions.get(content) === revision) {
+        content.innerHTML = renderMarkdown(source);
+      }
+    },
+    () => {},
+  );
 }
 
 function createStreamingRenderer(content, messages) {
@@ -480,7 +511,7 @@ async function bootstrap(root) {
   });
 
   if (!response.ok) {
-    return;
+    throw new Error(`AI bootstrap returned ${response.status}`);
   }
 
   const data = await response.json();
@@ -496,13 +527,34 @@ async function bootstrap(root) {
   if (typeof data.greeting === 'string' && data.greeting) {
     const firstAssistantMessage = root.querySelector('.ai-message--assistant .ai-message__content');
     if (firstAssistantMessage instanceof HTMLElement) {
-      setMessageMarkdown(firstAssistantMessage, data.greeting);
+      if (root.classList.contains('is-open')) {
+        setMessageMarkdown(firstAssistantMessage, data.greeting);
+      } else {
+        const greeting = document.createElement('p');
+        greeting.textContent = data.greeting;
+        firstAssistantMessage.replaceChildren(greeting);
+        firstAssistantMessage.dataset.pendingMarkdown = data.greeting;
+      }
     }
   }
 
   if (data.turnstile?.siteKey) {
     root.dataset.turnstileSiteKey = data.turnstile.siteKey;
   }
+}
+
+function ensureBootstrap(root) {
+  const existingLoader = bootstrapLoaders.get(root);
+  if (existingLoader) {
+    return existingLoader;
+  }
+
+  const loader = bootstrap(root).catch((error) => {
+    bootstrapLoaders.delete(root);
+    throw error;
+  });
+  bootstrapLoaders.set(root, loader);
+  return loader;
 }
 
 function loadTurnstile() {
@@ -1071,6 +1123,7 @@ function initWidget(root) {
   const historyToggle = root.querySelector('[data-ai-history-toggle]');
   const newThreadButton = root.querySelector('[data-ai-new-thread]');
   const clearHistoryButton = root.querySelector('[data-ai-history-clear]');
+  const panel = root.querySelector('[data-ai-panel]');
   const form = root.querySelector('[data-ai-form]');
   const input = root.querySelector('[data-ai-input]');
   const messages = root.querySelector('[data-ai-messages]');
@@ -1082,6 +1135,7 @@ function initWidget(root) {
   if (
     !(toggle instanceof HTMLButtonElement) ||
     !(close instanceof HTMLButtonElement) ||
+    !(panel instanceof HTMLElement) ||
     !(form instanceof HTMLFormElement) ||
     !(input instanceof HTMLTextAreaElement) ||
     !(messages instanceof HTMLElement) ||
@@ -1090,15 +1144,73 @@ function initWidget(root) {
     return;
   }
 
+  let openFrame = 0;
+  let openFallbackTimer = 0;
+
+  const preparePanel = () => {
+    root.classList.add('is-preparing');
+  };
+
+  const clearPanelPreparation = () => {
+    if (!openFrame && !root.classList.contains('is-open')) {
+      root.classList.remove('is-preparing');
+    }
+  };
+
+  const finishPanelOpen = () => {
+    if (openFallbackTimer) {
+      window.clearTimeout(openFallbackTimer);
+      openFallbackTimer = 0;
+    }
+    root.classList.remove('is-preparing');
+    if (!root.classList.contains('is-open')) {
+      return;
+    }
+
+    ensureBootstrap(root).catch(() => {});
+    const pendingGreeting = root.querySelector('[data-pending-markdown]');
+    if (pendingGreeting instanceof HTMLElement) {
+      const greeting = pendingGreeting.dataset.pendingMarkdown || '';
+      delete pendingGreeting.dataset.pendingMarkdown;
+      setMessageMarkdown(pendingGreeting, greeting);
+    }
+    input.focus({ preventScroll: true });
+  };
+
+  panel.addEventListener('transitionend', (event) => {
+    if (event.target !== panel || event.propertyName !== 'opacity') {
+      return;
+    }
+
+    finishPanelOpen();
+  });
+
   const openPanel = () => {
-    setExpanded(root, true);
-    window.setTimeout(() => input.focus(), 160);
+    if (openFrame || root.classList.contains('is-open')) {
+      return;
+    }
+
+    preparePanel();
+    openFrame = window.requestAnimationFrame(() => {
+      openFrame = window.requestAnimationFrame(() => {
+        openFrame = 0;
+        setExpanded(root, true);
+        if (openFallbackTimer) {
+          window.clearTimeout(openFallbackTimer);
+        }
+        openFallbackTimer = window.setTimeout(finishPanelOpen, 320);
+      });
+    });
   };
 
   resetLauncherDock();
   updateAuthState(root, copy, { kind: 'anonymous' });
-  bootstrap(root).catch(() => {});
 
+  toggle.addEventListener('pointerenter', preparePanel);
+  toggle.addEventListener('focus', preparePanel);
+  toggle.addEventListener('pointerdown', preparePanel);
+  toggle.addEventListener('pointerleave', clearPanelPreparation);
+  toggle.addEventListener('blur', clearPanelPreparation);
   toggle.addEventListener('click', () => {
     openPanel();
   });

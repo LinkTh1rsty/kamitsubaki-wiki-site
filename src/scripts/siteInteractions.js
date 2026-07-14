@@ -158,23 +158,6 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('resize', updateReadingProgress);
   }
 
-  // Preload artist hover images in the background on idle to prevent latency/flash
-  const preloadArtistImages = () => {
-    artistRows.forEach((row) => {
-      const imgUrl = row.getAttribute('data-img');
-      if (imgUrl) {
-        const img = new Image();
-        img.src = imgUrl;
-      }
-    });
-  };
-
-  if ('requestIdleCallback' in window) {
-    window.requestIdleCallback(() => preloadArtistImages());
-  } else {
-    window.setTimeout(preloadArtistImages, 1500);
-  }
-
   // ── Artist category expand/collapse ──
   const artistList = document.getElementById('artist-list');
   if (artistList instanceof HTMLElement) {

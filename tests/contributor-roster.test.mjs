@@ -32,6 +32,10 @@ test('contributor roster fetches public summary and entry contribution APIs', as
   assert.match(script, /contributorRosterStatus/);
   assert.match(script, /astro:page-load/);
   assert.match(script, /status === 'loading' \|\| status === 'loaded'/);
+  assert.match(script, /new IntersectionObserver/);
+  assert.match(script, /rootMargin:\s*'600px 0px'/);
+  assert.match(script, /contributorRosterObserver\.observe\(root\)/);
+  assert.doesNotMatch(script, /for \(const root of document\.querySelectorAll\('\[data-contributor-roster\]'\)\) loadRoster\(root\)/);
   assert.match(css, /\.contributor-roster/);
   assert.match(css, /\.contributor-roster--entry/);
   assert.match(css, /\.contributor-roster--summary/);

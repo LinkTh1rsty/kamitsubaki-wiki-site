@@ -1,5 +1,7 @@
 import { normalizeContributorData } from '../lib/contributorRosterData.mjs';
 
+let contributorRosterObserver;
+
 function escapeHtml(value) {
   return String(value ?? '')
     .replace(/&/g, '&amp;')
@@ -170,7 +172,30 @@ async function loadRoster(root) {
 }
 
 function initializeContributorRosters() {
-  for (const root of document.querySelectorAll('[data-contributor-roster]')) loadRoster(root);
+  for (const root of document.querySelectorAll('[data-contributor-roster]')) {
+    if (root.dataset.contributorRosterObserved === 'true') continue;
+    root.dataset.contributorRosterObserved = 'true';
+
+    if (!('IntersectionObserver' in window)) {
+      loadRoster(root);
+      continue;
+    }
+
+    if (!contributorRosterObserver) {
+      contributorRosterObserver = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (!entry.isIntersecting) continue;
+            contributorRosterObserver.unobserve(entry.target);
+            loadRoster(entry.target);
+          }
+        },
+        { rootMargin: '600px 0px' },
+      );
+    }
+
+    contributorRosterObserver.observe(root);
+  }
 }
 
 initializeContributorRosters();
