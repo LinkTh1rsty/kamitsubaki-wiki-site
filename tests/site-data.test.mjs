@@ -221,7 +221,7 @@ test('projects and log entries preserve the static page content', async () => {
 
   assert.equal(projects.length, 3);
   assert.equal(projects[0].title, '神椿市建设中。');
-  assert.equal(projects[1].title, 'SINSAEKAI STUDIO');
+  assert.equal(projects[1].title, 'SINSEKAI RECORD');
   assert.equal(projects[2].title, '魔女展');
 
   assert.deepEqual(
