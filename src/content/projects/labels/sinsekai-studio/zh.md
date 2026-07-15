@@ -43,36 +43,36 @@ pulse：致力于构建虚拟世界「INSPIX WORLD」，并不断挑战次世代
 **虚拟歌手**
 
 - [**明透（ASU）**](https://kamitsubaki.wiki/zh/artists/solo/asu/)  
-    神椿世界观衍生世界“深脊界”中登场的次世代型虚拟歌手。其角色人设由知名画师米山舞担纲。明透拥有天生的节奏感与难以预测的歌声，性格天真烂漫，比起思考更喜欢凭直觉行动。她于2021年8月23日正式出道，是深脊界目前的核心虚拟歌手之一。
+    <br>- 神椿世界观衍生世界“深脊界”中登场的次世代型虚拟歌手。其角色人设由知名画师米山舞担纲。明透拥有天生的节奏感与难以预测的歌声，性格天真烂漫，比起思考更喜欢凭直觉行动。她于2021年8月23日正式出道，是深脊界目前的核心虚拟歌手之一。
 - **琶舞（BEMA）**
-    2025年4月30日正式出道的新晋虚拟歌手。人设同样由米山舞担纲，以十字架与黑百合为主题。如果说明透象征着“光明”，琶舞则定位为“黑暗”的化身，以清澈的嗓音描绘黑暗世界。目前，她与明透组成以“爱”为主题的新组合进行活动。
+    <br>- 2025年4月30日正式出道的新晋虚拟歌手。人设同样由米山舞担纲，以十字架与黑百合为主题。如果说明透象征着“光明”，琶舞则定位为“黑暗”的化身，以清澈的嗓音描绘黑暗世界。目前，她与明透组成以“爱”为主题的新组合进行活动。
 - **梓川**
-    深脊界旗下的虚拟歌手，于2025年6月发行了个人首张专辑《端子》，该专辑由 SINSEKAI RECORD 发行，共收录12首曲目。
+    <br>- 深脊界旗下的虚拟歌手，于2025年6月发行了个人首张专辑《端子》，该专辑由 SINSEKAI RECORD 发行，共收录12首曲目。
 - [**Sooda**](https://kamitsubaki.wiki/zh/artists/creators/sooda/)
-    创作歌手，同时也是“雨宿り”组合成员及SINSEKAI CITY所属艺人。
+    <br>- 创作歌手，同时也是“雨宿り”组合成员及SINSEKAI CITY所属艺人。
 - [**MIMI**](https://kamitsubaki.wiki/zh/artists/creators/mimi/)
-    Vocaloid P/音乐制作人，参与神椿旗下艺人的词曲创作。
+    <br>- Vocaloid P/音乐制作人，参与神椿旗下艺人的词曲创作。
 - [**とあ**](https://kamitsubaki.wiki/zh/artists/creators/toa/)
-    音乐制作人/编曲家。
+    <br>- 音乐制作人/编曲家。
 - **詩道**
-    SINSEKAI RECORD 旗下的网络歌手与唱作人，以吉他弹唱为特色。
+    <br>- SINSEKAI RECORD 旗下的网络歌手与唱作人，以吉他弹唱为特色。
 - [**雄之助**](https://kamitsubaki.wiki/zh/artists/creators/yunosuke/)
-    知名 EDM 风格声音制作人与编曲家。
+    <br>- 知名 EDM 风格声音制作人与编曲家。
 - **雨宿り**
-    由深脊界旗下的两位创作歌手——水野あつ与 Sooda 于2022年11月结成的音乐组合。组合名称寓意着“在日常生活痛苦中悄悄避雨的心情”，旨在为听众献上音乐。在组合的音乐世界观中，还有一位从两人空想中诞生的少女“アメ（ame）”，作为贴近听众内心的温柔存在。
+    <br>- 由深脊界旗下的两位创作歌手——水野あつ与 Sooda 于2022年11月结成的音乐组合。组合名称寓意着“在日常生活痛苦中悄悄避雨的心情”，旨在为听众献上音乐。在组合的音乐世界观中，还有一位从两人空想中诞生的少女“アメ（ame）”，作为贴近听众内心的温柔存在。
 - [**VALIS**](https://kamitsubaki.wiki/zh/artists/solo/valis/) 
-    深脊界旗下的虚拟偶像组合，成员包括 Chino、Myu、Neffy、Nina、Rara、Vitte。组合于2021年11月正式加入深脊界（SINSEKAI STUDIO）体系，在深脊界的生态中持续进行音乐与舞台活动。
+    <br>- 深脊界旗下的虚拟偶像组合，成员包括 Chino、Myu、Neffy、Nina、Rara、Vitte。组合于2021年11月正式加入深脊界（SINSEKAI STUDIO）体系，在深脊界的生态中持续进行音乐与舞台活动。
 - [**Awairo**](https://kamitsubaki.wiki/zh/artists/solo/awairo/) 
-    于2023年10月宣布出道的新组合，成员包括雄之助、シンガー、WaMi 等，是深脊界在企划扩展期推出的重要音乐团体。<br>
+    <br>- 于2023年10月宣布出道的新组合，成员包括雄之助、シンガー、WaMi 等，是深脊界在企划扩展期推出的重要音乐团体。<br>
 
 **CREATOR FARM**
 
 - [**Hi-Fi P**](https://kamitsubaki.wiki/zh/artists/creators/hifi-p/)
-    音乐制作人，负责编曲与制作。
+    <br>- 音乐制作人，负责编曲与制作。
 - [**tokiwa**](https://kamitsubaki.wiki/zh/artists/creators/tokiwa/)
-    音乐制作人/编曲家。
+    <br>- 音乐制作人/编曲家。
 - [**他人事**](https://kamitsubaki.wiki/zh/artists/creators/hitogoto/)
-    音乐制作人/编曲家。   
+    <br>- 音乐制作人/编曲家。   
 
 ## 外部链接
 
