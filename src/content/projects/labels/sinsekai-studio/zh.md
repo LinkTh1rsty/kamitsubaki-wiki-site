@@ -9,7 +9,7 @@ order: 2
 
 ## 简介
 
-「SINSEKAI STUDIO」(深脊界工作室）是由「THINKR」、「Bandai Namco Filmworks」以及「pulse」三家公司联合打造的创意厂牌。
+「SINSEKAI STUDIO」(深脊界工作室)是由「THINKR」、「Bandai Namco Filmworks」以及「pulse」三家公司联合打造的创意厂牌。
 
 THINKR：汇聚了众多创作者与艺术家，以多种形态集结，致力于打造拓展无限才华可能性的创意工作室。
 万代南梦宫影像制作：专注于打造极具魅力的IP，发掘与培养艺人，并提供涵盖影像、音乐、现场演出等立体化的综合制作服务。
@@ -49,15 +49,15 @@ pulse：致力于构建虚拟世界「INSPIX WORLD」，并不断挑战次世代
 - **梓川**
     深脊界旗下的虚拟歌手，于2025年6月发行了个人首张专辑《端子》，该专辑由 SINSEKAI RECORD 发行，共收录12首曲目。
 - [**Sooda**](https://kamitsubaki.wiki/zh/artists/creators/sooda/)
-	<br>创作歌手，同时也是“雨宿り”组合成员及SINSEKAI CITY所属艺人。
+    创作歌手，同时也是“雨宿り”组合成员及SINSEKAI CITY所属艺人。
 - [**MIMI**](https://kamitsubaki.wiki/zh/artists/creators/mimi/)
-	Vocaloid P/音乐制作人，参与神椿旗下艺人的词曲创作。
+    Vocaloid P/音乐制作人，参与神椿旗下艺人的词曲创作。
 - [**とあ**](https://kamitsubaki.wiki/zh/artists/creators/toa/)
-	音乐制作人/编曲家。
+    音乐制作人/编曲家。
 - **詩道**
-	SINSEKAI RECORD 旗下的网络歌手与唱作人，以吉他弹唱为特色。
+    SINSEKAI RECORD 旗下的网络歌手与唱作人，以吉他弹唱为特色。
 - [**雄之助**](https://kamitsubaki.wiki/zh/artists/creators/yunosuke/)
-	知名 EDM 风格声音制作人与编曲家。
+    知名 EDM 风格声音制作人与编曲家。
 - **雨宿り**
     由深脊界旗下的两位创作歌手——水野あつ与 Sooda 于2022年11月结成的音乐组合。组合名称寓意着“在日常生活痛苦中悄悄避雨的心情”，旨在为听众献上音乐。在组合的音乐世界观中，还有一位从两人空想中诞生的少女“アメ（ame）”，作为贴近听众内心的温柔存在。
 - [**VALIS**](https://kamitsubaki.wiki/zh/artists/solo/valis/) 
@@ -67,14 +67,14 @@ pulse：致力于构建虚拟世界「INSPIX WORLD」，并不断挑战次世代
 
 **CREATOR FARM**
 
-- [**Hi-Fi P**](https://kamitsubaki.wiki/zh/artists/creators/hifi-p/)<br>
-	<br>音乐制作人，负责编曲与制作。<br>
-- [**tokiwa**](https://kamitsubaki.wiki/zh/artists/creators/tokiwa/)<br>
-	<br>音乐制作人/编曲家。<br>
-- [**他人事**](https://kamitsubaki.wiki/zh/artists/creators/hitogoto/)<br>
-	<br>音乐制作人/编曲家。<br>
+- [**Hi-Fi P**](https://kamitsubaki.wiki/zh/artists/creators/hifi-p/)
+    音乐制作人，负责编曲与制作。
+- [**tokiwa**](https://kamitsubaki.wiki/zh/artists/creators/tokiwa/)
+    音乐制作人/编曲家。
+- [**他人事**](https://kamitsubaki.wiki/zh/artists/creators/hitogoto/)
+    音乐制作人/编曲家。   
 
-	## 外部链接
+## 外部链接
 
 - [**深脊界 官方网站**](https://kamitsubaki.jp/)<span style="filter: blur(5px); transition: filter 0.3s; cursor: pointer;" onmouseover="this.style.filter='none'" onmouseout="this.style.filter='blur(5px)'" onclick="this.style.filter='none'">（现已重定向至kamitsubaki.jp，[Internet Archive存档](https://web.archive.org/web/20240131034942/https://sinsekaistudio.jp/))</span><br>
 - [**深脊界 官方Youtube页面**](https://www.youtube.com/channel/UCTqFLDr_7lgEaZunMn8gu1Q)<br>

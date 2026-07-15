@@ -69,7 +69,7 @@ pulse：仮想世界「INSPIX WORLD」の構築に取り組み、次世代のバ
 - [**他人事**](https://kamitsubaki.wiki/ja/artists/creators/hitogoto/)  
     音楽プロデューサー／編曲家。
 
-    ## 外部リンク
+## 外部リンク
 
 - [**深脊界 公式サイト**](https://kamitsubaki.jp/)<span style="filter: blur(5px); transition: filter 0.3s; cursor: pointer;" onmouseover="this.style.filter='none'" onmouseout="this.style.filter='blur(5px)'" onclick="this.style.filter='none'">（現在はkamitsubaki.jpにリダイレクト中、[インターネットアーカイブ](https://web.archive.org/web/20240131034942/https://sinsekaistudio.jp/))</span><br>
 - [**深脊界 公式YouTubeチャンネル**](https://www.youtube.com/channel/UCTqFLDr_7lgEaZunMn8gu1Q)<br>

@@ -85,7 +85,7 @@ At *SINSEKAI STUDIO*, three companies are collaborating closely under the keywor
 - [**他人事(Hitogoto)**](https://kamitsubaki.wiki/en/artists/creators/hitogoto/)  
     A music producer and arranger.
 
-    ## External Links
+## External Links
 
 - [**SINSEKAI RECORD Official Website**](https://kamitsubaki.jp/)<span style="filter: blur(5px); transition: filter 0.3s; cursor: pointer;" onmouseover="this.style.filter='none'" onmouseout="this.style.filter='blur(5px)'" onclick="this.style.filter='none'">(Redirect to kamitsubaki.jp, [Internet Archive](https://web.archive.org/web/20240131034942/https://sinsekaistudio.jp/))</span><br>
 - [**SINSEKAI RECORD Official YouTube Channel**](https://www.youtube.com/channel/UCTqFLDr_7lgEaZunMn8gu1Q)
