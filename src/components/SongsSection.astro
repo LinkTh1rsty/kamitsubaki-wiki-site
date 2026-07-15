@@ -1,0 +1,95 @@
+---
+// 完全对齐 content.config.ts 中 songs collection 的 schema
+type Song = {
+  id: string;
+  data: {
+    title: string;
+    artist: string;
+    composer?: string;
+    lyricist?: string;
+    album?: string;
+    duration?: string;
+    releaseDate?: string;
+    code?: string;
+    categoryTitle?: string;
+    categorySubtitle?: string;
+    categoryOrder?: number;
+    itemOrder?: number;
+    image?: string;
+  };
+};
+
+const { songs, section, locale } = Astro.props as {
+  songs: Song[];
+  section: {
+    heading: string;
+    subheading: string;
+    viewAllLabel?: string;
+  };
+  locale: string;
+};
+---
+
+<section id="songs" class="relative mx-auto max-w-7xl px-5 py-20 ui-crosshair bl br tl tr sm:px-6 sm:py-32">
+  <div class="relative z-10 grid grid-cols-1 gap-9 sm:gap-12 lg:grid-cols-12 lg:gap-24">
+    <div class="lg:col-span-3">
+      <div class="sticky top-32 reveal-up">
+        <h3 class="text-[10px] tracking-kamidest-lg font-light text-white mb-2">{section.heading}</h3>
+        <p class="font-serif text-[10px] text-white/50 tracking-widest mb-12">{section.subheading}</p>
+
+        {section.viewAllLabel && (
+          <a
+            href={`/${locale}/songs`}
+            class="group inline-flex items-center gap-3 text-[10px] tracking-widest text-white/40 hover:text-white transition-colors duration-300"
+          >
+            <span class="border-b border-white/20 pb-1 group-hover:border-white/60 transition-colors">
+              {section.viewAllLabel}
+            </span>
+            <svg class="w-3 h-3 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        )}
+      </div>
+    </div>
+
+    <div class="lg:col-span-9 flex flex-col pb-20">
+      <div class="border-b border-white/20 pb-4 mb-4 hidden md:flex justify-between items-end reveal-up">
+        <span class="text-[9px] font-mono text-white/40 w-12">CODE</span>
+        <span class="text-[9px] font-mono text-white/40 flex-1 pl-4">TITLE & ARTIST</span>
+        <span class="text-[9px] font-mono text-white/40 w-32 text-right">INFO</span>
+      </div>
+
+     <div id="songs-list">
+        {songs.map((song, idx) => {
+          const songPath = song.id.split('/').slice(0, -1).join('/');
+          return (
+            <a
+              href={`/${locale}/songs/${songPath}`}
+              class="group block list-row py-6 reveal-up"
+            >
+              <div class="flex flex-col md:flex-row md:items-center justify-between px-4 gap-4">
+                <div class="flex items-center gap-6 flex-1">
+                  <span class="font-mono text-[9px] text-white/20 w-8 md:w-12">{song.data.code || String(idx + 1).padStart(3, '0')}</span>
+                  <div>
+                    <h4 class="font-serif text-lg md:text-xl text-white/80 tracking-wide group-hover:text-white transition-colors duration-300">
+                      {song.data.title}
+                    </h4>
+                    <span class="text-[10px] tracking-wider font-light text-white/40 group-hover:text-white/60 transition-colors block mt-1">
+                      {song.data.artist} {song.data.album && `· ${song.data.album}`}
+                    </span>
+                  </div>
+                </div>
+                <div class="text-[9px] font-mono text-white/30 flex gap-4 md:gap-8 md:text-right items-center">
+                  {song.data.duration && <span class="w-12 text-left md:text-right">{song.data.duration}</span>}
+                  {song.data.releaseDate && <span class="w-20 text-left md:text-right hidden md:block">{song.data.releaseDate}</span>}
+                  <svg class="w-4 h-4 opacity-0 group-hover:opacity-100 transform -translate-x-4 group-hover:translate-x-0 transition-all duration-300 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+</section>

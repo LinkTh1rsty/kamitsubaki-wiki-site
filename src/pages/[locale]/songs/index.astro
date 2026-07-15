@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteNav from '../../../components/SiteNav.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import { getCollection } from 'astro:content';
+import { getLocalizedSite, getLocalizedEntries } from '../../../lib/homeData.mjs';
+import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
+
+export function getStaticPaths() {
+  return supportedLocales.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const localeCode = locale as 'zh' | 'ja' | 'en';
+
+const siteEntries = await getCollection('site');
+const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
+const songEntries = getLocalizedEntries(await getCollection('songs'), localeCode, defaultLocale);
+
+const localeLinks = buildLocaleLinks(homeContent, localeCode, `/songs`);
+const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${code}/songs` }));
+
+// 按 categoryOrder 排序（如果你的 Markdown 里写了的话）
+const sortedSongs = songEntries.sort((a, b) => (a.data.categoryOrder || 0) - (b.data.categoryOrder || 0));
+---
+
+<BaseLayout lang={localeCode} title={`Songs - Kamitsubaki Studio Fan Wiki`}>
+  <div class="min-h-screen">
+    <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${localeCode}/`} />
+    
+    <main class="mx-auto max-w-7xl px-5 py-24 sm:px-6">
+      <h1 class="font-serif text-3xl text-white mb-12 tracking-widest uppercase">
+        {localeCode === 'zh' ? '音乐作品' : localeCode === 'ja' ? '楽曲作品' : 'Songs'}
+      </h1>
+
+      <div class="grid gap-4">
+        {sortedSongs.map((song) => {
+          // 同样需要像详情页那样切掉末尾的语言后缀
+          const songPath = song.id.split('/').slice(0, -1).join('/');
+          return (
+            <a href={`/${localeCode}/songs/${songPath}`} class="block border border-white/10 p-6 hover:border-white/30 transition-colors">
+              <h2 class="text-lg text-white">{song.data.title}</h2>
+              <p class="text-sm text-white/50">{song.data.artist}</p>
+            </a>
+          );
+        })}
+      </div>
+    </main>
+    
+    <SiteFooter footer={homeContent.footer} />
+  </div>
+</BaseLayout>

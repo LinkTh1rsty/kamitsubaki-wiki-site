@@ -1,0 +1,222 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteNav from '../../../components/SiteNav.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import WikiInfoBox from '../../../components/WikiInfoBox.astro';
+import WikiArticleHeader from '../../../components/WikiArticleHeader.astro';
+import TableOfContents from '../../../components/TableOfContents.astro';
+import ContributorRoster from '../../../components/ContributorRoster.astro';
+import { getLocalizedSite } from '../../../lib/homeData.mjs';
+import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
+import { buildArticleMetadata } from '../../../lib/metadata.mjs';
+
+export async function getStaticPaths() {
+  const songEntries = await getCollection('songs');
+  
+  return songEntries.map((entry) => {
+    // 按层级拆分路径，提取语言后缀和文章 id
+    const parts = entry.id.split('/');
+    const entryLocale = parts.pop();
+    const idPath = parts.join('/');
+    
+    return {
+      params: { 
+        locale: entryLocale,
+        id: idPath 
+      },
+      props: { entry },
+    };
+  });
+}
+
+const { locale, id } = Astro.params;
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+const localeCode = locale as 'zh' | 'ja' | 'en';
+const hasArticleBody = Boolean(entry.body?.trim());
+const hasTableOfContents = headings.some((heading) => heading.depth === 2 || heading.depth === 3);
+
+const siteEntries = await getCollection('site');
+const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
+const currentPath = `/songs/${id}`;
+const localeLinks = buildLocaleLinks(homeContent, localeCode, currentPath);
+
+const alternates = supportedLocales.map((localeCode) => ({
+  locale: localeCode,
+  href: `/${localeCode}/songs/${id}`,
+}));
+
+const articleLabels = {
+  zh: {
+    home: '首页',
+    songs: '歌曲',
+    article: 'Wiki 条目',
+    category: '分类',
+    source: '编辑源文件',
+    languages: '切换语言',
+    contents: '目录',
+    infobox: '歌曲信息',
+    classification: '分类',
+    title: '歌曲名',
+    artist: '演唱',
+    composer: '作曲',
+    lyricist: '作词',
+    album: '收录专辑',
+    duration: '时长',
+    releaseDate: '发布日期',
+    code: '编号',
+    kindLabels: {
+      artist: '艺人',
+      project: '项目',
+      album: '专辑',
+      song: '歌曲',
+    },
+  },
+  ja: {
+    home: 'ホーム',
+    songs: '楽曲',
+    article: 'Wiki 記事',
+    category: '分類',
+    source: 'ソースを編集',
+    languages: '言語を切り替え',
+    contents: '目次',
+    infobox: '楽曲情報',
+    classification: '分類',
+    title: '曲名',
+    artist: '歌唱',
+    composer: '作曲',
+    lyricist: '作詞',
+    album: '収録アルバム',
+    duration: '時間',
+    releaseDate: 'リリース日',
+    code: 'コード',
+    kindLabels: {
+      artist: 'アーティスト',
+      project: 'プロジェクト',
+      album: 'アルバム',
+      song: '楽曲',
+    },
+  },
+  en: {
+    home: 'Home',
+    songs: 'Songs',
+    article: 'Wiki Article',
+    category: 'Category',
+    source: 'Edit source',
+    languages: 'Switch language',
+    contents: 'Contents',
+    infobox: 'Song Info',
+    classification: 'Classification',
+    title: 'Title',
+    artist: 'Artist',
+    composer: 'Composer',
+    lyricist: 'Lyricist',
+    album: 'Album',
+    duration: 'Duration',
+    releaseDate: 'Release Date',
+    code: 'Code',
+    kindLabels: {
+      artist: 'Artist',
+      project: 'Project',
+      album: 'Album',
+      song: 'Song',
+    },
+  },
+}[localeCode];
+
+const contentSourcePath = `src/content/songs/${id}/${localeCode}.md`;
+const sourceHref = `/${localeCode}/contribute/edit?target=${encodeURIComponent(contentSourcePath)}`;
+
+// 构造文章数据，映射 songs 集合的专属字段，以便复用 WikiInfoBox 与 WikiArticleHeader
+const articleData = {
+  name: entry.data.title,
+  romanizedName: entry.data.artist,
+  meta: entry.data.album,
+  ...entry.data,
+};
+
+const metadata = buildArticleMetadata({
+  data: articleData,
+  body: entry.body,
+  locale: localeCode,
+  id,
+});
+
+// 若 songs schema 未定义 theme，使用一套默认的高亮配色
+const theme = entry.data.theme ?? {
+  accentColor: '#89f5df',
+  mutedColor: '#8fb0c2',
+  surfaceColor: '#0f1419',
+  highlightColor: '#f6f7fb',
+};
+
+const themeStyle = [
+  `--wiki-accent-color:${theme.accentColor}`,
+  `--wiki-muted-color:${theme.mutedColor ?? theme.accentColor}`,
+  `--wiki-surface-color:${theme.surfaceColor ?? '#0f1419'}`,
+  `--wiki-highlight-color:${theme.highlightColor ?? '#f6f7fb'}`,
+].join(';');
+---
+
+<BaseLayout lang={locale} alternates={alternates} title={`${articleData.name} - Kamitsubaki Studio Fan Wiki`} metadata={metadata}>
+  <div class="wiki-theme-shell" style={themeStyle}>
+    <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${localeCode}/`} />
+
+    <div class="fixed left-0 top-0 z-[60] h-px w-full origin-left bg-white/70" data-reading-progress></div>
+
+    <div class="mx-auto max-w-[92rem] px-4 pb-3 pt-17 sm:px-6 sm:pb-4 sm:pt-20 lg:pt-20">
+      <WikiArticleHeader
+        data={articleData}
+        localeLinks={localeLinks}
+        labels={articleLabels}
+        sourceHref={sourceHref}
+        homeHref={`/${localeCode}/`}
+      />
+    </div>
+
+    <div class:list={[
+      'mx-auto grid max-w-[92rem] items-start gap-5 px-4 py-4 sm:gap-8 sm:px-6 sm:py-5 lg:gap-8',
+      hasArticleBody ? 'lg:grid-cols-12' : 'lg:grid-cols-[minmax(0,1fr)_22rem]',
+    ]}>
+      {hasTableOfContents && (
+        <aside class="hidden lg:block lg:col-span-2 sticky top-32">
+          <TableOfContents headings={headings} title={articleLabels.contents} />
+        </aside>
+      )}
+
+      {hasArticleBody && (
+        <main class:list={[
+          'order-last w-full min-w-0 lg:order-none',
+          hasTableOfContents ? 'lg:col-span-7' : 'lg:col-span-8 lg:col-start-2',
+        ]}>
+          {hasTableOfContents && (
+            <details class="wiki-mobile-toc mb-8 rounded-lg border border-white/10 bg-white/[0.03] p-4 lg:hidden">
+              <summary class="cursor-pointer text-[11px] font-mono uppercase tracking-[0.24em] text-white/65">
+                {articleLabels.contents}
+              </summary>
+              <div class="mt-4 border-t border-white/10 pt-4">
+                <TableOfContents headings={headings} title={articleLabels.contents} />
+              </div>
+            </details>
+          )}
+
+          <article class="wiki-reader wiki-prose prose prose-invert max-w-none reveal-up">
+            <Content />
+          </article>
+        </main>
+      )}
+
+      <aside class:list={[
+        'w-full max-w-sm mx-auto lg:sticky lg:top-32 lg:max-w-none reveal-up',
+        hasArticleBody ? 'lg:col-span-3' : 'lg:col-start-2',
+      ]}>
+        <WikiInfoBox data={articleData} labels={articleLabels} />
+        <ContributorRoster mode="entry" locale={localeCode} collection="songs" entryId={id} />
+      </aside>
+      
+    </div>
+
+    <SiteFooter footer={homeContent.footer} />
+  </div>
+</BaseLayout>

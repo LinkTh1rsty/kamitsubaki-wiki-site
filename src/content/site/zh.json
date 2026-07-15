@@ -25,6 +25,10 @@
       "href": "#about"
     },
     {
+      "label": "RHYTHM",
+      "href": "#songs"
+    },
+    {
       "label": "DATABASE",
       "href": "#database"
     },
@@ -73,13 +77,18 @@
       "subheading": "观测对象一览",
       "expandLabel": "展开全部"
     },
+    "songs": {
+      "heading": "02. RHYTHM",
+      "subheading": "音乐作品",
+      "viewAllLabel": "VIEW ALL SONGS >>"
+    },
     "projects": {
-      "heading": "02. PROTOCOLS",
+      "heading": "03. PROTOCOLS",
       "subheading": "派生计划・项目",
       "viewAllLabel": "VIEW ALL PROTOCOLS >>"
     },
     "log": {
-      "heading": "03. LOG",
+      "heading": "04. LOG",
       "subheading": "观测记录"
     }
   },

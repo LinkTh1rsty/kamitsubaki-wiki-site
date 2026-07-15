@@ -80,6 +80,11 @@ const site = defineCollection({
         heading: z.string(),
         subheading: z.string(),
       }),
+      songs: z.object({
+        heading: z.string(),
+        subheading: z.string(),
+        viewAllLabel: z.string().optional(),
+      }),
     }),
     footer: z.object({
       tagline: z.string(),
@@ -239,6 +244,28 @@ const logs = defineCollection({
   }),
 });
 
+const songs = defineCollection({
+  loader: glob({ pattern: '**/{zh,ja,en}.md', base: './src/content/songs' }),
+  schema: z.object({
+    locale,
+    translationKey: z.string(),
+    title: z.string(),
+    artist: z.string(),
+    composer: z.string().optional(),
+    lyricist: z.string().optional(),
+    album: z.string().optional(),
+    duration: z.string().optional(),
+    releaseDate: z.string().optional(),
+    code: z.string().optional(),
+    categoryTitle: z.string().optional(),
+    categorySubtitle: z.string().optional(),
+    categoryOrder: z.number().optional(),
+    itemOrder: z.number().optional(),
+    image: z.string().optional(),
+    seo,
+  }),
+});
+
 const editGuide = defineCollection({
   loader: glob({ pattern: '{zh,ja,en}.md', base: './src/content/contribute/edit-guide' }),
   schema: z.object({
@@ -322,4 +349,5 @@ export const collections = {
   projects,
   logs,
   editGuide,
+  songs,
 };

@@ -7,6 +7,7 @@ import LogSection from '../../components/LogSection.astro';
 import ProjectsSection from '../../components/ProjectsSection.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import SiteNav from '../../components/SiteNav.astro';
+import SongsSection from '../../components/SongsSection.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { buildArtistCategories, buildDatabaseJumpLinks, buildLogCards, buildProjectCards, getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
@@ -25,6 +26,8 @@ const homeContent = getLocalizedSite(siteEntries, locale, defaultLocale);
 const artistEntries = getLocalizedEntries(await getCollection('artists'), locale, defaultLocale);
 const projectEntries = getLocalizedEntries(await getCollection('projects'), locale, defaultLocale);
 const logEntryCollection = getLocalizedEntries(await getCollection('logs'), locale, defaultLocale);
+const songEntries = getLocalizedEntries(await getCollection('songs'), locale, defaultLocale);
+const songs = songEntries.slice(0, 4);
 
 const artistCategories = buildArtistCategories(artistEntries);
 const databaseJumpLinks = buildDatabaseJumpLinks(artistCategories);
@@ -49,6 +52,7 @@ const metadata = buildHomeMetadata(homeContent, locale);
       section={homeContent.sections.database}
       locale={locale}
     />
+    <SongsSection songs={songs} section={homeContent.sections.songs} locale={locale} />
     <ContributorRoster mode="summary" locale={locale} />
     <ProjectsSection projects={projects} section={homeContent.sections.projects} />
     <LogSection logEntries={logEntries} section={homeContent.sections.log} />

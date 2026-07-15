@@ -29,6 +29,10 @@
       "href": "#database"
     },
     {
+      "label": "RHYTHM",
+      "href": "#songs"
+    },
+    {
       "label": "PROJECTS",
       "href": "#projects"
     },
@@ -73,13 +77,18 @@
       "subheading": "Observation targets",
       "expandLabel": "Expand all"
     },
+    "songs": {
+      "heading": "02. RHYTHM",
+      "subheading": "Music works",
+      "viewAllLabel": "VIEW ALL SONGS >>"
+    },
     "projects": {
-      "heading": "02. PROTOCOLS",
+      "heading": "03. PROTOCOLS",
       "subheading": "Derivative plans and projects",
       "viewAllLabel": "VIEW ALL PROTOCOLS >>"
     },
     "log": {
-      "heading": "03. LOG",
+      "heading": "04  . LOG",
       "subheading": "Observation log"
     }
   },
