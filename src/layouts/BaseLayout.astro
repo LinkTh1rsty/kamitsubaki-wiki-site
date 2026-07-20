@@ -56,6 +56,21 @@ const socialContactCopy = siteEntry?.data.socialContact;
 <html lang={lang} class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
+    <script is:inline>
+      (() => {
+        const storageKey = 'kamitsubaki-theme';
+        let theme = 'dark';
+
+        try {
+          const savedTheme = window.localStorage.getItem(storageKey);
+          if (savedTheme === 'light' || savedTheme === 'dark') theme = savedTheme;
+        } catch {
+          // Storage may be unavailable in privacy-restricted browsing contexts.
+        }
+
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{pageTitle}</title>
     <link rel="icon" type="image/svg+xml" href="/brand/kamitsubakiwiki-square.svg" />
@@ -103,6 +118,7 @@ const socialContactCopy = siteEntry?.data.socialContact;
     {aiChatCopy && <AiChatWidget lang={lang} copy={aiChatCopy} />}
 
     <script>
+      import '../scripts/themeToggle.js';
       import '../scripts/siteInteractions.js';
       import '../scripts/mediaSwitcher.js';
     </script>

@@ -21,6 +21,12 @@ const { navItems, localeLinks, brandLines, compact = false } = Astro.props as {
 };
 
 const { homeHref = '/' } = Astro.props as { homeHref?: string };
+const currentLocale = localeLinks.find((item) => item.current)?.code ?? 'en';
+const themeCopy = {
+  zh: { light: '浅色', dark: '深色', toLight: '切换至浅色模式', toDark: '切换至深色模式' },
+  ja: { light: 'ライト', dark: 'ダーク', toLight: 'ライトモードに切り替え', toDark: 'ダークモードに切り替え' },
+  en: { light: 'Light', dark: 'Dark', toLight: 'Switch to light mode', toDark: 'Switch to dark mode' },
+}[currentLocale] ?? { light: 'Light', dark: 'Dark', toLight: 'Switch to light mode', toDark: 'Switch to dark mode' };
 const resolvedNavItems = compact
   ? navItems.map((item) => ({
       ...item,
@@ -30,6 +36,7 @@ const resolvedNavItems = compact
 ---
 
 <nav class:list={[
+  'site-nav',
   'fixed top-0 w-full z-50 mix-blend-difference flex justify-between pointer-events-none',
   compact ? 'items-center px-4 py-4 md:px-8 md:py-5' : 'items-start px-6 py-8 md:px-12',
 ]}>
@@ -67,20 +74,41 @@ const resolvedNavItems = compact
     {resolvedNavItems.map((item) => (
       <a href={item.href} class="site-nav__link hidden md:inline hover:text-white/50 transition-all duration-300">{item.label}</a>
     ))}
-    <div class:list={[
-      'flex gap-3 font-mono tracking-widest text-[8px]',
-      compact ? 'mt-0' : 'mt-4',
-    ]} aria-label="Language switcher">
-      {localeLinks.map((item) => (
-        <a
-          href={item.href}
-          aria-current={item.current ? 'page' : undefined}
-          title={item.label}
-          class={item.current ? 'text-white' : 'text-white/35 hover:text-white transition-colors'}
-        >
-          {item.shortLabel}
-        </a>
-      ))}
+    <div class:list={['site-nav__controls', compact ? 'mt-0' : 'mt-4']}>
+      <div class="flex gap-3 font-mono tracking-widest text-[8px]" aria-label="Language switcher">
+        {localeLinks.map((item) => (
+          <a
+            href={item.href}
+            aria-current={item.current ? 'page' : undefined}
+            title={item.label}
+            class={item.current ? 'text-white' : 'text-white/35 hover:text-white transition-colors'}
+          >
+            {item.shortLabel}
+          </a>
+        ))}
+      </div>
+      <button
+        type="button"
+        class="site-nav__theme-toggle"
+        data-theme-toggle
+        data-light-label={themeCopy.light}
+        data-dark-label={themeCopy.dark}
+        data-light-aria={themeCopy.toLight}
+        data-dark-aria={themeCopy.toDark}
+        aria-label={themeCopy.toLight}
+        title={themeCopy.toLight}
+      >
+        <span class="site-nav__theme-icon" aria-hidden="true">
+          <svg class="site-nav__theme-sun" viewBox="0 0 16 16">
+            <circle cx="8" cy="8" r="2.5"></circle>
+            <path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.05 3.05l1.4 1.4M11.55 11.55l1.4 1.4M12.95 3.05l-1.4 1.4M4.45 11.55l-1.4 1.4"></path>
+          </svg>
+          <svg class="site-nav__theme-moon" viewBox="0 0 16 16">
+            <path d="M12.9 10.6A5.8 5.8 0 0 1 5.4 3.1 5.9 5.9 0 1 0 12.9 10.6Z"></path>
+          </svg>
+        </span>
+        <span data-theme-label>{themeCopy.light}</span>
+      </button>
     </div>
   </div>
 </nav>

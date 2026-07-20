@@ -67,13 +67,23 @@ const footerLogoAlt = getLocalizedSiteName(Astro.params.locale);
 
     <div class="mt-12 w-full pr-12 sm:mt-16 sm:pr-0">
       <img
-        src="/brand/kamitsubakiwiki-long.svg"
+        src="/brand/kamitsubakiwiki-long-dark.svg"
         alt={footerLogoAlt}
         width="1577"
         height="400"
         loading="lazy"
         decoding="async"
-        class="mx-auto h-auto w-full max-w-3xl invert opacity-25"
+        class="footer-brand-logo footer-brand-logo--dark mx-auto h-auto w-full max-w-3xl opacity-25"
+      />
+      <img
+        src="/brand/kamitsubakiwiki-long-light.svg"
+        alt=""
+        aria-hidden="true"
+        width="1577"
+        height="400"
+        loading="lazy"
+        decoding="async"
+        class="footer-brand-logo footer-brand-logo--light mx-auto h-auto w-full max-w-3xl opacity-25"
       />
     </div>
   </div>

@@ -288,7 +288,7 @@ function initials(name: string) {
     --manual-row-size: 5rem;
     --manual-grid-gap: clamp(1.25rem, 3vw, 2rem);
     margin: 0 0 clamp(2rem, 4vw, 2.75rem);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgb(var(--theme-fg-rgb) / 0.1);
   }
 
   .manual-contributors__header {
@@ -305,7 +305,7 @@ function initials(name: string) {
     font-size: clamp(1.2rem, 2.2vw, 1.7rem);
     font-weight: 400;
     letter-spacing: 0;
-    color: rgba(255, 255, 255, 0.92);
+    color: rgb(var(--theme-fg-rgb) / 0.92);
   }
 
   .manual-contributors__header p {
@@ -313,7 +313,7 @@ function initials(name: string) {
     margin: 0.55rem 0 0;
     font-size: 0.82rem;
     line-height: 1.65;
-    color: rgba(255, 255, 255, 0.56);
+    color: rgb(var(--theme-fg-rgb) / 0.56);
   }
 
   .manual-contributors__header > span {
@@ -321,7 +321,7 @@ function initials(name: string) {
     font-family: var(--font-mono);
     font-size: 0.68rem;
     letter-spacing: 0.12em;
-    color: rgba(255, 255, 255, 0.28);
+    color: rgb(var(--theme-fg-rgb) / 0.28);
   }
 
   .manual-contributors__grid-wrap {
@@ -338,7 +338,7 @@ function initials(name: string) {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: var(--manual-grid-gap);
-    border-top: 1px solid rgba(255, 255, 255, 0.075);
+    border-top: 1px solid rgb(var(--theme-fg-rgb) / 0.075);
   }
 
   .manual-contributors__card {
@@ -351,7 +351,7 @@ function initials(name: string) {
     align-items: center;
     gap: 0.85rem;
     border: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+    border-bottom: 1px solid rgb(var(--theme-fg-rgb) / 0.075);
     border-radius: 0;
     background: transparent;
     color: inherit;
@@ -364,7 +364,7 @@ function initials(name: string) {
     position: absolute;
     inset: 0 auto 0 -0.75rem;
     width: 2px;
-    background: var(--wiki-accent-color);
+    background: var(--theme-accent-color);
     content: '';
     opacity: 0;
     transition: opacity 180ms ease;
@@ -373,7 +373,7 @@ function initials(name: string) {
   .manual-contributors__card:hover,
   .manual-contributors__card:focus-visible,
   .manual-contributors__card[aria-expanded='true'] {
-    background: rgba(255, 255, 255, 0.018);
+    background: rgb(var(--theme-fg-rgb) / 0.018);
     outline: none;
   }
 
@@ -400,14 +400,14 @@ function initials(name: string) {
     aspect-ratio: 1 / 1;
     flex: 0 0 3.75rem;
     overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.14);
+    border: 1px solid rgb(var(--theme-fg-rgb) / 0.14);
     transition: border-color 180ms ease;
   }
 
   .manual-contributors__card:hover .manual-contributors__avatar,
   .manual-contributors__card:focus-visible .manual-contributors__avatar,
   .manual-contributors__card[aria-expanded='true'] .manual-contributors__avatar {
-    border-color: color-mix(in srgb, var(--wiki-accent-color) 52%, rgba(255, 255, 255, 0.25));
+    border-color: color-mix(in srgb, var(--theme-accent-color) 52%, rgb(var(--theme-fg-rgb) / 0.25));
   }
 
   .manual-contributors__avatar > img,
@@ -427,7 +427,7 @@ function initials(name: string) {
   .manual-contributors__avatar > span,
   .manual-contributors__detail-avatar > span {
     font-family: var(--font-mono);
-    color: rgba(255, 255, 255, 0.68);
+    color: rgb(var(--theme-fg-rgb) / 0.68);
   }
 
   .manual-contributors__avatar > span {
@@ -449,7 +449,7 @@ function initials(name: string) {
     line-height: 1.35;
     font-weight: 400;
     letter-spacing: 0;
-    color: rgba(255, 255, 255, 0.88);
+    color: rgb(var(--theme-fg-rgb) / 0.88);
     overflow-wrap: anywhere;
   }
 
@@ -457,7 +457,7 @@ function initials(name: string) {
     font-family: var(--font-mono);
     font-size: 0.68rem;
     letter-spacing: 0.09em;
-    color: rgba(255, 255, 255, 0.38);
+    color: rgb(var(--theme-fg-rgb) / 0.38);
   }
 
   .manual-contributors__toggle {
@@ -471,7 +471,7 @@ function initials(name: string) {
     font-family: var(--font-mono);
     font-size: 0.62rem;
     letter-spacing: 0.08em;
-    color: rgba(255, 255, 255, 0.45);
+    color: rgb(var(--theme-fg-rgb) / 0.45);
     cursor: pointer;
   }
 
@@ -509,8 +509,8 @@ function initials(name: string) {
     position: relative;
     margin-top: clamp(0.75rem, 1.5vw, 1rem);
     padding: clamp(1rem, 2vw, 1.5rem) 0;
-    border-top: 1px solid color-mix(in srgb, var(--wiki-accent-color) 28%, rgba(255, 255, 255, 0.08));
-    border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+    border-top: 1px solid color-mix(in srgb, var(--theme-accent-color) 28%, rgb(var(--theme-fg-rgb) / 0.08));
+    border-bottom: 1px solid rgb(var(--theme-fg-rgb) / 0.075);
   }
 
   .manual-contributors__drawer-close {
@@ -523,13 +523,13 @@ function initials(name: string) {
     background: transparent;
     font-family: var(--font-mono);
     font-size: 1rem;
-    color: rgba(255, 255, 255, 0.35);
+    color: rgb(var(--theme-fg-rgb) / 0.35);
     cursor: pointer;
   }
 
   .manual-contributors__drawer-close:hover,
   .manual-contributors__drawer-close:focus-visible {
-    color: white;
+    color: var(--theme-fg);
     outline: none;
   }
 
@@ -568,7 +568,7 @@ function initials(name: string) {
     aspect-ratio: 1 / 1;
     flex: 0 0 4.25rem;
     overflow: hidden;
-    border: 1px solid color-mix(in srgb, var(--wiki-accent-color) 38%, rgba(255, 255, 255, 0.12));
+    border: 1px solid color-mix(in srgb, var(--theme-accent-color) 38%, rgb(var(--theme-fg-rgb) / 0.12));
   }
 
   .manual-contributors__detail-avatar > span {
@@ -580,7 +580,7 @@ function initials(name: string) {
     font-family: var(--font-mono);
     font-size: 0.7rem;
     letter-spacing: 0.08em;
-    color: color-mix(in srgb, var(--wiki-accent-color) 72%, white 12%);
+    color: color-mix(in srgb, var(--theme-accent-color) 72%, var(--theme-fg) 12%);
   }
 
   .manual-contributors__identity h4 {
@@ -589,14 +589,14 @@ function initials(name: string) {
     font-size: clamp(1.15rem, 2vw, 1.45rem);
     font-weight: 400;
     letter-spacing: 0;
-    color: rgba(255, 255, 255, 0.92);
+    color: rgb(var(--theme-fg-rgb) / 0.92);
   }
 
   .manual-contributors__bio > p {
     margin: 0;
     font-size: 0.82rem;
     line-height: 1.65;
-    color: rgba(255, 255, 255, 0.62);
+    color: rgb(var(--theme-fg-rgb) / 0.62);
   }
 
   .manual-contributors__contacts {
@@ -609,7 +609,7 @@ function initials(name: string) {
   }
 
   .manual-contributors__contacts > span {
-    color: rgba(255, 255, 255, 0.28);
+    color: rgb(var(--theme-fg-rgb) / 0.28);
   }
 
   .manual-contributors__contacts > div {
@@ -622,28 +622,28 @@ function initials(name: string) {
   .manual-contributors__contacts strong {
     display: inline-flex;
     gap: 0.3rem;
-    color: rgba(255, 255, 255, 0.72);
+    color: rgb(var(--theme-fg-rgb) / 0.72);
     font-weight: 400;
     text-decoration: none;
   }
 
   .manual-contributors__contacts a:hover,
   .manual-contributors__contacts a:focus-visible {
-    color: white;
+    color: var(--theme-fg);
   }
 
   .manual-contributors__detail blockquote {
     grid-column: 1 / -1;
     margin: 0;
     padding: clamp(0.8rem, 1.5vw, 1rem) 0 0 clamp(5.25rem, 10vw, 8rem);
-    border-top: 1px solid rgba(255, 255, 255, 0.075);
+    border-top: 1px solid rgb(var(--theme-fg-rgb) / 0.075);
   }
 
   .manual-contributors__detail blockquote span {
     font-family: var(--font-mono);
     font-size: 0.68rem;
     letter-spacing: 0.12em;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgb(var(--theme-fg-rgb) / 0.3);
   }
 
   .manual-contributors__detail blockquote p {
@@ -652,18 +652,18 @@ function initials(name: string) {
     max-width: 52rem;
     font-size: clamp(0.95rem, 1.5vw, 1.08rem);
     line-height: 1.65;
-    color: rgba(255, 255, 255, 0.74);
+    color: rgb(var(--theme-fg-rgb) / 0.74);
   }
 
   .manual-contributors__empty {
     margin: 0;
     padding: 1.3rem 0 1.7rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid rgb(var(--theme-fg-rgb) / 0.08);
     font-family: var(--font-mono);
     font-size: 0.68rem;
     line-height: 1.7;
     letter-spacing: 0.06em;
-    color: rgba(255, 255, 255, 0.38);
+    color: rgb(var(--theme-fg-rgb) / 0.38);
   }
 
   @media (max-width: 760px) {
@@ -708,7 +708,7 @@ function initials(name: string) {
 
     .manual-contributors__detail blockquote {
       padding: 0.9rem 0 0;
-      border-top: 1px solid color-mix(in srgb, var(--wiki-accent-color) 24%, rgba(255, 255, 255, 0.08));
+      border-top: 1px solid color-mix(in srgb, var(--theme-accent-color) 24%, rgb(var(--theme-fg-rgb) / 0.08));
     }
   }
 

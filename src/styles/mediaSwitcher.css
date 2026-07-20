@@ -1,8 +1,8 @@
 .wiki-prose .wiki-media-switcher {
   width: 100%;
   margin: 2rem 0;
-  border-block: 1px solid color-mix(in srgb, var(--wiki-accent-color) 18%, rgba(255, 255, 255, 0.1));
-  background: color-mix(in srgb, var(--wiki-accent-color) 3%, rgba(3, 7, 10, 0.5));
+  border-block: 1px solid color-mix(in srgb, var(--theme-accent-color) 18%, rgb(var(--theme-fg-rgb) / 0.1));
+  background: color-mix(in srgb, var(--theme-accent-color) 3%, rgb(var(--theme-panel-rgb) / 0.5));
 }
 
 .wiki-prose .wiki-media-switcher__header {
@@ -16,7 +16,7 @@
 .wiki-prose .wiki-media-switcher__title {
   flex: 0 1 auto;
   margin: 0;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(var(--theme-fg-rgb) / 0.7);
   font-family: var(--font-sans);
   font-size: 0.78rem;
   font-weight: 500;
@@ -44,7 +44,7 @@
   border: 0;
   border-bottom: 1px solid transparent;
   background: transparent;
-  color: rgba(255, 255, 255, 0.46);
+  color: rgb(var(--theme-fg-rgb) / 0.46);
   cursor: pointer;
   font-family: var(--font-mono);
   font-size: 0.62rem;
@@ -54,17 +54,17 @@
 }
 
 .wiki-prose .wiki-media-switcher__tab:hover {
-  color: rgba(255, 255, 255, 0.82);
+  color: rgb(var(--theme-fg-rgb) / 0.82);
 }
 
 .wiki-prose .wiki-media-switcher__tab[aria-selected='true'] {
-  border-color: color-mix(in srgb, var(--wiki-accent-color) 72%, white);
-  background: color-mix(in srgb, var(--wiki-accent-color) 8%, transparent);
-  color: color-mix(in srgb, var(--wiki-accent-color) 54%, white);
+  border-color: color-mix(in srgb, var(--theme-accent-color) 72%, var(--theme-fg));
+  background: color-mix(in srgb, var(--theme-accent-color) 8%, transparent);
+  color: color-mix(in srgb, var(--theme-accent-color) 54%, var(--theme-fg));
 }
 
 .wiki-prose .wiki-media-switcher__tab:focus-visible {
-  outline: 1px solid color-mix(in srgb, var(--wiki-accent-color) 70%, white);
+  outline: 1px solid color-mix(in srgb, var(--theme-accent-color) 70%, var(--theme-fg));
   outline-offset: -2px;
 }
 
@@ -94,9 +94,9 @@
 
 .wiki-prose .wiki-media-switcher__panel > :is(.wiki-embed--apple-music, .wiki-embed--netease) .wiki-embed__frame {
   overflow: hidden;
-  border: 1px solid color-mix(in srgb, var(--wiki-accent-color) 22%, rgba(255, 255, 255, 0.14));
+  border: 1px solid color-mix(in srgb, var(--theme-accent-color) 22%, rgb(var(--theme-fg-rgb) / 0.14));
   border-radius: 0.65rem;
-  background: rgba(255, 255, 255, 0.96);
+  background: rgb(var(--theme-fg-rgb) / 0.96);
   box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.22);
 }
 
