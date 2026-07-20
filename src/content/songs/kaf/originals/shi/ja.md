@@ -14,6 +14,7 @@ categorySubtitle: ORIGINALS
 categoryOrder: 10
 itemOrder: 1
 code: KO1
+image: /images/albums/kaf/flower-and-heart.jpg
 ---
 
 ## 紹介
@@ -210,3 +211,8 @@ code: KO1
 </div>
 
 </div>
+
+## 出典
+
+- [花譜オフィシャルサイト](https://kaf.kamitsubaki.jp/discography/20190515/90/)
+- [Apple Music 日本](https://music.apple.com/jp/album/%E7%B3%B8/1688156968?i=1688156969&uo=4)

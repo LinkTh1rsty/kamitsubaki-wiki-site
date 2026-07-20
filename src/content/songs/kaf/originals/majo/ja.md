@@ -14,6 +14,7 @@ categorySubtitle: ORIGINALS
 categoryOrder: 10
 itemOrder: 3
 code: KO3
+image: /images/albums/kaf/flower-and-heart.jpg
 ---
 
 ## 紹介
@@ -32,3 +33,8 @@ code: KO3
 ## 歌詞
 
 歌詞、ルビ、翻訳は利用可能な出典を確認しながら整備します。
+
+## 出典
+
+- [花譜オフィシャルサイト](https://kaf.kamitsubaki.jp/discography/20190515/90/)
+- [Apple Music 日本](https://music.apple.com/jp/album/%E9%AD%94%E5%A5%B3/1688156968?i=1688156970&uo=4)

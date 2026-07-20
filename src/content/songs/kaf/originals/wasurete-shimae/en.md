@@ -14,6 +14,7 @@ categorySubtitle: ORIGINALS
 categoryOrder: 10
 itemOrder: 4
 code: KO4
+image: /images/albums/kaf/kansoku.jpg
 ---
 
 ## Introduction
@@ -32,3 +33,8 @@ KAF's fourth original song, written, composed, and arranged by Iori Kanzaki.
 ## Lyrics
 
 Lyrics, readings, and translations will be added from appropriately licensed sources.
+
+## Sources
+
+- [KAF Official Website](https://kaf.kamitsubaki.jp/discography/20190911/107/)
+- [Apple Music Japan](https://music.apple.com/jp/album/%E5%BF%98%E3%82%8C%E3%81%A6%E3%81%97%E3%81%BE%E3%81%88/1688351143?i=1688351146&uo=4)

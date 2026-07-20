@@ -14,6 +14,7 @@ categorySubtitle: ORIGINALS
 categoryOrder: 10
 itemOrder: 7
 code: KO7
+image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 ---
 
 ## 紹介
@@ -32,3 +33,8 @@ code: KO7
 ## 歌詞
 
 歌詞・読み・翻訳は、利用可能な出典を確認したうえで追加予定です。
+
+## 出典
+
+- [花譜オフィシャルサイト](https://kaf.kamitsubaki.jp/discography/20190628/106/)
+- [Apple Music 日本](https://music.apple.com/jp/album/%E5%A4%9C%E3%81%8C%E9%99%8D%E3%82%8A%E6%AD%A2%E3%82%80%E5%89%8D%E3%81%AB/1688671784?i=1688671785&uo=4)

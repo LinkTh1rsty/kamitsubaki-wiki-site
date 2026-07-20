@@ -14,6 +14,7 @@ categorySubtitle: ORIGINALS
 categoryOrder: 10
 itemOrder: 9
 code: KO9
+image: /images/albums/kaf/kansoku.jpg
 ---
 
 ## Introduction
@@ -32,3 +33,8 @@ KAF's ninth original song, written, composed, and arranged by Iori Kanzaki.
 ## Lyrics
 
 Lyrics, readings, and translations will be added from appropriately licensed sources.
+
+## Sources
+
+- [KAF Official Website](https://kaf.kamitsubaki.jp/discography/20190911/107/)
+- [Apple Music Japan](https://music.apple.com/jp/album/quiz/1688351143?i=1688351148&uo=4)

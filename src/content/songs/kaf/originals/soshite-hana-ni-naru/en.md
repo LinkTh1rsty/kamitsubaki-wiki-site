@@ -14,6 +14,7 @@ categorySubtitle: ORIGINALS
 categoryOrder: 10
 itemOrder: 8
 code: KO8
+image: /images/albums/kaf/kansoku.jpg
 ---
 
 ## Introduction
@@ -32,3 +33,8 @@ KAF's eighth original song, written, composed, and arranged by Iori Kanzaki.
 ## Lyrics
 
 Lyrics, readings, and translations will be added from appropriately licensed sources.
+
+## Sources
+
+- [KAF Official Website](https://kaf.kamitsubaki.jp/discography/20190911/107/)
+- [Apple Music Japan](https://music.apple.com/jp/album/%E3%81%9D%E3%81%97%E3%81%A6%E8%8A%B1%E3%81%AB%E3%81%AA%E3%82%8B/1688351143?i=1688351158&uo=4)

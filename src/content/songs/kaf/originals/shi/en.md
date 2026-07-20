@@ -14,6 +14,7 @@ categorySubtitle: ORIGINALS
 categoryOrder: 10
 itemOrder: 1
 code: KO1
+image: /images/albums/kaf/flower-and-heart.jpg
 ---
 
 ## Introduction
@@ -241,3 +242,8 @@ The very first original song of KAF.
 </div>
 
 </div>
+
+## Sources
+
+- [KAF Official Website](https://kaf.kamitsubaki.jp/discography/20190515/90/)
+- [Apple Music Japan](https://music.apple.com/jp/album/%E7%B3%B8/1688156968?i=1688156969&uo=4)

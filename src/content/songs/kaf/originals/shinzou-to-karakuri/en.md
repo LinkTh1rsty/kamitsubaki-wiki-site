@@ -14,6 +14,7 @@ categorySubtitle: ORIGINALS
 categoryOrder: 10
 itemOrder: 2
 code: KO2
+image: /images/albums/kaf/flower-and-heart.jpg
 ---
 
 ## Introduction
@@ -32,3 +33,8 @@ KAF's second original song, written, composed, and arranged by Iori Kanzaki.
 ## Lyrics
 
 Lyrics, readings, and translations will be added from appropriately licensed sources.
+
+## Sources
+
+- [KAF Official Website](https://kaf.kamitsubaki.jp/discography/20190515/90/)
+- [Apple Music Japan](https://music.apple.com/jp/album/%E5%BF%83%E8%87%93%E3%81%A8%E7%B5%A1%E7%B9%B0/1688156968?i=1688156971&uo=4)

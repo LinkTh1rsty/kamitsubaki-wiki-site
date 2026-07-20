@@ -14,6 +14,7 @@ categorySubtitle: ORIGINALS
 categoryOrder: 10
 itemOrder: 5
 code: KO5
+image: /images/albums/kaf/kansoku.jpg
 ---
 
 ## 紹介
@@ -32,3 +33,8 @@ code: KO5
 ## 歌詞
 
 歌詞・読み・翻訳は、利用可能な出典を確認したうえで追加予定です。
+
+## 出典
+
+- [花譜オフィシャルサイト](https://kaf.kamitsubaki.jp/discography/20190911/107/)
+- [Apple Music 日本](https://music.apple.com/jp/album/%E9%9B%9B%E9%B3%A5/1688351143?i=1688351155&uo=4)

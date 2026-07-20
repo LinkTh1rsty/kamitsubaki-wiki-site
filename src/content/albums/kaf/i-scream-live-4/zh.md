@@ -1,27 +1,140 @@
 ---
 locale: zh
 translationKey: kaf_i_scream_live_4
-title: I SCREAM LIVE4 - Cover Live Album -
+title: "I SCREAM LIVE4 - Cover Live Album -"
 artist: 花譜
-type: 翻唱现场专辑
+type: "现场专辑"
+description: "“I SCREAM LIVE”翻唱现场系列第四作，收录二十首现场演唱，并包含多首合作舞台。"
 releaseDate: "2026-01-14"
-label: PHENOMENON RECORD / avex trax
-catalogNumber: ANTCD-A0000019094
+label: "PHENOMENON RECORD / avex trax"
+catalogNumber: "ANTCD-A0000019094"
 trackCount: 20
-categoryTitle: 专辑
+duration: "1:25:49"
+categoryTitle: "专辑"
 categorySubtitle: ALBUMS
 categoryOrder: 1
-itemOrder: 3
+itemOrder: 2
 image: /images/albums/kaf/i-scream-live-4.jpg
 officialLinks:
-  - label: Apple Music 日本区
-    href: https://music.apple.com/jp/album/i-scream-live4-cover-live-album/1864122479
+  - label: "Apple Music 日本区"
+    href: https://music.apple.com/jp/album/i-scream-live4-cover-live-album/1864122479?uo=4
+tracks:
+  -
+    number: "1"
+    title: "swim"
+    duration: "03:46"
+    songId: "kaf/covers/track-1864122480"
+  -
+    number: "2"
+    title: "虎視眈々と淡々と"
+    duration: "04:16"
+    songId: "kaf/covers/track-1864122661"
+  -
+    number: "3"
+    title: "鏡面の波"
+    duration: "04:29"
+    songId: "kaf/covers/track-1864122662"
+  -
+    number: "4"
+    title: "ひこうき雲"
+    duration: "03:59"
+    songId: "kaf/covers/track-1864122663"
+  -
+    number: "5"
+    title: "new world (feat. ヰ世界情緒)"
+    duration: "05:14"
+    songId: "kaf/covers/track-1864122664"
+  -
+    number: "6"
+    title: "ニウ"
+    duration: "03:39"
+    songId: "kaf/covers/track-1864122665"
+  -
+    number: "7"
+    title: "ふやけた友達"
+    duration: "03:09"
+    songId: "kaf/covers/track-1864122666"
+  -
+    number: "8"
+    title: "aimai (feat. 鎖那)"
+    duration: "03:12"
+    songId: "kaf/covers/track-1864122667"
+  -
+    number: "9"
+    title: "行きたくない"
+    duration: "04:33"
+    songId: "kaf/covers/track-1864122668"
+  -
+    number: "10"
+    title: "この星につっぷしながら"
+    duration: "05:49"
+    songId: "kaf/covers/track-1864122669"
+  -
+    number: "11"
+    title: "初恋"
+    duration: "05:20"
+    songId: "kaf/covers/track-1864122670"
+  -
+    number: "12"
+    title: "異星人と熱帯夜"
+    duration: "05:01"
+    songId: "kaf/covers/track-1864122671"
+  -
+    number: "13"
+    title: "日本の夏"
+    duration: "03:28"
+    songId: "kaf/covers/track-1864122672"
+  -
+    number: "14"
+    title: "まつり"
+    duration: "03:42"
+    songId: "kaf/covers/track-1864122673"
+  -
+    number: "15"
+    title: "アダルト"
+    duration: "04:07"
+    songId: "kaf/covers/track-1864122674"
+  -
+    number: "16"
+    title: "猛暑です e.p ver"
+    duration: "04:41"
+    songId: "kaf/covers/track-1864122675"
+  -
+    number: "17"
+    title: "ルシファー"
+    duration: "03:25"
+    songId: "kaf/covers/track-1864122676"
+  -
+    number: "18"
+    title: "サラウンド"
+    duration: "05:18"
+    songId: "kaf/covers/track-1864122677"
+  -
+    number: "19"
+    title: "渚にまつわるエトセトラ"
+    duration: "03:49"
+    songId: "kaf/covers/track-1864122678"
+  -
+    number: "20"
+    title: "1984"
+    duration: "04:52"
+    songId: "kaf/covers/track-1864122679"
 ---
 
-## 概要
+## 作品简介
 
-“I SCREAM LIVE”系列第四作，以翻唱现场为核心的现场专辑。
+“I SCREAM LIVE”翻唱现场系列第四作，收录二十首现场演唱，并包含多首合作舞台。
 
-## 曲目
+## 发行与版本
 
-全 20 曲，详细曲目与演出资料待核对后补充。
+- 发行日期、曲序与时长以官方作品页和 Apple Music 日本区资料交叉核对。
+- 本页曲目表已按官方发行顺序校对；除 MC 外，每一轨均链接到独立歌曲或版本词条。
+
+## 曲目说明
+
+本发行共 20 轨，页面上方曲目表保留碟号、顺序、时长、合作艺人及站内歌曲链接。
+
+## 来源
+
+- [Apple Music 日本区](https://music.apple.com/jp/album/i-scream-live4-cover-live-album/1864122479?uo=4)
+- [VGMdb 花譜作品目录](https://vgmdb.net/artist/34690)

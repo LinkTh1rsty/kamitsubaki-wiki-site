@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFile, readdir, stat } from 'node:fs/promises';
+import { access, readFile, readdir, stat } from 'node:fs/promises';
 import test from 'node:test';
 import { parse } from 'yaml';
 
@@ -7,8 +7,11 @@ import { renderMarkdownFragment } from '../src/lib/markdown.mjs';
 
 const projectRoot = new URL('../', import.meta.url);
 const locales = ['zh', 'ja', 'en'];
+const providers = ['bilibili', 'youtube', 'apple-music', 'netease'];
 
 const albums = [
+  'flower-and-heart',
+  'gsa',
   'guwa',
   'guwa-gamma',
   'i-scream-live',
@@ -19,25 +22,30 @@ const albums = [
   'kansoku-gamma',
   'kyoso',
   'kyoso-gamma',
+  'love-and-flower',
   'maho',
   'maho-gamma',
   'shinai',
+  'suite',
   'tomadoi-telepathy',
   'yoru-ga-furiyamu-mae-ni',
 ];
 
-const songs = [
-  ['shi', 'BV1CJ411b7Ym', '3Wtx6k2vInU', '1688351145', '1399849873'],
-  ['shinzou-to-karakuri', 'BV1cJ41187UD', 'hcm1LGOxJbc', '1688351147', '1399847991'],
-  ['majo', 'BV1FJ41187QY', 'AqwFHfsAlx0', '1688156970', '1365461591'],
-  ['wasurete-shimae', 'BV1wJ41187mP', '2Nj1l-S2FJU', '1688351146', '1399847997'],
-  ['hinadori', 'BV1wJ411873J', 'M1RIUrgJqWw', '1688351155', '1399847994'],
-  ['kako-wo-kurau', 'BV1wJ41187Kd', 'tMKrECxEpq8', '1688351153', '1399847996'],
-  ['yoru-ga-furiyamu-mae-ni', 'BV1wJ41187KH', 'dledRqPTNT8', '1688351156', '1399849875'],
-  ['soshite-hana-ni-naru', 'BV1AJ41187Qi', 'y6TGSY9Zll0', '1688351158', '1399849878'],
-  ['quiz', 'BV1AJ41187pR', 'n0ov2G-_UvU', '1688351148', '1399847995'],
-  ['yakou-bus-nite', 'BV1AJ411875A', 'RDnArlYduBs', '1688351150', '1399847993'],
-];
+const expectedSongCounts = {
+  collaborations: 7,
+  covers: 93,
+  instrumentals: 14,
+  originals: 69,
+  remixes: 62,
+  suites: 18,
+};
+
+const appleOnlyAlbums = new Set([
+  'guwa-gamma',
+  'i-scream-live-2',
+  'i-scream-live-3',
+  'i-scream-live-4',
+]);
 
 function fileUrl(path) {
   return new URL(path, projectRoot);
@@ -48,6 +56,13 @@ async function readEntry(path) {
   const match = source.match(/^---\n([\s\S]*?)\n---\n/);
   assert.ok(match, `${path} must contain frontmatter`);
   return { source, data: parse(match[1]) };
+}
+
+async function directories(path) {
+  return (await readdir(fileUrl(path), { withFileTypes: true }))
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort();
 }
 
 function readJpegDimensions(buffer) {
@@ -79,79 +94,151 @@ function readJpegDimensions(buffer) {
   throw new Error('JPEG dimensions not found');
 }
 
-test('KAF album catalog contains 15 localized releases with original Apple Music artwork', async () => {
-  const albumDirectories = (await readdir(fileUrl('src/content/albums/kaf'), { withFileTypes: true }))
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => entry.name)
-    .sort();
+async function assertHighQualitySquareCover(path, minimumWidth = 1500) {
+  const cover = await readFile(fileUrl(path));
+  const coverStats = await stat(fileUrl(path));
+  const dimensions = readJpegDimensions(cover);
+  assert.ok(coverStats.size > 100_000, `${path} must not be a thumbnail`);
+  assert.ok(dimensions.width >= minimumWidth, `${path} must be at least ${minimumWidth}px wide`);
+  assert.equal(dimensions.width, dimensions.height, `${path} must remain square`);
+}
 
-  assert.deepEqual(albumDirectories, [...albums].sort());
+test('KAF catalog contains 19 complete, localized releases and high-resolution artwork', async () => {
+  assert.deepEqual(await directories('src/content/albums/kaf'), [...albums].sort());
+
+  let totalTracks = 0;
+  let linkedTracks = 0;
 
   for (const album of albums) {
     const translations = await Promise.all(
       locales.map((locale) => readEntry(`src/content/albums/kaf/${album}/${locale}.md`)),
     );
-    const translationKeys = new Set(translations.map(({ data }) => data.translationKey));
-    assert.equal(translationKeys.size, 1, `${album} translations must share a key`);
+    const [canonical, ...localized] = translations;
+    assert.equal(new Set(translations.map(({ data }) => data.translationKey)).size, 1);
+    assert.ok(canonical.data.tracks.length > 0, `${album} must include its track list`);
+    assert.equal(canonical.data.trackCount, canonical.data.tracks.length, `${album} trackCount must match tracks`);
 
-    for (const { data, source } of translations) {
-      assert.equal(data.image, `/images/albums/kaf/${album}.jpg`);
-      assert.match(data.officialLinks[0].href, /^https:\/\/music\.apple\.com\/jp\/album\//);
-      assert.doesNotMatch(source, /placehold|200x200/i);
+    for (const { data, source } of localized) {
+      assert.equal(data.trackCount, canonical.data.trackCount, `${album} track counts must match across locales`);
+      assert.deepEqual(data.tracks, canonical.data.tracks, `${album} track metadata must match across locales`);
+      assert.doesNotMatch(source, /placehold|待补|未定|TBD/i);
+      assert.match(source, /https:\/\/vgmdb\.net\/artist\/34690/);
     }
 
-    const coverPath = `public/images/albums/kaf/${album}.jpg`;
-    const cover = await readFile(fileUrl(coverPath));
-    const coverStats = await stat(fileUrl(coverPath));
-    const dimensions = readJpegDimensions(cover);
-    assert.ok(coverStats.size > 100_000, `${album} cover must not be a thumbnail`);
-    assert.ok(dimensions.width >= 1500, `${album} cover must be at least 1500px wide`);
-    assert.equal(dimensions.width, dimensions.height, `${album} cover must remain square`);
+    for (const { data } of translations) {
+      assert.equal(data.image, `/images/albums/kaf/${album}.jpg`);
+      if (!appleOnlyAlbums.has(album)) {
+        assert.ok(data.officialLinks.some(({ href }) => href.startsWith('https://kaf.kamitsubaki.jp/')));
+      }
+      if (album !== 'suite') {
+        assert.ok(data.officialLinks.some(({ href }) => href.startsWith('https://music.apple.com/jp/album/')));
+      }
+    }
+
+    for (const track of canonical.data.tracks) {
+      totalTracks += 1;
+      if (/^MC/i.test(track.title)) {
+        assert.equal(track.songId, undefined, `${album} MC tracks should not create song entries`);
+      } else {
+        assert.match(track.songId, /^kaf\//, `${album} ${track.title} must link to a song entry`);
+        linkedTracks += 1;
+      }
+    }
+
+    await assertHighQualitySquareCover(`public/images/albums/kaf/${album}.jpg`);
+  }
+
+  assert.equal(totalTracks, 278);
+  assert.equal(linkedTracks, 256);
+});
+
+test('every KAF album track resolves to one trilingual song entry', async () => {
+  const songIds = new Set();
+
+  for (const album of albums) {
+    const { data } = await readEntry(`src/content/albums/kaf/${album}/zh.md`);
+    for (const track of data.tracks) {
+      if (track.songId) songIds.add(track.songId);
+    }
+  }
+
+  for (const songId of songIds) {
+    for (const locale of locales) {
+      await access(fileUrl(`src/content/songs/${songId}/${locale}.md`));
+    }
   }
 });
 
-test('KAF first 10 original songs use localized, ordered aggregate media embeds', async () => {
-  const songDirectories = (await readdir(fileUrl('src/content/songs/kaf/originals'), { withFileTypes: true }))
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => entry.name)
+test('KAF song catalog has 263 localized songs and ordered aggregate players', async () => {
+  assert.deepEqual(await directories('src/content/songs/kaf'), Object.keys(expectedSongCounts).sort());
+
+  let totalSongs = 0;
+  for (const [category, expectedCount] of Object.entries(expectedSongCounts)) {
+    const songDirectories = await directories(`src/content/songs/kaf/${category}`);
+    assert.equal(songDirectories.length, expectedCount, `${category} song count must stay complete`);
+    totalSongs += songDirectories.length;
+
+    for (const song of songDirectories) {
+      const translations = await Promise.all(
+        locales.map((locale) => readEntry(`src/content/songs/kaf/${category}/${song}/${locale}.md`)),
+      );
+      assert.equal(new Set(translations.map(({ data }) => data.translationKey)).size, 1);
+
+      for (const { data, source } of translations) {
+        assert.equal(data.artistId, 'kaf');
+        assert.ok(data.image?.startsWith('/images/'), `${category}/${song} must use local artwork`);
+        await access(fileUrl(`public/${data.image.slice(1)}`));
+        assert.doesNotMatch(source, /<iframe\b|placehold|待补|未定|TBD/i);
+      }
+
+      const { source } = translations[0];
+      const shortcodeLines = source.match(/^@\[[^\]]+\]\([^\n]+\)$/gm) || [];
+      const aggregateSource = source.match(/\{\{media-switcher::[^\n]+\}\}[\s\S]*?\{\{\/media-switcher\}\}/)?.[0];
+      if (shortcodeLines.length === 1) {
+        assert.equal(aggregateSource, undefined, `${category}/${song} must not wrap one provider in a switcher`);
+        const standaloneHtml = await renderMarkdownFragment(shortcodeLines[0]);
+        assert.equal((standaloneHtml.match(/<iframe /g) || []).length, 1);
+        continue;
+      }
+      if (shortcodeLines.length === 0) {
+        assert.equal(aggregateSource, undefined);
+        continue;
+      }
+      assert.ok(aggregateSource, `${category}/${song} must aggregate multiple providers`);
+
+      const providerOffsets = providers
+        .map((provider) => [provider, aggregateSource.indexOf(`@[${provider}](`)])
+        .filter(([, offset]) => offset >= 0);
+      assert.deepEqual(
+        providerOffsets.map(([, offset]) => offset),
+        providerOffsets.map(([, offset]) => offset).sort((a, b) => a - b),
+        `${category}/${song} providers must remain Bilibili, YouTube, Apple Music, NetEase`,
+      );
+
+      const aggregateHtml = await renderMarkdownFragment(aggregateSource);
+      assert.equal(
+        (aggregateHtml.match(/data-media-switcher-tab/g) || []).length,
+        providerOffsets.length,
+        `${category}/${song} must render one tab per provider`,
+      );
+      assert.equal(
+        (aggregateHtml.match(/<iframe /g) || []).length,
+        providerOffsets.length,
+        `${category}/${song} must render one player per provider`,
+      );
+    }
+  }
+
+  assert.equal(totalSongs, 263);
+});
+
+test('KAF single artwork uses native-resolution square JPEG files', async () => {
+  const artwork = (await readdir(fileUrl('public/images/songs/kaf')))
+    .filter((file) => file.endsWith('.jpg'))
     .sort();
 
-  assert.deepEqual(songDirectories, songs.map(([slug]) => slug).sort());
-
-  for (const [index, [song, bv, youtube, appleMusic, netease]] of songs.entries()) {
-    const translations = await Promise.all(
-      locales.map((locale) => readEntry(`src/content/songs/kaf/originals/${song}/${locale}.md`)),
-    );
-    const translationKeys = new Set(translations.map(({ data }) => data.translationKey));
-    assert.equal(translationKeys.size, 1, `${song} translations must share a key`);
-
-    for (const { data, source } of translations) {
-      assert.equal(data.artistId, 'kaf');
-      assert.equal(data.itemOrder, index + 1);
-      assert.equal(data.code, `KO${index + 1}`);
-      assert.equal(data.image, undefined, `${song} must use artist artwork only through the rendering fallback`);
-      assert.match(source, /\{\{media-switcher::[^\n]+\}\}/);
-      assert.match(source, /\{\{\/media-switcher\}\}/);
-      assert.match(source, new RegExp(`@\\[bilibili\\]\\(${bv.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`));
-      assert.match(source, new RegExp(`@\\[youtube\\]\\(${youtube.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`));
-      assert.match(source, new RegExp(`@\\[apple-music\\]\\(https://music\\.apple\\.com/jp/song/${appleMusic}`));
-      assert.match(source, new RegExp(`@\\[netease\\]\\(${netease}`));
-
-      const providerOffsets = ['bilibili', 'youtube', 'apple-music', 'netease']
-        .map((provider) => source.indexOf(`@[${provider}](`));
-      assert.ok(providerOffsets.every((offset) => offset >= 0), `${song} must include all four media providers`);
-      assert.deepEqual(
-        providerOffsets,
-        [...providerOffsets].sort((a, b) => a - b),
-        `${song} providers must stay ordered as Bilibili, YouTube, Apple Music, NetEase`,
-      );
-      const aggregateSource = source.match(/\{\{media-switcher::[^\n]+\}\}[\s\S]*?\{\{\/media-switcher\}\}/)?.[0];
-      assert.ok(aggregateSource, `${song} must contain a complete aggregate media block`);
-      const aggregateHtml = await renderMarkdownFragment(aggregateSource);
-      assert.equal((aggregateHtml.match(/data-media-switcher-tab/g) || []).length, 4);
-      assert.equal((aggregateHtml.match(/<iframe /g) || []).length, 4);
-      assert.doesNotMatch(source, /<iframe\b/i);
-      assert.doesNotMatch(source, /placehold/i);
-    }
+  assert.equal(artwork.length, 35);
+  for (const file of artwork) {
+    await assertHighQualitySquareCover(`public/images/songs/kaf/${file}`, 1600);
   }
 });
