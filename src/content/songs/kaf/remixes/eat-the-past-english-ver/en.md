@@ -24,7 +24,7 @@ image: /images/songs/kaf/track-1817085907.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -393,8 +393,6 @@ Eating up the memory of the past
 </div>
 
 </div>
-
-
 
 ## Sources
 

@@ -28,7 +28,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -187,5 +187,3 @@ Todoke tsudzukeru yakusoku no merodii
 </div>
 
 </div>
-
-

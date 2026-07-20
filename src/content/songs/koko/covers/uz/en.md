@@ -22,7 +22,7 @@ Uz appears on ARARE LIVE or a related official release. Entries are version-spec
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -159,5 +159,3 @@ Uz misch ned
 </div>
 
 </div>
-
-

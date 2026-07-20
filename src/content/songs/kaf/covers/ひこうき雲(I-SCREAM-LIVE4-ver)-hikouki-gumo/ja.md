@@ -188,8 +188,6 @@ Todoke tsudzukeru yakusoku no merodii
 
 </div>
 
-
-
 ## 出典
 
 - [Apple Music](https://music.apple.com/jp/album/%E3%81%B2%E3%81%93%E3%81%86%E3%81%8D%E9%9B%B2/1864122479?i=1864122663&uo=4)

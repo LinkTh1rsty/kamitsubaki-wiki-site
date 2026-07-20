@@ -27,202 +27,200 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-霞の中 滲むシルエット
+<ruby>霞<rt class="furi">かすみ</rt><rt class="roma">kasumi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby> <ruby>滲<rt class="furi">にじ</rt><rt class="roma">niji</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>シルエット<rt class="roma">shiruetto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-どこにもない道を歩いてる
+<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>道<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-作り話 おとぎ話
+<ruby>作り話<rt class="furi">つくりばなし</rt><rt class="roma">tsukuribanashi</rt></ruby> <ruby>おとぎ話<rt class="furi">おとぎばなし</rt><rt class="roma">otogibanashi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-夢でも幻でも
+<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>幻<rt class="furi">まぼろし</rt><rt class="roma">maboroshi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あなたのため(wow)作り出そう
+<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby>(wow)<ruby>作り出<rt class="furi">つくりだ</rt><rt class="roma">tsukurida</rt></ruby><ruby>そ<rt class="roma">so</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ハローミューズ
+<ruby>ハロー<rt class="roma">harou</rt></ruby><ruby>ミューズ<rt class="roma">myuuzu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-私のひらめきの源泉よ
+<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ひらめき<rt class="roma">hirameki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>源泉<rt class="furi">げんせん</rt><rt class="roma">gensen</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-どこへだって さあ
+<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby> <ruby>さあ<rt class="roma">saa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エスコートしよう
+<ruby>エスコート<rt class="roma">esukouto</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-この手を取って お連れしましょう
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>お<rt class="roma">o</rt></ruby><ruby>連<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ハローミューズ
+<ruby>ハロー<rt class="roma">harou</rt></ruby><ruby>ミューズ<rt class="roma">myuuzu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-私たちまだ見たことない場所ばかり
+<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-この高まりは 強いお酒に似て♪
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>まり<rt class="roma">mari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>酒<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>似<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>♪
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-レッドカーペット 華やぐ街
+<ruby>レッド<rt class="roma">reddo</rt></ruby><ruby>カーペット<rt class="roma">kaapetto</rt></ruby> <ruby>華<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>やぐ<rt class="roma">yagu</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-どこへ向かうと言うの
+<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>かう<rt class="roma">kau</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-心の奥(wow)この夢は
+<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奥<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby>(wow)<ruby>この<rt class="roma">kono</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ハローミューズ
+<ruby>ハロー<rt class="roma">harou</rt></ruby><ruby>ミューズ<rt class="roma">myuuzu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-何度も開いた劇場のドアの中で
+<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>劇場<rt class="furi">げきじょう</rt><rt class="roma">gekijou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ドア<rt class="roma">doa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今度は私が あなたを待ちたいの
+<ruby>今度<rt class="furi">こんど</rt><rt class="roma">kondo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-燃え上がって
+<ruby>燃え上<rt class="furi">もえあ</rt><rt class="roma">moea</rt></ruby><ruby>がって<rt class="roma">gatte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-焦がれるような
+<ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がれる<rt class="roma">gareru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-その情熱が いいよね
+<ruby>その<rt class="roma">sono</rt></ruby><ruby>情熱<rt class="furi">じょうねつ</rt><rt class="roma">jounetsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-知らん顔して演じて何度も
+<ruby>知らん顔<rt class="furi">しらんかお</rt><rt class="roma">shirankao</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>演<rt class="furi">えん</rt><rt class="roma">en</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そして乾杯、乾杯、乾杯、乾杯
+<ruby>そして<rt class="roma">soshite</rt></ruby><ruby>乾杯<rt class="furi">かんぱい</rt><rt class="roma">kanpai</rt></ruby>、<ruby>乾杯<rt class="furi">かんぱい</rt><rt class="roma">kanpai</rt></ruby>、<ruby>乾杯<rt class="furi">かんぱい</rt><rt class="roma">kanpai</rt></ruby>、<ruby>乾杯<rt class="furi">かんぱい</rt><rt class="roma">kanpai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ハローミューズ
+<ruby>ハロー<rt class="roma">harou</rt></ruby><ruby>ミューズ<rt class="roma">myuuzu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-私のひらめきの源泉よ
+<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ひらめき<rt class="roma">hirameki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>源泉<rt class="furi">げんせん</rt><rt class="roma">gensen</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-どこへだって さあ
+<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby> <ruby>さあ<rt class="roma">saa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エスコートしよう
+<ruby>エスコート<rt class="roma">esukouto</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-この手を取って お連れしましょう
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>お<rt class="roma">o</rt></ruby><ruby>連<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ハローミューズ
+<ruby>ハロー<rt class="roma">harou</rt></ruby><ruby>ミューズ<rt class="roma">myuuzu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-私たちまだ見たことない場所ばかり
+<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-この高まりは 強いお酒に似て♪
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>まり<rt class="roma">mari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>酒<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>似<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>♪
 </div>
 </div>
 
 </div>
-
-

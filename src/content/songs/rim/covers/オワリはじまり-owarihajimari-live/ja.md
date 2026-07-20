@@ -33,25 +33,25 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-もうすぐ今日が終わる やり残したことはないかい
+<ruby>もうすぐ<rt class="roma">mousugu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby> <ruby>やり<rt class="roma">yari</rt></ruby><ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-親友と語り合ったかい？ 燃えるような恋をしたかい
+<ruby>親友<rt class="furi">しんゆう</rt><rt class="roma">shin'yuu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>語り合<rt class="furi">かたりあ</rt><rt class="roma">kataria</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>？ <ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-一生忘れないような出来事に出会えたかい
+<ruby>一生<rt class="furi">いっしょう</rt><rt class="roma">isshou</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>出来事<rt class="furi">できごと</rt><rt class="roma">dekigoto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-かけがいのない時間を胸に刻み込んだかい
+<ruby>かけ<rt class="roma">kake</rt></ruby><ruby>がい<rt class="roma">gai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>刻み込<rt class="furi">きざみこ</rt><rt class="roma">kizamiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
 </div>
 
@@ -59,13 +59,13 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-夕飯時 町 人いきれ「ただいま」と「おかえり」の色
+<ruby>夕飯<rt class="furi">ゆうはん</rt><rt class="roma">yuuhan</rt></ruby><ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby> <ruby>町<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby> <ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>いきれ<rt class="roma">ikire</rt></ruby>「<ruby>ただいま<rt class="roma">tadaima</rt></ruby>」<ruby>と<rt class="roma">to</rt></ruby>「<ruby>おかえり<rt class="roma">okaeri</rt></ruby>」<ruby>の<rt class="roma">no</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-せわしない 木漏れ日 花びら「おはよう」と「さよなら」の音
+<ruby>せわしない<rt class="roma">sewashinai</rt></ruby> <ruby>木漏れ日<rt class="furi">こもれび</rt><rt class="roma">komorebi</rt></ruby> <ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>びら<rt class="roma">bira</rt></ruby>「<ruby>おはよう<rt class="roma">ohayou</rt></ruby>」<ruby>と<rt class="roma">to</rt></ruby>「<ruby>さよなら<rt class="roma">sayonara</rt></ruby>」<ruby>の<rt class="roma">no</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby>
 </div>
 </div>
 
@@ -73,7 +73,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ありふれた日々が 君や僕の胸に積もって光る
+<ruby>ありふれ<rt class="roma">arifure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>君<rt class="furi">くん</rt><rt class="roma">kun</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>積<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>もって<rt class="roma">motte</rt></ruby><ruby>光<rt class="furi">ひか</rt><rt class="roma">hika</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
 </div>
 
@@ -81,25 +81,25 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-もうすぐ今日が終わる やり残したことはないかい
+<ruby>もうすぐ<rt class="roma">mousugu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby> <ruby>やり<rt class="roma">yari</rt></ruby><ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-親友と語り合ったかい？ 燃えるような恋をしたかい
+<ruby>親友<rt class="furi">しんゆう</rt><rt class="roma">shin'yuu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>語り合<rt class="furi">かたりあ</rt><rt class="roma">kataria</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>？ <ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-一生忘れないような出来事に出会えたかい
+<ruby>一生<rt class="furi">いっしょう</rt><rt class="roma">isshou</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>出来事<rt class="furi">できごと</rt><rt class="roma">dekigoto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-かけがいのない時間を胸に刻み込んだかい
+<ruby>かけ<rt class="roma">kake</rt></ruby><ruby>がい<rt class="roma">gai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>刻み込<rt class="furi">きざみこ</rt><rt class="roma">kizamiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
 </div>
 
@@ -107,13 +107,13 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今 動き始めたものや もう二度と動かないもの
+<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>二度<rt class="furi">にど</rt><rt class="roma">nido</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今 灯り出した光や 静かに消えていく光
+<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>灯<rt class="furi">とも</rt><rt class="roma">tomo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby> <ruby>静<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby>
 </div>
 </div>
 
@@ -121,7 +121,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-この夜の向こうで 新しい朝が世界に降り始めている
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>新<rt class="furi">あたら</rt><rt class="roma">atara</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>降<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 </div>
 
@@ -129,25 +129,25 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-旅立ちの時はいつだって少し怖いけど
+<ruby>旅立<rt class="furi">たびだ</rt><rt class="roma">tabida</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-これも希望のかたちだってちゃんと分かってる
+<ruby>これ<rt class="roma">kore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かたち<rt class="roma">katachi</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>ちゃんと<rt class="roma">chanto</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かってる<rt class="roma">katteru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-思い出に変わるのはきっと最後の最後さ
+<ruby>思い出<rt class="furi">おもいで</rt><rt class="roma">omoide</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-笑って「さよなら」を言えたらいいな ああ
+<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>「<ruby>さよなら<rt class="roma">sayonara</rt></ruby>」<ruby>を<rt class="roma">wo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>ああ<rt class="roma">aa</rt></ruby>
 </div>
 </div>
 
@@ -155,25 +155,25 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-またすぐ明日に変わる 忘れてしまっていないかい
+<ruby>また<rt class="roma">mata</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまって<rt class="roma">shimatte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-残された日々の短さ 過ぎ行く時の早さを
+<ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>短<rt class="furi">みじか</rt><rt class="roma">mijika</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>過ぎ行<rt class="furi">すぎゆ</rt><rt class="roma">sugiyu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>早<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-一生なんて一瞬さ 命を燃やしてるかい
+<ruby>一生<rt class="furi">いっしょう</rt><rt class="roma">isshou</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>一瞬<rt class="furi">いっしゅん</rt><rt class="roma">isshun</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-かけがえのない時間を胸に刻み込んだかい
+<ruby>かけがえ<rt class="roma">kakegae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>刻み込<rt class="furi">きざみこ</rt><rt class="roma">kizamiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
 </div>
 
@@ -181,13 +181,13 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-もうすぐ今日が終わる もうすぐ今日が終わる
+<ruby>もうすぐ<rt class="roma">mousugu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby> <ruby>もうすぐ<rt class="roma">mousugu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-かけがえのない時間を胸に刻み込んだかい
+<ruby>かけがえ<rt class="roma">kakegae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>刻み込<rt class="furi">きざみこ</rt><rt class="roma">kizamiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
 </div>
 
@@ -216,5 +216,3 @@ La-la, la-la, la-la, la-la, la-la-la-la-la-la
 </div>
 
 </div>
-
-

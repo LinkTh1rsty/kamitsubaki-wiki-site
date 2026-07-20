@@ -27,7 +27,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -268,5 +268,3 @@ YEAH YEAH YEAH YEAH
 <br />
 
 </div>
-
-

@@ -27,7 +27,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -434,5 +434,3 @@ Distortion
 </div>
 
 </div>
-
-

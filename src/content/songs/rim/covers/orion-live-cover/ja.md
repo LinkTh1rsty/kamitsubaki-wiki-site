@@ -256,5 +256,3 @@ Orion
 </div>
 
 </div>
-
-

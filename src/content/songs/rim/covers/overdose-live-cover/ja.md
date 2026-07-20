@@ -116,5 +116,3 @@ I think it's time for change
 </div>
 
 </div>
-
-

@@ -25,7 +25,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -45,25 +45,25 @@ yes my love to you, you, to you
 
 <div class="lyric-line">
 <div class="jp-lyric">
-私は私 貴方は貴方と
+<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby> <ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-昨夜言ってたそんな気もするわ
+<ruby>昨夜<rt class="furi">さくや</rt><rt class="roma">sakuya</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-グレイのジャケットに見覚えがあるコーヒーのしみ
+<ruby>グレイ<rt class="roma">gurei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ジャケット<rt class="roma">jaketto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見覚<rt class="furi">みおぼ</rt><rt class="roma">miobo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>コーヒー<rt class="roma">kouhii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-相変らずなのね ショーウィンドウに二人映れば
+<ruby>相<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>変<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>ショー<rt class="roma">shou</rt></ruby><ruby>ウィンドウ<rt class="roma">uindou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>映<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
 </div>
 
@@ -71,31 +71,31 @@ yes my love to you, you, to you
 
 <div class="lyric-line">
 <div class="jp-lyric">
-stay with me 真夜中のドアをたたき
+stay with me <ruby>真夜中<rt class="furi">まよなか</rt><rt class="roma">mayonaka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ドア<rt class="roma">doa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>たたき<rt class="roma">tataki</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-帰らないでと泣いたあの季節が 今 目の前
+<ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-stay with me 口ぐせを言いながら
+stay with me <ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>ぐせ<rt class="roma">guse</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ながら<rt class="roma">nagara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-二人の瞬間(とき)を抱いてまだ忘れず
+<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>瞬間<rt class="furi">しゅんかん</rt><rt class="roma">shunkan</rt></ruby>(<ruby>とき<rt class="roma">toki</rt></ruby>)<ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-大事にしていた
+<ruby>大事<rt class="furi">だいじ</rt><rt class="roma">daiji</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
@@ -103,25 +103,25 @@ stay with me 口ぐせを言いながら
 
 <div class="lyric-line">
 <div class="jp-lyric">
-恋と愛とは違うものだよと
+<ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-昨夜言われたそんな気もするわ
+<ruby>昨夜<rt class="furi">さくや</rt><rt class="roma">sakuya</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-二度目の冬が来て離れていった貴方の心
+<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>度目<rt class="furi">どめ</rt><rt class="roma">dome</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>冬<rt class="furi">ふゆ</rt><rt class="roma">fuyu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いった<rt class="roma">itta</rt></ruby><ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ふり返ればいつもそこに貴方を感じていたの
+<ruby>ふり<rt class="roma">furi</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>貴方<rt class="furi">あなた</rt><rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
@@ -129,25 +129,25 @@ stay with me 口ぐせを言いながら
 
 <div class="lyric-line">
 <div class="jp-lyric">
-stay with me 真夜中のドアをたたき
+stay with me <ruby>真夜中<rt class="furi">まよなか</rt><rt class="roma">mayonaka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ドア<rt class="roma">doa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>たたき<rt class="roma">tataki</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-心に穴があいたあの季節が 今 目の前
+<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>穴<rt class="furi">あな</rt><rt class="roma">ana</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あい<rt class="roma">ai</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-stay with me 淋しさまぎらわして
+stay with me <ruby>淋<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>まぎらわし<rt class="roma">magirawashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-置いたレコードの針同じメロディ繰り返していた
+<ruby>置<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>レコード<rt class="roma">rekoudo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby><ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>メロディ<rt class="roma">merodei</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
@@ -155,25 +155,25 @@ stay with me 淋しさまぎらわして
 
 <div class="lyric-line">
 <div class="jp-lyric">
-stay with me 真夜中のドアをたたき
+stay with me <ruby>真夜中<rt class="furi">まよなか</rt><rt class="roma">mayonaka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ドア<rt class="roma">doa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>たたき<rt class="roma">tataki</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-帰らないでと泣いたあの季節が 今 目の前
+<ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-stay with me 口ぐせを言いながら
+stay with me <ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>ぐせ<rt class="roma">guse</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ながら<rt class="roma">nagara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-二人の瞬間(とき)を抱いてまだ忘れず 暖めてた
+<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>瞬間<rt class="furi">しゅんかん</rt><rt class="roma">shunkan</rt></ruby>(<ruby>とき<rt class="roma">toki</rt></ruby>)<ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby> <ruby>暖<rt class="furi">あたた</rt><rt class="roma">atata</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
@@ -186,5 +186,3 @@ stay with me
 </div>
 
 </div>
-
-

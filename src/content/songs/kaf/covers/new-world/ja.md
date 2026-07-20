@@ -147,8 +147,6 @@ We'll put this fire out forever
 
 </div>
 
-
-
 ## 出典
 
 - [Apple Music](https://music.apple.com/jp/album/new-world-feat-%E3%83%B0%E4%B8%96%E7%95%8C%E6%83%85%E7%B7%92/1864122479?i=1864122664&uo=4)

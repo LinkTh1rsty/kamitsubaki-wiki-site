@@ -27,7 +27,7 @@ MC5 appears on CREAM PUFF LIVE 2 or a related official release. Entries are vers
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -474,5 +474,3 @@ You and me and the MC5
 </div>
 
 </div>
-
-

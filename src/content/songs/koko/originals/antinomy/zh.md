@@ -27,7 +27,7 @@ image: /images/albums/koko/prayer-2.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -93,7 +93,7 @@ Survive, survive and catch your breath
 
 <div class="lyric-line">
 <div class="jp-lyric">
-"I'll be back soon" is your last will
+&quot;I'll be back soon&quot; is your last will
 </div>
 </div>
 
@@ -372,5 +372,3 @@ The broken night
 <br />
 
 </div>
-
-

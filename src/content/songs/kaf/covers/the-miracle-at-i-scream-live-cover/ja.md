@@ -408,8 +408,6 @@ When we can all be friends
 
 </div>
 
-
-
 ## 出典
 
 - [花譜オフィシャルサイト](https://kaf.kamitsubaki.jp/discography/20200819/113/)

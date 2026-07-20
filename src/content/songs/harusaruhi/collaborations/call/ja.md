@@ -288,8 +288,6 @@ Call me <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><rub
 
 </div>
 
-
-
 ## 出典
 
 - [公式ディスコグラフィー](https://kamitsubaki.jp/discography/harusaruhi/2913/)

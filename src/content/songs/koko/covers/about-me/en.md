@@ -22,7 +22,7 @@ About me appears on ARARE LIVE or a related official release. Entries are versio
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -166,7 +166,7 @@ Looking your eyes, and I say
 
 <div class="lyric-line">
 <div class="jp-lyric">
-"love you" with fake smile
+&quot;love you&quot; with fake smile
 </div>
 </div>
 
@@ -334,7 +334,7 @@ Looking your eyes, and I say
 
 <div class="lyric-line">
 <div class="jp-lyric">
-"love you" with fake smile
+&quot;love you&quot; with fake smile
 </div>
 </div>
 
@@ -418,25 +418,25 @@ It's not that easy
 
 <div class="lyric-line">
 <div class="jp-lyric">
-気付いた時には終わりを告げ
+<ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>告<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-全てが僕を笑うんだろう？
+<ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-風が冷たいこんな日は
+<ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>冷<rt class="furi">つめ</rt><rt class="roma">tsume</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>こんな<rt class="roma">konna</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-君を思い出すよ
+<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -460,7 +460,7 @@ I close my eyes,
 
 <div class="lyric-line">
 <div class="jp-lyric">
-and I say "love you"
+and I say &quot;love you&quot;
 </div>
 </div>
 
@@ -501,5 +501,3 @@ Good-bye...
 </div>
 
 </div>
-
-

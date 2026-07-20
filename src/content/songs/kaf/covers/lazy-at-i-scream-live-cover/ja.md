@@ -282,8 +282,6 @@ When you jumped all on my h-h-h-heart
 
 </div>
 
-
-
 ## 出典
 
 - [花譜オフィシャルサイト](https://kaf.kamitsubaki.jp/discography/20200819/113/)

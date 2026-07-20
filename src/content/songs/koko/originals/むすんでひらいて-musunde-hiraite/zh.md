@@ -27,7 +27,7 @@ image: /images/songs/koko/single-1791868643.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -406,5 +406,3 @@ Todoketai tsutaetai
 <br />
 
 </div>
-
-

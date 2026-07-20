@@ -242,5 +242,3 @@ Don't you worry, baby
 </div>
 
 </div>
-
-

@@ -472,5 +472,3 @@ rose rose rose rose రోజాపువ్వా
 </div>
 
 </div>
-
-

@@ -27,7 +27,7 @@ BREATHE appears on BREATHE or a related official release. Entries are version-sp
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -246,5 +246,3 @@ Just focus, calm down
 </div>
 
 </div>
-
-

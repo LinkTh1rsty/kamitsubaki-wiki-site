@@ -27,7 +27,7 @@ Yeah! Yeah! Yeah! (Cover Live) appears on CREAM PUFF LIVE 4 (Cover Live) or a re
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -268,5 +268,3 @@ YEAH YEAH YEAH YEAH
 <br />
 
 </div>
-
-

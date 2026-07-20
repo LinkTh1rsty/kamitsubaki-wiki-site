@@ -32,7 +32,7 @@ image: /images/albums/vwp/songstress.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -272,7 +272,7 @@ Still I'll be here forever right by your side
 
 <div class="lyric-line">
 <div class="jp-lyric">
-例えこれがすべて夢だったとしても
+<ruby>例<rt class="furi">たと</rt><rt class="roma">tato</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>すべて<rt class="roma">subete</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>として<rt class="roma">toshite</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
@@ -301,5 +301,3 @@ I'll be right by your side
 </div>
 
 </div>
-
-

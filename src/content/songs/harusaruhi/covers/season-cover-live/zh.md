@@ -27,7 +27,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -152,5 +152,3 @@ You ripped up the book of my childhood
 </div>
 
 </div>
-
-

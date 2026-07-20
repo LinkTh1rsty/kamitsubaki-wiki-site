@@ -27,7 +27,7 @@ TRUMAN (Live Cover) appears on CHOCOLATE LIVE4 or a related official release. En
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -288,5 +288,3 @@ Hello if you're watching this, from home
 </div>
 
 </div>
-
-

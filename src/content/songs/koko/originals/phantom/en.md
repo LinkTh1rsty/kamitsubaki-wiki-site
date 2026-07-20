@@ -27,7 +27,7 @@ Phantom appears on Phantom or a related official release. Entries are version-sp
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -122,5 +122,3 @@ I love you still
 </div>
 
 </div>
-
-

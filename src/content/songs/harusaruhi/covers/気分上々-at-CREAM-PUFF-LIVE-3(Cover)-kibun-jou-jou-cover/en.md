@@ -27,31 +27,31 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hey DJ カマセ yeah yeah yeah 気分上々↑↑の
+Hey DJ <ruby>カマ<rt class="roma">kama</rt></ruby><ruby>セ<rt class="roma">se</rt></ruby> yeah yeah yeah <ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>上々<rt class="furi">じょうじょう</rt><rt class="roma">joujou</rt></ruby>↑↑<ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-針落とせ 音鳴らせ パーリナイ
+<ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>とせ<rt class="roma">tose</rt></ruby> <ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らせ<rt class="roma">rase</rt></ruby> <ruby>パーリナイ<rt class="roma">paarinai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-飲もう ライ ライ ライ みんなで踊れ！
+<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hip-pop ピーポー かけてよミラクル number
+Hip-pop <ruby>ピーポー<rt class="roma">piipou</rt></ruby> <ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ミラクル<rt class="roma">mirakuru</rt></ruby> number
 </div>
 </div>
 
@@ -59,25 +59,25 @@ Hip-pop ピーポー かけてよミラクル number
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yo! こんな時代に分かち合う music 探したくて回す地球儀
+Yo! <ruby>こんな<rt class="roma">konna</rt></ruby><ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かち<rt class="roma">kachi</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> music <ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>地球儀<rt class="furi">ちきゅうぎ</rt><rt class="roma">chikyuugi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-グラつく不安定生活 それだからバランス重視
+<ruby>グラ<rt class="roma">gura</rt></ruby><ruby>つく<rt class="roma">tsuku</rt></ruby><ruby>不安定<rt class="furi">ふあんてい</rt><rt class="roma">fuantei</rt></ruby><ruby>生活<rt class="furi">せいかつ</rt><rt class="roma">seikatsu</rt></ruby> <ruby>それ<rt class="roma">sore</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>バランス<rt class="roma">baransu</rt></ruby><ruby>重視<rt class="furi">じゅうし</rt><rt class="roma">juushi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-良いことばかりじゃないから「頑張れる！」最悪な日にキック
+<ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>「<ruby>頑張<rt class="furi">がんば</rt><rt class="roma">ganba</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>！」<ruby>最悪<rt class="furi">さいあく</rt><rt class="roma">saiaku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>キック<rt class="roma">kikku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-再起動のボタン クリック！DJかけて! 今 trip
+<ruby>再<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby><ruby>起動<rt class="furi">きどう</rt><rt class="roma">kidou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ボタン<rt class="roma">botan</rt></ruby> <ruby>クリック<rt class="roma">kurikku</rt></ruby>！DJ<ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>! <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> trip
 </div>
 </div>
 
@@ -85,7 +85,7 @@ Yo! こんな時代に分かち合う music 探したくて回す地球儀
 
 <div class="lyric-line">
 <div class="jp-lyric">
-シャレてるビートに乗って 感じる体揺らそうよ
+<ruby>シャレ<rt class="roma">share</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>ビート<rt class="roma">biito</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じる<rt class="roma">jiru</rt></ruby><ruby>体<rt class="furi">からだ</rt><rt class="roma">karada</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>らそ<rt class="roma">raso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -93,25 +93,25 @@ Yo! こんな時代に分かち合う music 探したくて回す地球儀
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hey DJ カマせ yeah yeah yeah 気分上々↑↑の
+Hey DJ <ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah <ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>上々<rt class="furi">じょうじょう</rt><rt class="roma">joujou</rt></ruby>↑↑<ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-針落とせ 音鳴らせ パーリナイ
+<ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>とせ<rt class="roma">tose</rt></ruby> <ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らせ<rt class="roma">rase</rt></ruby> <ruby>パーリナイ<rt class="roma">paarinai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-飲もう ライ ライ ライ みんなで踊れ！
+<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hip-pop ピーポー かけてよミラクル number
+Hip-pop <ruby>ピーポー<rt class="roma">piipou</rt></ruby> <ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ミラクル<rt class="roma">mirakuru</rt></ruby> number
 </div>
 </div>
 
@@ -119,25 +119,25 @@ Hip-pop ピーポー かけてよミラクル number
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hip hop, R&B, pops, techno, house, rock... hip-pop!
+Hip hop, R&amp;B, pops, techno, house, rock... hip-pop!
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-オリジナル探すキーポイント それぞれの色重ね合わすレインボウ
+<ruby>オリジナル<rt class="roma">orijinaru</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>キーポイント<rt class="roma">kiipointo</rt></ruby> <ruby>それぞれ<rt class="roma">sorezore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>重ね合<rt class="furi">かさねあ</rt><rt class="roma">kasanea</rt></ruby><ruby>わす<rt class="roma">wasu</rt></ruby><ruby>レインボウ<rt class="roma">reinbou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-君に聴かせたいが為 苦しむ挙句の果て 十字固め
+<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>聴<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>為<rt class="furi">ため</rt><rt class="roma">tame</rt></ruby> <ruby>苦<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>しむ<rt class="roma">shimu</rt></ruby><ruby>挙句<rt class="furi">あげく</rt><rt class="roma">ageku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>十字<rt class="furi">じゅうじ</rt><rt class="roma">juuji</rt></ruby><ruby>固<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今を楽しみたいんだね Let's Hip-Pop! Here we, Here we go!
+<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> Let's Hip-Pop! Here we, Here we go!
 </div>
 </div>
 
@@ -145,7 +145,7 @@ Hip hop, R&B, pops, techno, house, rock... hip-pop!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-はしゃぐフロアの上 頭ん中 ゆさゆさぶる
+<ruby>はしゃぐ<rt class="roma">hashagu</rt></ruby><ruby>フロア<rt class="roma">furoa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby> <ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>中<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby> <ruby>ゆさゆさ<rt class="roma">yusayusa</rt></ruby><ruby>ぶる<rt class="roma">buru</rt></ruby>
 </div>
 </div>
 
@@ -153,25 +153,25 @@ Hip hop, R&B, pops, techno, house, rock... hip-pop!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hey DJ シャシャれ yeah yeah yeah 気分上々↑↑の
+Hey DJ <ruby>シャシャ<rt class="roma">shasha</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> yeah yeah yeah <ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>上々<rt class="furi">じょうじょう</rt><rt class="roma">joujou</rt></ruby>↑↑<ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-波に乗って 弾け飛べ ファンキナイ
+<ruby>波<rt class="furi">なみ</rt><rt class="roma">nami</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>弾<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby> <ruby>ファンキナイ<rt class="roma">fuankinai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-飲もう ライ ライ ライ みんなで踊れ！
+<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hip-pop ピーポー 朝までミラクル number
+Hip-pop <ruby>ピーポー<rt class="roma">piipou</rt></ruby> <ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>ミラクル<rt class="roma">mirakuru</rt></ruby> number
 </div>
 </div>
 
@@ -179,13 +179,13 @@ Hip-pop ピーポー 朝までミラクル number
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ミラーボール スモークのにおい 溶けるようなハーモニー
+<ruby>ミラー<rt class="roma">miraa</rt></ruby><ruby>ボール<rt class="roma">bouru</rt></ruby> <ruby>スモーク<rt class="roma">sumouku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>におい<rt class="roma">nioi</rt></ruby> <ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ハーモニー<rt class="roma">haamonii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-身にまとって 踊り明かす がむしゃらなままで
+<ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>まとって<rt class="roma">matotte</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かす<rt class="roma">kasu</rt></ruby> <ruby>がむしゃら<rt class="roma">gamushara</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
@@ -193,25 +193,25 @@ Hip-pop ピーポー 朝までミラクル number
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hey DJ カマせ yeah yeah yeah 気分上々↑↑の
+Hey DJ <ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah <ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>上々<rt class="furi">じょうじょう</rt><rt class="roma">joujou</rt></ruby>↑↑<ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-針落とせ 音鳴らせ パーリナイ
+<ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>とせ<rt class="roma">tose</rt></ruby> <ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らせ<rt class="roma">rase</rt></ruby> <ruby>パーリナイ<rt class="roma">paarinai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-飲もう ライ ライ ライ みんなで踊れ！
+<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hip-pop ピーポー かけてよミラクル number
+Hip-pop <ruby>ピーポー<rt class="roma">piipou</rt></ruby> <ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ミラクル<rt class="roma">mirakuru</rt></ruby> number
 </div>
 </div>
 
@@ -219,25 +219,25 @@ Hip-pop ピーポー かけてよミラクル number
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hey DJ シャシャれ yeah yeah yeah 気分上々↑↑の
+Hey DJ <ruby>シャシャ<rt class="roma">shasha</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> yeah yeah yeah <ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>上々<rt class="furi">じょうじょう</rt><rt class="roma">joujou</rt></ruby>↑↑<ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-波に乗って 弾け飛べ ファンキナイ
+<ruby>波<rt class="furi">なみ</rt><rt class="roma">nami</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>弾<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby> <ruby>ファンキナイ<rt class="roma">fuankinai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-飲もう ライ ライ ライ みんなで踊れ！
+<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hip-pop ピーポー 朝までミラクル number
+Hip-pop <ruby>ピーポー<rt class="roma">piipou</rt></ruby> <ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>ミラクル<rt class="roma">mirakuru</rt></ruby> number
 </div>
 </div>
 
@@ -245,58 +245,56 @@ Hip-pop ピーポー 朝までミラクル number
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hey DJ カマせ yeah yeah yeah
+Hey DJ <ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-飲もう ライ ライ ライ
+<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-カマせ yeah yeah yeah
+<ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-飲もう ライ ライ ライ
+<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-カマせ yeah yeah yeah
+<ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-飲もう ライ ライ ライ
+<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-カマせ yeah yeah yeah
+<ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-飲もう ライ ライ ライ
+<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hey DJ カマせ yeah yeah yeah
+Hey DJ <ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah
 </div>
 </div>
 
 </div>
-
-

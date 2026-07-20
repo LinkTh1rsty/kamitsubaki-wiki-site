@@ -27,7 +27,7 @@ image: /images/songs/koko/single-1890386260.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -122,5 +122,3 @@ I love you still
 </div>
 
 </div>
-
-

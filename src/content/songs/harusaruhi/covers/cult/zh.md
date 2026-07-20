@@ -22,7 +22,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -149,5 +149,3 @@ It's like we're living in a fucked up ponzi scheme
 </div>
 
 </div>
-
-

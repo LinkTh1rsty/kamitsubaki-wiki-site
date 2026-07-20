@@ -22,7 +22,7 @@ Twig appears on CREAM PUFF LIVE or a related official release. Entries are versi
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -189,5 +189,3 @@ A twig in the wind, a twig in the wind, well, alright
 </div>
 
 </div>
-
-

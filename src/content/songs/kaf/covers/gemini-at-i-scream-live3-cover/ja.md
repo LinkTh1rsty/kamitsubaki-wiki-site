@@ -283,8 +283,6 @@ Ah, yeah, yeah, yeah
 
 </div>
 
-
-
 ## 出典
 
 - [Apple Music](https://music.apple.com/jp/album/gemini-at-i-scream-live3-cover/1774457837?i=1774458086&uo=4)

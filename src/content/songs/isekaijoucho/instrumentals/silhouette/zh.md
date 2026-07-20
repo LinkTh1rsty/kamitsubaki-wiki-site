@@ -27,7 +27,7 @@ image: /images/songs/isekaijoucho/single-1837107373.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -412,5 +412,3 @@ Better get addicted to the taste of it
 </div>
 
 </div>
-
-

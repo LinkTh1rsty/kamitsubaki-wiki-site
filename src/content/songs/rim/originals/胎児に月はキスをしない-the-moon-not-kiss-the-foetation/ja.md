@@ -33,37 +33,37 @@ image: /images/songs/rim/single-1687474050.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-大事に持ち歩いていた
+<ruby>大事<rt class="furi">だいじ</rt><rt class="roma">daiji</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>持ち歩<rt class="furi">もちある</rt><rt class="roma">mochiaru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-恋の絶頂さえ
+<ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>絶頂<rt class="furi">ぜっちょう</rt><rt class="roma">zetchou</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-灰になってしまうから
+<ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-胎児に月はキスをしない
+<ruby>胎児<rt class="furi">たいじ</rt><rt class="roma">taiji</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>キス<rt class="roma">kisu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-決して間違えない
+<ruby>決<rt class="furi">けっ</rt><rt class="roma">ke</rt></ruby><ruby>して<rt class="roma">shite</rt></ruby><ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-邪魔になってしまうから
+<ruby>邪魔<rt class="furi">じゃま</rt><rt class="roma">jama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
@@ -71,7 +71,7 @@ image: /images/songs/rim/single-1687474050.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ずっと、不安系な言葉だけ見つかるね
+<ruby>ずっと<rt class="roma">zutto</rt></ruby>、<ruby>不安<rt class="furi">ふあん</rt><rt class="roma">fuan</rt></ruby><ruby>系<rt class="furi">けい</rt><rt class="roma">kei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つかる<rt class="roma">tsukaru</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
@@ -79,25 +79,25 @@ image: /images/songs/rim/single-1687474050.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-他愛ない応答に火を点けて！
+<ruby>他愛<rt class="furi">たあい</rt><rt class="roma">taai</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>応答<rt class="furi">おうとう</rt><rt class="roma">outou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>火<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>点<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そうでしょ？
+<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-どんな愛しさも、廃材に埋もれそう
+<ruby>どんな<rt class="roma">donna</rt></ruby><ruby>愛<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>廃材<rt class="furi">はいざい</rt><rt class="roma">haizai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>埋<rt class="furi">うず</rt><rt class="roma">uzu</rt></ruby><ruby>もれ<rt class="roma">more</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そっと抱き寄せていて
+<ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>抱<rt class="furi">いだ</rt><rt class="roma">ida</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>寄<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -105,31 +105,31 @@ image: /images/songs/rim/single-1687474050.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-返して！
+<ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-隠し持っていた、そこにしまっていた
+<ruby>隠し持<rt class="furi">かくしも</rt><rt class="roma">kakushimo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>、<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>しまって<rt class="roma">shimatte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-独り占めの、夜空を
+<ruby>独り占<rt class="furi">ひとりじ</rt><rt class="roma">hitoriji</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>、<ruby>夜空<rt class="furi">よぞら</rt><rt class="roma">yozora</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-おかしいよね、怖がるなんて
+<ruby>おかしい<rt class="roma">okashii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>、<ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>がる<rt class="roma">garu</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ばかみたいだな
+<ruby>ばか<rt class="roma">baka</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
@@ -137,37 +137,37 @@ image: /images/songs/rim/single-1687474050.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いつの日か
+<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あの灯りも見えなくなるのに
+<ruby>あの<rt class="roma">ano</rt></ruby><ruby>灯<rt class="furi">あか</rt><rt class="roma">aka</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-失くしたりないよ、また遊んでね
+<ruby>失<rt class="furi">しつ</rt><rt class="roma">shitsu</rt></ruby><ruby>くし<rt class="roma">kushi</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>、<ruby>また<rt class="roma">mata</rt></ruby><ruby>遊<rt class="furi">あそ</rt><rt class="roma">aso</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-つまらない
+<ruby>つまらない<rt class="roma">tsumaranai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-埋まらない
+<ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-癒せない
+<ruby>癒<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -175,31 +175,29 @@ image: /images/songs/rim/single-1687474050.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-哀れな想像に気をつけて！
+<ruby>哀<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>想像<rt class="furi">そうぞう</rt><rt class="roma">souzou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そうでしょ？
+<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-どんな愛しさも、簡単に忘れそう
+<ruby>どんな<rt class="roma">donna</rt></ruby><ruby>愛<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>簡単<rt class="furi">かんたん</rt><rt class="roma">kantan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ずっと抱き寄せていて、良いの？
+<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>抱<rt class="furi">いだ</rt><rt class="roma">ida</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>寄<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>、<ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
 </div>
 
 </div>
-
-
 
 ## 出典
 

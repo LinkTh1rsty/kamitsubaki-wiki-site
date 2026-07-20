@@ -303,5 +303,3 @@ LOVE<ruby>すぎる<rt class="roma">sugiru</rt></ruby>
 </div>
 
 </div>
-
-

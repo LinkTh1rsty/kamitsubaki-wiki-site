@@ -27,7 +27,7 @@ Silhouette (feat. ヰ世界情緒) appears on Silhouette or a related official r
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -412,5 +412,3 @@ Better get addicted to the taste of it
 </div>
 
 </div>
-
-

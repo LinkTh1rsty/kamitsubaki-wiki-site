@@ -27,7 +27,7 @@ Do you feel appears on CHOCOLATE LIVE2 or a related official release. Entries ar
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -258,5 +258,3 @@ I need to know
 </div>
 
 </div>
-
-

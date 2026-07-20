@@ -33,61 +33,61 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ここまでguide me
+<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>guide me
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-してくれた仲間が超大事 yeah
+<ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>仲間<rt class="furi">なかま</rt><rt class="roma">nakama</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>大事<rt class="furi">だいじ</rt><rt class="roma">daiji</rt></ruby> yeah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-落ち込んでた内心
+<ruby>落ち込<rt class="furi">おちこ</rt><rt class="roma">ochiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>内心<rt class="furi">ないしん</rt><rt class="roma">naishin</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そんな日も味方してくれて
+<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>味方<rt class="furi">みかた</rt><rt class="roma">mikata</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-邁進できた
+<ruby>邁進<rt class="furi">まいしん</rt><rt class="roma">maishin</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Everyday 連絡取り合って
+Everyday <ruby>連絡<rt class="furi">れんらく</rt><rt class="roma">renraku</rt></ruby><ruby>取り合<rt class="furi">とりあ</rt><rt class="roma">toria</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いいバランスで手取り合って
+<ruby>いい<rt class="roma">ii</rt></ruby><ruby>バランス<rt class="roma">baransu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>取り合<rt class="furi">とりあ</rt><rt class="roma">toria</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-少しぶっ飛びがちなメンバー
+<ruby>少<rt class="furi">すこ</rt><rt class="roma">suko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ぶっ<rt class="roma">bu</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>がち<rt class="roma">gachi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>メンバー<rt class="roma">menbaa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-愛のツッコミ笑う現場
+<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ツッコミ<rt class="roma">tsukkomi</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>現場<rt class="furi">げんば</rt><rt class="roma">genba</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-凸凹でも最強
+<ruby>凸凹<rt class="furi">おうとつ</rt><rt class="roma">outotsu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>最強<rt class="furi">さいきょう</rt><rt class="roma">saikyou</rt></ruby>
 </div>
 </div>
 
@@ -95,7 +95,7 @@ Everyday 連絡取り合って
 
 <div class="lyric-line">
 <div class="jp-lyric">
-本当いつもありがとう
+<ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
 </div>
 
@@ -103,7 +103,7 @@ Everyday 連絡取り合って
 
 <div class="lyric-line">
 <div class="jp-lyric">
-これからも言い合おう
+<ruby>これから<rt class="roma">korekara</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言い合<rt class="furi">いいあ</rt><rt class="roma">iia</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -111,7 +111,7 @@ Everyday 連絡取り合って
 
 <div class="lyric-line">
 <div class="jp-lyric">
-このチームは最高
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>チーム<rt class="roma">chiimu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>最高<rt class="furi">さいこう</rt><rt class="roma">saikou</rt></ruby>
 </div>
 </div>
 
@@ -124,8 +124,6 @@ ah yeah
 <br />
 
 </div>
-
-
 
 ## 出典
 

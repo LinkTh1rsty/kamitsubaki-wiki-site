@@ -27,7 +27,7 @@ image: /images/songs/koko/single-1800618742.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -162,5 +162,3 @@ But I was dead and buried long before
 </div>
 
 </div>
-
-

@@ -27,7 +27,7 @@ good job appears on CHOCOLATE LIVE2 or a related official release. Entries are v
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -344,5 +344,3 @@ I did a good job
 </div>
 
 </div>
-
-

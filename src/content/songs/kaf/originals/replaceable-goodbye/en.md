@@ -28,199 +28,197 @@ image: /images/albums/kaf/guwa.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-世界の終わりみたいな
+<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-これでお別れみたいな
+<ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-朝焼けの写真きっと送れない
+<ruby>朝焼<rt class="furi">あさや</rt><rt class="roma">asaya</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>写真<rt class="furi">しゃしん</rt><rt class="roma">shashin</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>送<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-誰にもいえないような
+<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いえ<rt class="roma">ie</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-秘密や計画があった気がした
+<ruby>秘密<rt class="furi">ひみつ</rt><rt class="roma">himitsu</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>計画<rt class="furi">けいかく</rt><rt class="roma">keikaku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あった<rt class="roma">atta</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それも もう昔
+<ruby>それ<rt class="roma">sore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>昔<rt class="furi">むかし</rt><rt class="roma">mukashi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あれからちょっと 背骨も伸びて
+<ruby>あれ<rt class="roma">are</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ちょっと<rt class="roma">chotto</rt></ruby> <ruby>背骨<rt class="furi">せぼね</rt><rt class="roma">sebone</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>伸<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-大人みたいなことばかり
+<ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-化け物みたいなわたしはきっとあなたのように喋れない
+<ruby>化け物<rt class="furi">ばけもの</rt><rt class="roma">bakemono</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>喋<rt class="furi">しゃべ</rt><rt class="roma">shabe</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-光れない
+<ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-本は いつか読み終えるから いい
+<ruby>本<rt class="furi">ほん</rt><rt class="roma">hon</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>読<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-音楽も やがて鳴り止むから いい
+<ruby>音楽<rt class="furi">おんがく</rt><rt class="roma">ongaku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>やがて<rt class="roma">yagate</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-旅行も 帰る場所があるから いい
+<ruby>旅行<rt class="furi">りょこう</rt><rt class="roma">ryokou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-テレビ番組も区切りがあるから いい
+<ruby>テレビ<rt class="roma">terebi</rt></ruby><ruby>番組<rt class="furi">ばんぐみ</rt><rt class="roma">bangumi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>区切<rt class="furi">くぎ</rt><rt class="roma">kugi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-人生も ある地点で終わるから いい
+<ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>ある<rt class="roma">aru</rt></ruby><ruby>地点<rt class="furi">ちてん</rt><rt class="roma">chiten</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-激鉄を起こせ
+<ruby>激<rt class="furi">げき</rt><rt class="roma">geki</rt></ruby><ruby>鉄<rt class="furi">てつ</rt><rt class="roma">tetsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>こせ<rt class="roma">kose</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-お前のやわらかな皮膚が どこまでも続くように
+<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>やわらか<rt class="roma">yawaraka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>皮膚<rt class="furi">ひふ</rt><rt class="roma">hifu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>どこ<rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-激鉄を起こせ
+<ruby>激<rt class="furi">げき</rt><rt class="roma">geki</rt></ruby><ruby>鉄<rt class="furi">てつ</rt><rt class="roma">tetsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>こせ<rt class="roma">kose</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-お前の両の眼が 決して光を遮らないように
+<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>両<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>眼<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>決<rt class="furi">けっ</rt><rt class="roma">ke</rt></ruby><ruby>して<rt class="roma">shite</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>遮<rt class="furi">さえぎ</rt><rt class="roma">saegi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-激鉄を起こせ 激鉄を起こせ
+<ruby>激<rt class="furi">げき</rt><rt class="roma">geki</rt></ruby><ruby>鉄<rt class="furi">てつ</rt><rt class="roma">tetsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>こせ<rt class="roma">kose</rt></ruby> <ruby>激<rt class="furi">げき</rt><rt class="roma">geki</rt></ruby><ruby>鉄<rt class="furi">てつ</rt><rt class="roma">tetsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>こせ<rt class="roma">kose</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-この先ずっと今まで通り
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>通<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-言葉を呑んでしまうなら
+<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>呑<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-化け物みたいなわたしの愛を
+<ruby>化け物<rt class="furi">ばけもの</rt><rt class="roma">bakemono</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あなたはきっと嗤うだろう
+<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>嗤<ruby>う<rt class="roma">u</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-人並みに
+<ruby>人並<rt class="furi">ひとな</rt><rt class="roma">hitona</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-世界の終わりみたいな
+<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-これでお別れみたいな
+<ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それでよかったかのような微風
+<ruby>それで<rt class="roma">sorede</rt></ruby><ruby>よかった<rt class="roma">yokatta</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>微風<rt class="furi">びふう</rt><rt class="roma">bifuu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-昨日 何食べたとか
+<ruby>昨日<rt class="furi">きのう</rt><rt class="roma">kinou</rt></ruby> <ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-誰が好きだったとか
+<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ぜんぶ 忘れてしまうのかな
+<ruby>ぜんぶ<rt class="roma">zenbu</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 </div>
-
-
 
 ## Sources
 

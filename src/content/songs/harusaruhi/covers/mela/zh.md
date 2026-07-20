@@ -22,7 +22,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -87,5 +87,3 @@ Sewoch hulu mela mela mela belu sewoch hulu mela belugn
 </div>
 
 </div>
-
-

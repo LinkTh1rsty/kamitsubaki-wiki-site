@@ -22,7 +22,7 @@ Mela! appears on CREAM PUFF LIVE or a related official release. Entries are vers
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -87,5 +87,3 @@ Sewoch hulu mela mela mela belu sewoch hulu mela belugn
 </div>
 
 </div>
-
-

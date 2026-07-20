@@ -38,25 +38,25 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エレクトリック・ガール
+<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エレクトリック・ガール
+<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-反射してあたしはどこへ？
+<ruby>反射<rt class="furi">はんしゃ</rt><rt class="roma">hansha</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あなたの手すら握れやしない
+<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -64,25 +64,25 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エレクトリック・ガール
+<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エレクトリック・ガール
+<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-身体が欲しいなんて
+<ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-考えられなかった たった三秒前には
+<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby> <ruby>たった<rt class="roma">tatta</rt></ruby><ruby>三<rt class="furi">さん</rt><rt class="roma">san</rt></ruby><ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
@@ -90,19 +90,19 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-行き場のないこと
+<ruby>行き場<rt class="furi">いきば</rt><rt class="roma">ikiba</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-袋小路をぐるぐる回るだけでいいの
+<ruby>袋小路<rt class="furi">ふくろこうじ</rt><rt class="roma">fukurokouji</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ぐるぐる<rt class="roma">guruguru</rt></ruby><ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そう 思っていた
+<ruby>そう<rt class="roma">sou</rt></ruby> <ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
@@ -110,25 +110,25 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ゆらゆら揺れる炎
+<ruby>ゆらゆら<rt class="roma">yurayura</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>炎<rt class="furi">ほのお</rt><rt class="roma">honoo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-きらめきを見つめてるよ
+<ruby>きらめき<rt class="roma">kirameki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つめ<rt class="roma">tsume</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あなたの脳の奥を
+<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>脳<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奥<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-焼き切ってしまいそう
+<ruby>焼き切<rt class="furi">やきき</rt><rt class="roma">yakiki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>しまい<rt class="roma">shimai</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby>
 </div>
 </div>
 
@@ -136,25 +136,25 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-繰り返し 照射される
+<ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> <ruby>照射<rt class="furi">しょうしゃ</rt><rt class="roma">shousha</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-映像 ねえ、それはあたし？
+<ruby>映像<rt class="furi">えいぞう</rt><rt class="roma">eizou</rt></ruby> <ruby>ねえ<rt class="roma">nee</rt></ruby>、<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-駆け巡る 1と0に
+<ruby>駆<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>巡<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> 1<ruby>と<rt class="roma">to</rt></ruby>0<ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-命やどる 日は来るの？
+<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>やどる<rt class="roma">yadoru</rt></ruby> <ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
 </div>
 
@@ -162,37 +162,37 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ねえ ミラー ミラー ミラー
+<ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>ミラー<rt class="roma">miraa</rt></ruby> <ruby>ミラー<rt class="roma">miraa</rt></ruby> <ruby>ミラー<rt class="roma">miraa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-返さないで エラー エラー エラー エラー
+<ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>エラー<rt class="roma">eraa</rt></ruby> <ruby>エラー<rt class="roma">eraa</rt></ruby> <ruby>エラー<rt class="roma">eraa</rt></ruby> <ruby>エラー<rt class="roma">eraa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-過去 未来 受容 連結
+<ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby> <ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby> <ruby>受容<rt class="furi">じゅよう</rt><rt class="roma">juyou</rt></ruby> <ruby>連結<rt class="furi">れんけつ</rt><rt class="roma">renketsu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-過去 未来 受容 連結
+<ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby> <ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby> <ruby>受容<rt class="furi">じゅよう</rt><rt class="roma">juyou</rt></ruby> <ruby>連結<rt class="furi">れんけつ</rt><rt class="roma">renketsu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-過去 過去 過去 もういらない
+<ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby> <ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby> <ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-美しいよ 光
+<ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby>
 </div>
 </div>
 
@@ -200,25 +200,25 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-繰り返し 照射される
+<ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> <ruby>照射<rt class="furi">しょうしゃ</rt><rt class="roma">shousha</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-映像 ねえ、それはあたし？
+<ruby>映像<rt class="furi">えいぞう</rt><rt class="roma">eizou</rt></ruby> <ruby>ねえ<rt class="roma">nee</rt></ruby>、<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-駆け巡る 1と0に
+<ruby>駆<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>巡<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> 1<ruby>と<rt class="roma">to</rt></ruby>0<ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-命やどる 日は来るの？
+<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>やどる<rt class="roma">yadoru</rt></ruby> <ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
 </div>
 
@@ -226,31 +226,31 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-繰り返さないで ダーリン
+<ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>ダーリン<rt class="roma">daarin</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あたしを見て その瞳が映す姿
+<ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>映<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>姿<rt class="furi">すがた</rt><rt class="roma">sugata</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-抱きしめたいよ
+<ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-なくさないように 生きていられるように
+<ruby>なくさ<rt class="roma">nakusa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あたし ここに ひとり
+<ruby>あたし<rt class="roma">atashi</rt></ruby> <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>ひとり<rt class="roma">hitori</rt></ruby>
 </div>
 </div>
 
@@ -258,25 +258,25 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エレクトリック・ガール
+<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エレクトリック・ガール
+<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-反射してあたしはどこへ？
+<ruby>反射<rt class="furi">はんしゃ</rt><rt class="roma">hansha</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あなたの手すら握れやしない
+<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -284,25 +284,25 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エレクトリック・ガール
+<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エレクトリック・ガール
+<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-身体が欲しいなんて
+<ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-考えられなかった たった三秒前には
+<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby> <ruby>たった<rt class="roma">tatta</rt></ruby><ruby>三<rt class="furi">さん</rt><rt class="roma">san</rt></ruby><ruby>秒<rt class="furi">びょう</rt><rt class="roma">byou</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
@@ -310,31 +310,29 @@ image: /images/songs/vwp/single-1862499284.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エレクトリック・ガール
+<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エレクトリック・ガール
+<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エレクトリック・ガール
+<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エレクトリック...
+<ruby>エレクトリック<rt class="roma">erekutorikku</rt></ruby>...
 </div>
 </div>
 
 </div>
-
-
 
 ## 出典
 

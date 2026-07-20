@@ -293,8 +293,6 @@ All you boys are not him, him
 
 </div>
 
-
-
 ## 出典
 
 - [Apple Music](https://music.apple.com/jp/album/the-story-at-i-scream-live2-cover/1709096856?i=1709096867&uo=4)

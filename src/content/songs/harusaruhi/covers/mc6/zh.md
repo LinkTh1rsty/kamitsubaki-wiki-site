@@ -27,40 +27,38 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-お待たせしました
+<ruby>お<rt class="roma">o</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>まし<rt class="roma">mashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-戻ってきました
+<ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>まし<rt class="roma">mashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それでは早速　次の歌を歌いたいと思います
+<ruby>それでは<rt class="roma">soredeha</rt></ruby><ruby>早速<rt class="furi">さっそく</rt><rt class="roma">sassoku</rt></ruby> <ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-きいてください
+<ruby>きい<rt class="roma">kii</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ください<rt class="roma">kudasai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-回らないトゥシューズ
+<ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>トゥシューズ<rt class="roma">toushuuzu</rt></ruby>
 </div>
 </div>
 
 </div>
-
-

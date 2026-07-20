@@ -597,5 +597,3 @@ Pass the dutchie 'pon the left hand side
 </div>
 
 </div>
-
-

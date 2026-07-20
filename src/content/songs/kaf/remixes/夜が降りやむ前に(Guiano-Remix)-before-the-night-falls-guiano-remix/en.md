@@ -30,25 +30,25 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-止まらない闇に
+<ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-泡に芽吹く花が
+<ruby>泡<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>芽吹<rt class="furi">めぶ</rt><rt class="roma">mebu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-空に埋もれ消える
+<ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>埋<rt class="furi">うず</rt><rt class="roma">uzu</rt></ruby><ruby>もれ<rt class="roma">more</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
 </div>
 </div>
 
@@ -56,13 +56,13 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-月が輝く塔に今
+<ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>輝<rt class="furi">かがや</rt><rt class="roma">kagaya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>塔<rt class="furi">とう</rt><rt class="roma">tou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-君の面影を知る
+<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>面影<rt class="furi">おもかげ</rt><rt class="roma">omokage</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
 </div>
 
@@ -70,19 +70,19 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-胸に住む確信が
+<ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>住<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>確信<rt class="furi">かくしん</rt><rt class="roma">kakushin</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-波を呼び
+<ruby>波<rt class="furi">なみ</rt><rt class="roma">nami</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>呼<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-言葉に酔う
+<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>酔<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -90,19 +90,19 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-何一つ無駄じゃなかった
+<ruby>何一<rt class="furi">なにひと</rt><rt class="roma">nanihito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>無駄<rt class="furi">むだ</rt><rt class="roma">muda</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今言わなくちゃ
+<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-涙を合図に
+<ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>合図<rt class="furi">あいず</rt><rt class="roma">aizu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
@@ -110,19 +110,19 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-届けに行くんだ
+<ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-濡れすぎた夜空が
+<ruby>濡<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>すぎ<rt class="roma">sugi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>夜空<rt class="furi">よぞら</rt><rt class="roma">yozora</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕らに呼吸を許さなかった
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>呼吸<rt class="furi">こきゅう</rt><rt class="roma">kokyuu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>許<rt class="furi">ゆる</rt><rt class="roma">yuru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
 </div>
 
@@ -130,19 +130,19 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-踠き歩いた
+踠<ruby>き<rt class="roma">ki</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-満たされた光に
+<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-一度きりの言い訳を
+<ruby>一度<rt class="furi">いちど</rt><rt class="roma">ichido</rt></ruby><ruby>きり<rt class="roma">kiri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>言い訳<rt class="furi">いいわけ</rt><rt class="roma">iiwake</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
@@ -150,19 +150,19 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-止まらない闇に
+<ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>闇<rt class="furi">やみ</rt><rt class="roma">yami</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あなたの輪郭を
+<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>輪郭<rt class="furi">りんかく</rt><rt class="roma">rinkaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-遠く鳴る海が奪い去る
+<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>去<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
 </div>
 
@@ -170,13 +170,13 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-胸が照らすその場所には
+<ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>照<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>らす<rt class="roma">rasu</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>場所<rt class="furi">ばしょ</rt><rt class="roma">basho</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-知りたい言葉がある
+<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
 </div>
 
@@ -184,13 +184,13 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あなたにはわからないわ
+<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-何一つ聞こえないや
+<ruby>何一<rt class="furi">なにひと</rt><rt class="roma">nanihito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえ<rt class="roma">koe</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
 </div>
 
@@ -198,13 +198,13 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「今まで」と「これから」は
+「<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>」<ruby>と<rt class="roma">to</rt></ruby>「<ruby>これから<rt class="roma">korekara</rt></ruby>」<ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-かき乱した夜に消えていけ
+<ruby>かき乱<rt class="furi">かきみだ</rt><rt class="roma">kakimida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby>
 </div>
 </div>
 
@@ -212,19 +212,19 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-届けに行くんだ
+<ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-喚き出す夜空が
+<ruby>喚<rt class="furi">わめ</rt><rt class="roma">wame</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>夜空<rt class="furi">よぞら</rt><rt class="roma">yozora</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕らの明日を信じなかった
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
 </div>
 
@@ -232,19 +232,19 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-裏切り歩いた
+<ruby>裏切<rt class="furi">うらぎ</rt><rt class="roma">uragi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-満たされた朝日で
+<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>朝日<rt class="furi">あさひ</rt><rt class="roma">asahi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-熱を意味を捨てていく
+<ruby>熱<rt class="furi">ねつ</rt><rt class="roma">netsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>捨<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
 </div>
 
@@ -252,25 +252,25 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-濡れ出した街に
+<ruby>濡<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あなたの輪郭を
+<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>輪郭<rt class="furi">りんかく</rt><rt class="roma">rinkaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-淡い指先でなぞる
+<ruby>淡<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>指先<rt class="furi">ゆびさき</rt><rt class="roma">yubisaki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>なぞる<rt class="roma">nazoru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-夜が振り止む前に
+<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
@@ -278,13 +278,11 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-夜が振り止む前に
+<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 </div>
-
-
 
 ## Sources
 

@@ -27,37 +27,37 @@ image: /images/albums/rim/new-romancer.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ひとつ、またひとつと水滴になった
+<ruby>ひとつ<rt class="roma">hitotsu</rt></ruby>、<ruby>また<rt class="roma">mata</rt></ruby><ruby>ひとつ<rt class="roma">hitotsu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>水滴<rt class="furi">すいてき</rt><rt class="roma">suiteki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-空に翳すグラスの底
+<ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>翳<rt class="furi">かざ</rt><rt class="roma">kaza</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>グラス<rt class="roma">gurasu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>底<rt class="furi">そこ</rt><rt class="roma">soko</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-透かしてみれば
+<ruby>透<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>かし<rt class="roma">kashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みれ<rt class="roma">mire</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-綺麗になれば
+<ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-愛していられたら
+<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
 </div>
 
@@ -65,19 +65,19 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-些細な細胞に宿るそれが好き
+<ruby>些細<rt class="furi">ささい</rt><rt class="roma">sasai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>細胞<rt class="furi">さいぼう</rt><rt class="roma">saibou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>宿<rt class="furi">やど</rt><rt class="roma">yado</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いまこの星に願うのは
+<ruby>いま<rt class="roma">ima</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-溶けたいから？
+<ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>？
 </div>
 </div>
 
@@ -85,25 +85,25 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-夜の相槌の裏には誰かの影が見えて痛い
+<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>相槌<rt class="furi">あいづち</rt><rt class="roma">aizuchi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>裏<rt class="furi">うら</rt><rt class="roma">ura</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>影<rt class="furi">かげ</rt><rt class="roma">kage</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-その瞳が綺麗だと言えない弱さが
+<ruby>その<rt class="roma">sono</rt></ruby><ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>弱<rt class="furi">よわ</rt><rt class="roma">yowa</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-幼さゆえの罪でも、それでも、いい
+<ruby>幼<rt class="furi">おさな</rt><rt class="roma">osana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ゆえ<rt class="roma">yue</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>罪<rt class="furi">つみ</rt><rt class="roma">tsumi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>それでも<rt class="roma">soredemo</rt></ruby>、<ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-せめてきみがいれば
+<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いれ<rt class="roma">ire</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
 </div>
 
@@ -111,19 +111,19 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-静かな警告を拒む冬が好き
+<ruby>静<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>警告<rt class="furi">けいこく</rt><rt class="roma">keikoku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>拒<rt class="furi">こば</rt><rt class="roma">koba</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>冬<rt class="furi">ふゆ</rt><rt class="roma">fuyu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今更妄りに歌うのを
+<ruby>今更<rt class="furi">いまさら</rt><rt class="roma">imasara</rt></ruby><ruby>妄<rt class="furi">みだ</rt><rt class="roma">mida</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-夢見てる？
+<ruby>夢見<rt class="furi">ゆめみ</rt><rt class="roma">yumemi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>？
 </div>
 </div>
 
@@ -131,34 +131,32 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-夜の相槌の裏では誰もが神に銃を向ける
+<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>相槌<rt class="furi">あいづち</rt><rt class="roma">aizuchi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>裏<rt class="furi">うら</rt><rt class="roma">ura</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>神<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>銃<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-愚かささえも愛しいと言えない狡さが
+<ruby>愚<rt class="furi">おろ</rt><rt class="roma">oro</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ささえ<rt class="roma">sasae</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>愛<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>狡<rt class="furi">ずる</rt><rt class="roma">zuru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-幼さゆえの罪でも、それでも、いい
+<ruby>幼<rt class="furi">おさな</rt><rt class="roma">osana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ゆえ<rt class="roma">yue</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>罪<rt class="furi">つみ</rt><rt class="roma">tsumi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>それでも<rt class="roma">soredemo</rt></ruby>、<ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-せめてきみがここにいれば
+<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いれ<rt class="roma">ire</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-せめてきみがいつかわらう
+<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>わらう<rt class="roma">warau</rt></ruby>
 </div>
 </div>
 
 </div>
-
-

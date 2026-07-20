@@ -27,7 +27,7 @@ image: /images/albums/harusaruhi/glitch-stage.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -434,5 +434,3 @@ Distortion
 </div>
 
 </div>
-
-

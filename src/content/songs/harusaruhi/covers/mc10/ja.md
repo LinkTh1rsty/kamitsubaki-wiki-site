@@ -296,5 +296,3 @@ Girl, I gotta tell ya...
 </div>
 
 </div>
-
-

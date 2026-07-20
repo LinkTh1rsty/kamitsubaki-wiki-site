@@ -375,8 +375,6 @@ You are the one
 
 </div>
 
-
-
 ## 出典
 
 - [花譜オフィシャルサイト](https://kaf.kamitsubaki.jp/discography/20241023/854/)

@@ -27,7 +27,7 @@ MC10 appears on CREAM PUFF LIVE 2 or a related official release. Entries are ver
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -296,5 +296,3 @@ Girl, I gotta tell ya...
 </div>
 
 </div>
-
-

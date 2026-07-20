@@ -221,8 +221,6 @@ Just looking at the lunar eclipse
 
 </div>
 
-
-
 ## 出典
 
 - [公式ディスコグラフィー](https://kamitsubaki.jp/disco_category/koko/)

@@ -28,37 +28,37 @@ NEUROMANCE (feat. 裏命) [Live at Virtual, 2022] appears on Singularity Live or
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あれからの僕たちはずっと雨に打たれ
+<ruby>あれ<rt class="roma">are</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>雨<rt class="furi">あめ</rt><rt class="roma">ame</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>打<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-楽園の切符を失くした
+<ruby>楽園<rt class="furi">らくえん</rt><rt class="roma">rakuen</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>切符<rt class="furi">きっぷ</rt><rt class="roma">kippu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>失<rt class="furi">しつ</rt><rt class="roma">shitsu</rt></ruby><ruby>くし<rt class="roma">kushi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-空欄に入る答えを考えておいて
+<ruby>空欄<rt class="furi">くうらん</rt><rt class="roma">kuuran</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>おい<rt class="roma">oi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-液晶から打ち込み、あなたに届ける
+<ruby>液晶<rt class="furi">えきしょう</rt><rt class="roma">ekishou</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>打ち込<rt class="furi">うちこ</rt><rt class="roma">uchiko</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby>、<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-聞いて
+<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -66,25 +66,25 @@ NEUROMANCE (feat. 裏命) [Live at Virtual, 2022] appears on Singularity Live or
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あとがきはきっとこのまま死んだままで
+<ruby>あとがき<rt class="roma">atogaki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-永遠になっていくんだね
+<ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-用法も何も知らずに飲む、噛む、食む
+<ruby>用法<rt class="furi">ようほう</rt><rt class="roma">youhou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby>、<ruby>噛<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby>、<ruby>食<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まぁいっか、こうして人は愛を知りえたのね
+<ruby>まぁ<rt class="roma">maa</rt></ruby><ruby>いっか<rt class="roma">ikka</rt></ruby>、<ruby>こうして<rt class="roma">koushite</rt></ruby><ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
@@ -92,25 +92,25 @@ NEUROMANCE (feat. 裏命) [Live at Virtual, 2022] appears on Singularity Live or
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「こころも、からだも
+「<ruby>こころ<rt class="roma">kokoro</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>からだ<rt class="roma">karada</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あの空に預けてみて
+<ruby>あの<rt class="roma">ano</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>預<rt class="furi">あづ</rt><rt class="roma">azu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ことばも、かちかんも
+<ruby>ことば<rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>か<rt class="roma">ka</rt></ruby><ruby>ちかん<rt class="roma">chikan</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ここでは無関係さ...」
+<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>無関係<rt class="furi">むかんけい</rt><rt class="roma">mukankei</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>...」
 </div>
 </div>
 
@@ -118,49 +118,49 @@ NEUROMANCE (feat. 裏命) [Live at Virtual, 2022] appears on Singularity Live or
 
 <div class="lyric-line">
 <div class="jp-lyric">
-春に溺れたあなたにあげるよ
+<ruby>春<rt class="furi">はる</rt><rt class="roma">haru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>あげる<rt class="roma">ageru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-おはよう、おやすみ
+<ruby>おはよう<rt class="roma">ohayou</rt></ruby>、<ruby>おやすみ<rt class="roma">oyasumi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それから、さよなら
+<ruby>それから<rt class="roma">sorekara</rt></ruby>、<ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-何故？ねぇ何故？
+<ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？<ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ねぇ、何故？
+<ruby>ねぇ<rt class="roma">nee</rt></ruby>、<ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あなた達は、何故？
+<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>、<ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ねぇ何故？
+<ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-誰かと生きていく？
+<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>？
 </div>
 </div>
 
@@ -168,31 +168,31 @@ NEUROMANCE (feat. 裏命) [Live at Virtual, 2022] appears on Singularity Live or
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そういえばずっと前から
+<ruby>そう<rt class="roma">sou</rt></ruby><ruby>いえ<rt class="roma">ie</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-録画された空ばかりを眺めていた
+<ruby>録画<rt class="furi">ろくが</rt><rt class="roma">rokuga</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>眺<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-最高にあんたが嫌いだ
+<ruby>最高<rt class="furi">さいこう</rt><rt class="roma">saikou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>あんた<rt class="roma">anta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-でもでもでも恋しいの
+<ruby>でも<rt class="roma">demo</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-こうして人は愛を知りえたのね
+<ruby>こうして<rt class="roma">koushite</rt></ruby><ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
@@ -200,25 +200,25 @@ NEUROMANCE (feat. 裏命) [Live at Virtual, 2022] appears on Singularity Live or
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「こころも、からだも
+「<ruby>こころ<rt class="roma">kokoro</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>からだ<rt class="roma">karada</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あの空に預けてみて
+<ruby>あの<rt class="roma">ano</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>預<rt class="furi">あづ</rt><rt class="roma">azu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ふあんも、かいかんも
+<ruby>ふ<rt class="roma">fu</rt></ruby><ruby>あん<rt class="roma">an</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>か<rt class="roma">ka</rt></ruby><ruby>いかん<rt class="roma">ikan</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ダイヤルひとつで...」
+<ruby>ダイヤル<rt class="roma">daiyaru</rt></ruby><ruby>ひとつ<rt class="roma">hitotsu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>...」
 </div>
 </div>
 
@@ -226,55 +226,55 @@ NEUROMANCE (feat. 裏命) [Live at Virtual, 2022] appears on Singularity Live or
 
 <div class="lyric-line">
 <div class="jp-lyric">
-春に手向けた祈りは呪いか？
+<ruby>春<rt class="furi">はる</rt><rt class="roma">haru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>手向<rt class="furi">たむ</rt><rt class="roma">tamu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>呪<rt class="furi">のろ</rt><rt class="roma">noro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-祈りか？
+<ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-呪いか？
+<ruby>呪<rt class="furi">のろ</rt><rt class="roma">noro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-どうでもいいのか
+<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-何故？ねぇ何故？
+<ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？<ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ねぇ、何故？
+<ruby>ねぇ<rt class="roma">nee</rt></ruby>、<ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あなた達は、何故？
+<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>、<ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ねぇ何故？
+<ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>何故<rt class="furi">なぜ</rt><rt class="roma">naze</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-大人になるって、共感の渦に呑まれることなの？
+<ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>、<ruby>共感<rt class="furi">きょうかん</rt><rt class="roma">kyoukan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>渦<rt class="furi">うず</rt><rt class="roma">uzu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>呑<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
 </div>
 
@@ -282,19 +282,19 @@ NEUROMANCE (feat. 裏命) [Live at Virtual, 2022] appears on Singularity Live or
 
 <div class="lyric-line">
 <div class="jp-lyric">
-本棚に空いた言葉を返して
+<ruby>本棚<rt class="furi">ほんだな</rt><rt class="roma">hondana</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>空<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-駅までの距離を
+<ruby>駅<rt class="furi">えき</rt><rt class="roma">eki</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>距離<rt class="furi">きょり</rt><rt class="roma">kyori</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-仰向けに歩く事すら無理ってやばいよ
+<ruby>仰向<rt class="furi">あおむ</rt><rt class="roma">aomu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>無理<rt class="furi">むり</rt><rt class="roma">muri</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>やばい<rt class="roma">yabai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -302,16 +302,14 @@ NEUROMANCE (feat. 裏命) [Live at Virtual, 2022] appears on Singularity Live or
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あれからの僕たちはずっと霧の中で
+<ruby>あれ<rt class="roma">are</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>霧<rt class="furi">きり</rt><rt class="roma">kiri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-完全な電波の奴隷に
+<ruby>完全<rt class="furi">かんぜん</rt><rt class="roma">kanzen</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>電波<rt class="furi">でんぱ</rt><rt class="roma">denpa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奴隷<rt class="furi">どれい</rt><rt class="roma">dorei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 </div>
-
-

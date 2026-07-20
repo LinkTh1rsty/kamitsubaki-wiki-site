@@ -37,6 +37,8 @@ image: /images/albums/vwp/fate.jpg
 
 ## Lyrics
 
+    The translations currently provided are AI-generated placeholders. If you can provide a better translation, please submit a pull request to the site's GitHub repository.
+
 {{lyrics-controls::en}}
 
 <div class="my-lyric-box">

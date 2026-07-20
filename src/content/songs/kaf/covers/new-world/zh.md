@@ -25,7 +25,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -146,5 +146,3 @@ We'll put this fire out forever
 </div>
 
 </div>
-
-

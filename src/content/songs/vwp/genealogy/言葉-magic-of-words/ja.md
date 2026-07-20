@@ -38,25 +38,25 @@ image: /images/albums/vwp/inversion.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hey この世で一番大事なものってさ
+Hey <ruby>この世<rt class="furi">このよ</rt><rt class="roma">konoyo</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>一番<rt class="furi">いちばん</rt><rt class="roma">ichiban</rt></ruby><ruby>大事<rt class="furi">だいじ</rt><rt class="roma">daiji</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-きっと大きなハートと探求心
+<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>大<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>きな<rt class="roma">kina</rt></ruby><ruby>ハート<rt class="roma">haato</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>探求<rt class="furi">たんきゅう</rt><rt class="roma">tankyuu</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-キャッチボールをしよう さぁ声を投げ合って
+<ruby>キャッチボール<rt class="roma">kyatchibouru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>さぁ<rt class="roma">saa</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>投<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-胸にしまった愛を言葉にし
+<ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
 </div>
 
@@ -64,7 +64,7 @@ Hey この世で一番大事なものってさ
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それは True True True True Tu-True
+<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> True True True True Tu-True
 </div>
 </div>
 
@@ -78,31 +78,31 @@ Turtu True True True True Tu-True
 
 <div class="lyric-line">
 <div class="jp-lyric">
-君の想いを夢希望を 言葉にするのさ 口にした
+<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-勇気がいつか行動となって習慣になるのさ
+<ruby>勇気<rt class="furi">ゆうき</rt><rt class="roma">yuuki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>行動<rt class="furi">こうどう</rt><rt class="roma">koudou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>習慣<rt class="furi">しゅうかん</rt><rt class="roma">shuukan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-習慣はいずれ君の性格となり
+<ruby>習慣<rt class="furi">しゅうかん</rt><rt class="roma">shuukan</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いずれ<rt class="roma">izure</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>性格<rt class="furi">せいかく</rt><rt class="roma">seikaku</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-性格が変われば ほらチャンス到来
+<ruby>性格<rt class="furi">せいかく</rt><rt class="roma">seikaku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>われ<rt class="roma">ware</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby> <ruby>ほら<rt class="roma">hora</rt></ruby><ruby>チャンス<rt class="roma">chansu</rt></ruby><ruby>到来<rt class="furi">とうらい</rt><rt class="roma">tourai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-描いた your life つまり現実となるのさ
+<ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> your life <ruby>つまり<rt class="roma">tsumari</rt></ruby><ruby>現実<rt class="furi">げんじつ</rt><rt class="roma">genjitsu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 
@@ -110,13 +110,13 @@ Turtu True True True True Tu-True
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それは True True True True Tu-True
+<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> True True True True Tu-True
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-想いを言語化しようぜ
+<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>言語<rt class="furi">げんご</rt><rt class="roma">gengo</rt></ruby><ruby>化<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
 </div>
 
@@ -128,7 +128,7 @@ Turtu True True True True Tu-True
 
 <div class="lyric-line">
 <div class="jp-lyric">
-想像は果てしなく自由さ OK
+<ruby>想像<rt class="furi">そうぞう</rt><rt class="roma">souzou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>てしなく<rt class="roma">teshinaku</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> OK
 </div>
 </div>
 
@@ -140,7 +140,7 @@ True True True True Tu-True
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それじゃあ お後がよろしいようで
+<ruby>それ<rt class="roma">sore</rt></ruby><ruby>じゃあ<rt class="roma">jaa</rt></ruby> <ruby>お<rt class="roma">o</rt></ruby><ruby>後<rt class="furi">ご</rt><rt class="roma">go</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>よろしい<rt class="roma">yoroshii</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
@@ -154,37 +154,37 @@ Turtu True True True
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh 目に見えない形のないものがあり
+Oh <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あり<rt class="roma">ari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-でもそれにそれぞれの名前がある
+<ruby>でも<rt class="roma">demo</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>それぞれ<rt class="roma">sorezore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>名前<rt class="furi">なまえ</rt><rt class="roma">namae</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-L-O-V-E 例えるなら愛
+L-O-V-E <ruby>例<rt class="furi">たと</rt><rt class="roma">tato</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今日も僕らそんな言葉探している
+<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-目に見えない形のないものをふっと
+<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ふっと<rt class="roma">futto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-君が思わず抱きしめちゃうような言葉
+<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>わず<rt class="roma">wazu</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby>
 </div>
 </div>
 
@@ -192,49 +192,49 @@ L-O-V-E 例えるなら愛
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あ～ (あ～) 愛を語ろう それが
+<ruby>あ<rt class="roma">a</rt></ruby>～ (<ruby>あ<rt class="roma">a</rt></ruby>～) <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>語<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>それ<rt class="roma">sore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-い～ (い～) 鼻歌交じりで
+<ruby>い<rt class="roma">i</rt></ruby>～ (<ruby>い<rt class="roma">i</rt></ruby>～) <ruby>鼻歌<rt class="furi">はなうた</rt><rt class="roma">hanauta</rt></ruby><ruby>交<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>じり<rt class="roma">jiri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-う～ (う～) 勇気の言葉さ
+<ruby>う<rt class="roma">u</rt></ruby>～ (<ruby>う<rt class="roma">u</rt></ruby>～) <ruby>勇気<rt class="furi">ゆうき</rt><rt class="roma">yuuki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-えいえい お～
+<ruby>えいえい<rt class="roma">eiei</rt></ruby> <ruby>お<rt class="roma">o</rt></ruby>～
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あ～ (あ～) 愛を語ろう それが
+<ruby>あ<rt class="roma">a</rt></ruby>～ (<ruby>あ<rt class="roma">a</rt></ruby>～) <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>語<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>それ<rt class="roma">sore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-い～ (い～) 鼻歌交じりで
+<ruby>い<rt class="roma">i</rt></ruby>～ (<ruby>い<rt class="roma">i</rt></ruby>～) <ruby>鼻歌<rt class="furi">はなうた</rt><rt class="roma">hanauta</rt></ruby><ruby>交<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>じり<rt class="roma">jiri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-う～ (う～) 勇気の言葉さ
+<ruby>う<rt class="roma">u</rt></ruby>～ (<ruby>う<rt class="roma">u</rt></ruby>～) <ruby>勇気<rt class="furi">ゆうき</rt><rt class="roma">yuuki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-えいえい お～
+<ruby>えいえい<rt class="roma">eiei</rt></ruby> <ruby>お<rt class="roma">o</rt></ruby>～
 </div>
 </div>
 
@@ -242,13 +242,13 @@ L-O-V-E 例えるなら愛
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それは True True True True Tu-True
+<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> True True True True Tu-True
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-想いを言語化しようぜ
+<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>言語<rt class="furi">げんご</rt><rt class="roma">gengo</rt></ruby><ruby>化<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
 </div>
 
@@ -260,7 +260,7 @@ Turtu True True True True Tu-True
 
 <div class="lyric-line">
 <div class="jp-lyric">
-想像は果てしなく自由さ OK
+<ruby>想像<rt class="furi">そうぞう</rt><rt class="roma">souzou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>てしなく<rt class="roma">teshinaku</rt></ruby><ruby>自由<rt class="furi">じゆう</rt><rt class="roma">jiyuu</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> OK
 </div>
 </div>
 
@@ -272,7 +272,7 @@ True True True True Tu-True
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それじゃあ お後がよろしいようで
+<ruby>それ<rt class="roma">sore</rt></ruby><ruby>じゃあ<rt class="roma">jaa</rt></ruby> <ruby>お<rt class="roma">o</rt></ruby><ruby>後<rt class="furi">ご</rt><rt class="roma">go</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>よろしい<rt class="roma">yoroshii</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
@@ -286,37 +286,37 @@ Turtu True True True
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh 目に見えない形のないものがあり
+Oh <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あり<rt class="roma">ari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-でもそれにそれぞれの名前がある
+<ruby>でも<rt class="roma">demo</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>それぞれ<rt class="roma">sorezore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>名前<rt class="furi">なまえ</rt><rt class="roma">namae</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-L-O-V-E 例えるなら愛
+L-O-V-E <ruby>例<rt class="furi">たと</rt><rt class="roma">tato</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今日も僕らそんな言葉探している
+<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-目に見えない形のないものをふっと
+<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ふっと<rt class="roma">futto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-君が思わず抱きしめちゃうような言葉...
+<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>わず<rt class="roma">wazu</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby>...
 </div>
 </div>
 
@@ -324,16 +324,14 @@ L-O-V-E 例えるなら愛
 
 <div class="lyric-line">
 <div class="jp-lyric">
-L-O-V-E 例えるなら愛
+L-O-V-E <ruby>例<rt class="furi">たと</rt><rt class="roma">tato</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-L-O-V-E 例えるなら愛 例えるなら愛
+L-O-V-E <ruby>例<rt class="furi">たと</rt><rt class="roma">tato</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby> <ruby>例<rt class="furi">たと</rt><rt class="roma">tato</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>
 </div>
 </div>
 
 </div>
-
-

@@ -28,7 +28,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -223,8 +223,6 @@ You're taking the bridge again
 </div>
 
 </div>
-
-
 
 ## Sources
 

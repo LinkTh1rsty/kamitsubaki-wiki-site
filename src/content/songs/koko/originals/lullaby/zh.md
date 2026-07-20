@@ -27,31 +27,31 @@ image: /images/albums/koko/prayer-2.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ララバイラーラバイ
+<ruby>ララバイラーラバイ<rt class="roma">rarabairaarabai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-お休みラーラバイ
+<ruby>お<rt class="roma">o</rt></ruby><ruby>休<rt class="furi">やす</rt><rt class="roma">yasu</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>ラーラバイ<rt class="roma">raarabai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ララバイラーラバイ
+<ruby>ララバイラーラバイ<rt class="roma">rarabairaarabai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-グッナイ ラーラバイ Yeah!
+<ruby>グッナイ<rt class="roma">gunai</rt></ruby> <ruby>ラーラバイ<rt class="roma">raarabai</rt></ruby> Yeah!
 </div>
 </div>
 
@@ -107,25 +107,25 @@ image: /images/albums/koko/prayer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ララバイラーラバイ
+<ruby>ララバイラーラバイ<rt class="roma">rarabairaarabai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-お休みラーラバイ
+<ruby>お<rt class="roma">o</rt></ruby><ruby>休<rt class="furi">やす</rt><rt class="roma">yasu</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>ラーラバイ<rt class="roma">raarabai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ララバイラーラバイ
+<ruby>ララバイラーラバイ<rt class="roma">rarabairaarabai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-グッナイ ラララ Yeah!
+<ruby>グッナイ<rt class="roma">gunai</rt></ruby> <ruby>ラララ<rt class="roma">rarara</rt></ruby> Yeah!
 </div>
 </div>
 
@@ -149,10 +149,8 @@ image: /images/albums/koko/prayer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-おやすみなさいって
+<ruby>おやすみなさい<rt class="roma">oyasuminasai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 </div>
-
-

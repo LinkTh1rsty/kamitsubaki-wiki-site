@@ -32,7 +32,7 @@ image: /images/albums/vwp/city-regenerate.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -145,5 +145,3 @@ Nothing, turn now Gotta try a little harder It could be sweet
 </div>
 
 </div>
-
-

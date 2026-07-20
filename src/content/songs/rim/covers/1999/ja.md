@@ -366,5 +366,3 @@ Oh whoa, oh whoa (don't shine)
 </div>
 
 </div>
-
-

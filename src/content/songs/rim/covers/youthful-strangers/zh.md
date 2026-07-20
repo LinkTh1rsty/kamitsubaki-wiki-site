@@ -22,7 +22,7 @@ image: /images/albums/rim/chocolate-live.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -597,5 +597,3 @@ Pass the dutchie 'pon the left hand side
 </div>
 
 </div>
-
-

@@ -152,5 +152,3 @@ You ripped up the book of my childhood
 </div>
 
 </div>
-
-

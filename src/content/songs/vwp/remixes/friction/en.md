@@ -32,7 +32,7 @@ friction (feat. 春猿火 & 梓川) [Remix] appears on 魔女ぷらす or a rela
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -315,5 +315,3 @@ Yeah
 </div>
 
 </div>
-
-

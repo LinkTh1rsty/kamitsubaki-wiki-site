@@ -251,5 +251,3 @@ Just focus, calm down
 </div>
 
 </div>
-
-

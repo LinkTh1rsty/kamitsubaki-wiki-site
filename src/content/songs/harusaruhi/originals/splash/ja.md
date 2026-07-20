@@ -610,5 +610,3 @@ I'm not back, I'm not back, back
 </div>
 
 </div>
-
-

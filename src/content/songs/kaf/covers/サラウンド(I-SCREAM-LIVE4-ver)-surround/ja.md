@@ -31,13 +31,13 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-つーわけで今日は何やったっけ まとめてみよう いすに座って
+<ruby>つ<rt class="roma">tsu</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>わけ<rt class="roma">wake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>やった<rt class="roma">yatta</rt></ruby><ruby>っけ<rt class="roma">kke</rt></ruby> <ruby>まとめ<rt class="roma">matome</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みよ<rt class="roma">miyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>いす<rt class="roma">isu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>座<rt class="furi">すわ</rt><rt class="roma">suwa</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-思えば昨日はわりとがっかりで 踏まえていこうとしたよな
+<ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>昨日<rt class="furi">きのう</rt><rt class="roma">kinou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>がっかり<rt class="roma">gakkari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>踏<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>まえ<rt class="roma">mae</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
@@ -45,7 +45,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まわるまわるイメージ 頭の中 とびはねたり
+<ruby>まわる<rt class="roma">mawaru</rt></ruby><ruby>まわる<rt class="roma">mawaru</rt></ruby><ruby>イメージ<rt class="roma">imeeji</rt></ruby> <ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby> <ruby>とびはね<rt class="roma">tobihane</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby>
 </div>
 </div>
 
@@ -53,13 +53,13 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-10年後の今日は何もんで そばによりそう人は何もんで
+10<ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>後<rt class="furi">ご</rt><rt class="roma">go</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>そば<rt class="roma">soba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>人<rt class="furi">じん</rt><rt class="roma">jin</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-想像しようとしてもぼんやりで 爆発しそうになるんだ
+<ruby>想像<rt class="furi">そうぞう</rt><rt class="roma">souzou</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>として<rt class="roma">toshite</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ぼんやり<rt class="roma">bon'yari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>爆発<rt class="furi">ばくはつ</rt><rt class="roma">bakuhatsu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
@@ -67,13 +67,13 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ゆれるゆれるイメージ 頭の中横切ったり
+<ruby>ゆれる<rt class="roma">yureru</rt></ruby><ruby>ゆれる<rt class="roma">yureru</rt></ruby><ruby>イメージ<rt class="roma">imeeji</rt></ruby> <ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>横切<rt class="furi">よこぎ</rt><rt class="roma">yokogi</rt></ruby><ruby>ったり<rt class="roma">ttari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-色とりどりイメージ あらわになりそでなさそで
+<ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>とりどり<rt class="roma">toridori</rt></ruby><ruby>イメージ<rt class="roma">imeeji</rt></ruby> <ruby>あらわ<rt class="roma">arawa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>そ<rt class="roma">so</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>そで<rt class="roma">sode</rt></ruby>
 </div>
 </div>
 
@@ -81,25 +81,25 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-むすんだ目をひらいて むすびめをほどいて
+<ruby>むすん<rt class="roma">musun</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ひらい<rt class="roma">hirai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>むすび<rt class="roma">musubi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ほどい<rt class="roma">hodoi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-しみこませよ細胞のすみからすみまでロングロングタイム
+<ruby>しみこま<rt class="roma">shimikoma</rt></ruby><ruby>せよ<rt class="roma">seyo</rt></ruby><ruby>細胞<rt class="furi">さいぼう</rt><rt class="roma">saibou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>すみ<rt class="roma">sumi</rt></ruby><ruby>からすみ<rt class="roma">karasumi</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>ロングロングタイム<rt class="roma">rongurongutaimu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-愛の日々はどんなんで 愛の意味はどんなんで
+<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どんな<rt class="roma">donna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どんな<rt class="roma">donna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-平和の鐘は何色 シックかも もっとからいかも
+<ruby>平和<rt class="furi">へいわ</rt><rt class="roma">heiwa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>鐘<rt class="furi">かね</rt><rt class="roma">kane</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby> <ruby>シック<rt class="roma">shikku</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby> <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>からい<rt class="roma">karai</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby>
 </div>
 </div>
 
@@ -107,7 +107,7 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まわるまわる 色とりどりでタップリ
+<ruby>まわる<rt class="roma">mawaru</rt></ruby><ruby>まわる<rt class="roma">mawaru</rt></ruby> <ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>とりどり<rt class="roma">toridori</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>タップリ<rt class="roma">tappuri</rt></ruby>
 </div>
 </div>
 
@@ -115,13 +115,13 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まわるまわるイメージ 頭の中裏返ったり
+<ruby>まわる<rt class="roma">mawaru</rt></ruby><ruby>まわる<rt class="roma">mawaru</rt></ruby><ruby>イメージ<rt class="roma">imeeji</rt></ruby> <ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>裏返<rt class="furi">うらがえ</rt><rt class="roma">uragae</rt></ruby><ruby>ったり<rt class="roma">ttari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-色とりどりイメージ となりにありそでなさそで
+<ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>とりどり<rt class="roma">toridori</rt></ruby><ruby>イメージ<rt class="roma">imeeji</rt></ruby> <ruby>となり<rt class="roma">tonari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>あり<rt class="roma">ari</rt></ruby><ruby>そ<rt class="roma">so</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>そで<rt class="roma">sode</rt></ruby>
 </div>
 </div>
 
@@ -129,25 +129,25 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-むすんだ目を開いて むすび目をほどいて
+<ruby>むすん<rt class="roma">musun</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>むすび<rt class="roma">musubi</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ほどい<rt class="roma">hodoi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-うめこむんだよ細胞のはしからはしまでロングロングタイム
+<ruby>うめこむ<rt class="roma">umekomu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>細胞<rt class="furi">さいぼう</rt><rt class="roma">saibou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>はし<rt class="roma">hashi</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>はし<rt class="roma">hashi</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>ロングロングタイム<rt class="roma">rongurongutaimu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-愛の日々はどんなんで 愛の意味はどんなんで
+<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どんな<rt class="roma">donna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どんな<rt class="roma">donna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-平和の空は何色 明日かもずっと未来かも
+<ruby>平和<rt class="furi">へいわ</rt><rt class="roma">heiwa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby>
 </div>
 </div>
 
@@ -155,19 +155,17 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まわるまわる ゆれるゆれる
+<ruby>まわる<rt class="roma">mawaru</rt></ruby><ruby>まわる<rt class="roma">mawaru</rt></ruby> <ruby>ゆれる<rt class="roma">yureru</rt></ruby><ruby>ゆれる<rt class="roma">yureru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-すべるすべる 色とりどりでバッチリ
+<ruby>すべる<rt class="roma">suberu</rt></ruby><ruby>すべる<rt class="roma">suberu</rt></ruby> <ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>とりどり<rt class="roma">toridori</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>バッチリ<rt class="roma">batchiri</rt></ruby>
 </div>
 </div>
 
 </div>
-
-
 
 ## 出典
 

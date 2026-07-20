@@ -27,31 +27,31 @@ image: /images/albums/rim/new-romancer.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-どこまでいこうか
+<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-終末の赴くまま
+<ruby>終末<rt class="furi">しゅうまつ</rt><rt class="roma">shuumatsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>赴<rt class="furi">おもむ</rt><rt class="roma">omomu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-無償の愛なら
+<ruby>無償<rt class="furi">むしょう</rt><rt class="roma">mushou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-コンビニで買える時代で
+<ruby>コンビニ<rt class="roma">konbini</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>買<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
@@ -59,49 +59,49 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それならおいで
+<ruby>それなら<rt class="roma">sorenara</rt></ruby><ruby>おいで<rt class="roma">oide</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-傍においで
+<ruby>傍<rt class="furi">はた</rt><rt class="roma">hata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>おいで<rt class="roma">oide</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ままごとはもうお終いよ
+<ruby>ままごと<rt class="roma">mamagoto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>終<rt class="furi">おわり</rt><rt class="roma">owari</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-鬼さんこちら 手の鳴る方へ
+<ruby>鬼<rt class="furi">おに</rt><rt class="roma">oni</rt></ruby><ruby>さん<rt class="roma">san</rt></ruby><ruby>こちら<rt class="roma">kochira</rt></ruby> <ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-聞かせてよ 昔の話を
+<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>昔<rt class="furi">むかし</rt><rt class="roma">mukashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>話<rt class="furi">はなし</rt><rt class="roma">hanashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-等価交換ね！
+<ruby>等価<rt class="furi">とうか</rt><rt class="roma">touka</rt></ruby><ruby>交換<rt class="furi">こうかん</rt><rt class="roma">koukan</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-なんでもしてあげる
+<ruby>なん<rt class="roma">nan</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>あげる<rt class="roma">ageru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-聞いてよ
+<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -109,55 +109,55 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「どんな宇宙でも」
+「<ruby>どんな<rt class="roma">donna</rt></ruby><ruby>宇宙<rt class="furi">うちゅう</rt><rt class="roma">uchuu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「君がいい」
+「<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「ふとした隙に」
+「<ruby>ふとした<rt class="roma">futoshita</rt></ruby><ruby>隙<rt class="furi">ひま</rt><rt class="roma">hima</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「ふわり香った」
+「<ruby>ふわり<rt class="roma">fuwari</rt></ruby><ruby>香<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「夜のせいかな」
+「<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「気分がいい」
+「<ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「近くに来なよ」
+「<ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「ブランコで」
+「<ruby>ブランコ<rt class="roma">buranko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「飛べるよ」
+「<ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>」
 </div>
 </div>
 
@@ -165,25 +165,25 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-蚊の泣くようなリズムで
+<ruby>蚊<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>リズム<rt class="roma">rizumu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-歩いていたい
+<ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-お気に入りの言葉は
+<ruby>お気に入<rt class="furi">おきにい</rt><rt class="roma">okinii</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ハイライト
+<ruby>ハイライト<rt class="roma">hairaito</rt></ruby>
 </div>
 </div>
 
@@ -191,43 +191,43 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あぁ 怖い怖い 暗い暗い
+<ruby>あぁ<rt class="roma">aa</rt></ruby> <ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>暗<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>暗<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-酷い時代ね
+<ruby>酷<rt class="furi">ひど</rt><rt class="roma">hido</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-鬼さんこちら 手の鳴る方へ
+<ruby>鬼<rt class="furi">おに</rt><rt class="roma">oni</rt></ruby><ruby>さん<rt class="roma">san</rt></ruby><ruby>こちら<rt class="roma">kochira</rt></ruby> <ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-聞かせてよ 昔の話を
+<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>昔<rt class="furi">むかし</rt><rt class="roma">mukashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>話<rt class="furi">はなし</rt><rt class="roma">hanashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-等価交換ね！
+<ruby>等価<rt class="furi">とうか</rt><rt class="roma">touka</rt></ruby><ruby>交換<rt class="furi">こうかん</rt><rt class="roma">koukan</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-なんでもしてあげる
+<ruby>なん<rt class="roma">nan</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>あげる<rt class="roma">ageru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-嘘だよ
+<ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -235,49 +235,49 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「どんな時代でも」
+「<ruby>どんな<rt class="roma">donna</rt></ruby><ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「君がいい」
+「<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「ふとした隙に」
+「<ruby>ふとした<rt class="roma">futoshita</rt></ruby><ruby>隙<rt class="furi">ひま</rt><rt class="roma">hima</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「ふわり香った」
+「<ruby>ふわり<rt class="roma">fuwari</rt></ruby><ruby>香<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「夜のせいかな」
+「<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「気分がいい」
+「<ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「近くに来なよ」
+「<ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「もう子供じゃない」
+「<ruby>もう<rt class="roma">mou</rt></ruby><ruby>子供<rt class="furi">こども</rt><rt class="roma">kodomo</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>」
 </div>
 </div>
 
@@ -285,70 +285,68 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「どんな君でも」
+「<ruby>どんな<rt class="roma">donna</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「愛したい」
+「<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「つまらない嘘も全部」
+「<ruby>つまらない<rt class="roma">tsumaranai</rt></ruby><ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「きっと愛しいよ」
+「<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>愛<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「あぁ」
+「<ruby>あぁ<rt class="roma">aa</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「君の車で」
+「<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>車<rt class="furi">くるま</rt><rt class="roma">kuruma</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「月の裏まで」
+「<ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>裏<rt class="furi">うら</rt><rt class="roma">ura</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「ドライブして」
+「<ruby>ドライブ<rt class="roma">doraibu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「痛いよ」
+「<ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「だって」
+「<ruby>だって<rt class="roma">datte</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「都会はつまんないよ」
+「<ruby>都会<rt class="furi">とかい</rt><rt class="roma">tokai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>つまんない<rt class="roma">tsumannai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>」
 </div>
 </div>
 
 </div>
-
-

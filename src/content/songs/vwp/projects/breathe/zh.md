@@ -32,7 +32,7 @@ image: /images/albums/vwp/virtual-city-record.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -251,5 +251,3 @@ Just focus, calm down
 </div>
 
 </div>
-
-

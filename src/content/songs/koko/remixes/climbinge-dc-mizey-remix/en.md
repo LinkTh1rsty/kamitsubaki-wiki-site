@@ -27,31 +27,31 @@ ClimBinge(DC Mizey Remix) appears on ClimBinge the Remix or a related official r
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-奪ったんだろ足先から
+<ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>足<rt class="furi">あし</rt><rt class="roma">ashi</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-頭まで伝う多幸感
+<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>多幸<rt class="furi">たこう</rt><rt class="roma">takou</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-踊ってんのさウワモノな
+<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ウワモノ<rt class="roma">uwamono</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-息づかいで 導く
+<ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>づかい<rt class="roma">zukai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>導<rt class="furi">みちび</rt><rt class="roma">michibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
 </div>
 
@@ -63,91 +63,91 @@ Freedom freaks flavor
 
 <div class="lyric-line">
 <div class="jp-lyric">
-夜の邂逅 刻む本能
+<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>邂逅<rt class="furi">かいこう</rt><rt class="roma">kaikou</rt></ruby> <ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>本能<rt class="furi">ほんのう</rt><rt class="roma">honnou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-お前の声が食べたいよ
+<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Peak meter 振り切ってでも
+Peak meter <ruby>振り切<rt class="furi">ふりき</rt><rt class="roma">furiki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Only holy time 始めよう
+Only holy time <ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Deep my voice 絡めて飛ばす
+Deep my voice <ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ばす<rt class="roma">basu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-箱の中 響かせ合おう
+<ruby>箱<rt class="furi">はこ</rt><rt class="roma">hako</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby> <ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>かせ<rt class="roma">kase</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-吐き出したそれを良しと謳う
+<ruby>吐き出<rt class="furi">はきだ</rt><rt class="roma">hakida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>謳<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-House beat の語り口調じゃ
+House beat <ruby>の<rt class="roma">no</rt></ruby><ruby>語り口<rt class="furi">かたりくち</rt><rt class="roma">katarikuchi</rt></ruby><ruby>調<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-辛抱も苦手なようだ
+<ruby>辛抱<rt class="furi">しんぼう</rt><rt class="roma">shinbou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>苦手<rt class="furi">にがて</rt><rt class="roma">nigate</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-純然たる昂りに
+<ruby>純然<rt class="furi">じゅんぜん</rt><rt class="roma">junzen</rt></ruby><ruby>たる<rt class="roma">taru</rt></ruby><ruby>昂<rt class="furi">たかぶ</rt><rt class="roma">takabu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-品性理性などお呼びじゃない
+<ruby>品性<rt class="furi">ひんせい</rt><rt class="roma">hinsei</rt></ruby><ruby>理性<rt class="furi">りせい</rt><rt class="roma">risei</rt></ruby><ruby>など<rt class="roma">nado</rt></ruby><ruby>お呼<rt class="furi">およ</rt><rt class="roma">oyo</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-残影が微かに映す
+<ruby>残<rt class="furi">ざん</rt><rt class="roma">zan</rt></ruby><ruby>影<rt class="furi">かげ</rt><rt class="roma">kage</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>微<rt class="furi">かす</rt><rt class="roma">kasu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>映<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-足取りは大きく
+<ruby>足取<rt class="furi">あしど</rt><rt class="roma">ashido</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>大<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>きく<rt class="roma">kiku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-瞳には映らないのに
+<ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>映<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-感覚は鮮やか
+<ruby>感覚<rt class="furi">かんかく</rt><rt class="roma">kankaku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>鮮<rt class="furi">あざ</rt><rt class="roma">aza</rt></ruby><ruby>やか<rt class="roma">yaka</rt></ruby>
 </div>
 </div>
 
@@ -159,61 +159,61 @@ Fatal phasis favour
 
 <div class="lyric-line">
 <div class="jp-lyric">
-無駄な抵抗 止めた狂騒
+<ruby>無駄<rt class="furi">むだ</rt><rt class="roma">muda</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>抵抗<rt class="furi">ていこう</rt><rt class="roma">teikou</rt></ruby> <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>狂騒<rt class="furi">きょうそう</rt><rt class="roma">kyousou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-お前の音が欲しくなる
+<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-細胞に従うまま
+<ruby>細胞<rt class="furi">さいぼう</rt><rt class="roma">saibou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>従<rt class="furi">したが</rt><rt class="roma">shitaga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-全身全霊で打ち鳴らす
+<ruby>全身全霊<rt class="furi">ぜんしんぜんれい</rt><rt class="roma">zenshinzenrei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>打<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らす<rt class="roma">rasu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-絶頂を拒みはしない
+<ruby>絶頂<rt class="furi">ぜっちょう</rt><rt class="roma">zetchou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>拒<rt class="furi">こば</rt><rt class="roma">koba</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-何度でも至るまで
+<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>至<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Peak meter 振り切ってでも
+Peak meter <ruby>振り切<rt class="furi">ふりき</rt><rt class="roma">furiki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Only holy time 始めよう
+Only holy time <ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Deep my voice 絡めて飛ばす
+Deep my voice <ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ばす<rt class="roma">basu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-箱の中 響かせ合おう
+<ruby>箱<rt class="furi">はこ</rt><rt class="roma">hako</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby> <ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>かせ<rt class="roma">kase</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -255,10 +255,8 @@ Singing making loving now
 
 <div class="lyric-line">
 <div class="jp-lyric">
-吐き出したそれを良しと謳う
+<ruby>吐き出<rt class="furi">はきだ</rt><rt class="roma">hakida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>謳<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 </div>
-
-

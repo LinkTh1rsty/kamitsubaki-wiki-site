@@ -27,7 +27,7 @@ Season (Cover Live) appears on CREAM PUFF LIVE 4 (Cover Live) or a related offic
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -152,5 +152,3 @@ You ripped up the book of my childhood
 </div>
 
 </div>
-
-

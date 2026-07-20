@@ -130,5 +130,3 @@ Har re re re re, ama sede dev re, dev re
 </div>
 
 </div>
-
-

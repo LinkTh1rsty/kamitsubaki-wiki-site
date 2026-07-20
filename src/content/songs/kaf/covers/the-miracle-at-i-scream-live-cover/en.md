@@ -28,7 +28,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -407,8 +407,6 @@ When we can all be friends
 </div>
 
 </div>
-
-
 
 ## Sources
 

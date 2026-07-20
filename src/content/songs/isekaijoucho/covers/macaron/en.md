@@ -22,7 +22,7 @@ MACARON appears on CANDY LIVE or a related official release. Entries are version
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -409,5 +409,3 @@ Hey hey hey hey
 </div>
 
 </div>
-
-

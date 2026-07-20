@@ -32,7 +32,7 @@ image: /images/albums/vwp/city-ii-virtual-reality.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -145,5 +145,3 @@ Nothing, turn now Gotta try a little harder It could be sweet
 </div>
 
 </div>
-
-

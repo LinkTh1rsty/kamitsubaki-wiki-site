@@ -27,7 +27,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -258,5 +258,3 @@ I need to know
 </div>
 
 </div>
-
-

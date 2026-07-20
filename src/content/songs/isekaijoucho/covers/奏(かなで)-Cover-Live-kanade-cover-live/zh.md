@@ -27,7 +27,7 @@ image: /images/albums/isekaijoucho/candy-live-3.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -242,5 +242,3 @@ Don't you worry, baby
 </div>
 
 </div>
-
-

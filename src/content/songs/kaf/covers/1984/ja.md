@@ -269,8 +269,6 @@ Wir wollen nur eines... Freiheit!
 
 </div>
 
-
-
 ## 出典
 
 - [Apple Music](https://music.apple.com/jp/album/1984/1864122479?i=1864122679&uo=4)

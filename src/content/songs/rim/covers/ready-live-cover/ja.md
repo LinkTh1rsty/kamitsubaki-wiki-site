@@ -196,5 +196,3 @@ Wait don't stay
 </div>
 
 </div>
-
-

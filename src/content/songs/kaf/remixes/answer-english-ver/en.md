@@ -27,7 +27,7 @@ image: /images/songs/kaf/track-1772862797.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -374,8 +374,6 @@ You are the one
 </div>
 
 </div>
-
-
 
 ## Sources
 

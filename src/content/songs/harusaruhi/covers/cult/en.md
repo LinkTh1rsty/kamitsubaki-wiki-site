@@ -22,7 +22,7 @@ CULT appears on CREAM PUFF LIVE or a related official release. Entries are versi
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -149,5 +149,3 @@ It's like we're living in a fucked up ponzi scheme
 </div>
 
 </div>
-
-

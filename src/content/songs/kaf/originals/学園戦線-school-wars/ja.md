@@ -33,355 +33,353 @@ image: /images/albums/kaf/shinai.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ああ、またそれですか
+<ruby>ああ<rt class="roma">aa</rt></ruby>、<ruby>また<rt class="roma">mata</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-わかったつもりですか
+<ruby>わかった<rt class="roma">wakatta</rt></ruby><ruby>つもり<rt class="roma">tsumori</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ああ、踏み込んじゃったのね
+<ruby>ああ<rt class="roma">aa</rt></ruby>、<ruby>踏み込<rt class="furi">ふみこ</rt><rt class="roma">fumiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃった<rt class="roma">jatta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ウェルカム地雷原
+<ruby>ウェルカム<rt class="roma">uerukamu</rt></ruby><ruby>地雷<rt class="furi">じらい</rt><rt class="roma">jirai</rt></ruby><ruby>原<rt class="furi">はら</rt><rt class="roma">hara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ててて点呼 どうぞ
+<ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>点呼<rt class="furi">てんこ</rt><rt class="roma">tenko</rt></ruby> <ruby>どうぞ<rt class="roma">douzo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ててててアテンション もっと
+<ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>アテンション<rt class="roma">atenshon</rt></ruby> <ruby>もっと<rt class="roma">motto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕らを目の敵にするなら
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>目の敵<rt class="furi">めのかたき</rt><rt class="roma">menokataki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そんならこっちも容赦はしないぜ
+<ruby>そん<rt class="roma">son</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>こっち<rt class="roma">kotchi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>容赦<rt class="furi">ようしゃ</rt><rt class="roma">yousha</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-学園戦線 はみ出せ
+<ruby>学園<rt class="furi">がくえん</rt><rt class="roma">gakuen</rt></ruby><ruby>戦線<rt class="furi">せんせん</rt><rt class="roma">sensen</rt></ruby> <ruby>はみ出<rt class="furi">はみだ</rt><rt class="roma">hamida</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-“じゃあね”
+“<ruby>じゃあ<rt class="roma">jaa</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>”
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕らしか知らない世界
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-無敵のシークレット
+<ruby>無敵<rt class="furi">むてき</rt><rt class="roma">muteki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>シーク<rt class="roma">shiiku</rt></ruby><ruby>レット<rt class="roma">retto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-こんがらがったままでいこうぜ
+<ruby>こんがらがった<rt class="roma">kongaragatta</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-思い込みさえも才能
+<ruby>思い込<rt class="furi">おもいこ</rt><rt class="roma">omoiko</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>才能<rt class="furi">さいのう</rt><rt class="roma">sainou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-理解ってもらえないなら
+<ruby>理解<rt class="furi">りかい</rt><rt class="roma">rikai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>もらえ<rt class="roma">morae</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ひたすらに挑んでゆく物語
+<ruby>ひたすら<rt class="roma">hitasura</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>挑<rt class="furi">いど</rt><rt class="roma">ido</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-見せつけてこ！
+<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せつけ<rt class="roma">setsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ラララ…
+<ruby>ラララ<rt class="roma">rarara</rt></ruby>…
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-こんな僕らだって叫ぶ
+<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-見せつけてこ！
+<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せつけ<rt class="roma">setsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ラララ…
+<ruby>ラララ<rt class="roma">rarara</rt></ruby>…
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-でんぐり返し でんぐり返し
+<ruby>でんぐり返<rt class="furi">でんぐりがえ</rt><rt class="roma">dengurigae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> <ruby>でんぐり返<rt class="furi">でんぐりがえ</rt><rt class="roma">dengurigae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ライライライ
+<ruby>ライライライ<rt class="roma">rairairai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ああ、君が言うなら
+<ruby>ああ<rt class="roma">aa</rt></ruby>、<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-なんだか頑張れちゃうや
+<ruby>なんだか<rt class="roma">nandaka</rt></ruby><ruby>頑張<rt class="furi">がんば</rt><rt class="roma">ganba</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ああ、不思議なもんだね
+<ruby>ああ<rt class="roma">aa</rt></ruby>、<ruby>不思議<rt class="furi">ふしぎ</rt><rt class="roma">fushigi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-青春アディクション
+<ruby>青春<rt class="furi">せいしゅん</rt><rt class="roma">seishun</rt></ruby><ruby>アディクション<rt class="roma">adeikushon</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-けけけ決行 ゴーゴー
+<ruby>け<rt class="roma">ke</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>決行<rt class="furi">けっこう</rt><rt class="roma">kekkou</rt></ruby> <ruby>ゴーゴー<rt class="roma">gougou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-けけけけ行けんの？もっと
+<ruby>け<rt class="roma">ke</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？<ruby>もっと<rt class="roma">motto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-君の頭に流れてる音
+<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それが僕にとってのモチベーション
+<ruby>それ<rt class="roma">sore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>にとって<rt class="roma">nitotte</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>モチベーション<rt class="roma">mochibeeshon</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕らの世界には
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-何が待ってるのだろう
+<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-切り開いてこう
+<ruby>切り開<rt class="furi">きりひら</rt><rt class="roma">kirihira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-こんがらがったままでいこうぜ
+<ruby>こんがらがった<rt class="roma">kongaragatta</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-君と行けたら超さいこー
+<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-理解ってもらえないなら
+<ruby>理解<rt class="furi">りかい</rt><rt class="roma">rikai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>もらえ<rt class="roma">morae</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ひたすらに挑んでゆく物語
+<ruby>ひたすら<rt class="roma">hitasura</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>挑<rt class="furi">いど</rt><rt class="roma">ido</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-見せつけてこ！
+<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せつけ<rt class="roma">setsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ラララ…
+<ruby>ラララ<rt class="roma">rarara</rt></ruby>…
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-たまにゃ僕らだって嘆く
+<ruby>たま<rt class="roma">tama</rt></ruby><ruby>にゃ<rt class="roma">nya</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>嘆<rt class="furi">なげ</rt><rt class="roma">nage</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-見せつけてこ！
+<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せつけ<rt class="roma">setsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ラララ…
+<ruby>ラララ<rt class="roma">rarara</rt></ruby>…
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-でんぐり返し でんぐり返し
+<ruby>でんぐり返<rt class="furi">でんぐりがえ</rt><rt class="roma">dengurigae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> <ruby>でんぐり返<rt class="furi">でんぐりがえ</rt><rt class="roma">dengurigae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-バイバイバイ
+<ruby>バイ<rt class="roma">bai</rt></ruby><ruby>バイバイ<rt class="roma">baibai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ララララララララ
+<ruby>ララララララララ<rt class="roma">rararararararara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-無敵のシークレット
+<ruby>無敵<rt class="furi">むてき</rt><rt class="roma">muteki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>シーク<rt class="roma">shiiku</rt></ruby><ruby>レット<rt class="roma">retto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-こんがらがったままでいこうぜ
+<ruby>こんがらがった<rt class="roma">kongaragatta</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-思い込みさえも才能
+<ruby>思い込<rt class="furi">おもいこ</rt><rt class="roma">omoiko</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>才能<rt class="furi">さいのう</rt><rt class="roma">sainou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-理解ってもらえないなら
+<ruby>理解<rt class="furi">りかい</rt><rt class="roma">rikai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>もらえ<rt class="roma">morae</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ひたすらに挑んでゆく物語
+<ruby>ひたすら<rt class="roma">hitasura</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>挑<rt class="furi">いど</rt><rt class="roma">ido</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-見せつけてこ！
+<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せつけ<rt class="roma">setsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ラララ…
+<ruby>ラララ<rt class="roma">rarara</rt></ruby>…
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-こんな僕らだって叫ぶ
+<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-見せつけてこ！
+<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せつけ<rt class="roma">setsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby>！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ラララ…
+<ruby>ラララ<rt class="roma">rarara</rt></ruby>…
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-でんぐり返し でんぐり返し
+<ruby>でんぐり返<rt class="furi">でんぐりがえ</rt><rt class="roma">dengurigae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> <ruby>でんぐり返<rt class="furi">でんぐりがえ</rt><rt class="roma">dengurigae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ライライライ
+<ruby>ライライライ<rt class="roma">rairairai</rt></ruby>
 </div>
 </div>
 
 </div>
-
-
 
 ## 出典
 

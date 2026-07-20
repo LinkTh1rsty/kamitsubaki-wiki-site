@@ -27,7 +27,7 @@ rose (Cover Live) appears on CANDY LIVE 3 (Cover Live) or a related official rel
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -472,5 +472,3 @@ rose rose rose rose రోజాపువ్వా
 </div>
 
 </div>
-
-

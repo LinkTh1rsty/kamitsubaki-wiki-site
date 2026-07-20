@@ -25,121 +25,121 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ダンスフロアーに華やかな光
+<ruby>ダンス<rt class="roma">dansu</rt></ruby><ruby>フロアー<rt class="roma">furoaa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>華<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>やか<rt class="roma">yaka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕をそっと包むようなハーモニー
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>包<rt class="furi">つつ</rt><rt class="roma">tsutsu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ハーモニー<rt class="roma">haamonii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ブギー・バック シェイク・イット・アップ 神様がくれた
+<ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-甘い甘いミルク＆ハニー
+<ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ミルク<rt class="roma">miruku</rt></ruby>＆<ruby>ハニー<rt class="roma">hanii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-クールな僕は まるでヤング・アメリカン
+<ruby>クール<rt class="roma">kuuru</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>まるで<rt class="roma">marude</rt></ruby><ruby>ヤング<rt class="roma">yangu</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アメリカン<rt class="roma">amerikan</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そうさ今 君こそがオンリー・ワン
+<ruby>そう<rt class="roma">sou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>オンリー<rt class="roma">onrii</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ワン<rt class="roma">wan</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ブギー・バック シェイク・イット・アップ 夜のはじまりは
+<ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>はじまり<rt class="roma">hajimari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-溶ろけるようなファンキー・ミュージック
+溶<ruby>ろ<rt class="roma">ro</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ファンキー<rt class="roma">fuankii</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ミュージック<rt class="roma">myuujikku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕とベイビー・ブラザー めかしこんで来たパーティ・タイム
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>ベイビー・ブラザー<rt class="roma">beibii/burazaa</rt></ruby> <ruby>めかしこん<rt class="roma">mekashikon</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>パーティ<rt class="roma">paatei</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>タイム<rt class="roma">taimu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-すぐに目が合えば 君は最高のファンキー・ガール
+<ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>最高<rt class="furi">さいこう</rt><rt class="roma">saikou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ファンキー<rt class="roma">fuankii</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ガール<rt class="roma">gaaru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-誰だってロケットが lock する 特別な唇
+<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>ロケット<rt class="roma">roketto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> lock <ruby>する<rt class="roma">suru</rt></ruby> <ruby>特別<rt class="furi">とくべつ</rt><rt class="roma">tokubetsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>唇<rt class="furi">くちびる</rt><rt class="roma">kuchibiru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ほんのちょっと困ってるジューシー・フルーツ 一言で言えばね
+<ruby>ほんの<rt class="roma">honno</rt></ruby><ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>困<rt class="furi">こま</rt><rt class="roma">koma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>ジューシー・フルーツ<rt class="roma">juushii/furuutsu</rt></ruby> <ruby>一言<rt class="furi">ひとこと</rt><rt class="roma">hitokoto</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-１ ２ ３ を待たずに
+１ ２ ３ <ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-16小節の旅のはじまり
+16<ruby>小節<rt class="furi">しょうせつ</rt><rt class="roma">shousetsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>はじまり<rt class="roma">hajimari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ブーツでドアをドカーッとけって
+<ruby>ブーツ<rt class="roma">buutsu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ドア<rt class="roma">doa</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ドカーッと<rt class="roma">dokaatto</rt></ruby><ruby>けって<rt class="roma">kette</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「ルカーッ」と叫んでドカドカ行って
+「<ruby>ルカーッ<rt class="roma">rukaa</rt></ruby>」<ruby>と<rt class="roma">to</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ドカドカ<rt class="roma">dokadoka</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-テーブルのピザ フラスモーチキン
+<ruby>テーブル<rt class="roma">teeburu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ピザ<rt class="roma">piza</rt></ruby> <ruby>フラスモーチキン<rt class="roma">furasumouchikin</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ビールでいっきに流しこみ
+<ruby>ビール<rt class="roma">biiru</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いっきに<rt class="roma">ikkini</rt></ruby><ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>こみ<rt class="roma">komi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ピースでみんなにセイ ハロー
+<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>みんな<rt class="roma">minna</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>セイ<rt class="roma">sei</rt></ruby> <ruby>ハロー<rt class="roma">harou</rt></ruby>
 </div>
 </div>
 
@@ -151,73 +151,73 @@ On and on to da break down
 
 <div class="lyric-line">
 <div class="jp-lyric">
-てな具合に ええ行きたいっスね
+<ruby>て<rt class="roma">te</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>具合<rt class="furi">ぐあい</rt><rt class="roma">guai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>ええ<rt class="roma">ee</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>いっス<rt class="roma">issu</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いっスねーっ イェーッ！ イェーッ！ なんてねーっ
+<ruby>いっス<rt class="roma">issu</rt></ruby><ruby>ねー<rt class="roma">nee</rt></ruby><ruby>っ<rt class="roma"></rt></ruby> <ruby>イェーッ<rt class="roma">iee</rt></ruby>！ <ruby>イェーッ<rt class="roma">iee</rt></ruby>！ <ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ねー<rt class="roma">nee</rt></ruby><ruby>っ<rt class="roma"></rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-よくない コレ？ コレ よくない？
+<ruby>よく<rt class="roma">yoku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>コレ<rt class="roma">kore</rt></ruby>？ <ruby>コレ<rt class="roma">kore</rt></ruby> <ruby>よく<rt class="roma">yoku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-よくなく なくなく なくなくない？
+<ruby>よく<rt class="roma">yoku</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby> <ruby>なく<rt class="roma">naku</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby> <ruby>なく<rt class="roma">naku</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-その頃のぼくらと言ったら
+<ruby>その<rt class="roma">sono</rt></ruby><ruby>頃<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ぼく<rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ったら<rt class="roma">ttara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いつもこんな調子だった
+<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>こんな<rt class="roma">konna</rt></ruby><ruby>調子<rt class="furi">ちょうし</rt><rt class="roma">choushi</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-心のベスト10 第一位は
+<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ベスト<rt class="roma">besuto</rt></ruby>10 <ruby>第<rt class="furi">だい</rt><rt class="roma">dai</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>位<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-こんな曲だった
+<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ダンスフロアーに華やかな光
+<ruby>ダンス<rt class="roma">dansu</rt></ruby><ruby>フロアー<rt class="roma">furoaa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>華<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>やか<rt class="roma">yaka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕をそっと包むようなハーモニー
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>包<rt class="furi">つつ</rt><rt class="roma">tsutsu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ハーモニー<rt class="roma">haamonii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ブギー・バック シェイク・イット・アップ 神様がくれた
+<ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-甘い甘いミルク＆ハニー
+<ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ミルク<rt class="roma">miruku</rt></ruby>＆<ruby>ハニー<rt class="roma">hanii</rt></ruby>
 </div>
 </div>
 
@@ -229,37 +229,37 @@ Knock knock! Who is it?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-アーシ エイル in the place to be
+<ruby>アーシ<rt class="roma">aashi</rt></ruby> <ruby>エイル<rt class="roma">eiru</rt></ruby> in the place to be
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-なんて 具合に ウアーッ ウアーッ
+<ruby>なんて<rt class="roma">nante</rt></ruby> <ruby>具合<rt class="furi">ぐあい</rt><rt class="roma">guai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>ウアーッ<rt class="roma">uaa</rt></ruby> <ruby>ウアーッ<rt class="roma">uaa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Wait wait wait wait ガッテーム
+Wait wait wait wait <ruby>ガッテーム<rt class="roma">gatteemu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-って俺って何も言ってねーっ
+<ruby>って<rt class="roma">tte</rt></ruby><ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ねー<rt class="roma">nee</rt></ruby><ruby>っ<rt class="roma"></rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いや泣けたっス「えーっ」マジ泣けたっス
+<ruby>いや<rt class="roma">iya</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たっス<rt class="roma">tassu</rt></ruby>「<ruby>えーっ<rt class="roma">ee</rt></ruby>」<ruby>マジ<rt class="roma">maji</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たっス<rt class="roma">tassu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-フリースタイル具合にマジ泣けたっス
+<ruby>フリー<rt class="roma">furii</rt></ruby><ruby>スタイル<rt class="roma">sutairu</rt></ruby><ruby>具合<rt class="furi">ぐあい</rt><rt class="roma">guai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>マジ<rt class="roma">maji</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たっス<rt class="roma">tassu</rt></ruby>
 </div>
 </div>
 
@@ -271,193 +271,191 @@ Stop check it out yo man
 
 <div class="lyric-line">
 <div class="jp-lyric">
-キミこそスゲーぜ yose my man
+<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby><ruby>スゲー<rt class="roma">sugee</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby> yose my man
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-コレ よくない？ よくない コレ？
+<ruby>コレ<rt class="roma">kore</rt></ruby> <ruby>よく<rt class="roma">yoku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>？ <ruby>よく<rt class="roma">yoku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>コレ<rt class="roma">kore</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-よくなく なくなく なくセイ イェーッ
+<ruby>よく<rt class="roma">yoku</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby> <ruby>なく<rt class="roma">naku</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby> <ruby>なく<rt class="roma">naku</rt></ruby><ruby>セイ<rt class="roma">sei</rt></ruby> <ruby>イェーッ<rt class="roma">iee</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-イェーツ and you don't stop
+<ruby>イェーツ<rt class="roma">ieetsu</rt></ruby> and you don't stop
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-しみたーっ！シビれた 泣けた ほれた
+<ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>っ<rt class="roma"></rt></ruby>！<ruby>シビ<rt class="roma">shibi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>ほれ<rt class="roma">hore</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-これだーっ！ これだみんなメモれ
+<ruby>これ<rt class="roma">kore</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>っ<rt class="roma"></rt></ruby>！ <ruby>これ<rt class="roma">kore</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>みんな<rt class="roma">minna</rt></ruby><ruby>メモ<rt class="roma">memo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-コピれーっ make money!
+<ruby>コピ<rt class="roma">kopi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>っ<rt class="roma"></rt></ruby> make money!
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-その頃もぼくらを支えてたのは
+<ruby>その<rt class="roma">sono</rt></ruby><ruby>頃<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ぼく<rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>支<rt class="furi">ささ</rt><rt class="roma">sasa</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-やはり この曲だった
+<ruby>やはり<rt class="roma">yahari</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ダンスフロアーに華やかな光
+<ruby>ダンス<rt class="roma">dansu</rt></ruby><ruby>フロアー<rt class="roma">furoaa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>華<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>やか<rt class="roma">yaka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕をそっと包むようなハーモニー
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>包<rt class="furi">つつ</rt><rt class="roma">tsutsu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ハーモニー<rt class="roma">haamonii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ブギー・バック シェイク・イット・アップ 神様がくれた
+<ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-甘い甘いミルク＆ハニー
+<ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ミルク<rt class="roma">miruku</rt></ruby>＆<ruby>ハニー<rt class="roma">hanii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-クールな僕は まるでヤング・アメリカン
+<ruby>クール<rt class="roma">kuuru</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>まるで<rt class="roma">marude</rt></ruby><ruby>ヤング<rt class="roma">yangu</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アメリカン<rt class="roma">amerikan</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そうさ今 君こそがオンリー・ワン
+<ruby>そう<rt class="roma">sou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>オンリー<rt class="roma">onrii</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ワン<rt class="roma">wan</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ブギー・バック シェイク・イット・アップ 夜のはじまりは
+<ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>はじまり<rt class="roma">hajimari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-溶ろけるようなファンキー・ミュージック
+溶<ruby>ろ<rt class="roma">ro</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ファンキー<rt class="roma">fuankii</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ミュージック<rt class="roma">myuujikku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-心がわりの相手は僕に決めなよ
+<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>がわり<rt class="roma">gawari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>相手<rt class="furi">あいて</rt><rt class="roma">aite</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ロマンスのビッグ・ヒッター グレイト・シューター 踊りつづけるなら
+<ruby>ロマンス<rt class="roma">romansu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ビッグ<rt class="roma">biggu</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ヒッター<rt class="roma">hittaa</rt></ruby> <ruby>グレイト・シューター<rt class="roma">gureito/shuutaa</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>つづける<rt class="roma">tsuzukeru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-最後にはきっと 僕こそがラブ・マシーン
+<ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ラブ・マシーン<rt class="roma">rabu/mashiin</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-君にずっと捧げるよファンタジー
+<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>捧<rt class="furi">ささ</rt><rt class="roma">sasa</rt></ruby><ruby>げる<rt class="roma">geru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ファンタジー<rt class="roma">fuantajii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ブギー・バック シェイク・イット・アップ 神様がくれた
+<ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-甘い甘いミルク＆ハニー
+<ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ミルク<rt class="roma">miruku</rt></ruby>＆<ruby>ハニー<rt class="roma">hanii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-パーティ続き 燃え上がる２人
+<ruby>パーティ<rt class="roma">paatei</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby> <ruby>燃え上<rt class="furi">もえあ</rt><rt class="roma">moea</rt></ruby><ruby>がる<rt class="roma">garu</rt></ruby>２<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そうさベイビー 今宵のリアリティー
+<ruby>そう<rt class="roma">sou</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ベイビー<rt class="roma">beibii</rt></ruby> <ruby>今宵<rt class="furi">こよい</rt><rt class="roma">koyoi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>リアリティー<rt class="roma">riariteii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ブギー・バック シェイク・イット・アップ 夜のなかばには
+<ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なかば<rt class="roma">nakaba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-神様にありがとう
+<ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ワイルドな君 うるわしのフッシー・キャット
+<ruby>ワイルド<rt class="roma">wairudo</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby> <ruby>うるわし<rt class="roma">uruwashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>フッシー・キャット<rt class="roma">fusshii/kyatto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕の手に噛みついてオール・ナイト・ロング
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>噛<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>みつい<rt class="roma">mitsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>オール<rt class="roma">ouru</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ナイト<rt class="roma">naito</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>ロング<rt class="roma">rongu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ブギー・バック シェイク・イット・アップ 夜の終わりには
+<ruby>ブギー・バック<rt class="roma">bugii/bakku</rt></ruby> <ruby>シェイク<rt class="roma">sheiku</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>イット<rt class="roma">itto</rt></ruby><ruby>・<rt class="roma">/</rt></ruby><ruby>アップ<rt class="roma">appu</rt></ruby> <ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-２人きりのワンダー・ランド
+２<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>きり<rt class="roma">kiri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ワンダー・ランド<rt class="roma">wandaa/rando</rt></ruby>
 </div>
 </div>
 
 </div>
-
-
 
 ## Sources
 

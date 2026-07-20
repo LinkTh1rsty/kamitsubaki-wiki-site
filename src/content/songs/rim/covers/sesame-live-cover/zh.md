@@ -27,7 +27,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -348,5 +348,3 @@ Le rêve qui t'enflamme?
 </div>
 
 </div>
-
-

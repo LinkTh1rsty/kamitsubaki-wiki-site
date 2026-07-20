@@ -200,5 +200,3 @@ Kippe Shots und hab am nächsten Morgen Kopfweh
 </div>
 
 </div>
-
-

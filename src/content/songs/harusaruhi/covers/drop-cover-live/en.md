@@ -27,7 +27,7 @@ Drop (Cover Live) appears on CREAM PUFF LIVE 4 (Cover Live) or a related officia
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -200,5 +200,3 @@ Kippe Shots und hab am nächsten Morgen Kopfweh
 </div>
 
 </div>
-
-

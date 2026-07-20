@@ -224,8 +224,6 @@ You're taking the bridge again
 
 </div>
 
-
-
 ## 出典
 
 - [Apple Music](https://music.apple.com/jp/album/swim/1864122479?i=1864122480&uo=4)

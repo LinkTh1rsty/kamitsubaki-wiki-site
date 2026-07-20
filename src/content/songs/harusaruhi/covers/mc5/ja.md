@@ -474,5 +474,3 @@ You and me and the MC5
 </div>
 
 </div>
-
-

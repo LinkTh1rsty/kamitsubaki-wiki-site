@@ -407,8 +407,6 @@ Todoketai tsutaetai
 
 </div>
 
-
-
 ## 出典
 
 - [公式ディスコグラフィー](https://kamitsubaki.jp/discography/koko/7255/)

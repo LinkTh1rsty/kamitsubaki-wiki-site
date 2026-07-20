@@ -28,7 +28,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -281,8 +281,6 @@ When you jumped all on my h-h-h-heart
 </div>
 
 </div>
-
-
 
 ## Sources
 

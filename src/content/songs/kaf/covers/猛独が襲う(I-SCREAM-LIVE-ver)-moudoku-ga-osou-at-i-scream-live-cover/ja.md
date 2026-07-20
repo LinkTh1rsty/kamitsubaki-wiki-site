@@ -295,8 +295,6 @@ So deathly loneliness has followed me to this day
 
 </div>
 
-
-
 ## 出典
 
 - [花譜オフィシャルサイト](https://kaf.kamitsubaki.jp/discography/20200819/113/)

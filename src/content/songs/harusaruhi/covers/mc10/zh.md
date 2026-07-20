@@ -27,7 +27,7 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -296,5 +296,3 @@ Girl, I gotta tell ya...
 </div>
 
 </div>
-
-

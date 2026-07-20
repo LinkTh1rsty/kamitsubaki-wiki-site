@@ -28,7 +28,7 @@ BREATHE (Rearranged ver.) appears on BREATHE (Rearranged ver.) or a related offi
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -247,5 +247,3 @@ Just focus, calm down
 </div>
 
 </div>
-
-

@@ -27,7 +27,7 @@ bliss appears on prayer or a related official release. Entries are version-speci
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -220,5 +220,3 @@ Just looking at the lunar eclipse
 </div>
 
 </div>
-
-

@@ -27,7 +27,7 @@ image: /images/songs/harusaruhi/single-1895909161.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -110,5 +110,3 @@ You are nothing but an accomplice of death
 </div>
 
 </div>
-
-

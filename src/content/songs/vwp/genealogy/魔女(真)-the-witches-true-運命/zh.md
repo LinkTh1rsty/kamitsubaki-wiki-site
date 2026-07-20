@@ -37,7 +37,7 @@ image: /images/albums/vwp/fate.jpg
 
 ## 歌词
 
-目前提供的翻译为AI翻译仅作占位，有能力的同好可提供更好的翻译在本站GitHub仓库提交PR进行修改。
+    目前提供的翻译为AI翻译仅作占位，有能力的同好可提供更好的翻译在本站GitHub仓库提交PR进行修改。
 
 {{lyrics-controls::zh}}
 

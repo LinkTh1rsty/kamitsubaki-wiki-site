@@ -22,7 +22,7 @@ Youthful Strangers appears on CHOCOLATE LIVE or a related official release. Entr
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -597,5 +597,3 @@ Pass the dutchie 'pon the left hand side
 </div>
 
 </div>
-
-

@@ -394,8 +394,6 @@ Eating up the memory of the past
 
 </div>
 
-
-
 ## 出典
 
 - [花譜オフィシャルサイト](https://kaf.kamitsubaki.jp/discography/20250611/984/)

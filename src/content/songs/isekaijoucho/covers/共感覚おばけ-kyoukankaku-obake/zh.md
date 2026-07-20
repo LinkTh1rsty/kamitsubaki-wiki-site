@@ -22,25 +22,25 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-等間隔で並んだ
+<ruby>等間隔<rt class="furi">とうかんかく</rt><rt class="roma">toukankaku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>並<rt class="furi">なら</rt><rt class="roma">nara</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-正解と不正解の上
+<ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>不<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>正解<rt class="furi">せいかい</rt><rt class="roma">seikai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-目が廻る
+<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>廻<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
 </div>
 
@@ -48,19 +48,19 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-共感覚で学んだ
+<ruby>共<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>感覚<rt class="furi">かんかく</rt><rt class="roma">kankaku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>学<rt class="furi">まな</rt><rt class="roma">mana</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-感情表現 あやとり
+<ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>表現<rt class="furi">ひょうげん</rt><rt class="roma">hyougen</rt></ruby> <ruby>あやとり<rt class="roma">ayatori</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ぐるぐる
+<ruby>ぐるぐる<rt class="roma">guruguru</rt></ruby>
 </div>
 </div>
 
@@ -68,25 +68,25 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-間違いを
+<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-消すように 壊すように
+<ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ないしょないしょで 君の底へ
+<ruby>ないし<rt class="roma">naishi</rt></ruby><ruby>ょないしょで<rt class="roma">yonaishode</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>底<rt class="furi">そこ</rt><rt class="roma">soko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「愛情表現」て言う いつも
+「<ruby>愛情<rt class="furi">あいじょう</rt><rt class="roma">aijou</rt></ruby><ruby>表現<rt class="furi">ひょうげん</rt><rt class="roma">hyougen</rt></ruby>」<ruby>て<rt class="roma">te</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>いつも<rt class="roma">itsumo</rt></ruby>
 </div>
 </div>
 
@@ -94,25 +94,25 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-泣くように 笑うように
+<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-態度で示す 言の葉達
+<ruby>態度<rt class="furi">たいど</rt><rt class="roma">taido</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>示<rt class="furi">しめ</rt><rt class="roma">shime</rt></ruby><ruby>す<rt class="roma">su</rt></ruby> <ruby>言の葉<rt class="furi">ことのは</rt><rt class="roma">kotonoha</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-適当なんでしょう？
+<ruby>適当<rt class="furi">てきとう</rt><rt class="roma">tekitou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-だと いいね
+<ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
@@ -120,13 +120,13 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-閉ざしたって波形は
+<ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ざし<rt class="roma">zashi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>波形<rt class="furi">はけい</rt><rt class="roma">hakei</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-表情になって僕を笑うよ
+<ruby>表情<rt class="furi">ひょうじょう</rt><rt class="roma">hyoujou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -134,19 +134,19 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ところで僕等
+<ruby>ところで<rt class="roma">tokorode</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>等<rt class="furi">とう</rt><rt class="roma">tou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「何も言えなくて」
+「<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-とか言うよ
+<ruby>とか<rt class="roma">toka</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -154,25 +154,25 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-曖昧に
+<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-刺すように 塞ぐように
+<ruby>刺<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>塞<rt class="furi">ふさ</rt><rt class="roma">fusa</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ないしょないしょで 今の形
+<ruby>ないし<rt class="roma">naishi</rt></ruby><ruby>ょないしょで<rt class="roma">yonaishode</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>形<rt class="furi">かたち</rt><rt class="roma">katachi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「伝統工芸」て言う 嘘です
+「<ruby>伝統<rt class="furi">でんとう</rt><rt class="roma">dentou</rt></ruby><ruby>工芸<rt class="furi">こうげい</rt><rt class="roma">kougei</rt></ruby>」<ruby>て<rt class="roma">te</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>嘘<rt class="furi">うそ</rt><rt class="roma">uso</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
 </div>
 
@@ -180,25 +180,25 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-泣くように 笑うように
+<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-態度で示す 言の葉達
+<ruby>態度<rt class="furi">たいど</rt><rt class="roma">taido</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>示<rt class="furi">しめ</rt><rt class="roma">shime</rt></ruby><ruby>す<rt class="roma">su</rt></ruby> <ruby>言の葉<rt class="furi">ことのは</rt><rt class="roma">kotonoha</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-幻覚なんでしょう？
+<ruby>幻覚<rt class="furi">げんかく</rt><rt class="roma">genkaku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まあ そうか
+<ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>そう<rt class="roma">sou</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
@@ -206,13 +206,13 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今見える 音の色
+<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby> <ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今触れる 君の色
+<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby>
 </div>
 </div>
 
@@ -220,25 +220,25 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-間違いを
+<ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-消すように 壊すように
+<ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ないしょないしょで 君の底へ
+<ruby>ないし<rt class="roma">naishi</rt></ruby><ruby>ょないしょで<rt class="roma">yonaishode</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>底<rt class="furi">そこ</rt><rt class="roma">soko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「愛情表現」て言う いまも
+「<ruby>愛情<rt class="furi">あいじょう</rt><rt class="roma">aijou</rt></ruby><ruby>表現<rt class="furi">ひょうげん</rt><rt class="roma">hyougen</rt></ruby>」<ruby>て<rt class="roma">te</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>いま<rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
@@ -246,28 +246,26 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-泣くように 笑うように
+<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-止む事の無い 音の葉達
+<ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>葉<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「悪くはないんでしょう？」
+「<ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-だと いいね
+<ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 </div>
-
-

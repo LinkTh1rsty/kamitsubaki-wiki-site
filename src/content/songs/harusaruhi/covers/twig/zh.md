@@ -22,7 +22,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -189,5 +189,3 @@ A twig in the wind, a twig in the wind, well, alright
 </div>
 
 </div>
-
-

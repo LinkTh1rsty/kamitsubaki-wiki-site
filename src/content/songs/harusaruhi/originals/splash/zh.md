@@ -27,7 +27,7 @@ image: /images/songs/harusaruhi/single-1889319192.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -610,5 +610,3 @@ I'm not back, I'm not back, back
 </div>
 
 </div>
-
-

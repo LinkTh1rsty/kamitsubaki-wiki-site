@@ -27,7 +27,7 @@ Revy appears on prayer2 or a related official release. Entries are version-speci
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -230,5 +230,3 @@ Say goodnight cause im bout to hit the last swing
 </div>
 
 </div>
-
-

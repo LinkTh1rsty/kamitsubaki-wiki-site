@@ -25,7 +25,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -294,8 +294,6 @@ So deathly loneliness has followed me to this day
 </div>
 
 </div>
-
-
 
 ## Sources
 

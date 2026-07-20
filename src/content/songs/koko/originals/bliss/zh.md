@@ -27,7 +27,7 @@ image: /images/albums/koko/prayer.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -220,5 +220,3 @@ Just looking at the lunar eclipse
 </div>
 
 </div>
-
-

@@ -32,25 +32,25 @@ image: /images/albums/vwp/city-ii-virtual-reality.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-作词 Lyricist : Xulai
+<ruby>作<rt class="furi">さく</rt><rt class="roma">saku</rt></ruby>词 Lyricist : Xulai
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-作曲 Composer : jixwang
+<ruby>作曲<rt class="furi">さっきょく</rt><rt class="roma">sakkyoku</rt></ruby> Composer : jixwang
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-编曲 Arranger : jixwang
+编<ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby> Arranger : jixwang
 </div>
 </div>
 
@@ -62,37 +62,37 @@ image: /images/albums/vwp/city-ii-virtual-reality.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-混音 Mixing Engineer : 张步若@RSS Studio
+混<ruby>音<rt class="furi">おん</rt><rt class="roma">on</rt></ruby> Mixing Engineer : 张步<ruby>若<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby>@RSS Studio
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-乐器独奏Solo : Guitar：愤怒的糖
+乐<ruby>器<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>独奏<rt class="furi">どくそう</rt><rt class="roma">dokusou</rt></ruby>Solo : Guitar：愤<ruby>怒<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>的<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>糖<rt class="furi">とう</rt><rt class="roma">tou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-母带工程师 Mastering Engineer : 张步若@RSS Studio
+<ruby>母<rt class="furi">はは</rt><rt class="roma">haha</rt></ruby>带<ruby>工程<rt class="furi">こうてい</rt><rt class="roma">koutei</rt></ruby>师 Mastering Engineer : 张步<ruby>若<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby>@RSS Studio
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-音乐总监Music Director : jixwang
+<ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby>乐总监Music Director : jixwang
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-助理 Assistant : A19 / TLK天翔
+<ruby>助<rt class="furi">じょ</rt><rt class="roma">jo</rt></ruby><ruby>理<rt class="furi">り</rt><rt class="roma">ri</rt></ruby> Assistant : A19 / TLK<ruby>天翔<rt class="furi">あまがけ</rt><rt class="roma">amagake</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-出品 Produced by : 鸣潮先约电台
+<ruby>出品<rt class="furi">しゅっぴん</rt><rt class="roma">shuppin</rt></ruby> Produced by : 鸣<ruby>潮先<rt class="furi">しおさき</rt><rt class="roma">shiosaki</rt></ruby>约电<ruby>台<rt class="furi">だい</rt><rt class="roma">dai</rt></ruby>
 </div>
 </div>
 
@@ -385,5 +385,3 @@ making joy forever last”
 </div>
 
 </div>
-
-

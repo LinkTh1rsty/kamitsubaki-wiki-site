@@ -27,7 +27,7 @@ Tempest (feat. 幸祜) appears on Tempest or a related official release. Entries
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -162,5 +162,3 @@ But I was dead and buried long before
 </div>
 
 </div>
-
-

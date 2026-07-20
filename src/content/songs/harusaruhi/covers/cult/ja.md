@@ -149,5 +149,3 @@ It's like we're living in a fucked up ponzi scheme
 </div>
 
 </div>
-
-

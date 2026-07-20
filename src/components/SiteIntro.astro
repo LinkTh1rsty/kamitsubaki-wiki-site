@@ -119,7 +119,7 @@
   .site-intro__scan {
     position: absolute;
     left: -8%;
-    top: -8%;
+    top: 0;
     width: 116%;
     height: 1px;
     background: rgb(var(--theme-fg-rgb) / 0.6);
@@ -219,10 +219,10 @@
   }
 
   @keyframes siteIntroScan {
-    0%, 18% { opacity: 0; top: -8%; }
+    0%, 18% { opacity: 0; transform: translateY(-12%); }
     20% { opacity: 0.5; }
     50% { opacity: 0.16; }
-    62% { opacity: 0; top: 108%; }
+    62% { opacity: 0; transform: translateY(10000%); }
     100% { opacity: 0; }
   }
 

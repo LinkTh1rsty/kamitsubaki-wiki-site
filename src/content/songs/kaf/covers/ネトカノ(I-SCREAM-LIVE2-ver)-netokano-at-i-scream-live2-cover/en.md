@@ -25,31 +25,31 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-to her 淡色
+to her <ruby>淡色<rt class="furi">たんしょく</rt><rt class="roma">tanshoku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いざないへgo back
+<ruby>いざ<rt class="roma">iza</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>go back
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-友愛なFakeも二人ならdon't to be late
+<ruby>友愛<rt class="furi">ゆうあい</rt><rt class="roma">yuuai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>Fake<ruby>も<rt class="roma">mo</rt></ruby><ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>don't to be late
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-明け方のミステイク
+<ruby>明け方<rt class="furi">あけがた</rt><rt class="roma">akegata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ミステイク<rt class="roma">misuteiku</rt></ruby>
 </div>
 </div>
 
@@ -63,7 +63,7 @@ you are always gonna be wonder
 
 <div class="lyric-line">
 <div class="jp-lyric">
-くせになる気持ちはいつもbe my love
+<ruby>くせ<rt class="roma">kuse</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby>be my love
 </div>
 </div>
 
@@ -75,13 +75,13 @@ you are always gonna be wonder
 
 <div class="lyric-line">
 <div class="jp-lyric">
-映画『君との冷戦前線なう』
+<ruby>映画<rt class="furi">えいが</rt><rt class="roma">eiga</rt></ruby>『<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>冷戦<rt class="furi">れいせん</rt><rt class="roma">reisen</rt></ruby><ruby>前線<rt class="furi">ぜんせん</rt><rt class="roma">zensen</rt></ruby><ruby>なう<rt class="roma">nau</rt></ruby>』
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ウォーアイニー ゆがんだスタンス
+<ruby>ウォーアイニー<rt class="roma">uouainii</rt></ruby> <ruby>ゆがん<rt class="roma">yugan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>スタンス<rt class="roma">sutansu</rt></ruby>
 </div>
 </div>
 
@@ -95,25 +95,25 @@ to the night
 
 <div class="lyric-line">
 <div class="jp-lyric">
-瞬間 亜麻色
+<ruby>瞬間<rt class="furi">しゅんかん</rt><rt class="roma">shunkan</rt></ruby> <ruby>亜麻<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-お座なりな降参
+<ruby>お座<rt class="furi">おざ</rt><rt class="roma">oza</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>降参<rt class="furi">こうさん</rt><rt class="roma">kousan</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-友愛なfakeはあの日の誤解で
+<ruby>友愛<rt class="furi">ゆうあい</rt><rt class="roma">yuuai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>fake<ruby>は<rt class="roma">wa</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>誤解<rt class="furi">ごかい</rt><rt class="roma">gokai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-きまぐれなミステイク
+<ruby>きまぐれ<rt class="roma">kimagure</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ミステイク<rt class="roma">misuteiku</rt></ruby>
 </div>
 </div>
 
@@ -127,7 +127,7 @@ you are always gonna be wonder
 
 <div class="lyric-line">
 <div class="jp-lyric">
-くせになる気持ちはいつもbe my love
+<ruby>くせ<rt class="roma">kuse</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby>be my love
 </div>
 </div>
 
@@ -139,13 +139,13 @@ you are always gonna be wonder
 
 <div class="lyric-line">
 <div class="jp-lyric">
-能書きだけのmake up feelingなう
+<ruby>能書<rt class="furi">のうが</rt><rt class="roma">nouga</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>make up feeling<ruby>なう<rt class="roma">nau</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-相対に ゆがんだスタンス
+<ruby>相対<rt class="furi">そうたい</rt><rt class="roma">soutai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>ゆがん<rt class="roma">yugan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>スタンス<rt class="roma">sutansu</rt></ruby>
 </div>
 </div>
 
@@ -171,7 +171,7 @@ wake up! alright
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そのうつろな目とmy heart
+<ruby>その<rt class="roma">sono</rt></ruby><ruby>うつろ<rt class="roma">utsuro</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>my heart
 </div>
 </div>
 
@@ -189,13 +189,11 @@ wake up! alright
 
 <div class="lyric-line">
 <div class="jp-lyric">
-でもこのままhold me tight
+<ruby>でも<rt class="roma">demo</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>hold me tight
 </div>
 </div>
 
 </div>
-
-
 
 ## Sources
 

@@ -27,7 +27,7 @@ Accomplice appears on Accomplice or a related official release. Entries are vers
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -110,5 +110,3 @@ You are nothing but an accomplice of death
 </div>
 
 </div>
-
-

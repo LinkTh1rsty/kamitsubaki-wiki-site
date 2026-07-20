@@ -33,25 +33,25 @@ image: /images/songs/koko/single-1688525056.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-チクタクと流れる時間
+<ruby>チクタク<rt class="roma">chikutaku</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ゆらゆらと揺れる身体
+<ruby>ゆらゆら<rt class="roma">yurayura</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-時よ進め 時よ止まれ
+<ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby> <ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-右往左往する混乱
+<ruby>右往左往<rt class="furi">うおうさおう</rt><rt class="roma">uousaou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>混乱<rt class="furi">こんらん</rt><rt class="roma">konran</rt></ruby>
 </div>
 </div>
 
@@ -59,25 +59,25 @@ image: /images/songs/koko/single-1688525056.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-閉鎖した空間の中で
+<ruby>閉鎖<rt class="furi">へいさ</rt><rt class="roma">heisa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>空間<rt class="furi">くうかん</rt><rt class="roma">kuukan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-壊れかけた週間の日々で
+<ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>週間<rt class="furi">しゅうかん</rt><rt class="roma">shuukan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-見つめ直す瞬間 なくて
+<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つめ<rt class="roma">tsume</rt></ruby><ruby>直<rt class="furi">なお</rt><rt class="roma">nao</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>瞬間<rt class="furi">しゅんかん</rt><rt class="roma">shunkan</rt></ruby> <ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-学ぶことをやめてfalling
+<ruby>学<rt class="furi">まな</rt><rt class="roma">mana</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>やめ<rt class="roma">yame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>falling
 </div>
 </div>
 
@@ -85,25 +85,25 @@ image: /images/songs/koko/single-1688525056.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-悩み事や 言えない事
+<ruby>悩<rt class="furi">なや</rt><rt class="roma">naya</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>事<rt class="furi">ごと</rt><rt class="roma">goto</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby> <ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-これからも尽きない付き合い
+<ruby>これから<rt class="roma">korekara</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>尽<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>付き合<rt class="furi">つきあ</rt><rt class="roma">tsukia</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ぐちやぐちやで はちゃめちやな
+<ruby>ぐち<rt class="roma">guchi</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>ぐち<rt class="roma">guchi</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>は<rt class="roma">wa</rt></ruby><ruby>ちゃめ<rt class="roma">chame</rt></ruby><ruby>ちや<rt class="roma">chiya</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-想像を超えて行け
+<ruby>想像<rt class="furi">そうぞう</rt><rt class="roma">souzou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>超<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
 </div>
 </div>
 
@@ -111,37 +111,37 @@ image: /images/songs/koko/single-1688525056.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-愛になって さよならしたいけど
+<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-先に進むことが 怖くて 怖くて
+<ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-灰になって 忘れて
+<ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-繰り返して 暗闇で
+<ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>暗闇<rt class="furi">くらやみ</rt><rt class="roma">kurayami</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-このボタンを押して
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>ボタン<rt class="roma">botan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-変わる世界 明日はあるのか
+<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
@@ -149,25 +149,25 @@ image: /images/songs/koko/single-1688525056.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-5億年間の空白
+5<ruby>億<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>年間<rt class="furi">ねんかん</rt><rt class="roma">nenkan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>空白<rt class="furi">くうはく</rt><rt class="roma">kuuhaku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-思い出せず 繰り返す窮迫
+<ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby> <ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>窮迫<rt class="furi">きゅうはく</rt><rt class="roma">kyuuhaku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-目先の娯楽に溺れて
+<ruby>目先<rt class="furi">めさき</rt><rt class="roma">mesaki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>娯楽<rt class="furi">ごらく</rt><rt class="roma">goraku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-目眩に襲われて falling, falling
+<ruby>目眩<rt class="furi">めまい</rt><rt class="roma">memai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>襲<rt class="furi">おそ</rt><rt class="roma">oso</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> falling, falling
 </div>
 </div>
 
@@ -175,25 +175,25 @@ image: /images/songs/koko/single-1688525056.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-悩み事や 言えない事
+<ruby>悩<rt class="furi">なや</rt><rt class="roma">naya</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>事<rt class="furi">ごと</rt><rt class="roma">goto</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby> <ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-これからも 振り出し 組み合い
+<ruby>これから<rt class="roma">korekara</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>振り出<rt class="furi">ふりだ</rt><rt class="roma">furida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> <ruby>組み合<rt class="furi">くみあ</rt><rt class="roma">kumia</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ぐちゃぐちゃで はちゃめちゃな
+<ruby>ぐちゃぐちゃ<rt class="roma">guchagucha</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>は<rt class="roma">wa</rt></ruby><ruby>ちゃめ<rt class="roma">chame</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-登場を決めて行け
+<ruby>登場<rt class="furi">とうじょう</rt><rt class="roma">toujou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
 </div>
 </div>
 
@@ -201,37 +201,37 @@ image: /images/songs/koko/single-1688525056.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-愛になって 君と笑いたいよ
+<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-先に進めなくて 弱くて 弱くて
+<ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>弱<rt class="furi">よわ</rt><rt class="roma">yowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>弱<rt class="furi">よわ</rt><rt class="roma">yowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-灰になって 忘れて
+<ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-繰り返して 暗闇で
+<ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>暗闇<rt class="furi">くらやみ</rt><rt class="roma">kurayami</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-このボタンを押して
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>ボタン<rt class="roma">botan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-変わる世界 明日はあるのか
+<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
@@ -239,25 +239,25 @@ image: /images/songs/koko/single-1688525056.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-愛になって さよならしたいけど
+<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-灰になって 忘れて
+<ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-綠り返して 暗闇で
+綠<ruby>り<rt class="roma">ri</rt></ruby><ruby>返<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>暗闇<rt class="furi">くらやみ</rt><rt class="roma">kurayami</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-このボタンを押して
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>ボタン<rt class="roma">botan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -265,43 +265,41 @@ image: /images/songs/koko/single-1688525056.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-愛になって さよならしたいけど
+<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-先に進むことが 怖くて 怖くて
+<ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-灰になって 忘れて
+<ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-繰り返して 暗闇で
+<ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>暗闇<rt class="furi">くらやみ</rt><rt class="roma">kurayami</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-このボタンを押して
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>ボタン<rt class="roma">botan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-変わる世界 明日はあるのか
+<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
 </div>
-
-
 
 ## 出典
 

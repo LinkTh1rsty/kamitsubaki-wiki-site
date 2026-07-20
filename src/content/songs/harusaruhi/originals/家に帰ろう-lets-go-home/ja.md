@@ -33,103 +33,103 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-自分にご褒美
+<ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ご<rt class="roma">go</rt></ruby><ruby>褒美<rt class="furi">ほうび</rt><rt class="roma">houbi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今日くらい贅沢スキップする料理
+<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>贅沢<rt class="furi">ぜいたく</rt><rt class="roma">zeitaku</rt></ruby><ruby>スキップ<rt class="roma">sukippu</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>料理<rt class="furi">りょうり</rt><rt class="roma">ryouri</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-頑張った日 家までの距離
+<ruby>頑張<rt class="furi">がんば</rt><rt class="roma">ganba</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby> <ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>距離<rt class="furi">きょり</rt><rt class="roma">kyori</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-好きなミュージック耳鳴らしてgoing
+<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ミュージック<rt class="roma">myuujikku</rt></ruby><ruby>耳<rt class="furi">みみ</rt><rt class="roma">mimi</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>going
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-帰宅電車はラッシュ
+<ruby>帰宅<rt class="furi">きたく</rt><rt class="roma">kitaku</rt></ruby><ruby>電車<rt class="furi">でんしゃ</rt><rt class="roma">densha</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ラッシュ<rt class="roma">rasshu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-椅子狙って皆ダッシュ
+<ruby>椅子<rt class="furi">いす</rt><rt class="roma">isu</rt></ruby><ruby>狙<rt class="furi">ねら</rt><rt class="roma">nera</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>皆<rt class="furi">みな</rt><rt class="roma">mina</rt></ruby><ruby>ダッシュ<rt class="roma">dasshu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いつも惨敗
+<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>惨敗<rt class="furi">ざんぱい</rt><rt class="roma">zanpai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-会いたいよマイキャット
+<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>マイキャット<rt class="roma">maikyatto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-早く早く焦る気持ち
+<ruby>早<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>早<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>焦<rt class="furi">あせ</rt><rt class="roma">ase</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今すぐしたいふかふかのベッドにダイブ
+<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>ふかふか<rt class="roma">fukafuka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ベッド<rt class="roma">beddo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ダイブ<rt class="roma">daibu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-家に帰ろう
+<ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-大好きなもので囲まれたマイホーム
+<ruby>大好<rt class="furi">だいす</rt><rt class="roma">daisu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>囲<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>マイホーム<rt class="roma">maihoumu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-家に帰ろう
+<ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-誰の目気にしなくてももう大丈夫
+<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-家に帰ろう
+<ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-お風呂つかって疲れから解放
+<ruby>お<rt class="roma">o</rt></ruby><ruby>風呂<rt class="furi">ふろ</rt><rt class="roma">furo</rt></ruby><ruby>つかって<rt class="roma">tsukatte</rt></ruby><ruby>疲<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>解放<rt class="furi">かいほう</rt><rt class="roma">kaihou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-家に帰ろう
+<ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -141,15 +141,13 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-家に帰ろう
+<ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <br />
 
 </div>
-
-
 
 ## 出典
 

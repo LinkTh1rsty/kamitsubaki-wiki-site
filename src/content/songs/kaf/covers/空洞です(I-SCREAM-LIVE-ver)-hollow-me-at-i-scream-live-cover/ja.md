@@ -31,49 +31,49 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ぼくの心をあなたは奪い去った
+<ruby>ぼく<rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>去<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-俺は空洞 でかい空洞
+<ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby> <ruby>でかい<rt class="roma">dekai</rt></ruby><ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-全て残らずあなたは奪い去った
+<ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>らず<rt class="roma">razu</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>去<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-俺は空洞 面白い
+<ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby> <ruby>面白<rt class="furi">おもしろ</rt><rt class="roma">omoshiro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-バカな子どもが ふざけて駆け抜ける
+<ruby>バカ<rt class="roma">baka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>ども<rt class="roma">domo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>ふざけ<rt class="roma">fuzake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>駆け抜<rt class="furi">かけぬ</rt><rt class="roma">kakenu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-俺は空洞 でかい空洞
+<ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby> <ruby>でかい<rt class="roma">dekai</rt></ruby><ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いいよ くぐりぬけてみな 穴の中
+<ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>くぐりぬけ<rt class="roma">kugurinuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みな<rt class="roma">mina</rt></ruby> <ruby>穴<rt class="furi">あな</rt><rt class="roma">ana</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-どうぞ 空洞
+<ruby>どうぞ<rt class="roma">douzo</rt></ruby> <ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby>
 </div>
 </div>
 
@@ -81,49 +81,49 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-なぜか町には大事なものがない
+<ruby>なぜ<rt class="roma">naze</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>町<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>大事<rt class="furi">だいじ</rt><rt class="roma">daiji</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それはムード 甘いムード
+<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ムード<rt class="roma">muudo</rt></ruby> <ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ムード<rt class="roma">muudo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-意味を求めて無意味なものがない
+<ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>求<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>無意味<rt class="furi">むいみ</rt><rt class="roma">muimi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それはムード とろけそうな
+<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ムード<rt class="roma">muudo</rt></ruby> <ruby>とろけ<rt class="roma">toroke</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-入り組んだ路地であなたに出会いたい
+<ruby>入り組<rt class="furi">いりく</rt><rt class="roma">iriku</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>路地<rt class="furi">ろじ</rt><rt class="roma">roji</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-それはムード 甘いムード
+<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ムード<rt class="roma">muudo</rt></ruby> <ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ムード<rt class="roma">muudo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-誰か 味見をしてみな 踊りたい
+<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby> <ruby>味見<rt class="furi">あじみ</rt><rt class="roma">ajimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みな<rt class="roma">mina</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-さあどうぞ ムード
+<ruby>さあ<rt class="roma">saa</rt></ruby><ruby>どうぞ<rt class="roma">douzo</rt></ruby> <ruby>ムード<rt class="roma">muudo</rt></ruby>
 </div>
 </div>
 
@@ -131,49 +131,49 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ぼくの心をあなたは奪い去った
+<ruby>ぼく<rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>去<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-俺は空洞 でかい空洞
+<ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby> <ruby>でかい<rt class="roma">dekai</rt></ruby><ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-全て残らずあなたは奪い去った
+<ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>残<rt class="furi">のこ</rt><rt class="roma">noko</rt></ruby><ruby>らず<rt class="roma">razu</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>去<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-俺は空洞 面白い
+<ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby> <ruby>面白<rt class="furi">おもしろ</rt><rt class="roma">omoshiro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-バカな子どもが ふざけて駆け抜ける
+<ruby>バカ<rt class="roma">baka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>ども<rt class="roma">domo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>ふざけ<rt class="roma">fuzake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>駆け抜<rt class="furi">かけぬ</rt><rt class="roma">kakenu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-俺は空洞 でかい空洞
+<ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby> <ruby>でかい<rt class="roma">dekai</rt></ruby><ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いいよ くぐりぬけてみな 穴の中
+<ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>くぐりぬけ<rt class="roma">kugurinuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みな<rt class="roma">mina</rt></ruby> <ruby>穴<rt class="furi">あな</rt><rt class="roma">ana</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-さあどうぞ 空洞
+<ruby>さあ<rt class="roma">saa</rt></ruby><ruby>どうぞ<rt class="roma">douzo</rt></ruby> <ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby>
 </div>
 </div>
 
@@ -181,7 +181,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-空洞
+<ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby>
 </div>
 </div>
 
@@ -189,7 +189,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-空洞
+<ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby>
 </div>
 </div>
 
@@ -197,7 +197,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-空洞
+<ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby>
 </div>
 </div>
 
@@ -205,7 +205,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-空洞
+<ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby>
 </div>
 </div>
 
@@ -213,13 +213,11 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-空洞
+<ruby>空洞<rt class="furi">くうどう</rt><rt class="roma">kuudou</rt></ruby>
 </div>
 </div>
 
 </div>
-
-
 
 ## 出典
 

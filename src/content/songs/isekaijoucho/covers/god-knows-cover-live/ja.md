@@ -322,5 +322,3 @@ Together in God's bless...
 </div>
 
 </div>
-
-

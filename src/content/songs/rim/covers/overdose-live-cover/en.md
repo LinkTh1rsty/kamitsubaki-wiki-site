@@ -27,7 +27,7 @@ Overdose (Live Cover) appears on CHOCOLATE LIVE4 or a related official release. 
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -116,5 +116,3 @@ I think it's time for change
 </div>
 
 </div>
-
-

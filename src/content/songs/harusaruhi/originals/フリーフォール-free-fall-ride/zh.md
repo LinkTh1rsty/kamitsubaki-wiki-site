@@ -27,7 +27,7 @@ image: /images/albums/harusaruhi/shinju.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -112,5 +112,3 @@ That I'm crashing right into you
 </div>
 
 </div>
-
-

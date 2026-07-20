@@ -22,190 +22,188 @@ image: /images/albums/rim/chocolate-live.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-お兄ちゃん!
+<ruby>お<rt class="roma">o</rt></ruby><ruby>兄<rt class="furi">にい</rt><rt class="roma">nii</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby>!
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あそこに”何か”がいるの。
+<ruby>あそこ<rt class="roma">asoko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>”<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>”<ruby>が<rt class="roma">ga</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>。
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-弟
+<ruby>弟<rt class="furi">おとうと</rt><rt class="roma">otouto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-”アレ”は見ない方がいい
+”<ruby>アレ<rt class="roma">are</rt></ruby>”<ruby>は<rt class="roma">wa</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ヨー
+<ruby>ヨー<rt class="roma">you</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-動いた
+<ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-くねくね気味が悪いなあ、
+<ruby>くねくね<rt class="roma">kunekune</rt></ruby><ruby>気味が悪<rt class="furi">きみがわる</rt><rt class="roma">kimigawaru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なあ<rt class="roma">naa</rt></ruby>、
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-お兄ちゃん!
+<ruby>お<rt class="roma">o</rt></ruby><ruby>兄<rt class="furi">にい</rt><rt class="roma">nii</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby>!
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-。。。お兄ちゃん、?
+。。。<ruby>お<rt class="roma">o</rt></ruby><ruby>兄<rt class="furi">にい</rt><rt class="roma">nii</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby>、?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あれは案山子だ きっと!
+<ruby>あれ<rt class="roma">are</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>案山子<rt class="furi">かかし</rt><rt class="roma">kakashi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> <ruby>きっと<rt class="roma">kitto</rt></ruby>!
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そうに 違いないぜ
+<ruby>そう<rt class="roma">sou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ぜ<rt class="roma">ze</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-駄目駄目 見ちゃ駄目、、!!
+<ruby>駄目<rt class="furi">だめ</rt><rt class="roma">dame</rt></ruby><ruby>駄目<rt class="furi">だめ</rt><rt class="roma">dame</rt></ruby> <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby><ruby>駄目<rt class="furi">だめ</rt><rt class="roma">dame</rt></ruby>、、!!
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-はい、残念。
+<ruby>はい<rt class="roma">hai</rt></ruby>、<ruby>残念<rt class="furi">ざんねん</rt><rt class="roma">zannen</rt></ruby>。
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-くねくねしちゃう
+<ruby>くねくね<rt class="roma">kunekune</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-また くねくねしちゃう
+<ruby>また<rt class="roma">mata</rt></ruby> <ruby>くねくね<rt class="roma">kunekune</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ただ くねくねしちゃう
+<ruby>ただ<rt class="roma">tada</rt></ruby> <ruby>くねくね<rt class="roma">kunekune</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-くねく ねくねしちゃう
+<ruby>くね<rt class="roma">kune</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>ね<rt class="roma">ne</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-くねくねしちゃう
+<ruby>くねくね<rt class="roma">kunekune</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-また くねくねしちゃう
+<ruby>また<rt class="roma">mata</rt></ruby> <ruby>くねくね<rt class="roma">kunekune</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ただ くねくねしちゃう
+<ruby>ただ<rt class="roma">tada</rt></ruby> <ruby>くねくね<rt class="roma">kunekune</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-くねく ねくねしちゃう
+<ruby>くね<rt class="roma">kune</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>ね<rt class="roma">ne</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-弟!
+<ruby>弟<rt class="furi">おとうと</rt><rt class="roma">otouto</rt></ruby>!
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あそこに”何か”がいるよ
+<ruby>あそこ<rt class="roma">asoko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>”<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>”<ruby>が<rt class="roma">ga</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-お兄ちゃん
+<ruby>お<rt class="roma">o</rt></ruby><ruby>兄<rt class="furi">にい</rt><rt class="roma">nii</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-”アレ”は見ない方がいい
+”<ruby>アレ<rt class="roma">are</rt></ruby>”<ruby>は<rt class="roma">wa</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ノー
+<ruby>ノー<rt class="roma">nou</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-動いた
+<ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-くねくね気味が悪いなあ、
+<ruby>くねくね<rt class="roma">kunekune</rt></ruby><ruby>気味が悪<rt class="furi">きみがわる</rt><rt class="roma">kimigawaru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なあ<rt class="roma">naa</rt></ruby>、
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-弟!
+<ruby>弟<rt class="furi">おとうと</rt><rt class="roma">otouto</rt></ruby>!
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-。。。弟、?
+。。。<ruby>弟<rt class="furi">おとうと</rt><rt class="roma">otouto</rt></ruby>、?
 </div>
 </div>
 
 </div>
-
-

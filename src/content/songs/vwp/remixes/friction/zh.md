@@ -32,7 +32,7 @@ image: /images/albums/vwp/witch-plus.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -315,5 +315,3 @@ Yeah
 </div>
 
 </div>
-
-

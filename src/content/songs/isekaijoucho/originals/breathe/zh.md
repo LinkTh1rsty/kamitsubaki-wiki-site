@@ -27,7 +27,7 @@ image: /images/songs/isekaijoucho/single-1822320269.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -246,5 +246,3 @@ Just focus, calm down
 </div>
 
 </div>
-
-

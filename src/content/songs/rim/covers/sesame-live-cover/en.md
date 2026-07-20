@@ -27,7 +27,7 @@ Sesame (Live Cover) appears on CHOCOLATE LIVE4 or a related official release. En
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -348,5 +348,3 @@ Le rêve qui t'enflamme?
 </div>
 
 </div>
-
-

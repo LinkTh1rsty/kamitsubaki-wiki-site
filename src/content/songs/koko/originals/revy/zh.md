@@ -27,7 +27,7 @@ image: /images/albums/koko/prayer-2.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -230,5 +230,3 @@ Say goodnight cause im bout to hit the last swing
 </div>
 
 </div>
-
-

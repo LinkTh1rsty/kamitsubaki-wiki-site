@@ -27,7 +27,7 @@ come again (Live Cover) appears on CHOCOLATE LIVE4 or a related official release
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -162,5 +162,3 @@ Come again
 </div>
 
 </div>
-
-

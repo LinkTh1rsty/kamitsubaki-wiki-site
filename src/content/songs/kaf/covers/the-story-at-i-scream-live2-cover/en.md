@@ -25,7 +25,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -292,8 +292,6 @@ All you boys are not him, him
 </div>
 
 </div>
-
-
 
 ## Sources
 

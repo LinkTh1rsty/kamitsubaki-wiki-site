@@ -27,157 +27,55 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ガンバロっかな今日は それは昨日のつづき
+<ruby>ガンバロ<rt class="roma">ganbaro</rt></ruby><ruby>っか<rt class="roma">kka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>昨日<rt class="furi">きのう</rt><rt class="roma">kinou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>つづき<rt class="roma">tsuzuki</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-屋上でまた崩れかけてる
+<ruby>屋上<rt class="furi">おくじょう</rt><rt class="roma">okujou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>崩<rt class="furi">くず</rt><rt class="roma">kuzu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-男女の電車は恋バナ 終電に乗った帰りは
+<ruby>男女<rt class="furi">だんじょ</rt><rt class="roma">danjo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>電車<rt class="furi">でんしゃ</rt><rt class="roma">densha</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>バナ<rt class="roma">bana</rt></ruby> <ruby>終電<rt class="furi">しゅうでん</rt><rt class="roma">shuuden</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Recしたこんな夕方です
+Rec<ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>こんな<rt class="roma">konna</rt></ruby><ruby>夕方<rt class="furi">ゆうがた</rt><rt class="roma">yuugata</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-急にアイスが食べたい真夏日 外はテカテカしてまぢあっちーし
+<ruby>急<rt class="furi">きゅう</rt><rt class="roma">kyuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>アイス<rt class="roma">aisu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>真夏<rt class="furi">まなつ</rt><rt class="roma">manatsu</rt></ruby><ruby>日<rt class="furi">び</rt><rt class="roma">bi</rt></ruby> <ruby>外<rt class="furi">そと</rt><rt class="roma">soto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>テカテカ<rt class="roma">tekateka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>ぢ<rt class="roma">ji</rt></ruby><ruby>あっち<rt class="roma">atchi</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕はこの恐怖症みたいなやつを時々感じちゃうから
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>恐怖症<rt class="furi">きょうふしょう</rt><rt class="roma">kyoufushou</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>時々<rt class="furi">ときどき</rt><rt class="roma">tokidoki</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-42キロの重いは 絵文字使った歪な想いは
+42<ruby>キロ<rt class="roma">kiro</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>重<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>絵文字<rt class="furi">えもじ</rt><rt class="roma">emoji</rt></ruby><ruby>使<rt class="furi">つか</rt><rt class="roma">tsuka</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>歪<rt class="furi">いびつ</rt><rt class="roma">ibitsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Recした夕方の中
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-heybaby, yobaby, heybaby
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-いつまでも先に進めないのは
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-こんな夏さ また
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-きっついサイズシューズがさ
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-スリーポイント キメないでしょ
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-今日はやる気はないって ラッキーアイテムを持って
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Hip Hopなフリして自分とギリ生きている
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-会話も了解ですメールすらも居留守して1人歩いた
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-iloveyouって英語で習ったんだっけ？
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-(So) ガンバレないよガンバレないよ
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Yo,そんなんじゃいけないよ
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-I,m bloody girling 主役は boring です
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Say Yeah！
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-急にアイスが食べたい真夏日 外はテカテカしてまぢあっちーし
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-扇風機に顔ぶんぶん当ててはカエルのようにこうなっちゃって
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-3時の感じにもたれて 窓の外をうとうと見るたび
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-自分なんて分からなくなってきた
+Rec<ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>夕方<rt class="furi">ゆうがた</rt><rt class="roma">yuugata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby>
 </div>
 </div>
 
@@ -189,103 +87,67 @@ heybaby, yobaby, heybaby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いつまでも先に進めないのは
+<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-こんな夏さ また
+<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>また<rt class="roma">mata</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-きっついサイズシューズがさ
+<ruby>きっつい<rt class="roma">kittsui</rt></ruby><ruby>サイズ<rt class="roma">saizu</rt></ruby><ruby>シューズ<rt class="roma">shuuzu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-スリーポイント キメないでしょ
+<ruby>スリー<rt class="roma">surii</rt></ruby><ruby>ポイント<rt class="roma">pointo</rt></ruby> <ruby>キメ<rt class="roma">kime</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そして夏さまた
+<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>やる気<rt class="furi">やるき</rt><rt class="roma">yaruki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>ラッキーアイテム<rt class="roma">rakkiiaitemu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>持<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Recした風景は再生せずに NEwBeat 朝はとても
+Hip Hop<ruby>な<rt class="roma">na</rt></ruby><ruby>フリ<rt class="roma">furi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>ギリ<rt class="roma">giri</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-夏 SUMMERTime
+<ruby>会話<rt class="furi">かいわ</rt><rt class="roma">kaiwa</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>了解<rt class="furi">りょうかい</rt><rt class="roma">ryoukai</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>メール<rt class="roma">meeru</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>居留守<rt class="furi">いるす</rt><rt class="roma">irusu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>1<ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-8月駅降りて
+iloveyou<ruby>って<rt class="roma">tte</rt></ruby><ruby>英語<rt class="furi">えいご</rt><rt class="roma">eigo</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>習<rt class="furi">なら</rt><rt class="roma">nara</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>っけ<rt class="roma">kke</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-田んぼで叫んだりして
+(So) <ruby>ガン<rt class="roma">gan</rt></ruby><ruby>バレ<rt class="roma">bare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ガン<rt class="roma">gan</rt></ruby><ruby>バレ<rt class="roma">bare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-単純に
+Yo,<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ガンバロっかな今日は それは昨日の続き
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-屋上でまた崩れかけてる
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-男女の電車は恋バナ 終電に乗った帰りは
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Recしたこんな夕方です
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-(So) ガンバレないよガンバレないよ
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Yo,そんなんじゃいけないよ
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-I,m bloody girling 主役は boring です
+I,m bloody girling <ruby>主役<rt class="furi">しゅやく</rt><rt class="roma">shuyaku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> boring <ruby>です<rt class="roma">desu</rt></ruby>
 </div>
 </div>
 
@@ -297,25 +159,163 @@ Say Yeah！
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ガンバレないよ
+<ruby>急<rt class="furi">きゅう</rt><rt class="roma">kyuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>アイス<rt class="roma">aisu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>真夏<rt class="furi">まなつ</rt><rt class="roma">manatsu</rt></ruby><ruby>日<rt class="furi">び</rt><rt class="roma">bi</rt></ruby> <ruby>外<rt class="furi">そと</rt><rt class="roma">soto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>テカテカ<rt class="roma">tekateka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>ぢ<rt class="roma">ji</rt></ruby><ruby>あっち<rt class="roma">atchi</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ガンバレないよガンバレないよ
+<ruby>扇風機<rt class="furi">せんぷうき</rt><rt class="roma">senpuuki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>顔<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>ぶんぶん<rt class="roma">bunbun</rt></ruby><ruby>当<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>カエル<rt class="roma">kaeru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby><ruby>なっちゃって<rt class="roma">natchatte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yo,そんなんじゃいけないよ
+3<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>たれ<rt class="roma">tare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>窓<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>外<rt class="furi">そと</rt><rt class="roma">soto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>うとうと<rt class="roma">utouto</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>たび<rt class="roma">tabi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I,m bloody girling So bloody happy で
+<ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+heybaby, yobaby, heybaby
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>また<rt class="roma">mata</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>きっつい<rt class="roma">kittsui</rt></ruby><ruby>サイズ<rt class="roma">saizu</rt></ruby><ruby>シューズ<rt class="roma">shuuzu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>スリー<rt class="roma">surii</rt></ruby><ruby>ポイント<rt class="roma">pointo</rt></ruby> <ruby>キメ<rt class="roma">kime</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>そして<rt class="roma">soshite</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>さま<rt class="roma">sama</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Rec<ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>風景<rt class="furi">ふうけい</rt><rt class="roma">fuukei</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>再生<rt class="furi">さいせい</rt><rt class="roma">saisei</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> NEwBeat <ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>とても<rt class="roma">totemo</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby> SUMMERTime
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+8<ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>駅<rt class="furi">えき</rt><rt class="roma">eki</rt></ruby><ruby>降<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>田<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>んぼ<rt class="roma">nbo</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だり<rt class="roma">dari</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>単純<rt class="furi">たんじゅん</rt><rt class="roma">tanjun</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>ガンバロ<rt class="roma">ganbaro</rt></ruby><ruby>っか<rt class="roma">kka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>昨日<rt class="furi">きのう</rt><rt class="roma">kinou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>屋上<rt class="furi">おくじょう</rt><rt class="roma">okujou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>崩<rt class="furi">くず</rt><rt class="roma">kuzu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>男女<rt class="furi">だんじょ</rt><rt class="roma">danjo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>電車<rt class="furi">でんしゃ</rt><rt class="roma">densha</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>バナ<rt class="roma">bana</rt></ruby> <ruby>終電<rt class="furi">しゅうでん</rt><rt class="roma">shuuden</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Rec<ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>こんな<rt class="roma">konna</rt></ruby><ruby>夕方<rt class="furi">ゆうがた</rt><rt class="roma">yuugata</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+(So) <ruby>ガン<rt class="roma">gan</rt></ruby><ruby>バレ<rt class="roma">bare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ガン<rt class="roma">gan</rt></ruby><ruby>バレ<rt class="roma">bare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Yo,<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+I,m bloody girling <ruby>主役<rt class="furi">しゅやく</rt><rt class="roma">shuyaku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> boring <ruby>です<rt class="roma">desu</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Say Yeah！
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>ガン<rt class="roma">gan</rt></ruby><ruby>バレ<rt class="roma">bare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>ガン<rt class="roma">gan</rt></ruby><ruby>バレ<rt class="roma">bare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ガン<rt class="roma">gan</rt></ruby><ruby>バレ<rt class="roma">bare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Yo,<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+I,m bloody girling So bloody happy <ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
@@ -327,7 +327,7 @@ Yeah！
 
 <div class="lyric-line">
 <div class="jp-lyric">
-先の 夏さまた
+<ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>さま<rt class="roma">sama</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
@@ -339,7 +339,7 @@ Say Yeah！ Yeah！ Yeah！ Yeah！ Yeah！
 
 <div class="lyric-line">
 <div class="jp-lyric">
-先の夏さまた
+<ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>さま<rt class="roma">sama</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
@@ -351,25 +351,25 @@ Say Yeah！ Yeah！ Yeah！ Yeah！ Yeah！
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そして夏さまた
+<ruby>そして<rt class="roma">soshite</rt></ruby><ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby><ruby>さま<rt class="roma">sama</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Recした風景は再生せずに NEwBeat 朝はとても
+Rec<ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>風景<rt class="furi">ふうけい</rt><rt class="roma">fuukei</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>再生<rt class="furi">さいせい</rt><rt class="roma">saisei</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> NEwBeat <ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>とても<rt class="roma">totemo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-夏 SUMMERTime
+<ruby>夏<rt class="furi">なつ</rt><rt class="roma">natsu</rt></ruby> SUMMERTime
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-8月駅降りて 田んぼで叫んだりして
+8<ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>駅<rt class="furi">えき</rt><rt class="roma">eki</rt></ruby><ruby>降<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>田<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>んぼ<rt class="roma">nbo</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だり<rt class="roma">dari</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -380,5 +380,3 @@ Comeonbaby yeah！yeah！ yeah！,,,yeah！,,,,,,
 </div>
 
 </div>
-
-

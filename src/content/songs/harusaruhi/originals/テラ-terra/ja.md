@@ -33,25 +33,25 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-目指してた一つの道 別れた
+<ruby>目指<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>一<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>道<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby> <ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今を選び 片方の未来が閉じた
+<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>選<rt class="furi">えら</rt><rt class="roma">era</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby> <ruby>片方<rt class="furi">かたほう</rt><rt class="roma">katahou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-無情に訪れる「またね」
+<ruby>無情<rt class="furi">むじょう</rt><rt class="roma">mujou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>訪<rt class="furi">おとず</rt><rt class="roma">otozu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>「<ruby>また<rt class="roma">mata</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-その意志だけ信じ歩け
+<ruby>その<rt class="roma">sono</rt></ruby><ruby>意志<rt class="furi">いし</rt><rt class="roma">ishi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
 </div>
 </div>
 
@@ -59,25 +59,25 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-拝啓、あの世界線の私へ
+<ruby>拝啓<rt class="furi">はいけい</rt><rt class="roma">haikei</rt></ruby>、<ruby>あの<rt class="roma">ano</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-自分自身を見つけられていますか？
+<ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>自身<rt class="furi">じしん</rt><rt class="roma">jishin</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-もう二度と逢えやしないけど
+<ruby>もう<rt class="roma">mou</rt></ruby><ruby>二度<rt class="furi">にど</rt><rt class="roma">nido</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>逢<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-絶えず私と進んで欲しい
+<ruby>絶<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>えず<rt class="roma">ezu</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
 </div>
 </div>
 
@@ -85,49 +85,49 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-後悔なんて一切無い
+<ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>一切<rt class="furi">いっさい</rt><rt class="roma">issai</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-希望は懲りない 虚無と飛び出して
+<ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>懲<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>虚無<rt class="furi">きょむ</rt><rt class="roma">kyomu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>飛び出<rt class="furi">とびだ</rt><rt class="roma">tobida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-此処を通じて君と出会えた
+<ruby>此処<rt class="furi">ここ</rt><rt class="roma">koko</rt></ruby><ruby>を通<rt class="furi">をつう</rt><rt class="roma">wotsuu</rt></ruby><ruby>じて<rt class="roma">jite</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-君のお陰でより好きになれた
+<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>お陰<rt class="furi">おかげ</rt><rt class="roma">okage</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-同じゴール同士高めていよう
+<ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ゴール<rt class="roma">gouru</rt></ruby><ruby>同士<rt class="furi">どうし</rt><rt class="roma">doushi</rt></ruby><ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-必ず互いに乗り越えてるよ
+<ruby>必<rt class="furi">かなら</rt><rt class="roma">kanara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>互<rt class="furi">たが</rt><rt class="roma">taga</rt></ruby><ruby>いに<rt class="roma">ini</rt></ruby><ruby>乗り越<rt class="furi">のりこ</rt><rt class="roma">noriko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-さあ、忘れ合い前傾で
+<ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>前<rt class="furi">ぜん</rt><rt class="roma">zen</rt></ruby>傾<ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「魂」を奮わせ
+「<ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby>」<ruby>を<rt class="roma">wo</rt></ruby><ruby>奮<rt class="furi">ふる</rt><rt class="roma">furu</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
 </div>
 
@@ -135,25 +135,25 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-何の希望も無かった私も
+<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>かった<rt class="roma">katta</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今は満ち溢れて燃えてるよ
+<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-人生 捨てちゃいられない
+<ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby> <ruby>捨<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-こんな自分も幸せで居られるくらい
+<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>居<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>
 </div>
 </div>
 
@@ -161,25 +161,25 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Stay high まだ駆けていたい
+Stay high <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>駆<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-崩れた過去も愛せるみたい
+<ruby>崩<rt class="furi">くず</rt><rt class="roma">kuzu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-何を考えて何を想うか
+<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-生き方次第で変化するようだ
+<ruby>生き方<rt class="furi">いきかた</rt><rt class="roma">ikikata</rt></ruby><ruby>次第<rt class="furi">しだい</rt><rt class="roma">shidai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>変化<rt class="furi">へんか</rt><rt class="roma">henka</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
@@ -187,7 +187,7 @@ Stay high まだ駆けていたい
 
 <div class="lyric-line">
 <div class="jp-lyric">
-尚更終われず 感謝を告げて
+<ruby>尚更<rt class="furi">なおさら</rt><rt class="roma">naosara</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>われ<rt class="roma">ware</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby> <ruby>感謝<rt class="furi">かんしゃ</rt><rt class="roma">kansha</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>告<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -195,49 +195,49 @@ Stay high まだ駆けていたい
 
 <div class="lyric-line">
 <div class="jp-lyric">
-後悔なんて一切無い
+<ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>一切<rt class="furi">いっさい</rt><rt class="roma">issai</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-未だ足りない 憂鬱も追い出して
+<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>憂鬱<rt class="furi">ゆううつ</rt><rt class="roma">yuuutsu</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>追い出<rt class="furi">おいだ</rt><rt class="roma">oida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-此処を通じてやっと解った
+<ruby>此処<rt class="furi">ここ</rt><rt class="roma">koko</rt></ruby><ruby>を通<rt class="furi">をつう</rt><rt class="roma">wotsuu</rt></ruby><ruby>じて<rt class="roma">jite</rt></ruby><ruby>やっと<rt class="roma">yatto</rt></ruby><ruby>解<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-感じた経験 全て愛せた
+<ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>経験<rt class="furi">けいけん</rt><rt class="roma">keiken</rt></ruby> <ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-同じゴール同士 手を繋ぐよ
+<ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ゴール<rt class="roma">gouru</rt></ruby><ruby>同士<rt class="furi">どうし</rt><rt class="roma">doushi</rt></ruby> <ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-必ず最後は叶えられるよう
+<ruby>必<rt class="furi">かなら</rt><rt class="roma">kanara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-さあ、与え合い前傾で
+<ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>与<rt class="furi">あた</rt><rt class="roma">ata</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>前<rt class="furi">ぜん</rt><rt class="roma">zen</rt></ruby>傾<ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「命」を奮わせ
+「<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby>」<ruby>を<rt class="roma">wo</rt></ruby><ruby>奮<rt class="furi">ふる</rt><rt class="roma">furu</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
 </div>
 
@@ -245,37 +245,37 @@ Stay high まだ駆けていたい
 
 <div class="lyric-line">
 <div class="jp-lyric">
-失態や成功 そんな次元は Get it out
+<ruby>失態<rt class="furi">しったい</rt><rt class="roma">shittai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>成功<rt class="furi">せいこう</rt><rt class="roma">seikou</rt></ruby> <ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>次元<rt class="furi">じげん</rt><rt class="roma">jigen</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> Get it out
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-規模はstereo まだ暴れていよう
+<ruby>規模<rt class="furi">きぼ</rt><rt class="roma">kibo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>stereo <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>暴<rt class="furi">あば</rt><rt class="roma">aba</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-理想へ dunk 理性無し like a drunk
+<ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby> dunk <ruby>理性<rt class="furi">りせい</rt><rt class="roma">risei</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> like a drunk
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-夢吹き込んだ mic 暴れ overdrive
+<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>吹き込<rt class="furi">ふきこ</rt><rt class="roma">fukiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> mic <ruby>暴<rt class="furi">あば</rt><rt class="roma">aba</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> overdrive
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「もう一人の私よ笑っていて」
+「<ruby>もう<rt class="roma">mou</rt></ruby><ruby>一<rt class="furi">いち</rt><rt class="roma">ichi</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「もう一つの私を叶えて」
+「<ruby>もう<rt class="roma">mou</rt></ruby><ruby>一<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>」
 </div>
 </div>
 
@@ -283,25 +283,25 @@ Stay high まだ駆けていたい
 
 <div class="lyric-line">
 <div class="jp-lyric">
-目指してた一つの道 開いた
+<ruby>目指<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>一<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>道<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby> <ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-明日を選び 暗い過去が今、閉じた
+<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>選<rt class="furi">えら</rt><rt class="roma">era</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby> <ruby>暗<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>、<ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「幸せになれるからね」
+「<ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれる<rt class="roma">nareru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>」
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そう言い聞かせ信じ走れ
+<ruby>そう<rt class="roma">sou</rt></ruby><ruby>言い聞<rt class="furi">いいき</rt><rt class="roma">iiki</rt></ruby><ruby>かせ<rt class="roma">kase</rt></ruby><ruby>信<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>
 </div>
 </div>
 
@@ -309,25 +309,25 @@ Stay high まだ駆けていたい
 
 <div class="lyric-line">
 <div class="jp-lyric">
-拝啓、あの世界線の私へ
+<ruby>拝啓<rt class="furi">はいけい</rt><rt class="roma">haikei</rt></ruby>、<ruby>あの<rt class="roma">ano</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>線<rt class="furi">せん</rt><rt class="roma">sen</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-この想いを抱いたままでいますか？
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-もう二度と逢えやしないけど
+<ruby>もう<rt class="roma">mou</rt></ruby><ruby>二度<rt class="furi">にど</rt><rt class="roma">nido</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>逢<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-絶えず私と進んで欲しい
+<ruby>絶<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>えず<rt class="roma">ezu</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>
 </div>
 </div>
 
@@ -335,49 +335,49 @@ Stay high まだ駆けていたい
 
 <div class="lyric-line">
 <div class="jp-lyric">
-後悔なんて一切無い
+<ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>一切<rt class="furi">いっさい</rt><rt class="roma">issai</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-希望は懲りない 虚無と飛び出して
+<ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>懲<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>虚無<rt class="furi">きょむ</rt><rt class="roma">kyomu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>飛び出<rt class="furi">とびだ</rt><rt class="roma">tobida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-此処を通じて君と出会えた
+<ruby>此処<rt class="furi">ここ</rt><rt class="roma">koko</rt></ruby><ruby>を通<rt class="furi">をつう</rt><rt class="roma">wotsuu</rt></ruby><ruby>じて<rt class="roma">jite</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-君のお陰でより好きになれた
+<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>お陰<rt class="furi">おかげ</rt><rt class="roma">okage</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-同じゴール同士高めていよう
+<ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ゴール<rt class="roma">gouru</rt></ruby><ruby>同士<rt class="furi">どうし</rt><rt class="roma">doushi</rt></ruby><ruby>高<rt class="furi">たか</rt><rt class="roma">taka</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-必ず互いに乗り越えてるよ
+<ruby>必<rt class="furi">かなら</rt><rt class="roma">kanara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>互<rt class="furi">たが</rt><rt class="roma">taga</rt></ruby><ruby>いに<rt class="roma">ini</rt></ruby><ruby>乗り越<rt class="furi">のりこ</rt><rt class="roma">noriko</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-さあ、忘れ合い前傾で
+<ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>前<rt class="furi">ぜん</rt><rt class="roma">zen</rt></ruby>傾<ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「魂」を奮わせ
+「<ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby>」<ruby>を<rt class="roma">wo</rt></ruby><ruby>奮<rt class="furi">ふる</rt><rt class="roma">furu</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
 </div>
 
@@ -385,55 +385,53 @@ Stay high まだ駆けていたい
 
 <div class="lyric-line">
 <div class="jp-lyric">
-後悔なんて一切無い
+<ruby>後悔<rt class="furi">こうかい</rt><rt class="roma">koukai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>一切<rt class="furi">いっさい</rt><rt class="roma">issai</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-未だ足りない 憂鬱も追い出して
+<ruby>未<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>憂鬱<rt class="furi">ゆううつ</rt><rt class="roma">yuuutsu</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>追い出<rt class="furi">おいだ</rt><rt class="roma">oida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-此処を通じてやっと解った
+<ruby>此処<rt class="furi">ここ</rt><rt class="roma">koko</rt></ruby><ruby>を通<rt class="furi">をつう</rt><rt class="roma">wotsuu</rt></ruby><ruby>じて<rt class="roma">jite</rt></ruby><ruby>やっと<rt class="roma">yatto</rt></ruby><ruby>解<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-感じた経験 全て愛せた
+<ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>経験<rt class="furi">けいけん</rt><rt class="roma">keiken</rt></ruby> <ruby>全<rt class="furi">すべ</rt><rt class="roma">sube</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-同じゴール同士 手を繋ぐよ
+<ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ゴール<rt class="roma">gouru</rt></ruby><ruby>同士<rt class="furi">どうし</rt><rt class="roma">doushi</rt></ruby> <ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-必ず最後は叶えられるよう
+<ruby>必<rt class="furi">かなら</rt><rt class="roma">kanara</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-さあ、与え合い前傾で
+<ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>与<rt class="furi">あた</rt><rt class="roma">ata</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>前<rt class="furi">ぜん</rt><rt class="roma">zen</rt></ruby>傾<ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「命」を奮わせ
+「<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby>」<ruby>を<rt class="roma">wo</rt></ruby><ruby>奮<rt class="furi">ふる</rt><rt class="roma">furu</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby>
 </div>
 </div>
 
 </div>
-
-
 
 ## 出典
 

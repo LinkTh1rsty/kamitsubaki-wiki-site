@@ -145,5 +145,3 @@ Nothing, turn now Gotta try a little harder It could be sweet
 </div>
 
 </div>
-
-

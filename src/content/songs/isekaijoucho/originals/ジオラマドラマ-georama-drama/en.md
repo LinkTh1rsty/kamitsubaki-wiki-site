@@ -27,31 +27,31 @@ image: /images/songs/isekaijoucho/single-1687473809.jpg
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-愛想笑いが上手くなって
+<ruby>愛想<rt class="furi">あいそ</rt><rt class="roma">aiso</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>上手<rt class="furi">うま</rt><rt class="roma">uma</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-狡猾くなっていく
+<ruby>狡猾<rt class="furi">こうかつ</rt><rt class="roma">koukatsu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-しがない末路を 踏み締め
+<ruby>しがない<rt class="roma">shiganai</rt></ruby><ruby>末路<rt class="furi">まつろ</rt><rt class="roma">matsuro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>踏み締<rt class="furi">ふみし</rt><rt class="roma">fumishi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-確かめてるような
+<ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>かめ<rt class="roma">kame</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
@@ -59,19 +59,19 @@ image: /images/songs/isekaijoucho/single-1687473809.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あなたがくれたのは
+<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あの小さな箱庭
+<ruby>あの<rt class="roma">ano</rt></ruby><ruby>小<rt class="furi">ちい</rt><rt class="roma">chii</rt></ruby><ruby>さな<rt class="roma">sana</rt></ruby><ruby>箱庭<rt class="furi">はこにわ</rt><rt class="roma">hakoniwa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-触れたら 崩れ落ちそう
+<ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby> <ruby>崩れ落<rt class="furi">くずれお</rt><rt class="roma">kuzureo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby>
 </div>
 </div>
 
@@ -79,19 +79,19 @@ image: /images/songs/isekaijoucho/single-1687473809.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-演じて 僕は演じて
+<ruby>演<rt class="furi">えん</rt><rt class="roma">en</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>演<rt class="furi">えん</rt><rt class="roma">en</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-深く臙脂の糸 唇 絡まる言葉
+<ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>臙脂<rt class="furi">えんじ</rt><rt class="roma">enji</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>糸<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby> <ruby>唇<rt class="furi">くちびる</rt><rt class="roma">kuchibiru</rt></ruby> <ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕だけの色 画を 描くのさ
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby> <ruby>画<rt class="furi">が</rt><rt class="roma">ga</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 
@@ -99,25 +99,25 @@ image: /images/songs/isekaijoucho/single-1687473809.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-断じて甘く賛辞を贈る共演者は亡く
+<ruby>断<rt class="furi">だん</rt><rt class="roma">dan</rt></ruby><ruby>じて<rt class="roma">jite</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>賛辞<rt class="furi">さんじ</rt><rt class="roma">sanji</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>贈<rt class="furi">おく</rt><rt class="roma">oku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>共演<rt class="furi">きょうえん</rt><rt class="roma">kyouen</rt></ruby><ruby>者<rt class="furi">しゃ</rt><rt class="roma">sha</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>亡<ruby>く<rt class="roma">ku</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-この役名は借り物
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>役名<rt class="furi">やくめい</rt><rt class="roma">yakumei</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>借り物<rt class="furi">かりもの</rt><rt class="roma">karimono</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いつか最期の刻を待って
+<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>最期<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>刻<rt class="furi">こく</rt><rt class="roma">koku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-正しい台詞で 正しく愛してね
+<ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>台詞<rt class="furi">だいし</rt><rt class="roma">daishi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>正<rt class="furi">まさ</rt><rt class="roma">masa</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
@@ -125,19 +125,19 @@ image: /images/songs/isekaijoucho/single-1687473809.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-物語は 進むばかりで
+<ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>進<rt class="furi">すす</rt><rt class="roma">susu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-しがない最期を恐れて
+<ruby>しがない<rt class="roma">shiganai</rt></ruby><ruby>最期<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>恐<rt class="furi">おそ</rt><rt class="roma">oso</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-張り付くペルソナ
+<ruby>張り付<rt class="furi">はりつ</rt><rt class="roma">haritsu</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ペルソナ<rt class="roma">perusona</rt></ruby>
 </div>
 </div>
 
@@ -145,31 +145,31 @@ image: /images/songs/isekaijoucho/single-1687473809.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-この歌が示すもの
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>示<rt class="furi">しめ</rt><rt class="roma">shime</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕が詰めた思惑を
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>詰<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>思惑<rt class="furi">おもわく</rt><rt class="roma">omowaku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-あなたが知る由もないでしょう
+<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>由<rt class="furi">よし</rt><rt class="roma">yoshi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-曖昧な身体は 空に宙に 解れて
+<ruby>曖昧<rt class="furi">あいまい</rt><rt class="roma">aimai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>身体<rt class="furi">しんたい</rt><rt class="roma">shintai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>宙<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>解<rt class="furi">ほぐ</rt><rt class="roma">hogu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-今に崩れ落ちそう
+<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>崩れ落<rt class="furi">くずれお</rt><rt class="roma">kuzureo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby>
 </div>
 </div>
 
@@ -177,19 +177,19 @@ image: /images/songs/isekaijoucho/single-1687473809.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-演じて 僕は演じて
+<ruby>演<rt class="furi">えん</rt><rt class="roma">en</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>演<rt class="furi">えん</rt><rt class="roma">en</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-深く臙脂の糸 唇 絡まる言葉
+<ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>臙脂<rt class="furi">えんじ</rt><rt class="roma">enji</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>糸<rt class="furi">いと</rt><rt class="roma">ito</rt></ruby> <ruby>唇<rt class="furi">くちびる</rt><rt class="roma">kuchibiru</rt></ruby> <ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-僕だけの色 画を 描くのさ
+<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby> <ruby>画<rt class="furi">が</rt><rt class="roma">ga</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 
@@ -197,25 +197,25 @@ image: /images/songs/isekaijoucho/single-1687473809.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-案じて覆う惨事を
+<ruby>案<rt class="furi">あん</rt><rt class="roma">an</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>覆<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>惨事<rt class="furi">さんじ</rt><rt class="roma">sanji</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-エンドロールに載せて
+<ruby>エンドロール<rt class="roma">endorouru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>載<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-この役名は借り物
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>役名<rt class="furi">やくめい</rt><rt class="roma">yakumei</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>借り物<rt class="furi">かりもの</rt><rt class="roma">karimono</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いつか最期の刻を待って
+<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>最期<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>刻<rt class="furi">こく</rt><rt class="roma">koku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
@@ -223,16 +223,14 @@ image: /images/songs/isekaijoucho/single-1687473809.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-この人生を還して
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>人生<rt class="furi">じんせい</rt><rt class="roma">jinsei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>還<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-その時 心から笑いたいだけ
+<ruby>その<rt class="roma">sono</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby> <ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 </div>
 
 </div>
-
-

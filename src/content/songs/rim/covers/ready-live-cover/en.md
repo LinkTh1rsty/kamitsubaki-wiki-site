@@ -27,7 +27,7 @@ READY (Live Cover) appears on CHOCOLATE LIVE4 or a related official release. Ent
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -196,5 +196,3 @@ Wait don't stay
 </div>
 
 </div>
-
-

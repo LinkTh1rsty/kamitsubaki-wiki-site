@@ -26,73 +26,71 @@ image: /images/albums/kaf/kyoso.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-かえるのうたが
+<ruby>かえる<rt class="roma">kaeru</rt></ruby><ruby>のう<rt class="roma">nou</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-きこえてくるよ
+<ruby>きこえ<rt class="roma">kikoe</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-クワ　クワ　クワ　クワ
+<ruby>クワ<rt class="roma">kuwa</rt></ruby> <ruby>クワ<rt class="roma">kuwa</rt></ruby> <ruby>クワ<rt class="roma">kuwa</rt></ruby> <ruby>クワ<rt class="roma">kuwa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ケケケケ　ケケケケ
+<ruby>ケケケケ<rt class="roma">kekekeke</rt></ruby> <ruby>ケケケケ<rt class="roma">kekekeke</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-クワ　クワ　クワ
+<ruby>クワ<rt class="roma">kuwa</rt></ruby> <ruby>クワ<rt class="roma">kuwa</rt></ruby> <ruby>クワ<rt class="roma">kuwa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-かえるのうたが
+<ruby>かえる<rt class="roma">kaeru</rt></ruby><ruby>のう<rt class="roma">nou</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-きこえてくるよ
+<ruby>きこえ<rt class="roma">kikoe</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-クワ　クワ　クワ　クワ
+<ruby>クワ<rt class="roma">kuwa</rt></ruby> <ruby>クワ<rt class="roma">kuwa</rt></ruby> <ruby>クワ<rt class="roma">kuwa</rt></ruby> <ruby>クワ<rt class="roma">kuwa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ケケケケ　ケケケケ
+<ruby>ケケケケ<rt class="roma">kekekeke</rt></ruby> <ruby>ケケケケ<rt class="roma">kekekeke</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-クワ　クワ　クワ
+<ruby>クワ<rt class="roma">kuwa</rt></ruby> <ruby>クワ<rt class="roma">kuwa</rt></ruby> <ruby>クワ<rt class="roma">kuwa</rt></ruby>
 </div>
 </div>
 
 </div>
-
-
 
 ## 来源
 

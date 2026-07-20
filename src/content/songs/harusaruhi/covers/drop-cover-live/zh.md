@@ -27,7 +27,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
@@ -200,5 +200,3 @@ Kippe Shots und hab am nächsten Morgen Kopfweh
 </div>
 
 </div>
-
-

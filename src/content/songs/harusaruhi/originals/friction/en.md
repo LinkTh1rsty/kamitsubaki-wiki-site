@@ -27,7 +27,7 @@ friction appears on 心獣 or a related official release. Entries are version-sp
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -310,5 +310,3 @@ Yeah
 </div>
 
 </div>
-
-

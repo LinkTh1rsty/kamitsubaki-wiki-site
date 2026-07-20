@@ -27,7 +27,7 @@ God knows... (Cover Live) appears on CANDY LIVE 3 (Cover Live) or a related offi
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -322,5 +322,3 @@ Together in God's bless...
 </div>
 
 </div>
-
-

@@ -27,7 +27,7 @@ Nevermore (Live Cover) appears on CHOCOLATE LIVE4 or a related official release.
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -207,7 +207,7 @@ Without your light it is so cold between these walls
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You said: "don't be afraid"
+You said: &quot;don't be afraid&quot;
 </div>
 </div>
 
@@ -356,5 +356,3 @@ Give me the sign I am waiting for
 </div>
 
 </div>
-
-

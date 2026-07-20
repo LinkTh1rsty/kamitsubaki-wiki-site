@@ -176,5 +176,3 @@ itsuka, dokoka, tadoritsuku darou
 </div>
 
 </div>
-
-

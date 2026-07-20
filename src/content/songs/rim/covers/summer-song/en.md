@@ -27,7 +27,7 @@ SUMMER SONG appears on CHOCOLATE LIVE2 or a related official release. Entries ar
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -258,5 +258,3 @@ Then this could be our summer song
 </div>
 
 </div>
-
-

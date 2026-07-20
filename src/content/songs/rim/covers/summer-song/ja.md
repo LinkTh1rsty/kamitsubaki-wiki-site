@@ -258,5 +258,3 @@ Then this could be our summer song
 </div>
 
 </div>
-
-

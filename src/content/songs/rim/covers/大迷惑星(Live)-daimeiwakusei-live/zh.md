@@ -27,49 +27,49 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 ## 歌词
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::zh}}
 
 <div class="my-lyric-box">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-大嫌いで 大迷惑な存在なんでしょう？
+<ruby>大嫌<rt class="furi">だいきら</rt><rt class="roma">daikira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>大<rt class="furi">だい</rt><rt class="roma">dai</rt></ruby><ruby>迷惑<rt class="furi">めいわく</rt><rt class="roma">meiwaku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まあ いいや
+<ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いやいやいやって過ごす今
+<ruby>いや<rt class="roma">iya</rt></ruby><ruby>いやいや<rt class="roma">iyaiya</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ごす<rt class="roma">gosu</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-大好きって アンパイなんて存在しないでしょ
+<ruby>大好<rt class="furi">だいす</rt><rt class="roma">daisu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>アン<rt class="roma">an</rt></ruby><ruby>パイ<rt class="roma">pai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まあ いいや まあ いいや
+<ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby> <ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まあ いっか
+<ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>いっか<rt class="roma">ikka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-は？
+<ruby>は<rt class="roma">wa</rt></ruby>？
 </div>
 </div>
 
@@ -77,37 +77,37 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-好き嫌い好き嫌い好き
+<ruby>好き嫌<rt class="furi">すききら</rt><rt class="roma">sukikira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>好き嫌<rt class="furi">すききら</rt><rt class="roma">sukikira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-嫌い好き嫌い好き嫌い好きって
+<ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>好き嫌<rt class="furi">すききら</rt><rt class="roma">sukikira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>好き嫌<rt class="furi">すききら</rt><rt class="roma">sukikira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-なんか嫌だ
+<ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>嫌<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-また会おまた会おまた会お
+<ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>お<rt class="roma">o</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-また会おまたまた煽って
+<ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>またまた<rt class="roma">matamata</rt></ruby><ruby>煽<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-なんか嫌だ
+<ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>嫌<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
@@ -115,37 +115,37 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叶ったけど僕のせいで
+<ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-余ったけど僕のもんだって
+<ruby>余<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-言いたい放題 die
+<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>放題<rt class="furi">ほうだい</rt><rt class="roma">houdai</rt></ruby> die
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-叶ったけど僕のせいで
+<ruby>叶<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-余ったけど僕のもんだって
+<ruby>余<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-言いたい放題だ
+<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>放題<rt class="furi">ほうだい</rt><rt class="roma">houdai</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
@@ -153,37 +153,37 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-大嫌いで 大迷惑な存在なんでしょう？
+<ruby>大嫌<rt class="furi">だいきら</rt><rt class="roma">daikira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>大<rt class="furi">だい</rt><rt class="roma">dai</rt></ruby><ruby>迷惑<rt class="furi">めいわく</rt><rt class="roma">meiwaku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まあ いいや
+<ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いやいやいやって過ごす今
+<ruby>いや<rt class="roma">iya</rt></ruby><ruby>いやいや<rt class="roma">iyaiya</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ごす<rt class="roma">gosu</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-大好きって アンパイなんて存在しないでしょ
+<ruby>大好<rt class="furi">だいす</rt><rt class="roma">daisu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>アン<rt class="roma">an</rt></ruby><ruby>パイ<rt class="roma">pai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まあ いいや まあ いいや
+<ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby> <ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まあ いっか
+<ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>いっか<rt class="roma">ikka</rt></ruby>
 </div>
 </div>
 
@@ -191,61 +191,61 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-嫌なんでしょう？
+<ruby>嫌<rt class="furi">いや</rt><rt class="roma">iya</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いや なんでしょう？
+<ruby>いや<rt class="roma">iya</rt></ruby> <ruby>なん<rt class="roma">nan</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-足掻いたものの
+<ruby>足掻<rt class="furi">あが</rt><rt class="roma">aga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ものの<rt class="roma">monono</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-結局 無くしちゃうんだろ？
+<ruby>結局<rt class="furi">けっきょく</rt><rt class="roma">kekkyoku</rt></ruby> <ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-見ない未来 期待しない
+<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby> <ruby>期待<rt class="furi">きたい</rt><rt class="roma">kitai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-夜な夜ナーナーにしたんだ
+<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>ナーナー<rt class="roma">naanaa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-君はそんなに気にしてないんだ
+<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>そんなに<rt class="roma">sonnani</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-意味はそんなに目に沁みないんだ
+<ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>そんなに<rt class="roma">sonnani</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>沁<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-アライグマでもさぼる日あんだね
+<ruby>アライグマ<rt class="roma">araiguma</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>さぼる<rt class="roma">saboru</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>あん<rt class="roma">an</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-寝 ね？ ほらね？
+<ruby>寝<rt class="furi">ね</rt><rt class="roma">ne</rt></ruby> <ruby>ね<rt class="roma">ne</rt></ruby>？ <ruby>ほら<rt class="roma">hora</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>？
 </div>
 </div>
 
@@ -253,37 +253,37 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-大嫌いで 大迷惑な存在なんでしょう？
+<ruby>大嫌<rt class="furi">だいきら</rt><rt class="roma">daikira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>大<rt class="furi">だい</rt><rt class="roma">dai</rt></ruby><ruby>迷惑<rt class="furi">めいわく</rt><rt class="roma">meiwaku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まあ いいや
+<ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-いやいやいやって過ごす今
+<ruby>いや<rt class="roma">iya</rt></ruby><ruby>いやいや<rt class="roma">iyaiya</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ごす<rt class="roma">gosu</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-大好きって アンパイなんて存在しないでしょ
+<ruby>大好<rt class="furi">だいす</rt><rt class="roma">daisu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>アン<rt class="roma">an</rt></ruby><ruby>パイ<rt class="roma">pai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まあ いいや まあ いいや
+<ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby> <ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-まあ いっか
+<ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>いっか<rt class="roma">ikka</rt></ruby>
 </div>
 </div>
 
@@ -291,58 +291,56 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そんなもんでしょ？
+<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-どうでしょう
+<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-そんなこんなの感情に 見んでしょ？ road show
+<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>こんな<rt class="roma">konna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>？ road show
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-録画してたテレビで
+<ruby>録画<rt class="furi">ろくが</rt><rt class="roma">rokuga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>テレビ<rt class="roma">terebi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-思うでしょう？
+<ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-どうでしょう
+<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-落ちて枯れた水面が
+<ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>枯<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>水面<rt class="furi">すいめん</rt><rt class="roma">suimen</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ほら そっと抱きよせんだ
+<ruby>ほら<rt class="roma">hora</rt></ruby> <ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>抱<rt class="furi">いだ</rt><rt class="roma">ida</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>せんだ<rt class="roma">senda</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-は？
+<ruby>は<rt class="roma">wa</rt></ruby>？
 </div>
 </div>
 
 </div>
-
-

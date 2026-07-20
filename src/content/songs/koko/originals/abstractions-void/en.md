@@ -27,7 +27,7 @@ Abstractions Void appears on Abstractions Void or a related official release. En
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -255,31 +255,31 @@ There is all reason being negated by the inevitable phenomenon
 
 <div class="lyric-line">
 <div class="jp-lyric">
-遠吠えから覚えた　名前の呼び方
+<ruby>遠吠<rt class="furi">とおぼ</rt><rt class="roma">toobo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>名前<rt class="furi">なまえ</rt><rt class="roma">namae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>呼<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>方<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-喉焦がす　奇を衒(てら)う
+<ruby>喉<rt class="furi">のど</rt><rt class="roma">nodo</rt></ruby><ruby>焦<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>がす<rt class="roma">gasu</rt></ruby> <ruby>奇<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>衒(<ruby>てら<rt class="roma">tera</rt></ruby>)<ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-見当違いや思い違いの所為で
+<ruby>見当<rt class="furi">けんとう</rt><rt class="roma">kentou</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>思い違<rt class="furi">おもいちが</rt><rt class="roma">omoichiga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>所為<rt class="furi">しょい</rt><rt class="roma">shoi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-決壊した紲(きずな)を今
+<ruby>決壊<rt class="furi">けっかい</rt><rt class="roma">kekkai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>紲<rt class="furi">きずな</rt><rt class="roma">kizuna</rt></ruby>(<ruby>きずな<rt class="roma">kizuna</rt></ruby>)<ruby>を<rt class="roma">wo</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-再び呼び戻す
+<ruby>再<rt class="furi">ふたた</rt><rt class="roma">futata</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>呼び戻<rt class="furi">よびもど</rt><rt class="roma">yobimodo</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
 </div>
 
@@ -344,5 +344,3 @@ Now, I give away again
 </div>
 
 </div>
-
-

@@ -27,7 +27,7 @@ Splash. (feat. 春猿火) appears on Splash. or a related official release. Entr
 
 ## Lyrics
 
-{{lyrics-controls::ja}}
+{{lyrics-controls::en}}
 
 <div class="my-lyric-box">
 
@@ -610,5 +610,3 @@ I'm not back, I'm not back, back
 </div>
 
 </div>
-
-
