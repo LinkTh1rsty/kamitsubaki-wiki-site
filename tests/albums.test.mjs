@@ -67,6 +67,19 @@ test('music pages use artist-first song and album navigation', async () => {
   assert.match(albumDetail, /<MusicSubnav locale=\{localeCode\} current="albums"/);
 });
 
+test('song artist catalog hero uses an artist-tinted surface in light mode', async () => {
+  const artistSongsPage = await readProjectFile('../src/pages/[locale]/songs/artists/[artist].astro');
+
+  assert.match(
+    artistSongsPage,
+    /:global\(html\[data-theme='light'\]\) \.catalog-hero__body\s*\{[\s\S]*background-color:\s*var\(--theme-panel-solid\)[\s\S]*color-mix\(in srgb, var\(--catalog-accent\) 13%, var\(--theme-panel-solid\)\)/,
+  );
+  assert.match(
+    artistSongsPage,
+    /:global\(html\[data-theme='light'\]\) \.catalog-hero__body > div\s*\{[\s\S]*border-color:\s*rgb\(var\(--theme-fg-rgb\) \/ 0\.12\)/,
+  );
+});
+
 test('album catalog groups entries by folder-driven artist ids', async () => {
   const { buildArtistAlbumCatalog } = await import('../src/lib/musicCatalog.mjs');
   const albums = [
