@@ -9,17 +9,23 @@ const lyricControlCopy = {
     translation: ['显示翻译', '隐藏翻译'],
     phonetic: ['切换罗马音', '切换假名注音'],
     syncLyrics: ['启用逐字歌词', '停用逐字歌词'],
+    playback: ['播放', '暂停'],
+    reset: '重置',
   },
   ja: {
     ruby: ['注音を表示', '注音を非表示'],
     phonetic: ['ローマ字に切り替える', 'かなルビに切り替える'],
     syncLyrics: ['同期歌詞を有効にする', '同期歌詞を無効にする'],
+    playback: ['再生', '一時停止'],
+    reset: 'リセット',
   },
   en: {
     ruby: ['Show kana', 'Hide kana'],
     translation: ['Show translation', 'Hide translation'],
     phonetic: ['Switch to romaji', 'Switch to kana'],
     syncLyrics: ['Enable sync lyrics', 'Disable sync lyrics'],
+    playback: ['Play', 'Pause'],
+    reset: 'Reset',
   },
 };
 
@@ -109,14 +115,9 @@ function renderLyricControls(locale) {
   
   if (copy.syncLyrics) {
     buttons.push(
-      `<button type="button" data-lyric-action="sync-lyrics" data-show-label="${copy.syncLyrics[0]}" data-hide-label="${copy.syncLyrics[1]}" aria-pressed="false">${copy.syncLyrics[0]}</button>`,
-      `<button type="button" data-lyric-action="sync-play-pause" style="display:none;" aria-pressed="false" class="sync-play-btn" aria-label="Play/Pause">
-        <svg viewBox="0 0 24 24" class="icon-play" width="16" height="16" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-        <svg viewBox="0 0 24 24" class="icon-pause" width="16" height="16" fill="currentColor" style="display:none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
-      </button>`,
-      `<button type="button" data-lyric-action="sync-reset" style="display:none;" aria-label="Reset" class="sync-reset-btn">
-        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/></svg>
-      </button>`
+      `<button type="button" data-lyric-action="sync-lyrics" data-primary-label="${copy.syncLyrics[0]}" data-alternate-label="${copy.syncLyrics[1]}" aria-pressed="false">${copy.syncLyrics[0]}</button>`,
+      `<button type="button" data-lyric-action="sync-play-pause" data-primary-label="${copy.playback[0]}" data-alternate-label="${copy.playback[1]}" aria-pressed="false" class="sync-play-btn" hidden>${copy.playback[0]}</button>`,
+      `<button type="button" data-lyric-action="sync-reset" class="sync-reset-btn" hidden>${copy.reset}</button>`,
     );
   }
   
@@ -206,9 +207,9 @@ const LRC_TAG_REGEX = /\[(\d{2}):(\d{2})\.(\d{2,3})\]/g;
 
 function transformLrcTags(node) {
   if ((node.type === 'text' || node.type === 'html') && typeof node.value === 'string') {
-    node.value = node.value.replace(LRC_TAG_REGEX, (match, m, s, ms) => {
+    node.value = node.value.replace(LRC_TAG_REGEX, (_match, m, s, ms) => {
       const time = parseInt(m, 10) * 60 + parseInt(s, 10) + parseInt(ms.padEnd(3, '0'), 10) / 1000;
-      return `<lrc-tag data-time="${time}" style="display:none;"></lrc-tag>`;
+      return `<span class="lrc-tag" data-time="${time}" hidden></span>`;
     });
   }
   if (node.children) node.children.forEach(transformLrcTags);

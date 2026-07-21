@@ -346,8 +346,6 @@ document.addEventListener('DOMContentLoaded', () => {
       this.controls = controls;
       this.playBtn = controls.querySelector('.sync-play-btn');
       this.resetBtn = controls.querySelector('.sync-reset-btn');
-      this.iconPlay = this.playBtn?.querySelector('.icon-play');
-      this.iconPause = this.playBtn?.querySelector('.icon-pause');
       this.lines = Array.from(lyricBox.querySelectorAll('.lyric-line'));
       
       this.playing = false;
@@ -388,12 +386,12 @@ document.addEventListener('DOMContentLoaded', () => {
           };
 
           Array.from(container.childNodes).forEach(child => {
-             if (child.tagName === 'LRC-TAG' || (child.classList && child.classList.contains('lrc-tag'))) {
+             if (child instanceof HTMLElement && child.classList.contains('lrc-tag')) {
                  flush();
                  currentTime = parseFloat(child.dataset.time);
-                 if (currentTime < lineStartTime) lineStartTime = currentTime;
+                 if (Number.isFinite(currentTime) && currentTime < lineStartTime) lineStartTime = currentTime;
              } else {
-                 if (currentTime !== null) {
+                 if (Number.isFinite(currentTime)) {
                      currentWordNodes.push(child);
                  }
              }
@@ -412,35 +410,39 @@ document.addEventListener('DOMContentLoaded', () => {
         
         if (lineStartTime !== Infinity) {
           line.dataset.time = lineStartTime;
+          line.classList.add('has-lrc-timing');
         }
       });
       
       // Collect all words
       this.words = Array.from(this.lyricBox.querySelectorAll('.lrc-word'));
       // Remove raw lrc-tags to clean up DOM
-      this.lyricBox.querySelectorAll('lrc-tag').forEach(tag => tag.remove());
+      this.lyricBox.querySelectorAll('.lrc-tag').forEach(tag => tag.remove());
+    }
+
+    setPlaying(playing) {
+      this.playing = playing;
+      if (!this.playBtn) return;
+      this.playBtn.setAttribute('aria-pressed', String(playing));
+      this.playBtn.textContent = playing
+        ? this.playBtn.dataset.alternateLabel || ''
+        : this.playBtn.dataset.primaryLabel || '';
     }
 
     togglePlay() {
-      this.playing = !this.playing;
+      this.setPlaying(!this.playing);
       if (this.playing) {
         this.lastTick = performance.now();
         this.loop();
-        if (this.iconPlay) this.iconPlay.style.display = 'none';
-        if (this.iconPause) this.iconPause.style.display = 'block';
       } else {
         cancelAnimationFrame(this.animationFrame);
-        if (this.iconPlay) this.iconPlay.style.display = 'block';
-        if (this.iconPause) this.iconPause.style.display = 'none';
       }
     }
 
     reset() {
-      this.playing = false;
+      this.setPlaying(false);
       this.currentTime = 0;
       cancelAnimationFrame(this.animationFrame);
-      if (this.iconPlay) this.iconPlay.style.display = 'block';
-      if (this.iconPause) this.iconPause.style.display = 'none';
       this.updateUI();
     }
 
@@ -467,7 +469,7 @@ document.addEventListener('DOMContentLoaded', () => {
       
       this.lines.forEach(line => {
         const lineTime = parseFloat(line.dataset.time);
-        if (!isNaN(lineTime) && time >= lineTime) {
+        if (Number.isFinite(lineTime) && time >= lineTime && (!activeLine || lineTime >= parseFloat(activeLine.dataset.time))) {
           activeLine = line;
         }
         line.classList.remove('is-active');
@@ -475,13 +477,11 @@ document.addEventListener('DOMContentLoaded', () => {
       
       if (activeLine) {
         activeLine.classList.add('is-active');
-        // Optional: auto-scroll to active line
-        // activeLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
 
       this.words.forEach(word => {
         const wordTime = parseFloat(word.dataset.time);
-        if (time >= wordTime) {
+        if (Number.isFinite(wordTime) && time >= wordTime) {
           word.classList.add('is-active');
         } else {
           word.classList.remove('is-active');
@@ -526,23 +526,24 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!syncPlayers.has(lyricBox)) {
           syncPlayers.set(lyricBox, new SyncLyricsPlayer(lyricBox, controls));
         }
-        if (playBtn) playBtn.style.display = 'inline-flex';
-        if (resetBtn) resetBtn.style.display = 'inline-flex';
-        // Auto scroll setup or initial UI update
+        if (playBtn) playBtn.hidden = false;
+        if (resetBtn) resetBtn.hidden = false;
         syncPlayers.get(lyricBox).updateUI();
       } else {
         const player = syncPlayers.get(lyricBox);
         if (player) {
           player.reset();
         }
-        if (playBtn) playBtn.style.display = 'none';
-        if (resetBtn) resetBtn.style.display = 'none';
+        if (playBtn) playBtn.hidden = true;
+        if (resetBtn) resetBtn.hidden = true;
       }
     }
     else return;
 
     button.setAttribute('aria-pressed', String(active));
     if (action === 'phonetic') {
+      button.textContent = active ? button.dataset.alternateLabel || '' : button.dataset.primaryLabel || '';
+    } else if (action === 'sync-lyrics') {
       button.textContent = active ? button.dataset.alternateLabel || '' : button.dataset.primaryLabel || '';
     } else if (action !== 'sync-play-pause' && action !== 'sync-reset') {
       button.textContent = active ? button.dataset.showLabel || '' : button.dataset.hideLabel || '';

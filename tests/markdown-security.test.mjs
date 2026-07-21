@@ -50,13 +50,16 @@ test('retains only the fixed attributes used by safe site interactions', async (
   const rendered = await renderMarkdownFragment(`
 <div class="my-lyric-controls arbitrary-class">
   <button type="button" data-lyric-action="ruby" data-show-label="Show" data-hide-label="Hide" onclick="alert(1)">Hide</button>
+  <button type="button" class="sync-play-btn arbitrary-class" data-lyric-action="sync-play-pause" data-primary-label="Play" data-alternate-label="Pause" hidden onclick="alert(1)">Play</button>
 </div>
-<div class="my-lyric-box"><div class="lyric-line">Line</div></div>
+<div class="my-lyric-box"><div class="lyric-line"><span class="lrc-tag arbitrary-class" data-time="1.25" hidden onclick="alert(1)"></span>Line</div></div>
 <span class="wiki-spoiler arbitrary-class" tabindex="0" onmouseover="alert(1)">Secret</span>
   `);
 
   assert.match(rendered, /class="my-lyric-controls"/);
   assert.match(rendered, /data-lyric-action="ruby"/);
+  assert.match(rendered, /class="sync-play-btn" data-lyric-action="sync-play-pause"/);
+  assert.match(rendered, /class="lrc-tag" data-time="1\.25" hidden/);
   assert.match(rendered, /data-show-label="Show"/);
   assert.match(rendered, /class="wiki-spoiler" tabindex="0"/);
   assert.doesNotMatch(rendered, /arbitrary-class|onclick|onmouseover/);

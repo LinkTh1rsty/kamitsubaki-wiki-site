@@ -1723,6 +1723,11 @@ html[data-theme='light'] .site-nav__menu-panel a {
   padding: 0.4rem;
 }
 
+.my-lyric-controls button[hidden],
+.my-lyric-box .lrc-tag {
+  display: none;
+}
+
 .my-lyric-box .lyric-line {
   display: flex;
   align-items: baseline;
@@ -1778,17 +1783,17 @@ html[data-theme='light'] .site-nav__menu-panel a {
 }
 
 /* Synchronized Lyrics Player Styles */
-.my-lyric-box.sync-enabled .lyric-line {
+.my-lyric-box.sync-enabled .lyric-line.has-lrc-timing {
   opacity: 0.4;
   cursor: pointer;
   transition: opacity 0.3s ease;
 }
 
-.my-lyric-box.sync-enabled .lyric-line:hover {
+.my-lyric-box.sync-enabled .lyric-line.has-lrc-timing:hover {
   opacity: 0.7;
 }
 
-.my-lyric-box.sync-enabled .lyric-line.is-active {
+.my-lyric-box.sync-enabled .lyric-line.has-lrc-timing.is-active {
   opacity: 1;
 }
 

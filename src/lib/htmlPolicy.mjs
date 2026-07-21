@@ -14,6 +14,9 @@ const allowedDivClasses = [
   'trans-lyric',
 ];
 
+const allowedSpanClasses = ['wiki-spoiler', 'lrc-tag'];
+const allowedLyricButtonClasses = ['sync-play-btn', 'sync-reset-btn'];
+
 export const wikiHtmlSchema = {
   ...defaultSchema,
   clobberPrefix: 'wiki-content-',
@@ -43,16 +46,22 @@ export const wikiHtmlSchema = {
       ['className', ...allowedDivClasses],
       'dataMediaEmbedStack',
     ],
-    span: [['className', 'wiki-spoiler']],
+    span: [
+      ['className', ...allowedSpanClasses],
+      'dataTime',
+      'hidden',
+    ],
     rt: [['className', 'furi', 'roma']],
     button: [
       ['type', 'button'],
-      ['dataLyricAction', 'ruby', 'translation', 'phonetic'],
+      ['className', ...allowedLyricButtonClasses],
+      ['dataLyricAction', 'ruby', 'translation', 'phonetic', 'sync-lyrics', 'sync-play-pause', 'sync-reset'],
       'dataShowLabel',
       'dataHideLabel',
       'dataPrimaryLabel',
       'dataAlternateLabel',
       'ariaPressed',
+      'hidden',
     ],
     img: [
       ...(defaultSchema.attributes?.img || []),

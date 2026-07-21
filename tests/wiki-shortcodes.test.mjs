@@ -110,12 +110,27 @@ test('renders localized song lyric controls from one block alias', async () => {
   const ja = await renderMarkdownFragment('{{lyrics-controls::ja}}\n\n<div class="my-lyric-box">歌詞</div>');
 
   assert.match(zh, /^<div class="my-lyric-controls">/);
-  assert.equal((zh.match(/data-lyric-action=/g) || []).length, 3);
+  assert.equal((zh.match(/data-lyric-action=/g) || []).length, 6);
   assert.match(zh, /data-lyric-action="translation"/);
+  assert.match(zh, /data-lyric-action="sync-lyrics"/);
+  assert.match(zh, /data-lyric-action="sync-play-pause"[^>]*class="sync-play-btn" hidden>播放<\/button>/);
+  assert.match(zh, /data-lyric-action="sync-reset" class="sync-reset-btn" hidden>重置<\/button>/);
   assert.match(zh, /aria-pressed="false">隐藏注音<\/button>/);
   assert.match(zh, /<\/div>\n<div class="my-lyric-box">Lyrics<\/div>$/);
-  assert.equal((ja.match(/data-lyric-action=/g) || []).length, 2);
+  assert.equal((ja.match(/data-lyric-action=/g) || []).length, 5);
   assert.doesNotMatch(ja, /data-lyric-action="translation"/);
+});
+
+test('renders synchronized lyric timestamps as sanitized inert markers', async () => {
+  const rendered = await renderMarkdownFragment(`
+<div class="my-lyric-box"><div class="lyric-line"><div class="jp-lyric">
+[00:00.80]<ruby>愛<rt class="furi">あい</rt></ruby>[01:02.345]<ruby>歌<rt class="furi">うた</rt></ruby>
+</div></div></div>
+  `);
+
+  assert.match(rendered, /<span class="lrc-tag" data-time="0\.8" hidden><\/span>/);
+  assert.match(rendered, /<span class="lrc-tag" data-time="62\.345" hidden><\/span>/);
+  assert.doesNotMatch(rendered, /\[00:00\.80\]|\[01:02\.345\]|style=/);
 });
 
 test('keeps fenced code language highlighting enabled', async () => {
