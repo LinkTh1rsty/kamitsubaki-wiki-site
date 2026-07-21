@@ -41,6 +41,7 @@ test('theme preference defaults to system and offers localized light, dark, and 
   assert.match(styles, /\.wiki-toc \.toc-list a\[data-active="true"\][\s\S]*color: var\(--theme-accent-color\)/);
   assert.match(styles, /html\[data-theme='light'\] \[class~='text-white'\][\s\S]*color: #000000/);
   assert.match(styles, /html\[data-theme='light'\] \[class\*='text-white\/'\][\s\S]*color: #42484c/);
+  assert.match(styles, /html\[data-theme='light'\] \.site-nav__link,[\s\S]*\.site-nav__menu-panel a\s*\{[\s\S]*font-weight: 400/);
   assert.match(styles, /\.license-panel__link--primary/);
 });
 

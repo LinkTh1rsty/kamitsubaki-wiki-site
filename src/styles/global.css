@@ -784,6 +784,12 @@ html[data-theme='light'] .site-nav {
   mix-blend-mode: normal;
 }
 
+html[data-theme='light'] .site-nav__link,
+html[data-theme='light'] .site-nav__menu summary,
+html[data-theme='light'] .site-nav__menu-panel a {
+  font-weight: 400;
+}
+
 .site-nav__link {
   position: relative;
 }
