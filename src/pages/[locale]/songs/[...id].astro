@@ -36,7 +36,7 @@ const { locale, id } = Astro.params;
 const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
 const localeCode = locale as 'zh' | 'ja' | 'en';
-const hasArticleBody = Boolean(entry.body?.trim());
+const hasArticleBody = true;
 const hasTableOfContents = headings.some((heading) => heading.depth === 2 || heading.depth === 3);
 
 const siteEntries = await getCollection('site');

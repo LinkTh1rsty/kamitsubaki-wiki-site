@@ -337,6 +337,159 @@ document.addEventListener('DOMContentLoaded', () => {
     window.setTimeout(preloadArtistImages, 1500);
   }
 
+  // Sync Lyrics Player State
+  const syncPlayers = new WeakMap();
+
+  class SyncLyricsPlayer {
+    constructor(lyricBox, controls) {
+      this.lyricBox = lyricBox;
+      this.controls = controls;
+      this.playBtn = controls.querySelector('.sync-play-btn');
+      this.resetBtn = controls.querySelector('.sync-reset-btn');
+      this.iconPlay = this.playBtn?.querySelector('.icon-play');
+      this.iconPause = this.playBtn?.querySelector('.icon-pause');
+      this.lines = Array.from(lyricBox.querySelectorAll('.lyric-line'));
+      
+      this.playing = false;
+      this.currentTime = 0;
+      this.lastTick = 0;
+      this.animationFrame = null;
+      
+      this.initDOM();
+      
+      this.lyricBox.addEventListener('click', (e) => {
+        if (!this.lyricBox.classList.contains('sync-enabled')) return;
+        const line = e.target.closest('.lyric-line');
+        if (!line) return;
+        const time = parseFloat(line.dataset.time);
+        if (!isNaN(time)) {
+          this.seek(time);
+          if (!this.playing) this.togglePlay();
+        }
+      });
+    }
+
+    initDOM() {
+      // Group text nodes into .lrc-word spans for word-by-word highlights
+      this.lines.forEach(line => {
+        let lineStartTime = Infinity;
+        const containers = line.querySelectorAll('.jp-lyric, .cn-lyric, .en-lyric, .trans-lyric');
+        
+        containers.forEach(container => {
+          let currentTime = null;
+          let currentWordNodes = [];
+          let words = [];
+
+          const flush = () => {
+             if (currentTime !== null && currentWordNodes.length > 0) {
+                words.push({ time: currentTime, nodes: currentWordNodes });
+             }
+             currentWordNodes = [];
+          };
+
+          Array.from(container.childNodes).forEach(child => {
+             if (child.tagName === 'LRC-TAG' || (child.classList && child.classList.contains('lrc-tag'))) {
+                 flush();
+                 currentTime = parseFloat(child.dataset.time);
+                 if (currentTime < lineStartTime) lineStartTime = currentTime;
+             } else {
+                 if (currentTime !== null) {
+                     currentWordNodes.push(child);
+                 }
+             }
+          });
+          flush();
+
+          words.forEach((word, index) => {
+             const span = document.createElement('span');
+             span.className = 'lrc-word';
+             span.dataset.time = word.time;
+             if (index < words.length - 1) span.dataset.endTime = words[index + 1].time;
+             word.nodes[0].parentNode.insertBefore(span, word.nodes[0]);
+             word.nodes.forEach(n => span.appendChild(n));
+          });
+        });
+        
+        if (lineStartTime !== Infinity) {
+          line.dataset.time = lineStartTime;
+        }
+      });
+      
+      // Collect all words
+      this.words = Array.from(this.lyricBox.querySelectorAll('.lrc-word'));
+      // Remove raw lrc-tags to clean up DOM
+      this.lyricBox.querySelectorAll('lrc-tag').forEach(tag => tag.remove());
+    }
+
+    togglePlay() {
+      this.playing = !this.playing;
+      if (this.playing) {
+        this.lastTick = performance.now();
+        this.loop();
+        if (this.iconPlay) this.iconPlay.style.display = 'none';
+        if (this.iconPause) this.iconPause.style.display = 'block';
+      } else {
+        cancelAnimationFrame(this.animationFrame);
+        if (this.iconPlay) this.iconPlay.style.display = 'block';
+        if (this.iconPause) this.iconPause.style.display = 'none';
+      }
+    }
+
+    reset() {
+      this.playing = false;
+      this.currentTime = 0;
+      cancelAnimationFrame(this.animationFrame);
+      if (this.iconPlay) this.iconPlay.style.display = 'block';
+      if (this.iconPause) this.iconPause.style.display = 'none';
+      this.updateUI();
+    }
+
+    seek(time) {
+      this.currentTime = time;
+      this.lastTick = performance.now();
+      this.updateUI();
+    }
+
+    loop() {
+      if (!this.playing) return;
+      const now = performance.now();
+      const delta = (now - this.lastTick) / 1000;
+      this.lastTick = now;
+      this.currentTime += delta;
+      
+      this.updateUI();
+      this.animationFrame = requestAnimationFrame(() => this.loop());
+    }
+
+    updateUI() {
+      const time = this.currentTime;
+      let activeLine = null;
+      
+      this.lines.forEach(line => {
+        const lineTime = parseFloat(line.dataset.time);
+        if (!isNaN(lineTime) && time >= lineTime) {
+          activeLine = line;
+        }
+        line.classList.remove('is-active');
+      });
+      
+      if (activeLine) {
+        activeLine.classList.add('is-active');
+        // Optional: auto-scroll to active line
+        // activeLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+
+      this.words.forEach(word => {
+        const wordTime = parseFloat(word.dataset.time);
+        if (time >= wordTime) {
+          word.classList.add('is-active');
+        } else {
+          word.classList.remove('is-active');
+        }
+      });
+    }
+  }
+
   document.addEventListener('click', (event) => {
     const button = event.target instanceof Element && event.target.closest('[data-lyric-action]');
     if (!(button instanceof HTMLButtonElement)) return;
@@ -346,17 +499,52 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!(lyricBox instanceof HTMLElement) || !lyricBox.classList.contains('my-lyric-box')) return;
 
     const action = button.dataset.lyricAction;
+    
+    if (action === 'sync-play-pause') {
+      let player = syncPlayers.get(lyricBox);
+      if (player) player.togglePlay();
+      return;
+    }
+    
+    if (action === 'sync-reset') {
+      let player = syncPlayers.get(lyricBox);
+      if (player) player.reset();
+      return;
+    }
+
     let active = false;
 
     if (action === 'ruby') active = lyricBox.classList.toggle('hide-ruby');
     else if (action === 'translation') active = lyricBox.classList.toggle('hide-translation');
     else if (action === 'phonetic') active = lyricBox.classList.toggle('show-romaji');
+    else if (action === 'sync-lyrics') {
+      active = lyricBox.classList.toggle('sync-enabled');
+      const playBtn = controls.querySelector('.sync-play-btn');
+      const resetBtn = controls.querySelector('.sync-reset-btn');
+      
+      if (active) {
+        if (!syncPlayers.has(lyricBox)) {
+          syncPlayers.set(lyricBox, new SyncLyricsPlayer(lyricBox, controls));
+        }
+        if (playBtn) playBtn.style.display = 'inline-flex';
+        if (resetBtn) resetBtn.style.display = 'inline-flex';
+        // Auto scroll setup or initial UI update
+        syncPlayers.get(lyricBox).updateUI();
+      } else {
+        const player = syncPlayers.get(lyricBox);
+        if (player) {
+          player.reset();
+        }
+        if (playBtn) playBtn.style.display = 'none';
+        if (resetBtn) resetBtn.style.display = 'none';
+      }
+    }
     else return;
 
     button.setAttribute('aria-pressed', String(active));
     if (action === 'phonetic') {
       button.textContent = active ? button.dataset.alternateLabel || '' : button.dataset.primaryLabel || '';
-    } else {
+    } else if (action !== 'sync-play-pause' && action !== 'sync-reset') {
       button.textContent = active ? button.dataset.showLabel || '' : button.dataset.hideLabel || '';
     }
   });
