@@ -102,8 +102,10 @@ tracks:
 ## Overview
 
 As virtual singer Kaf's debut solo album, this release features 15 tracks, serving as a heartfelt retrospective of her 11-month journey since her debut in October 2018. The tracklist includes early works like Ito and Wasurete Shimae, her first million-streamed hit Shinzo to Karakuri, as well as Hinadori, released after she temporarily paused activities for high school entrance exams and successfully enrolled. It also features Kako o Kurau, which marked her second million-streamed milestone, and Yoru ga Furiyamu Mae ni, the theme song for the film Hot Gimmick: Girl Meets Boy. Additionally, the album specially includes several new songs that made their live debut at her first solo concert, "Fukakai," on August 1st.
+
 Notably, the earlier tracks previously released on YouTube have been completely re-arranged, re-mixed, and re-recorded, presenting them in a brand-new light. All lyrics, composition, and arrangements for the album were handled entirely by [Kanzaki Iori](https://kamitsubaki.wiki/en/artists/creators/kanzaki-iori/), a rising star among Vocaloid producers at the time.
-Alongside the CD album Kansoku, the Special Box α includes the photo book Tomei (24 pages), an audio drama Otogi-banashi -Dai Zero Maku- (Poetry CD), an acrylic keychain (PALOW ver.), postcards (PALOW ver.), a sticker set α (3 pieces), a can badge set α (3 pieces), and messages from Kaf and Kanzaki Iori. The Special Box β contains the photo book Tomei, the audio drama Otogi-banashi -Dai Ichi Maku-, an acrylic keychain (shirone ver.), postcards (shirone ver.), a sticker set β (3 pieces), a can badge set β (3 pieces), and messages from Kaf and Kanzaki Iori 
+
+Alongside the CD album Kansoku, a Special Box α is available, featuring a photo book Tomei (24 pages), an audio drama Otogi-banashi -Dai Zero Maku- (Poetry CD), an acrylic keychain (PALOW ver.), postcards (PALOW ver.), a sticker set α (3 pieces), a can badge set α (3 pieces), and messages for the album Kansoku (written by Kaf, Kanzaki Iori, and PIEDPIPER). In contrast, the Box β features a different version of these items illustrated by shirone.
 
 ## Release and editions
 
