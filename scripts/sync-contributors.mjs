@@ -74,6 +74,14 @@ async function collectEvents() {
   return events;
 }
 
+export function filterGithubContributionEvents(events) {
+  return events.filter((event) => (
+    event?.identity?.provider === 'github'
+    && event?.contributor?.id?.startsWith('github:')
+    && event?.contributor?.githubLogin
+  ));
+}
+
 async function main() {
   if (!apiBase) {
     throw new Error('Set CONTRIBUTORS_API_BASE or PUBLIC_AI_OBSERVER_API_BASE before syncing contributors.');
@@ -91,16 +99,21 @@ async function main() {
     return identityResolvers.get(repository);
   };
   let identityEnriched = 0;
-  const events = await Promise.all(collectedEvents.map(async (event) => {
+  const resolvedEvents = await Promise.all(collectedEvents.map(async (event) => {
     const { githubRepository: eventRepository, ...publicEvent } = event;
     const fallback = { contributor: event.contributor, identity: event.identity };
     const resolved = await resolverFor(eventRepository || githubRepository)(event.commitSha, fallback);
     if (resolved.contributor.id !== fallback.contributor.id) identityEnriched += 1;
     return { ...publicEvent, ...resolved };
   }));
+  const events = filterGithubContributionEvents(resolvedEvents);
+  const skippedUnresolved = resolvedEvents.length - events.length;
+  if (events.length === 0) {
+    throw new Error('Contributor sync found no verified GitHub contribution events.');
+  }
   const result = await syncContributionEvents({ apiBase, syncToken, events });
   const contributors = new Set(events.map((event) => event.contributor.id)).size;
-  console.log(`Synced ${result.accepted} contribution events from ${contributors} contributors in ${result.batches} batches; ${identityEnriched} events enriched by GitHub.`);
+  console.log(`Synced ${result.accepted} verified GitHub contribution events from ${contributors} contributors in ${result.batches} batches; ${identityEnriched} events enriched and ${skippedUnresolved} unresolved Git events skipped.`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

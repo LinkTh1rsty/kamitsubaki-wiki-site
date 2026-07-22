@@ -104,6 +104,29 @@ test('contributor snapshots are uploaded in API-sized batches after streaming', 
   assert.deepEqual(result, { accepted: 2105, batches: 3 });
 });
 
+test('contributor sync uploads only verified GitHub identities', async () => {
+  const { filterGithubContributionEvents } = await import('../scripts/sync-contributors.mjs');
+  const events = [
+    {
+      commitSha: 'github-commit',
+      contributor: { id: 'github:kirenko', githubLogin: 'KiRenk0' },
+      identity: { provider: 'github', providerKey: 'kirenko' },
+    },
+    {
+      commitSha: 'git-commit',
+      contributor: { id: 'git:private', displayName: 'KiRenk0' },
+      identity: { provider: 'git_email', providerKey: 'hashed' },
+    },
+    {
+      commitSha: 'incomplete-github-commit',
+      contributor: { id: 'github:unknown' },
+      identity: { provider: 'github', providerKey: 'unknown' },
+    },
+  ];
+
+  assert.deepEqual(filterGithubContributionEvents(events), [events[0]]);
+});
+
 test('contributor data groups locale files from one commit into one contribution', async () => {
   const { normalizeContributorData } = await import('../src/lib/contributorRosterData.mjs');
   const contributor = { id: 'git:link', displayName: 'Link' };
@@ -368,6 +391,8 @@ test('contributor sync submits an enriched snapshot in API-sized batches', async
   assert.match(script, /GITHUB_TOKEN/);
   assert.match(script, /GITHUB_REPOSITORY/);
   assert.match(script, /identityEnriched/);
+  assert.match(script, /filterGithubContributionEvents/);
+  assert.match(script, /unresolved Git events skipped/);
   assert.doesNotMatch(script, /API limit is 1000/);
 });
 
