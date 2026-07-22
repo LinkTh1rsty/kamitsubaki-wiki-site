@@ -47,14 +47,14 @@ No Music, No Life appears on SPICE OF LIFE or a related official release. Entrie
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エモ<rt class="roma">emo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なったり<rt class="roma">nattari</rt></ruby>
+[00:16.32]<ruby>エモ<rt class="roma">emo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なったり<rt class="roma">nattari</rt></ruby>
 </div>
 <div class="trans-lyric">Feeling all emotional</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>激<rt class="furi">はげ</rt><rt class="roma">hage</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>ビート<rt class="roma">biito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ったり<rt class="roma">ttari</rt></ruby>yeah
+[01:10.23]<ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>激<rt class="furi">はげ</rt><rt class="roma">hage</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>ビート<rt class="roma">biito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ったり<rt class="roma">ttari</rt></ruby>yeah
 </div>
 <div class="trans-lyric">Sometimes dancing wildly on the beat, yeah</div>
 </div>
@@ -68,7 +68,7 @@ No Music, No Life appears on SPICE OF LIFE or a related official release. Entrie
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>イヤ<rt class="roma">iya</rt></ruby><ruby>ホン<rt class="roma">hon</rt></ruby><ruby>つけれ<rt class="roma">tsukere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>ガラリ<rt class="roma">garari</rt></ruby>
+[00:27.72]<ruby>イヤ<rt class="roma">iya</rt></ruby><ruby>ホン<rt class="roma">hon</rt></ruby><ruby>つけれ<rt class="roma">tsukere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>ガラリ<rt class="roma">garari</rt></ruby>
 </div>
 <div class="trans-lyric">When I put on earphones, it changes in an instant</div>
 </div>
@@ -82,7 +82,7 @@ No Music, No Life appears on SPICE OF LIFE or a related official release. Entrie
 
 <div class="lyric-line">
 <div class="jp-lyric">
-No Music, No Life
+[00:35.18]No Music, No Life
 </div>
 <div class="trans-lyric">No Music, No Life</div>
 </div>
@@ -103,14 +103,14 @@ No Music, No Life
 
 <div class="lyric-line">
 <div class="jp-lyric">
-That’s part of my life
+[00:46.34]That’s part of my life
 </div>
 <div class="trans-lyric">That’s part of my life</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>そば<rt class="roma">soba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[00:49.12]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>そば<rt class="roma">soba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 <div class="trans-lyric">Always by my side</div>
 </div>
@@ -136,7 +136,7 @@ That’s part of my life
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah
+[01:10.23]yeah
 </div>
 <div class="trans-lyric">yeah</div>
 </div>

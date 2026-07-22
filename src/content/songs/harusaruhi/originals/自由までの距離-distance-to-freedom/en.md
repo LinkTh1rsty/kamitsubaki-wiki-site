@@ -86,7 +86,7 @@ image: /images/songs/harusaruhi/single-1687457200.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Goin'! <ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>！<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ブレーキ<rt class="roma">bureeki</rt></ruby>！
+[00:17.93]Goin'! <ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>！<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ブレーキ<rt class="roma">bureeki</rt></ruby>！
 </div>
 <div class="trans-lyric">Goin'! Come on, go crazy! Let's take off the brakes!</div>
 <div class="trans-lyric">Goin'! Come on, go crazy! Let's take off the brakes!</div>
@@ -312,7 +312,7 @@ Goin'! <ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>狂<rt class="furi">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>逃<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>げよ<rt class="roma">geyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>！
+[01:18.08]<ruby>すぐ<rt class="roma">sugu</rt></ruby><ruby>逃<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>げよ<rt class="roma">geyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>！
 </div>
 <div class="trans-lyric">Let's run away immediately!</div>
 <div class="trans-lyric">Let's run away immediately!</div>
@@ -385,7 +385,7 @@ Goin'! <ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>狂<rt class="furi">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>バカ<rt class="roma">baka</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>？」
+[01:55.88]「<ruby>バカ<rt class="roma">baka</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>？」
 </div>
 <div class="trans-lyric">Isn't it stupid?</div>
 </div>
@@ -452,7 +452,7 @@ Goin'! <ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>狂<rt class="furi">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>いつか<rt class="roma">itsuka</rt></ruby>」<ruby>は<rt class="roma">wa</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:12.56]「<ruby>いつか<rt class="roma">itsuka</rt></ruby>」<ruby>は<rt class="roma">wa</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">'Someday' will disappear</div>
 </div>
@@ -473,7 +473,7 @@ Goin'! <ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>狂<rt class="furi">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>弾<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby>！
+[02:18.05]<ruby>弾<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby>！
 </div>
 <div class="trans-lyric">About to burst!</div>
 </div>
@@ -554,7 +554,7 @@ Goin'! <ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>狂<rt class="furi">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>下向<rt class="furi">げこう</rt><rt class="roma">gekou</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> raindrop
+[02:48.65]<ruby>下向<rt class="furi">げこう</rt><rt class="roma">gekou</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> raindrop
 </div>
 <div class="trans-lyric">Looking down, raindrop from eyes</div>
 </div>
@@ -676,7 +676,7 @@ Goin'! <ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>狂<rt class="furi">
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Goin! <ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>！<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ブレーキ<rt class="roma">bureeki</rt></ruby>！
+[01:23.51]Goin! <ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>！<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ブレーキ<rt class="roma">bureeki</rt></ruby>！
 </div>
 <div class="trans-lyric">Goin! Come on, go crazy! Let's take off the brakes!</div>
 </div>
@@ -706,7 +706,7 @@ Goin! <ruby>さあ<rt class="roma">saa</rt></ruby>、<ruby>狂<rt class="furi">�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抜<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
+[03:46.92]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抜<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
 <div class="trans-lyric">Even cutting corners</div>
 </div>

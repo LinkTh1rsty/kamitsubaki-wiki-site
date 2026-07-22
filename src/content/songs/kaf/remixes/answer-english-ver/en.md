@@ -182,7 +182,7 @@ Yeah 환상일까 like a prism
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You are the one
+[01:42.09]You are the one
 </div>
 <div class="trans-lyric">You are the one</div>
 <div class="trans-lyric">You are the one</div>

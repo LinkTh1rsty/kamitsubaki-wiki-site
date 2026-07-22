@@ -217,7 +217,7 @@ KAF's seventh original song, written, composed, and arranged by Iori Kanzaki.
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
+[02:15.81]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
 <div class="trans-lyric">You wouldn't understand</div>
 </div>

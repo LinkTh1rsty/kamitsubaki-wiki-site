@@ -121,7 +121,7 @@ Way that you say your on my side
 
 <div class="lyric-line">
 <div class="jp-lyric">
-And I want to know that
+[01:45.87]And I want to know that
 </div>
 </div>
 
@@ -191,7 +191,7 @@ Let me make you understand
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Just take me by the hand
+[00:23.10]Just take me by the hand
 </div>
 </div>
 
@@ -215,7 +215,7 @@ If I could only make you see
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Just what you mean to me
+[00:23.10]Just what you mean to me
 </div>
 </div>
 

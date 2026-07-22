@@ -33,7 +33,7 @@ image: /images/songs/rim/single-1779199960.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-⋅⋅⋅
+[00:00.05]⋅⋅⋅
 </div>
 <div class="trans-lyric">⋅⋅⋅</div>
 <div class="trans-lyric">⋅⋅⋅</div>
@@ -48,7 +48,7 @@ image: /images/songs/rim/single-1779199960.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>冷<rt class="furi">つめ</rt><rt class="roma">tsume</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>ニュアンス<rt class="roma">nyuansu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
+[00:20.66]<ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>冷<rt class="furi">つめ</rt><rt class="roma">tsume</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>ニュアンス<rt class="roma">nyuansu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
 <div class="trans-lyric">That slightly cold nuance bothers me</div>
 </div>
@@ -71,14 +71,14 @@ image: /images/songs/rim/single-1779199960.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>タイト<rt class="roma">taito</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ジーンズ<rt class="roma">jiinzu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[00:31.16]<ruby>タイト<rt class="roma">taito</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ジーンズ<rt class="roma">jiinzu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 <div class="trans-lyric">Those tight jeans</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>似合<rt class="furi">にあ</rt><rt class="roma">nia</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>
+[00:31.90]<ruby>まあ<rt class="roma">maa</rt></ruby> <ruby>似合<rt class="furi">にあ</rt><rt class="roma">nia</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>
 </div>
 <div class="trans-lyric">Well, they suit you</div>
 </div>
@@ -99,7 +99,7 @@ image: /images/songs/rim/single-1779199960.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あの<rt class="roma">ano</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ボク<rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[00:34.50]<ruby>あの<rt class="roma">ano</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ボク<rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 <div class="trans-lyric">That day, we were</div>
 </div>
@@ -120,7 +120,7 @@ image: /images/songs/rim/single-1779199960.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>キラリ<rt class="roma">kirari</rt></ruby> <ruby>伏<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>液晶<rt class="furi">えきしょう</rt><rt class="roma">ekishou</rt></ruby> Someone is calling you
+[00:38.57]<ruby>キラリ<rt class="roma">kirari</rt></ruby> <ruby>伏<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>液晶<rt class="furi">えきしょう</rt><rt class="roma">ekishou</rt></ruby> Someone is calling you
 </div>
 <div class="trans-lyric">Glinting, the lowered screen - Someone is calling you</div>
 </div>
@@ -129,7 +129,7 @@ image: /images/songs/rim/single-1779199960.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Eeny, meeny, miny, more
+[00:45.32]Eeny, meeny, miny, more
 </div>
 <div class="trans-lyric">Eeny, meeny, miny, more</div>
 <div class="trans-lyric">Eeny, meeny, miny, more</div>
@@ -160,7 +160,7 @@ Eeny, meeny, miny, more
 
 <div class="lyric-line">
 <div class="jp-lyric">
-The Million Stars
+[00:58.31]The Million Stars
 </div>
 <div class="trans-lyric">The Million Stars</div>
 <div class="trans-lyric">The Million Stars</div>
@@ -168,7 +168,7 @@ The Million Stars
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>行方<rt class="furi">ゆくえ</rt><rt class="roma">yukue</rt></ruby><ruby>占<rt class="furi">うらな</rt><rt class="roma">urana</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> Fall out
+[00:59.85]<ruby>行方<rt class="furi">ゆくえ</rt><rt class="roma">yukue</rt></ruby><ruby>占<rt class="furi">うらな</rt><rt class="roma">urana</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> Fall out
 </div>
 <div class="trans-lyric">Fortune-telling your whereabouts, Fall out</div>
 <div class="trans-lyric">Fortune-telling your whereabouts, Fall out</div>
@@ -184,7 +184,7 @@ The Million Stars
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>不時着<rt class="furi">ふじちゃく</rt><rt class="roma">fujichaku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>アイ<rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>匿<rt class="furi">かくま</rt><rt class="roma">kakuma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> Forever
+[01:05.10]<ruby>不時着<rt class="furi">ふじちゃく</rt><rt class="roma">fujichaku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>アイ<rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>匿<rt class="furi">かくま</rt><rt class="roma">kakuma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> Forever
 </div>
 <div class="trans-lyric">Hiding the love that crash-landed, forever</div>
 <div class="trans-lyric">Hiding the love that crash-landed, forever</div>
@@ -202,7 +202,7 @@ The Million Stars
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Na Na Na
+[01:12.39]Na Na Na
 </div>
 <div class="trans-lyric">Na Na Na</div>
 <div class="trans-lyric">Na Na Na</div>
@@ -214,7 +214,7 @@ Na Na Na
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I <ruby>と<rt class="roma">to</rt></ruby><ruby>アイ<rt class="roma">ai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>求<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>％
+[01:14.06]I <ruby>と<rt class="roma">to</rt></ruby><ruby>アイ<rt class="roma">ai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>求<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>％
 </div>
 <div class="trans-lyric">The percentage sought with 'I' and love</div>
 <div class="trans-lyric">The percentage sought with 'I' and love</div>
@@ -250,7 +250,7 @@ Na Na Na
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> Yai Yai Ya <ruby>アイノ<rt class="roma">aino</rt></ruby><ruby>最適<rt class="furi">さいてき</rt><rt class="roma">saiteki</rt></ruby><ruby>解<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>
+[01:22.60]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> Yai Yai Ya <ruby>アイノ<rt class="roma">aino</rt></ruby><ruby>最適<rt class="furi">さいてき</rt><rt class="roma">saiteki</rt></ruby><ruby>解<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby>
 </div>
 <div class="trans-lyric">Ah, Yai Yai Ya - the optimal solution of love</div>
 <div class="trans-lyric">Ah, Yai Yai Ya - the optimal solution of love</div>
@@ -279,7 +279,7 @@ Na Na Na
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>？
+[01:45.62]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>？
 </div>
 <div class="trans-lyric">Hey hey, do you like me?</div>
 </div>
@@ -293,7 +293,7 @@ Na Na Na
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Call me
+[01:47.88]Call me
 </div>
 <div class="trans-lyric">Call me</div>
 </div>
@@ -343,7 +343,7 @@ Eeny, meeny, miny, more
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby>
+[02:04.15]<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>いや<rt class="roma">iya</rt></ruby>
 </div>
 <div class="trans-lyric">I just want to see only you</div>
 </div>
@@ -352,7 +352,7 @@ Eeny, meeny, miny, more
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>在<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
+[02:14.05]<ruby>在<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
 <div class="trans-lyric">Even things that don't exist</div>
 </div>
@@ -451,7 +451,7 @@ Na Na Na
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> Yai Yai Ya
+[01:22.60]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> Yai Yai Ya
 </div>
 <div class="trans-lyric">Ah, Yai Yai Ya</div>
 <div class="trans-lyric">Ah, Yai Yai Ya</div>
@@ -467,7 +467,7 @@ Na Na Na
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> Yai Yai Ya Ya Ya Ya Ya Ya
+[01:22.60]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> Yai Yai Ya Ya Ya Ya Ya Ya
 </div>
 <div class="trans-lyric">Ah, Yai Yai Ya Ya Ya Ya Ya Ya</div>
 </div>

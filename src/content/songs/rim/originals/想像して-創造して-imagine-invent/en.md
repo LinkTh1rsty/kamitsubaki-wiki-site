@@ -74,7 +74,7 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どう<rt class="roma">dou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>ベイベー<rt class="roma">beibee</rt></ruby> <ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
+[00:38.26]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>ベイベー<rt class="roma">beibee</rt></ruby> <ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
 <div class="trans-lyric">It doesn't matter, baby, when I sing</div>
 <div class="trans-lyric">It doesn't matter, baby, when I sing</div>
@@ -190,14 +190,14 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-One, two, three, four
+[02:36.50]One, two, three, four
 </div>
 <div class="trans-lyric">One, two, three, four</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(La-la-la-la-la-la-la-la-la)
+[02:38.94](La-la-la-la-la-la-la-la-la)
 </div>
 <div class="trans-lyric">(La-la-la-la-la-la-la-la-la)</div>
 <div class="trans-lyric">(La-la-la-la-la-la-la-la-la)</div>
@@ -205,7 +205,7 @@ One, two, three, four
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(La-la-la-la-la-la-la-la-la-la-la-la-la-la)
+[02:43.85](La-la-la-la-la-la-la-la-la-la-la-la-la-la)
 </div>
 <div class="trans-lyric">(La-la-la-la-la-la-la-la-la-la-la-la-la-la)</div>
 <div class="trans-lyric">(La-la-la-la-la-la-la-la-la-la-la-la-la-la)</div>

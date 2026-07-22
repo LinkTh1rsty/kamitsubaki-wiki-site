@@ -28,13 +28,13 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Uz misch ned
+[00:44.05]Uz misch ned
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Babbisch guzje uz misch net
+[00:45.56]Babbisch guzje uz misch net
 </div>
 </div>
 
@@ -42,35 +42,73 @@ Babbisch guzje uz misch net
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Isch ho dä nix gedo äbbä isch dab disch
+[00:46.60]Isch ho dä nix gedo äbbä isch dab disch
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Wenn de misch uze dost dab isch disch sischälisch
+[00:47.97]Wenn de misch uze dost dab isch disch sischälisch
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Uz emo den do der do sezd do
+[00:49.53]Uz emo den do der do sezd do
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Den schlabbekigger do
+[00:51.00]Den schlabbekigger do
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Gug dä den ämo o
+[00:52.77]Gug dä den ämo o
 </div>
 </div>
 
 <br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:54.65]Heb heb mem giggel ibbän zou
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:31.92]Dou dabbes do denge mo net do
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:34.10]Dasde misch uze konsd - net? - noa!
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:35.65]Weil isch noch dä schnabbe do
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:37.51]Un wenn de do dei do uze don do dost
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:39.67]Do däi disch dabbes dabbe dabbe däi disch dabbes
+</div>
+</div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
@@ -79,24 +117,6 @@ Heb heb mem giggel ibbän zou
 </div>
 
 <br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Dou dabbes do denge mo net do
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Dasde misch uze konsd - net? - noa!
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Weil isch noch dä schnabbe do
-</div>
-</div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
@@ -112,33 +132,13 @@ Do däi disch dabbes dabbe dabbe däi disch dabbes
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Heb heb mem giggel ibbän zou
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Un wenn de do dei do uze don do dost
+[01:56.09]Dumm dabbe digge bobbes dabba dabba digge bobbes
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Do däi disch dabbes dabbe dabbe däi disch dabbes
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Dumm dabbe digge bobbes dabba dabba digge bobbes
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Shake dan digge bobbes baby
+[02:05.07]Shake dan digge bobbes baby
 </div>
 </div>
 

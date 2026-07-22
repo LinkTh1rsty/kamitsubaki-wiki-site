@@ -167,7 +167,7 @@ Wagt ein einziger abzuweichen, versuchst du einst frei zu sein
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Orwells 1984, einst ein Schockszenario
+[00:20.92]Orwells 1984, einst ein Schockszenario
 </div>
 </div>
 

@@ -34,13 +34,13 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
+[00:02.01]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
-<div class="cn-lyric">爱还能做些什么呢</div>
-<div class="cn-lyric">爱还能做些什么呢</div>
-<div class="cn-lyric">爱还能做些什么呢</div>
-<div class="cn-lyric">爱还能做些什么呢</div>
-<div class="cn-lyric">爱还能做些什么呢</div>
+<div class="cn-lyric">[00:02.01]爱还能做些什么呢</div>
+<div class="cn-lyric">[00:02.01]爱还能做些什么呢</div>
+<div class="cn-lyric">[00:02.01]爱还能做些什么呢</div>
+<div class="cn-lyric">[00:02.01]爱还能做些什么呢</div>
+<div class="cn-lyric">[00:02.01]爱还能做些什么呢</div>
 </div>
 
 <br />
@@ -341,9 +341,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それとも<rt class="roma">soretomo</rt></ruby><ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
+[05:32.99]<ruby>それとも<rt class="roma">soretomo</rt></ruby><ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
-<div class="cn-lyric">还是美丽的呢</div>
+<div class="cn-lyric">[05:32.99]还是美丽的呢</div>
 </div>
 
 <div class="lyric-line">

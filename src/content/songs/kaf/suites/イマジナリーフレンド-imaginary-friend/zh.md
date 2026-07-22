@@ -35,39 +35,39 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[00:10.83]<ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
+</div>
+<div class="cn-lyric">[00:10.83]想象中的朋友</div>
+<div class="cn-lyric">[00:10.83]想象中的朋友</div>
+<div class="cn-lyric">[00:10.83]想象中的朋友</div>
+<div class="cn-lyric">[00:10.83]想象中的朋友</div>
+<div class="cn-lyric">[00:10.83]想象中的朋友</div>
+<div class="cn-lyric">[00:10.83]想象中的朋友</div>
+<div class="cn-lyric">[00:10.83]想象中的朋友</div>
+<div class="cn-lyric">[00:10.83]想象中的朋友</div>
+<div class="cn-lyric">[00:10.83]想象中的朋友</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:15.52]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby>？
+</div>
+<div class="cn-lyric">[00:15.52]喂，为什么？</div>
+<div class="cn-lyric">[00:15.52]喂，为什么？</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
 <ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
 </div>
-<div class="cn-lyric">想象中的朋友</div>
-<div class="cn-lyric">想象中的朋友</div>
-<div class="cn-lyric">想象中的朋友</div>
-<div class="cn-lyric">想象中的朋友</div>
-<div class="cn-lyric">想象中的朋友</div>
-<div class="cn-lyric">想象中的朋友</div>
-<div class="cn-lyric">想象中的朋友</div>
-<div class="cn-lyric">想象中的朋友</div>
-<div class="cn-lyric">想象中的朋友</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby>？
+[00:21.23]<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃった<rt class="roma">jatta</rt></ruby>？
 </div>
-<div class="cn-lyric">喂，为什么？</div>
-<div class="cn-lyric">喂，为什么？</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃった<rt class="roma">jatta</rt></ruby>？
-</div>
-<div class="cn-lyric">死掉了？</div>
-<div class="cn-lyric">死掉了？</div>
+<div class="cn-lyric">[00:21.23]死掉了？</div>
+<div class="cn-lyric">[00:21.23]死掉了？</div>
 </div>
 
 <div class="lyric-line">
@@ -144,9 +144,9 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby>
+[01:00.96]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby>
 </div>
-<div class="cn-lyric">那种东西不存在啊</div>
+<div class="cn-lyric">[01:00.96]那种东西不存在啊</div>
 </div>
 
 <div class="lyric-line">
@@ -198,9 +198,9 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>わけ<rt class="roma">wake</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:28.45]<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>わけ<rt class="roma">wake</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">怎么可能做到呢</div>
+<div class="cn-lyric">[01:28.45]怎么可能做到呢</div>
 </div>
 
 <div class="lyric-line">
@@ -219,12 +219,12 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>憂さ晴<rt class="furi">うさば</rt><rt class="roma">usaba</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby>
+[01:36.41]<ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>憂さ晴<rt class="furi">うさば</rt><rt class="roma">usaba</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby>
 </div>
-<div class="cn-lyric">兔兔兔兔子的 消愁解闷</div>
-<div class="cn-lyric">兔兔兔兔子的 消愁解闷</div>
-<div class="cn-lyric">兔兔兔兔子的 消愁解闷</div>
-<div class="cn-lyric">兔兔兔兔子的 消愁解闷</div>
+<div class="cn-lyric">[01:36.41]兔兔兔兔子的 消愁解闷</div>
+<div class="cn-lyric">[01:36.41]兔兔兔兔子的 消愁解闷</div>
+<div class="cn-lyric">[01:36.41]兔兔兔兔子的 消愁解闷</div>
+<div class="cn-lyric">[01:36.41]兔兔兔兔子的 消愁解闷</div>
 </div>
 
 <div class="lyric-line">
@@ -282,9 +282,9 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-…<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:59.41]…<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">…别消失啊</div>
+<div class="cn-lyric">[01:59.41]…别消失啊</div>
 </div>
 
 <br />
@@ -406,11 +406,11 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>やろ<rt class="roma">yaro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>やめる<rt class="roma">yameru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[03:17.26]<ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>やろ<rt class="roma">yaro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>やめる<rt class="roma">yameru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
-<div class="cn-lyric">放弃想要做好这件事本身</div>
-<div class="cn-lyric">放弃想要做好这件事本身</div>
-<div class="cn-lyric">放弃想要做好这件事本身</div>
+<div class="cn-lyric">[03:17.26]放弃想要做好这件事本身</div>
+<div class="cn-lyric">[03:17.26]放弃想要做好这件事本身</div>
+<div class="cn-lyric">[03:17.26]放弃想要做好这件事本身</div>
 </div>
 
 <div class="lyric-line">
@@ -433,11 +433,11 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>お<rt class="roma">o</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>きい<rt class="roma">kii</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:23.13]<ruby>お<rt class="roma">o</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>きい<rt class="roma">kii</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">我可没听说要告别啊</div>
-<div class="cn-lyric">我可没听说要告别啊</div>
-<div class="cn-lyric">我可没听说要告别啊</div>
+<div class="cn-lyric">[03:23.13]我可没听说要告别啊</div>
+<div class="cn-lyric">[03:23.13]我可没听说要告别啊</div>
+<div class="cn-lyric">[03:23.13]我可没听说要告别啊</div>
 </div>
 
 <div class="lyric-line">
@@ -603,9 +603,9 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>しあわせ<rt class="roma">shiawase</rt></ruby>
+[04:24.58]<ruby>しあわせ<rt class="roma">shiawase</rt></ruby>
 </div>
-<div class="cn-lyric">幸福</div>
+<div class="cn-lyric">[04:24.58]幸福</div>
 </div>
 
 <br />

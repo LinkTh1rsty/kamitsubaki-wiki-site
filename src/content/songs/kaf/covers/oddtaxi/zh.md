@@ -62,9 +62,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>こたえ<rt class="roma">kotae</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:28.96]<ruby>こたえ<rt class="roma">kotae</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">回答我吧</div>
+<div class="cn-lyric">[00:28.96]回答我吧</div>
 </div>
 
 <div class="lyric-line">
@@ -97,9 +97,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>理詰<rt class="furi">りづ</rt><rt class="roma">rizu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>レジュメ<rt class="roma">rejume</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>解<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:03.00]<ruby>理詰<rt class="furi">りづ</rt><rt class="roma">rizu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>レジュメ<rt class="roma">rejume</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>解<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">靠条理清晰的摘要解不开</div>
+<div class="cn-lyric">[01:03.00]靠条理清晰的摘要解不开</div>
 </div>
 
 <div class="lyric-line">
@@ -111,9 +111,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ゲンナリ<rt class="roma">gennari</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>慣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
+[01:06.55]<ruby>ゲンナリ<rt class="roma">gennari</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> <ruby>慣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
-<div class="cn-lyric">厌烦了 习惯了</div>
+<div class="cn-lyric">[01:06.55]厌烦了 习惯了</div>
 </div>
 
 <div class="lyric-line">
@@ -140,9 +140,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>くも<rt class="roma">kumo</rt></ruby><ruby>くもり<rt class="roma">kumori</rt></ruby><ruby>飽<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>スカイ<rt class="roma">sukai</rt></ruby>
+[01:16.10]<ruby>くも<rt class="roma">kumo</rt></ruby><ruby>くもり<rt class="roma">kumori</rt></ruby><ruby>飽<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>スカイ<rt class="roma">sukai</rt></ruby>
 </div>
-<div class="cn-lyric">阴阴云云 看腻的天空</div>
+<div class="cn-lyric">[01:16.10]阴阴云云 看腻的天空</div>
 </div>
 
 <div class="lyric-line">
@@ -182,9 +182,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>排気<rt class="furi">はいき</rt><rt class="roma">haiki</rt></ruby><ruby>ガス<rt class="roma">gasu</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby>Co2
+[01:42.06]<ruby>排気<rt class="furi">はいき</rt><rt class="roma">haiki</rt></ruby><ruby>ガス<rt class="roma">gasu</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby>Co2
 </div>
-<div class="cn-lyric">尾气和二氧化碳</div>
+<div class="cn-lyric">[01:42.06]尾气和二氧化碳</div>
 </div>
 
 <div class="lyric-line">
@@ -196,16 +196,16 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どうせ<rt class="roma">douse</rt></ruby><ruby>コミュニケーション<rt class="roma">komyunikeeshon</rt></ruby>
+[01:46.71]<ruby>どうせ<rt class="roma">douse</rt></ruby><ruby>コミュニケーション<rt class="roma">komyunikeeshon</rt></ruby>
 </div>
-<div class="cn-lyric">反正沟通</div>
+<div class="cn-lyric">[01:46.71]反正沟通</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なんて<rt class="roma">nante</rt></ruby><ruby>演技<rt class="furi">えんぎ</rt><rt class="roma">engi</rt></ruby><ruby>力<rt class="furi">りょく</rt><rt class="roma">ryoku</rt></ruby> (hold on)
+[01:48.20]<ruby>なんて<rt class="roma">nante</rt></ruby><ruby>演技<rt class="furi">えんぎ</rt><rt class="roma">engi</rt></ruby><ruby>力<rt class="furi">りょく</rt><rt class="roma">ryoku</rt></ruby> (hold on)
 </div>
-<div class="cn-lyric">什么的演技力 (hold on)</div>
+<div class="cn-lyric">[01:48.20]什么的演技力 (hold on)</div>
 </div>
 
 <div class="lyric-line">
@@ -307,9 +307,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[03:02.12]<ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="cn-lyric">缺少了什么东西</div>
+<div class="cn-lyric">[03:02.12]缺少了什么东西</div>
 </div>
 
 <div class="lyric-line">

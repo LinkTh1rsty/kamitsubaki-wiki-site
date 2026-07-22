@@ -33,19 +33,19 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>爽快<rt class="furi">そうかい</rt><rt class="roma">soukai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>bad days
+[00:00.66]<ruby>爽快<rt class="furi">そうかい</rt><rt class="roma">soukai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>bad days
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Real talk <ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>と共<rt class="furi">ととも</rt><rt class="roma">totomo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>サー<rt class="roma">saa</rt></ruby><ruby>フェイス<rt class="roma">fyeisu</rt></ruby>
+[00:02.85]Real talk <ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>と共<rt class="furi">ととも</rt><rt class="roma">totomo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>サー<rt class="roma">saa</rt></ruby><ruby>フェイス<rt class="roma">fyeisu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あっけなく<rt class="roma">akkenaku</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>お互<rt class="furi">おたが</rt><rt class="roma">otaga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>fate
+[00:05.04]<ruby>あっけなく<rt class="roma">akkenaku</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>お互<rt class="furi">おたが</rt><rt class="roma">otaga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>fate
 </div>
 </div>
 
@@ -57,7 +57,7 @@ Real talk <ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>苦<rt class="furi">にが</rt><rt class="roma">niga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>苦<rt class="furi">にが</rt><rt class="roma">niga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>苦<rt class="furi">にが</rt><rt class="roma">niga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>fake love
+[00:10.00]<ruby>苦<rt class="furi">にが</rt><rt class="roma">niga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>苦<rt class="furi">にが</rt><rt class="roma">niga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>苦<rt class="furi">にが</rt><rt class="roma">niga</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>fake love
 </div>
 </div>
 
@@ -69,7 +69,7 @@ Real talk <ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-24/7 <ruby>隣<rt class="furi">となり</rt><rt class="roma">tonari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>フレンズ<rt class="roma">furenzu</rt></ruby>yeah
+[00:14.64]24/7 <ruby>隣<rt class="furi">となり</rt><rt class="roma">tonari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>フレンズ<rt class="roma">furenzu</rt></ruby>yeah
 </div>
 </div>
 
@@ -81,7 +81,7 @@ Real talk <ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>華麗<rt class="furi">かれい</rt><rt class="roma">karei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>step<ruby>で<rt class="roma">de</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:19.63]<ruby>華麗<rt class="furi">かれい</rt><rt class="roma">karei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>step<ruby>で<rt class="roma">de</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -93,13 +93,13 @@ Real talk <ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>stage<ruby>に<rt class="roma">ni</rt></ruby><ruby>突き飛<rt class="furi">つきと</rt><rt class="roma">tsukito</rt></ruby><ruby>ばし<rt class="roma">bashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:24.61]<ruby>次<rt class="furi">つぎ</rt><rt class="roma">tsugi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>stage<ruby>に<rt class="roma">ni</rt></ruby><ruby>突き飛<rt class="furi">つきと</rt><rt class="roma">tsukito</rt></ruby><ruby>ばし<rt class="roma">bashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さぁ<rt class="roma">saa</rt></ruby><ruby>遥<rt class="furi">はる</rt><rt class="roma">haru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>上<rt class="furi">じょう</rt><rt class="roma">jou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>みる<rt class="roma">miru</rt></ruby>good day
+[00:26.46]<ruby>さぁ<rt class="roma">saa</rt></ruby><ruby>遥<rt class="furi">はる</rt><rt class="roma">haru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>上<rt class="furi">じょう</rt><rt class="roma">jou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>みる<rt class="roma">miru</rt></ruby>good day
 </div>
 </div>
 
@@ -117,13 +117,13 @@ Real talk <ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-All eyes on me <ruby>だれ<rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[00:34.12]All eyes on me <ruby>だれ<rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>くだらない<rt class="roma">kudaranai</rt></ruby><ruby>比<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>good bye
+[00:36.35]<ruby>くだらない<rt class="roma">kudaranai</rt></ruby><ruby>比<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>good bye
 </div>
 </div>
 
@@ -131,13 +131,13 @@ All eyes on me <ruby>だれ<rt class="roma">dare</rt></ruby><ruby>も<rt class="
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Anyone will do yeah
+[00:39.93]Anyone will do yeah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あしらって<rt class="roma">ashiratte</rt></ruby>stay
+[00:42.42]<ruby>あしらって<rt class="roma">ashiratte</rt></ruby>stay
 </div>
 </div>
 
@@ -181,7 +181,7 @@ Anyone will do yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh ma baby I'll be your prince
+[00:58.09]Oh ma baby I'll be your prince
 </div>
 </div>
 
@@ -193,7 +193,7 @@ Oh ma baby I'll be your prince
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh ma baby<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[01:03.07]Oh ma baby<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 </div>
 
@@ -217,7 +217,7 @@ Oh ma baby I'll be your prince
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[01:12.44]Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 </div>
 
@@ -231,31 +231,31 @@ Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I don't care
+[01:22.79]I don't care
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'll leave it to you
+[01:23.38]I'll leave it to you
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>とか<rt class="roma">toka</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby>with you
+[01:24.60]<ruby>とか<rt class="roma">toka</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby>with you
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>墓場<rt class="furi">はかば</rt><rt class="roma">hakaba</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>blowing a kiss
+[01:26.99]<ruby>墓場<rt class="furi">はかば</rt><rt class="roma">hakaba</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>blowing a kiss
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>裸<rt class="furi">はだか</rt><rt class="roma">hadaka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>My boo
+[01:29.46]<ruby>裸<rt class="furi">はだか</rt><rt class="roma">hadaka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>My boo
 </div>
 </div>
 
@@ -279,7 +279,7 @@ I'll leave it to you
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>気休<rt class="furi">きやす</rt><rt class="roma">kiyasu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>Mr.Lonely
+[01:38.83]<ruby>気休<rt class="furi">きやす</rt><rt class="roma">kiyasu</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>俺<rt class="furi">おれ</rt><rt class="roma">ore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>Mr.Lonely
 </div>
 </div>
 
@@ -287,25 +287,25 @@ I'll leave it to you
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Make some noise
+[01:41.40]Make some noise
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Baby call me now
+[01:42.66]Baby call me now
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さりげ<rt class="roma">sarige</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>スルー<rt class="roma">suruu</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> pay back
+[01:43.89]<ruby>さりげ<rt class="roma">sarige</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>スルー<rt class="roma">suruu</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> pay back
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ありふれ<rt class="roma">arifure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>メロドラマ<rt class="roma">merodorama</rt></ruby>
+[01:46.17]<ruby>ありふれ<rt class="roma">arifure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>メロドラマ<rt class="roma">merodorama</rt></ruby>
 </div>
 </div>
 
@@ -317,13 +317,13 @@ Baby call me now
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そもそも<rt class="roma">somosomo</rt></ruby><ruby>ラブ<rt class="roma">rabu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>メイク<rt class="roma">meiku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[01:50.84]<ruby>そもそも<rt class="roma">somosomo</rt></ruby><ruby>ラブ<rt class="roma">rabu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>メイク<rt class="roma">meiku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれる<rt class="roma">mareru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[01:53.00]<ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれる<rt class="roma">mareru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
@@ -443,25 +443,25 @@ Oh ma baby <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Can't you feel how much I love you？
+[02:48.45]Can't you feel how much I love you？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Someday I will make you love me
+[02:50.64]Someday I will make you love me
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-With my voice！
+[02:53.14]With my voice！
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You'll see！！
+[02:55.64]You'll see！！
 </div>
 </div>
 

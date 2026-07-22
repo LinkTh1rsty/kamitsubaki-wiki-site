@@ -41,7 +41,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>キョロキョロ<rt class="roma">kyorokyoro</rt></ruby>
+[00:28.83]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>キョロキョロ<rt class="roma">kyorokyoro</rt></ruby>
 </div>
 <div class="trans-lyric">You're always looking around</div>
 <div class="trans-lyric">You're always looking around</div>
@@ -167,7 +167,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あんまり<rt class="roma">anmari</rt></ruby><ruby>ソワソワ<rt class="roma">sowasowa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:25.62]<ruby>あんまり<rt class="roma">anmari</rt></ruby><ruby>ソワソワ<rt class="roma">sowasowa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">Don't be so restless</div>
 <div class="trans-lyric">Don't be so restless</div>
@@ -302,7 +302,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いちばん<rt class="roma">ichiban</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:06.68]<ruby>いちばん<rt class="roma">ichiban</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">I love you the most</div>
 </div>

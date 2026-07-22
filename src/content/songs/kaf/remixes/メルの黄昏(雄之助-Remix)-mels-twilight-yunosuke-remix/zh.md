@@ -33,13 +33,13 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>メル<rt class="roma">meru</rt></ruby>
+[00:01.46]<ruby>メル<rt class="roma">meru</rt></ruby>
 </div>
-<div class="cn-lyric">梅尔</div>
-<div class="cn-lyric">梅尔</div>
-<div class="cn-lyric">梅尔</div>
-<div class="cn-lyric">梅尔</div>
-<div class="cn-lyric">梅尔</div>
+<div class="cn-lyric">[00:01.46]梅尔</div>
+<div class="cn-lyric">[00:01.46]梅尔</div>
+<div class="cn-lyric">[00:01.46]梅尔</div>
+<div class="cn-lyric">[00:01.46]梅尔</div>
+<div class="cn-lyric">[00:01.46]梅尔</div>
 </div>
 
 <div class="lyric-line">
@@ -127,9 +127,9 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>メル<rt class="roma">meru</rt></ruby>
+[00:01.46]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>メル<rt class="roma">meru</rt></ruby>
 </div>
-<div class="cn-lyric">注视着世界的梅尔</div>
+<div class="cn-lyric">[00:01.46]注视着世界的梅尔</div>
 </div>
 
 <div class="lyric-line">
@@ -252,9 +252,9 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>メル<rt class="roma">meru</rt></ruby>
+[00:01.46]<ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>メル<rt class="roma">meru</rt></ruby>
 </div>
-<div class="cn-lyric">流泪的梅尔</div>
+<div class="cn-lyric">[00:01.46]流泪的梅尔</div>
 </div>
 
 <div class="lyric-line">

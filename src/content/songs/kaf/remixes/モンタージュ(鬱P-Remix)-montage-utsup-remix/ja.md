@@ -39,7 +39,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよう<rt class="roma">shiyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
+[00:17.17]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよう<rt class="roma">shiyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 </div>
 
@@ -57,7 +57,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>暴<rt class="furi">あば</rt><rt class="roma">aba</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:24.37]<ruby>暴<rt class="furi">あば</rt><rt class="roma">aba</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -133,7 +133,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:55.93]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
@@ -147,7 +147,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>モンタージュ<rt class="roma">montaaju</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かかった<rt class="roma">kakatta</rt></ruby>
+[01:01.26]<ruby>モンタージュ<rt class="roma">montaaju</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かかった<rt class="roma">kakatta</rt></ruby>
 </div>
 </div>
 
@@ -339,13 +339,13 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:57.70]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:59.04]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 

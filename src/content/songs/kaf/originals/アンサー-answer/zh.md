@@ -166,9 +166,9 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>くじけ<rt class="roma">kujike</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:07.00]<ruby>くじけ<rt class="roma">kujike</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">但总是快要气馁啊</div>
+<div class="cn-lyric">[02:07.00]但总是快要气馁啊</div>
 </div>
 
 <div class="lyric-line">

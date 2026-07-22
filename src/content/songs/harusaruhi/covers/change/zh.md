@@ -33,11 +33,11 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ChAngE <ruby>なびか<rt class="roma">nabika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:00.60]ChAngE <ruby>なびか<rt class="roma">nabika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">ChAngE 不摇摆 不随波逐流</div>
-<div class="cn-lyric">ChAngE 不摇摆 不随波逐流</div>
-<div class="cn-lyric">ChAngE 不摇摆 不随波逐流</div>
+<div class="cn-lyric">[00:00.60]ChAngE 不摇摆 不随波逐流</div>
+<div class="cn-lyric">[00:00.60]ChAngE 不摇摆 不随波逐流</div>
+<div class="cn-lyric">[00:00.60]ChAngE 不摇摆 不随波逐流</div>
 </div>
 
 <div class="lyric-line">
@@ -51,11 +51,11 @@ ChAngE <ruby>なびか<rt class="roma">nabika</rt></ruby><ruby>ない<rt class="
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[00:06.86]ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="cn-lyric">ChAngE 无论多少次都能重生</div>
-<div class="cn-lyric">ChAngE 无论多少次都能重生</div>
-<div class="cn-lyric">ChAngE 无论多少次都能重生</div>
+<div class="cn-lyric">[00:06.86]ChAngE 无论多少次都能重生</div>
+<div class="cn-lyric">[00:06.86]ChAngE 无论多少次都能重生</div>
+<div class="cn-lyric">[00:06.86]ChAngE 无论多少次都能重生</div>
 </div>
 
 <div class="lyric-line">
@@ -85,9 +85,9 @@ ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>尽<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>なん<rt class="roma">nan</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
+[00:31.63]<ruby>足<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>尽<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>なん<rt class="roma">nan</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
-<div class="cn-lyric">不够 无止尽 无论什么</div>
+<div class="cn-lyric">[00:31.63]不够 无止尽 无论什么</div>
 </div>
 
 <div class="lyric-line">
@@ -138,9 +138,9 @@ ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いたって<rt class="roma">itatte</rt></ruby> <ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[00:54.00]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いたって<rt class="roma">itatte</rt></ruby> <ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
-<div class="cn-lyric">即使停留在那里 即使等待</div>
+<div class="cn-lyric">[00:54.00]即使停留在那里 即使等待</div>
 </div>
 
 <div class="lyric-line">
@@ -186,48 +186,48 @@ ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もと<rt class="roma">moto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
+[01:20.65]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もと<rt class="roma">moto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
-<div class="cn-lyric">已经无法回到你身边了</div>
+<div class="cn-lyric">[01:20.65]已经无法回到你身边了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>らしく<rt class="roma">rashiku</rt></ruby> I wanna chAngE
+[01:26.40]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>らしく<rt class="roma">rashiku</rt></ruby> I wanna chAngE
 </div>
-<div class="cn-lyric">我率性做自己 I wanna chAngE</div>
-<div class="cn-lyric">我率性做自己 I wanna chAngE</div>
-<div class="cn-lyric">我率性做自己 I wanna chAngE</div>
+<div class="cn-lyric">[01:26.40]我率性做自己 I wanna chAngE</div>
+<div class="cn-lyric">[01:26.40]我率性做自己 I wanna chAngE</div>
+<div class="cn-lyric">[01:26.40]我率性做自己 I wanna chAngE</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なんで<rt class="roma">nande</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ためらって<rt class="roma">tameratte</rt></ruby>
+[01:35.42]<ruby>なんで<rt class="roma">nande</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ためらって<rt class="roma">tameratte</rt></ruby>
 </div>
-<div class="cn-lyric">为什么如此犹豫</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
-</div>
-<div class="cn-lyric">无法满足的你在哪里？</div>
+<div class="cn-lyric">[01:35.42]为什么如此犹豫</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>錆<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>ふりきって<rt class="roma">furikitte</rt></ruby>
+[01:38.12]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
-<div class="cn-lyric">不消失 不生锈 挣脱一切</div>
+<div class="cn-lyric">[01:38.12]无法满足的你在哪里？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>ハウ<rt class="roma">hau</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:41.45]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>錆<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>ふりきって<rt class="roma">furikitte</rt></ruby>
 </div>
-<div class="cn-lyric">再让我咆哮吧</div>
+<div class="cn-lyric">[01:41.45]不消失 不生锈 挣脱一切</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:44.02]<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>ハウ<rt class="roma">hau</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[01:44.02]再让我咆哮吧</div>
 </div>
 
 <br />
@@ -287,9 +287,9 @@ ChAngE <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ChAngE <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>振り向<rt class="furi">ふりむ</rt><rt class="roma">furimu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:04.02]ChAngE <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>振り向<rt class="furi">ふりむ</rt><rt class="roma">furimu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">ChAngE 不会停止 不会回头</div>
+<div class="cn-lyric">[03:04.02]ChAngE 不会停止 不会回头</div>
 </div>
 
 <div class="lyric-line">
@@ -308,9 +308,9 @@ ChAngE <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ChAngE <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>失<rt class="furi">しつ</rt><rt class="roma">shitsu</rt></ruby><ruby>くし<rt class="roma">kushi</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[03:04.02]ChAngE <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>失<rt class="furi">しつ</rt><rt class="roma">shitsu</rt></ruby><ruby>くし<rt class="roma">kushi</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">ChAngE 不会忘记 不想失去</div>
+<div class="cn-lyric">[03:04.02]ChAngE 不会忘记 不想失去</div>
 </div>
 
 <div class="lyric-line">
@@ -351,10 +351,10 @@ ChAngE <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ru
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ChAngE
+[03:04.02]ChAngE
 </div>
-<div class="cn-lyric">ChAngE</div>
-<div class="cn-lyric">ChAngE</div>
+<div class="cn-lyric">[03:04.02]ChAngE</div>
+<div class="cn-lyric">[03:04.02]ChAngE</div>
 </div>
 
 <div class="lyric-line">

@@ -33,13 +33,13 @@ image: /images/albums/harusaruhi/shinju.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I've never felt so alive in my life
+[00:22.70]I've never felt so alive in my life
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-'Cause you make me come to life every time
+[00:27.54]'Cause you make me come to life every time
 </div>
 </div>
 
@@ -47,25 +47,25 @@ I've never felt so alive in my life
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(I'm free)
+[00:32.81](I'm free)
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Can you hear me calling, calling in for you?
+[00:33.69]Can you hear me calling, calling in for you?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yeah, I'm free falling
+[00:38.05]Yeah, I'm free falling
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'ma keep on falling, falling in for you
+[00:39.63]I'ma keep on falling, falling in for you
 </div>
 </div>
 
@@ -73,7 +73,7 @@ I'ma keep on falling, falling in for you
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Wanna come to life!)
+[01:25.43](Wanna come to life!)
 </div>
 </div>
 
@@ -81,25 +81,25 @@ I'ma keep on falling, falling in for you
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm free
+[02:08.74]I'm free
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh, and I'm loving all that you do
+[02:32.79]Oh, and I'm loving all that you do
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Can't you see?
+[02:35.15]Can't you see?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-That I'm crashing right into you
+[02:37.94]That I'm crashing right into you
 </div>
 </div>
 

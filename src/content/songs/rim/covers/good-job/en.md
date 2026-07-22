@@ -33,7 +33,7 @@ good job appears on CHOCOLATE LIVE2 or a related official release. Entries are v
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm on my way back home
+[00:02.67]I'm on my way back home
 </div>
 <div class="trans-lyric">I'm on my way back home</div>
 <div class="trans-lyric">I'm on my way back home</div>
@@ -41,28 +41,28 @@ I'm on my way back home
 
 <div class="lyric-line">
 <div class="jp-lyric">
-오늘도 참 많은 일이 있었지
+[00:05.22]오늘도 참 많은 일이 있었지
 </div>
 <div class="trans-lyric">So many things happened today as well</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-불빛이 흐르고
+[00:10.11]불빛이 흐르고
 </div>
 <div class="trans-lyric">The lights stream by</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-나는 또 멍하니 바라보았지
+[00:12.51]나는 또 멍하니 바라보았지
 </div>
 <div class="trans-lyric">I stared blankly once again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-On my way back home
+[00:17.14]On my way back home
 </div>
 <div class="trans-lyric">On my way back home</div>
 <div class="trans-lyric">On my way back home</div>
@@ -86,21 +86,21 @@ I'm on my way back home
 
 <div class="lyric-line">
 <div class="jp-lyric">
-오늘도 참 많이도 힘들었지
+[00:33.92]오늘도 참 많이도 힘들었지
 </div>
 <div class="trans-lyric">Today was so difficult as well</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-한숨을 돌리고
+[00:38.63]한숨을 돌리고
 </div>
 <div class="trans-lyric">Let out a sigh</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-나는 또 두 눈을 닫아 버렸지
+[00:40.91]나는 또 두 눈을 닫아 버렸지
 </div>
 <div class="trans-lyric">I closed my eyes once more</div>
 </div>
@@ -121,7 +121,7 @@ On my way back home
 
 <div class="lyric-line">
 <div class="jp-lyric">
-수많은 차들이 지나가네
+[01:00.63]수많은 차들이 지나가네
 </div>
 <div class="trans-lyric">Countless cars are passing by</div>
 <div class="trans-lyric">Countless cars are passing by</div>
@@ -129,7 +129,7 @@ On my way back home
 
 <div class="lyric-line">
 <div class="jp-lyric">
-수많은 하루들을 싣고서
+[01:04.04]수많은 하루들을 싣고서
 </div>
 <div class="trans-lyric">Carrying so many days</div>
 <div class="trans-lyric">Carrying so many days</div>
@@ -137,7 +137,7 @@ On my way back home
 
 <div class="lyric-line">
 <div class="jp-lyric">
-How was your day
+[01:08.18]How was your day
 </div>
 <div class="trans-lyric">How was your day</div>
 <div class="trans-lyric">How was your day</div>
@@ -145,7 +145,7 @@ How was your day
 
 <div class="lyric-line">
 <div class="jp-lyric">
-음음
+[01:11.85]음음
 </div>
 <div class="trans-lyric">Mmm</div>
 <div class="trans-lyric">Mmm</div>
@@ -153,7 +153,7 @@ How was your day
 
 <div class="lyric-line">
 <div class="jp-lyric">
-수많은 말들이 생각나네
+[01:15.10]수많은 말들이 생각나네
 </div>
 <div class="trans-lyric">So many words come to mind</div>
 <div class="trans-lyric">So many words come to mind</div>
@@ -161,7 +161,7 @@ How was your day
 
 <div class="lyric-line">
 <div class="jp-lyric">
-수많은 침묵들뿐이지만
+[01:18.55]수많은 침묵들뿐이지만
 </div>
 <div class="trans-lyric">Only countless silences though</div>
 <div class="trans-lyric">Only countless silences though</div>
@@ -169,7 +169,7 @@ How was your day
 
 <div class="lyric-line">
 <div class="jp-lyric">
-But I gotta say
+[01:21.79]But I gotta say
 </div>
 <div class="trans-lyric">But I gotta say</div>
 <div class="trans-lyric">But I gotta say</div>
@@ -177,7 +177,7 @@ But I gotta say
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I gotta say
+[01:25.47]I gotta say
 </div>
 <div class="trans-lyric">I gotta say</div>
 <div class="trans-lyric">I gotta say</div>
@@ -187,14 +187,14 @@ I gotta say
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yeah I did a good job
+[01:28.98]Yeah I did a good job
 </div>
 <div class="trans-lyric">Yeah I did a good job</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-수고했다고
+[01:33.28]수고했다고
 </div>
 <div class="trans-lyric">You worked hard</div>
 <div class="trans-lyric">You worked hard</div>
@@ -202,7 +202,7 @@ Yeah I did a good job
 
 <div class="lyric-line">
 <div class="jp-lyric">
-더 잘 할 수 있었단 말로
+[01:36.80]더 잘 할 수 있었단 말로
 </div>
 <div class="trans-lyric">With words like 'you could have done better'</div>
 <div class="trans-lyric">With words like 'you could have done better'</div>
@@ -210,7 +210,7 @@ Yeah I did a good job
 
 <div class="lyric-line">
 <div class="jp-lyric">
-채찍질하지 마
+[01:40.63]채찍질하지 마
 </div>
 <div class="trans-lyric">Don't whip yourself</div>
 <div class="trans-lyric">Don't whip yourself</div>
@@ -218,7 +218,7 @@ Yeah I did a good job
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I did a freaking good job
+[01:42.97]I did a freaking good job
 </div>
 <div class="trans-lyric">I did a freaking good job</div>
 <div class="trans-lyric">I did a freaking good job</div>
@@ -226,7 +226,7 @@ I did a freaking good job
 
 <div class="lyric-line">
 <div class="jp-lyric">
-이 정도면 뭐
+[01:47.76]이 정도면 뭐
 </div>
 <div class="trans-lyric">This is good enough</div>
 <div class="trans-lyric">This is good enough</div>
@@ -234,7 +234,7 @@ I did a freaking good job
 
 <div class="lyric-line">
 <div class="jp-lyric">
-편히 쉬어도 돼
+[01:50.36]편히 쉬어도 돼
 </div>
 <div class="trans-lyric">You can rest easy</div>
 <div class="trans-lyric">You can rest easy</div>
@@ -242,7 +242,7 @@ I did a freaking good job
 
 <div class="lyric-line">
 <div class="jp-lyric">
-'Cause I
+[01:54.31]'Cause I
 </div>
 <div class="trans-lyric">'Cause I</div>
 <div class="trans-lyric">'Cause I</div>
@@ -250,7 +250,7 @@ I did a freaking good job
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I did a good job
+[01:57.54]I did a good job
 </div>
 <div class="trans-lyric">I did a good job</div>
 <div class="trans-lyric">I did a good job</div>

@@ -33,7 +33,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah
+[00:16.26]yeah
 </div>
 <div class="trans-lyric">yeah</div>
 </div>
@@ -42,7 +42,7 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-MAP<ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:17.75]MAP<ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 <div class="trans-lyric">Open the map, let's go</div>
 </div>
@@ -77,14 +77,14 @@ MAP<ruby>開<rt class="furi">ひら</rt><rt class="roma">hira</rt></ruby><ruby>�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>みどり<rt class="roma">midori</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>きれい<rt class="roma">kirei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>drive
+[00:29.92]<ruby>みどり<rt class="roma">midori</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>きれい<rt class="roma">kirei</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>drive
 </div>
 <div class="trans-lyric">Drive to a place with beautiful greenery</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Trip Trip Trip
+[00:34.64]Trip Trip Trip
 </div>
 <div class="trans-lyric">Trip Trip Trip</div>
 <div class="trans-lyric">Trip Trip Trip</div>

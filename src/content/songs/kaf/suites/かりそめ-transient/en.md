@@ -34,7 +34,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[00:00.96]Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 <div class="trans-lyric">Chain, reborn in a night of wishes</div>
 <div class="trans-lyric">Chain, reborn in a night of wishes</div>
@@ -45,7 +45,7 @@ Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>そめ<rt class="roma">some</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> chain
+[00:05.70]<ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>そめ<rt class="roma">some</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> chain
 </div>
 <div class="trans-lyric">A fleeting dream unraveling, chain</div>
 <div class="trans-lyric">A fleeting dream unraveling, chain</div>
@@ -86,7 +86,7 @@ Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>、<ruby>じっと<rt class="roma">jitto</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>やめ<rt class="roma">yame</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:43.00]<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>、<ruby>じっと<rt class="roma">jitto</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>やめ<rt class="roma">yame</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">Listen, I've already stopped just waiting around</div>
 </div>
@@ -169,7 +169,7 @@ Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>そめ<rt class="roma">some</rt></ruby> <ruby>キラキラ<rt class="roma">kirakira</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> chain
+[01:37.73]<ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>そめ<rt class="roma">some</rt></ruby> <ruby>キラキラ<rt class="roma">kirakira</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> chain
 </div>
 <div class="trans-lyric">A fleeting unraveling, sparkling, chain</div>
 <div class="trans-lyric">A fleeting unraveling, sparkling, chain</div>
@@ -271,7 +271,7 @@ Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Chain <ruby>うたう<rt class="roma">utau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:05.43]Chain <ruby>うたう<rt class="roma">utau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">Chain, I sing</div>
 </div>

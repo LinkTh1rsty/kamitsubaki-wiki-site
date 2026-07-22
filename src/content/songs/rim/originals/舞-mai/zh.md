@@ -115,10 +115,10 @@ image: /images/songs/rim/single-1609167678.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あぁ<rt class="roma">aa</rt></ruby> <ruby>こんな<rt class="roma">konna</rt></ruby> <ruby>こんな<rt class="roma">konna</rt></ruby> <ruby>こんな<rt class="roma">konna</rt></ruby>
+[00:44.87]<ruby>あぁ<rt class="roma">aa</rt></ruby> <ruby>こんな<rt class="roma">konna</rt></ruby> <ruby>こんな<rt class="roma">konna</rt></ruby> <ruby>こんな<rt class="roma">konna</rt></ruby>
 </div>
-<div class="cn-lyric">啊 这样的 这样的 这样的</div>
-<div class="cn-lyric">啊 这样的 这样的 这样的</div>
+<div class="cn-lyric">[00:44.87]啊 这样的 这样的 这样的</div>
+<div class="cn-lyric">[00:44.87]啊 这样的 这样的 这样的</div>
 </div>
 
 <div class="lyric-line">
@@ -140,10 +140,10 @@ image: /images/songs/rim/single-1609167678.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ほんと<rt class="roma">honto</rt></ruby>
+[00:55.18]<ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ほんと<rt class="roma">honto</rt></ruby>
 </div>
-<div class="cn-lyric">之类的事情 真的都无所谓了</div>
-<div class="cn-lyric">之类的事情 真的都无所谓了</div>
+<div class="cn-lyric">[00:55.18]之类的事情 真的都无所谓了</div>
+<div class="cn-lyric">[00:55.18]之类的事情 真的都无所谓了</div>
 </div>
 
 <div class="lyric-line">

@@ -54,7 +54,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ミュージック<rt class="roma">myuujikku</rt></ruby><ruby>耳<rt class="furi">みみ</rt><rt class="roma">mimi</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>going
+[00:06.97]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ミュージック<rt class="roma">myuujikku</rt></ruby><ruby>耳<rt class="furi">みみ</rt><rt class="roma">mimi</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>going
 </div>
 <div class="trans-lyric">With my favorite music ringing in my ears, I'm going</div>
 </div>
@@ -82,7 +82,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>マイキャット<rt class="roma">maikyatto</rt></ruby>
+[00:14.50]<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>マイキャット<rt class="roma">maikyatto</rt></ruby>
 </div>
 <div class="trans-lyric">I want to see you, my cat</div>
 </div>
@@ -153,7 +153,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah
+[00:38.97]yeah
 </div>
 <div class="trans-lyric">yeah</div>
 </div>

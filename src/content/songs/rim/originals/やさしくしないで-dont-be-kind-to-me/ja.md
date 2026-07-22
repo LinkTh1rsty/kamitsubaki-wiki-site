@@ -53,7 +53,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
+[00:40.56]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
 </div>
 
@@ -79,13 +79,13 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>しずか<rt class="roma">shizuka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>うみ<rt class="roma">umi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
+[01:00.95]<ruby>しずか<rt class="roma">shizuka</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>うみ<rt class="roma">umi</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>とおく<rt class="roma">tooku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>くに<rt class="roma">kuni</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:03.11]<ruby>とおく<rt class="roma">tooku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>くに<rt class="roma">kuni</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 

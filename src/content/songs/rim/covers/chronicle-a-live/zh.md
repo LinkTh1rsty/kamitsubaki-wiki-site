@@ -205,16 +205,16 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-A fairy tale about the dystopia
+[01:31.93]A fairy tale about the dystopia
 </div>
-<div class="cn-lyric">一个关于反乌托邦的童话</div>
+<div class="cn-lyric">[01:31.93]一个关于反乌托邦的童话</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Has come true like the mother's kindness
+[01:35.08]Has come true like the mother's kindness
 </div>
-<div class="cn-lyric">如母亲的慈爱般成为现实</div>
+<div class="cn-lyric">[01:35.08]如母亲的慈爱般成为现实</div>
 </div>
 
 <div class="lyric-line">
@@ -235,16 +235,16 @@ Has come true like the mother's kindness
 
 <div class="lyric-line">
 <div class="jp-lyric">
-In 2099, we realized
+[01:44.77]In 2099, we realized
 </div>
-<div class="cn-lyric">在2099年，我们意识到</div>
+<div class="cn-lyric">[01:44.77]在2099年，我们意识到</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-We were not the first to reach the end
+[01:48.02]We were not the first to reach the end
 </div>
-<div class="cn-lyric">我们并非第一个抵达终点</div>
+<div class="cn-lyric">[01:48.02]我们并非第一个抵达终点</div>
 </div>
 
 <div class="lyric-line">

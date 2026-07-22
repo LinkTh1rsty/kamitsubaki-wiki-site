@@ -101,7 +101,7 @@ Night&amp;day
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>アイラ<rt class="roma">aira</rt></ruby> <ruby>限<rt class="furi">かぎ</rt><rt class="roma">kagi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby>
+[03:53.04]<ruby>アイラ<rt class="roma">aira</rt></ruby> <ruby>限<rt class="furi">かぎ</rt><rt class="roma">kagi</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby>
 </div>
 <div class="trans-lyric">Ira, beyond the endless sky</div>
 <div class="trans-lyric">Ira, beyond the endless sky</div>
@@ -133,7 +133,7 @@ Night&amp;day
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だから<rt class="roma">dakara</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[02:47.00]<ruby>だから<rt class="roma">dakara</rt></ruby> <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">So don't forget</div>
 </div>
@@ -203,7 +203,7 @@ Tell you you can hear the voices
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>アイラ<rt class="roma">aira</rt></ruby> <ruby>憶<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[03:53.04]<ruby>アイラ<rt class="roma">aira</rt></ruby> <ruby>憶<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 <div class="trans-lyric">Ira, do you remember?</div>
 </div>
@@ -378,7 +378,7 @@ La la la...
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[02:47.00]<ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">Don't forget</div>
 </div>

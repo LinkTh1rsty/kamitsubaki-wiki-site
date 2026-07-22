@@ -125,11 +125,11 @@ Never calls me baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-That's the one that I want
+[00:30.70]That's the one that I want
 </div>
-<div class="cn-lyric">那就是我想要的</div>
-<div class="cn-lyric">那就是我想要的</div>
-<div class="cn-lyric">那就是我想要的</div>
+<div class="cn-lyric">[00:30.70]那就是我想要的</div>
+<div class="cn-lyric">[00:30.70]那就是我想要的</div>
+<div class="cn-lyric">[00:30.70]那就是我想要的</div>
 </div>
 
 <div class="lyric-line">
@@ -152,9 +152,9 @@ Can't you see?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I only want the ones who never see me
+[00:23.07]I only want the ones who never see me
 </div>
-<div class="cn-lyric">我只想要那些从不看我的人</div>
+<div class="cn-lyric">[00:23.07]我只想要那些从不看我的人</div>
 </div>
 
 <div class="lyric-line">
@@ -180,9 +180,9 @@ It bleeds jelly
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Cause you don't want someone to eat your cookie
+[00:48.01]Cause you don't want someone to eat your cookie
 </div>
-<div class="cn-lyric">因为你不想要有人吃掉你的饼干</div>
+<div class="cn-lyric">[00:48.01]因为你不想要有人吃掉你的饼干</div>
 </div>
 
 <div class="lyric-line">

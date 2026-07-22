@@ -38,35 +38,35 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>これ<rt class="roma">kore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:19.44]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">This is magic</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奇跡<rt class="furi">きせき</rt><rt class="roma">kiseki</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:21.89]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奇跡<rt class="furi">きせき</rt><rt class="roma">kiseki</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">A miracle of me who forgot the days I lived</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:28.97]<ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">In an eternal age</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>反逆<rt class="furi">はんぎゃく</rt><rt class="roma">hangyaku</rt></ruby><ruby>者<rt class="furi">しゃ</rt><rt class="roma">sha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[00:31.38]<ruby>反逆<rt class="furi">はんぎゃく</rt><rt class="roma">hangyaku</rt></ruby><ruby>者<rt class="furi">しゃ</rt><rt class="roma">sha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 <div class="trans-lyric">I became a rebel</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>偽物<rt class="furi">にせもの</rt><rt class="roma">nisemono</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>子供<rt class="furi">こども</rt><rt class="roma">kodomo</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby>
+[00:33.88]<ruby>偽物<rt class="furi">にせもの</rt><rt class="roma">nisemono</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>子供<rt class="furi">こども</rt><rt class="roma">kodomo</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby>
 </div>
 <div class="trans-lyric">Fake children</div>
 </div>
@@ -75,49 +75,49 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[00:38.60]<ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 <div class="trans-lyric">Don't let go of the present</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>許<rt class="furi">ゆる</rt><rt class="roma">yuru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[00:41.03]<ruby>許<rt class="furi">ゆる</rt><rt class="roma">yuru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 <div class="trans-lyric">Don't forgive the meaning</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>確信<rt class="furi">かくしん</rt><rt class="roma">kakushin</rt></ruby><ruby>犯<rt class="furi">はん</rt><rt class="roma">han</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>がった<rt class="roma">gatta</rt></ruby>
+[00:43.47]<ruby>確信<rt class="furi">かくしん</rt><rt class="roma">kakushin</rt></ruby><ruby>犯<rt class="furi">はん</rt><rt class="roma">han</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>繋<rt class="furi">つな</rt><rt class="roma">tsuna</rt></ruby><ruby>がった<rt class="roma">gatta</rt></ruby>
 </div>
 <div class="trans-lyric">Connected by deliberate crime</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:45.76]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Show me what I want to see</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:48.16]<ruby>教<rt class="furi">おし</rt><rt class="roma">oshi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Teach me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>燻<rt class="furi">いぶ</rt><rt class="roma">ibu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>欲望<rt class="furi">よくぼう</rt><rt class="roma">yokubou</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[00:49.41]<ruby>燻<rt class="furi">いぶ</rt><rt class="roma">ibu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>欲望<rt class="furi">よくぼう</rt><rt class="roma">yokubou</rt></ruby><ruby>だらけ<rt class="roma">darake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">In days filled with smoldering desires</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[00:54.14]<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 <div class="trans-lyric">Does a soul exist in words?</div>
 </div>
@@ -126,7 +126,7 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:57.32]<ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Answer me</div>
 <div class="trans-lyric">Answer me</div>
@@ -134,7 +134,7 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[00:58.57]<ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 <div class="trans-lyric">Sing</div>
 <div class="trans-lyric">Sing</div>
@@ -143,14 +143,14 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめる<rt class="roma">kishimeru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[00:59.71]<ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめる<rt class="roma">kishimeru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">As if embracing meaning</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>産声<rt class="furi">うぶごえ</rt><rt class="roma">ubugoe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[01:02.05]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>産声<rt class="furi">うぶごえ</rt><rt class="roma">ubugoe</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 <div class="trans-lyric">Your first cry</div>
 <div class="trans-lyric">Your first cry</div>
@@ -158,7 +158,7 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>号<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby>哭<ruby>を<rt class="roma">wo</rt></ruby>
+[01:04.68]<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>号<rt class="furi">ごう</rt><rt class="roma">gou</rt></ruby>哭<ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 <div class="trans-lyric">A foolish wail</div>
 <div class="trans-lyric">A foolish wail</div>
@@ -166,28 +166,28 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:07.33]<ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Reach me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なぞって<rt class="roma">nazotte</rt></ruby>
+[01:08.19]<ruby>なぞって<rt class="roma">nazotte</rt></ruby>
 </div>
 <div class="trans-lyric">Trace it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>かめる<rt class="roma">kameru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[01:09.35]<ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>かめる<rt class="roma">kameru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">As if confirming the meaning</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:11.86]<ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">This world is mine</div>
 <div class="trans-lyric">This world is mine</div>
@@ -195,7 +195,7 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>鳴り響<rt class="furi">なりひび</rt><rt class="roma">narihibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
+[01:15.91]<ruby>月<rt class="furi">つき</rt><rt class="roma">tsuki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>鳴り響<rt class="furi">なりひび</rt><rt class="roma">narihibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
 <div class="trans-lyric">Until the moon resounds</div>
 </div>
@@ -204,35 +204,35 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>現実<rt class="furi">げんじつ</rt><rt class="roma">genjitsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:36.18]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>現実<rt class="furi">げんじつ</rt><rt class="roma">genjitsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">This is reality</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>楽園<rt class="furi">らくえん</rt><rt class="roma">rakuen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>目指<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>電子<rt class="furi">でんし</rt><rt class="roma">denshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奇跡<rt class="furi">きせき</rt><rt class="roma">kiseki</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:38.87]<ruby>楽園<rt class="furi">らくえん</rt><rt class="roma">rakuen</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>目指<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>電子<rt class="furi">でんし</rt><rt class="roma">denshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>奇跡<rt class="furi">きせき</rt><rt class="roma">kiseki</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">A miracle of electrons aiming for paradise</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[01:45.79]<ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">In an eternal world</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>脳髄<rt class="furi">のうずい</rt><rt class="roma">nouzui</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>くすぐる<rt class="roma">kusuguru</rt></ruby>
+[01:48.11]<ruby>脳髄<rt class="furi">のうずい</rt><rt class="roma">nouzui</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>くすぐる<rt class="roma">kusuguru</rt></ruby>
 </div>
 <div class="trans-lyric">Titillating the brain</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>偽物<rt class="furi">にせもの</rt><rt class="roma">nisemono</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby>
+[01:50.60]<ruby>偽物<rt class="furi">にせもの</rt><rt class="roma">nisemono</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>景色<rt class="furi">けしき</rt><rt class="roma">keshiki</rt></ruby><ruby>達<rt class="furi">たち</rt><rt class="roma">tachi</rt></ruby>
 </div>
 <div class="trans-lyric">Fake landscapes</div>
 </div>
@@ -241,49 +241,49 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[01:55.42]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 <div class="trans-lyric">The meaning of having lived</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あがい<rt class="roma">agai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[01:57.79]<ruby>あがい<rt class="roma">agai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 <div class="trans-lyric">The past I've struggled through</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>仮想<rt class="furi">かそう</rt><rt class="roma">kasou</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[02:00.26]<ruby>仮想<rt class="furi">かそう</rt><rt class="roma">kasou</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 <div class="trans-lyric">Are dancing in the virtual world</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>
+[02:02.52]<ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>
 </div>
 <div class="trans-lyric">Waiting for proof</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>諦<rt class="furi">あきら</rt><rt class="roma">akira</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[02:04.93]<ruby>諦<rt class="furi">あきら</rt><rt class="roma">akira</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 <div class="trans-lyric">Don't give up now</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>目指<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>己<rt class="furi">おのれ</rt><rt class="roma">onore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:07.45]<ruby>目指<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>己<rt class="furi">おのれ</rt><rt class="roma">onore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">To the value of myself I aimed for</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>確信<rt class="furi">かくしん</rt><rt class="roma">kakushin</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[02:10.91]<ruby>存在<rt class="furi">そんざい</rt><rt class="roma">sonzai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>確信<rt class="furi">かくしん</rt><rt class="roma">kakushin</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 <div class="trans-lyric">Is there certainty in existence?</div>
 </div>
@@ -298,49 +298,49 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>喚<rt class="furi">わめ</rt><rt class="roma">wame</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:15.34]<ruby>喚<rt class="furi">わめ</rt><rt class="roma">wame</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Shout</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:16.50]<ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>入<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">In the world I obtained</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>連<rt class="furi">つら</rt><rt class="roma">tsura</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>産声<rt class="furi">うぶごえ</rt><rt class="roma">ubugoe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[02:18.84]<ruby>連<rt class="furi">つら</rt><rt class="roma">tsura</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>産声<rt class="furi">うぶごえ</rt><rt class="roma">ubugoe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 <div class="trans-lyric">The series of first cries</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>文字<rt class="furi">もじ</rt><rt class="roma">moji</rt></ruby><ruby>列<rt class="furi">れつ</rt><rt class="roma">retsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>成<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[02:21.42]<ruby>文字<rt class="furi">もじ</rt><rt class="roma">moji</rt></ruby><ruby>列<rt class="furi">れつ</rt><rt class="roma">retsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>成<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 <div class="trans-lyric">Become strings and are dancing</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:24.17]<ruby>壊<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Break it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[02:25.01]<ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 <div class="trans-lyric">Take it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:26.13]<ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">Before I am taken from</div>
 </div>
@@ -353,7 +353,7 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>鳴り響<rt class="furi">なりひび</rt><rt class="roma">narihibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
+[02:32.83]<ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>鳴り響<rt class="furi">なりひび</rt><rt class="roma">narihibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
 <div class="trans-lyric">Until the sound resounds</div>
 </div>
@@ -362,14 +362,14 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>礎<rt class="furi">いしずえ</rt><rt class="roma">ishizue</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>踏<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>みにじり<rt class="roma">minijiri</rt></ruby>
+[02:52.91]<ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>過去<rt class="furi">かこ</rt><rt class="roma">kako</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>礎<rt class="furi">いしずえ</rt><rt class="roma">ishizue</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>踏<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>みにじり<rt class="roma">minijiri</rt></ruby>
 </div>
 <div class="trans-lyric">Trampling the foundations of a desolate past</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[03:03.54]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 <div class="trans-lyric">We sing, we sing</div>
 </div>
@@ -378,42 +378,42 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:21.38]<ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Searching</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あがい<rt class="roma">agai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:22.60]<ruby>あがい<rt class="roma">agai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Struggling</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[03:23.78]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 <div class="trans-lyric">The proof of having lived</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>産声<rt class="furi">うぶごえ</rt><rt class="roma">ubugoe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[03:26.18]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>産声<rt class="furi">うぶごえ</rt><rt class="roma">ubugoe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 <div class="trans-lyric">My first cry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>文字<rt class="furi">もじ</rt><rt class="roma">moji</rt></ruby><ruby>列<rt class="furi">れつ</rt><rt class="roma">retsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[03:28.75]<ruby>文字<rt class="furi">もじ</rt><rt class="roma">moji</rt></ruby><ruby>列<rt class="furi">れつ</rt><rt class="roma">retsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 <div class="trans-lyric">Rings and dances in strings</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>己<rt class="furi">おのれ</rt><rt class="roma">onore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[03:31.44]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> <ruby>己<rt class="furi">おのれ</rt><rt class="roma">onore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 <div class="trans-lyric">Now, does a soul exist in the words that prove oneself?</div>
 </div>
@@ -422,21 +422,21 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>戦<rt class="furi">たたか</rt><rt class="roma">tataka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
+[03:40.39]<ruby>戦<rt class="furi">たたか</rt><rt class="roma">tataka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
 <div class="trans-lyric">Fight</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>抗<rt class="furi">あらが</rt><rt class="roma">araga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
+[03:41.74]<ruby>抗<rt class="furi">あらが</rt><rt class="roma">araga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby>
 </div>
 <div class="trans-lyric">Resist</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめる<rt class="roma">kishimeru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[03:42.91]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめる<rt class="roma">kishimeru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">As if embracing the present</div>
 </div>
@@ -467,21 +467,21 @@ image: /images/songs/vwp/single-1840334634.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>電子<rt class="furi">でんし</rt><rt class="roma">denshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[03:52.54]<ruby>電子<rt class="furi">でんし</rt><rt class="roma">denshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>舞<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 <div class="trans-lyric">Dancing in the electronic sea</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[03:55.08]<ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 <div class="trans-lyric">This world is ours</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[03:59.04]<ruby>証明<rt class="furi">しょうめい</rt><rt class="roma">shoumei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 <div class="trans-lyric">Searching for proof</div>
 </div>

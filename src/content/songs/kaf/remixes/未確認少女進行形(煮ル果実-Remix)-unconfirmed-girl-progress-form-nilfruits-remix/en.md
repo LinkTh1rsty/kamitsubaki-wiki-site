@@ -43,7 +43,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>マジョリティ<rt class="roma">majoritei</rt></ruby>
+[00:06.30]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>マジョリティ<rt class="roma">majoritei</rt></ruby>
 </div>
 <div class="trans-lyric">A majority that can no longer scatter anywhere</div>
 </div>
@@ -57,7 +57,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:16.41]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">Don't go anywhere else</div>
 </div>
@@ -66,7 +66,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まって<rt class="roma">matte</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:22.25]<ruby>まって<rt class="roma">matte</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">Wait, I am here</div>
 </div>
@@ -103,7 +103,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ハローハローハローハロー<rt class="roma">harouharouharouharou</rt></ruby>
+[00:38.45]<ruby>ハローハローハローハロー<rt class="roma">harouharouharouharou</rt></ruby>
 </div>
 <div class="trans-lyric">Hello hello hello hello</div>
 <div class="trans-lyric">Hello hello hello hello</div>
@@ -123,7 +123,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>はじめて<rt class="roma">hajimete</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
+[00:43.76]<ruby>はじめて<rt class="roma">hajimete</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
 <div class="trans-lyric">I'm saying it for the first time, but</div>
 <div class="trans-lyric">I'm saying it for the first time, but</div>
@@ -131,7 +131,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>はじめて<rt class="roma">hajimete</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>っちゃう<rt class="roma">tchau</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
+[00:46.41]<ruby>はじめて<rt class="roma">hajimete</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>っちゃう<rt class="roma">tchau</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
 <div class="trans-lyric">I'll say it for the first time, but</div>
 <div class="trans-lyric">I'll say it for the first time, but</div>
@@ -160,7 +160,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:57.25]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">If that's okay, stay here</div>
 </div>
@@ -176,7 +176,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>マジョリティ<rt class="roma">majoritei</rt></ruby>
+[01:04.72]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>マジョリティ<rt class="roma">majoritei</rt></ruby>
 </div>
 <div class="trans-lyric">Still, an undying majority</div>
 </div>
@@ -310,7 +310,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>デスティニー<rt class="roma">desuteinii</rt></ruby>？
+[02:24.15]<ruby>デスティニー<rt class="roma">desuteinii</rt></ruby>？
 </div>
 <div class="trans-lyric">Destiny?</div>
 <div class="trans-lyric">Destiny?</div>
@@ -381,7 +381,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ハローハローハローハローハロー<rt class="roma">harouharouharouharouharou</rt></ruby>
+[02:43.82]<ruby>ハローハローハローハローハロー<rt class="roma">harouharouharouharouharou</rt></ruby>
 </div>
 <div class="trans-lyric">Hello hello hello hello hello</div>
 <div class="trans-lyric">Hello hello hello hello hello</div>

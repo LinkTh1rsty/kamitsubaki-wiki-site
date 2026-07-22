@@ -129,10 +129,10 @@ Stay in love with the one you're with
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Don't dwell on what you've lost
+[00:55.42]Don't dwell on what you've lost
 </div>
-<div class="cn-lyric">不要纠结于失去的</div>
-<div class="cn-lyric">不要纠结于失去的</div>
+<div class="cn-lyric">[00:55.42]不要纠结于失去的</div>
+<div class="cn-lyric">[00:55.42]不要纠结于失去的</div>
 </div>
 
 <div class="lyric-line">
@@ -145,10 +145,10 @@ May your guiding angel watch and care
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Stay close to you
+[01:07.25]Stay close to you
 </div>
-<div class="cn-lyric">常伴你左右</div>
-<div class="cn-lyric">常伴你左右</div>
+<div class="cn-lyric">[01:07.25]常伴你左右</div>
+<div class="cn-lyric">[01:07.25]常伴你左右</div>
 </div>
 
 <div class="lyric-line">
@@ -161,10 +161,10 @@ Always believe in what you are
 
 <div class="lyric-line">
 <div class="jp-lyric">
-And the things that you can do
+[01:07.25]And the things that you can do
 </div>
-<div class="cn-lyric">以及你能做到的事</div>
-<div class="cn-lyric">以及你能做到的事</div>
+<div class="cn-lyric">[01:07.25]以及你能做到的事</div>
+<div class="cn-lyric">[01:07.25]以及你能做到的事</div>
 </div>
 
 <br />
@@ -215,10 +215,10 @@ I got some money and a motorbike
 
 <div class="lyric-line">
 <div class="jp-lyric">
-If you love me it's fine
+[01:11.86]If you love me it's fine
 </div>
-<div class="cn-lyric">如果你爱我，那很好</div>
-<div class="cn-lyric">如果你爱我，那很好</div>
+<div class="cn-lyric">[01:11.86]如果你爱我，那很好</div>
+<div class="cn-lyric">[01:11.86]如果你爱我，那很好</div>
 </div>
 
 <div class="lyric-line">

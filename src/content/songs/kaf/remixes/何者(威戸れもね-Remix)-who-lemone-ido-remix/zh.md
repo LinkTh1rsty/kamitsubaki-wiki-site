@@ -189,9 +189,9 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:41.44]<ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">微笑着</div>
+<div class="cn-lyric">[00:41.44]微笑着</div>
 </div>
 
 <div class="lyric-line">
@@ -240,9 +240,9 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねえ<rt class="roma">nee</rt></ruby>、<ruby>どんな<rt class="roma">donna</rt></ruby><ruby>顔<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:47.59]<ruby>ねえ<rt class="roma">nee</rt></ruby>、<ruby>どんな<rt class="roma">donna</rt></ruby><ruby>顔<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">呐 是怎样表情</div>
+<div class="cn-lyric">[01:47.59]呐 是怎样表情</div>
 </div>
 
 <div class="lyric-line">

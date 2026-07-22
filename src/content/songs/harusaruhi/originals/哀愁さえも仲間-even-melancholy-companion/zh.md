@@ -78,18 +78,18 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>おいで<rt class="roma">oide</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[00:57.25]<ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>おいで<rt class="roma">oide</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="cn-lyric">想哭的日子就再来吧</div>
-<div class="cn-lyric">想哭的日子就再来吧</div>
+<div class="cn-lyric">[00:57.25]想哭的日子就再来吧</div>
+<div class="cn-lyric">[00:57.25]想哭的日子就再来吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> Uh-huh
+[01:03.36]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> Uh-huh
 </div>
-<div class="cn-lyric">能走到明天哦 Uh-huh</div>
-<div class="cn-lyric">能走到明天哦 Uh-huh</div>
+<div class="cn-lyric">[01:03.36]能走到明天哦 Uh-huh</div>
+<div class="cn-lyric">[01:03.36]能走到明天哦 Uh-huh</div>
 </div>
 
 <br />
@@ -177,9 +177,9 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:48.21]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">所以这样就很好</div>
+<div class="cn-lyric">[01:48.21]所以这样就很好</div>
 </div>
 
 <div class="lyric-line">
@@ -322,9 +322,9 @@ image: /images/songs/harusaruhi/single-1688524702.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しん<rt class="roma">shin</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> One life
+[03:27.83]<ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しん<rt class="roma">shin</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> One life
 </div>
-<div class="cn-lyric">尽情享受吧 One life</div>
+<div class="cn-lyric">[03:27.83]尽情享受吧 One life</div>
 </div>
 
 <br />

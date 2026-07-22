@@ -33,9 +33,9 @@ image: /images/albums/harusaruhi/shinju.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>やけに<rt class="roma">yakeni</rt></ruby><ruby>妬<rt class="furi">ねた</rt><rt class="roma">neta</rt></ruby><ruby>ましい<rt class="roma">mashii</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>コ<rt class="roma">ko</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>clever<ruby>な<rt class="roma">na</rt></ruby>lip
+[00:04.74]<ruby>やけに<rt class="roma">yakeni</rt></ruby><ruby>妬<rt class="furi">ねた</rt><rt class="roma">neta</rt></ruby><ruby>ましい<rt class="roma">mashii</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>コ<rt class="roma">ko</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>clever<ruby>な<rt class="roma">na</rt></ruby>lip
 </div>
-<div class="cn-lyric">异常嫉妒 那个女孩的机灵嘴唇</div>
+<div class="cn-lyric">[00:04.74]异常嫉妒 那个女孩的机灵嘴唇</div>
 </div>
 
 <div class="lyric-line">
@@ -54,16 +54,16 @@ image: /images/albums/harusaruhi/shinju.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>でも<rt class="roma">demo</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>hollow？ <ruby>また<rt class="roma">mata</rt></ruby><ruby>惑<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:15.60]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>hollow？ <ruby>また<rt class="roma">mata</rt></ruby><ruby>惑<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">但价值是空洞的？ 再度困惑</div>
+<div class="cn-lyric">[00:15.60]但价值是空洞的？ 再度困惑</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Do not follow
+[00:17.70]Do not follow
 </div>
-<div class="cn-lyric">不要追随</div>
+<div class="cn-lyric">[00:17.70]不要追随</div>
 </div>
 
 <br />
@@ -77,16 +77,16 @@ Do not follow
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>羨<rt class="furi">うらや</rt><rt class="roma">uraya</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>たび<rt class="roma">tabi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>色褪<rt class="furi">いろあ</rt><rt class="roma">iroa</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby>graffiti
+[00:23.02]<ruby>羨<rt class="furi">うらや</rt><rt class="roma">uraya</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>たび<rt class="roma">tabi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>色褪<rt class="furi">いろあ</rt><rt class="roma">iroa</rt></ruby><ruby>せる<rt class="roma">seru</rt></ruby>graffiti
 </div>
-<div class="cn-lyric">每次羡慕就褪色的涂鸦</div>
+<div class="cn-lyric">[00:23.02]每次羡慕就褪色的涂鸦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>zitrone
+[00:26.02]<ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>zitrone
 </div>
-<div class="cn-lyric">因为触及到甜柠檬</div>
+<div class="cn-lyric">[00:26.02]因为触及到甜柠檬</div>
 </div>
 
 <div class="lyric-line">
@@ -156,27 +156,27 @@ Do not follow
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Find me out
+[00:47.72]Find me out
 </div>
-<div class="cn-lyric">找到我</div>
-<div class="cn-lyric">找到我</div>
-<div class="cn-lyric">找到我</div>
+<div class="cn-lyric">[00:47.72]找到我</div>
+<div class="cn-lyric">[00:47.72]找到我</div>
+<div class="cn-lyric">[00:47.72]找到我</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ほら<rt class="roma">hora</rt></ruby>goody two-shoes
+[00:48.75]<ruby>ほら<rt class="roma">hora</rt></ruby>goody two-shoes
 </div>
-<div class="cn-lyric">看啊 假正经</div>
+<div class="cn-lyric">[00:48.75]看啊 假正经</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>塗り潰<rt class="furi">ぬりつぶ</rt><rt class="roma">nuritsubu</rt></ruby><ruby>す<rt class="roma">su</rt></ruby> Rubik's cube
+[00:50.65]<ruby>塗り潰<rt class="furi">ぬりつぶ</rt><rt class="roma">nuritsubu</rt></ruby><ruby>す<rt class="roma">su</rt></ruby> Rubik's cube
 </div>
-<div class="cn-lyric">涂满的魔方</div>
+<div class="cn-lyric">[00:50.65]涂满的魔方</div>
 </div>
 
 <div class="lyric-line">
@@ -188,9 +188,9 @@ Find me out
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Pretty confuse?
+[00:54.76]Pretty confuse?
 </div>
-<div class="cn-lyric">相当困惑？</div>
+<div class="cn-lyric">[00:54.76]相当困惑？</div>
 </div>
 
 <div class="lyric-line">
@@ -216,9 +216,9 @@ Pretty confuse?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>撮<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>レントゲン<rt class="roma">rentogen</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>しゃれこうべ<rt class="roma">sharekoube</rt></ruby>
+[01:01.26]<ruby>撮<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>レントゲン<rt class="roma">rentogen</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>しゃれこうべ<rt class="roma">sharekoube</rt></ruby>
 </div>
-<div class="cn-lyric">拍X光就是骷髅头</div>
+<div class="cn-lyric">[01:01.26]拍X光就是骷髅头</div>
 </div>
 
 <br />
@@ -246,23 +246,23 @@ Pretty confuse?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Look in the mirror
+[01:12.87]Look in the mirror
 </div>
-<div class="cn-lyric">照照镜子</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Error<ruby>の<rt class="roma">no</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>えろ<rt class="roma">ero</rt></ruby>
-</div>
-<div class="cn-lyric">在错误的对岸 灰烬啊燃烧吧</div>
+<div class="cn-lyric">[01:12.87]照照镜子</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(look in the mirror)
+[01:13.76]Error<ruby>の<rt class="roma">no</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>こう<rt class="roma">kou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>えろ<rt class="roma">ero</rt></ruby>
 </div>
-<div class="cn-lyric">(照照镜子)</div>
+<div class="cn-lyric">[01:13.76]在错误的对岸 灰烬啊燃烧吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:12.87](look in the mirror)
+</div>
+<div class="cn-lyric">[01:12.87](照照镜子)</div>
 </div>
 
 <br />
@@ -311,9 +311,9 @@ Find me out
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
+[01:34.93]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
-<div class="cn-lyric">有未曾对任何人说过的事</div>
+<div class="cn-lyric">[01:34.93]有未曾对任何人说过的事</div>
 </div>
 
 <div class="lyric-line">
@@ -346,16 +346,16 @@ Find me out
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> tell me no more
+[01:45.61]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> tell me no more
 </div>
-<div class="cn-lyric">正是因为是我 不必再多说</div>
+<div class="cn-lyric">[01:45.61]正是因为是我 不必再多说</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>glow
+[01:47.36]<ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>ため<rt class="roma">tame</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>glow
 </div>
-<div class="cn-lyric">为了开始的光芒</div>
+<div class="cn-lyric">[01:47.36]为了开始的光芒</div>
 </div>
 
 <br />

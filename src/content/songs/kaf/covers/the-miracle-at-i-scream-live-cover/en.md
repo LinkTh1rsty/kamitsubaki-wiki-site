@@ -48,7 +48,7 @@ In Sahara Desert says it all
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's a miracle
+[02:08.85]It's a miracle
 </div>
 <div class="trans-lyric">It's a miracle</div>
 <div class="trans-lyric">It's a miracle</div>
@@ -135,7 +135,7 @@ The wonders of this world go on
 
 <div class="lyric-line">
 <div class="jp-lyric">
-The hanging Gardens of Babylon
+[02:08.85]The hanging Gardens of Babylon
 </div>
 <div class="trans-lyric">The hanging Gardens of Babylon</div>
 </div>
@@ -182,7 +182,7 @@ It's a miracle
 
 <div class="lyric-line">
 <div class="jp-lyric">
-The one thing we're all waiting for
+[00:42.00]The one thing we're all waiting for
 </div>
 <div class="trans-lyric">The one thing we're all waiting for</div>
 </div>
@@ -196,7 +196,7 @@ Is peace on earth, an end to war
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's a miracle we need, the miracle
+[02:08.85]It's a miracle we need, the miracle
 </div>
 <div class="trans-lyric">It's a miracle we need, the miracle</div>
 <div class="trans-lyric">It's a miracle we need, the miracle</div>
@@ -227,7 +227,7 @@ Could tell a story that would be a miracle
 
 <div class="lyric-line">
 <div class="jp-lyric">
-If every child on every street
+[00:55.53]If every child on every street
 </div>
 <div class="trans-lyric">If every child on every street</div>
 </div>
@@ -362,7 +362,7 @@ It's a miracle
 
 <div class="lyric-line">
 <div class="jp-lyric">
-The one thing (the one thing)
+[00:42.00]The one thing (the one thing)
 </div>
 <div class="trans-lyric">The one thing (the one thing)</div>
 </div>

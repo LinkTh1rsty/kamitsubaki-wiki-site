@@ -91,7 +91,7 @@ image: /images/songs/rim/single-1619104177.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:45.05]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -117,7 +117,7 @@ image: /images/songs/rim/single-1619104177.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>どんどん<rt class="roma">dondon</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[00:56.42]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>どんどん<rt class="roma">dondon</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
@@ -135,7 +135,7 @@ image: /images/songs/rim/single-1619104177.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:08.64]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -155,7 +155,7 @@ image: /images/songs/rim/single-1619104177.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ぎゅぎゅっと<rt class="roma">gyugyutto</rt></ruby><ruby>噛み付<rt class="furi">かみつ</rt><rt class="roma">kamitsu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:19.94]<ruby>ぎゅぎゅっと<rt class="roma">gyugyutto</rt></ruby><ruby>噛み付<rt class="furi">かみつ</rt><rt class="roma">kamitsu</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -207,7 +207,7 @@ image: /images/songs/rim/single-1619104177.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ひどい<rt class="roma">hidoi</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>しょ<rt class="roma">sho</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[02:05.74]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ひどい<rt class="roma">hidoi</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>しょ<rt class="roma">sho</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
@@ -265,7 +265,7 @@ image: /images/songs/rim/single-1619104177.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まさか<rt class="roma">masaka</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[02:42.99]<ruby>まさか<rt class="roma">masaka</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
@@ -273,19 +273,19 @@ image: /images/songs/rim/single-1619104177.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だんだん<rt class="roma">dandan</rt></ruby><ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>そっと<rt class="roma">sotto</rt></ruby>
+[02:45.63]<ruby>だんだん<rt class="roma">dandan</rt></ruby><ruby>灰<rt class="furi">はい</rt><rt class="roma">hai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby> <ruby>そっと<rt class="roma">sotto</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>みつめ<rt class="roma">mitsume</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[02:49.82]<ruby>みつめ<rt class="roma">mitsume</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だんだん<rt class="roma">dandan</rt></ruby><ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
+[02:52.77]<ruby>だんだん<rt class="roma">dandan</rt></ruby><ruby>海<rt class="furi">うみ</rt><rt class="roma">umi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
 </div>
 
@@ -317,7 +317,7 @@ image: /images/songs/rim/single-1619104177.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だめ<rt class="roma">dame</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
+[03:11.32]<ruby>だめ<rt class="roma">dame</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
 </div>
 </div>
 
@@ -331,7 +331,7 @@ image: /images/songs/rim/single-1619104177.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>うん<rt class="roma">un</rt></ruby> <ruby>それだけ<rt class="roma">soredake</rt></ruby>
+[03:17.99]<ruby>うん<rt class="roma">un</rt></ruby> <ruby>それだけ<rt class="roma">soredake</rt></ruby>
 </div>
 </div>
 

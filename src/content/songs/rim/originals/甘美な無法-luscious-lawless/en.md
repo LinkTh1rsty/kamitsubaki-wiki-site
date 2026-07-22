@@ -33,7 +33,7 @@ image: /images/songs/rim/single-1687465022.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-3 + 1 <ruby>は<rt class="roma">wa</rt></ruby> 4 <ruby>では<rt class="roma">deha</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
+[00:14.67]3 + 1 <ruby>は<rt class="roma">wa</rt></ruby> 4 <ruby>では<rt class="roma">deha</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
 <div class="trans-lyric">3 plus 1 is not 4</div>
 </div>

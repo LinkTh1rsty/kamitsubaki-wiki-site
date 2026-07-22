@@ -34,7 +34,7 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-PLACEBO - <ruby>米津<rt class="furi">よねつ</rt><rt class="roma">yonetsu</rt></ruby><ruby>玄<rt class="furi">げん</rt><rt class="roma">gen</rt></ruby><ruby>師<rt class="furi">し</rt><rt class="roma">shi</rt></ruby> (<ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>づ<rt class="roma">zu</rt></ruby> <ruby>けんし<rt class="roma">kenshi</rt></ruby>)/<ruby>野田<rt class="furi">のだ</rt><rt class="roma">noda</rt></ruby><ruby>洋次郎<rt class="furi">ようじろう</rt><rt class="roma">youjirou</rt></ruby>
+[00:27.01]PLACEBO - <ruby>米津<rt class="furi">よねつ</rt><rt class="roma">yonetsu</rt></ruby><ruby>玄<rt class="furi">げん</rt><rt class="roma">gen</rt></ruby><ruby>師<rt class="furi">し</rt><rt class="roma">shi</rt></ruby> (<ruby>よ<rt class="roma">yo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>づ<rt class="roma">zu</rt></ruby> <ruby>けんし<rt class="roma">kenshi</rt></ruby>)/<ruby>野田<rt class="furi">のだ</rt><rt class="roma">noda</rt></ruby><ruby>洋次郎<rt class="furi">ようじろう</rt><rt class="roma">youjirou</rt></ruby>
 </div>
 </div>
 

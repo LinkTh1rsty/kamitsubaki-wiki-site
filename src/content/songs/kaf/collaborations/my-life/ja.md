@@ -81,7 +81,7 @@ BAN Bang <ruby>喰<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まだまだ<rt class="roma">madamada</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>My life
+[04:13.11]<ruby>まだまだ<rt class="roma">madamada</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>My life
 </div>
 </div>
 
@@ -283,7 +283,7 @@ Black out
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>正真正銘<rt class="furi">しょうしんしょうめい</rt><rt class="roma">shoushinshoumei</rt></ruby>My life
+[04:13.11]<ruby>正真正銘<rt class="furi">しょうしんしょうめい</rt><rt class="roma">shoushinshoumei</rt></ruby>My life
 </div>
 </div>
 

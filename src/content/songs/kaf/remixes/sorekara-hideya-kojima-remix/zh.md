@@ -251,9 +251,9 @@ image: /images/albums/kaf/suite.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>逃げ切<rt class="furi">にげき</rt><rt class="roma">nigeki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby>
+[00:36.63]<ruby>逃げ切<rt class="furi">にげき</rt><rt class="roma">nigeki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby>
 </div>
-<div class="cn-lyric">逃掉了</div>
+<div class="cn-lyric">[00:36.63]逃掉了</div>
 </div>
 
 <div class="lyric-line">

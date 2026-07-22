@@ -61,18 +61,18 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:21.57]<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">听我说</div>
+<div class="cn-lyric">[00:21.57]听我说</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あとがき<rt class="roma">atogaki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:41.46]<ruby>あとがき<rt class="roma">atogaki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="cn-lyric">后记一定就这样死去</div>
+<div class="cn-lyric">[00:41.46]后记一定就这样死去</div>
 </div>
 
 <div class="lyric-line">
@@ -100,10 +100,10 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>こころ<rt class="roma">kokoro</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>からだ<rt class="roma">karada</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[01:00.26]「<ruby>こころ<rt class="roma">kokoro</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>からだ<rt class="roma">karada</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="cn-lyric">「心灵也好，身体也好</div>
-<div class="cn-lyric">「心灵也好，身体也好</div>
+<div class="cn-lyric">[01:00.26]「心灵也好，身体也好</div>
+<div class="cn-lyric">[01:00.26]「心灵也好，身体也好</div>
 </div>
 
 <div class="lyric-line">
@@ -116,9 +116,9 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ことば<rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>か<rt class="roma">ka</rt></ruby><ruby>ちかん<rt class="roma">chikan</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[01:09.56]<ruby>ことば<rt class="roma">kotoba</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>か<rt class="roma">ka</rt></ruby><ruby>ちかん<rt class="roma">chikan</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="cn-lyric">话语也好，价值观也好</div>
+<div class="cn-lyric">[01:09.56]话语也好，价值观也好</div>
 </div>
 
 <div class="lyric-line">
@@ -139,16 +139,16 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>おはよう<rt class="roma">ohayou</rt></ruby>、<ruby>おやすみ<rt class="roma">oyasumi</rt></ruby>
+[01:24.34]<ruby>おはよう<rt class="roma">ohayou</rt></ruby>、<ruby>おやすみ<rt class="roma">oyasumi</rt></ruby>
 </div>
-<div class="cn-lyric">早安，晚安</div>
+<div class="cn-lyric">[01:24.34]早安，晚安</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それから<rt class="roma">sorekara</rt></ruby>、<ruby>さよなら<rt class="roma">sayonara</rt></ruby>
+[01:26.60]<ruby>それから<rt class="roma">sorekara</rt></ruby>、<ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
-<div class="cn-lyric">然后，再见</div>
+<div class="cn-lyric">[01:26.60]然后，再见</div>
 </div>
 
 <div class="lyric-line">
@@ -194,9 +194,9 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby><ruby>いえ<rt class="roma">ie</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[01:48.61]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>いえ<rt class="roma">ie</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="cn-lyric">说起来，从很久以前</div>
+<div class="cn-lyric">[01:48.61]说起来，从很久以前</div>
 </div>
 
 <div class="lyric-line">
@@ -243,16 +243,16 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ふ<rt class="roma">fu</rt></ruby><ruby>あん<rt class="roma">an</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>か<rt class="roma">ka</rt></ruby><ruby>いかん<rt class="roma">ikan</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[02:36.02]<ruby>ふ<rt class="roma">fu</rt></ruby><ruby>あん<rt class="roma">an</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>か<rt class="roma">ka</rt></ruby><ruby>いかん<rt class="roma">ikan</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="cn-lyric">不安也好，快感也好</div>
+<div class="cn-lyric">[02:36.02]不安也好，快感也好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ダイヤル<rt class="roma">daiyaru</rt></ruby><ruby>ひとつ<rt class="roma">hitotsu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>...」
+[02:40.14]<ruby>ダイヤル<rt class="roma">daiyaru</rt></ruby><ruby>ひとつ<rt class="roma">hitotsu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>...」
 </div>
-<div class="cn-lyric">只需一个拨号…」</div>
+<div class="cn-lyric">[02:40.14]只需一个拨号…」</div>
 </div>
 
 <br />
@@ -280,9 +280,9 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[02:53.02]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
-<div class="cn-lyric">都无所谓了吗</div>
+<div class="cn-lyric">[02:53.02]都无所谓了吗</div>
 </div>
 
 <div class="lyric-line">

@@ -72,9 +72,9 @@ image: /images/albums/rim/new-romancer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>汚<rt class="furi">きたな</rt><rt class="roma">kitana</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>不憫<rt class="furi">ふびん</rt><rt class="roma">fubin</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>あちら<rt class="roma">achira</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
+[02:48.92]<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>汚<rt class="furi">きたな</rt><rt class="roma">kitana</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>不憫<rt class="furi">ふびん</rt><rt class="roma">fubin</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>あちら<rt class="roma">achira</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
-<div class="cn-lyric">去更肮脏更可怜的彼方</div>
+<div class="cn-lyric">[02:48.92]去更肮脏更可怜的彼方</div>
 </div>
 
 <div class="lyric-line">

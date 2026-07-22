@@ -47,9 +47,9 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>助<rt class="furi">たす</rt><rt class="roma">tasu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>呼<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby>Japanese People, restaurant
+[00:26.96]<ruby>助<rt class="furi">たす</rt><rt class="roma">tasu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>呼<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby>Japanese People, restaurant
 </div>
-<div class="cn-lyric">求救的日本人, 餐厅</div>
+<div class="cn-lyric">[00:26.96]求救的日本人, 餐厅</div>
 </div>
 
 <div class="lyric-line">
@@ -82,30 +82,30 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-UFO<ruby>に<rt class="roma">ni</rt></ruby><ruby>吸い込<rt class="furi">すいこ</rt><rt class="roma">suiko</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
+[00:40.29]UFO<ruby>に<rt class="roma">ni</rt></ruby><ruby>吸い込<rt class="furi">すいこ</rt><rt class="roma">suiko</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
-<div class="cn-lyric">被UFO吸进去了啊</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>一方<rt class="furi">いっぽう</rt><rt class="roma">ippou</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>頃<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby>planet tree<ruby>で<rt class="roma">de</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby>
-</div>
-<div class="cn-lyric">与此同时在planet tree我们</div>
+<div class="cn-lyric">[00:40.29]被UFO吸进去了啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Rabbit<ruby>が<rt class="roma">ga</rt></ruby><ruby>地球<rt class="furi">ちきゅう</rt><rt class="roma">chikyuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[00:42.76]<ruby>一方<rt class="furi">いっぽう</rt><rt class="roma">ippou</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>頃<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby>planet tree<ruby>で<rt class="roma">de</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby>
 </div>
-<div class="cn-lyric">看着兔子掉落到地球</div>
+<div class="cn-lyric">[00:42.76]与此同时在planet tree我们</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Core<ruby>とか<rt class="roma">toka</rt></ruby>nova<ruby>とか<rt class="roma">toka</rt></ruby><ruby>よく<rt class="roma">yoku</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[00:45.45]Rabbit<ruby>が<rt class="roma">ga</rt></ruby><ruby>地球<rt class="furi">ちきゅう</rt><rt class="roma">chikyuu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
-<div class="cn-lyric">Core啊nova啊不太明白</div>
+<div class="cn-lyric">[00:45.45]看着兔子掉落到地球</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:47.83]Core<ruby>とか<rt class="roma">toka</rt></ruby>nova<ruby>とか<rt class="roma">toka</rt></ruby><ruby>よく<rt class="roma">yoku</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+</div>
+<div class="cn-lyric">[00:47.83]Core啊nova啊不太明白</div>
 </div>
 
 <div class="lyric-line">
@@ -145,34 +145,34 @@ Core<ruby>とか<rt class="roma">toka</rt></ruby>nova<ruby>とか<rt class="roma
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby>Love<ruby>が<rt class="roma">ga</rt></ruby><ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby>
+[01:03.83]<ruby>ただ<rt class="roma">tada</rt></ruby>Love<ruby>が<rt class="roma">ga</rt></ruby><ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby>
 </div>
-<div class="cn-lyric">只是Love满溢啊 今夜</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>てか<rt class="roma">teka</rt></ruby>Love<ruby>で<rt class="roma">de</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たそ<rt class="roma">taso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby>
-</div>
-<div class="cn-lyric">不如用Love填满吧 今夜</div>
+<div class="cn-lyric">[01:03.83]只是Love满溢啊 今夜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's a dancing <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>てよ<rt class="roma">teyo</rt></ruby>alien
+[01:06.28]<ruby>てか<rt class="roma">teka</rt></ruby>Love<ruby>で<rt class="roma">de</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たそ<rt class="roma">taso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby>
 </div>
-<div class="cn-lyric">It's a dancing 看好了alien</div>
-<div class="cn-lyric">It's a dancing 看好了alien</div>
-<div class="cn-lyric">It's a dancing 看好了alien</div>
+<div class="cn-lyric">[01:06.28]不如用Love填满吧 今夜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Music <ruby>は<rt class="roma">wa</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:09.22]It's a dancing <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>てよ<rt class="roma">teyo</rt></ruby>alien
 </div>
-<div class="cn-lyric">Music会改变世界哦</div>
-<div class="cn-lyric">Music会改变世界哦</div>
-<div class="cn-lyric">Music会改变世界哦</div>
+<div class="cn-lyric">[01:09.22]It's a dancing 看好了alien</div>
+<div class="cn-lyric">[01:09.22]It's a dancing 看好了alien</div>
+<div class="cn-lyric">[01:09.22]It's a dancing 看好了alien</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:11.77]Music <ruby>は<rt class="roma">wa</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[01:11.77]Music会改变世界哦</div>
+<div class="cn-lyric">[01:11.77]Music会改变世界哦</div>
+<div class="cn-lyric">[01:11.77]Music会改变世界哦</div>
 </div>
 
 <div class="lyric-line">
@@ -186,30 +186,30 @@ Music <ruby>は<rt class="roma">wa</rt></ruby><ruby>世界<rt class="furi">せ�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>パン<rt class="roma">pan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>mellow <ruby>の<rt class="roma">no</rt></ruby>jam <ruby>を<rt class="roma">wo</rt></ruby><ruby>塗<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:17.16]<ruby>パン<rt class="roma">pan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>mellow <ruby>の<rt class="roma">no</rt></ruby>jam <ruby>を<rt class="roma">wo</rt></ruby><ruby>塗<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">在面包上涂上mellow的果酱吧</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>ドレミ<rt class="roma">doremi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>音符<rt class="furi">おんぷ</rt><rt class="roma">onpu</rt></ruby>milk <ruby>に<rt class="roma">ni</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>かし<rt class="roma">kashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
-</div>
-<div class="cn-lyric">把do re mi的音符溶进牛奶里</div>
+<div class="cn-lyric">[01:17.16]在面包上涂上mellow的果酱吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>お菓子<rt class="furi">おかし</rt><rt class="roma">okashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>Good night baby
+[01:19.92]<ruby>ドレミ<rt class="roma">doremi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>音符<rt class="furi">おんぷ</rt><rt class="roma">onpu</rt></ruby>milk <ruby>に<rt class="roma">ni</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>かし<rt class="roma">kashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">在糖果屋里Good night baby</div>
+<div class="cn-lyric">[01:19.92]把do re mi的音符溶进牛奶里</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あの<rt class="roma">ano</rt></ruby><ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>付<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>kissmark<ruby>が<rt class="roma">ga</rt></ruby><ruby>ドレス<rt class="roma">doresu</rt></ruby><ruby>コード<rt class="roma">koudo</rt></ruby>
+[01:22.45]<ruby>お菓子<rt class="furi">おかし</rt><rt class="roma">okashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>Good night baby
 </div>
-<div class="cn-lyric">那孩子留下的吻痕是着装要求</div>
+<div class="cn-lyric">[01:22.45]在糖果屋里Good night baby</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:25.03]<ruby>あの<rt class="roma">ano</rt></ruby><ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>付<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>kissmark<ruby>が<rt class="roma">ga</rt></ruby><ruby>ドレス<rt class="roma">doresu</rt></ruby><ruby>コード<rt class="roma">koudo</rt></ruby>
+</div>
+<div class="cn-lyric">[01:25.03]那孩子留下的吻痕是着装要求</div>
 </div>
 
 <div class="lyric-line">
@@ -298,9 +298,9 @@ Music <ruby>は<rt class="roma">wa</rt></ruby><ruby>世界<rt class="furi">せ�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エイリアン<rt class="roma">eirian</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>脳<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>これ<rt class="roma">kore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>塔<rt class="furi">とう</rt><rt class="roma">tou</rt></ruby>戴
+[02:03.53]<ruby>エイリアン<rt class="roma">eirian</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>脳<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>これ<rt class="roma">kore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>塔<rt class="furi">とう</rt><rt class="roma">tou</rt></ruby>戴
 </div>
-<div class="cn-lyric">将其装入外星人的大脑</div>
+<div class="cn-lyric">[02:03.53]将其装入外星人的大脑</div>
 </div>
 
 <div class="lyric-line">
@@ -347,9 +347,9 @@ Music <ruby>は<rt class="roma">wa</rt></ruby><ruby>世界<rt class="furi">せ�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby> <ruby>そう<rt class="roma">sou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[02:14.36]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby> <ruby>そう<rt class="roma">sou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>帰<rt class="furi">かえ</rt><rt class="roma">kae</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
-<div class="cn-lyric">是吗 是啊 就要回去了啊</div>
+<div class="cn-lyric">[02:14.36]是吗 是啊 就要回去了啊</div>
 </div>
 
 <div class="lyric-line">
@@ -361,18 +361,18 @@ Music <ruby>は<rt class="roma">wa</rt></ruby><ruby>世界<rt class="furi">せ�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby>Love <ruby>が<rt class="roma">ga</rt></ruby><ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby>
+[02:17.09]<ruby>ただ<rt class="roma">tada</rt></ruby>Love <ruby>が<rt class="roma">ga</rt></ruby><ruby>溢<rt class="furi">あふ</rt><rt class="roma">afu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby>
 </div>
-<div class="cn-lyric">只是Love满溢啊 今夜</div>
-<div class="cn-lyric">只是Love满溢啊 今夜</div>
+<div class="cn-lyric">[02:17.09]只是Love满溢啊 今夜</div>
+<div class="cn-lyric">[02:17.09]只是Love满溢啊 今夜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>てか<rt class="roma">teka</rt></ruby>Love <ruby>で<rt class="roma">de</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たそ<rt class="roma">taso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby>
+[02:19.49]<ruby>てか<rt class="roma">teka</rt></ruby>Love <ruby>で<rt class="roma">de</rt></ruby><ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たそ<rt class="roma">taso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>今夜<rt class="furi">こんや</rt><rt class="roma">kon'ya</rt></ruby>
 </div>
-<div class="cn-lyric">不如用Love填满吧 今夜</div>
-<div class="cn-lyric">不如用Love填满吧 今夜</div>
+<div class="cn-lyric">[02:19.49]不如用Love填满吧 今夜</div>
+<div class="cn-lyric">[02:19.49]不如用Love填满吧 今夜</div>
 </div>
 
 <div class="lyric-line">
@@ -395,26 +395,26 @@ Music <ruby>は<rt class="roma">wa</rt></ruby><ruby>世界<rt class="furi">せ�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>パン<rt class="roma">pan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>mellow <ruby>の<rt class="roma">no</rt></ruby> jam <ruby>を<rt class="roma">wo</rt></ruby><ruby>塗<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:30.09]<ruby>パン<rt class="roma">pan</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>mellow <ruby>の<rt class="roma">no</rt></ruby> jam <ruby>を<rt class="roma">wo</rt></ruby><ruby>塗<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>ろ<rt class="roma">ro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">在面包上涂上mellow的果酱吧</div>
-<div class="cn-lyric">在面包上涂上mellow的果酱吧</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>ドレミ<rt class="roma">doremi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>音符<rt class="furi">おんぷ</rt><rt class="roma">onpu</rt></ruby> milk <ruby>に<rt class="roma">ni</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>かし<rt class="roma">kashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
-</div>
-<div class="cn-lyric">把do re mi的音符溶进牛奶里</div>
-<div class="cn-lyric">把do re mi的音符溶进牛奶里</div>
+<div class="cn-lyric">[02:30.09]在面包上涂上mellow的果酱吧</div>
+<div class="cn-lyric">[02:30.09]在面包上涂上mellow的果酱吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>お菓子<rt class="furi">おかし</rt><rt class="roma">okashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> Good night baby
+[02:32.97]<ruby>ドレミ<rt class="roma">doremi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>音符<rt class="furi">おんぷ</rt><rt class="roma">onpu</rt></ruby> milk <ruby>に<rt class="roma">ni</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>かし<rt class="roma">kashi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">在糖果屋里Good night baby</div>
-<div class="cn-lyric">在糖果屋里Good night baby</div>
+<div class="cn-lyric">[02:32.97]把do re mi的音符溶进牛奶里</div>
+<div class="cn-lyric">[02:32.97]把do re mi的音符溶进牛奶里</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:35.49]<ruby>お菓子<rt class="furi">おかし</rt><rt class="roma">okashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>家<rt class="furi">いえ</rt><rt class="roma">ie</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> Good night baby
+</div>
+<div class="cn-lyric">[02:35.49]在糖果屋里Good night baby</div>
+<div class="cn-lyric">[02:35.49]在糖果屋里Good night baby</div>
 </div>
 
 <div class="lyric-line">

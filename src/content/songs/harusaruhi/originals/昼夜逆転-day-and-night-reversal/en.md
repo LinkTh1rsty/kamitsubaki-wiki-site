@@ -33,50 +33,50 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah, yeah
+[00:04.96]yeah, yeah
 </div>
 <div class="trans-lyric">yeah, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[00:06.51]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
+</div>
+<div class="trans-lyric">Day? Night? Now what time?</div>
+<div class="trans-lyric">Day? Night? Now what time?</div>
+<div class="trans-lyric">Day? Night? Now what time?</div>
+<div class="trans-lyric">Day? Night? Now what time?</div>
+<div class="trans-lyric">Day? Night? Now what time?</div>
+<div class="trans-lyric">Day? Night? Now what time?</div>
+<div class="trans-lyric">Day? Night? Now what time?</div>
+<div class="trans-lyric">Day? Night? Now what time?</div>
+<div class="trans-lyric">Day? Night? Now what time?</div>
+<div class="trans-lyric">Day? Night? Now what time?</div>
+<div class="trans-lyric">Day? Night? Now what time?</div>
+<div class="trans-lyric">Day? Night? Now what time?</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:09.61]2<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby>〜4<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>my time, yeah
+</div>
+<div class="trans-lyric">From 2 to 4 it's my time, yeah</div>
+<div class="trans-lyric">From 2 to 4 it's my time, yeah</div>
+<div class="trans-lyric">From 2 to 4 it's my time, yeah</div>
+<div class="trans-lyric">From 2 to 4 it's my time, yeah</div>
+<div class="trans-lyric">From 2 to 4 it's my time, yeah</div>
+<div class="trans-lyric">From 2 to 4 it's my time, yeah</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
 <ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
 </div>
-<div class="trans-lyric">Day? Night? Now what time?</div>
-<div class="trans-lyric">Day? Night? Now what time?</div>
-<div class="trans-lyric">Day? Night? Now what time?</div>
-<div class="trans-lyric">Day? Night? Now what time?</div>
-<div class="trans-lyric">Day? Night? Now what time?</div>
-<div class="trans-lyric">Day? Night? Now what time?</div>
-<div class="trans-lyric">Day? Night? Now what time?</div>
-<div class="trans-lyric">Day? Night? Now what time?</div>
-<div class="trans-lyric">Day? Night? Now what time?</div>
-<div class="trans-lyric">Day? Night? Now what time?</div>
-<div class="trans-lyric">Day? Night? Now what time?</div>
-<div class="trans-lyric">Day? Night? Now what time?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-2<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby>〜4<ruby>時<rt class="furi">じ</rt><rt class="roma">ji</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>my time, yeah
-</div>
-<div class="trans-lyric">From 2 to 4 it's my time, yeah</div>
-<div class="trans-lyric">From 2 to 4 it's my time, yeah</div>
-<div class="trans-lyric">From 2 to 4 it's my time, yeah</div>
-<div class="trans-lyric">From 2 to 4 it's my time, yeah</div>
-<div class="trans-lyric">From 2 to 4 it's my time, yeah</div>
-<div class="trans-lyric">From 2 to 4 it's my time, yeah</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby>?<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>?<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>what time?
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>おやすみ<rt class="roma">oyasumi</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>sunrise, yeah
+[00:15.85]<ruby>おやすみ<rt class="roma">oyasumi</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>sunrise, yeah
 </div>
 <div class="trans-lyric">I'll say goodnight at sunrise, yeah</div>
 <div class="trans-lyric">I'll say goodnight at sunrise, yeah</div>
@@ -119,14 +119,14 @@ yeah, yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>reverse
+[00:32.36]<ruby>昼<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>reverse
 </div>
 <div class="trans-lyric">Day and night are reversed</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>みんな<rt class="roma">minna</rt></ruby>sleep now
+[00:34.33]<ruby>みんな<rt class="roma">minna</rt></ruby>sleep now
 </div>
 <div class="trans-lyric">Everyone's sleeping now</div>
 </div>
@@ -147,7 +147,7 @@ yeah, yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>深夜<rt class="furi">しんや</rt><rt class="roma">shin'ya</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>OHAYO
+[00:40.10]<ruby>深夜<rt class="furi">しんや</rt><rt class="roma">shin'ya</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>OHAYO
 </div>
 <div class="trans-lyric">Saying 'Good morning' in the dead of night</div>
 </div>
@@ -182,7 +182,7 @@ yeah, yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>おしゃべり<rt class="roma">oshaberi</rt></ruby>
+[00:47.94]<ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>おしゃべり<rt class="roma">oshaberi</rt></ruby>
 </div>
 <div class="trans-lyric">Non-stop chatter</div>
 </div>
@@ -267,7 +267,7 @@ yeah, yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yeah Uh...
+[01:22.37]Yeah Uh...
 </div>
 <div class="trans-lyric">Yeah Uh...</div>
 <div class="trans-lyric">Yeah Uh...</div>
@@ -277,7 +277,7 @@ Yeah Uh...
 
 <div class="lyric-line">
 <div class="jp-lyric">
-What time? What time?
+[01:25.50]What time? What time?
 </div>
 <div class="trans-lyric">What time? What time?</div>
 <div class="trans-lyric">What time? What time?</div>
@@ -315,14 +315,14 @@ What time? What time?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>煌々<rt class="furi">こうこう</rt><rt class="roma">koukou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>つける<rt class="roma">tsukeru</rt></ruby>light
+[01:39.28]<ruby>煌々<rt class="furi">こうこう</rt><rt class="roma">koukou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>つける<rt class="roma">tsukeru</rt></ruby>light
 </div>
 <div class="trans-lyric">I turn on the bright light</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>昔<rt class="furi">むかし</rt><rt class="roma">mukashi</rt></ruby><ruby>よく<rt class="roma">yoku</rt></ruby><ruby>ママ<rt class="roma">mama</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>fight
+[01:40.84]<ruby>昔<rt class="furi">むかし</rt><rt class="roma">mukashi</rt></ruby><ruby>よく<rt class="roma">yoku</rt></ruby><ruby>ママ<rt class="roma">mama</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>fight
 </div>
 <div class="trans-lyric">Long ago, I often fought with mom</div>
 </div>
@@ -343,14 +343,14 @@ What time? What time?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>深夜<rt class="furi">しんや</rt><rt class="roma">shin'ya</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>返信<rt class="furi">へんしん</rt><rt class="roma">henshin</rt></ruby> I’m sorry
+[01:45.40]<ruby>深夜<rt class="furi">しんや</rt><rt class="roma">shin'ya</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>返信<rt class="furi">へんしん</rt><rt class="roma">henshin</rt></ruby> I’m sorry
 </div>
 <div class="trans-lyric">I always reply late at night, I'm sorry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>みんな<rt class="roma">minna</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>かける<rt class="roma">kakeru</rt></ruby><ruby>心配<rt class="furi">しんぱい</rt><rt class="roma">shinpai</rt></ruby> Don’t worry
+[01:48.77]<ruby>みんな<rt class="roma">minna</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>かける<rt class="roma">kakeru</rt></ruby><ruby>心配<rt class="furi">しんぱい</rt><rt class="roma">shinpai</rt></ruby> Don’t worry
 </div>
 <div class="trans-lyric">I cause everyone worry, don't worry</div>
 </div>
@@ -421,7 +421,7 @@ What time? What time?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tick-tack Tick-tack
+[02:24.38]Tick-tack Tick-tack
 </div>
 <div class="trans-lyric">Tick-tack Tick-tack</div>
 <div class="trans-lyric">Tick-tack Tick-tack</div>
@@ -433,7 +433,7 @@ Tick-tack Tick-tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It’s 2 in the morning
+[02:26.75]It’s 2 in the morning
 </div>
 <div class="trans-lyric">It’s 2 in the morning</div>
 </div>
@@ -446,7 +446,7 @@ Tick-tack Tick-tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It’s 3 in the morning
+[02:32.91]It’s 3 in the morning
 </div>
 <div class="trans-lyric">It’s 3 in the morning</div>
 </div>
@@ -459,7 +459,7 @@ Tick-tack Tick-tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It’s 4 in the morning
+[02:39.18]It’s 4 in the morning
 </div>
 <div class="trans-lyric">It’s 4 in the morning</div>
 </div>
@@ -490,14 +490,14 @@ Tick-tack Tick-tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah yeah
+[02:57.63]yeah yeah
 </div>
 <div class="trans-lyric">yeah yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good night
+[02:59.09]Good night
 </div>
 <div class="trans-lyric">Good night</div>
 </div>

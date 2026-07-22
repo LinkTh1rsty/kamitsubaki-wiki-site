@@ -48,9 +48,9 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>」「<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>」
+[00:23.64]「<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>」「<ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>」
 </div>
-<div class="cn-lyric">「好想见你」「我也是，想见你」</div>
+<div class="cn-lyric">[00:23.64]「好想见你」「我也是，想见你」</div>
 </div>
 
 <div class="lyric-line">
@@ -62,9 +62,9 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エレベーター<rt class="roma">erebeetaa</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>こっそり<rt class="roma">kossori</rt></ruby><ruby>キス<rt class="roma">kisu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
+[00:39.93]<ruby>エレベーター<rt class="roma">erebeetaa</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>こっそり<rt class="roma">kossori</rt></ruby><ruby>キス<rt class="roma">kisu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
-<div class="cn-lyric">在电梯里 偷偷接吻</div>
+<div class="cn-lyric">[00:39.93]在电梯里 偷偷接吻</div>
 </div>
 
 <div class="lyric-line">
@@ -83,9 +83,9 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>しゃべり<rt class="roma">shaberi</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>ランラン<rt class="roma">ranran</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[00:51.17]<ruby>しゃべり<rt class="roma">shaberi</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>ランラン<rt class="roma">ranran</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
-<div class="cn-lyric">聊不够 灿烂地恋爱着</div>
+<div class="cn-lyric">[00:51.17]聊不够 灿烂地恋爱着</div>
 </div>
 
 <div class="lyric-line">
@@ -232,9 +232,9 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>とりあえず<rt class="roma">toriaezu</rt></ruby><ruby>話<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:38.69]<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>とりあえず<rt class="roma">toriaezu</rt></ruby><ruby>話<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">只要能见面什么都行 总之想和你说话</div>
+<div class="cn-lyric">[03:38.69]只要能见面什么都行 总之想和你说话</div>
 </div>
 
 <div class="lyric-line">

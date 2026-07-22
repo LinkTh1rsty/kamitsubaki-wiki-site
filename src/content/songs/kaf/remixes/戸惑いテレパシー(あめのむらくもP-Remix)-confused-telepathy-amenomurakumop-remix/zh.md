@@ -94,16 +94,16 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>人間<rt class="furi">にんげん</rt><rt class="roma">ningen</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>曝<ruby>け<rt class="roma">ke</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:28.74]<ruby>人間<rt class="furi">にんげん</rt><rt class="roma">ningen</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>曝<ruby>け<rt class="roma">ke</rt></ruby><ruby>出<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">就会暴露自己不是人类哦</div>
+<div class="cn-lyric">[00:28.74]就会暴露自己不是人类哦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>吹っ飛<rt class="furi">ふっと</rt><rt class="roma">futto</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby>
+[00:33.57]<ruby>吹っ飛<rt class="furi">ふっと</rt><rt class="roma">futto</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby>
 </div>
-<div class="cn-lyric">飞走吧</div>
+<div class="cn-lyric">[00:33.57]飞走吧</div>
 </div>
 
 <div class="lyric-line">
@@ -139,10 +139,10 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>かっぽ<rt class="roma">kappo</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
+[00:44.23]<ruby>その<rt class="roma">sono</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>かっぽ<rt class="roma">kappo</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
-<div class="cn-lyric">如果睁开眼睛注意到了</div>
-<div class="cn-lyric">如果睁开眼睛注意到了</div>
+<div class="cn-lyric">[00:44.23]如果睁开眼睛注意到了</div>
+<div class="cn-lyric">[00:44.23]如果睁开眼睛注意到了</div>
 </div>
 
 <div class="lyric-line">
@@ -240,9 +240,9 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>人間<rt class="furi">にんげん</rt><rt class="roma">ningen</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
+[01:31.57]<ruby>人間<rt class="furi">にんげん</rt><rt class="roma">ningen</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>
 </div>
-<div class="cn-lyric">你早就注意到我不是人类了吧</div>
+<div class="cn-lyric">[01:31.57]你早就注意到我不是人类了吧</div>
 </div>
 
 <div class="lyric-line">

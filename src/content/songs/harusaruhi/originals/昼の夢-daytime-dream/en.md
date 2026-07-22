@@ -33,7 +33,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-la la la la la la la la
+[00:01.37]la la la la la la la la
 </div>
 <div class="trans-lyric">la la la la la la la la</div>
 </div>
@@ -42,7 +42,7 @@ la la la la la la la la
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah, yeah
+[00:08.54]yeah, yeah
 </div>
 <div class="trans-lyric">yeah, yeah</div>
 </div>
@@ -100,28 +100,28 @@ yeah, yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ビター<rt class="roma">bitaa</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>NG <ruby>ミルク<rt class="roma">miruku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>たっぷり<rt class="roma">tappuri</rt></ruby>
+[00:30.16]<ruby>ビター<rt class="roma">bitaa</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>NG <ruby>ミルク<rt class="roma">miruku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>たっぷり<rt class="roma">tappuri</rt></ruby>
 </div>
 <div class="trans-lyric">Bitter is a no-go, lots of milk</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>覚<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:34.10]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>覚<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">Don't wake up yet</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>daytime
+[00:36.74]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>daytime
 </div>
 <div class="trans-lyric">Daytime of doing nothing</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>happy day
+[00:39.50]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>happy day
 </div>
 <div class="trans-lyric">A happy day in dreams</div>
 </div>
@@ -135,14 +135,14 @@ yeah, yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>焦<rt class="furi">あせ</rt><rt class="roma">ase</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>daytime
+[00:47.52]<ruby>焦<rt class="furi">あせ</rt><rt class="roma">ase</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>daytime
 </div>
 <div class="trans-lyric">Daytime with no worries</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>good day
+[00:50.14]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>good day
 </div>
 <div class="trans-lyric">Such a day is a good day</div>
 </div>

@@ -82,7 +82,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Don’t cry babe <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[00:21.82]Don’t cry babe <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 <div class="trans-lyric">Don't cry babe, I'm here</div>
 </div>
@@ -113,7 +113,7 @@ Don’t cry babe <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>お金<rt class="furi">おかね</rt><rt class="roma">okane</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>でかい<rt class="roma">dekai</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>yeah
+[00:35.03]<ruby>お金<rt class="furi">おかね</rt><rt class="roma">okane</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>でかい<rt class="roma">dekai</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby>yeah
 </div>
 <div class="trans-lyric">A love bigger than money, yeah</div>
 <div class="trans-lyric">A love bigger than money, yeah</div>
@@ -121,7 +121,7 @@ Don’t cry babe <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気遣<rt class="furi">きづか</rt><rt class="roma">kizuka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>yeah
+[00:38.17]<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気遣<rt class="furi">きづか</rt><rt class="roma">kizuka</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>yeah
 </div>
 <div class="trans-lyric">A capable adult's care, yeah</div>
 <div class="trans-lyric">A capable adult's care, yeah</div>
@@ -129,7 +129,7 @@ Don’t cry babe <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>ごめんなさい<rt class="roma">gomennasai</rt></ruby>yeah
+[00:41.24]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>ごめんなさい<rt class="roma">gomennasai</rt></ruby>yeah
 </div>
 <div class="trans-lyric">Saying thank you and sorry, yeah</div>
 <div class="trans-lyric">Saying thank you and sorry, yeah</div>
@@ -155,7 +155,7 @@ Don’t cry babe <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah, yeah
+[01:00.73]yeah, yeah
 </div>
 <div class="trans-lyric">yeah, yeah</div>
 </div>
@@ -211,7 +211,7 @@ yeah, yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:12.72]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">Hey, you can depend on me</div>
 </div>
@@ -296,7 +296,7 @@ yeah, yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-My love for you
+[01:57.32]My love for you
 </div>
 <div class="trans-lyric">My love for you</div>
 </div>

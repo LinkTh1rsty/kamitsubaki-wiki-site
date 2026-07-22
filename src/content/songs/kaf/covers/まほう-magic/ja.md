@@ -74,7 +74,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ぐち<rt class="roma">guchi</rt></ruby><ruby>ゃぐちゃのどろどろのこれってなんなの<rt class="roma">yaguchanodorodoronokorettenannano</rt></ruby>？
+[00:37.51]<ruby>ぐち<rt class="roma">guchi</rt></ruby><ruby>ゃぐちゃのどろどろのこれってなんなの<rt class="roma">yaguchanodorodoronokorettenannano</rt></ruby>？
 </div>
 </div>
 
@@ -148,7 +148,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>っちゃった<rt class="roma">tchatta</rt></ruby>
+[01:44.72]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>っちゃった<rt class="roma">tchatta</rt></ruby>
 </div>
 </div>
 
@@ -222,7 +222,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby> <ruby>ようこそ<rt class="roma">youkoso</rt></ruby>
+[02:34.52]<ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby> <ruby>ようこそ<rt class="roma">youkoso</rt></ruby>
 </div>
 </div>
 

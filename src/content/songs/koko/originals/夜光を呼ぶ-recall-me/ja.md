@@ -91,7 +91,7 @@ image: /images/songs/koko/single-1687478650.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(just be recall your memory ha)
+[01:02.64](just be recall your memory ha)
 </div>
 </div>
 
@@ -103,7 +103,7 @@ image: /images/songs/koko/single-1687478650.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(I can hear the voice calling you back)
+[01:08.76](I can hear the voice calling you back)
 </div>
 </div>
 
@@ -115,7 +115,7 @@ image: /images/songs/koko/single-1687478650.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(just be recall your promise words)
+[01:13.07](just be recall your promise words)
 </div>
 </div>
 
@@ -251,7 +251,7 @@ image: /images/songs/koko/single-1687478650.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-just be recall your memory ha
+[01:33.48]just be recall your memory ha
 </div>
 </div>
 

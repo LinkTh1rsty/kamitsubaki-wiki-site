@@ -33,56 +33,56 @@ ClimBinge(osirasekita Remix) appears on ClimBinge the Remix or a related officia
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>足<rt class="furi">あし</rt><rt class="roma">ashi</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[00:15.60]<ruby>奪<rt class="furi">うば</rt><rt class="roma">uba</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>足<rt class="furi">あし</rt><rt class="roma">ashi</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 <div class="trans-lyric">You stole it, from the tips of my toes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>多幸<rt class="furi">たこう</rt><rt class="roma">takou</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby>
+[00:19.46]<ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>伝<rt class="furi">つた</rt><rt class="roma">tsuta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>多幸<rt class="furi">たこう</rt><rt class="roma">takou</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby>
 </div>
 <div class="trans-lyric">Euphoria that spreads up to my head</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ウワモノ<rt class="roma">uwamono</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[00:23.09]<ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ウワモノ<rt class="roma">uwamono</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 <div class="trans-lyric">I'm dancing, like a top</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>づかい<rt class="roma">zukai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>導<rt class="furi">みちび</rt><rt class="roma">michibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
+[00:25.99]<ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>づかい<rt class="roma">zukai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>導<rt class="furi">みちび</rt><rt class="roma">michibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
 <div class="trans-lyric">Guiding with your breath</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Freedom freaks flavor
+[00:30.24]Freedom freaks flavor
 </div>
 <div class="trans-lyric">Freedom freaks flavor</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>邂逅<rt class="furi">かいこう</rt><rt class="roma">kaikou</rt></ruby> <ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>本能<rt class="furi">ほんのう</rt><rt class="roma">honnou</rt></ruby>
+[00:31.63]<ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>邂逅<rt class="furi">かいこう</rt><rt class="roma">kaikou</rt></ruby> <ruby>刻<rt class="furi">きざ</rt><rt class="roma">kiza</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>本能<rt class="furi">ほんのう</rt><rt class="roma">honnou</rt></ruby>
 </div>
 <div class="trans-lyric">Night encounter, carving instinct</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:33.58]<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">I want to devour your voice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Peak meter <ruby>振り切<rt class="furi">ふりき</rt><rt class="roma">furiki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby>
+[00:37.77]Peak meter <ruby>振り切<rt class="furi">ふりき</rt><rt class="roma">furiki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby>
 </div>
 <div class="trans-lyric">Even if the peak meter maxes out</div>
 <div class="trans-lyric">Even if the peak meter maxes out</div>
@@ -90,7 +90,7 @@ Peak meter <ruby>振り切<rt class="furi">ふりき</rt><rt class="roma">furiki
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Only holy time <ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:41.54]Only holy time <ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 <div class="trans-lyric">Only holy time, let's begin</div>
 <div class="trans-lyric">Only holy time, let's begin</div>
@@ -98,7 +98,7 @@ Only holy time <ruby>始<rt class="furi">はじ</rt><rt class="roma">haji</rt></
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Deep my voice <ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ばす<rt class="roma">basu</rt></ruby>
+[00:45.22]Deep my voice <ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ばす<rt class="roma">basu</rt></ruby>
 </div>
 <div class="trans-lyric">Entwine my deep voice and let it fly</div>
 <div class="trans-lyric">Entwine my deep voice and let it fly</div>
@@ -106,7 +106,7 @@ Deep my voice <ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></r
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>箱<rt class="furi">はこ</rt><rt class="roma">hako</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby> <ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>かせ<rt class="roma">kase</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:48.99]<ruby>箱<rt class="furi">はこ</rt><rt class="roma">hako</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby> <ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>かせ<rt class="roma">kase</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 <div class="trans-lyric">Let's resonate inside the box</div>
 <div class="trans-lyric">Let's resonate inside the box</div>
@@ -114,7 +114,7 @@ Deep my voice <ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></r
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>吐き出<rt class="furi">はきだ</rt><rt class="roma">hakida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>謳<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:58.05]<ruby>吐き出<rt class="furi">はきだ</rt><rt class="roma">hakida</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>謳<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 <div class="trans-lyric">Acclaim what you've spat out as good</div>
 <div class="trans-lyric">Acclaim what you've spat out as good</div>
@@ -122,105 +122,105 @@ Deep my voice <ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></r
 
 <div class="lyric-line">
 <div class="jp-lyric">
-House beat <ruby>の<rt class="roma">no</rt></ruby><ruby>語り口<rt class="furi">かたりくち</rt><rt class="roma">katarikuchi</rt></ruby><ruby>調<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby>
+[01:08.04]House beat <ruby>の<rt class="roma">no</rt></ruby><ruby>語り口<rt class="furi">かたりくち</rt><rt class="roma">katarikuchi</rt></ruby><ruby>調<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby>
 </div>
 <div class="trans-lyric">With a house beat's narrative tone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>辛抱<rt class="furi">しんぼう</rt><rt class="roma">shinbou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>苦手<rt class="furi">にがて</rt><rt class="roma">nigate</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:11.95]<ruby>辛抱<rt class="furi">しんぼう</rt><rt class="roma">shinbou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>苦手<rt class="furi">にがて</rt><rt class="roma">nigate</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">You seem to have no patience either</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>純然<rt class="furi">じゅんぜん</rt><rt class="roma">junzen</rt></ruby><ruby>たる<rt class="roma">taru</rt></ruby><ruby>昂<rt class="furi">たかぶ</rt><rt class="roma">takabu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[01:15.69]<ruby>純然<rt class="furi">じゅんぜん</rt><rt class="roma">junzen</rt></ruby><ruby>たる<rt class="roma">taru</rt></ruby><ruby>昂<rt class="furi">たかぶ</rt><rt class="roma">takabu</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">To the pure exhilaration</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>品性<rt class="furi">ひんせい</rt><rt class="roma">hinsei</rt></ruby><ruby>理性<rt class="furi">りせい</rt><rt class="roma">risei</rt></ruby><ruby>など<rt class="roma">nado</rt></ruby><ruby>お呼<rt class="furi">およ</rt><rt class="roma">oyo</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:18.45]<ruby>品性<rt class="furi">ひんせい</rt><rt class="roma">hinsei</rt></ruby><ruby>理性<rt class="furi">りせい</rt><rt class="roma">risei</rt></ruby><ruby>など<rt class="roma">nado</rt></ruby><ruby>お呼<rt class="furi">およ</rt><rt class="roma">oyo</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 <div class="trans-lyric">Dignity and reason are not welcome here</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>残<rt class="furi">ざん</rt><rt class="roma">zan</rt></ruby><ruby>影<rt class="furi">かげ</rt><rt class="roma">kage</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>微<rt class="furi">かす</rt><rt class="roma">kasu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>映<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
+[01:38.22]<ruby>残<rt class="furi">ざん</rt><rt class="roma">zan</rt></ruby><ruby>影<rt class="furi">かげ</rt><rt class="roma">kage</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>微<rt class="furi">かす</rt><rt class="roma">kasu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>映<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
 <div class="trans-lyric">Afterimages faintly reflect</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>足取<rt class="furi">あしど</rt><rt class="roma">ashido</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>大<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>きく<rt class="roma">kiku</rt></ruby>
+[01:42.02]<ruby>足取<rt class="furi">あしど</rt><rt class="roma">ashido</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>大<rt class="furi">おお</rt><rt class="roma">oo</rt></ruby><ruby>きく<rt class="roma">kiku</rt></ruby>
 </div>
 <div class="trans-lyric">Footsteps are large</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>映<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
+[01:45.76]<ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>映<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
 <div class="trans-lyric">Though they don't appear in your eyes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>感覚<rt class="furi">かんかく</rt><rt class="roma">kankaku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>鮮<rt class="furi">あざ</rt><rt class="roma">aza</rt></ruby><ruby>やか<rt class="roma">yaka</rt></ruby>
+[01:49.48]<ruby>感覚<rt class="furi">かんかく</rt><rt class="roma">kankaku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>鮮<rt class="furi">あざ</rt><rt class="roma">aza</rt></ruby><ruby>やか<rt class="roma">yaka</rt></ruby>
 </div>
 <div class="trans-lyric">Sensations are vivid</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Fatal phasis favour
+[01:52.77]Fatal phasis favour
 </div>
 <div class="trans-lyric">Fatal phasis favour</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>無駄<rt class="furi">むだ</rt><rt class="roma">muda</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>抵抗<rt class="furi">ていこう</rt><rt class="roma">teikou</rt></ruby> <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>狂騒<rt class="furi">きょうそう</rt><rt class="roma">kyousou</rt></ruby>
+[01:54.10]<ruby>無駄<rt class="furi">むだ</rt><rt class="roma">muda</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>抵抗<rt class="furi">ていこう</rt><rt class="roma">teikou</rt></ruby> <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>狂騒<rt class="furi">きょうそう</rt><rt class="roma">kyousou</rt></ruby>
 </div>
 <div class="trans-lyric">Useless resistance, the frenzy has stopped</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
+[01:56.08]<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>欲<rt class="furi">ほ</rt><rt class="roma">ho</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>
 </div>
 <div class="trans-lyric">I start to want your sound</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>細胞<rt class="furi">さいぼう</rt><rt class="roma">saibou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>従<rt class="furi">したが</rt><rt class="roma">shitaga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
+[02:00.32]<ruby>細胞<rt class="furi">さいぼう</rt><rt class="roma">saibou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>従<rt class="furi">したが</rt><rt class="roma">shitaga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
 <div class="trans-lyric">Following my cells</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>全身全霊<rt class="furi">ぜんしんぜんれい</rt><rt class="roma">zenshinzenrei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>打<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らす<rt class="roma">rasu</rt></ruby>
+[02:04.08]<ruby>全身全霊<rt class="furi">ぜんしんぜんれい</rt><rt class="roma">zenshinzenrei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>打<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らす<rt class="roma">rasu</rt></ruby>
 </div>
 <div class="trans-lyric">Strike with all my body and soul</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>絶頂<rt class="furi">ぜっちょう</rt><rt class="roma">zetchou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>拒<rt class="furi">こば</rt><rt class="roma">koba</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[02:07.72]<ruby>絶頂<rt class="furi">ぜっちょう</rt><rt class="roma">zetchou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>拒<rt class="furi">こば</rt><rt class="roma">koba</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 <div class="trans-lyric">I won't refuse the climax</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>至<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
+[02:11.53]<ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>至<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
 <div class="trans-lyric">Until I reach it again and again</div>
 </div>
@@ -251,7 +251,7 @@ Deep my voice <ruby>絡<rt class="furi">から</rt><rt class="roma">kara</rt></r
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Shake it shake it up
+[02:30.73]Shake it shake it up
 </div>
 <div class="trans-lyric">Shake it shake it up</div>
 <div class="trans-lyric">Shake it shake it up</div>
@@ -260,7 +260,7 @@ Shake it shake it up
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Singing making loving now
+[02:32.05]Singing making loving now
 </div>
 <div class="trans-lyric">Singing making loving now</div>
 <div class="trans-lyric">Singing making loving now</div>
@@ -274,7 +274,7 @@ Shake it shake it up
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Wow wow wow wow
+[02:35.85]Wow wow wow wow
 </div>
 <div class="trans-lyric">Wow wow wow wow</div>
 </div>

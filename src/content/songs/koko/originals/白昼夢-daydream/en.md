@@ -156,14 +156,14 @@ image: /images/songs/koko/single-1687479335.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>SNS
+[01:57.24]<ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>SNS
 </div>
 <div class="trans-lyric">Cut and be cut, SNS</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>にとって<rt class="roma">nitotte</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby>SOS
+[02:00.14]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>にとって<rt class="roma">nitotte</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby>SOS
 </div>
 <div class="trans-lyric">To you, I'm an SOS</div>
 </div>
@@ -284,7 +284,7 @@ image: /images/songs/koko/single-1687479335.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[03:21.14]<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> <ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 <div class="trans-lyric">I want to hear, I want to hear</div>
 </div>

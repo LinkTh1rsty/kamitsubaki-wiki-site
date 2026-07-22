@@ -47,7 +47,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>知り合<rt class="furi">しりあ</rt><rt class="roma">shiria</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>become best friend
+[00:05.33]<ruby>知り合<rt class="furi">しりあ</rt><rt class="roma">shiria</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>become best friend
 </div>
 <div class="trans-lyric">From acquaintances, become best friend</div>
 </div>
@@ -82,14 +82,14 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>受け止<rt class="furi">うけと</rt><rt class="roma">uketo</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby> <ruby>ああ<rt class="roma">aa</rt></ruby><ruby>まるで<rt class="roma">marude</rt></ruby><ruby>神<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby>yeah
+[00:18.21]<ruby>受け止<rt class="furi">うけと</rt><rt class="roma">uketo</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby> <ruby>ああ<rt class="roma">aa</rt></ruby><ruby>まるで<rt class="roma">marude</rt></ruby><ruby>神<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby>yeah
 </div>
 <div class="trans-lyric">You accept it all, ah, like a god, yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>ヘコ<rt class="roma">heko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[00:21.42]<ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>ヘコ<rt class="roma">heko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 <div class="trans-lyric">Even on the nights when I was feeling down</div>
 </div>
@@ -110,7 +110,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>どこ<rt class="roma">doko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>援護<rt class="furi">えんご</rt><rt class="roma">engo</rt></ruby>
+[00:29.42]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>どこ<rt class="roma">doko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>援護<rt class="furi">えんご</rt><rt class="roma">engo</rt></ruby>
 </div>
 <div class="trans-lyric">But it's fine, I have support from everywhere</div>
 </div>
@@ -138,7 +138,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby><ruby>世<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>来世<rt class="furi">らいせ</rt><rt class="roma">raise</rt></ruby><ruby>共<rt class="furi">ども</rt><rt class="roma">domo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>my friend
+[00:39.37]<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby><ruby>世<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>来世<rt class="furi">らいせ</rt><rt class="roma">raise</rt></ruby><ruby>共<rt class="furi">ども</rt><rt class="roma">domo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>my friend
 </div>
 <div class="trans-lyric">In this life and the next, let's be together, my friend</div>
 </div>

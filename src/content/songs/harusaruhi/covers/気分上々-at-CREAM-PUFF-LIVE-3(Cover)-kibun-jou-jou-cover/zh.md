@@ -33,77 +33,192 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hey DJ <ruby>カマ<rt class="roma">kama</rt></ruby><ruby>セ<rt class="roma">se</rt></ruby> yeah yeah yeah <ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>上々<rt class="furi">じょうじょう</rt><rt class="roma">joujou</rt></ruby>↑↑<ruby>の<rt class="roma">no</rt></ruby>
+[00:03.31]Hey DJ <ruby>カマ<rt class="roma">kama</rt></ruby><ruby>セ<rt class="roma">se</rt></ruby> yeah yeah yeah <ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>上々<rt class="furi">じょうじょう</rt><rt class="roma">joujou</rt></ruby>↑↑<ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="cn-lyric">Hey DJ 来点猛的 yeah yeah yeah 心情高涨↑↑的</div>
+<div class="cn-lyric">[00:03.31]Hey DJ 来点猛的 yeah yeah yeah 心情高涨↑↑的</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:08.25]<ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>とせ<rt class="roma">tose</rt></ruby> <ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らせ<rt class="roma">rase</rt></ruby> <ruby>パーリナイ<rt class="roma">paarinai</rt></ruby>
+</div>
+<div class="cn-lyric">[00:08.25]放下唱针 响起音乐 派对之夜</div>
+<div class="cn-lyric">[00:08.25]放下唱针 响起音乐 派对之夜</div>
+<div class="cn-lyric">[00:08.25]放下唱针 响起音乐 派对之夜</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:12.04]<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>！
+</div>
+<div class="cn-lyric">[00:12.04]喝吧 来 来 来 大家一起跳！</div>
+<div class="cn-lyric">[00:12.04]喝吧 来 来 来 大家一起跳！</div>
+<div class="cn-lyric">[00:12.04]喝吧 来 来 来 大家一起跳！</div>
+<div class="cn-lyric">[00:12.04]喝吧 来 来 来 大家一起跳！</div>
+<div class="cn-lyric">[00:12.04]喝吧 来 来 来 大家一起跳！</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:16.08]Hip-pop <ruby>ピーポー<rt class="roma">piipou</rt></ruby> <ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ミラクル<rt class="roma">mirakuru</rt></ruby> number
+</div>
+<div class="cn-lyric">[00:16.08]Hip-pop 哔啵 请播放奇迹 number</div>
+<div class="cn-lyric">[00:16.08]Hip-pop 哔啵 请播放奇迹 number</div>
+<div class="cn-lyric">[00:16.08]Hip-pop 哔啵 请播放奇迹 number</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:27.05]Yo! <ruby>こんな<rt class="roma">konna</rt></ruby><ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かち<rt class="roma">kachi</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> music <ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>地球儀<rt class="furi">ちきゅうぎ</rt><rt class="roma">chikyuugi</rt></ruby>
+</div>
+<div class="cn-lyric">[00:27.05]Yo! 在这样的时代 分享音乐 想寻找而转动地球仪</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:31.29]<ruby>グラ<rt class="roma">gura</rt></ruby><ruby>つく<rt class="roma">tsuku</rt></ruby><ruby>不安定<rt class="furi">ふあんてい</rt><rt class="roma">fuantei</rt></ruby><ruby>生活<rt class="furi">せいかつ</rt><rt class="roma">seikatsu</rt></ruby> <ruby>それ<rt class="roma">sore</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>バランス<rt class="roma">baransu</rt></ruby><ruby>重視<rt class="furi">じゅうし</rt><rt class="roma">juushi</rt></ruby>
+</div>
+<div class="cn-lyric">[00:31.29]摇摇欲坠的不安定生活 所以重视平衡</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:35.22]<ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>「<ruby>頑張<rt class="furi">がんば</rt><rt class="roma">ganba</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>！」<ruby>最悪<rt class="furi">さいあく</rt><rt class="roma">saiaku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>キック<rt class="roma">kikku</rt></ruby>
+</div>
+<div class="cn-lyric">[00:35.22]因为不全是好事「加油！」在最糟的日子踢一脚</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:38.98]<ruby>再<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby><ruby>起動<rt class="furi">きどう</rt><rt class="roma">kidou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ボタン<rt class="roma">botan</rt></ruby> <ruby>クリック<rt class="roma">kurikku</rt></ruby>！DJ<ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>! <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> trip
+</div>
+<div class="cn-lyric">[00:38.98]重启的按钮 单击！DJ播放！现在 trip</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:42.23]<ruby>シャレ<rt class="roma">share</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>ビート<rt class="roma">biito</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じる<rt class="roma">jiru</rt></ruby><ruby>体<rt class="furi">からだ</rt><rt class="roma">karada</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>らそ<rt class="roma">raso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[00:42.23]乘上时髦的节拍 感受 让身体摇摆吧</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:53.28]Hey DJ <ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah <ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>上々<rt class="furi">じょうじょう</rt><rt class="roma">joujou</rt></ruby>↑↑<ruby>の<rt class="roma">no</rt></ruby>
+</div>
+<div class="cn-lyric">[00:53.28]Hey DJ 来点猛的 yeah yeah yeah 心情高涨↑↑的</div>
+<div class="cn-lyric">[00:53.28]Hey DJ 来点猛的 yeah yeah yeah 心情高涨↑↑的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>とせ<rt class="roma">tose</rt></ruby> <ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らせ<rt class="roma">rase</rt></ruby> <ruby>パーリナイ<rt class="roma">paarinai</rt></ruby>
 </div>
-<div class="cn-lyric">放下唱针 响起音乐 派对之夜</div>
-<div class="cn-lyric">放下唱针 响起音乐 派对之夜</div>
-<div class="cn-lyric">放下唱针 响起音乐 派对之夜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>！
 </div>
-<div class="cn-lyric">喝吧 来 来 来 大家一起跳！</div>
-<div class="cn-lyric">喝吧 来 来 来 大家一起跳！</div>
-<div class="cn-lyric">喝吧 来 来 来 大家一起跳！</div>
-<div class="cn-lyric">喝吧 来 来 来 大家一起跳！</div>
-<div class="cn-lyric">喝吧 来 来 来 大家一起跳！</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Hip-pop <ruby>ピーポー<rt class="roma">piipou</rt></ruby> <ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ミラクル<rt class="roma">mirakuru</rt></ruby> number
 </div>
-<div class="cn-lyric">Hip-pop 哔啵 请播放奇迹 number</div>
-<div class="cn-lyric">Hip-pop 哔啵 请播放奇迹 number</div>
-<div class="cn-lyric">Hip-pop 哔啵 请播放奇迹 number</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yo! <ruby>こんな<rt class="roma">konna</rt></ruby><ruby>時代<rt class="furi">じだい</rt><rt class="roma">jidai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かち<rt class="roma">kachi</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> music <ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>地球儀<rt class="furi">ちきゅうぎ</rt><rt class="roma">chikyuugi</rt></ruby>
+[01:20.88]Hip hop, R&amp;B, pops, techno, house, rock... hip-pop!
 </div>
-<div class="cn-lyric">Yo! 在这样的时代 分享音乐 想寻找而转动地球仪</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>グラ<rt class="roma">gura</rt></ruby><ruby>つく<rt class="roma">tsuku</rt></ruby><ruby>不安定<rt class="furi">ふあんてい</rt><rt class="roma">fuantei</rt></ruby><ruby>生活<rt class="furi">せいかつ</rt><rt class="roma">seikatsu</rt></ruby> <ruby>それ<rt class="roma">sore</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>バランス<rt class="roma">baransu</rt></ruby><ruby>重視<rt class="furi">じゅうし</rt><rt class="roma">juushi</rt></ruby>
-</div>
-<div class="cn-lyric">摇摇欲坠的不安定生活 所以重视平衡</div>
+<div class="cn-lyric">[01:20.88]Hip hop, R&B, pops, techno, house, rock... hip-pop!</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>「<ruby>頑張<rt class="furi">がんば</rt><rt class="roma">ganba</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>！」<ruby>最悪<rt class="furi">さいあく</rt><rt class="roma">saiaku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>キック<rt class="roma">kikku</rt></ruby>
+[01:24.96]<ruby>オリジナル<rt class="roma">orijinaru</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>キーポイント<rt class="roma">kiipointo</rt></ruby> <ruby>それぞれ<rt class="roma">sorezore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>重ね合<rt class="furi">かさねあ</rt><rt class="roma">kasanea</rt></ruby><ruby>わす<rt class="roma">wasu</rt></ruby><ruby>レインボウ<rt class="roma">reinbou</rt></ruby>
 </div>
-<div class="cn-lyric">因为不全是好事「加油！」在最糟的日子踢一脚</div>
+<div class="cn-lyric">[01:24.96]寻找原创的关键点 彼此的颜色重叠的彩虹</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>再<rt class="furi">さい</rt><rt class="roma">sai</rt></ruby><ruby>起動<rt class="furi">きどう</rt><rt class="roma">kidou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ボタン<rt class="roma">botan</rt></ruby> <ruby>クリック<rt class="roma">kurikku</rt></ruby>！DJ<ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>! <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby> trip
+[01:28.96]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>聴<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>為<rt class="furi">ため</rt><rt class="roma">tame</rt></ruby> <ruby>苦<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>しむ<rt class="roma">shimu</rt></ruby><ruby>挙句<rt class="furi">あげく</rt><rt class="roma">ageku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>十字<rt class="furi">じゅうじ</rt><rt class="roma">juuji</rt></ruby><ruby>固<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
 </div>
-<div class="cn-lyric">重启的按钮 单击！DJ播放！现在 trip</div>
+<div class="cn-lyric">[01:28.96]为了让你听到 痛苦挣扎的尽头 十字固</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:32.66]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> Let's Hip-Pop! Here we, Here we go!
+</div>
+<div class="cn-lyric">[01:32.66]想要享受现在呢 Let's Hip-Pop! Here we, Here we go!</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>シャレ<rt class="roma">share</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>ビート<rt class="roma">biito</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じる<rt class="roma">jiru</rt></ruby><ruby>体<rt class="furi">からだ</rt><rt class="roma">karada</rt></ruby><ruby>揺<rt class="furi">ゆ</rt><rt class="roma">yu</rt></ruby><ruby>らそ<rt class="roma">raso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:36.15]<ruby>はしゃぐ<rt class="roma">hashagu</rt></ruby><ruby>フロア<rt class="roma">furoa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby> <ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>中<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby> <ruby>ゆさゆさ<rt class="roma">yusayusa</rt></ruby><ruby>ぶる<rt class="roma">buru</rt></ruby>
 </div>
-<div class="cn-lyric">乘上时髦的节拍 感受 让身体摇摆吧</div>
+<div class="cn-lyric">[01:36.15]在欢闹的舞池上 脑袋里 摇摇晃晃</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:47.06]Hey DJ <ruby>シャシャ<rt class="roma">shasha</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> yeah yeah yeah <ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>上々<rt class="furi">じょうじょう</rt><rt class="roma">joujou</rt></ruby>↑↑<ruby>の<rt class="roma">no</rt></ruby>
+</div>
+<div class="cn-lyric">[01:47.06]Hey DJ 耍起来 yeah yeah yeah 心情高涨↑↑的</div>
+<div class="cn-lyric">[01:47.06]Hey DJ 耍起来 yeah yeah yeah 心情高涨↑↑的</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:52.02]<ruby>波<rt class="furi">なみ</rt><rt class="roma">nami</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>弾<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby> <ruby>ファンキナイ<rt class="roma">fuankinai</rt></ruby>
+</div>
+<div class="cn-lyric">[01:52.02]乘上波浪 爆裂飞溅 放克之夜</div>
+<div class="cn-lyric">[01:52.02]乘上波浪 爆裂飞溅 放克之夜</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>！
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:59.73]Hip-pop <ruby>ピーポー<rt class="roma">piipou</rt></ruby> <ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>ミラクル<rt class="roma">mirakuru</rt></ruby> number
+</div>
+<div class="cn-lyric">[01:59.73]Hip-pop 哔啵 直到早晨的奇迹 number</div>
+<div class="cn-lyric">[01:59.73]Hip-pop 哔啵 直到早晨的奇迹 number</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:13.05]<ruby>ミラー<rt class="roma">miraa</rt></ruby><ruby>ボール<rt class="roma">bouru</rt></ruby> <ruby>スモーク<rt class="roma">sumouku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>におい<rt class="roma">nioi</rt></ruby> <ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ハーモニー<rt class="roma">haamonii</rt></ruby>
+</div>
+<div class="cn-lyric">[02:13.05]迪斯科球 烟雾的气味 似要融化的和声</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:20.74]<ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>まとって<rt class="roma">matotte</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かす<rt class="roma">kasu</rt></ruby> <ruby>がむしゃら<rt class="roma">gamushara</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+</div>
+<div class="cn-lyric">[02:20.74]身披着 起舞到天明 不顾一切地</div>
 </div>
 
 <br />
@@ -112,8 +227,6 @@ Yo! <ruby>こんな<rt class="roma">konna</rt></ruby><ruby>時代<rt class="furi
 <div class="jp-lyric">
 Hey DJ <ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah <ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>上々<rt class="furi">じょうじょう</rt><rt class="roma">joujou</rt></ruby>↑↑<ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="cn-lyric">Hey DJ 来点猛的 yeah yeah yeah 心情高涨↑↑的</div>
-<div class="cn-lyric">Hey DJ 来点猛的 yeah yeah yeah 心情高涨↑↑的</div>
 </div>
 
 <div class="lyric-line">
@@ -138,57 +251,14 @@ Hip-pop <ruby>ピーポー<rt class="roma">piipou</rt></ruby> <ruby>かけ<rt cl
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hip hop, R&amp;B, pops, techno, house, rock... hip-pop!
-</div>
-<div class="cn-lyric">Hip hop, R&B, pops, techno, house, rock... hip-pop!</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>オリジナル<rt class="roma">orijinaru</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>キーポイント<rt class="roma">kiipointo</rt></ruby> <ruby>それぞれ<rt class="roma">sorezore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>色<rt class="furi">いろ</rt><rt class="roma">iro</rt></ruby><ruby>重ね合<rt class="furi">かさねあ</rt><rt class="roma">kasanea</rt></ruby><ruby>わす<rt class="roma">wasu</rt></ruby><ruby>レインボウ<rt class="roma">reinbou</rt></ruby>
-</div>
-<div class="cn-lyric">寻找原创的关键点 彼此的颜色重叠的彩虹</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>聴<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>為<rt class="furi">ため</rt><rt class="roma">tame</rt></ruby> <ruby>苦<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>しむ<rt class="roma">shimu</rt></ruby><ruby>挙句<rt class="furi">あげく</rt><rt class="roma">ageku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>十字<rt class="furi">じゅうじ</rt><rt class="roma">juuji</rt></ruby><ruby>固<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>め<rt class="roma">me</rt></ruby>
-</div>
-<div class="cn-lyric">为了让你听到 痛苦挣扎的尽头 十字固</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>楽<rt class="furi">たの</rt><rt class="roma">tano</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> Let's Hip-Pop! Here we, Here we go!
-</div>
-<div class="cn-lyric">想要享受现在呢 Let's Hip-Pop! Here we, Here we go!</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>はしゃぐ<rt class="roma">hashagu</rt></ruby><ruby>フロア<rt class="roma">furoa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby> <ruby>頭<rt class="furi">あたま</rt><rt class="roma">atama</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>中<rt class="furi">ちゅう</rt><rt class="roma">chuu</rt></ruby> <ruby>ゆさゆさ<rt class="roma">yusayusa</rt></ruby><ruby>ぶる<rt class="roma">buru</rt></ruby>
-</div>
-<div class="cn-lyric">在欢闹的舞池上 脑袋里 摇摇晃晃</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
 Hey DJ <ruby>シャシャ<rt class="roma">shasha</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> yeah yeah yeah <ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>上々<rt class="furi">じょうじょう</rt><rt class="roma">joujou</rt></ruby>↑↑<ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="cn-lyric">Hey DJ 耍起来 yeah yeah yeah 心情高涨↑↑的</div>
-<div class="cn-lyric">Hey DJ 耍起来 yeah yeah yeah 心情高涨↑↑的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>波<rt class="furi">なみ</rt><rt class="roma">nami</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>弾<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby> <ruby>ファンキナイ<rt class="roma">fuankinai</rt></ruby>
 </div>
-<div class="cn-lyric">乘上波浪 爆裂飞溅 放克之夜</div>
-<div class="cn-lyric">乘上波浪 爆裂飞溅 放克之夜</div>
 </div>
 
 <div class="lyric-line">
@@ -201,105 +271,35 @@ Hey DJ <ruby>シャシャ<rt class="roma">shasha</rt></ruby><ruby>れ<rt class="
 <div class="jp-lyric">
 Hip-pop <ruby>ピーポー<rt class="roma">piipou</rt></ruby> <ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>ミラクル<rt class="roma">mirakuru</rt></ruby> number
 </div>
-<div class="cn-lyric">Hip-pop 哔啵 直到早晨的奇迹 number</div>
-<div class="cn-lyric">Hip-pop 哔啵 直到早晨的奇迹 number</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ミラー<rt class="roma">miraa</rt></ruby><ruby>ボール<rt class="roma">bouru</rt></ruby> <ruby>スモーク<rt class="roma">sumouku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>におい<rt class="roma">nioi</rt></ruby> <ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ハーモニー<rt class="roma">haamonii</rt></ruby>
+[03:11.53]Hey DJ <ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah
 </div>
-<div class="cn-lyric">迪斯科球 烟雾的气味 似要融化的和声</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>まとって<rt class="roma">matotte</rt></ruby> <ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かす<rt class="roma">kasu</rt></ruby> <ruby>がむしゃら<rt class="roma">gamushara</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
-</div>
-<div class="cn-lyric">身披着 起舞到天明 不顾一切地</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Hey DJ <ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah <ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>上々<rt class="furi">じょうじょう</rt><rt class="roma">joujou</rt></ruby>↑↑<ruby>の<rt class="roma">no</rt></ruby>
-</div>
+<div class="cn-lyric">[03:11.53]Hey DJ 来点猛的 yeah yeah yeah</div>
+<div class="cn-lyric">[03:11.53]Hey DJ 来点猛的 yeah yeah yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>針<rt class="furi">はり</rt><rt class="roma">hari</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>とせ<rt class="roma">tose</rt></ruby> <ruby>音<rt class="furi">おと</rt><rt class="roma">oto</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>らせ<rt class="roma">rase</rt></ruby> <ruby>パーリナイ<rt class="roma">paarinai</rt></ruby>
+[03:16.32]<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby>
 </div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>！
-</div>
+<div class="cn-lyric">[03:16.32]喝吧 来 来 来</div>
+<div class="cn-lyric">[03:16.32]喝吧 来 来 来</div>
+<div class="cn-lyric">[03:16.32]喝吧 来 来 来</div>
+<div class="cn-lyric">[03:16.32]喝吧 来 来 来</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hip-pop <ruby>ピーポー<rt class="roma">piipou</rt></ruby> <ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ミラクル<rt class="roma">mirakuru</rt></ruby> number
+[03:20.12]<ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah
 </div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Hey DJ <ruby>シャシャ<rt class="roma">shasha</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> yeah yeah yeah <ruby>気分<rt class="furi">きぶん</rt><rt class="roma">kibun</rt></ruby><ruby>上々<rt class="furi">じょうじょう</rt><rt class="roma">joujou</rt></ruby>↑↑<ruby>の<rt class="roma">no</rt></ruby>
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>波<rt class="furi">なみ</rt><rt class="roma">nami</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>乗<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> <ruby>弾<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby> <ruby>ファンキナイ<rt class="roma">fuankinai</rt></ruby>
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby>！
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Hip-pop <ruby>ピーポー<rt class="roma">piipou</rt></ruby> <ruby>朝<rt class="furi">あさ</rt><rt class="roma">asa</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>ミラクル<rt class="roma">mirakuru</rt></ruby> number
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Hey DJ <ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah
-</div>
-<div class="cn-lyric">Hey DJ 来点猛的 yeah yeah yeah</div>
-<div class="cn-lyric">Hey DJ 来点猛的 yeah yeah yeah</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>飲<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby> <ruby>ライ<rt class="roma">rai</rt></ruby>
-</div>
-<div class="cn-lyric">喝吧 来 来 来</div>
-<div class="cn-lyric">喝吧 来 来 来</div>
-<div class="cn-lyric">喝吧 来 来 来</div>
-<div class="cn-lyric">喝吧 来 来 来</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>カマ<rt class="roma">kama</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby> yeah yeah yeah
-</div>
-<div class="cn-lyric">来点猛的 yeah yeah yeah</div>
-<div class="cn-lyric">来点猛的 yeah yeah yeah</div>
-<div class="cn-lyric">来点猛的 yeah yeah yeah</div>
+<div class="cn-lyric">[03:20.12]来点猛的 yeah yeah yeah</div>
+<div class="cn-lyric">[03:20.12]来点猛的 yeah yeah yeah</div>
+<div class="cn-lyric">[03:20.12]来点猛的 yeah yeah yeah</div>
 </div>
 
 <div class="lyric-line">

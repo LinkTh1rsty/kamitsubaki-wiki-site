@@ -33,9 +33,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I woke up in the morning
+[00:00.31]I woke up in the morning
 </div>
-<div class="cn-lyric">我在清晨醒来</div>
+<div class="cn-lyric">[00:00.31]我在清晨醒来</div>
 </div>
 
 <div class="lyric-line">
@@ -47,9 +47,9 @@ I woke up in the morning
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>アラーム<rt class="roma">araamu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[00:03.38]<ruby>アラーム<rt class="roma">araamu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="cn-lyric">像闹钟一样</div>
+<div class="cn-lyric">[00:03.38]像闹钟一样</div>
 </div>
 
 <div class="lyric-line">
@@ -103,21 +103,21 @@ I woke up in the morning
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah
+[00:20.92]yeah
 </div>
-<div class="cn-lyric">耶</div>
-<div class="cn-lyric">耶</div>
-<div class="cn-lyric">耶</div>
-<div class="cn-lyric">耶</div>
-<div class="cn-lyric">耶</div>
+<div class="cn-lyric">[00:20.92]耶</div>
+<div class="cn-lyric">[00:20.92]耶</div>
+<div class="cn-lyric">[00:20.92]耶</div>
+<div class="cn-lyric">[00:20.92]耶</div>
+<div class="cn-lyric">[00:20.92]耶</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Good morning
+[00:21.59]Good morning
 </div>
-<div class="cn-lyric">早上好</div>
-<div class="cn-lyric">早上好</div>
+<div class="cn-lyric">[00:21.59]早上好</div>
+<div class="cn-lyric">[00:21.59]早上好</div>
 </div>
 
 <div class="lyric-line">
@@ -142,9 +142,9 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>Don’t worry
+[00:27.60]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>Don’t worry
 </div>
-<div class="cn-lyric">温柔的光说别担心</div>
+<div class="cn-lyric">[00:27.60]温柔的光说别担心</div>
 </div>
 
 <div class="lyric-line">
@@ -181,9 +181,9 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>Don’t worry
+[00:38.12]<ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>Don’t worry
 </div>
-<div class="cn-lyric">温柔的风说别担心</div>
+<div class="cn-lyric">[00:38.12]温柔的风说别担心</div>
 </div>
 
 <div class="lyric-line">

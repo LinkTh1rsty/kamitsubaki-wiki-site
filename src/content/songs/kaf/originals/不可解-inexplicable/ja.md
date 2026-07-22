@@ -42,13 +42,13 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そういう<rt class="roma">souiu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>これから<rt class="roma">korekara</rt></ruby><ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:17.30]<ruby>そういう<rt class="roma">souiu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>これから<rt class="roma">korekara</rt></ruby><ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
+[00:20.30]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
@@ -124,7 +124,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>やり<rt class="roma">yari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:06.29]<ruby>やり<rt class="roma">yari</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -180,7 +180,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>でも<rt class="roma">demo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>、<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？」
+[01:48.30]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>、<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？」
 </div>
 </div>
 
@@ -192,7 +192,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>じゃあ<rt class="roma">jaa</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>？
+[01:54.30]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>じゃあ<rt class="roma">jaa</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なん<rt class="roma">nan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>？
 </div>
 </div>
 
@@ -318,7 +318,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だって<rt class="roma">datte</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
+[03:15.30]<ruby>だって<rt class="roma">datte</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
@@ -438,7 +438,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そういう<rt class="roma">souiu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
+[04:06.30]<ruby>そういう<rt class="roma">souiu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
@@ -456,7 +456,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[04:15.30]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>こそ<rt class="roma">koso</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 </div>
 

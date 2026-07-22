@@ -139,16 +139,16 @@ image: /images/songs/kaf/track-1848786354.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それでも<rt class="roma">soredemo</rt></ruby>
+[01:38.69]<ruby>それでも<rt class="roma">soredemo</rt></ruby>
 </div>
-<div class="cn-lyric">即便如此</div>
+<div class="cn-lyric">[01:38.69]即便如此</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いたん<rt class="roma">itan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:42.42]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いたん<rt class="roma">itan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="cn-lyric">却哪里也去不了</div>
+<div class="cn-lyric">[01:42.42]却哪里也去不了</div>
 </div>
 
 <div class="lyric-line">
@@ -167,9 +167,9 @@ image: /images/songs/kaf/track-1848786354.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ぼく<rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby>
+[02:02.89]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ぼく<rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby>
 </div>
-<div class="cn-lyric">我们能到天涯海角</div>
+<div class="cn-lyric">[02:02.89]我们能到天涯海角</div>
 </div>
 
 <div class="lyric-line">
@@ -195,9 +195,9 @@ image: /images/songs/kaf/track-1848786354.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>唐突<rt class="furi">とうとつ</rt><rt class="roma">toutotsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>UFO<ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:45.36]<ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>唐突<rt class="furi">とうとつ</rt><rt class="roma">toutotsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>UFO<ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">虽说得突然 但去看UFO吧</div>
+<div class="cn-lyric">[02:45.36]虽说得突然 但去看UFO吧</div>
 </div>
 
 <div class="lyric-line">

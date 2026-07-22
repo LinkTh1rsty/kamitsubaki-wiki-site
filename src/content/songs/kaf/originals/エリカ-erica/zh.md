@@ -52,9 +52,9 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
+[00:38.40]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
-<div class="cn-lyric">这便是所谓改变</div>
+<div class="cn-lyric">[00:38.40]这便是所谓改变</div>
 </div>
 
 <div class="lyric-line">
@@ -220,9 +220,9 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エリカ<rt class="roma">erika</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
+[03:20.20]<ruby>エリカ<rt class="roma">erika</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
-<div class="cn-lyric">欧石楠绽放</div>
+<div class="cn-lyric">[03:20.20]欧石楠绽放</div>
 </div>
 
 </div>

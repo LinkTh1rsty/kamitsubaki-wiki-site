@@ -170,7 +170,7 @@ And softly you say goodbye
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Come again
+[00:38.92]Come again
 </div>
 <div class="trans-lyric">Come again</div>
 <div class="trans-lyric">Come again</div>

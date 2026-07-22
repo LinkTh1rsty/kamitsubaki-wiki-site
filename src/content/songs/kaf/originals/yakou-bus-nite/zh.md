@@ -213,18 +213,18 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[02:40.40]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">从这里已看不见了</div>
+<div class="cn-lyric">[02:40.40]从这里已看不见了</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ハエ<rt class="roma">hae</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まとわりつい<rt class="roma">matowaritsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:47.09]<ruby>ハエ<rt class="roma">hae</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まとわりつい<rt class="roma">matowaritsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">苍蝇纠缠着</div>
+<div class="cn-lyric">[02:47.09]苍蝇纠缠着</div>
 </div>
 
 <div class="lyric-line">

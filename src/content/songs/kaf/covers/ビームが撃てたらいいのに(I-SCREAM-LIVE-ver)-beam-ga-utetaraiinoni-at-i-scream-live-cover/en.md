@@ -104,7 +104,7 @@ R-50<ruby>の<rt class="roma">no</rt></ruby><ruby>射幸<rt class="furi">しゃ�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ビーム<rt class="roma">biimu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>撃<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
+[00:52.13]<ruby>ビーム<rt class="roma">biimu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>撃<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
 <div class="trans-lyric">I wish I could shoot a beam</div>
 <div class="trans-lyric">I wish I could shoot a beam</div>

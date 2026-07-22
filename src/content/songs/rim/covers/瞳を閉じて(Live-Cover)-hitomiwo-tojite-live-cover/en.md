@@ -33,7 +33,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>作<rt class="furi">さく</rt><rt class="roma">saku</rt></ruby>词：<ruby>松井<rt class="furi">まつい</rt><rt class="roma">matsui</rt></ruby><ruby>五郎<rt class="furi">ごろう</rt><rt class="roma">gorou</rt></ruby>
+[00:05.52]<ruby>作<rt class="furi">さく</rt><rt class="roma">saku</rt></ruby>词：<ruby>松井<rt class="furi">まつい</rt><rt class="roma">matsui</rt></ruby><ruby>五郎<rt class="furi">ごろう</rt><rt class="roma">gorou</rt></ruby>
 </div>
 <div class="trans-lyric">Lyrics: Goro Matsui</div>
 </div>
@@ -70,7 +70,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:00.00]<ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>閉<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Close your eyes</div>
 <div class="trans-lyric">Close your eyes</div>
@@ -168,7 +168,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[03:09.64]<ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 <div class="trans-lyric">I won't forget</div>
 </div>
@@ -187,7 +187,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[01:44.44]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 <div class="trans-lyric">Your heart</div>
 </div>

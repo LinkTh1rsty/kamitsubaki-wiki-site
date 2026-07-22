@@ -85,7 +85,7 @@ image: /images/songs/rim/single-1687474050.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>？
+[00:55.56]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>？
 </div>
 </div>
 
@@ -129,7 +129,7 @@ image: /images/songs/rim/single-1687474050.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ばか<rt class="roma">baka</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[01:35.13]<ruby>ばか<rt class="roma">baka</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 </div>
 
@@ -155,13 +155,13 @@ image: /images/songs/rim/single-1687474050.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>つまらない<rt class="roma">tsumaranai</rt></ruby>
+[01:54.15]<ruby>つまらない<rt class="roma">tsumaranai</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:55.49]<ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 

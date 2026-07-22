@@ -96,9 +96,9 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>旅立<rt class="furi">たびだ</rt><rt class="roma">tabida</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
+[01:58.55]<ruby>旅立<rt class="furi">たびだ</rt><rt class="roma">tabida</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby>
 </div>
-<div class="cn-lyric">启程无论何时</div>
+<div class="cn-lyric">[01:58.55]启程无论何时</div>
 </div>
 
 <div class="lyric-line">

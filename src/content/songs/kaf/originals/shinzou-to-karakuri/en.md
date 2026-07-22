@@ -100,14 +100,14 @@ KAF's second original song, written, composed, and arranged by Iori Kanzaki.
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>やっと<rt class="roma">yatto</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:12.95]<ruby>やっと<rt class="roma">yatto</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">I finally noticed</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>いたん<rt class="roma">itan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:14.37]<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>いたん<rt class="roma">itan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">My feelings were already decided</div>
 </div>

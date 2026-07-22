@@ -47,7 +47,7 @@ Caffeine appears on CHOCOLATE LIVE2 or a related official release. Entries are v
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Caffeine <ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[00:27.90]Caffeine <ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>何<rt class="furi">なん</rt><rt class="roma">nan</rt></ruby><ruby>度<rt class="furi">ど</rt><rt class="roma">do</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 <div class="trans-lyric">Like caffeine, over and over</div>
 </div>
@@ -70,7 +70,7 @@ Caffeine <ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>ね<rt class="ro
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:35.00]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">You gave me meaning to live</div>
 </div>
@@ -86,7 +86,7 @@ Caffeine <ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>ね<rt class="ro
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>降<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>上<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> one, two, three
+[00:41.48]<ruby>降<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>上<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby> one, two, three
 </div>
 <div class="trans-lyric">Can't go down, so I climb again one, two, three</div>
 </div>
@@ -137,7 +137,7 @@ Caffeine <ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>ね<rt class="ro
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ah
+[01:13.06]Ah
 </div>
 <div class="trans-lyric">Ah</div>
 <div class="trans-lyric">Ah</div>
@@ -161,7 +161,7 @@ Ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>でも<rt class="roma">demo</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>スリル<rt class="roma">suriru</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:26.38]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>スリル<rt class="roma">suriru</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 <div class="trans-lyric">But that's also a thrill, isn't it?</div>
 </div>
@@ -214,7 +214,7 @@ Ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:51.14]<ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 <div class="trans-lyric">Just waiting won't change anything anymore</div>
 </div>
@@ -241,7 +241,7 @@ Ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ah-ah
+[02:18.12]Ah-ah
 </div>
 <div class="trans-lyric">Ah-ah</div>
 </div>
@@ -280,14 +280,14 @@ Ah-ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよう<rt class="roma">shiyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby>
+[02:46.85]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>しよう<rt class="roma">shiyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby>
 </div>
 <div class="trans-lyric">Only hopeless love</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>しょうが<rt class="roma">shouga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[02:48.83]<ruby>しょうが<rt class="roma">shouga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 <div class="trans-lyric">Can't be helped</div>
 </div>
@@ -331,7 +331,7 @@ Ah-ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu
+[03:01.22]Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu
 </div>
 <div class="trans-lyric">Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu</div>
 <div class="trans-lyric">Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu</div>
@@ -339,7 +339,7 @@ Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tu-tu-tu-lu-tu, tu-tu-lu-lu
+[03:04.63]Tu-tu-tu-lu-tu, tu-tu-lu-lu
 </div>
 <div class="trans-lyric">Tu-tu-tu-lu-tu, tu-tu-lu-lu</div>
 <div class="trans-lyric">Tu-tu-tu-lu-tu, tu-tu-lu-lu</div>
@@ -347,7 +347,7 @@ Tu-tu-tu-lu-tu, tu-tu-lu-lu
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu-lu
+[03:08.09]Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu-lu
 </div>
 <div class="trans-lyric">Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu-lu</div>
 <div class="trans-lyric">Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu-lu</div>
@@ -387,7 +387,7 @@ Tu-tu-tu-lu-tu, tu-tu-lu-lu-lu-lu
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
+[03:31.74]<ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
 <div class="trans-lyric">Thank you</div>
 </div>

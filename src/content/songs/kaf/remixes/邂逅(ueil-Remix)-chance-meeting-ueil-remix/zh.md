@@ -33,146 +33,146 @@ image: /images/albums/kaf/kyoso-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[00:31.65]<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>秋<rt class="furi">あき</rt><rt class="roma">aki</rt></ruby><ruby>邂逅<rt class="furi">かいこう</rt><rt class="roma">kaikou</rt></ruby>你
+</div>
+<div class="cn-lyric">[00:31.65]在深秋与你邂逅</div>
+<div class="cn-lyric">[00:31.65]在深秋与你邂逅</div>
+<div class="cn-lyric">[00:31.65]在深秋与你邂逅</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:35.26]如<ruby>初<rt class="furi">はつ</rt><rt class="roma">hatsu</rt></ruby>戀<ruby>詩<rt class="furi">し</rt><rt class="roma">shi</rt></ruby>般<ruby>優美<rt class="furi">ゆうび</rt><rt class="roma">yuubi</rt></ruby>
+</div>
+<div class="cn-lyric">[00:35.26]如初恋诗般优美</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:39.72]<ruby>無慮<rt class="furi">むりょ</rt><rt class="roma">muryo</rt></ruby><ruby>又<rt class="furi">また</rt><rt class="roma">mata</rt></ruby>俏<ruby>皮<rt class="furi">がわ</rt><rt class="roma">gawa</rt></ruby>
+</div>
+<div class="cn-lyric">[00:39.72]无虑又俏皮</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:45.59]<ruby>與<rt class="furi">あたえ</rt><rt class="roma">atae</rt></ruby>你漫步<ruby>長夜<rt class="furi">ちょうや</rt><rt class="roma">chouya</rt></ruby><ruby>裏<rt class="furi">うら</rt><rt class="roma">ura</rt></ruby> 已<ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>醉
+</div>
+<div class="cn-lyric">[00:45.59]与你漫步长夜里 已心醉</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:50.73]晚<ruby>風<rt class="furi">ふう</rt><rt class="roma">fuu</rt></ruby>輕吹 <ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>星<rt class="furi">ぼし</rt><rt class="roma">boshi</rt></ruby>也緊隨
+</div>
+<div class="cn-lyric">[00:50.73]晚风轻吹 星星也紧随</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:59.65]<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>想<rt class="furi">そう</rt><rt class="roma">sou</rt></ruby>戀<ruby>季候<rt class="furi">きこう</rt><rt class="roma">kikou</rt></ruby>
+</div>
+<div class="cn-lyric">[00:59.65]在想恋季候</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:03.04]迷痴痴<ruby>總<rt class="furi">さとし</rt><rt class="roma">satoshi</rt></ruby><ruby>覺<rt class="furi">さとる</rt><rt class="roma">satoru</rt></ruby>昏醉
+</div>
+<div class="cn-lyric">[01:03.04]迷痴痴总觉昏醉</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:07.58]從來沒掉<ruby>眼<rt class="furi">め</rt><rt class="roma">me</rt></ruby>淚
+</div>
+<div class="cn-lyric">[01:07.58]从来没掉眼泪</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:13.33]<ruby>冷雨<rt class="furi">れいう</rt><rt class="roma">reiu</rt></ruby><ruby>落下<rt class="furi">らっか</rt><rt class="roma">rakka</rt></ruby><ruby>長夜<rt class="furi">ちょうや</rt><rt class="roma">chouya</rt></ruby><ruby>裏<rt class="furi">うら</rt><rt class="roma">ura</rt></ruby> <ruby>似<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>碎
+</div>
+<div class="cn-lyric">[01:13.33]冷雨落下长夜里 似心碎</div>
+<div class="cn-lyric">[01:13.33]冷雨落下长夜里 似心碎</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:18.52]抱緊<ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby>虛 <ruby>急<rt class="furi">きゅう</rt><rt class="roma">kyuu</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>正<rt class="furi">せい</rt><rt class="roma">sei</rt></ruby>吹
+</div>
+<div class="cn-lyric">[01:18.52]抱紧空虚 急风正吹</div>
+<div class="cn-lyric">[01:18.52]抱紧空虚 急风正吹</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:25.54]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby>以<ruby>分<rt class="furi">ぶん</rt><rt class="roma">bun</rt></ruby><ruby>開<rt class="furi">ひらき</rt><rt class="roma">hiraki</rt></ruby> <ruby>長夜<rt class="furi">ちょうや</rt><rt class="roma">chouya</rt></ruby><ruby>共<rt class="furi">ども</rt><rt class="roma">domo</rt></ruby><ruby>冷雨<rt class="furi">れいう</rt><rt class="roma">reiu</rt></ruby><ruby>説<rt class="furi">せつ</rt><rt class="roma">setsu</rt></ruby><ruby>相愛<rt class="furi">そうあい</rt><rt class="roma">souai</rt></ruby>
+</div>
+<div class="cn-lyric">[01:25.54]何以分开 长夜共冷雨说相爱</div>
+<div class="cn-lyric">[01:25.54]何以分开 长夜共冷雨说相爱</div>
+<div class="cn-lyric">[01:25.54]何以分开 长夜共冷雨说相爱</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:32.00]<ruby>離別<rt class="furi">りべつ</rt><rt class="roma">ribetsu</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你 每<ruby>日<rt class="furi">び</rt><rt class="roma">bi</rt></ruby>如蠟<ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby><ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby>發呆
+</div>
+<div class="cn-lyric">[01:32.00]离别了你 每日如蜡像在发呆</div>
+<div class="cn-lyric">[01:32.00]离别了你 每日如蜡像在发呆</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:39.18]<ruby>可<rt class="furi">か</rt><rt class="roma">ka</rt></ruby>以<ruby>分<rt class="furi">ぶん</rt><rt class="roma">bun</rt></ruby><ruby>開<rt class="furi">ひらき</rt><rt class="roma">hiraki</rt></ruby> <ruby>留<rt class="furi">とめ</rt><rt class="roma">tome</rt></ruby><ruby>下<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>抱怨<ruby>與<rt class="furi">あたえ</rt><rt class="roma">atae</rt></ruby><ruby>感慨<rt class="furi">かんがい</rt><rt class="roma">kangai</rt></ruby>
+</div>
+<div class="cn-lyric">[01:39.18]可以分开 留下是抱怨与感慨</div>
+<div class="cn-lyric">[01:39.18]可以分开 留下是抱怨与感慨</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:46.17]<ruby>離別<rt class="furi">りべつ</rt><rt class="roma">ribetsu</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你 <ruby>午<rt class="furi">うま</rt><rt class="roma">uma</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>仍<ruby>造<rt class="furi">みやつこ</rt><rt class="roma">miyatsuko</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>你來
+</div>
+<div class="cn-lyric">[01:46.17]离别了你 午夜仍造梦是你来</div>
+<div class="cn-lyric">[01:46.17]离别了你 午夜仍造梦是你来</div>
+<div class="cn-lyric">[01:46.17]离别了你 午夜仍造梦是你来</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
 <ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>秋<rt class="furi">あき</rt><rt class="roma">aki</rt></ruby><ruby>邂逅<rt class="furi">かいこう</rt><rt class="roma">kaikou</rt></ruby>你
 </div>
-<div class="cn-lyric">在深秋与你邂逅</div>
-<div class="cn-lyric">在深秋与你邂逅</div>
-<div class="cn-lyric">在深秋与你邂逅</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-如<ruby>初<rt class="furi">はつ</rt><rt class="roma">hatsu</rt></ruby>戀<ruby>詩<rt class="furi">し</rt><rt class="roma">shi</rt></ruby>般<ruby>優美<rt class="furi">ゆうび</rt><rt class="roma">yuubi</rt></ruby>
+[02:02.23]<ruby>由<rt class="furi">よし</rt><rt class="roma">yoshi</rt></ruby><ruby>相<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby>戀緊<ruby>接<rt class="furi">せっ</rt><rt class="roma">se</rt></ruby><ruby>分離<rt class="furi">ぶんり</rt><rt class="roma">bunri</rt></ruby>
 </div>
-<div class="cn-lyric">如初恋诗般优美</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>無慮<rt class="furi">むりょ</rt><rt class="roma">muryo</rt></ruby><ruby>又<rt class="furi">また</rt><rt class="roma">mata</rt></ruby>俏<ruby>皮<rt class="furi">がわ</rt><rt class="roma">gawa</rt></ruby>
-</div>
-<div class="cn-lyric">无虑又俏皮</div>
+<div class="cn-lyric">[02:02.23]由相恋紧接分离</div>
+<div class="cn-lyric">[02:02.23]由相恋紧接分离</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>與<rt class="furi">あたえ</rt><rt class="roma">atae</rt></ruby>你漫步<ruby>長夜<rt class="furi">ちょうや</rt><rt class="roma">chouya</rt></ruby><ruby>裏<rt class="furi">うら</rt><rt class="roma">ura</rt></ruby> 已<ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>醉
+[02:06.72]仍<ruby>願<rt class="furi">ねがい</rt><rt class="roma">negai</rt></ruby><ruby>靜<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby>默盼<ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby>
 </div>
-<div class="cn-lyric">与你漫步长夜里 已心醉</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-晚<ruby>風<rt class="furi">ふう</rt><rt class="roma">fuu</rt></ruby>輕吹 <ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>星<rt class="furi">ぼし</rt><rt class="roma">boshi</rt></ruby>也緊隨
-</div>
-<div class="cn-lyric">晚风轻吹 星星也紧随</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>想<rt class="furi">そう</rt><rt class="roma">sou</rt></ruby>戀<ruby>季候<rt class="furi">きこう</rt><rt class="roma">kikou</rt></ruby>
-</div>
-<div class="cn-lyric">在想恋季候</div>
+<div class="cn-lyric">[02:06.72]仍愿静默盼祈</div>
+<div class="cn-lyric">[02:06.72]仍愿静默盼祈</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-迷痴痴<ruby>總<rt class="furi">さとし</rt><rt class="roma">satoshi</rt></ruby><ruby>覺<rt class="furi">さとる</rt><rt class="roma">satoru</rt></ruby>昏醉
+[02:09.81]<ruby>抱擁<rt class="furi">ほうよう</rt><rt class="roma">houyou</rt></ruby><ruby>着<rt class="furi">ぎ</rt><rt class="roma">gi</rt></ruby>你
 </div>
-<div class="cn-lyric">迷痴痴总觉昏醉</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-從來沒掉<ruby>眼<rt class="furi">め</rt><rt class="roma">me</rt></ruby>淚
-</div>
-<div class="cn-lyric">从来没掉眼泪</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>冷雨<rt class="furi">れいう</rt><rt class="roma">reiu</rt></ruby><ruby>落下<rt class="furi">らっか</rt><rt class="roma">rakka</rt></ruby><ruby>長夜<rt class="furi">ちょうや</rt><rt class="roma">chouya</rt></ruby><ruby>裏<rt class="furi">うら</rt><rt class="roma">ura</rt></ruby> <ruby>似<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>碎
-</div>
-<div class="cn-lyric">冷雨落下长夜里 似心碎</div>
-<div class="cn-lyric">冷雨落下长夜里 似心碎</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-抱緊<ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby>虛 <ruby>急<rt class="furi">きゅう</rt><rt class="roma">kyuu</rt></ruby><ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>正<rt class="furi">せい</rt><rt class="roma">sei</rt></ruby>吹
-</div>
-<div class="cn-lyric">抱紧空虚 急风正吹</div>
-<div class="cn-lyric">抱紧空虚 急风正吹</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby>以<ruby>分<rt class="furi">ぶん</rt><rt class="roma">bun</rt></ruby><ruby>開<rt class="furi">ひらき</rt><rt class="roma">hiraki</rt></ruby> <ruby>長夜<rt class="furi">ちょうや</rt><rt class="roma">chouya</rt></ruby><ruby>共<rt class="furi">ども</rt><rt class="roma">domo</rt></ruby><ruby>冷雨<rt class="furi">れいう</rt><rt class="roma">reiu</rt></ruby><ruby>説<rt class="furi">せつ</rt><rt class="roma">setsu</rt></ruby><ruby>相愛<rt class="furi">そうあい</rt><rt class="roma">souai</rt></ruby>
-</div>
-<div class="cn-lyric">何以分开 长夜共冷雨说相爱</div>
-<div class="cn-lyric">何以分开 长夜共冷雨说相爱</div>
-<div class="cn-lyric">何以分开 长夜共冷雨说相爱</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>離別<rt class="furi">りべつ</rt><rt class="roma">ribetsu</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你 每<ruby>日<rt class="furi">び</rt><rt class="roma">bi</rt></ruby>如蠟<ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby><ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby>發呆
-</div>
-<div class="cn-lyric">离别了你 每日如蜡像在发呆</div>
-<div class="cn-lyric">离别了你 每日如蜡像在发呆</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>可<rt class="furi">か</rt><rt class="roma">ka</rt></ruby>以<ruby>分<rt class="furi">ぶん</rt><rt class="roma">bun</rt></ruby><ruby>開<rt class="furi">ひらき</rt><rt class="roma">hiraki</rt></ruby> <ruby>留<rt class="furi">とめ</rt><rt class="roma">tome</rt></ruby><ruby>下<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>抱怨<ruby>與<rt class="furi">あたえ</rt><rt class="roma">atae</rt></ruby><ruby>感慨<rt class="furi">かんがい</rt><rt class="roma">kangai</rt></ruby>
-</div>
-<div class="cn-lyric">可以分开 留下是抱怨与感慨</div>
-<div class="cn-lyric">可以分开 留下是抱怨与感慨</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>離別<rt class="furi">りべつ</rt><rt class="roma">ribetsu</rt></ruby><ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>你 <ruby>午<rt class="furi">うま</rt><rt class="roma">uma</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>仍<ruby>造<rt class="furi">みやつこ</rt><rt class="roma">miyatsuko</rt></ruby><ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>是<rt class="furi">ぜ</rt><rt class="roma">ze</rt></ruby>你來
-</div>
-<div class="cn-lyric">离别了你 午夜仍造梦是你来</div>
-<div class="cn-lyric">离别了你 午夜仍造梦是你来</div>
-<div class="cn-lyric">离别了你 午夜仍造梦是你来</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>在<rt class="furi">ざい</rt><rt class="roma">zai</rt></ruby><ruby>深<rt class="furi">ふか</rt><rt class="roma">fuka</rt></ruby><ruby>秋<rt class="furi">あき</rt><rt class="roma">aki</rt></ruby><ruby>邂逅<rt class="furi">かいこう</rt><rt class="roma">kaikou</rt></ruby>你
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>由<rt class="furi">よし</rt><rt class="roma">yoshi</rt></ruby><ruby>相<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby>戀緊<ruby>接<rt class="furi">せっ</rt><rt class="roma">se</rt></ruby><ruby>分離<rt class="furi">ぶんり</rt><rt class="roma">bunri</rt></ruby>
-</div>
-<div class="cn-lyric">由相恋紧接分离</div>
-<div class="cn-lyric">由相恋紧接分离</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-仍<ruby>願<rt class="furi">ねがい</rt><rt class="roma">negai</rt></ruby><ruby>靜<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby>默盼<ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby>
-</div>
-<div class="cn-lyric">仍愿静默盼祈</div>
-<div class="cn-lyric">仍愿静默盼祈</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>抱擁<rt class="furi">ほうよう</rt><rt class="roma">houyou</rt></ruby><ruby>着<rt class="furi">ぎ</rt><rt class="roma">gi</rt></ruby>你
-</div>
-<div class="cn-lyric">拥抱着你</div>
-<div class="cn-lyric">拥抱着你</div>
+<div class="cn-lyric">[02:09.81]拥抱着你</div>
+<div class="cn-lyric">[02:09.81]拥抱着你</div>
 </div>
 
 <br />

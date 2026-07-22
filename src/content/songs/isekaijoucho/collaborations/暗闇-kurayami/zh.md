@@ -78,9 +78,9 @@ image: /images/songs/isekaijoucho/single-1678038599.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>また<rt class="roma">mata</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[00:51.94]<ruby>また<rt class="roma">mata</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">还是说不出 什么都说不出口</div>
+<div class="cn-lyric">[00:51.94]还是说不出 什么都说不出口</div>
 </div>
 
 <div class="lyric-line">
@@ -94,10 +94,10 @@ image: /images/songs/isekaijoucho/single-1678038599.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>いいよって<rt class="roma">iiyotte</rt></ruby><ruby>怒<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>湧<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:58.23]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>いいよって<rt class="roma">iiyotte</rt></ruby><ruby>怒<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>湧<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">够了 这样想着怒火涌起</div>
-<div class="cn-lyric">够了 这样想着怒火涌起</div>
+<div class="cn-lyric">[00:58.23]够了 这样想着怒火涌起</div>
+<div class="cn-lyric">[00:58.23]够了 这样想着怒火涌起</div>
 </div>
 
 <div class="lyric-line">
@@ -167,11 +167,11 @@ image: /images/songs/isekaijoucho/single-1678038599.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>バッドエンド<rt class="roma">baddoendo</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby>
+[01:22.42]<ruby>バッドエンド<rt class="roma">baddoendo</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby>
 </div>
-<div class="cn-lyric">从坏结局到好结局</div>
-<div class="cn-lyric">从坏结局到好结局</div>
-<div class="cn-lyric">从坏结局到好结局</div>
+<div class="cn-lyric">[01:22.42]从坏结局到好结局</div>
+<div class="cn-lyric">[01:22.42]从坏结局到好结局</div>
+<div class="cn-lyric">[01:22.42]从坏结局到好结局</div>
 </div>
 
 <div class="lyric-line">
@@ -261,9 +261,9 @@ image: /images/songs/isekaijoucho/single-1678038599.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ライト<rt class="roma">raito</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>照<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>らさ<rt class="roma">rasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:16.83]<ruby>ライト<rt class="roma">raito</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>照<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>らさ<rt class="roma">rasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">被灯光照亮活下去</div>
+<div class="cn-lyric">[02:16.83]被灯光照亮活下去</div>
 </div>
 
 <div class="lyric-line">

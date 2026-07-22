@@ -56,7 +56,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>がむしゃら<rt class="roma">gamushara</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>エスコート<rt class="roma">esukouto</rt></ruby>
+[00:22.50]<ruby>がむしゃら<rt class="roma">gamushara</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>エスコート<rt class="roma">esukouto</rt></ruby>
 </div>
 </div>
 
@@ -104,7 +104,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>あいつ<rt class="roma">aitsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[00:54.00]<ruby>負<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>あいつ<rt class="roma">aitsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
@@ -116,7 +116,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>？
+[01:00.50]<ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>？
 </div>
 </div>
 
@@ -150,7 +150,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>哀<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>？
+[01:30.50]<ruby>哀<rt class="furi">あわ</rt><rt class="roma">awa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>？
 </div>
 </div>
 
@@ -162,7 +162,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まあ<rt class="roma">maa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
+[01:36.50]<ruby>まあ<rt class="roma">maa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
 </div>
 
@@ -226,7 +226,7 @@ image: /images/songs/kaf/hana-to-kaitou.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Come on, come on, come on, baby!
+[02:36.00]Come on, come on, come on, baby!
 </div>
 </div>
 

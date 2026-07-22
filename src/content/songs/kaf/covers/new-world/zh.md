@@ -38,16 +38,16 @@ There's a raging storm around us
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Trying to tear us from the ground
+[03:36.55]Trying to tear us from the ground
 </div>
-<div class="cn-lyric">试图将我们连根拔起</div>
+<div class="cn-lyric">[03:36.55]试图将我们连根拔起</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-We can ride this wave together
+[01:06.97]We can ride this wave together
 </div>
-<div class="cn-lyric">我们可以一起乘风破浪</div>
+<div class="cn-lyric">[01:06.97]我们可以一起乘风破浪</div>
 </div>
 
 <div class="lyric-line">
@@ -61,13 +61,13 @@ Until the thunder makes no sound
 
 <div class="lyric-line">
 <div class="jp-lyric">
-We are the new world
+[01:03.32]We are the new world
 </div>
-<div class="cn-lyric">我们是新世界</div>
-<div class="cn-lyric">我们是新世界</div>
-<div class="cn-lyric">我们是新世界</div>
-<div class="cn-lyric">我们是新世界</div>
-<div class="cn-lyric">我们是新世界</div>
+<div class="cn-lyric">[01:03.32]我们是新世界</div>
+<div class="cn-lyric">[01:03.32]我们是新世界</div>
+<div class="cn-lyric">[01:03.32]我们是新世界</div>
+<div class="cn-lyric">[01:03.32]我们是新世界</div>
+<div class="cn-lyric">[01:03.32]我们是新世界</div>
 </div>
 
 <div class="lyric-line">

@@ -99,7 +99,7 @@ image: /images/songs/vwp/single-1696039388.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:57.98]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">I can't end it yet</div>
 <div class="trans-lyric">I can't end it yet</div>
@@ -124,7 +124,7 @@ image: /images/songs/vwp/single-1696039388.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-If there is a spark in this soul
+[01:08.83]If there is a spark in this soul
 </div>
 <div class="trans-lyric">If there is a spark in this soul</div>
 <div class="trans-lyric">If there is a spark in this soul</div>
@@ -133,7 +133,7 @@ If there is a spark in this soul
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I will not give in, ah
+[01:10.44]I will not give in, ah
 </div>
 <div class="trans-lyric">I will not give in, ah</div>
 <div class="trans-lyric">I will not give in, ah</div>
@@ -151,7 +151,7 @@ I will not give in, ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:16.45]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">I won't let it end yet</div>
 <div class="trans-lyric">I won't let it end yet</div>
@@ -238,7 +238,7 @@ I will not give in, ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:15.55]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">I can't stop yet</div>
 </div>
@@ -276,7 +276,7 @@ I will not give in, ah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わらせ<rt class="roma">warase</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:33.97]<ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わらせ<rt class="roma">warase</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">I won't let it end yet</div>
 </div>

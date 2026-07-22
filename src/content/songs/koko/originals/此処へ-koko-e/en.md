@@ -211,7 +211,7 @@ image: /images/albums/koko/prayer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>下北<rt class="furi">しもきた</rt><rt class="roma">shimokita</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>Cafe<ruby>で<rt class="roma">de</rt></ruby>Chillout
+[01:44.13]<ruby>下北<rt class="furi">しもきた</rt><rt class="roma">shimokita</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>Cafe<ruby>で<rt class="roma">de</rt></ruby>Chillout
 </div>
 <div class="trans-lyric">Chillout at a cafe in Shimokitazawa</div>
 </div>

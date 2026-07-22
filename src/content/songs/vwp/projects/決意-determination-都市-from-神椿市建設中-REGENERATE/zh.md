@@ -84,9 +84,9 @@ image: /images/albums/vwp/city-regenerate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby>
+[01:28.55]<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby>
 </div>
-<div class="cn-lyric">总是想得太多</div>
+<div class="cn-lyric">[01:28.55]总是想得太多</div>
 </div>
 
 <div class="lyric-line">
@@ -159,9 +159,9 @@ image: /images/albums/vwp/city-regenerate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けれど<rt class="roma">keredo</rt></ruby>
+[03:33.04]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けれど<rt class="roma">keredo</rt></ruby>
 </div>
-<div class="cn-lyric">虽然并非如此</div>
+<div class="cn-lyric">[03:33.04]虽然并非如此</div>
 </div>
 
 <div class="lyric-line">

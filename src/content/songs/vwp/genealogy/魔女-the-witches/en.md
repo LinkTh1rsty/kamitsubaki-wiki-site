@@ -175,7 +175,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なぞって<rt class="roma">nazotte</rt></ruby>
+[01:08.03]<ruby>なぞって<rt class="roma">nazotte</rt></ruby>
 </div>
 <div class="trans-lyric">Trace</div>
 </div>
@@ -387,7 +387,7 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あがい<rt class="roma">agai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:22.31]<ruby>あがい<rt class="roma">agai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Struggle</div>
 </div>

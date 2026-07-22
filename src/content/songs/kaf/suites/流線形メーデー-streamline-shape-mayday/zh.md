@@ -34,9 +34,9 @@ image: /images/songs/kaf/track-1689187750.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>たして<rt class="roma">tashite</rt></ruby> this is <ruby>呪<rt class="furi">のろ</rt><rt class="roma">noro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
+[00:12.77]<ruby>果<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>たして<rt class="roma">tashite</rt></ruby> this is <ruby>呪<rt class="furi">のろ</rt><rt class="roma">noro</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
-<div class="cn-lyric">究竟这是诅咒吗？</div>
+<div class="cn-lyric">[00:12.77]究竟这是诅咒吗？</div>
 </div>
 
 <div class="lyric-line">
@@ -64,9 +64,9 @@ image: /images/songs/kaf/track-1689187750.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>放課後<rt class="furi">ほうかご</rt><rt class="roma">houkago</rt></ruby> maybe <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
+[00:24.71]<ruby>放課後<rt class="furi">ほうかご</rt><rt class="roma">houkago</rt></ruby> maybe <ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
-<div class="cn-lyric">放学后 也许 如果眼神交汇</div>
+<div class="cn-lyric">[00:24.71]放学后 也许 如果眼神交汇</div>
 </div>
 
 <div class="lyric-line">
@@ -102,10 +102,10 @@ image: /images/songs/kaf/track-1689187750.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>リセット<rt class="roma">risetto</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
+[00:42.25]<ruby>リセット<rt class="roma">risetto</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>出会<rt class="furi">であ</rt><rt class="roma">dea</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
-<div class="cn-lyric">如果能重置后相遇</div>
-<div class="cn-lyric">如果能重置后相遇</div>
+<div class="cn-lyric">[00:42.25]如果能重置后相遇</div>
+<div class="cn-lyric">[00:42.25]如果能重置后相遇</div>
 </div>
 
 <div class="lyric-line">
@@ -190,9 +190,9 @@ image: /images/songs/kaf/track-1689187750.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> <ruby>どこ<rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[01:36.58]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> <ruby>どこ<rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="cn-lyric">无论何时 无论何处</div>
+<div class="cn-lyric">[01:36.58]无论何时 无论何处</div>
 </div>
 
 <br />

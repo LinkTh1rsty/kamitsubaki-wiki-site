@@ -48,22 +48,22 @@ In Sahara Desert says it all
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's a miracle
+[02:08.85]It's a miracle
 </div>
-<div class="cn-lyric">这是个奇迹</div>
-<div class="cn-lyric">这是个奇迹</div>
-<div class="cn-lyric">这是个奇迹</div>
-<div class="cn-lyric">这是个奇迹</div>
-<div class="cn-lyric">这是个奇迹</div>
-<div class="cn-lyric">这是个奇迹</div>
-<div class="cn-lyric">这是个奇迹</div>
-<div class="cn-lyric">这是个奇迹</div>
-<div class="cn-lyric">这是个奇迹</div>
-<div class="cn-lyric">这是个奇迹</div>
-<div class="cn-lyric">这是个奇迹</div>
-<div class="cn-lyric">这是个奇迹</div>
-<div class="cn-lyric">这是个奇迹</div>
-<div class="cn-lyric">这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
+<div class="cn-lyric">[02:08.85]这是个奇迹</div>
 </div>
 
 <div class="lyric-line">
@@ -135,9 +135,9 @@ The wonders of this world go on
 
 <div class="lyric-line">
 <div class="jp-lyric">
-The hanging Gardens of Babylon
+[02:08.85]The hanging Gardens of Babylon
 </div>
-<div class="cn-lyric">巴比伦空中花园</div>
+<div class="cn-lyric">[02:08.85]巴比伦空中花园</div>
 </div>
 
 <div class="lyric-line">
@@ -182,9 +182,9 @@ It's a miracle
 
 <div class="lyric-line">
 <div class="jp-lyric">
-The one thing we're all waiting for
+[00:42.00]The one thing we're all waiting for
 </div>
-<div class="cn-lyric">我们都在等待的一件事</div>
+<div class="cn-lyric">[00:42.00]我们都在等待的一件事</div>
 </div>
 
 <div class="lyric-line">
@@ -196,10 +196,10 @@ Is peace on earth, an end to war
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's a miracle we need, the miracle
+[02:08.85]It's a miracle we need, the miracle
 </div>
-<div class="cn-lyric">那是我们需要的奇迹，那个奇迹</div>
-<div class="cn-lyric">那是我们需要的奇迹，那个奇迹</div>
+<div class="cn-lyric">[02:08.85]那是我们需要的奇迹，那个奇迹</div>
+<div class="cn-lyric">[02:08.85]那是我们需要的奇迹，那个奇迹</div>
 </div>
 
 <div class="lyric-line">
@@ -227,9 +227,9 @@ Could tell a story that would be a miracle
 
 <div class="lyric-line">
 <div class="jp-lyric">
-If every child on every street
+[00:55.53]If every child on every street
 </div>
-<div class="cn-lyric">如果每条街上的每个孩子</div>
+<div class="cn-lyric">[00:55.53]如果每条街上的每个孩子</div>
 </div>
 
 <div class="lyric-line">
@@ -362,9 +362,9 @@ It's a miracle
 
 <div class="lyric-line">
 <div class="jp-lyric">
-The one thing (the one thing)
+[00:42.00]The one thing (the one thing)
 </div>
-<div class="cn-lyric">那件事（那件事）</div>
+<div class="cn-lyric">[00:42.00]那件事（那件事）</div>
 </div>
 
 <div class="lyric-line">

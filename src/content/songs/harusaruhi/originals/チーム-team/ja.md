@@ -33,7 +33,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>guide me
+[00:10.71]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>guide me
 </div>
 </div>
 
@@ -63,13 +63,13 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Everyday <ruby>連絡<rt class="furi">れんらく</rt><rt class="roma">renraku</rt></ruby><ruby>取り合<rt class="furi">とりあ</rt><rt class="roma">toria</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[00:20.76]Everyday <ruby>連絡<rt class="furi">れんらく</rt><rt class="roma">renraku</rt></ruby><ruby>取り合<rt class="furi">とりあ</rt><rt class="roma">toria</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いい<rt class="roma">ii</rt></ruby><ruby>バランス<rt class="roma">baransu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>取り合<rt class="furi">とりあ</rt><rt class="roma">toria</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[00:23.14]<ruby>いい<rt class="roma">ii</rt></ruby><ruby>バランス<rt class="roma">baransu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>取り合<rt class="furi">とりあ</rt><rt class="roma">toria</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
@@ -103,7 +103,7 @@ Everyday <ruby>連絡<rt class="furi">れんらく</rt><rt class="roma">renraku<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>これから<rt class="roma">korekara</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言い合<rt class="furi">いいあ</rt><rt class="roma">iia</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:41.44]<ruby>これから<rt class="roma">korekara</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>言い合<rt class="furi">いいあ</rt><rt class="roma">iia</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -117,7 +117,7 @@ Everyday <ruby>連絡<rt class="furi">れんらく</rt><rt class="roma">renraku<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ah yeah
+[00:49.41]ah yeah
 </div>
 </div>
 

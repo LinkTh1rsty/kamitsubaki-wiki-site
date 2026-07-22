@@ -73,7 +73,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>やる<rt class="roma">yaru</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[00:44.36]<ruby>やる<rt class="roma">yaru</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 <div class="trans-lyric">We have no choice but to do it</div>
 <div class="trans-lyric">We have no choice but to do it</div>
@@ -83,7 +83,7 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もしも<rt class="roma">moshimo</rt></ruby>
+[00:46.63]<ruby>もしも<rt class="roma">moshimo</rt></ruby>
 </div>
 <div class="trans-lyric">If</div>
 <div class="trans-lyric">If</div>
@@ -152,21 +152,21 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もしも<rt class="roma">moshimo</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[00:46.63]<ruby>もしも<rt class="roma">moshimo</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 <div class="trans-lyric">If you like to cry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もしも<rt class="roma">moshimo</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>立<rt class="furi">りつ</rt><rt class="roma">ritsu</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[00:46.63]<ruby>もしも<rt class="roma">moshimo</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>立<rt class="furi">りつ</rt><rt class="roma">ritsu</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まる<rt class="roma">maru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 <div class="trans-lyric">If you stop here</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>這<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>いつくばってろ<rt class="roma">itsukubattero</rt></ruby>
+[01:43.14]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>這<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>いつくばってろ<rt class="roma">itsukubattero</rt></ruby>
 </div>
 <div class="trans-lyric">Then stay crawling here forever</div>
 </div>

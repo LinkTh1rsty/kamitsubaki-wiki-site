@@ -33,16 +33,16 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Everyday I say <ruby>かわいい<rt class="roma">kawaii</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[00:09.50]Everyday I say <ruby>かわいい<rt class="roma">kawaii</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="cn-lyric">Everyday I say 真可爱呢</div>
+<div class="cn-lyric">[00:09.50]Everyday I say 真可爱呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>噛<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>じゃれ<rt class="roma">jare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby><ruby>イイ<rt class="roma">ii</rt></ruby><ruby>ネ<rt class="roma">ne</rt></ruby>
+[00:11.71]<ruby>噛<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>じゃれ<rt class="roma">jare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby><ruby>イイ<rt class="roma">ii</rt></ruby><ruby>ネ<rt class="roma">ne</rt></ruby>
 </div>
-<div class="cn-lyric">咬我玩闹真不错</div>
+<div class="cn-lyric">[00:11.71]咬我玩闹真不错</div>
 </div>
 
 <div class="lyric-line">
@@ -61,10 +61,10 @@ Everyday I say <ruby>かわいい<rt class="roma">kawaii</rt></ruby><ruby>ね<rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah
+[00:18.08]yeah
 </div>
-<div class="cn-lyric">yeah</div>
-<div class="cn-lyric">yeah</div>
+<div class="cn-lyric">[00:18.08]yeah</div>
+<div class="cn-lyric">[00:18.08]yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -96,17 +96,17 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Lucky Happy
+[00:27.98]Lucky Happy
 </div>
-<div class="cn-lyric">Lucky Happy</div>
-<div class="cn-lyric">Lucky Happy</div>
+<div class="cn-lyric">[00:27.98]Lucky Happy</div>
+<div class="cn-lyric">[00:27.98]Lucky Happy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>たまに<rt class="roma">tamani</rt></ruby><ruby>つれない<rt class="roma">tsurenai</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>アリ<rt class="roma">ari</rt></ruby>
+[00:29.73]<ruby>たまに<rt class="roma">tamani</rt></ruby><ruby>つれない<rt class="roma">tsurenai</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>アリ<rt class="roma">ari</rt></ruby>
 </div>
-<div class="cn-lyric">偶尔冷淡也不错</div>
+<div class="cn-lyric">[00:29.73]偶尔冷淡也不错</div>
 </div>
 
 <div class="lyric-line">
@@ -138,23 +138,23 @@ Lucky Happy
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>やって<rt class="roma">yatte</rt></ruby><ruby>あげ<rt class="roma">age</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ダーリン<rt class="roma">daarin</rt></ruby>
+[00:41.27]<ruby>全部<rt class="furi">ぜんぶ</rt><rt class="roma">zenbu</rt></ruby><ruby>やって<rt class="roma">yatte</rt></ruby><ruby>あげ<rt class="roma">age</rt></ruby><ruby>ちゃう<rt class="roma">chau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>ダーリン<rt class="roma">daarin</rt></ruby>
 </div>
-<div class="cn-lyric">全部为你做哦 亲爱的</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
-</div>
-<div class="cn-lyric">一直以来谢谢你</div>
+<div class="cn-lyric">[00:41.27]全部为你做哦 亲爱的</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-My sweet kitty
+[00:43.55]<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby>
 </div>
-<div class="cn-lyric">My sweet kitty</div>
+<div class="cn-lyric">[00:43.55]一直以来谢谢你</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:44.66]My sweet kitty
+</div>
+<div class="cn-lyric">[00:44.66]My sweet kitty</div>
 </div>
 
 <br />

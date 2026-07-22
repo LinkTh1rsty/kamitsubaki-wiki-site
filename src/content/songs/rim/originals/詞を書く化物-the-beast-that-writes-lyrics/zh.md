@@ -63,10 +63,10 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> <ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
+[00:37.95]<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> <ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
-<div class="cn-lyric">不对劲 不对劲</div>
-<div class="cn-lyric">不对劲 不对劲</div>
+<div class="cn-lyric">[00:37.95]不对劲 不对劲</div>
+<div class="cn-lyric">[00:37.95]不对劲 不对劲</div>
 </div>
 
 <div class="lyric-line">

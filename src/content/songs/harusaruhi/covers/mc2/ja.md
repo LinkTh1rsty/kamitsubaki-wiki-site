@@ -33,25 +33,25 @@ image: /images/albums/harusaruhi/cream-puff-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Why don't you play the tune now?
+[00:01.74]Why don't you play the tune now?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I don't like music.
+[00:05.71]I don't like music.
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Come on you little geezer.
+[00:08.20]Come on you little geezer.
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You'll look funny when you're fifty.
+[00:09.72]You'll look funny when you're fifty.
 </div>
 </div>
 
@@ -59,49 +59,49 @@ You'll look funny when you're fifty.
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Somebody I never met
+[00:16.28]Somebody I never met
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-But in a way I know
+[00:17.86]But in a way I know
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Didn't think that you could get
+[00:19.43]Didn't think that you could get
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-So much from a picture show
+[00:21.61]So much from a picture show
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Man dies first reel
+[00:23.23]Man dies first reel
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-People ask what's the deal?
+[00:25.39]People ask what's the deal?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-This ain't how it's supposed to be
+[00:27.27]This ain't how it's supposed to be
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Don't like no aborigine
+[00:29.75]Don't like no aborigine
 </div>
 </div>
 
@@ -109,49 +109,49 @@ Don't like no aborigine
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Took a trip in Powis Square
+[00:31.04]Took a trip in Powis Square
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Pop star dyed his hair
+[00:33.22]Pop star dyed his hair
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-No fans to scream and shout
+[00:35.35]No fans to scream and shout
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-When mobsters came to flush him out
+[00:36.90]When mobsters came to flush him out
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Gangland slaying underground
+[00:39.19]Gangland slaying underground
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-New identity must be found
+[00:40.77]New identity must be found
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-On the left bank for a while
+[00:42.38]On the left bank for a while
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Insanity Bohemian style
+[00:44.14]Insanity Bohemian style
 </div>
 </div>
 
@@ -159,25 +159,25 @@ Insanity Bohemian style
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ritual ideas relativity
+[00:46.09]Ritual ideas relativity
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Only buildings, no people prophecy
+[00:49.22]Only buildings, no people prophecy
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Time slide, place to hide, nudge reality
+[00:53.26]Time slide, place to hide, nudge reality
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Foresight, minds wide, magic imagery
+[00:56.77]Foresight, minds wide, magic imagery
 </div>
 </div>
 
@@ -185,177 +185,73 @@ Foresight, minds wide, magic imagery
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Met a dwarf that was no good
+[01:04.01]Met a dwarf that was no good
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Dressed like little Red Riding Hood
+[01:09.95]Dressed like little Red Riding Hood
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Bad habit taking life
+[01:11.55]Bad habit taking life
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Calling card a six inch knife
+[01:13.34]Calling card a six inch knife
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ran off really fast
+[01:15.29]Ran off really fast
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Mumbled something 'bout the past
+[01:17.44]Mumbled something 'bout the past
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Best sex I've ever seen
+[01:19.09]Best sex I've ever seen
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-As if each moment was the last
+[01:20.82]As if each moment was the last
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Drops of blood, colour slide
+[01:22.45]Drops of blood, colour slide
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Funeral for his bride
+[01:24.68]Funeral for his bride
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-But it's him who's really dead
+[01:26.45]But it's him who's really dead
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Gets to take the funeral ride
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Ritual ideas relativity
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Only buildings, no people prophecy
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Time slide, place to hide, nudge reality
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Foresight, minds wide, magic imagery
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-You know, I don't think I'm gonna let you stay in the film business.
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-I like a bit of a cavort.
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-I don't answer solicitor's letters.
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-I apply a bit of pressure.
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Space guy fell from the sky
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Scratched my head and wondered why
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Time slides into time
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Across international dateline
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Scientist eats bubblegum
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Hall of fame, baseball
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Senators a Hoodlum
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Big chiefs in the hall
+[01:28.33]Gets to take the funeral ride
 </div>
 </div>
 
@@ -389,25 +285,7 @@ Foresight, minds wide, magic imagery
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Stray thoughts fear to tread
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Placed upon the screen instead
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-She's my flame too hot to hold
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Had to settle for her cold
+[01:44.38]You know, I don't think I'm gonna let you stay in the film business.
 </div>
 </div>
 
@@ -415,25 +293,147 @@ Had to settle for her cold
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Bloodlust, Greek God, Gold discovery
+[02:00.42]I like a bit of a cavort.
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Gone bust, tight wad, slow recovery
+[02:09.41]I don't answer solicitor's letters.
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Axe job, flame thrower, iron bar and gun
+[02:12.11]I apply a bit of pressure.
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:14.54]Space guy fell from the sky
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Betting shop - New owner - A walk in the sun
+[02:16.66]Scratched my head and wondered why
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:18.53]Time slides into time
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:20.13]Across international dateline
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:22.03]Scientist eats bubblegum
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:24.12]Hall of fame, baseball
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:26.08]Senators a Hoodlum
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:27.42]Big chiefs in the hall
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Ritual ideas relativity
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Only buildings, no people prophecy
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Time slide, place to hide, nudge reality
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Foresight, minds wide, magic imagery
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:44.30]Stray thoughts fear to tread
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:53.84]Placed upon the screen instead
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:55.79]She's my flame too hot to hold
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:57.68]Had to settle for her cold
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:59.48]Bloodlust, Greek God, Gold discovery
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:02.48]Gone bust, tight wad, slow recovery
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:05.60]Axe job, flame thrower, iron bar and gun
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:09.84]Betting shop - New owner - A walk in the sun
 </div>
 </div>
 
@@ -467,49 +467,49 @@ Foresight, minds wide, magic imagery
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Spread the news the Maestro's back
+[03:34.04]Spread the news the Maestro's back
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-With a beat-box soundtrack
+[03:39.33]With a beat-box soundtrack
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-The King of brains - Queen of the sack'
+[03:41.28]The King of brains - Queen of the sack'
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Executives have heart attack
+[03:43.11]Executives have heart attack
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's assault course celluloid
+[03:45.05]It's assault course celluloid
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-The money makers would avoid
+[03:46.88]The money makers would avoid
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Sometimes notions get reversed
+[03:48.73]Sometimes notions get reversed
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Centre of the universe
+[03:50.39]Centre of the universe
 </div>
 </div>
 
@@ -541,19 +541,19 @@ Foresight, minds wide, magic imagery
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Who do you think you are? The Lone Ranger?
+[04:07.88]Who do you think you are? The Lone Ranger?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You're Jack the Lad!
+[04:19.40]You're Jack the Lad!
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(More)
+[04:19.51](More)
 </div>
 </div>
 
@@ -589,7 +589,7 @@ Ritual ideas relativity
 
 <div class="lyric-line">
 <div class="jp-lyric">
-All these buildings, no people prophecy
+[04:21.23]All these buildings, no people prophecy
 </div>
 </div>
 
@@ -607,7 +607,7 @@ Foresight, minds wide, magic imagery
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh, ho
+[04:22.01]Oh, ho
 </div>
 </div>
 

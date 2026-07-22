@@ -213,7 +213,7 @@ KAF's tenth original song, written, composed, and arranged by Iori Kanzaki.
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[02:40.40]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 <div class="trans-lyric">Can no longer be seen from here</div>
 </div>
@@ -222,7 +222,7 @@ KAF's tenth original song, written, composed, and arranged by Iori Kanzaki.
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ハエ<rt class="roma">hae</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まとわりつい<rt class="roma">matowaritsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:47.09]<ruby>ハエ<rt class="roma">hae</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まとわりつい<rt class="roma">matowaritsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Flies swarm around</div>
 </div>

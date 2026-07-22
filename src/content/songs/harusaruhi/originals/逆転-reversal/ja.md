@@ -59,7 +59,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:28.77]<ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
@@ -85,7 +85,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>あいつ<rt class="roma">aitsu</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>」
+[00:37.93]「<ruby>あいつ<rt class="roma">aitsu</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>」
 </div>
 </div>
 
@@ -103,7 +103,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>あいつ<rt class="roma">aitsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>抜<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>」
+[00:44.52]「<ruby>あいつ<rt class="roma">aitsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>抜<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>」
 </div>
 </div>
 
@@ -125,7 +125,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-100<ruby>円<rt class="furi">えん</rt><rt class="roma">en</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>コンティニュー<rt class="roma">konteinyuu</rt></ruby>
+[00:56.16]100<ruby>円<rt class="furi">えん</rt><rt class="roma">en</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>コンティニュー<rt class="roma">konteinyuu</rt></ruby>
 </div>
 </div>
 
@@ -143,7 +143,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-100<ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>分<rt class="furi">ぶん</rt><rt class="roma">bun</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[01:02.83]100<ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>分<rt class="furi">ぶん</rt><rt class="roma">bun</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 </div>
 
@@ -183,13 +183,13 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
+[01:32.62]<ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>がって<rt class="roma">gatte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
+[01:34.57]<ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>がって<rt class="roma">gatte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
@@ -241,7 +241,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>でも<rt class="roma">demo</rt></ruby><ruby>ゆっくり<rt class="roma">yukkuri</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>場合<rt class="furi">ばあい</rt><rt class="roma">baai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[02:20.56]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>ゆっくり<rt class="roma">yukkuri</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>場合<rt class="furi">ばあい</rt><rt class="roma">baai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
@@ -261,7 +261,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だけど<rt class="roma">dakedo</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>成<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>バッタ<rt class="roma">batta</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[02:27.64]<ruby>だけど<rt class="roma">dakedo</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>成<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>バッタ<rt class="roma">batta</rt></ruby><ruby>もん<rt class="roma">mon</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 

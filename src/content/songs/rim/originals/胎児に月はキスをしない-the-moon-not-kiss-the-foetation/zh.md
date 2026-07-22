@@ -93,10 +93,10 @@ image: /images/songs/rim/single-1687474050.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>？
+[00:55.56]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>？
 </div>
-<div class="cn-lyric">对吧？</div>
-<div class="cn-lyric">对吧？</div>
+<div class="cn-lyric">[00:55.56]对吧？</div>
+<div class="cn-lyric">[00:55.56]对吧？</div>
 </div>
 
 <div class="lyric-line">
@@ -145,9 +145,9 @@ image: /images/songs/rim/single-1687474050.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ばか<rt class="roma">baka</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[01:35.13]<ruby>ばか<rt class="roma">baka</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
-<div class="cn-lyric">像个傻瓜</div>
+<div class="cn-lyric">[01:35.13]像个傻瓜</div>
 </div>
 
 <br />
@@ -175,16 +175,16 @@ image: /images/songs/rim/single-1687474050.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>つまらない<rt class="roma">tsumaranai</rt></ruby>
+[01:54.15]<ruby>つまらない<rt class="roma">tsumaranai</rt></ruby>
 </div>
-<div class="cn-lyric">无聊</div>
+<div class="cn-lyric">[01:54.15]无聊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:55.49]<ruby>埋<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">无法填补</div>
+<div class="cn-lyric">[01:55.49]无法填补</div>
 </div>
 
 <div class="lyric-line">

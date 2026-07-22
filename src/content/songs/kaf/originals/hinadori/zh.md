@@ -122,9 +122,9 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>追<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>おい<rt class="roma">oi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:33.73]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>追<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>おい<rt class="roma">oi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">明明说过要追逐梦想</div>
+<div class="cn-lyric">[01:33.73]明明说过要追逐梦想</div>
 </div>
 
 <div class="lyric-line">
@@ -246,16 +246,16 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>ばか<rt class="roma">baka</rt></ruby>」<ruby>って<rt class="roma">tte</rt></ruby>
+[03:17.23]「<ruby>ばか<rt class="roma">baka</rt></ruby>」<ruby>って<rt class="roma">tte</rt></ruby>
 </div>
-<div class="cn-lyric">说着'笨蛋'</div>
+<div class="cn-lyric">[03:17.23]说着'笨蛋'</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それで<rt class="roma">sorede</rt></ruby><ruby>おしまい<rt class="roma">oshimai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[03:18.70]<ruby>それで<rt class="roma">sorede</rt></ruby><ruby>おしまい<rt class="roma">oshimai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">就到此为止吧</div>
+<div class="cn-lyric">[03:18.70]就到此为止吧</div>
 </div>
 
 <br />
@@ -283,9 +283,9 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>置<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[03:40.42]<ruby>置<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="cn-lyric">我可要丢下你了哦</div>
+<div class="cn-lyric">[03:40.42]我可要丢下你了哦</div>
 </div>
 
 <div class="lyric-line">

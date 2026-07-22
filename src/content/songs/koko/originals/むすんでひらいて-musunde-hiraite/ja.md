@@ -33,6 +33,114 @@ image: /images/songs/koko/single-1791868643.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[00:00.88]Yasashisa mo tsuyosa mo itami mo zenbu
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:06.36]Itsu demo moratte bakari da tta n da
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:11.71]Musunde hiraite musubi naoshite
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:16.83]Kurikaeshite iku tsugi wa boku ga
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:20.26]ōkiku iki wo suikonde
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:22.77]Todoketai tsutaetai
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:25.47]«Arigatō» wo kimi ni
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:39.55]Kaeri no beru ga naru
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:41.38]Demo mada koko ni itakute
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:43.84]Boku wa kimi no te wo gyutto tsukanda
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:46.91]Komatta kao demo waratte kureta ne
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:50.61]Binetsu wa ōgesa ni garagara koe tsukutte yobidashita
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:55.35]Kaketsuketa kimi wa fuan gede
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:57.83]Mōshiwake nakunatte futon ni komoreta
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:01.72]Atarimae mitai ni
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:04.14]Tonari ni ite kureta
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:06.81]Tachidomatta toki wa kimi no koe ga kikoeta
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:12.27]Hitori ja nanimo dekinai n da
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
 Yasashisa mo tsuyosa mo itami mo zenbu
 </div>
 </div>
@@ -75,67 +183,169 @@ Todoketai tsutaetai
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kaeri no beru ga naru
+[01:49.62]...
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Demo mada koko ni itakute
+[02:06.06]Risō no jibun no sekkei haka
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Boku wa kimi no te wo gyutto tsukanda
+[02:08.47]Doko wo mirarete mo hazukashikunai
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Komatta kao demo waratte kureta ne
+[02:11.24]Ikutsuka buhin ga tarinakute
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Binetsu wa ōgesa ni garagara koe tsukutte yobidashita
+[02:13.90]Kansei made wa mada tōi mitai
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kaketsuketa kimi wa fuan gede
+[02:16.66]Are mo kore mo mabayushi sugite
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Mōshiwake nakunatte futon ni komoreta
+[02:19.35]Nagamenagara namida ga koboreta
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Atarimae mitai ni
+[02:21.97]Daremo ka re mo urayamashikute
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tonari ni ite kureta
+[02:24.76]Kizukarenai yō ni komoreta n da
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tachidomatta toki wa kimi no koe ga kikoeta
+[02:27.46]Hontō no boku hakonna mon sa
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hitori ja nanimo dekinai n da
+[02:30.20]Jibun ga 1 ban wakatteru yo
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:32.93]Hitori ninatte kigatsuita n da
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:35.62]Moratta monono taisetsu sa ni
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:38.36]Annafūni kimi mitai ni
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:41.05]Dore dake jikan ga kakarōtomo
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:43.73]Fuan ya shinpai mo dakishimete
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:46.43]Nakitai toki koso waratte miyō
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+Annafūni kimi mitai ni
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:51.86]Boku mo itsukanareru kana
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:54.53]Kawaritai n da
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:56.67]Otehon hai tsu demo kimi da yo
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:00.07]Owari nanka janai
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:02.10]Mata koko kara hajimeru n da
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:05.68]Yasashisa mo tsuyosa mo kondo wa zenbu
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:10.82]Boku ga tsutaete iku ban dakara
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:16.25]Koronde naite mo mata aruki dashite
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:21.16]Kurikaeshite iku sorede ī yo
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:24.37]Tonari ni iru kurai wa dekiru yo
 </div>
 </div>
 
@@ -171,223 +381,13 @@ Kurikaeshite iku tsugi wa boku ga
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Todoketai tsutaetai
+[03:48.75]Kowakute mo daijōbu
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-«Arigatō» wo kimi ni
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-...
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Risō no jibun no sekkei haka
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Doko wo mirarete mo hazukashikunai
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Ikutsuka buhin ga tarinakute
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Kansei made wa mada tōi mitai
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Are mo kore mo mabayushi sugite
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Nagamenagara namida ga koboreta
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Daremo ka re mo urayamashikute
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Kizukarenai yō ni komoreta n da
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Hontō no boku hakonna mon sa
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Jibun ga 1 ban wakatteru yo
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Hitori ninatte kigatsuita n da
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Moratta monono taisetsu sa ni
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Annafūni kimi mitai ni
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Dore dake jikan ga kakarōtomo
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Fuan ya shinpai mo dakishimete
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Nakitai toki koso waratte miyō
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Annafūni kimi mitai ni
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Boku mo itsukanareru kana
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Kawaritai n da
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Otehon hai tsu demo kimi da yo
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Owari nanka janai
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Mata koko kara hajimeru n da
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Yasashisa mo tsuyosa mo kondo wa zenbu
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Boku ga tsutaete iku ban dakara
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Koronde naite mo mata aruki dashite
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Kurikaeshite iku sorede ī yo
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Tonari ni iru kurai wa dekiru yo
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Yasashisa mo tsuyosa mo itami mo zenbu
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Itsu demo moratte bakari da tta n da
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Musunde hiraite musubi naoshite
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Kurikaeshite iku tsugi wa boku ga
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-ōkiku iki wo suikonde
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Kowakute mo daijōbu
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Koko ni iru yo zutto
+[03:51.51]Koko ni iru yo zutto
 </div>
 </div>
 

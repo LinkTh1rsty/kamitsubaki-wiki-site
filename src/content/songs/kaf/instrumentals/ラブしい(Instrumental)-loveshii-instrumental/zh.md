@@ -85,9 +85,9 @@ image: /images/albums/kaf/love-and-flower.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ギリギリ<rt class="roma">girigiri</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:40.00]<ruby>ギリギリ<rt class="roma">girigiri</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">直到极限还在喜欢吧</div>
+<div class="cn-lyric">[00:40.00]直到极限还在喜欢吧</div>
 </div>
 
 <div class="lyric-line">
@@ -200,16 +200,16 @@ image: /images/albums/kaf/love-and-flower.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[01:42.00]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
-<div class="cn-lyric">只把你喜欢的地方</div>
+<div class="cn-lyric">[01:42.00]只把你喜欢的地方</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>切り取<rt class="furi">きりと</rt><rt class="roma">kirito</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[01:45.00]<ruby>切り取<rt class="furi">きりと</rt><rt class="roma">kirito</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="cn-lyric">想要裁剪下来</div>
+<div class="cn-lyric">[01:45.00]想要裁剪下来</div>
 </div>
 
 <div class="lyric-line">

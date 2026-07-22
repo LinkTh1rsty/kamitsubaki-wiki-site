@@ -33,28 +33,28 @@ Tempest (feat. 幸祜) appears on Tempest or a related official release. Entries
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Bruised but forgiven
+[00:19.50]Bruised but forgiven
 </div>
 <div class="trans-lyric">Bruised but forgiven</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You talk like the world is against you
+[00:22.85]You talk like the world is against you
 </div>
 <div class="trans-lyric">You talk like the world is against you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You pull yourself to pieces
+[00:27.75]You pull yourself to pieces
 </div>
 <div class="trans-lyric">You pull yourself to pieces</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-But I'm never getting over you
+[00:32.36]But I'm never getting over you
 </div>
 <div class="trans-lyric">But I'm never getting over you</div>
 </div>
@@ -63,7 +63,7 @@ But I'm never getting over you
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Give it some thought before you fall
+[00:42.55]Give it some thought before you fall
 </div>
 <div class="trans-lyric">Give it some thought before you fall</div>
 <div class="trans-lyric">Give it some thought before you fall</div>
@@ -81,28 +81,28 @@ Give it some thought before you fall
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I was fading out
+[00:59.92]I was fading out
 </div>
 <div class="trans-lyric">I was fading out</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Like a whisper in the wind
+[01:02.42]Like a whisper in the wind
 </div>
 <div class="trans-lyric">Like a whisper in the wind</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Wishing I was someone else, somewhere new
+[01:06.83]Wishing I was someone else, somewhere new
 </div>
 <div class="trans-lyric">Wishing I was someone else, somewhere new</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Sailing away with you
+[01:11.58]Sailing away with you
 </div>
 <div class="trans-lyric">Sailing away with you</div>
 </div>
@@ -111,7 +111,7 @@ Sailing away with you
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I won't turn away
+[01:16.73]I won't turn away
 </div>
 <div class="trans-lyric">I won't turn away</div>
 <div class="trans-lyric">I won't turn away</div>
@@ -119,7 +119,7 @@ I won't turn away
 
 <div class="lyric-line">
 <div class="jp-lyric">
-As you sail away from the shore
+[01:21.80]As you sail away from the shore
 </div>
 <div class="trans-lyric">As you sail away from the shore</div>
 <div class="trans-lyric">As you sail away from the shore</div>
@@ -127,7 +127,7 @@ As you sail away from the shore
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm a castaway
+[01:26.72]I'm a castaway
 </div>
 <div class="trans-lyric">I'm a castaway</div>
 <div class="trans-lyric">I'm a castaway</div>
@@ -135,7 +135,7 @@ I'm a castaway
 
 <div class="lyric-line">
 <div class="jp-lyric">
-But I was dead and buried long before
+[01:31.43]But I was dead and buried long before
 </div>
 <div class="trans-lyric">But I was dead and buried long before</div>
 <div class="trans-lyric">But I was dead and buried long before</div>

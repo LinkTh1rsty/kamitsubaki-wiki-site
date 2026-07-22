@@ -33,174 +33,174 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby> <ruby>だけど<rt class="roma">dakedo</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[00:01.03]<ruby>幸<rt class="furi">しあわ</rt><rt class="roma">shiawa</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby> <ruby>だけど<rt class="roma">dakedo</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
-<div class="cn-lyric">我曾祈求幸福 但映入我眼中的却是</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>殺<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
-</div>
-<div class="cn-lyric">在这个某个人的爱杀死另一个人的爱的世界里</div>
+<div class="cn-lyric">[00:01.03]我曾祈求幸福 但映入我眼中的却是</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>黒<rt class="furi">くろ</rt><rt class="roma">kuro</rt></ruby><ruby>鉄<rt class="furi">てつ</rt><rt class="roma">tetsu</rt></ruby>
+[00:11.51]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>殺<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="cn-lyric">手中紧握的黑色钢铁</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>あと<rt class="roma">ato</rt></ruby><ruby>どれ<rt class="roma">dore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>理性<rt class="furi">りせい</rt><rt class="roma">risei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>保<rt class="furi">たも</rt><rt class="roma">tamo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
-</div>
-<div class="cn-lyric">还能保持多少理智呢</div>
+<div class="cn-lyric">[00:11.51]在这个某个人的爱杀死另一个人的爱的世界里</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それとも<rt class="roma">soretomo</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>? <ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[00:21.76]<ruby>この<rt class="roma">kono</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>黒<rt class="furi">くろ</rt><rt class="roma">kuro</rt></ruby><ruby>鉄<rt class="furi">てつ</rt><rt class="roma">tetsu</rt></ruby>
 </div>
-<div class="cn-lyric">还是说我已经疯了？我不知道</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>どんなに<rt class="roma">donnani</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>望<rt class="furi">のぞ</rt><rt class="roma">nozo</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby> <ruby>もがい<rt class="roma">mogai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
-</div>
-<div class="cn-lyric">无论怎样描绘未来 祈愿 挣扎 都无法触及</div>
+<div class="cn-lyric">[00:21.76]手中紧握的黑色钢铁</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
+[00:27.12]<ruby>あと<rt class="roma">ato</rt></ruby><ruby>どれ<rt class="roma">dore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>理性<rt class="furi">りせい</rt><rt class="roma">risei</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>保<rt class="furi">たも</rt><rt class="roma">tamo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">你说什么是正确？</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>裁<rt class="furi">さば</rt><rt class="roma">saba</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
-</div>
-<div class="cn-lyric">谁能审判到内心？</div>
+<div class="cn-lyric">[00:27.12]还能保持多少理智呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby> <ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:35.12]<ruby>それとも<rt class="roma">soretomo</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>狂<rt class="furi">くる</rt><rt class="roma">kuru</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>? <ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">喂 生命消逝 因为温柔</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>弱<rt class="furi">よわ</rt><rt class="roma">yowa</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>罪<rt class="furi">つみ</rt><rt class="roma">tsumi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
-</div>
-<div class="cn-lyric">如果软弱是罪的话 请回答我</div>
-<div class="cn-lyric">如果软弱是罪的话 请回答我</div>
+<div class="cn-lyric">[00:35.12]还是说我已经疯了？我不知道</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>犠牲<rt class="furi">ぎせい</rt><rt class="roma">gisei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>?
+[00:43.41]<ruby>どんなに<rt class="roma">donnani</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>望<rt class="furi">のぞ</rt><rt class="roma">nozo</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby> <ruby>もがい<rt class="roma">mogai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">我可以牺牲谁而活下去？</div>
-<div class="cn-lyric">我可以牺牲谁而活下去？</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>銃口<rt class="furi">じゅうこう</rt><rt class="roma">juukou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby> <ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
-</div>
-<div class="cn-lyric">举起枪口 为了不犯错</div>
+<div class="cn-lyric">[00:43.41]无论怎样描绘未来 祈愿 挣扎 都无法触及</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>唇<rt class="furi">くちびる</rt><rt class="roma">kuchibiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>噛<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby> <ruby>滲<rt class="furi">にじ</rt><rt class="roma">niji</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>血<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>味<rt class="furi">あじ</rt><rt class="roma">aji</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby>
+[00:48.52]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>正<rt class="furi">ただ</rt><rt class="roma">tada</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
 </div>
-<div class="cn-lyric">咬住嘴唇 渗出的血的味道对谁都一样</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>とっくに<rt class="roma">tokkuni</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
-</div>
-<div class="cn-lyric">你早就知道了</div>
+<div class="cn-lyric">[00:48.52]你说什么是正确？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>行く先<rt class="furi">ゆくさき</rt><rt class="roma">yukusaki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[00:51.23]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>裁<rt class="furi">さば</rt><rt class="roma">saba</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
 </div>
-<div class="cn-lyric">无尽悲伤的尽头</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>どんなに<rt class="roma">donnani</rt></ruby><ruby>怒<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby>
-</div>
-<div class="cn-lyric">无论怎样咽下怒火</div>
+<div class="cn-lyric">[00:51.23]谁能审判到内心？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>火<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>あがる<rt class="roma">agaru</rt></ruby>
+[00:54.33]<ruby>ねえ<rt class="roma">nee</rt></ruby> <ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby> <ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="cn-lyric">即使熄灭 那火焰也会重燃</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>見据<rt class="furi">みす</rt><rt class="roma">misu</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>眼差<rt class="furi">まなざ</rt><rt class="roma">manaza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
-</div>
-<div class="cn-lyric">注视的目光前方</div>
+<div class="cn-lyric">[00:54.33]喂 生命消逝 因为温柔</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>決<rt class="furi">けっ</rt><rt class="roma">ke</rt></ruby><ruby>して<rt class="roma">shite</rt></ruby><ruby>ぶれ<rt class="roma">bure</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:00.68]<ruby>弱<rt class="furi">よわ</rt><rt class="roma">yowa</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>罪<rt class="furi">つみ</rt><rt class="roma">tsumi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">再也不会动摇</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>乾<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>銃声<rt class="furi">じゅうせい</rt><rt class="roma">juusei</rt></ruby>
-</div>
-<div class="cn-lyric">回响 干燥的枪声</div>
+<div class="cn-lyric">[01:00.68]如果软弱是罪的话 请回答我</div>
+<div class="cn-lyric">[01:00.68]如果软弱是罪的话 请回答我</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえる<rt class="roma">koeru</rt></ruby><ruby>罵声<rt class="furi">ばせい</rt><rt class="roma">basei</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>絶叫<rt class="furi">ぜっきょう</rt><rt class="roma">zekkyou</rt></ruby>
+[01:05.75]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>犠牲<rt class="furi">ぎせい</rt><rt class="roma">gisei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>?
 </div>
-<div class="cn-lyric">远处传来的谩骂与惨叫</div>
-<div class="cn-lyric">远处传来的谩骂与惨叫</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>正義<rt class="furi">せいぎ</rt><rt class="roma">seigi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>問<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>いかける<rt class="roma">ikakeru</rt></ruby>
-</div>
-<div class="cn-lyric">质问正义</div>
-<div class="cn-lyric">质问正义</div>
+<div class="cn-lyric">[01:05.75]我可以牺牲谁而活下去？</div>
+<div class="cn-lyric">[01:05.75]我可以牺牲谁而活下去？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>彼<rt class="furi">かれ</rt><rt class="roma">kare</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby> <ruby>どちら<rt class="roma">dochira</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>?
+[01:10.99]<ruby>銃口<rt class="furi">じゅうこう</rt><rt class="roma">juukou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby> <ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="cn-lyric">我和他们 谁该死？</div>
+<div class="cn-lyric">[01:10.99]举起枪口 为了不犯错</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>守<rt class="furi">まも</rt><rt class="roma">mamo</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>一<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[01:28.89]<ruby>唇<rt class="furi">くちびる</rt><rt class="roma">kuchibiru</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>噛<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby> <ruby>滲<rt class="furi">にじ</rt><rt class="roma">niji</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>血<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>味<rt class="furi">あじ</rt><rt class="roma">aji</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby>
 </div>
-<div class="cn-lyric">因为能守护的东西只有一个</div>
+<div class="cn-lyric">[01:28.89]咬住嘴唇 渗出的血的味道对谁都一样</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:39.27]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>とっくに<rt class="roma">tokkuni</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+<div class="cn-lyric">[01:39.27]你早就知道了</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:44.88]<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>悲<rt class="furi">かな</rt><rt class="roma">kana</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>行く先<rt class="furi">ゆくさき</rt><rt class="roma">yukusaki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+</div>
+<div class="cn-lyric">[01:44.88]无尽悲伤的尽头</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:50.58]<ruby>どんなに<rt class="roma">donnani</rt></ruby><ruby>怒<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby>
+</div>
+<div class="cn-lyric">[01:50.58]无论怎样咽下怒火</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:53.10]<ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>その<rt class="roma">sono</rt></ruby><ruby>火<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>あがる<rt class="roma">agaru</rt></ruby>
+</div>
+<div class="cn-lyric">[01:53.10]即使熄灭 那火焰也会重燃</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:55.73]<ruby>見据<rt class="furi">みす</rt><rt class="roma">misu</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>眼差<rt class="furi">まなざ</rt><rt class="roma">manaza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>先<rt class="furi">さき</rt><rt class="roma">saki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+</div>
+<div class="cn-lyric">[01:55.73]注视的目光前方</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:58.37]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>決<rt class="furi">けっ</rt><rt class="roma">ke</rt></ruby><ruby>して<rt class="roma">shite</rt></ruby><ruby>ぶれ<rt class="roma">bure</rt></ruby><ruby>たり<rt class="roma">tari</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+</div>
+<div class="cn-lyric">[01:58.37]再也不会动摇</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:01.66]<ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby> <ruby>乾<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>銃声<rt class="furi">じゅうせい</rt><rt class="roma">juusei</rt></ruby>
+</div>
+<div class="cn-lyric">[02:01.66]回响 干燥的枪声</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:05.36]<ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえる<rt class="roma">koeru</rt></ruby><ruby>罵声<rt class="furi">ばせい</rt><rt class="roma">basei</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>絶叫<rt class="furi">ぜっきょう</rt><rt class="roma">zekkyou</rt></ruby>
+</div>
+<div class="cn-lyric">[02:05.36]远处传来的谩骂与惨叫</div>
+<div class="cn-lyric">[02:05.36]远处传来的谩骂与惨叫</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:10.81]<ruby>正義<rt class="furi">せいぎ</rt><rt class="roma">seigi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>問<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>いかける<rt class="roma">ikakeru</rt></ruby>
+</div>
+<div class="cn-lyric">[02:10.81]质问正义</div>
+<div class="cn-lyric">[02:10.81]质问正义</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:13.14]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>彼<rt class="furi">かれ</rt><rt class="roma">kare</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby> <ruby>どちら<rt class="roma">dochira</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>?
+</div>
+<div class="cn-lyric">[02:13.14]我和他们 谁该死？</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:18.22]<ruby>守<rt class="furi">まも</rt><rt class="roma">mamo</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>一<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>しか<rt class="roma">shika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+</div>
+<div class="cn-lyric">[02:18.22]因为能守护的东西只有一个</div>
 </div>
 
 <div class="lyric-line">
@@ -212,44 +212,44 @@ Oh-oh
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>他人<rt class="furi">たにん</rt><rt class="roma">tanin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>寄り添<rt class="furi">よりそ</rt><rt class="roma">yoriso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:33.27]<ruby>他人<rt class="furi">たにん</rt><rt class="roma">tanin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>寄り添<rt class="furi">よりそ</rt><rt class="roma">yoriso</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">体谅他人的痛苦 与心灵相依</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>こんなにも<rt class="roma">konnanimo</rt></ruby><ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
-</div>
-<div class="cn-lyric">人明明如此美丽</div>
+<div class="cn-lyric">[02:33.27]体谅他人的痛苦 与心灵相依</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>憎<rt class="furi">にく</rt><rt class="roma">niku</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[02:39.51]<ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>こんなにも<rt class="roma">konnanimo</rt></ruby><ruby>美<rt class="furi">うつく</rt><rt class="roma">utsuku</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
-<div class="cn-lyric">却要找到理由互相憎恨啊</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>産<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>なきゃ<rt class="roma">nakya</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
-</div>
-<div class="cn-lyric">如果降生没有意义就无法生存啊</div>
+<div class="cn-lyric">[02:39.51]人明明如此美丽</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なら<rt class="roma">nara</rt></ruby> <ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[02:44.55]<ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>憎<rt class="furi">にく</rt><rt class="roma">niku</rt></ruby><ruby>しみ<rt class="roma">shimi</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="cn-lyric">那么 这就是我的答案</div>
+<div class="cn-lyric">[02:44.55]却要找到理由互相憎恨啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby> <ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[02:49.98]<ruby>産<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>なきゃ<rt class="roma">nakya</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="cn-lyric">生命消逝 因为温柔</div>
+<div class="cn-lyric">[02:49.98]如果降生没有意义就无法生存啊</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:59.43]<ruby>なら<rt class="roma">nara</rt></ruby> <ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>答<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+</div>
+<div class="cn-lyric">[02:59.43]那么 这就是我的答案</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:09.69]<ruby>命<rt class="furi">いのち</rt><rt class="roma">inochi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby> <ruby>優<rt class="furi">やさ</rt><rt class="roma">yasa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>せい<rt class="roma">sei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+</div>
+<div class="cn-lyric">[03:09.69]生命消逝 因为温柔</div>
 </div>
 
 <div class="lyric-line">
@@ -266,16 +266,16 @@ Oh-oh
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>銃口<rt class="furi">じゅうこう</rt><rt class="roma">juukou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[03:24.91]<ruby>銃口<rt class="furi">じゅうこう</rt><rt class="roma">juukou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="cn-lyric">举起枪口 为了让你看见</div>
+<div class="cn-lyric">[03:24.91]举起枪口 为了让你看见</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そして<rt class="roma">soshite</rt></ruby><ruby>銃声<rt class="furi">じゅうせい</rt><rt class="roma">juusei</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
+[03:31.87]<ruby>そして<rt class="roma">soshite</rt></ruby><ruby>銃声<rt class="furi">じゅうせい</rt><rt class="roma">juusei</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>響<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
-<div class="cn-lyric">然后枪声回响</div>
+<div class="cn-lyric">[03:31.87]然后枪声回响</div>
 </div>
 
 <div class="lyric-line">
@@ -292,23 +292,23 @@ Oh-oh
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>犠牲<rt class="furi">ぎせい</rt><rt class="roma">gisei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[03:43.20]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きる<rt class="roma">kiru</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>犠牲<rt class="furi">ぎせい</rt><rt class="roma">gisei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="cn-lyric">我活下去 牺牲你</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>自<rt class="furi">みずか</rt><rt class="roma">mizuka</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>汚<rt class="furi">けが</rt><rt class="roma">kega</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>選<rt class="furi">えら</rt><rt class="roma">era</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
-</div>
-<div class="cn-lyric">选择弄脏自己的手</div>
+<div class="cn-lyric">[03:43.20]我活下去 牺牲你</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>当事者<rt class="furi">とうじしゃ</rt><rt class="roma">toujisha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>
+[03:48.69]<ruby>自<rt class="furi">みずか</rt><rt class="roma">mizuka</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>汚<rt class="furi">けが</rt><rt class="roma">kega</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>事<rt class="furi">こと</rt><rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>選<rt class="furi">えら</rt><rt class="roma">era</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="cn-lyric">我成为当事人 此刻</div>
+<div class="cn-lyric">[03:48.69]选择弄脏自己的手</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[03:56.26]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>当事者<rt class="furi">とうじしゃ</rt><rt class="roma">toujisha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby> <ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>
+</div>
+<div class="cn-lyric">[03:56.26]我成为当事人 此刻</div>
 </div>
 
 </div>

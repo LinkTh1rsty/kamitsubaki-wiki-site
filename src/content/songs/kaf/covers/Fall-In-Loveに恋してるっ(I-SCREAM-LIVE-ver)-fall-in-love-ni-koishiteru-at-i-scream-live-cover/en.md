@@ -34,7 +34,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-No no no no no no no no
+[00:04.21]No no no no no no no no
 </div>
 <div class="trans-lyric">No no no no no no no no</div>
 <div class="trans-lyric">No no no no no no no no</div>
@@ -43,7 +43,7 @@ No no no no no no no no
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ごめんなさい<rt class="roma">gomennasai</rt></ruby> <ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>さようなら<rt class="roma">sayounara</rt></ruby>
+[00:19.96]<ruby>ごめんなさい<rt class="roma">gomennasai</rt></ruby> <ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>さようなら<rt class="roma">sayounara</rt></ruby>
 </div>
 <div class="trans-lyric">I'm sorry, but this is goodbye</div>
 </div>
@@ -85,7 +85,7 @@ No no no no no no no no
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>やっぱり<rt class="roma">yappari</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
+[00:51.62]<ruby>やっぱり<rt class="roma">yappari</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
 </div>
 <div class="trans-lyric">And then I love you again</div>
 </div>
@@ -100,14 +100,14 @@ No no no no no no no no
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby> <ruby>つまり<rt class="roma">tsumari</rt></ruby>
+[00:57.81]<ruby>そう<rt class="roma">sou</rt></ruby> <ruby>つまり<rt class="roma">tsumari</rt></ruby>
 </div>
 <div class="trans-lyric">Yes, in other words</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>イェイ<rt class="roma">iei</rt></ruby> <ruby>イェイ<rt class="roma">iei</rt></ruby> <ruby>イェイ<rt class="roma">iei</rt></ruby>
+[00:58.93]<ruby>イェイ<rt class="roma">iei</rt></ruby> <ruby>イェイ<rt class="roma">iei</rt></ruby> <ruby>イェイ<rt class="roma">iei</rt></ruby>
 </div>
 <div class="trans-lyric">Yay, yay, yay</div>
 <div class="trans-lyric">Yay, yay, yay</div>
@@ -123,7 +123,7 @@ No no no no no no no no
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Fall in love<ruby>に<rt class="roma">ni</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>っ<rt class="roma"></rt></ruby>
+[01:03.76]Fall in love<ruby>に<rt class="roma">ni</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>っ<rt class="roma"></rt></ruby>
 </div>
 <div class="trans-lyric">I've been in love with falling in love</div>
 </div>
@@ -138,7 +138,7 @@ Fall in love<ruby>に<rt class="roma">ni</rt></ruby><ruby>恋<rt class="furi">�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[01:09.69]<ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 <div class="trans-lyric">I just want to feel it a little</div>
 <div class="trans-lyric">I just want to feel it a little</div>
@@ -146,7 +146,7 @@ Fall in love<ruby>に<rt class="roma">ni</rt></ruby><ruby>恋<rt class="furi">�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かん<rt class="roma">kan</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:13.11]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かん<rt class="roma">kan</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 <div class="trans-lyric">I don't understand love</div>
 <div class="trans-lyric">I don't understand love</div>
@@ -191,7 +191,7 @@ No no no no no no no no
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>とっくに<rt class="roma">tokkuni</rt></ruby><ruby>飽<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[02:00.13]<ruby>もう<rt class="roma">mou</rt></ruby> <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>とっくに<rt class="roma">tokkuni</rt></ruby><ruby>飽<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 <div class="trans-lyric">I've already been bored of you for a while now</div>
 </div>
@@ -219,7 +219,7 @@ No no no no no no no no
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>やっぱり<rt class="roma">yappari</rt></ruby><ruby>キライ<rt class="roma">kirai</rt></ruby>
+[02:25.71]<ruby>やっぱり<rt class="roma">yappari</rt></ruby><ruby>キライ<rt class="roma">kirai</rt></ruby>
 </div>
 <div class="trans-lyric">And then I hate you again</div>
 </div>
@@ -232,7 +232,7 @@ No no no no no no no no
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby> <ruby>ずばり<rt class="roma">zubari</rt></ruby>
+[02:31.91]<ruby>そう<rt class="roma">sou</rt></ruby> <ruby>ずばり<rt class="roma">zubari</rt></ruby>
 </div>
 <div class="trans-lyric">Yes, to be blunt</div>
 </div>
@@ -251,7 +251,7 @@ No no no no no no no no
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Make love<ruby>に<rt class="roma">ni</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>っ<rt class="roma"></rt></ruby>
+[02:37.79]Make love<ruby>に<rt class="roma">ni</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>っ<rt class="roma"></rt></ruby>
 </div>
 <div class="trans-lyric">I've been in love with making love</div>
 </div>

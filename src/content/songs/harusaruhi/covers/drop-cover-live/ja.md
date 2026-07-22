@@ -33,6 +33,98 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[00:00.04]Ich hab noch immer keinen Job, Job, Job
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:02.41]Bin bankrott-krott-krott und saufe trotzdem
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:05.17]Auf das ganze Lernen hab ich immer noch kein'n Bock, Bock, Bock
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:08.72]Kippe Shots und hab am nächsten Morgen Kopfweh
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:12.72]Und wenn sie nicht gestorben sind, feiern sie immer noch, noch, noch
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:16.84]Zu diesem Drop, Drop, Drop, bis die Wände beben
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:19.76]Glaub mir, Babe, ich bleib so lange, bis das nicht mehr schockt, schockt, schockt
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:23.37]Lieber Gott, oh, lass das nie zu Ende geh'n (Ende geh'n, Ende geh'n)
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:41.89]Ich schreibe ihr Melodien, wenn ich Sehnsucht krieg, Baby, willst du mit mir geh'n?
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:47.28]Du bist 'ne Zehn-von-zehn, eine von den'n, mit der ich bis hintern Venus flieg
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:52.42]Sie sagt, die Nägel sind echt und ich gebe ihr recht
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:55.82]Zwei Tequila auf ex, Happy Hour perfekt
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:59.18]Oh, ich will nie wieder weg von hier, ich verlier mich in dieser Zeit
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:04.08]Dann fällt mir wieder ein, ich hab immer noch kein'n
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
 Ich hab noch immer keinen Job, Job, Job
 </div>
 </div>
@@ -65,7 +157,7 @@ Und wenn sie nicht gestorben sind, feiern sie immer noch, noch, noch
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Zu diesem Drop, Drop, Drop, bis die Wände beben
+[01:23.82]Zu diesem Drop, Drop, Drop bis die Wände beben
 </div>
 </div>
 
@@ -77,99 +169,7 @@ Glaub mir, Babe, ich bleib so lange, bis das nicht mehr schockt, schockt, schock
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Lieber Gott, oh, lass das nie zu Ende geh'n (Ende geh'n, Ende geh'n)
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Ich schreibe ihr Melodien, wenn ich Sehnsucht krieg, Baby, willst du mit mir geh'n?
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Du bist 'ne Zehn-von-zehn, eine von den'n, mit der ich bis hintern Venus flieg
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Sie sagt, die Nägel sind echt und ich gebe ihr recht
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Zwei Tequila auf ex, Happy Hour perfekt
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Oh, ich will nie wieder weg von hier, ich verlier mich in dieser Zeit
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Dann fällt mir wieder ein, ich hab immer noch kein'n
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Ich hab noch immer keinen Job, Job, Job
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Bin bankrott-krott-krott und saufe trotzdem
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Auf das ganze Lernen hab ich immer noch kein'n Bock, Bock, Bock
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Kippe Shots und hab am nächsten Morgen Kopfweh
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Und wenn sie nicht gestorben sind, feiern sie immer noch, noch, noch
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Zu diesem Drop, Drop, Drop bis die Wände beben
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Glaub mir, Babe, ich bleib so lange, bis das nicht mehr schockt, schockt, schockt
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Lieber Gott, oh, lass das nie zu Ende geh'n (Ende geh'n)
+[01:30.45]Lieber Gott, oh, lass das nie zu Ende geh'n (Ende geh'n)
 </div>
 </div>
 

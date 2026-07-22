@@ -63,9 +63,9 @@ image: /images/albums/koko/prayer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ログアウト<rt class="roma">roguauto</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
+[00:54.16]<ruby>ログアウト<rt class="roma">roguauto</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>
 </div>
-<div class="cn-lyric">退出登录</div>
+<div class="cn-lyric">[00:54.16]退出登录</div>
 </div>
 
 <br />
@@ -226,9 +226,9 @@ image: /images/albums/koko/prayer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ログイン<rt class="roma">roguin</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:23.84]<ruby>ログイン<rt class="roma">roguin</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">登录吧</div>
+<div class="cn-lyric">[02:23.84]登录吧</div>
 </div>
 
 <br />

@@ -77,7 +77,7 @@ image: /images/songs/rim/single-1765250997.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ああ<rt class="roma">aa</rt></ruby>
+[00:25.90]<ruby>ああ<rt class="roma">aa</rt></ruby>
 </div>
 <div class="trans-lyric">Ah</div>
 <div class="trans-lyric">Ah</div>
@@ -164,7 +164,7 @@ image: /images/songs/rim/single-1765250997.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あ<rt class="roma">a</rt></ruby>
+[00:25.90]<ruby>あ<rt class="roma">a</rt></ruby>
 </div>
 <div class="trans-lyric">Ah</div>
 </div>
@@ -187,7 +187,7 @@ image: /images/songs/rim/single-1765250997.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>グッド<rt class="roma">guddo</rt></ruby><ruby>ミュージック<rt class="roma">myuujikku</rt></ruby>、<ruby>スタート<rt class="roma">sutaato</rt></ruby>
+[01:02.21]<ruby>グッド<rt class="roma">guddo</rt></ruby><ruby>ミュージック<rt class="roma">myuujikku</rt></ruby>、<ruby>スタート<rt class="roma">sutaato</rt></ruby>
 </div>
 <div class="trans-lyric">Good music, start</div>
 <div class="trans-lyric">Good music, start</div>
@@ -203,7 +203,7 @@ image: /images/songs/rim/single-1765250997.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ctrl+Z<ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>、<ruby>ぜんぶ<rt class="roma">zenbu</rt></ruby>
+[01:06.51]Ctrl+Z<ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>、<ruby>ぜんぶ<rt class="roma">zenbu</rt></ruby>
 </div>
 <div class="trans-lyric">I want to Ctrl+Z everything</div>
 </div>
@@ -244,7 +244,7 @@ Ctrl+Z<ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>くら<rt class="roma">kura</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
+[01:31.03]<ruby>くら<rt class="roma">kura</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>
 </div>
 <div class="trans-lyric">Dizzy</div>
 </div>
@@ -253,14 +253,14 @@ Ctrl+Z<ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>おしい<rt class="roma">oshii</rt></ruby>
+[00:57.91]<ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>おしい<rt class="roma">oshii</rt></ruby>
 </div>
 <div class="trans-lyric">The wind is endearing</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まるで<rt class="roma">marude</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>囁<rt class="furi">ささや</rt><rt class="roma">sasaya</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:57.91]<ruby>まるで<rt class="roma">marude</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>囁<rt class="furi">ささや</rt><rt class="roma">sasaya</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">As if with sweet whispers</div>
 </div>
@@ -301,7 +301,7 @@ Ctrl+Z<ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あれ<rt class="roma">are</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
+[00:57.91]<ruby>あれ<rt class="roma">are</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>確<rt class="furi">たし</rt><rt class="roma">tashi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby>
 </div>
 <div class="trans-lyric">That was definitely love</div>
 </div>
@@ -322,7 +322,7 @@ Ctrl+Z<ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:57.91]<ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">I don't even know anything about tomorrow</div>
 </div>
@@ -364,7 +364,7 @@ Ctrl+Z<ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エスケープフロム<rt class="roma">esukeepufuromu</rt></ruby>
+[02:19.20]<ruby>エスケープフロム<rt class="roma">esukeepufuromu</rt></ruby>
 </div>
 <div class="trans-lyric">Escape from</div>
 </div>
@@ -380,7 +380,7 @@ Ctrl+Z<ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
+[02:22.24]<ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
 <div class="trans-lyric">Good</div>
 </div>
@@ -403,7 +403,7 @@ Ctrl+Z<ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえる<rt class="roma">koeru</rt></ruby>
+[02:26.86]<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえる<rt class="roma">koeru</rt></ruby>
 </div>
 <div class="trans-lyric">I can hear it forever</div>
 </div>
@@ -417,7 +417,7 @@ Ctrl+Z<ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[00:57.91]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 <div class="trans-lyric">Even if I'm not loved</div>
 </div>
@@ -431,7 +431,7 @@ Ctrl+Z<ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>し<rt class="roma">shi</rt></ruby><ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:33.88]<ruby>し<rt class="roma">shi</rt></ruby><ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">I won't</div>
 </div>
@@ -451,7 +451,7 @@ Ctrl+Z<ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby>
+[02:45.53]<ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
 <div class="trans-lyric">Surely</div>
 </div>

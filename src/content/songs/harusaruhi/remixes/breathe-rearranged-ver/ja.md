@@ -182,7 +182,7 @@ Every second counts and I can't afford to blink
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh
+[00:35.40]Oh
 </div>
 </div>
 
@@ -216,7 +216,7 @@ Just focus, calm down
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Breathe)
+[00:12.89](Breathe)
 </div>
 </div>
 

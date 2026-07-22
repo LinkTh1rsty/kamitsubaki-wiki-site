@@ -31,9 +31,9 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[00:00.20]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
-<div class="cn-lyric">这个世界仍然</div>
+<div class="cn-lyric">[00:00.20]这个世界仍然</div>
 </div>
 
 <div class="lyric-line">

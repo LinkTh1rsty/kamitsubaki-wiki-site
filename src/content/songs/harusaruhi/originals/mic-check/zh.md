@@ -54,9 +54,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby><ruby>こめりゃ<rt class="roma">komerya</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>通<rt class="furi">かよ</rt><rt class="roma">kayo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>yeah
+[00:20.68]<ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby><ruby>こめりゃ<rt class="roma">komerya</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>通<rt class="furi">かよ</rt><rt class="roma">kayo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>yeah
 </div>
-<div class="cn-lyric">注入灵魂便能心意相通 yeah</div>
+<div class="cn-lyric">[00:20.68]注入灵魂便能心意相通 yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -82,17 +82,17 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ジャック<rt class="roma">jakku</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>脳裏<rt class="furi">のうり</rt><rt class="roma">nouri</rt></ruby>
+[00:18.31]<ruby>ジャック<rt class="roma">jakku</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>脳裏<rt class="furi">のうり</rt><rt class="roma">nouri</rt></ruby>
 </div>
-<div class="cn-lyric">占据你的脑海</div>
+<div class="cn-lyric">[00:18.31]占据你的脑海</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah
+[00:20.68]yeah
 </div>
-<div class="cn-lyric">yeah</div>
-<div class="cn-lyric">yeah</div>
+<div class="cn-lyric">[00:20.68]yeah</div>
+<div class="cn-lyric">[00:20.68]yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -125,9 +125,9 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>や<rt class="roma">ya</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[00:31.46]<ruby>や<rt class="roma">ya</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="cn-lyric">连烦心事也能改变</div>
+<div class="cn-lyric">[00:31.46]连烦心事也能改变</div>
 </div>
 
 <div class="lyric-line">
@@ -168,22 +168,9 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah<ruby>マイク<rt class="roma">maiku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
+[00:40.87]yeah<ruby>マイク<rt class="roma">maiku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
-<div class="cn-lyric">yeah 只要握住麦克风</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>マイク<rt class="roma">maiku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby>LIFE
-</div>
-<div class="cn-lyric">就能改变人生</div>
+<div class="cn-lyric">[00:40.87]yeah 只要握住麦克风</div>
 </div>
 
 <div class="lyric-line">
@@ -194,9 +181,22 @@ yeah<ruby>マイク<rt class="roma">maiku</rt></ruby><ruby>を<rt class="roma">w
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah<ruby>マイク<rt class="roma">maiku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>eh
+[00:54.26]<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby>LIFE
 </div>
-<div class="cn-lyric">yeah 只要握住麦克风 eh</div>
+<div class="cn-lyric">[00:54.26]就能改变人生</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>この<rt class="roma">kono</rt></ruby><ruby>マイク<rt class="roma">maiku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:59.28]yeah<ruby>マイク<rt class="roma">maiku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>eh
+</div>
+<div class="cn-lyric">[00:59.28]yeah 只要握住麦克风 eh</div>
 </div>
 
 <br />

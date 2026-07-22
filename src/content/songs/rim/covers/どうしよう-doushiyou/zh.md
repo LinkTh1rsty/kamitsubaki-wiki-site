@@ -120,9 +120,9 @@ image: /images/albums/rim/chocolate-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>いっきり<rt class="roma">ikkiri</rt></ruby> <ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[02:44.84]<ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>いっきり<rt class="roma">ikkiri</rt></ruby> <ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめ<rt class="roma">kishime</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="cn-lyric">想要尽情地 拥抱你</div>
+<div class="cn-lyric">[02:44.84]想要尽情地 拥抱你</div>
 </div>
 
 <div class="lyric-line">
@@ -224,9 +224,9 @@ I LOVE YOU
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>彼<rt class="furi">かれ</rt><rt class="roma">kare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[02:58.44]<ruby>彼<rt class="furi">かれ</rt><rt class="roma">kare</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="cn-lyric">好想见他</div>
+<div class="cn-lyric">[02:58.44]好想见他</div>
 </div>
 
 <div class="lyric-line">

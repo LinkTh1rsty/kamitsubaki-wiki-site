@@ -57,10 +57,10 @@ image: /images/albums/kaf/shinai.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>明滅<rt class="furi">めいめつ</rt><rt class="roma">meimetsu</rt></ruby>
+[00:49.06]<ruby>明滅<rt class="furi">めいめつ</rt><rt class="roma">meimetsu</rt></ruby>
 </div>
-<div class="cn-lyric">明灭</div>
-<div class="cn-lyric">明灭</div>
+<div class="cn-lyric">[00:49.06]明灭</div>
+<div class="cn-lyric">[00:49.06]明灭</div>
 </div>
 
 <div class="lyric-line">
@@ -195,9 +195,9 @@ image: /images/albums/kaf/shinai.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>いか<rt class="roma">ika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[02:40.89]<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>いか<rt class="roma">ika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="cn-lyric">请不要离开</div>
+<div class="cn-lyric">[02:40.89]请不要离开</div>
 </div>
 
 <div class="lyric-line">

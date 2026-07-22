@@ -189,7 +189,7 @@ Oh
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Breathe slowly, take your time
+[00:34.13]Breathe slowly, take your time
 </div>
 </div>
 
@@ -215,7 +215,7 @@ Just focus, calm down
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Breathe)
+[00:34.13](Breathe)
 </div>
 </div>
 
@@ -223,7 +223,7 @@ Just focus, calm down
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Breathe slowly take your time)
+[00:34.13](Breathe slowly take your time)
 </div>
 </div>
 

@@ -101,12 +101,12 @@ image: /images/songs/koko/single-1687478650.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(just be recall your memory ha)
+[01:02.64](just be recall your memory ha)
 </div>
-<div class="cn-lyric">(just be recall your memory ha)</div>
-<div class="cn-lyric">(just be recall your memory ha)</div>
-<div class="cn-lyric">(just be recall your memory ha)</div>
-<div class="cn-lyric">(just be recall your memory ha)</div>
+<div class="cn-lyric">[01:02.64](just be recall your memory ha)</div>
+<div class="cn-lyric">[01:02.64](just be recall your memory ha)</div>
+<div class="cn-lyric">[01:02.64](just be recall your memory ha)</div>
+<div class="cn-lyric">[01:02.64](just be recall your memory ha)</div>
 </div>
 
 <div class="lyric-line">
@@ -119,12 +119,12 @@ image: /images/songs/koko/single-1687478650.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(I can hear the voice calling you back)
+[01:08.76](I can hear the voice calling you back)
 </div>
-<div class="cn-lyric">(I can hear the voice calling you back)</div>
-<div class="cn-lyric">(I can hear the voice calling you back)</div>
-<div class="cn-lyric">(I can hear the voice calling you back)</div>
-<div class="cn-lyric">(I can hear the voice calling you back)</div>
+<div class="cn-lyric">[01:08.76](I can hear the voice calling you back)</div>
+<div class="cn-lyric">[01:08.76](I can hear the voice calling you back)</div>
+<div class="cn-lyric">[01:08.76](I can hear the voice calling you back)</div>
+<div class="cn-lyric">[01:08.76](I can hear the voice calling you back)</div>
 </div>
 
 <div class="lyric-line">
@@ -136,12 +136,12 @@ image: /images/songs/koko/single-1687478650.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(just be recall your promise words)
+[01:13.07](just be recall your promise words)
 </div>
-<div class="cn-lyric">(just be recall your promise words)</div>
-<div class="cn-lyric">(just be recall your promise words)</div>
-<div class="cn-lyric">(just be recall your promise words)</div>
-<div class="cn-lyric">(just be recall your promise words)</div>
+<div class="cn-lyric">[01:13.07](just be recall your promise words)</div>
+<div class="cn-lyric">[01:13.07](just be recall your promise words)</div>
+<div class="cn-lyric">[01:13.07](just be recall your promise words)</div>
+<div class="cn-lyric">[01:13.07](just be recall your promise words)</div>
 </div>
 
 <div class="lyric-line">
@@ -290,9 +290,9 @@ image: /images/songs/koko/single-1687478650.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-just be recall your memory ha
+[01:33.48]just be recall your memory ha
 </div>
-<div class="cn-lyric">just be recall your memory ha</div>
+<div class="cn-lyric">[01:33.48]just be recall your memory ha</div>
 </div>
 
 <div class="lyric-line">

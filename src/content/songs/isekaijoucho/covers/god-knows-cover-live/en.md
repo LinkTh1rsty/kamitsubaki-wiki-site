@@ -77,7 +77,7 @@ It's time to leave behind everything we know
 
 <div class="lyric-line">
 <div class="jp-lyric">
-On the lonely rail
+[01:07.93]On the lonely rail
 </div>
 <div class="trans-lyric">On the lonely rail</div>
 </div>
@@ -93,7 +93,7 @@ Whatever happens, I am with you
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I won't ever lose you
+[01:07.93]I won't ever lose you
 </div>
 <div class="trans-lyric">I won't ever lose you</div>
 <div class="trans-lyric">I won't ever lose you</div>
@@ -202,7 +202,7 @@ Inside a fading dream
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Praying there's a chance for your lonely heart
+[02:45.43]Praying there's a chance for your lonely heart
 </div>
 <div class="trans-lyric">Praying there's a chance for your lonely heart</div>
 </div>
@@ -253,7 +253,7 @@ Scars will keep on mending and maybe someday we can change our destiny
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's my wish
+[03:08.92]It's my wish
 </div>
 <div class="trans-lyric">It's my wish</div>
 </div>
@@ -267,7 +267,7 @@ We'll always be together
 
 <div class="lyric-line">
 <div class="jp-lyric">
-But this, only God knows...
+[03:14.13]But this, only God knows...
 </div>
 <div class="trans-lyric">But this, only God knows...</div>
 </div>

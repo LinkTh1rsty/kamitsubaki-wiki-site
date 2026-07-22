@@ -64,58 +64,58 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Look at the sea look at the flow
+[00:31.27]Look at the sea look at the flow
 </div>
-<div class="cn-lyric">Look at the sea look at the flow</div>
-<div class="cn-lyric">Look at the sea look at the flow</div>
-<div class="cn-lyric">Look at the sea look at the flow</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Look at the bird
-</div>
-<div class="cn-lyric">Look at the bird</div>
-<div class="cn-lyric">Look at the bird</div>
-<div class="cn-lyric">Look at the bird</div>
+<div class="cn-lyric">[00:31.27]Look at the sea look at the flow</div>
+<div class="cn-lyric">[00:31.27]Look at the sea look at the flow</div>
+<div class="cn-lyric">[00:31.27]Look at the sea look at the flow</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[00:36.03]Look at the bird
 </div>
-<div class="cn-lyric">不要醒来啊</div>
-<div class="cn-lyric">不要醒来啊</div>
-<div class="cn-lyric">不要醒来啊</div>
-<div class="cn-lyric">不要醒来啊</div>
-<div class="cn-lyric">不要醒来啊</div>
-<div class="cn-lyric">不要醒来啊</div>
-<div class="cn-lyric">不要醒来啊</div>
+<div class="cn-lyric">[00:36.03]Look at the bird</div>
+<div class="cn-lyric">[00:36.03]Look at the bird</div>
+<div class="cn-lyric">[00:36.03]Look at the bird</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Look at the sea look at the sky
+[00:38.09]<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="cn-lyric">Look at the sea look at the sky</div>
-<div class="cn-lyric">Look at the sea look at the sky</div>
-<div class="cn-lyric">Look at the sea look at the sky</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Look at the moon
-</div>
-<div class="cn-lyric">Look at the moon</div>
-<div class="cn-lyric">Look at the moon</div>
-<div class="cn-lyric">Look at the moon</div>
+<div class="cn-lyric">[00:38.09]不要醒来啊</div>
+<div class="cn-lyric">[00:38.09]不要醒来啊</div>
+<div class="cn-lyric">[00:38.09]不要醒来啊</div>
+<div class="cn-lyric">[00:38.09]不要醒来啊</div>
+<div class="cn-lyric">[00:38.09]不要醒来啊</div>
+<div class="cn-lyric">[00:38.09]不要醒来啊</div>
+<div class="cn-lyric">[00:38.09]不要醒来啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>ねえ<rt class="roma">nee</rt></ruby>
+[00:41.44]Look at the sea look at the sky
 </div>
-<div class="cn-lyric">不要醒来啊 呐</div>
+<div class="cn-lyric">[00:41.44]Look at the sea look at the sky</div>
+<div class="cn-lyric">[00:41.44]Look at the sea look at the sky</div>
+<div class="cn-lyric">[00:41.44]Look at the sea look at the sky</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:46.10]Look at the moon
+</div>
+<div class="cn-lyric">[00:46.10]Look at the moon</div>
+<div class="cn-lyric">[00:46.10]Look at the moon</div>
+<div class="cn-lyric">[00:46.10]Look at the moon</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:48.29]<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>ねえ<rt class="roma">nee</rt></ruby>
+</div>
+<div class="cn-lyric">[00:48.29]不要醒来啊 呐</div>
 </div>
 
 <br />
@@ -211,16 +211,16 @@ Look at the moon
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ふり<rt class="roma">furi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:56.53]<ruby>気付<rt class="furi">きづ</rt><rt class="roma">kizu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ふり<rt class="roma">furi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">装作没察觉也可以哦</div>
+<div class="cn-lyric">[01:56.53]装作没察觉也可以哦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>おそれ<rt class="roma">osore</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[01:59.06]<ruby>おそれ<rt class="roma">osore</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="cn-lyric">不要害怕 不要改变</div>
+<div class="cn-lyric">[01:59.06]不要害怕 不要改变</div>
 </div>
 
 <div class="lyric-line">

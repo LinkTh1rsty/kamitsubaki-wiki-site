@@ -194,9 +194,9 @@ My Shangri-la
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>微<rt class="furi">び</rt><rt class="roma">bi</rt></ruby><ruby>笑<rt class="furi">え</rt><rt class="roma">e</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>恐<rt class="furi">おそ</rt><rt class="roma">oso</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[01:36.93]<ruby>その<rt class="roma">sono</rt></ruby><ruby>微<rt class="furi">び</rt><rt class="roma">bi</rt></ruby><ruby>笑<rt class="furi">え</rt><rt class="roma">e</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>恐<rt class="furi">おそ</rt><rt class="roma">oso</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
-<div class="cn-lyric">曾害怕那微笑</div>
+<div class="cn-lyric">[01:36.93]曾害怕那微笑</div>
 </div>
 
 <br />

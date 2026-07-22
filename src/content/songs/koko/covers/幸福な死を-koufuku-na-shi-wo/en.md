@@ -28,7 +28,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
+[00:10.95]<ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>
 </div>
 <div class="trans-lyric">If I fall into hell, I'll be saved</div>
 <div class="trans-lyric">If I fall into hell, I'll be saved</div>
@@ -37,7 +37,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>天国<rt class="furi">てんごく</rt><rt class="roma">tengoku</rt></ruby><ruby>昇<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
+[00:14.44]<ruby>天国<rt class="furi">てんごく</rt><rt class="roma">tengoku</rt></ruby><ruby>昇<rt class="furi">のぼ</rt><rt class="roma">nobo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>また<rt class="roma">mata</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>
 </div>
 <div class="trans-lyric">If I ascend to heaven, we'll meet again</div>
 <div class="trans-lyric">If I ascend to heaven, we'll meet again</div>
@@ -46,14 +46,14 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>楽<rt class="furi">らく</rt><rt class="roma">raku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>、<ruby>楽<rt class="furi">らく</rt><rt class="roma">raku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>、
+[00:18.10]<ruby>楽<rt class="furi">らく</rt><rt class="roma">raku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>、<ruby>楽<rt class="furi">らく</rt><rt class="roma">raku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>、
 </div>
 <div class="trans-lyric">Gently, gently,</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>絞<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>乞<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
+[00:20.37]<ruby>絞<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>乞<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
 </div>
 <div class="trans-lyric">I love you who begs to be choked</div>
 </div>
@@ -62,42 +62,42 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>もっと<rt class="roma">motto</rt></ruby><ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>絞<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[01:01.61]<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>もっと<rt class="roma">motto</rt></ruby><ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>絞<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 <div class="trans-lyric">More, more strongly, choke me,</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>幼<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>喘<rt class="furi">あえ</rt><rt class="roma">ae</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
+[01:09.27]<ruby>幼<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>喘<rt class="furi">あえ</rt><rt class="roma">ae</rt></ruby><ruby>ぐ<rt class="roma">gu</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
 </div>
 <div class="trans-lyric">I love you who gasps with a childish voice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>か弱<rt class="furi">かよわ</rt><rt class="roma">kayowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[01:23.93]<ruby>か弱<rt class="furi">かよわ</rt><rt class="roma">kayowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">With a frail voice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さよなら<rt class="roma">sayonara</rt></ruby>
+[01:31.28]<ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
 <div class="trans-lyric">Goodbye</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ありがと<rt class="roma">arigato</rt></ruby>
+[01:34.91]<ruby>ありがと<rt class="roma">arigato</rt></ruby>
 </div>
 <div class="trans-lyric">Thank you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>と<rt class="roma">to</rt></ruby><ruby>囁<rt class="furi">ささや</rt><rt class="roma">sasaya</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:38.04]<ruby>と<rt class="roma">to</rt></ruby><ruby>囁<rt class="furi">ささや</rt><rt class="roma">sasaya</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">She whispered and died</div>
 </div>
@@ -118,7 +118,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>罰<rt class="furi">ばち</rt><rt class="roma">bachi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>与<rt class="furi">あた</rt><rt class="roma">ata</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>おくれ<rt class="roma">okure</rt></ruby>
+[01:57.86]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>罰<rt class="furi">ばち</rt><rt class="roma">bachi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>与<rt class="furi">あた</rt><rt class="roma">ata</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>おくれ<rt class="roma">okure</rt></ruby>
 </div>
 <div class="trans-lyric">Give me punishment in hell</div>
 </div>
@@ -127,42 +127,42 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>純粋<rt class="furi">じゅんすい</rt><rt class="roma">junsui</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>天<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[02:05.06]<ruby>純粋<rt class="furi">じゅんすい</rt><rt class="roma">junsui</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>天<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 <div class="trans-lyric">Pure you are in heaven</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あの世<rt class="furi">あのよ</rt><rt class="roma">anoyo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>虚無<rt class="furi">きょむ</rt><rt class="roma">kyomu</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:09.35]<ruby>あの世<rt class="furi">あのよ</rt><rt class="roma">anoyo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>虚無<rt class="furi">きょむ</rt><rt class="roma">kyomu</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 <div class="trans-lyric">If the afterlife is nothingness, let's go there</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[02:12.31]<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 <div class="trans-lyric">I want to see you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>？
+[02:13.47]<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby>？
 </div>
 <div class="trans-lyric">Can we meet?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>
+[02:14.32]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby>
 </div>
 <div class="trans-lyric">Now, to me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>幸福<rt class="furi">こうふく</rt><rt class="roma">koufuku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[02:15.39]<ruby>幸福<rt class="furi">こうふく</rt><rt class="roma">koufuku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 <div class="trans-lyric">A happy death</div>
 </div>
@@ -171,42 +171,42 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby>、<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby>、<ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[02:56.13]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby>、<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby>、<ruby>この<rt class="roma">kono</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 <div class="trans-lyric">I, I, want to die like this</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>素直<rt class="furi">すなお</rt><rt class="roma">sunao</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>応<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>純<rt class="furi">じゅん</rt><rt class="roma">jun</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
+[03:03.62]<ruby>素直<rt class="furi">すなお</rt><rt class="roma">sunao</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>応<rt class="furi">こた</rt><rt class="roma">kota</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>純<rt class="furi">じゅん</rt><rt class="roma">jun</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby>
 </div>
 <div class="trans-lyric">I love you pure who answers honestly</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>嬉<rt class="furi">うれ</rt><rt class="roma">ure</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[03:18.27]<ruby>嬉<rt class="furi">うれ</rt><rt class="roma">ure</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">With a happy voice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>？
+[03:25.59]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>？
 </div>
 <div class="trans-lyric">Is this okay?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ちいい<rt class="roma">chiii</rt></ruby>？
+[03:29.30]<ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ちいい<rt class="roma">chiii</rt></ruby>？
 </div>
 <div class="trans-lyric">Does it feel good?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>と<rt class="roma">to</rt></ruby><ruby>囁<rt class="furi">ささや</rt><rt class="roma">sasaya</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>殺<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[03:32.81]<ruby>と<rt class="roma">to</rt></ruby><ruby>囁<rt class="furi">ささや</rt><rt class="roma">sasaya</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>殺<rt class="furi">ころ</rt><rt class="roma">koro</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 <div class="trans-lyric">You whispered and killed me</div>
 </div>
@@ -227,14 +227,14 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>罰<rt class="furi">ばち</rt><rt class="roma">bachi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[03:52.00]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>罰<rt class="furi">ばち</rt><rt class="roma">bachi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 <div class="trans-lyric">Punishment to me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>与<rt class="furi">あた</rt><rt class="roma">ata</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>おくれ<rt class="roma">okure</rt></ruby>
+[03:54.19]<ruby>地獄<rt class="furi">じごく</rt><rt class="roma">jigoku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>与<rt class="furi">あた</rt><rt class="roma">ata</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>おくれ<rt class="roma">okure</rt></ruby>
 </div>
 <div class="trans-lyric">Give it in hell</div>
 </div>
@@ -243,21 +243,21 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>純粋<rt class="furi">じゅんすい</rt><rt class="roma">junsui</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>天<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
+[03:59.36]<ruby>純粋<rt class="furi">じゅんすい</rt><rt class="roma">junsui</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>天<rt class="furi">てん</rt><rt class="roma">ten</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
 <div class="trans-lyric">Pure you come to heaven</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>罪<rt class="furi">つみ</rt><rt class="roma">tsumi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>晴<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>そこで<rt class="roma">sokode</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[04:03.26]<ruby>罪<rt class="furi">つみ</rt><rt class="roma">tsumi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>晴<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>そこで<rt class="roma">sokode</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 <div class="trans-lyric">If my sins are cleared, let's meet there</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>おいで<rt class="roma">oide</rt></ruby>、<ruby>おいで<rt class="roma">oide</rt></ruby>、<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>幸福<rt class="furi">こうふく</rt><rt class="roma">koufuku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[04:06.94]<ruby>おいで<rt class="roma">oide</rt></ruby>、<ruby>おいで<rt class="roma">oide</rt></ruby>、<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>幸福<rt class="furi">こうふく</rt><rt class="roma">koufuku</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 <div class="trans-lyric">Come, come, a happy death for you too</div>
 </div>

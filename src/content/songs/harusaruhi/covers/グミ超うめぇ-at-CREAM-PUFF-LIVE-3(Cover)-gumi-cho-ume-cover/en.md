@@ -33,7 +33,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
+[00:13.01]<ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
 <div class="trans-lyric">Gummy is super delicious</div>
 <div class="trans-lyric">Gummy is super delicious</div>
@@ -47,7 +47,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>グミ<rt class="roma">gumi</rt></ruby> <ruby>グミ<rt class="roma">gumi</rt></ruby>
+[00:14.25]<ruby>グミ<rt class="roma">gumi</rt></ruby> <ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
 <div class="trans-lyric">Gummy gummy</div>
 <div class="trans-lyric">Gummy gummy</div>
@@ -61,7 +61,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>マジ<rt class="roma">maji</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
+[00:14.25]<ruby>マジ<rt class="roma">maji</rt></ruby><ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
 <div class="trans-lyric">Seriously super delicious</div>
 <div class="trans-lyric">Seriously super delicious</div>
@@ -129,7 +129,7 @@ image: /images/albums/harusaruhi/cream-puff-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-This is my favorite<ruby>な<rt class="roma">na</rt></ruby><ruby>アイドル<rt class="roma">aidoru</rt></ruby>
+[00:26.46]This is my favorite<ruby>な<rt class="roma">na</rt></ruby><ruby>アイドル<rt class="roma">aidoru</rt></ruby>
 </div>
 <div class="trans-lyric">This is my favorite idol</div>
 <div class="trans-lyric">This is my favorite idol</div>
@@ -137,7 +137,7 @@ This is my favorite<ruby>な<rt class="roma">na</rt></ruby><ruby>アイドル<rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Colorful<ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>最高<rt class="furi">さいこう</rt><rt class="roma">saikou</rt></ruby>
+[00:29.68]Colorful<ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>まって<rt class="roma">matte</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby><ruby>最高<rt class="furi">さいこう</rt><rt class="roma">saikou</rt></ruby>
 </div>
 <div class="trans-lyric">Dyeing colorfully, it's the best</div>
 <div class="trans-lyric">Dyeing colorfully, it's the best</div>
@@ -145,7 +145,7 @@ Colorful<ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">そ</r
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Pocket<ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>****in’<ruby>相棒<rt class="furi">あいぼう</rt><rt class="roma">aibou</rt></ruby>
+[00:32.85]Pocket<ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>****in’<ruby>相棒<rt class="furi">あいぼう</rt><rt class="roma">aibou</rt></ruby>
 </div>
 <div class="trans-lyric">My ****in' partner in my pocket</div>
 <div class="trans-lyric">My ****in' partner in my pocket</div>
@@ -153,7 +153,7 @@ Pocket<ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>グミ<rt class="roma">gumi</rt></ruby>
+[00:35.40]<ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
 <div class="trans-lyric">Gummy</div>
 <div class="trans-lyric">Gummy</div>
@@ -171,7 +171,7 @@ Pocket<ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
+[00:35.40]<ruby>超<rt class="furi">ちょう</rt><rt class="roma">chou</rt></ruby><ruby>うめ<rt class="roma">ume</rt></ruby><ruby>ぇ<rt class="roma">e</rt></ruby>
 </div>
 <div class="trans-lyric">Super delicious</div>
 <div class="trans-lyric">Super delicious</div>
@@ -179,35 +179,35 @@ Pocket<ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>ぶっ<rt class="roma">bu</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:38.50]<ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>ぶっ<rt class="roma">bu</rt></ruby><ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">When I eat gummy, I get blown away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>マジ<rt class="roma">maji</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ジューシー<rt class="roma">juushii</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:40.19]<ruby>マジ<rt class="roma">maji</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ジューシー<rt class="roma">juushii</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">It's seriously juicy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>大好<rt class="furi">だいす</rt><rt class="roma">daisu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>すぎ<rt class="roma">sugi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:41.72]<ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>大好<rt class="furi">だいす</rt><rt class="roma">daisu</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>すぎ<rt class="roma">sugi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">I love gummy so much I ate too much</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>虫歯<rt class="furi">むしば</rt><rt class="roma">mushiba</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:43.41]<ruby>虫歯<rt class="furi">むしば</rt><rt class="roma">mushiba</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">I have cavities</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>首<rt class="furi">くび</rt><rt class="roma">kubi</rt></ruby><ruby>傾<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby>
+[00:44.92]<ruby>首<rt class="furi">くび</rt><rt class="roma">kubi</rt></ruby><ruby>傾<rt class="furi">かた</rt><rt class="roma">kata</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby>
 </div>
 <div class="trans-lyric">Tilt your head and try eating it</div>
 </div>
@@ -221,70 +221,70 @@ Straight neck<ruby>なる<rt class="roma">naru</rt></ruby><ruby>よ<rt class="ro
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>晩餐<rt class="furi">ばんさん</rt><rt class="roma">bansan</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[00:47.75]<ruby>最後<rt class="furi">さいご</rt><rt class="roma">saigo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>晩餐<rt class="furi">ばんさん</rt><rt class="roma">bansan</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 <div class="trans-lyric">Even the last supper</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>揉<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>キリスト<rt class="roma">kirisuto</rt></ruby>
+[00:50.11]<ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>揉<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>キリスト<rt class="roma">kirisuto</rt></ruby>
 </div>
 <div class="trans-lyric">Christ arguing about who ate the gummy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>着色<rt class="furi">ちゃくしょく</rt><rt class="roma">chakushoku</rt></ruby><ruby>料<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>つくる<rt class="roma">tsukuru</rt></ruby>Rainbow
+[00:51.28]<ruby>着色<rt class="furi">ちゃくしょく</rt><rt class="roma">chakushoku</rt></ruby><ruby>料<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>つくる<rt class="roma">tsukuru</rt></ruby>Rainbow
 </div>
 <div class="trans-lyric">Rainbow made by coloring</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-HARIBO Bear is my friend
+[00:52.91]HARIBO Bear is my friend
 </div>
 <div class="trans-lyric">HARIBO Bear is my friend</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I miss you <ruby>ひも<rt class="roma">himo</rt></ruby>Q
+[00:54.53]I miss you <ruby>ひも<rt class="roma">himo</rt></ruby>Q
 </div>
 <div class="trans-lyric">I miss you Himo Q</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>謎<rt class="furi">なぞ</rt><rt class="roma">nazo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>実<rt class="furi">み</rt><rt class="roma">mi</rt></ruby>
+[00:55.55]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>謎<rt class="furi">なぞ</rt><rt class="roma">nazo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>実<rt class="furi">み</rt><rt class="roma">mi</rt></ruby>
 </div>
 <div class="trans-lyric">The mysterious fruit that disappeared</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I’m sorry can’t save you
+[00:55.55]I’m sorry can’t save you
 </div>
 <div class="trans-lyric">I'm sorry can't save you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あの<rt class="roma">ano</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[00:57.59]<ruby>あの<rt class="roma">ano</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>決<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 <div class="trans-lyric">At that time I decided in my heart</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>やる<rt class="roma">yaru</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[00:58.77]<ruby>やる<rt class="roma">yaru</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 <div class="trans-lyric">The time to do it has come</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Never make more crying
+[00:59.61]Never make more crying
 </div>
 <div class="trans-lyric">Never make more crying</div>
 </div>
@@ -297,49 +297,49 @@ Never make more crying
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>消費<rt class="furi">しょうひ</rt><rt class="roma">shouhi</rt></ruby><ruby>活動<rt class="furi">かつどう</rt><rt class="roma">katsudou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[01:01.07]<ruby>消費<rt class="furi">しょうひ</rt><rt class="roma">shouhi</rt></ruby><ruby>活動<rt class="furi">かつどう</rt><rt class="roma">katsudou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">Through consumption activities</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>消化<rt class="furi">しょうか</rt><rt class="roma">shouka</rt></ruby><ruby>活動<rt class="furi">かつどう</rt><rt class="roma">katsudou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[01:02.35]<ruby>消化<rt class="furi">しょうか</rt><rt class="roma">shouka</rt></ruby><ruby>活動<rt class="furi">かつどう</rt><rt class="roma">katsudou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">Through digestion activities</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>排泄<rt class="furi">はいせつ</rt><rt class="roma">haisetsu</rt></ruby><ruby>活動<rt class="furi">かつどう</rt><rt class="roma">katsudou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[01:03.27]<ruby>排泄<rt class="furi">はいせつ</rt><rt class="roma">haisetsu</rt></ruby><ruby>活動<rt class="furi">かつどう</rt><rt class="roma">katsudou</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">Through excretion activities</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I don’t need lean
+[01:04.28]I don’t need lean
 </div>
 <div class="trans-lyric">I don't need lean</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I don’t need bull
+[01:05.55]I don’t need bull
 </div>
 <div class="trans-lyric">I don't need bull</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>第<rt class="furi">だい</rt><rt class="roma">dai</rt></ruby><ruby>三<rt class="furi">さん</rt><rt class="roma">san</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>フルーツ<rt class="roma">furuutsu</rt></ruby>
+[01:06.54]<ruby>第<rt class="furi">だい</rt><rt class="roma">dai</rt></ruby><ruby>三<rt class="furi">さん</rt><rt class="roma">san</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>フルーツ<rt class="roma">furuutsu</rt></ruby>
 </div>
 <div class="trans-lyric">The third fruit</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>キャバクラ<rt class="roma">kyabakura</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>配<rt class="furi">くば</rt><rt class="roma">kuba</rt></ruby><ruby>れよ<rt class="roma">reyo</rt></ruby>
+[01:07.82]<ruby>キャバクラ<rt class="roma">kyabakura</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>配<rt class="furi">くば</rt><rt class="roma">kuba</rt></ruby><ruby>れよ<rt class="roma">reyo</rt></ruby>
 </div>
 <div class="trans-lyric">Even hand them out at cabaret clubs</div>
 </div>
@@ -353,28 +353,28 @@ B***h
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
+[01:10.87]<ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
 <div class="trans-lyric">I don't know, but</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>アラブ<rt class="roma">arabu</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>高級<rt class="furi">こうきゅう</rt><rt class="roma">koukyuu</rt></ruby><ruby>食材<rt class="furi">しょくざい</rt><rt class="roma">shokuzai</rt></ruby><ruby>グミ<rt class="roma">gumi</rt></ruby>
+[01:11.68]<ruby>アラブ<rt class="roma">arabu</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>高級<rt class="furi">こうきゅう</rt><rt class="roma">koukyuu</rt></ruby><ruby>食材<rt class="furi">しょくざい</rt><rt class="roma">shokuzai</rt></ruby><ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
 <div class="trans-lyric">In Arabia, gummy is a luxury ingredient</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>フカ<rt class="roma">fuka</rt></ruby><ruby>ヒレ<rt class="roma">hire</rt></ruby> <ruby>キャビア<rt class="roma">kyabia</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>グミ<rt class="roma">gumi</rt></ruby>
+[01:13.28]<ruby>フカ<rt class="roma">fuka</rt></ruby><ruby>ヒレ<rt class="roma">hire</rt></ruby> <ruby>キャビア<rt class="roma">kyabia</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
 <div class="trans-lyric">Shark fin, caviar, and gummy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ぐる<rt class="roma">guru</rt></ruby><ruby>ナイ<rt class="roma">nai</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>出<rt class="furi">で</rt><rt class="roma">de</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby><ruby>べき<rt class="roma">beki</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby>
+[01:14.52]<ruby>ぐる<rt class="roma">guru</rt></ruby><ruby>ナイ<rt class="roma">nai</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>出<rt class="furi">で</rt><rt class="roma">de</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>くる<rt class="roma">kuru</rt></ruby><ruby>べき<rt class="roma">beki</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby>
 </div>
 <div class="trans-lyric">Should appear on Gurunai and such</div>
 </div>
@@ -387,49 +387,49 @@ B***h
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>裏切<rt class="furi">うらぎ</rt><rt class="roma">uragi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:18.18]<ruby>グミ<rt class="roma">gumi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>裏切<rt class="furi">うらぎ</rt><rt class="roma">uragi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">Gummy won't betray you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>封<rt class="furi">ふう</rt><rt class="roma">fuu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>香<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>Favor
+[01:20.22]<ruby>封<rt class="furi">ふう</rt><rt class="roma">fuu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>香<rt class="furi">かお</rt><rt class="roma">kao</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>Favor
 </div>
 <div class="trans-lyric">If you open it, the flavor (Favor) wafts</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
+[01:20.22]<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
 </div>
 <div class="trans-lyric">The changing world</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby>Bounce<ruby>グミ<rt class="roma">gumi</rt></ruby>
+[01:23.41]<ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby>Bounce<ruby>グミ<rt class="roma">gumi</rt></ruby>
 </div>
 <div class="trans-lyric">Bounce gummy in my mouth</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(<ruby>とびきり<rt class="roma">tobikiri</rt></ruby><ruby>ジューシー<rt class="roma">juushii</rt></ruby>)
+[01:25.41](<ruby>とびきり<rt class="roma">tobikiri</rt></ruby><ruby>ジューシー<rt class="roma">juushii</rt></ruby>)
 </div>
 <div class="trans-lyric">(Extraordinarily juicy)</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Don’t steal my GUMI
+[01:26.64]Don’t steal my GUMI
 </div>
 <div class="trans-lyric">Don't steal my GUMI</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(<ruby>神<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>恵<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby>)
+[01:28.49](<ruby>神<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>恵<rt class="furi">めぐ</rt><rt class="roma">megu</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby>)
 </div>
 <div class="trans-lyric">(God's blessing)</div>
 </div>

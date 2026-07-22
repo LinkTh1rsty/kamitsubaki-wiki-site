@@ -176,7 +176,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
+[02:51.75]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
 <div class="trans-lyric">That's fine</div>
 </div>
@@ -250,7 +250,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それでも<rt class="roma">soredemo</rt></ruby>
+[01:04.03]<ruby>それでも<rt class="roma">soredemo</rt></ruby>
 </div>
 <div class="trans-lyric">Even so</div>
 <div class="trans-lyric">Even so</div>
@@ -264,7 +264,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
+[01:04.03]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
 <div class="trans-lyric">There is still a world I want to see</div>
 </div>
@@ -446,7 +446,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
+[02:39.71]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 <div class="trans-lyric">Isn't that right?</div>
 <div class="trans-lyric">Isn't that right?</div>

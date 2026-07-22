@@ -33,7 +33,7 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>daze slowly
+[00:17.64]<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>daze slowly
 </div>
 <div class="trans-lyric">Just a little more, daze slowly</div>
 <div class="trans-lyric">Just a little more, daze slowly</div>
@@ -59,7 +59,7 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>ice cream
+[00:29.44]<ruby>もう少<rt class="furi">もうすこ</rt><rt class="roma">mousuko</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby>ice cream
 </div>
 <div class="trans-lyric">About to melt, ice cream</div>
 <div class="trans-lyric">About to melt, ice cream</div>
@@ -69,7 +69,7 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>rain of dreams
+[00:32.49]<ruby>どうか<rt class="roma">douka</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>rain of dreams
 </div>
 <div class="trans-lyric">Something's wrong, rain of dreams</div>
 <div class="trans-lyric">Something's wrong, rain of dreams</div>
@@ -77,7 +77,7 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>掠<rt class="furi">かす</rt><rt class="roma">kasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>欠<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>pieces
+[00:35.38]<ruby>掠<rt class="furi">かす</rt><rt class="roma">kasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>欠<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>甘<rt class="furi">あま</rt><rt class="roma">ama</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>pieces
 </div>
 <div class="trans-lyric">In a hoarse world, missing sweet pieces</div>
 <div class="trans-lyric">In a hoarse world, missing sweet pieces</div>
@@ -85,7 +85,7 @@ daydream appears on daydream or a related official release. Entries are version-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm looking for it
+[00:40.56]I'm looking for it
 </div>
 <div class="trans-lyric">I'm looking for it</div>
 </div>
@@ -115,7 +115,7 @@ I'm looking for it
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Refrain<ruby>に<rt class="roma">ni</rt></ruby><ruby>紛<rt class="furi">まぎ</rt><rt class="roma">magi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>許<rt class="furi">ゆる</rt><rt class="roma">yuru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れよ<rt class="roma">reyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:55.67]Refrain<ruby>に<rt class="roma">ni</rt></ruby><ruby>紛<rt class="furi">まぎ</rt><rt class="roma">magi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>許<rt class="furi">ゆる</rt><rt class="roma">yuru</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>れよ<rt class="roma">reyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 <div class="trans-lyric">Blending into the refrain, let us be forgiven</div>
 </div>
@@ -129,7 +129,7 @@ Refrain<ruby>に<rt class="roma">ni</rt></ruby><ruby>紛<rt class="furi">まぎ<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Mistake may stay
+[01:01.53]Mistake may stay
 </div>
 <div class="trans-lyric">Mistake may stay</div>
 </div>
@@ -152,7 +152,7 @@ Mistake may stay
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>music
+[01:09.60]<ruby>醒<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>music
 </div>
 <div class="trans-lyric">Until I awake, the music I remembered</div>
 <div class="trans-lyric">Until I awake, the music I remembered</div>
@@ -174,7 +174,7 @@ Mistake may stay
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>偏<rt class="furi">かたよ</rt><rt class="roma">katayo</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>tuning
+[01:21.01]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> <ruby>偏<rt class="furi">かたよ</rt><rt class="roma">katayo</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>tuning
 </div>
 <div class="trans-lyric">Stay here, biased tuning</div>
 <div class="trans-lyric">Stay here, biased tuning</div>
@@ -182,7 +182,7 @@ Mistake may stay
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I will undo it
+[01:25.98]I will undo it
 </div>
 <div class="trans-lyric">I will undo it</div>
 <div class="trans-lyric">I will undo it</div>
@@ -199,7 +199,7 @@ I will undo it
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>木漏れ日<rt class="furi">こもれび</rt><rt class="roma">komorebi</rt></ruby><ruby>反射<rt class="furi">はんしゃ</rt><rt class="roma">hansha</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>astronomy
+[01:30.71]<ruby>木漏れ日<rt class="furi">こもれび</rt><rt class="roma">komorebi</rt></ruby><ruby>反射<rt class="furi">はんしゃ</rt><rt class="roma">hansha</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>astronomy
 </div>
 <div class="trans-lyric">Sunlight filtering through trees reflecting, astronomy</div>
 </div>
@@ -213,14 +213,14 @@ I will undo it
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>フランベ<rt class="roma">furanbe</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>planet<ruby>に<rt class="roma">ni</rt></ruby>
+[01:35.32]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>フランベ<rt class="roma">furanbe</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>planet<ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">On this flambéed planet</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>浮<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>かん<rt class="roma">kan</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby><ruby>不完全<rt class="furi">ふかんぜん</rt><rt class="roma">fukanzen</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>chill
+[01:36.88]<ruby>浮<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>かん<rt class="roma">kan</rt></ruby><ruby>でる<rt class="roma">deru</rt></ruby><ruby>不完全<rt class="furi">ふかんぜん</rt><rt class="roma">fukanzen</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>chill
 </div>
 <div class="trans-lyric">Floating, an incomplete chill</div>
 </div>
@@ -234,14 +234,14 @@ I will undo it
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ひっそり<rt class="roma">hissori</rt></ruby><ruby>壁<rt class="furi">かべ</rt><rt class="roma">kabe</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>飾<rt class="furi">かざ</rt><rt class="roma">kaza</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>never ending
+[01:42.29]<ruby>ひっそり<rt class="roma">hissori</rt></ruby><ruby>壁<rt class="furi">かべ</rt><rt class="roma">kabe</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>飾<rt class="furi">かざ</rt><rt class="roma">kaza</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>never ending
 </div>
 <div class="trans-lyric">Quietly displayed on the wall, never ending</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どうせ<rt class="roma">douse</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>あと<rt class="roma">ato</rt></ruby>5<ruby>分<rt class="furi">ふん</rt><rt class="roma">fun</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[01:44.99]<ruby>どうせ<rt class="roma">douse</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>あと<rt class="roma">ato</rt></ruby>5<ruby>分<rt class="furi">ふん</rt><rt class="roma">fun</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 <div class="trans-lyric">After all, only 5 minutes until it ends</div>
 </div>

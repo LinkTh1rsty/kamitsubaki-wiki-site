@@ -47,9 +47,9 @@ image: /images/songs/rim/single-1687461820.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>つもり<rt class="roma">tsumori</rt></ruby>？
+[00:28.63]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>つもり<rt class="roma">tsumori</rt></ruby>？
 </div>
-<div class="cn-lyric">你还要在那里待到什么时候？</div>
+<div class="cn-lyric">[00:28.63]你还要在那里待到什么时候？</div>
 </div>
 
 <div class="lyric-line">
@@ -90,10 +90,10 @@ image: /images/songs/rim/single-1687461820.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>、<ruby>そう<rt class="roma">sou</rt></ruby>、<ruby>ちょうど<rt class="roma">choudo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[00:54.20]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>、<ruby>そう<rt class="roma">sou</rt></ruby>、<ruby>ちょうど<rt class="roma">choudo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="cn-lyric">那种程度，没错，刚刚好</div>
-<div class="cn-lyric">那种程度，没错，刚刚好</div>
+<div class="cn-lyric">[00:54.20]那种程度，没错，刚刚好</div>
+<div class="cn-lyric">[00:54.20]那种程度，没错，刚刚好</div>
 </div>
 
 <div class="lyric-line">
@@ -106,18 +106,18 @@ image: /images/songs/rim/single-1687461820.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>めちゃくちゃ<rt class="roma">mechakucha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:02.34]<ruby>めちゃくちゃ<rt class="roma">mechakucha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なれ<rt class="roma">nare</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">变得一塌糊涂就好</div>
-<div class="cn-lyric">变得一塌糊涂就好</div>
+<div class="cn-lyric">[01:02.34]变得一塌糊涂就好</div>
+<div class="cn-lyric">[01:02.34]变得一塌糊涂就好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なったって<rt class="roma">nattatte</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:05.25]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なったって<rt class="roma">nattatte</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">再也回不去也没关系</div>
-<div class="cn-lyric">再也回不去也没关系</div>
+<div class="cn-lyric">[01:05.25]再也回不去也没关系</div>
+<div class="cn-lyric">[01:05.25]再也回不去也没关系</div>
 </div>
 
 <div class="lyric-line">
@@ -130,18 +130,18 @@ image: /images/songs/rim/single-1687461820.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>しまえ<rt class="roma">shimae</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
+[01:12.65]<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>しまえ<rt class="roma">shimae</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
-<div class="cn-lyric">干脆死掉就好了</div>
-<div class="cn-lyric">干脆死掉就好了</div>
+<div class="cn-lyric">[01:12.65]干脆死掉就好了</div>
+<div class="cn-lyric">[01:12.65]干脆死掉就好了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ぐちゃぐちゃ<rt class="roma">guchagucha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:15.69]<ruby>ぐちゃぐちゃ<rt class="roma">guchagucha</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="cn-lyric">想要搞得一团糟</div>
-<div class="cn-lyric">想要搞得一团糟</div>
+<div class="cn-lyric">[01:15.69]想要搞得一团糟</div>
+<div class="cn-lyric">[01:15.69]想要搞得一团糟</div>
 </div>
 
 <div class="lyric-line">
@@ -154,10 +154,10 @@ image: /images/songs/rim/single-1687461820.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いか<rt class="roma">ika</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[01:22.22]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いか<rt class="roma">ika</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="cn-lyric">因为不让你去任何地方</div>
-<div class="cn-lyric">因为不让你去任何地方</div>
+<div class="cn-lyric">[01:22.22]因为不让你去任何地方</div>
+<div class="cn-lyric">[01:22.22]因为不让你去任何地方</div>
 </div>
 
 <br />

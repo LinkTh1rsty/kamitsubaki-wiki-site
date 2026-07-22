@@ -38,160 +38,160 @@ image: /images/albums/vwp/awakening.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>霞<rt class="furi">かす</rt><rt class="roma">kasu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>視界<rt class="furi">しかい</rt><rt class="roma">shikai</rt></ruby> <ruby>渇望<rt class="furi">かつぼう</rt><rt class="roma">katsubou</rt></ruby> mind <ruby>脳<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>内<rt class="furi">ない</rt><rt class="roma">nai</rt></ruby>
+[00:08.08]<ruby>霞<rt class="furi">かす</rt><rt class="roma">kasu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>視界<rt class="furi">しかい</rt><rt class="roma">shikai</rt></ruby> <ruby>渇望<rt class="furi">かつぼう</rt><rt class="roma">katsubou</rt></ruby> mind <ruby>脳<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>内<rt class="furi">ない</rt><rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">朦胧的视野 渴望 mind 脑海</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>耳鳴<rt class="furi">みみな</rt><rt class="roma">mimina</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえ<rt class="roma">koe</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>
-</div>
-<div class="cn-lyric">连耳鸣都听不见的程度</div>
+<div class="cn-lyric">[00:08.08]朦胧的视野 渴望 mind 脑海</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>見失<rt class="furi">みうしな</rt><rt class="roma">miushina</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:12.98]<ruby>耳鳴<rt class="furi">みみな</rt><rt class="roma">mimina</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえ<rt class="roma">koe</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>
 </div>
-<div class="cn-lyric">越是痛苦 越是重复 就快要迷失</div>
+<div class="cn-lyric">[00:12.98]连耳鸣都听不见的程度</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
+[00:19.40]<ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>見失<rt class="furi">みうしな</rt><rt class="roma">miushina</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="cn-lyric">心在呐喊 却无法满足 这个世界</div>
+<div class="cn-lyric">[00:19.40]越是痛苦 越是重复 就快要迷失</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:25.50]<ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>
+</div>
+<div class="cn-lyric">[00:25.50]心在呐喊 却无法满足 这个世界</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まるで<rt class="roma">marude</rt></ruby><ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
+[00:31.86]<ruby>まるで<rt class="roma">marude</rt></ruby><ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
 </div>
-<div class="cn-lyric">仿佛溺水一般</div>
+<div class="cn-lyric">[00:31.86]仿佛溺水一般</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:33.43]<ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>
+</div>
+<div class="cn-lyric">[00:33.43]快要无法呼吸</div>
+<div class="cn-lyric">[00:33.43]快要无法呼吸</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:34.76]<ruby>初<rt class="furi">はつ</rt><rt class="roma">hatsu</rt></ruby>褪<ruby>う<rt class="roma">u</rt></ruby><ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby> <ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+</div>
+<div class="cn-lyric">[00:34.76]褪色的命运 无法吞下</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:38.62]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[00:38.62]活不下去啊</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:40.66]<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby> <ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+</div>
+<div class="cn-lyric">[00:40.66]越是想念 理想 孤独 爱也好 梦也好</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:45.55]<ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かん<rt class="roma">kan</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>未開<rt class="furi">みかい</rt><rt class="roma">mikai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+</div>
+<div class="cn-lyric">[00:45.55]不明白啊 在未开化的世界中被吞没</div>
+<div class="cn-lyric">[00:45.55]不明白啊 在未开化的世界中被吞没</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:50.68]<ruby>欲望<rt class="furi">よくぼう</rt><rt class="roma">yokubou</rt></ruby> <ruby>渇<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> 醗<ruby>いよ<rt class="roma">iyo</rt></ruby>
+</div>
+<div class="cn-lyric">[00:50.68]欲望 越是干渴 越无法得救 好痛啊</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:55.77]<ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>いま<rt class="roma">ima</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+</div>
+<div class="cn-lyric">[00:55.77]愿望 现在请施下魔法</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:01.56]Yeah <ruby>衝動<rt class="furi">しょうどう</rt><rt class="roma">shoudou</rt></ruby> <ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>かう<rt class="roma">kau</rt></ruby> <ruby>躁鬱<rt class="furi">そううつ</rt><rt class="roma">souutsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> life
+</div>
+<div class="cn-lyric">[01:01.56]Yeah 冲动 前往 躁郁的 life</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:05.07]<ruby>未開<rt class="furi">みかい</rt><rt class="roma">mikai</rt></ruby> <ruby>能動<rt class="furi">のうどう</rt><rt class="roma">noudou</rt></ruby> <ruby>敵<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>問<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> my mind
+</div>
+<div class="cn-lyric">[01:05.07]未开 能动 敌人质问 my mind</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:07.86]<ruby>逃<rt class="furi">のが</rt><rt class="roma">noga</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby>
+</div>
+<div class="cn-lyric">[01:07.86]无法逃脱的这个命运</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:10.32]<ruby>行き交<rt class="furi">いきか</rt><rt class="roma">ikika</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>惑<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby>
+</div>
+<div class="cn-lyric">[01:10.32]交错而行 困惑与未来</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:12.21]<ruby>だれ<rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>まるで<rt class="roma">marude</rt></ruby><ruby>理解<rt class="furi">りかい</rt><rt class="roma">rikai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+</div>
+<div class="cn-lyric">[01:12.21]谁都无法理解</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 <ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>
 </div>
-<div class="cn-lyric">快要无法呼吸</div>
-<div class="cn-lyric">快要无法呼吸</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>初<rt class="furi">はつ</rt><rt class="roma">hatsu</rt></ruby>褪<ruby>う<rt class="roma">u</rt></ruby><ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby> <ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:16.54]<ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby> <ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">褪色的命运 无法吞下</div>
+<div class="cn-lyric">[01:16.54]彷徨的命运 无法吞下</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:21.08]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
-<div class="cn-lyric">活不下去啊</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby> <ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
-</div>
-<div class="cn-lyric">越是想念 理想 孤独 爱也好 梦也好</div>
+<div class="cn-lyric">[01:21.08]活不下去了吗？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>分<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>かん<rt class="roma">kan</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>未開<rt class="furi">みかい</rt><rt class="roma">mikai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:22.85]<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>期待<rt class="furi">きたい</rt><rt class="roma">kitai</rt></ruby> <ruby>不安<rt class="furi">ふあん</rt><rt class="roma">fuan</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="cn-lyric">不明白啊 在未开化的世界中被吞没</div>
-<div class="cn-lyric">不明白啊 在未开化的世界中被吞没</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>欲望<rt class="furi">よくぼう</rt><rt class="roma">yokubou</rt></ruby> <ruby>渇<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> 醗<ruby>いよ<rt class="roma">iyo</rt></ruby>
-</div>
-<div class="cn-lyric">欲望 越是干渴 越无法得救 好痛啊</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>いま<rt class="roma">ima</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
-</div>
-<div class="cn-lyric">愿望 现在请施下魔法</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Yeah <ruby>衝動<rt class="furi">しょうどう</rt><rt class="roma">shoudou</rt></ruby> <ruby>向<rt class="furi">む</rt><rt class="roma">mu</rt></ruby><ruby>かう<rt class="roma">kau</rt></ruby> <ruby>躁鬱<rt class="furi">そううつ</rt><rt class="roma">souutsu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> life
-</div>
-<div class="cn-lyric">Yeah 冲动 前往 躁郁的 life</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>未開<rt class="furi">みかい</rt><rt class="roma">mikai</rt></ruby> <ruby>能動<rt class="furi">のうどう</rt><rt class="roma">noudou</rt></ruby> <ruby>敵<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>問<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> my mind
-</div>
-<div class="cn-lyric">未开 能动 敌人质问 my mind</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>逃<rt class="furi">のが</rt><rt class="roma">noga</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby><ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby>
-</div>
-<div class="cn-lyric">无法逃脱的这个命运</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>行き交<rt class="furi">いきか</rt><rt class="roma">ikika</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>惑<rt class="furi">まど</rt><rt class="roma">mado</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby>
-</div>
-<div class="cn-lyric">交错而行 困惑与未来</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>だれ<rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>まるで<rt class="roma">marude</rt></ruby><ruby>理解<rt class="furi">りかい</rt><rt class="roma">rikai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
-</div>
-<div class="cn-lyric">谁都无法理解</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>彷徨<rt class="furi">ほうこう</rt><rt class="roma">houkou</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>運命<rt class="furi">うんめい</rt><rt class="roma">unmei</rt></ruby> <ruby>飲み込<rt class="furi">のみこ</rt><rt class="roma">nomiko</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
-</div>
-<div class="cn-lyric">彷徨的命运 无法吞下</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
-</div>
-<div class="cn-lyric">活不下去了吗？</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>期待<rt class="furi">きたい</rt><rt class="roma">kitai</rt></ruby> <ruby>不安<rt class="furi">ふあん</rt><rt class="roma">fuan</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
-</div>
-<div class="cn-lyric">如我所想 期待 不安 爱也好 梦也好</div>
+<div class="cn-lyric">[01:22.85]如我所想 期待 不安 爱也好 梦也好</div>
 </div>
 
 <div class="lyric-line">
@@ -202,83 +202,83 @@ Yeah <ruby>衝動<rt class="furi">しょうどう</rt><rt class="roma">shoudou</
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>欲望<rt class="furi">よくぼう</rt><rt class="roma">yokubou</rt></ruby> <ruby>渇<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:33.02]<ruby>欲望<rt class="furi">よくぼう</rt><rt class="roma">yokubou</rt></ruby> <ruby>渇<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>救<rt class="furi">すく</rt><rt class="roma">suku</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">欲望 越是干渴 越无法得救 好痛啊</div>
+<div class="cn-lyric">[01:33.02]欲望 越是干渴 越无法得救 好痛啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby> <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
+[01:38.08]<ruby>この<rt class="roma">kono</rt></ruby><ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby> <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby>
 </div>
-<div class="cn-lyric">这声呐喊 传达给谁吧</div>
+<div class="cn-lyric">[01:38.08]这声呐喊 传达给谁吧</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
+[01:53.73]<ruby>ねぇ<rt class="roma">nee</rt></ruby> <ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
-<div class="cn-lyric">喂 没有人在吗？</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>
-</div>
-<div class="cn-lyric">连孤独都感觉不到的程度</div>
+<div class="cn-lyric">[01:53.73]喂 没有人在吗？</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>もかも<rt class="roma">mokamo</rt></ruby><ruby>白紙<rt class="furi">はくし</rt><rt class="roma">hakushi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[01:57.08]<ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>
 </div>
-<div class="cn-lyric">够了 在一切都空白的世界上</div>
+<div class="cn-lyric">[01:57.08]连孤独都感觉不到的程度</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:03.05]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>もかも<rt class="roma">mokamo</rt></ruby><ruby>白紙<rt class="furi">はくし</rt><rt class="roma">hakushi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="cn-lyric">施下魔法</div>
+<div class="cn-lyric">[02:03.05]够了 在一切都空白的世界上</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:06.73]<ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>かけ<rt class="roma">kake</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+</div>
+<div class="cn-lyric">[02:06.73]施下魔法</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:09.17]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">想要活下去啊</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>足掻<rt class="furi">あが</rt><rt class="roma">aga</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby> <ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
-</div>
-<div class="cn-lyric">越是挣扎 理想 孤独 爱也好 梦也好</div>
+<div class="cn-lyric">[02:09.17]想要活下去啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>りしめ<rt class="roma">rishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:10.68]<ruby>足掻<rt class="furi">あが</rt><rt class="roma">aga</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby> <ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby> <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="cn-lyric">想要找到 在这个世界中 紧紧握住</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>欲望<rt class="furi">よくぼう</rt><rt class="roma">yokubou</rt></ruby> <ruby>渇<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>導<rt class="furi">みちび</rt><rt class="roma">michibi</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
-</div>
-<div class="cn-lyric">欲望 越是干渴 强烈的光芒指引着</div>
+<div class="cn-lyric">[02:10.68]越是挣扎 理想 孤独 爱也好 梦也好</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby> <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:15.85]<ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>りしめ<rt class="roma">rishime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">祈愿 找到希望</div>
+<div class="cn-lyric">[02:15.85]想要找到 在这个世界中 紧紧握住</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:21.06]<ruby>欲望<rt class="furi">よくぼう</rt><rt class="roma">yokubou</rt></ruby> <ruby>渇<rt class="furi">かわ</rt><rt class="roma">kawa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> <ruby>強<rt class="furi">つよ</rt><rt class="roma">tsuyo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>導<rt class="furi">みちび</rt><rt class="roma">michibi</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+</div>
+<div class="cn-lyric">[02:21.06]欲望 越是干渴 强烈的光芒指引着</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:26.56]<ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>希望<rt class="furi">きぼう</rt><rt class="roma">kibou</rt></ruby> <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+</div>
+<div class="cn-lyric">[02:26.56]祈愿 找到希望</div>
 </div>
 
 </div>

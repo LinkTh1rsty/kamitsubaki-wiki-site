@@ -105,7 +105,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>アイス<rt class="roma">aisu</rt></ruby>
+[00:45.48]<ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ける<rt class="roma">keru</rt></ruby><ruby>アイス<rt class="roma">aisu</rt></ruby>
 </div>
 </div>
 
@@ -165,13 +165,13 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この世<rt class="furi">このよ</rt><rt class="roma">konoyo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>真髄<rt class="furi">しんずい</rt><rt class="roma">shinzui</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> Money?
+[01:03.91]<ruby>この世<rt class="furi">このよ</rt><rt class="roma">konoyo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>真髄<rt class="furi">しんずい</rt><rt class="roma">shinzui</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> Money?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby>
+[01:05.23]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby>
 </div>
 </div>
 
@@ -229,7 +229,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そこで<rt class="roma">sokode</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>謳<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>活<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>かし<rt class="roma">kashi</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> Color
+[01:35.48]<ruby>そこで<rt class="roma">sokode</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>謳<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>活<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>かし<rt class="roma">kashi</rt></ruby><ruby>合<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> Color
 </div>
 </div>
 
@@ -319,7 +319,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ah <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[02:08.34]Ah <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
@@ -331,7 +331,7 @@ Ah <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>耐<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[02:14.48]<ruby>耐<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -423,7 +423,7 @@ Ah <ruby>忘<rt class="furi">わす</rt><rt class="roma">wasu</rt></ruby><ruby>�
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Vroom-vroom) <ruby>周<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>圧倒<rt class="furi">あっとう</rt><rt class="roma">attou</rt></ruby> <ruby>放<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>最速<rt class="furi">さいそく</rt><rt class="roma">saisoku</rt></ruby>
+[02:56.70](Vroom-vroom) <ruby>周<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>圧倒<rt class="furi">あっとう</rt><rt class="roma">attou</rt></ruby> <ruby>放<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>最速<rt class="furi">さいそく</rt><rt class="roma">saisoku</rt></ruby>
 </div>
 </div>
 

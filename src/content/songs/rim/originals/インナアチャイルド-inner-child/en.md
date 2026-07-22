@@ -47,7 +47,7 @@ image: /images/songs/rim/single-1646369845.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まるで<rt class="roma">marude</rt></ruby>
+[00:08.99]<ruby>まるで<rt class="roma">marude</rt></ruby>
 </div>
 <div class="trans-lyric">As if</div>
 </div>
@@ -68,7 +68,7 @@ image: /images/songs/rim/single-1646369845.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>え<rt class="roma">e</rt></ruby><ruby>ずい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[00:15.37]<ruby>え<rt class="roma">e</rt></ruby><ruby>ずい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 <div class="trans-lyric">Gagging</div>
 </div>
@@ -77,7 +77,7 @@ image: /images/songs/rim/single-1646369845.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつか<rt class="roma">itsuka</rt></ruby>
+[00:34.92]<ruby>いつか<rt class="roma">itsuka</rt></ruby>
 </div>
 <div class="trans-lyric">Someday</div>
 </div>
@@ -114,7 +114,7 @@ image: /images/songs/rim/single-1646369845.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>とおく<rt class="roma">tooku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[00:51.96]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>とおく<rt class="roma">tooku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 <div class="trans-lyric">The reason you became distant</div>
 <div class="trans-lyric">The reason you became distant</div>
@@ -122,7 +122,7 @@ image: /images/songs/rim/single-1646369845.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[00:56.11]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>ず<rt class="roma">zu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 <div class="trans-lyric">The reason you became a wound</div>
 <div class="trans-lyric">The reason you became a wound</div>
@@ -130,7 +130,7 @@ image: /images/songs/rim/single-1646369845.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>よわく<rt class="roma">yowaku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[01:00.66]<ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>よわく<rt class="roma">yowaku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 <div class="trans-lyric">The reason you became weak</div>
 <div class="trans-lyric">The reason you became weak</div>
@@ -138,7 +138,7 @@ image: /images/songs/rim/single-1646369845.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だれ<rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まちがえ<rt class="roma">machigae</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[01:04.28]<ruby>だれ<rt class="roma">dare</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まちがえ<rt class="roma">machigae</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 <div class="trans-lyric">Is because someone made a mistake</div>
 </div>
@@ -162,7 +162,7 @@ image: /images/songs/rim/single-1646369845.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[01:18.13]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">Don't stop anymore</div>
 </div>
@@ -236,7 +236,7 @@ image: /images/songs/rim/single-1646369845.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>しょ<rt class="roma">sho</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
+[02:11.85]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>しょ<rt class="roma">sho</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 <div class="trans-lyric">To a place not here</div>
 </div>
@@ -263,7 +263,7 @@ image: /images/songs/rim/single-1646369845.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>よ<rt class="roma">yo</rt></ruby><ruby>ぞ<rt class="roma">zo</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ひろ<rt class="roma">hiro</rt></ruby><ruby>すぎる<rt class="roma">sugiru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[02:45.73]<ruby>よ<rt class="roma">yo</rt></ruby><ruby>ぞ<rt class="roma">zo</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ひろ<rt class="roma">hiro</rt></ruby><ruby>すぎる<rt class="roma">sugiru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 <div class="trans-lyric">Because the night sky is too vast</div>
 </div>
@@ -285,21 +285,21 @@ image: /images/songs/rim/single-1646369845.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>...
+[02:59.70]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>...
 </div>
 <div class="trans-lyric">Don't stop anymore...</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>！
+[02:59.70]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>！
 </div>
 <div class="trans-lyric">Don't stop anymore!</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あいし<rt class="roma">aishi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:06.61]<ruby>あいし<rt class="roma">aishi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Try to love me</div>
 </div>
@@ -338,7 +338,7 @@ image: /images/songs/rim/single-1646369845.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>たとえば<rt class="roma">tatoeba</rt></ruby>
+[03:43.87]<ruby>たとえば<rt class="roma">tatoeba</rt></ruby>
 </div>
 <div class="trans-lyric">For example</div>
 </div>

@@ -39,7 +39,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>歌唱<rt class="furi">かしょう</rt><rt class="roma">kashou</rt></ruby>：CIEL
+[00:01.48]<ruby>歌唱<rt class="furi">かしょう</rt><rt class="roma">kashou</rt></ruby>：CIEL
 </div>
 </div>
 
@@ -315,7 +315,7 @@ image: /images/albums/harusaruhi/cream-puff-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みる<rt class="roma">miru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[03:02.92]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みる<rt class="roma">miru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 

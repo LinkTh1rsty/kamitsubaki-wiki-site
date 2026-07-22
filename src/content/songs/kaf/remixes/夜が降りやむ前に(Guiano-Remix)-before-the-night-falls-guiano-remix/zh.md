@@ -146,9 +146,9 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-踠<ruby>き<rt class="roma">ki</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[01:06.55]踠<ruby>き<rt class="roma">ki</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
-<div class="cn-lyric">挣扎着前行</div>
+<div class="cn-lyric">[01:06.55]挣扎着前行</div>
 </div>
 
 <div class="lyric-line">
@@ -208,9 +208,9 @@ image: /images/albums/kaf/yoru-ga-furiyamu-mae-ni.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
+[01:38.59]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
-<div class="cn-lyric">你是不会懂的</div>
+<div class="cn-lyric">[01:38.59]你是不会懂的</div>
 </div>
 
 <div class="lyric-line">

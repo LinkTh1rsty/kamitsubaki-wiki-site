@@ -58,12 +58,12 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
+[00:30.19]<ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
-<div class="cn-lyric">致化作光芒的你</div>
-<div class="cn-lyric">致化作光芒的你</div>
-<div class="cn-lyric">致化作光芒的你</div>
-<div class="cn-lyric">致化作光芒的你</div>
+<div class="cn-lyric">[00:30.19]致化作光芒的你</div>
+<div class="cn-lyric">[00:30.19]致化作光芒的你</div>
+<div class="cn-lyric">[00:30.19]致化作光芒的你</div>
+<div class="cn-lyric">[00:30.19]致化作光芒的你</div>
 </div>
 
 <div class="lyric-line">
@@ -76,12 +76,12 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[00:43.28]<ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="cn-lyric">化作光芒的你的</div>
-<div class="cn-lyric">化作光芒的你的</div>
-<div class="cn-lyric">化作光芒的你的</div>
-<div class="cn-lyric">化作光芒的你的</div>
+<div class="cn-lyric">[00:43.28]化作光芒的你的</div>
+<div class="cn-lyric">[00:43.28]化作光芒的你的</div>
+<div class="cn-lyric">[00:43.28]化作光芒的你的</div>
+<div class="cn-lyric">[00:43.28]化作光芒的你的</div>
 </div>
 
 <div class="lyric-line">

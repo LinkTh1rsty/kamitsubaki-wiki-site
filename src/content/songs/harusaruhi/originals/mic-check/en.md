@@ -54,7 +54,7 @@ Mic Check appears on SPICE OF LIFE or a related official release. Entries are ve
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby><ruby>こめりゃ<rt class="roma">komerya</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>通<rt class="furi">かよ</rt><rt class="roma">kayo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>yeah
+[00:20.68]<ruby>魂<rt class="furi">たましい</rt><rt class="roma">tamashii</rt></ruby><ruby>こめりゃ<rt class="roma">komerya</rt></ruby><ruby>心<rt class="furi">こころ</rt><rt class="roma">kokoro</rt></ruby><ruby>通<rt class="furi">かよ</rt><rt class="roma">kayo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>yeah
 </div>
 <div class="trans-lyric">Pour your soul and hearts connect, yeah</div>
 </div>
@@ -82,14 +82,14 @@ Mic Check appears on SPICE OF LIFE or a related official release. Entries are ve
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ジャック<rt class="roma">jakku</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>脳裏<rt class="furi">のうり</rt><rt class="roma">nouri</rt></ruby>
+[00:18.31]<ruby>ジャック<rt class="roma">jakku</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>脳裏<rt class="furi">のうり</rt><rt class="roma">nouri</rt></ruby>
 </div>
 <div class="trans-lyric">Jacking your mind</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah
+[00:20.68]yeah
 </div>
 <div class="trans-lyric">yeah</div>
 <div class="trans-lyric">yeah</div>
@@ -125,7 +125,7 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>や<rt class="roma">ya</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[00:31.46]<ruby>や<rt class="roma">ya</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>さえ<rt class="roma">sae</rt></ruby><ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 <div class="trans-lyric">Even bad things can be changed</div>
 </div>
@@ -168,7 +168,7 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah<ruby>マイク<rt class="roma">maiku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
+[00:40.87]yeah<ruby>マイク<rt class="roma">maiku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
 <div class="trans-lyric">Yeah, if I hold the microphone</div>
 </div>
@@ -181,7 +181,7 @@ yeah<ruby>マイク<rt class="roma">maiku</rt></ruby><ruby>を<rt class="roma">w
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby>LIFE
+[00:54.26]<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>られる<rt class="roma">rareru</rt></ruby>LIFE
 </div>
 <div class="trans-lyric">Life I can change</div>
 </div>
@@ -194,7 +194,7 @@ yeah<ruby>マイク<rt class="roma">maiku</rt></ruby><ruby>を<rt class="roma">w
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah<ruby>マイク<rt class="roma">maiku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>eh
+[00:59.28]yeah<ruby>マイク<rt class="roma">maiku</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>握<rt class="furi">にぎ</rt><rt class="roma">nigi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>eh
 </div>
 <div class="trans-lyric">Yeah, if I hold the microphone, eh</div>
 </div>

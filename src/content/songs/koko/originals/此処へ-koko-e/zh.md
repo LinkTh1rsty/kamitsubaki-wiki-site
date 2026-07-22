@@ -211,9 +211,9 @@ image: /images/albums/koko/prayer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>下北<rt class="furi">しもきた</rt><rt class="roma">shimokita</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>Cafe<ruby>で<rt class="roma">de</rt></ruby>Chillout
+[01:44.13]<ruby>下北<rt class="furi">しもきた</rt><rt class="roma">shimokita</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>Cafe<ruby>で<rt class="roma">de</rt></ruby>Chillout
 </div>
-<div class="cn-lyric">在下北泽的咖啡馆里放松</div>
+<div class="cn-lyric">[01:44.13]在下北泽的咖啡馆里放松</div>
 </div>
 
 <div class="lyric-line">

@@ -77,7 +77,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>？
+[00:42.32]<ruby>溶<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>？
 </div>
 </div>
 
@@ -103,7 +103,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いれ<rt class="roma">ire</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
+[01:14.78]<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いれ<rt class="roma">ire</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
 </div>
 
@@ -149,13 +149,13 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いれ<rt class="roma">ire</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
+[02:31.21]<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いれ<rt class="roma">ire</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>わらう<rt class="roma">warau</rt></ruby>
+[02:40.53]<ruby>せめて<rt class="roma">semete</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>わらう<rt class="roma">warau</rt></ruby>
 </div>
 </div>
 

@@ -70,7 +70,7 @@ And your heart is beating
 
 <div class="lyric-line">
 <div class="jp-lyric">
-'Cause you know that you gotta
+[02:10.88]'Cause you know that you gotta
 </div>
 </div>
 
@@ -82,7 +82,7 @@ Get out of the middle
 
 <div class="lyric-line">
 <div class="jp-lyric">
-And rise to the top now
+[00:53.02]And rise to the top now
 </div>
 </div>
 
@@ -90,7 +90,7 @@ And rise to the top now
 
 <div class="lyric-line">
 <div class="jp-lyric">
-When you've made it, won't you tell me what to do?
+[00:25.06]When you've made it, won't you tell me what to do?
 </div>
 </div>
 
@@ -246,13 +246,13 @@ You can't fight the friction, so, ease it off
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh, why can't you let it go?
+[00:25.06]Oh, why can't you let it go?
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Like a bird in the snow
+[00:53.02]Like a bird in the snow
 </div>
 </div>
 

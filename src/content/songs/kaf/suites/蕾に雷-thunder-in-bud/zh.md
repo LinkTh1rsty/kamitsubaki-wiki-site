@@ -34,11 +34,11 @@ image: /images/songs/kaf/track-1689187557.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Five, six)
+[00:00.17](Five, six)
 </div>
-<div class="cn-lyric">(Five, six)</div>
-<div class="cn-lyric">(Five, six)</div>
-<div class="cn-lyric">(Five, six)</div>
+<div class="cn-lyric">[00:00.17](Five, six)</div>
+<div class="cn-lyric">[00:00.17](Five, six)</div>
+<div class="cn-lyric">[00:00.17](Five, six)</div>
 </div>
 
 <br />
@@ -84,9 +84,9 @@ image: /images/songs/kaf/track-1689187557.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>髪<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>な<rt class="roma">na</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>憑<ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>とき<rt class="roma">toki</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[00:49.60]<ruby>髪<rt class="furi">かみ</rt><rt class="roma">kami</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>な<rt class="roma">na</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>憑<ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>とき<rt class="roma">toki</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="cn-lyric">从发丝 被名字附身之时起</div>
+<div class="cn-lyric">[00:49.60]从发丝 被名字附身之时起</div>
 </div>
 
 <div class="lyric-line">
@@ -174,9 +174,9 @@ image: /images/songs/kaf/track-1689187557.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(<ruby>木<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>)
+[01:58.97](<ruby>木<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> <ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>たち<rt class="roma">tachi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>)
 </div>
-<div class="cn-lyric">(因为不只是树木的专属 我们是)</div>
+<div class="cn-lyric">[01:58.97](因为不只是树木的专属 我们是)</div>
 </div>
 
 <div class="lyric-line">

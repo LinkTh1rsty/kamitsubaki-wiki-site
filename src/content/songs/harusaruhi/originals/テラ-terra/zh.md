@@ -78,10 +78,10 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>二度<rt class="furi">にど</rt><rt class="roma">nido</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>逢<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
+[00:40.02]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>二度<rt class="furi">にど</rt><rt class="roma">nido</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>逢<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
-<div class="cn-lyric">虽然再也无法相见</div>
-<div class="cn-lyric">虽然再也无法相见</div>
+<div class="cn-lyric">[00:40.02]虽然再也无法相见</div>
+<div class="cn-lyric">[00:40.02]虽然再也无法相见</div>
 </div>
 
 <div class="lyric-line">
@@ -194,9 +194,9 @@ image: /images/songs/harusaruhi/single-1688524765.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Stay high <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>駆<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[01:31.72]Stay high <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>駆<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="cn-lyric">Stay high 还想继续奔跑</div>
+<div class="cn-lyric">[01:31.72]Stay high 还想继续奔跑</div>
 </div>
 
 <div class="lyric-line">
@@ -297,30 +297,30 @@ Stay high <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>駆<rt class="furi"
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>失態<rt class="furi">しったい</rt><rt class="roma">shittai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>成功<rt class="furi">せいこう</rt><rt class="roma">seikou</rt></ruby> <ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>次元<rt class="furi">じげん</rt><rt class="roma">jigen</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> Get it out
+[02:22.63]<ruby>失態<rt class="furi">しったい</rt><rt class="roma">shittai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>成功<rt class="furi">せいこう</rt><rt class="roma">seikou</rt></ruby> <ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>次元<rt class="furi">じげん</rt><rt class="roma">jigen</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> Get it out
 </div>
-<div class="cn-lyric">失败与成功 那种维度 Get it out</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>規模<rt class="furi">きぼ</rt><rt class="roma">kibo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>stereo <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>暴<rt class="furi">あば</rt><rt class="roma">aba</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
-</div>
-<div class="cn-lyric">规模是立体声 还在暴动吧</div>
+<div class="cn-lyric">[02:22.63]失败与成功 那种维度 Get it out</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby> dunk <ruby>理性<rt class="furi">りせい</rt><rt class="roma">risei</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> like a drunk
+[02:25.43]<ruby>規模<rt class="furi">きぼ</rt><rt class="roma">kibo</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>stereo <ruby>まだ<rt class="roma">mada</rt></ruby><ruby>暴<rt class="furi">あば</rt><rt class="roma">aba</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">向理想 dunk 没有理性 like a drunk</div>
+<div class="cn-lyric">[02:25.43]规模是立体声 还在暴动吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>吹き込<rt class="furi">ふきこ</rt><rt class="roma">fukiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> mic <ruby>暴<rt class="furi">あば</rt><rt class="roma">aba</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> overdrive
+[02:28.75]<ruby>理想<rt class="furi">りそう</rt><rt class="roma">risou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby> dunk <ruby>理性<rt class="furi">りせい</rt><rt class="roma">risei</rt></ruby><ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> like a drunk
 </div>
-<div class="cn-lyric">吹入梦想的 mic 暴走 overdrive</div>
+<div class="cn-lyric">[02:28.75]向理想 dunk 没有理性 like a drunk</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:31.37]<ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>吹き込<rt class="furi">ふきこ</rt><rt class="roma">fukiko</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby> mic <ruby>暴<rt class="furi">あば</rt><rt class="roma">aba</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby> overdrive
+</div>
+<div class="cn-lyric">[02:31.37]吹入梦想的 mic 暴走 overdrive</div>
 </div>
 
 <div class="lyric-line">

@@ -33,7 +33,7 @@ image: /images/songs/koko/single-1791868643.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yasashisa mo tsuyosa mo itami mo zenbu
+[00:00.88]Yasashisa mo tsuyosa mo itami mo zenbu
 </div>
 <div class="trans-lyric">All the kindness, strength, and pain</div>
 <div class="trans-lyric">All the kindness, strength, and pain</div>
@@ -42,7 +42,7 @@ Yasashisa mo tsuyosa mo itami mo zenbu
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Itsu demo moratte bakari da tta n da
+[00:06.36]Itsu demo moratte bakari da tta n da
 </div>
 <div class="trans-lyric">I was always on the receiving end</div>
 <div class="trans-lyric">I was always on the receiving end</div>
@@ -51,7 +51,7 @@ Itsu demo moratte bakari da tta n da
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Musunde hiraite musubi naoshite
+[00:11.71]Musunde hiraite musubi naoshite
 </div>
 <div class="trans-lyric">Tying, opening, retying</div>
 <div class="trans-lyric">Tying, opening, retying</div>
@@ -60,7 +60,7 @@ Musunde hiraite musubi naoshite
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kurikaeshite iku tsugi wa boku ga
+[00:16.83]Kurikaeshite iku tsugi wa boku ga
 </div>
 <div class="trans-lyric">Repeating, next it's my turn</div>
 <div class="trans-lyric">Repeating, next it's my turn</div>
@@ -69,7 +69,7 @@ Kurikaeshite iku tsugi wa boku ga
 
 <div class="lyric-line">
 <div class="jp-lyric">
-ōkiku iki wo suikonde
+[00:20.26]ōkiku iki wo suikonde
 </div>
 <div class="trans-lyric">Taking a deep breath</div>
 <div class="trans-lyric">Taking a deep breath</div>
@@ -78,7 +78,7 @@ Kurikaeshite iku tsugi wa boku ga
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Todoketai tsutaetai
+[00:22.77]Todoketai tsutaetai
 </div>
 <div class="trans-lyric">I want to reach you, I want to tell you</div>
 <div class="trans-lyric">I want to reach you, I want to tell you</div>
@@ -87,7 +87,7 @@ Todoketai tsutaetai
 
 <div class="lyric-line">
 <div class="jp-lyric">
-«Arigatō» wo kimi ni
+[00:25.47]«Arigatō» wo kimi ni
 </div>
 <div class="trans-lyric">‘Thank you’ to you</div>
 <div class="trans-lyric">‘Thank you’ to you</div>
@@ -96,77 +96,77 @@ Todoketai tsutaetai
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kaeri no beru ga naru
+[00:39.55]Kaeri no beru ga naru
 </div>
 <div class="trans-lyric">The bell for the return home rings</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Demo mada koko ni itakute
+[00:41.38]Demo mada koko ni itakute
 </div>
 <div class="trans-lyric">But I still want to stay here</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Boku wa kimi no te wo gyutto tsukanda
+[00:43.84]Boku wa kimi no te wo gyutto tsukanda
 </div>
 <div class="trans-lyric">I tightly grasped your hand</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Komatta kao demo waratte kureta ne
+[00:46.91]Komatta kao demo waratte kureta ne
 </div>
 <div class="trans-lyric">Even with a troubled face, you smiled for me</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Binetsu wa ōgesa ni garagara koe tsukutte yobidashita
+[00:50.61]Binetsu wa ōgesa ni garagara koe tsukutte yobidashita
 </div>
 <div class="trans-lyric">With a slight fever, I called you in an exaggerated, hoarse voice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kaketsuketa kimi wa fuan gede
+[00:55.35]Kaketsuketa kimi wa fuan gede
 </div>
 <div class="trans-lyric">You rushed over, anxious</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Mōshiwake nakunatte futon ni komoreta
+[00:57.83]Mōshiwake nakunatte futon ni komoreta
 </div>
 <div class="trans-lyric">Feeling apologetic, I buried myself in the futon</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Atarimae mitai ni
+[01:01.72]Atarimae mitai ni
 </div>
 <div class="trans-lyric">As if it were natural</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tonari ni ite kureta
+[01:04.14]Tonari ni ite kureta
 </div>
 <div class="trans-lyric">You stayed by my side</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tachidomatta toki wa kimi no koe ga kikoeta
+[01:06.81]Tachidomatta toki wa kimi no koe ga kikoeta
 </div>
 <div class="trans-lyric">When I stopped, I could hear your voice</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hitori ja nanimo dekinai n da
+[01:12.27]Hitori ja nanimo dekinai n da
 </div>
 <div class="trans-lyric">I can't do anything alone</div>
 </div>
@@ -215,98 +215,98 @@ Todoketai tsutaetai
 
 <div class="lyric-line">
 <div class="jp-lyric">
-...
+[01:49.62]...
 </div>
 <div class="trans-lyric">...</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Risō no jibun no sekkei haka
+[02:06.06]Risō no jibun no sekkei haka
 </div>
 <div class="trans-lyric">The blueprint of my ideal self</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Doko wo mirarete mo hazukashikunai
+[02:08.47]Doko wo mirarete mo hazukashikunai
 </div>
 <div class="trans-lyric">No matter where I'm seen, I'm not embarrassed</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ikutsuka buhin ga tarinakute
+[02:11.24]Ikutsuka buhin ga tarinakute
 </div>
 <div class="trans-lyric">A few parts are missing</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kansei made wa mada tōi mitai
+[02:13.90]Kansei made wa mada tōi mitai
 </div>
 <div class="trans-lyric">It seems completion is still far away</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Are mo kore mo mabayushi sugite
+[02:16.66]Are mo kore mo mabayushi sugite
 </div>
 <div class="trans-lyric">Everything is too dazzling</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Nagamenagara namida ga koboreta
+[02:19.35]Nagamenagara namida ga koboreta
 </div>
 <div class="trans-lyric">While gazing, tears spilled</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Daremo ka re mo urayamashikute
+[02:21.97]Daremo ka re mo urayamashikute
 </div>
 <div class="trans-lyric">I envied everyone</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kizukarenai yō ni komoreta n da
+[02:24.76]Kizukarenai yō ni komoreta n da
 </div>
 <div class="trans-lyric">I hid myself so I wouldn't be noticed</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hontō no boku hakonna mon sa
+[02:27.46]Hontō no boku hakonna mon sa
 </div>
 <div class="trans-lyric">The real me is like this</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Jibun ga 1 ban wakatteru yo
+[02:30.20]Jibun ga 1 ban wakatteru yo
 </div>
 <div class="trans-lyric">I know myself best</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hitori ninatte kigatsuita n da
+[02:32.93]Hitori ninatte kigatsuita n da
 </div>
 <div class="trans-lyric">When alone, I realized</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Moratta monono taisetsu sa ni
+[02:35.62]Moratta monono taisetsu sa ni
 </div>
 <div class="trans-lyric">The importance of what I've received</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Annafūni kimi mitai ni
+[02:38.36]Annafūni kimi mitai ni
 </div>
 <div class="trans-lyric">Like that, like you</div>
 <div class="trans-lyric">Like that, like you</div>
@@ -314,21 +314,21 @@ Annafūni kimi mitai ni
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Dore dake jikan ga kakarōtomo
+[02:41.05]Dore dake jikan ga kakarōtomo
 </div>
 <div class="trans-lyric">No matter how long it takes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Fuan ya shinpai mo dakishimete
+[02:43.73]Fuan ya shinpai mo dakishimete
 </div>
 <div class="trans-lyric">Embrace even the anxiety and worry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Nakitai toki koso waratte miyō
+[02:46.43]Nakitai toki koso waratte miyō
 </div>
 <div class="trans-lyric">Precisely when I want to cry, I'll try to smile</div>
 </div>
@@ -341,70 +341,70 @@ Annafūni kimi mitai ni
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Boku mo itsukanareru kana
+[02:51.86]Boku mo itsukanareru kana
 </div>
 <div class="trans-lyric">I wonder if I'll become like that someday</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kawaritai n da
+[02:54.53]Kawaritai n da
 </div>
 <div class="trans-lyric">I want to change</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Otehon hai tsu demo kimi da yo
+[02:56.67]Otehon hai tsu demo kimi da yo
 </div>
 <div class="trans-lyric">My model is always you</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Owari nanka janai
+[03:00.07]Owari nanka janai
 </div>
 <div class="trans-lyric">It's not the end at all</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Mata koko kara hajimeru n da
+[03:02.10]Mata koko kara hajimeru n da
 </div>
 <div class="trans-lyric">I'll start again from here</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yasashisa mo tsuyosa mo kondo wa zenbu
+[03:05.68]Yasashisa mo tsuyosa mo kondo wa zenbu
 </div>
 <div class="trans-lyric">This time, kindness, strength, all of it</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Boku ga tsutaete iku ban dakara
+[03:10.82]Boku ga tsutaete iku ban dakara
 </div>
 <div class="trans-lyric">Because it's my turn to convey</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Koronde naite mo mata aruki dashite
+[03:16.25]Koronde naite mo mata aruki dashite
 </div>
 <div class="trans-lyric">Even if I fall and cry, I'll start walking again</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kurikaeshite iku sorede ī yo
+[03:21.16]Kurikaeshite iku sorede ī yo
 </div>
 <div class="trans-lyric">Repeating that is fine</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tonari ni iru kurai wa dekiru yo
+[03:24.37]Tonari ni iru kurai wa dekiru yo
 </div>
 <div class="trans-lyric">At least I can be by your side</div>
 </div>
@@ -441,14 +441,14 @@ Kurikaeshite iku tsugi wa boku ga
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Kowakute mo daijōbu
+[03:48.75]Kowakute mo daijōbu
 </div>
 <div class="trans-lyric">Even if I'm scared, it'll be okay</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Koko ni iru yo zutto
+[03:51.51]Koko ni iru yo zutto
 </div>
 <div class="trans-lyric">I'm here, always</div>
 </div>

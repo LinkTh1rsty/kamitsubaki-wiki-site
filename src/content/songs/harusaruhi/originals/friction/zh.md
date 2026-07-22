@@ -131,13 +131,13 @@ When you've made it (when you've made it), won't you tell me what to do?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You can't fight the friction, so, ease it off
+[00:56.87]You can't fight the friction, so, ease it off
 </div>
-<div class="cn-lyric">你无法对抗摩擦，所以，放松点</div>
-<div class="cn-lyric">你无法对抗摩擦，所以，放松点</div>
-<div class="cn-lyric">你无法对抗摩擦，所以，放松点</div>
-<div class="cn-lyric">你无法对抗摩擦，所以，放松点</div>
-<div class="cn-lyric">你无法对抗摩擦，所以，放松点</div>
+<div class="cn-lyric">[00:56.87]你无法对抗摩擦，所以，放松点</div>
+<div class="cn-lyric">[00:56.87]你无法对抗摩擦，所以，放松点</div>
+<div class="cn-lyric">[00:56.87]你无法对抗摩擦，所以，放松点</div>
+<div class="cn-lyric">[00:56.87]你无法对抗摩擦，所以，放松点</div>
+<div class="cn-lyric">[00:56.87]你无法对抗摩擦，所以，放松点</div>
 </div>
 
 <div class="lyric-line">
@@ -189,9 +189,9 @@ At the tip of the needle
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's taking over you
+[00:30.03]It's taking over you
 </div>
-<div class="cn-lyric">它正掌控你</div>
+<div class="cn-lyric">[00:30.03]它正掌控你</div>
 </div>
 
 <br />
@@ -276,9 +276,9 @@ You can't fight the friction, so, ease it off
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh, why can't you let it go?
+[00:13.53]Oh, why can't you let it go?
 </div>
-<div class="cn-lyric">哦，为何你不能放手？</div>
+<div class="cn-lyric">[00:13.53]哦，为何你不能放手？</div>
 </div>
 
 <div class="lyric-line">
@@ -317,21 +317,21 @@ Don't tell me to be strong, ease it off
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You can't fight the friction, so
+[00:56.87]You can't fight the friction, so
 </div>
-<div class="cn-lyric">你无法对抗摩擦，所以</div>
+<div class="cn-lyric">[00:56.87]你无法对抗摩擦，所以</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yeah
+[00:19.51]Yeah
 </div>
-<div class="cn-lyric">耶</div>
-<div class="cn-lyric">耶</div>
-<div class="cn-lyric">耶</div>
-<div class="cn-lyric">耶</div>
+<div class="cn-lyric">[00:19.51]耶</div>
+<div class="cn-lyric">[00:19.51]耶</div>
+<div class="cn-lyric">[00:19.51]耶</div>
+<div class="cn-lyric">[00:19.51]耶</div>
 </div>
 
 <div class="lyric-line">

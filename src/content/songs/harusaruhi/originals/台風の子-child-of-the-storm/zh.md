@@ -145,9 +145,9 @@ image: /images/songs/harusaruhi/single-1692480353.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いや<rt class="roma">iya</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>以下<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby>
+[00:50.94]<ruby>いや<rt class="roma">iya</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>以下<rt class="furi">いか</rt><rt class="roma">ika</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby>
 </div>
-<div class="cn-lyric">不 或许连那都不如</div>
+<div class="cn-lyric">[00:50.94]不 或许连那都不如</div>
 </div>
 
 <div class="lyric-line">
@@ -267,9 +267,9 @@ image: /images/songs/harusaruhi/single-1692480353.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Breathing, We'll gonna be alright
+[01:54.82]Breathing, We'll gonna be alright
 </div>
-<div class="cn-lyric">Breathing, We'll gonna be alright</div>
+<div class="cn-lyric">[01:54.82]Breathing, We'll gonna be alright</div>
 </div>
 
 <br />

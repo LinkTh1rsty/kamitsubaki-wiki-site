@@ -165,9 +165,9 @@ image: /images/albums/kaf/shinai.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>けど<rt class="roma">kedo</rt></ruby> <ruby>それ<rt class="roma">sore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[02:01.54]<ruby>けど<rt class="roma">kedo</rt></ruby> <ruby>それ<rt class="roma">sore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="cn-lyric">不过 那样也不错</div>
+<div class="cn-lyric">[02:01.54]不过 那样也不错</div>
 </div>
 
 <div class="lyric-line">

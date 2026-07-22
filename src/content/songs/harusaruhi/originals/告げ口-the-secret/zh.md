@@ -54,25 +54,25 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>、<ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>様<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> oh-wow-wow
+[00:29.88]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby>、<ruby>同<rt class="furi">おな</rt><rt class="roma">ona</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>様<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>回<rt class="furi">まわ</rt><rt class="roma">mawa</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby> oh-wow-wow
 </div>
-<div class="cn-lyric">世界 依然会转动 oh-wow-wow</div>
+<div class="cn-lyric">[00:29.88]世界 依然会转动 oh-wow-wow</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>飽<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:34.15]<ruby>飽<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="cn-lyric">已经厌倦了</div>
+<div class="cn-lyric">[00:34.15]已经厌倦了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そもそも<rt class="roma">somosomo</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
+[00:35.71]<ruby>そもそも<rt class="roma">somosomo</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
-<div class="cn-lyric">虽然从一开始就没有活着</div>
+<div class="cn-lyric">[00:35.71]虽然从一开始就没有活着</div>
 </div>
 
 <div class="lyric-line">
@@ -112,9 +112,9 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Day by day <ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby> <ruby>再<rt class="furi">ふたた</rt><rt class="roma">futata</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby>
+[00:48.09]Day by day <ruby>叫<rt class="furi">さけ</rt><rt class="roma">sake</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby> <ruby>再<rt class="furi">ふたた</rt><rt class="roma">futata</rt></ruby><ruby>び<rt class="roma">bi</rt></ruby>
 </div>
-<div class="cn-lyric">日复一日 呼喊 再次</div>
+<div class="cn-lyric">[00:48.09]日复一日 呼喊 再次</div>
 </div>
 
 <br />

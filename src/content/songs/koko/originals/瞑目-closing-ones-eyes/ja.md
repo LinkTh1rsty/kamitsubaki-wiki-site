@@ -45,7 +45,7 @@ image: /images/songs/koko/single-1687478449.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きり<rt class="roma">kiri</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[00:10.16]<ruby>きり<rt class="roma">kiri</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
@@ -77,7 +77,7 @@ image: /images/songs/koko/single-1687478449.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[00:53.20]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
@@ -131,7 +131,7 @@ image: /images/songs/koko/single-1687478449.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[01:39.52]<ruby>祈<rt class="furi">いの</rt><rt class="roma">ino</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
@@ -157,13 +157,13 @@ image: /images/songs/koko/single-1687478449.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Spending all My time
+[01:58.04]Spending all My time
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Just heading for the end
+[02:02.43]Just heading for the end
 </div>
 </div>
 
@@ -175,7 +175,7 @@ Just heading for the end
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I know the place
+[02:11.20]I know the place
 </div>
 </div>
 
@@ -189,7 +189,7 @@ I know the place
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
+[02:22.26]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby>
 </div>
 </div>
 
@@ -211,13 +211,13 @@ I know the place
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[02:36.15]<ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いたく<rt class="roma">itaku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:40.64]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いたく<rt class="roma">itaku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -237,19 +237,19 @@ I know the place
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Forgive me for losing enthusiasm
+[03:01.08]Forgive me for losing enthusiasm
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'd better go over to that side
+[03:08.40]I'd better go over to that side
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-you know?
+[03:13.64]you know?
 </div>
 </div>
 

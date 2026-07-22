@@ -186,7 +186,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[02:54.41]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -194,7 +194,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ハエ<rt class="roma">hae</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まとわりつい<rt class="roma">matowaritsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:59.99]<ruby>ハエ<rt class="roma">hae</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まとわりつい<rt class="roma">matowaritsui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 

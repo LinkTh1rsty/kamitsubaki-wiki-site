@@ -119,7 +119,7 @@ image: /images/albums/vwp/city-ii-virtual-reality.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>守<rt class="furi">まも</rt><rt class="roma">mamo</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[00:04.43]<ruby>守<rt class="furi">まも</rt><rt class="roma">mamo</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 <div class="trans-lyric">I thought I was protecting</div>
 </div>
@@ -274,7 +274,7 @@ image: /images/albums/vwp/city-ii-virtual-reality.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby>(<ruby>め<rt class="roma">me</rt></ruby>)<ruby>が<rt class="roma">ga</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[00:00.87]<ruby>この<rt class="roma">kono</rt></ruby><ruby>瞳<rt class="furi">ひとみ</rt><rt class="roma">hitomi</rt></ruby>(<ruby>め<rt class="roma">me</rt></ruby>)<ruby>が<rt class="roma">ga</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 <div class="trans-lyric">These eyes, someday</div>
 </div>

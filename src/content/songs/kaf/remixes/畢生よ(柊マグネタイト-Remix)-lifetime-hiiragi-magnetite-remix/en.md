@@ -274,7 +274,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>守<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>そこなった<rt class="roma">sokonatta</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[02:03.03]<ruby>守<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>そこなった<rt class="roma">sokonatta</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">It's all things I failed to protect</div>
 </div>

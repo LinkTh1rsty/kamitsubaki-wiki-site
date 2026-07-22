@@ -52,7 +52,7 @@ image: /images/songs/harusaruhi/single-1718892415.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>歩き<rt class="furi">あるき</rt><rt class="roma">aruki</rt></ruby><ruby>だす<rt class="roma">dasu</rt></ruby> <ruby>歩き<rt class="furi">あるき</rt><rt class="roma">aruki</rt></ruby><ruby>だす<rt class="roma">dasu</rt></ruby> midnight
+[00:24.05]<ruby>歩き<rt class="furi">あるき</rt><rt class="roma">aruki</rt></ruby><ruby>だす<rt class="roma">dasu</rt></ruby> <ruby>歩き<rt class="furi">あるき</rt><rt class="roma">aruki</rt></ruby><ruby>だす<rt class="roma">dasu</rt></ruby> midnight
 </div>
 </div>
 
@@ -86,13 +86,13 @@ image: /images/songs/harusaruhi/single-1718892415.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Call me <ruby>聞か<rt class="furi">きか</rt><rt class="roma">kika</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:41.66]Call me <ruby>聞か<rt class="furi">きか</rt><rt class="roma">kika</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Call me <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[00:45.17]Call me <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
@@ -118,19 +118,19 @@ Call me <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> love <ruby>に<rt class="roma">ni</rt></ruby><ruby>変わる<rt class="furi">かわる</rt><rt class="roma">kawaru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
+[00:58.01]<ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> love <ruby>に<rt class="roma">ni</rt></ruby><ruby>変わる<rt class="furi">かわる</rt><rt class="roma">kawaru</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> goal <ruby>を<rt class="roma">wo</rt></ruby><ruby>見つけ<rt class="furi">みつけ</rt><rt class="roma">mitsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:01.73]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> goal <ruby>を<rt class="roma">wo</rt></ruby><ruby>見つけ<rt class="furi">みつけ</rt><rt class="roma">mitsuke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-1<ruby>・<rt class="roma">/</rt></ruby>2<ruby>・<rt class="roma">/</rt></ruby>3 <ruby>の<rt class="roma">no</rt></ruby> step <ruby>で<rt class="roma">de</rt></ruby><ruby>決め<rt class="furi">きめ</rt><rt class="roma">kime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:05.21]1<ruby>・<rt class="roma">/</rt></ruby>2<ruby>・<rt class="roma">/</rt></ruby>3 <ruby>の<rt class="roma">no</rt></ruby> step <ruby>で<rt class="roma">de</rt></ruby><ruby>決め<rt class="furi">きめ</rt><rt class="roma">kime</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -142,7 +142,7 @@ Call me <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>テンション<rt class="roma">tenshon</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上げ下げ<rt class="furi">あげさげ</rt><rt class="roma">agesage</rt></ruby> <ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby>
+[01:12.40]<ruby>テンション<rt class="roma">tenshon</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上げ下げ<rt class="furi">あげさげ</rt><rt class="roma">agesage</rt></ruby> <ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby>
 </div>
 </div>
 
@@ -154,7 +154,7 @@ Call me <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>始め<rt class="furi">はじめ</rt><rt class="roma">hajime</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> call me, call me
+[01:19.39]<ruby>始め<rt class="furi">はじめ</rt><rt class="roma">hajime</rt></ruby><ruby>ましょ<rt class="roma">masho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> call me, call me
 </div>
 </div>
 
@@ -168,7 +168,7 @@ Call me <ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛せ<rt class="furi">あいせ</rt><rt class="roma">aise</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> sing along
+[01:39.33]<ruby>愛せ<rt class="furi">あいせ</rt><rt class="roma">aise</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> sing along
 </div>
 </div>
 

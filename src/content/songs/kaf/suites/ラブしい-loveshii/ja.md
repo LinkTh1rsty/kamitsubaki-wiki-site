@@ -34,7 +34,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ラブラブラブ<rt class="roma">raburaburabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
+[00:02.11]<ruby>ラブラブラブ<rt class="roma">raburaburabu</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby> <ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby>
 </div>
 </div>
 
@@ -72,7 +72,7 @@ image: /images/albums/kaf/love-and-flower.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ギリギリ<rt class="roma">girigiri</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:40.32]<ruby>ギリギリ<rt class="roma">girigiri</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -166,13 +166,13 @@ image: /images/albums/kaf/love-and-flower.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[01:41.88]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>とこ<rt class="roma">toko</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>切り取<rt class="furi">きりと</rt><rt class="roma">kirito</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[01:45.34]<ruby>切り取<rt class="furi">きりと</rt><rt class="roma">kirito</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 

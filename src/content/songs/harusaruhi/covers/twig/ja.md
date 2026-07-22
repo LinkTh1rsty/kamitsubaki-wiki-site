@@ -28,25 +28,25 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Some weepy, creepy, willow, pillow, boggy shit
+[00:16.66]Some weepy, creepy, willow, pillow, boggy shit
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Transcendental big wheel can ya feel it
+[00:19.92]Transcendental big wheel can ya feel it
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I got a chickey face down trippin' so damn hard
+[00:23.57]I got a chickey face down trippin' so damn hard
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-His head splits open stuffin', spills out into the car
+[00:27.52]His head splits open stuffin', spills out into the car
 </div>
 </div>
 
@@ -54,25 +54,25 @@ His head splits open stuffin', spills out into the car
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Cup of dirty water and a lonely boney frog
+[00:31.96]Cup of dirty water and a lonely boney frog
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Slip me seven dollars and I'll pump it full of smog
+[00:35.60]Slip me seven dollars and I'll pump it full of smog
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Paint a monkey gold let him loose downtown
+[00:39.47]Paint a monkey gold let him loose downtown
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You start him with a smile, he'll come back with a frown
+[00:43.43]You start him with a smile, he'll come back with a frown
 </div>
 </div>
 
@@ -80,7 +80,79 @@ You start him with a smile, he'll come back with a frown
 
 <div class="lyric-line">
 <div class="jp-lyric">
-He's just a twig in the wind, a twig in the wind
+[00:47.86]He's just a twig in the wind, a twig in the wind
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:51.56]A twig in the wind, a twig in the wind, ah hoo
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:57.41]I'm thick and thin and all right
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:18.79]I'm happy feeling crappy in my nappy little car
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:23.03]Squozen, frozen duplicated drunk in a bar
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:26.82]A tape recorded all distorted genius machine
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:31.07]A spokes model dipped in refried beans
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:35.02]Piggies pay full price, to put their necks on the stumpy
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:38.83]Dusty busted skeletons who pay at the pumpy
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:42.84]Multi nippled rotating DJ sap
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:46.83]I'm shoulder high in crap and my water wings are flat
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:50.99]I'm just a twig in the wind, a twig in the wind
 </div>
 </div>
 
@@ -92,7 +164,7 @@ A twig in the wind, a twig in the wind, ah hoo
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm thick and thin and all right
+[01:59.99]I'm thick and I'm thin and alright, alright, alright, alright
 </div>
 </div>
 
@@ -100,91 +172,19 @@ I'm thick and thin and all right
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm happy feeling crappy in my nappy little car
+[02:22.06]I'm twig in the wind, a twig in the wind
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Squozen, frozen duplicated drunk in a bar
+[02:25.37]A twig in the wind, a twig in the wind
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-A tape recorded all distorted genius machine
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-A spokes model dipped in refried beans
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Piggies pay full price, to put their necks on the stumpy
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Dusty busted skeletons who pay at the pumpy
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Multi nippled rotating DJ sap
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-I'm shoulder high in crap and my water wings are flat
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-I'm just a twig in the wind, a twig in the wind
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-A twig in the wind, a twig in the wind, ah hoo
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-I'm thick and I'm thin and alright, alright, alright, alright
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-I'm twig in the wind, a twig in the wind
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-A twig in the wind, a twig in the wind
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-A twig in the wind, a twig in the wind, well, alright
+[02:29.33]A twig in the wind, a twig in the wind, well, alright
 </div>
 </div>
 

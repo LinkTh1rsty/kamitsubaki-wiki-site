@@ -33,7 +33,7 @@ Splash. (feat. 春猿火) appears on Splash. or a related official release. Entr
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yeah, yeah
+[01:49.21]Yeah, yeah
 </div>
 <div class="trans-lyric">Yeah, yeah</div>
 </div>
@@ -63,7 +63,7 @@ Let's go
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Time to make it bounce like woah
+[01:30.73]Time to make it bounce like woah
 </div>
 <div class="trans-lyric">Time to make it bounce like woah</div>
 <div class="trans-lyric">Time to make it bounce like woah</div>
@@ -162,7 +162,7 @@ Make it pop, make it woop!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Who be the one that be looking at me?
+[01:16.91]Who be the one that be looking at me?
 </div>
 <div class="trans-lyric">Who be the one that be looking at me?</div>
 </div>
@@ -220,14 +220,14 @@ I can't say no more
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Feeling so, so hot
+[00:06.47]Feeling so, so hot
 </div>
 <div class="trans-lyric">Feeling so, so hot</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-멀리 go, go, oh, oh
+[00:02.92]멀리 go, go, oh, oh
 </div>
 <div class="trans-lyric">Far away go, go, oh, oh</div>
 </div>
@@ -413,14 +413,14 @@ Three-six-five, burn it up
 
 <div class="lyric-line">
 <div class="jp-lyric">
-높이 so, so high
+[00:06.47]높이 so, so high
 </div>
 <div class="trans-lyric">High so, so high</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-계속 go, go, oh, oh
+[00:02.92]계속 go, go, oh, oh
 </div>
 <div class="trans-lyric">Keep going go, go, oh, oh</div>
 </div>
@@ -615,7 +615,7 @@ Time to make it bounce like woah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Woah
+[00:06.47]Woah
 </div>
 <div class="trans-lyric">Woah</div>
 </div>
@@ -624,7 +624,7 @@ Woah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Timе to make it bounce like woah
+[01:30.73]Timе to make it bounce like woah
 </div>
 <div class="trans-lyric">Time to make it bounce like woah</div>
 </div>

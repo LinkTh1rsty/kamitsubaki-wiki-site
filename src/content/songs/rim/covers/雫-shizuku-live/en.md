@@ -300,7 +300,7 @@ image: /images/albums/rim/chocolate-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>影<rt class="furi">かげ</rt><rt class="roma">kage</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
+[03:09.18]<ruby>二<rt class="furi">に</rt><rt class="roma">ni</rt></ruby><ruby>人<rt class="furi">にん</rt><rt class="roma">nin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>影<rt class="furi">かげ</rt><rt class="roma">kage</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
 <div class="trans-lyric">Fading away our two shadows</div>
 </div>

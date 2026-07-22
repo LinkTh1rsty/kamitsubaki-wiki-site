@@ -34,19 +34,19 @@ image: /images/albums/kaf/love-and-flower.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[00:01.11]Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>生まれ変<rt class="furi">うまれか</rt><rt class="roma">umareka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>そめ<rt class="roma">some</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> chain
+[00:01.11]<ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>そめ<rt class="roma">some</rt></ruby> <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> chain
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>うたう<rt class="roma">utau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby> chain
+[00:01.11]<ruby>うたう<rt class="roma">utau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby> chain
 </div>
 </div>
 
@@ -146,7 +146,7 @@ Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>そめ<rt class="roma">some</rt></ruby> <ruby>キラキラ<rt class="roma">kirakira</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> chain
+[00:01.11]<ruby>ほどける<rt class="roma">hodokeru</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>そめ<rt class="roma">some</rt></ruby> <ruby>キラキラ<rt class="roma">kirakira</rt></ruby><ruby>と<rt class="roma">to</rt></ruby> chain
 </div>
 </div>
 
@@ -240,13 +240,13 @@ Chain <ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Chain <ruby>うたう<rt class="roma">utau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:01.11]Chain <ruby>うたう<rt class="roma">utau</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby> chain
+[00:01.11]<ruby>この<rt class="roma">kono</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby> <ruby>あの<rt class="roma">ano</rt></ruby><ruby>光<rt class="furi">ひかり</rt><rt class="roma">hikari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>届<rt class="furi">とど</rt><rt class="roma">todo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby> chain
 </div>
 </div>
 

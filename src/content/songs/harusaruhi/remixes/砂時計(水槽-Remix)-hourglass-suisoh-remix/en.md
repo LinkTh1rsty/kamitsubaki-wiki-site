@@ -70,7 +70,7 @@ image: /images/albums/harusaruhi/glitch-stage.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>地<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>染め上<rt class="furi">そめあ</rt><rt class="roma">somea</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
+[01:40.37]<ruby>地<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>染め上<rt class="furi">そめあ</rt><rt class="roma">somea</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
 <div class="trans-lyric">Dyeing the earth</div>
 </div>

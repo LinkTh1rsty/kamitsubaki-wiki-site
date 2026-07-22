@@ -54,9 +54,9 @@ Re: <ruby>ねぇ<rt class="roma">nee</rt></ruby> &quot;<ruby>頭<rt class="furi"
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby> <ruby>ゆとり<rt class="roma">yutori</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
+[00:39.73]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>もう<rt class="roma">mou</rt></ruby> <ruby>ゆとり<rt class="roma">yutori</rt></ruby><ruby>すら<rt class="roma">sura</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
-<div class="cn-lyric">如今连余地都没有了</div>
+<div class="cn-lyric">[00:39.73]如今连余地都没有了</div>
 </div>
 
 <br />
@@ -84,16 +84,16 @@ Re: <ruby>ねぇ<rt class="roma">nee</rt></ruby> &quot;<ruby>頭<rt class="furi"
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>無為<rt class="furi">むい</rt><rt class="roma">mui</rt></ruby><ruby>無策<rt class="furi">むさく</rt><rt class="roma">musaku</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> good night
+[00:54.71]<ruby>無為<rt class="furi">むい</rt><rt class="roma">mui</rt></ruby><ruby>無策<rt class="furi">むさく</rt><rt class="roma">musaku</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby> good night
 </div>
-<div class="cn-lyric">无为无策 所以 good night</div>
+<div class="cn-lyric">[00:54.71]无为无策 所以 good night</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Wi-Fi <ruby>外<rt class="furi">はず</rt><rt class="roma">hazu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:57.45]Wi-Fi <ruby>外<rt class="furi">はず</rt><rt class="roma">hazu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">把Wi-Fi关掉吧</div>
+<div class="cn-lyric">[00:57.45]把Wi-Fi关掉吧</div>
 </div>
 
 <br />
@@ -137,9 +137,9 @@ Wi-Fi <ruby>外<rt class="furi">はず</rt><rt class="roma">hazu</rt></ruby><rub
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>くらくら<rt class="roma">kurakura</rt></ruby> 9ra<ruby>九<rt class="furi">きゅう</rt><rt class="roma">kyuu</rt></ruby><ruby>ラ<rt class="roma">ra</rt></ruby>
+[01:36.22]<ruby>くらくら<rt class="roma">kurakura</rt></ruby> 9ra<ruby>九<rt class="furi">きゅう</rt><rt class="roma">kyuu</rt></ruby><ruby>ラ<rt class="roma">ra</rt></ruby>
 </div>
-<div class="cn-lyric">眩晕 9ra九ラ</div>
+<div class="cn-lyric">[01:36.22]眩晕 9ra九ラ</div>
 </div>
 
 <div class="lyric-line">
@@ -174,9 +174,9 @@ Re: <ruby>依存<rt class="furi">いぞん</rt><rt class="roma">izon</rt></ruby>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あさましい<rt class="roma">asamashii</rt></ruby><ruby>クリーチャー<rt class="roma">kuriichaa</rt></ruby>
+[01:53.93]<ruby>あさましい<rt class="roma">asamashii</rt></ruby><ruby>クリーチャー<rt class="roma">kuriichaa</rt></ruby>
 </div>
-<div class="cn-lyric">可悲的生物</div>
+<div class="cn-lyric">[01:53.93]可悲的生物</div>
 </div>
 
 <br />
@@ -248,9 +248,9 @@ Re: <ruby>依存<rt class="furi">いぞん</rt><rt class="roma">izon</rt></ruby>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あり<rt class="roma">ari</rt></ruby><ruby>おり<rt class="roma">ori</rt></ruby><ruby>はべり<rt class="roma">haberi</rt></ruby>
+[02:36.44]<ruby>あり<rt class="roma">ari</rt></ruby><ruby>おり<rt class="roma">ori</rt></ruby><ruby>はべり<rt class="roma">haberi</rt></ruby>
 </div>
-<div class="cn-lyric">有在侍奉</div>
+<div class="cn-lyric">[02:36.44]有在侍奉</div>
 </div>
 
 <div class="lyric-line">
@@ -262,9 +262,9 @@ Re: <ruby>依存<rt class="furi">いぞん</rt><rt class="roma">izon</rt></ruby>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>澱<rt class="furi">よど</rt><rt class="roma">yodo</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> good night
+[02:40.24]<ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>澱<rt class="furi">よど</rt><rt class="roma">yodo</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> good night
 </div>
-<div class="cn-lyric">口齿不清 所以 good night</div>
+<div class="cn-lyric">[02:40.24]口齿不清 所以 good night</div>
 </div>
 
 <div class="lyric-line">
@@ -278,17 +278,11 @@ Re: <ruby>依存<rt class="furi">いぞん</rt><rt class="roma">izon</rt></ruby>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さみしい<rt class="roma">samishii</rt></ruby><ruby>ひと<rt class="roma">hito</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[02:46.86]<ruby>さみしい<rt class="roma">samishii</rt></ruby><ruby>ひと<rt class="roma">hito</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="cn-lyric">寂寞的人呢</div>
-<div class="cn-lyric">寂寞的人呢</div>
-<div class="cn-lyric">寂寞的人呢</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>さみしい<rt class="roma">samishii</rt></ruby><ruby>ひと<rt class="roma">hito</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
-</div>
+<div class="cn-lyric">[02:46.86]寂寞的人呢</div>
+<div class="cn-lyric">[02:46.86]寂寞的人呢</div>
+<div class="cn-lyric">[02:46.86]寂寞的人呢</div>
 </div>
 
 <div class="lyric-line">
@@ -299,16 +293,22 @@ Re: <ruby>依存<rt class="furi">いぞん</rt><rt class="roma">izon</rt></ruby>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ゆめ<rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>みせ<rt class="roma">mise</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+<ruby>さみしい<rt class="roma">samishii</rt></ruby><ruby>ひと<rt class="roma">hito</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
-<div class="cn-lyric">让我看着梦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あわ<rt class="roma">awa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:53.78]<ruby>ゆめ<rt class="roma">yume</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>みせ<rt class="roma">mise</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">如泡沫般</div>
+<div class="cn-lyric">[02:53.78]让我看着梦</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:57.45]<ruby>あわ<rt class="roma">awa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+</div>
+<div class="cn-lyric">[02:57.45]如泡沫般</div>
 </div>
 
 </div>

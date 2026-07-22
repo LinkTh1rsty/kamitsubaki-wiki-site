@@ -106,7 +106,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
+[01:37.50]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>?
 </div>
 </div>
 
@@ -166,7 +166,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>上<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[02:14.80]<ruby>上<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 
@@ -256,7 +256,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>問<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>いかける<rt class="roma">ikakeru</rt></ruby>
+[03:23.44]<ruby>問<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>いかける<rt class="roma">ikakeru</rt></ruby>
 </div>
 </div>
 
@@ -268,7 +268,7 @@ image: /images/albums/kaf/guwa-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>憑<ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:42.56]<ruby>まだ<rt class="roma">mada</rt></ruby><ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby>憑<ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 

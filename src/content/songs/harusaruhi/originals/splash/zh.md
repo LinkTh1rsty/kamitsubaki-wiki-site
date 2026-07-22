@@ -33,9 +33,9 @@ image: /images/songs/harusaruhi/single-1889319192.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yeah, yeah
+[01:49.21]Yeah, yeah
 </div>
-<div class="cn-lyric">Yeah, yeah</div>
+<div class="cn-lyric">[01:49.21]Yeah, yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -63,12 +63,12 @@ Let's go
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Time to make it bounce like woah
+[01:30.73]Time to make it bounce like woah
 </div>
-<div class="cn-lyric">Time to make it bounce like woah</div>
-<div class="cn-lyric">Time to make it bounce like woah</div>
-<div class="cn-lyric">Time to make it bounce like woah</div>
-<div class="cn-lyric">Time to make it bounce like woah</div>
+<div class="cn-lyric">[01:30.73]Time to make it bounce like woah</div>
+<div class="cn-lyric">[01:30.73]Time to make it bounce like woah</div>
+<div class="cn-lyric">[01:30.73]Time to make it bounce like woah</div>
+<div class="cn-lyric">[01:30.73]Time to make it bounce like woah</div>
 </div>
 
 <div class="lyric-line">
@@ -162,9 +162,9 @@ Make it pop, make it woop!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Who be the one that be looking at me?
+[01:16.91]Who be the one that be looking at me?
 </div>
-<div class="cn-lyric">Who be the one that be looking at me?</div>
+<div class="cn-lyric">[01:16.91]Who be the one that be looking at me?</div>
 </div>
 
 <div class="lyric-line">
@@ -220,16 +220,16 @@ I can't say no more
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Feeling so, so hot
+[00:06.47]Feeling so, so hot
 </div>
-<div class="cn-lyric">Feeling so, so hot</div>
+<div class="cn-lyric">[00:06.47]Feeling so, so hot</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-멀리 go, go, oh, oh
+[00:02.92]멀리 go, go, oh, oh
 </div>
-<div class="cn-lyric">远远地 go, go, oh, oh</div>
+<div class="cn-lyric">[00:02.92]远远地 go, go, oh, oh</div>
 </div>
 
 <div class="lyric-line">
@@ -413,16 +413,16 @@ Three-six-five, burn it up
 
 <div class="lyric-line">
 <div class="jp-lyric">
-높이 so, so high
+[00:06.47]높이 so, so high
 </div>
-<div class="cn-lyric">高高地 so, so high</div>
+<div class="cn-lyric">[00:06.47]高高地 so, so high</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-계속 go, go, oh, oh
+[00:02.92]계속 go, go, oh, oh
 </div>
-<div class="cn-lyric">继续 go, go, oh, oh</div>
+<div class="cn-lyric">[00:02.92]继续 go, go, oh, oh</div>
 </div>
 
 <div class="lyric-line">
@@ -615,18 +615,18 @@ Time to make it bounce like woah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Woah
+[00:06.47]Woah
 </div>
-<div class="cn-lyric">Woah</div>
+<div class="cn-lyric">[00:06.47]Woah</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Timе to make it bounce like woah
+[01:30.73]Timе to make it bounce like woah
 </div>
-<div class="cn-lyric">Time to make it bounce like woah</div>
+<div class="cn-lyric">[01:30.73]Time to make it bounce like woah</div>
 </div>
 
 <div class="lyric-line">

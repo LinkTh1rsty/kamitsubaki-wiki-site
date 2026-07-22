@@ -103,9 +103,9 @@ What's this world coming to?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-There's nothing that can be done
+[00:04.35]There's nothing that can be done
 </div>
-<div class="cn-lyric">无能为力</div>
+<div class="cn-lyric">[00:04.35]无能为力</div>
 </div>
 
 <div class="lyric-line">

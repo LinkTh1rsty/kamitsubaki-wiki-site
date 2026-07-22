@@ -71,16 +71,16 @@ image: /images/songs/kaf/track-1694251446.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>ったり<rt class="roma">ttari</rt></ruby><ruby>張<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>ったり<rt class="roma">ttari</rt></ruby>
+[00:17.47]<ruby>切<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>ったり<rt class="roma">ttari</rt></ruby><ruby>張<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>ったり<rt class="roma">ttari</rt></ruby>
 </div>
-<div class="cn-lyric">时而剪裁时而粘贴</div>
+<div class="cn-lyric">[00:17.47]时而剪裁时而粘贴</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>縫<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>ったり<rt class="roma">ttari</rt></ruby><ruby>編<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だり<rt class="roma">dari</rt></ruby>
+[00:18.47]<ruby>縫<rt class="furi">ぬ</rt><rt class="roma">nu</rt></ruby><ruby>ったり<rt class="roma">ttari</rt></ruby><ruby>編<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だり<rt class="roma">dari</rt></ruby>
 </div>
-<div class="cn-lyric">时而缝纫时而编织</div>
+<div class="cn-lyric">[00:18.47]时而缝纫时而编织</div>
 </div>
 
 <div class="lyric-line">
@@ -148,9 +148,9 @@ image: /images/songs/kaf/track-1694251446.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>また<rt class="roma">mata</rt></ruby><ruby>こうして<rt class="roma">koushite</rt></ruby><ruby>編<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
+[00:33.98]<ruby>また<rt class="roma">mata</rt></ruby><ruby>こうして<rt class="roma">koushite</rt></ruby><ruby>編<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>
 </div>
-<div class="cn-lyric">再次如此编织下去</div>
+<div class="cn-lyric">[00:33.98]再次如此编织下去</div>
 </div>
 
 <div class="lyric-line">
@@ -162,9 +162,9 @@ image: /images/songs/kaf/track-1694251446.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ないものねだり<rt class="roma">naimononedari</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby>
+[00:37.20]<ruby>ないものねだり<rt class="roma">naimononedari</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby>
 </div>
-<div class="cn-lyric">与其强求不存在之物</div>
+<div class="cn-lyric">[00:37.20]与其强求不存在之物</div>
 </div>
 
 <div class="lyric-line">
@@ -338,16 +338,16 @@ image: /images/songs/kaf/track-1694251446.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Check it so so
+[01:50.60]Check it so so
 </div>
-<div class="cn-lyric">Check it so so</div>
+<div class="cn-lyric">[01:50.60]Check it so so</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
+[01:51.21]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
-<div class="cn-lyric">怎么都无所谓</div>
+<div class="cn-lyric">[01:51.21]怎么都无所谓</div>
 </div>
 
 <div class="lyric-line">

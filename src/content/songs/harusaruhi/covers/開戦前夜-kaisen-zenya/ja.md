@@ -190,7 +190,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>冷静<rt class="furi">れいせい</rt><rt class="roma">reisei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[00:47.45]<ruby>冷静<rt class="furi">れいせい</rt><rt class="roma">reisei</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>燃<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>やし<rt class="roma">yashi</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 </div>
 
@@ -202,7 +202,7 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>興奮<rt class="furi">こうふん</rt><rt class="roma">koufun</rt></ruby><ruby>電気<rt class="furi">でんき</rt><rt class="roma">denki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>欲<rt class="furi">ほっ</rt><rt class="roma">ho</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[00:47.45]<ruby>興奮<rt class="furi">こうふん</rt><rt class="roma">koufun</rt></ruby><ruby>電気<rt class="furi">でんき</rt><rt class="roma">denki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>欲<rt class="furi">ほっ</rt><rt class="roma">ho</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
 </div>
 

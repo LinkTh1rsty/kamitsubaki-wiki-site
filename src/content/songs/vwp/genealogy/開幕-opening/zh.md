@@ -38,12 +38,12 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>小<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby>哥哥
+[04:24.31]<ruby>小<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby>哥哥
 </div>
-<div class="cn-lyric">小哥哥</div>
-<div class="cn-lyric">小哥哥</div>
-<div class="cn-lyric">小哥哥</div>
-<div class="cn-lyric">小哥哥</div>
+<div class="cn-lyric">[04:24.31]小哥哥</div>
+<div class="cn-lyric">[04:24.31]小哥哥</div>
+<div class="cn-lyric">[04:24.31]小哥哥</div>
+<div class="cn-lyric">[04:24.31]小哥哥</div>
 </div>
 
 <div class="lyric-line">
@@ -202,10 +202,10 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>所以<rt class="furi">ゆえん</rt><rt class="roma">yuen</rt></ruby>
+[05:10.28]<ruby>所以<rt class="furi">ゆえん</rt><rt class="roma">yuen</rt></ruby>
 </div>
-<div class="cn-lyric">所以</div>
-<div class="cn-lyric">所以</div>
+<div class="cn-lyric">[05:10.28]所以</div>
+<div class="cn-lyric">[05:10.28]所以</div>
 </div>
 
 <div class="lyric-line">
@@ -426,9 +426,9 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>肉<rt class="furi">にく</rt><rt class="roma">niku</rt></ruby><ruby>棒<rt class="furi">ぼう</rt><rt class="roma">bou</rt></ruby>
+[01:02.48]<ruby>肉<rt class="furi">にく</rt><rt class="roma">niku</rt></ruby><ruby>棒<rt class="furi">ぼう</rt><rt class="roma">bou</rt></ruby>
 </div>
-<div class="cn-lyric">肉棒</div>
+<div class="cn-lyric">[01:02.48]肉棒</div>
 </div>
 
 <div class="lyric-line">
@@ -454,10 +454,10 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby>这样
+[03:36.98]<ruby>像<rt class="furi">ぞう</rt><rt class="roma">zou</rt></ruby>这样
 </div>
-<div class="cn-lyric">像这样</div>
-<div class="cn-lyric">像这样</div>
+<div class="cn-lyric">[03:36.98]像这样</div>
+<div class="cn-lyric">[03:36.98]像这样</div>
 </div>
 
 <div class="lyric-line">
@@ -594,9 +594,9 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>怎<rt class="furi">怎</rt><rt class="roma">怎</rt></ruby><ruby>么<rt class="furi">么</rt><rt class="roma">么</rt></ruby><ruby>样<rt class="furi">样</rt><rt class="roma">样</rt></ruby>？
+[01:20.50]<ruby>怎<rt class="furi">怎</rt><rt class="roma">怎</rt></ruby><ruby>么<rt class="furi">么</rt><rt class="roma">么</rt></ruby><ruby>样<rt class="furi">样</rt><rt class="roma">样</rt></ruby>？
 </div>
-<div class="cn-lyric">怎么样？</div>
+<div class="cn-lyric">[01:20.50]怎么样？</div>
 </div>
 
 <div class="lyric-line">
@@ -615,9 +615,9 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-兴奋<ruby>起<rt class="furi">おこし</rt><rt class="roma">okoshi</rt></ruby><ruby>来<rt class="furi">らい</rt><rt class="roma">rai</rt></ruby>
+[06:38.47]兴奋<ruby>起<rt class="furi">おこし</rt><rt class="roma">okoshi</rt></ruby><ruby>来<rt class="furi">らい</rt><rt class="roma">rai</rt></ruby>
 </div>
-<div class="cn-lyric">兴奋起来</div>
+<div class="cn-lyric">[06:38.47]兴奋起来</div>
 </div>
 
 <div class="lyric-line">
@@ -685,9 +685,9 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>因<rt class="furi">いん</rt><rt class="roma">in</rt></ruby>为
+[06:24.97]<ruby>因<rt class="furi">いん</rt><rt class="roma">in</rt></ruby>为
 </div>
-<div class="cn-lyric">因为</div>
+<div class="cn-lyric">[06:24.97]因为</div>
 </div>
 
 <div class="lyric-line">
@@ -865,9 +865,9 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>可<rt class="furi">か</rt><rt class="roma">ka</rt></ruby>以
+[02:26.42]<ruby>可<rt class="furi">か</rt><rt class="roma">ka</rt></ruby>以
 </div>
-<div class="cn-lyric">可以</div>
+<div class="cn-lyric">[02:26.42]可以</div>
 </div>
 
 <div class="lyric-line">
@@ -1223,9 +1223,9 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>小<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby>哥
+[04:24.31]<ruby>小<rt class="furi">しょう</rt><rt class="roma">shou</rt></ruby>哥
 </div>
-<div class="cn-lyric">小哥</div>
+<div class="cn-lyric">[04:24.31]小哥</div>
 </div>
 
 <div class="lyric-line">
@@ -1370,9 +1370,9 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby>
+[04:16.91]<ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby>
 </div>
-<div class="cn-lyric">来</div>
+<div class="cn-lyric">[04:16.91]来</div>
 </div>
 
 <div class="lyric-line">
@@ -1422,10 +1422,10 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>那<rt class="furi">那</rt><rt class="roma">那</rt></ruby><ruby>么<rt class="furi">么</rt><rt class="roma">么</rt></ruby>
+[06:55.97]<ruby>那<rt class="furi">那</rt><rt class="roma">那</rt></ruby><ruby>么<rt class="furi">么</rt><rt class="roma">么</rt></ruby>
 </div>
-<div class="cn-lyric">那么</div>
-<div class="cn-lyric">那么</div>
+<div class="cn-lyric">[06:55.97]那么</div>
+<div class="cn-lyric">[06:55.97]那么</div>
 </div>
 
 <div class="lyric-line">
@@ -2216,9 +2216,9 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>来<rt class="furi">らい</rt><rt class="roma">rai</rt></ruby>吧
+[08:34.15]<ruby>来<rt class="furi">らい</rt><rt class="roma">rai</rt></ruby>吧
 </div>
-<div class="cn-lyric">来吧</div>
+<div class="cn-lyric">[08:34.15]来吧</div>
 </div>
 
 <div class="lyric-line">
@@ -2251,9 +2251,9 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>呵呵<rt class="furi">かか</rt><rt class="roma">kaka</rt></ruby>
+[00:50.50]<ruby>呵呵<rt class="furi">かか</rt><rt class="roma">kaka</rt></ruby>
 </div>
-<div class="cn-lyric">呵呵</div>
+<div class="cn-lyric">[00:50.50]呵呵</div>
 </div>
 
 <div class="lyric-line">
@@ -2287,9 +2287,9 @@ image: /images/albums/vwp/fate.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>都<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>数<rt class="furi">すう</rt><rt class="roma">suu</rt></ruby><ruby>到<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby>这个<ruby>地<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby>步<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>
+[04:54.37]<ruby>都<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>数<rt class="furi">すう</rt><rt class="roma">suu</rt></ruby><ruby>到<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby>这个<ruby>地<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby>步<ruby>了<rt class="furi">りょう</rt><rt class="roma">ryou</rt></ruby>
 </div>
-<div class="cn-lyric">都数到这个地步了</div>
+<div class="cn-lyric">[04:54.37]都数到这个地步了</div>
 </div>
 
 <div class="lyric-line">

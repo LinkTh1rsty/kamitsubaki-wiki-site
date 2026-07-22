@@ -84,7 +84,7 @@ image: /images/albums/vwp/city-ii-virtual-reality.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby>
+[01:28.55]<ruby>考<rt class="furi">かんが</rt><rt class="roma">kanga</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby>
 </div>
 <div class="trans-lyric">I tend to overthink,</div>
 </div>
@@ -159,7 +159,7 @@ image: /images/albums/vwp/city-ii-virtual-reality.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けれど<rt class="roma">keredo</rt></ruby>
+[03:33.04]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>けれど<rt class="roma">keredo</rt></ruby>
 </div>
 <div class="trans-lyric">Though it's not exactly like that,</div>
 </div>

@@ -57,7 +57,7 @@ image: /images/songs/harusaruhi/single-1771810723.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Rise and be fearless
+[00:34.35]Rise and be fearless
 </div>
 </div>
 
@@ -65,7 +65,7 @@ Rise and be fearless
 
 <div class="lyric-line">
 <div class="jp-lyric">
-META is here
+[00:46.83]META is here
 </div>
 </div>
 
@@ -85,13 +85,13 @@ META is here
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>通<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>fiction
+[01:05.92]<ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>通<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>fiction
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:09.37]<ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -103,7 +103,7 @@ META is here
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>雁字搦<rt class="furi">がんじがら</rt><rt class="roma">ganjigara</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>friction
+[01:12.97]<ruby>雁字搦<rt class="furi">がんじがら</rt><rt class="roma">ganjigara</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>friction
 </div>
 </div>
 
@@ -115,7 +115,7 @@ META is here
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Break it now
+[01:20.70]Break it now
 </div>
 </div>
 
@@ -141,7 +141,7 @@ Rise and be fearless
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Raise your emotion
+[01:36.42]Raise your emotion
 </div>
 </div>
 
@@ -153,17 +153,29 @@ Raise your emotion
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Take them all. Grab them all
+[01:42.79]Take them all. Grab them all
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>新<rt class="furi">あたら</rt><rt class="roma">atara</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>landscape <ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:46.20]<ruby>新<rt class="furi">あたら</rt><rt class="roma">atara</rt></ruby><ruby>しい<rt class="roma">shii</rt></ruby>landscape <ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
 <br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:50.16]Awaken in another world with light
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:53.66]Take them all. What I noticed is mine
+</div>
+</div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
@@ -173,19 +185,7 @@ Awaken in another world with light
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Take them all. What I noticed is mine
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Awaken in another world with light
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Grab them all. Make it up and realize
+[02:00.56]Grab them all. Make it up and realize
 </div>
 </div>
 
@@ -193,25 +193,25 @@ Grab them all. Make it up and realize
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>crack <ruby>飛び込<rt class="furi">とびこ</rt><rt class="roma">tobiko</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby>META
+[02:03.88]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>crack <ruby>飛び込<rt class="furi">とびこ</rt><rt class="roma">tobiko</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby>META
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>アリ<rt class="roma">ari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>better
+[02:05.73]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>アリ<rt class="roma">ari</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>better
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ひっくり返<rt class="furi">ひっくりかえ</rt><rt class="roma">hikkurikae</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>vision
+[02:07.72]<ruby>ひっくり返<rt class="furi">ひっくりかえ</rt><rt class="roma">hikkurikae</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>vision
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-AtoZ<ruby>拡張<rt class="furi">かくちょう</rt><rt class="roma">kakuchou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>Terra
+[02:08.84]AtoZ<ruby>拡張<rt class="furi">かくちょう</rt><rt class="roma">kakuchou</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby>Terra
 </div>
 </div>
 
@@ -223,37 +223,37 @@ AtoZ<ruby>拡張<rt class="furi">かくちょう</rt><rt class="roma">kakuchou</
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Anymore I won't endure
+[02:12.54]Anymore I won't endure
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Fake<ruby>が<rt class="roma">ga</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>超越<rt class="furi">ちょうえつ</rt><rt class="roma">chouetsu</rt></ruby>
+[02:14.30]Fake<ruby>が<rt class="roma">ga</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>とか<rt class="roma">toka</rt></ruby><ruby>超越<rt class="furi">ちょうえつ</rt><rt class="roma">chouetsu</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby><ruby>リアル<rt class="roma">riaru</rt></ruby><ruby>すぎ<rt class="roma">sugi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>unreal
+[02:15.62]<ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby><ruby>リアル<rt class="roma">riaru</rt></ruby><ruby>すぎ<rt class="roma">sugi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>unreal
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>graphic <ruby>脳<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby>
+[02:17.74]<ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>graphic <ruby>脳<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Logic <ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>rollin' ethic
+[02:19.48]Logic <ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby>rollin' ethic
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby>distortion
+[02:21.38]<ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>この<rt class="roma">kono</rt></ruby>distortion
 </div>
 </div>
 
@@ -267,7 +267,7 @@ Logic <ruby>無<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>く
 
 <div class="lyric-line">
 <div class="jp-lyric">
-The world just before
+[02:27.30]The world just before
 </div>
 </div>
 
@@ -279,7 +279,7 @@ The world just before
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's all right cause you're here
+[02:35.68]It's all right cause you're here
 </div>
 </div>
 

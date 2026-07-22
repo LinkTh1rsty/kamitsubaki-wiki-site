@@ -86,7 +86,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なん<rt class="roma">nan</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby>
+[00:51.89]<ruby>なん<rt class="roma">nan</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>できる<rt class="roma">dekiru</rt></ruby>
 </div>
 <div class="trans-lyric">We can do anything.</div>
 </div>

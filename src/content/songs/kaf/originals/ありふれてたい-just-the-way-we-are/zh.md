@@ -37,30 +37,30 @@ image: /images/songs/kaf/track-1842997817.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Run of the mill ah ah
+[00:00.64]Run of the mill ah ah
 </div>
-<div class="cn-lyric">Run of the mill ah ah</div>
-<div class="cn-lyric">Run of the mill ah ah</div>
-<div class="cn-lyric">Run of the mill ah ah</div>
-<div class="cn-lyric">Run of the mill ah ah</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-But I love those things
-</div>
-<div class="cn-lyric">But I love those things</div>
-<div class="cn-lyric">But I love those things</div>
-<div class="cn-lyric">But I love those things</div>
-<div class="cn-lyric">But I love those things</div>
+<div class="cn-lyric">[00:00.64]Run of the mill ah ah</div>
+<div class="cn-lyric">[00:00.64]Run of the mill ah ah</div>
+<div class="cn-lyric">[00:00.64]Run of the mill ah ah</div>
+<div class="cn-lyric">[00:00.64]Run of the mill ah ah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Forever
+[00:05.14]But I love those things
 </div>
-<div class="cn-lyric">Forever</div>
-<div class="cn-lyric">Forever</div>
+<div class="cn-lyric">[00:05.14]But I love those things</div>
+<div class="cn-lyric">[00:05.14]But I love those things</div>
+<div class="cn-lyric">[00:05.14]But I love those things</div>
+<div class="cn-lyric">[00:05.14]But I love those things</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:07.61]Forever
+</div>
+<div class="cn-lyric">[00:07.61]Forever</div>
+<div class="cn-lyric">[00:07.61]Forever</div>
 </div>
 
 <div class="lyric-line">
@@ -84,10 +84,10 @@ But I love those things
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>でも<rt class="roma">demo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>だけど<rt class="roma">dakedo</rt></ruby> <ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[00:23.11]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>だけど<rt class="roma">dakedo</rt></ruby> <ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">但是呢 可是呢 我不明白</div>
-<div class="cn-lyric">但是呢 可是呢 我不明白</div>
+<div class="cn-lyric">[00:23.11]但是呢 可是呢 我不明白</div>
+<div class="cn-lyric">[00:23.11]但是呢 可是呢 我不明白</div>
 </div>
 
 <div class="lyric-line">
@@ -99,10 +99,10 @@ But I love those things
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
+[00:31.68]<ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>です<rt class="roma">desu</rt></ruby>
 </div>
-<div class="cn-lyric">我都无法明白</div>
-<div class="cn-lyric">我仍然不明白</div>
+<div class="cn-lyric">[00:31.68]我都无法明白</div>
+<div class="cn-lyric">[00:31.68]我仍然不明白</div>
 </div>
 
 <div class="lyric-line">
@@ -156,10 +156,10 @@ But I love those things
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>ありふれ<rt class="roma">arifure</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[01:20.48]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>ありふれ<rt class="roma">arifure</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="cn-lyric">想要永远和你一起 一直平凡下去</div>
-<div class="cn-lyric">想要永远和你一起 一直平凡下去</div>
+<div class="cn-lyric">[01:20.48]想要永远和你一起 一直平凡下去</div>
+<div class="cn-lyric">[01:20.48]想要永远和你一起 一直平凡下去</div>
 </div>
 
 <div class="lyric-line">
@@ -247,16 +247,16 @@ But I love those things
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>あり<rt class="roma">ari</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[02:33.55]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>あり<rt class="roma">ari</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="cn-lyric">似乎是随处可见的日子</div>
+<div class="cn-lyric">[02:33.55]似乎是随处可见的日子</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[02:38.27]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>ただ<rt class="roma">tada</rt></ruby><ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
-<div class="cn-lyric">只是永远 只是永远</div>
+<div class="cn-lyric">[02:38.27]只是永远 只是永远</div>
 </div>
 
 </div>

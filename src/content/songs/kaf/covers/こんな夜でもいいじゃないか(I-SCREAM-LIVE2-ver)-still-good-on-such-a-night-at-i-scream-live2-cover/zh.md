@@ -83,14 +83,14 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[00:48.47]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
-<div class="cn-lyric">这样的夜晚不也挺好吗</div>
-<div class="cn-lyric">这样的夜晚不也挺好吗</div>
-<div class="cn-lyric">这样的夜晚不也挺好吗</div>
-<div class="cn-lyric">这样的夜晚不也挺好吗</div>
-<div class="cn-lyric">这样的夜晚不也挺好吗</div>
-<div class="cn-lyric">这样的夜晚不也挺好吗</div>
+<div class="cn-lyric">[00:48.47]这样的夜晚不也挺好吗</div>
+<div class="cn-lyric">[00:48.47]这样的夜晚不也挺好吗</div>
+<div class="cn-lyric">[00:48.47]这样的夜晚不也挺好吗</div>
+<div class="cn-lyric">[00:48.47]这样的夜晚不也挺好吗</div>
+<div class="cn-lyric">[00:48.47]这样的夜晚不也挺好吗</div>
+<div class="cn-lyric">[00:48.47]这样的夜晚不也挺好吗</div>
 </div>
 
 <div class="lyric-line">
@@ -133,9 +133,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>楽<rt class="furi">らく</rt><rt class="roma">raku</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:05.80]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>楽<rt class="furi">らく</rt><rt class="roma">raku</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">如果那样说就会轻松吧</div>
+<div class="cn-lyric">[01:05.80]如果那样说就会轻松吧</div>
 </div>
 
 <div class="lyric-line">
@@ -147,9 +147,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>」
+[01:10.88]「<ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>」
 </div>
-<div class="cn-lyric">「我隐约感觉到了」</div>
+<div class="cn-lyric">[01:10.88]「我隐约感觉到了」</div>
 </div>
 
 <div class="lyric-line">
@@ -161,9 +161,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-1:3<ruby>で<rt class="roma">de</rt></ruby><ruby>割<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>カルーア<rt class="roma">karuua</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
+[01:29.49]1:3<ruby>で<rt class="roma">de</rt></ruby><ruby>割<rt class="furi">わ</rt><rt class="roma">wa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>カルーア<rt class="roma">karuua</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
-<div class="cn-lyric">用1:3调和的卡鲁瓦酒也回过神来</div>
+<div class="cn-lyric">[01:29.49]用1:3调和的卡鲁瓦酒也回过神来</div>
 </div>
 
 <div class="lyric-line">
@@ -250,9 +250,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>塩<rt class="furi">しお</rt><rt class="roma">shio</rt></ruby><ruby>っぽい<rt class="roma">ppoi</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>かっ<rt class="roma">ka</rt></ruby><ruby>食<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>らい<rt class="roma">rai</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[02:34.56]<ruby>塩<rt class="furi">しお</rt><rt class="roma">shio</rt></ruby><ruby>っぽい<rt class="roma">ppoi</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>かっ<rt class="roma">ka</rt></ruby><ruby>食<rt class="furi">く</rt><rt class="roma">ku</rt></ruby><ruby>らい<rt class="roma">rai</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="cn-lyric">想吃点咸咸的东西</div>
+<div class="cn-lyric">[02:34.56]想吃点咸咸的东西</div>
 </div>
 
 <div class="lyric-line">
@@ -271,9 +271,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[02:44.96]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
-<div class="cn-lyric">那样的我不也挺好吗</div>
+<div class="cn-lyric">[02:44.96]那样的我不也挺好吗</div>
 </div>
 
 <div class="lyric-line">
@@ -322,9 +322,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:09.26]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>どう<rt class="roma">dou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">光说爱也无济于事啊</div>
+<div class="cn-lyric">[03:09.26]光说爱也无济于事啊</div>
 </div>
 
 <div class="lyric-line">
@@ -342,9 +342,9 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[03:15.91]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>溺<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="cn-lyric">因为无所谓所以想沉溺</div>
+<div class="cn-lyric">[03:15.91]因为无所谓所以想沉溺</div>
 </div>
 
 </div>

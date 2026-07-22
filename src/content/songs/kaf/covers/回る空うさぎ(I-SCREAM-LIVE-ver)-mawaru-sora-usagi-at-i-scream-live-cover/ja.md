@@ -66,7 +66,7 @@ Ah <ruby>なら<rt class="roma">nara</rt></ruby> <ruby>なら<rt class="roma">na
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby>
+[00:45.65]<ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby> <ruby>まだ<rt class="roma">mada</rt></ruby>
 </div>
 </div>
 
@@ -106,7 +106,7 @@ Ah <ruby>から<rt class="roma">kara</rt></ruby> <ruby>から<rt class="roma">ka
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いま<rt class="roma">ima</rt></ruby> <ruby>から<rt class="roma">kara</rt></ruby> <ruby>から<rt class="roma">kara</rt></ruby>
+[01:26.25]<ruby>いま<rt class="roma">ima</rt></ruby> <ruby>から<rt class="roma">kara</rt></ruby> <ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 

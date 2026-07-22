@@ -71,7 +71,7 @@ image: /images/songs/harusaruhi/single-1687464984.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>怯<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[00:40.94]<ruby>怯<rt class="furi">ひる</rt><rt class="roma">hiru</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 </div>
 

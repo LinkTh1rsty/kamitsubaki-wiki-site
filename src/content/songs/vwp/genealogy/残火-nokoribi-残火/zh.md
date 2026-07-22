@@ -68,9 +68,9 @@ image: /images/songs/vwp/single-1714414164.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>上手<rt class="furi">うま</rt><rt class="roma">uma</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>いか<rt class="roma">ika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[00:46.44]<ruby>上手<rt class="furi">うま</rt><rt class="roma">uma</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>いか<rt class="roma">ika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
-<div class="cn-lyric">觉得不会顺利吧</div>
+<div class="cn-lyric">[00:46.44]觉得不会顺利吧</div>
 </div>
 
 <div class="lyric-line">
@@ -82,9 +82,9 @@ image: /images/songs/vwp/single-1714414164.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ある<rt class="roma">aru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
+[00:55.19]<ruby>ある<rt class="roma">aru</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby>
 </div>
-<div class="cn-lyric">保持原样</div>
+<div class="cn-lyric">[00:55.19]保持原样</div>
 </div>
 
 <br />
@@ -107,10 +107,10 @@ image: /images/songs/vwp/single-1714414164.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>しょぼく<rt class="roma">shoboku</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:02.49]<ruby>お前<rt class="furi">おまえ</rt><rt class="roma">omae</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>しょぼく<rt class="roma">shoboku</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">你并不渺小</div>
-<div class="cn-lyric">你并不渺小</div>
+<div class="cn-lyric">[01:02.49]你并不渺小</div>
+<div class="cn-lyric">[01:02.49]你并不渺小</div>
 </div>
 
 <div class="lyric-line">
@@ -220,9 +220,9 @@ image: /images/songs/vwp/single-1714414164.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>意<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:43.61]<ruby>意<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>染<rt class="furi">そ</rt><rt class="roma">so</rt></ruby><ruby>めよ<rt class="roma">meyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">随心所欲地染上吧</div>
+<div class="cn-lyric">[01:43.61]随心所欲地染上吧</div>
 </div>
 
 <div class="lyric-line">
@@ -315,9 +315,9 @@ image: /images/songs/vwp/single-1714414164.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[02:55.75]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="cn-lyric">因为能够说出口</div>
+<div class="cn-lyric">[02:55.75]因为能够说出口</div>
 </div>
 
 <br />

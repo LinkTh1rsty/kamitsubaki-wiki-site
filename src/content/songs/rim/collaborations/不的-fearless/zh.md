@@ -135,9 +135,9 @@ image: /images/albums/rim/new-romancer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いやらしい<rt class="roma">iyarashii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>、<ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[02:31.26]<ruby>いやらしい<rt class="roma">iyarashii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>、<ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>良<rt class="furi">よ</rt><rt class="roma">yo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
-<div class="cn-lyric">真讨厌 该如何是好</div>
+<div class="cn-lyric">[02:31.26]真讨厌 该如何是好</div>
 </div>
 
 <div class="lyric-line">
@@ -154,9 +154,9 @@ image: /images/albums/rim/new-romancer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>キル<rt class="roma">kiru</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>、<ruby>リスポーン<rt class="roma">risupoun</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[02:41.34]<ruby>キル<rt class="roma">kiru</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>、<ruby>リスポーン<rt class="roma">risupoun</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
-<div class="cn-lyric">别击杀我 等着复活</div>
+<div class="cn-lyric">[02:41.34]别击杀我 等着复活</div>
 </div>
 
 <div class="lyric-line">
@@ -170,9 +170,9 @@ image: /images/albums/rim/new-romancer-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>らしく<rt class="roma">rashiku</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>、<ruby>どう<rt class="roma">dou</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>？
+[02:53.34]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>らしく<rt class="roma">rashiku</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>、<ruby>どう<rt class="roma">dou</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>？
 </div>
-<div class="cn-lyric">若能活出你的本色 你想怎么做</div>
+<div class="cn-lyric">[02:53.34]若能活出你的本色 你想怎么做</div>
 </div>
 
 <div class="lyric-line">

@@ -40,23 +40,23 @@ image: /images/songs/rim/single-1661498190.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まぁ<rt class="roma">maa</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[00:05.04]<ruby>まぁ<rt class="roma">maa</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
-<div class="cn-lyric">嘛，总比没有结束要好得多吧</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>あぁ<rt class="roma">aa</rt></ruby><ruby>きっかけ<rt class="roma">kikkake</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ほしい<rt class="roma">hoshii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
-</div>
-<div class="cn-lyric">啊，好想要个契机啊</div>
+<div class="cn-lyric">[00:05.04]嘛，总比没有结束要好得多吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっかけ<rt class="roma">kikkake</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ほしい<rt class="roma">hoshii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:10.08]<ruby>あぁ<rt class="roma">aa</rt></ruby><ruby>きっかけ<rt class="roma">kikkake</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ほしい<rt class="roma">hoshii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">好想要个契机啊</div>
+<div class="cn-lyric">[00:10.08]啊，好想要个契机啊</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:12.07]<ruby>きっかけ<rt class="roma">kikkake</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ほしい<rt class="roma">hoshii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+</div>
+<div class="cn-lyric">[00:12.07]好想要个契机啊</div>
 </div>
 
 <div class="lyric-line">
@@ -68,9 +68,9 @@ image: /images/songs/rim/single-1661498190.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>でも<rt class="roma">demo</rt></ruby>
+[00:16.10]<ruby>でも<rt class="roma">demo</rt></ruby>
 </div>
-<div class="cn-lyric">但是</div>
+<div class="cn-lyric">[00:16.10]但是</div>
 </div>
 
 <div class="lyric-line">
@@ -91,9 +91,9 @@ image: /images/songs/rim/single-1661498190.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まぁ<rt class="roma">maa</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[00:34.57]<ruby>まぁ<rt class="roma">maa</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
-<div class="cn-lyric">嘛，总比没有明天要好得多吧</div>
+<div class="cn-lyric">[00:34.57]嘛，总比没有明天要好得多吧</div>
 </div>
 
 <div class="lyric-line">
@@ -176,18 +176,18 @@ image: /images/songs/rim/single-1661498190.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>すき<rt class="roma">suki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[00:16.10]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>人<rt class="furi">ひと</rt><rt class="roma">hito</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>すき<rt class="roma">suki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="cn-lyric">即便如此，还是想继续喜欢一个人</div>
+<div class="cn-lyric">[00:16.10]即便如此，还是想继续喜欢一个人</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby>
+[00:16.10]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby>
 </div>
-<div class="cn-lyric">净是记住了些无关紧要的事</div>
+<div class="cn-lyric">[00:16.10]净是记住了些无关紧要的事</div>
 </div>
 
 <div class="lyric-line">
@@ -199,9 +199,9 @@ image: /images/songs/rim/single-1661498190.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あぁ<rt class="roma">aa</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きがい<rt class="roma">kigai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ほしい<rt class="roma">hoshii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:14.18]<ruby>あぁ<rt class="roma">aa</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>きがい<rt class="roma">kigai</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ほしい<rt class="roma">hoshii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">啊，好想要个活着的意义啊</div>
+<div class="cn-lyric">[02:14.18]啊，好想要个活着的意义啊</div>
 </div>
 
 <div class="lyric-line">
@@ -273,25 +273,25 @@ image: /images/songs/rim/single-1661498190.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>すき<rt class="roma">suki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[00:16.10]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>きみ<rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>すき<rt class="roma">suki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>続<rt class="furi">つづ</rt><rt class="roma">tsuzu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="cn-lyric">即便如此，还是想继续喜欢你</div>
+<div class="cn-lyric">[00:16.10]即便如此，还是想继续喜欢你</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>やりきれない<rt class="roma">yarikirenai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby>
+[03:41.72]<ruby>やりきれない<rt class="roma">yarikirenai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ばっか<rt class="roma">bakka</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>泣<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby>
 </div>
-<div class="cn-lyric">尽是因为些难以承受的事而哭了</div>
+<div class="cn-lyric">[03:41.72]尽是因为些难以承受的事而哭了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ま<rt class="roma">ma</rt></ruby><ruby>ぁなんにもないよりはまだずっといいか<rt class="roma">anannimonaiyorihamadazuttoiika</rt></ruby>
+[03:46.19]<ruby>ま<rt class="roma">ma</rt></ruby><ruby>ぁなんにもないよりはまだずっといいか<rt class="roma">anannimonaiyorihamadazuttoiika</rt></ruby>
 </div>
-<div class="cn-lyric">嘛，总比什么都没有要好得多吧</div>
+<div class="cn-lyric">[03:46.19]嘛，总比什么都没有要好得多吧</div>
 </div>
 
 <div class="lyric-line">
@@ -310,17 +310,17 @@ image: /images/songs/rim/single-1661498190.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いや<rt class="roma">iya</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:55.31]<ruby>いや<rt class="roma">iya</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">我并不讨厌哦</div>
+<div class="cn-lyric">[03:55.31]我并不讨厌哦</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>これ<rt class="roma">kore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:57.62]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">这个也行哦</div>
-<div class="cn-lyric">这个也行哦</div>
+<div class="cn-lyric">[03:57.62]这个也行哦</div>
+<div class="cn-lyric">[03:57.62]这个也行哦</div>
 </div>
 
 <div class="lyric-line">

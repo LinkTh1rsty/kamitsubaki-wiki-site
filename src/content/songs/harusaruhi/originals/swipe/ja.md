@@ -51,7 +51,7 @@ image: /images/songs/harusaruhi/single-1785776179.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>提唱<rt class="furi">ていしょう</rt><rt class="roma">teishou</rt></ruby> <ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>game on
+[00:38.99]<ruby>提唱<rt class="furi">ていしょう</rt><rt class="roma">teishou</rt></ruby> <ruby>今<rt class="furi">こん</rt><rt class="roma">kon</rt></ruby>game on
 </div>
 </div>
 
@@ -85,7 +85,7 @@ image: /images/songs/harusaruhi/single-1785776179.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
+[00:54.62]<ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby><ruby>はい<rt class="roma">hai</rt></ruby>
 </div>
 </div>
 
@@ -149,7 +149,7 @@ image: /images/songs/harusaruhi/single-1785776179.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Na-Na-Na-
+[01:20.54]Na-Na-Na-
 </div>
 </div>
 
@@ -163,7 +163,7 @@ Na-Na-Na-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>広告<rt class="furi">こうこく</rt><rt class="roma">koukoku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>I hate it
+[01:38.54]<ruby>広告<rt class="furi">こうこく</rt><rt class="roma">koukoku</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>I hate it
 </div>
 </div>
 
@@ -201,7 +201,7 @@ Na-Na-Na-
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>メイクオフ<rt class="roma">meikuofu</rt></ruby> No Perfection
+[01:56.86]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>メイクオフ<rt class="roma">meikuofu</rt></ruby> No Perfection
 </div>
 </div>
 

@@ -55,16 +55,16 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あと<rt class="roma">ato</rt></ruby><ruby>ゲット<rt class="roma">getto</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>かわいい<rt class="roma">kawaii</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>皿<rt class="furi">さら</rt><rt class="roma">sara</rt></ruby>yeah
+[00:20.87]<ruby>あと<rt class="roma">ato</rt></ruby><ruby>ゲット<rt class="roma">getto</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>かわいい<rt class="roma">kawaii</rt></ruby><ruby>お<rt class="roma">o</rt></ruby><ruby>皿<rt class="furi">さら</rt><rt class="roma">sara</rt></ruby>yeah
 </div>
-<div class="cn-lyric">再拿下可爱的小盘子yeah</div>
+<div class="cn-lyric">[00:20.87]再拿下可爱的小盘子yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>匂<rt class="furi">にお</rt><rt class="roma">nio</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>good
+[00:24.77]<ruby>匂<rt class="furi">にお</rt><rt class="roma">nio</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>good
 </div>
-<div class="cn-lyric">香气good</div>
+<div class="cn-lyric">[00:24.77]香气good</div>
 </div>
 
 <div class="lyric-line">
@@ -76,9 +76,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>スパイス<rt class="roma">supaisu</rt></ruby><ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
+[00:27.73]<ruby>スパイス<rt class="roma">supaisu</rt></ruby><ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby>
 </div>
-<div class="cn-lyric">撒上香料</div>
+<div class="cn-lyric">[00:27.73]撒上香料</div>
 </div>
 
 <div class="lyric-line">
@@ -112,16 +112,16 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah <ruby>うん<rt class="roma">un</rt></ruby>
+[00:41.09]yeah <ruby>うん<rt class="roma">un</rt></ruby>
 </div>
-<div class="cn-lyric">yeah 嗯</div>
+<div class="cn-lyric">[00:41.09]yeah 嗯</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>ごちそうさま<rt class="roma">gochisousama</rt></ruby>
+[00:42.79]<ruby>ああ<rt class="roma">aa</rt></ruby> <ruby>ごちそうさま<rt class="roma">gochisousama</rt></ruby>
 </div>
-<div class="cn-lyric">啊 多谢款待</div>
+<div class="cn-lyric">[00:42.79]啊 多谢款待</div>
 </div>
 
 <br />

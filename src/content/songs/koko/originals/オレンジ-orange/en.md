@@ -33,21 +33,21 @@ image: /images/songs/koko/single-1809943180.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>オレンジ<rt class="roma">orenji</rt></ruby> - <ruby>幸<rt class="furi">こう</rt><rt class="roma">kou</rt></ruby>祜
+[00:00.00]<ruby>オレンジ<rt class="roma">orenji</rt></ruby> - <ruby>幸<rt class="furi">こう</rt><rt class="roma">kou</rt></ruby>祜
 </div>
 <div class="trans-lyric">Orange - Kōko</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>词<rt class="furi">词</rt><rt class="roma">词</rt></ruby>：TKT
+[00:00.61]<ruby>词<rt class="furi">词</rt><rt class="roma">词</rt></ruby>：TKT
 </div>
 <div class="trans-lyric">Lyrics: TKT</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby>：EREN
+[00:00.87]<ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby>：EREN
 </div>
 <div class="trans-lyric">Music: EREN</div>
 </div>
@@ -136,7 +136,7 @@ image: /images/songs/koko/single-1809943180.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>いたい<rt class="roma">itai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[00:57.82]<ruby>この<rt class="roma">kono</rt></ruby><ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>いたい<rt class="roma">itai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 <div class="trans-lyric">I still want to stay inside this orange</div>
 <div class="trans-lyric">I still want to stay inside this orange</div>
@@ -186,7 +186,7 @@ image: /images/songs/koko/single-1809943180.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>かっこ<rt class="roma">kakko</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いたく<rt class="roma">itaku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:45.20]<ruby>かっこ<rt class="roma">kakko</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いたく<rt class="roma">itaku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">I want to stay cool</div>
 </div>
@@ -242,7 +242,7 @@ image: /images/songs/koko/single-1809943180.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あきらめ<rt class="roma">akirame</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[02:18.03]<ruby>あきらめ<rt class="roma">akirame</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 <div class="trans-lyric">I don't want to give up</div>
 </div>
@@ -256,14 +256,14 @@ image: /images/songs/koko/single-1809943180.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[02:28.17]<ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">I don't need any meaning</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ぶん<rt class="roma">bun</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby>
+[02:34.31]<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ぶん<rt class="roma">bun</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby>
 </div>
 <div class="trans-lyric">Today's portion of orange ends</div>
 </div>
@@ -298,7 +298,7 @@ image: /images/songs/koko/single-1809943180.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あの<rt class="roma">ano</rt></ruby><ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:53.21]<ruby>あの<rt class="roma">ano</rt></ruby><ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">Like that orange</div>
 </div>

@@ -33,25 +33,25 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-My story I'll help you understand
+[00:31.08]My story I'll help you understand
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Born, raised in Japan
+[00:34.25]Born, raised in Japan
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Left school I was 15
+[00:37.92]Left school I was 15
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Left home went to Berlin
+[00:41.51]Left home went to Berlin
 </div>
 </div>
 
@@ -59,51 +59,63 @@ Left home went to Berlin
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I move I walked I walked
+[00:44.92]I move I walked I walked
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:48.19]Sensation of stopping shocked
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:51.77]The sisters never approved
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:55.05]I went through life feeling guilt
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:59.74]Worked raped exploited I built
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:02.91]A job a trip to brazil
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:06.45]And wore a suit and a sale
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:09.60]Sandy beaches money and
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:13.28]I moved I walked I walked
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 Sensation of stopping shocked
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-The sisters never approved
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-I went through life feeling guilt
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Worked raped exploited I built
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-A job a trip to brazil
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-And wore a suit and a sale
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Sandy beaches money and
 </div>
 </div>
 
@@ -119,15 +131,23 @@ Sensation of stopping shocked
 </div>
 </div>
 
+<br />
+
 <div class="lyric-line">
 <div class="jp-lyric">
-I moved I walked I walked
+[01:27.18]Won't you tell something
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Sensation of stopping shocked
+[01:32.32]Won't you just try to understand
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:35.35]Wait don't run wait don't stay
 </div>
 </div>
 
@@ -135,23 +155,15 @@ Sensation of stopping shocked
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Won't you tell something
+[01:40.46]Mom told me wait be steady be locked be ready
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Won't you just try to understand
+[01:44.11]For things just like this
 </div>
 </div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Wait don't run wait don't stay
-</div>
-</div>
-
-<br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
@@ -167,31 +179,19 @@ For things just like this
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Mom told me wait be steady be locked be ready
+[01:53.83]Wait don't go
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-For things just like this
+[01:56.08]Wait don't run
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Wait don't go
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Wait don't run
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Wait don't stay
+[01:58.04]Wait don't stay
 </div>
 </div>
 

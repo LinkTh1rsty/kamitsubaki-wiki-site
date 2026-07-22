@@ -102,11 +102,11 @@ Oh baby <ruby>ありのまま<rt class="roma">arinomama</rt></ruby>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Maybe <ruby>簡単<rt class="furi">かんたん</rt><rt class="roma">kantan</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[00:41.55]Maybe <ruby>簡単<rt class="furi">かんたん</rt><rt class="roma">kantan</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">Maybe 并不简单</div>
-<div class="cn-lyric">Maybe 并不简单</div>
-<div class="cn-lyric">Maybe 并不简单</div>
+<div class="cn-lyric">[00:41.55]Maybe 并不简单</div>
+<div class="cn-lyric">[00:41.55]Maybe 并不简单</div>
+<div class="cn-lyric">[00:41.55]Maybe 并不简单</div>
 </div>
 
 <div class="lyric-line">

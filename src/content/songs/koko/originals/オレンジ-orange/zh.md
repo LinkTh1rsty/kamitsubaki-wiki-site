@@ -33,23 +33,23 @@ image: /images/songs/koko/single-1809943180.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>オレンジ<rt class="roma">orenji</rt></ruby> - <ruby>幸<rt class="furi">こう</rt><rt class="roma">kou</rt></ruby>祜
+[00:00.00]<ruby>オレンジ<rt class="roma">orenji</rt></ruby> - <ruby>幸<rt class="furi">こう</rt><rt class="roma">kou</rt></ruby>祜
 </div>
-<div class="cn-lyric">橙色 - 幸祜</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>词<rt class="furi">词</rt><rt class="roma">词</rt></ruby>：TKT
-</div>
-<div class="cn-lyric">词：TKT</div>
+<div class="cn-lyric">[00:00.00]橙色 - 幸祜</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby>：EREN
+[00:00.61]<ruby>词<rt class="furi">词</rt><rt class="roma">词</rt></ruby>：TKT
 </div>
-<div class="cn-lyric">曲：EREN</div>
+<div class="cn-lyric">[00:00.61]词：TKT</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:00.87]<ruby>曲<rt class="furi">きょく</rt><rt class="roma">kyoku</rt></ruby>：EREN
+</div>
+<div class="cn-lyric">[00:00.87]曲：EREN</div>
 </div>
 
 <div class="lyric-line">
@@ -136,10 +136,10 @@ image: /images/songs/koko/single-1809943180.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>いたい<rt class="roma">itai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[00:57.82]<ruby>この<rt class="roma">kono</rt></ruby><ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>中<rt class="furi">なか</rt><rt class="roma">naka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>いたい<rt class="roma">itai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
-<div class="cn-lyric">还想停留在这样的橙色之中</div>
-<div class="cn-lyric">还想停留在这样的橙色之中</div>
+<div class="cn-lyric">[00:57.82]还想停留在这样的橙色之中</div>
+<div class="cn-lyric">[00:57.82]还想停留在这样的橙色之中</div>
 </div>
 
 <div class="lyric-line">
@@ -186,9 +186,9 @@ image: /images/songs/koko/single-1809943180.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>かっこ<rt class="roma">kakko</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いたく<rt class="roma">itaku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:45.20]<ruby>かっこ<rt class="roma">kakko</rt></ruby><ruby>つけ<rt class="roma">tsuke</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いたく<rt class="roma">itaku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">想一直耍帅下去</div>
+<div class="cn-lyric">[01:45.20]想一直耍帅下去</div>
 </div>
 
 <div class="lyric-line">
@@ -242,9 +242,9 @@ image: /images/songs/koko/single-1809943180.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あきらめ<rt class="roma">akirame</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[02:18.03]<ruby>あきらめ<rt class="roma">akirame</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
-<div class="cn-lyric">不想放弃啊</div>
+<div class="cn-lyric">[02:18.03]不想放弃啊</div>
 </div>
 
 <div class="lyric-line">
@@ -256,16 +256,16 @@ image: /images/songs/koko/single-1809943180.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[02:28.17]<ruby>意味<rt class="furi">いみ</rt><rt class="roma">imi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="cn-lyric">不需要什么意义</div>
+<div class="cn-lyric">[02:28.17]不需要什么意义</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ぶん<rt class="roma">bun</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby>
+[02:34.31]<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ぶん<rt class="roma">bun</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby>
 </div>
-<div class="cn-lyric">今天的橙色结束了</div>
+<div class="cn-lyric">[02:34.31]今天的橙色结束了</div>
 </div>
 
 <div class="lyric-line">
@@ -298,9 +298,9 @@ image: /images/songs/koko/single-1809943180.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あの<rt class="roma">ano</rt></ruby><ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:53.21]<ruby>あの<rt class="roma">ano</rt></ruby><ruby>オレンジ<rt class="roma">orenji</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="cn-lyric">像那橙色一样</div>
+<div class="cn-lyric">[02:53.21]像那橙色一样</div>
 </div>
 
 <div class="lyric-line">

@@ -61,7 +61,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>スーパー<rt class="roma">suupaa</rt></ruby><ruby>ヒーロー<rt class="roma">hiirou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[00:15.00]<ruby>スーパー<rt class="roma">suupaa</rt></ruby><ruby>ヒーロー<rt class="roma">hiirou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 <div class="trans-lyric">I want to become a superhero</div>
 <div class="trans-lyric">I want to become a superhero</div>
@@ -189,7 +189,7 @@ image: /images/albums/rim/chocolate-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby>
+[00:25.09]<ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
 <div class="trans-lyric">Surely</div>
 <div class="trans-lyric">Surely</div>

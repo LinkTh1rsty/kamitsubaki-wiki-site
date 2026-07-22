@@ -126,9 +126,9 @@ You lick it nice
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You shootin' star
+[00:15.03]You shootin' star
 </div>
-<div class="cn-lyric">你是流星</div>
+<div class="cn-lyric">[00:15.03]你是流星</div>
 </div>
 
 <div class="lyric-line">
@@ -305,9 +305,9 @@ So what?!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Fire on the beach at dawn
+[00:18.38]Fire on the beach at dawn
 </div>
-<div class="cn-lyric">黎明时海滩上的火焰</div>
+<div class="cn-lyric">[00:18.38]黎明时海滩上的火焰</div>
 </div>
 
 <div class="lyric-line">

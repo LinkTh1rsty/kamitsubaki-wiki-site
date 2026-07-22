@@ -58,13 +58,13 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まわる<rt class="roma">mawaru</rt></ruby><ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ひとり<rt class="roma">hitori</rt></ruby>
+[04:18.05]<ruby>まわる<rt class="roma">mawaru</rt></ruby><ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby> <ruby>その<rt class="roma">sono</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ひとり<rt class="roma">hitori</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ひとり<rt class="roma">hitori</rt></ruby>
+[04:18.05]<ruby>ひとり<rt class="roma">hitori</rt></ruby>
 </div>
 </div>
 
@@ -238,7 +238,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>在<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
+[02:47.08]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>在<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
 </div>
 

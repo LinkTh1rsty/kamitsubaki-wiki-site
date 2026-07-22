@@ -36,7 +36,7 @@ image: /images/albums/kaf/maho.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>メル<rt class="roma">meru</rt></ruby>
+[00:05.07]<ruby>メル<rt class="roma">meru</rt></ruby>
 </div>
 </div>
 
@@ -114,7 +114,7 @@ image: /images/albums/kaf/maho.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>メル<rt class="roma">meru</rt></ruby>
+[00:05.07]<ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>メル<rt class="roma">meru</rt></ruby>
 </div>
 </div>
 
@@ -224,7 +224,7 @@ image: /images/albums/kaf/maho.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>メル<rt class="roma">meru</rt></ruby>
+[00:05.07]<ruby>涙<rt class="furi">なみだ</rt><rt class="roma">namida</rt></ruby><ruby>する<rt class="roma">suru</rt></ruby><ruby>メル<rt class="roma">meru</rt></ruby>
 </div>
 </div>
 

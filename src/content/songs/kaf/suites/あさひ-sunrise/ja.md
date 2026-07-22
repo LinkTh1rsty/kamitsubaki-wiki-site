@@ -58,7 +58,7 @@ image: /images/songs/kaf/track-1688351642.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ああ<rt class="roma">aa</rt></ruby><ruby>やっぱり<rt class="roma">yappari</rt></ruby> <ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>なあ<rt class="roma">naa</rt></ruby>
+[00:27.04]<ruby>ああ<rt class="roma">aa</rt></ruby><ruby>やっぱり<rt class="roma">yappari</rt></ruby> <ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>なあ<rt class="roma">naa</rt></ruby>
 </div>
 </div>
 
@@ -118,7 +118,7 @@ image: /images/songs/kaf/track-1688351642.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ステレオ<rt class="roma">sutereo</rt></ruby><ruby>タイプ<rt class="roma">taipu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:14.52]<ruby>ステレオ<rt class="roma">sutereo</rt></ruby><ruby>タイプ<rt class="roma">taipu</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
@@ -150,7 +150,7 @@ image: /images/songs/kaf/track-1688351642.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[03:26.22]<ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby> <ruby>この<rt class="roma">kono</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
@@ -206,7 +206,7 @@ image: /images/songs/kaf/track-1688351642.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>キス<rt class="roma">kisu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[03:33.53]<ruby>キス<rt class="roma">kisu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -284,7 +284,7 @@ image: /images/songs/kaf/track-1688351642.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[03:04.90]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
@@ -322,7 +322,7 @@ image: /images/songs/kaf/track-1688351642.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby>
+[03:26.22]<ruby>神様<rt class="furi">かみさま</rt><rt class="roma">kamisama</rt></ruby>
 </div>
 </div>
 
@@ -638,13 +638,13 @@ image: /images/songs/kaf/track-1688351642.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>じゃあ<rt class="roma">jaa</rt></ruby>
+[07:11.55]<ruby>じゃあ<rt class="roma">jaa</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>また<rt class="roma">mata</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[07:14.30]<ruby>また<rt class="roma">mata</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 </div>
 

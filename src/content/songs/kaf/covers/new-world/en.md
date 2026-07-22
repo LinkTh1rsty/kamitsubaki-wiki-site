@@ -38,14 +38,14 @@ There's a raging storm around us
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Trying to tear us from the ground
+[03:36.55]Trying to tear us from the ground
 </div>
 <div class="trans-lyric">Trying to tear us from the ground</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-We can ride this wave together
+[01:06.97]We can ride this wave together
 </div>
 <div class="trans-lyric">We can ride this wave together</div>
 </div>
@@ -61,7 +61,7 @@ Until the thunder makes no sound
 
 <div class="lyric-line">
 <div class="jp-lyric">
-We are the new world
+[01:03.32]We are the new world
 </div>
 <div class="trans-lyric">We are the new world</div>
 <div class="trans-lyric">We are the new world</div>

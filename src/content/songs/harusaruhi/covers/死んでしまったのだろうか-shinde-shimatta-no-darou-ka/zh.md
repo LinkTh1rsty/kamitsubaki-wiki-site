@@ -28,19 +28,161 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
+[00:18.92]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+</div>
+<div class="cn-lyric">[00:18.92]我一定已经死了吧</div>
+<div class="cn-lyric">[00:18.92]我一定已经死了吧</div>
+<div class="cn-lyric">[00:18.92]我一定已经死了吧</div>
+<div class="cn-lyric">[00:18.92]我一定已经死了吧</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:23.61]<ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まるで<rt class="roma">marude</rt></ruby><ruby>味<rt class="furi">あじ</rt><rt class="roma">aji</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+</div>
+<div class="cn-lyric">[00:23.61]吃的东西仿佛完全没有味道</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
 <ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="cn-lyric">我一定已经死了吧</div>
-<div class="cn-lyric">我一定已经死了吧</div>
-<div class="cn-lyric">我一定已经死了吧</div>
-<div class="cn-lyric">我一定已经死了吧</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べる<rt class="roma">beru</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まるで<rt class="roma">marude</rt></ruby><ruby>味<rt class="furi">あじ</rt><rt class="roma">aji</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:32.81]<ruby>母親<rt class="furi">ははおや</rt><rt class="roma">hahaoya</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>まるで<rt class="roma">marude</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="cn-lyric">吃的东西仿佛完全没有味道</div>
+<div class="cn-lyric">[00:32.81]完全感受不到母亲的爱</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:37.93]<ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>雲<rt class="furi">くも</rt><rt class="roma">kumo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>眺<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
+</div>
+<div class="cn-lyric">[00:37.93]眺望流云 回忆涌起</div>
+<div class="cn-lyric">[00:37.93]眺望流云 回忆涌起</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:40.27]<ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>置<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>いてきぼり<rt class="roma">itekibori</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心心<rt class="furi">こころごころ</rt><rt class="roma">kokorogokoro</rt></ruby><ruby>心心<rt class="furi">こころごころ</rt><rt class="roma">kokorogokoro</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>
+</div>
+<div class="cn-lyric">[00:40.27]被季节遗弃的我的 心心心心心</div>
+<div class="cn-lyric">[00:40.27]被季节遗弃的我的 心心心心心</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:47.35]<ruby>からっぽ<rt class="roma">karappo</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>張<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>訳<rt class="furi">わけ</rt><rt class="roma">wake</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby>
+</div>
+<div class="cn-lyric">[00:47.35]也无法挺起空荡荡的胸膛</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:50.02]<ruby>耽<rt class="furi">ふけ</rt><rt class="roma">fuke</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>妄想<rt class="furi">もうそう</rt><rt class="roma">mousou</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+</div>
+<div class="cn-lyric">[00:50.02]沉溺的只有妄想</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:52.02]<ruby>昔話<rt class="furi">むかしばなし</rt><rt class="roma">mukashibanashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+</div>
+<div class="cn-lyric">[00:52.02]只有在旧事里才能绽放花朵</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:56.88]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>わかって<rt class="roma">wakatte</rt></ruby><ruby>いたん<rt class="roma">itan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+</div>
+<div class="cn-lyric">[00:56.88]是啊 从出生时就已明白</div>
+<div class="cn-lyric">[00:56.88]是啊 从出生时就已明白</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:59.69]<ruby>深海<rt class="furi">しんかい</rt><rt class="roma">shinkai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>沈<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>船<rt class="furi">ふね</rt><rt class="roma">fune</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+</div>
+<div class="cn-lyric">[00:59.69]像沉入深海的船一般</div>
+<div class="cn-lyric">[00:59.69]像沉入深海的船一般</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:01.50]<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>忘れ去<rt class="furi">わすれさ</rt><rt class="roma">wasuresa</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+</div>
+<div class="cn-lyric">[01:01.50]终会被彻底遗忘</div>
+<div class="cn-lyric">[01:01.50]终会被彻底遗忘</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:04.03]<ruby>思い出<rt class="furi">おもいで</rt><rt class="roma">omoide</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+</div>
+<div class="cn-lyric">[01:04.03]只有回忆在流逝</div>
+<div class="cn-lyric">[01:04.03]只有回忆在流逝</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:06.37]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+</div>
+<div class="cn-lyric">[01:06.37]我是已经死了吗</div>
+<div class="cn-lyric">[01:06.37]我是已经死了吗</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:08.86]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
+</div>
+<div class="cn-lyric">[01:08.86]只是呼吸着 等待着</div>
+<div class="cn-lyric">[01:08.86]只是呼吸着 等待着</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:11.29]<ruby>泡沫<rt class="furi">ほうまつ</rt><rt class="roma">houmatsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>呑<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+</div>
+<div class="cn-lyric">[01:11.29]被泡沫吞噬 逐渐消失的日子</div>
+<div class="cn-lyric">[01:11.29]被泡沫吞噬 逐渐消失的日子</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:13.62]<ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>失<rt class="furi">うしな</rt><rt class="roma">ushina</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+</div>
+<div class="cn-lyric">[01:13.62]无法挽回的失去的岁月</div>
+<div class="cn-lyric">[01:13.62]无法挽回的失去的岁月</div>
+<div class="cn-lyric">[01:13.62]无法挽回的失去的岁月</div>
+<div class="cn-lyric">[01:13.62]无法挽回的失去的岁月</div>
+<div class="cn-lyric">[01:13.62]无法挽回的失去的岁月</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>失<rt class="furi">うしな</rt><rt class="roma">ushina</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:39.66]<ruby>上手<rt class="furi">うま</rt><rt class="roma">uma</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
+</div>
+<div class="cn-lyric">[01:39.66]无法好好说出真心话</div>
 </div>
 
 <div class="lyric-line">
@@ -51,9 +193,9 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>母親<rt class="furi">ははおや</rt><rt class="roma">hahaoya</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>まるで<rt class="roma">marude</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[01:49.13]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まるで<rt class="roma">marude</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>のい<rt class="roma">noi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="cn-lyric">完全感受不到母亲的爱</div>
+<div class="cn-lyric">[01:49.13]因为你的声音仿佛越来越远</div>
 </div>
 
 <br />
@@ -62,148 +204,6 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 <div class="jp-lyric">
 <ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>雲<rt class="furi">くも</rt><rt class="roma">kumo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>眺<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
 </div>
-<div class="cn-lyric">眺望流云 回忆涌起</div>
-<div class="cn-lyric">眺望流云 回忆涌起</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>季節<rt class="furi">きせつ</rt><rt class="roma">kisetsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>置<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>いてきぼり<rt class="roma">itekibori</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>心心<rt class="furi">こころごころ</rt><rt class="roma">kokorogokoro</rt></ruby><ruby>心心<rt class="furi">こころごころ</rt><rt class="roma">kokorogokoro</rt></ruby><ruby>心<rt class="furi">しん</rt><rt class="roma">shin</rt></ruby>
-</div>
-<div class="cn-lyric">被季节遗弃的我的 心心心心心</div>
-<div class="cn-lyric">被季节遗弃的我的 心心心心心</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>からっぽ<rt class="roma">karappo</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>胸<rt class="furi">むね</rt><rt class="roma">mune</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>張<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>訳<rt class="furi">わけ</rt><rt class="roma">wake</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby>
-</div>
-<div class="cn-lyric">也无法挺起空荡荡的胸膛</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>耽<rt class="furi">ふけ</rt><rt class="roma">fuke</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>妄想<rt class="furi">もうそう</rt><rt class="roma">mousou</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
-</div>
-<div class="cn-lyric">沉溺的只有妄想</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>昔話<rt class="furi">むかしばなし</rt><rt class="roma">mukashibanashi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>花<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>咲<rt class="furi">さ</rt><rt class="roma">sa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
-</div>
-<div class="cn-lyric">只有在旧事里才能绽放花朵</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby><ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>わかって<rt class="roma">wakatte</rt></ruby><ruby>いたん<rt class="roma">itan</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
-</div>
-<div class="cn-lyric">是啊 从出生时就已明白</div>
-<div class="cn-lyric">是啊 从出生时就已明白</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>深海<rt class="furi">しんかい</rt><rt class="roma">shinkai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>沈<rt class="furi">しず</rt><rt class="roma">shizu</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>船<rt class="furi">ふね</rt><rt class="roma">fune</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
-</div>
-<div class="cn-lyric">像沉入深海的船一般</div>
-<div class="cn-lyric">像沉入深海的船一般</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>いつか<rt class="roma">itsuka</rt></ruby><ruby>忘れ去<rt class="furi">わすれさ</rt><rt class="roma">wasuresa</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
-</div>
-<div class="cn-lyric">终会被彻底遗忘</div>
-<div class="cn-lyric">终会被彻底遗忘</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>思い出<rt class="furi">おもいで</rt><rt class="roma">omoide</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>過<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>ぎ<rt class="roma">gi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
-</div>
-<div class="cn-lyric">只有回忆在流逝</div>
-<div class="cn-lyric">只有回忆在流逝</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
-</div>
-<div class="cn-lyric">我是已经死了吗</div>
-<div class="cn-lyric">我是已经死了吗</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>息<rt class="furi">いき</rt><rt class="roma">iki</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>つ<rt class="roma">tsu</rt></ruby><ruby>ばかり<rt class="roma">bakari</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
-</div>
-<div class="cn-lyric">只是呼吸着 等待着</div>
-<div class="cn-lyric">只是呼吸着 等待着</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>泡沫<rt class="furi">ほうまつ</rt><rt class="roma">houmatsu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>呑<rt class="furi">の</rt><rt class="roma">no</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
-</div>
-<div class="cn-lyric">被泡沫吞噬 逐渐消失的日子</div>
-<div class="cn-lyric">被泡沫吞噬 逐渐消失的日子</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>失<rt class="furi">うしな</rt><rt class="roma">ushina</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
-</div>
-<div class="cn-lyric">无法挽回的失去的岁月</div>
-<div class="cn-lyric">无法挽回的失去的岁月</div>
-<div class="cn-lyric">无法挽回的失去的岁月</div>
-<div class="cn-lyric">无法挽回的失去的岁月</div>
-<div class="cn-lyric">无法挽回的失去的岁月</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>戻<rt class="furi">もど</rt><rt class="roma">modo</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>失<rt class="furi">うしな</rt><rt class="roma">ushina</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>上手<rt class="furi">うま</rt><rt class="roma">uma</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>本当<rt class="furi">ほんとう</rt><rt class="roma">hontou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>口<rt class="furi">くち</rt><rt class="roma">kuchi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
-</div>
-<div class="cn-lyric">无法好好说出真心话</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>声<rt class="furi">こえ</rt><rt class="roma">koe</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>まるで<rt class="roma">marude</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>のい<rt class="roma">noi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
-</div>
-<div class="cn-lyric">因为你的声音仿佛越来越远</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>流<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby><ruby>雲<rt class="furi">くも</rt><rt class="roma">kumo</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>眺<rt class="furi">なが</rt><rt class="roma">naga</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>思い出<rt class="furi">おもいだ</rt><rt class="roma">omoida</rt></ruby><ruby>す<rt class="roma">su</rt></ruby>
-</div>
 </div>
 
 <div class="lyric-line">
@@ -214,23 +214,23 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あの<rt class="roma">ano</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめれ<rt class="roma">kishimere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>よかった<rt class="roma">yokatta</rt></ruby>
+[02:03.35]<ruby>あの<rt class="roma">ano</rt></ruby><ruby>日<rt class="furi">ひ</rt><rt class="roma">hi</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>抱<rt class="furi">だ</rt><rt class="roma">da</rt></ruby><ruby>きしめれ<rt class="roma">kishimere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>よかった<rt class="roma">yokatta</rt></ruby>
 </div>
-<div class="cn-lyric">那天如果能拥抱你就好了</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づか<rt class="roma">zuka</rt></ruby><ruby>なけれ<rt class="roma">nakere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>よかった<rt class="roma">yokatta</rt></ruby>
-</div>
-<div class="cn-lyric">要是没有察觉就好了</div>
+<div class="cn-lyric">[02:03.35]那天如果能拥抱你就好了</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>過ぎ去<rt class="furi">すぎさ</rt><rt class="roma">sugisa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+[02:05.79]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づか<rt class="roma">zuka</rt></ruby><ruby>なけれ<rt class="roma">nakere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>よかった<rt class="roma">yokatta</rt></ruby>
 </div>
-<div class="cn-lyric">一成不变的逝去的日子</div>
+<div class="cn-lyric">[02:05.79]要是没有察觉就好了</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:08.39]<ruby>変<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>わる<rt class="roma">waru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>過ぎ去<rt class="furi">すぎさ</rt><rt class="roma">sugisa</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>日々<rt class="furi">ひび</rt><rt class="roma">hibi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
+</div>
+<div class="cn-lyric">[02:08.39]一成不变的逝去的日子</div>
 </div>
 
 <br />

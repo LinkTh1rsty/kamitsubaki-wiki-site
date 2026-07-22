@@ -50,7 +50,7 @@ image: /images/albums/kaf/maho.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[00:10.80]<ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">So I can sing 'thank you' well</div>
 </div>
@@ -87,7 +87,7 @@ image: /images/albums/kaf/maho.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まあ<rt class="roma">maa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
+[00:36.00]<ruby>まあ<rt class="roma">maa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby>
 </div>
 <div class="trans-lyric">Oh well</div>
 <div class="trans-lyric">Oh well</div>
@@ -323,7 +323,7 @@ image: /images/albums/kaf/maho.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ワクワク<rt class="roma">wakuwaku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>にやにや<rt class="roma">niyaniya</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[03:30.50]<ruby>ワクワク<rt class="roma">wakuwaku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>にやにや<rt class="roma">niyaniya</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 <div class="trans-lyric">The excitement that won't stop, and the grin too</div>
 </div>

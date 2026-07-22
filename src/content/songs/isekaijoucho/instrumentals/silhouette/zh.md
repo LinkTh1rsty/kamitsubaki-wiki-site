@@ -40,16 +40,16 @@ Grip on my waist
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I like the pace
+[00:39.88]I like the pace
 </div>
-<div class="cn-lyric">我喜欢这节奏</div>
+<div class="cn-lyric">[00:39.88]我喜欢这节奏</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Just give me a taste
+[00:27.88]Just give me a taste
 </div>
-<div class="cn-lyric">给我尝一口</div>
+<div class="cn-lyric">[00:27.88]给我尝一口</div>
 </div>
 
 <br />
@@ -63,16 +63,16 @@ Breath on my waist
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Speed up the pace
+[00:37.34]Speed up the pace
 </div>
-<div class="cn-lyric">加快节奏</div>
+<div class="cn-lyric">[00:37.34]加快节奏</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Wait you take my place
+[00:37.34]Wait you take my place
 </div>
-<div class="cn-lyric">等等你占据我的位置</div>
+<div class="cn-lyric">[00:37.34]等等你占据我的位置</div>
 </div>
 
 <br />
@@ -143,27 +143,27 @@ When I know you want it
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Know you really want it)
+[01:48.83](Know you really want it)
 </div>
-<div class="cn-lyric">（知道你真的想要）</div>
+<div class="cn-lyric">[01:48.83]（知道你真的想要）</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Silhouette silhouette
+[00:51.23]Silhouette silhouette
 </div>
-<div class="cn-lyric">剪影 剪影</div>
-<div class="cn-lyric">剪影 剪影</div>
-<div class="cn-lyric">剪影 剪影</div>
-<div class="cn-lyric">剪影 剪影</div>
-<div class="cn-lyric">剪影 剪影</div>
-<div class="cn-lyric">剪影 剪影</div>
-<div class="cn-lyric">剪影 剪影</div>
-<div class="cn-lyric">剪影 剪影</div>
-<div class="cn-lyric">剪影 剪影</div>
-<div class="cn-lyric">剪影 剪影</div>
+<div class="cn-lyric">[00:51.23]剪影 剪影</div>
+<div class="cn-lyric">[00:51.23]剪影 剪影</div>
+<div class="cn-lyric">[00:51.23]剪影 剪影</div>
+<div class="cn-lyric">[00:51.23]剪影 剪影</div>
+<div class="cn-lyric">[00:51.23]剪影 剪影</div>
+<div class="cn-lyric">[00:51.23]剪影 剪影</div>
+<div class="cn-lyric">[00:51.23]剪影 剪影</div>
+<div class="cn-lyric">[00:51.23]剪影 剪影</div>
+<div class="cn-lyric">[00:51.23]剪影 剪影</div>
+<div class="cn-lyric">[00:51.23]剪影 剪影</div>
 </div>
 
 <div class="lyric-line">
@@ -240,9 +240,9 @@ We're face to face
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It calls my name
+[01:34.69]It calls my name
 </div>
-<div class="cn-lyric">它呼唤我的名字</div>
+<div class="cn-lyric">[01:34.69]它呼唤我的名字</div>
 </div>
 
 <br />
@@ -256,9 +256,9 @@ Do you like the taste
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Of me taking your place
+[00:37.34]Of me taking your place
 </div>
-<div class="cn-lyric">我取代你的位置</div>
+<div class="cn-lyric">[00:37.34]我取代你的位置</div>
 </div>
 
 <div class="lyric-line">

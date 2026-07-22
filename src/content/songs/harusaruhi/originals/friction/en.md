@@ -131,7 +131,7 @@ When you've made it (when you've made it), won't you tell me what to do?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You can't fight the friction, so, ease it off
+[00:56.87]You can't fight the friction, so, ease it off
 </div>
 <div class="trans-lyric">You can't fight the friction, so, ease it off</div>
 <div class="trans-lyric">You can't fight the friction, so, ease it off</div>
@@ -189,7 +189,7 @@ At the tip of the needle
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's taking over you
+[00:30.03]It's taking over you
 </div>
 <div class="trans-lyric">It's taking over you</div>
 </div>
@@ -276,7 +276,7 @@ You can't fight the friction, so, ease it off
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh, why can't you let it go?
+[00:13.53]Oh, why can't you let it go?
 </div>
 <div class="trans-lyric">Oh, why can't you let it go?</div>
 </div>
@@ -317,7 +317,7 @@ Don't tell me to be strong, ease it off
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You can't fight the friction, so
+[00:56.87]You can't fight the friction, so
 </div>
 <div class="trans-lyric">You can't fight the friction, so</div>
 </div>
@@ -326,7 +326,7 @@ You can't fight the friction, so
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yeah
+[00:19.51]Yeah
 </div>
 <div class="trans-lyric">Yeah</div>
 <div class="trans-lyric">Yeah</div>

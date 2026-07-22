@@ -118,7 +118,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あーあ<rt class="roma">aaa</rt></ruby>
+[01:14.40]<ruby>あーあ<rt class="roma">aaa</rt></ruby>
 </div>
 <div class="trans-lyric">Ah-ah</div>
 </div>
@@ -146,7 +146,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>手放<rt class="furi">てばな</rt><rt class="roma">tebana</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[01:03.56]<ruby>手放<rt class="furi">てばな</rt><rt class="roma">tebana</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 <div class="trans-lyric">Because I let go</div>
 </div>

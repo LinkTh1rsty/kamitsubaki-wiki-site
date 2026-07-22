@@ -123,7 +123,7 @@ image: /images/songs/koko/single-1687477944.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Until the end
+[01:27.05]Until the end
 </div>
 </div>
 

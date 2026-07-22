@@ -55,9 +55,9 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>ユウウツ<rt class="roma">yuuutsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[00:44.46]<ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>ユウウツ<rt class="roma">yuuutsu</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
-<div class="cn-lyric">有些忧郁</div>
+<div class="cn-lyric">[00:44.46]有些忧郁</div>
 </div>
 
 <div class="lyric-line">

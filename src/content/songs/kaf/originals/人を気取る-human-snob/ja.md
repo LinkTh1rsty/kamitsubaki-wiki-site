@@ -126,13 +126,13 @@ image: /images/albums/kaf/kyoso.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もったいない<rt class="roma">mottainai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃう<rt class="roma">jau</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
+[01:48.15]<ruby>もったいない<rt class="roma">mottainai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃう<rt class="roma">jau</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:52.45]<ruby>どう<rt class="roma">dou</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 

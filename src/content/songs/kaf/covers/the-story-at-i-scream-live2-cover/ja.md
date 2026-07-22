@@ -105,7 +105,7 @@ Never calls me baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-That's the one that I want
+[00:30.70]That's the one that I want
 </div>
 </div>
 
@@ -125,7 +125,7 @@ Can't you see?
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I only want the ones who never see me
+[00:23.07]I only want the ones who never see me
 </div>
 </div>
 
@@ -149,7 +149,7 @@ It bleeds jelly
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Cause you don't want someone to eat your cookie
+[00:48.01]Cause you don't want someone to eat your cookie
 </div>
 </div>
 

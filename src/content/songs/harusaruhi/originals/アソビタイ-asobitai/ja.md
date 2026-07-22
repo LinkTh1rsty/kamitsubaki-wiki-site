@@ -45,7 +45,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>連れ出<rt class="furi">つれだ</rt><rt class="roma">tsureda</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>LINE
+[00:04.60]<ruby>連れ出<rt class="furi">つれだ</rt><rt class="roma">tsureda</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>LINE
 </div>
 </div>
 
@@ -57,7 +57,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>かわいい<rt class="roma">kawaii</rt></ruby><ruby>リップ<rt class="roma">rippu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[00:09.24]<ruby>かわいい<rt class="roma">kawaii</rt></ruby><ruby>リップ<rt class="roma">rippu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
@@ -69,7 +69,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>スキップスキップ<rt class="roma">sukippusukippu</rt></ruby>
+[00:11.87]<ruby>スキップスキップ<rt class="roma">sukippusukippu</rt></ruby>
 </div>
 </div>
 
@@ -87,7 +87,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あー<rt class="roma">aa</rt></ruby><ruby>あー<rt class="roma">aa</rt></ruby>
+[00:17.50]<ruby>あー<rt class="roma">aa</rt></ruby><ruby>あー<rt class="roma">aa</rt></ruby>
 </div>
 </div>
 
@@ -105,7 +105,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なんか<rt class="roma">nanka</rt></ruby>
+[00:21.91]<ruby>なんか<rt class="roma">nanka</rt></ruby>
 </div>
 </div>
 

@@ -41,9 +41,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Nobody like us <ruby>最高<rt class="furi">さいこう</rt><rt class="roma">saikou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby>
+[00:03.33]Nobody like us <ruby>最高<rt class="furi">さいこう</rt><rt class="roma">saikou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby>
 </div>
-<div class="cn-lyric">Nobody like us 最棒的5人组</div>
+<div class="cn-lyric">[00:03.33]Nobody like us 最棒的5人组</div>
 </div>
 
 <div class="lyric-line">
@@ -55,9 +55,9 @@ Nobody like us <ruby>最高<rt class="furi">さいこう</rt><rt class="roma">sa
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Virtual music
+[00:09.18]Virtual music
 </div>
-<div class="cn-lyric">Virtual music</div>
+<div class="cn-lyric">[00:09.18]Virtual music</div>
 </div>
 
 <div class="lyric-line">
@@ -97,44 +97,44 @@ Virtual music
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yeah, we are V.W.P
+[00:24.36]Yeah, we are V.W.P
 </div>
-<div class="cn-lyric">Yeah, we are V.W.P</div>
-<div class="cn-lyric">Yeah, we are V.W.P</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-We are the V.W.P
-</div>
-<div class="cn-lyric">We are the V.W.P</div>
-<div class="cn-lyric">We are the V.W.P</div>
+<div class="cn-lyric">[00:24.36]Yeah, we are V.W.P</div>
+<div class="cn-lyric">[00:24.36]Yeah, we are V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Nobody like us V.W.P
+[00:27.89]We are the V.W.P
 </div>
-<div class="cn-lyric">Nobody like us V.W.P</div>
-<div class="cn-lyric">Nobody like us V.W.P</div>
+<div class="cn-lyric">[00:27.89]We are the V.W.P</div>
+<div class="cn-lyric">[00:27.89]We are the V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>MVP
+[00:30.40]Nobody like us V.W.P
 </div>
-<div class="cn-lyric">这5人组今天也是MVP</div>
-<div class="cn-lyric">这5人组今天也是MVP</div>
-<div class="cn-lyric">这5人组今天也是MVP</div>
+<div class="cn-lyric">[00:30.40]Nobody like us V.W.P</div>
+<div class="cn-lyric">[00:30.40]Nobody like us V.W.P</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:33.23]<ruby>この<rt class="roma">kono</rt></ruby>5<ruby>ピース<rt class="roma">piisu</rt></ruby><ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>MVP
+</div>
+<div class="cn-lyric">[00:33.23]这5人组今天也是MVP</div>
+<div class="cn-lyric">[00:33.23]这5人组今天也是MVP</div>
+<div class="cn-lyric">[00:33.23]这5人组今天也是MVP</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Yeah, we are the V.W.P
+[00:38.72]Yeah, we are the V.W.P
 </div>
-<div class="cn-lyric">Yeah, we are the V.W.P</div>
+<div class="cn-lyric">[00:38.72]Yeah, we are the V.W.P</div>
 </div>
 
 <br />
@@ -190,16 +190,16 @@ Yeah, we are the V.W.P
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それぞれ<rt class="roma">sorezore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>カラー<rt class="roma">karaa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>shine like a
+[01:08.96]<ruby>それぞれ<rt class="roma">sorezore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>カラー<rt class="roma">karaa</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>shine like a
 </div>
-<div class="cn-lyric">各自的颜色 shine like a</div>
+<div class="cn-lyric">[01:08.96]各自的颜色 shine like a</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ダイヤ<rt class="roma">daiya</rt></ruby>
+[01:11.28]<ruby>ダイヤ<rt class="roma">daiya</rt></ruby>
 </div>
-<div class="cn-lyric">钻石</div>
+<div class="cn-lyric">[01:11.28]钻石</div>
 </div>
 
 <div class="lyric-line">
@@ -228,23 +228,23 @@ Nobody like us V.W.P
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Pink, Blue and V.W.P
+[01:24.24]Pink, Blue and V.W.P
 </div>
-<div class="cn-lyric">Pink, Blue and V.W.P</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Red, White, Purple V.W.P
-</div>
-<div class="cn-lyric">Red, White, Purple V.W.P</div>
+<div class="cn-lyric">[01:24.24]Pink, Blue and V.W.P</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It’s my family V.W.P
+[01:27.30]Red, White, Purple V.W.P
 </div>
-<div class="cn-lyric">It’s my family V.W.P</div>
+<div class="cn-lyric">[01:27.30]Red, White, Purple V.W.P</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:30.27]It’s my family V.W.P
+</div>
+<div class="cn-lyric">[01:30.27]It’s my family V.W.P</div>
 </div>
 
 <div class="lyric-line">
@@ -255,9 +255,9 @@ It’s my family V.W.P
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>sisters
+[01:37.10]<ruby>これ<rt class="roma">kore</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>sisters
 </div>
-<div class="cn-lyric">这是我的姐妹们</div>
+<div class="cn-lyric">[01:37.10]这是我的姐妹们</div>
 </div>
 
 <div class="lyric-line">
@@ -269,16 +269,16 @@ It’s my family V.W.P
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>みんな<rt class="roma">minna</rt></ruby>
+[01:43.05]<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>ありがとう<rt class="roma">arigatou</rt></ruby><ruby>みんな<rt class="roma">minna</rt></ruby>
 </div>
-<div class="cn-lyric">一直以来谢谢大家</div>
+<div class="cn-lyric">[01:43.05]一直以来谢谢大家</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>締め括<rt class="furi">しめくく</rt><rt class="roma">shimekuku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby> That’s my peace out!
+[01:45.21]<ruby>締め括<rt class="furi">しめくく</rt><rt class="roma">shimekuku</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby> That’s my peace out!
 </div>
-<div class="cn-lyric">来总结吧 That’s my peace out!</div>
+<div class="cn-lyric">[01:45.21]来总结吧 That’s my peace out!</div>
 </div>
 
 <br />

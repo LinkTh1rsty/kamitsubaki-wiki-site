@@ -111,7 +111,7 @@ You lick it nice
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You shootin' star
+[00:15.03]You shootin' star
 </div>
 </div>
 
@@ -267,7 +267,7 @@ So what?!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Fire on the beach at dawn
+[00:18.38]Fire on the beach at dawn
 </div>
 </div>
 

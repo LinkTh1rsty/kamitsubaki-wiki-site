@@ -34,7 +34,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>脳<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>内<rt class="furi">ない</rt><rt class="roma">nai</rt></ruby><ruby>暗示<rt class="furi">あんじ</rt><rt class="roma">anji</rt></ruby> like a sweet candy
+[00:39.71]<ruby>脳<rt class="furi">のう</rt><rt class="roma">nou</rt></ruby><ruby>内<rt class="furi">ない</rt><rt class="roma">nai</rt></ruby><ruby>暗示<rt class="furi">あんじ</rt><rt class="roma">anji</rt></ruby> like a sweet candy
 </div>
 </div>
 
@@ -46,7 +46,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>生命<rt class="furi">せいめい</rt><rt class="roma">seimei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>猛威<rt class="furi">もうい</rt><rt class="roma">moui</rt></ruby> gimme your candy
+[00:46.84]<ruby>生命<rt class="furi">せいめい</rt><rt class="roma">seimei</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>猛威<rt class="furi">もうい</rt><rt class="roma">moui</rt></ruby> gimme your candy
 </div>
 </div>
 
@@ -58,7 +58,7 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-What do you wanna do, <ruby>重<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>live
+[00:50.16]What do you wanna do, <ruby>重<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>なる<rt class="roma">naru</rt></ruby>live
 </div>
 </div>
 
@@ -96,7 +96,7 @@ There's no lies <ruby>裸<rt class="furi">はだか</rt><rt class="roma">hadaka<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Can you feel <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[01:11.46]Can you feel <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>感情<rt class="furi">かんじょう</rt><rt class="roma">kanjou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
@@ -108,7 +108,7 @@ Can you feel <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>感情<rt cl
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>1, 2, 3, <ruby>ずっと<rt class="roma">zutto</rt></ruby>eyes on me
+[01:18.09]<ruby>キミ<rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>1, 2, 3, <ruby>ずっと<rt class="roma">zutto</rt></ruby>eyes on me
 </div>
 </div>
 
@@ -146,7 +146,7 @@ Close to me <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>深<rt class=
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>全身<rt class="furi">ぜんしん</rt><rt class="roma">zenshin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>歓喜<rt class="furi">かんき</rt><rt class="roma">kanki</rt></ruby> let's start! You and me
+[01:44.17]<ruby>全身<rt class="furi">ぜんしん</rt><rt class="roma">zenshin</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>歓喜<rt class="furi">かんき</rt><rt class="roma">kanki</rt></ruby> let's start! You and me
 </div>
 </div>
 
@@ -172,7 +172,7 @@ Close to me <ruby>もっと<rt class="roma">motto</rt></ruby><ruby>深<rt class=
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You could be mine
+[01:58.01]You could be mine
 </div>
 </div>
 
@@ -192,7 +192,7 @@ You could be mine
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ride on me <ruby>さぁ<rt class="roma">saa</rt></ruby> you're going to be
+[02:06.82]Ride on me <ruby>さぁ<rt class="roma">saa</rt></ruby> you're going to be
 </div>
 </div>
 
@@ -218,7 +218,7 @@ Ride on me <ruby>さぁ<rt class="roma">saa</rt></ruby> you're going to be
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>震<rt class="furi">ふる</rt><rt class="roma">furu</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>生命<rt class="furi">せいめい</rt><rt class="roma">seimei</rt></ruby> and daybreak we stay <ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby> game
+[02:21.60]<ruby>震<rt class="furi">ふる</rt><rt class="roma">furu</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>生命<rt class="furi">せいめい</rt><rt class="roma">seimei</rt></ruby> and daybreak we stay <ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby> game
 </div>
 </div>
 

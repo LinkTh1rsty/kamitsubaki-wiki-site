@@ -67,18 +67,18 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ラブカ<rt class="roma">rabuka</rt></ruby> <ruby>ラララ<rt class="roma">rarara</rt></ruby> <ruby>ラブカ<rt class="roma">rabuka</rt></ruby>
+[00:43.95]<ruby>ラブカ<rt class="roma">rabuka</rt></ruby> <ruby>ラララ<rt class="roma">rarara</rt></ruby> <ruby>ラブカ<rt class="roma">rabuka</rt></ruby>
 </div>
-<div class="cn-lyric">拉布卡 啦啦啦 拉布卡</div>
-<div class="cn-lyric">拉布卡 啦啦啦 拉布卡</div>
+<div class="cn-lyric">[00:43.95]拉布卡 啦啦啦 拉布卡</div>
+<div class="cn-lyric">[00:43.95]拉布卡 啦啦啦 拉布卡</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ラブ<rt class="roma">rabu</rt></ruby> <ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[00:47.52]<ruby>ラブ<rt class="roma">rabu</rt></ruby> <ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
-<div class="cn-lyric">是爱吗？</div>
-<div class="cn-lyric">是爱吗？</div>
+<div class="cn-lyric">[00:47.52]是爱吗？</div>
+<div class="cn-lyric">[00:47.52]是爱吗？</div>
 </div>
 
 <br />
@@ -93,11 +93,11 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>バグ<rt class="roma">bagu</rt></ruby> <ruby>バグ<rt class="roma">bagu</rt></ruby> <ruby>バグ<rt class="roma">bagu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[00:55.18]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>バグ<rt class="roma">bagu</rt></ruby> <ruby>バグ<rt class="roma">bagu</rt></ruby> <ruby>バグ<rt class="roma">bagu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
-<div class="cn-lyric">那是错误 错误 错误吗？</div>
-<div class="cn-lyric">那是错误 错误 错误吗？</div>
-<div class="cn-lyric">那是错误 错误 错误吗？</div>
+<div class="cn-lyric">[00:55.18]那是错误 错误 错误吗？</div>
+<div class="cn-lyric">[00:55.18]那是错误 错误 错误吗？</div>
+<div class="cn-lyric">[00:55.18]那是错误 错误 错误吗？</div>
 </div>
 
 <div class="lyric-line">
@@ -257,27 +257,27 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラブカ<rt class="roma">rabuka</rt></ruby>
+[02:31.11]<ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラブカ<rt class="roma">rabuka</rt></ruby>
 </div>
-<div class="cn-lyric">啦 啦 啦 啦 啦 拉布卡</div>
-<div class="cn-lyric">啦 啦 啦 啦 啦 拉布卡</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-<ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラブカ<rt class="roma">rabuka</rt></ruby>
-</div>
+<div class="cn-lyric">[02:31.11]啦 啦 啦 啦 啦 拉布卡</div>
+<div class="cn-lyric">[02:31.11]啦 啦 啦 啦 啦 拉布卡</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>はい<rt class="roma">hai</rt></ruby> <ruby>お<rt class="roma">o</rt></ruby><ruby>聴<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>いただい<rt class="roma">itadai</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+<ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラブカ<rt class="roma">rabuka</rt></ruby>
 </div>
-<div class="cn-lyric">是的 您刚才听到的是</div>
+</div>
+
+<br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:52.00]<ruby>はい<rt class="roma">hai</rt></ruby> <ruby>お<rt class="roma">o</rt></ruby><ruby>聴<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>いただい<rt class="roma">itadai</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+</div>
+<div class="cn-lyric">[02:52.00]是的 您刚才听到的是</div>
 </div>
 
 <div class="lyric-line">
@@ -317,9 +317,9 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>盛り上<rt class="furi">もりあ</rt><rt class="roma">moria</rt></ruby><ruby>がって<rt class="roma">gatte</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[03:21.14]<ruby>盛り上<rt class="furi">もりあ</rt><rt class="roma">moria</rt></ruby><ruby>がって<rt class="roma">gatte</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
-<div class="cn-lyric">气氛有高涨起来吗？</div>
+<div class="cn-lyric">[03:21.14]气氛有高涨起来吗？</div>
 </div>
 
 <br />
@@ -400,9 +400,9 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それでは<rt class="roma">soredeha</rt></ruby>、<ruby>いき<rt class="roma">iki</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[04:40.47]<ruby>それでは<rt class="roma">soredeha</rt></ruby>、<ruby>いき<rt class="roma">iki</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">那么 要开始了哦</div>
+<div class="cn-lyric">[04:40.47]那么 要开始了哦</div>
 </div>
 
 </div>

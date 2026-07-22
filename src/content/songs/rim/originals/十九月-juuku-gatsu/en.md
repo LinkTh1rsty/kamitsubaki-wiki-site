@@ -33,7 +33,7 @@ image: /images/songs/rim/single-1687478205.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>三月<rt class="furi">さんがつ</rt><rt class="roma">sangatsu</rt></ruby>
+[00:33.20]<ruby>三月<rt class="furi">さんがつ</rt><rt class="roma">sangatsu</rt></ruby>
 </div>
 <div class="trans-lyric">March</div>
 </div>
@@ -63,7 +63,7 @@ image: /images/songs/rim/single-1687478205.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>四月<rt class="furi">しがつ</rt><rt class="roma">shigatsu</rt></ruby>
+[00:41.66]<ruby>四月<rt class="furi">しがつ</rt><rt class="roma">shigatsu</rt></ruby>
 </div>
 <div class="trans-lyric">April</div>
 </div>
@@ -100,7 +100,7 @@ image: /images/songs/rim/single-1687478205.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>五月<rt class="furi">ごがつ</rt><rt class="roma">gogatsu</rt></ruby>
+[00:53.51]<ruby>五月<rt class="furi">ごがつ</rt><rt class="roma">gogatsu</rt></ruby>
 </div>
 <div class="trans-lyric">May</div>
 </div>
@@ -121,14 +121,14 @@ image: /images/songs/rim/single-1687478205.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ちっぽけ<rt class="roma">chippoke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>のち<rt class="roma">nochi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[00:59.53]<ruby>ちっぽけ<rt class="roma">chippoke</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>のち<rt class="roma">nochi</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 <div class="trans-lyric">That we are just insignificant lives</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>みんな<rt class="roma">minna</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>がつい<rt class="roma">gatsui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[01:01.59]<ruby>みんな<rt class="roma">minna</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>がつい<rt class="roma">gatsui</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 <div class="trans-lyric">Everyone realized</div>
 </div>
@@ -137,7 +137,7 @@ image: /images/songs/rim/single-1687478205.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>六月<rt class="furi">ろくがつ</rt><rt class="roma">rokugatsu</rt></ruby>
+[01:03.45]<ruby>六月<rt class="furi">ろくがつ</rt><rt class="roma">rokugatsu</rt></ruby>
 </div>
 <div class="trans-lyric">June</div>
 </div>
@@ -158,7 +158,7 @@ image: /images/songs/rim/single-1687478205.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なんて<rt class="roma">nante</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby> <ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>よかった<rt class="roma">yokatta</rt></ruby>
+[01:08.88]<ruby>なんて<rt class="roma">nante</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby> <ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>よかった<rt class="roma">yokatta</rt></ruby>
 </div>
 <div class="trans-lyric">If that's what I should say, I should have said it</div>
 </div>
@@ -174,7 +174,7 @@ image: /images/songs/rim/single-1687478205.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>七月<rt class="furi">しちがつ</rt><rt class="roma">shichigatsu</rt></ruby>
+[01:15.10]<ruby>七月<rt class="furi">しちがつ</rt><rt class="roma">shichigatsu</rt></ruby>
 </div>
 <div class="trans-lyric">July</div>
 </div>
@@ -188,14 +188,14 @@ image: /images/songs/rim/single-1687478205.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あれ<rt class="roma">are</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>うるさかった<rt class="roma">urusakatta</rt></ruby><ruby>テレビ<rt class="roma">terebi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[01:18.30]<ruby>あれ<rt class="roma">are</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>うるさかった<rt class="roma">urusakatta</rt></ruby><ruby>テレビ<rt class="roma">terebi</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 <div class="trans-lyric">Even the TV that was so noisy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby>
+[01:19.92]SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt><rt class="roma">ugo</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>なった<rt class="roma">natta</rt></ruby>
 </div>
 <div class="trans-lyric">Social media has also stopped working</div>
 </div>
@@ -211,7 +211,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>八月<rt class="furi">はちがつ</rt><rt class="roma">hachigatsu</rt></ruby>
+[01:24.16]<ruby>八月<rt class="furi">はちがつ</rt><rt class="roma">hachigatsu</rt></ruby>
 </div>
 <div class="trans-lyric">August</div>
 </div>
@@ -227,7 +227,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>九月<rt class="furi">くがつ</rt><rt class="roma">kugatsu</rt></ruby>
+[01:58.13]<ruby>九月<rt class="furi">くがつ</rt><rt class="roma">kugatsu</rt></ruby>
 </div>
 <div class="trans-lyric">September</div>
 </div>
@@ -241,7 +241,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>こういう<rt class="roma">kouiu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
+[02:01.40]<ruby>こういう<rt class="roma">kouiu</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>きっと<rt class="roma">kitto</rt></ruby>
 </div>
 <div class="trans-lyric">This kind of thing is surely</div>
 </div>
@@ -262,7 +262,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>やって<rt class="roma">yatte</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
+[02:07.40]<ruby>やって<rt class="roma">yatte</rt></ruby><ruby>いけ<rt class="roma">ike</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>なかった<rt class="roma">nakatta</rt></ruby>
 </div>
 <div class="trans-lyric">I couldn't possibly go on</div>
 </div>
@@ -271,7 +271,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>十月<rt class="furi">じゅうがつ</rt><rt class="roma">juugatsu</rt></ruby>
+[02:09.34]<ruby>十月<rt class="furi">じゅうがつ</rt><rt class="roma">juugatsu</rt></ruby>
 </div>
 <div class="trans-lyric">October</div>
 </div>
@@ -301,7 +301,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>十一月<rt class="furi">じゅういちがつ</rt><rt class="roma">juuichigatsu</rt></ruby>
+[02:17.73]<ruby>十一月<rt class="furi">じゅういちがつ</rt><rt class="roma">juuichigatsu</rt></ruby>
 </div>
 <div class="trans-lyric">November</div>
 </div>
@@ -331,7 +331,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>十二月<rt class="furi">じゅうにがつ</rt><rt class="roma">juunigatsu</rt></ruby>
+[02:25.74]<ruby>十二月<rt class="furi">じゅうにがつ</rt><rt class="roma">juunigatsu</rt></ruby>
 </div>
 <div class="trans-lyric">December</div>
 </div>
@@ -345,7 +345,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>三月<rt class="furi">さんがつ</rt><rt class="roma">sangatsu</rt></ruby>
+[00:33.20]<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>三月<rt class="furi">さんがつ</rt><rt class="roma">sangatsu</rt></ruby>
 </div>
 <div class="trans-lyric">Thirteenth month</div>
 </div>
@@ -361,7 +361,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>四月<rt class="furi">しがつ</rt><rt class="roma">shigatsu</rt></ruby>
+[00:41.66]<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>四月<rt class="furi">しがつ</rt><rt class="roma">shigatsu</rt></ruby>
 </div>
 <div class="trans-lyric">Fourteenth month</div>
 </div>
@@ -375,7 +375,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>五月<rt class="furi">ごがつ</rt><rt class="roma">gogatsu</rt></ruby>
+[00:53.51]<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>五月<rt class="furi">ごがつ</rt><rt class="roma">gogatsu</rt></ruby>
 </div>
 <div class="trans-lyric">Fifteenth month</div>
 </div>
@@ -391,7 +391,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>六月<rt class="furi">ろくがつ</rt><rt class="roma">rokugatsu</rt></ruby>
+[01:03.45]<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>六月<rt class="furi">ろくがつ</rt><rt class="roma">rokugatsu</rt></ruby>
 </div>
 <div class="trans-lyric">Sixteenth month</div>
 </div>
@@ -405,7 +405,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>七月<rt class="furi">しちがつ</rt><rt class="roma">shichigatsu</rt></ruby>
+[01:15.10]<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>七月<rt class="furi">しちがつ</rt><rt class="roma">shichigatsu</rt></ruby>
 </div>
 <div class="trans-lyric">Seventeenth month</div>
 </div>
@@ -421,7 +421,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>八月<rt class="furi">はちがつ</rt><rt class="roma">hachigatsu</rt></ruby>
+[01:24.16]<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>八月<rt class="furi">はちがつ</rt><rt class="roma">hachigatsu</rt></ruby>
 </div>
 <div class="trans-lyric">Eighteenth month</div>
 </div>
@@ -437,7 +437,7 @@ SNS<ruby>も<rt class="roma">mo</rt></ruby> <ruby>動<rt class="furi">うご</rt
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>九月<rt class="furi">くがつ</rt><rt class="roma">kugatsu</rt></ruby>
+[01:58.13]<ruby>十<rt class="furi">じゅう</rt><rt class="roma">juu</rt></ruby><ruby>九月<rt class="furi">くがつ</rt><rt class="roma">kugatsu</rt></ruby>
 </div>
 <div class="trans-lyric">Nineteenth month</div>
 </div>

@@ -59,13 +59,13 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ラブカ<rt class="roma">rabuka</rt></ruby> <ruby>ラララ<rt class="roma">rarara</rt></ruby> <ruby>ラブカ<rt class="roma">rabuka</rt></ruby>
+[00:43.95]<ruby>ラブカ<rt class="roma">rabuka</rt></ruby> <ruby>ラララ<rt class="roma">rarara</rt></ruby> <ruby>ラブカ<rt class="roma">rabuka</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ラブ<rt class="roma">rabu</rt></ruby> <ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[00:47.52]<ruby>ラブ<rt class="roma">rabu</rt></ruby> <ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
@@ -79,7 +79,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>バグ<rt class="roma">bagu</rt></ruby> <ruby>バグ<rt class="roma">bagu</rt></ruby> <ruby>バグ<rt class="roma">bagu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[00:55.18]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>バグ<rt class="roma">bagu</rt></ruby> <ruby>バグ<rt class="roma">bagu</rt></ruby> <ruby>バグ<rt class="roma">bagu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
@@ -227,7 +227,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラブカ<rt class="roma">rabuka</rt></ruby>
+[02:31.11]<ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラ<rt class="roma">ra</rt></ruby> <ruby>ラブカ<rt class="roma">rabuka</rt></ruby>
 </div>
 </div>
 
@@ -243,7 +243,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>はい<rt class="roma">hai</rt></ruby> <ruby>お<rt class="roma">o</rt></ruby><ruby>聴<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>いただい<rt class="roma">itadai</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[02:52.00]<ruby>はい<rt class="roma">hai</rt></ruby> <ruby>お<rt class="roma">o</rt></ruby><ruby>聴<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>いただい<rt class="roma">itadai</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 </div>
 
@@ -279,7 +279,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>盛り上<rt class="furi">もりあ</rt><rt class="roma">moria</rt></ruby><ruby>がって<rt class="roma">gatte</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[03:21.14]<ruby>盛り上<rt class="furi">もりあ</rt><rt class="roma">moria</rt></ruby><ruby>がって<rt class="roma">gatte</rt></ruby><ruby>くれ<rt class="roma">kure</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
@@ -351,7 +351,7 @@ image: /images/albums/isekaijoucho/candy-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それでは<rt class="roma">soredeha</rt></ruby>、<ruby>いき<rt class="roma">iki</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[04:40.47]<ruby>それでは<rt class="roma">soredeha</rt></ruby>、<ruby>いき<rt class="roma">iki</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 

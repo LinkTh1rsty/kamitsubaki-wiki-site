@@ -209,18 +209,18 @@ Every second counts and I can't afford to blink
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh
+[03:02.03]Oh
 </div>
-<div class="cn-lyric">哦</div>
+<div class="cn-lyric">[03:02.03]哦</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Breathe slowly, take your time
+[02:30.61]Breathe slowly, take your time
 </div>
-<div class="cn-lyric">慢慢呼吸，别急</div>
+<div class="cn-lyric">[02:30.61]慢慢呼吸，别急</div>
 </div>
 
 <div class="lyric-line">
@@ -232,9 +232,9 @@ Life's easy, realise
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You're only starting out
+[01:10.69]You're only starting out
 </div>
-<div class="cn-lyric">你才刚刚开始</div>
+<div class="cn-lyric">[01:10.69]你才刚刚开始</div>
 </div>
 
 <div class="lyric-line">
@@ -248,18 +248,18 @@ Just focus, calm down
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Breathe)
+[02:30.61](Breathe)
 </div>
-<div class="cn-lyric">(呼吸)</div>
+<div class="cn-lyric">[02:30.61](呼吸)</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Breathe slowly take your time)
+[02:30.61](Breathe slowly take your time)
 </div>
-<div class="cn-lyric">(慢慢呼吸，别急)</div>
+<div class="cn-lyric">[02:30.61](慢慢呼吸，别急)</div>
 </div>
 
 <div class="lyric-line">
@@ -271,9 +271,9 @@ Just focus, calm down
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(You're only starting out)
+[01:10.69](You're only starting out)
 </div>
-<div class="cn-lyric">(你才刚刚开始)</div>
+<div class="cn-lyric">[01:10.69](你才刚刚开始)</div>
 </div>
 
 <div class="lyric-line">

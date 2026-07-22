@@ -58,7 +58,7 @@ image: /images/songs/kaf/track-1678454359.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hey!
+[00:22.52]Hey!
 </div>
 </div>
 
@@ -136,7 +136,7 @@ Hey!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[01:22.06]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -150,7 +150,7 @@ Hey!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>お似合<rt class="furi">おにあ</rt><rt class="roma">onia</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
+[01:31.69]<ruby>お似合<rt class="furi">おにあ</rt><rt class="roma">onia</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>はず<rt class="roma">hazu</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
 </div>
 

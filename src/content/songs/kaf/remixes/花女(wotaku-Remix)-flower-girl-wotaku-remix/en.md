@@ -144,7 +144,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>？
+[01:05.73]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>もの<rt class="roma">mono</rt></ruby><ruby>価値<rt class="furi">かち</rt><rt class="roma">kachi</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby>？
 </div>
 <div class="trans-lyric">That kind of thing has no value, right?</div>
 </div>
@@ -167,7 +167,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
+[01:12.49]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>
 </div>
 <div class="trans-lyric">That alone is enough</div>
 </div>
@@ -188,7 +188,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まあ<rt class="roma">maa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>とりあえず<rt class="roma">toriaezu</rt></ruby>
+[01:24.29]<ruby>まあ<rt class="roma">maa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>や<rt class="roma">ya</rt></ruby><ruby>とりあえず<rt class="roma">toriaezu</rt></ruby>
 </div>
 <div class="trans-lyric">Well, whatever, for now</div>
 </div>
@@ -248,7 +248,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>え<rt class="roma">e</rt></ruby>？ <ruby>なに<rt class="roma">nani</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
+[02:01.49]<ruby>え<rt class="roma">e</rt></ruby>？ <ruby>なに<rt class="roma">nani</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
 <div class="trans-lyric">Huh? What are you saying?</div>
 </div>
@@ -382,7 +382,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ああ<rt class="roma">aa</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[02:56.05]<ruby>ああ<rt class="roma">aa</rt></ruby><ruby>そう<rt class="roma">sou</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">Ah, I see, there's no such thing as eternity</div>
 </div>
@@ -477,7 +477,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さよなら<rt class="roma">sayonara</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby>
+[03:53.82]<ruby>さよなら<rt class="roma">sayonara</rt></ruby> <ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
 <div class="trans-lyric">Goodbye, goodbye</div>
 </div>
@@ -500,7 +500,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[04:04.26]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 <div class="trans-lyric">That alone is enough</div>
 </div>
@@ -558,7 +558,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>くだらない<rt class="roma">kudaranai</rt></ruby> <ruby>くだらない<rt class="roma">kudaranai</rt></ruby>
+[04:29.20]<ruby>くだらない<rt class="roma">kudaranai</rt></ruby> <ruby>くだらない<rt class="roma">kudaranai</rt></ruby>
 </div>
 <div class="trans-lyric">Trivial, trivial</div>
 </div>
@@ -574,7 +574,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>敵<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>わけ<rt class="roma">wake</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[04:33.26]<ruby>敵<rt class="furi">てき</rt><rt class="roma">teki</rt></ruby><ruby>だって<rt class="roma">datte</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>える<rt class="roma">eru</rt></ruby><ruby>わけ<rt class="roma">wake</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 <div class="trans-lyric">Even enemies don't just vanish</div>
 </div>
@@ -604,7 +604,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>しきたり<rt class="roma">shikitari</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>はいら<rt class="roma">haira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[04:59.65]<ruby>しきたり<rt class="roma">shikitari</rt></ruby><ruby>なんか<rt class="roma">nanka</rt></ruby><ruby>はいら<rt class="roma">haira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 <div class="trans-lyric">I don't need customs or traditions</div>
 </div>
@@ -625,7 +625,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[05:06.87]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">That alone is enough</div>
 </div>

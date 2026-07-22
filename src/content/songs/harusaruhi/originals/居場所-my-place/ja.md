@@ -57,7 +57,7 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>
+[00:33.35]<ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>くらい<rt class="roma">kurai</rt></ruby>
 </div>
 </div>
 
@@ -71,7 +71,7 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>無意識<rt class="furi">むいしき</rt><rt class="roma">muishiki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>求<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> More pain
+[00:38.32]<ruby>無意識<rt class="furi">むいしき</rt><rt class="roma">muishiki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>求<rt class="furi">もと</rt><rt class="roma">moto</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby> More pain
 </div>
 </div>
 
@@ -193,13 +193,13 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>絶対<rt class="furi">ぜったい</rt><rt class="roma">zettai</rt></ruby><ruby>バイバイ<rt class="roma">baibai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> yeah
+[01:39.48]<ruby>絶対<rt class="furi">ぜったい</rt><rt class="roma">zettai</rt></ruby><ruby>バイバイ<rt class="roma">baibai</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> yeah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>、<ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby> yeah-yeah-yeah
+[01:43.18]<ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>、<ruby>前<rt class="furi">まえ</rt><rt class="roma">mae</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby> yeah-yeah-yeah
 </div>
 </div>
 
@@ -257,7 +257,7 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> I don't care!
+[02:27.47]<ruby>今<rt class="furi">いま</rt><rt class="roma">ima</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> I don't care!
 </div>
 </div>
 
@@ -341,13 +341,13 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby> hu-uu
+[03:14.90]<ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby> hu-uu
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby> hu-uh
+[03:23.12]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby> hu-uh
 </div>
 </div>
 
@@ -419,13 +419,13 @@ image: /images/songs/harusaruhi/single-1687474398.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> whoa-whoa
+[04:07.22]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> whoa-whoa
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ほら<rt class="roma">hora</rt></ruby>、<ruby>一緒<rt class="furi">いっしょ</rt><rt class="roma">issho</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> oh
+[04:15.87]<ruby>ほら<rt class="roma">hora</rt></ruby>、<ruby>一緒<rt class="furi">いっしょ</rt><rt class="roma">issho</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>こ<rt class="roma">ko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> oh
 </div>
 </div>
 

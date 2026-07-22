@@ -35,17 +35,17 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ひけらかす<rt class="roma">hikerakasu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[00:08.28]<ruby>ひけらかす<rt class="roma">hikerakasu</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">也不炫耀</div>
+<div class="cn-lyric">[00:08.28]也不炫耀</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
+[00:12.37]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby>
 </div>
-<div class="cn-lyric">只是在那里</div>
-<div class="cn-lyric">只是在那里</div>
+<div class="cn-lyric">[00:12.37]只是在那里</div>
+<div class="cn-lyric">[00:12.37]只是在那里</div>
 </div>
 
 <div class="lyric-line">
@@ -234,9 +234,9 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あまりに<rt class="roma">amarini</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[02:31.49]<ruby>あまりに<rt class="roma">amarini</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
-<div class="cn-lyric">太过于陌生</div>
+<div class="cn-lyric">[02:31.49]太过于陌生</div>
 </div>
 
 <div class="lyric-line">
@@ -248,9 +248,9 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>くすん<rt class="roma">kusun</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[02:44.85]<ruby>くすん<rt class="roma">kusun</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
-<div class="cn-lyric">难道不会变得暗淡吗</div>
+<div class="cn-lyric">[02:44.85]难道不会变得暗淡吗</div>
 </div>
 
 <br />
@@ -346,9 +346,9 @@ image: /images/albums/koko/arare-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>けれど<rt class="roma">keredo</rt></ruby>
+[03:58.14]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>けれど<rt class="roma">keredo</rt></ruby>
 </div>
-<div class="cn-lyric">虽然在此处</div>
+<div class="cn-lyric">[03:58.14]虽然在此处</div>
 </div>
 
 <div class="lyric-line">

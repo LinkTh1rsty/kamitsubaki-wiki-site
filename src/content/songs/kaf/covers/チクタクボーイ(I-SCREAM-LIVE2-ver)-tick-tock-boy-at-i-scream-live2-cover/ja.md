@@ -88,7 +88,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>スイッチ<rt class="roma">suitchi</rt></ruby> <ruby>ピンポン<rt class="roma">pinpon</rt></ruby><ruby>ダッシュ<rt class="roma">dasshu</rt></ruby>
+[00:41.96]<ruby>止<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>める<rt class="roma">meru</rt></ruby><ruby>スイッチ<rt class="roma">suitchi</rt></ruby> <ruby>ピンポン<rt class="roma">pinpon</rt></ruby><ruby>ダッシュ<rt class="roma">dasshu</rt></ruby>
 </div>
 </div>
 
@@ -100,7 +100,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ひっきりなしに<rt class="roma">hikkirinashini</rt></ruby> <ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>こる<rt class="roma">koru</rt></ruby>
+[00:58.16]<ruby>ひっきりなしに<rt class="roma">hikkirinashini</rt></ruby> <ruby>起<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>こる<rt class="roma">koru</rt></ruby>
 </div>
 </div>
 
@@ -172,7 +172,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>チクタクボーイ<rt class="roma">chikutakuboui</rt></ruby> <ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[01:52.06]<ruby>チクタクボーイ<rt class="roma">chikutakuboui</rt></ruby> <ruby>飛<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 </div>
 
@@ -184,7 +184,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby> <ruby>ヒット<rt class="roma">hitto</rt></ruby>&amp;<ruby>ラン<rt class="roma">ran</rt></ruby>
+[01:57.47]<ruby>ハッピーエンド<rt class="roma">happiiendo</rt></ruby> <ruby>ヒット<rt class="roma">hitto</rt></ruby>&amp;<ruby>ラン<rt class="roma">ran</rt></ruby>
 </div>
 </div>
 

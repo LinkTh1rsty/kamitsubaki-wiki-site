@@ -47,7 +47,7 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah, yeah, yeah
+[00:04.31]yeah, yeah, yeah
 </div>
 <div class="trans-lyric">yeah, yeah, yeah</div>
 <div class="trans-lyric">yeah, yeah, yeah</div>
@@ -103,7 +103,7 @@ yeah, yeah, yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Drunk Drunk Drunk Drunk
+[00:21.68]Drunk Drunk Drunk Drunk
 </div>
 <div class="trans-lyric">Drunk Drunk Drunk Drunk</div>
 <div class="trans-lyric">Drunk Drunk Drunk Drunk</div>
@@ -119,14 +119,14 @@ Drunk Drunk Drunk Drunk
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>クラクラクラクラ<rt class="roma">kurakurakurakura</rt></ruby>
+[00:24.22]<ruby>クラクラクラクラ<rt class="roma">kurakurakurakura</rt></ruby>
 </div>
 <div class="trans-lyric">Dizzy dizzy dizzy dizzy</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:26.02]<ruby>みんな<rt class="roma">minna</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">Everyone together</div>
 </div>
@@ -146,7 +146,7 @@ Drunk Drunk Drunk Drunk
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah
+[00:31.79]yeah
 </div>
 <div class="trans-lyric">yeah</div>
 <div class="trans-lyric">yeah</div>
@@ -168,14 +168,14 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>たま<rt class="roma">tama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
+[00:34.82]<ruby>たま<rt class="roma">tama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby>
 </div>
 <div class="trans-lyric">Once in a while it's good</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>けど<rt class="roma">kedo</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[00:36.07]<ruby>けど<rt class="roma">kedo</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">But keep it moderate</div>
 </div>
@@ -195,7 +195,7 @@ Drunk Drunk Drunk Drunk
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Chat Chat Chat Chat
+[00:40.36]Chat Chat Chat Chat
 </div>
 <div class="trans-lyric">Chat Chat Chat Chat</div>
 </div>

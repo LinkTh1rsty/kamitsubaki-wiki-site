@@ -84,7 +84,7 @@ TIME appears on TIME or a related official release. Entries are version-specific
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>学<rt class="furi">まな</rt><rt class="roma">mana</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>やめ<rt class="roma">yame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>falling
+[00:50.24]<ruby>学<rt class="furi">まな</rt><rt class="roma">mana</rt></ruby><ruby>ぶ<rt class="roma">bu</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>やめ<rt class="roma">yame</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>falling
 </div>
 <div class="trans-lyric">Stopped learning, falling</div>
 </div>
@@ -160,7 +160,7 @@ TIME appears on TIME or a related official release. Entries are version-specific
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>ボタン<rt class="roma">botan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:25.28]<ruby>この<rt class="roma">kono</rt></ruby><ruby>ボタン<rt class="roma">botan</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Press this button</div>
 <div class="trans-lyric">Press this button</div>
@@ -202,7 +202,7 @@ TIME appears on TIME or a related official release. Entries are version-specific
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>目眩<rt class="furi">めまい</rt><rt class="roma">memai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>襲<rt class="furi">おそ</rt><rt class="roma">oso</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> falling, falling
+[01:53.46]<ruby>目眩<rt class="furi">めまい</rt><rt class="roma">memai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>襲<rt class="furi">おそ</rt><rt class="roma">oso</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> falling, falling
 </div>
 <div class="trans-lyric">Attacked by dizziness, falling, falling</div>
 </div>
@@ -224,7 +224,7 @@ TIME appears on TIME or a related official release. Entries are version-specific
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ぐちゃぐちゃ<rt class="roma">guchagucha</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>は<rt class="roma">wa</rt></ruby><ruby>ちゃめ<rt class="roma">chame</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[02:03.61]<ruby>ぐちゃぐちゃ<rt class="roma">guchagucha</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>は<rt class="roma">wa</rt></ruby><ruby>ちゃめ<rt class="roma">chame</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 <div class="trans-lyric">Messy and chaotic</div>
 </div>

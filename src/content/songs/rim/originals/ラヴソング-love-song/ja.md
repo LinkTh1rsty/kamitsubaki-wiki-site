@@ -51,7 +51,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>かわいそう<rt class="roma">kawaisou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>さよなら<rt class="roma">sayonara</rt></ruby>
+[00:32.60]<ruby>かわいそう<rt class="roma">kawaisou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
 </div>
 
@@ -103,7 +103,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>どうか<rt class="roma">douka</rt></ruby>、<ruby>どう<rt class="roma">dou</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[01:23.62]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>どうか<rt class="roma">douka</rt></ruby>、<ruby>どう<rt class="roma">dou</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
@@ -143,7 +143,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(But I don't think so)
+[02:04.39](But I don't think so)
 </div>
 </div>
 
@@ -161,7 +161,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(But I don't)
+[02:21.36](But I don't)
 </div>
 </div>
 
@@ -169,7 +169,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-But I don't think so
+[02:15.49]But I don't think so
 </div>
 </div>
 

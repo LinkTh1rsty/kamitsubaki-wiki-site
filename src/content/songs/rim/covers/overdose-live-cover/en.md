@@ -86,14 +86,14 @@ I can feel you now like a virus in my veins
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I want you more and more
+[01:33.85]I want you more and more
 </div>
 <div class="trans-lyric">I want you more and more</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Jesus you're my overdose
+[00:29.43]Jesus you're my overdose
 </div>
 <div class="trans-lyric">Jesus you're my overdose</div>
 </div>

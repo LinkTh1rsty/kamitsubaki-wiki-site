@@ -105,16 +105,16 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どうして<rt class="roma">doushite</rt></ruby> <ruby>どうして<rt class="roma">doushite</rt></ruby> <ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:44.95]<ruby>どうして<rt class="roma">doushite</rt></ruby> <ruby>どうして<rt class="roma">doushite</rt></ruby> <ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">為什麼 為什麼 做不到呢</div>
+<div class="cn-lyric">[00:44.95]為什麼 為什麼 做不到呢</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:49.83]<ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">為什麼為什麼會這樣呢</div>
+<div class="cn-lyric">[00:49.83]為什麼為什麼會這樣呢</div>
 </div>
 
 <br />
@@ -149,9 +149,9 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[01:14.70]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
-<div class="cn-lyric">因為做不到那種事</div>
+<div class="cn-lyric">[01:14.70]因為做不到那種事</div>
 </div>
 
 <div class="lyric-line">
@@ -209,16 +209,16 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>りほどい<rt class="roma">rihodoi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまえ<rt class="roma">shimae</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
+[02:07.86]<ruby>振<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>りほどい<rt class="roma">rihodoi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまえ<rt class="roma">shimae</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>
 </div>
-<div class="cn-lyric">明明甩開就會消失</div>
+<div class="cn-lyric">[02:07.86]明明甩開就會消失</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どうして<rt class="roma">doushite</rt></ruby> <ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:12.83]<ruby>どうして<rt class="roma">doushite</rt></ruby> <ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>でき<rt class="roma">deki</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
-<div class="cn-lyric">為什麼 為什麼做不到呢</div>
+<div class="cn-lyric">[02:12.83]為什麼 為什麼做不到呢</div>
 </div>
 
 <br />

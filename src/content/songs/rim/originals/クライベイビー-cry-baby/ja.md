@@ -65,7 +65,7 @@ image: /images/songs/rim/single-1688347819.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[00:33.15]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>綺麗<rt class="furi">きれい</rt><rt class="roma">kirei</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 
@@ -97,7 +97,7 @@ image: /images/songs/rim/single-1688347819.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>つまらない<rt class="roma">tsumaranai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:56.16]<ruby>つまらない<rt class="roma">tsumaranai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
@@ -213,7 +213,7 @@ image: /images/songs/rim/single-1688347819.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>クライベイビー<rt class="roma">kuraibeibii</rt></ruby>
+[02:48.31]<ruby>クライベイビー<rt class="roma">kuraibeibii</rt></ruby>
 </div>
 </div>
 

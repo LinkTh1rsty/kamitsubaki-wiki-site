@@ -108,7 +108,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[00:44.06]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 <div class="trans-lyric">Because we realized it wouldn't be enough</div>
 </div>
@@ -238,7 +238,7 @@ image: /images/songs/kaf/track-1688514096.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Backwash <ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>ざかる<rt class="roma">zakaru</rt></ruby><ruby>ニルヴァナ<rt class="roma">niruvuana</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[01:55.10]Backwash <ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>ざかる<rt class="roma">zakaru</rt></ruby><ruby>ニルヴァナ<rt class="roma">niruvuana</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">Backwash, to the receding Nirvana</div>
 </div>
@@ -325,7 +325,7 @@ Backwash <ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><r
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>羽<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>ばたい<rt class="roma">batai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みせ<rt class="roma">mise</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[02:34.82]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>羽<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>ばたい<rt class="roma">batai</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>みせ<rt class="roma">mise</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">Just show me how to flap</div>
 </div>

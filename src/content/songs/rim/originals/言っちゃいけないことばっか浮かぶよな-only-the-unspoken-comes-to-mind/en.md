@@ -33,14 +33,14 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby> yeah
+[00:09.44]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby> <ruby>馬鹿<rt class="furi">ばか</rt><rt class="roma">baka</rt></ruby><ruby>みたい<rt class="roma">mitai</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>悪<rt class="furi">わる</rt><rt class="roma">waru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>方<rt class="furi">ほう</rt><rt class="roma">hou</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby> yeah
 </div>
 <div class="trans-lyric">The more I speak, the more I scatter like a fool toward the bad side yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby> <ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
+[00:16.06]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby> <ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
 </div>
 <div class="trans-lyric">Things I want to say, things I can't say</div>
 </div>
@@ -71,7 +71,7 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> yeah
+[00:34.41]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>られ<rt class="roma">rare</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> yeah
 </div>
 <div class="trans-lyric">I want to be liked, I want to be liked, I want to be liked yeah</div>
 </div>
@@ -90,7 +90,7 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby>the end
+[00:46.90]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby>the end
 </div>
 <div class="trans-lyric">If I say such things, it's already the end</div>
 <div class="trans-lyric">If I say such things, it's already the end</div>
@@ -100,7 +100,7 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ちまって<rt class="roma">chimatte</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> yeah
+[00:50.25]<ruby>嫌<rt class="furi">きら</rt><rt class="roma">kira</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ちまって<rt class="roma">chimatte</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby> yeah
 </div>
 <div class="trans-lyric">I end up being hated yeah</div>
 <div class="trans-lyric">I end up being hated yeah</div>
@@ -125,7 +125,7 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> a hold me tight, a hold me tight
+[01:00.87]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> a hold me tight, a hold me tight
 </div>
 <div class="trans-lyric">Love me a hold me tight, a hold me tight</div>
 <div class="trans-lyric">Love me a hold me tight, a hold me tight</div>
@@ -153,7 +153,7 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby>
+[01:12.37]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あなた<rt class="roma">anata</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby>
 </div>
 <div class="trans-lyric">You have to be yourself</div>
 </div>
@@ -162,7 +162,7 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>悪魔<rt class="furi">あくま</rt><rt class="roma">akuma</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ずーっと<rt class="roma">zuutto</rt></ruby>憑<ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:40.88]<ruby>悪魔<rt class="furi">あくま</rt><rt class="roma">akuma</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ずーっと<rt class="roma">zuutto</rt></ruby>憑<ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 <div class="trans-lyric">A demon has been possessing me all along</div>
 </div>
@@ -176,14 +176,14 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>鵜呑<rt class="furi">うの</rt><rt class="roma">uno</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>ずーっと<rt class="roma">zuutto</rt></ruby>
+[01:40.88]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>鵜呑<rt class="furi">うの</rt><rt class="roma">uno</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>ずーっと<rt class="roma">zuutto</rt></ruby>
 </div>
 <div class="trans-lyric">I've been swallowing that whole, all along</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ずっと<rt class="roma">zutto</rt></ruby>
+[01:40.88]<ruby>ずっと<rt class="roma">zutto</rt></ruby>
 </div>
 <div class="trans-lyric">All along</div>
 </div>
@@ -292,7 +292,7 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby>
+[02:39.52]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby>
 </div>
 <div class="trans-lyric">Still, I have to be myself</div>
 </div>
@@ -301,14 +301,14 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>せ<rt class="roma">se</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> yeah
+[03:00.73]<ruby>せ<rt class="roma">se</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> yeah
 </div>
 <div class="trans-lyric">Ready, set yeah</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>はい<rt class="roma">hai</rt></ruby> <ruby>せ<rt class="roma">se</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> yeah
+[03:08.75]<ruby>はい<rt class="roma">hai</rt></ruby> <ruby>せ<rt class="roma">se</rt></ruby><ruby>ー<rt class="roma">-</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> yeah
 </div>
 <div class="trans-lyric">Okay, ready set yeah</div>
 </div>

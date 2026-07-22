@@ -234,9 +234,9 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さよなら<rt class="roma">sayonara</rt></ruby>
+[02:34.44]<ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
-<div class="cn-lyric">再见</div>
+<div class="cn-lyric">[02:34.44]再见</div>
 </div>
 
 <br />

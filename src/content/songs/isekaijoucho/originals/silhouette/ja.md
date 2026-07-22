@@ -131,7 +131,7 @@ When I know you want it
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Silhouette silhouette
+[01:21.38]Silhouette silhouette
 </div>
 </div>
 
@@ -203,7 +203,7 @@ It calls my name
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Do you like the taste
+[01:21.38]Do you like the taste
 </div>
 </div>
 

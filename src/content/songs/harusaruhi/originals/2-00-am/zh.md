@@ -33,9 +33,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah
+[00:15.79]yeah
 </div>
-<div class="cn-lyric">yeah</div>
+<div class="cn-lyric">[00:15.79]yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -96,9 +96,9 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>浮<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>かべ<rt class="roma">kabe</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
+[00:33.44]<ruby>浮<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>かべ<rt class="roma">kabe</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
-<div class="cn-lyric">浮现着</div>
+<div class="cn-lyric">[00:33.44]浮现着</div>
 </div>
 
 <div class="lyric-line">
@@ -117,9 +117,9 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ミュージック<rt class="roma">myuujikku</rt></ruby>
+[00:41.51]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ミュージック<rt class="roma">myuujikku</rt></ruby>
 </div>
-<div class="cn-lyric">喜欢的音乐</div>
+<div class="cn-lyric">[00:41.51]喜欢的音乐</div>
 </div>
 
 <div class="lyric-line">
@@ -138,9 +138,9 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-what?
+[00:48.72]what?
 </div>
-<div class="cn-lyric">what?</div>
+<div class="cn-lyric">[00:48.72]what?</div>
 </div>
 
 <br />

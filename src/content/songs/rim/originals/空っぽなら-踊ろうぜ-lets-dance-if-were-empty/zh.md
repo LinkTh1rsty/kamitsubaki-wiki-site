@@ -207,16 +207,16 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
+[02:45.52]<ruby>嗚呼<rt class="furi">ああ</rt><rt class="roma">aa</rt></ruby> <ruby>ここ<rt class="roma">koko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby>
 </div>
-<div class="cn-lyric">啊啊 已经活到了这里</div>
+<div class="cn-lyric">[02:45.52]啊啊 已经活到了这里</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>どっか<rt class="roma">dokka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:49.76]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>どっか<rt class="roma">dokka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
-<div class="cn-lyric">即便如此在某处</div>
+<div class="cn-lyric">[02:49.76]即便如此在某处</div>
 </div>
 
 <div class="lyric-line">

@@ -45,7 +45,7 @@ image: /images/albums/kaf/maho-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I don't know
+[00:23.76]I don't know
 </div>
 </div>
 
@@ -57,7 +57,7 @@ I don't know
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>スクランブル<rt class="roma">sukuranburu</rt></ruby><ruby>交差点<rt class="furi">こうさてん</rt><rt class="roma">kousaten</rt></ruby>
+[02:58.37]<ruby>スクランブル<rt class="roma">sukuranburu</rt></ruby><ruby>交差点<rt class="furi">こうさてん</rt><rt class="roma">kousaten</rt></ruby>
 </div>
 </div>
 
@@ -103,7 +103,7 @@ I don't know
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Come on! Baby, baby
+[00:51.12]Come on! Baby, baby
 </div>
 </div>
 
@@ -115,7 +115,7 @@ Come on! Baby, baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby> lonely, lonely
+[00:58.05]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby> lonely, lonely
 </div>
 </div>
 
@@ -127,7 +127,7 @@ Come on! Baby, baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> hello! <ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> hello!
+[01:05.68]<ruby>この<rt class="roma">kono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> hello! <ruby>寂<rt class="furi">さび</rt><rt class="roma">sabi</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> hello!
 </div>
 </div>
 
@@ -139,7 +139,7 @@ Come on! Baby, baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>噛み締<rt class="furi">かみし</rt><rt class="roma">kamishi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> irony
+[01:11.00]<ruby>噛み締<rt class="furi">かみし</rt><rt class="roma">kamishi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> irony
 </div>
 </div>
 
@@ -151,7 +151,7 @@ Come on! Baby, baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>？
+[01:17.49]<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>？
 </div>
 </div>
 
@@ -165,7 +165,7 @@ Hey! <ruby>ハチ公<rt class="furi">はちこう</rt><rt class="roma">hachikou<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ネタ<rt class="roma">neta</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>Youtuber
+[01:35.18]<ruby>ネタ<rt class="roma">neta</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>探<rt class="furi">さが</rt><rt class="roma">saga</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>Youtuber
 </div>
 </div>
 
@@ -177,13 +177,13 @@ Hey! <ruby>ハチ公<rt class="furi">はちこう</rt><rt class="roma">hachikou<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>流行<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>fashion <ruby>どー<rt class="roma">dou</rt></ruby><ruby>だい<rt class="roma">dai</rt></ruby>？
+[01:39.83]<ruby>流行<rt class="furi">はや</rt><rt class="roma">haya</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>fashion <ruby>どー<rt class="roma">dou</rt></ruby><ruby>だい<rt class="roma">dai</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>一昔<rt class="furi">ひとむかし</rt><rt class="roma">hitomukashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>見た目<rt class="furi">みため</rt><rt class="roma">mitame</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> don't stop
+[01:41.47]<ruby>一昔<rt class="furi">ひとむかし</rt><rt class="roma">hitomukashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>見た目<rt class="furi">みため</rt><rt class="roma">mitame</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> don't stop
 </div>
 </div>
 
@@ -203,7 +203,7 @@ Hey! <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby> let's go!
+[01:48.46]<ruby>今日<rt class="furi">きょう</rt><rt class="roma">kyou</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>違<rt class="furi">ちが</rt><rt class="roma">chiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby> let's go!
 </div>
 </div>
 
@@ -215,13 +215,13 @@ Hey! <ruby>夢<rt class="furi">ゆめ</rt><rt class="roma">yume</rt></ruby><ruby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby>fashion <ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:53.55]<ruby>その<rt class="roma">sono</rt></ruby>fashion <ruby>知<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Number one <ruby>を<rt class="roma">wo</rt></ruby><ruby>目指<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> kids
+[01:54.96]Number one <ruby>を<rt class="roma">wo</rt></ruby><ruby>目指<rt class="furi">めざ</rt><rt class="roma">meza</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> kids
 </div>
 </div>
 
@@ -277,19 +277,19 @@ Come on! Baby, baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>この<rt class="roma">kono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> my honey
+[02:21.14]<ruby>この<rt class="roma">kono</rt></ruby><ruby>街<rt class="furi">まち</rt><rt class="roma">machi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> my honey
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>妖艶<rt class="furi">ようえん</rt><rt class="roma">youen</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>魅力<rt class="furi">みりょく</rt><rt class="roma">miryoku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> my darling
+[02:22.41]<ruby>妖艶<rt class="furi">ようえん</rt><rt class="roma">youen</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>魅力<rt class="furi">みりょく</rt><rt class="roma">miryoku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> my darling
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>幼<rt class="furi">おさな</rt><rt class="roma">osana</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> hello! <ruby>噛み締<rt class="furi">かみし</rt><rt class="roma">kamishi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> hello!
+[02:24.68]<ruby>幼<rt class="furi">おさな</rt><rt class="roma">osana</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby> hello! <ruby>噛み締<rt class="furi">かみし</rt><rt class="roma">kamishi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> hello!
 </div>
 </div>
 
@@ -315,25 +315,25 @@ Come on! Baby, baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>皆<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>味方<rt class="furi">みかた</rt><rt class="roma">mikata</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>都会<rt class="furi">とかい</rt><rt class="roma">tokai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>gypsies
+[02:44.82]<ruby>皆<rt class="furi">かい</rt><rt class="roma">kai</rt></ruby><ruby>味方<rt class="furi">みかた</rt><rt class="roma">mikata</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>都会<rt class="furi">とかい</rt><rt class="roma">tokai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>gypsies
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>でも<rt class="roma">demo</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>risky
+[02:48.21]<ruby>でも<rt class="roma">demo</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>risky
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>悩<rt class="furi">なや</rt><rt class="roma">naya</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>ぬけ<rt class="roma">nuke</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> only one
+[02:51.79]<ruby>悩<rt class="furi">なや</rt><rt class="roma">naya</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>ぬけ<rt class="roma">nuke</rt></ruby><ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> only one
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby> lonely one
+[02:54.81]<ruby>ただ<rt class="roma">tada</rt></ruby> lonely one
 </div>
 </div>
 
@@ -345,7 +345,7 @@ Come on! Baby, baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>スクランブル<rt class="roma">sukuranburu</rt></ruby>
+[02:58.37]<ruby>スクランブル<rt class="roma">sukuranburu</rt></ruby>
 </div>
 </div>
 
@@ -365,7 +365,7 @@ Come on! Baby, baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ワン<rt class="roma">wan</rt></ruby> <ruby>ツー<rt class="roma">tsuu</rt></ruby> <ruby>スリー<rt class="roma">surii</rt></ruby> <ruby>フォア<rt class="roma">fuoa</rt></ruby>
+[03:19.32]<ruby>ワン<rt class="roma">wan</rt></ruby> <ruby>ツー<rt class="roma">tsuu</rt></ruby> <ruby>スリー<rt class="roma">surii</rt></ruby> <ruby>フォア<rt class="roma">fuoa</rt></ruby>
 </div>
 </div>
 
@@ -407,13 +407,13 @@ Come on! Baby, baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>幼<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>気<rt class="furi">げ</rt><rt class="roma">ge</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>step
+[03:38.49]<ruby>幼<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>気<rt class="furi">げ</rt><rt class="roma">ge</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>step
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>噛み締<rt class="furi">かみし</rt><rt class="roma">kamishi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> hello!
+[03:40.02]<ruby>噛み締<rt class="furi">かみし</rt><rt class="roma">kamishi</rt></ruby><ruby>め<rt class="roma">me</rt></ruby><ruby>て<rt class="roma">te</rt></ruby> hello!
 </div>
 </div>
 
@@ -425,7 +425,7 @@ Come on! Baby, baby
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[03:46.58]<ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>来<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 

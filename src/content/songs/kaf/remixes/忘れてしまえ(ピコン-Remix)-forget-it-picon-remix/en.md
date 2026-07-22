@@ -98,7 +98,7 @@ image: /images/albums/kaf/kansoku-gamma.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-notice notice
+[00:42.34]notice notice
 </div>
 <div class="trans-lyric">notice notice</div>
 <div class="trans-lyric">notice notice</div>
@@ -114,14 +114,14 @@ notice notice
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>タバコ<rt class="roma">tabako</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>サイン<rt class="roma">sain</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:47.64]<ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>タバコ<rt class="roma">tabako</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>明<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>かり<rt class="roma">kari</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>サイン<rt class="roma">sain</rt></ruby><ruby>だった<rt class="roma">datta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 <div class="trans-lyric">The scattered cigarette light was the sign</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-forget forget
+[00:52.64]forget forget
 </div>
 <div class="trans-lyric">forget forget</div>
 <div class="trans-lyric">forget forget</div>
@@ -208,7 +208,7 @@ forget forget
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I believe I believe
+[01:43.74]I believe I believe
 </div>
 <div class="trans-lyric">I believe I believe</div>
 </div>
@@ -272,7 +272,7 @@ forget forget
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:29.64]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>わから<rt class="roma">wakara</rt></ruby><ruby>ぬ<rt class="roma">nu</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">So that only you won't understand</div>
 </div>
@@ -373,7 +373,7 @@ forget forget
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
+[03:24.45]<ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまう<rt class="roma">shimau</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby>
 </div>
 <div class="trans-lyric">Because I end up noticing</div>
 </div>

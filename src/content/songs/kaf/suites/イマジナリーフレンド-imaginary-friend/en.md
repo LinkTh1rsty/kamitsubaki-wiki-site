@@ -35,7 +35,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
+[00:10.83]<ruby>イマジナリーフレンド<rt class="roma">imajinariifurendo</rt></ruby>
 </div>
 <div class="trans-lyric">Imaginary Friend</div>
 <div class="trans-lyric">Imaginary Friend</div>
@@ -50,7 +50,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby>？
+[00:15.52]<ruby>ねえ<rt class="roma">nee</rt></ruby><ruby>どうして<rt class="roma">doushite</rt></ruby>？
 </div>
 <div class="trans-lyric">Hey, why?</div>
 <div class="trans-lyric">Hey, why?</div>
@@ -64,7 +64,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃった<rt class="roma">jatta</rt></ruby>？
+[00:21.23]<ruby>死<rt class="furi">し</rt><rt class="roma">shi</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>じゃった<rt class="roma">jatta</rt></ruby>？
 </div>
 <div class="trans-lyric">Did you die?</div>
 <div class="trans-lyric">Did you die?</div>
@@ -144,7 +144,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby>
+[01:00.96]<ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>じゃん<rt class="roma">jan</rt></ruby>
 </div>
 <div class="trans-lyric">That doesn't exist, right?</div>
 </div>
@@ -198,7 +198,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>わけ<rt class="roma">wake</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:28.45]<ruby>できる<rt class="roma">dekiru</rt></ruby><ruby>わけ<rt class="roma">wake</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>でしょ<rt class="roma">desho</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 <div class="trans-lyric">There's no way I can do them, right?</div>
 </div>
@@ -219,7 +219,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>憂さ晴<rt class="furi">うさば</rt><rt class="roma">usaba</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby>
+[01:36.41]<ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>うさ<rt class="roma">usa</rt></ruby><ruby>ちゃん<rt class="roma">chan</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>憂さ晴<rt class="furi">うさば</rt><rt class="roma">usaba</rt></ruby><ruby>らし<rt class="roma">rashi</rt></ruby>
 </div>
 <div class="trans-lyric">Usa Usa Usa-chan's stress relief</div>
 <div class="trans-lyric">Usa Usa Usa-chan's stress relief</div>
@@ -282,7 +282,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-…<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:59.41]…<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">...Don't disappear</div>
 </div>
@@ -406,7 +406,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>やろ<rt class="roma">yaro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>やめる<rt class="roma">yameru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
+[03:17.26]<ruby>うまく<rt class="roma">umaku</rt></ruby><ruby>やろ<rt class="roma">yaro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>やめる<rt class="roma">yameru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby>
 </div>
 <div class="trans-lyric">Stopping thinking I need to do well</div>
 <div class="trans-lyric">Stopping thinking I need to do well</div>
@@ -433,7 +433,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>お<rt class="roma">o</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>きい<rt class="roma">kii</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[03:23.13]<ruby>お<rt class="roma">o</rt></ruby><ruby>別<rt class="furi">わか</rt><rt class="roma">waka</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>きい<rt class="roma">kii</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">I didn't hear about a goodbye</div>
 <div class="trans-lyric">I didn't hear about a goodbye</div>
@@ -603,7 +603,7 @@ image: /images/songs/kaf/track-1688348617.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>しあわせ<rt class="roma">shiawase</rt></ruby>
+[04:24.58]<ruby>しあわせ<rt class="roma">shiawase</rt></ruby>
 </div>
 <div class="trans-lyric">Happiness</div>
 </div>

@@ -209,7 +209,7 @@ Every second counts and I can't afford to blink
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Oh
+[03:02.03]Oh
 </div>
 <div class="trans-lyric">Oh</div>
 </div>
@@ -218,7 +218,7 @@ Oh
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Breathe slowly, take your time
+[02:30.61]Breathe slowly, take your time
 </div>
 <div class="trans-lyric">Breathe slowly, take your time</div>
 </div>
@@ -232,7 +232,7 @@ Life's easy, realise
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You're only starting out
+[01:10.69]You're only starting out
 </div>
 <div class="trans-lyric">You're only starting out</div>
 </div>
@@ -248,7 +248,7 @@ Just focus, calm down
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Breathe)
+[02:30.61](Breathe)
 </div>
 <div class="trans-lyric">(Breathe)</div>
 </div>
@@ -257,7 +257,7 @@ Just focus, calm down
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Breathe slowly take your time)
+[02:30.61](Breathe slowly take your time)
 </div>
 <div class="trans-lyric">(Breathe slowly take your time)</div>
 </div>
@@ -271,7 +271,7 @@ Just focus, calm down
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(You're only starting out)
+[01:10.69](You're only starting out)
 </div>
 <div class="trans-lyric">(You're only starting out)</div>
 </div>

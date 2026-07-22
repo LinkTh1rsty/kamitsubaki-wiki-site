@@ -31,7 +31,7 @@ image: /images/albums/kaf/i-scream-live-2.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tick tick tack
+[00:09.01]Tick tick tack
 </div>
 <div class="trans-lyric">Tick tick tack</div>
 <div class="trans-lyric">Tick tick tack</div>
@@ -50,28 +50,28 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>チケット<rt class="roma">chiketto</rt></ruby><ruby>行き先<rt class="furi">ゆきさき</rt><rt class="roma">yukisaki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>数<rt class="furi">かず</rt><rt class="roma">kazu</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby>
+[00:18.75]<ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>手<rt class="furi">て</rt><rt class="roma">te</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>チケット<rt class="roma">chiketto</rt></ruby><ruby>行き先<rt class="furi">ゆきさき</rt><rt class="roma">yukisaki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>数<rt class="furi">かず</rt><rt class="roma">kazu</rt></ruby><ruby>ほど<rt class="roma">hodo</rt></ruby>
 </div>
 <div class="trans-lyric">In our hands are tickets, destinations countless as the stars</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>乗り降<rt class="furi">のりお</rt><rt class="roma">norio</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> <ruby>それぞれ<rt class="roma">sorezore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ルート<rt class="roma">ruuto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:25.83]<ruby>乗り降<rt class="furi">のりお</rt><rt class="roma">norio</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> <ruby>それぞれ<rt class="roma">sorezore</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ルート<rt class="roma">ruuto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">We keep boarding and alighting, running on our own routes</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>急上昇<rt class="furi">きゅうじょうしょう</rt><rt class="roma">kyuujoushou</rt></ruby> <ruby>降下<rt class="furi">こうか</rt><rt class="roma">kouka</rt></ruby> <ruby>ハローグッバイ<rt class="roma">harougubbai</rt></ruby> <ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>纏<rt class="furi">まと</rt><rt class="roma">mato</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>移<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ろい<rt class="roma">roi</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
+[00:32.98]<ruby>急上昇<rt class="furi">きゅうじょうしょう</rt><rt class="roma">kyuujoushou</rt></ruby> <ruby>降下<rt class="furi">こうか</rt><rt class="roma">kouka</rt></ruby> <ruby>ハローグッバイ<rt class="roma">harougubbai</rt></ruby> <ruby>身<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>纏<rt class="furi">まと</rt><rt class="roma">mato</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>移<rt class="furi">うつ</rt><rt class="roma">utsu</rt></ruby><ruby>ろい<rt class="roma">roi</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
 <div class="trans-lyric">With sudden climbs and drops, hellos and goodbyes wrapped around us, we shift and change</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-100<ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>後<rt class="furi">ご</rt><rt class="roma">go</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>あった<rt class="roma">atta</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
+[00:40.04]100<ruby>年<rt class="furi">ねん</rt><rt class="roma">nen</rt></ruby><ruby>後<rt class="furi">ご</rt><rt class="roma">go</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>覚<rt class="furi">おぼ</rt><rt class="roma">obo</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>あった<rt class="roma">atta</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
 </div>
 <div class="trans-lyric">I want to remember forever, even 100 years later, the times I laughed with you</div>
 </div>
@@ -80,14 +80,14 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>たま<rt class="roma">tama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>結構<rt class="furi">けっこう</rt><rt class="roma">kekkou</rt></ruby><ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[00:47.79]<ruby>たま<rt class="roma">tama</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>結構<rt class="furi">けっこう</rt><rt class="roma">kekkou</rt></ruby><ruby>間違<rt class="furi">まちが</rt><rt class="roma">machiga</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>時間<rt class="furi">じかん</rt><rt class="roma">jikan</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 <div class="trans-lyric">Sometimes we make quite a few mistakes, but I want to love those times too</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
+[00:54.92]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>物語<rt class="furi">ものがたり</rt><rt class="roma">monogatari</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>描<rt class="furi">えが</rt><rt class="roma">ega</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
 <div class="trans-lyric">You paint your story, I paint mine</div>
 <div class="trans-lyric">You paint your story, I paint mine</div>
@@ -97,14 +97,14 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby> <ruby>きゅっと<rt class="roma">kyutto</rt></ruby><ruby>指切<rt class="furi">ゆびき</rt><rt class="roma">yubiki</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[01:03.24]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby> <ruby>きゅっと<rt class="roma">kyutto</rt></ruby><ruby>指切<rt class="furi">ゆびき</rt><rt class="roma">yubiki</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">Then, with a firm pinky promise</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さめ<rt class="roma">same</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>リズム<rt class="roma">rizumu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[01:05.98]<ruby>さめ<rt class="roma">same</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>リズム<rt class="roma">rizumu</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">To a rhythm that won't fade</div>
 <div class="trans-lyric">To a rhythm that won't fade</div>
@@ -112,7 +112,7 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>かけよ<rt class="roma">kakeyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[01:07.55]<ruby>きっと<rt class="roma">kitto</rt></ruby><ruby>大丈夫<rt class="furi">だいじょうぶ</rt><rt class="roma">daijoubu</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>魔法<rt class="furi">まほう</rt><rt class="roma">mahou</rt></ruby><ruby>かけよ<rt class="roma">kakeyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 <div class="trans-lyric">Let's cast a spell that says 'it'll be okay'</div>
 <div class="trans-lyric">Let's cast a spell that says 'it'll be okay'</div>
@@ -121,7 +121,7 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-TREK TRUNK <ruby>ひとつ<rt class="roma">hitotsu</rt></ruby><ruby>持<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
+[01:11.03]TREK TRUNK <ruby>ひとつ<rt class="roma">hitotsu</rt></ruby><ruby>持<rt class="furi">も</rt><rt class="roma">mo</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby>
 </div>
 <div class="trans-lyric">One TREK TRUNK in hand</div>
 <div class="trans-lyric">One TREK TRUNK in hand</div>
@@ -129,7 +129,7 @@ TREK TRUNK <ruby>ひとつ<rt class="roma">hitotsu</rt></ruby><ruby>持<rt class
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>また<rt class="roma">mata</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby>
+[01:12.93]<ruby>また<rt class="roma">mata</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby> <ruby>約束<rt class="furi">やくそく</rt><rt class="roma">yakusoku</rt></ruby>
 </div>
 <div class="trans-lyric">See you again, a promise</div>
 <div class="trans-lyric">See you again, a promise</div>
@@ -138,7 +138,7 @@ TREK TRUNK <ruby>ひとつ<rt class="roma">hitotsu</rt></ruby><ruby>持<rt class
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>Good luck!
+[01:14.78]<ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>Good luck!
 </div>
 <div class="trans-lyric">The journey isn't over yet, good luck!</div>
 <div class="trans-lyric">The journey isn't over yet, good luck!</div>
@@ -154,14 +154,14 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>片道<rt class="furi">かたみち</rt><rt class="roma">katamichi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>チケット<rt class="roma">chiketto</rt></ruby> <ruby>行き先<rt class="furi">ゆきさき</rt><rt class="roma">yukisaki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>数<rt class="furi">かず</rt><rt class="roma">kazu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ど<rt class="roma">do</rt></ruby>
+[01:31.65]<ruby>片道<rt class="furi">かたみち</rt><rt class="roma">katamichi</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>チケット<rt class="roma">chiketto</rt></ruby> <ruby>行き先<rt class="furi">ゆきさき</rt><rt class="roma">yukisaki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>星<rt class="furi">ほし</rt><rt class="roma">hoshi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>数<rt class="furi">かず</rt><rt class="roma">kazu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ど<rt class="roma">do</rt></ruby>
 </div>
 <div class="trans-lyric">A one-way ticket, destinations as numerous as the stars</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>乗り降<rt class="furi">のりお</rt><rt class="roma">norio</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ルート<rt class="roma">ruuto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[01:38.87]<ruby>乗り降<rt class="furi">のりお</rt><rt class="roma">norio</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>繰り返<rt class="furi">くりかえ</rt><rt class="roma">kurikae</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>ルート<rt class="roma">ruuto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>走<rt class="furi">はし</rt><rt class="roma">hashi</rt></ruby><ruby>る<rt class="roma">ru</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">I keep boarding and alighting, running on my own route</div>
 </div>
@@ -170,14 +170,14 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>まわり道<rt class="furi">まわりみち</rt><rt class="roma">mawarimichi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>未知<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
+[01:46.52]<ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ちょっと<rt class="roma">chotto</rt></ruby><ruby>まわり道<rt class="furi">まわりみち</rt><rt class="roma">mawarimichi</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>未知<rt class="furi">みち</rt><rt class="roma">michi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>世界<rt class="furi">せかい</rt><rt class="roma">sekai</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>み<rt class="roma">mi</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>な<rt class="roma">na</rt></ruby>
 </div>
 <div class="trans-lyric">Sometimes by taking a slight detour, I want to see unknown worlds too</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>地図<rt class="furi">ちず</rt><rt class="roma">chizu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ひろげ<rt class="roma">hiroge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
+[01:53.81]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>僕<rt class="furi">ぼく</rt><rt class="roma">boku</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> <ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>地図<rt class="furi">ちず</rt><rt class="roma">chizu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>ひろげ<rt class="roma">hiroge</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いく<rt class="roma">iku</rt></ruby>
 </div>
 <div class="trans-lyric">You spread your future map, I spread mine</div>
 </div>
@@ -186,7 +186,7 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>きゅっと<rt class="roma">kyutto</rt></ruby><ruby>指切<rt class="furi">ゆびき</rt><rt class="roma">yubiki</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[02:00.91]<ruby>きゅっと<rt class="roma">kyutto</rt></ruby><ruby>指切<rt class="furi">ゆびき</rt><rt class="roma">yubiki</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 <div class="trans-lyric">With a firm pinky promise</div>
 <div class="trans-lyric">With a firm pinky promise</div>
@@ -194,7 +194,7 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>メロディ<rt class="roma">merodei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[02:02.84]<ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>せ<rt class="roma">se</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>メロディ<rt class="roma">merodei</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">To a melody that can't be erased</div>
 </div>
@@ -207,7 +207,7 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-TREK TRUNK <ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>
+[02:08.02]TREK TRUNK <ruby>風<rt class="furi">かぜ</rt><rt class="roma">kaze</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なって<rt class="roma">natte</rt></ruby>
 </div>
 <div class="trans-lyric">TREK TRUNK, become the wind</div>
 </div>
@@ -236,14 +236,14 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>きれ<rt class="roma">kire</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[02:43.57]<ruby>大人<rt class="furi">おとな</rt><rt class="roma">otona</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>なり<rt class="roma">nari</rt></ruby><ruby>きれ<rt class="roma">kire</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 <div class="trans-lyric">We can't quite become adults, can we?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:46.82]<ruby>青<rt class="furi">あお</rt><rt class="roma">ao</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>まま<rt class="roma">mama</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 <div class="trans-lyric">Let's stay young and live on</div>
 </div>
@@ -258,28 +258,28 @@ Tick tick tack
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>たとえ<rt class="roma">tatoe</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[02:59.03]<ruby>たとえ<rt class="roma">tatoe</rt></ruby><ruby>遠<rt class="furi">とお</rt><rt class="roma">too</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>離<rt class="furi">はな</rt><rt class="roma">hana</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 <div class="trans-lyric">Even if we're far apart</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>輝<rt class="furi">かがや</rt><rt class="roma">kagaya</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ふっと<rt class="roma">futto</rt></ruby><ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
+[03:01.58]<ruby>その<rt class="roma">sono</rt></ruby><ruby>輝<rt class="furi">かがや</rt><rt class="roma">kagaya</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ふっと<rt class="roma">futto</rt></ruby><ruby>孤独<rt class="furi">こどく</rt><rt class="roma">kodoku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>痛<rt class="furi">いた</rt><rt class="roma">ita</rt></ruby><ruby>む<rt class="roma">mu</rt></ruby><ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 <div class="trans-lyric">When that brilliance suddenly aches with loneliness</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>浮<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>かべ<rt class="roma">kabe</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[03:06.65]<ruby>そっと<rt class="roma">sotto</rt></ruby><ruby>浮<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>かべ<rt class="roma">kabe</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 <div class="trans-lyric">Gently bring it to mind, okay?</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
+[03:08.59]<ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>想<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby> <ruby>鼓動<rt class="furi">こどう</rt><rt class="roma">kodou</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>ある<rt class="roma">aru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby>
 </div>
 <div class="trans-lyric">That the song thinking of you, the heartbeat, is right here</div>
 </div>
@@ -318,7 +318,7 @@ TREK TRUNK <ruby>ひとつ<rt class="roma">hitotsu</rt></ruby><ruby>持<rt class
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>Good luck! Good luck!
+[03:24.30]<ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>まだ<rt class="roma">mada</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わら<rt class="roma">wara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby>Good luck! Good luck!
 </div>
 <div class="trans-lyric">The journey isn't over yet, good luck! Good luck!</div>
 </div>

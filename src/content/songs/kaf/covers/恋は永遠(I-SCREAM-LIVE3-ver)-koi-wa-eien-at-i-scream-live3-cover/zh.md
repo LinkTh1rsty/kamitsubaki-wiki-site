@@ -571,9 +571,9 @@ image: /images/albums/kaf/i-scream-live-3.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby>
+[00:05.15]<ruby>恋<rt class="furi">こい</rt><rt class="roma">koi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>永遠<rt class="furi">えいえん</rt><rt class="roma">eien</rt></ruby>
 </div>
-<div class="cn-lyric">恋爱是永恒的</div>
+<div class="cn-lyric">[00:05.15]恋爱是永恒的</div>
 </div>
 
 <div class="lyric-line">

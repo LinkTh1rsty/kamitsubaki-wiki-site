@@ -33,9 +33,9 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[00:04.87]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>まで<rt class="roma">made</rt></ruby><ruby>いこ<rt class="roma">iko</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
-<div class="cn-lyric">要去到何处呢</div>
+<div class="cn-lyric">[00:04.87]要去到何处呢</div>
 </div>
 
 <div class="lyric-line">
@@ -63,9 +63,9 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それなら<rt class="roma">sorenara</rt></ruby><ruby>おいで<rt class="roma">oide</rt></ruby>
+[00:26.72]<ruby>それなら<rt class="roma">sorenara</rt></ruby><ruby>おいで<rt class="roma">oide</rt></ruby>
 </div>
-<div class="cn-lyric">那就来吧</div>
+<div class="cn-lyric">[00:26.72]那就来吧</div>
 </div>
 
 <div class="lyric-line">
@@ -108,17 +108,17 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>なん<rt class="roma">nan</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>あげる<rt class="roma">ageru</rt></ruby>
+[00:44.66]<ruby>なん<rt class="roma">nan</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>あげる<rt class="roma">ageru</rt></ruby>
 </div>
-<div class="cn-lyric">什么都可以为你做</div>
-<div class="cn-lyric">什么都可以为你做</div>
+<div class="cn-lyric">[00:44.66]什么都可以为你做</div>
+<div class="cn-lyric">[00:44.66]什么都可以为你做</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:49.43]<ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">听我说</div>
+<div class="cn-lyric">[00:49.43]听我说</div>
 </div>
 
 <br />
@@ -180,9 +180,9 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>ブランコ<rt class="roma">buranko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」
+[01:08.07]「<ruby>ブランコ<rt class="roma">buranko</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>」
 </div>
-<div class="cn-lyric">「在秋千上」</div>
+<div class="cn-lyric">[01:08.07]「在秋千上」</div>
 </div>
 
 <div class="lyric-line">
@@ -203,9 +203,9 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[01:40.41]<ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
-<div class="cn-lyric">想要漫步</div>
+<div class="cn-lyric">[01:40.41]想要漫步</div>
 </div>
 
 <div class="lyric-line">
@@ -217,18 +217,18 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ハイライト<rt class="roma">hairaito</rt></ruby>
+[01:45.54]<ruby>ハイライト<rt class="roma">hairaito</rt></ruby>
 </div>
-<div class="cn-lyric">高光</div>
+<div class="cn-lyric">[01:45.54]高光</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あぁ<rt class="roma">aa</rt></ruby> <ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>暗<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>暗<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
+[02:43.16]<ruby>あぁ<rt class="roma">aa</rt></ruby> <ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>怖<rt class="furi">こわ</rt><rt class="roma">kowa</rt></ruby><ruby>い<rt class="roma">i</rt></ruby> <ruby>暗<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>暗<rt class="furi">くら</rt><rt class="roma">kura</rt></ruby><ruby>い<rt class="roma">i</rt></ruby>
 </div>
-<div class="cn-lyric">啊 好可怕好可怕 好暗好暗</div>
+<div class="cn-lyric">[02:43.16]啊 好可怕好可怕 好暗好暗</div>
 </div>
 
 <div class="lyric-line">
@@ -353,9 +353,9 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>あぁ<rt class="roma">aa</rt></ruby>」
+[02:43.16]「<ruby>あぁ<rt class="roma">aa</rt></ruby>」
 </div>
-<div class="cn-lyric">「啊」</div>
+<div class="cn-lyric">[02:43.16]「啊」</div>
 </div>
 
 <div class="lyric-line">
@@ -374,9 +374,9 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>ドライブ<rt class="roma">doraibu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>」
+[02:45.83]「<ruby>ドライブ<rt class="roma">doraibu</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>」
 </div>
-<div class="cn-lyric">「去兜风」</div>
+<div class="cn-lyric">[02:45.83]「去兜风」</div>
 </div>
 
 <div class="lyric-line">
@@ -388,9 +388,9 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>だって<rt class="roma">datte</rt></ruby>」
+[02:47.75]「<ruby>だって<rt class="roma">datte</rt></ruby>」
 </div>
-<div class="cn-lyric">「因为啊」</div>
+<div class="cn-lyric">[02:47.75]「因为啊」</div>
 </div>
 
 <div class="lyric-line">

@@ -197,9 +197,9 @@ Wagt ein einziger abzuweichen, versuchst du einst frei zu sein
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Orwells 1984, einst ein Schockszenario
+[00:20.92]Orwells 1984, einst ein Schockszenario
 </div>
-<div class="cn-lyric">奥威尔的1984，曾是一个震撼的情景</div>
+<div class="cn-lyric">[00:20.92]奥威尔的1984，曾是一个震撼的情景</div>
 </div>
 
 <div class="lyric-line">

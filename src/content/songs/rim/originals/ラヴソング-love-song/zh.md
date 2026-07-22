@@ -55,9 +55,9 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>かわいそう<rt class="roma">kawaisou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>さよなら<rt class="roma">sayonara</rt></ruby>
+[00:32.60]<ruby>かわいそう<rt class="roma">kawaisou</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>わたし<rt class="roma">watashi</rt></ruby><ruby>さよなら<rt class="roma">sayonara</rt></ruby>
 </div>
-<div class="cn-lyric">可怜的我，再见</div>
+<div class="cn-lyric">[00:32.60]可怜的我，再见</div>
 </div>
 
 <br />
@@ -122,10 +122,10 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>どうか<rt class="roma">douka</rt></ruby>、<ruby>どう<rt class="roma">dou</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[01:23.62]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>どうか<rt class="roma">douka</rt></ruby>、<ruby>どう<rt class="roma">dou</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
-<div class="cn-lyric">所以求求你，求求你</div>
-<div class="cn-lyric">所以求求你，求求你</div>
+<div class="cn-lyric">[01:23.62]所以求求你，求求你</div>
+<div class="cn-lyric">[01:23.62]所以求求你，求求你</div>
 </div>
 
 <div class="lyric-line">
@@ -169,17 +169,11 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(But I don't think so)
+[02:04.39](But I don't think so)
 </div>
-<div class="cn-lyric">(But I don't think so)</div>
-<div class="cn-lyric">(But I don't think so)</div>
-<div class="cn-lyric">(But I don't think so)</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-(But I don't think so)
-</div>
+<div class="cn-lyric">[02:04.39](But I don't think so)</div>
+<div class="cn-lyric">[02:04.39](But I don't think so)</div>
+<div class="cn-lyric">[02:04.39](But I don't think so)</div>
 </div>
 
 <div class="lyric-line">
@@ -190,18 +184,24 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(But I don't)
+(But I don't think so)
 </div>
-<div class="cn-lyric">(But I don't)</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[02:21.36](But I don't)
+</div>
+<div class="cn-lyric">[02:21.36](But I don't)</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-But I don't think so
+[02:15.49]But I don't think so
 </div>
-<div class="cn-lyric">But I don't think so</div>
+<div class="cn-lyric">[02:15.49]But I don't think so</div>
 </div>
 
 <br />

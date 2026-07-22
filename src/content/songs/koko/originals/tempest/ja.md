@@ -33,29 +33,35 @@ image: /images/songs/koko/single-1800618742.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Bruised but forgiven
+[00:19.50]Bruised but forgiven
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You talk like the world is against you
+[00:22.85]You talk like the world is against you
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-You pull yourself to pieces
+[00:27.75]You pull yourself to pieces
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-But I'm never getting over you
+[00:32.36]But I'm never getting over you
 </div>
 </div>
 
 <br />
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:42.55]Give it some thought before you fall
+</div>
+</div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
@@ -63,9 +69,29 @@ Give it some thought before you fall
 </div>
 </div>
 
+<br />
+
 <div class="lyric-line">
 <div class="jp-lyric">
-Give it some thought before you fall
+[00:59.92]I was fading out
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:02.42]Like a whisper in the wind
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:06.83]Wishing I was someone else, somewhere new
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[01:11.58]Sailing away with you
 </div>
 </div>
 
@@ -73,51 +99,25 @@ Give it some thought before you fall
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I was fading out
+[01:16.73]I won't turn away
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Like a whisper in the wind
+[01:21.80]As you sail away from the shore
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Wishing I was someone else, somewhere new
+[01:26.72]I'm a castaway
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Sailing away with you
-</div>
-</div>
-
-<br />
-
-<div class="lyric-line">
-<div class="jp-lyric">
-I won't turn away
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-As you sail away from the shore
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-I'm a castaway
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-But I was dead and buried long before
+[01:31.43]But I was dead and buried long before
 </div>
 </div>
 

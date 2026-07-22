@@ -34,7 +34,7 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>昨日<rt class="furi">きのう</rt><rt class="roma">kinou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>、<ruby>駅前<rt class="furi">えきまえ</rt><rt class="roma">ekimae</rt></ruby>TSUTAYA<ruby>さん<rt class="roma">san</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:16.16]<ruby>昨日<rt class="furi">きのう</rt><rt class="roma">kinou</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>夜<rt class="furi">よる</rt><rt class="roma">yoru</rt></ruby>、<ruby>駅前<rt class="furi">えきまえ</rt><rt class="roma">ekimae</rt></ruby>TSUTAYA<ruby>さん<rt class="roma">san</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
@@ -46,19 +46,19 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>セックスピストルズ<rt class="roma">sekkusupisutoruzu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>借<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[00:24.30]<ruby>セックスピストルズ<rt class="roma">sekkusupisutoruzu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>借<rt class="furi">か</rt><rt class="roma">ka</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>ロックンロール<rt class="roma">rokkunrouru</rt></ruby>」<ruby>という<rt class="roma">toiu</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:26.17]「<ruby>ロックンロール<rt class="roma">rokkunrouru</rt></ruby>」<ruby>という<rt class="roma">toiu</rt></ruby><ruby>やつ<rt class="roma">yatsu</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>しかし<rt class="roma">shikashi</rt></ruby>、
+[00:28.19]<ruby>しかし<rt class="roma">shikashi</rt></ruby>、
 </div>
 </div>
 
@@ -70,19 +70,19 @@ image: /images/albums/kaf/i-scream-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-do da
+[00:33.85]do da
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-turatura
+[00:38.74]turatura
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-oh yeah! yeah! yeah!
+[00:41.10]oh yeah! yeah! yeah!
 </div>
 </div>
 
@@ -100,7 +100,7 @@ oh yeah! yeah! yeah!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>セックスピストルズ<rt class="roma">sekkusupisutoruzu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[00:52.58]<ruby>セックスピストルズ<rt class="roma">sekkusupisutoruzu</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
@@ -112,7 +112,7 @@ oh yeah! yeah! yeah!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-MD<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>イヤ<rt class="roma">iya</rt></ruby><ruby>ホン<rt class="roma">hon</rt></ruby><ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
+[00:56.16]MD<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>、<ruby>イヤ<rt class="roma">iya</rt></ruby><ruby>ホン<rt class="roma">hon</rt></ruby><ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby>
 </div>
 </div>
 
@@ -124,25 +124,25 @@ MD<ruby>取<rt class="furi">と</rt><rt class="roma">to</rt></ruby><ruby>って<
 
 <div class="lyric-line">
 <div class="jp-lyric">
-do da doda
+[01:02.14]do da doda
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-tura tura
+[01:06.93]tura tura
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-oh yeah! yeah!
+[01:09.21]oh yeah! yeah!
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah!
+[01:11.63]yeah!
 </div>
 </div>
 
@@ -186,13 +186,13 @@ yeah!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もっと<rt class="roma">motto</rt></ruby>、<ruby>もっと<rt class="roma">motto</rt></ruby>、<ruby>もっと<rt class="roma">motto</rt></ruby>、<ruby>もっと<rt class="roma">motto</rt></ruby>、
+[02:04.52]<ruby>もっと<rt class="roma">motto</rt></ruby>、<ruby>もっと<rt class="roma">motto</rt></ruby>、<ruby>もっと<rt class="roma">motto</rt></ruby>、<ruby>もっと<rt class="roma">motto</rt></ruby>、
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>くれよ<rt class="roma">kureyo</rt></ruby>!
+[02:08.01]<ruby>くれよ<rt class="roma">kureyo</rt></ruby>!
 </div>
 </div>
 
@@ -222,7 +222,7 @@ yeah!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>だから<rt class="roma">dakara</rt></ruby>
+[02:36.86]<ruby>だから<rt class="roma">dakara</rt></ruby>
 </div>
 </div>
 
@@ -252,7 +252,7 @@ yeah!
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ロックンロール<rt class="roma">rokkunrouru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>いっ<rt class="roma">i</rt></ruby>
+[03:02.69]<ruby>ロックンロール<rt class="roma">rokkunrouru</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>鳴<rt class="furi">な</rt><rt class="roma">na</rt></ruby><ruby>り<rt class="roma">ri</rt></ruby><ruby>止<rt class="furi">や</rt><rt class="roma">ya</rt></ruby><ruby>ま<rt class="roma">ma</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>いっ<rt class="roma">i</rt></ruby>
 </div>
 </div>
 

@@ -60,7 +60,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[00:15.91]<ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ゆく<rt class="roma">yuku</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
 <div class="trans-lyric">Only to fade away</div>
 <div class="trans-lyric">Only to fade away</div>
@@ -68,7 +68,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[00:19.62]<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>歩<rt class="furi">ある</rt><rt class="roma">aru</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 <div class="trans-lyric">I walked on and on</div>
 </div>
@@ -103,7 +103,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
+[00:41.45]<ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>君<rt class="furi">きみ</rt><rt class="roma">kimi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
 <div class="trans-lyric">You said we don't need them</div>
 </div>
@@ -152,7 +152,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまお<rt class="roma">shimao</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[01:14.71]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>から<rt class="roma">kara</rt></ruby><ruby>落<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>しまお<rt class="roma">shimao</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 <div class="trans-lyric">Should I fall from here?</div>
 </div>
@@ -236,7 +236,7 @@ image: /images/albums/kaf/kyoso.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> (<ruby>アンテナ<rt class="roma">antena</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>)
+[02:13.52]<ruby>ここ<rt class="roma">koko</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby> (<ruby>アンテナ<rt class="roma">antena</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>触<rt class="furi">ふ</rt><rt class="roma">fu</rt></ruby><ruby>れる<rt class="roma">reru</rt></ruby>)
 </div>
 <div class="trans-lyric">This isn't the place anymore (touching the antenna)</div>
 </div>

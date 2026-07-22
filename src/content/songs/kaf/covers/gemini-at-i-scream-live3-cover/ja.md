@@ -67,7 +67,7 @@ Things I do that I don't plan to change
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Going down paths that I shouldn't take
+[03:29.25]Going down paths that I shouldn't take
 </div>
 </div>
 
@@ -97,7 +97,7 @@ No, I know that you got a second face, oh no
 
 <div class="lyric-line">
 <div class="jp-lyric">
-No, I won't let you kill my high
+[03:29.25]No, I won't let you kill my high
 </div>
 </div>
 
@@ -121,7 +121,7 @@ Come on girl, you make me hot
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I don't want it to stop
+[03:29.25]I don't want it to stop
 </div>
 </div>
 

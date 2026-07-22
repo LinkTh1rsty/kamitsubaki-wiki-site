@@ -164,9 +164,9 @@ image: /images/albums/kaf/i-scream-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>平和<rt class="furi">へいわ</rt><rt class="roma">heiwa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby>
+[04:28.95]<ruby>平和<rt class="furi">へいわ</rt><rt class="roma">heiwa</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>空<rt class="furi">そら</rt><rt class="roma">sora</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>色<rt class="furi">しょく</rt><rt class="roma">shoku</rt></ruby> <ruby>明日<rt class="furi">あした</rt><rt class="roma">ashita</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>未来<rt class="furi">みらい</rt><rt class="roma">mirai</rt></ruby><ruby>かも<rt class="roma">kamo</rt></ruby>
 </div>
-<div class="cn-lyric">和平的天空是什么颜色？也许是明天，也许是遥远的未来</div>
+<div class="cn-lyric">[04:28.95]和平的天空是什么颜色？也许是明天，也许是遥远的未来</div>
 </div>
 
 <br />

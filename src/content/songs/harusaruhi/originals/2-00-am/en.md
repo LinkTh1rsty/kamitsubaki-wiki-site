@@ -33,7 +33,7 @@ AM 2:00 appears on SPICE OF LIFE or a related official release. Entries are vers
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah
+[00:15.79]yeah
 </div>
 <div class="trans-lyric">yeah</div>
 </div>
@@ -96,7 +96,7 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>浮<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>かべ<rt class="roma">kabe</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
+[00:33.44]<ruby>浮<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>かべ<rt class="roma">kabe</rt></ruby><ruby>てる<rt class="roma">teru</rt></ruby>
 </div>
 <div class="trans-lyric">Floats up</div>
 </div>
@@ -117,7 +117,7 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ミュージック<rt class="roma">myuujikku</rt></ruby>
+[00:41.51]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>ミュージック<rt class="roma">myuujikku</rt></ruby>
 </div>
 <div class="trans-lyric">Favorite music</div>
 </div>
@@ -138,7 +138,7 @@ yeah
 
 <div class="lyric-line">
 <div class="jp-lyric">
-what?
+[00:48.72]what?
 </div>
 <div class="trans-lyric">what?</div>
 </div>

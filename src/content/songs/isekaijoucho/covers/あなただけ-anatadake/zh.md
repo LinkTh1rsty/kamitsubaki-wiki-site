@@ -57,9 +57,9 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
+[00:02.64]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby>
 </div>
-<div class="cn-lyric">只有你</div>
+<div class="cn-lyric">[00:02.64]只有你</div>
 </div>
 
 <div class="lyric-line">
@@ -252,9 +252,9 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ら<rt class="roma">ra</rt></ruby>
+[02:25.72]<ruby>ら<rt class="roma">ra</rt></ruby>
 </div>
-<div class="cn-lyric">若</div>
+<div class="cn-lyric">[02:25.72]若</div>
 </div>
 
 <div class="lyric-line">
@@ -308,9 +308,9 @@ image: /images/albums/isekaijoucho/candy-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
+[03:38.35]<ruby>愛<rt class="furi">あい</rt><rt class="roma">ai</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby>
 </div>
-<div class="cn-lyric">我爱你啊</div>
+<div class="cn-lyric">[03:38.35]我爱你啊</div>
 </div>
 
 <div class="lyric-line">

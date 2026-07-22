@@ -34,7 +34,7 @@ image: /images/songs/kaf/track-1687478190.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Beyond meta, meta
+[00:00.35]Beyond meta, meta
 </div>
 </div>
 
@@ -48,7 +48,7 @@ Beyond meta, meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ヘッド<rt class="roma">heddo</rt></ruby><ruby>セット<rt class="roma">setto</rt></ruby><ruby>着<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:16.87]<ruby>ヘッド<rt class="roma">heddo</rt></ruby><ruby>セット<rt class="roma">setto</rt></ruby><ruby>着<rt class="furi">つ</rt><rt class="roma">tsu</rt></ruby><ruby>け<rt class="roma">ke</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 
@@ -60,7 +60,7 @@ Beyond meta, meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>デート<rt class="roma">deeto</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
+[00:24.01]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>デート<rt class="roma">deeto</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby>
 </div>
 </div>
 
@@ -80,13 +80,13 @@ Beyond meta, meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>裸<rt class="furi">はだか</rt><rt class="roma">hadaka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> Heart <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[00:35.46]<ruby>裸<rt class="furi">はだか</rt><rt class="roma">hadaka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> Heart <ruby>見<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Everywhere <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[00:39.22]Everywhere <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>感<rt class="furi">かん</rt><rt class="roma">kan</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
@@ -94,13 +94,13 @@ Everywhere <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> I wanna see ya, ya, ya, ya
+[00:46.52]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> I wanna see ya, ya, ya, ya
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> I gotta be with ya, ya, ya, ya
+[00:50.33]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> I gotta be with ya, ya, ya, ya
 </div>
 </div>
 
@@ -112,25 +112,25 @@ Everywhere <ruby>あなた<rt class="roma">anata</rt></ruby><ruby>を<rt class="
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Let's go beyond, yeah
+[00:57.57]Let's go beyond, yeah
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Let's go beyond meta
+[00:59.32]Let's go beyond meta
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>着<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> All for you, ya, ya, ya, ya
+[01:01.43]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>着<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> All for you, ya, ya, ya, ya
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> Thinking about you, ya, ya, ya, ya
+[01:05.33]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> Thinking about you, ya, ya, ya, ya
 </div>
 </div>
 
@@ -182,7 +182,7 @@ Beyond meta, meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's you, it's you, you
+[01:50.68]It's you, it's you, you
 </div>
 </div>
 
@@ -196,7 +196,7 @@ It's you, it's you, you
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>裸<rt class="furi">はだか</rt><rt class="roma">hadaka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> Heart <ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえ<rt class="roma">koe</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
+[01:56.73]<ruby>裸<rt class="furi">はだか</rt><rt class="roma">hadaka</rt></ruby><ruby>の<rt class="roma">no</rt></ruby> Heart <ruby>聞<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>こえ<rt class="roma">koe</rt></ruby><ruby>ます<rt class="roma">masu</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>？
 </div>
 </div>
 
@@ -208,7 +208,7 @@ It's you, it's you, you
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[02:03.06]<ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>ずっと<rt class="roma">zutto</rt></ruby><ruby>居<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 </div>
 
@@ -216,7 +216,7 @@ It's you, it's you, you
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> Come on and see me, ya, ya, ya, ya
+[02:08.16]<ruby>どこ<rt class="roma">doko</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby> Come on and see me, ya, ya, ya, ya
 </div>
 </div>
 
@@ -246,13 +246,13 @@ Let's go beyond meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>着<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> You feel me, ya, ya, ya, ya
+[02:22.71]<ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>着<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> You feel me, ya, ya, ya, ya
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> ya, ya, ya, ya
+[02:26.46]<ruby>誰<rt class="furi">だれ</rt><rt class="roma">dare</rt></ruby><ruby>より<rt class="roma">yori</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>近<rt class="furi">ちか</rt><rt class="roma">chika</rt></ruby><ruby>く<rt class="roma">ku</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby> ya, ya, ya, ya
 </div>
 </div>
 
@@ -296,19 +296,19 @@ Let's go beyond meta
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm falling down, down
+[02:48.38]I'm falling down, down
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I'm falling down
+[02:50.37]I'm falling down
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Down in love with you
+[02:52.19]Down in love with you
 </div>
 </div>
 

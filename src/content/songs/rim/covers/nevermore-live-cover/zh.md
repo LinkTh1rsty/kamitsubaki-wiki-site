@@ -68,9 +68,9 @@ I can hear the rustling ofthe skirt you wore
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I whisper Nevermore
+[00:01.89]I whisper Nevermore
 </div>
-<div class="cn-lyric">我低语 永不复还</div>
+<div class="cn-lyric">[00:01.89]我低语 永不复还</div>
 </div>
 
 <br />
@@ -98,9 +98,9 @@ They're all undressed again
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I-ah walk through the pouring rain
+[01:33.92]I-ah walk through the pouring rain
 </div>
-<div class="cn-lyric">我啊 行走在倾盆大雨中</div>
+<div class="cn-lyric">[01:33.92]我啊 行走在倾盆大雨中</div>
 </div>
 
 <div class="lyric-line">
@@ -115,41 +115,41 @@ I walk the hills alone again
 
 <div class="lyric-line">
 <div class="jp-lyric">
-They say Nevermore but I ah ah
+[00:01.89]They say Nevermore but I ah ah
 </div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-<div class="cn-lyric">他们说永不复还 但我啊 啊</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-They say Nevermore but I ah ah
-</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我啊 啊</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-They say Nevermore but I'm not sure
+They say Nevermore but I ah ah
 </div>
-<div class="cn-lyric">他们说永不复还 但我不确定</div>
-<div class="cn-lyric">他们说永不复还 但我不确定</div>
-<div class="cn-lyric">他们说永不复还 但我不确定</div>
-<div class="cn-lyric">他们说永不复还 但我不确定</div>
-<div class="cn-lyric">他们说永不复还 但我不确定</div>
-<div class="cn-lyric">他们说永不复还 但我不确定</div>
-<div class="cn-lyric">他们说永不复还 但我不确定</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:01.89]They say Nevermore but I'm not sure
+</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我不确定</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我不确定</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我不确定</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我不确定</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我不确定</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我不确定</div>
+<div class="cn-lyric">[00:01.89]他们说永不复还 但我不确定</div>
 </div>
 
 <div class="lyric-line">

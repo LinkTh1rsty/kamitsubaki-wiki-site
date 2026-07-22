@@ -33,7 +33,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby> <ruby>あぁ<rt class="roma">aa</rt></ruby> <ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby>
+[00:15.79]<ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby> <ruby>あぁ<rt class="roma">aa</rt></ruby> <ruby>食<rt class="furi">た</rt><rt class="roma">ta</rt></ruby><ruby>べ<rt class="roma">be</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby>
 </div>
 <div class="trans-lyric">I have to eat, ah, I have to eat</div>
 </div>
@@ -47,7 +47,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いか<rt class="roma">ika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>いか<rt class="roma">ika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>？
+[00:23.65]<ruby>いか<rt class="roma">ika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>ねぇ<rt class="roma">nee</rt></ruby><ruby>いか<rt class="roma">ika</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>？
 </div>
 <div class="trans-lyric">Don't go, hey, don't go?</div>
 </div>
@@ -63,14 +63,14 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>アイ<rt class="roma">ai</rt></ruby> <ruby>アイ<rt class="roma">ai</rt></ruby> <ruby>アイラブユー<rt class="roma">airabuyuu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
+[00:31.31]<ruby>アイ<rt class="roma">ai</rt></ruby> <ruby>アイ<rt class="roma">ai</rt></ruby> <ruby>アイラブユー<rt class="roma">airabuyuu</rt></ruby><ruby>と<rt class="roma">to</rt></ruby>
 </div>
 <div class="trans-lyric">I, I, I love you and</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>アイ<rt class="roma">ai</rt></ruby> <ruby>アイ<rt class="roma">ai</rt></ruby> <ruby>アイヘイチュー<rt class="roma">aiheichuu</rt></ruby>
+[00:35.46]<ruby>アイ<rt class="roma">ai</rt></ruby> <ruby>アイ<rt class="roma">ai</rt></ruby> <ruby>アイヘイチュー<rt class="roma">aiheichuu</rt></ruby>
 </div>
 <div class="trans-lyric">I, I, I hate you</div>
 </div>
@@ -86,7 +86,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[00:47.18]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 <div class="trans-lyric">Unsatisfied, unsatisfied</div>
 <div class="trans-lyric">Unsatisfied, unsatisfied</div>
@@ -94,7 +94,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>フィーリング<rt class="roma">fyiiringu</rt></ruby>
+[00:51.06]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby> <ruby>フィーリング<rt class="roma">fyiiringu</rt></ruby>
 </div>
 <div class="trans-lyric">What's unsatisfied is the feeling</div>
 </div>
@@ -118,7 +118,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby>
+[01:10.39]<ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby> <ruby>もう<rt class="roma">mou</rt></ruby><ruby>吐<rt class="furi">は</rt><rt class="roma">ha</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>ちゃ<rt class="roma">cha</rt></ruby>
 </div>
 <div class="trans-lyric">I have to throw up, I have to throw up already</div>
 </div>
@@ -155,7 +155,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>すべて<rt class="roma">subete</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>」
+[01:34.15]「<ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>すべて<rt class="roma">subete</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>あの<rt class="roma">ano</rt></ruby><ruby>子<rt class="furi">こ</rt><rt class="roma">ko</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>のに<rt class="roma">noni</rt></ruby>」
 </div>
 <div class="trans-lyric">I wish all of me were that girl</div>
 </div>
@@ -170,7 +170,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>フィーリング<rt class="roma">fyiiringu</rt></ruby>
+[01:45.63]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>フィーリング<rt class="roma">fyiiringu</rt></ruby>
 </div>
 <div class="trans-lyric">What's unsatisfied is the feeling</div>
 </div>
@@ -193,7 +193,7 @@ image: /images/albums/rim/new-romancer.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
+[02:12.89]<ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby> <ruby>満<rt class="furi">み</rt><rt class="roma">mi</rt></ruby><ruby>たさ<rt class="roma">tasa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby>
 </div>
 <div class="trans-lyric">I want to be fulfilled, I want to be fulfilled</div>
 </div>

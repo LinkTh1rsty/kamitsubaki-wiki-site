@@ -112,14 +112,14 @@ image: /images/songs/kaf/track-1688670244.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ごめん<rt class="roma">gomen</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
+[00:40.82]<ruby>こんな<rt class="roma">konna</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ごめん<rt class="roma">gomen</rt></ruby><ruby>ね<rt class="roma">ne</rt></ruby>
 </div>
 <div class="trans-lyric">Sorry for being like this</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>お通夜<rt class="furi">おつや</rt><rt class="roma">otsuya</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>なぁ<rt class="roma">naa</rt></ruby>
+[00:43.03]<ruby>お通夜<rt class="furi">おつや</rt><rt class="roma">otsuya</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>会<rt class="furi">あ</rt><rt class="roma">a</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>なぁ<rt class="roma">naa</rt></ruby>
 </div>
 <div class="trans-lyric">I hope we can meet at the wake</div>
 </div>
@@ -205,7 +205,7 @@ image: /images/songs/kaf/track-1688670244.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
+[01:38.29]<ruby>さよなら<rt class="roma">sayonara</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>
 </div>
 <div class="trans-lyric">It's not goodbye, you know</div>
 </div>

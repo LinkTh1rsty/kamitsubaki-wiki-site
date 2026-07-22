@@ -146,7 +146,7 @@ harmony appears on harmony or a related official release. Entries are version-sp
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Until the end
+[01:27.05]Until the end
 </div>
 <div class="trans-lyric">Until the end</div>
 <div class="trans-lyric">Until the end</div>

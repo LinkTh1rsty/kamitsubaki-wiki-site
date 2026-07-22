@@ -191,7 +191,7 @@ image: /images/albums/kaf/guwa.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>テレビ<rt class="roma">terebi</rt></ruby><ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[00:25.78]<ruby>テレビ<rt class="roma">terebi</rt></ruby><ruby>消<rt class="furi">け</rt><rt class="roma">ke</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
 </div>
 

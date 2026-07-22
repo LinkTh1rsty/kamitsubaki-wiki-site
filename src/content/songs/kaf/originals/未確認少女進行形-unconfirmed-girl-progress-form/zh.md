@@ -43,9 +43,9 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>マジョリティ<rt class="roma">majoritei</rt></ruby>
+[00:15.50]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>散<rt class="furi">ち</rt><rt class="roma">chi</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>マジョリティ<rt class="roma">majoritei</rt></ruby>
 </div>
-<div class="cn-lyric">已无处可散的多数派</div>
+<div class="cn-lyric">[00:15.50]已无处可散的多数派</div>
 </div>
 
 <div class="lyric-line">
@@ -57,18 +57,18 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:25.49]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>どこ<rt class="roma">doko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
-<div class="cn-lyric">请别再离去</div>
+<div class="cn-lyric">[00:25.49]请别再离去</div>
 </div>
 
 <br />
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>まって<rt class="roma">matte</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[00:31.49]<ruby>まって<rt class="roma">matte</rt></ruby> <ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
-<div class="cn-lyric">等等 我就在这里</div>
+<div class="cn-lyric">[00:31.49]等等 我就在这里</div>
 </div>
 
 <div class="lyric-line">
@@ -103,14 +103,14 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ハローハローハローハロー<rt class="roma">harouharouharouharou</rt></ruby>
+[00:47.09]<ruby>ハローハローハローハロー<rt class="roma">harouharouharouharou</rt></ruby>
 </div>
-<div class="cn-lyric">你好你好你好你好</div>
-<div class="cn-lyric">你好你好你好你好</div>
-<div class="cn-lyric">你好你好你好你好</div>
-<div class="cn-lyric">你好你好你好你好</div>
-<div class="cn-lyric">你好你好你好你好</div>
-<div class="cn-lyric">你好你好你好你好</div>
+<div class="cn-lyric">[00:47.09]你好你好你好你好</div>
+<div class="cn-lyric">[00:47.09]你好你好你好你好</div>
+<div class="cn-lyric">[00:47.09]你好你好你好你好</div>
+<div class="cn-lyric">[00:47.09]你好你好你好你好</div>
+<div class="cn-lyric">[00:47.09]你好你好你好你好</div>
+<div class="cn-lyric">[00:47.09]你好你好你好你好</div>
 </div>
 
 <div class="lyric-line">
@@ -123,18 +123,18 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>はじめて<rt class="roma">hajimete</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
+[00:53.09]<ruby>はじめて<rt class="roma">hajimete</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
-<div class="cn-lyric">虽然是第一次说</div>
-<div class="cn-lyric">虽然是第一次说</div>
+<div class="cn-lyric">[00:53.09]虽然是第一次说</div>
+<div class="cn-lyric">[00:53.09]虽然是第一次说</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>はじめて<rt class="roma">hajimete</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>っちゃう<rt class="roma">tchau</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
+[00:56.09]<ruby>はじめて<rt class="roma">hajimete</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>っちゃう<rt class="roma">tchau</rt></ruby><ruby>けど<rt class="roma">kedo</rt></ruby>
 </div>
-<div class="cn-lyric">虽第一次脱口而出</div>
-<div class="cn-lyric">虽第一次脱口而出</div>
+<div class="cn-lyric">[00:56.09]虽第一次脱口而出</div>
+<div class="cn-lyric">[00:56.09]虽第一次脱口而出</div>
 </div>
 
 <div class="lyric-line">
@@ -160,9 +160,9 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
+[01:06.09]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>なら<rt class="roma">nara</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>て<rt class="roma">te</rt></ruby>
 </div>
-<div class="cn-lyric">若你也愿意 请留在这里</div>
+<div class="cn-lyric">[01:06.09]若你也愿意 请留在这里</div>
 </div>
 
 <br />
@@ -176,9 +176,9 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>マジョリティ<rt class="roma">majoritei</rt></ruby>
+[01:14.49]<ruby>それでも<rt class="roma">soredemo</rt></ruby><ruby>消<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>え<rt class="roma">e</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>マジョリティ<rt class="roma">majoritei</rt></ruby>
 </div>
-<div class="cn-lyric">即使如此也不消失的多数</div>
+<div class="cn-lyric">[01:14.49]即使如此也不消失的多数</div>
 </div>
 
 <div class="lyric-line">
@@ -310,10 +310,10 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>デスティニー<rt class="roma">desuteinii</rt></ruby>？
+[02:33.09]<ruby>デスティニー<rt class="roma">desuteinii</rt></ruby>？
 </div>
-<div class="cn-lyric">命运？</div>
-<div class="cn-lyric">命运？</div>
+<div class="cn-lyric">[02:33.09]命运？</div>
+<div class="cn-lyric">[02:33.09]命运？</div>
 </div>
 
 <div class="lyric-line">
@@ -381,10 +381,10 @@ image: /images/albums/kaf/kansoku.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ハローハローハローハローハロー<rt class="roma">harouharouharouharouharou</rt></ruby>
+[02:53.09]<ruby>ハローハローハローハローハロー<rt class="roma">harouharouharouharouharou</rt></ruby>
 </div>
-<div class="cn-lyric">你好你好你好你好你好</div>
-<div class="cn-lyric">你好你好你好你好你好</div>
+<div class="cn-lyric">[02:53.09]你好你好你好你好你好</div>
+<div class="cn-lyric">[02:53.09]你好你好你好你好你好</div>
 </div>
 
 <div class="lyric-line">

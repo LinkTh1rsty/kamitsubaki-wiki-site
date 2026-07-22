@@ -143,7 +143,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
+[01:53.37]<ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby>
 </div>
 <div class="trans-lyric">Said you wanted to go</div>
 </div>
@@ -265,7 +265,7 @@ image: /images/albums/rim/chocolate-live-4.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>気配<rt class="furi">けはい</rt><rt class="roma">kehai</rt></ruby><ruby>悟<rt class="furi">さと</rt><rt class="roma">sato</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[03:05.70]<ruby>気配<rt class="furi">けはい</rt><rt class="roma">kehai</rt></ruby><ruby>悟<rt class="furi">さと</rt><rt class="roma">sato</rt></ruby><ruby>ら<rt class="roma">ra</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 <div class="trans-lyric">So as not to give away my presence</div>
 </div>

@@ -77,7 +77,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>にとって<rt class="roma">nitotte</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>オブジェクト<rt class="roma">obujekuto</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
+[00:36.23]<ruby>あなた<rt class="roma">anata</rt></ruby><ruby>にとって<rt class="roma">nitotte</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>オブジェクト<rt class="roma">obujekuto</rt></ruby><ruby>で<rt class="roma">de</rt></ruby>
 </div>
 </div>
 
@@ -91,7 +91,7 @@ image: /images/albums/harusaruhi/shingan.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-La-la-la-la-la-la-la
+[00:43.90]La-la-la-la-la-la-la
 </div>
 </div>
 
@@ -169,7 +169,7 @@ La-la-la-la-la-la-la
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>背中<rt class="furi">せなか</rt><rt class="roma">senaka</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby> Alcohol
+[01:24.47]<ruby>背中<rt class="furi">せなか</rt><rt class="roma">senaka</rt></ruby><ruby>押<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>す<rt class="roma">su</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby> Alcohol
 </div>
 </div>
 
@@ -241,7 +241,7 @@ La-la-la-la-la-la-la
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>？
+[01:43.60]<ruby>どうして<rt class="roma">doushite</rt></ruby><ruby>待<rt class="furi">ま</rt><rt class="roma">ma</rt></ruby><ruby>ってる<rt class="roma">tteru</rt></ruby>？
 </div>
 </div>
 
@@ -293,7 +293,7 @@ La-la-la-la-la-la-la
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わって<rt class="roma">watte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>って<rt class="roma">tte</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>駄目<rt class="furi">だめ</rt><rt class="roma">dame</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
+[02:02.72]<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わって<rt class="roma">watte</rt></ruby><ruby>も<rt class="roma">mo</rt></ruby> <ruby>笑<rt class="furi">わら</rt><rt class="roma">wara</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>いよ<rt class="roma">iyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby> <ruby>って<rt class="roma">tte</rt></ruby><ruby>そんな<rt class="roma">sonna</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>駄目<rt class="furi">だめ</rt><rt class="roma">dame</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>
 </div>
 </div>
 

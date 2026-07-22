@@ -89,25 +89,25 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Don’t worry
+[00:21.57]Don’t worry
 </div>
-<div class="cn-lyric">Don't worry</div>
-<div class="cn-lyric">Don't worry</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-You’ll be happy
-</div>
-<div class="cn-lyric">You'll be happy</div>
-<div class="cn-lyric">You'll be happy</div>
+<div class="cn-lyric">[00:21.57]Don't worry</div>
+<div class="cn-lyric">[00:21.57]Don't worry</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ラッキー<rt class="roma">rakkii</rt></ruby>
+[00:22.74]You’ll be happy
 </div>
-<div class="cn-lyric">仅仅降临于世就已经很幸运</div>
+<div class="cn-lyric">[00:22.74]You'll be happy</div>
+<div class="cn-lyric">[00:22.74]You'll be happy</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:24.13]<ruby>生<rt class="furi">う</rt><rt class="roma">u</rt></ruby><ruby>まれ<rt class="roma">mare</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby><ruby>それ<rt class="roma">sore</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>ラッキー<rt class="roma">rakkii</rt></ruby>
+</div>
+<div class="cn-lyric">[00:24.13]仅仅降临于世就已经很幸运</div>
 </div>
 
 <div class="lyric-line">
@@ -152,9 +152,9 @@ You’ll be happy
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ゆっくり<rt class="roma">yukkuri</rt></ruby><ruby>いこう<rt class="roma">ikou</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>yeah
+[00:40.17]<ruby>ゆっくり<rt class="roma">yukkuri</rt></ruby><ruby>いこう<rt class="roma">ikou</rt></ruby><ruby>自分<rt class="furi">じぶん</rt><rt class="roma">jibun</rt></ruby><ruby>だけ<rt class="roma">dake</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>旅<rt class="furi">たび</rt><rt class="roma">tabi</rt></ruby>yeah
 </div>
-<div class="cn-lyric">慢慢走吧 属于自己的旅程 yeah</div>
+<div class="cn-lyric">[00:40.17]慢慢走吧 属于自己的旅程 yeah</div>
 </div>
 
 <br />

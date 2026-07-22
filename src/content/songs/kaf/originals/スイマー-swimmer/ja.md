@@ -120,7 +120,7 @@ image: /images/albums/kaf/gsa.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>泳<rt class="furi">およ</rt><rt class="roma">oyo</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby>
+[01:23.95]<ruby>もっと<rt class="roma">motto</rt></ruby><ruby>泳<rt class="furi">およ</rt><rt class="roma">oyo</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby>
 </div>
 </div>
 
@@ -172,7 +172,7 @@ image: /images/albums/kaf/gsa.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>定<rt class="furi">さだ</rt><rt class="roma">sada</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>姿勢<rt class="furi">しせい</rt><rt class="roma">shisei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>立ち向<rt class="furi">たちむ</rt><rt class="roma">tachimu</rt></ruby><ruby>かう<rt class="roma">kau</rt></ruby><ruby>様<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>一層<rt class="furi">いっそう</rt><rt class="roma">issou</rt></ruby><ruby>泳<rt class="furi">およ</rt><rt class="roma">oyo</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby>
+[01:23.95]<ruby>定<rt class="furi">さだ</rt><rt class="roma">sada</rt></ruby><ruby>まら<rt class="roma">mara</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>姿勢<rt class="furi">しせい</rt><rt class="roma">shisei</rt></ruby><ruby>で<rt class="roma">de</rt></ruby> <ruby>何<rt class="furi">なに</rt><rt class="roma">nani</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>立ち向<rt class="furi">たちむ</rt><rt class="roma">tachimu</rt></ruby><ruby>かう<rt class="roma">kau</rt></ruby><ruby>様<rt class="furi">よう</rt><rt class="roma">you</rt></ruby><ruby>一層<rt class="furi">いっそう</rt><rt class="roma">issou</rt></ruby><ruby>泳<rt class="furi">およ</rt><rt class="roma">oyo</rt></ruby><ruby>げ<rt class="roma">ge</rt></ruby>
 </div>
 </div>
 

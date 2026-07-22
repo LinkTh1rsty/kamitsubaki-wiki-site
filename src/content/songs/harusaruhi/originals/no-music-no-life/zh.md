@@ -47,16 +47,16 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>エモ<rt class="roma">emo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なったり<rt class="roma">nattari</rt></ruby>
+[00:16.32]<ruby>エモ<rt class="roma">emo</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>気持<rt class="furi">きも</rt><rt class="roma">kimo</rt></ruby><ruby>ち<rt class="roma">chi</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>なったり<rt class="roma">nattari</rt></ruby>
 </div>
-<div class="cn-lyric">时而感到情绪涌动</div>
+<div class="cn-lyric">[00:16.32]时而感到情绪涌动</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>激<rt class="furi">はげ</rt><rt class="roma">hage</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>ビート<rt class="roma">biito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ったり<rt class="roma">ttari</rt></ruby>yeah
+[01:10.23]<ruby>時<rt class="furi">とき</rt><rt class="roma">toki</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>激<rt class="furi">はげ</rt><rt class="roma">hage</rt></ruby><ruby>しく<rt class="roma">shiku</rt></ruby><ruby>ビート<rt class="roma">biito</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>上<rt class="furi">うえ</rt><rt class="roma">ue</rt></ruby><ruby>踊<rt class="furi">おど</rt><rt class="roma">odo</rt></ruby><ruby>ったり<rt class="roma">ttari</rt></ruby>yeah
 </div>
-<div class="cn-lyric">时而随着激烈节拍起舞 yeah</div>
+<div class="cn-lyric">[01:10.23]时而随着激烈节拍起舞 yeah</div>
 </div>
 
 <div class="lyric-line">
@@ -68,9 +68,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>イヤ<rt class="roma">iya</rt></ruby><ruby>ホン<rt class="roma">hon</rt></ruby><ruby>つけれ<rt class="roma">tsukere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>ガラリ<rt class="roma">garari</rt></ruby>
+[00:27.72]<ruby>イヤ<rt class="roma">iya</rt></ruby><ruby>ホン<rt class="roma">hon</rt></ruby><ruby>つけれ<rt class="roma">tsukere</rt></ruby><ruby>ば<rt class="roma">ba</rt></ruby><ruby>ガラリ<rt class="roma">garari</rt></ruby>
 </div>
-<div class="cn-lyric">戴上耳机瞬间转变</div>
+<div class="cn-lyric">[00:27.72]戴上耳机瞬间转变</div>
 </div>
 
 <div class="lyric-line">
@@ -82,9 +82,9 @@ image: /images/albums/harusaruhi/spice-of-life.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-No Music, No Life
+[00:35.18]No Music, No Life
 </div>
-<div class="cn-lyric">No Music, No Life</div>
+<div class="cn-lyric">[00:35.18]No Music, No Life</div>
 </div>
 
 <div class="lyric-line">
@@ -103,16 +103,16 @@ No Music, No Life
 
 <div class="lyric-line">
 <div class="jp-lyric">
-That’s part of my life
+[00:46.34]That’s part of my life
 </div>
-<div class="cn-lyric">That's part of my life</div>
+<div class="cn-lyric">[00:46.34]That's part of my life</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>そば<rt class="roma">soba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
+[00:49.12]<ruby>いつ<rt class="roma">itsu</rt></ruby><ruby>でも<rt class="roma">demo</rt></ruby><ruby>そば<rt class="roma">soba</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby>
 </div>
-<div class="cn-lyric">无论何时都在身边</div>
+<div class="cn-lyric">[00:49.12]无论何时都在身边</div>
 </div>
 
 <div class="lyric-line">
@@ -136,9 +136,9 @@ That’s part of my life
 
 <div class="lyric-line">
 <div class="jp-lyric">
-yeah
+[01:10.23]yeah
 </div>
-<div class="cn-lyric">yeah</div>
+<div class="cn-lyric">[01:10.23]yeah</div>
 </div>
 
 <div class="lyric-line">

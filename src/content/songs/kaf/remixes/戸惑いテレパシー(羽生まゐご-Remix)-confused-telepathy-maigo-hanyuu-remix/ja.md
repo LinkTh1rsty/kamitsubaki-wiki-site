@@ -124,7 +124,7 @@ image: /images/albums/kaf/tomadoi-telepathy.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>その<rt class="roma">sono</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>かっぽ<rt class="roma">kappo</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
+[00:55.65]<ruby>その<rt class="roma">sono</rt></ruby><ruby>目<rt class="furi">め</rt><rt class="roma">me</rt></ruby><ruby>かっぽ<rt class="roma">kappo</rt></ruby><ruby>じ<rt class="roma">ji</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>気<rt class="furi">き</rt><rt class="roma">ki</rt></ruby><ruby>づい<rt class="roma">zui</rt></ruby><ruby>たら<rt class="roma">tara</rt></ruby>
 </div>
 </div>
 

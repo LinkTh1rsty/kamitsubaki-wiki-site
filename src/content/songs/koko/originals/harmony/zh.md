@@ -146,11 +146,11 @@ image: /images/songs/koko/single-1687477944.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Until the end
+[01:27.05]Until the end
 </div>
-<div class="cn-lyric">直到尽头</div>
-<div class="cn-lyric">直到尽头</div>
-<div class="cn-lyric">直到尽头</div>
+<div class="cn-lyric">[01:27.05]直到尽头</div>
+<div class="cn-lyric">[01:27.05]直到尽头</div>
+<div class="cn-lyric">[01:27.05]直到尽头</div>
 </div>
 
 <br />

@@ -28,13 +28,37 @@ image: /images/albums/harusaruhi/cream-puff-live.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Focused on deceit, watch those fearful notions start to creep
+[00:11.86]Focused on deceit, watch those fearful notions start to creep
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Loyalty is cheap, bought by those whose hatred runs so deep
+[00:20.54]Loyalty is cheap, bought by those whose hatred runs so deep
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:30.83]Just a total brainwash like they're in a cult
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:35.55]And I'm so scared of what will be the end result
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:39.81]Second civil war, not sure what they think they're fighting for
+</div>
+</div>
+
+<div class="lyric-line">
+<div class="jp-lyric">
+[00:50.30]We're all fucking poor, we should be the ones storming their doors
 </div>
 </div>
 
@@ -52,73 +76,49 @@ And I'm so scared of what will be the end result
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Second civil war, not sure what they think they're fighting for
+[01:09.03]Tell you you've got a chance then they kill all your dreams
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-We're all fucking poor, we should be the ones storming their doors
+[01:13.89]It's like we're living in some fucked up ponzi scheme
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Just a total brainwash like they're in a cult
+[01:19.39]Bail out the banks
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-And I'm so scared of what will be the end result
+[01:22.07]Think they'll do the same
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Tell you you've got a chance then they kill all your dreams
+[01:24.36]Try to join their ranks but it's a shame
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's like we're living in some fucked up ponzi scheme
+[01:28.00]You're just fodder for
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Bail out the banks
+[01:31.53]Their foreign wars
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Think they'll do the same
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Try to join their ranks but it's a shame
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-You're just fodder for
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-Their foreign wars
-</div>
-</div>
-
-<div class="lyric-line">
-<div class="jp-lyric">
-And they'll slap your hand if you ask for more
+[01:34.45]And they'll slap your hand if you ask for more
 </div>
 </div>
 
@@ -144,7 +144,7 @@ Tell you you've got a chance then they kill all your dreams
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's like we're living in a fucked up ponzi scheme
+[02:03.01]It's like we're living in a fucked up ponzi scheme
 </div>
 </div>
 

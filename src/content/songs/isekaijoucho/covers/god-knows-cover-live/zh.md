@@ -77,9 +77,9 @@ It's time to leave behind everything we know
 
 <div class="lyric-line">
 <div class="jp-lyric">
-On the lonely rail
+[01:07.93]On the lonely rail
 </div>
-<div class="cn-lyric">在孤独的铁轨上</div>
+<div class="cn-lyric">[01:07.93]在孤独的铁轨上</div>
 </div>
 
 <br />
@@ -93,10 +93,10 @@ Whatever happens, I am with you
 
 <div class="lyric-line">
 <div class="jp-lyric">
-I won't ever lose you
+[01:07.93]I won't ever lose you
 </div>
-<div class="cn-lyric">我永远不会失去你</div>
-<div class="cn-lyric">我永远不会失去你</div>
+<div class="cn-lyric">[01:07.93]我永远不会失去你</div>
+<div class="cn-lyric">[01:07.93]我永远不会失去你</div>
 </div>
 
 <div class="lyric-line">
@@ -202,9 +202,9 @@ Inside a fading dream
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Praying there's a chance for your lonely heart
+[02:45.43]Praying there's a chance for your lonely heart
 </div>
-<div class="cn-lyric">祈祷你孤独的心还有机会</div>
+<div class="cn-lyric">[02:45.43]祈祷你孤独的心还有机会</div>
 </div>
 
 <br />
@@ -253,9 +253,9 @@ Scars will keep on mending and maybe someday we can change our destiny
 
 <div class="lyric-line">
 <div class="jp-lyric">
-It's my wish
+[03:08.92]It's my wish
 </div>
-<div class="cn-lyric">这是我的愿望</div>
+<div class="cn-lyric">[03:08.92]这是我的愿望</div>
 </div>
 
 <div class="lyric-line">
@@ -267,9 +267,9 @@ We'll always be together
 
 <div class="lyric-line">
 <div class="jp-lyric">
-But this, only God knows...
+[03:14.13]But this, only God knows...
 </div>
-<div class="cn-lyric">但这，只有神知道...</div>
+<div class="cn-lyric">[03:14.13]但这，只有神知道...</div>
 </div>
 
 <br />

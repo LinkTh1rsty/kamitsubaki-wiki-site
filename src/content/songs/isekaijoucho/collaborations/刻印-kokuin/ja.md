@@ -46,13 +46,13 @@ image: /images/songs/isekaijoucho/single-1678039038.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-「<ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby>」<ruby>だ<rt class="roma">da</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
+[00:18.11]「<ruby>これ<rt class="roma">kore</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby>」<ruby>だ<rt class="roma">da</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby>
 </div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>たって<rt class="roma">tatte</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>よも<rt class="roma">yomo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[00:20.98]<ruby>言<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>なく<rt class="roma">naku</rt></ruby><ruby>たって<rt class="roma">tatte</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>よも<rt class="roma">yomo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -86,7 +86,7 @@ image: /images/songs/isekaijoucho/single-1678039038.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>何処<rt class="furi">どこ</rt><rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
+[00:48.37]<ruby>何処<rt class="furi">どこ</rt><rt class="roma">doko</rt></ruby><ruby>へ<rt class="roma">he</rt></ruby><ruby>行<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>って<rt class="roma">tte</rt></ruby><ruby>しまった<rt class="roma">shimatta</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>？
 </div>
 </div>
 
@@ -124,7 +124,7 @@ image: /images/songs/isekaijoucho/single-1678039038.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
+[01:08.38]<ruby>ただ<rt class="roma">tada</rt></ruby><ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>た<rt class="roma">ta</rt></ruby>
 </div>
 </div>
 
@@ -150,7 +150,7 @@ image: /images/songs/isekaijoucho/single-1678039038.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>、<ruby>もう<rt class="roma">mou</rt></ruby>
+[01:32.39]<ruby>思<rt class="furi">おも</rt><rt class="roma">omo</rt></ruby><ruby>わ<rt class="roma">wa</rt></ruby><ruby>れ<rt class="roma">re</rt></ruby><ruby>たく<rt class="roma">taku</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby> <ruby>いい<rt class="roma">ii</rt></ruby><ruby>よ<rt class="roma">yo</rt></ruby>、<ruby>もう<rt class="roma">mou</rt></ruby>
 </div>
 </div>
 
@@ -254,7 +254,7 @@ image: /images/songs/isekaijoucho/single-1678039038.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Ah, ah, ah, ah
+[02:23.08]Ah, ah, ah, ah
 </div>
 </div>
 

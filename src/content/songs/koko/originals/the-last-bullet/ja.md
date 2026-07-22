@@ -33,7 +33,7 @@ image: /images/songs/koko/single-1687478763.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>くだらなかった<rt class="roma">kudaranakatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:22.09]<ruby>くだらなかった<rt class="roma">kudaranakatta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
@@ -59,7 +59,7 @@ image: /images/songs/koko/single-1687478763.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あった<rt class="roma">atta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
+[00:32.05]<ruby>そこ<rt class="roma">soko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>あった<rt class="roma">atta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
 </div>
 
@@ -85,7 +85,7 @@ image: /images/songs/koko/single-1687478763.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-(Hello, hello)
+[00:41.74](Hello, hello)
 </div>
 </div>
 
@@ -103,7 +103,7 @@ image: /images/songs/koko/single-1687478763.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
+[00:45.41]<ruby>いつも<rt class="roma">itsumo</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>よう<rt class="roma">you</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby>
 </div>
 </div>
 
@@ -121,7 +121,7 @@ image: /images/songs/koko/single-1687478763.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Hello, hello, hello
+[00:49.32]Hello, hello, hello
 </div>
 </div>
 
@@ -225,7 +225,7 @@ Hello, hello, hello
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
+[01:43.95]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>いい<rt class="roma">ii</rt></ruby><ruby>かい<rt class="roma">kai</rt></ruby>
 </div>
 </div>
 
@@ -281,7 +281,7 @@ Hello, hello, hello
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:03.05]<ruby>生<rt class="furi">い</rt><rt class="roma">i</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>い<rt class="roma">i</rt></ruby><ruby>たい<rt class="roma">tai</rt></ruby><ruby>と<rt class="roma">to</rt></ruby><ruby>願<rt class="furi">ねが</rt><rt class="roma">nega</rt></ruby><ruby>った<rt class="roma">tta</rt></ruby><ruby>ん<rt class="roma">n</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -307,7 +307,7 @@ Hello, hello, hello
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
+[02:42.29]<ruby>終<rt class="furi">お</rt><rt class="roma">o</rt></ruby><ruby>わり<rt class="roma">wari</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>しよ<rt class="roma">shiyo</rt></ruby><ruby>う<rt class="roma">u</rt></ruby>
 </div>
 </div>
 
@@ -357,7 +357,7 @@ Hello, hello, hello
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>もう<rt class="roma">mou</rt></ruby><ruby>ひとり<rt class="roma">hitori</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
+[03:05.07]<ruby>もう<rt class="roma">mou</rt></ruby><ruby>ひとり<rt class="roma">hitori</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 </div>
 

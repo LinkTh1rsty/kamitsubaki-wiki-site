@@ -205,14 +205,14 @@ Chronicle A (Live) appears on CHOCOLATE LIVE3 or a related official release. Ent
 
 <div class="lyric-line">
 <div class="jp-lyric">
-A fairy tale about the dystopia
+[01:31.93]A fairy tale about the dystopia
 </div>
 <div class="trans-lyric">A fairy tale about the dystopia</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-Has come true like the mother's kindness
+[01:35.08]Has come true like the mother's kindness
 </div>
 <div class="trans-lyric">Has come true like the mother's kindness</div>
 </div>
@@ -235,14 +235,14 @@ Has come true like the mother's kindness
 
 <div class="lyric-line">
 <div class="jp-lyric">
-In 2099, we realized
+[01:44.77]In 2099, we realized
 </div>
 <div class="trans-lyric">In 2099, we realized</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
-We were not the first to reach the end
+[01:48.02]We were not the first to reach the end
 </div>
 <div class="trans-lyric">We were not the first to reach the end</div>
 </div>

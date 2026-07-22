@@ -53,7 +53,7 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>記憶<rt class="furi">きおく</rt><rt class="roma">kioku</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[00:30.20]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>記憶<rt class="furi">きおく</rt><rt class="roma">kioku</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
@@ -97,7 +97,7 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>そう<rt class="roma">sou</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby> <ruby>隠<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>んじゃ<rt class="roma">nja</rt></ruby><ruby>ねえ<rt class="roma">nee</rt></ruby>
+[00:55.17]<ruby>そう<rt class="roma">sou</rt></ruby><ruby>だろ<rt class="roma">daro</rt></ruby> <ruby>隠<rt class="furi">かく</rt><rt class="roma">kaku</rt></ruby><ruby>し<rt class="roma">shi</rt></ruby><ruby>て<rt class="roma">te</rt></ruby><ruby>んじゃ<rt class="roma">nja</rt></ruby><ruby>ねえ<rt class="roma">nee</rt></ruby>
 </div>
 </div>
 
@@ -131,7 +131,7 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なぜ<rt class="roma">naze</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
+[01:28.26]<ruby>あたし<rt class="roma">atashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>なぜ<rt class="roma">naze</rt></ruby><ruby>ここ<rt class="roma">koko</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>の<rt class="roma">no</rt></ruby>？
 </div>
 </div>
 
@@ -145,7 +145,7 @@ image: /images/albums/rim/imagine.jpg
 
 <div class="lyric-line">
 <div class="jp-lyric">
-<ruby>それ<rt class="roma">sore</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
+[01:37.88]<ruby>それ<rt class="roma">sore</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>言葉<rt class="furi">ことば</rt><rt class="roma">kotoba</rt></ruby><ruby>なんて<rt class="roma">nante</rt></ruby><ruby>さ<rt class="roma">sa</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>じゃ<rt class="roma">ja</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby><ruby>か<rt class="roma">ka</rt></ruby>
 </div>
 </div>
 
