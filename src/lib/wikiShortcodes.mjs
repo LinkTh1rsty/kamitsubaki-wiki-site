@@ -2,6 +2,8 @@ const INLINE_SHORTCODE = /\{\{([a-z][a-z-]*)(::(?:\\.|[^{}])*)\}\}/gi;
 const DETAILS_OPEN = /^\{\{details::((?:\\.|[^{}])+)\}\}$/i;
 const DETAILS_CLOSE = /^\{\{\/details\}\}$/i;
 const LYRICS_CONTROLS = /^\{\{lyrics-controls::(zh|ja|en)\}\}$/i;
+const LRC_TIMESTAMP_PATTERN = /\[\d{2}:\d{2}\.\d{2,3}\]/;
+const LRC_TAG_REGEX = /\[(\d{2}):(\d{2})\.(\d{2,3})\]/g;
 
 const lyricControlCopy = {
   zh: {
@@ -97,7 +99,7 @@ function paragraphText(node) {
   return node.children[0].value.trim();
 }
 
-function renderLyricControls(locale) {
+function renderLyricControls(locale, hasTimeline) {
   const copy = lyricControlCopy[locale];
   const buttons = [
     `<button type="button" data-lyric-action="ruby" data-show-label="${copy.ruby[0]}" data-hide-label="${copy.ruby[1]}" aria-pressed="false">${copy.ruby[1]}</button>`,
@@ -113,7 +115,7 @@ function renderLyricControls(locale) {
     `<button type="button" data-lyric-action="phonetic" data-primary-label="${copy.phonetic[0]}" data-alternate-label="${copy.phonetic[1]}" aria-pressed="false">${copy.phonetic[0]}</button>`,
   );
   
-  if (copy.syncLyrics) {
+  if (copy.syncLyrics && hasTimeline) {
     buttons.push(
       `<button type="button" data-lyric-action="sync-lyrics" data-primary-label="${copy.syncLyrics[0]}" data-alternate-label="${copy.syncLyrics[1]}" aria-pressed="false">${copy.syncLyrics[0]}</button>`,
       `<button type="button" data-lyric-action="sync-play-pause" data-primary-label="${copy.playback[0]}" data-alternate-label="${copy.playback[1]}" aria-pressed="false" class="sync-play-btn" hidden>${copy.playback[0]}</button>`,
@@ -124,7 +126,7 @@ function renderLyricControls(locale) {
   return `<div class="my-lyric-controls">${buttons.join('')}</div>`;
 }
 
-function transformDetailsBlocks(node) {
+function transformDetailsBlocks(node, hasTimeline) {
   if (!node?.children) return;
 
   const transformed = [];
@@ -133,14 +135,17 @@ function transformDetailsBlocks(node) {
     const blockText = paragraphText(child);
     const lyricControls = blockText?.match(LYRICS_CONTROLS);
     if (lyricControls) {
-      transformed.push({ type: 'html', value: renderLyricControls(lyricControls[1].toLowerCase()) });
+      transformed.push({
+        type: 'html',
+        value: renderLyricControls(lyricControls[1].toLowerCase(), hasTimeline),
+      });
       continue;
     }
 
     const opening = blockText?.match(DETAILS_OPEN);
 
     if (!opening) {
-      transformDetailsBlocks(child);
+      transformDetailsBlocks(child, hasTimeline);
       transformed.push(child);
       continue;
     }
@@ -163,7 +168,7 @@ function transformDetailsBlocks(node) {
     }
 
     const contents = node.children.slice(index + 1, closingIndex);
-    contents.forEach(transformDetailsBlocks);
+    contents.forEach((content) => transformDetailsBlocks(content, hasTimeline));
     transformed.push(
       { type: 'html', value: `<details><summary>${escapeHtml(title)}</summary>` },
       ...contents,
@@ -203,7 +208,17 @@ function transformInlineShortcodes(node) {
   });
 }
 
-const LRC_TAG_REGEX = /\[(\d{2}):(\d{2})\.(\d{2,3})\]/g;
+function hasLrcTimeline(node) {
+  if (!node || node.type === 'code' || node.type === 'inlineCode') return false;
+  if (
+    (node.type === 'text' || node.type === 'html')
+    && typeof node.value === 'string'
+    && LRC_TIMESTAMP_PATTERN.test(node.value)
+  ) {
+    return true;
+  }
+  return Array.isArray(node.children) && node.children.some(hasLrcTimeline);
+}
 
 function transformLrcTags(node) {
   if ((node.type === 'text' || node.type === 'html') && typeof node.value === 'string') {
@@ -217,7 +232,7 @@ function transformLrcTags(node) {
 
 export default function remarkWikiShortcodes() {
   return (tree) => {
-    transformDetailsBlocks(tree);
+    transformDetailsBlocks(tree, hasLrcTimeline(tree));
     transformInlineShortcodes(tree);
     transformLrcTags(tree);
   };

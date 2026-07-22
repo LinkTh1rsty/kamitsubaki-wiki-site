@@ -138,8 +138,6 @@ KAF's eighth original song, written, composed, and arranged by Iori Kanzaki.
 [00:42.19]<ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>が<rt class="roma">ga</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby>
 </div>
 <div class="trans-lyric">The reason I sing</div>
-<div class="trans-lyric">The reason I sing</div>
-<div class="trans-lyric">The reason I sing</div>
 </div>
 
 <div class="lyric-line">
@@ -161,7 +159,6 @@ KAF's eighth original song, written, composed, and arranged by Iori Kanzaki.
 [00:47.49]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>な<rt class="roma">na</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>を<rt class="roma">wo</rt></ruby>
 </div>
 <div class="trans-lyric">The things I enjoy</div>
-<div class="trans-lyric">The things I enjoy</div>
 </div>
 
 <div class="lyric-line">
@@ -169,15 +166,12 @@ KAF's eighth original song, written, composed, and arranged by Iori Kanzaki.
 [00:47.49]<ruby>好<rt class="furi">す</rt><rt class="roma">su</rt></ruby><ruby>き<rt class="roma">ki</rt></ruby><ruby>で<rt class="roma">de</rt></ruby><ruby>いる<rt class="roma">iru</rt></ruby><ruby>こと<rt class="roma">koto</rt></ruby><ruby>に<rt class="roma">ni</rt></ruby><ruby>理由<rt class="furi">りゆう</rt><rt class="roma">riyuu</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>いら<rt class="roma">ira</rt></ruby><ruby>ない<rt class="roma">nai</rt></ruby>
 </div>
 <div class="trans-lyric">No reason needed for continuing to love</div>
-<div class="trans-lyric">No reason needed for continuing to love them</div>
 </div>
 
 <div class="lyric-line">
 <div class="jp-lyric">
 [00:52.49]<ruby>だから<rt class="roma">dakara</rt></ruby><ruby>私<rt class="furi">わたし</rt><rt class="roma">watashi</rt></ruby><ruby>は<rt class="roma">wa</rt></ruby><ruby>歌<rt class="furi">うた</rt><rt class="roma">uta</rt></ruby><ruby>う<rt class="roma">u</rt></ruby><ruby>の<rt class="roma">no</rt></ruby><ruby>だ<rt class="roma">da</rt></ruby>
 </div>
-<div class="trans-lyric">So I sing</div>
-<div class="trans-lyric">So I sing</div>
 <div class="trans-lyric">So I sing</div>
 </div>
 

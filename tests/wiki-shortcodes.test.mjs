@@ -110,15 +110,28 @@ test('renders localized song lyric controls from one block alias', async () => {
   const ja = await renderMarkdownFragment('{{lyrics-controls::ja}}\n\n<div class="my-lyric-box">歌詞</div>');
 
   assert.match(zh, /^<div class="my-lyric-controls">/);
-  assert.equal((zh.match(/data-lyric-action=/g) || []).length, 6);
+  assert.equal((zh.match(/data-lyric-action=/g) || []).length, 3);
   assert.match(zh, /data-lyric-action="translation"/);
-  assert.match(zh, /data-lyric-action="sync-lyrics"/);
-  assert.match(zh, /data-lyric-action="sync-play-pause"[^>]*class="sync-play-btn" hidden>播放<\/button>/);
-  assert.match(zh, /data-lyric-action="sync-reset" class="sync-reset-btn" hidden>重置<\/button>/);
+  assert.doesNotMatch(zh, /data-lyric-action="sync-/);
   assert.match(zh, /aria-pressed="false">隐藏注音<\/button>/);
   assert.match(zh, /<\/div>\n<div class="my-lyric-box">Lyrics<\/div>$/);
-  assert.equal((ja.match(/data-lyric-action=/g) || []).length, 5);
+  assert.equal((ja.match(/data-lyric-action=/g) || []).length, 2);
   assert.doesNotMatch(ja, /data-lyric-action="translation"/);
+});
+
+test('renders synchronized controls only when the document has timeline data', async () => {
+  const rendered = await renderMarkdownFragment(`
+{{lyrics-controls::zh}}
+
+<div class="my-lyric-box"><div class="lyric-line"><div class="jp-lyric">
+[00:00.80]<ruby>愛<rt class="furi">あい</rt></ruby>
+</div></div></div>
+  `);
+
+  assert.equal((rendered.match(/data-lyric-action=/g) || []).length, 6);
+  assert.match(rendered, /data-lyric-action="sync-lyrics"/);
+  assert.match(rendered, /data-lyric-action="sync-play-pause"[^>]*class="sync-play-btn" hidden>播放<\/button>/);
+  assert.match(rendered, /data-lyric-action="sync-reset" class="sync-reset-btn" hidden>重置<\/button>/);
 });
 
 test('renders synchronized lyric timestamps as sanitized inert markers', async () => {

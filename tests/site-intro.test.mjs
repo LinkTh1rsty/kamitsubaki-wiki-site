@@ -46,6 +46,8 @@ test('intro waits for both its full animation and the window load event', async 
   assert.match(interactions, /if \(leaving \|\| !animationComplete \|\| !pageLoaded\) return/);
   assert.match(interactions, /introVideo\.addEventListener\('ended', finishAnimation/);
   assert.match(interactions, /window\.addEventListener\('load'/);
+  assert.match(interactions, /maximumIntroWait = animationDuration \+ \(prefersReducedMotion \? 500 : 2500\)/);
+  assert.match(interactions, /window\.setTimeout\(\(\) => markPageLoaded\(true\), maximumIntroWait\)/);
   assert.match(interactions, /dataset\.state = pageLoaded \? 'ready' : 'waiting'/);
 });
 

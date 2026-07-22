@@ -1,4 +1,10 @@
 import { detectExternalPlatform } from '../lib/externalPlatforms.mjs';
+import {
+  DEFAULT_KARAOKE_TAIL_DURATION,
+  formatKaraokeProgress,
+  getKaraokeProgress,
+  resolveKaraokeEndTime,
+} from '../lib/lyricsTimeline.mjs';
 
 const externalLinksHeadingPattern = /^(外部链接|外部連結|外部リンク|external\s+links?)$/i;
 
@@ -90,6 +96,22 @@ document.addEventListener('DOMContentLoaded', () => {
   document.documentElement.classList.add('has-js');
   enhanceExternalLinkSections(document);
 
+  // A page may contain several lyric blocks. Keep synchronized controls only
+  // beside a block that actually contains valid, sanitized timeline markers.
+  document.querySelectorAll('.my-lyric-controls').forEach((controls) => {
+    const lyricBox = controls.nextElementSibling;
+    const timelineButtons = controls.querySelectorAll('[data-lyric-action^="sync-"]');
+    if (timelineButtons.length === 0) return;
+
+    const hasValidTimeline = lyricBox instanceof HTMLElement
+      && lyricBox.classList.contains('my-lyric-box')
+      && Array.from(lyricBox.querySelectorAll('.lrc-tag[data-time]')).some((tag) => (
+        Number.isFinite(Number.parseFloat(tag.dataset.time ?? ''))
+      ));
+
+    if (!hasValidTimeline) timelineButtons.forEach((button) => button.remove());
+  });
+
   const siteIntro = document.querySelector('[data-site-intro]');
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const revealElements = document.querySelectorAll('.reveal-up');
@@ -135,6 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let animationComplete = false;
     let pageLoaded = document.readyState === 'complete';
     let leaving = false;
+    let loadFallbackTimer = null;
 
     const finishAnimation = () => {
       if (animationComplete) return;
@@ -161,6 +184,15 @@ document.addEventListener('DOMContentLoaded', () => {
       }, prefersReducedMotion ? 180 : 720);
     };
 
+    const markPageLoaded = (usedFallback = false) => {
+      if (pageLoaded) return;
+      pageLoaded = true;
+      if (loadFallbackTimer !== null) window.clearTimeout(loadFallbackTimer);
+      if (usedFallback) siteIntro.dataset.loadFallback = 'true';
+      if (animationComplete) siteIntro.dataset.state = 'ready';
+      revealSite();
+    };
+
     if (introVideo instanceof HTMLVideoElement && !prefersReducedMotion) {
       const handleVideoError = () => {
         siteIntro.classList.add('is-video-unavailable');
@@ -183,11 +215,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (pageLoaded) {
       revealSite();
     } else {
-      window.addEventListener('load', () => {
-        pageLoaded = true;
-        if (animationComplete) siteIntro.dataset.state = 'ready';
-        revealSite();
-      }, { once: true });
+      window.addEventListener('load', () => markPageLoaded(false), { once: true });
+      const maximumIntroWait = animationDuration + (prefersReducedMotion ? 500 : 2500);
+      loadFallbackTimer = window.setTimeout(() => markPageLoaded(true), maximumIntroWait);
     }
   } else {
     document.documentElement.classList.remove('site-intro-enabled');
@@ -368,7 +398,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     initDOM() {
-      // Group text nodes into .lrc-word spans for word-by-word highlights
+      // Group timed text into spans that can display a continuous karaoke fill.
       this.lines.forEach(line => {
         let lineStartTime = Infinity;
         const containers = line.querySelectorAll('.jp-lyric, .cn-lyric, .en-lyric, .trans-lyric');
@@ -414,8 +444,39 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
       
-      // Collect all words
+      // Give every timed unit an end point. The last unit in a line runs until
+      // the next line; the final line receives a short, deterministic tail.
       this.words = Array.from(this.lyricBox.querySelectorAll('.lrc-word'));
+      this.timedLines = this.lines
+        .filter(line => Number.isFinite(parseFloat(line.dataset.time)))
+        .sort((a, b) => parseFloat(a.dataset.time) - parseFloat(b.dataset.time));
+
+      this.timedLines.forEach((line, lineIndex) => {
+        const lineWords = Array.from(line.querySelectorAll('.lrc-word'));
+        const latestWordTime = Math.max(...lineWords.map(word => parseFloat(word.dataset.time)));
+        const nextLineTime = parseFloat(this.timedLines[lineIndex + 1]?.dataset.time);
+        const lineEndTime = Number.isFinite(nextLineTime)
+          ? nextLineTime
+          : latestWordTime + DEFAULT_KARAOKE_TAIL_DURATION;
+
+        line.dataset.endTime = lineEndTime;
+
+        lineWords.forEach(word => {
+          const endTime = resolveKaraokeEndTime(
+            word.dataset.time,
+            word.dataset.endTime,
+            lineEndTime,
+          );
+          if (endTime !== null) word.dataset.endTime = endTime;
+          word.style.setProperty('--karaoke-progress', '0%');
+        });
+      });
+
+      this.duration = Math.max(
+        0,
+        ...this.timedLines.map(line => parseFloat(line.dataset.endTime)).filter(Number.isFinite),
+      );
+
       // Remove raw lrc-tags to clean up DOM
       this.lyricBox.querySelectorAll('.lrc-tag').forEach(tag => tag.remove());
     }
@@ -430,7 +491,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     togglePlay() {
-      this.setPlaying(!this.playing);
+      const shouldPlay = !this.playing;
+      if (shouldPlay && this.duration > 0 && this.currentTime >= this.duration) {
+        this.currentTime = 0;
+        this.updateUI();
+      }
+
+      this.setPlaying(shouldPlay);
       if (this.playing) {
         this.lastTick = performance.now();
         this.loop();
@@ -458,7 +525,14 @@ document.addEventListener('DOMContentLoaded', () => {
       const delta = (now - this.lastTick) / 1000;
       this.lastTick = now;
       this.currentTime += delta;
-      
+
+      if (this.duration > 0 && this.currentTime >= this.duration) {
+        this.currentTime = this.duration;
+        this.updateUI();
+        this.setPlaying(false);
+        return;
+      }
+
       this.updateUI();
       this.animationFrame = requestAnimationFrame(() => this.loop());
     }
@@ -473,19 +547,26 @@ document.addEventListener('DOMContentLoaded', () => {
           activeLine = line;
         }
         line.classList.remove('is-active');
+        line.removeAttribute('aria-current');
       });
       
       if (activeLine) {
         activeLine.classList.add('is-active');
+        activeLine.setAttribute('aria-current', 'true');
       }
 
       this.words.forEach(word => {
         const wordTime = parseFloat(word.dataset.time);
-        if (Number.isFinite(wordTime) && time >= wordTime) {
-          word.classList.add('is-active');
-        } else {
-          word.classList.remove('is-active');
-        }
+        const wordEndTime = parseFloat(word.dataset.endTime);
+        const progress = getKaraokeProgress(time, wordTime, wordEndTime);
+        const isCurrent = Number.isFinite(wordTime)
+          && Number.isFinite(wordEndTime)
+          && time >= wordTime
+          && time < wordEndTime;
+
+        word.style.setProperty('--karaoke-progress', formatKaraokeProgress(progress));
+        word.classList.toggle('is-active', isCurrent);
+        word.classList.toggle('is-complete', progress >= 1);
       });
     }
   }

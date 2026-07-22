@@ -1784,27 +1784,82 @@ html[data-theme='light'] .site-nav__menu-panel a {
 
 /* Synchronized Lyrics Player Styles */
 .my-lyric-box.sync-enabled .lyric-line.has-lrc-timing {
-  opacity: 0.4;
+  opacity: 0.42;
   cursor: pointer;
-  transition: opacity 0.3s ease;
+  transform: translateX(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .my-lyric-box.sync-enabled .lyric-line.has-lrc-timing:hover {
-  opacity: 0.7;
+  opacity: 0.72;
 }
 
 .my-lyric-box.sync-enabled .lyric-line.has-lrc-timing.is-active {
   opacity: 1;
+  transform: translateX(0.2rem);
 }
 
 .my-lyric-box.sync-enabled .lrc-word {
-  opacity: 0.6;
-  transition: color 0.1s ease, opacity 0.1s ease;
+  --karaoke-progress: 0%;
+  color: rgb(var(--theme-fg-rgb) / 0.5);
+  opacity: 0.86;
+  transition: color 120ms ease, filter 120ms ease, opacity 120ms ease;
 }
 
-.my-lyric-box.sync-enabled .lyric-line.is-active .lrc-word.is-active {
+.my-lyric-box.sync-enabled .lrc-word:is(.is-active, .is-complete) {
   opacity: 1;
   color: var(--wiki-accent-color);
+}
+
+@supports ((background-clip: text) or (-webkit-background-clip: text)) {
+  .my-lyric-box.sync-enabled .lrc-word {
+    background-image: linear-gradient(
+      90deg,
+      var(--wiki-accent-color) 0%,
+      var(--wiki-accent-color) var(--karaoke-progress),
+      rgb(var(--theme-fg-rgb) / 0.5) var(--karaoke-progress),
+      rgb(var(--theme-fg-rgb) / 0.5) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .my-lyric-box.sync-enabled .lyric-line.is-active .lrc-word.is-active {
+    filter: drop-shadow(0 0 0.32rem rgb(var(--theme-accent-rgb) / 0.32));
+  }
+
+  /* WebKit text fill is inherited by ruby annotations, while the parent's
+     clipped background does not reliably paint into the separate rt box. */
+  .my-lyric-box.sync-enabled .lrc-word rt {
+    background: none;
+    color: rgb(var(--theme-fg-rgb) / 0.68);
+    -webkit-text-fill-color: currentColor;
+    filter: none;
+  }
+
+  .my-lyric-box.sync-enabled .lrc-word:is(.is-active, .is-complete) rt {
+    color: var(--wiki-accent-color);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .my-lyric-box.sync-enabled .lyric-line.has-lrc-timing {
+    transform: none;
+    transition: none;
+  }
+
+  .my-lyric-box.sync-enabled .lrc-word {
+    background-image: none;
+    color: rgb(var(--theme-fg-rgb) / 0.5);
+    -webkit-text-fill-color: currentColor;
+    transition: none;
+  }
+
+  .my-lyric-box.sync-enabled .lrc-word:is(.is-active, .is-complete) {
+    color: var(--wiki-accent-color);
+  }
 }
 
 .wiki-spoiler {

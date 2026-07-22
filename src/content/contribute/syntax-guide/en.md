@@ -285,11 +285,12 @@ The code above renders as an interactive lyric-practice component:
 
 ### Synchronized lyric timeline
 
-For word-level highlighting, write a `[mm:ss.xx]` or `[mm:ss.xxx]` timestamp immediately before each lyric unit. A timestamp is the unit's start time relative to the lyric timer: “Play” starts at `00:00.00`, selecting a timed lyric line seeks to that line and continues playback, and “Reset” returns to the beginning.
+For karaoke-style word animation, write a `[mm:ss.xx]` or `[mm:ss.xxx]` timestamp immediately before each lyric unit. A timestamp is the unit's start time relative to the lyric timer, and the lyric fills continuously from left to right between adjacent timestamps. “Play” starts at `00:00.00`, selecting a timed lyric line seeks to that line and continues playback, and “Reset” returns to the beginning.
 
 - `mm` and `ss` must each contain two digits; the fractional part may contain two or three digits. Valid examples include `[00:03.50]` and `[01:02.345]`.
 - Put the timestamp directly against its `<ruby>` element or plain text, with no intervening space. Every unit that should highlight independently needs its own start time.
 - The first timestamp in each `.jp-lyric` also becomes that line's seek time. If a translation line is present, give it the same line-start timestamp at the beginning.
+- Each unit fills until the next timestamp. The final unit in a line continues to the next line, while the final line receives a short automatic tail.
 - Keep timestamps increasing in playback order. Partial timing is allowed; lines without timestamps remain normally displayed.
 - Author only the bracketed timestamps. Do not write the generated `lrc-tag`, `lrc-word`, or any script. Calibrate times by listening to the track and never ask AI to estimate them.
 - The lyric timer is currently independent and does not automatically read the playback position of the YouTube, bilibili, or other media player above it.
@@ -313,7 +314,7 @@ For word-level highlighting, write a `[mm:ss.xx]` or `[mm:ss.xxx]` timestamp imm
 
 #### Example
 
-After synchronized lyrics are enabled, the two Japanese units below begin highlighting at `0` and `0.8` seconds:
+After synchronized lyrics are enabled, the two Japanese units below begin filling from left to right at `0` and `0.8` seconds:
 
 {{lyrics-controls::en}}
 
