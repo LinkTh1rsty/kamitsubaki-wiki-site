@@ -51,6 +51,11 @@ const defaultSiteEntry = siteEntries.find((entry) => entry.data.locale === 'zh')
 const siteEntry = siteEntries.find((entry) => entry.data.locale === lang) ?? defaultSiteEntry;
 const aiChatCopy = siteEntry?.data.aiChat;
 const socialContactCopy = siteEntry?.data.socialContact;
+const fontStylesheet = {
+  zh: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=optional',
+  ja: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;500;600;700&display=optional',
+  en: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Shippori+Mincho:wght@400;500;600;700&display=optional',
+}[lang] ?? 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=optional';
 ---
 
 <!doctype html>
@@ -122,10 +127,7 @@ const socialContactCopy = siteEntry?.data.socialContact;
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+SC:wght@400;500;600;700&family=Shippori+Mincho:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href={fontStylesheet} rel="stylesheet" />
   </head>
   <body class="antialiased font-sans selection:bg-white selection:text-black" id="body-wrap">
     {isLocalizedHome && <SiteIntro />}

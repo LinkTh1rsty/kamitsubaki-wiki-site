@@ -8,9 +8,9 @@
 @import "katex/dist/katex.min.css";
 
 @theme {
-  --font-sans: Montserrat, "Noto Sans JP", sans-serif;
-  --font-serif: "Noto Serif SC", "Shippori Mincho", serif;
-  --font-mono: "Courier New", monospace;
+  --font-sans: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+  --font-serif: "Noto Serif SC", "Songti SC", STSong, SimSun, serif;
+  --font-mono: SFMono-Regular, Consolas, "Liberation Mono", "Courier New", "Noto Sans SC", "PingFang SC", monospace;
   --color-kamiblack: #0a0a0a;
   --color-kamigray: #1f1f1f;
   --color-kamiwhite: #f0f0f0;
@@ -89,24 +89,43 @@ html[data-theme='light'] [class*='text-amber-'] {
   color: #704000;
 }
 
+:lang(zh) {
+  --font-sans: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+  --font-serif: "Noto Serif SC", "Songti SC", STSong, SimSun, serif;
+  --font-mono: SFMono-Regular, Consolas, "Liberation Mono", "Courier New", "Noto Sans SC", "PingFang SC", monospace;
+}
+
 :lang(ja) {
-  --font-serif: "Shippori Mincho", "Noto Serif SC", serif;
+  --font-sans: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, system-ui, sans-serif;
+  --font-serif: "Shippori Mincho", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, serif;
+  --font-mono: SFMono-Regular, Consolas, "Liberation Mono", "Courier New", "Noto Sans JP", "Hiragino Kaku Gothic ProN", monospace;
 }
 
 :lang(en) {
-  --font-serif: "Shippori Mincho", "Noto Serif SC", serif;
+  --font-sans: Montserrat, Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --font-serif: "Shippori Mincho", "Iowan Old Style", Baskerville, "Times New Roman", serif;
+  --font-mono: SFMono-Regular, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 html {
   scroll-padding-top: 8rem;
+  font-kerning: normal;
+  font-optical-sizing: auto;
+  font-synthesis: none;
 }
 
 body {
   background-color: var(--theme-bg);
   color: var(--theme-body);
+  font-weight: 400;
   overflow-x: hidden;
   cursor: none;
   transition: background-color 240ms ease, color 240ms ease;
+}
+
+b,
+strong {
+  font-weight: 600;
 }
 
 body.announcement-modal-open {
