@@ -80,21 +80,18 @@ test('song artist catalog hero uses an artist-tinted surface in light mode', asy
   );
 });
 
-test('song lyrics stay dark while album details use the normal light surface', async () => {
+test('song and album details use the normal light surface in light mode', async () => {
   const [songDetail, albumDetail, styles] = await Promise.all([
     readProjectFile('../src/pages/[locale]/songs/[...id].astro'),
     readProjectFile('../src/pages/[locale]/albums/[...id].astro'),
     readProjectFile('../src/styles/global.css'),
   ]);
 
-  assert.match(songDetail, /wiki-theme-shell music-theme-shell/);
+  assert.match(songDetail, /<div class="wiki-theme-shell" style=\{themeStyle\}>/);
   assert.match(albumDetail, /<div class="wiki-theme-shell" style=\{themeStyle\}>/);
+  assert.doesNotMatch(songDetail, /wiki-theme-shell music-theme-shell/);
   assert.doesNotMatch(albumDetail, /wiki-theme-shell music-theme-shell/);
-  assert.match(
-    styles,
-    /html\[data-theme='light'\] \.music-theme-shell :where\(\.wiki-reader, \.wiki-infobox\)\s*\{[\s\S]*--music-light-mask-rgb: 20 23 26;[\s\S]*--theme-panel-solid: #14171a;[\s\S]*rgb\(var\(--music-light-mask-rgb\) \/ 0\.94\)/,
-  );
-  assert.match(styles, /\.music-theme-shell :where\(\.wiki-reader, \.wiki-infobox\) \[class\*='text-white\/'\]/);
+  assert.doesNotMatch(styles, /\.music-theme-shell/);
 });
 
 test('song and album catalog cards remove their image mask in light mode', async () => {

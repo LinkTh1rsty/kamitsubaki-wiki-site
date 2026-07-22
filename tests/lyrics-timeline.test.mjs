@@ -43,6 +43,7 @@ test('synchronized lyrics expose karaoke fill, completion, and reduced-motion st
   assert.match(interactions, /timelineButtons\.forEach\(\(button\) => button\.remove\(\)\)/);
   assert.match(interactions, /currentTime >= this\.duration[\s\S]*setPlaying\(false\)/);
   assert.match(styles, /linear-gradient\([\s\S]*--karaoke-progress/);
+  assert.match(styles, /html\[data-theme='light'\] \.my-lyric-box\.sync-enabled\s*\{[\s\S]*--wiki-accent-color:\s*#39c5bb;[\s\S]*--theme-accent-rgb:\s*57 197 187;/);
   assert.match(styles, /background-clip:\s*text/);
   assert.match(styles, /\.lrc-word rt[\s\S]*-webkit-text-fill-color:\s*currentColor/);
   assert.match(styles, /prefers-reduced-motion:\s*reduce/);
