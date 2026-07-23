@@ -13,6 +13,7 @@ import SongsSection from '../../components/SongsSection.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { buildArtistCategories, buildDatabaseJumpLinks, buildLogCards, buildProjectCards, getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
+import { buildHomeMusicCatalog, sampleRandom } from '../../lib/homeMusicCatalog.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../lib/i18n.mjs';
 import { buildHomeMetadata } from '../../lib/metadata.mjs';
 
@@ -30,17 +31,10 @@ const projectEntries = getLocalizedEntries(await getCollection('projects'), loca
 const logEntryCollection = getLocalizedEntries(await getCollection('logs'), locale, defaultLocale);
 const announcementEntries = getLocalizedEntries(await getCollection('announcements'), locale, defaultLocale);
 const songEntries = getLocalizedEntries(await getCollection('songs'), locale, defaultLocale);
-const songs = songEntries.slice(0, 4);
-const compareOptionalNumber = (left?: number, right?: number) =>
-  (left ?? Number.POSITIVE_INFINITY) - (right ?? Number.POSITIVE_INFINITY);
 const albumEntries = getLocalizedEntries(await getCollection('albums'), locale, defaultLocale);
-const albums = [...albumEntries]
-  .sort((a, b) =>
-    compareOptionalNumber(a.data.categoryOrder, b.data.categoryOrder)
-    || compareOptionalNumber(a.data.itemOrder, b.data.itemOrder)
-    || (b.data.releaseDate ?? '').localeCompare(a.data.releaseDate ?? ''),
-  )
-  .slice(0, 4);
+const homeMusicCatalog = buildHomeMusicCatalog(songEntries, albumEntries, artistEntries, locale);
+const songs = sampleRandom(homeMusicCatalog.songs, 5);
+const albums = sampleRandom(homeMusicCatalog.albums, 5);
 
 const artistCategories = buildArtistCategories(artistEntries);
 const databaseJumpLinks = buildDatabaseJumpLinks(artistCategories);
@@ -82,4 +76,10 @@ const metadata = buildHomeMetadata(homeContent, locale);
     <LogSection logEntries={logEntries} section={homeContent.sections.log} />
     <SiteFooter footer={homeContent.footer} />
   </div>
+
+  <script>
+    import { initializeHomeMusicRandomizer } from '../../scripts/homeMusicRandomizer.js';
+
+    initializeHomeMusicRandomizer();
+  </script>
 </BaseLayout>

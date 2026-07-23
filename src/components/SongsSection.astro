@@ -1,22 +1,11 @@
 ---
-// 完全对齐 content.config.ts 中 songs collection 的 schema
 type Song = {
-  id: string;
-  data: {
-    title: string;
-    artist: string;
-    composer?: string;
-    lyricist?: string;
-    album?: string;
-    duration?: string;
-    releaseDate?: string;
-    code?: string;
-    categoryTitle?: string;
-    categorySubtitle?: string;
-    categoryOrder?: number;
-    itemOrder?: number;
-    image?: string;
-  };
+  href: string;
+  title: string;
+  subtitle: string;
+  image: string | null;
+  primaryInfo: string | null;
+  secondaryInfo: string | null;
 };
 
 const { songs, section, locale } = Astro.props as {
@@ -55,43 +44,72 @@ const { songs, section, locale } = Astro.props as {
 
     <div class="lg:col-span-9 flex flex-col pb-20">
       <div class="border-b border-white/20 pb-4 mb-4 hidden md:flex justify-between items-end reveal-up">
-        <span class="text-[9px] font-mono text-white/40 w-12">CODE</span>
+        <span class="text-[9px] font-mono text-white/40 w-12">COVER</span>
         <span class="text-[9px] font-mono text-white/40 flex-1 pl-4">TITLE & ARTIST</span>
         <span class="text-[9px] font-mono text-white/40 w-32 text-right">INFO</span>
       </div>
 
-     <div id="songs-list">
-        {songs.map((song, idx) => {
-          const songPath = song.id.split('/').slice(0, -1).join('/');
-          return (
-            <a
-              href={`/${locale}/songs/${songPath}`}
-              class="group block list-row py-6 reveal-up"
-            >
+      <div
+        id="songs-list"
+        data-home-music-list
+        data-home-music-kind="songs"
+        data-home-music-url={`/${locale}/home-catalog.json`}
+      >
+        {songs.map((song) => (
+            <a href={song.href} class="group block list-row py-6 reveal-up">
               <div class="flex flex-col md:flex-row md:items-center justify-between px-4 gap-4">
                 <div class="flex items-center gap-6 flex-1">
-                  <span class="font-mono text-[9px] text-white/20 w-8 md:w-12">{song.data.code || String(idx + 1).padStart(3, '0')}</span>
+                  <span class="grid h-12 w-12 shrink-0 place-items-center overflow-hidden border border-white/10 bg-white/[0.03]">
+                    {song.image ? (
+                      <img src={song.image} alt="" class="h-full w-full object-cover opacity-80 transition duration-500 group-hover:scale-105 group-hover:opacity-100" loading="lazy" />
+                    ) : (
+                      <span class="font-serif text-base text-white/25">{Array.from(song.title)[0] ?? '?'}</span>
+                    )}
+                  </span>
                   <div>
                     <h4 class="font-serif text-lg md:text-xl text-white/80 tracking-wide group-hover:text-white transition-colors duration-300">
-                      {song.data.title}
+                      {song.title}
                     </h4>
                     <span class="text-[10px] tracking-wider font-light text-white/40 group-hover:text-white/60 transition-colors block mt-1">
-                      {song.data.artist} {song.data.album && `· ${song.data.album}`}
+                      {song.subtitle}
                     </span>
                   </div>
                 </div>
                 <div class="text-[9px] font-mono text-white/30 flex gap-4 md:gap-8 md:text-right items-center">
-                  {song.data.duration && <span class="w-12 text-left md:text-right">{song.data.duration}</span>}
-                  {song.data.releaseDate && <span class="w-20 text-left md:text-right hidden md:block">{song.data.releaseDate}</span>}
+                  {song.primaryInfo && <span class="w-12 text-left md:text-right">{song.primaryInfo}</span>}
+                  {song.secondaryInfo && <span class="w-20 text-left md:text-right hidden md:block">{song.secondaryInfo}</span>}
                   <svg class="w-4 h-4 opacity-0 group-hover:opacity-100 transform -translate-x-4 group-hover:translate-x-0 transition-all duration-300 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
                   </svg>
                 </div>
               </div>
             </a>
-          );
-        })}
+        ))}
       </div>
+
+      <template data-home-music-template>
+        <a data-home-music-link class="group block list-row py-6 reveal-up active">
+          <div class="flex flex-col md:flex-row md:items-center justify-between px-4 gap-4">
+            <div class="flex items-center gap-6 flex-1">
+              <span class="grid h-12 w-12 shrink-0 place-items-center overflow-hidden border border-white/10 bg-white/[0.03]">
+                <img data-home-music-image alt="" class="h-full w-full object-cover opacity-80 transition duration-500 group-hover:scale-105 group-hover:opacity-100" loading="lazy" hidden />
+                <span data-home-music-placeholder class="font-serif text-base text-white/25" hidden></span>
+              </span>
+              <div>
+                <h4 data-home-music-title class="font-serif text-lg md:text-xl text-white/80 tracking-wide group-hover:text-white transition-colors duration-300"></h4>
+                <span data-home-music-subtitle class="text-[10px] tracking-wider font-light text-white/40 group-hover:text-white/60 transition-colors block mt-1"></span>
+              </div>
+            </div>
+            <div class="text-[9px] font-mono text-white/30 flex gap-4 md:gap-8 md:text-right items-center">
+              <span data-home-music-primary-info class="w-12 text-left md:text-right"></span>
+              <span data-home-music-secondary-info class="w-20 text-left md:text-right hidden md:block"></span>
+              <svg class="w-4 h-4 opacity-0 group-hover:opacity-100 transform -translate-x-4 group-hover:translate-x-0 transition-all duration-300 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </div>
+        </a>
+      </template>
     </div>
   </div>
 </section>

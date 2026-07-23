@@ -1,13 +1,11 @@
 ---
 type Album = {
-  id: string;
-  data: {
-    title: string;
-    artist: string;
-    type?: string;
-    releaseDate?: string;
-    code?: string;
-  };
+  href: string;
+  title: string;
+  subtitle: string;
+  image: string | null;
+  primaryInfo: string | null;
+  secondaryInfo: string | null;
 };
 
 const { albums, section, locale } = Astro.props as {
@@ -47,47 +45,77 @@ const { albums, section, locale } = Astro.props as {
 
     <div class="flex flex-col pb-20 lg:col-span-9">
       <div class="mb-4 hidden items-end justify-between border-b border-white/20 pb-4 md:flex reveal-up">
-        <span class="w-12 font-mono text-[9px] text-white/40">CODE</span>
+        <span class="w-12 font-mono text-[9px] text-white/40">COVER</span>
         <span class="flex-1 pl-4 font-mono text-[9px] text-white/40">TITLE & ARTIST</span>
         <span class="w-32 text-right font-mono text-[9px] text-white/40">RELEASE</span>
       </div>
 
       {albums.length > 0 ? (
-        <div id="albums-list">
-          {albums.map((album, index) => {
-            const albumPath = album.id.split('/').slice(0, -1).join('/');
-            return (
-              <a href={`/${locale}/albums/${albumPath}`} class="group block list-row py-6 reveal-up">
+        <div
+          id="albums-list"
+          data-home-music-list
+          data-home-music-kind="albums"
+          data-home-music-url={`/${locale}/home-catalog.json`}
+        >
+          {albums.map((album) => (
+              <a href={album.href} class="group block list-row py-6 reveal-up">
                 <div class="flex flex-col justify-between gap-4 px-4 md:flex-row md:items-center">
                   <div class="flex flex-1 items-center gap-6">
-                    <span class="w-8 font-mono text-[9px] text-white/20 md:w-12">
-                      {album.data.code || String(index + 1).padStart(3, '0')}
+                    <span class="grid h-12 w-12 shrink-0 place-items-center overflow-hidden border border-white/10 bg-white/[0.03]">
+                      {album.image ? (
+                        <img src={album.image} alt="" class="h-full w-full object-cover opacity-80 transition duration-500 group-hover:scale-105 group-hover:opacity-100" loading="lazy" />
+                      ) : (
+                        <span class="font-serif text-base text-white/25">{Array.from(album.title)[0] ?? '?'}</span>
+                      )}
                     </span>
                     <div>
                       <h4 class="font-serif text-lg tracking-wide text-white/80 transition-colors duration-300 group-hover:text-white md:text-xl">
-                        {album.data.title}
+                        {album.title}
                       </h4>
                       <span class="mt-1 block text-[10px] font-light tracking-wider text-white/40 transition-colors group-hover:text-white/60">
-                        {album.data.artist}{album.data.type && ` · ${album.data.type}`}
+                        {album.subtitle}
                       </span>
                     </div>
                   </div>
                   <div class="flex items-center gap-4 font-mono text-[9px] text-white/30 md:gap-8 md:text-right">
-                    {album.data.releaseDate && <span class="w-20 text-left md:text-right">{album.data.releaseDate}</span>}
+                    {album.primaryInfo && <span class="w-20 text-left md:text-right">{album.primaryInfo}</span>}
                     <svg class="h-4 w-4 -translate-x-4 text-white opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
                     </svg>
                   </div>
                 </div>
               </a>
-            );
-          })}
+          ))}
         </div>
       ) : (
         <p class="border-y border-white/10 px-4 py-10 font-mono text-[10px] tracking-[0.18em] text-white/35 reveal-up">
           {section.emptyLabel ?? 'Album entries are being prepared.'}
         </p>
       )}
+
+      <template data-home-music-template>
+        <a data-home-music-link class="group block list-row py-6 reveal-up active">
+          <div class="flex flex-col justify-between gap-4 px-4 md:flex-row md:items-center">
+            <div class="flex flex-1 items-center gap-6">
+              <span class="grid h-12 w-12 shrink-0 place-items-center overflow-hidden border border-white/10 bg-white/[0.03]">
+                <img data-home-music-image alt="" class="h-full w-full object-cover opacity-80 transition duration-500 group-hover:scale-105 group-hover:opacity-100" loading="lazy" hidden />
+                <span data-home-music-placeholder class="font-serif text-base text-white/25" hidden></span>
+              </span>
+              <div>
+                <h4 data-home-music-title class="font-serif text-lg tracking-wide text-white/80 transition-colors duration-300 group-hover:text-white md:text-xl"></h4>
+                <span data-home-music-subtitle class="mt-1 block text-[10px] font-light tracking-wider text-white/40 transition-colors group-hover:text-white/60"></span>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 font-mono text-[9px] text-white/30 md:gap-8 md:text-right">
+              <span data-home-music-primary-info class="w-20 text-left md:text-right"></span>
+              <span data-home-music-secondary-info hidden></span>
+              <svg class="h-4 w-4 -translate-x-4 text-white opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </div>
+        </a>
+      </template>
     </div>
   </div>
 </section>
