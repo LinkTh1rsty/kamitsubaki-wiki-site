@@ -67,6 +67,7 @@ const fontStylesheet = {
         const storageKey = 'kamitsubaki-theme';
         const introStorageKey = 'kamitsubaki-home-intro-seen';
         let preference = 'system';
+        let shouldPlayIntro = false;
 
         try {
           const savedPreference = window.localStorage.getItem(storageKey);
@@ -83,7 +84,7 @@ const fontStylesheet = {
         document.documentElement.dataset.theme = theme;
 
         if (isLocalizedHome) {
-          let shouldPlayIntro = true;
+          shouldPlayIntro = true;
 
           try {
             shouldPlayIntro = window.sessionStorage.getItem(introStorageKey) !== 'true';
@@ -94,6 +95,8 @@ const fontStylesheet = {
 
           if (shouldPlayIntro) document.documentElement.classList.add('site-intro-enabled');
         }
+
+        if (!shouldPlayIntro) document.documentElement.classList.add('site-page-transition-enabled');
       })();
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -131,6 +134,14 @@ const fontStylesheet = {
   </head>
   <body class="antialiased font-sans selection:bg-white selection:text-black" id="body-wrap">
     {isLocalizedHome && <SiteIntro />}
+    <div id="preloader" data-page-transition aria-hidden="true">
+      <div class="flex flex-col items-center">
+        <div class="preloader-line mb-4"></div>
+        <p class="animate-pulse font-mono text-[8px] tracking-[0.5em] text-white/50">
+          CONNECTING TO KAMITSUBAKI_CITY...
+        </p>
+      </div>
+    </div>
 
     <div class="noise-bg"></div>
     <div class="cursor-dot hidden md:block" id="cursor"></div>

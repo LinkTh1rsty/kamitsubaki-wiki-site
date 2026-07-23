@@ -113,6 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   const siteIntro = document.querySelector('[data-site-intro]');
+  const pageTransition = document.querySelector('[data-page-transition]');
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const revealElements = document.querySelectorAll('.reveal-up');
   let revealsStarted = false;
@@ -219,8 +220,25 @@ document.addEventListener('DOMContentLoaded', () => {
       const maximumIntroWait = animationDuration + (prefersReducedMotion ? 500 : 2500);
       loadFallbackTimer = window.setTimeout(() => markPageLoaded(true), maximumIntroWait);
     }
+  } else if (
+    pageTransition
+    && document.documentElement.classList.contains('site-page-transition-enabled')
+  ) {
+    const transitionDelay = prefersReducedMotion ? 40 : 900;
+    const transitionFadeDuration = prefersReducedMotion ? 20 : 650;
+
+    window.setTimeout(() => {
+      pageTransition.classList.add('hidden-preloader');
+      startReveals();
+
+      window.setTimeout(() => {
+        pageTransition.hidden = true;
+        document.documentElement.classList.remove('site-page-transition-enabled');
+      }, transitionFadeDuration);
+    }, transitionDelay);
   } else {
     document.documentElement.classList.remove('site-intro-enabled');
+    document.documentElement.classList.remove('site-page-transition-enabled');
     startReveals();
   }
 

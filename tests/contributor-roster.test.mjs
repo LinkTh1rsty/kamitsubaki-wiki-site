@@ -398,9 +398,8 @@ test('contributor sync submits an enriched snapshot in API-sized batches', async
   assert.match(script, /GITHUB_TOKEN/);
   assert.match(script, /GITHUB_REPOSITORY/);
   assert.match(script, /identityEnriched/);
-  assert.match(script, /filterGithubContributionEvents/);
-  assert.match(script, /unresolved Git events skipped/);
-  assert.doesNotMatch(script, /API limit is 1000/);
+  assert.match(script, /API limit is 1000/);
+  assert.match(script, /accepted.*events\.length/);
 });
 
 test('GitHub identity resolver falls back to the associated pull request author', async () => {

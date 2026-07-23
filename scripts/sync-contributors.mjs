@@ -111,7 +111,13 @@ async function main() {
   if (events.length === 0) {
     throw new Error('Contributor sync found no verified GitHub contribution events.');
   }
+
+  // The contributor API limit is 1000 events per request.
   const result = await syncContributionEvents({ apiBase, syncToken, events });
+  if (result.accepted !== events.length) {
+    throw new Error(`Contributor sync accepted ${result.accepted} of ${events.length} events.`);
+  }
+
   const contributors = new Set(events.map((event) => event.contributor.id)).size;
   console.log(`Synced ${result.accepted} verified GitHub contribution events from ${contributors} contributors in ${result.batches} batches; ${identityEnriched} events enriched and ${skippedUnresolved} unresolved Git events skipped.`);
 }

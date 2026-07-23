@@ -5,9 +5,11 @@ import test from 'node:test';
 const readSource = (path) => readFile(new URL(path, import.meta.url), 'utf8');
 
 test('theme preference defaults to system and offers localized light, dark, and system options', async () => {
-  const [layout, nav, script, styles] = await Promise.all([
+  const [layout, nav, homeNav, homePage, script, styles] = await Promise.all([
     readSource('../src/layouts/BaseLayout.astro'),
     readSource('../src/components/SiteNav.astro'),
+    readSource('../src/components/HomeSiteNav.astro'),
+    readSource('../src/pages/[locale]/index.astro'),
     readSource('../src/scripts/themeToggle.js'),
     readSource('../src/styles/global.css'),
   ]);
@@ -28,8 +30,17 @@ test('theme preference defaults to system and offers localized light, dark, and 
   assert.match(nav, /value: 'light', shortLabel: 'DAY'/);
   assert.match(nav, /value: 'dark', shortLabel: 'NIGHT'/);
   assert.match(nav, /value: 'system', shortLabel: 'SYS'/);
-  assert.match(nav, /site-nav__controls[\s\S]*Language switcher[\s\S]*site-nav__theme-switcher/);
-  assert.match(styles, /\.site-nav__controls > \[aria-label='Language switcher'\],[\s\S]*\.site-nav__theme-switcher\s*\{[\s\S]*grid-template-columns: repeat\(3, 1\.25rem\)[\s\S]*justify-items: center/);
+  assert.match(nav, /site-nav__brand-group[\s\S]*site-nav__theme-switcher[\s\S]*site-nav__brand-link/);
+  assert.match(nav, /site-nav__navigation[\s\S]*resolvedNavItems\.map[\s\S]*site-nav__language-switcher/);
+  assert.ok(nav.indexOf('site-nav__theme-switcher') < nav.indexOf('site-nav__brand-link'));
+  assert.ok(nav.lastIndexOf('site-nav__link') < nav.indexOf('site-nav__language-switcher'));
+  assert.match(homeNav, /site-nav__controls[\s\S]*Language switcher[\s\S]*site-nav__theme-switcher/);
+  assert.doesNotMatch(homeNav, /site-nav__brand-group|site-nav__brand-link|site-nav__navigation|site-nav__language-switcher/);
+  assert.match(homePage, /import HomeSiteNav from/);
+  assert.match(homePage, /<HomeSiteNav /);
+  assert.doesNotMatch(homePage, /import SiteNav from|<SiteNav /);
+  assert.match(styles, /\.site-nav__brand-group,[\s\S]*\.site-nav__navigation\s*\{[\s\S]*flex-flow: row nowrap/);
+  assert.match(styles, /\.site-nav__language-switcher,[\s\S]*\.site-nav__theme-switcher\s*\{[\s\S]*grid-template-columns: repeat\(3, 1\.25rem\)[\s\S]*justify-items: center/);
   assert.match(script, /localStorage\.setItem\(storageKey, nextPreference\)/);
   assert.match(script, /aria-checked/);
   assert.match(script, /systemThemeQuery\.addEventListener\('change', handleSystemThemeChange\)/);

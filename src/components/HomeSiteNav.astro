@@ -1,0 +1,116 @@
+---
+type NavItem = {
+  label: string;
+  href: string;
+};
+
+type LocaleLink = {
+  code: string;
+  label: string;
+  shortLabel: string;
+  href: string;
+  current: boolean;
+};
+
+const { navItems, localeLinks, brandLines, homeHref = '/' } = Astro.props as {
+  navItems: NavItem[];
+  localeLinks: LocaleLink[];
+  brandLines: string[];
+  homeHref?: string;
+};
+
+const currentLocale = localeLinks.find((item) => item.current)?.code ?? 'en';
+const themeCopy = {
+  zh: {
+    groupLabel: '主题模式',
+    options: [
+      { value: 'light', shortLabel: '日', label: '使用浅色模式' },
+      { value: 'dark', shortLabel: '夜', label: '使用深色模式' },
+      { value: 'system', shortLabel: '系', label: '跟随系统模式' },
+    ],
+  },
+  ja: {
+    groupLabel: 'テーマモード',
+    options: [
+      { value: 'light', shortLabel: '昼', label: 'ライトモードを使用' },
+      { value: 'dark', shortLabel: '夜', label: 'ダークモードを使用' },
+      { value: 'system', shortLabel: '自', label: 'システム設定に従う' },
+    ],
+  },
+  en: {
+    groupLabel: 'Theme mode',
+    options: [
+      { value: 'light', shortLabel: 'DAY', label: 'Use light mode' },
+      { value: 'dark', shortLabel: 'NIGHT', label: 'Use dark mode' },
+      { value: 'system', shortLabel: 'SYS', label: 'Follow system theme' },
+    ],
+  },
+}[currentLocale] ?? {
+  groupLabel: 'Theme mode',
+  options: [
+    { value: 'light', shortLabel: 'DAY', label: 'Use light mode' },
+    { value: 'dark', shortLabel: 'NIGHT', label: 'Use dark mode' },
+    { value: 'system', shortLabel: 'SYS', label: 'Follow system theme' },
+  ],
+};
+---
+
+<nav class="site-nav site-nav--home fixed top-0 w-full z-50 mix-blend-difference flex justify-between pointer-events-none items-start px-6 py-8 md:px-12">
+  <a href={homeHref} class="pointer-events-auto group">
+    <p class="text-white tracking-kamidest font-light uppercase group-hover:opacity-50 transition-opacity duration-500 text-[10px] leading-relaxed md:text-xs">
+      {brandLines.map((line, index) => (
+        <>
+          {line}{index < brandLines.length - 1 && <br />}
+        </>
+      ))}
+    </p>
+  </a>
+  <div class="pointer-events-auto flex items-end text-[9px] md:text-[10px] tracking-kamidest-lg font-light text-white flex-col gap-3">
+    <details class="site-nav__menu pointer-events-auto md:hidden">
+      <summary aria-label="Open navigation">MENU</summary>
+      <div class="site-nav__menu-panel">
+        {navItems.map((item) => (
+          <a href={item.href}>{item.label}</a>
+        ))}
+      </div>
+    </details>
+    {navItems.map((item) => (
+      <a href={item.href} class="site-nav__link hidden md:inline hover:text-white/50 transition-all duration-300">{item.label}</a>
+    ))}
+    <div class="site-nav__controls mt-4">
+      <div class="flex gap-3 font-mono tracking-widest text-[8px]" aria-label="Language switcher">
+        {localeLinks.map((item) => (
+          <a
+            href={item.href}
+            aria-current={item.current ? 'page' : undefined}
+            title={item.label}
+            class={item.current ? 'text-white' : 'text-white/35 hover:text-white transition-colors'}
+          >
+            {item.shortLabel}
+          </a>
+        ))}
+      </div>
+      <div
+        class="site-nav__theme-switcher flex gap-3 font-mono tracking-widest text-[8px]"
+        data-theme-switcher
+        role="radiogroup"
+        aria-label={themeCopy.groupLabel}
+      >
+        {themeCopy.options.map((option) => (
+          <button
+            type="button"
+            class="site-nav__theme-option"
+            data-theme-toggle
+            data-theme-value={option.value}
+            role="radio"
+            aria-checked="false"
+            aria-label={option.label}
+            title={option.label}
+          >
+            {option.shortLabel}
+          </button>
+        ))}
+      </div>
+    </div>
+  </div>
+</nav>

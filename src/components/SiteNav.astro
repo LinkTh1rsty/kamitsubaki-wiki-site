@@ -12,7 +12,7 @@ type LocaleLink = {
   current: boolean;
 };
 
-const { navItems, localeLinks, brandLines, compact = false } = Astro.props as {
+const { navItems, localeLinks, brandLines, homeHref = '/' } = Astro.props as {
   navItems: NavItem[];
   localeLinks: LocaleLink[];
   brandLines: string[];
@@ -20,7 +20,6 @@ const { navItems, localeLinks, brandLines, compact = false } = Astro.props as {
   homeHref?: string;
 };
 
-const { homeHref = '/' } = Astro.props as { homeHref?: string };
 const currentLocale = localeLinks.find((item) => item.current)?.code ?? 'en';
 const themeCopy = {
   zh: {
@@ -55,43 +54,44 @@ const themeCopy = {
     { value: 'system', shortLabel: 'SYS', label: 'Follow system theme' },
   ],
 };
-const resolvedNavItems = compact
-  ? navItems.map((item) => ({
-      ...item,
-      href: item.href.startsWith('#') ? `${homeHref}${item.href}` : item.href,
-    }))
-  : navItems;
+const resolvedNavItems = navItems.map((item) => ({
+  ...item,
+  href: item.href.startsWith('#') ? `${homeHref}${item.href}` : item.href,
+}));
 ---
 
-<nav class:list={[
-  'site-nav',
-  'fixed top-0 w-full z-50 mix-blend-difference flex justify-between pointer-events-none',
-  compact ? 'items-center px-4 py-4 md:px-8 md:py-5' : 'items-start px-6 py-8 md:px-12',
-]}>
-  <a href={homeHref} class="pointer-events-auto group">
-    <p class:list={[
-      'text-white tracking-kamidest font-light uppercase group-hover:opacity-50 transition-opacity duration-500',
-      compact ? 'text-[9px] leading-snug md:text-[10px]' : 'text-[10px] leading-relaxed md:text-xs',
-    ]}>
-      {compact ? (
-        <>
-          <span class="sm:hidden">Kamitsubaki Studio Fan Wiki</span>
-          <span class="hidden sm:inline">{brandLines.join(' ')}</span>
-        </>
-      ) : (
-        brandLines.map((line, index) => (
-          <>
-            {line}{index < brandLines.length - 1 && <br />}
-          </>
-        ))
-      )}
-    </p>
-  </a>
-  <div class:list={[
-    'pointer-events-auto flex items-end text-[9px] md:text-[10px] tracking-kamidest-lg font-light text-white',
-    compact ? 'flex-row gap-5' : 'flex-col gap-3',
-  ]}>
-    <details class="site-nav__menu pointer-events-auto md:hidden">
+<nav class="site-nav site-nav--compact fixed top-0 w-full z-50 mix-blend-difference flex items-center justify-between pointer-events-none px-4 py-4 md:px-8 md:py-5">
+  <div class="site-nav__brand-group pointer-events-auto">
+    <div
+      class="site-nav__theme-switcher font-mono tracking-widest text-[8px]"
+      data-theme-switcher
+      role="radiogroup"
+      aria-label={themeCopy.groupLabel}
+    >
+      {themeCopy.options.map((option) => (
+        <button
+          type="button"
+          class="site-nav__theme-option"
+          data-theme-toggle
+          data-theme-value={option.value}
+          role="radio"
+          aria-checked="false"
+          aria-label={option.label}
+          title={option.label}
+        >
+          {option.shortLabel}
+        </button>
+      ))}
+    </div>
+    <a href={homeHref} class="site-nav__brand-link pointer-events-auto group">
+      <p class="text-white tracking-kamidest font-light uppercase group-hover:opacity-50 transition-opacity duration-500 text-[9px] leading-snug md:text-[10px]">
+        <span class="sm:hidden">Kamitsubaki Studio Fan Wiki</span>
+        <span class="hidden sm:inline">{brandLines.join(' ')}</span>
+      </p>
+    </a>
+  </div>
+  <div class="site-nav__navigation pointer-events-auto text-[9px] md:text-[10px] tracking-kamidest-lg font-light text-white">
+    <details class="site-nav__menu pointer-events-auto lg:hidden">
       <summary aria-label="Open navigation">MENU</summary>
       <div class="site-nav__menu-panel">
         {resolvedNavItems.map((item) => (
@@ -100,42 +100,19 @@ const resolvedNavItems = compact
       </div>
     </details>
     {resolvedNavItems.map((item) => (
-      <a href={item.href} class="site-nav__link hidden md:inline hover:text-white/50 transition-all duration-300">{item.label}</a>
+      <a href={item.href} class="site-nav__link hidden lg:inline hover:text-white/50 transition-all duration-300">{item.label}</a>
     ))}
-    <div class:list={['site-nav__controls', compact ? 'mt-0' : 'mt-4']}>
-      <div class="flex gap-3 font-mono tracking-widest text-[8px]" aria-label="Language switcher">
-        {localeLinks.map((item) => (
-          <a
-            href={item.href}
-            aria-current={item.current ? 'page' : undefined}
-            title={item.label}
-            class={item.current ? 'text-white' : 'text-white/35 hover:text-white transition-colors'}
-          >
-            {item.shortLabel}
-          </a>
-        ))}
-      </div>
-      <div
-        class="site-nav__theme-switcher flex gap-3 font-mono tracking-widest text-[8px]"
-        data-theme-switcher
-        role="radiogroup"
-        aria-label={themeCopy.groupLabel}
-      >
-        {themeCopy.options.map((option) => (
-          <button
-            type="button"
-            class="site-nav__theme-option"
-            data-theme-toggle
-            data-theme-value={option.value}
-            role="radio"
-            aria-checked="false"
-            aria-label={option.label}
-            title={option.label}
-          >
-            {option.shortLabel}
-          </button>
-        ))}
-      </div>
+    <div class="site-nav__language-switcher font-mono tracking-widest text-[8px]" aria-label="Language switcher">
+      {localeLinks.map((item) => (
+        <a
+          href={item.href}
+          aria-current={item.current ? 'page' : undefined}
+          title={item.label}
+          class={item.current ? 'text-white' : 'text-white/35 hover:text-white transition-colors'}
+        >
+          {item.shortLabel}
+        </a>
+      ))}
     </div>
   </div>
 </nav>

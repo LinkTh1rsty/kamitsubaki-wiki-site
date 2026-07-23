@@ -35,3 +35,19 @@ test('Tailwind scans application templates without traversing the content archiv
   }
   assert.doesNotMatch(stylesheet, /@source\s+["']\.\.\/content/);
 });
+
+test('VS Code parses Tailwind v4 styles with the Tailwind language mode', async () => {
+  const [settingsText, extensionsText, gitignore] = await Promise.all([
+    readFile(new URL('../.vscode/settings.json', import.meta.url), 'utf8'),
+    readFile(new URL('../.vscode/extensions.json', import.meta.url), 'utf8'),
+    readFile(new URL('../.gitignore', import.meta.url), 'utf8'),
+  ]);
+  const settings = JSON.parse(settingsText);
+  const extensions = JSON.parse(extensionsText);
+
+  assert.equal(settings['files.associations']['*.css'], 'tailwindcss');
+  assert.ok(extensions.recommendations.includes('bradlc.vscode-tailwindcss'));
+  assert.match(gitignore, /^\.vscode\/\*$/m);
+  assert.match(gitignore, /^!\.vscode\/settings\.json$/m);
+  assert.match(gitignore, /^!\.vscode\/extensions\.json$/m);
+});
