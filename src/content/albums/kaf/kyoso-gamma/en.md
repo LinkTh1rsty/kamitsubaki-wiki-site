@@ -92,7 +92,7 @@ tracks:
 
 ## Overview
 
-The official remix companion to Kyousou, with thirteen creators reworking its thirteen vocal tracks.
+Kafu's third remix album, Kyoso Gamma, features a special collaboration with 13 popular Vocaloid producers. Each producer was invited to create a one-on-one remix for all 13 vocal tracks from her third studio album, Kyoso, which was originally released on March 8, 2023.
 
 ## Release and editions
 

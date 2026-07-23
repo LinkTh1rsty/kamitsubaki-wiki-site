@@ -227,7 +227,7 @@ tracks:
 
 ## Overview
 
-A live album documenting the June 2020 cover-streaming concert, presented across three discs with the spoken MC segments intact.
+The CD for the cover live stream "I SCREAM LIVE," held on YouTube Live on June 14th, is finally here! This super deluxe 3-disc set features a handpicked selection of 30 of Kaf's favorite songs, and even includes the MC (chat) segments from the broadcast!
 
 ## Release and editions
 

@@ -124,7 +124,11 @@ tracks:
 
 ## Overview
 
-A physical anthology of all fifteen KAF Suite collaborations, plus bonus tracks “Sanpachi Star” and a remix of “Sorekara.”
+The collaborative project Kumikyoku, which centers on the fusion of Kafu and real-world artists and composers, officially concluded in January 2024 with its 15th release, Ai no Mama ni, featuring Shigeru Kishida. To commemorate this milestone, the album not only includes all 15 tracks from Kumikyoku along with their music videos, but also features two additional collaborative songs by Kafu as bonus tracks.
+
+The bonus tracks are highly special: one is Sorekara (Since Then), originally provided by Ats Mizuno and sung by Kafu, which now features a brand-new remix by HIDEYA KOJIMA; the other is Sanpachi Star, a highly discussed program theme song that is finally receiving its first official audio release! Both are exclusive bonus tracks available only on this album.
+
+Additionally, the special edition disc includes an original talk show titled Kumibana Hanashi ni wa Nasakafu, where Kafu personally joins past guests to reflect on the Kumikyoku project. The three featured guests are all musicians who previously collaborated on the project: Tanaka, HIDEYA KOJIMA, and Kenmochi Hidefumi.
 
 ## Release and editions
 

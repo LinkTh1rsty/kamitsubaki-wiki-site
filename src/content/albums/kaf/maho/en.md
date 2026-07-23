@@ -101,7 +101,33 @@ tracks:
 
 ## Overview
 
-KAF’s second studio album frames fifteen tracks around magic and branching world lines; its physical α and β editions contain the same music.
+This is Kaf's second studio album. Having begun her activities in October 2018, this brand-new release marks her 2nd anniversary debut.
+
+The album features a total of 15 tracks, with all lyrics and composition handled entirely by Kanzaki Iori. The tracklist includes the TV anime Black Clover ending theme Answer, the final episode theme song for the Netflix original anime Japan Sinks: 2020 titled Keshiki, the collaboration track Ki no Normal for the ultra-immersive energy drink "ZONe" IMMERSIVE SONG PROJECT, and Tomadoi Telepathy, the theme song for the "HAYABUSA EXPERIENCE by 3.5D × docomo ONLINE EXHIBITION" created in partnership with docomo. It also includes several new songs that made their live debut at her second solo concert, "Fukakai Ni Q1," on October 10th.
+
+For the cover art, the "Mahou α" version features illustrations by the familiar PALOW., while the "Mahou β" version features brand-new illustrations by manga artist Usazaki Shiro.
+
+Alongside the CD album Mahou, a special box set is available. It includes the photo book Tomei 2 (36 pages), an audio drama Otogi-banashi -Dai San Maku- (Poetry CD), an acrylic keychain (PALOW. Ver.), stickers (PALOW. Ver.), a trading card set α (3 cards), a rubber wristband α, and messages for the album Mahou (written by Kaf, Kanzaki Iori, and PIEDPIPER).
+
+[Product Information]  
+Price: 5,000 JPY (tax included)  
+Tracks: 15  
+Catalog Number: KTR-019  
+
+[Box Set Contents]  
+■ CD Album Mahou (15 tracks) ※Common to both "Mahou α" and "Mahou β"  
+■ Photo Book Tomei 2 (36 pages) ※Common to both "Mahou α" and "Mahou β"  
+■ Audio Drama Otogi-banashi -Dai San Maku- (Poetry CD)  
+■ Acrylic Keychain (PALOW. Ver.)  
+■ Stickers (PALOW. Ver.)  
+■ Trading Card Set α (3 cards)  
+■ Rubber Wristband α  
+■ Messages for the album Mahou (by Kaf, Kanzaki Iori, and PIEDPIPER) ※Common to both "Mahou α" and "Mahou β"
+
+[Version Notes]  
+＊Mahou α (Ein Lied, um die Welt zu verändern. / A Song to Change the World): Features design and illustrations by illustrator PALOW.  
+＊Mahou β (Wer schön sein will, muss leiden. / Beauty requires suffering): Features design and illustrations by manga artist Usazaki Shiro.  
+＊The CD album Mahou, photo book Tomei 2, and album messages are identical in both versions. The design and contents of the other bonus items differ between the two versions.  
 
 ## Release and editions
 

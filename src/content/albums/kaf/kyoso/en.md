@@ -101,7 +101,15 @@ tracks:
 
 ## Overview
 
-KAF’s third studio album gathers works connected to “Kako o Kurau” and “Fukakai” alongside multiple tie-in songs; its α and β packages share the same tracklist.
+This is the third studio album by virtual singer Kaf. The tracklist features Tatoeba, an insert song for the film Pompo: The Cinéphile; Nihil, the theme song for the new school RPG game Monark; and Sore o Sekai to Iun dane, the second release in the entertainment novel label Kimi no Novel launch project.
+
+It also includes Umi ni Bakeru and Hito o Kidoru from the Kako o Kurau (Devouring the Past) trilogy, as well as Mikansoku and Kyō Kankaku from the Fukakai (Incomprehensible) trilogy. Furthermore, the album contains Uraomote Girl, a brand-new song written to commemorate Kaf's high school graduation, Kaigō (Encounter), and one previously untitled new track, bringing the total to 15 songs.
+
+All lyrics, composition, and arrangements for the entire album were handled exclusively by Kanzaki Iori. The cover art was freshly illustrated by PALOW, featuring two versions themed around the kanji characters "狂" (Crazy) and "想" (Thought) from the album title Kyōsō.
+The physical release comes in two packaging formats. In addition to the common CD Kyōsō, both versions include different bonus merchandise box sets (note: the CD tracklist is identical in both versions).
+
+[Box α Contents]
+CD Album Kyōsō α (tracklist is common with Box β), "Crazy for you" coin purse, acrylic keychain (Crazy ver.), MAD stickers, Natsume Eri illustration stickers, No Copyright Girl illustration stickers, C4U can badges, Gekko (rooster) can badges, and messages for the album Kyōsō (written by Kaf, Kanzaki Iori, and PIEDPIPER).
 
 ## Release and editions
 

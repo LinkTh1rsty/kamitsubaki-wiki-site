@@ -91,7 +91,8 @@ tracks:
 
 ## Overview
 
-The official remix companion to Kansoku, with thirteen creators each reworking one vocal track.
+This is a remix compilation featuring 13 artists, each providing a one-on-one remix for all 13 non-instrumental tracks from her debut album, Kansoku, which was released on September 11.The album brings together 13 prominent artists of the new generation. Alongside Guiano, Onuma Paseli, Misumi, and samayuzame from KAMITSUBAKI STUDIO, the lineup includes Picon, Haruno, Sasagawa Mao, Polyspicadilly, Rokuro, Niru Kajitsu, Tsumiki, Kasamura Tota, and syudou.
+Alongside the CD album Kansoku γ, the special box set includes a square notebook (64 pages), an audio drama Otogi-banashi -Dai Ni Maku- (Poetry CD), an acrylic keychain (穗竹藤丸 ver.), postcards (PALOW ver.), a sticker set γ (3 pieces), a can badge set γ (3 pieces), and messages about the album Kansoku γ written by the participating remix artists.
 
 ## Release and editions
 

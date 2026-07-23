@@ -112,5 +112,36 @@
       "ja": "世界平和なんて噓だ　皆一人ぼっちだ",
       "en": "世界平和なんて噓だ　皆一人ぼっちだ"
     }
+  },
+  {
+    "id": "kazane",
+    "enabled": true,
+    "collaboration": {
+      "zh": "宣传协力",
+      "ja": "広報協力",
+      "en": "Promotion support"
+    },
+    "name": "Kazane",
+    "avatar": "/images/contributors/kazane.png",
+    "contacts": [
+      {
+        "label": "QQ 20743692",
+        "href": "https://wpa.qq.com/msgrd?v=3&uin=20743692&site=qq&menu=yes"
+      },
+      {
+        "label": "邮箱：15133618038z@gmail.com",
+        "href": "mailto:15133618038z@gmail.com"
+      }
+    ],
+    "introduction": {
+      "zh": "喜欢一个作品，也想为它留下些什么。",
+      "ja": "喜欢一个作品，也想为它留下些什么。",
+      "en": "喜欢一个作品，也想为它留下些什么。"
+    },
+    "quote": {
+      "zh": "歌声が届く場所へ、想いも届きますように。",
+      "ja": "歌声が届く場所へ、想いも届きますように。",
+      "en": "歌声が届く場所へ、想いも届きますように。"
+    }
   }
 ]

@@ -291,6 +291,13 @@ test('manual collaborators use an independent local data file and summary-only s
   const xiaochi = data.find((contributor) => contributor.id === 'xiaochi');
   assert.deepEqual(new Set(Object.values(xiaochi.introduction)), new Set(['关注花谱喵关注花谱谢谢喵']));
   assert.deepEqual(new Set(Object.values(xiaochi.quote)), new Set(['世界平和なんて噓だ　皆一人ぼっちだ']));
+
+  const kazane = data.find((contributor) => contributor.id === 'kazane');
+  assert.equal(kazane.name, 'Kazane');
+  assert.equal(kazane.avatar, '/images/contributors/kazane.png');
+  assert.deepEqual(kazane.contacts.map(({ label }) => label), ['QQ 20743692', '邮箱：15133618038z@gmail.com']);
+  assert.deepEqual(new Set(Object.values(kazane.introduction)), new Set(['喜欢一个作品，也想为它留下些什么。']));
+  assert.deepEqual(new Set(Object.values(kazane.quote)), new Set(['歌声が届く場所へ、想いも届きますように。']));
 });
 
 test('contributor renderer builds honor wall cards, readable activity, and retry states', async () => {
