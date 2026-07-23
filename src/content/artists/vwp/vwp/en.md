@@ -89,6 +89,7 @@ This three-track creative structure allows V.W.P to maintain narrative coherence
 - **2021**: V.W.P officially formed; lineage song series released.
 - **March 2023**: Held 1st ONE-MAN LIVE "Phenomenon".
 - **January 2024**: Held 2nd ONE-MAN LIVE "Phenomenon II" at Yoyogi National Gymnasium. Released 1st Album *Unmei* the same year.
+- **March 27 2024**: Released 2nd Album *Kakusei*.
 - **November 2024**: Held "KAMITSUBAKI Makuhari Sensen: V.W.P 2nd ONE-MAN LIVE Phenomenon II (Re) -Majo Kakusei-" as the culmination of KAMITSUBAKI WARS 2024.
 - **January 2025**: Held SINKA LIVE SERIES EP.VI V.W.P 3rd ONE-MAN LIVE "Phenomenon III -Kamitsubaki City Under Exploration-".
 - **January 2026**: Released 3rd Album *Hanten*.
@@ -97,7 +98,7 @@ This three-track creative structure allows V.W.P to maintain narrative coherence
 
 ## Representative Works and Related Entries
 
-- Albums: *Unmei*, *Hanten*
+- Albums: *Unmei*,*Kakusei*, *Hanten*
 - Singles: "Domei," "Kirifuda," "Kanjou," "Himitsu," and more
 - Lineage song series: Core narrative songs defining each member's role
 - Derivative song series: Chemistry experiments through member combinations
