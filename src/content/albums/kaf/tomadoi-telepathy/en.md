@@ -51,7 +51,9 @@ tracks:
 
 ## Overview
 
-An EP centered on the 3.5D × docomo exhibition theme, including three official remixes and an instrumental.
+The new song "Tomadoi Telepathy" was produced as the theme song for the "HAYABUSA EXPERIENCE by 3.5D × docomo" exhibition, an event created in collaboration between Kaf and docomo to envision the upcoming 5G era.
+
+In addition to the original track, the release also includes remixes by popular Vocaloid producers Hiragi Kirai, Orangestar, and Ubumaigo.
 
 ## Release and editions
 
