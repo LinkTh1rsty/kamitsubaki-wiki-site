@@ -102,8 +102,11 @@ tracks:
 ## Overview
 
 This is a story of "loss" and "gain" that takes place somewhere in Japan.
+
 Released after a gap of 1 year and 9 months, Kaf's 4th album, Gūwa (Fable), marks her first release under a new system following the departure of her long-time collaborator and ally Kanzaki Iori, who had co-created songs with her since the beginning of her career, from KAMITSUBAKI STUDIO.
+
 For this album, PIEDPIPER, the producer at KAMITSUBAKI STUDIO, personally selected and invited multiple composers to participate. The jacket illustration is a brand-new piece by PALOW., themed around Kaf coexisting with numerous mysterious creatures in a forest.
+
 The physical release will be sold as a box set containing the CD album Gūwa, along with different bonus merchandise for the α and β versions. Please note that the tracklist on the CD is identical for both packages.
 
 ## Release and editions
