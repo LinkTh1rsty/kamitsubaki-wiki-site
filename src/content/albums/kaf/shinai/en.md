@@ -103,7 +103,10 @@ tracks:
 
 ## Overview
 
-KAF’s fifth studio album links to the novel Camus no Uta-dori and the concert Shukusei / Shinai, using fifteen tracks to examine human feeling in an AI-shaped future.
+Virtual singer Kaf's 5th original album.
+This release features a total of 15 tracks that tie in with the novel Camus no Uta-dori Kaf Shōsetsu-shū (written by Tsugumi Nakamura) and her solo live concert "Shukusei / Shin'ai," which will be held at Pia Arena MM on March 1st.
+This album depicts a future world progressing alongside AI, as well as the shifting of human hearts. Through its collaboration with the novel Camus no Uta-dori Kaf Shōsetsu-shū, fans can enjoy the distinct yet interconnected worldviews.
+The jacket illustration is a brand-new piece drawn exclusively for this release by PALOW. The album will be released in a total of four formats: a Deluxe Special Box, two One Piece Box versions (α and β), and a standard CD edition.
 
 ## Release and editions
 
