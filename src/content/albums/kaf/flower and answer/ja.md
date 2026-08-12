@@ -2,14 +2,14 @@
 locale: ja
 translationKey: kaf_flower_and_answer
 title: "花と解答"
-romanizedTitle: "Guuwa Gamma"
+romanizedTitle: "Hana to Kaitou"
 artist: 花譜
-type: "リミックスアルバム"
-description: "『寓話』の歌唱曲13曲を、それぞれ異なるクリエイターが再構築した公式リミックスアルバム。"
-releaseDate: "2025-07-16"
-label: "PHENOMENON RECORD"
-catalogNumber: "KTR-0203"
-trackCount: 13
+type: "EP"
+description: "花譜2nd EP「花と解答」。"
+releaseDate: "2020-07-22"
+label: "KAMITSUBAKI RECORD"
+catalogNumber: "KTR-014"
+trackCount: 6
 duration: "51:25"
 categoryTitle: "アルバム"
 categorySubtitle: ALBUMS
@@ -50,46 +50,19 @@ tracks:
     title: "ホワイトブーケ(Saku Remix)"
     duration: "03:58"
     songId: "kaf/remixes/ホワイトブーケ(Saku-Remix)-white-bouquet-saku-remix"
-  -
-    number: "7"
-    title: "黄金の木(パソコン音楽クラブ Remix)"
-    duration: "04:54"
-    songId: "kaf/remixes/黄金の木(パソコン音楽クラブ-Remix)-tree-of-gold-pasocom-music-club-remix"
-  -
-    number: "8"
-    title: "ダンダラボッチ(3R2 Remix)"
-    duration: "03:29"
-    songId: "kaf/remixes/ダンダラボッチ(3R2-Remix)-dandarabotchi-3r2-remix"
-  -
-    number: "9"
-    title: "ゲシュタルト(おとめ Remix)"
-    duration: "03:54"
-    songId: "kaf/remixes/ゲシュタルト(おとめ-Remix)-gestalt-otome-remix"
-  -
-    number: "10"
-    title: "カルぺ・ディエム(駱駝法師 Remix)"
-    duration: "04:15"
-    songId: "kaf/remixes/カルぺ・ディエム(駱駝法師-Remix)-carpe-diem-rakudaboshi-remix"
-  -
-    number: "11"
-    title: "スワン(cosMo@暴走P Remix)"
-    duration: "03:24"
-    songId: "kaf/remixes/スワン(cosMo-暴走P-Remix)-swan-cosmo-bousou-p-remix"
-  -
-    number: "12"
-    title: "代替嬉々(TORIENA Remix)"
-    duration: "04:54"
-    songId: "kaf/remixes/代替嬉々(TORIENA-Remix)-positive-substitution-toriena-remix"
-  -
-    number: "13"
-    title: "Replaceable Goodbye(KAIRUI Remix)"
-    duration: "06:13"
-    songId: "kaf/remixes/replaceable-goodbye-kairui-remix"
 ---
 
 ## 作品概要
 
-『寓話』の歌唱曲13曲を、それぞれ異なるクリエイターが再構築した公式リミックスアルバム。
+花譜2nd EP「花と解答」。
+
+「花と解答」は、「アンサー」「景色」「危ノーマル」の3曲が収録されたEP。
+
+「アンサー」はテレビアニメ「ブラッククローバー」第11クールエンディングテーマ、「危ノーマル」は超没入エナジードリンク「ZONe」のIMMERSIVE SONG PROJECTとのコラボ楽曲となっている。全曲、作詞 / 作曲 / 編曲はボカロPのカンザキイオリが担当。次作、「戸惑いテレパシー」に続いて、バラードからアッパーなロックチューンなど、花譜の新たな魅力が詰まった1枚となっている。
+
+パッケージは2形態での発売となり、PALOW.氏のイラストによるオリジナルEditionはFINDME STORE限定発売、
+
+ブラッククローバーEditionはテレビアニメ「ブラッククローバー」の主人公のアスタと花譜がコラボした描き下ろしイラストとなっており、全国のアニメイト限定で発売中。
 
 ## リリースと仕様
 
@@ -104,3 +77,4 @@ tracks:
 
 - [Apple Music](https://music.apple.com/jp/album/%E5%AF%93%E8%A9%B1%CE%B3-remix/1823861900?uo=4)
 - [VGMdb 花譜ディスコグラフィー](https://vgmdb.net/artist/34690)
+- [花譜オフィシャルサイト](https://kaf.kamitsubaki.jp/discography/20190515/90/)
