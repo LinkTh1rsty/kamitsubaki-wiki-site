@@ -6,7 +6,7 @@ artist: "花譜"
 artistId: kaf
 composer: "カンザキイオリ"
 lyricist: "カンザキイオリ"
-album: "魔法"
+album: "花と解答/魔法"
 duration: "04:48"
 releaseDate: "2020-11-25"
 categoryTitle: "オリジナル曲"
