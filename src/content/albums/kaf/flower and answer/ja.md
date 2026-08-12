@@ -1,7 +1,7 @@
 ---
 locale: ja
-translationKey: kaf_guwa_gamma
-title: "寓話γ"
+translationKey: kaf_flower_and_answer
+title: "花と解答"
 romanizedTitle: "Guuwa Gamma"
 artist: 花譜
 type: "リミックスアルバム"
