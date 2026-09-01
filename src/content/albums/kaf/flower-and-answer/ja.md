@@ -17,6 +17,8 @@ categoryOrder: 1
 itemOrder: 20
 image: /images/songs/kaf/hana-to-kaitou.jpg
 officialLinks:
+  - label: "花譜オフィシャルサイト"
+    href: https://kaf.kamitsubaki.jp/discography/20200722/111/
   - label: "Apple Music 日本"
     href: https://music.apple.com/jp/album/%E5%AF%93%E8%A9%B1%CE%B3-remix/1823861900?uo=4
 tracks:
