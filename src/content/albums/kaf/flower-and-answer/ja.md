@@ -10,12 +10,12 @@ releaseDate: "2020-07-22"
 label: "KAMITSUBAKI RECORD"
 catalogNumber: "KTR-014"
 trackCount: 6
-duration: "51:25"
+duration: "20:22"
 categoryTitle: "アルバム"
 categorySubtitle: ALBUMS
 categoryOrder: 1
-itemOrder: 3
-image: /images/albums/kaf/guwa-gamma.jpg
+itemOrder: 20
+image: /images/songs/kaf/hana-to-kaitou.jpg
 officialLinks:
   - label: "Apple Music 日本"
     href: https://music.apple.com/jp/album/%E5%AF%93%E8%A9%B1%CE%B3-remix/1823861900?uo=4
@@ -77,4 +77,4 @@ tracks:
 
 - [Apple Music](https://music.apple.com/jp/album/%E5%AF%93%E8%A9%B1%CE%B3-remix/1823861900?uo=4)
 - [VGMdb 花譜ディスコグラフィー](https://vgmdb.net/artist/34690)
-- [花譜オフィシャルサイト](https://kaf.kamitsubaki.jp/discography/20190515/90/)
+- [花譜オフィシャルサイト](https://kaf.kamitsubaki.jp/discography/20200722/111/)
