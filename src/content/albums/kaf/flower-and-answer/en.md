@@ -54,7 +54,7 @@ tracks:
     songId: "kaf/remixes/ホワイトブーケ(Saku-Remix)-white-bouquet-saku-remix"
 ---
 
-## 作品概要
+## Overview
 
 Kafu 2nd EP "Hana to Kaitou" (Flowers and Answers).
 
@@ -67,10 +67,6 @@ Telepathy," this EP is packed with Kafu's new appeal, ranging from ballads to up
 The package was released in 2 formats — the Original Edition featuring illustrations by PALOW. was exclusively available at the FINDME STORE,
 while the Black Clover Edition features newly commissioned artwork depicting a collaboration between Asta, the protagonist of the TV anime Black Clover, and Kafu, 
 and was released exclusively at Animate stores nationwide.
-
-## Overview
-
-KAF’s first digital EP collects three songs that define the opening phase of her career.
 
 ## Release and editions
 
