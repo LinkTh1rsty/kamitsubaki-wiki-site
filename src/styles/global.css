@@ -266,6 +266,9 @@ html[data-theme='light'] .artist-bg__veil {
   position: relative;
   width: min(100%, 48rem);
   min-height: 23rem;
+  max-height: min(calc(100dvh - 4rem), 44rem);
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   border: 1px solid rgb(var(--theme-accent-rgb) / 0.38);
   background:
@@ -347,6 +350,17 @@ html[data-theme='light'] .artist-bg__veil {
   border-color: var(--theme-accent-color);
   background: var(--theme-accent-color);
   color: var(--theme-bg);
+}
+
+.announcement-modal__panel a {
+  color: var(--theme-accent-color);
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+  transition: opacity 0.2s ease;
+}
+
+.announcement-modal__panel a:hover {
+  opacity: 0.72;
 }
 
 .announcement-launcher {
@@ -3473,6 +3487,7 @@ html[data-theme='light'] .guide-shell {
 }
 
 /* --- AI Chat Sidebar (Kamitsubaki HUD) --- */
+.ai-auth-callback-toast{position:fixed;top:1.25rem;right:1.25rem;z-index:1000001;max-width:min(24rem,calc(100vw - 2.5rem));border:1px solid rgb(var(--theme-fg-rgb)/.18);border-left:2px solid var(--wiki-accent-color);background:var(--theme-panel-solid);color:var(--theme-fg);padding:.85rem 1rem;font:500 .68rem/1.55 var(--font-mono);letter-spacing:.04em;box-shadow:0 16px 50px rgb(0 0 0/.28);opacity:0;transform:translateY(-.5rem);transition:opacity .22s ease,transform .22s ease}.ai-auth-callback-toast.is-error{border-left-color:#d47a8d}.ai-auth-callback-toast.is-visible{opacity:1;transform:none}
 .ai-chat {
   --ai-bg: var(--theme-bg);
   --ai-surface: rgb(var(--theme-bg-rgb) / 0.9);

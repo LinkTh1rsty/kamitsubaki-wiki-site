@@ -8,6 +8,7 @@ import SiteNav from '../../../components/SiteNav.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
 import WikiArticleHeader from '../../../components/WikiArticleHeader.astro';
 import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
+import MemoryCorridorEntryLink from '../../../components/MemoryCorridorEntryLink.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
@@ -107,6 +108,7 @@ const themeStyle = [
     <div class="mx-auto max-w-[92rem] px-4 pb-3 pt-17 sm:px-6 sm:pb-4 sm:pt-20 lg:pt-20">
       <div class="mb-4"><MusicSubnav locale={localeCode} current="albums" /></div>
       <WikiArticleHeader data={articleData} localeLinks={localeLinks} labels={articleLabels} sourceHref={sourceHref} homeHref={`/${localeCode}/`} />
+      <MemoryCorridorEntryLink locale={localeCode} kind="album" entryId={id!} />
     </div>
 
     <div class:list={[

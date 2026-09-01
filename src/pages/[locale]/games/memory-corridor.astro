@@ -1,0 +1,130 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteNav from '../../../components/SiteNav.astro';
+import { getLocalizedSite } from '../../../lib/homeData.mjs';
+import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
+
+export function getStaticPaths() {
+  return supportedLocales.map((locale) => ({ params: { locale } }));
+}
+
+const locale = (Astro.params.locale ?? defaultLocale) as 'zh' | 'ja' | 'en';
+const siteEntries = await getCollection('site');
+const homeContent = getLocalizedSite(siteEntries, locale, defaultLocale);
+const currentPath = '/games/memory-corridor';
+const localeLinks = buildLocaleLinks(homeContent, locale, currentPath);
+const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${code}${currentPath}` }));
+const copy = {
+  zh: {
+    title: '记忆回廊',
+    description: '包含记忆采集、条目传送与经典跑酷的像素档案探索游戏。',
+    label: 'THREE ARCHIVE ROUTES',
+  },
+  ja: {
+    title: '記憶回廊',
+    description: '記憶採集、記事転送、クラシックランの3モードを収録したピクセル探索ゲーム。',
+    label: 'THREE ARCHIVE ROUTES',
+  },
+  en: {
+    title: 'Memory Corridor',
+    description: 'A pixel archive game with memory hunts, entry portals, and the original runner.',
+    label: 'THREE ARCHIVE ROUTES',
+  },
+}[locale];
+---
+
+<BaseLayout
+  lang={locale}
+  alternates={alternates}
+  title={`${copy.title} - Kamitsubaki Studio Fan Wiki`}
+  metadata={{ title: copy.title, description: copy.description, canonicalPath: `/${locale}${currentPath}` }}
+>
+  <div class="memory-page">
+    <SiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} compact homeHref={`/${locale}/`} />
+    <main>
+      <div class="memory-page__rail" aria-hidden="true">
+        <span>{copy.label}</span>
+        <span>ARCHIVE / 01</span>
+      </div>
+      <iframe
+        id="memory-corridor-frame"
+        title={copy.title}
+        src={`/games/kamitsubaki-explorer/index.html?locale=${locale}`}
+        allow="autoplay"
+        loading="eager"
+      ></iframe>
+    </main>
+  </div>
+
+  <script is:inline define:vars={{ locale }}>
+    (() => {
+      const frame = document.querySelector('#memory-corridor-frame');
+      if (!(frame instanceof HTMLIFrameElement)) return;
+      const params = new URLSearchParams(window.location.search);
+      params.set('locale', locale);
+      frame.src = `/games/kamitsubaki-explorer/index.html?${params.toString()}`;
+    })();
+  </script>
+</BaseLayout>
+
+<style>
+  .memory-page {
+    min-height: 100dvh;
+    background: #030303;
+    color: #e8ece8;
+  }
+
+  .memory-page main {
+    position: relative;
+    min-height: 100dvh;
+    padding-top: 3.8rem;
+  }
+
+  .memory-page__rail {
+    position: absolute;
+    top: 3.8rem;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.42rem 1.25rem;
+    border-bottom: 1px solid #182723;
+    background: #030303;
+    color: #60736d;
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 0.52rem;
+    letter-spacing: 0.18em;
+    pointer-events: none;
+  }
+
+  .memory-page iframe {
+    display: block;
+    width: 100%;
+    height: calc(100dvh - 3.8rem);
+    border: 0;
+    background: #030303;
+  }
+
+  :global([data-social-contact]),
+  :global([data-ai-launcher]),
+  :global([data-ai-chat]) {
+    display: none !important;
+  }
+
+  @media (max-width: 640px) {
+    .memory-page main {
+      padding-top: 3.35rem;
+    }
+
+    .memory-page__rail {
+      top: 3.35rem;
+      padding-inline: 0.75rem;
+    }
+
+    .memory-page iframe {
+      height: calc(100dvh - 3.35rem);
+    }
+  }
+</style>

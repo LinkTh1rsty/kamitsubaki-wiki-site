@@ -4,6 +4,7 @@ import AnnouncementModal from '../../components/AnnouncementModal.astro';
 import AlbumsSection from '../../components/AlbumsSection.astro';
 import ArtistDatabase from '../../components/ArtistDatabase.astro';
 import ContributorRoster from '../../components/ContributorRoster.astro';
+import ExperiencePortals from '../../components/ExperiencePortals.astro';
 import Hero from '../../components/Hero.astro';
 import HomeSiteNav from '../../components/HomeSiteNav.astro';
 import LogSection from '../../components/LogSection.astro';
@@ -63,6 +64,7 @@ const metadata = buildHomeMetadata(homeContent, locale);
     <AnnouncementModal announcement={featuredAnnouncement} labels={announcementModalLabels} />
     <Hero hero={homeContent.hero} />
     <AboutSection content={homeContent.sections.about} />
+    <ExperiencePortals locale={locale} />
     <ArtistDatabase
       artistCategories={artistCategories}
       databaseJumpLinks={databaseJumpLinks}

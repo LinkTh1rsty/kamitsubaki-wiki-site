@@ -1,0 +1,2272 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#030303" />
+    <title>记忆回廊 · 小绿怪跑酷 Demo</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #030303;
+        --panel: #0f1419;
+        --fg: #f4f7f7;
+        --muted: #8fb0c2;
+        --accent: #89f5df;
+        --accent-rgb: 137, 245, 223;
+        --line: rgba(137, 245, 223, 0.32);
+        --safe-top: max(18px, env(safe-area-inset-top));
+        --safe-right: max(20px, env(safe-area-inset-right));
+        --safe-bottom: max(18px, env(safe-area-inset-bottom));
+        --safe-left: max(20px, env(safe-area-inset-left));
+        font-family:
+          Montserrat, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        background: var(--bg);
+      }
+
+      body {
+        color: var(--fg);
+        -webkit-tap-highlight-color: transparent;
+        user-select: none;
+      }
+
+      button {
+        font: inherit;
+      }
+
+      .game-shell {
+        position: relative;
+        width: 100%;
+        height: 100dvh;
+        min-height: 420px;
+        isolation: isolate;
+        overflow: hidden;
+        background: var(--bg);
+        touch-action: none;
+      }
+
+      canvas {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+
+      .game-shell::before,
+      .game-shell::after {
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        pointer-events: none;
+        content: "";
+      }
+
+      .game-shell::before {
+        opacity: 0;
+        background: none;
+      }
+
+      .game-shell::after {
+        background: none;
+      }
+
+      .hud {
+        position: absolute;
+        top: var(--safe-top);
+        right: var(--safe-right);
+        left: var(--safe-left);
+        z-index: 4;
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: start;
+        gap: 28px;
+        color: var(--fg);
+        text-shadow: 0 0 22px rgba(3, 3, 3, 0.9);
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        min-width: 0;
+      }
+
+      .brand-mark {
+        width: 5px;
+        height: 29px;
+        flex: none;
+        background: var(--accent);
+        box-shadow: 0 0 18px rgba(var(--accent-rgb), 0.45);
+      }
+
+      .brand-name {
+        overflow: hidden;
+        font-size: clamp(17px, 1.8vw, 26px);
+        font-weight: 500;
+        letter-spacing: 0.24em;
+        white-space: nowrap;
+      }
+
+      .metric {
+        display: grid;
+        gap: 5px;
+        min-width: 150px;
+      }
+
+      .metric--center {
+        text-align: center;
+      }
+
+      .metric--right {
+        justify-self: end;
+        text-align: right;
+      }
+
+      .metric-label {
+        color: rgba(244, 247, 247, 0.54);
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.24em;
+      }
+
+      .metric-value {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        font-size: clamp(17px, 1.65vw, 25px);
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.14em;
+      }
+
+      .hud-rule {
+        position: absolute;
+        top: calc(var(--safe-top) + 50px);
+        right: 0;
+        left: 0;
+        z-index: 3;
+        height: 1px;
+        background: var(--line);
+        pointer-events: none;
+      }
+
+      .resonance-line {
+        position: absolute;
+        top: calc(var(--safe-top) + 50px);
+        left: 0;
+        z-index: 4;
+        width: 0;
+        height: 2px;
+        background: var(--accent);
+        box-shadow: 0 0 18px rgba(var(--accent-rgb), 0.8);
+        opacity: 0;
+        transition: opacity 180ms ease;
+        pointer-events: none;
+      }
+
+      .game-shell.is-resonance .resonance-line {
+        opacity: 1;
+      }
+
+      .game-shell.is-resonance .brand-mark {
+        animation: resonance-pulse 720ms ease-in-out infinite alternate;
+      }
+
+      @keyframes resonance-pulse {
+        to {
+          box-shadow: 0 0 30px rgba(var(--accent-rgb), 0.95);
+        }
+      }
+
+      .overlay {
+        position: absolute;
+        inset: 0;
+        z-index: 5;
+        display: grid;
+        place-items: center;
+        padding: 100px 22px 88px;
+        pointer-events: none;
+      }
+
+      .overlay-panel {
+        grid-area: 1 / 1;
+        width: min(620px, 92vw);
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(12px);
+        transition:
+          opacity 280ms ease,
+          transform 420ms cubic-bezier(0.16, 1, 0.3, 1),
+          visibility 280ms;
+      }
+
+      .game-shell[data-state="ready"] .overlay-panel--ready,
+      .game-shell[data-state="gameover"] .overlay-panel--gameover,
+      .game-shell[data-state="complete"] .overlay-panel--complete,
+      .game-shell[data-state="paused"] .overlay-panel--paused,
+      .game-shell[data-state="loading"] .overlay-panel--loading {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+
+      .overlay-title {
+        margin: 0;
+        color: var(--fg);
+        font-size: clamp(38px, 7vw, 78px);
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 0.18em;
+        text-indent: 0.18em;
+        text-shadow:
+          0 0 40px rgba(3, 3, 3, 0.92),
+          0 0 22px rgba(var(--accent-rgb), 0.08);
+      }
+
+      .overlay-subtitle {
+        width: fit-content;
+        margin: 27px auto 0;
+        padding-top: 21px;
+        border-top: 1px solid rgba(var(--accent-rgb), 0.65);
+        color: var(--accent);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: clamp(12px, 1.4vw, 16px);
+        letter-spacing: 0.16em;
+        line-height: 1.7;
+      }
+
+      .overlay-result {
+        max-width: 620px;
+        margin: 18px 0 0;
+        color: rgba(244, 247, 247, 0.68);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 13px;
+        letter-spacing: 0.12em;
+      }
+
+      .overlay-note {
+        margin: 12px 0 0;
+        color: rgba(244, 247, 247, 0.42);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 10px;
+        letter-spacing: 0.12em;
+        line-height: 1.7;
+      }
+
+      .action-button {
+        position: relative;
+        min-width: 168px;
+        margin-top: 28px;
+        padding: 13px 25px;
+        overflow: hidden;
+        border: 1px solid rgba(var(--accent-rgb), 0.68);
+        border-radius: 0;
+        outline: none;
+        background: rgba(3, 3, 3, 0.58);
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.18em;
+        cursor: pointer;
+        transition:
+          color 180ms ease,
+          background-color 180ms ease,
+          box-shadow 180ms ease;
+      }
+
+      .action-button:hover,
+      .action-button:focus-visible {
+        background: var(--accent);
+        color: #07110f;
+        box-shadow: 0 0 26px rgba(var(--accent-rgb), 0.22);
+      }
+
+      .action-button:disabled {
+        cursor: wait;
+        opacity: 0.48;
+      }
+
+      .bottom-status {
+        position: absolute;
+        right: var(--safe-right);
+        bottom: var(--safe-bottom);
+        left: var(--safe-left);
+        z-index: 4;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 24px;
+        color: rgba(244, 247, 247, 0.48);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 10px;
+        letter-spacing: 0.12em;
+        pointer-events: none;
+      }
+
+      .memory-count {
+        color: rgba(137, 245, 223, 0.72);
+      }
+
+      .shield-pips {
+        display: inline-block;
+        min-width: 3.8em;
+        color: var(--muted);
+        letter-spacing: 0.08em;
+      }
+
+      .shield-pips.is-ready {
+        color: var(--accent);
+        animation: shield-ready 720ms steps(2, end) infinite;
+      }
+
+      @keyframes shield-ready {
+        50% {
+          color: var(--fg);
+        }
+      }
+
+      .combo-count {
+        position: absolute;
+        bottom: 18px;
+        left: 50%;
+        color: rgba(244, 247, 247, 0.42);
+        opacity: 0;
+        transform: translate(-50%, 4px);
+        transition:
+          opacity 160ms ease,
+          transform 160ms ease;
+      }
+
+      .combo-count.is-active {
+        color: var(--accent);
+        opacity: 1;
+        transform: translate(-50%, 0);
+      }
+
+      .game-tools {
+        position: absolute;
+        top: calc(var(--safe-top) + 66px);
+        right: var(--safe-right);
+        z-index: 7;
+        display: flex;
+        gap: 8px;
+      }
+
+      .tool-button {
+        min-width: 62px;
+        height: 30px;
+        padding: 0 10px;
+        border: 1px solid rgba(var(--accent-rgb), 0.24);
+        border-radius: 0;
+        outline: 0;
+        background: rgba(3, 3, 3, 0.52);
+        color: rgba(244, 247, 247, 0.6);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 9px;
+        letter-spacing: 0.1em;
+        cursor: pointer;
+        transition:
+          border-color 160ms ease,
+          color 160ms ease,
+          background-color 160ms ease;
+      }
+
+      .tool-button:hover,
+      .tool-button:focus-visible,
+      .tool-button[aria-pressed="true"] {
+        border-color: rgba(var(--accent-rgb), 0.7);
+        background: rgba(15, 20, 25, 0.84);
+        color: var(--accent);
+      }
+
+      .tool-button:disabled {
+        cursor: not-allowed;
+        opacity: 0.32;
+      }
+
+      .event-banner {
+        position: absolute;
+        top: 23%;
+        left: 50%;
+        z-index: 6;
+        min-width: 240px;
+        padding: 11px 18px;
+        border-top: 1px solid rgba(var(--accent-rgb), 0.7);
+        border-bottom: 1px solid rgba(var(--accent-rgb), 0.22);
+        background: rgba(3, 3, 3, 0.62);
+        color: var(--accent);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: clamp(11px, 1.2vw, 14px);
+        font-weight: 600;
+        letter-spacing: 0.18em;
+        text-align: center;
+        opacity: 0;
+        transform: translate(-50%, -8px);
+        transition:
+          opacity 180ms ease,
+          transform 260ms cubic-bezier(0.16, 1, 0.3, 1);
+        pointer-events: none;
+      }
+
+      .event-banner.is-visible {
+        opacity: 1;
+        transform: translate(-50%, 0);
+      }
+
+      .touch-hint {
+        display: none;
+      }
+
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      @media (max-width: 660px) {
+        .game-shell {
+          min-height: 100dvh;
+        }
+
+        .hud {
+          grid-template-columns: 1fr 1fr;
+          row-gap: 14px;
+        }
+
+        .brand {
+          grid-column: 1 / -1;
+        }
+
+        .brand-mark {
+          height: 23px;
+        }
+
+        .brand-name {
+          font-size: 16px;
+        }
+
+        .metric {
+          min-width: 0;
+        }
+
+        .metric--center {
+          text-align: left;
+        }
+
+        .metric--right {
+          text-align: right;
+        }
+
+        .hud-rule {
+          top: calc(var(--safe-top) + 90px);
+        }
+
+        .resonance-line {
+          top: calc(var(--safe-top) + 90px);
+        }
+
+        .game-tools {
+          top: calc(var(--safe-top) + 104px);
+        }
+
+        .tool-button {
+          min-width: 54px;
+          height: 28px;
+          padding: 0 8px;
+          font-size: 8px;
+        }
+
+        .overlay {
+          padding-top: 126px;
+        }
+
+        .overlay-title {
+          font-size: clamp(34px, 12vw, 54px);
+        }
+
+        .game-shell[data-state="ready"] .overlay-panel--ready,
+        .game-shell[data-state="paused"] .overlay-panel--paused,
+        .game-shell[data-state="gameover"] .overlay-panel--gameover,
+        .game-shell[data-state="complete"] .overlay-panel--complete {
+          transform: translateY(-34px);
+        }
+
+        .touch-hint {
+          display: inline;
+        }
+
+        .keyboard-hint {
+          display: none;
+        }
+
+        .bottom-status {
+          font-size: 9px;
+        }
+
+        .event-banner {
+          top: 25%;
+          min-width: 210px;
+        }
+
+        .overlay-result {
+          max-width: 340px;
+          margin-right: auto;
+          margin-left: auto;
+          font-size: 9px;
+          letter-spacing: 0.06em;
+          line-height: 1.7;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .overlay-panel,
+        .action-button {
+          transition: none;
+        }
+
+        .game-shell::before {
+          display: none;
+        }
+
+        .game-shell.is-resonance .brand-mark {
+          animation: none;
+        }
+      }
+
+      /* Pixel archive art direction */
+      :root {
+        --panel: #0b1010;
+        --fg: #e8ece8;
+        --muted: #60736d;
+        --line: #203a34;
+        font-family: "SFMono-Regular", "Noto Sans Mono CJK SC", "PingFang SC", monospace;
+      }
+
+      body {
+        image-rendering: pixelated;
+      }
+
+      .game-shell::before {
+        display: block;
+        inset: auto 0 0;
+        height: 18%;
+        opacity: 0.45;
+        background-image: none;
+        border-top: 2px solid #0b1513;
+      }
+
+      .game-shell::after {
+        display: none;
+      }
+
+      .hud {
+        align-items: center;
+        text-shadow: none;
+      }
+
+      .brand {
+        gap: 10px;
+      }
+
+      .brand-mark {
+        width: 8px;
+        height: 24px;
+        background: var(--accent);
+        box-shadow: 0 8px 0 #006b48;
+      }
+
+      .brand-name {
+        font-size: clamp(15px, 1.4vw, 21px);
+        font-weight: 700;
+        letter-spacing: 0.18em;
+      }
+
+      .metric {
+        gap: 3px;
+      }
+
+      .metric-label {
+        color: var(--muted);
+        font-size: 9px;
+      }
+
+      .metric-value {
+        color: var(--fg);
+        font-size: clamp(15px, 1.45vw, 22px);
+        font-weight: 700;
+      }
+
+      .hud-rule {
+        height: 2px;
+        background: none;
+        border-top: 2px dashed #203a34;
+      }
+
+      .resonance-line {
+        height: 4px;
+        background: var(--accent);
+        box-shadow: none;
+        transition: none;
+      }
+
+      .game-shell.is-resonance .brand-mark {
+        animation: pixel-pulse 480ms steps(2, end) infinite;
+      }
+
+      @keyframes pixel-pulse {
+        50% {
+          background: #e8ece8;
+          box-shadow: 0 8px 0 #ff4f64;
+        }
+      }
+
+      .overlay-panel {
+        width: min(560px, 90vw);
+        padding: 28px 30px 30px;
+        border: 2px solid #203a34;
+        background: #030303;
+        box-shadow: 8px 8px 0 #0b1010;
+        transform: translateY(8px);
+        transition: opacity 120ms steps(2, end), transform 120ms steps(2, end), visibility 120ms;
+      }
+
+      .overlay-title {
+        font-size: clamp(30px, 5.4vw, 58px);
+        font-weight: 800;
+        letter-spacing: 0.13em;
+        text-shadow: none;
+      }
+
+      .overlay-subtitle {
+        margin-top: 20px;
+        padding-top: 16px;
+        border-top: 2px dashed #37675c;
+        font-size: clamp(11px, 1.2vw, 14px);
+      }
+
+      .overlay-result,
+      .overlay-note {
+        color: var(--muted);
+      }
+
+      .action-button,
+      .tool-button {
+        border: 2px solid #37675c;
+        background: #030303;
+        box-shadow: 4px 4px 0 #0b1010;
+        transition: none;
+      }
+
+      .action-button:hover,
+      .action-button:focus-visible,
+      .tool-button:hover,
+      .tool-button:focus-visible,
+      .tool-button[aria-pressed="true"] {
+        border-color: var(--accent);
+        background: #0b1010;
+        color: var(--accent);
+        box-shadow: 4px 4px 0 #006b48;
+      }
+
+      .bottom-status {
+        color: var(--muted);
+      }
+
+      .memory-count,
+      .combo-count.is-active {
+        color: var(--accent);
+      }
+
+      .event-banner {
+        padding: 10px 16px;
+        border: 2px solid var(--accent);
+        background: #030303;
+        box-shadow: 5px 5px 0 #006b48;
+        transform: translate(-50%, -6px);
+        transition: opacity 100ms steps(2, end), transform 100ms steps(2, end);
+      }
+
+      .event-banner.is-visible {
+        transform: translate(-50%, 0);
+      }
+
+      .wiki-context {
+        position: absolute;
+        top: calc(var(--safe-top) + 66px);
+        left: var(--safe-left);
+        z-index: 7;
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 9px;
+        max-width: min(48vw, 540px);
+        min-height: 30px;
+        padding: 5px 8px;
+        border: 2px solid #203a34;
+        background: #030303;
+        color: var(--muted);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 9px;
+        letter-spacing: 0.1em;
+      }
+
+      .wiki-context[hidden] {
+        display: none;
+      }
+
+      .wiki-context span {
+        color: var(--accent);
+      }
+
+      .wiki-context strong {
+        overflow: hidden;
+        color: var(--fg);
+        font-weight: 600;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .wiki-context a,
+      .result-links a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .wiki-context a:hover,
+      .wiki-context a:focus-visible,
+      .result-links a:hover,
+      .result-links a:focus-visible {
+        color: var(--fg);
+        outline: none;
+      }
+
+      .result-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 18px;
+        margin-top: 17px;
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 10px;
+        letter-spacing: 0.1em;
+      }
+
+      .result-links[hidden] {
+        display: none;
+      }
+
+      .clue-panel {
+        position: absolute;
+        top: calc(var(--safe-top) + 110px);
+        left: var(--safe-left);
+        z-index: 6;
+        width: min(430px, calc(100vw - var(--safe-left) - var(--safe-right)));
+        padding: 9px 11px 10px;
+        border: 2px solid #203a34;
+        background: rgba(3, 3, 3, 0.92);
+        box-shadow: 5px 5px 0 #0b1010;
+        color: var(--muted);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 9px;
+        letter-spacing: 0.08em;
+        transition: opacity 100ms steps(2, end);
+      }
+
+      .clue-panel[hidden],
+      .game-shell:not([data-state="running"]) .clue-panel {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .clue-panel__head {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        color: var(--accent);
+      }
+
+      .clue-panel ol {
+        display: grid;
+        gap: 4px;
+        margin: 7px 0 0;
+        padding: 7px 0 0 18px;
+        border-top: 1px dashed #203a34;
+      }
+
+      .clue-panel li {
+        color: var(--fg);
+      }
+
+      .clue-panel li.is-locked {
+        color: #52605d;
+      }
+
+      .route-decision {
+        position: absolute;
+        inset: 0;
+        z-index: 12;
+        display: grid;
+        place-items: center;
+        padding: 110px 22px 70px;
+        background: rgba(3, 3, 3, 0.78);
+      }
+
+      .route-decision[hidden] {
+        display: none;
+      }
+
+      .route-decision__panel {
+        width: min(640px, 94vw);
+        padding: 24px;
+        border: 2px solid var(--accent);
+        background: #030303;
+        box-shadow: 8px 8px 0 #006b48;
+        color: var(--fg);
+        text-align: center;
+      }
+
+      .route-decision__label {
+        margin: 0;
+        color: var(--accent);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 10px;
+        letter-spacing: 0.16em;
+      }
+
+      .route-decision h2 {
+        margin: 13px 0 0;
+        font-size: clamp(24px, 4vw, 38px);
+        letter-spacing: 0.12em;
+      }
+
+      .route-decision__facts {
+        display: grid;
+        gap: 5px;
+        margin: 16px auto 0;
+        padding: 13px 0;
+        border-top: 1px dashed #37675c;
+        border-bottom: 1px dashed #37675c;
+        color: var(--muted);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 10px;
+        line-height: 1.7;
+        list-style: none;
+      }
+
+      .route-decision__choices {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 18px;
+      }
+
+      .route-choice {
+        min-height: 66px;
+        padding: 10px 12px;
+        border: 2px solid #37675c;
+        background: #030303;
+        box-shadow: 4px 4px 0 #0b1010;
+        color: var(--fg);
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 11px;
+        line-height: 1.5;
+        cursor: pointer;
+      }
+
+      .route-choice:hover,
+      .route-choice:focus-visible {
+        border-color: var(--accent);
+        color: var(--accent);
+        outline: none;
+        box-shadow: 4px 4px 0 #006b48;
+      }
+
+      .memory-path {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        margin-top: 16px;
+        font-family: "SFMono-Regular", Consolas, monospace;
+        font-size: 10px;
+        line-height: 1.6;
+      }
+
+      .memory-path a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .memory-path a[data-correct="false"] {
+        color: #ff8aa2;
+        text-decoration: line-through;
+      }
+
+      @media (max-width: 660px) {
+        .overlay-panel {
+          padding: 22px 18px 24px;
+          box-shadow: 5px 5px 0 #0b1010;
+        }
+
+        .brand-mark {
+          height: 18px;
+          box-shadow: 0 6px 0 #006b48;
+        }
+
+        .bottom-status {
+          letter-spacing: 0.05em;
+        }
+
+        .wiki-context {
+          top: calc(var(--safe-top) + 104px);
+          right: var(--safe-right);
+          max-width: none;
+          font-size: 8px;
+        }
+
+        .game-tools {
+          top: calc(var(--safe-top) + 142px);
+        }
+
+        .clue-panel {
+          right: var(--safe-right);
+          top: calc(var(--safe-top) + 180px);
+          width: auto;
+          font-size: 8px;
+        }
+
+        .route-decision {
+          padding: 148px 14px 70px;
+        }
+
+        .route-decision__panel {
+          padding: 18px 14px 20px;
+          box-shadow: 5px 5px 0 #006b48;
+        }
+
+        .route-decision__choices {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="game-shell" id="gameShell" data-state="loading">
+      <canvas id="gameCanvas" aria-label="记忆回廊跑酷游戏"></canvas>
+
+      <header class="hud" aria-label="游戏数据">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">记忆回廊</span>
+        </div>
+        <div class="metric metric--center">
+          <span class="metric-label">距离</span>
+          <span class="metric-value"><span id="distance">00000</span> M</span>
+        </div>
+        <div class="metric metric--right">
+          <span class="metric-label">最高</span>
+          <span class="metric-value"><span id="best">00000</span> M</span>
+        </div>
+      </header>
+      <div class="hud-rule" aria-hidden="true"></div>
+      <div class="resonance-line" id="resonanceLine" aria-hidden="true"></div>
+
+      <nav class="game-tools" aria-label="游戏控制">
+        <button class="tool-button" id="soundButton" type="button" aria-pressed="true">音效 开</button>
+        <button class="tool-button" id="pauseButton" type="button" aria-pressed="false">暂停 P</button>
+      </nav>
+
+      <div class="wiki-context" id="wikiContext" hidden>
+        <span id="wikiContextLabel">WIKI 档案</span>
+        <strong id="wikiContextTitle"></strong>
+        <a id="wikiContextReturn" href="/zh/" target="_top">返回条目</a>
+      </div>
+
+      <div class="event-banner" id="eventBanner" role="status" aria-live="polite"></div>
+
+      <aside class="clue-panel" id="cluePanel" hidden aria-label="档案修复线索">
+        <div class="clue-panel__head">
+          <span id="routeProgress">ROUTE 01 / 03</span>
+          <span id="routeCurrent">---</span>
+        </div>
+        <ol id="routeClues">
+          <li class="is-locked">SIGNAL LOCKED</li>
+          <li class="is-locked">SIGNAL LOCKED</li>
+          <li class="is-locked">SIGNAL LOCKED</li>
+        </ol>
+      </aside>
+
+      <section class="route-decision" id="routeDecision" hidden aria-label="档案关联判定">
+        <div class="route-decision__panel">
+          <p class="route-decision__label">ARCHIVE RELATION CHECK</p>
+          <h2>这些线索属于哪个关联档案？</h2>
+          <ul class="route-decision__facts" id="decisionFacts"></ul>
+          <div class="route-decision__choices" id="routeChoices"></div>
+        </div>
+      </section>
+
+      <div class="overlay">
+        <section class="overlay-panel overlay-panel--loading" aria-label="资源加载中">
+          <h1 class="overlay-title">正在接入</h1>
+          <p class="overlay-subtitle">读取记忆档案…</p>
+        </section>
+
+        <section class="overlay-panel overlay-panel--ready" aria-label="开始游戏">
+          <h1 class="overlay-title">记忆回廊</h1>
+          <p class="overlay-subtitle">
+            <span class="keyboard-hint">点击 / 空格键跳跃</span>
+            <span class="touch-hint">轻触屏幕跳跃</span>
+          </p>
+          <p class="overlay-note">收集 3 条真实 Wiki 线索 · 判定关联条目 · 修复 3 段记忆路线</p>
+          <button class="action-button" id="startButton" type="button">开始奔跑</button>
+        </section>
+
+        <section class="overlay-panel overlay-panel--paused" aria-label="游戏暂停">
+          <h1 class="overlay-title">档案冻结</h1>
+          <p class="overlay-subtitle">按 P / 点击继续</p>
+          <button class="action-button" id="resumeButton" type="button">继续奔跑</button>
+        </section>
+
+        <section class="overlay-panel overlay-panel--gameover" aria-label="游戏结束">
+          <h1 class="overlay-title">记忆中断</h1>
+          <p class="overlay-subtitle">档案片段发生碰撞</p>
+          <p class="overlay-result" id="resultText">本次距离 00000 M · 收集 0</p>
+          <div class="memory-path" id="resultPath"></div>
+          <div class="result-links" id="resultLinks" hidden>
+            <a id="resultReturnLink" href="/zh/" target="_top">返回 Wiki 条目</a>
+            <a id="resultRelatedLink" href="/zh/" target="_top">探索关联档案</a>
+          </div>
+          <button class="action-button" id="restartButton" type="button">再次奔跑</button>
+        </section>
+
+        <section class="overlay-panel overlay-panel--complete" aria-label="档案修复完成">
+          <h1 class="overlay-title">档案修复完成</h1>
+          <p class="overlay-subtitle">记忆路径已写入观测记录</p>
+          <p class="overlay-result" id="completeText">完成 3 次关联判定</p>
+          <div class="memory-path" id="completePath"></div>
+          <button class="action-button" id="completeRestartButton" type="button">生成新路线</button>
+        </section>
+      </div>
+
+      <footer class="bottom-status" aria-hidden="true">
+        <span id="systemStatus">SYSTEM / STANDBY</span>
+        <span class="combo-count" id="comboStatus">COMBO × 1</span>
+        <span class="memory-count">碎片 × <span id="memoryCount">0</span> · 护盾 <span class="shield-pips" id="shieldStatus">□□□</span></span>
+      </footer>
+
+      <p class="sr-only" id="liveStatus" aria-live="polite"></p>
+    </main>
+
+    <script>
+      (() => {
+        "use strict";
+
+        const shell = document.querySelector("#gameShell");
+        const canvas = document.querySelector("#gameCanvas");
+        const ctx = canvas.getContext("2d", { alpha: false });
+        const distanceNode = document.querySelector("#distance");
+        const bestNode = document.querySelector("#best");
+        const memoryNode = document.querySelector("#memoryCount");
+        const statusNode = document.querySelector("#systemStatus");
+        const resultNode = document.querySelector("#resultText");
+        const liveNode = document.querySelector("#liveStatus");
+        const startButton = document.querySelector("#startButton");
+        const restartButton = document.querySelector("#restartButton");
+        const resumeButton = document.querySelector("#resumeButton");
+        const pauseButton = document.querySelector("#pauseButton");
+        const soundButton = document.querySelector("#soundButton");
+        const comboNode = document.querySelector("#comboStatus");
+        const shieldNode = document.querySelector("#shieldStatus");
+        const eventBanner = document.querySelector("#eventBanner");
+        const resonanceLine = document.querySelector("#resonanceLine");
+        const wikiContextNode = document.querySelector("#wikiContext");
+        const wikiContextLabelNode = document.querySelector("#wikiContextLabel");
+        const wikiContextTitleNode = document.querySelector("#wikiContextTitle");
+        const wikiContextReturnNode = document.querySelector("#wikiContextReturn");
+        const resultLinksNode = document.querySelector("#resultLinks");
+        const resultReturnNode = document.querySelector("#resultReturnLink");
+        const resultRelatedNode = document.querySelector("#resultRelatedLink");
+        const cluePanelNode = document.querySelector("#cluePanel");
+        const routeProgressNode = document.querySelector("#routeProgress");
+        const routeCurrentNode = document.querySelector("#routeCurrent");
+        const routeCluesNode = document.querySelector("#routeClues");
+        const routeDecisionNode = document.querySelector("#routeDecision");
+        const decisionFactsNode = document.querySelector("#decisionFacts");
+        const routeChoicesNode = document.querySelector("#routeChoices");
+        const resultPathNode = document.querySelector("#resultPath");
+        const completePathNode = document.querySelector("#completePath");
+        const completeTextNode = document.querySelector("#completeText");
+        const completeRestartButton = document.querySelector("#completeRestartButton");
+
+        const STORAGE_KEY = "kamitsubaki-memory-corridor-best-v1";
+        const SOUND_STORAGE_KEY = "kamitsubaki-memory-corridor-sound-v1";
+        const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+        const DPR_LIMIT = 2;
+        const RESONANCE_DURATION = 10;
+        const SHIELD_COST = 3;
+        const COYOTE_WINDOW = 0.12;
+        const JUMP_BUFFER_WINDOW = 0.14;
+
+        const imageSpecs = {
+          background: ["assets/memory-corridor-pixel-bg.png"],
+          objects: ["assets/archive-objects-pixel.png"],
+          idle: ["assets/creature-idle.png", 125, 71, 252, 306],
+          runA: ["assets/creature-run-a.png", 66, 80, 368, 326],
+          runB: ["assets/creature-run-b.png", 130, 83, 235, 309],
+          turn: ["assets/creature-turn.png", 135, 80, 220, 311],
+          jump: ["assets/creature-jump.png", 151, 103, 208, 286],
+        };
+
+        const objectSources = {
+          low: { sx: 133, sy: 398, sw: 436, sh: 194, ratio: 2.25 },
+          tall: { sx: 715, sy: 134, sw: 224, sh: 458, ratio: 0.49 },
+          spikes: { sx: 1100, sy: 374, sw: 325, sh: 217, ratio: 1.5 },
+          crystal: { sx: 1600, sy: 225, sw: 260, sh: 360, ratio: 0.72 },
+        };
+
+        const images = {};
+        const world = {
+          width: 0,
+          height: 0,
+          groundY: 0,
+          state: "loading",
+          elapsed: 0,
+          distance: 0,
+          best: readBest(),
+          memory: 0,
+          speed: 0,
+          baseSpeed: 360,
+          spawnIn: 1.4,
+          crystalIn: 2.5,
+          lastTime: performance.now(),
+          lastHudMeter: -1,
+          flash: 0,
+          shake: 0,
+          combo: 0,
+          maxCombo: 0,
+          comboTimer: 0,
+          nearMisses: 0,
+          resonanceTime: 0,
+          nextResonance: 120,
+          easter404: false,
+          bannerTime: 0,
+          shieldCharge: 0,
+          shieldActive: false,
+          invulnerable: 0,
+          stage: 0,
+          lastObstacleType: "",
+          shieldSaves: 0,
+          routeFragments: 0,
+          routeSpawned: 0,
+          routeRound: 0,
+          wrongChoices: 0,
+          corruptionTime: 0,
+        };
+
+        const player = {
+          x: 0,
+          y: 0,
+          width: 82,
+          height: 108,
+          vy: 0,
+          onGround: true,
+          landing: 0,
+          runClock: 0,
+          jumpHeld: false,
+          coyoteTime: 0,
+          jumpBuffer: 0,
+        };
+
+        let obstacles = [];
+        let crystals = [];
+        let particles = [];
+        let animationFrame = 0;
+        let audioContext = null;
+        let soundEnabled = readSoundPreference();
+        let wikiSource = null;
+        let wikiCatalog = [];
+        let wikiCatalogByKey = new Map();
+        let routeCurrent = null;
+        let routeStep = null;
+        let memoryPath = [];
+        let routeChoiceItems = [];
+
+        const query = new URLSearchParams(window.location.search);
+        const wikiLocale = ["zh", "ja", "en"].includes(query.get("locale")) ? query.get("locale") : "zh";
+        const wikiCopy = {
+          zh: { context: "WIKI 档案", back: "返回条目", resultBack: "返回 Wiki 条目", related: "探索关联档案", locked: "信号未恢复", route: "记忆路径", correct: "关联确认", wrong: "档案污染", complete: "三段关系已修复" },
+          ja: { context: "WIKI 記事", back: "記事へ戻る", resultBack: "Wiki 記事へ戻る", related: "関連記録を探す", locked: "信号未復元", route: "記憶経路", correct: "関連確認", wrong: "記録汚染", complete: "3 件の関連を復元" },
+          en: { context: "WIKI ENTRY", back: "RETURN", resultBack: "RETURN TO WIKI", related: "EXPLORE RELATED", locked: "SIGNAL LOCKED", route: "MEMORY ROUTE", correct: "RELATION VERIFIED", wrong: "ARCHIVE CORRUPTED", complete: "THREE RELATIONS RESTORED" },
+        }[wikiLocale];
+
+        bestNode.textContent = formatMeters(world.best);
+        updateSoundButton();
+        loadWikiContext();
+
+        async function loadWikiContext() {
+          const sourceKind = query.get("sourceKind");
+          const sourceId = query.get("sourceId");
+          if (!sourceKind || !sourceId) return;
+
+          try {
+            const response = await fetch(`/${wikiLocale}/game-index.json`);
+            if (!response.ok) return;
+            const catalog = await response.json();
+            const source = catalog.items.find((item) => item.kind === sourceKind && item.id === sourceId);
+            if (!source) return;
+
+            wikiCatalog = catalog.items;
+            wikiCatalogByKey = new Map(wikiCatalog.map((item) => [gameItemKey(item), item]));
+            wikiSource = source;
+            routeCurrent = source;
+            memoryPath = [{ ...source, correct: true }];
+            prepareRouteStep();
+            renderCluePanel();
+            document.documentElement.style.setProperty("--accent", source.accentColor || "#89f5df");
+            wikiContextLabelNode.textContent = wikiCopy.context;
+            wikiContextTitleNode.textContent = source.title;
+            wikiContextReturnNode.textContent = wikiCopy.back;
+            wikiContextReturnNode.href = source.href;
+            resultReturnNode.textContent = wikiCopy.resultBack;
+            resultReturnNode.href = source.href;
+            const related = source.connections?.map((key) => wikiCatalogByKey.get(key)).find(Boolean);
+            if (related) {
+              resultRelatedNode.textContent = `${wikiCopy.related} / ${related.title}`;
+              resultRelatedNode.href = related.href;
+            } else {
+              resultRelatedNode.hidden = true;
+            }
+            wikiContextNode.hidden = false;
+            resultLinksNode.hidden = false;
+          } catch {
+            // The runner also works as a standalone page when the Wiki index is unavailable.
+          }
+        }
+
+        function gameItemKey(item) {
+          return `${item.kind}:${item.id}`;
+        }
+
+        function randomItem(items) {
+          return items[Math.floor(Math.random() * items.length)];
+        }
+
+        function prepareRouteStep() {
+          if (!routeCurrent || wikiCatalog.length === 0) {
+            routeStep = null;
+            return;
+          }
+
+          const visited = new Set(memoryPath.map(gameItemKey));
+          const connectionKeys = new Set(routeCurrent.connections || []);
+          const connected = (routeCurrent.connections || [])
+            .map((key) => wikiCatalogByKey.get(key))
+            .filter((item) => item && !visited.has(gameItemKey(item)));
+          const fallbackConnected = wikiCatalog.filter((item) =>
+            gameItemKey(item) !== gameItemKey(routeCurrent) && item.relatedKey === routeCurrent.relatedKey,
+          );
+          const target = randomItem(connected.length > 0 ? connected : fallbackConnected);
+          if (!target) {
+            routeStep = null;
+            return;
+          }
+
+          const distractors = wikiCatalog.filter((item) =>
+            gameItemKey(item) !== gameItemKey(target)
+            && gameItemKey(item) !== gameItemKey(routeCurrent)
+            && item.kind === target.kind
+            && !connectionKeys.has(gameItemKey(item)),
+          );
+          const broadDistractors = wikiCatalog.filter((item) =>
+            gameItemKey(item) !== gameItemKey(target) && gameItemKey(item) !== gameItemKey(routeCurrent),
+          );
+          const distractor = randomItem(distractors.length > 0 ? distractors : broadDistractors);
+          const facts = [...(target.facts || [])].slice(0, 3);
+          if (facts.length < 3 && target.subtitle) facts.push(`${wikiCopy.context} / ${target.subtitle}`);
+          while (facts.length < 3) facts.push(`${wikiCopy.context} / ${target.kind.toUpperCase()}`);
+          routeStep = { target, distractor, facts: facts.slice(0, 3) };
+        }
+
+        function renderCluePanel() {
+          if (!wikiSource || !routeStep) {
+            cluePanelNode.hidden = true;
+            return;
+          }
+          cluePanelNode.hidden = false;
+          routeProgressNode.textContent = `ROUTE ${String(world.routeRound + 1).padStart(2, "0")} / 03`;
+          routeCurrentNode.textContent = `${routeCurrent.title} → ???`;
+          routeCluesNode.replaceChildren();
+          routeStep.facts.forEach((fact, index) => {
+            const item = document.createElement("li");
+            const revealed = index < world.routeFragments;
+            item.textContent = revealed ? fact : wikiCopy.locked;
+            item.classList.toggle("is-locked", !revealed);
+            routeCluesNode.append(item);
+          });
+        }
+
+        function openRouteDecision() {
+          if (!routeStep || world.state !== "running") return;
+          setState("decision");
+          routeDecisionNode.hidden = false;
+          decisionFactsNode.replaceChildren();
+          routeStep.facts.forEach((fact) => {
+            const item = document.createElement("li");
+            item.textContent = fact;
+            decisionFactsNode.append(item);
+          });
+          routeChoiceItems = Math.random() > 0.5
+            ? [routeStep.target, routeStep.distractor]
+            : [routeStep.distractor, routeStep.target];
+          routeChoicesNode.replaceChildren();
+          routeChoiceItems.forEach((item, index) => {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "route-choice";
+            button.textContent = `${index + 1} / ${item.title}`;
+            button.addEventListener("click", (event) => {
+              event.stopPropagation();
+              chooseRoute(item);
+            });
+            routeChoicesNode.append(button);
+          });
+          routeChoicesNode.querySelector("button")?.focus();
+          liveNode.textContent = "档案关联判定。请选择与线索对应的 Wiki 条目。";
+        }
+
+        function chooseRoute(choice) {
+          if (!routeStep || world.state !== "decision") return;
+          const correct = gameItemKey(choice) === gameItemKey(routeStep.target);
+          if (!correct) {
+            world.wrongChoices += 1;
+            world.corruptionTime = 10;
+          }
+          const recovered = { ...routeStep.target, correct };
+          memoryPath.push(recovered);
+          routeCurrent = routeStep.target;
+          world.routeRound += 1;
+          world.routeFragments = 0;
+          routeDecisionNode.hidden = true;
+          recordWikiFragment(routeCurrent);
+          document.documentElement.style.setProperty("--accent", routeCurrent.accentColor || "#89f5df");
+          wikiContextTitleNode.textContent = routeCurrent.title;
+          wikiContextReturnNode.href = routeCurrent.href;
+
+          if (world.routeRound >= 3) {
+            completeArchive();
+            return;
+          }
+
+          prepareRouteStep();
+          renderCluePanel();
+          // Each archive gateway opens a short, readable transition into the next route.
+          obstacles = [];
+          crystals = [];
+          world.spawnIn = 7.5;
+          world.crystalIn = 0.3;
+          world.routeSpawned = 0;
+          world.invulnerable = 0.9;
+          setState("running");
+          world.lastTime = performance.now();
+          showEvent(correct ? `${wikiCopy.correct} / ${routeCurrent.title}` : `${wikiCopy.wrong} / NOISE +`, 2.3);
+          playTone(correct ? 760 : 180, 0.12, "square", 0.02);
+        }
+
+        function renderMemoryPath(container) {
+          container.replaceChildren();
+          memoryPath.forEach((item, index) => {
+            if (index > 0) {
+              const arrow = document.createElement("span");
+              arrow.textContent = "→";
+              container.append(arrow);
+            }
+            const link = document.createElement("a");
+            link.href = item.href;
+            link.target = "_top";
+            link.textContent = item.title;
+            link.dataset.correct = String(item.correct !== false);
+            container.append(link);
+          });
+        }
+
+        function completeArchive() {
+          const finalDistance = Math.floor(world.distance);
+          memoryPath.forEach((item) => recordWikiFragment(item));
+          if (finalDistance > world.best) {
+            world.best = finalDistance;
+            saveBest(world.best);
+            bestNode.textContent = formatMeters(world.best);
+          }
+          completeTextNode.textContent = `${wikiCopy.complete} · ${world.wrongChoices === 0 ? "PERFECT" : `${world.wrongChoices} NOISE`}`;
+          renderMemoryPath(completePathNode);
+          setState("complete");
+          liveNode.textContent = `${wikiCopy.complete}。`;
+          playTone(620, 0.11, "square", 0.018);
+          playTone(820, 0.14, "square", 0.016, 0.1);
+        }
+
+        function recordWikiFragment(item = wikiSource) {
+          if (!item) return;
+          try {
+            const storageKey = "kamitsubaki-memory-corridor-archive-v1";
+            const stored = JSON.parse(localStorage.getItem(storageKey) || "[]");
+            const fragments = Array.isArray(stored) ? stored : [];
+            const next = fragments.filter((fragment) => !(fragment.kind === item.kind && fragment.id === item.id));
+            next.unshift({ kind: item.kind, id: item.id, title: item.title, savedAt: new Date().toISOString() });
+            localStorage.setItem(storageKey, JSON.stringify(next.slice(0, 200)));
+          } catch {
+            // Archive progress remains optional when storage is unavailable.
+          }
+        }
+
+        function readBest() {
+          try {
+            return Math.max(0, Number.parseInt(localStorage.getItem(STORAGE_KEY) || "0", 10) || 0);
+          } catch {
+            return 0;
+          }
+        }
+
+        function saveBest(value) {
+          try {
+            localStorage.setItem(STORAGE_KEY, String(value));
+          } catch {
+            // The demo remains fully playable when storage is unavailable.
+          }
+        }
+
+        function readSoundPreference() {
+          try {
+            return localStorage.getItem(SOUND_STORAGE_KEY) !== "off";
+          } catch {
+            return true;
+          }
+        }
+
+        function saveSoundPreference() {
+          try {
+            localStorage.setItem(SOUND_STORAGE_KEY, soundEnabled ? "on" : "off");
+          } catch {
+            // Sound preference is optional.
+          }
+        }
+
+        function updateSoundButton() {
+          soundButton.textContent = soundEnabled ? "音效 开" : "音效 关";
+          soundButton.setAttribute("aria-pressed", String(soundEnabled));
+        }
+
+        function unlockAudio() {
+          if (!soundEnabled) return;
+          const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+          if (!AudioContextClass) return;
+          if (!audioContext) audioContext = new AudioContextClass();
+          if (audioContext.state === "suspended") audioContext.resume();
+        }
+
+        function playTone(frequency, duration = 0.09, type = "sine", volume = 0.035, delay = 0) {
+          if (!soundEnabled) return;
+          unlockAudio();
+          if (!audioContext) return;
+          const startAt = audioContext.currentTime + delay;
+          const oscillator = audioContext.createOscillator();
+          const gain = audioContext.createGain();
+          oscillator.type = type;
+          oscillator.frequency.setValueAtTime(frequency, startAt);
+          gain.gain.setValueAtTime(0.0001, startAt);
+          gain.gain.exponentialRampToValueAtTime(volume, startAt + 0.012);
+          gain.gain.exponentialRampToValueAtTime(0.0001, startAt + duration);
+          oscillator.connect(gain);
+          gain.connect(audioContext.destination);
+          oscillator.start(startAt);
+          oscillator.stop(startAt + duration + 0.02);
+        }
+
+        function formatMeters(value) {
+          return Math.floor(value).toString().padStart(5, "0");
+        }
+
+        function loadImage(src) {
+          return new Promise((resolve, reject) => {
+            const image = new Image();
+            image.decoding = "async";
+            image.onload = () => resolve(image);
+            image.onerror = () => reject(new Error(`无法读取素材：${src}`));
+            image.src = src;
+          });
+        }
+
+        async function loadAssets() {
+          try {
+            await Promise.all(
+              Object.entries(imageSpecs).map(async ([key, spec]) => {
+                images[key] = await loadImage(spec[0]);
+              }),
+            );
+            setState("ready");
+            liveNode.textContent = "素材读取完成，按空格键或点击开始奔跑。";
+          } catch (error) {
+            console.error(error);
+            liveNode.textContent = "游戏素材读取失败，请刷新页面重试。";
+            document.querySelector(".overlay-panel--loading .overlay-title").textContent = "接入失败";
+            document.querySelector(".overlay-panel--loading .overlay-subtitle").textContent = "请刷新页面重试";
+          }
+        }
+
+        function setState(nextState) {
+          world.state = nextState;
+          shell.dataset.state = nextState;
+          pauseButton.textContent = nextState === "paused" ? "继续 P" : "暂停 P";
+          pauseButton.setAttribute("aria-pressed", String(nextState === "paused"));
+          pauseButton.disabled = !["running", "paused"].includes(nextState);
+          statusNode.textContent =
+            nextState === "running"
+              ? "SYSTEM / RUNNING"
+              : nextState === "paused"
+                ? "SYSTEM / ARCHIVE FROZEN"
+              : nextState === "decision"
+                ? "SYSTEM / RELATION CHECK"
+              : nextState === "complete"
+                ? "SYSTEM / ARCHIVE RESTORED"
+              : nextState === "gameover"
+                ? "SYSTEM / MEMORY LOST"
+                : "SYSTEM / STANDBY";
+        }
+
+        function resizeCanvas() {
+          const rect = canvas.getBoundingClientRect();
+          const dpr = Math.min(window.devicePixelRatio || 1, DPR_LIMIT);
+          canvas.width = Math.max(1, Math.round(rect.width * dpr));
+          canvas.height = Math.max(1, Math.round(rect.height * dpr));
+          ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+          ctx.imageSmoothingEnabled = false;
+
+          world.width = rect.width;
+          world.height = rect.height;
+          world.groundY = Math.round(rect.height * (rect.width < 660 ? 0.77 : 0.79));
+          world.baseSpeed = Math.max(280, Math.min(440, rect.width * 0.36));
+
+          const previousBottom = player.y + player.height;
+          player.height = rect.width < 660
+            ? Math.max(76, Math.min(98, rect.height * 0.13))
+            : Math.max(84, Math.min(122, rect.height * 0.17));
+          player.width = player.height * 0.76;
+          player.x = Math.max(46, Math.min(220, rect.width * (rect.width < 660 ? 0.13 : 0.17)));
+          if (player.onGround || previousBottom === 0) player.y = world.groundY - player.height;
+        }
+
+        function resetGame() {
+          obstacles = [];
+          crystals = [];
+          particles = [];
+          world.elapsed = 0;
+          world.distance = 0;
+          world.memory = 0;
+          world.speed = world.baseSpeed;
+          // Give the archive clues time to establish the route before the first obstacle arrives.
+          world.spawnIn = 6.2;
+          world.crystalIn = 0.55;
+          world.flash = 0;
+          world.shake = 0;
+          world.combo = 0;
+          world.maxCombo = 0;
+          world.comboTimer = 0;
+          world.nearMisses = 0;
+          world.resonanceTime = 0;
+          world.nextResonance = 120;
+          world.easter404 = false;
+          world.bannerTime = 0;
+          world.shieldCharge = 0;
+          world.shieldActive = false;
+          world.invulnerable = 0;
+          world.stage = 0;
+          world.lastObstacleType = "";
+          world.shieldSaves = 0;
+          world.routeFragments = 0;
+          world.routeSpawned = 0;
+          world.routeRound = 0;
+          world.wrongChoices = 0;
+          world.corruptionTime = 0;
+          world.lastHudMeter = -1;
+          routeCurrent = wikiSource;
+          memoryPath = wikiSource ? [{ ...wikiSource, correct: true }] : [];
+          prepareRouteStep();
+          renderCluePanel();
+          routeDecisionNode.hidden = true;
+          shell.classList.remove("is-resonance");
+          eventBanner.classList.remove("is-visible");
+          resonanceLine.style.width = "0%";
+          player.y = world.groundY - player.height;
+          player.vy = 0;
+          player.onGround = true;
+          player.landing = 0;
+          player.runClock = 0;
+          player.jumpHeld = false;
+          player.coyoteTime = COYOTE_WINDOW;
+          player.jumpBuffer = 0;
+          updateCombo();
+          updateShieldHud();
+          updateHud(true);
+        }
+
+        function startGame(withOpeningJump = false) {
+          if (world.state === "loading") return;
+          if (document.activeElement instanceof HTMLElement) document.activeElement.blur();
+          resetGame();
+          setState("running");
+          world.lastTime = performance.now();
+          liveNode.textContent = "开始奔跑。";
+          if (withOpeningJump) jump();
+        }
+
+        function jump() {
+          if (world.state !== "running") return false;
+          if (!player.onGround && player.coyoteTime <= 0) {
+            player.jumpBuffer = JUMP_BUFFER_WINDOW;
+            return false;
+          }
+          const jumpVelocity = Math.max(720, Math.min(900, world.height * 1.18));
+          player.vy = -jumpVelocity;
+          player.onGround = false;
+          player.jumpHeld = true;
+          player.coyoteTime = 0;
+          player.jumpBuffer = 0;
+          player.landing = 0;
+          emitDust(player.x + player.width * 0.46, world.groundY, 7);
+          playTone(310, 0.07, "square", 0.018);
+          return true;
+        }
+
+        function releaseJump() {
+          player.jumpHeld = false;
+          if (world.state === "running" && player.vy < -260) player.vy *= 0.72;
+        }
+
+        function togglePause() {
+          if (world.state === "running") {
+            setState("paused");
+            liveNode.textContent = "游戏已暂停。";
+          } else if (world.state === "paused") {
+            setState("running");
+            world.lastTime = performance.now();
+            liveNode.textContent = "继续奔跑。";
+          }
+        }
+
+        function showEvent(text, duration = 1.15) {
+          eventBanner.textContent = text;
+          eventBanner.classList.add("is-visible");
+          world.bannerTime = duration;
+        }
+
+        function updateCombo() {
+          comboNode.textContent = `COMBO × ${Math.max(1, world.combo)}`;
+          comboNode.classList.toggle("is-active", world.combo > 1 && world.comboTimer > 0);
+        }
+
+        function updateShieldHud() {
+          const filled = world.shieldActive ? SHIELD_COST : world.shieldCharge;
+          shieldNode.textContent = `${"■".repeat(filled)}${"□".repeat(SHIELD_COST - filled)}`;
+          shieldNode.classList.toggle("is-ready", world.shieldActive);
+          shieldNode.setAttribute("aria-label", world.shieldActive ? "记忆护盾已就绪" : `护盾充能 ${filled}/${SHIELD_COST}`);
+        }
+
+        function updateStage() {
+          const nextStage = world.distance >= 180 ? 2 : world.distance >= 80 ? 1 : 0;
+          if (nextStage === world.stage) return;
+          world.stage = nextStage;
+          if (nextStage === 1) {
+            showEvent("档案层 II · 噪声增幅", 2.1);
+            playTone(360, 0.08, "square", 0.014);
+            playTone(480, 0.08, "square", 0.012, 0.08);
+          } else {
+            showEvent("档案层 III · 深层回忆", 2.1);
+            playTone(420, 0.08, "square", 0.014);
+            playTone(560, 0.08, "square", 0.012, 0.08);
+          }
+        }
+
+        function startResonance(label = "共振阶段 · 奖励 ×2") {
+          world.resonanceTime = RESONANCE_DURATION;
+          world.nextResonance += 180;
+          shell.classList.add("is-resonance");
+          showEvent(label, 2.2);
+          world.flash = 0.7;
+          playTone(440, 0.1, "square", 0.018);
+          playTone(660, 0.13, "square", 0.014, 0.08);
+        }
+
+        function endGame() {
+          if (world.state !== "running") return;
+          const finalDistance = Math.floor(world.distance);
+          memoryPath.forEach((item) => recordWikiFragment(item));
+          world.shake = reducedMotion ? 0 : 9;
+          world.flash = 1;
+          shell.classList.remove("is-resonance");
+          resonanceLine.style.width = "0%";
+          if (finalDistance > world.best) {
+            world.best = finalDistance;
+            saveBest(world.best);
+          }
+          bestNode.textContent = formatMeters(world.best);
+          resultNode.textContent = `距离 ${formatMeters(finalDistance)} M · 碎片 ${world.memory} · 护盾抵消 ${world.shieldSaves} · 险避 ${world.nearMisses} · MAX COMBO × ${Math.max(1, world.maxCombo)}`;
+          renderMemoryPath(resultPathNode);
+          setState("gameover");
+          liveNode.textContent = `记忆中断，本次距离 ${finalDistance} 米，收集 ${world.memory} 个记忆碎片。`;
+          playTone(180, 0.2, "sawtooth", 0.025);
+          playTone(110, 0.28, "triangle", 0.022, 0.13);
+        }
+
+        function spawnObstacle() {
+          const available = world.distance < 28
+            ? ["low"]
+            : world.stage === 0
+              ? ["low", "spikes"]
+              : ["low", "spikes", "tall"];
+          const choices = available.length > 1 ? available.filter((candidate) => candidate !== world.lastObstacleType) : available;
+          const type = choices[Math.floor(Math.random() * choices.length)];
+          const source = objectSources[type];
+          const heightScale = type === "tall" ? 0.82 : type === "spikes" ? 0.47 : 0.4;
+          const height = player.height * heightScale;
+          const width = height * source.ratio;
+          obstacles.push({ type, x: world.width + 60, y: world.groundY - height, width, height, passed: false });
+          world.lastObstacleType = type;
+
+          const difficulty = Math.min(0.58, world.distance / 600);
+          const physicalClearance = (player.width + width + player.height * 1.25) / Math.max(1, world.speed);
+          const gapSeconds = physicalClearance + 0.48 + Math.random() * 0.48 - difficulty * 0.24;
+          world.spawnIn = Math.max(0.82, gapSeconds);
+        }
+
+        function spawnCrystal() {
+          const height = player.height * 0.43;
+          const source = objectSources.crystal;
+          const width = height * source.ratio;
+          // Later routes always place the second clue high, teaching one readable jump
+          // instead of hiding essential Wiki progress behind random crystal heights.
+          const high = world.routeRound > 0 && world.routeSpawned % 3 === 1;
+          crystals.push({
+            x: world.width + 80,
+            y: world.groundY - height - (high ? player.height * 0.82 : player.height * 0.28),
+            width,
+            height,
+            bob: Math.random() * Math.PI * 2,
+          });
+          world.routeSpawned += 1;
+          world.crystalIn = routeStep
+            ? 0.9 + Math.random() * 0.75
+            : world.shieldActive || world.shieldCharge >= SHIELD_COST
+              ? 2.25 + Math.random() * 2.3
+              : 1.25 + Math.random() * 0.75;
+        }
+
+        function emitDust(x, y, count) {
+          if (reducedMotion) return;
+          for (let i = 0; i < count; i += 1) {
+            particles.push({
+              x,
+              y: y - Math.random() * 5,
+              vx: -28 - Math.random() * 95,
+              vy: -18 - Math.random() * 55,
+              life: 0.35 + Math.random() * 0.25,
+              maxLife: 0.6,
+              size: 1 + Math.random() * 2.4,
+            });
+          }
+        }
+
+        function update(dt) {
+          world.flash = Math.max(0, world.flash - dt * 3.5);
+          world.shake = Math.max(0, world.shake - dt * 18);
+          world.bannerTime = Math.max(0, world.bannerTime - dt);
+          if (world.bannerTime === 0) eventBanner.classList.remove("is-visible");
+
+          for (const particle of particles) {
+            particle.x += particle.vx * dt;
+            particle.y += particle.vy * dt;
+            particle.vy += 160 * dt;
+            particle.life -= dt;
+          }
+          particles = particles.filter((particle) => particle.life > 0);
+
+          if (world.state !== "running") return;
+
+          world.elapsed += dt;
+          world.corruptionTime = Math.max(0, world.corruptionTime - dt);
+          world.speed = world.baseSpeed + Math.min(300, world.distance * 1.35) + (world.corruptionTime > 0 ? 120 : 0);
+          world.distance += (world.speed * dt) / 90;
+          world.invulnerable = Math.max(0, world.invulnerable - dt);
+          world.spawnIn -= dt;
+          world.crystalIn -= dt;
+          player.runClock += dt;
+          player.jumpBuffer = Math.max(0, player.jumpBuffer - dt);
+          updateStage();
+
+          if (world.comboTimer > 0) {
+            world.comboTimer = Math.max(0, world.comboTimer - dt);
+            if (world.comboTimer === 0) {
+              world.combo = 0;
+              updateCombo();
+            }
+          }
+
+          if (world.resonanceTime > 0) {
+            world.resonanceTime = Math.max(0, world.resonanceTime - dt);
+            resonanceLine.style.width = `${(world.resonanceTime / RESONANCE_DURATION) * 100}%`;
+            if (world.resonanceTime === 0) {
+              shell.classList.remove("is-resonance");
+              resonanceLine.style.width = "0%";
+              showEvent("共振结束 · 档案恢复稳定", 1.3);
+            }
+          } else if (world.distance >= world.nextResonance) {
+            startResonance();
+          }
+
+          if (!world.easter404 && world.distance >= 404) {
+            world.easter404 = true;
+            world.resonanceTime = RESONANCE_DURATION;
+            shell.classList.add("is-resonance");
+            showEvent("404 / LOST PAGE · 隐藏档案已接管", 3.2);
+            world.flash = 1;
+            playTone(404, 0.16, "square", 0.02);
+            playTone(808, 0.2, "sine", 0.022, 0.12);
+          }
+
+          const gravity = Math.max(1850, world.height * 2.65);
+          player.vy += gravity * dt;
+          player.y += player.vy * dt;
+
+          const groundTop = world.groundY - player.height;
+          if (player.y >= groundTop) {
+            if (!player.onGround && player.vy > 180) {
+              player.landing = 0.11;
+              emitDust(player.x + player.width * 0.5, world.groundY, 10);
+            }
+            player.y = groundTop;
+            player.vy = 0;
+            player.onGround = true;
+          } else {
+            player.onGround = false;
+          }
+          player.coyoteTime = player.onGround ? COYOTE_WINDOW : Math.max(0, player.coyoteTime - dt);
+          if (player.onGround && player.jumpBuffer > 0) jump();
+          player.landing = Math.max(0, player.landing - dt);
+
+          if (world.spawnIn <= 0) spawnObstacle();
+          if (world.crystalIn <= 0 && world.distance > 2) spawnCrystal();
+
+          const hitbox = getPlayerHitbox();
+
+          for (const obstacle of obstacles) {
+            obstacle.x -= world.speed * dt;
+            if (!obstacle.passed && obstacle.x + obstacle.width < player.x) {
+              obstacle.passed = true;
+              const obstacleInsetY = obstacle.type === "spikes" ? obstacle.height * 0.16 : obstacle.height * 0.06;
+              const clearance = obstacle.y + obstacleInsetY - (hitbox.y + hitbox.height);
+              if (clearance > -player.height * 0.06 && clearance < player.height * 0.3) {
+                const bonus = world.resonanceTime > 0 ? 10 : 5;
+                world.distance += bonus;
+                world.nearMisses += 1;
+                showEvent(`险避 NEAR MISS +${bonus}`);
+                playTone(520, 0.07, "square", 0.018);
+              }
+              emitDust(obstacle.x + obstacle.width, world.groundY, 4);
+            }
+          }
+
+          for (const crystal of crystals) {
+            crystal.x -= world.speed * dt;
+            crystal.bob += dt * 4.5;
+          }
+
+          obstacles = obstacles.filter((obstacle) => obstacle.x + obstacle.width > -50);
+          crystals = crystals.filter((crystal) => crystal.x + crystal.width > -50);
+
+          for (const obstacle of obstacles) {
+            if (world.invulnerable > 0) break;
+            const insetX = obstacle.type === "spikes" ? obstacle.width * 0.13 : obstacle.width * 0.08;
+            const insetY = obstacle.type === "spikes" ? obstacle.height * 0.16 : obstacle.height * 0.06;
+            if (
+              intersects(hitbox, {
+                x: obstacle.x + insetX,
+                y: obstacle.y + insetY,
+                width: obstacle.width - insetX * 2,
+                height: obstacle.height - insetY,
+              })
+            ) {
+              if (world.shieldActive) {
+                world.shieldActive = false;
+                world.shieldCharge = 0;
+                world.shieldSaves += 1;
+                world.invulnerable = 1.15;
+                world.shake = reducedMotion ? 0 : 7;
+                world.flash = 0.85;
+                obstacle.x = -world.width;
+                updateShieldHud();
+                showEvent("记忆护盾破裂 · 撞击已抵消", 1.8);
+                liveNode.textContent = "记忆护盾抵消了一次撞击。";
+                burstCrystal(player.x + player.width / 2, player.y + player.height / 2);
+                playTone(240, 0.09, "square", 0.02);
+                playTone(160, 0.12, "square", 0.014, 0.08);
+              } else {
+                endGame();
+              }
+              break;
+            }
+          }
+
+          if (world.state === "running") {
+            let routeReady = false;
+            crystals = crystals.filter((crystal) => {
+              const collected = intersects(hitbox, {
+                x: crystal.x + crystal.width * 0.12,
+                y: crystal.y + crystal.height * 0.08 + Math.sin(crystal.bob) * 5,
+                width: crystal.width * 0.76,
+                height: crystal.height * 0.84,
+              });
+              if (collected) {
+                world.memory += 1;
+                if (!world.shieldActive) {
+                  world.shieldCharge = Math.min(SHIELD_COST, world.shieldCharge + 1);
+                  if (world.shieldCharge >= SHIELD_COST) {
+                    world.shieldActive = true;
+                    showEvent("记忆护盾 ONLINE · 可抵消一次撞击", 2.1);
+                    playTone(720, 0.08, "square", 0.016);
+                    playTone(920, 0.1, "square", 0.012, 0.08);
+                  }
+                  updateShieldHud();
+                }
+                world.combo = world.comboTimer > 0 ? Math.min(9, world.combo + 1) : 1;
+                world.comboTimer = 3.2;
+                world.maxCombo = Math.max(world.maxCombo, world.combo);
+                const baseBonus = 6 + world.combo * 2;
+                const bonus = baseBonus * (world.resonanceTime > 0 ? 2 : 1);
+                world.distance += bonus;
+                world.flash = 0.35;
+                if (routeStep) {
+                  world.routeFragments = Math.min(routeStep.facts.length, world.routeFragments + 1);
+                  renderCluePanel();
+                  routeReady = world.routeFragments >= routeStep.facts.length;
+                }
+                memoryNode.textContent = String(world.memory);
+                updateCombo();
+                const recoveredFact = routeStep?.facts[world.routeFragments - 1];
+                showEvent(recoveredFact ? `线索 ${world.routeFragments}/3 · ${recoveredFact}` : world.combo > 1 ? `记忆连击 COMBO ×${world.combo} +${bonus}` : `记忆修复 +${bonus}`, 2.1);
+                playTone(620 + world.combo * 42, 0.07, "square", 0.018);
+                burstCrystal(crystal.x + crystal.width / 2, crystal.y + crystal.height / 2);
+              }
+              return !collected;
+            });
+            if (routeReady) openRouteDecision();
+          }
+
+          updateHud();
+        }
+
+        function burstCrystal(x, y) {
+          if (reducedMotion) return;
+          for (let i = 0; i < 14; i += 1) {
+            const angle = (Math.PI * 2 * i) / 14;
+            particles.push({
+              x,
+              y,
+              vx: Math.cos(angle) * (55 + Math.random() * 85),
+              vy: Math.sin(angle) * (55 + Math.random() * 85),
+              life: 0.55 + Math.random() * 0.25,
+              maxLife: 0.8,
+              size: 1.3 + Math.random() * 2.8,
+            });
+          }
+        }
+
+        function intersects(a, b) {
+          return a.x < b.x + b.width && a.x + a.width > b.x && a.y < b.y + b.height && a.y + a.height > b.y;
+        }
+
+        function getPlayerHitbox() {
+          return {
+            x: player.x + player.width * 0.27,
+            y: player.y + player.height * 0.2,
+            width: player.width * 0.46,
+            height: player.height * 0.66,
+          };
+        }
+
+        function updateHud(force = false) {
+          const meters = Math.floor(world.distance);
+          if (!force && meters === world.lastHudMeter) return;
+          world.lastHudMeter = meters;
+          distanceNode.textContent = formatMeters(meters);
+          memoryNode.textContent = String(world.memory);
+          if (world.state === "running") {
+            const stageLabel = ["ARCHIVE I", "NOISE II", "DEEP III"][world.stage];
+            statusNode.textContent = world.resonanceTime > 0
+              ? `SYSTEM / RESONANCE ×2 · ${stageLabel}`
+              : `SYSTEM / ${stageLabel} · ${Math.round(world.speed)} PX/S`;
+          }
+        }
+
+        function drawBackground(time) {
+          ctx.fillStyle = "#030303";
+          ctx.fillRect(0, 0, world.width, world.height);
+          const image = images.background;
+          if (!image) return;
+
+          const imageRatio = image.width / image.height;
+          const viewRatio = world.width / world.height;
+          let sourceWidth = image.width;
+          let sourceHeight = image.height;
+          let sourceX = 0;
+          let sourceY = 0;
+          if (viewRatio > imageRatio) {
+            sourceHeight = image.width / viewRatio;
+            sourceY = (image.height - sourceHeight) / 2;
+          } else {
+            sourceWidth = image.height * viewRatio;
+            sourceX = (image.width - sourceWidth) / 2;
+          }
+
+          const drift = reducedMotion ? 0 : Math.round(Math.sin(time * 0.00011) * Math.min(8, sourceWidth * 0.005));
+          sourceX = Math.max(0, Math.min(image.width - sourceWidth, sourceX + drift));
+          ctx.imageSmoothingEnabled = false;
+          ctx.globalAlpha = 1;
+          ctx.drawImage(image, sourceX, sourceY, sourceWidth, sourceHeight, 0, 0, world.width, world.height);
+          ctx.globalAlpha = 1;
+
+          if (world.resonanceTime > 0) {
+            const blockOffset = Math.floor(world.distance * 8) % 176;
+            ctx.fillStyle = "rgba(137,245,223,0.18)";
+            for (let index = 0; index < 8; index += 1) {
+              const y = Math.round(world.height * (0.19 + index * 0.067));
+              const x = Math.round(world.width - ((blockOffset + index * 151) % (world.width + 220)));
+              ctx.fillRect(x, y, 72 + (index % 3) * 24, 3);
+            }
+          }
+
+          const horizon = world.groundY;
+          ctx.fillStyle = "#89f5df";
+          ctx.fillRect(0, horizon, world.width, 2);
+          ctx.fillStyle = "#006b48";
+          ctx.fillRect(0, horizon + 2, world.width, 2);
+
+          const offset = (world.distance * 7) % 86;
+          ctx.fillStyle = "#16201e";
+          for (let x = -offset; x < world.width + 86; x += 86) {
+            ctx.fillRect(Math.round(x), horizon + 10, 38, 2);
+            ctx.fillRect(Math.round(x + 48), horizon + 18, 12, 2);
+          }
+        }
+
+        function drawObject(item, sourceKey, yOffset = 0) {
+          if (!images.objects) return;
+          const source = objectSources[sourceKey];
+          ctx.drawImage(
+            images.objects,
+            source.sx,
+            source.sy,
+            source.sw,
+            source.sh,
+            item.x,
+            item.y + yOffset,
+            item.width,
+            item.height,
+          );
+        }
+
+        function drawPlayer() {
+          let key = "idle";
+          if (world.state === "gameover") key = "turn";
+          else if (!player.onGround) key = "jump";
+          else if (world.state === "running") key = player.runClock % 0.22 < 0.11 ? "runA" : "runB";
+          if (player.landing > 0) key = "turn";
+
+          if (!images[key]) return;
+
+          const spec = imageSpecs[key];
+          const sourceWidth = spec[3];
+          const sourceHeight = spec[4];
+          const drawHeight = player.height * (key === "jump" ? 0.98 : 1);
+          const drawWidth = drawHeight * (sourceWidth / sourceHeight);
+          const drawX = player.x + (player.width - drawWidth) / 2;
+          const drawY = player.y + player.height - drawHeight;
+
+          ctx.save();
+          ctx.imageSmoothingEnabled = false;
+          ctx.drawImage(images[key], spec[1], spec[2], sourceWidth, sourceHeight, drawX, drawY, drawWidth, drawHeight);
+          ctx.restore();
+        }
+
+        function drawShield(time) {
+          if (!world.shieldActive && world.invulnerable <= 0) return;
+          if (world.invulnerable > 0 && Math.floor(time / 80) % 2 === 0) return;
+
+          const padding = 8;
+          const x = Math.round(player.x - padding);
+          const y = Math.round(player.y - padding);
+          const width = Math.round(player.width + padding * 2);
+          const height = Math.round(player.height + padding * 2);
+          const arm = 16;
+          const thickness = 3;
+          ctx.save();
+          ctx.fillStyle = world.shieldActive ? "#89f5df" : "#ff4f64";
+          ctx.fillRect(x, y, arm, thickness);
+          ctx.fillRect(x, y, thickness, arm);
+          ctx.fillRect(x + width - arm, y, arm, thickness);
+          ctx.fillRect(x + width - thickness, y, thickness, arm);
+          ctx.fillRect(x, y + height - thickness, arm, thickness);
+          ctx.fillRect(x, y + height - arm, thickness, arm);
+          ctx.fillRect(x + width - arm, y + height - thickness, arm, thickness);
+          ctx.fillRect(x + width - thickness, y + height - arm, thickness, arm);
+          ctx.restore();
+        }
+
+        function drawParticles() {
+          ctx.save();
+          for (const particle of particles) {
+            const opacity = Math.max(0, particle.life / particle.maxLife);
+            ctx.fillStyle = `rgba(137, 245, 223, ${opacity * 0.75})`;
+            ctx.fillRect(particle.x, particle.y, particle.size, particle.size);
+          }
+          ctx.restore();
+        }
+
+        function draw(time) {
+          ctx.save();
+          if (world.shake > 0) {
+            ctx.translate((Math.random() - 0.5) * world.shake, (Math.random() - 0.5) * world.shake * 0.4);
+          }
+
+          drawBackground(time);
+
+          for (const obstacle of obstacles) drawObject(obstacle, obstacle.type);
+          for (const crystal of crystals) {
+            const bob = Math.round(Math.sin(crystal.bob) * 4);
+            ctx.save();
+            drawObject(crystal, "crystal", bob);
+            ctx.restore();
+          }
+
+          drawPlayer();
+          drawShield(time);
+          drawParticles();
+          ctx.restore();
+
+          if (world.flash > 0) {
+            ctx.fillStyle = `rgba(137, 245, 223, ${world.flash * 0.2})`;
+            const stripe = Math.max(4, Math.round(world.height / 90));
+            for (let y = 0; y < world.height; y += stripe * 3) ctx.fillRect(0, y, world.width, stripe);
+          }
+        }
+
+        function frame(time) {
+          const dt = Math.min(0.034, Math.max(0, (time - world.lastTime) / 1000));
+          world.lastTime = time;
+          update(dt);
+          draw(time);
+          animationFrame = requestAnimationFrame(frame);
+        }
+
+        function primaryAction(event) {
+          if (event) event.preventDefault();
+          unlockAudio();
+          if (world.state === "ready") startGame(true);
+          else if (["gameover", "complete"].includes(world.state)) startGame(false);
+          else if (world.state === "paused") togglePause();
+          else jump();
+        }
+
+        startButton.addEventListener("click", (event) => {
+          event.stopPropagation();
+          event.currentTarget.blur();
+          unlockAudio();
+          startGame(false);
+        });
+        restartButton.addEventListener("click", (event) => {
+          event.stopPropagation();
+          event.currentTarget.blur();
+          unlockAudio();
+          startGame(false);
+        });
+        completeRestartButton.addEventListener("click", (event) => {
+          event.stopPropagation();
+          event.currentTarget.blur();
+          unlockAudio();
+          startGame(false);
+        });
+        resumeButton.addEventListener("click", (event) => {
+          event.stopPropagation();
+          event.currentTarget.blur();
+          togglePause();
+        });
+        pauseButton.addEventListener("click", (event) => {
+          event.stopPropagation();
+          event.currentTarget.blur();
+          togglePause();
+        });
+        soundButton.addEventListener("click", (event) => {
+          event.stopPropagation();
+          event.currentTarget.blur();
+          soundEnabled = !soundEnabled;
+          saveSoundPreference();
+          updateSoundButton();
+          if (soundEnabled) {
+            unlockAudio();
+            playTone(660, 0.06, "square", 0.016);
+          }
+        });
+        canvas.addEventListener("pointerdown", primaryAction);
+        canvas.addEventListener("pointerup", releaseJump);
+        canvas.addEventListener("pointercancel", releaseJump);
+        window.addEventListener(
+          "keydown",
+          (event) => {
+            if (["KeyP", "Escape"].includes(event.code)) {
+              event.preventDefault();
+              togglePause();
+            } else if (["Digit1", "Digit2"].includes(event.code) && world.state === "decision") {
+              event.preventDefault();
+              chooseRoute(routeChoiceItems[event.code === "Digit1" ? 0 : 1]);
+            } else if (event.code === "KeyR" && ["gameover", "complete"].includes(world.state)) {
+              event.preventDefault();
+              startGame(false);
+            } else if (["Space", "ArrowUp", "KeyW"].includes(event.code) && !event.repeat) {
+              primaryAction(event);
+            }
+          },
+          { passive: false },
+        );
+        window.addEventListener("keyup", (event) => {
+          if (["Space", "ArrowUp", "KeyW"].includes(event.code)) releaseJump();
+        });
+        document.addEventListener("visibilitychange", () => {
+          if (document.hidden && world.state === "running") togglePause();
+          world.lastTime = performance.now();
+        });
+        window.addEventListener("resize", resizeCanvas, { passive: true });
+
+        resizeCanvas();
+        loadAssets();
+        cancelAnimationFrame(animationFrame);
+        animationFrame = requestAnimationFrame(frame);
+      })();
+    </script>
+  </body>
+</html>

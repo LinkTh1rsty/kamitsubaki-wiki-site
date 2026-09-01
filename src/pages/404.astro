@@ -1,0 +1,254 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NotFoundRunner from '../components/NotFoundRunner.astro';
+
+const title = '404 - Kamitsubaki Studio Fan Wiki';
+---
+
+<BaseLayout
+  lang="zh"
+  title={title}
+  metadata={{
+    title: '404 / 观测中断',
+    description: '请求的神椿观测记录不存在。',
+    canonicalPath: '/404',
+    noindex: true,
+  }}
+>
+  <div class="not-found-page">
+    <header class="not-found-page__nav">
+      <a class="not-found-page__brand" href="/zh/" data-home-link>KAMITSUBAKI FAN WIKI</a>
+      <nav aria-label="Language switcher">
+        <a href="/zh/404" data-locale-link="zh">中</a>
+        <a href="/ja/404" data-locale-link="ja">日</a>
+        <a href="/en/404" data-locale-link="en">EN</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="not-found-page__intro">
+        <p class="not-found-page__code">404</p>
+        <div>
+          <h1 id="not-found-title" data-copy="title">观测记录不存在</h1>
+          <p data-copy="description">这段记录已经脱离观测范围。先穿过失联区，或者返回档案库。</p>
+        </div>
+      </div>
+
+      <NotFoundRunner />
+
+      <div class="not-found-page__actions">
+        <a href="/zh/" data-home-link data-copy="home">返回首页</a>
+        <a href="/zh/games/memory-corridor" data-game-link data-copy="fullGame">进入完整记忆回廊</a>
+      </div>
+    </main>
+  </div>
+
+  <script is:inline>
+    (() => {
+      const copy = {
+        zh: {
+          pageTitle: '404 / 观测中断 - 神椿观测站',
+          title: '观测记录不存在',
+          description: '这段记录已经脱离观测范围。先穿过失联区，或者返回档案库。',
+          home: '返回首页',
+          fullGame: '进入完整记忆回廊',
+          distance: '距离',
+          best: '最高',
+          hint: '点击 / 空格 / ↑ 跳跃',
+          interrupted: '信号中断',
+          retry: '再次连接',
+        },
+        ja: {
+          pageTitle: '404 / 観測中断 - 神椿観測所',
+          title: '観測記録が見つかりません',
+          description: 'この記録は観測範囲から外れています。未接続領域を走るか、アーカイブへ戻ってください。',
+          home: 'ホームへ戻る',
+          fullGame: '記憶回廊を開く',
+          distance: '距離',
+          best: '最高',
+          hint: 'クリック / SPACE / ↑ でジャンプ',
+          interrupted: '信号中断',
+          retry: '再接続',
+        },
+        en: {
+          pageTitle: '404 / Observation Lost - KAMITSUBAKI Observatory',
+          title: 'Observation not found',
+          description: 'This record has slipped outside the observation range. Run through the dead zone or return to the archive.',
+          home: 'Return home',
+          fullGame: 'Open Memory Corridor',
+          distance: 'Distance',
+          best: 'Best',
+          hint: 'Click / SPACE / ↑ to jump',
+          interrupted: 'Signal lost',
+          retry: 'Reconnect',
+        },
+      };
+      const matchedLocale = window.location.pathname.match(/^\/(zh|ja|en)(?:\/|$)/)?.[1];
+      const locale = matchedLocale && copy[matchedLocale] ? matchedLocale : 'zh';
+      const localized = copy[locale];
+
+      document.documentElement.lang = locale;
+      document.title = localized.pageTitle;
+      document.querySelectorAll('[data-copy]').forEach((node) => {
+        const key = node.getAttribute('data-copy');
+        if (key && localized[key]) node.textContent = localized[key];
+      });
+      document.querySelectorAll('[data-home-link]').forEach((link) => link.setAttribute('href', `/${locale}/`));
+      document.querySelectorAll('[data-game-link]').forEach((link) => link.setAttribute('href', `/${locale}/games/memory-corridor`));
+      document.querySelectorAll('[data-locale-link]').forEach((link) => {
+        link.toggleAttribute('aria-current', link.getAttribute('data-locale-link') === locale);
+      });
+    })();
+  </script>
+</BaseLayout>
+
+<style>
+  .not-found-page {
+    min-height: 100dvh;
+    overflow: hidden;
+    background:
+      linear-gradient(rgba(3, 5, 4, 0.93), rgba(3, 5, 4, 0.985)),
+      url('/games/memory-corridor/assets/memory-corridor-pixel-bg.png') center / cover fixed;
+    color: #edf4f1;
+  }
+
+  .not-found-page__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 4rem;
+    padding: 0 2rem;
+    border-bottom: 1px solid rgba(137, 245, 223, 0.13);
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 0.58rem;
+    letter-spacing: 0.2em;
+  }
+
+  .not-found-page__brand {
+    color: rgba(237, 244, 241, 0.72);
+    text-decoration: none;
+  }
+
+  .not-found-page__nav nav {
+    display: flex;
+    gap: 1.1rem;
+  }
+
+  .not-found-page__nav nav a {
+    color: rgba(237, 244, 241, 0.35);
+    text-decoration: none;
+  }
+
+  .not-found-page__nav nav a[aria-current] {
+    color: #89f5df;
+  }
+
+  .not-found-page main {
+    width: min(68rem, calc(100% - 3rem));
+    margin: 0 auto;
+    padding: clamp(2.5rem, 8vh, 5rem) 0 3rem;
+  }
+
+  .not-found-page__intro {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: end;
+    gap: clamp(1.5rem, 5vw, 4rem);
+    margin-bottom: clamp(1.8rem, 4vh, 3rem);
+  }
+
+  .not-found-page__code {
+    margin: 0;
+    color: #89f5df;
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: clamp(4.8rem, 13vw, 9.5rem);
+    font-weight: 700;
+    line-height: 0.78;
+    letter-spacing: -0.08em;
+    text-shadow: 6px 6px 0 rgba(137, 245, 223, 0.12);
+  }
+
+  .not-found-page h1 {
+    margin: 0 0 0.85rem;
+    font-size: clamp(1.35rem, 3.2vw, 2.25rem);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+  }
+
+  .not-found-page__intro div > p {
+    max-width: 38rem;
+    margin: 0;
+    color: rgba(221, 235, 230, 0.55);
+    font-size: 0.78rem;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+  }
+
+  .not-found-page__actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+  }
+
+  .not-found-page__actions a {
+    padding: 0.72rem 1rem;
+    border: 1px solid rgba(137, 245, 223, 0.33);
+    color: rgba(237, 244, 241, 0.72);
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 0.58rem;
+    letter-spacing: 0.12em;
+    text-decoration: none;
+    transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+  }
+
+  .not-found-page__actions a:last-child,
+  .not-found-page__actions a:hover,
+  .not-found-page__actions a:focus-visible {
+    border-color: #89f5df;
+    color: #89f5df;
+    outline: none;
+  }
+
+  :global([data-social-contact]),
+  :global([data-ai-launcher]),
+  :global([data-ai-chat]) {
+    display: none !important;
+  }
+
+  @media (max-width: 640px) {
+    .not-found-page__nav {
+      min-height: 3.5rem;
+      padding-inline: 1rem;
+    }
+
+    .not-found-page main {
+      width: min(100% - 1.5rem, 34rem);
+      padding-top: 2.4rem;
+    }
+
+    .not-found-page__intro {
+      grid-template-columns: 1fr;
+      gap: 1.4rem;
+    }
+
+    .not-found-page__code {
+      font-size: 5.4rem;
+    }
+
+    .not-found-page__actions {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .not-found-page__actions a {
+      text-align: center;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .not-found-page__actions a {
+      transition: none;
+    }
+  }
+</style>

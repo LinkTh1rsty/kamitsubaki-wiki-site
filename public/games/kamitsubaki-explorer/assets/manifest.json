@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "style": "kamitsubaki-pixel-archive",
+  "rendering": "pixelated",
+  "palette": ["#020908", "#043f2c", "#006744", "#10a77f", "#12d8d0", "#f2f5ef"],
+  "sheets": {
+    "player": {
+      "file": "player-sprites-v2.png",
+      "size": [1448, 1086],
+      "grid": [4, 3],
+      "cell": [362, 362],
+      "alpha": true,
+      "frames": [
+        "idle-a", "idle-b", "walk-a", "walk-b",
+        "run-a", "run-b", "jump-rise", "jump-apex",
+        "fall", "land", "hurt-glitch", "interact"
+      ]
+    },
+    "environmentTiles": {
+      "file": "environment-tiles-v2.png",
+      "size": [1256, 1256],
+      "grid": [4, 4],
+      "cell": [314, 314],
+      "alpha": true,
+      "frames": [
+        "ground-top", "ground-fill", "ground-left-edge", "ground-right-edge",
+        "outer-corner-left", "outer-corner-right", "platform-center", "platform-end-caps",
+        "archive-block", "corruption-block", "floating-slab", "bridge-span",
+        "slope-up", "slope-down", "spikes", "checkpoint-base"
+      ]
+    },
+    "collectibles": {
+      "file": "archive-collectibles-v2.png",
+      "size": [1448, 1088],
+      "grid": [4, 4],
+      "cell": [362, 272],
+      "alpha": true,
+      "rows": ["memory-gem", "memory-fragment", "quiz-terminal", "checkpoint-beacon"],
+      "states": ["idle", "transition", "active", "resolve"]
+    },
+    "portals": {
+      "file": "archive-portals-v2.png",
+      "size": [1256, 1256],
+      "grid": [4, 4],
+      "cell": [314, 314],
+      "alpha": true,
+      "rows": ["artist", "song", "album", "project"],
+      "states": ["dormant", "opening", "active", "closing"]
+    },
+    "hazards": {
+      "file": "archive-hazards-v2.png",
+      "size": [1256, 1256],
+      "grid": [4, 4],
+      "cell": [314, 314],
+      "alpha": true,
+      "rows": ["corruption-cube", "static-wisp", "archive-sentry", "level-hazards"]
+    },
+    "effects": {
+      "file": "effects-and-markers-v2.png",
+      "size": [1448, 1088],
+      "grid": [4, 4],
+      "cell": [362, 272],
+      "alpha": true,
+      "rows": ["landing-dust", "gem-pickup", "memory-reveal", "map-markers"]
+    },
+    "props": {
+      "file": "environment-props-v2.png",
+      "size": [1448, 1088],
+      "grid": [4, 4],
+      "cell": [362, 272],
+      "alpha": true
+    },
+    "ui": {
+      "file": "archive-ui-v2.png",
+      "size": [1256, 1256],
+      "grid": [4, 4],
+      "cell": [314, 314],
+      "alpha": true,
+      "rows": ["hud-icons", "button-states", "quiz-answer-states", "frame-corners"]
+    }
+  },
+  "backgrounds": [
+    {"file": "background-far-v2.png", "size": [1672, 941], "alpha": false, "parallax": 0.08},
+    {"file": "background-mid-v2.png", "size": [1672, 941], "alpha": true, "parallax": 0.22},
+    {"file": "background-foreground-v2.png", "size": [1672, 941], "alpha": true, "parallax": 1.12}
+  ]
+}

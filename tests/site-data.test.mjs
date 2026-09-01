@@ -42,7 +42,7 @@ test('nav items point to the primary page sections in display order', async () =
 
   assert.deepEqual(
     navItems.map((item) => item.href),
-    ['#about', '#database', '#songs', '#albums', '#projects', '#log'],
+    ['#about', '#experiences', '#database', '#songs', '#albums', '#projects', '/zh/games/memory-corridor', '#log'],
   );
 });
 

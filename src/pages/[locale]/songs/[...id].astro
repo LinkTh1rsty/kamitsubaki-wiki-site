@@ -9,6 +9,7 @@ import TableOfContents from '../../../components/TableOfContents.astro';
 import ContributorRoster from '../../../components/ContributorRoster.astro';
 import MusicSubnav from '../../../components/MusicSubnav.astro';
 import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
+import MemoryCorridorEntryLink from '../../../components/MemoryCorridorEntryLink.astro';
 import { getLocalizedEntries, getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArticleMetadata } from '../../../lib/metadata.mjs';
@@ -218,6 +219,7 @@ const themeStyle = [
         sourceHref={sourceHref}
         homeHref={`/${localeCode}/`}
       />
+      <MemoryCorridorEntryLink locale={localeCode} kind="song" entryId={id!} />
     </div>
 
     <div class:list={[

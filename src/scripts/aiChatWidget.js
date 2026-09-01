@@ -1061,6 +1061,36 @@ function resetLauncherDock() {
   launcher.style.removeProperty('left');
 }
 
+function consumeAuthResult() {
+  const url = new URL(window.location.href);
+  const result = url.searchParams.get('aiAuth');
+  if (!result) {
+    return;
+  }
+
+  const provider = url.searchParams.get('aiAuthProvider') === 'google' ? 'Google' : 'GitHub';
+  const locale = document.documentElement.lang || 'zh';
+  const message = result === 'success'
+    ? ({ zh: `${provider} 登录成功`, ja: `${provider} ログインが完了しました`, en: `Signed in with ${provider}` }[locale] || `Signed in with ${provider}`)
+    : ({ zh: '登录没有完成，请重新尝试。', ja: 'ログインを完了できませんでした。もう一度お試しください。', en: 'Sign-in did not complete. Please try again.' }[locale] || 'Sign-in did not complete. Please try again.');
+
+  url.searchParams.delete('aiAuth');
+  url.searchParams.delete('aiAuthProvider');
+  url.searchParams.delete('aiAuthCode');
+  window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
+
+  const notice = document.createElement('div');
+  notice.className = `ai-auth-callback-toast${result === 'success' ? ' is-success' : ' is-error'}`;
+  notice.setAttribute('role', 'status');
+  notice.textContent = message;
+  document.body.append(notice);
+  window.requestAnimationFrame(() => notice.classList.add('is-visible'));
+  window.setTimeout(() => {
+    notice.classList.remove('is-visible');
+    window.setTimeout(() => notice.remove(), 240);
+  }, 3600);
+}
+
 function initWidget(root) {
   const copy = normalizeCopy(root);
   const toggle = document.querySelector('[data-ai-toggle]');
@@ -1096,6 +1126,7 @@ function initWidget(root) {
   };
 
   resetLauncherDock();
+  consumeAuthResult();
   updateAuthState(root, copy, { kind: 'anonymous' });
   bootstrap(root).catch(() => {});
 

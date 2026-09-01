@@ -1,0 +1,107 @@
+---
+const { locale = 'zh' } = Astro.props as { locale?: 'zh' | 'ja' | 'en' };
+const copy = {
+  zh: {
+    heading: 'EXPERIENCES',
+    subheading: '从资料库进入神椿的另一侧',
+    gameLabel: 'INTERACTIVE ARCHIVE',
+    gameTitle: '记忆回廊',
+    gameBody: '在像素化的神椿档案中探索、收集记忆，并通过传送门抵达对应的 Wiki 词条。',
+    gameAction: '进入游戏',
+    chatLabel: 'V.W.P AI COMPANION',
+    chatTitle: '角色通信',
+    chatBody: '选择花谱、理芽、春猿火、ヰ世界情绪或幸祜，开启带有独立会话与长期记忆的非官方 AI 对话。',
+    chatAction: '选择角色',
+  },
+  ja: {
+    heading: 'EXPERIENCES',
+    subheading: 'アーカイブから神椿のもう一つの側へ',
+    gameLabel: 'INTERACTIVE ARCHIVE',
+    gameTitle: '記憶回廊',
+    gameBody: 'ピクセル化された神椿アーカイブを探索し、記憶を集め、ポータルから対応する Wiki 記事へ移動します。',
+    gameAction: 'ゲームを開く',
+    chatLabel: 'V.W.P AI COMPANION',
+    chatTitle: 'キャラクター通信',
+    chatBody: '花譜、理芽、春猿火、ヰ世界情緒、幸祜から一人を選び、独立した会話と記憶を持つ非公式 AI チャットを始めます。',
+    chatAction: 'キャラクターを選ぶ',
+  },
+  en: {
+    heading: 'EXPERIENCES',
+    subheading: 'Step through the archive into another side of Kamitsubaki',
+    gameLabel: 'INTERACTIVE ARCHIVE',
+    gameTitle: 'Memory Corridor',
+    gameBody: 'Explore a pixel Kamitsubaki archive, collect memories, and follow portals into their connected Wiki entries.',
+    gameAction: 'Enter the game',
+    chatLabel: 'V.W.P AI COMPANION',
+    chatTitle: 'Character Link',
+    chatBody: 'Choose KAF, RIM, HARUSARUHI, ISEKAIJOUCHO, or KOKO for an unofficial AI conversation with separate history and memory.',
+    chatAction: 'Choose a character',
+  },
+}[locale];
+---
+
+<section id="experiences" class="experience-portals ui-crosshair bl br">
+  <header class="experience-portals__head reveal-up">
+    <div>
+      <h3>{copy.heading}</h3>
+      <p>{copy.subheading}</p>
+    </div>
+    <span aria-hidden="true">OBSERVATION ROUTES / 02</span>
+  </header>
+
+  <div class="experience-portals__grid">
+    <a class="experience-portal experience-portal--game reveal-up" href={`/${locale}/games/memory-corridor`}>
+      <img src="/games/memory-corridor/assets/memory-corridor-pixel-bg.png" alt="" loading="lazy" />
+      <span class="experience-portal__index">01</span>
+      <div class="experience-portal__copy">
+        <small>{copy.gameLabel}</small>
+        <h4>{copy.gameTitle}</h4>
+        <p>{copy.gameBody}</p>
+      </div>
+      <span class="experience-portal__action">{copy.gameAction}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" /></svg></span>
+    </a>
+
+    <a class="experience-portal experience-portal--chat reveal-up" href="https://chat.kamitsubaki.wiki/">
+      <img src="/images/artists/vwp.jpg" alt="" loading="lazy" />
+      <span class="experience-portal__index">02</span>
+      <div class="experience-portal__copy">
+        <small>{copy.chatLabel}</small>
+        <h4>{copy.chatTitle}</h4>
+        <p>{copy.chatBody}</p>
+      </div>
+      <span class="experience-portal__action">{copy.chatAction}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" /></svg></span>
+      <span class="experience-portal__artists" aria-hidden="true">KAF · RIM · HARUSARUHI · ISEKAIJOUCHO · KOKO</span>
+    </a>
+  </div>
+</section>
+
+<style>
+  .experience-portals{--portal-frame:rgb(255 255 255/.2);--portal-surface:#070909;--portal-copy:#f7faf9;--portal-muted:rgba(255,255,255,.68);--portal-overlay:linear-gradient(180deg,rgba(0,0,0,.08) 18%,rgba(0,0,0,.92) 100%);--portal-image-filter:grayscale(1) brightness(.72) contrast(1.12);--portal-accent:#89f5df;position:relative;max-width:80rem;margin:0 auto;border-top:1px solid rgb(var(--theme-fg-rgb)/.1);padding:5rem 1.25rem 8rem;color:var(--theme-fg)}
+  :global(html[data-theme='light']) .experience-portals{--portal-frame:rgb(0 0 0/.18);--portal-surface:#f3f5f3;--portal-copy:#111718;--portal-muted:rgba(17,23,24,.7);--portal-overlay:linear-gradient(180deg,rgba(246,248,246,.04) 12%,rgba(246,248,246,.32) 44%,rgba(246,248,246,.94) 78%,#f6f8f6 100%);--portal-image-filter:grayscale(1) brightness(.98) contrast(1.06);--portal-accent:#007f70}
+  .experience-portals__head{display:flex;align-items:end;justify-content:space-between;gap:2rem;margin-bottom:2.5rem}
+  .experience-portals__head h3{margin:0 0 .55rem;font-size:.625rem;font-weight:300;letter-spacing:.5em}
+  .experience-portals__head p{margin:0;color:rgb(var(--theme-fg-rgb)/.5);font-family:var(--font-serif);font-size:.68rem;letter-spacing:.16em}
+  .experience-portals__head>span{color:rgb(var(--theme-fg-rgb)/.28);font-family:var(--font-mono);font-size:.52rem;letter-spacing:.2em}
+  .experience-portals__grid{display:grid;grid-template-columns:1fr 1.15fr;border:1px solid var(--portal-frame);background:var(--portal-surface)}
+  .experience-portal{position:relative;display:flex;min-height:33rem;isolation:isolate;overflow:hidden;align-items:flex-end;padding:2.1rem;color:var(--portal-copy);text-decoration:none;cursor:pointer;outline-offset:4px}
+  .experience-portal+.experience-portal{border-left:1px solid var(--portal-frame)}
+  .experience-portal>img{position:absolute;inset:0;z-index:-3;width:100%;height:100%;object-fit:cover;filter:var(--portal-image-filter);transform:scale(1.015);transition:filter .55s cubic-bezier(.16,1,.3,1),transform .55s cubic-bezier(.16,1,.3,1)}
+  .experience-portal:before{position:absolute;inset:0;z-index:-2;content:"";background:var(--portal-overlay);transition:opacity .25s ease}
+  .experience-portal:after{position:absolute;right:0;bottom:0;left:0;height:2px;content:"";background:var(--portal-accent);transform:scaleX(0);transform-origin:left;transition:transform .25s cubic-bezier(.16,1,.3,1)}
+  .experience-portal:hover>img,.experience-portal:focus-visible>img{filter:none;transform:scale(1.055)}
+  .experience-portal:hover:after,.experience-portal:focus-visible:after{transform:scaleX(1)}
+  .experience-portal:focus-visible{outline:2px solid var(--portal-accent)}
+  .experience-portal__index{position:absolute;top:1.6rem;left:1.8rem;color:#fff;font-family:Georgia,var(--font-serif);font-size:3.6rem;font-weight:400;line-height:1;letter-spacing:-.08em;text-shadow:0 2px 20px rgba(0,0,0,.5)}
+  .experience-portal__copy{max-width:28rem;padding-right:2rem}
+  .experience-portal__copy small{color:var(--portal-accent);font-family:var(--font-mono);font-size:.52rem;font-weight:600;letter-spacing:.22em}
+  .experience-portal__copy h4{margin:.7rem 0 .9rem;font-family:var(--font-serif);font-size:clamp(2rem,4vw,3.55rem);font-weight:500;letter-spacing:.02em}
+  .experience-portal__copy p{max-width:26rem;margin:0;color:var(--portal-muted);font-size:.72rem;line-height:1.9}
+  .experience-portal__action{position:absolute;right:1.8rem;bottom:2rem;display:flex;align-items:center;gap:.75rem;font-family:var(--font-mono);font-size:.58rem;letter-spacing:.12em}
+  .experience-portal__action svg{width:1rem;height:1rem;fill:none;stroke:currentColor;stroke-width:1.4;transition:transform .35s ease}
+  .experience-portal:hover .experience-portal__action svg{transform:translateX(.28rem)}
+  .experience-portal__artists{position:absolute;top:1.8rem;right:1.8rem;max-width:15rem;color:rgba(255,255,255,.55);font-family:var(--font-mono);font-size:.5rem;line-height:1.7;letter-spacing:.13em;text-align:right}
+  @media(max-width:1300px){.experience-portals__head>span{display:none}}
+  @media(max-width:860px){.experience-portals{padding:4rem 1.25rem 6rem}.experience-portals__grid{grid-template-columns:1fr}.experience-portal{min-height:28rem}.experience-portal+.experience-portal{border-top:1px solid rgb(var(--theme-fg-rgb)/.18);border-left:0}}
+  @media(max-width:540px){.experience-portals__head>span{display:none}.experience-portal{min-height:25rem;padding:1.35rem}.experience-portal__index{top:1.2rem;left:1.3rem;font-size:2.8rem}.experience-portal__copy{padding-right:0;padding-bottom:2.6rem}.experience-portal__copy p{font-size:.68rem}.experience-portal__action{right:auto;bottom:1.3rem;left:1.35rem}.experience-portal__artists{top:1.35rem;right:1.3rem;max-width:11rem}}
+  @media(prefers-reduced-motion:reduce){.experience-portal>img,.experience-portal:after,.experience-portal__action svg{transition:none}}
+</style>

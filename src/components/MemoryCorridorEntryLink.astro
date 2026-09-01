@@ -1,0 +1,103 @@
+---
+type Props = {
+  locale: 'zh' | 'ja' | 'en';
+  kind: 'artist' | 'song' | 'album' | 'project';
+  entryId: string;
+};
+
+const { locale, kind, entryId } = Astro.props as Props;
+const copy = {
+  zh: {
+    label: '写入记忆回廊',
+    helper: '以当前条目生成一局 Wiki 联动跑酷',
+  },
+  ja: {
+    label: '記憶回廊に接続',
+    helper: 'この記事をもとに Wiki 連動ランを開始',
+  },
+  en: {
+    label: 'Enter Memory Corridor',
+    helper: 'Start a Wiki-linked run from this entry',
+  },
+}[locale];
+
+const query = new URLSearchParams({ sourceKind: kind, sourceId: entryId });
+const href = `/${locale}/games/memory-corridor?${query.toString()}`;
+---
+
+<a class="memory-corridor-entry" href={href} data-memory-corridor-link>
+  <span class="memory-corridor-entry__mark" aria-hidden="true"></span>
+  <span>
+    <strong>{copy.label}</strong>
+    <small>{copy.helper}</small>
+  </span>
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M5 12h13M13 6l6 6-6 6" />
+  </svg>
+</a>
+
+<style>
+  .memory-corridor-entry {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    width: min(100%, 38rem);
+    margin-top: 0.8rem;
+    padding: 0.75rem 0.9rem;
+    border: 1px solid color-mix(in srgb, var(--wiki-accent-color, #89f5df) 42%, transparent);
+    background: color-mix(in srgb, var(--wiki-surface-color, #0b1010) 88%, transparent);
+    color: color-mix(in srgb, var(--wiki-highlight-color, #fff) 88%, transparent);
+    transition: border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
+  }
+
+  .memory-corridor-entry:hover,
+  .memory-corridor-entry:focus-visible {
+    border-color: var(--wiki-accent-color, #89f5df);
+    background: color-mix(in srgb, var(--wiki-accent-color, #89f5df) 8%, var(--wiki-surface-color, #0b1010));
+    transform: translateX(3px);
+    outline: none;
+  }
+
+  .memory-corridor-entry__mark {
+    width: 0.38rem;
+    height: 1.9rem;
+    flex: none;
+    background: var(--wiki-accent-color, #89f5df);
+    box-shadow: 0 0.5rem 0 color-mix(in srgb, var(--wiki-accent-color, #89f5df) 45%, #006b48);
+  }
+
+  .memory-corridor-entry span:nth-child(2) {
+    min-width: 0;
+  }
+
+  .memory-corridor-entry strong,
+  .memory-corridor-entry small {
+    display: block;
+  }
+
+  .memory-corridor-entry strong {
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+  }
+
+  .memory-corridor-entry small {
+    margin-top: 0.22rem;
+    color: color-mix(in srgb, var(--wiki-muted-color, #8fb0c2) 70%, transparent);
+    font-size: 0.66rem;
+    line-height: 1.5;
+  }
+
+  .memory-corridor-entry svg {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-left: auto;
+    flex: none;
+    fill: none;
+    stroke: var(--wiki-accent-color, #89f5df);
+    stroke-linecap: square;
+    stroke-linejoin: miter;
+    stroke-width: 1.5;
+  }
+</style>

@@ -5,6 +5,7 @@ import SiteNav from '../../../components/SiteNav.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
 import TableOfContents from '../../../components/TableOfContents.astro';
 import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
+import MemoryCorridorEntryLink from '../../../components/MemoryCorridorEntryLink.astro';
 import { buildProjectDisplayData, getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildProjectMetadata } from '../../../lib/metadata.mjs';
@@ -111,6 +112,7 @@ const labels = {
             {project.description}
           </p>
         )}
+        <MemoryCorridorEntryLink locale={localeCode} kind="project" entryId={id!} />
       </div>
 
       <aside class="wiki-side-card wiki-entry-meta-card rounded-md border border-white/10 bg-white/[0.03] p-5 sm:p-6">

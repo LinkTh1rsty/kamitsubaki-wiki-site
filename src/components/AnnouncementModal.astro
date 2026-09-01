@@ -13,6 +13,20 @@ const { announcement, labels } = Astro.props as {
 };
 
 if (!announcement) return;
+
+function escapeHtml(value) {
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+const summaryHtml = escapeHtml(announcement.summary).replace(
+  /(https?:\/\/[^\s<]+)/g,
+  '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>',
+);
 ---
 
 <button
@@ -37,7 +51,7 @@ if (!announcement) return;
     </div>
     <p class="mt-8 text-[9px] font-mono uppercase tracking-[0.24em] text-white/35">{announcement.type}</p>
     <h2 id="announcement-modal-title" class="mt-3 font-serif text-2xl leading-tight text-white sm:text-3xl">{announcement.title}</h2>
-    <p id="announcement-modal-summary" class="mt-5 text-sm leading-7 text-white/60">{announcement.summary}</p>
+    <p id="announcement-modal-summary" class="mt-5 min-h-0 flex-1 overflow-y-auto whitespace-pre-line text-sm leading-7 text-white/60" set:html={summaryHtml}></p>
     <div class="mt-8 flex flex-wrap items-center gap-3 border-t border-white/10 pt-5">
       <button type="button" class="announcement-modal__button announcement-modal__button--primary" data-announcement-close>{labels.close}</button>
     </div>

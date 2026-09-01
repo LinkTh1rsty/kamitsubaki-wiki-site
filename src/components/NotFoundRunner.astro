@@ -1,0 +1,478 @@
+<section class="not-found-runner" data-not-found-runner aria-labelledby="not-found-title">
+  <div class="not-found-runner__hud" aria-live="polite">
+    <span><b data-copy="distance">距离</b> <output data-runner-score>00000</output> M</span>
+    <span><b data-copy="best">最高</b> <output data-runner-best>00000</output> M</span>
+  </div>
+
+  <div class="not-found-runner__stage" data-runner-stage data-state="ready">
+    <canvas
+      data-runner-canvas
+      width="960"
+      height="320"
+      role="img"
+      aria-label="404 pixel runner"
+    ></canvas>
+    <div class="not-found-runner__prompt" data-runner-prompt>
+      <p data-copy="hint">点击 / 空格 / ↑ 跳跃</p>
+    </div>
+    <div class="not-found-runner__gameover" data-runner-gameover hidden>
+      <strong data-copy="interrupted">信号中断</strong>
+      <button type="button" data-runner-restart data-copy="retry">再次连接</button>
+    </div>
+  </div>
+</section>
+
+<script>
+  type RunnerState = 'ready' | 'running' | 'gameover';
+  type PlayerSpriteKey = 'idle' | 'runA' | 'runB' | 'turn' | 'jump';
+  type ImageKey = 'background' | 'objects' | PlayerSpriteKey;
+  type ImageSpec = [string, number?, number?, number?, number?];
+  type ObstacleType = 'low' | 'spikes' | 'tall';
+  type Obstacle = { type: ObstacleType; x: number; y: number; width: number; height: number };
+  type CollisionBox = { x: number; y: number; width: number; height: number };
+
+  const runnerRoot = document.querySelector('[data-not-found-runner]');
+
+  if (runnerRoot instanceof HTMLElement && runnerRoot.dataset.ready !== 'true') {
+    runnerRoot.dataset.ready = 'true';
+
+    const canvas = runnerRoot.querySelector('[data-runner-canvas]');
+    const stage = runnerRoot.querySelector('[data-runner-stage]');
+    const prompt = runnerRoot.querySelector('[data-runner-prompt]');
+    const gameover = runnerRoot.querySelector('[data-runner-gameover]');
+    const restart = runnerRoot.querySelector('[data-runner-restart]');
+    const scoreOutput = runnerRoot.querySelector('[data-runner-score]');
+    const bestOutput = runnerRoot.querySelector('[data-runner-best]');
+
+    if (
+      canvas instanceof HTMLCanvasElement
+      && stage instanceof HTMLElement
+      && prompt instanceof HTMLElement
+      && gameover instanceof HTMLElement
+      && restart instanceof HTMLButtonElement
+      && scoreOutput instanceof HTMLOutputElement
+      && bestOutput instanceof HTMLOutputElement
+    ) {
+      const gameCanvas = canvas;
+      const gameStage = stage;
+      const readyPrompt = prompt;
+      const gameoverPanel = gameover;
+      const restartButton = restart;
+      const scoreNode = scoreOutput;
+      const bestNode = bestOutput;
+      const context = gameCanvas.getContext('2d');
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const storageKey = 'kamitsubaki-404-runner-best-v1';
+      const imageSpecs: Record<ImageKey, ImageSpec> = {
+        background: ['/games/memory-corridor/assets/memory-corridor-pixel-bg.png'],
+        objects: ['/games/memory-corridor/assets/archive-objects-pixel.png'],
+        idle: ['/games/memory-corridor/assets/creature-idle.png', 125, 71, 252, 306],
+        runA: ['/games/memory-corridor/assets/creature-run-a.png', 66, 80, 368, 326],
+        runB: ['/games/memory-corridor/assets/creature-run-b.png', 130, 83, 235, 309],
+        turn: ['/games/memory-corridor/assets/creature-turn.png', 135, 80, 220, 311],
+        jump: ['/games/memory-corridor/assets/creature-jump.png', 151, 103, 208, 286],
+      };
+      const objectSources: Record<ObstacleType, { sx: number; sy: number; sw: number; sh: number; ratio: number; scale: number }> = {
+        low: { sx: 133, sy: 398, sw: 436, sh: 194, ratio: 2.25, scale: 0.34 },
+        spikes: { sx: 1100, sy: 374, sw: 325, sh: 217, ratio: 1.5, scale: 0.37 },
+        tall: { sx: 715, sy: 134, sw: 224, sh: 458, ratio: 0.49, scale: 0.67 },
+      };
+      const images: Partial<Record<ImageKey, HTMLImageElement>> = {};
+      const world = {
+        width: 960,
+        height: 320,
+        groundY: 262,
+        state: 'ready' as RunnerState,
+        score: 0,
+        best: 0,
+        speed: 305,
+        spawnIn: 1.7,
+        lastTime: performance.now(),
+        runClock: 0,
+        backgroundX: 0,
+      };
+      const player = { x: 92, y: 0, width: 62, height: 82, vy: 0, onGround: true };
+      let obstacles: Obstacle[] = [];
+      let animationFrame = 0;
+
+      try {
+        world.best = Math.max(0, Number.parseInt(localStorage.getItem(storageKey) || '0', 10) || 0);
+      } catch {
+        world.best = 0;
+      }
+
+      const formatScore = (value: number) => String(Math.max(0, Math.floor(value))).padStart(5, '0');
+      bestNode.value = formatScore(world.best);
+
+      Object.entries(imageSpecs).forEach(([key, spec]) => {
+        const image = new Image();
+        image.decoding = 'async';
+        image.src = spec[0];
+        images[key as ImageKey] = image;
+      });
+
+      function setState(nextState: RunnerState) {
+        world.state = nextState;
+        gameStage.dataset.state = nextState;
+        readyPrompt.hidden = nextState !== 'ready';
+        gameoverPanel.hidden = nextState !== 'gameover';
+      }
+
+      function resize() {
+        if (!context) return;
+        const rect = gameStage.getBoundingClientRect();
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        gameCanvas.width = Math.max(1, Math.round(rect.width * dpr));
+        gameCanvas.height = Math.max(1, Math.round(rect.height * dpr));
+        context.setTransform(dpr, 0, 0, dpr, 0, 0);
+        context.imageSmoothingEnabled = false;
+        world.width = rect.width;
+        world.height = rect.height;
+        world.groundY = Math.round(rect.height * 0.79);
+        player.height = Math.max(68, Math.min(88, rect.height * 0.3));
+        player.width = player.height * 0.76;
+        player.x = Math.max(48, Math.min(120, rect.width * 0.105));
+        if (player.onGround) player.y = world.groundY - player.height;
+      }
+
+      function reset() {
+        obstacles = [];
+        world.score = 0;
+        world.speed = Math.max(270, Math.min(350, world.width * 0.34));
+        world.spawnIn = 1.65;
+        world.runClock = 0;
+        player.y = world.groundY - player.height;
+        player.vy = 0;
+        player.onGround = true;
+        scoreNode.value = formatScore(0);
+      }
+
+      function startAndJump() {
+        if (world.state === 'gameover' || world.state === 'ready') {
+          reset();
+          setState('running');
+          world.lastTime = performance.now();
+        }
+        if (world.state === 'running' && player.onGround) {
+          player.vy = -Math.max(650, world.height * 2.2);
+          player.onGround = false;
+        }
+      }
+
+      function endRun() {
+        if (world.state !== 'running') return;
+        world.best = Math.max(world.best, Math.floor(world.score));
+        bestNode.value = formatScore(world.best);
+        try {
+          localStorage.setItem(storageKey, String(world.best));
+        } catch {
+          // The runner remains playable when storage is unavailable.
+        }
+        setState('gameover');
+        restartButton.focus();
+      }
+
+      function spawnObstacle() {
+        const available: ObstacleType[] = world.score > 90 ? ['low', 'spikes', 'tall'] : ['low', 'spikes'];
+        const type = available[Math.floor(Math.random() * available.length)];
+        const source = objectSources[type];
+        const height = player.height * source.scale;
+        const width = height * source.ratio;
+        obstacles.push({ type, x: world.width + 32, y: world.groundY - height, width, height });
+        const difficulty = Math.min(0.42, world.score / 700);
+        world.spawnIn = Math.max(1.03, 1.55 + Math.random() * 0.65 - difficulty);
+      }
+
+      function intersects(a: CollisionBox, b: CollisionBox) {
+        return a.x < b.x + b.width && a.x + a.width > b.x && a.y < b.y + b.height && a.y + a.height > b.y;
+      }
+
+      function update(dt: number) {
+        if (world.state !== 'running') return;
+        world.runClock += dt;
+        world.score += (world.speed * dt) / 38;
+        world.speed = Math.max(270, Math.min(510, world.width * 0.34 + world.score * 0.48));
+        world.backgroundX += world.speed * dt * 0.08;
+        world.spawnIn -= dt;
+        if (world.spawnIn <= 0) spawnObstacle();
+
+        const gravity = Math.max(1750, world.height * 5.7);
+        player.vy += gravity * dt;
+        player.y += player.vy * dt;
+        const groundTop = world.groundY - player.height;
+        if (player.y >= groundTop) {
+          player.y = groundTop;
+          player.vy = 0;
+          player.onGround = true;
+        }
+
+        obstacles.forEach((obstacle) => { obstacle.x -= world.speed * dt; });
+        obstacles = obstacles.filter((obstacle) => obstacle.x + obstacle.width > -40);
+
+        const playerHitbox = {
+          x: player.x + player.width * 0.28,
+          y: player.y + player.height * 0.2,
+          width: player.width * 0.44,
+          height: player.height * 0.68,
+        };
+        for (const obstacle of obstacles) {
+          const inset = obstacle.type === 'spikes' ? 0.15 : 0.08;
+          if (intersects(playerHitbox, {
+            x: obstacle.x + obstacle.width * inset,
+            y: obstacle.y + obstacle.height * inset,
+            width: obstacle.width * (1 - inset * 2),
+            height: obstacle.height * (1 - inset),
+          })) {
+            endRun();
+            break;
+          }
+        }
+        scoreNode.value = formatScore(world.score);
+      }
+
+      function drawBackground(time: number) {
+        if (!context) return;
+        context.fillStyle = '#030504';
+        context.fillRect(0, 0, world.width, world.height);
+        const background = images.background;
+        if (background?.complete && background.naturalWidth > 0) {
+          const scale = Math.max(world.width / background.naturalWidth, world.height / background.naturalHeight);
+          const width = background.naturalWidth * scale;
+          const height = background.naturalHeight * scale;
+          const travel = Math.max(1, width - world.width);
+          const x = -((world.backgroundX % travel) || 0);
+          context.save();
+          context.globalAlpha = 0.48;
+          context.drawImage(background, x, world.height - height, width, height);
+          if (x + width < world.width) context.drawImage(background, x + width, world.height - height, width, height);
+          context.restore();
+        }
+
+        context.fillStyle = '#67d8c3';
+        context.fillRect(0, world.groundY, world.width, 2);
+        context.fillStyle = 'rgba(103, 216, 195, 0.2)';
+        for (let x = -((world.backgroundX * 1.8) % 36); x < world.width; x += 36) {
+          context.fillRect(Math.round(x), world.groundY + 10, 16, 2);
+        }
+        if (!reducedMotion) {
+          context.fillStyle = 'rgba(137, 245, 223, 0.32)';
+          for (let index = 0; index < 11; index += 1) {
+            const x = (index * 173 + time * 0.018) % (world.width + 50) - 25;
+            const y = 34 + ((index * 47) % Math.max(60, world.groundY - 80));
+            context.fillRect(Math.round(x), y, 2, 2);
+          }
+        }
+      }
+
+      function drawObject(obstacle: Obstacle) {
+        if (!context) return;
+        const sheet = images.objects;
+        const source = objectSources[obstacle.type];
+        if (!sheet?.complete || sheet.naturalWidth === 0) return;
+        context.drawImage(
+          sheet,
+          source.sx,
+          source.sy,
+          source.sw,
+          source.sh,
+          Math.round(obstacle.x),
+          Math.round(obstacle.y),
+          Math.round(obstacle.width),
+          Math.round(obstacle.height),
+        );
+      }
+
+      function drawPlayer() {
+        if (!context) return;
+        let key: PlayerSpriteKey = 'idle';
+        if (world.state === 'gameover') key = 'turn';
+        else if (!player.onGround) key = 'jump';
+        else if (world.state === 'running') key = world.runClock % 0.22 < 0.11 ? 'runA' : 'runB';
+        const image = images[key];
+        const spec = imageSpecs[key];
+        if (!image?.complete || image.naturalWidth === 0) return;
+        const sourceWidth = spec[3] ?? image.naturalWidth;
+        const sourceHeight = spec[4] ?? image.naturalHeight;
+        const drawHeight = player.height;
+        const drawWidth = drawHeight * (sourceWidth / sourceHeight);
+        context.drawImage(
+          image,
+          spec[1] ?? 0,
+          spec[2] ?? 0,
+          sourceWidth,
+          sourceHeight,
+          Math.round(player.x + (player.width - drawWidth) / 2),
+          Math.round(player.y + player.height - drawHeight),
+          Math.round(drawWidth),
+          Math.round(drawHeight),
+        );
+      }
+
+      function draw(time: number) {
+        if (!context) return;
+        context.imageSmoothingEnabled = false;
+        drawBackground(time);
+        obstacles.forEach(drawObject);
+        drawPlayer();
+      }
+
+      function frame(time: number) {
+        const dt = Math.min(0.034, Math.max(0, (time - world.lastTime) / 1000));
+        world.lastTime = time;
+        update(dt);
+        draw(time);
+        animationFrame = requestAnimationFrame(frame);
+      }
+
+      gameCanvas.addEventListener('pointerdown', (event) => {
+        event.preventDefault();
+        startAndJump();
+      });
+      restartButton.addEventListener('click', startAndJump);
+      window.addEventListener('keydown', (event) => {
+        if (!['Space', 'ArrowUp', 'KeyW'].includes(event.code) || event.repeat) return;
+        event.preventDefault();
+        startAndJump();
+      }, { passive: false });
+      window.addEventListener('resize', resize, { passive: true });
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden && world.state === 'running') setState('ready');
+        world.lastTime = performance.now();
+      });
+
+      resize();
+      reset();
+      setState('ready');
+      cancelAnimationFrame(animationFrame);
+      animationFrame = requestAnimationFrame(frame);
+    }
+  }
+</script>
+
+<style>
+  .not-found-runner {
+    width: 100%;
+    border-top: 1px solid rgba(137, 245, 223, 0.28);
+    border-bottom: 1px solid rgba(137, 245, 223, 0.28);
+    background: #030504;
+    box-shadow: 7px 7px 0 rgba(137, 245, 223, 0.08);
+  }
+
+  .not-found-runner__hud {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.72rem 1rem;
+    border-bottom: 1px solid rgba(137, 245, 223, 0.17);
+    color: #dceae6;
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
+  }
+
+  .not-found-runner__hud b {
+    margin-right: 0.55rem;
+    color: #66857d;
+    font-size: 0.55rem;
+    font-weight: 500;
+  }
+
+  .not-found-runner__stage {
+    position: relative;
+    height: clamp(15rem, 32vw, 20rem);
+    overflow: hidden;
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+
+  .not-found-runner canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .not-found-runner__stage::after {
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(0deg, transparent 0 3px, rgba(137, 245, 223, 0.025) 3px 4px);
+    content: '';
+    pointer-events: none;
+  }
+
+  .not-found-runner__prompt,
+  .not-found-runner__gameover {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    pointer-events: none;
+  }
+
+  .not-found-runner__prompt p {
+    padding: 0.58rem 0.8rem;
+    border: 1px solid rgba(137, 245, 223, 0.34);
+    background: rgba(3, 5, 4, 0.84);
+    color: #89f5df;
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 0.63rem;
+    letter-spacing: 0.13em;
+  }
+
+  .not-found-runner__gameover {
+    gap: 1rem;
+    background: rgba(3, 5, 4, 0.48);
+    pointer-events: auto;
+  }
+
+  .not-found-runner__gameover[hidden],
+  .not-found-runner__prompt[hidden] {
+    display: none;
+  }
+
+  .not-found-runner__gameover strong {
+    color: #f0f4f2;
+    font-size: clamp(1.1rem, 3vw, 1.7rem);
+    font-weight: 600;
+    letter-spacing: 0.22em;
+  }
+
+  .not-found-runner__gameover button {
+    min-width: 8.5rem;
+    padding: 0.7rem 1rem;
+    border: 1px solid #89f5df;
+    background: #030504;
+    color: #89f5df;
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 0.64rem;
+    letter-spacing: 0.14em;
+    transition: background 150ms ease, color 150ms ease;
+  }
+
+  .not-found-runner__gameover button:hover,
+  .not-found-runner__gameover button:focus-visible {
+    background: #89f5df;
+    color: #03110e;
+    outline: none;
+  }
+
+  @media (max-width: 640px) {
+    .not-found-runner__hud {
+      padding-inline: 0.75rem;
+    }
+
+    .not-found-runner__stage {
+      height: 15.5rem;
+    }
+
+    .not-found-runner__prompt p {
+      font-size: 0.56rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .not-found-runner__gameover button {
+      transition: none;
+    }
+  }
+</style>

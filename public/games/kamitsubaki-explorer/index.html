@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#020908" />
+    <title>神椿记忆探索 · Demo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="game-shell" id="gameShell" data-screen="loading" data-mode="memory">
+      <canvas id="gameCanvas" aria-label="神椿像素档案探索游戏"></canvas>
+
+      <div class="scanlines" aria-hidden="true"></div>
+
+      <header class="hud" id="hud" hidden>
+        <div class="hud__identity">
+          <span class="hud__signal" aria-hidden="true"></span>
+          <div>
+            <strong id="modeTitle">记忆采集</strong>
+            <small id="areaName">ARCHIVE FIELD 01</small>
+          </div>
+        </div>
+        <div class="hud__metrics">
+          <span class="hud__health" aria-label="生命值"><i aria-hidden="true">♥</i><b id="healthCount">3</b></span>
+          <span><i class="hud-icon hud-icon--gem" aria-hidden="true"></i><b id="gemCount">00</b></span>
+          <span><i class="hud-icon hud-icon--fragment" aria-hidden="true"></i><b id="fragmentCount">0/3</b></span>
+        </div>
+        <button class="hud__menu" id="openMenuButton" type="button">玩法</button>
+      </header>
+
+      <section class="loading-screen" id="loadingScreen" aria-live="polite">
+        <span class="loading-screen__glyph" aria-hidden="true"></span>
+        <p>正在接入神椿档案</p>
+        <div class="loading-screen__line"><i></i></div>
+      </section>
+
+      <section class="mode-menu" id="modeMenu" aria-labelledby="menuTitle" hidden>
+        <div class="mode-menu__intro">
+          <h1 id="menuTitle">选择观测方式</h1>
+          <p>同一片失落档案，三种进入方法。</p>
+        </div>
+        <div class="mode-list">
+          <button class="mode-option" type="button" data-start-mode="memory">
+            <span class="mode-option__number">01</span>
+            <span class="mode-option__copy">
+              <strong>记忆采集</strong>
+              <small>收集宝石与记忆碎片，在档案终端完成问答。</small>
+            </span>
+            <span class="mode-option__action">开始探索</span>
+          </button>
+          <button class="mode-option" type="button" data-start-mode="portal">
+            <span class="mode-option__number">02</span>
+            <span class="mode-option__copy">
+              <strong>条目传送</strong>
+              <small>寻找四类传送门，直接抵达人物、歌曲、专辑与企划。</small>
+            </span>
+            <span class="mode-option__action">打开地图</span>
+          </button>
+          <button class="mode-option" type="button" data-start-mode="runner">
+            <span class="mode-option__number">03</span>
+            <span class="mode-option__copy">
+              <strong>记忆回廊</strong>
+              <small>保留原有谷歌小恐龙式跑酷，挑战距离与路线选择。</small>
+            </span>
+            <span class="mode-option__action">进入跑酷</span>
+          </button>
+        </div>
+        <p class="mode-menu__controls">移动 A/D 或 ←/→ · 跳跃 W/空格/↑ · 冲刺 Shift/X · 互动 E</p>
+      </section>
+
+      <section class="runner-layer" id="runnerLayer" hidden>
+        <iframe id="runnerFrame" title="记忆回廊跑酷模式" loading="eager"></iframe>
+        <button class="runner-layer__back" id="runnerBackButton" type="button">返回三种玩法</button>
+      </section>
+
+      <div class="interaction-prompt" id="interactionPrompt" hidden>
+        <kbd>E</kbd>
+        <span id="interactionText">读取档案</span>
+      </div>
+
+      <aside class="quest-tracker" id="questTracker" hidden aria-live="polite">
+        <span id="questKind">CURRENT OBJECTIVE</span>
+        <strong id="questTitle">收集共鸣宝石</strong>
+        <small id="questDetail">宝石会解开当前区域的档案封印。</small>
+        <div class="quest-tracker__bar"><i id="questProgress"></i></div>
+      </aside>
+
+      <div class="toast" id="toast" aria-live="polite" hidden>
+        <span id="toastKind">MEMORY FOUND</span>
+        <strong id="toastTitle">档案标题</strong>
+        <small id="toastFact">档案线索</small>
+      </div>
+
+      <dialog class="archive-dialog" id="archiveDialog">
+        <button class="archive-dialog__close" id="dialogCloseButton" type="button" aria-label="关闭">×</button>
+        <p class="archive-dialog__index" id="dialogIndex">ARCHIVE / 01</p>
+        <h2 id="dialogTitle">档案终端</h2>
+        <p class="archive-dialog__lead" id="dialogLead"></p>
+        <div class="archive-dialog__answers" id="dialogAnswers"></div>
+        <div class="archive-dialog__links" id="dialogLinks"></div>
+      </dialog>
+
+      <div class="touch-controls" id="touchControls" hidden>
+        <div class="touch-controls__move">
+          <button type="button" data-touch="left" aria-label="向左移动">←</button>
+          <button type="button" data-touch="right" aria-label="向右移动">→</button>
+        </div>
+        <button class="touch-controls__jump" type="button" data-touch="jump" aria-label="跳跃">↑</button>
+        <button class="touch-controls__dash" type="button" data-touch="dash" aria-label="共鸣冲刺">⇥</button>
+        <button class="touch-controls__interact" type="button" data-touch="interact" aria-label="互动">E</button>
+      </div>
+
+      <div class="screen-flash" id="screenFlash" aria-hidden="true"></div>
+    </main>
+
+    <script type="module" src="./game.js"></script>
+  </body>
+</html>
