@@ -11,12 +11,14 @@ label: "KAMITSUBAKI RECORD"
 catalogNumber: "KTR-014"
 trackCount: 6
 duration: "20:22"
-categoryTitle: "アルバム"
+categoryTitle: "专辑"
 categorySubtitle: ALBUMS
 categoryOrder: 1
 itemOrder: 20
 image: /images/songs/kaf/hana-to-kaitou.jpg
 officialLinks:
+  - label: "花譜官方网站"
+    href: https://kaf.kamitsubaki.jp/discography/20200722/111/
   - label: "Apple Music 日本"
     href: https://music.apple.com/jp/album/%E5%AF%93%E8%A9%B1%CE%B3-remix/1823861900?uo=4
 tracks:
@@ -52,7 +54,7 @@ tracks:
     songId: "kaf/remixes/ホワイトブーケ(Saku-Remix)-white-bouquet-saku-remix"
 ---
 
-## 作品概要
+## 作品简介
 
 花譜2nd EP「花と解答」。
 
@@ -64,16 +66,16 @@ tracks:
 
 ブラッククローバーEditionはテレビアニメ「ブラッククローバー」の主人公のアスタと花譜がコラボした描き下ろしイラストとなっており、全国のアニメイト限定で発売中。
 
-## リリースと仕様
+## 发行与版本
 
-- 発売日・曲順・再生時間は公式作品ページとApple Music日本版を照合しています。
-- 公式の収録順で校合済みです。MCを除く全トラックから、個別の楽曲またはバージョン記事へ移動できます。
+- 发行日期、曲序与时长以官方作品页和 Apple Music 日本区资料交叉核对。
+- 本页曲目表已按官方发行顺序校对；除 MC 外，每一轨均链接到独立歌曲或版本词条。
 
-## トラック情報
+## 曲目说明
 
-全13トラック。上部のトラック表にはディスク番号、曲順、再生時間、共演者、サイト内楽曲リンクを収録しています。
+本发行共 3 轨，页面上方曲目表保留碟号、顺序、时长、合作艺人及站内歌曲链接。
 
-## 出典
+## 来源
 
 - [Apple Music](https://music.apple.com/jp/album/%E5%AF%93%E8%A9%B1%CE%B3-remix/1823861900?uo=4)
 - [VGMdb 花譜ディスコグラフィー](https://vgmdb.net/artist/34690)
