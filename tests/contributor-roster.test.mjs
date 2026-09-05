@@ -110,7 +110,7 @@ test('contributor snapshots are uploaded in API-sized batches after streaming', 
   });
 
   assert.deepEqual(calls.map(({ events: batch }) => batch.length), [1000, 1000, 105]);
-  assert.deepEqual(calls.map(({ replaceSource }) => replaceSource), [true, false, false]);
+  assert.deepEqual(calls.map(({ replaceSource }) => replaceSource), [false, false, false]);
   assert.deepEqual(result, { accepted: 2105, batches: 3 });
 });
 

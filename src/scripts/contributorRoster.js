@@ -1,3 +1,7 @@
+import { createContributorClient } from '../lib/contributorClient.mjs';
+let contributorStorage;
+try { contributorStorage = window.sessionStorage; } catch {}
+const contributorClient = createContributorClient({ storage: contributorStorage });
 import { normalizeContributorData } from '../lib/contributorRosterData.mjs';
 
 function escapeHtml(value) {
@@ -227,8 +231,8 @@ function renderRoster(root, source, copy) {
         <div class="contributor-roster__people">${topContributors.map((item) => renderContributor(item, copy, mode, ownerLogin)).join('')}</div>
       </section>
       <section class="contributor-roster__section contributor-roster__section--activity">
-        <div class="contributor-roster__section-heading"><h3>${escapeHtml(copy.recentTitle)}</h3><span>LIVE</span></div>
-        <ol class="contributor-roster__recent">${recent.map((event) => renderActivity(event, copy, locale)).join('')}</ol>
+        <div class="contributor-roster__section-heading"><h3>${escapeHtml(copy.recentTitle)}</h3><span>ARCHIVE</span></div>
+        ${source.recentUnavailable ? `<p>${escapeHtml(copy.recentUnavailable)}</p>` : `<ol class="contributor-roster__recent">${recent.map((event) => renderActivity(event, copy, locale)).join('')}</ol>`}
       </section>
     </div>
     ${renderActions(root, copy)}
@@ -247,7 +251,7 @@ function renderError(root, state, content, copy) {
   });
 }
 
-async function loadRoster(root) {
+async function loadRoster(root, force = false) {
   const status = root.dataset.contributorRosterStatus;
   if (status === 'loading' || status === 'loaded') return;
 
@@ -271,13 +275,27 @@ async function loadRoster(root) {
     url.searchParams.set('recentLimit', '24');
   }
 
-  try {
-    const response = await fetch(url, { headers: { Accept: 'application/json' } });
-    if (!response.ok) throw new Error(`Contributor API returned ${response.status}`);
-    content.innerHTML = renderRoster(root, await response.json(), copy);
-    prepareRosterMotion(content);
+  const previous = contributorClient.peek(url);
+  if (previous) {
+    content.innerHTML = renderRoster(root, previous.data, copy);
     content.hidden = false;
     state.hidden = true;
+  }
+  try {
+    const result = await contributorClient.load(url, { force });
+    if (!previous || JSON.stringify(previous.data) !== JSON.stringify(result.data)) {
+      content.innerHTML = renderRoster(root, result.data, copy);
+      prepareRosterMotion(content);
+    }
+    content.hidden = false;
+    state.hidden = !result.stale;
+    if (result.stale) {
+      state.innerHTML = `<span>${escapeHtml(copy.cached)}</span><button type="button" data-contributor-retry>${escapeHtml(copy.retry)}</button>`;
+      state.querySelector('[data-contributor-retry]')?.addEventListener('click', () => {
+        delete root.dataset.contributorRosterStatus;
+        loadRoster(root, true);
+      });
+    }
     root.dataset.contributorRosterStatus = 'loaded';
   } catch {
     root.dataset.contributorRosterStatus = 'error';

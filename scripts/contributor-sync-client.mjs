@@ -30,7 +30,7 @@ export async function syncContributionEvents({
       },
       body: JSON.stringify({
         source,
-        replaceSource: index === 0,
+        replaceSource: false,
         events: batch,
       }),
     });
