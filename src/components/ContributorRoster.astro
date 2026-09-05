@@ -10,7 +10,7 @@ interface Props {
 }
 
 const { mode, locale = 'zh', collection = '', entryId = '' } = Astro.props as Props;
-const apiBase = import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://kamitsubaki-ai-observer.linkth1rstyg.workers.dev';
+const apiBase = import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kamitsubaki.wiki';
 const guideHref = `/${locale}/contribute/edit`;
 const syntaxHref = `/${locale}/contribute/syntax`;
 const formatHref = `/${locale}/contribute/format`;
