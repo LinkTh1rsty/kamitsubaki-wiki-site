@@ -3396,6 +3396,10 @@ html[data-theme='light'] .guide-shell {
   pointer-events: none;
 }
 
+.social-contact.is-open {
+  z-index: 41;
+}
+
 .social-contact__toggle {
   position: relative;
   display: inline-flex;
