@@ -115,8 +115,10 @@ Over time, KAF expanded beyond that initial phase into a wider project-based rol
   - **April**: Slated to provide the opening theme for the TV anime *Chuzenji-sensei Mononoke Kougiroku*.
   - **September 12**: Announced her first solo concert in China, *Shukusei China 1st Solo Live*, scheduled to be held in Shanghai on November 29–30 (later cancelled on November 28 due to force majeure).
 - **2026**
+  - **March 1**：Held her 5th ONE-MAN LIVE *Inner Echoes Transcendent Love* (written as "宿声/深愛") at Yokohama PIA ARENA MM.
   - **May 27**: Released her 5th Album *Transcendent-love*.
   - **May 30**: Successfully held the solo live *Shukusei in Hong Kong* at the AsiaWorld-Expo.
+  - **September 6**: Held her 5th ONE-MAN LIVE *Inner Echoes Transcendent Love（Reprise）* (written as "宿声/深愛（巡）") at Pacifico Yokohama.
 
 ## Representative Works and Related Entries
 
