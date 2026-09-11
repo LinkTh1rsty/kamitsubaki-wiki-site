@@ -13,6 +13,7 @@ import {
   getLocalizedSiteName,
   resolveLocaleCopy,
 } from '../lib/i18n.mjs';
+import { absoluteUrl, buildSearchAlternates, buildPageStructuredData, serializeStructuredData } from '../lib/searchMetadata.mjs';
 import { getLocalizedSite } from '../lib/homeData.mjs';
 import '../styles/global.css';
 import '../styles/quietChrome.css';
@@ -26,6 +27,9 @@ type PageMetadata = {
   title?: string;
   description?: string;
   image?: string;
+  imageAlt?: string;
+  imageWidth?: number;
+  imageHeight?: number;
   canonicalPath?: string;
   type?: 'website' | 'article';
   keywords?: string[];
@@ -64,10 +68,17 @@ const pageDescription = metadata.description || resolveLocaleCopy({
 }, lang);
 const pageType = metadata.type || 'website';
 const canonicalPath = metadata.canonicalPath || Astro.url.pathname;
-const canonicalUrl = siteOrigin ? `${siteOrigin}${canonicalPath}` : canonicalPath;
+const canonicalUrl = absoluteUrl(canonicalPath, siteOrigin);
 const pageImage = metadata.image;
-const pageImageUrl = pageImage && siteOrigin && pageImage.startsWith('/') ? `${siteOrigin}${pageImage}` : pageImage;
-const robots = metadata.noindex ? 'noindex, nofollow' : 'index, follow';
+const pageImageUrl = pageImage ? absoluteUrl(pageImage, siteOrigin) : undefined;
+const searchAlternates = buildSearchAlternates(alternates, siteOrigin);
+const defaultAlternate = searchAlternates.find((alternate) => alternate.locale === 'zh');
+const robots = metadata.noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large';
+const structuredData = buildPageStructuredData({
+  title: pageTitle, description: pageDescription, url: canonicalUrl,
+  image: pageImageUrl, imageAlt: metadata.imageAlt, locale: lang,
+  origin: siteOrigin, isHome: isLocalizedHome,
+});
 const siteEntries = await getCollection('site');
 const siteContent = getLocalizedSite(siteEntries, lang);
 const aiChatCopy = siteContent?.aiChat;
@@ -125,10 +136,10 @@ const fontStylesheet = getLocaleFontStylesheet(lang);
     <meta name="robots" content={robots} />
     {metadata.keywords?.length && <meta name="keywords" content={metadata.keywords.join(', ')} />}
     <link rel="canonical" href={canonicalUrl} />
-    {alternates.map((alternate) => (
-      <link rel="alternate" hreflang={getLanguageTag(alternate.locale)} href={alternate.href} />
+    {searchAlternates.map((alternate) => (
+      <link rel="alternate" hreflang={alternate.hreflang} href={alternate.href} />
     ))}
-    <link rel="alternate" hreflang="x-default" href="/zh/" />
+    {defaultAlternate && <link rel="alternate" hreflang="x-default" href={defaultAlternate.href} />}
     {isLocalizedHome && (
       <>
         <link rel="preload" href="/brand/site-intro-light.mp4" as="video" type="video/mp4" />
@@ -141,11 +152,20 @@ const fontStylesheet = getLocaleFontStylesheet(lang);
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={pageDescription} />
     <meta property="og:url" content={canonicalUrl} />
-    {pageImageUrl && <meta property="og:image" content={pageImageUrl} />}
+    {pageImageUrl && <>
+      <meta property="og:image" content={pageImageUrl} />
+      <meta property="og:image:alt" content={metadata.imageAlt || pageTitle} />
+      {metadata.imageWidth && <meta property="og:image:width" content={String(metadata.imageWidth)} />}
+      {metadata.imageHeight && <meta property="og:image:height" content={String(metadata.imageHeight)} />}
+    </>}
     <meta name="twitter:card" content={pageImageUrl ? 'summary_large_image' : 'summary'} />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={pageDescription} />
-    {pageImageUrl && <meta name="twitter:image" content={pageImageUrl} />}
+    {pageImageUrl && <>
+      <meta name="twitter:image" content={pageImageUrl} />
+      <meta name="twitter:image:alt" content={metadata.imageAlt || pageTitle} />
+    </>}
+    <script type="application/ld+json" is:inline set:html={serializeStructuredData(structuredData)} />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
