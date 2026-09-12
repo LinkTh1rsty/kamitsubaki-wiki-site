@@ -50,11 +50,45 @@ seo:
 
 廉（Ren）は 2020年3月から楽曲を発表し始めたボカロPである。暗く冷たい雰囲気の歌詞とサウンドスケープで、没入感のある映画的なリスニング体験を生み出すことが特徴。陰鬱なトーンパレットの中にも、多彩で創造的なメロディ展開を織り交ぜ、予想外のハーモニーや構成の変化でリスナーを引き続ける。
 
-
 ## 代表作品
 
-「[余命日記](/ja/songs/ren/originals/余命日記)」「[嘘月が綺麗ですね](/ja/songs/ren/originals/嘘月ga綺麗desune)」「[レグルスリベリオン](/ja/songs/ren/originals/regurusuriberion)」「[エメの鳥籠](/ja/songs/ren/originals/emeno鳥籠)」「[バレットシャーク](/ja/songs/ren/originals/barettoshaaku)」「[化猫横丁](/ja/songs/ren/originals/化猫横丁)」など、物語の深みをアトモスフェリックなエレクトロニックプロダクションに織り込む能力を示す作品を多数発表している。
+{{details::シングル一覧を開く}}
 
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2020-07-04 | [神堕とし奇譚](</ja/songs/ren/originals/神堕toshi奇譚>) |
+| 2020-11-06 | [ダウナーウィッチ](</ja/songs/ren/originals/daunaauitchi>) |
+| 2021-07-01 | [ローゼンハイヴ](</ja/songs/ren/originals/roozenhaivu>) |
+| 2022-01-20 | [ゴーストアレイ](</ja/songs/ren/originals/goosutoarei>) |
+| 2022-04-02 | [幸福排除システム](</ja/songs/ren/originals/幸福排除shisutemu>) |
+| 2022-07-26 | [始発駅、君を待つ。](</ja/songs/ren/originals/始発駅君wo待tsu>) |
+| 2022-11-08 | [完結型マイルーム](</ja/songs/ren/originals/完結型mairuumu>) |
+| 2023-01-03 | [死式、罪滅ぼし。](</ja/songs/ren/originals/死式罪滅boshi>) |
+| 2023-03-14 | [マインドキャッスル](</ja/songs/ren/originals/maindokyassuru>) |
+| 2023-04-28 | [ドールジアビス](</ja/songs/ren/originals/doorujiabisu>) |
+| 2023-05-30 | [エルヴァイオレット](</ja/songs/ren/originals/eruvuaioretto>) |
+| 2023-08-22 | [猫好的トリックスター](</ja/songs/ren/originals/猫好的torikkusutaa>) |
+| 2023-09-26 | [バレットシャーク](</ja/songs/ren/originals/barettoshaaku>) |
+| 2024-01-30 | [ラピスレコード](</ja/songs/ren/originals/rapisurekoodo>) |
+| 2024-03-19 | [化猫横丁](</ja/songs/ren/originals/化猫横丁>) |
+| 2024-05-28 | [ミアの人形屋敷](</ja/songs/ren/originals/miano人形屋敷>) |
+| 2024-09-17 | [ノイズゴト](</ja/songs/ren/originals/noizugoto>) |
+| 2024-10-01 | [雨傘に哭く](</ja/songs/ren/originals/雨傘ni哭ku>) |
+| 2024-12-03 | [キミアイギミー](</ja/songs/ren/originals/kimiaigimii>) |
+| 2025-01-06 | [セカイの箱庭 (feat. Isekaijoucho)](</ja/songs/ren/originals/sekaino箱庭-feat.-isekaijoucho>) |
+| 2025-01-28 | [ラストバースデイ](</ja/songs/ren/originals/rasutobaasudei>) |
+| 2025-05-06 | [レムシェイディ](</ja/songs/ren/originals/remusheidei>) |
+| 2025-08-26 | [エメの鳥籠](</ja/songs/ren/originals/emeno鳥籠>) |
+| 2025-09-30 | [レグルスリベリオン](</ja/songs/ren/originals/regurusuriberion>) |
+| 2026-01-02 | [冬月、凜然に帰す。](</ja/songs/ren/originals/冬月凜然ni帰su>) |
+| 2026-01-27 | [嘘月が綺麗ですね](</ja/songs/ren/originals/嘘月ga綺麗desune>) |
+| 2026-04-28 | [余命日記](</ja/songs/ren/originals/余命日記>) |
+| 2026-07-28 | [夢を諦める日](</ja/songs/ren/originals/夢wo諦meru日>) |
+| 2026-07-30 | [レーヴの落日](</ja/songs/ren/originals/reevuno落日>) |
+
+{{/details}}
 
 ## コラボレーションと最近の活動
 
@@ -62,11 +96,9 @@ Ren のキャリアにおける重要なマイルストーンとして、Shido�
 
 - 2026年9月：THINKRのスタジオ再編に伴い、[KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) へ移籍（旧・[KAMITSUBAKI STUDIO](/ja/projects/labels/kamitsubaki-studio) 体系）。
 
-
 ## 役割と創作上の位置づけ
 
 Ren のプロダクションは、冷たいアトモスフェリックな質感と感情的な物語性に特徴付けられる、ボカロシーンのより暗い領域を占めている。多彩なメロディアプローチにより、特徴的な陰鬱なフレームワークの中でも、各楽曲が独自の感情の旅を提供している。2020 年以降の作品群は、現代ボカロプロデューサーシーンにおける注目すべき声としての地位を確立しつつある。
-
 
 ## 作品リスト
 
@@ -77,7 +109,6 @@ Ren のプロダクションは、冷たいアトモスフェリックな質感�
 - 「バレットシャーク」
 - 「化猫横丁」
 - 「詩月灯りに幸福を」（Shido、Koyuku との共作）
-
 
 ## 外部リンク
 

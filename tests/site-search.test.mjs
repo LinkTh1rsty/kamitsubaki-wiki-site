@@ -272,9 +272,15 @@ test('AI index shard map covers every locale and content collection once', async
 });
 
 test('localized lightweight search index is generated separately from the AI corpus', async () => {
-  const endpoint = await readFile(new URL('../src/pages/[locale]/search-index.json.ts', import.meta.url), 'utf8');
+  const [endpoint, bodyEndpoint] = await Promise.all([
+    readFile(new URL('../src/pages/[locale]/search-index.json.ts', import.meta.url), 'utf8'),
+    readFile(new URL('../src/pages/[locale]/search-body.json.ts', import.meta.url), 'utf8'),
+  ]);
   assert.match(endpoint, /kamitsubaki-wiki-search-index/);
   assert.match(endpoint, /entry\.data\.locale !== locale/);
-  assert.match(endpoint, /searchKey/);
-  assert.match(endpoint, /1100/);
+  assert.doesNotMatch(endpoint, /searchKey/);
+  assert.match(bodyEndpoint, /kamitsubaki-wiki-search-body/);
+  assert.match(bodyEndpoint, /entry\.data\.locale !== locale/);
+  assert.match(bodyEndpoint, /buildSearchKey/);
+  assert.match(bodyEndpoint, /1100/);
 });

@@ -142,7 +142,73 @@ CeVIO AIプラットフォーム上で動作し、名前は「RIM + ECHO（理�
 
 ## 公式音楽とコミュニティ作品
 
-裏命の歩みは、個人歌手のディスコグラフィーとは異なり、公式デモ、コンテスト、クリエイター合輯が主要な節目となる。『Paranormal』は音楽作品であると同時に、創作者コミュニティの記録でもある。
+{{details::アルバムとEPの一覧を開く}}
+
+**アルバム / EP**
+
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2025-01-11 | Album | [5: I Wish I Could Figure Out Why I Can Dream](</ja/albums/rime/5-I-Wish-I-Could-Figure-Out-Why-I-Can-Dream-1787973321>) |
+| 2025-01-16 | Album | [Only pitch-blackness can save you.](</ja/albums/rime/Only-pitch-blackness-can-save-you.-1786954898>) |
+| 2025-03-15 | Album | [Adore](</ja/albums/rime/Adore-1798669277>) |
+| 2025-04-26 | EP | [Newgame](</ja/albums/rime/Newgame-1808133126>) |
+
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2015-05-14 | [Doubt](</ja/songs/rime/originals/doubt>) |
+| 2015-10-11 | [爆発反転 (feat. マサラダ)](</ja/songs/rime/originals/爆発反転-feat.-masarada>) |
+| 2015-10-11 | [EXAM (feat. Rime)](</ja/songs/rime/originals/exam-feat.-rime>) |
+| 2016-01-28 | [Everything](</ja/songs/rime/originals/everything>) |
+| 2017-07-25 | [怪獣は猫が好きなんだ](</ja/songs/rime/originals/怪獣ha猫ga好kinanda>) |
+| 2023-03-20 | [文明と呼吸](</ja/songs/rime/originals/文明to呼吸>) |
+| 2023-04-13 | [PHNTM](</ja/songs/rime/originals/phntm>) |
+| 2023-05-27 | [マタドール](</ja/songs/rime/originals/matadooru>) |
+| 2023-06-02 | [けだもの](</ja/songs/rime/originals/kedamono>) |
+| 2023-07-17 | [亜ガキ](</ja/songs/rime/originals/亜gaki>) |
+| 2023-07-26 | [ヨークシャンデレラ](</ja/songs/rime/originals/yookushanderera>) |
+| 2023-08-13 | [レセダ](</ja/songs/rime/originals/reseda>) |
+| 2023-08-19 | [ぜんぶどうでも](</ja/songs/rime/originals/zenbudoudemo>) |
+| 2023-09-06 | [半直線のうた](</ja/songs/rime/originals/半直線nouta>) |
+| 2023-09-06 | [バンビ](</ja/songs/rime/originals/banbi>) |
+| 2023-12-04 | [夜のワルツ](</ja/songs/rime/originals/夜nowarutsu>) |
+| 2023-12-22 | [ぎゅっとして](</ja/songs/rime/originals/gyuttoshite>) |
+| 2024-01-31 | [やさしい嘘](</ja/songs/rime/originals/yasashii嘘>) |
+| 2024-06-25 | [真夜中はいつも一人](</ja/songs/rime/originals/真夜中haitsumo一人>) |
+| 2024-08-25 | [美しいもの](</ja/songs/rime/originals/美shiimono>) |
+| 2024-08-31 | [微睡む夏](</ja/songs/rime/originals/微睡mu夏>) |
+| 2024-10-16 | [多角的に見た自己犠牲、または愛と呼ばれる行動についての考察](</ja/songs/rime/originals/多角的ni見ta自己犠牲mataha愛to呼bareru行動nitsuiteno考察>) |
+| 2024-10-22 | [大作戦です。](</ja/songs/rime/originals/大作戦desu>) |
+| 2024-10-29 | [否・アンチドート](</ja/songs/rime/originals/否-anchidooto>) |
+| 2024-10-29 | [哀しき玩具](</ja/songs/rime/originals/哀shiki玩具>) |
+| 2025-02-28 | [eden-404](</ja/songs/rime/originals/eden-404>) |
+| 2025-03-22 | [赤い目に君は気づかない](</ja/songs/rime/originals/赤i目ni君ha気zukanai>) |
+| 2025-05-01 | [アイニーク](</ja/songs/rime/originals/ainiiku>) |
+| 2025-07-16 | [花に笑う](</ja/songs/rime/originals/花ni笑u>) |
+| 2025-07-18 | [cheers](</ja/songs/rime/originals/cheers>) |
+| 2025-07-23 | [秘めた想い (2025ver.)](</ja/songs/rime/originals/秘meta想i-2025ver>) |
+| 2025-07-29 | [stargazer](</ja/songs/rime/originals/stargazer>) |
+| 2025-08-04 | [溶けきれない背景](</ja/songs/rime/originals/溶kekirenai背景>) |
+| 2025-09-07 | [降り立つ今日は、](</ja/songs/rime/originals/降ri立tsu今日ha>) |
+| 2025-09-09 | [God Gacha](</ja/songs/rime/originals/god-gacha>) |
+| 2025-09-16 | [ことばたらず](</ja/songs/rime/originals/kotobatarazu>) |
+| 2025-10-10 | [君と息をしていたかった](</ja/songs/rime/originals/君to息woshiteitakatta>) |
+| 2025-10-13 | [unnamed](</ja/songs/rime/originals/unnamed>) |
+| 2025-11-08 | [White Noise](</ja/songs/rime/originals/white-noise>) |
+| 2025-11-20 | [ごめんね、いい子じゃなくて](</ja/songs/rime/originals/gomenneii子janakute>) |
+| 2025-11-21 | [LOSER](</ja/songs/rime/originals/loser>) |
+| 2025-12-20 | [ラストエンプティサテライト](</ja/songs/rime/originals/rasutoenputeisateraito>) |
+| 2026-01-28 | [幽玄の詩 (feat. ◈*ゆくえわっと)](</ja/songs/rime/originals/幽玄no詩-feat.-◈-yukuewatto>) |
+| 2026-03-29 | [現象ラブ・ソング](</ja/songs/rime/originals/現象rabu-songu>) |
+| 2026-04-15 | [TIMEOVER](</ja/songs/rime/originals/timeover>) |
+| 2026-07-30 | [レイニー・レメディ (feat. Rime)](</ja/songs/rime/originals/reinii-remedei-feat.-rime>) |
+
+{{/details}}
 
 ## 関連プロジェクト・設定
 

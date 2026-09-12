@@ -46,9 +46,36 @@ The unit is known for aggressive dance tunes that carve the brand of sin with vo
 
 ## Selected Works
 
-- Album: “改変 -罪-”
-- Singles: “[弔花](/en/songs/tsumitobatsu/originals/chouka)”, “[SURVIVAL](/en/songs/tsumitobatsu/originals/survival)”, “[SHOCK](/en/songs/tsumitobatsu/originals/shock)”, “[大罪](/en/songs/tsumitobatsu/originals/taizai)”, “[blindness](/en/songs/tsumitobatsu/originals/blindness)”, etc.
-- Dual-unit songs: “[改変](/en/songs/grp/originals/kaihen)”, “[主人行路](/en/songs/grp/originals/shujin-kouro)”, “[鈍色幻灯](/en/songs/grp/originals/nibiiro-gentou)”, “[現世回帰](/en/songs/grp/originals/gense-kaiki)”
+{{details::Expand full albums and EPs}}
+
+**Albums & EPs**
+
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2025-10-29 | Album | [改変 -罪-](</en/albums/tsumitobatsu/kaihen-tsumi>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2024-08-14 | [弔花 (feat. hitogoto)](</en/songs/tsumitobatsu/originals/chouka>) |
+| 2025-05-07 | [SHOCK (feat. 梅とら)](</en/songs/tsumitobatsu/originals/shock>) |
+| 2025-06-04 | [SURVIVAL](</en/songs/tsumitobatsu/originals/survival>) |
+| 2025-10-29 | [改変 -罪- (feat. たなか & LLLL)](</en/songs/tsumitobatsu/originals/kaihen-tsumi>) |
+| 2025-10-29 | [blindness (feat. ⌘ハイノミ)](</en/songs/tsumitobatsu/originals/blindness>) |
+| 2025-10-29 | [Brrrrrreak It (feat. 平田義久)](</en/songs/tsumitobatsu/originals/brrrrrreak-it>) |
+| 2025-10-29 | [DIGGER (feat. biz & ZERA)](</en/songs/tsumitobatsu/originals/digger>) |
+| 2025-10-29 | [Envy (feat. tokiwa)](</en/songs/tsumitobatsu/originals/envy>) |
+| 2025-10-29 | [RAVEN](</en/songs/tsumitobatsu/originals/raven>) |
+| 2025-10-29 | [Synapse (feat. Zexnum)](</en/songs/tsumitobatsu/originals/synapse>) |
+| 2025-10-29 | [アウフヘーベン (feat. 椎乃味醂)](</en/songs/tsumitobatsu/originals/aufheben>) |
+| 2026-01-23 | [大罪](</en/songs/tsumitobatsu/originals/taizai>) |
+
+{{/details}}
 
 ## External Links
 

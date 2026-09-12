@@ -37,12 +37,45 @@ categorySubtitle: "CREATORS / COMPOSERS / ILLUSTRATORS"
 
 ## 代表作品
 
-| 種別 | 作品 |
+{{details::アルバムとEPの一覧を開く}}
+
+**アルバム / EP**
+
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2021-08-11 | EP | [人生はコメディ](</ja/albums/kanzaki-iori/人生はコメディ-1688672421>) |
+| 2021-08-11 | Album | [不器用な男](</ja/albums/kanzaki-iori/不器用な男-1688512735>) |
+| 2021-08-11 | Album | [白紙](</ja/albums/kanzaki-iori/白紙-1688516351>) |
+| 2023-07-21 | EP | [Boys and Girls](</ja/albums/kanzaki-iori/Boys-and-Girls-1697284180>) |
+| 2024-12-11 | Live Album | [Acoustic Mini Live [Hibi, ]](</ja/albums/kanzaki-iori/Acoustic-Mini-Live-Hibi-1784434167>) |
+| 2024-12-25 | Album | [Freely Captured](</ja/albums/kanzaki-iori/Freely-Captured-1786566019>) |
+| 2025-08-12 | Album | [That Summer Saturates](</ja/albums/kanzaki-iori/That-Summer-Saturates-1831730283>) |
+
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
 | --- | --- |
-| 個人曲 | 「命に嫌われている。」「君の神様になりたい。」「あの夏が飽和する。」 |
-| 花譜関連 | 「糸」「心臓と絡繰」「魔女」「過去を喰らう」「不可解」「海に化ける」 |
-| アルバム | 『白紙』 |
-| 書音連動 | 『獣』『あの夏が飽和する。』『人生はコメディ』 |
+| 2015-10-11 | [あの春を返して (feat. 鏡音リン)](</ja/songs/kanzaki-iori/originals/ano春wo返shite-feat.-鏡音rin>) |
+| 2021-08-10 | [大人](</ja/songs/kanzaki-iori/originals/大人>) |
+| 2021-11-18 | [爆弾](</ja/songs/kanzaki-iori/originals/爆弾>) |
+| 2022-02-28 | [偶像](</ja/songs/kanzaki-iori/originals/偶像>) |
+| 2023-03-31 | [なぜ](</ja/songs/kanzaki-iori/originals/naze>) |
+| 2023-08-09 | [文化になっていく](</ja/songs/kanzaki-iori/originals/文化ninatteiku>) |
+| 2024-01-12 | [25時の情熱](</ja/songs/kanzaki-iori/originals/25時no情熱>) |
+| 2024-08-24 | [あんたは死んだ (feat. 重音テト)](</ja/songs/kanzaki-iori/originals/antaha死nda-feat.-重音teto>) |
+| 2024-10-28 | [成長痛 (梵そよぎ Ver.)](</ja/songs/kanzaki-iori/originals/成長痛-梵soyogi-ver>) |
+| 2024-11-10 | [吸血鬼 (feat. 重音テト & GUMI)](</ja/songs/kanzaki-iori/originals/吸血鬼-feat.-重音teto-&-gumi>) |
+| 2025-04-18 | [泥虫 (feat. 重音テト)](</ja/songs/kanzaki-iori/originals/泥虫-feat.-重音teto>) |
+| 2025-12-09 | [スーツ (feat. 重音テト & 初音ミク)](</ja/songs/kanzaki-iori/originals/suutsu-feat.-重音teto-&-初音miku>) |
+| 2026-02-13 | [怒り](</ja/songs/kanzaki-iori/originals/怒ri>) |
+| 2026-02-13 | [怒り[VOCALOID ver.] [feat. Noz.]](</ja/songs/kanzaki-iori/originals/怒ri-vocaloid-ver.-feat.-noz>) |
+| 2026-04-16 | [旅に帰る (feat. 初音ミク & 重音テト)](</ja/songs/kanzaki-iori/originals/旅ni帰ru-feat.-初音miku-&-重音teto>) |
+
+{{/details}}
 
 ## 関連項目
 

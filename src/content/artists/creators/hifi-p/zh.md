@@ -22,6 +22,17 @@ HiFi-P 现隶属于 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（2026年
 
 插画由 Ritsao（りたお）负责绘制。
 
+## 代表作品与相关条目
+
+{{details::展开完整专辑与 EP 目录}}
+
+**专辑与 EP**
+
+| 发行日期 | 类型 | 标题 |
+| --- | --- | --- |
+| 2023-05-11 | Album | [Pixels](</zh/albums/hifi-p/Pixels-1685405328>) |
+
+{{/details}}
 
 ## 外部链接
 

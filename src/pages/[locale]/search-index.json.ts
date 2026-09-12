@@ -9,7 +9,6 @@ import {
   buildIndexStats,
   cleanIndexText,
   extractIndexHeadings,
-  flattenIndexMetadata,
 } from '../../lib/searchIndex.mjs';
 
 export const prerender = true;
@@ -31,6 +30,7 @@ function titleFor(entry: { data: Record<string, unknown> }) {
   );
 }
 
+// Body full-text keys live in search-body.json; this index stays lightweight.
 export const GET: APIRoute = async ({ params }) => {
   const locale = params.locale || 'zh';
   const groups = await Promise.all([
@@ -54,7 +54,6 @@ export const GET: APIRoute = async ({ params }) => {
       const aliases = buildIndexAliases(data);
       const description = buildIndexDescription(data, body);
       const headings = extractIndexHeadings(body);
-      const metadata = flattenIndexMetadata(data).join(' ');
       const path = articleRoute(collectionNames[groupIndex], entry.id);
 
       entries.push({
@@ -65,12 +64,10 @@ export const GET: APIRoute = async ({ params }) => {
         locale,
         kind,
         description,
-        image: typeof data.image === 'string' ? data.image : undefined,
         titleKey: foldCjkSearchText(title),
         aliasKey: foldCjkSearchText(aliases.join(' ')),
         descriptionKey: foldCjkSearchText(description),
         headingKey: foldCjkSearchText(headings.join(' ')),
-        searchKey: foldCjkSearchText(cleanIndexText(`${metadata} ${body}`, 1100)),
       });
     }
   }

@@ -263,6 +263,7 @@
     "emptyResponse": "Observation complete, but there is no displayable answer.",
     "challengeFallback": "Observation frequency is too high. Please try again later.",
     "streamErrorFallback": "The observer cannot answer right now.",
+    "retry": "Retry",
     "quickPrompts": [
       "Summarize this page",
       "How does this connect to V.W.P?",

@@ -60,3 +60,34 @@ Unit works, ARU's solo history, and ASU's continuing activity should be catalogu
 ## Related Projects / Setting
 
 Albemuth connects SINSEKAI STUDIO's other-worldly line with KAMITSUBAKI's virtual-singer production system. ARU's graduation is both a personal milestone and the closing boundary of the original two-member project, while ASU's later solo work carries parts of its sound and visual vocabulary forward.
+
+## Representative Works and Related Entries
+
+{{details::Expand full albums and EPs}}
+
+**Albums & EPs**
+
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2023-11-22 | Album | [ADAM (feat. 存流 & 明透)](</en/albums/albemuth/ADAM-feat.-存流-&-明透-1715604776>) |
+| 2023-11-22 | Album | [eve (feat. 存流 & 明透)](</en/albums/albemuth/eve-feat.-存流-&-明透-1715607878>) |
+| 2024-02-14 | Album | [Happy Merry Xmath (feat. 存流 & 明透)](</en/albums/albemuth/Happy-Merry-Xmath-feat.-存流-&-明透-1728182964>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2022-11-23 | [幽ノ楽園](</en/songs/albemuth/originals/幽no楽園>) |
+| 2023-02-15 | [感光](</en/songs/albemuth/originals/感光>) |
+| 2023-04-26 | [guilty](</en/songs/albemuth/originals/guilty>) |
+| 2023-06-21 | [Black Glow](</en/songs/albemuth/originals/black-glow>) |
+| 2023-08-16 | [星月夜の調べ (feat. 存流 & 明透)](</en/songs/albemuth/originals/星月夜no調be-feat.-存流-&-明透>) |
+| 2023-08-16 | [Underdrain (feat. 存流 & 明透)](</en/songs/albemuth/originals/underdrain-feat.-存流-&-明透>) |
+| 2023-08-30 | [tuberose (feat. 存流 & 明透)](</en/songs/albemuth/originals/tuberose-feat.-存流-&-明透>) |
+
+{{/details}}
+

@@ -54,13 +54,11 @@ Awairo is a next-generation music unit under [KAMITSUBAKI STUDIO](/en/projects/l
 
 The unit released their first album "Gradient" in January 2025 and held a release party to celebrate. In February 2025, they followed up with the single "Bloonune." Through appearances at KAMITSUBAKI WARS 2024 Yokohama, KAMITSUBAKI FES '24, and a 2MAN LIVE with Azusagawa, Awairo has steadily expanded their presence within the Kamitsubaki ecosystem.
 
-
 ## Role and Creative Position
 
 At the core of Awairo's music is the fusion of sensitivity and electronics. Yunosuke excels at building electronic soundscapes that trace the contours of emotional movement, while WaMi brings a soft yet penetrating vocal quality that adds human warmth to each track. The chemistry between the two allows Awairo's music to retain the groove of EDM while preserving the emotional resonance of pop songwriting.
 
 The unit name "Awairo" (meaning "pale color") itself embodies their aesthetic direction -- not intense, not flashy, yet carrying deep layers of feeling beneath a gentle surface.
-
 
 ## Activity History
 
@@ -75,23 +73,39 @@ The unit name "Awairo" (meaning "pale color") itself embodies their aesthetic di
 
 ## Representative Works and Related Entries
 
-- Album: "Gradient" (2025.01.15)
-- Singles: "[Pale](/en/songs/mimi/originals/pale) & Deep," "Individuality," "Satellite," "Brand," "Bloonune"
+{{details::Expand full albums and EPs}}
 
-Useful related entries:
+**Albums & EPs**
 
-- Azusagawa related entries
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2025-03-14 | Album | [グラデーション](</en/albums/awairo/グラデーション-1798638788>) |
 
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2022-10-21 | [Satellite (feat. Yunosuke & WaMi)](</en/songs/awairo/originals/satellite-feat.-yunosuke-&-wami>) |
+| 2023-10-20 | [Pale&Deep (feat. 雄之助 & WaMi)](</en/songs/awairo/originals/pale&deep-feat.-雄之助-&-wami>) |
+| 2023-12-08 | [個性 (feat. WaMi & 雄之助)](</en/songs/awairo/originals/個性-feat.-wami-&-雄之助>) |
+| 2024-04-26 | [烙印 (feat. 雄之助 & WaMi)](</en/songs/awairo/originals/烙印-feat.-雄之助-&-wami>) |
+| 2024-07-13 | [Replay feat. 梓川](</en/songs/awairo/originals/replay-feat.-梓川>) |
+| 2024-12-05 | [Love or Lie](</en/songs/awairo/originals/love-or-lie>) |
+| 2025-02-21 | [ブルームーン](</en/songs/awairo/originals/buruumuun>) |
+
+{{/details}}
 
 ## Related Projects / Setting
 
 Awairo connects with other Kamitsubaki artists through major events such as KAMITSUBAKI WARS and KAMITSUBAKI FES. Their 2MAN LIVE with Azusagawa is a notable example of collaborative exchange within the Kamitsubaki artist roster.
 
-
 ## References
 
 - KAMITSUBAKI STUDIO official information
-
 
 ## External Links
 

@@ -60,13 +60,11 @@ VALIS is a six-member virtual girls group under [SINSEKAI RECORD](/en/projects/a
 
 Character visuals were designed by illustrator Nekosuke, blending a distinctly feminine aesthetic with futuristic sensibilities. As one of the more prominent groups within the [SINSEKAI RECORD](/en/projects/archive/sinsekai-studio) framework, VALIS maintains a high level of activity across both recorded music and live performance, regularly hosting dedicated ONE-MAN LIVE events.
 
-
 ## Role and Creative Position
 
 The defining element of VALIS is its commitment to duality between the virtual and the real. The six members shift between different performance modes, presenting both the expressive possibilities of avatar-based stage work and the more immediate connection of their real-world "origin" identities. This two-track structure gives VALIS a distinct position within the broader [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) ecosystem.
 
 Musically, VALIS blends a pop-sensibility rooted in the idol and girls-group tradition with more aggressive and psychologically charged expression. Lyrics frequently explore themes of romance, inner psychology, and fairy-tale deconstruction, producing a style that is at once sweet and marked by underlying tension.
-
 
 ## Members and Forms
 
@@ -80,7 +78,6 @@ Musically, VALIS blends a pop-sensibility rooted in the idol and girls-group tra
 | VITTE | White, dancer |
 
 Each member has both an avatar and an origin presentation. These are not merely costume variants; they are part of VALIS's central virtual–real duality and its circus-world narrative.
-
 
 ## Activity History
 
@@ -97,23 +94,68 @@ The major album line includes the 1st Album *WONDERLAND* (2021) and 2nd Album *S
 
 ## Representative Works
 
-Approaching VALIS through both their catalog and live activity provides the clearest picture of the group:
+{{details::Expand full albums and EPs}}
 
-- Key songs: "Mukyuu Platonic", "Netsuai Frozen", "Otome-teki Psycho Pathy", "Saiken Romanesque", "Guzou Nightmare"
-- Live events: ONE-MAN LIVE series, including "Kassai Curtain Call" and "Houkou Forever"
-- Cross-project participation: Virtual stage play "Otogi-banashi (Some)"
+**Albums & EPs**
 
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2022-04-23 | Album | [覚醒ヒストリア(覚醒 ver.)](</en/albums/valis/覚醒ヒストリア覚醒-ver.-1688519146>) |
+| 2022-04-23 | Album | [覚醒ヒストリア(裏世界 ver.)](</en/albums/valis/覚醒ヒストリア裏世界-ver.-1688154026>) |
+| 2023-04-18 | Album | [流転ファンタジア(深脊界 ver.)](</en/albums/valis/流転ファンタジア深脊界-ver.-1680449934>) |
+| 2023-04-18 | Album | [流転ファンタジア(覚醒 ver.)](</en/albums/valis/流転ファンタジア覚醒-ver.-1680448823>) |
+| 2024-03-05 | Album | [再現ガールフレンド](</en/albums/valis/再現ガールフレンド-1738198240>) |
+| 2024-08-28 | Album | [青春イマジネーション 瓦利斯飯店ver.](</en/albums/valis/青春イマジネーション-瓦利斯飯店ver.-1763999465>) |
+| 2024-08-28 | Album | [青春イマジネーション 覚醒ver.](</en/albums/valis/青春イマジネーション-覚醒ver.-1763997014>) |
+| 2025-08-27 | Album | [悠久オーケストラ](</en/albums/valis/悠久オーケストラ-1829413076>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2021-07-29 | [天命系メルト](</en/songs/valis/originals/天命系meruto>) |
+| 2022-11-15 | [再見ロマネスク](</en/songs/valis/originals/再見romanesuku>) |
+| 2023-02-04 | [熱愛フローズン](</en/songs/valis/originals/熱愛furoozun>) |
+| 2023-04-08 | [無窮プラトニック](</en/songs/valis/originals/無窮puratonikku>) |
+| 2023-04-17 | [一陽レガシー](</en/songs/valis/originals/一陽regashii>) |
+| 2023-04-17 | [物換星移カタルシス](</en/songs/valis/originals/物換星移katarushisu>) |
+| 2023-04-17 | [偶像ナイトメア](</en/songs/valis/originals/偶像naitomea>) |
+| 2023-04-17 | [新世界ピグマリオン](</en/songs/valis/originals/新世界pigumarion>) |
+| 2023-04-17 | [境界線マクガフィン](</en/songs/valis/originals/境界線makugafyin>) |
+| 2023-06-24 | [渇愛論(MYU)](</en/songs/valis/originals/渇愛論-myu>) |
+| 2023-06-24 | [猫好的トリックスター(NEFFY)](</en/songs/valis/originals/猫好的torikkusutaa-neffy>) |
+| 2023-06-24 | [禁断果実(RARA)](</en/songs/valis/originals/禁断果実-rara>) |
+| 2023-06-24 | [ピカピカキャンディラブイズム(VITTE)](</en/songs/valis/originals/pikapikakyandeirabuizumu-vitte>) |
+| 2023-06-24 | [わたしマニュアル(NINA)](</en/songs/valis/originals/watashimanyuaru-nina>) |
+| 2023-10-21 | [月輪迷宮(RARA)](</en/songs/valis/originals/月輪迷宮-rara>) |
+| 2023-10-21 | [狂愛レゾナンス(VITTE)](</en/songs/valis/originals/狂愛rezonansu-vitte>) |
+| 2023-10-21 | [変異体(MYU)](</en/songs/valis/originals/変異体-myu>) |
+| 2023-10-21 | [猫好的ショータイム(NEFFY)](</en/songs/valis/originals/猫好的shootaimu-neffy>) |
+| 2023-10-21 | [わたしトラベラー(NINA)](</en/songs/valis/originals/watashitoraberaa-nina>) |
+| 2024-04-03 | [乙女的サイコパシー(VALIS)](</en/songs/valis/originals/乙女的saikopashii-valis>) |
+| 2025-05-20 | [共振ハートビート](</en/songs/valis/originals/共振haatobiito>) |
+| 2025-05-30 | [Eyes On Me(ネフィ)](</en/songs/valis/originals/eyes-on-me-nefyi>) |
+| 2025-05-30 | [JUICE(ララ)](</en/songs/valis/originals/juice-rara>) |
+| 2025-05-30 | [Mute Beat(ミュー)](</en/songs/valis/originals/mute-beat-myuu>) |
+| 2025-05-30 | [βlack Swan(ヴィッテ)](</en/songs/valis/originals/βlack-swan-vyitte>) |
+| 2025-08-26 | [Memoria(チノ)](</en/songs/valis/originals/memoria-chino>) |
+| 2025-12-16 | [彷徨フォーエバー](</en/songs/valis/originals/彷徨fuooebaa>) |
+| 2025-12-31 | [本懐パラドックス](</en/songs/valis/originals/本懐paradokkusu>) |
+
+{{/details}}
 
 ## Related Projects
 
 VALIS has points of contact with other KAMITSUBAKI STUDIO music projects, including collaborations with the KAMITSUBAKI PHILHARMONIC ORCHESTRA and participation in cross-media productions such as virtual stage plays. The group's central concept of duality also gives it a particular narrative function within the broader SINSEKAI RECORD storytelling framework.
 
-
 ## References
 
 - VALIS official website: <https://valis.sinsekaistudio.jp/>
 - KAMITSUBAKI STUDIO official artist page: <https://kamitsubaki.jp/artist/valis/>
-
 
 ## External Links
 

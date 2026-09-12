@@ -22,6 +22,17 @@ HiFi-P is affiliated with [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) (tr
 
 Illustrations by Ritsao (りたお).
 
+## Representative Works and Related Entries
+
+{{details::Expand full albums and EPs}}
+
+**Albums & EPs**
+
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2023-05-11 | Album | [Pixels](</en/albums/hifi-p/Pixels-1685405328>) |
+
+{{/details}}
 
 ## External Links
 

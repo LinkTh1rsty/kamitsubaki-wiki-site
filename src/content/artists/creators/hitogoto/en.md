@@ -54,13 +54,11 @@ Hitogoto (他人事) is a two-person music unit composed of "Men" (面) and "Uo 
 
 The unit achieved notable recognition by placing 8th in the Rookie Rankings at The VOCALOID Collection 2022 Spring, competing against approximately 2,800 submissions. Their illustrations are provided by Kanta Yo (神多洋), whose artwork complements the unit's evocative musical world.
 
-
 ## Role and Creative Position
 
 Hitogoto's strength lies in their ability to write deeply emotional lyrics and compose melodies that linger in the listener's mind. Their arrangement work demonstrates versatility across multiple genres, while maintaining a consistent emotional core that defines their artistic identity.
 
 Beyond their own releases, Hitogoto has established a track record of song provision for prominent artists and projects, contributing lyrics, composition, and arrangement to works for [V.W.P](/en/artists/vwp/vwp), Tsumitobatsu, and the Muse Dash rhythm game.
-
 
 ## Activity History
 
@@ -75,20 +73,24 @@ Beyond their own releases, Hitogoto has established a track record of song provi
 
 ## Representative Works and Related Entries
 
-- "弔花" (Chouka) -- provided for Tsumitobatsu (lyrics/composition/arrangement)
-- "真偽" (Shingi) -- provided for V.W.P (lyrics/composition)
-- "信仰と存在" (Shinkou to Sonzai) -- provided for Muse Dash (3M+ streams)
-- Vocaloid originals and self-covers
+{{details::Expand full singles list}}
 
-Useful related entries:
+**Singles**
 
-- [tokiwa](/en/artists/creators/tokiwa)
+| Release date | Title |
+| --- | --- |
+| 2022-04-22 | [神を偽った悪魔へ【始】](</en/songs/hitogoto/originals/神wo偽tta悪魔he-始>) |
+| 2022-08-12 | [信仰と存在 (feat. 否)](</en/songs/hitogoto/originals/信仰to存在-feat.-否>) |
+| 2023-11-24 | [アイアンメーデー (feat. ねね)](</en/songs/hitogoto/originals/aianmeedee-feat.-nene>) |
+| 2024-02-22 | [箱庭の果実【始】 (feat. ねね)](</en/songs/hitogoto/originals/箱庭no果実-始-feat.-nene>) |
+| 2025-04-10 | [偶像と悪魔 (feat. 70D)](</en/songs/hitogoto/originals/偶像to悪魔-feat.-70d>) |
+| 2025-06-06 | [偶像と悪魔 (feat. Gurni.)](</en/songs/hitogoto/originals/偶像to悪魔-feat.-gurni>) |
 
+{{/details}}
 
 ## References
 
 - Hitogoto Twitter: <https://twitter.com/hito_go_to_7>
-
 
 ## External Links
 

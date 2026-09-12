@@ -176,17 +176,111 @@ seo:
 
 @[bilibili](BV1CJ411b7Ym "花譜 - 糸")
 
-- **个人专辑**：
-  - 1st Album《観測》(2019年9月11日)
-  - 1st Remix《観測γ》(2019年12月25日)
-  - 2nd Album《魔法》(2020年11月25日)
-  - 2nd Remix《[魔法γ](/zh/albums/kaf/maho-gamma)》(2021年12月22日)
-  - 3rd Album《狂想》(2023年3月8日)
-  - 3rd Remix《狂想γ》(2024年3月27日)
-  - 4th Album《寓話》(2024年12月18日)
-  - 5th Album《深爱》(2026年5月27日)
-- **代表单曲**：《糸》《[心臓と絡繰](/zh/songs/kaf/originals/shinzou-to-karakuri)》《[魔女](/zh/songs/kaf/originals/majo)》《[雛鳥](/zh/songs/kaf/originals/hinadori)》《[過去を喰らう](/zh/songs/kaf/originals/kako-wo-kurau)》《[海に化ける](/zh/songs/kaf/originals/海に化ける-turn-into-the-sea)》《[戸惑いテレパシー](/zh/songs/kaf/originals/戸惑いテレパシー-confused-telepathy)》《[景色](/zh/songs/kaf/originals/景色-landscape)》《[アンサー](/zh/songs/kaf/originals/アンサー-answer)》《トウキョウ・シャンディ・ランデヴ (feat. 花譜)》《[ゲシュタルト](/zh/songs/kaf/originals/ゲシュタルト-gestalt)》
-- **组曲企划**：与 Kizuna AI（《[ラブしい](/zh/songs/kaf/suites/ラブしい-loveshii)》）、羽生まゐご、MIYAVI、GLIM SPANKY、岸田繁、HONEYMANS、星街すいせい、Moe Shop 等合作作品
+{{details::展开完整专辑与 EP 目录}}
+
+**专辑与 EP**
+
+| 发行日期 | 类型 | 标题 |
+| --- | --- | --- |
+| 2019-05-15 | EP | [花と心臓](</zh/albums/kaf/flower-and-heart>) |
+| 2019-06-28 | EP | [夜が降り止む前に](</zh/albums/kaf/yoru-ga-furiyamu-mae-ni>) |
+| 2019-09-11 | 录音室专辑 | [観測](</zh/albums/kaf/kansoku>) |
+| 2019-12-25 | 混音专辑 | [観測γ](</zh/albums/kaf/kansoku-gamma>) |
+| 2020-06-10 | EP | [戸惑いテレパシー](</zh/albums/kaf/tomadoi-telepathy>) |
+| 2020-08-19 | 现场专辑 | [I SCREAM LIVE](</zh/albums/kaf/i-scream-live>) |
+| 2020-09-23 | EP | [愛と花](</zh/albums/kaf/love-and-flower>) |
+| 2020-11-25 | 录音室专辑 | [魔法](</zh/albums/kaf/maho>) |
+| 2021-12-22 | 混音专辑 | [魔法γ](</zh/albums/kaf/maho-gamma>) |
+| 2023-03-08 | 录音室专辑 | [狂想](</zh/albums/kaf/kyoso>) |
+| 2023-09-27 | 现场专辑 | [I SCREAM LIVE2](</zh/albums/kaf/i-scream-live-2>) |
+| 2024-03-22 | 合作专辑 | [組曲](</zh/albums/kaf/suite>) |
+| 2024-03-27 | 混音专辑 | [狂想γ](</zh/albums/kaf/kyoso-gamma>) |
+| 2024-05-22 | EP | [GSA](</zh/albums/kaf/gsa>) |
+| 2024-10-30 | 现场专辑 | [I SCREAM LIVE3](</zh/albums/kaf/i-scream-live-3>) |
+| 2024-12-25 | 录音室专辑 | [寓話](</zh/albums/kaf/guwa>) |
+| 2025-07-16 | 混音专辑 | [寓話γ](</zh/albums/kaf/guwa-gamma>) |
+| 2026-01-14 | 现场专辑 | [I SCREAM LIVE4 - Cover Live Album -](</zh/albums/kaf/i-scream-live-4>) |
+| 2026-05-27 | 录音室专辑 | [深愛](</zh/albums/kaf/shinai>) |
+
+{{/details}}
+
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2018-12-06 | [糸](</zh/songs/kaf/originals/shi>) |
+| 2018-12-28 | [心臓と絡繰](</zh/songs/kaf/originals/shinzou-to-karakuri>) |
+| 2019-01-09 | [魔女](</zh/songs/kaf/originals/majo>) |
+| 2019-01-31 | [忘れてしまえ](</zh/songs/kaf/originals/wasurete-shimae>) |
+| 2019-03-22 | [雛鳥](</zh/songs/kaf/originals/hinadori>) |
+| 2019-06-05 | [過去を喰らう](</zh/songs/kaf/originals/kako-wo-kurau>) |
+| 2019-06-28 | [夜が降り止む前に](</zh/songs/kaf/originals/yoru-ga-furiyamu-mae-ni>) |
+| 2019-08-01 | [そして花になる](</zh/songs/kaf/originals/soshite-hana-ni-naru>) |
+| 2019-08-06 | [quiz](</zh/songs/kaf/originals/quiz>) |
+| 2019-08-14 | [夜行バスにて](</zh/songs/kaf/originals/yakou-bus-nite>) |
+| 2019-09-11 | [不可解](</zh/songs/kaf/originals/不可解-inexplicable>) |
+| 2019-09-11 | [未確認少女進行形](</zh/songs/kaf/originals/未確認少女進行形-unconfirmed-girl-progress-form>) |
+| 2019-09-11 | [Re:HEROINES](</zh/songs/kaf/originals/re-heroines>) |
+| 2019-09-11 | [エリカ](</zh/songs/kaf/originals/エリカ-erica>) |
+| 2020-06-10 | [戸惑いテレパシー](</zh/songs/kaf/originals/戸惑いテレパシー-confused-telepathy>) |
+| 2020-11-25 | [危ノーマル](</zh/songs/kaf/originals/危ノーマル-abnormal>) |
+| 2020-11-25 | [彷徨い](</zh/songs/kaf/originals/彷徨い-wandering>) |
+| 2020-11-25 | [私論理](</zh/songs/kaf/originals/私論理-my-logic>) |
+| 2020-11-25 | [花女](</zh/songs/kaf/originals/花女-flower-girl>) |
+| 2020-11-25 | [帰り路](</zh/songs/kaf/originals/帰り路-on-the-way-back-home>) |
+| 2020-11-25 | [畢生よ](</zh/songs/kaf/originals/畢生よ-lifetime>) |
+| 2020-11-25 | [景色](</zh/songs/kaf/originals/景色-landscape>) |
+| 2020-11-25 | [痛みを](</zh/songs/kaf/originals/痛みを-pain>) |
+| 2020-11-25 | [アンサー](</zh/songs/kaf/originals/アンサー-answer>) |
+| 2020-11-25 | [まほう (feat. RIM)](</zh/songs/kaf/originals/まほう-magic>) |
+| 2020-11-25 | [メルの黄昏](</zh/songs/kaf/originals/メルの黄昏-mels-twilight>) |
+| 2020-11-25 | [モンタージュ](</zh/songs/kaf/originals/モンタージュ-montage>) |
+| 2021-05-19 | [例えば](</zh/songs/kaf/originals/例えば-for-example>) |
+| 2021-06-30 | [海に化ける](</zh/songs/kaf/originals/海に化ける-turn-into-the-sea>) |
+| 2023-03-08 | [人を気取る](</zh/songs/kaf/originals/人を気取る-human-snob>) |
+| 2023-03-08 | [世惑い子](</zh/songs/kaf/originals/世惑い子-world-confuse-child>) |
+| 2023-03-08 | [未観測](</zh/songs/kaf/originals/未観測-unobserved>) |
+| 2023-03-08 | [狂感覚](</zh/songs/kaf/originals/狂感覚-crazy-sensation>) |
+| 2023-03-08 | [青春の温度](</zh/songs/kaf/originals/青春の温度-temperature-of-youth>) |
+| 2023-03-08 | [春を発つ](</zh/songs/kaf/originals/春を発つ-depart-from-spring>) |
+| 2023-03-08 | [裏表ガール](</zh/songs/kaf/originals/裏表ガール-two-faced-girl>) |
+| 2023-03-08 | [邂逅](</zh/songs/kaf/originals/邂逅-chance-meeting>) |
+| 2023-03-08 | [あるふぁYOU](</zh/songs/kaf/originals/あるふぁYOU-alpha-you>) |
+| 2023-03-08 | [それを世界と言うんだね](</zh/songs/kaf/originals/それを世界と言うんだね-you-call-it-the-world>) |
+| 2023-03-08 | [ニヒル](</zh/songs/kaf/originals/ニヒル-nihil>) |
+| 2024-02-28 | [ギミギミ逃避行 feat. #KTちゃん](</zh/songs/kaf/originals/ギミギミ逃避行-gimi-gimi-flight>) |
+| 2024-05-22 | [アポカリプスより](</zh/songs/kaf/originals/アポカリプスより-from-apocalypse>) |
+| 2024-05-22 | [ゲシュタルト](</zh/songs/kaf/originals/ゲシュタルト-gestalt>) |
+| 2024-05-22 | [スイマー](</zh/songs/kaf/originals/スイマー-swimmer>) |
+| 2024-12-25 | [何者](</zh/songs/kaf/originals/何者-who>) |
+| 2024-12-25 | [俯瞰する事象](</zh/songs/kaf/originals/俯瞰する事象-overlooked-phenomenon>) |
+| 2024-12-25 | [黄金の木](</zh/songs/kaf/originals/黄金の木-tree-of-gold>) |
+| 2024-12-25 | [Replaceable Goodbye](</zh/songs/kaf/originals/replaceable-goodbye>) |
+| 2024-12-25 | [カルぺ・ディエム](</zh/songs/kaf/originals/カルぺ・ディエム-carpe-diem>) |
+| 2024-12-25 | [この世界は美しい](</zh/songs/kaf/originals/この世界は美しい-the-beautiful-world>) |
+| 2024-12-25 | [スワン](</zh/songs/kaf/originals/スワン-swan>) |
+| 2024-12-25 | [ダンダラボッチ](</zh/songs/kaf/originals/ダンダラボッチ-dandarabotchi>) |
+| 2024-12-25 | [ホワイトブーケ](</zh/songs/kaf/originals/ホワイトブーケ-white-bouget>) |
+| 2025-03-05 | [代替嬉々](</zh/songs/kaf/originals/代替嬉々-positive-substitution>) |
+| 2025-06-25 | [撃って (feat. CHiCO)](</zh/songs/kaf/originals/撃って-break-out>) |
+| 2025-08-20 | [ひとえに壊れて](</zh/songs/kaf/originals/ひとえに壊れて-unraveling>) |
+| 2025-10-15 | [ありふれてたい](</zh/songs/kaf/originals/ありふれてたい-just-the-way-we-are>) |
+| 2026-02-25 | [周波数0の合言葉](</zh/songs/kaf/originals/周波数0の合言葉-voiceless-password>) |
+| 2026-04-01 | [エラーソング](</zh/songs/kaf/originals/エラーソング-error-song>) |
+| 2026-05-27 | [君は水、私は魚](</zh/songs/kaf/originals/君は水-私は魚-water-and-fish>) |
+| 2026-05-27 | [私の在処](</zh/songs/kaf/originals/私の在処-where-i-am>) |
+| 2026-05-27 | [乳白の宇宙](</zh/songs/kaf/originals/乳白の宇宙-opalescent-universe>) |
+| 2026-05-27 | [学園戦線](</zh/songs/kaf/originals/学園戦線-school-wars>) |
+| 2026-05-27 | [明滅](</zh/songs/kaf/originals/明滅-strobe>) |
+| 2026-05-27 | [愛想](</zh/songs/kaf/originals/愛想-unsaid>) |
+| 2026-05-27 | [エコーノイズ](</zh/songs/kaf/originals/エコーノイズ-echo-noise>) |
+| 2026-05-27 | [オーギュメント](</zh/songs/kaf/originals/オーギュメント-augment>) |
+| 2026-05-27 | [コネクト](</zh/songs/kaf/originals/コネクト-connect>) |
+| 2026-05-27 | [そばにいていいよ](</zh/songs/kaf/originals/そばにいていいよ-while-this-lasts>) |
+
+{{/details}}
 
 {{details::点击展开「不可解」与「怪歌」大巡演及 Live 全历程}}
 

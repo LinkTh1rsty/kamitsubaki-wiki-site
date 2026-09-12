@@ -198,6 +198,7 @@ Shortcodes use a function-like `{{name::argument}}` form. Every name and argumen
 | Machine-readable date | `{{time::display text::2026-07-19}}` |
 | Small, superscript, subscript | `{{small::text}}`, `{{sup::2}}`, `{{sub::2}}` |
 | Taiwan / Hong Kong vocabulary override | `{{zh-variant::Simplified::Taiwan::Hong Kong}}` |
+| Japanese original (never converted) | `{{ja::日本語の原題}}` |
 | Lyric toggle buttons | `{{lyrics-controls::en}}` (use `zh` / `ja` for those files) |
 
 Inline arguments are plain text: do not nest Markdown or HTML inside them. A double colon `::` separates arguments and remains safe inside Markdown tables. The three `zh-variant` arguments are always ordered Simplified Chinese, Taiwan Traditional Chinese, then Hong Kong Traditional Chinese. A misspelled name or incorrect argument count remains visible as source text so the mistake can be found in Preview.
@@ -904,6 +905,22 @@ When automatic conversion cannot determine the context, or a term needs explicit
 The Simplified Chinese page displays `软件`, generated `zh-tw` displays `軟體`, and generated `zh-hk` displays `軟件`. All three arguments must be nonempty plain text. The selected Taiwan or Hong Kong argument is the final human-authored value and is not sent through OpenCC again. The shortcode is inert inside code blocks, inline code, mathematics, HTML tags or attributes, URLs, and link destinations.
 
 Use this only for small, context-dependent vocabulary in article prose. Do not put it in frontmatter or wrap whole sentences or paragraphs. Repeated official names shared by multiple articles belong in the global protected-term table below.
+
+### Japanese originals and wasei kanji
+
+When Chinese entries quote Japanese titles, lyrics, or proper nouns, the converter automatically preserves:
+
+- Japanese-looking runs that contain kana (for example `赤い洗礼`)
+- Japanese shinjitai / kokuji characters (for example `戯`, `実`)
+- Ruby bases whose reading is kana
+- HTML blocks with `class="jp-lyric"` or `lang="ja"`
+- Frontmatter `title` / track titles that match the sibling `ja.md`
+
+For pure-kanji Japanese titles without those signals, write:
+
+```md
+{{ja::独白}}
+```
 
 ### Maintaining protected terms
 

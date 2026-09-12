@@ -54,13 +54,11 @@ ASU is a next-generation virtual singer who appeared in Shinkai-kai, the paralle
 
 ASU debuted in August 2021. She held her first in-person 1st ONE-MAN LIVE "RAY" on December 28, 2024, followed by her 2nd ONE-MAN LIVE "BIRTH" on August 30, 2025, quickly establishing a distinct presence. Her activities are connected to yet independent from the main Kamitsubaki world, representing the musical expression of the Shinkai-kai side.
 
-
 ## Role and Creative Position
 
 ASU's defining traits are instinct and unpredictability. Her vocal range is broad, and her natural rhythmic ability allows her to deliver performances that break free from conventional frameworks. Mai Yoneyama's character design gives her a look that balances transparency with vitality, echoing the atmosphere of Shinkai-kai.
 
 Her songwriting emphasizes intuitive emotional expression. The lyrics and melodies overflow with a youthful purity and impulsiveness, bringing a fresh color to the Kamitsubaki ecosystem that differs from the [V.W.P](/en/artists/vwp/vwp) lineage.
-
 
 ## Activity History
 
@@ -74,22 +72,57 @@ Her songwriting emphasizes intuitive emotional expression. The lyrics and melodi
 
 ## Representative Works and Related Entries
 
-- Singles: "[Little Bit](/en/songs/asu/originals/little-bit)," "Route Cure," "Bitter Etude," "HOME," "[Link](/en/songs/asu/originals/link)"
+{{details::Expand full albums and EPs}}
 
-Useful related entries:
+**Albums & EPs**
 
-- Shinkai-kai related projects
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2022-10-21 | Live Album | [サンライトLIVE](</en/albums/asu/サンライトLIVE-1712470891>) |
+| 2023-04-19 | Album | [ASU](</en/albums/asu/ASU-1680653014>) |
+| 2023-10-25 | Live Album | [サンライトLIVE 2](</en/albums/asu/サンライトLIVE-2-1712458671>) |
+| 2025-03-26 | Album | [ray of hope](</en/albums/asu/ray-of-hope-1801902980>) |
 
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2022-05-06 | [スロウリー](</en/songs/asu/originals/surourii>) |
+| 2022-05-06 | [ソラゴト](</en/songs/asu/originals/soragoto>) |
+| 2022-06-08 | [インパーフェクト](</en/songs/asu/originals/inpaafyekuto>) |
+| 2022-07-03 | [赤い洗礼](</en/songs/asu/originals/赤i洗礼>) |
+| 2022-07-03 | [新世界へ](</en/songs/asu/originals/新世界he>) |
+| 2022-08-31 | [アンダーブーケ](</en/songs/asu/originals/andaabuuke>) |
+| 2023-01-18 | [ライトイヤーズ](</en/songs/asu/originals/raitoiyaazu>) |
+| 2023-08-30 | [アンメルト・アンブレラ](</en/songs/asu/originals/anmeruto-anburera>) |
+| 2024-04-24 | [Spiral](</en/songs/asu/originals/spiral>) |
+| 2024-08-28 | [Dazzling](</en/songs/asu/originals/dazzling>) |
+| 2024-09-17 | [Shiny](</en/songs/asu/originals/shiny>) |
+| 2024-10-30 | [HEAVEN IS GONE](</en/songs/asu/originals/heaven-is-gone>) |
+| 2024-11-27 | [アイノ最適解](</en/songs/asu/originals/aino最適解>) |
+| 2024-12-04 | [Winter Sparkler](</en/songs/asu/originals/winter-sparkler>) |
+| 2024-12-29 | [Aster](</en/songs/asu/originals/aster>) |
+| 2025-03-26 | [ブルーナイトダーリン](</en/songs/asu/originals/buruunaitodaarin>) |
+| 2025-05-07 | [Link](</en/songs/asu/originals/link>) |
+| 2025-09-03 | [HOME](</en/songs/asu/originals/home>) |
+| 2025-11-05 | [ビターエチュード](</en/songs/asu/originals/bitaaechuudo>) |
+| 2025-12-24 | [ルートキュア](</en/songs/asu/originals/ruutokyua>) |
+| 2026-05-06 | [Little Bit](</en/songs/asu/originals/little-bit>) |
+| 2026-07-08 | [レディース・ロール・メソッド](</en/songs/asu/originals/redeiisu-rooru-mesoddo>) |
+
+{{/details}}
 
 ## Related Projects / Setting
 
 ASU originates from Shinkai-kai, a world that exists in parallel with the Kamitsubaki setting. Through her appearances at major events such as KAMITSUBAKI WARS and KAMITSUBAKI FES, she serves as an important entry point for understanding the relationship between Shinkai-kai and Kamitsubaki.
 
-
 ## References
 
 - [KAMITSUBAKI STUDIO](/en/projects/labels/kamitsubaki-studio) official information
-
 
 ## External Links
 

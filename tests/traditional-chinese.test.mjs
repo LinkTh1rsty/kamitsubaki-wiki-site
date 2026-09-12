@@ -223,6 +223,40 @@ test('generator validates every maintained zh.md before replacing derivative fil
   assert.ok(validation < replacement);
 });
 
+test('Japanese original text is preserved while Chinese prose still converts', () => {
+  assert.equal(convertTraditionalChinese('赤い洗礼', 'zh-tw'), '赤い洗礼');
+  assert.equal(convertTraditionalChinese('眼裏の懐疑', 'zh-tw'), '眼裏の懐疑');
+  assert.equal(convertTraditionalChinese('戯れ', 'zh-tw'), '戯れ');
+  assert.equal(convertTraditionalChinese('声帯学', 'zh-tw'), '声帯学');
+  assert.equal(convertTraditionalChinese('実験の記録', 'zh-tw'), '実験の記録');
+  assert.equal(convertTraditionalChinese('软件与网络', 'zh-tw'), '軟體與網路');
+});
+
+test('Japanese shortcodes, ruby readings, and jp-lyric HTML blocks skip conversion', () => {
+  const source = [
+    '{{ja::独白}}和{{ruby::独白::どくはく::dokuhaku}}',
+    '',
+    '<div class="jp-lyric">',
+    '独白と赤い洗礼',
+    '</div>',
+    '<div class="cn-lyric">独白的中文</div>',
+    '',
+    '<span lang="ja">戯れ</span>',
+  ].join('\n');
+
+  const tw = convertChineseMarkdown(source, 'zh-tw');
+  assert.match(tw, /独白和\{\{ruby::独白::どくはく::dokuhaku\}\}/);
+  assert.match(tw, /独白と赤い洗礼/);
+  assert.match(tw, /獨白的中文/);
+  assert.match(tw, /<span lang="ja">戯れ<\/span>/);
+});
+
+test('Japanese exclusive shinjitai are not rewritten to Chinese traditional forms', () => {
+  assert.equal(convertChineseText('桜餅と気分', 'zh-tw'), '桜餅と気分');
+  assert.equal(convertChineseText('帰宅', 'zh'), '帰宅');
+  assert.equal(convertChineseText('软件与网络', 'zh-tw'), '軟體與網路');
+});
+
 test('syntax and format guides document the conversion workflow in every maintained source', async () => {
   const guides = await Promise.all([
     readSource('../src/content/contribute/syntax-guide/zh.md'),
@@ -238,6 +272,10 @@ test('syntax and format guides document the conversion workflow in every maintai
     assert.match(guide, /\{\{zh-variant::/);
     assert.match(guide, /zh-tw/);
     assert.match(guide, /zh-hk/);
+  }
+
+  for (const guide of guides.slice(0, 3)) {
+    assert.match(guide, /\{\{ja::/);
   }
 
   assert.match(guides[0], /任意混用简体中文、台湾繁体或香港繁体/);

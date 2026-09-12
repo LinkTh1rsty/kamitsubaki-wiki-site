@@ -15,12 +15,11 @@ categoryOrder: 20
 itemOrder: 334
 code: "apple-1709945272"
 image: /images/albums/harusaruhi/cream-puff-live-3.jpg
-contentStatus: stub
 ---
 
 ## 作品简介
 
-《快晴 at CREAM PUFF LIVE 3(Cover)》收录于《[CREAM PUFF LIVE 3](/zh/albums/harusaruhi/cream-puff-live-3)》或其相关正式发行。本词条按具体录音版本建立；现场、重混与重新编曲版不会与原版混为一项。
+《快晴 at CREAM PUFF LIVE 3(Cover)》是[春猿火](/zh/artists/vwp/harusaruhi)在 2023年8月6日 举办的流媒体翻唱 Live「シュークリームライブ」中的翻唱录音，收录于《[CREAM PUFF LIVE 3](/zh/albums/harusaruhi/cream-puff-live-3)》。本词条按该录音版本建立，不与原唱录音混为一项。原曲词曲作者以官方或原唱发行信息为准，本页不臆测填写。
 
 ## 试听
 
@@ -30,6 +29,5 @@ contentStatus: stub
 
 ## 来源
 
-- [官方作品目录](https://kamitsubaki.jp/disco_category/harusaruhi/)
-- [Apple Music](https://music.apple.com/jp/album/%E5%BF%AB%E6%99%B4-at-cream-puff-live-3-cover/1709945211?i=1709945272&uo=4)
+- [官方作品页](https://kamitsubaki.jp/discography/harusaruhi/2710/)
 - [VGMdb 春猿火](https://vgmdb.net/artist/48426)

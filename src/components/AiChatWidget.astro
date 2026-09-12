@@ -26,6 +26,7 @@ type AiChatCopy = {
   emptyResponse: string;
   challengeFallback: string;
   streamErrorFallback: string;
+  retry?: string;
   accountAnonymous: string;
   accountLoggedInPrefix: string;
   loginRequiredFallback?: string;
@@ -61,6 +62,7 @@ const normalizedCopy = {
   googleLoginLabel: copy.googleLoginLabel ?? 'Continue with Google',
   logoutLabel: copy.logoutLabel ?? 'Sign out',
   authErrorFallback: copy.authErrorFallback ?? 'The auth line is unstable.',
+  retry: copy.retry ?? 'Retry',
   historyLabel: copy.historyLabel ?? 'History',
   settingsLabel: copy.settingsLabel ?? 'Settings',
   threadActionsLabel: copy.threadActionsLabel ?? 'Conversation actions',

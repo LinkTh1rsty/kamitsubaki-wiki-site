@@ -1,13 +1,17 @@
 ---
 import ResponsiveImage from '../../../../components/ResponsiveImage.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
+import AlbumCatalogFilter from '../../../../components/AlbumCatalogFilter.astro';
 import MusicSubnav from '../../../../components/MusicSubnav.astro';
 import SiteFooter from '../../../../components/SiteFooter.astro';
 import SiteNav from '../../../../components/SiteNav.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { foldCjkSearchText } from '../../../../lib/cjkSearch.mjs';
+import { collectFilterTypes, collectFilterYears, extractYearFromDate } from '../../../../lib/catalogFilter.mjs';
 import { getLocalizedEntries, getLocalizedSite } from '../../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../../../lib/i18n.mjs';
 import { buildArtistAlbumCatalog } from '../../../../lib/musicCatalog.mjs';
+import { completenessTier, computeCompleteness } from '../../../../lib/entryCompleteness.mjs';
 
 export async function getStaticPaths() {
   const [allAlbums, allArtists] = await Promise.all([
@@ -43,6 +47,16 @@ const copy = resolveLocaleCopy({
 }, localeCode);
 const accentColor = group.theme?.accentColor ?? '#d9dbe8';
 const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.theme?.surfaceColor ?? '#101117'}`;
+
+const filterTypes = collectFilterTypes(albums.map((album) => ({ type: album.data.type })));
+const { years: filterYears, hasUnknown: hasUnknownYear } = collectFilterYears(
+  albums.map((album) => ({ releaseDate: album.data.releaseDate })),
+);
+const completenessTierNames = resolveLocaleCopy({
+  zh: { complete: '完整', good: '良好', brief: '简要', stub: '草稿' },
+  ja: { complete: '完備', good: '良好', brief: '概要', stub: '草稿' },
+  en: { complete: 'Complete', good: 'Good', brief: 'Brief', stub: 'Stub' },
+}, localeCode);
 ---
 
 <BaseLayout lang={localeCode} alternates={alternates} title={`${artistName} ${copy.catalog} - Kamitsubaki Studio Fan Wiki`}>
@@ -70,18 +84,66 @@ const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.the
 
       <div class="mt-8"><MusicSubnav locale={localeCode} current="albums" /></div>
 
-      <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {albums.map((album) => {
+      <AlbumCatalogFilter
+        locale={localeCode}
+        types={filterTypes}
+        years={filterYears}
+        hasUnknownYear={hasUnknownYear}
+        totalCount={albums.length}
+      />
+
+      <p class="album-catalog-filter__empty mt-10 font-mono text-xs tracking-wide text-white/45" data-album-filter-empty hidden>
+        {resolveLocaleCopy({
+          zh: { empty: '没有符合当前筛选条件的专辑。' },
+          ja: { empty: '条件に一致するアルバムがありません。' },
+          en: { empty: 'No albums match the current filters.' },
+        }, localeCode).empty}
+      </p>
+
+      <div class="album-catalog-grid mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3" data-album-row-grid>
+        {albums.map((album, albumIndex) => {
           const albumPath = album.id.split('/').slice(0, -1).join('/');
+          const titleFolded = foldCjkSearchText(album.data.title);
+          const romanizedFolded = foldCjkSearchText(album.data.romanizedTitle ?? '');
+          const typeFolded = foldCjkSearchText(album.data.type ?? '');
+          const labelFolded = foldCjkSearchText(album.data.label ?? '');
+          const searchText = [titleFolded, romanizedFolded, typeFolded, labelFolded]
+            .filter(Boolean)
+            .join(' ');
+          const albumYear = extractYearFromDate(album.data.releaseDate);
           return (
-            <a href={`/${localeCode}/albums/${albumPath}`} class="album-card group overflow-hidden border border-white/10 bg-white/[0.02] transition-colors hover:border-white/30">
+            <a
+              href={`/${localeCode}/albums/${albumPath}`}
+              class="album-card group overflow-hidden border border-white/10 bg-white/[0.02] transition-colors hover:border-white/30"
+              data-album-row
+              data-title={album.data.title}
+              data-search-text={searchText}
+              data-category={album.data.type ?? ''}
+              data-release-date={album.data.releaseDate ?? ''}
+              data-year={albumYear ?? ''}
+              data-default-index={albumIndex}
+            >
               {album.data.image ? (
                 <ResponsiveImage widths={[192, 480, 960]} sizes="(max-width: 640px) calc(100vw - 40px), (max-width: 1024px) 45vw, 400px" src={album.data.image} alt="" class="aspect-square w-full object-cover opacity-80 transition duration-700 group-hover:scale-[1.015] group-hover:opacity-100" loading="lazy" />
               ) : (
                 <span class="grid aspect-square w-full place-items-center bg-white/[0.03] font-serif text-6xl text-white/10">{album.data.title.slice(0, 1)}</span>
               )}
               <div class="p-6">
-                <h2 class="font-serif text-lg tracking-wide text-white">{album.data.title}</h2>
+                <div class="flex items-start justify-between gap-3">
+                  <h2 class="font-serif text-lg tracking-wide text-white">{album.data.title}</h2>
+                  {(() => {
+                    const completeness = computeCompleteness('albums', album.data);
+                    const tier = completenessTier(completeness.score);
+                    const badgeTitle = `${completeness.score} · ${completenessTierNames[tier]}`;
+                    return (
+                      <span
+                        class:list={['completeness-dot', `completeness-dot--${tier}`]}
+                        title={badgeTitle}
+                        aria-label={badgeTitle}
+                      ></span>
+                    );
+                  })()}
+                </div>
                 {(album.data.type || album.data.releaseDate) && (
                   <dl class="mt-5 flex flex-wrap gap-x-6 gap-y-2 border-t border-white/10 pt-4 font-mono text-[9px] uppercase tracking-[0.16em] text-white/35">
                     {album.data.type && <div><dt class="sr-only">{copy.type}</dt><dd>{album.data.type}</dd></div>}
@@ -127,6 +189,20 @@ const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.the
     outline: 1px solid color-mix(in srgb, var(--catalog-accent) 70%, var(--theme-fg));
     outline-offset: 3px;
   }
+
+  .completeness-dot {
+    width: 0.45rem;
+    height: 0.45rem;
+    flex-shrink: 0;
+    margin-top: 0.45rem;
+    border-radius: 9999px;
+    background: rgb(var(--theme-fg-rgb) / 0.28);
+  }
+
+  .completeness-dot--complete { background: rgb(74 222 128 / 0.75); }
+  .completeness-dot--good { background: rgb(125 211 252 / 0.7); }
+  .completeness-dot--brief { background: rgb(253 224 71 / 0.65); }
+  .completeness-dot--stub { background: rgb(252 165 165 / 0.65); }
 
   :global(html[data-theme='light']) .album-card img,
   :global(html[data-theme='light']) .album-card:hover img,

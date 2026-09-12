@@ -69,12 +69,26 @@ KUUSOU occupies a unique structural position in the Kamitsubaki roster as a unit
 
 ## Representative Works
 
-- Debut single: "Toumei Ryusei Rhapsody" (透明流星ラプソディ)
+{{details::Expand full albums and EPs}}
 
-See also:
+**Albums & EPs**
 
-- [CIEL](/en/artists/solo/ciel)
-- [Sooda](/en/artists/creators/sooda)
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2026-06-17 | EP | [CYAN](</en/albums/kuusou/CYAN-6775756685>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2026-01-13 | [透明流星ラプソディ](</en/songs/kuusou/originals/透明流星rapusodei>) |
+| 2026-04-14 | [クローゼット](</en/songs/kuusou/originals/kuroozetto>) |
+
+{{/details}}
 
 ## Related Projects / Setting
 

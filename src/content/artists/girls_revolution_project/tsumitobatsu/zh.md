@@ -46,9 +46,36 @@ featuredEntries:
 
 ## 代表作品
 
-- 专辑：《改変 -罪-》
-- 单曲：《[弔花](/zh/songs/tsumitobatsu/originals/chouka)》《[SURVIVAL](/zh/songs/tsumitobatsu/originals/survival)》《[SHOCK](/zh/songs/tsumitobatsu/originals/shock)》《[大罪](/zh/songs/tsumitobatsu/originals/taizai)》《[blindness](/zh/songs/tsumitobatsu/originals/blindness)》等
-- 组合曲：《[改変](/zh/songs/grp/originals/kaihen)》《[主人行路](/zh/songs/grp/originals/shujin-kouro)》《[鈍色幻灯](/zh/songs/grp/originals/nibiiro-gentou)》《[現世回帰](/zh/songs/grp/originals/gense-kaiki)》
+{{details::展开完整专辑与 EP 目录}}
+
+**专辑与 EP**
+
+| 发行日期 | 类型 | 标题 |
+| --- | --- | --- |
+| 2025-10-29 | Album | [改変 -罪-](</zh/albums/tsumitobatsu/kaihen-tsumi>) |
+
+{{/details}}
+
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2024-08-14 | [弔花](</zh/songs/tsumitobatsu/originals/chouka>) |
+| 2025-05-07 | [SHOCK](</zh/songs/tsumitobatsu/originals/shock>) |
+| 2025-06-04 | [SURVIVAL](</zh/songs/tsumitobatsu/originals/survival>) |
+| 2025-10-29 | [改変 -罪-](</zh/songs/tsumitobatsu/originals/kaihen-tsumi>) |
+| 2025-10-29 | [blindness](</zh/songs/tsumitobatsu/originals/blindness>) |
+| 2025-10-29 | [Brrrrrreak It](</zh/songs/tsumitobatsu/originals/brrrrrreak-it>) |
+| 2025-10-29 | [DIGGER](</zh/songs/tsumitobatsu/originals/digger>) |
+| 2025-10-29 | [Envy](</zh/songs/tsumitobatsu/originals/envy>) |
+| 2025-10-29 | [RAVEN](</zh/songs/tsumitobatsu/originals/raven>) |
+| 2025-10-29 | [Synapse](</zh/songs/tsumitobatsu/originals/synapse>) |
+| 2025-10-29 | [アウフヘーベン](</zh/songs/tsumitobatsu/originals/aufheben>) |
+| 2026-01-23 | [大罪](</zh/songs/tsumitobatsu/originals/taizai>) |
+
+{{/details}}
 
 ## 外部链接
 

@@ -47,9 +47,36 @@ featuredEntries:
 
 ## 代表作品
 
-- アルバム：『改変 -心-』
-- シングル：『[フェイクナイト・シンデレラ](/ja/songs/sinseiki/originals/fake-night-cinderella)』『[ココロト](/ja/songs/sinseiki/originals/kokoroto)』『[Ephemeral](/ja/songs/sinseiki/originals/ephemeral)』『[雑几帖](/ja/songs/sinseiki/originals/zatsukichou)』など
-- 両組曲：『[改変](/ja/songs/grp/originals/kaihen)』『[主人行路](/ja/songs/grp/originals/shujin-kouro)』『[鈍色幻灯](/ja/songs/grp/originals/nibiiro-gentou)』『[現世回帰](/ja/songs/grp/originals/gense-kaiki)』
+{{details::アルバムとEPの一覧を開く}}
+
+**アルバム / EP**
+
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2025-10-29 | Album | [改変 -心-](</ja/albums/sinseiki/kaihen-kokoro>) |
+
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2024-09-18 | [パーフェクション](</ja/songs/sinseiki/originals/perfection>) |
+| 2025-01-22 | [Ephemeral](</ja/songs/sinseiki/originals/ephemeral>) |
+| 2025-02-26 | [ココロト](</ja/songs/sinseiki/originals/kokoroto>) |
+| 2025-04-02 | [うそ鳴き](</ja/songs/sinseiki/originals/usonaki>) |
+| 2025-10-29 | [改変 -心-](</ja/songs/sinseiki/originals/kaihen-kokoro>) |
+| 2025-10-29 | [FantastiQ](</ja/songs/sinseiki/originals/fantasti-q>) |
+| 2025-10-29 | [いずれ僕は溶けて](</ja/songs/sinseiki/originals/izure-boku-wa-tokete>) |
+| 2025-10-29 | [コントラスト](</ja/songs/sinseiki/originals/contrast>) |
+| 2025-10-29 | [ミリオン・コンプレクシティ](</ja/songs/sinseiki/originals/million-complexity>) |
+| 2025-10-29 | [ロストオービット](</ja/songs/sinseiki/originals/lost-orbit>) |
+| 2026-02-20 | [雑几帖](</ja/songs/sinseiki/originals/zatsukichou>) |
+| 2026-04-01 | [フェイクナイト・シンデレラ](</ja/songs/sinseiki/originals/fake-night-cinderella>) |
+
+{{/details}}
 
 ## 外部リンク
 

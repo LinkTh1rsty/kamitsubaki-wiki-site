@@ -50,6 +50,7 @@ export const wikiHtmlSchema = {
       ['className', ...allowedSpanClasses],
       'dataTime',
       'hidden',
+      'lang',
     ],
     rt: [['className', 'furi', 'roma']],
     button: [

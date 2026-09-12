@@ -104,20 +104,51 @@ Misumi 是 DUSTCELL 的作曲与编曲担当，也是活跃于 Vocaloid 领域�
 
 ## 音乐作品
 
-### 早期网络投稿
+{{details::展开完整专辑与 EP 目录}}
 
-早期作品按照“编号投稿—百万播放节点—现场重新诠释”的方式逐渐建立组合史。核心入口包括《CULT》《STIGMA》《LAZY》《Heaven and Hell》《DOMINATION》《LILAC》《SOPPY》《アネモネ》《ONE》《[終点](/zh/songs/koko/covers/終点-shuuten)》《[DERO](/zh/songs/dustcell/originals/dero)》《[PAIN](/zh/songs/dustcell/originals/pain)》《[Mad Hatter](/zh/songs/dustcell/originals/mad-hatter)》《[命の行方](/zh/songs/dustcell/originals/命no行方)》《[独白](/zh/songs/dustcell/originals/独白)》。
+**专辑与 EP**
 
-| 阶段 | 代表作品 | 作品意义 |
+| 发行日期 | 类型 | 标题 |
 | --- | --- | --- |
-| 初期 | 《CULT》《STIGMA》《LAZY》 | 确立组合名称、美学和电子人声路线 |
-| 《SUMMIT》时期 | 《Heaven and Hell》《LILAC》《アネモネ》《ONE》 | 从单曲投稿推进到完整专辑与首场现场 |
-| 《HOWL》时期 | 《DERO》《PAIN》《Mad Hatter》 | 强化现场冲击和暗色叙事 |
-| 后续 | 《命の行方》《独白》及后续作品 | 延伸到广告、个人情绪与更大制作规模 |
+| 2020-05-20 | Album | [SUMMIT](</zh/albums/dustcell/SUMMIT-1688155907>) |
+| 2021-10-20 | Album | [自白](</zh/albums/dustcell/自白-1587649555>) |
+| 2022-08-31 | Album | [Hypnotize](</zh/albums/dustcell/Hypnotize-1637382530>) |
+| 2023-03-29 | Album | [ROUND TRIP](</zh/albums/dustcell/ROUND-TRIP-1676025466>) |
+| 2024-07-24 | Album | [光](</zh/albums/dustcell/光-1755122020>) |
+| 2025-12-10 | Album | [碧い海](</zh/albums/dustcell/碧い海-1853446220>) |
 
-### 专辑与现场
+{{/details}}
 
-《SUMMIT》是 DUSTCELL 的首张完整专辑，也是组合早期声音系统的集中呈现。以《SUMMIT》为名的首场 One-Man Live 在疫情期间转为无观众直播，保留了“专辑—现场—影像”三者相互转换的结构；随后《HOWL》进一步确立了线上线下并行的演出模式。
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2020-09-15 | [PAIN](</zh/songs/dustcell/originals/pain>) |
+| 2021-04-09 | [命の行方](</zh/songs/dustcell/originals/命no行方>) |
+| 2021-06-22 | [独白](</zh/songs/dustcell/originals/独白>) |
+| 2021-07-27 | [TOUBOU](</zh/songs/dustcell/originals/toubou>) |
+| 2021-10-19 | [DERO](</zh/songs/dustcell/originals/dero>) |
+| 2021-10-19 | [Mad Hatter](</zh/songs/dustcell/originals/mad-hatter>) |
+| 2022-02-08 | [独白(カンザキイオリ Remix)](</zh/songs/dustcell/originals/独白-kanzakiiori-remix>) |
+| 2022-05-31 | [足りない](</zh/songs/dustcell/originals/足rinai>) |
+| 2022-07-19 | [Void](</zh/songs/dustcell/originals/void>) |
+| 2023-01-26 | [ANTIHERO](</zh/songs/dustcell/originals/antihero>) |
+| 2023-02-21 | [オルターエゴ](</zh/songs/dustcell/originals/orutaaego>) |
+| 2023-05-16 | [Caffeine](</zh/songs/dustcell/originals/caffeine>) |
+| 2023-10-03 | [フラッシュバック](</zh/songs/dustcell/originals/furasshubakku>) |
+| 2024-04-23 | [可笑しな生き物](</zh/songs/dustcell/originals/可笑shina生ki物>) |
+| 2024-06-25 | [Nighthawk (feat. たなか)](</zh/songs/dustcell/originals/nighthawk-feat.-tanaka>) |
+| 2024-10-08 | [表情差分](</zh/songs/dustcell/originals/表情差分>) |
+| 2024-12-10 | [NO PAIN](</zh/songs/dustcell/originals/no-pain>) |
+| 2025-01-01 | [畢竟](</zh/songs/dustcell/originals/畢竟>) |
+| 2025-02-18 | [心臓](</zh/songs/dustcell/originals/心臓>) |
+| 2025-02-25 | [SCAPEGOAT](</zh/songs/dustcell/originals/scapegoat>) |
+| 2025-07-15 | [灯火](</zh/songs/dustcell/originals/灯火>) |
+| 2026-07-14 | [Gimme That!](</zh/songs/dustcell/originals/gimme-that>) |
+
+{{/details}}
 
 ## 相关企划 / 关联设定
 

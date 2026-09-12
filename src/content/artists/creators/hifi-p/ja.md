@@ -22,8 +22,20 @@ HiFi-P は [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) に所属し（202
 
 イラストは Ritsao（りたお）が担当。
 
-
 ## 外部リンク
 
 - [Twitter](https://twitter.com/HiFiP3)
 - [YouTube](https://www.youtube.com/channel/UCi9gXaRxOf2-EsVW5Zc3paQ)
+
+## 代表作品と関連項目
+
+{{details::アルバムとEPの一覧を開く}}
+
+**アルバム / EP**
+
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2023-05-11 | Album | [Pixels](</ja/albums/hifi-p/Pixels-1685405328>) |
+
+{{/details}}
+

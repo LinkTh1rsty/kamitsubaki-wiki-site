@@ -71,42 +71,20 @@ seo:
 
 ## 楽曲一覧
 
-### オリジナル曲
+{{details::シングル一覧を開く}}
 
-- このカテゴリには、佳鏡院がソロで歌唱したオリジナル楽曲が含まれています。
+**シングル**
 
-| 投稿日 | 楽曲名 | 作詞 | 作曲 | 試聴 |
-| :---: | :---: | :---: | :---: | :---: |
-| 2024年10月23日 | 夢の揺籠 | Wiz_nicc | Wiz_nicc | @[youtube](https://www.youtube.com/embed/pP667C1y1zA?si=2kXeZA-ru7ZleSXF) |
-| 2024年12月11日 | [宇宙逃避行](/ja/songs/kakyoin/originals/uchu-touhikou) | [MIMI](/ja/artists/creators/mimi) | MIMI | @[youtube](https://www.youtube.com/embed/QBObLindkQk?si=BcJCEw1zPln9zAtA) |
-| 2025年3月19日 | <ruby>[キリガサガリキ](/ja/songs/kakyoin/originals/kirigasa-gariki)<rt>kirigasagariki</rt></ruby> | Purukichi | Purukichi | @[youtube](https://www.youtube.com/embed/O-19NUEyBiU?si=vDQhbNk2Q_tkJwmF) |
-| 2025年11月12日 | [月へゆく](/ja/songs/kakyoin/originals/tsuki-e-yuku) | tama | tama | @[youtube](https://www.youtube.com/embed/4Oeflvc57GM?si=Qlkr2WnrvPtmvN8f) |
+| リリース日 | タイトル |
+| --- | --- |
+| 2024-10-23 | [夢の揺籠](</ja/songs/kakyoin/originals/yume-no-yurikago>) |
+| 2024-12-11 | [宇宙逃避行](</ja/songs/kakyoin/originals/uchu-touhikou>) |
+| 2025-02-12 | [シネマティック](</ja/songs/kakyoin/originals/cinematic>) |
+| 2025-03-19 | [キリガサガリキ](</ja/songs/kakyoin/originals/kirigasa-gariki>) |
+| 2025-11-12 | [月へゆく](</ja/songs/kakyoin/originals/tsuki-e-yuku>) |
 
-### コラボ・グループ曲
-- このカテゴリには、コラボレーション楽曲、心世紀のユニット曲、少女革命計画のグループ曲など、佳鏡院が参加した歌唱楽曲が含まれています。
+{{/details}}
 
-#### コラボ曲
-
-| 投稿日 | 楽曲名 | 歌唱 | 作詞 | 作曲 | 試聴 |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| 2025年2月12日 | <ruby>[シネマティック](/ja/songs/kakyoin/originals/cinematic)<rt>Cinematic</rt></ruby> | 佳鏡院<br>[氷夏至](/ja/artists/girls_revolution_project/hinageshi) | 櫻井健太郎 | 櫻井健太郎 | @[youtube](https://www.youtube.com/embed/J5LONI0DVik?si=eXxF6WYwujSeHhpG) |
-
-#### 心世紀 ユニット曲
-
-| 投稿日 | 楽曲名 | 作詞 | 作曲 | 試聴 |
-| :---: | :---: | :---: | :---: | :---: |
-| 2024年8月9日 | <ruby>[フェイクナイト・シンデレラ](/ja/songs/sinseiki/originals/fake-night-cinderella)<rt>Fake Night Cinderella</rt></ruby> | 矢野達也 | 矢野達也 | @[youtube](https://www.youtube.com/embed/b3btbgVGuqA?si=h_tMVMMwGh61fJLA) |
-| 2024年9月18日 | <ruby>[パーフェクション](/ja/songs/sinseiki/originals/perfection)<rt>Perfection</rt></ruby> | 水野あつ | HIDEYA KOJIMA | @[youtube](https://www.youtube.com/embed/qYkxlMfM8L8?si=SSY9PBJ2uOSX4c6r) |
-| 2025年1月22日 | [Ephemeral](/ja/songs/sinseiki/originals/ephemeral) | 100回嘔吐 | 100回嘔吐 | @[youtube](https://www.youtube.com/embed/8JRuowZtRBc?si=YZNAPErdlRnMC3Oo) |
-| 2025年2月26日 | <ruby>[ココロト](/ja/songs/sinseiki/originals/kokoroto)<rt>Kokoroto</rt></ruby> | とあ | とあ | @[youtube](https://www.youtube.com/embed/fNrKWnVc7bI?si=xX4i9sq7F2fXtELp) |
-| 2025年4月2日 | [うそ鳴き](/ja/songs/sinseiki/originals/usonaki) | ぽん | HIDEYA KOJIMA | @[youtube](https://www.youtube.com/embed/MhblPJMvc4c?si=tV6ky_J36DxNOmQs) |
-| 2025年5月21日 | いぜれ僕は溶けて | Purukichi | Purukichi | @[apple-music](https://embed.music.apple.com/cn/song/%E3%81%84%E3%81%9A%E3%82%8C%E5%83%95%E3%81%AF%E6%BA%B6%E3%81%91%E3%81%A6-feat-purukichi/1842289624) |
-| 2025年5月21日 | <ruby>[ミリオン・コンプレクシティ](/ja/songs/sinseiki/originals/million-complexity)<rt>Million Complexity</rt></ruby> | 矢野達也 | 矢野達也 | @[youtube](https://www.youtube.com/embed/POfCdtX4caM?si=jXOKBQgoUxpTeVlQ) |
-| 2025年10月29日 | <ruby>[ロストオービット](/ja/songs/sinseiki/originals/lost-orbit)<rt>Lost Orbit</rt></ruby> | shikisai | shikisai | @[apple-music](https://embed.music.apple.com/cn/song/%E3%83%AD%E3%82%B9%E3%83%88%E3%82%AA%E3%83%BC%E3%83%93%E3%83%83%E3%83%88-feat-shikisai/1842289621) |
-| 2025年10月29日 | <ruby>[コントラスト](/ja/songs/sinseiki/originals/contrast)<rt>Contrast</rt></ruby> | 矢野達也 | 矢野達也 | @[apple-music](https://embed.music.apple.com/cn/song/%E3%82%B3%E3%83%B3%E3%83%88%E3%83%A9%E3%82%B9%E3%83%88-feat-%E7%9F%A2%E9%87%8E%E9%81%94%E4%B9%9F/1842289625) |
-| 2025年10月29日 | [FantastiQ](/ja/songs/sinseiki/originals/fantasti-q) | ぽん | HIDEYA KOJIMA | @[apple-music](https://embed.music.apple.com/cn/song/fantastiq-feat-hideya-kojima/1842289627) |
-| 2025年10月29日 | 改変 -心- | たなか | たなか、LLLL | @[apple-music](https://embed.music.apple.com/cn/song/%E6%94%B9%E5%A4%89-%E5%BF%83-feat-%E3%81%9F%E3%81%AA%E3%81%8B-llll/1842289629) |
-| 2026年2月20日 | [雑几帖](/ja/songs/sinseiki/originals/zatsukichou) | 矢野達也 | 矢野達也 | @[youtube](https://www.youtube.com/embed/XhXkkh_4cVs?si=WVor92d2H8x5MgKF) |
 ## 外部リンク
 
 - [KAMITSUBAKI STUDIO 公式サイト](https://kamitsubaki.jp/artist/sinseiki/)

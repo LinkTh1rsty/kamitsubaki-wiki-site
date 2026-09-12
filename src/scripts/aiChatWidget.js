@@ -1,18 +1,42 @@
-import katex from 'katex';
-import { micromark } from 'micromark';
-import { gfm, gfmHtml } from 'micromark-extension-gfm';
-import { math, mathHtml } from 'micromark-extension-math';
 import { setSegmentedValue } from '../lib/aiChatControls.mjs';
 import {
   buildAiLocaleRequest,
   convertAiResponseText,
   isTraditionalAiResponseLocale,
+  loadTraditionalConverters,
 } from '../lib/aiResponseLocale.mjs';
 import { parseAiStreamChunk } from '../lib/aiStream.mjs';
 
 const widgets = document.querySelectorAll('[data-ai-chat]');
 const legacyLauncherPositionKey = 'kfw_ai_launcher_position';
 let turnstileLoader;
+let markdownRenderer = null;
+let markdownRendererPromise = null;
+
+async function loadMarkdownRenderer() {
+  if (markdownRenderer) {
+    return markdownRenderer;
+  }
+  if (!markdownRendererPromise) {
+    markdownRendererPromise = Promise.all([
+      import('katex'),
+      import('micromark'),
+      import('micromark-extension-gfm'),
+      import('micromark-extension-math'),
+    ]).then(([katexMod, micromarkMod, gfmMod, mathMod]) => {
+      const katex = katexMod.default || katexMod;
+      const { micromark } = micromarkMod;
+      const { gfm, gfmHtml } = gfmMod;
+      const { math, mathHtml } = mathMod;
+      markdownRenderer = { katex, micromark, gfm, gfmHtml, math, mathHtml };
+      return markdownRenderer;
+    }).catch((error) => {
+      markdownRendererPromise = null;
+      throw error;
+    });
+  }
+  return markdownRendererPromise;
+}
 
 function sanitizeRenderedHtml(html) {
   const template = document.createElement('template');
@@ -99,8 +123,13 @@ function localizeRenderedHtml(html, locale) {
 }
 
 function renderMarkdown(text, locale = '') {
+  const sourceText = String(text || '');
+  if (!markdownRenderer) {
+    return localizeRenderedHtml(sanitizeRenderedHtml(sourceText.replace(/\n/g, '<br>')), locale);
+  }
+  const { katex, micromark, gfm, gfmHtml, math, mathHtml } = markdownRenderer;
   const html = sanitizeRenderedHtml(
-    micromark(String(text || ''), {
+    micromark(sourceText, {
       extensions: [gfm(), math()],
       htmlExtensions: [gfmHtml(), mathHtml({ katex, throwOnError: false, strict: false })],
     }),
@@ -109,7 +138,16 @@ function renderMarkdown(text, locale = '') {
 }
 
 function setMessageMarkdown(content, text, locale = '') {
+  content.dataset.rawText = text;
+  content.dataset.rawLocale = locale;
   content.innerHTML = renderMarkdown(text, locale);
+  if (!markdownRenderer) {
+    loadMarkdownRenderer().then(() => {
+      if (content.dataset.rawText === text) {
+        content.innerHTML = renderMarkdown(text, locale);
+      }
+    }).catch(() => {});
+  }
 }
 
 function createStreamingRenderer(content, messages, locale = '') {
@@ -1165,9 +1203,66 @@ function initWidget(root) {
     return;
   }
 
+  let isReady = false;
+  let readyPromise = null;
+
+  const showLoadError = () => {
+    const firstAssistant = root.querySelector('.ai-message--assistant .ai-message__content');
+    if (!(firstAssistant instanceof HTMLElement)) {
+      return;
+    }
+    firstAssistant.innerHTML = '';
+    const errorBox = document.createElement('div');
+    errorBox.className = 'ai-load-error';
+    const msg = document.createElement('span');
+    msg.textContent = copy.fallbackOffline || copy.streamErrorFallback || 'Connection failed.';
+    const retryBtn = document.createElement('button');
+    retryBtn.type = 'button';
+    retryBtn.className = 'ai-retry-btn';
+    retryBtn.textContent = copy.retry || 'Retry';
+    retryBtn.addEventListener('click', () => {
+      firstAssistant.innerHTML = '';
+      ensureWidgetReady().catch(showLoadError);
+    });
+    errorBox.append(msg, retryBtn);
+    firstAssistant.append(errorBox);
+  };
+
+  const ensureWidgetReady = () => {
+    if (isReady) return Promise.resolve();
+    if (!readyPromise) {
+      readyPromise = (async () => {
+        root.classList.add('is-loading');
+        toggle.setAttribute('aria-busy', 'true');
+        try {
+          const locale = root.dataset.locale || document.documentElement.lang || 'zh';
+          const tasks = [
+            loadMarkdownRenderer(),
+            bootstrap(root),
+          ];
+          if (isTraditionalAiResponseLocale(locale)) {
+            tasks.push(loadTraditionalConverters());
+          }
+          await Promise.all(tasks);
+          isReady = true;
+          root.classList.remove('has-load-error');
+        } catch (error) {
+          readyPromise = null;
+          root.classList.add('has-load-error');
+          throw error;
+        } finally {
+          root.classList.remove('is-loading');
+          toggle.removeAttribute('aria-busy');
+        }
+      })();
+    }
+    return readyPromise;
+  };
+
   const openPanel = () => {
     setExpanded(root, true);
     window.setTimeout(() => input.focus(), 160);
+    ensureWidgetReady().catch(showLoadError);
   };
 
   resetLauncherDock();
@@ -1182,8 +1277,9 @@ function initWidget(root) {
   }
   consumeAuthResult();
   updateAuthState(root, copy, { kind: 'anonymous' });
-  bootstrap(root).catch(() => {});
-  window.addEventListener('kamitsubaki-auth-changed', () => bootstrap(root).catch(() => {}));
+  window.addEventListener('kamitsubaki-auth-changed', () => {
+    if (isReady) bootstrap(root).catch(() => {});
+  });
 
   toggle.addEventListener('click', () => {
     openPanel();

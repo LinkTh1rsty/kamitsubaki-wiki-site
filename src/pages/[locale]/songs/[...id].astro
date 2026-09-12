@@ -11,11 +11,15 @@ import ContributorRoster from '../../../components/ContributorRoster.astro';
 import MusicSubnav from '../../../components/MusicSubnav.astro';
 import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
 import MemoryCorridorEntryLink from '../../../components/MemoryCorridorEntryLink.astro';
+import EntryCompleteness from '../../../components/EntryCompleteness.astro';
+import MissingDataNotice from '../../../components/MissingDataNotice.astro';
 import { getLocalizedEntries, getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, getEditableLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArticleMetadata } from '../../../lib/metadata.mjs';
 import { renderContentEntry } from '../../../lib/contentSource.mjs';
 import { buildLocalizedStaticPaths } from '../../../lib/staticPaths.mjs';
+import { completenessTier, computeCompleteness } from '../../../lib/entryCompleteness.mjs';
+import { buildContentIndex, detectEntryIssues, summarizeIssues } from '../../../lib/missingData.mjs';
 
 export async function getStaticPaths() {
   const songEntries = await getCollection('songs');
@@ -30,9 +34,172 @@ const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
 const hasArticleBody = Boolean(articleBody);
 const hasTableOfContents = headings.some((heading) => heading.depth === 2 || heading.depth === 3);
 
+const [allSongs, allAlbums, allArtists] = await Promise.all([
+  getCollection('songs'),
+  getCollection('albums'),
+  getCollection('artists'),
+]);
+const missingIndex = buildContentIndex({ songs: allSongs, albums: allAlbums, artists: allArtists });
+const missingIssues = detectEntryIssues({
+  collection: 'songs',
+  entry,
+  index: missingIndex,
+  body: articleBody,
+});
+const missingSummary = summarizeIssues(missingIssues);
+const missingLabels = resolveLocaleCopy({
+  zh: {
+    eyebrow: '待补全',
+    summary: missingSummary.total === 1
+      ? '该条目有 1 项待补全资料'
+      : `该条目有 ${missingSummary.total} 项待补全资料`,
+    details: '展开明细',
+    edit: '去编辑补充',
+    severityWarning: '警告',
+    severityInfo: '提示',
+    kinds: {
+      'missing-fields': '缺失字段',
+      'missing-locale': '缺少语言版本',
+      'unknown-artist': '未识别的艺人',
+      'album-not-linked': '未关联到专辑条目',
+      'track-song-missing': '曲目关联的歌曲缺失',
+      'tracks-unlinked': '曲目均未关联歌曲',
+      'thin-body': '正文过短',
+    },
+    fieldNames: {
+      image: '封面图',
+      releaseDate: '发布日期',
+      composer: '作曲',
+      lyricist: '作词',
+      lyricsSources: '歌词来源',
+      album: '收录专辑',
+      duration: '时长',
+      code: '编号',
+      categoryTitle: '分类',
+      type: '类型',
+      label: '发行厂牌',
+      catalogNumber: '商品编号',
+      trackCount: '曲目数',
+      description: '简介',
+      romanizedTitle: '罗马字标题',
+      officialLinks: '官方链接',
+      tracks: '曲目列表',
+      profileTagline: '简介标签',
+      debutDate: '出道日期',
+      meta: '备注',
+      affiliations: '所属 / 关联',
+      designCredits: '设定 / 设计',
+      featuredEntries: '相关词条',
+    },
+    localeNames: {
+      zh: '简体中文',
+      ja: '日语',
+      en: '英语',
+    },
+  },
+  ja: {
+    eyebrow: '要補完',
+    summary: missingSummary.total === 1
+      ? 'この記事には補完が必要な情報が 1 件あります'
+      : `この記事には補完が必要な情報が ${missingSummary.total} 件あります`,
+    details: '詳細を展開',
+    edit: '編集して補う',
+    severityWarning: '警告',
+    severityInfo: '情報',
+    kinds: {
+      'missing-fields': '不足フィールド',
+      'missing-locale': '不足している言語',
+      'unknown-artist': '未確認のアーティスト',
+      'album-not-linked': 'アルバム記事が未リンク',
+      'track-song-missing': '収録曲のリンク先が不足',
+      'tracks-unlinked': '収録曲が未リンク',
+      'thin-body': '本文が短すぎます',
+    },
+    fieldNames: {
+      image: '画像',
+      releaseDate: 'リリース日',
+      composer: '作曲',
+      lyricist: '作詞',
+      lyricsSources: '歌詞ソース',
+      album: '収録アルバム',
+      duration: '時間',
+      code: 'コード',
+      categoryTitle: '分類',
+      type: '種類',
+      label: 'レーベル',
+      catalogNumber: '規格品番',
+      trackCount: '曲数',
+      description: '説明',
+      romanizedTitle: 'ローマ字タイトル',
+      officialLinks: '公式リンク',
+      tracks: '収録曲',
+      profileTagline: '紹介タグライン',
+      debutDate: 'デビュー',
+      meta: 'メモ',
+      affiliations: '所属 / 関連',
+      designCredits: '設定 / デザイン',
+      featuredEntries: '関連記事',
+    },
+    localeNames: {
+      zh: '中国語（簡体）',
+      ja: '日本語',
+      en: '英語',
+    },
+  },
+  en: {
+    eyebrow: 'Needs work',
+    summary: missingSummary.total === 1
+      ? 'This entry has 1 item that still needs work'
+      : `This entry has ${missingSummary.total} items that still need work`,
+    details: 'Show details',
+    edit: 'Edit to fill in',
+    severityWarning: 'Warning',
+    severityInfo: 'Info',
+    kinds: {
+      'missing-fields': 'Missing fields',
+      'missing-locale': 'Missing language',
+      'unknown-artist': 'Unknown artist',
+      'album-not-linked': 'Album not linked',
+      'track-song-missing': 'Track song missing',
+      'tracks-unlinked': 'Tracks unlinked',
+      'thin-body': 'Thin body',
+    },
+    fieldNames: {
+      image: 'Image',
+      releaseDate: 'Release date',
+      composer: 'Composer',
+      lyricist: 'Lyricist',
+      lyricsSources: 'Lyrics sources',
+      album: 'Album',
+      duration: 'Duration',
+      code: 'Code',
+      categoryTitle: 'Category',
+      type: 'Type',
+      label: 'Label',
+      catalogNumber: 'Catalog number',
+      trackCount: 'Track count',
+      description: 'Description',
+      romanizedTitle: 'Romanized title',
+      officialLinks: 'Official links',
+      tracks: 'Tracks',
+      profileTagline: 'Profile tagline',
+      debutDate: 'Debut date',
+      meta: 'Meta',
+      affiliations: 'Affiliations',
+      designCredits: 'Design credits',
+      featuredEntries: 'Related entries',
+    },
+    localeNames: {
+      zh: 'Simplified Chinese',
+      ja: 'Japanese',
+      en: 'English',
+    },
+  },
+}, localeCode);
+
 const siteEntries = await getCollection('site');
 const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
-const artistEntries = getLocalizedEntries(await getCollection('artists'), localeCode, defaultLocale);
+const artistEntries = getLocalizedEntries(allArtists, localeCode, defaultLocale);
 const artistEntry = artistEntries.find((artist) => artist.data.translationKey === entry.data.artistId);
 const currentPath = `/songs/${id}`;
 const localeLinks = buildLocaleLinks(homeContent, localeCode, currentPath);
@@ -77,6 +244,30 @@ const articleLabels = resolveLocaleCopy({
       album: '专辑',
       song: '歌曲',
     },
+    completeness: {
+      kicker: 'ENTRY COMPLETENESS',
+      scoreLabel: '条目完整度',
+      missingLabel: '缺失字段',
+      missingSummary: '查看缺失字段',
+      missingEmpty: '可选字段已齐全。',
+      tiers: {
+        complete: '完整',
+        good: '良好',
+        brief: '简要',
+        stub: '草稿',
+      },
+      fieldLabels: {
+        image: '封面图',
+        releaseDate: '发布日期',
+        composer: '作曲',
+        lyricist: '作词',
+        lyricsSources: '歌词来源',
+        album: '收录专辑',
+        duration: '时长',
+        code: '编号',
+        categoryTitle: '分类标题',
+      },
+    },
   },
   ja: {
     home: 'ホーム',
@@ -112,6 +303,30 @@ const articleLabels = resolveLocaleCopy({
       album: 'アルバム',
       song: '楽曲',
     },
+    completeness: {
+      kicker: 'ENTRY COMPLETENESS',
+      scoreLabel: '記事完成度',
+      missingLabel: '不足フィールド',
+      missingSummary: '不足フィールドを見る',
+      missingEmpty: '任意項目は揃っています。',
+      tiers: {
+        complete: '完備',
+        good: '良好',
+        brief: '概要',
+        stub: '草稿',
+      },
+      fieldLabels: {
+        image: 'カバー画像',
+        releaseDate: 'リリース日',
+        composer: '作曲',
+        lyricist: '作詞',
+        lyricsSources: '歌詞ソース',
+        album: '収録アルバム',
+        duration: '時間',
+        code: 'コード',
+        categoryTitle: '分類タイトル',
+      },
+    },
   },
   en: {
     home: 'Home',
@@ -146,6 +361,30 @@ const articleLabels = resolveLocaleCopy({
       project: 'Project',
       album: 'Album',
       song: 'Song',
+    },
+    completeness: {
+      kicker: 'ENTRY COMPLETENESS',
+      scoreLabel: 'Entry completeness',
+      missingLabel: 'Missing fields',
+      missingSummary: 'View missing fields',
+      missingEmpty: 'All optional fields are present.',
+      tiers: {
+        complete: 'Complete',
+        good: 'Good',
+        brief: 'Brief',
+        stub: 'Stub',
+      },
+      fieldLabels: {
+        image: 'Cover image',
+        releaseDate: 'Release date',
+        composer: 'Composer',
+        lyricist: 'Lyricist',
+        lyricsSources: 'Lyrics sources',
+        album: 'Album',
+        duration: 'Duration',
+        code: 'Code',
+        categoryTitle: 'Category title',
+      },
     },
   },
 }, localeCode);
@@ -203,6 +442,20 @@ const themeStyle = [
   `--wiki-surface-color:${theme.surfaceColor ?? '#0f1419'}`,
   `--wiki-highlight-color:${theme.highlightColor ?? '#f6f7fb'}`,
 ].join(';');
+
+const completeness = computeCompleteness('songs', entry.data);
+const completenessLabels = {
+  kicker: articleLabels.completeness.kicker,
+  scoreLabel: articleLabels.completeness.scoreLabel,
+  missingLabel: articleLabels.completeness.missingLabel,
+  missingSummary: articleLabels.completeness.missingSummary,
+  missingEmpty: articleLabels.completeness.missingEmpty,
+  tiers: articleLabels.completeness.tiers,
+};
+const completenessMissing = completeness.missing.map((item) => ({
+  ...item,
+  label: articleLabels.completeness.fieldLabels[item.field] ?? item.field,
+}));
 ---
 
 <BaseLayout reading lang={locale} alternates={alternates} title={`${articleData.name} - Kamitsubaki Studio Fan Wiki`} metadata={metadata}>
@@ -235,7 +488,7 @@ const themeStyle = [
 
       {hasArticleBody && (
         <main class:list={[
-          'reader-body order-last w-full min-w-0 lg:order-none',
+          'reader-body w-full min-w-0',
           hasTableOfContents ? 'lg:col-span-7' : 'lg:col-span-8 lg:col-start-2',
         ]}>
           {hasTableOfContents && (
@@ -247,6 +500,15 @@ const themeStyle = [
                 <TableOfContents headings={headings} title={articleLabels.contents} />
               </div>
             </details>
+          )}
+
+          {missingIssues.length > 0 && (
+            <MissingDataNotice
+              issues={missingIssues}
+              summary={missingSummary}
+              labels={missingLabels}
+              editHref={sourceHref}
+            />
           )}
 
           <LyricsPractice locale={localeCode} sourceLinks={sourceLinks} />
@@ -261,9 +523,15 @@ const themeStyle = [
         hasArticleBody ? 'lg:col-span-3' : 'lg:col-start-2',
       ]}>
         <WikiInfoBox data={articleData} labels={articleLabels} />
+        <EntryCompleteness
+          score={completeness.score}
+          tier={completenessTier(completeness.score)}
+          missing={completenessMissing}
+          labels={completenessLabels}
+        />
         <ContributorRoster mode="entry" locale={localeCode} collection="songs" entryId={id} />
       </aside>
-      
+
     </div>
 
     <div class="reader-frame reader-end mx-auto max-w-[92rem] px-4 pb-6 sm:px-6">

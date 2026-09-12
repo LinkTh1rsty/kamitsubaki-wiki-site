@@ -80,14 +80,37 @@ Within KUUSOU, CIEL's voice forms a distinctive complementary relationship with 
 
 ## Representative Works and Related Entries
 
-- Singles: "Uranai no Kaigi," "Mado wo Akete"
-- Video release: Rim × Isekai Joucho TWO-MAN LIVE "[Singularity Live](/en/albums/rim/singularity-live)" (featuring CIEL)
-- Unit debut single: "Toumei Ryusei Rhapsody" (as KUUSOU)
+{{details::Expand full albums and EPs}}
 
-Useful related entries:
+**Albums & EPs**
 
-- [KUUSOU](/en/artists/solo/kuusou)
-- [Sooda](/en/artists/creators/sooda)
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2023-02-15 | Live Album | [STRAWBERRY LIVE](</en/albums/ciel/STRAWBERRY-LIVE-1669426651>) |
+| 2023-10-04 | Live Album | [STRAWBERRY LIVE 2](</en/albums/ciel/STRAWBERRY-LIVE-2-1708546500>) |
+| 2023-12-13 | EP | [空想少女](</en/albums/ciel/空想少女-1718887889>) |
+| 2024-07-24 | Album | [空想劇](</en/albums/ciel/空想劇-1756276963>) |
+| 2026-03-04 | EP | [再晴](</en/albums/ciel/再晴-1875196168>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2022-03-29 | [馥郁の街](</en/songs/ciel/originals/馥郁no街>) |
+| 2023-04-11 | [生活に落ちる](</en/songs/ciel/originals/生活ni落chiru>) |
+| 2023-12-05 | [うわのそら](</en/songs/ciel/originals/uwanosora>) |
+| 2024-07-23 | [少年漫画](</en/songs/ciel/originals/少年漫画>) |
+| 2024-07-23 | [空より](</en/songs/ciel/originals/空yori>) |
+| 2024-07-23 | [眼裏の懐疑](</en/songs/ciel/originals/眼裏no懐疑>) |
+| 2024-07-23 | [窓を開けて](</en/songs/ciel/originals/窓wo開kete>) |
+| 2025-09-23 | [常しなえ](</en/songs/ciel/originals/常shinae>) |
+| 2026-05-12 | [君と旅風](</en/songs/ciel/originals/君to旅風>) |
+
+{{/details}}
 
 ## Related Projects / Setting
 

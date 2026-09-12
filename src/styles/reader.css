@@ -29,11 +29,29 @@ html body .reader-layout > :is(.reader-body, .reader-sidebar, .reader-toc-column
   grid-row: auto;
   min-width: 0;
 }
-html body .reader-body { order: 0; width: 100%; max-width: 46rem; margin-inline: auto; }
-html body .reader-sidebar { order: 1; position: static; max-width: 46rem; }
+/* Mobile stack: frontmatter → body → contributors. Desktop keeps sidebar column intact. */
+html body .reader-body { order: 1; width: 100%; max-width: 46rem; margin-inline: auto; }
+html body .reader-sidebar { order: 0; position: static; max-width: 46rem; }
 html body .reader-toc-column { display: none; }
 html body .reader-layout:not(:has(.reader-body)) { grid-template-columns: minmax(0, 38rem); justify-content: center; }
 html body .reader-layout:not(:has(.reader-body)) > .reader-sidebar { grid-column: 1; }
+
+@media (max-width: 1023px) {
+  /* Unwrap sidebar so infobox and roster can sit on either side of the body. */
+  html body .reader-layout > .reader-sidebar { display: contents; }
+  html body .reader-sidebar > :is(.wiki-infobox, .wiki-side-card) {
+    order: 0;
+    width: 100%;
+    max-width: 24rem;
+    margin-inline: auto;
+  }
+  html body .reader-sidebar > .contributor-roster {
+    order: 2;
+    width: 100%;
+    max-width: 46rem;
+    margin-inline: auto;
+  }
+}
 
 html body div.reader-heading-frame { padding-bottom: 0; }
 html body .wiki-article-header { border-bottom: 1px solid var(--reader-line); padding-bottom: .75rem; }
@@ -162,6 +180,8 @@ html body .reader-end [data-content-license] { border: 0; border-top: 1px solid 
 
 @media (min-width: 1024px) {
   html body .reader-layout { grid-template-columns: minmax(0, 1fr) 16rem; }
+  html body .reader-body { order: 0; }
+  html body .reader-sidebar { order: 1; }
   html body .reader-layout > .reader-body { grid-column: 1; }
   html body .reader-layout > .reader-sidebar { grid-column: 2; }
   html body .reader-layout--essay { grid-template-columns: 10.5rem minmax(0, 46rem); justify-content: center; }

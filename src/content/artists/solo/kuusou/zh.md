@@ -69,12 +69,26 @@ seo:
 
 ## 代表作品
 
-- 出道单曲：「透明流星ラプソディ」（透明流星狂想曲）
+{{details::展开完整专辑与 EP 目录}}
 
-推荐搭配阅读：
+**专辑与 EP**
 
-- [CIEL](/zh/artists/solo/ciel)
-- [Sooda](/zh/artists/creators/sooda)
+| 发行日期 | 类型 | 标题 |
+| --- | --- | --- |
+| 2026-06-17 | EP | [CYAN](</zh/albums/kuusou/CYAN-6775756685>) |
+
+{{/details}}
+
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2026-01-13 | [透明流星ラプソディ](</zh/songs/kuusou/originals/透明流星rapusodei>) |
+| 2026-04-14 | [クローゼット](</zh/songs/kuusou/originals/kuroozetto>) |
+
+{{/details}}
 
 ## 相关企划 / 关联设定
 

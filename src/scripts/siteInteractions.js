@@ -5,6 +5,35 @@ import {
   getKaraokeProgress,
   resolveKaraokeEndTime,
 } from '../lib/lyricsTimeline.mjs';
+import { initRubyJustifyCenter } from './rubyJustifyCenter.js';
+
+const rubyBaseLength = (ruby) => {
+  let length = 0;
+  for (const node of ruby.childNodes) {
+    if (node.nodeType === Node.TEXT_NODE) length += node.textContent.length;
+  }
+  return Math.max(1, length);
+};
+
+const applySequentialRubyProgress = (word, progress) => {
+  const rubies = word._karaokeRubies;
+  if (!rubies || rubies.length === 0) return;
+
+  let total = 0;
+  for (const entry of rubies) total += entry.weight;
+
+  let cursor = 0;
+  for (const entry of rubies) {
+    const start = cursor / total;
+    const end = (cursor + entry.weight) / total;
+    cursor += entry.weight;
+    const span = end - start;
+    const unit = span > 0 ? Math.min(1, Math.max(0, (progress - start) / span)) : (progress >= end ? 1 : 0);
+    entry.el.style.setProperty('--karaoke-progress', formatKaraokeProgress(unit));
+    entry.el.classList.toggle('is-active', unit > 0 && unit < 1);
+    entry.el.classList.toggle('is-complete', unit >= 1);
+  }
+};
 
 const externalLinksHeadingPattern = /^(外部链接|外部連結|外部リンク|external\s+links?)$/i;
 
@@ -451,6 +480,15 @@ document.addEventListener('DOMContentLoaded', () => {
       // Give every timed unit an end point. The last unit in a line runs until
       // the next line; the final line receives a short, deterministic tail.
       this.words = Array.from(this.lyricBox.querySelectorAll('.lrc-word'));
+      this.words.forEach((word) => {
+        const rubies = Array.from(word.children).filter((el) => el.tagName === 'RUBY');
+        word._karaokeRubies = rubies.map((el) => ({ el, weight: rubyBaseLength(el) }));
+        if (rubies.length > 0) {
+          for (const ruby of rubies) {
+            ruby.style.setProperty('--karaoke-progress', '0%');
+          }
+        }
+      });
       this.timedLines = this.lines
         .filter(line => Number.isFinite(parseFloat(line.dataset.time)))
         .sort((a, b) => parseFloat(a.dataset.time) - parseFloat(b.dataset.time));
@@ -571,6 +609,7 @@ document.addEventListener('DOMContentLoaded', () => {
         word.style.setProperty('--karaoke-progress', formatKaraokeProgress(progress));
         word.classList.toggle('is-active', isCurrent);
         word.classList.toggle('is-complete', progress >= 1);
+        applySequentialRubyProgress(word, progress);
       });
     }
   }
@@ -693,4 +732,6 @@ document.addEventListener('DOMContentLoaded', () => {
       );
     });
   }
+
+  initRubyJustifyCenter();
 });

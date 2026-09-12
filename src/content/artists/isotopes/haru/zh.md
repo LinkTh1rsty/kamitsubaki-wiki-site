@@ -78,7 +78,44 @@ seo:
 
 ## 使用场景与作品生态
 
-羽累的声音设计特别适合高 BPM、说唱段落密集或需要高音冲击力的编曲。官方企划与创作者投稿共同构成其曲库：前者展示声库的调教方向，后者则持续拓展她在电子流行、摇滚和说唱中的使用方式。
+{{details::展开完整专辑与 EP 目录}}
+
+**专辑与 EP**
+
+| 发行日期 | 类型 | 标题 |
+| --- | --- | --- |
+| 2024-09-18 | Album | [制定のオーバーラップ](</zh/albums/haru/制定のオーバーラップ-1766443053>) |
+| 2024-10-16 | Album | [対峙のオーバーラップ](</zh/albums/haru/対峙のオーバーラップ-1772594213>) |
+| 2024-10-30 | Album | [結尾のオーバーラップ](</zh/albums/haru/結尾のオーバーラップ-1774456144>) |
+| 2026-04-26 | EP | [ビビッド](</zh/albums/haru/ビビッド-1889096773>) |
+
+{{/details}}
+
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 1997-11-26 | [promise](</zh/songs/haru/originals/promise>) |
+| 2013-04-28 | [思い出の帰り道](</zh/songs/haru/originals/思i出no帰ri道>) |
+| 2016-01-26 | [小さな冒険](</zh/songs/haru/originals/小sana冒険>) |
+| 2024-03-27 | [Follow Me Now!](</zh/songs/haru/originals/follow-me-now>) |
+| 2024-05-26 | [送り雨道](</zh/songs/haru/originals/送ri雨道>) |
+| 2024-06-27 | [拒絶反応 feat. 羽累](</zh/songs/haru/originals/拒絶反応-feat.-羽累>) |
+| 2024-08-31 | [ヒットパレル](</zh/songs/haru/originals/hittopareru>) |
+| 2024-10-16 | [ロースピードフェイクリリック](</zh/songs/haru/originals/low-speed-fake-lyric>) |
+| 2024-10-25 | [バーナリゼーション](</zh/songs/haru/originals/baanarizeeshon>) |
+| 2024-11-26 | [ラジオヒーロー](</zh/songs/haru/originals/rajiohiiroo>) |
+| 2025-02-20 | [過去を刺す](</zh/songs/haru/originals/過去wo刺su>) |
+| 2025-06-26 | [光速セオリー](</zh/songs/haru/originals/光速seorii>) |
+| 2025-06-29 | [森の中のピアノ](</zh/songs/haru/originals/森no中nopiano>) |
+| 2025-07-01 | [夢のステップ](</zh/songs/haru/originals/夢nosuteppu>) |
+| 2025-08-31 | [ゾンビフラッカ](</zh/songs/haru/originals/zonbifurakka>) |
+| 2026-07-29 | [meguru](</zh/songs/haru/originals/meguru>) |
+| 2026-07-31 | [森の夕暮れのピアノ](</zh/songs/haru/originals/森no夕暮renopiano>) |
+
+{{/details}}
 
 {{details::展开阅读提示}}
 

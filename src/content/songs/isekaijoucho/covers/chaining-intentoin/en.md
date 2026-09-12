@@ -14,12 +14,11 @@ categoryOrder: 20
 itemOrder: 54
 code: "archive-candy-live-06"
 image: /images/albums/isekaijoucho/candy-live.jpg
-contentStatus: stub
 ---
 
 ## Overview
 
-Chaining Intentoin appears on [CANDY LIVE](/en/albums/isekaijoucho/candy-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+"Chaining Intentoin" is a cover performed by [Isekaijoucho](/en/artists/vwp/isekaijoucho) during the streaming cover live "Candy Live" held on December 26, 2020, and included on the cover live album *[CANDY LIVE](/en/albums/isekaijoucho/candy-live)* (released March 31, 2021). This entry is version-specific to that live recording. Original song credits should follow official or original-release information; this page does not invent them.
 
 ## Lyrics
 

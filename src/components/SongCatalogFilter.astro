@@ -1,0 +1,658 @@
+---
+import { resolveLocaleCopy } from '../lib/i18n.mjs';
+import { SORT_MODES, YEAR_ALL, YEAR_UNKNOWN, ALBUM_ALL } from '../lib/catalogFilter.mjs';
+
+type CategoryOption = { slug: string; title: string };
+type Props = {
+  locale: string;
+  categories: CategoryOption[];
+  years: string[];
+  hasUnknownYear: boolean;
+  albums: string[];
+  totalCount: number;
+};
+
+const {
+  locale,
+  categories,
+  years,
+  hasUnknownYear,
+  albums,
+  totalCount,
+} = Astro.props as Props;
+
+const copy = resolveLocaleCopy({
+  zh: {
+    title: '高级筛选',
+    searchLabel: '关键词',
+    searchPlaceholder: '搜索标题 / 专辑 / 词曲作者…',
+    categoryLabel: '分类',
+    yearLabel: '发行年份',
+    albumLabel: '收录专辑',
+    sortLabel: '排序',
+    all: '全部',
+    unknownYear: '未知年份',
+    sortDefault: '默认顺序',
+    sortDateDesc: '发行日期 新→旧',
+    sortDateAsc: '发行日期 旧→新',
+    sortTitleAsc: '标题 A→Z',
+    countTemplate: '当前命中 {matched} / 共 {total} 首',
+    empty: '没有符合当前筛选条件的歌曲。',
+    clear: '清除筛选',
+  },
+  ja: {
+    title: '詳細フィルター',
+    searchLabel: 'キーワード',
+    searchPlaceholder: 'タイトル / アルバム / 作詞作曲を検索…',
+    categoryLabel: 'カテゴリ',
+    yearLabel: 'リリース年',
+    albumLabel: '収録アルバム',
+    sortLabel: '並び替え',
+    all: 'すべて',
+    unknownYear: '不明',
+    sortDefault: 'デフォルト順',
+    sortDateDesc: 'リリース日 新→旧',
+    sortDateAsc: 'リリース日 旧→新',
+    sortTitleAsc: 'タイトル A→Z',
+    countTemplate: '{matched} / {total} 曲',
+    empty: '条件に一致する楽曲がありません。',
+    clear: 'フィルターをクリア',
+  },
+  en: {
+    title: 'Advanced filter',
+    searchLabel: 'Keyword',
+    searchPlaceholder: 'Search title / album / writers…',
+    categoryLabel: 'Category',
+    yearLabel: 'Release year',
+    albumLabel: 'Album',
+    sortLabel: 'Sort',
+    all: 'All',
+    unknownYear: 'Unknown year',
+    sortDefault: 'Default order',
+    sortDateDesc: 'Release date New→Old',
+    sortDateAsc: 'Release date Old→New',
+    sortTitleAsc: 'Title A→Z',
+    countTemplate: '{matched} / {total} songs',
+    empty: 'No songs match the current filters.',
+    clear: 'Clear filters',
+  },
+}, locale);
+
+const sortLabels: Record<string, string> = {
+  default: copy.sortDefault,
+  'date-desc': copy.sortDateDesc,
+  'date-asc': copy.sortDateAsc,
+  'title-asc': copy.sortTitleAsc,
+};
+
+const serialized = {
+  total: totalCount,
+  countTemplate: copy.countTemplate,
+  empty: copy.empty,
+  clear: copy.clear,
+  categories: categories.map((item) => item.slug),
+  years,
+  hasUnknownYear,
+  albums,
+  yearAll: YEAR_ALL,
+  yearUnknown: YEAR_UNKNOWN,
+  albumAll: ALBUM_ALL,
+};
+---
+
+<section
+  class="song-catalog-filter mt-8 border border-white/10 bg-white/[0.02] p-4 sm:p-5"
+  data-song-catalog-filter
+  data-locale={locale}
+  data-filter-config={JSON.stringify(serialized)}
+  hidden
+>
+  <div class="flex flex-wrap items-baseline justify-between gap-3">
+    <h2 class="font-mono text-[9px] uppercase tracking-[0.24em] text-white/40">{copy.title}</h2>
+    <div class="flex items-center gap-4">
+      <p class="font-mono text-[10px] tracking-[0.12em] text-white/50" data-filter-count aria-live="polite">
+        {copy.countTemplate.replace('{matched}', String(totalCount)).replace('{total}', String(totalCount))}
+      </p>
+      <button
+        type="button"
+        class="font-mono text-[9px] uppercase tracking-[0.16em] text-white/40 transition-colors hover:text-white"
+        data-filter-clear
+      >
+        {copy.clear}
+      </button>
+    </div>
+  </div>
+
+  <div class="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+    <label class="song-catalog-filter__field">
+      <span class="song-catalog-filter__label">{copy.searchLabel}</span>
+      <input
+        type="search"
+        name="catalog-q"
+        class="song-catalog-filter__input"
+        data-filter-q
+        autocomplete="off"
+        spellcheck="false"
+        placeholder={copy.searchPlaceholder}
+      />
+    </label>
+
+    <fieldset class="song-catalog-filter__field song-catalog-filter__chips">
+      <legend class="song-catalog-filter__label">{copy.categoryLabel}</legend>
+      <div class="mt-2 flex flex-wrap gap-2">
+        {categories.map((category) => (
+          <label class="song-catalog-filter__chip">
+            <input type="checkbox" value={category.slug} data-filter-cat checked />
+            <span>{category.title}</span>
+          </label>
+        ))}
+      </div>
+    </fieldset>
+
+    <label class="song-catalog-filter__field">
+      <span class="song-catalog-filter__label">{copy.yearLabel}</span>
+      <select class="song-catalog-filter__input" data-filter-year>
+        <option value={YEAR_ALL}>{copy.all}</option>
+        {years.map((year) => (
+          <option value={year}>{year}</option>
+        ))}
+        {hasUnknownYear && (
+          <option value={YEAR_UNKNOWN}>{copy.unknownYear}</option>
+        )}
+      </select>
+    </label>
+
+    <div class="grid gap-4 sm:grid-cols-2 md:col-span-2 xl:col-span-1 xl:grid-cols-2">
+      <label class="song-catalog-filter__field">
+        <span class="song-catalog-filter__label">{copy.albumLabel}</span>
+        <select class="song-catalog-filter__input" data-filter-album>
+          <option value={ALBUM_ALL}>{copy.all}</option>
+          {albums.map((album) => (
+            <option value={album}>{album}</option>
+          ))}
+        </select>
+      </label>
+
+      <label class="song-catalog-filter__field">
+        <span class="song-catalog-filter__label">{copy.sortLabel}</span>
+        <select class="song-catalog-filter__input" data-filter-sort>
+          {SORT_MODES.map((mode) => (
+            <option value={mode}>{sortLabels[mode]}</option>
+          ))}
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <p class="song-catalog-filter__empty mt-4 font-mono text-[11px] tracking-wide text-white/45" data-filter-empty hidden>
+    {copy.empty}
+  </p>
+</section>
+
+<script>
+  import { foldCjkSearchText } from '../lib/cjkSearch.mjs';
+  import {
+    ALBUM_ALL,
+    YEAR_ALL,
+    YEAR_UNKNOWN,
+    buildSongFilterState,
+    createSongComparator,
+    decodeFilterHash,
+    encodeFilterHash,
+    matchesSongFilter,
+  } from '../lib/catalogFilter.mjs';
+
+  type FilterConfig = {
+    total: number;
+    countTemplate: string;
+    empty: string;
+    clear: string;
+    categories: string[];
+    years: string[];
+    hasUnknownYear: boolean;
+    albums: string[];
+    yearAll: string;
+    yearUnknown: string;
+    albumAll: string;
+  };
+
+  type SongRowData = {
+    element: HTMLElement;
+    searchText: string;
+    title: string;
+    category: string;
+    releaseDate: string;
+    year: string | null;
+    album: string;
+    defaultIndex: number;
+    section: HTMLElement;
+  };
+
+  function parseConfig(root: HTMLElement): FilterConfig {
+    try {
+      return JSON.parse(root.dataset.filterConfig || '{}') as FilterConfig;
+    } catch {
+      return {
+        total: 0,
+        countTemplate: '{matched} / {total}',
+        empty: '',
+        clear: 'Clear',
+        categories: [],
+        years: [],
+        hasUnknownYear: false,
+        albums: [],
+        yearAll: YEAR_ALL,
+        yearUnknown: YEAR_UNKNOWN,
+        albumAll: ALBUM_ALL,
+      };
+    }
+  }
+
+  function readDatasetString(element: HTMLElement, key: string): string {
+    return String(element.dataset[key] || '');
+  }
+
+  function collectSongRows(): SongRowData[] {
+    const rows: SongRowData[] = [];
+
+    document.querySelectorAll<HTMLElement>('[data-song-row]').forEach((element) => {
+      const section = element.closest<HTMLElement>('.catalog-category');
+      if (!section) return;
+
+      rows.push({
+        element,
+        searchText: readDatasetString(element, 'searchText'),
+        title: readDatasetString(element, 'title'),
+        category: readDatasetString(element, 'category'),
+        releaseDate: readDatasetString(element, 'releaseDate'),
+        year: element.dataset.year || null,
+        album: readDatasetString(element, 'album'),
+        defaultIndex: Number(element.dataset.defaultIndex || '0'),
+        section,
+      });
+    });
+
+    return rows;
+  }
+
+  function initialize(root: HTMLElement) {
+    if (!(root instanceof HTMLElement) || root.dataset.initialized === 'true') return;
+    root.dataset.initialized = 'true';
+    root.hidden = false;
+
+    const config = parseConfig(root);
+    const locale = root.dataset.locale || 'zh';
+    const qInput = root.querySelector<HTMLInputElement>('[data-filter-q]');
+    const yearSelect = root.querySelector<HTMLSelectElement>('[data-filter-year]');
+    const albumSelect = root.querySelector<HTMLSelectElement>('[data-filter-album]');
+    const sortSelect = root.querySelector<HTMLSelectElement>('[data-filter-sort]');
+    const catInputs = [...root.querySelectorAll<HTMLInputElement>('[data-filter-cat]')];
+    const countEl = root.querySelector<HTMLElement>('[data-filter-count]');
+    const emptyEl = root.querySelector<HTMLElement>('[data-filter-empty]');
+    const clearBtn = root.querySelector<HTMLButtonElement>('[data-filter-clear]');
+
+    if (!qInput || !yearSelect || !albumSelect || !sortSelect || !countEl || !emptyEl) return;
+
+    const rows = collectSongRows();
+    const jumpLinks = [...document.querySelectorAll<HTMLAnchorElement>('.category-jump__link')];
+    const sections = [...document.querySelectorAll<HTMLElement>('.catalog-category')];
+    const pageEmpty = document.querySelector<HTMLElement>('[data-catalog-filter-empty]');
+
+    let debounceTimer: ReturnType<typeof setTimeout> | undefined;
+    let state = {
+      q: '',
+      cat: null as string[] | null,
+      year: YEAR_ALL,
+      album: ALBUM_ALL,
+      sort: 'default',
+    };
+
+    function selectedCategories(): string[] {
+      return catInputs.filter((input) => input.checked).map((input) => input.value);
+    }
+
+    function syncControlsFromState() {
+      qInput!.value = state.q;
+      yearSelect!.value = state.year;
+      albumSelect!.value = state.album;
+      sortSelect!.value = state.sort;
+      const selected = new Set(state.cat && state.cat.length ? state.cat : config.categories);
+      catInputs.forEach((input) => {
+        input.checked = selected.has(input.value);
+      });
+    }
+
+    function applySort(list: SongRowData[], mode: string) {
+      const comparator = createSongComparator(mode, locale);
+      const bySection = new Map<HTMLElement, SongRowData[]>();
+
+      for (const row of list) {
+        const bucket = bySection.get(row.section) || [];
+        bucket.push(row);
+        bySection.set(row.section, bucket);
+      }
+
+      for (const bucket of bySection.values()) {
+        bucket.sort(comparator);
+        const fragment = document.createDocumentFragment();
+        for (const row of bucket) fragment.append(row.element);
+        const grid = bucket[0]?.section.querySelector('.song-row-grid');
+        grid?.append(fragment);
+      }
+    }
+
+    function writeHash() {
+      const cat = state.cat && state.cat.length && state.cat.length !== config.categories.length
+        ? state.cat
+        : null;
+      const next = encodeFilterHash({
+        q: state.q,
+        cat,
+        year: state.year === YEAR_ALL ? '' : state.year,
+        album: state.album === ALBUM_ALL ? '' : state.album,
+        sort: state.sort,
+      });
+      const url = `${window.location.pathname}${window.location.search}${next}`;
+      if (url !== window.location.href) {
+        history.replaceState(null, '', url);
+      }
+    }
+
+    function render() {
+      const filterState = buildSongFilterState({
+        q: state.q,
+        cat: state.cat,
+        year: state.year,
+        album: state.album,
+        categories: config.categories,
+        albums: config.albums,
+        years: config.years,
+        hasUnknown: config.hasUnknownYear,
+        queryFold: foldCjkSearchText,
+      });
+
+      let matched = 0;
+      const sectionCounts = new Map<HTMLElement, number>();
+
+      for (const row of rows) {
+        const visible = matchesSongFilter(row, filterState);
+        row.element.hidden = !visible;
+        row.element.toggleAttribute('data-filtered-out', !visible);
+        if (visible) {
+          matched += 1;
+          sectionCounts.set(row.section, (sectionCounts.get(row.section) || 0) + 1);
+        }
+      }
+
+      applySort(rows, state.sort);
+
+      for (const section of sections) {
+        const count = sectionCounts.get(section) || 0;
+        section.hidden = count === 0;
+      }
+
+      for (const link of jumpLinks) {
+        const href = link.getAttribute('href') || '';
+        const id = href.startsWith('#') ? href.slice(1) : '';
+        const section = id ? document.getElementById(id) : null;
+        const disabled = Boolean(!section || section.hidden);
+        link.toggleAttribute('data-filter-disabled', disabled);
+        link.classList.toggle('is-filter-disabled', disabled);
+        if (disabled) link.setAttribute('aria-disabled', 'true');
+        else link.removeAttribute('aria-disabled');
+      }
+
+      if (countEl) {
+        countEl.textContent = config.countTemplate
+          .replace('{matched}', String(matched))
+          .replace('{total}', String(config.total));
+      }
+
+      if (emptyEl) emptyEl.hidden = matched !== 0;
+      if (pageEmpty) pageEmpty.hidden = matched !== 0;
+
+      writeHash();
+    }
+
+    function scheduleRender() {
+      window.clearTimeout(debounceTimer);
+      debounceTimer = window.setTimeout(() => {
+        state = {
+          ...state,
+          q: qInput!.value,
+        };
+        render();
+      }, 150);
+    }
+
+    qInput.addEventListener('input', scheduleRender);
+
+    catInputs.forEach((input) => {
+      input.addEventListener('change', () => {
+        state = { ...state, cat: selectedCategories() };
+        render();
+      });
+    });
+
+    yearSelect.addEventListener('change', () => {
+      state = { ...state, year: yearSelect.value };
+      render();
+    });
+
+    albumSelect.addEventListener('change', () => {
+      state = { ...state, album: albumSelect.value };
+      render();
+    });
+
+    sortSelect.addEventListener('change', () => {
+      state = { ...state, sort: sortSelect.value };
+      render();
+    });
+
+    clearBtn?.addEventListener('click', () => {
+      state = {
+        q: '',
+        cat: null,
+        year: YEAR_ALL,
+        album: ALBUM_ALL,
+        sort: 'default',
+      };
+      syncControlsFromState();
+      render();
+      qInput.focus();
+    });
+
+    const restored = decodeFilterHash(window.location.hash, {
+      categories: config.categories,
+      albums: config.albums,
+      years: config.years,
+      hasUnknown: config.hasUnknownYear,
+    });
+
+    state = {
+      q: restored.q,
+      cat: restored.cat,
+      year: restored.year,
+      album: restored.album,
+      sort: restored.sort,
+    };
+    syncControlsFromState();
+    render();
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-song-catalog-filter]').forEach(initialize);
+</script>
+
+<style is:global>
+  .song-catalog-filter__label {
+    display: block;
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgb(255 255 255 / 0.4);
+  }
+
+  .song-catalog-filter__input {
+    margin-top: 0.55rem;
+    width: 100%;
+    border: 1px solid rgb(255 255 255 / 0.12);
+    background: rgb(255 255 255 / 0.03);
+    color: rgb(255 255 255 / 0.85);
+    padding: 0.55rem 0.7rem;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    outline: none;
+  }
+
+  /* Chromium paints the native select popup from the control's computed
+     background over a white canvas — keep select/option opaque in dark mode. */
+  select.song-catalog-filter__input {
+    color-scheme: dark;
+    appearance: none;
+    -webkit-appearance: none;
+    padding-right: 1.85rem;
+    background-color: #101117;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M1 1.5 6 6.5 11 1.5' stroke='rgba(255,255,255,0.55)' stroke-width='1.25' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem center;
+    background-size: 10px 7px;
+    cursor: pointer;
+  }
+
+  select.song-catalog-filter__input option {
+    color-scheme: dark;
+    background-color: #101117;
+    color: rgb(255 255 255 / 0.85);
+  }
+
+  select.song-catalog-filter__input option:checked {
+    background-color: color-mix(in srgb, var(--catalog-accent) 35%, #101117);
+    color: #fff;
+  }
+
+  .song-catalog-filter__input::placeholder {
+    color: rgb(255 255 255 / 0.28);
+  }
+
+  .song-catalog-filter__input:hover {
+    border-color: rgb(255 255 255 / 0.22);
+  }
+
+  .song-catalog-filter__input:focus-visible {
+    outline: 1px solid color-mix(in srgb, var(--catalog-accent) 72%, var(--theme-fg));
+    outline-offset: 2px;
+  }
+
+  .song-catalog-filter__chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    border: 1px solid rgb(255 255 255 / 0.12);
+    background: rgb(255 255 255 / 0.03);
+    padding: 0.35rem 0.65rem;
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    color: rgb(255 255 255 / 0.55);
+    cursor: pointer;
+    transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+  }
+
+  .song-catalog-filter__chip:has(input:checked) {
+    border-color: color-mix(in srgb, var(--catalog-accent) 55%, rgb(255 255 255 / 0.18));
+    background: color-mix(in srgb, var(--catalog-accent) 14%, transparent);
+    color: rgb(255 255 255 / 0.9);
+  }
+
+  .song-catalog-filter__chip:has(input:focus-visible) {
+    outline: 1px solid color-mix(in srgb, var(--catalog-accent) 72%, var(--theme-fg));
+    outline-offset: 2px;
+  }
+
+  .song-catalog-filter__chip input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .song-catalog-filter__chips {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    min-width: 0;
+  }
+
+  .category-jump__link.is-filter-disabled {
+    opacity: 0.28;
+    pointer-events: none;
+  }
+
+  [data-filtered-out] {
+    display: none !important;
+  }
+
+  :global(html[data-theme='light']) .song-catalog-filter {
+    border-color: rgb(var(--theme-fg-rgb) / 0.12);
+    background: rgb(var(--theme-fg-rgb) / 0.03);
+  }
+
+  :global(html[data-theme='light']) .song-catalog-filter__label,
+  :global(html[data-theme='light']) .song-catalog-filter__input,
+  :global(html[data-theme='light']) .song-catalog-filter__chip,
+  :global(html[data-theme='light']) .song-catalog-filter__empty,
+  :global(html[data-theme='light']) [data-filter-count],
+  :global(html[data-theme='light']) [data-filter-clear] {
+    color: rgb(var(--theme-fg-rgb) / 0.55);
+  }
+
+  :global(html[data-theme='light']) .song-catalog-filter__input {
+    border-color: rgb(var(--theme-fg-rgb) / 0.14);
+    background: rgb(var(--theme-fg-rgb) / 0.04);
+    color: rgb(var(--theme-fg-rgb) / 0.88);
+  }
+
+  :global(html[data-theme='light']) select.song-catalog-filter__input {
+    color-scheme: light;
+    background-color: var(--theme-panel-solid);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M1 1.5 6 6.5 11 1.5' stroke='rgba(0,0,0,0.45)' stroke-width='1.25' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem center;
+    background-size: 10px 7px;
+  }
+
+  :global(html[data-theme='light']) select.song-catalog-filter__input option {
+    color-scheme: light;
+    background-color: var(--theme-panel-solid);
+    color: rgb(var(--theme-fg-rgb) / 0.85);
+  }
+
+  :global(html[data-theme='light']) select.song-catalog-filter__input option:checked {
+    background-color: color-mix(in srgb, var(--catalog-accent) 22%, var(--theme-panel-solid));
+    color: rgb(var(--theme-fg-rgb) / 0.95);
+  }
+
+  :global(html[data-theme='light']) .song-catalog-filter__chip {
+    border-color: rgb(var(--theme-fg-rgb) / 0.14);
+    background: rgb(var(--theme-fg-rgb) / 0.04);
+    color: rgb(var(--theme-fg-rgb) / 0.6);
+  }
+
+  :global(html[data-theme='light']) .song-catalog-filter__chip:has(input:checked) {
+    border-color: color-mix(in srgb, var(--catalog-accent) 55%, rgb(var(--theme-fg-rgb) / 0.2));
+    background: color-mix(in srgb, var(--catalog-accent) 12%, transparent);
+    color: rgb(var(--theme-fg-rgb) / 0.9);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .song-catalog-filter__chip {
+      transition: none;
+    }
+  }
+</style>

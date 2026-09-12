@@ -14,12 +14,11 @@ categoryOrder: 60
 itemOrder: 19
 code: "apple-1688351159"
 image: /images/albums/kaf/kansoku.jpg
-contentStatus: stub
 ---
 
 ## 作品简介
 
-《The end of prologue(Instrumental)》是[花譜](/zh/artists/vwp/kaf)收录于《[観測](/zh/albums/kaf/kansoku)》的第 15 轨。
+《The end of prologue(Instrumental)》是[花譜](/zh/artists/vwp/kaf)首张专辑《[観測](/zh/albums/kaf/kansoku)》（観測α）的第 15 轨，发行日为 2019年9月11日。官方说明该专辑全曲的作词・作曲・编曲均由カンザキイオリ担当。本轨为纯音乐／伴奏作品。
 
 ## 试听
 

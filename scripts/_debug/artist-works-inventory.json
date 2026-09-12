@@ -1,0 +1,943 @@
+{
+  "artists": [
+    {
+      "rel": "creators/guiano/zh.md",
+      "category": "creators",
+      "id": "guiano",
+      "name": "Guiano",
+      "worksHeadings": [],
+      "albumCount": 9,
+      "songCount": 18,
+      "albums": [
+        "Album:A(2021-03-24)",
+        "EP:Hold Me Tight (yourself)(2025-05-28)",
+        "Album:imagine(2023-09-20)",
+        "Album:Love & Music -DISC1-(2020-03-13)",
+        "EP:Love & Music -DISC2-(2019-11-27)",
+        "EP:Save Me(2024-12-11)",
+        "Album:The Sky(2026-01-28)",
+        "EP:あの夏の記憶だけ(2020-08-12)",
+        "Album:花鳥風月(2023-04-29)"
+      ],
+      "songCategories": {
+        "originals": 18
+      }
+    },
+    {
+      "rel": "creators/hifi-p/zh.md",
+      "category": "creators",
+      "id": "hifi-p",
+      "name": "HiFi-P",
+      "worksHeadings": [],
+      "albumCount": 1,
+      "songCount": 0,
+      "albums": [
+        "Album:Pixels(2023-05-11)"
+      ],
+      "songCategories": {}
+    },
+    {
+      "rel": "creators/hiratayoshihisa/zh.md",
+      "category": "creators",
+      "id": "hiratayoshihisa",
+      "name": "平田義久",
+      "worksHeadings": [
+        "代表作品"
+      ],
+      "albumCount": 3,
+      "songCount": 9,
+      "albums": [
+        "Album:All in this summer LP(2018-06-13)",
+        "Album:Hit The Floor L.P.(2019-04-28)",
+        "Album:日本の夜(2025-07-09)"
+      ],
+      "songCategories": {
+        "originals": 9
+      }
+    },
+    {
+      "rel": "creators/hitogoto/zh.md",
+      "category": "creators",
+      "id": "hitogoto",
+      "name": "他人事",
+      "worksHeadings": [
+        "代表作品与相关条目"
+      ],
+      "albumCount": 0,
+      "songCount": 6,
+      "albums": [],
+      "songCategories": {
+        "originals": 6
+      }
+    },
+    {
+      "rel": "creators/kanzaki-iori/zh.md",
+      "category": "creators",
+      "id": "kanzaki-iori",
+      "name": "神崎一织",
+      "worksHeadings": [],
+      "albumCount": 7,
+      "songCount": 15,
+      "albums": [
+        "Live Album:Acoustic Mini Live [Hibi, ](2024-12-11)",
+        "EP:Boys and Girls(2023-07-21)",
+        "Album:Freely Captured(2024-12-25)",
+        "Album:That Summer Saturates(2025-08-12)",
+        "Album:不器用な男(2021-08-11)",
+        "EP:人生はコメディ(2021-08-11)",
+        "Album:白紙(2021-08-11)"
+      ],
+      "songCategories": {
+        "originals": 15
+      }
+    },
+    {
+      "rel": "creators/kashiimoimi/zh.md",
+      "category": "creators",
+      "id": "kashiimoimi",
+      "name": "香椎モイミ",
+      "worksHeadings": [
+        "代表作品"
+      ],
+      "albumCount": 2,
+      "songCount": 19,
+      "albums": [
+        "Album:偏愛(2023-02-08)",
+        "Album:渇愛(2020-08-03)"
+      ],
+      "songCategories": {
+        "originals": 19
+      }
+    },
+    {
+      "rel": "creators/kawasaki/zh.md",
+      "category": "creators",
+      "id": "kawasaki",
+      "name": "Kawasaki",
+      "worksHeadings": [
+        "代表作品"
+      ],
+      "albumCount": 0,
+      "songCount": 0,
+      "albums": [],
+      "songCategories": {}
+    },
+    {
+      "rel": "creators/kazuhide-oka/zh.md",
+      "category": "creators",
+      "id": "kazuhide-oka",
+      "name": "Kazuhide Oka",
+      "worksHeadings": [
+        "代表作品"
+      ],
+      "albumCount": 0,
+      "songCount": 0,
+      "albums": [],
+      "songCategories": {}
+    },
+    {
+      "rel": "creators/mimi/zh.md",
+      "category": "creators",
+      "id": "mimi",
+      "name": "MIMI",
+      "worksHeadings": [
+        "代表作品与相关条目",
+        "投稿规模与作品线索"
+      ],
+      "albumCount": 2,
+      "songCount": 103,
+      "albums": [
+        "Album:MIMI 10th Anniversary Album(2026-06-10)",
+        "Album:よるつむぎ(2023-12-20)"
+      ],
+      "songCategories": {
+        "originals": 103
+      }
+    },
+    {
+      "rel": "creators/palow/zh.md",
+      "category": "creators",
+      "id": "palow",
+      "name": "PALOW.",
+      "worksHeadings": [
+        "代表作品与相关条目"
+      ],
+      "albumCount": 0,
+      "songCount": 0,
+      "albums": [],
+      "songCategories": {}
+    },
+    {
+      "rel": "creators/piedpiper/zh.md",
+      "category": "creators",
+      "id": "piedpiper",
+      "name": "PIEDPIPER",
+      "worksHeadings": [
+        "代表作品与相关条目"
+      ],
+      "albumCount": 0,
+      "songCount": 0,
+      "albums": [],
+      "songCategories": {}
+    },
+    {
+      "rel": "creators/ren/zh.md",
+      "category": "creators",
+      "id": "ren",
+      "name": "Ren",
+      "worksHeadings": [
+        "代表作品",
+        "作品索引"
+      ],
+      "albumCount": 0,
+      "songCount": 29,
+      "albums": [],
+      "songCategories": {
+        "originals": 29
+      }
+    },
+    {
+      "rel": "creators/sooda/zh.md",
+      "category": "creators",
+      "id": "sooda",
+      "name": "Sooda",
+      "worksHeadings": [],
+      "albumCount": 0,
+      "songCount": 6,
+      "albums": [],
+      "songCategories": {
+        "originals": 6
+      }
+    },
+    {
+      "rel": "creators/toa/zh.md",
+      "category": "creators",
+      "id": "toa",
+      "name": "Toa",
+      "worksHeadings": [
+        "代表作品",
+        "作品索引"
+      ],
+      "albumCount": 2,
+      "songCount": 12,
+      "albums": [
+        "Album:MIKU TOA (feat. 初音ミク)(2021-09-22)",
+        "Album:Muguet/Tagetes (feat. Hatsune Miku, 鏡音レン & 鏡音リン)(2026-07-22)"
+      ],
+      "songCategories": {
+        "originals": 12
+      }
+    },
+    {
+      "rel": "creators/tokiwa/zh.md",
+      "category": "creators",
+      "id": "tokiwa",
+      "name": "tokiwa",
+      "worksHeadings": [
+        "代表作品与相关条目"
+      ],
+      "albumCount": 1,
+      "songCount": 31,
+      "albums": [
+        "EP:勿忘(2020-12-04)"
+      ],
+      "songCategories": {
+        "originals": 31
+      }
+    },
+    {
+      "rel": "creators/tsukisimasouki/zh.md",
+      "category": "creators",
+      "id": "tsukisimasouki",
+      "name": "Tsukishima Souki",
+      "worksHeadings": [
+        "代表作品"
+      ],
+      "albumCount": 0,
+      "songCount": 0,
+      "albums": [],
+      "songCategories": {}
+    },
+    {
+      "rel": "creators/yunosuke/zh.md",
+      "category": "creators",
+      "id": "yunosuke",
+      "name": "Yunosuke",
+      "worksHeadings": [
+        "代表作品",
+        "作品整理"
+      ],
+      "albumCount": 15,
+      "songCount": 34,
+      "albums": [
+        "Album:Back to Back(2020-08-09)",
+        "Album:Black or White(2017-11-11)",
+        "Album:Emotions(2020-03-02)",
+        "EP:Euphoria(2026-04-25)",
+        "Album:Fiction(2018-08-10)",
+        "EP:PaIII.Inception / PaIII.Sensation(2017-03-31)",
+        "Album:Pathos(2016-04-30)",
+        "Album:Proto(2020-11-01)",
+        "EP:The 13th Knot Ritual(2026-06-17)",
+        "EP:The first(2026-06-04)",
+        "Album:Tranquilizer(2023-04-29)",
+        "Album:Unique Antique(2015-07-12)",
+        "EP:Vanguard(2024-09-13)",
+        "Album:Void (feat. Hatsune Miku, 鏡音リン, Megpoid, KAFU & Kasane Teto)(2025-08-31)",
+        "EP:Wild Ocean(2026-06-26)"
+      ],
+      "songCategories": {
+        "originals": 34
+      }
+    },
+    {
+      "rel": "girls_revolution_project/garasumiya/zh.md",
+      "category": "girls_revolution_project",
+      "id": "garasumiya",
+      "name": "硝子宮",
+      "worksHeadings": [],
+      "albumCount": 0,
+      "songCount": 5,
+      "albums": [],
+      "songCategories": {
+        "originals": 5
+      }
+    },
+    {
+      "rel": "girls_revolution_project/hinageshi/zh.md",
+      "category": "girls_revolution_project",
+      "id": "hinageshi",
+      "name": "氷夏至",
+      "worksHeadings": [],
+      "albumCount": 0,
+      "songCount": 4,
+      "albums": [],
+      "songCategories": {
+        "originals": 4
+      }
+    },
+    {
+      "rel": "girls_revolution_project/kakyoin/zh.md",
+      "category": "girls_revolution_project",
+      "id": "kakyoin",
+      "name": "佳鏡院",
+      "worksHeadings": [
+        "作品概览"
+      ],
+      "albumCount": 0,
+      "songCount": 5,
+      "albums": [],
+      "songCategories": {
+        "originals": 5
+      }
+    },
+    {
+      "rel": "girls_revolution_project/mikoto/zh.md",
+      "category": "girls_revolution_project",
+      "id": "mikoto",
+      "name": "美古途",
+      "worksHeadings": [],
+      "albumCount": 0,
+      "songCount": 4,
+      "albums": [],
+      "songCategories": {
+        "originals": 4
+      }
+    },
+    {
+      "rel": "girls_revolution_project/orihime/zh.md",
+      "category": "girls_revolution_project",
+      "id": "orihime",
+      "name": "御莉姫",
+      "worksHeadings": [],
+      "albumCount": 0,
+      "songCount": 6,
+      "albums": [],
+      "songCategories": {
+        "originals": 6
+      }
+    },
+    {
+      "rel": "girls_revolution_project/sinseiki/zh.md",
+      "category": "girls_revolution_project",
+      "id": "sinseiki",
+      "name": "心世紀",
+      "worksHeadings": [
+        "代表作品"
+      ],
+      "albumCount": 1,
+      "songCount": 12,
+      "albums": [
+        "Album:改変 -心-(2025-10-29)"
+      ],
+      "songCategories": {
+        "originals": 12
+      }
+    },
+    {
+      "rel": "girls_revolution_project/tsumitobatsu/zh.md",
+      "category": "girls_revolution_project",
+      "id": "tsumitobatsu",
+      "name": "罪十罰",
+      "worksHeadings": [
+        "代表作品"
+      ],
+      "albumCount": 1,
+      "songCount": 12,
+      "albums": [
+        "Album:改変 -罪-(2025-10-29)"
+      ],
+      "songCategories": {
+        "originals": 12
+      }
+    },
+    {
+      "rel": "girls_revolution_project/yunagi/zh.md",
+      "category": "girls_revolution_project",
+      "id": "yunagi",
+      "name": "夕凪機",
+      "worksHeadings": [],
+      "albumCount": 0,
+      "songCount": 4,
+      "albums": [],
+      "songCategories": {
+        "originals": 4
+      }
+    },
+    {
+      "rel": "isotopes/coko/zh.md",
+      "category": "isotopes",
+      "id": "coko",
+      "name": "狐子",
+      "worksHeadings": [],
+      "albumCount": 0,
+      "songCount": 14,
+      "albums": [],
+      "songCategories": {
+        "originals": 14
+      }
+    },
+    {
+      "rel": "isotopes/haru/zh.md",
+      "category": "isotopes",
+      "id": "haru",
+      "name": "羽累",
+      "worksHeadings": [
+        "使用场景与作品生态"
+      ],
+      "albumCount": 4,
+      "songCount": 17,
+      "albums": [
+        "EP:ビビッド(2026-04-26)",
+        "Album:制定のオーバーラップ(2024-09-18)",
+        "Album:対峙のオーバーラップ(2024-10-16)",
+        "Album:結尾のオーバーラップ(2024-10-30)"
+      ],
+      "songCategories": {
+        "originals": 17
+      }
+    },
+    {
+      "rel": "isotopes/kafu/zh.md",
+      "category": "isotopes",
+      "id": "kafu",
+      "name": "可不",
+      "worksHeadings": [],
+      "albumCount": 1,
+      "songCount": 34,
+      "albums": [
+        "Album:Dead Delay Man(2023-10-04)"
+      ],
+      "songCategories": {
+        "originals": 34
+      }
+    },
+    {
+      "rel": "isotopes/rime/zh.md",
+      "category": "isotopes",
+      "id": "rime",
+      "name": "裏命",
+      "worksHeadings": [],
+      "albumCount": 4,
+      "songCount": 46,
+      "albums": [
+        "Album:5: I Wish I Could Figure Out Why I Can Dream(2025-01-11)",
+        "Album:Adore(2025-03-15)",
+        "EP:Newgame(2025-04-26)",
+        "Album:Only pitch-blackness can save you.(2025-01-16)"
+      ],
+      "songCategories": {
+        "originals": 46
+      }
+    },
+    {
+      "rel": "isotopes/sekai/zh.md",
+      "category": "isotopes",
+      "id": "sekai",
+      "name": "星界",
+      "worksHeadings": [],
+      "albumCount": 4,
+      "songCount": 29,
+      "albums": [
+        "Album:Three and Harf Years(2023-11-19)",
+        "Album:Tropicariddim!(2023-12-21)",
+        "EP:Yumemigokochi(2024-02-01)",
+        "Album:那由多のメタファー(2024-06-26)"
+      ],
+      "songCategories": {
+        "originals": 29
+      }
+    },
+    {
+      "rel": "solo/albemuth/zh.md",
+      "category": "solo",
+      "id": "albemuth",
+      "name": "Albemuth",
+      "worksHeadings": [
+        "组合音乐与作品"
+      ],
+      "albumCount": 3,
+      "songCount": 7,
+      "albums": [
+        "Album:ADAM (feat. 存流 & 明透)(2023-11-22)",
+        "Album:eve (feat. 存流 & 明透)(2023-11-22)",
+        "Album:Happy Merry Xmath (feat. 存流 & 明透)(2024-02-14)"
+      ],
+      "songCategories": {
+        "originals": 7
+      }
+    },
+    {
+      "rel": "solo/anmc/zh.md",
+      "category": "solo",
+      "id": "anmc",
+      "name": "ANMC",
+      "worksHeadings": [
+        "代表作品"
+      ],
+      "albumCount": 3,
+      "songCount": 10,
+      "albums": [
+        "Soundtrack:『ガールズメイドプディング』BGM Soundtrack(2025-04-10)",
+        "Soundtrack:『ムーンレスムーン』BGM Soundtrack(2024-12-06)",
+        "Album:ガールズメイドプディング - Solo Collection -(2025-05-22)"
+      ],
+      "songCategories": {
+        "originals": 10
+      }
+    },
+    {
+      "rel": "solo/aru/zh.md",
+      "category": "solo",
+      "id": "aru",
+      "name": "存流 / ARU",
+      "worksHeadings": [
+        "代表作品"
+      ],
+      "albumCount": 0,
+      "songCount": 3,
+      "albums": [],
+      "songCategories": {
+        "originals": 3
+      }
+    },
+    {
+      "rel": "solo/asu/zh.md",
+      "category": "solo",
+      "id": "asu",
+      "name": "明透 / ASU",
+      "worksHeadings": [
+        "代表作品与相关条目"
+      ],
+      "albumCount": 4,
+      "songCount": 22,
+      "albums": [
+        "Album:ASU(2023-04-19)",
+        "Album:ray of hope(2025-03-26)",
+        "Live Album:サンライトLIVE(2022-10-21)",
+        "Live Album:サンライトLIVE 2(2023-10-25)"
+      ],
+      "songCategories": {
+        "originals": 22
+      }
+    },
+    {
+      "rel": "solo/awairo/zh.md",
+      "category": "solo",
+      "id": "awairo",
+      "name": "淡色 / Awairo",
+      "worksHeadings": [
+        "代表作品与相关条目"
+      ],
+      "albumCount": 1,
+      "songCount": 7,
+      "albums": [
+        "Album:グラデーション(2025-03-14)"
+      ],
+      "songCategories": {
+        "originals": 7
+      }
+    },
+    {
+      "rel": "solo/bema/zh.md",
+      "category": "solo",
+      "id": "bema",
+      "name": "琶舞 / BEMA",
+      "worksHeadings": [],
+      "albumCount": 1,
+      "songCount": 6,
+      "albums": [
+        "Live Album:Dark Night LIVE (Cover Live)(2025-12-25)"
+      ],
+      "songCategories": {
+        "originals": 6
+      }
+    },
+    {
+      "rel": "solo/ciel/zh.md",
+      "category": "solo",
+      "id": "ciel",
+      "name": "CIEL",
+      "worksHeadings": [
+        "代表作品与相关条目"
+      ],
+      "albumCount": 5,
+      "songCount": 9,
+      "albums": [
+        "Live Album:STRAWBERRY LIVE(2023-02-15)",
+        "Live Album:STRAWBERRY LIVE 2(2023-10-04)",
+        "EP:再晴(2026-03-04)",
+        "Album:空想劇(2024-07-24)",
+        "EP:空想少女(2023-12-13)"
+      ],
+      "songCategories": {
+        "originals": 9
+      }
+    },
+    {
+      "rel": "solo/dustcell/zh.md",
+      "category": "solo",
+      "id": "dustcell",
+      "name": "DUSTCELL",
+      "worksHeadings": [
+        "音乐作品"
+      ],
+      "albumCount": 6,
+      "songCount": 22,
+      "albums": [
+        "Album:Hypnotize(2022-08-31)",
+        "Album:ROUND TRIP(2023-03-29)",
+        "Album:SUMMIT(2020-05-20)",
+        "Album:光(2024-07-24)",
+        "Album:碧い海(2025-12-10)",
+        "Album:自白(2021-10-20)"
+      ],
+      "songCategories": {
+        "originals": 22
+      }
+    },
+    {
+      "rel": "solo/empty-old-city/zh.md",
+      "category": "solo",
+      "id": "empty-old-city",
+      "name": "Empty old City",
+      "worksHeadings": [
+        "代表作品"
+      ],
+      "albumCount": 4,
+      "songCount": 27,
+      "albums": [
+        "Album:Blood in the Void(2025-03-12)",
+        "EP:From Noir into Clair(2025-10-15)",
+        "Album:Para-Scope(2021-10-20)",
+        "Album:Strings in Owl(2026-04-22)"
+      ],
+      "songCategories": {
+        "originals": 27
+      }
+    },
+    {
+      "rel": "solo/kaika/zh.md",
+      "category": "solo",
+      "id": "kaika",
+      "name": "Kaika",
+      "worksHeadings": [
+        "代表作品"
+      ],
+      "albumCount": 1,
+      "songCount": 6,
+      "albums": [
+        "Album:うまれるまえからきみをしってる(2025-03-26)"
+      ],
+      "songCategories": {
+        "originals": 6
+      }
+    },
+    {
+      "rel": "solo/kuusou/zh.md",
+      "category": "solo",
+      "id": "kuusou",
+      "name": "KUUSOU",
+      "worksHeadings": [
+        "代表作品"
+      ],
+      "albumCount": 1,
+      "songCount": 2,
+      "albums": [
+        "EP:CYAN(2026-06-17)"
+      ],
+      "songCategories": {
+        "originals": 2
+      }
+    },
+    {
+      "rel": "solo/loluet/zh.md",
+      "category": "solo",
+      "id": "loluet",
+      "name": "LOLUET",
+      "worksHeadings": [
+        "作品目录"
+      ],
+      "albumCount": 3,
+      "songCount": 6,
+      "albums": [
+        "Album:stream(2025-03-19)",
+        "EP:空想(2026-02-25)",
+        "EP:迷路(2026-02-25)"
+      ],
+      "songCategories": {
+        "originals": 6
+      }
+    },
+    {
+      "rel": "solo/musical-isotope/zh.md",
+      "category": "solo",
+      "id": "musical-isotope",
+      "name": "音楽的同位体",
+      "worksHeadings": [],
+      "albumCount": 1,
+      "songCount": 4,
+      "albums": [
+        "Album:あ行でかわいいミュージック(2025-04-24)"
+      ],
+      "songCategories": {
+        "originals": 4
+      }
+    },
+    {
+      "rel": "solo/teresa/zh.md",
+      "category": "solo",
+      "id": "teresa",
+      "name": "teresaAI",
+      "worksHeadings": [
+        "代表作品与相关条目"
+      ],
+      "albumCount": 0,
+      "songCount": 0,
+      "albums": [],
+      "songCategories": {}
+    },
+    {
+      "rel": "solo/valis/zh.md",
+      "category": "solo",
+      "id": "valis",
+      "name": "VALIS",
+      "worksHeadings": [
+        "代表作品与相关条目"
+      ],
+      "albumCount": 8,
+      "songCount": 28,
+      "albums": [
+        "Album:再現ガールフレンド(2024-03-05)",
+        "Album:悠久オーケストラ(2025-08-27)",
+        "Album:流転ファンタジア(深脊界 ver.)(2023-04-18)",
+        "Album:流転ファンタジア(覚醒 ver.)(2023-04-18)",
+        "Album:覚醒ヒストリア(裏世界 ver.)(2022-04-23)",
+        "Album:覚醒ヒストリア(覚醒 ver.)(2022-04-23)",
+        "Album:青春イマジネーション 瓦利斯飯店ver.(2024-08-28)",
+        "Album:青春イマジネーション 覚醒ver.(2024-08-28)"
+      ],
+      "songCategories": {
+        "originals": 28
+      }
+    },
+    {
+      "rel": "vwp/harusaruhi/zh.md",
+      "category": "vwp",
+      "id": "harusaruhi",
+      "name": "春猿火",
+      "worksHeadings": [
+        "代表作品与视听"
+      ],
+      "albumCount": 9,
+      "songCount": 169,
+      "albums": [
+        "现场专辑:CREAM PUFF LIVE(2021-03-17)",
+        "现场专辑:CREAM PUFF LIVE 2(2022-10-05)",
+        "现场专辑:CREAM PUFF LIVE 3(2023-10-18)",
+        "现场专辑:CREAM PUFF LIVE 4(2025-09-24)",
+        "录音室专辑:GLITCH STAGE(2026-06-24)",
+        "录音室专辑:RULE THE WORLD(2025-02-19)",
+        "录音室专辑:心眼(2021-10-06)",
+        "录音室专辑:心獣(2024-01-24)",
+        "录音室专辑:SPICE OF LIFE(2026-02-18)"
+      ],
+      "songCategories": {
+        "collaborations": 6,
+        "covers": 90,
+        "originals": 63,
+        "remixes": 10
+      }
+    },
+    {
+      "rel": "vwp/isekaijoucho/zh.md",
+      "category": "vwp",
+      "id": "isekaijoucho",
+      "name": "ヰ世界情緒",
+      "worksHeadings": [
+        "代表作品与相关条目",
+        "音乐作品与现场活动"
+      ],
+      "albumCount": 6,
+      "songCount": 142,
+      "albums": [
+        "现场专辑:CANDY LIVE(2021-03-31)",
+        "现场专辑:CANDY LIVE 2(2023-03-29)",
+        "现场专辑:CANDY LIVE 3(2025-12-10)",
+        "录音室专辑:色彩(2024-03-27)",
+        "录音室专辑:創生(2021-12-08)",
+        "迷你专辑／EP:Virtual Ties 〜ヰ世界情緒夢想曲〜 Theme Songs(2026-03-19)"
+      ],
+      "songCategories": {
+        "collaborations": 4,
+        "covers": 85,
+        "instrumentals": 4,
+        "originals": 48,
+        "remixes": 1
+      }
+    },
+    {
+      "rel": "vwp/kaf/zh.md",
+      "category": "vwp",
+      "id": "kaf",
+      "name": "花譜",
+      "worksHeadings": [
+        "代表作品与视听"
+      ],
+      "albumCount": 19,
+      "songCount": 263,
+      "albums": [
+        "EP:花と心臓(2019-05-15)",
+        "EP:GSA(2024-05-22)",
+        "录音室专辑:寓話(2024-12-25)",
+        "混音专辑:寓話γ(2025-07-16)",
+        "现场专辑:I SCREAM LIVE(2020-08-19)",
+        "现场专辑:I SCREAM LIVE2(2023-09-27)",
+        "现场专辑:I SCREAM LIVE3(2024-10-30)",
+        "现场专辑:I SCREAM LIVE4 - Cover Live Album -(2026-01-14)",
+        "录音室专辑:観測(2019-09-11)",
+        "混音专辑:観測γ(2019-12-25)",
+        "录音室专辑:狂想(2023-03-08)",
+        "混音专辑:狂想γ(2024-03-27)",
+        "EP:愛と花(2020-09-23)",
+        "录音室专辑:魔法(2020-11-25)",
+        "混音专辑:魔法γ(2021-12-22)",
+        "录音室专辑:深愛(2026-05-27)",
+        "合作专辑:組曲(2024-03-22)",
+        "EP:戸惑いテレパシー(2020-06-10)",
+        "EP:夜が降り止む前に(2019-06-28)"
+      ],
+      "songCategories": {
+        "collaborations": 7,
+        "covers": 93,
+        "instrumentals": 14,
+        "originals": 69,
+        "remixes": 62,
+        "suites": 18
+      }
+    },
+    {
+      "rel": "vwp/koko/zh.md",
+      "category": "vwp",
+      "id": "koko",
+      "name": "幸祜",
+      "worksHeadings": [
+        "代表作品与相关条目",
+        "音乐作品与现场活动"
+      ],
+      "albumCount": 4,
+      "songCount": 76,
+      "albums": [
+        "现场专辑:ARARE LIVE(2021-07-14)",
+        "录音室专辑:ClimBinge the Remix(2024-11-13)",
+        "录音室专辑:prayer(2022-02-26)",
+        "录音室专辑:prayer2(2025-04-23)"
+      ],
+      "songCategories": {
+        "covers": 23,
+        "instrumentals": 1,
+        "originals": 38,
+        "remixes": 14
+      }
+    },
+    {
+      "rel": "vwp/rim/zh.md",
+      "category": "vwp",
+      "id": "rim",
+      "name": "理芽",
+      "worksHeadings": [
+        "代表作品与视听"
+      ],
+      "albumCount": 8,
+      "songCount": 132,
+      "albums": [
+        "现场专辑:CHOCOLATE LIVE(2021-03-24)",
+        "现场专辑:CHOCOLATE LIVE2(2024-02-28)",
+        "现场专辑:CHOCOLATE LIVE3(2025-04-23)",
+        "现场专辑:CHOCOLATE LIVE4(2026-04-29)",
+        "录音室专辑:imagine(2023-09-20)",
+        "录音室专辑:NEW ROMANCER(2021-07-21)",
+        "录音室专辑:NEW ROMANCER2(2023-12-06)",
+        "现场专辑:Singularity Live(2022-11-23)"
+      ],
+      "songCategories": {
+        "collaborations": 3,
+        "covers": 82,
+        "originals": 46,
+        "remixes": 1
+      }
+    },
+    {
+      "rel": "vwp/vwp/zh.md",
+      "category": "vwp",
+      "id": "vwp",
+      "name": "V.W.P -Virtual Witch Phenomenon-",
+      "worksHeadings": [
+        "代表作品与相关条目"
+      ],
+      "albumCount": 10,
+      "songCount": 117,
+      "albums": [
+        "录音室专辑:覚醒(2024-03-27)",
+        "迷你专辑／EP:都市II from 神椿市建設中。VIRTUAL REALITY(2025-12-19)",
+        "迷你专辑／EP:都市 from 神椿市建設中。REGENERATE(2025-04-11)",
+        "录音室专辑:運命(2023-08-21)",
+        "录音室专辑:反転(2026-01-21)",
+        "录音室专辑:繁殖(2025-03-26)",
+        "迷你专辑／EP:歌姫(2025-07-30)",
+        "录音室专辑:仮想都市録(2025-11-19)",
+        "迷你专辑／EP:魔女ぷらす(2025-01-08)",
+        "迷你专辑／EP:魔女ぷらす2(2025-06-11)"
+      ],
+      "songCategories": {
+        "covers": 3,
+        "genealogy": 92,
+        "instrumentals": 2,
+        "projects": 17,
+        "remixes": 3
+      }
+    }
+  ],
+  "albumCount": 154,
+  "songCount": 1537
+}

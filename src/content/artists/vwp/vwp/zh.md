@@ -103,18 +103,151 @@ V.W.P 的歌曲体系分为三种类型：
 
 ## 代表作品与相关条目
 
-- 专辑：「[運命](/zh/albums/vwp/fate)」「[覚醒](/zh/albums/vwp/awakening)」「[反転](/zh/albums/vwp/inversion)」
-- 单曲：「同盟」「切札」「感情」「秘密」等
-- 系谱曲系列：定义各成员角色的核心叙事歌曲
-- 派生曲系列：成员两两组合的化学反应实验
+{{details::展开完整专辑与 EP 目录}}
 
-推荐搭配阅读五位成员的个人条目：
+**专辑与 EP**
 
-- [花譜 / KAF](/zh/artists/vwp/kaf)
-- [理芽 / Rim](/zh/artists/vwp/rim)
-- [春猿火 / HARUSARUHI](/zh/artists/vwp/harusaruhi)
-- [ヰ世界情緒 / ISEKAIJOUCHO](/zh/artists/vwp/isekaijoucho)
-- [幸祜 / KOKO](/zh/artists/vwp/koko)
+| 发行日期 | 类型 | 标题 |
+| --- | --- | --- |
+| 2023-08-21 | 录音室专辑 | [運命](</zh/albums/vwp/fate>) |
+| 2024-03-27 | 录音室专辑 | [覚醒](</zh/albums/vwp/awakening>) |
+| 2025-01-08 | 迷你专辑／EP | [魔女ぷらす](</zh/albums/vwp/witch-plus>) |
+| 2025-03-26 | 录音室专辑 | [繁殖](</zh/albums/vwp/proliferation>) |
+| 2025-04-11 | 迷你专辑／EP | [都市 from 神椿市建設中。REGENERATE](</zh/albums/vwp/city-regenerate>) |
+| 2025-06-11 | 迷你专辑／EP | [魔女ぷらす2](</zh/albums/vwp/witch-plus-2>) |
+| 2025-07-30 | 迷你专辑／EP | [歌姫](</zh/albums/vwp/songstress>) |
+| 2025-11-19 | 录音室专辑 | [仮想都市録](</zh/albums/vwp/virtual-city-record>) |
+| 2025-12-19 | 迷你专辑／EP | [都市II from 神椿市建設中。VIRTUAL REALITY](</zh/albums/vwp/city-ii-virtual-reality>) |
+| 2026-01-21 | 录音室专辑 | [反転](</zh/albums/vwp/inversion>) |
+
+{{/details}}
+
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2025-02-26 | [真偽 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/projects/真偽-magi-都市-from-神椿市建設中-REGENERATE>) |
+| 2025-04-11 | [反逆 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/projects/反逆-rebellion-都市-from-神椿市建設中-REGENERATE>) |
+| 2025-04-11 | [決意 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/projects/決意-determination-都市-from-神椿市建設中-REGENERATE>) |
+| 2025-04-11 | [流転 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/projects/流転-reincarnation-都市-from-神椿市建設中-REGENERATE>) |
+| 2025-04-11 | [神話 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/projects/神話-mythology-都市-from-神椿市建設中-REGENERATE>) |
+| 2025-07-04 | [歌姫 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/projects/歌姫-diva>) |
+| 2025-07-09 | [追憶 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/projects/追憶-chase-the-day>) |
+| 2025-08-14 | [シャングリラ](</zh/songs/vwp/projects/シャングリラ-shangri-la>) |
+| 2025-08-20 | [ひとえに壊れて](</zh/songs/vwp/projects/ひとえに壊れて-unraveling>) |
+| 2025-11-19 | [閃光だった](</zh/songs/vwp/projects/閃光だった-insight>) |
+| 2025-11-19 | [距離。](</zh/songs/vwp/projects/距離-distance>) |
+| 2025-11-19 | [BREATHE](</zh/songs/vwp/projects/breathe>) |
+| 2025-12-19 | [反逆 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/projects/反逆-rebellion-都市II-from-神椿市建設中-VIRTUAL-REALITY>) |
+| 2025-12-19 | [決意 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/projects/決意-determination-都市II-from-神椿市建設中-VIRTUAL-REALITY>) |
+| 2025-12-19 | [流転 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/projects/流転-reincarnation-都市II-from-神椿市建設中-VIRTUAL-REALITY>) |
+| 2025-12-19 | [真偽 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/projects/真偽-magi-都市II-from-神椿市建設中-VIRTUAL-REALITY>) |
+| 2025-12-19 | [神話 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/projects/神話-mythology-都市II-from-神椿市建設中-VIRTUAL-REALITY>) |
+
+{{/details}}
+
+{{details::展开系谱曲目录}}
+
+**系谱曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2021-06-16 | [電脳 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/電脳-cyberbrains-電脳>) |
+| 2021-07-21 | [魔的 (feat. KAF & V.W.P)](</zh/songs/vwp/genealogy/魔的-magical>) |
+| 2021-11-03 | [輪廻 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/輪廻-reincarnation-輪廻>) |
+| 2021-11-03 | [輪廻 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/輪廻-reincarnation-運命>) |
+| 2021-11-17 | [変身 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/変身-the-metamorphosis-変身>) |
+| 2022-01-21 | [言霊 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/言霊-spirit-言霊>) |
+| 2022-01-21 | [言霊 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/言霊-spirit-of-words-運命>) |
+| 2022-07-27 | [共鳴 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/共鳴-resonance-共鳴>) |
+| 2022-07-27 | [共鳴 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/共鳴-resonance-運命>) |
+| 2022-08-31 | [牢獄 (feat. Isekaijoucho & V.W.P)](</zh/songs/vwp/genealogy/牢獄-prison>) |
+| 2022-08-31 | [深淵 (feat. KAF & V.W.P)](</zh/songs/vwp/genealogy/深淵-shinen>) |
+| 2022-12-21 | [再会 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/再会-reunion-再会>) |
+| 2022-12-21 | [再会 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/再会-reunion-運命>) |
+| 2022-12-21 | [輪廻 acoustic ver. (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/輪廻-acoustic-ver-reincarnation-acoustic-ver>) |
+| 2023-04-01 | [古傷 (feat. Harusaruhi & V.W.P)](</zh/songs/vwp/genealogy/古傷-furukizu>) |
+| 2023-05-17 | [生存 (feat. Harusaruhi & V.W.P)](</zh/songs/vwp/genealogy/生存-seizon>) |
+| 2023-05-24 | [魔女(真) [feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO]](</zh/songs/vwp/genealogy/魔女(真)-the-witches-true-運命>) |
+| 2023-05-24 | [魔女(真) [feat. KAF, RIM, Isekaijoucho, Harusaruhi & KOKO]](</zh/songs/vwp/genealogy/魔女(真)-the-witches-true-魔女(真)>) |
+| 2023-06-19 | [定命 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/定命-destiny-運命>) |
+| 2023-06-19 | [定命 (feat. KAF, RIM, Isekaijoucho, Harusaruhi & KOKO)](</zh/songs/vwp/genealogy/定命-destiny-定命>) |
+| 2023-07-12 | [玩具 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/玩具-toy-運命>) |
+| 2023-07-12 | [玩具 (feat. KAF, RIM, Isekaijoucho, Harusaruhi & KOKO)](</zh/songs/vwp/genealogy/玩具-toy-玩具>) |
+| 2023-07-19 | [逆絶 (feat. KOKO & V.W.P)](</zh/songs/vwp/genealogy/逆絶-irreversible-繁殖>) |
+| 2023-07-19 | [逆絶 (feat. V.W.P & KOKO)](</zh/songs/vwp/genealogy/逆絶-gyakuzetsu-逆絶>) |
+| 2023-07-26 | [不的 (feat. Isekaijoucho & V.W.P)](</zh/songs/vwp/genealogy/不的-fearless-繁殖>) |
+| 2023-07-26 | [不的 (feat. ヰ世界情緒 & V.W.P)](</zh/songs/vwp/genealogy/不的-fearless-不的>) |
+| 2023-08-02 | [飛翔 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/飛翔-soaring-the-sky-飛翔>) |
+| 2023-08-16 | [祭壇 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/祭壇-altar>) |
+| 2023-08-21 | [仮想 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/仮想-virtuality>) |
+| 2023-08-21 | [変身 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/変身-the-metamorphosis-運命>) |
+| 2023-08-21 | [宣戦 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/宣戦-a-declaration-of-war>) |
+| 2023-08-21 | [秘密 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/秘密-secret>) |
+| 2023-08-21 | [開幕 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/開幕-opening>) |
+| 2023-08-21 | [電脳 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/電脳-cyber-brains-運命>) |
+| 2023-08-21 | [魔女 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/魔女-the-witches>) |
+| 2023-10-04 | [歯車 (feat. KAF & V.W.P)](</zh/songs/vwp/genealogy/歯車-haguruma>) |
+| 2023-11-15 | [残火 (feat. 花譜 & V.W.P)](</zh/songs/vwp/genealogy/残火-nokoribi-残火>) |
+| 2023-12-30 | [感情 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/感情-emotion-覚醒>) |
+| 2023-12-30 | [感情 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/感情-emotion-感情>) |
+| 2024-01-17 | [切札 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/切札-trump-card>) |
+| 2024-02-21 | [素的 (feat. 幸祜 & V.W.P)](</zh/songs/vwp/genealogy/素的-idyllic-素的>) |
+| 2024-03-06 | [同盟 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/同盟-union>) |
+| 2024-03-20 | [花束 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/花束-bouqet>) |
+| 2024-03-27 | [分裂 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/分裂-split>) |
+| 2024-03-27 | [天命 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/天命-fate>) |
+| 2024-03-27 | [未遂 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/未遂-underway>) |
+| 2024-03-27 | [明日 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/明日-tomorrow>) |
+| 2024-03-27 | [侵入 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/侵入-invasion>) |
+| 2024-03-27 | [飛翔 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/飛翔-soaring-the-sky-覚醒>) |
+| 2024-03-27 | [強気 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/強気-bullish>) |
+| 2024-03-27 | [欲望 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/欲望-desire>) |
+| 2024-03-27 | [暁光 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/暁光-dawn-light>) |
+| 2024-03-27 | [遊戯 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/遊戯-the-game>) |
+| 2024-03-27 | [顕在 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/顕在-actual>) |
+| 2024-05-01 | [私的 (feat. 春猿火 & V.W.P)](</zh/songs/vwp/genealogy/私的-poetical-私的>) |
+| 2024-11-20 | [夢魔 (feat. Harusaruhi & V.W.P)](</zh/songs/vwp/genealogy/夢魔-incubus-繁殖>) |
+| 2024-11-20 | [夢魔 (feat. V.W.P)](</zh/songs/vwp/genealogy/夢魔-incubus-夢魔>) |
+| 2024-11-22 | [天照ダウン feat. 春猿火](</zh/songs/vwp/genealogy/天照ダウン-amaterasu-down>) |
+| 2024-12-11 | [本懐 (feat. V.W.P)](</zh/songs/vwp/genealogy/本懐-crave-本懐>) |
+| 2025-01-08 | [千年奏者 (feat. 花譜 & Albemuth)](</zh/songs/vwp/genealogy/千年奏者-millennium-instrumentalist>) |
+| 2025-01-08 | [此処で咲かせて (feat. 幸祜 & CIEL)](</zh/songs/vwp/genealogy/此処で咲かせて-blooming-space>) |
+| 2025-01-08 | [異世界転調リクヱスト (feat. ヰ世界情緒 & VALIS)](</zh/songs/vwp/genealogy/異世界転調リクヱスト-otherworld-transposition-request>) |
+| 2025-01-08 | [絵画のように美しくいたかった (feat. 理芽 & Guiano)](</zh/songs/vwp/genealogy/絵画のように美しくいたかった-wished-to-be-beautiful-as-a-painting>) |
+| 2025-03-26 | [一服 (feat. KOKO & V.W.P)](</zh/songs/vwp/genealogy/一服-powder>) |
+| 2025-03-26 | [本懐 (feat. RIM & V.W.P)](</zh/songs/vwp/genealogy/本懐-crave-繁殖>) |
+| 2025-03-26 | [甘粒 (feat. RIM & V.W.P)](</zh/songs/vwp/genealogy/甘粒-sweet-raisins>) |
+| 2025-03-26 | [私的 (feat. Harusaruhi & V.W.P)](</zh/songs/vwp/genealogy/私的-poetical-繁殖>) |
+| 2025-03-26 | [刻印 (feat. KOKO & V.W.P)](</zh/songs/vwp/genealogy/刻印-kokuin>) |
+| 2025-03-26 | [泡沫 (feat. RIM & V.W.P)](</zh/songs/vwp/genealogy/泡沫-utakata>) |
+| 2025-03-26 | [残火 (feat. KAF & V.W.P)](</zh/songs/vwp/genealogy/残火-embers-繁殖>) |
+| 2025-03-26 | [素的 (feat. KOKO & V.W.P)](</zh/songs/vwp/genealogy/素的-idyllic-繁殖>) |
+| 2025-03-26 | [愛憎 (feat. Isekaijoucho & V.W.P)](</zh/songs/vwp/genealogy/愛憎-love-and-hate>) |
+| 2025-03-26 | [暗闇 (feat. Isekaijoucho & V.W.P)](</zh/songs/vwp/genealogy/暗闇-kurayami>) |
+| 2025-03-26 | [魔法 (feat. RIM & V.W.P)](</zh/songs/vwp/genealogy/魔法-mahou>) |
+| 2025-04-23 | [愛詩 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</zh/songs/vwp/genealogy/愛詩-aiuta-愛詩>) |
+| 2025-06-11 | [花十カクメイ前日譚](</zh/songs/vwp/genealogy/花十カクメイ前日譚-prequel-of-the-flower-and-revolution>) |
+| 2025-06-11 | [暴力的イグノランス](</zh/songs/vwp/genealogy/暴力的イグノランス-pretending-innocent>) |
+| 2025-06-11 | [機械の声 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/機械の声-the-voice-of-ai>) |
+| 2025-06-11 | [アイノ最適解](</zh/songs/vwp/genealogy/アイノ最適解-the-answer-of-love>) |
+| 2025-06-11 | [ぼくらの逃避行](</zh/songs/vwp/genealogy/ぼくらの逃避行-our-escape>) |
+| 2025-09-17 | [電脳 sinka ver. (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/電脳-sinka-ver-cyberbrains-sinka-ver>) |
+| 2025-10-01 | [魔女(真) sinka ver. (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/魔女(真)-sinka-ver-witch-true-sinka-ver>) |
+| 2025-10-30 | [終点 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/終点-terminal>) |
+| 2025-11-19 | [点灯 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/点灯-lights>) |
+| 2026-01-03 | [照射 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/照射-irradiation>) |
+| 2026-01-14 | [酸欠](</zh/songs/vwp/genealogy/酸欠-sanketsu>) |
+| 2026-01-17 | [幻界 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/幻界-the-phantom-world>) |
+| 2026-01-21 | [言葉 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/言葉-magic-of-words>) |
+| 2026-01-21 | [命海 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/命海-vitalis>) |
+| 2026-01-21 | [残響 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/残響-reverberation>) |
+| 2026-01-21 | [起動 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/起動-starting>) |
+| 2026-01-21 | [愛詩 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</zh/songs/vwp/genealogy/愛詩-aiuta-反転>) |
+
+{{/details}}
 
 ## 核心系谱曲与公演资料
 

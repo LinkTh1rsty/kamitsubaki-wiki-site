@@ -69,12 +69,26 @@ seo:
 
 ## 代表作品
 
-- デビュー曲：「透明流星ラプソディ」
+{{details::アルバムとEPの一覧を開く}}
 
-あわせて読むとつながりが見えやすい項目：
+**アルバム / EP**
 
-- [CIEL](/ja/artists/solo/ciel)
-- [Sooda](/ja/artists/creators/sooda)
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2026-06-17 | EP | [CYAN](</ja/albums/kuusou/CYAN-6775756685>) |
+
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2026-01-13 | [透明流星ラプソディ](</ja/songs/kuusou/originals/透明流星rapusodei>) |
+| 2026-04-14 | [クローゼット](</ja/songs/kuusou/originals/kuroozetto>) |
+
+{{/details}}
 
 ## 関連企画 / 関連設定
 

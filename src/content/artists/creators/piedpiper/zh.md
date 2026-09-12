@@ -18,7 +18,7 @@ featuredEntries:
     href: "/zh/artists/vwp/kaf"
     kind: "artist"
   - label: "V.W.P"
-    href: "/zh/artists/vwp"
+    href: "/zh/artists/vwp/vwp"
     kind: "artist"
 theme:
   name: "PIEDPIPER Command"

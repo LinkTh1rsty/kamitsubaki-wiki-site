@@ -975,6 +975,7 @@ html.has-js .reveal-up.active {
   top: calc(100% + 0.45rem);
   left: 50%;
   display: grid;
+  justify-items: stretch;
   min-width: 4.8rem;
   gap: 0.15rem;
   padding: 0.4rem;
@@ -1003,12 +1004,23 @@ html.has-js .reveal-up.active {
 }
 
 .site-nav__language-menu a {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 1.5rem;
   padding: 0.35rem 0.45rem;
   text-align: center;
   transition:
     background-color 180ms ease,
     color 180ms ease;
+}
+
+/* Cancel trailing letter-spacing so centered CJK labels look optically centered. */
+.site-nav__language-menu a::after {
+  content: '';
+  flex: 0 0 0;
+  margin-inline-start: -0.1em;
 }
 
 .site-nav__language-menu a:hover,
@@ -1363,6 +1375,24 @@ html.site-search-open body {
   font-size: 0.58rem;
   letter-spacing: 0.11em;
   color: rgb(var(--theme-fg-rgb) / 0.42);
+}
+
+.site-search__retry-btn {
+  margin-left: 0.75rem;
+  padding: 0.15rem 0.5rem;
+  background: transparent;
+  border: 1px solid rgb(var(--theme-fg-rgb) / 0.25);
+  color: rgb(var(--theme-fg-rgb) / 0.75);
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.site-search__retry-btn:hover {
+  border-color: rgb(var(--theme-fg-rgb) / 0.6);
+  color: rgb(var(--theme-fg-rgb) / 1);
 }
 
 .site-search__results {
@@ -2450,6 +2480,8 @@ html.site-search-open body {
 
 .my-lyric-box ruby {
   ruby-align: center;
+  /* 阻止 Chrome 128+ 的可换行 ruby 启发式在长注音 unit 内部断行 */
+  white-space: nowrap;
 }
 
 .my-lyric-box rt {
@@ -2532,16 +2564,26 @@ html[data-theme='light'] .my-lyric-box.sync-enabled {
   }
 
   /* WebKit text fill is inherited by ruby annotations, while the parent's
-     clipped background does not reliably paint into the separate rt box. */
+     clipped background does not reliably paint into the separate rt box.
+     Apply the same progressive fill on rt itself using the inherited
+     --karaoke-progress from .lrc-word. */
   .my-lyric-box.sync-enabled .lrc-word rt {
-    background: none;
-    color: rgb(var(--theme-fg-rgb) / 0.68);
-    -webkit-text-fill-color: currentColor;
+    background-image: linear-gradient(
+      90deg,
+      var(--wiki-accent-color) 0%,
+      var(--wiki-accent-color) var(--karaoke-progress, 0%),
+      rgb(var(--theme-fg-rgb) / 0.68) var(--karaoke-progress, 0%),
+      rgb(var(--theme-fg-rgb) / 0.68) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
     filter: none;
   }
 
   .my-lyric-box.sync-enabled .lrc-word:is(.is-active, .is-complete) rt {
-    color: var(--wiki-accent-color);
+    color: transparent;
   }
 }
 
@@ -2559,6 +2601,17 @@ html[data-theme='light'] .my-lyric-box.sync-enabled {
   }
 
   .my-lyric-box.sync-enabled .lrc-word:is(.is-active, .is-complete) {
+    color: var(--wiki-accent-color);
+  }
+
+  .my-lyric-box.sync-enabled .lrc-word rt {
+    background-image: none;
+    color: rgb(var(--theme-fg-rgb) / 0.68);
+    -webkit-text-fill-color: currentColor;
+  }
+
+  /* Sequential ruby fill from SyncLyricsPlayer: only completed units light up. */
+  .my-lyric-box.sync-enabled .lrc-word ruby.is-complete rt {
     color: var(--wiki-accent-color);
   }
 }
@@ -5221,6 +5274,47 @@ button.events-calendar__day:focus-visible {
 
 .ai-message--user .ai-message__content::before {
   display: none;
+}
+
+.ai-chat__messages {
+  transition: opacity 220ms ease;
+}
+
+.ai-chat.is-loading .ai-chat__messages {
+  opacity: 0.45;
+}
+
+.ai-chat.has-load-error .ai-chat__panel {
+  border-color: rgba(255, 68, 68, 0.45);
+}
+
+.ai-load-error {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  background: rgba(255, 68, 68, 0.08);
+  border: 1px solid rgba(255, 68, 68, 0.3);
+  color: #ff6666;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
+.ai-retry-btn {
+  padding: 0.2rem 0.6rem;
+  background: transparent;
+  border: 1px solid #ff6666;
+  color: #ff6666;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.ai-retry-btn:hover {
+  background: #ff4444;
+  border-color: #ff4444;
+  color: #fff;
 }
 
 @keyframes aiCursorBlink {

@@ -28,6 +28,71 @@ const traditionalLocales = Object.freeze(['zh-tw', 'zh-hk']);
 const placeholderPrefix = 'KAMITSUBAKIWIKIPROTECTEDTERM';
 const placeholderSuffix = 'TOKEN';
 const zhVariantShortcode = /^\{\{zh-variant(::(?:\\.|[^{}])*)\}\}/iu;
+const jaShortcode = /^\{\{ja::((?:\\.|[^{}])*)\}\}/iu;
+const rubyShortcode = /^\{\{ruby(::(?:\\.|[^{}])*)\}\}/iu;
+const kanaPattern = /[\u3040-\u30FF\uFF66-\uFF9F]/u;
+const cjkPattern = /[\u3400-\u4DBF\u4E00-\u9FFF々〆ヵヶ]/u;
+
+// Japanese shinjitai / kokuji that must not be treated as PRC simplified forms.
+// These code points are Japanese orthography and should stay unchanged in zh locales.
+const japaneseExclusiveChars = new Set([
+  '桜', '気', '帰', '竜', '渋', '薬', '仮', '応', '栄', '経', '転', '芸', '伝', '広', '圧',
+  '図', '実', '価', '蛍', '斉', '斎', '塩', '粋', '営', '両', '検', '戦', '拠', '択', '沢',
+  '匂', '畳', '弐', '廻', '顕', '験', '薫', '険', '絵', '乗', '呉', '喪', '帯', '癒', '縄',
+  '繊', '譲', '壌', '隠', '駅', '騒', '銭', '鍵', '塁', '塚', '埼', '稲', '粧', '働', '辻',
+  '峠', '込', '榊', '畑', '畠', '栃', '竃', '戯', '郷', '挙', '聴', '脳', '臓', '舎', '茎',
+  '観', '覚', '訳', '詰', '託', '讃', '豊', '輿', '軽', '弾', '涜', '弖', '彅',
+]);
+
+function isJapaneseSignalCharacter(character) {
+  return japaneseExclusiveChars.has(character);
+}
+
+function createPlaceholderFactory(restorations) {
+  return (value) => {
+    const placeholder = `${placeholderPrefix}${String(restorations.length).padStart(8, '0')}${placeholderSuffix}`;
+    restorations.push({ placeholder, value });
+    return placeholder;
+  };
+}
+
+function protectJapaneseSpans(text) {
+  const restorations = [];
+  const placeholder = createPlaceholderFactory(restorations);
+  let protectedText = '';
+  let index = 0;
+
+  while (index < text.length) {
+    const character = text[index];
+
+    if (kanaPattern.test(character) || cjkPattern.test(character)) {
+      let end = index;
+      let hasKana = false;
+      let hasExclusive = false;
+
+      while (end < text.length) {
+        const current = text[end];
+        if (kanaPattern.test(current)) hasKana = true;
+        else if (isJapaneseSignalCharacter(current)) hasExclusive = true;
+        else if (!cjkPattern.test(current)) break;
+        end += 1;
+      }
+
+      if (hasKana || hasExclusive) {
+        protectedText += placeholder(text.slice(index, end).normalize('NFC'));
+      } else {
+        protectedText += text.slice(index, end);
+      }
+      index = end;
+      continue;
+    }
+
+    protectedText += character;
+    index += 1;
+  }
+
+  return { protectedText, restorations };
+}
 
 function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/gu, '\\$&');
@@ -128,8 +193,10 @@ export function convertChineseText(text, locale, options = {}) {
   if (!isChineseContentLocale(locale) || typeof text !== 'string' || !text) return text;
 
   const normalized = text.normalize('NFC');
-  const { protectedText, restorations } = protectTerms(normalized, locale);
-  const simplified = normalizeToSimplified(protectedText);
+  const japanese = protectJapaneseSpans(normalized);
+  const terms = protectTerms(japanese.protectedText, locale);
+  const restorations = [...japanese.restorations, ...terms.restorations];
+  const simplified = normalizeToSimplified(terms.protectedText);
   const converted = regionalConverters[locale]?.(simplified) ?? simplified;
   const localized = options.ui ? applyUiOverrides(converted, locale) : converted;
   return restoreTerms(localized, restorations);
@@ -283,6 +350,52 @@ function readZhVariantShortcode(line, start, locale) {
   };
 }
 
+function readPreservedShortcode(line, start) {
+  if (line[start] !== '{') return null;
+
+  const slice = line.slice(start);
+  const jaMatch = slice.match(jaShortcode);
+  if (jaMatch && jaMatch[1]) {
+    return {
+      length: jaMatch[0].length,
+      value: jaMatch[1],
+    };
+  }
+
+  const rubyMatch = slice.match(rubyShortcode);
+  if (rubyMatch) {
+    const args = splitShortcodeArguments(rubyMatch[1]);
+    // Kana in the reading marks the base as Japanese original orthography.
+    if (args.some((arg) => kanaPattern.test(arg))) {
+      return {
+        length: rubyMatch[0].length,
+        value: rubyMatch[0],
+      };
+    }
+  }
+
+  return null;
+}
+
+function isJapaneseHtmlOpenTag(tag) {
+  return /\bclass\s*=\s*["'][^"']*\bjp-lyric\b/iu.test(tag)
+    || /\blang\s*=\s*["']ja(?:-JP)?["']/iu.test(tag);
+}
+
+function lineOpensJapaneseHtml(line) {
+  for (let index = 0; index < line.length;) {
+    if (line[index] !== '<') {
+      index += 1;
+      continue;
+    }
+    const endIndex = findHtmlTagEnd(line, index);
+    if (endIndex === -1) return false;
+    if (isJapaneseHtmlOpenTag(line.slice(index, endIndex + 1))) return true;
+    index = endIndex + 1;
+  }
+  return false;
+}
+
 function convertMarkdownLine(line, locale) {
   let output = '';
   let plainText = '';
@@ -332,12 +445,25 @@ function convertMarkdownLine(line, locale) {
       continue;
     }
 
+    const preserved = readPreservedShortcode(line, index);
+    if (preserved) {
+      flushPlainText();
+      output += preserved.value;
+      index += preserved.length;
+      continue;
+    }
+
     if (character === '<') {
       const endIndex = findHtmlTagEnd(line, index);
       if (endIndex !== -1) {
         flushPlainText();
-        output += rewriteLocalePrefix(line.slice(index, endIndex + 1), locale);
+        const tag = line.slice(index, endIndex + 1);
+        output += rewriteLocalePrefix(tag, locale);
         index = endIndex + 1;
+        if (isJapaneseHtmlOpenTag(tag)) {
+          output += line.slice(index);
+          return output;
+        }
         continue;
       }
     }
@@ -384,6 +510,7 @@ export function convertChineseMarkdown(markdown, locale) {
   const lines = markdown.split(/\r?\n/u);
   let fence;
   let mathBlock = false;
+  let japaneseHtmlBlock = false;
 
   const converted = lines.map((line) => {
     const fenceMatch = line.match(/^\s{0,3}(`{3,}|~{3,})(.*)$/u);
@@ -407,7 +534,20 @@ export function convertChineseMarkdown(markdown, locale) {
     }
 
     if (fence || mathBlock) return line;
-    return convertMarkdownLine(line, locale);
+
+    if (japaneseHtmlBlock) {
+      if (/<\/(?:div|span)>/iu.test(line)) japaneseHtmlBlock = false;
+      return line;
+    }
+
+    const convertedLine = convertMarkdownLine(line, locale);
+    if (lineOpensJapaneseHtml(line)) {
+      const openIndex = line.search(/jp-lyric|lang=["']ja/iu);
+      const afterOpen = openIndex === -1 ? line : line.slice(openIndex);
+      japaneseHtmlBlock = !afterOpen.includes('</div>') && !afterOpen.includes('</span>');
+    }
+
+    return convertedLine;
   });
 
   return converted

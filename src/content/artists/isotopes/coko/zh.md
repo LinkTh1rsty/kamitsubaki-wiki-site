@@ -101,6 +101,46 @@ seo:
 ## 项目关联
 
 狐子是音乐同位体项目的第四位公开成员。她与[幸祜 / KOKO](/zh/artists/vwp/koko)保持声源关联，并与其他同位体共同扩展了 KAMITSUBAKI 的创作者向歌声角色网络。
+## 代表作品与相关条目
+
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2015-10-11 | [スカイライン (feat. 狐子)](</zh/songs/coko/originals/sukairain-feat.-狐子>) |
+| 2015-10-11 | [てやんでいっ! (feat. 狐子)](</zh/songs/coko/originals/teyandei-feat.-狐子>) |
+| 2020-05-24 | [Ballerina (feat. Lil wick)](</zh/songs/coko/originals/ballerina-feat.-lil-wick>) |
+| 2021-06-19 | [KiLLer TuNe (feat. 狐子)](</zh/songs/coko/originals/killer-tune-feat.-狐子>) |
+| 2023-03-26 | [心の傘](</zh/songs/coko/originals/心no傘>) |
+| 2023-11-27 | [FAKE](</zh/songs/coko/originals/fake>) |
+| 2024-03-14 | [ギフテッド・ギミック](</zh/songs/coko/originals/gifuteddo-gimikku>) |
+| 2024-12-10 | [おぼえてろ](</zh/songs/coko/originals/oboetero>) |
+| 2024-12-10 | [キツネガミ](</zh/songs/coko/originals/kitsunegami>) |
+| 2025-02-28 | [NEVERMIND NEVERLAND](</zh/songs/coko/originals/nevermind-neverland>) |
+| 2025-11-14 | [消えてしまいたい夜に](</zh/songs/coko/originals/消eteshimaitai夜ni>) |
+| 2026-01-28 | [Sugar-High](</zh/songs/coko/originals/sugar-high>) |
+| 2026-04-29 | [神羅 (feat. ゆうゆ)](</zh/songs/coko/originals/神羅-feat.-yuuyu>) |
+| 2026-05-26 | [TOKYO MIDNIGHT FANTASY](</zh/songs/coko/originals/tokyo-midnight-fantasy>) |
+
+{{/details}}
+
+{{details::展开早期官方曲目}}
+
+| 日期 | 曲名 | 创作者 |
+| --- | --- | --- |
+| 2022年10月14日 | 《Hello World !》 | r-906 |
+| 2022年10月24日 | 《心中ならお嬢様部で》 | SLAVE.V-V-R |
+| 2022年10月28日 | 《きつねのうた》 | meiyo |
+| 2022年10月31日 | 《コンストラクト》 | メドミア |
+| 2022年11月4日 | 《ヴィクセン》 | 葵木ゴウ |
+| 2022年11月16日 | 《桔梗》 | ATOLS |
+| 2022年12月14日 | 《こんなはずじゃなかった》 | ピコン |
+| 2023年4月14日 | 《破壊少女》 | [香椎モイミ](/zh/artists/creators/kashiimoimi) |
+
+{{/details}}
+
 ## 外部链接
 
 - [音乐同位体 狐子 官方网站](https://coko.kamitsubaki.jp/)

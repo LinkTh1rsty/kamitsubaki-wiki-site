@@ -110,17 +110,73 @@ As a member of the Musical Isotope series, she is positioned as a "creative part
 
 ## Representative Works and Related Entries
 
-RIME has maintained high activity within the creator community, with notable works including:
+{{details::Expand full albums and EPs}}
 
-- "Carnivorous Plant" (Covered by RIME)
-- "Sweetness and Anarchy" / "[甘美な無法](/en/songs/rim/originals/甘美な無法-luscious-lawless)" (Covered by RIME)
-- Countless UGC-created original songs (such as "Mandarin" / "マンダリン" composed by R Sound Design, and "In Grief" / "傷心中" composed by Picon).
+**Albums & EPs**
 
-Recommended related entries:
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2025-01-11 | Album | [5: I Wish I Could Figure Out Why I Can Dream](</en/albums/rime/5-I-Wish-I-Could-Figure-Out-Why-I-Can-Dream-1787973321>) |
+| 2025-01-16 | Album | [Only pitch-blackness can save you.](</en/albums/rime/Only-pitch-blackness-can-save-you.-1786954898>) |
+| 2025-03-15 | Album | [Adore](</en/albums/rime/Adore-1798669277>) |
+| 2025-04-26 | EP | [Newgame](</en/albums/rime/Newgame-1808133126>) |
 
-- [RIM](/en/artists/vwp/rim)
-- [KAFU](/en/artists/isotopes/kafu)
-- [SEKAI](/en/artists/isotopes/sekai)
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2015-05-14 | [Doubt](</en/songs/rime/originals/doubt>) |
+| 2015-10-11 | [爆発反転 (feat. マサラダ)](</en/songs/rime/originals/爆発反転-feat.-masarada>) |
+| 2015-10-11 | [EXAM (feat. Rime)](</en/songs/rime/originals/exam-feat.-rime>) |
+| 2016-01-28 | [Everything](</en/songs/rime/originals/everything>) |
+| 2017-07-25 | [怪獣は猫が好きなんだ](</en/songs/rime/originals/怪獣ha猫ga好kinanda>) |
+| 2023-03-20 | [文明と呼吸](</en/songs/rime/originals/文明to呼吸>) |
+| 2023-04-13 | [PHNTM](</en/songs/rime/originals/phntm>) |
+| 2023-05-27 | [マタドール](</en/songs/rime/originals/matadooru>) |
+| 2023-06-02 | [けだもの](</en/songs/rime/originals/kedamono>) |
+| 2023-07-17 | [亜ガキ](</en/songs/rime/originals/亜gaki>) |
+| 2023-07-26 | [ヨークシャンデレラ](</en/songs/rime/originals/yookushanderera>) |
+| 2023-08-13 | [レセダ](</en/songs/rime/originals/reseda>) |
+| 2023-08-19 | [ぜんぶどうでも](</en/songs/rime/originals/zenbudoudemo>) |
+| 2023-09-06 | [半直線のうた](</en/songs/rime/originals/半直線nouta>) |
+| 2023-09-06 | [バンビ](</en/songs/rime/originals/banbi>) |
+| 2023-12-04 | [夜のワルツ](</en/songs/rime/originals/夜nowarutsu>) |
+| 2023-12-22 | [ぎゅっとして](</en/songs/rime/originals/gyuttoshite>) |
+| 2024-01-31 | [やさしい嘘](</en/songs/rime/originals/yasashii嘘>) |
+| 2024-06-25 | [真夜中はいつも一人](</en/songs/rime/originals/真夜中haitsumo一人>) |
+| 2024-08-25 | [美しいもの](</en/songs/rime/originals/美shiimono>) |
+| 2024-08-31 | [微睡む夏](</en/songs/rime/originals/微睡mu夏>) |
+| 2024-10-16 | [多角的に見た自己犠牲、または愛と呼ばれる行動についての考察](</en/songs/rime/originals/多角的ni見ta自己犠牲mataha愛to呼bareru行動nitsuiteno考察>) |
+| 2024-10-22 | [大作戦です。](</en/songs/rime/originals/大作戦desu>) |
+| 2024-10-29 | [否・アンチドート](</en/songs/rime/originals/否-anchidooto>) |
+| 2024-10-29 | [哀しき玩具](</en/songs/rime/originals/哀shiki玩具>) |
+| 2025-02-28 | [eden-404](</en/songs/rime/originals/eden-404>) |
+| 2025-03-22 | [赤い目に君は気づかない](</en/songs/rime/originals/赤i目ni君ha気zukanai>) |
+| 2025-05-01 | [アイニーク](</en/songs/rime/originals/ainiiku>) |
+| 2025-07-16 | [花に笑う](</en/songs/rime/originals/花ni笑u>) |
+| 2025-07-18 | [cheers](</en/songs/rime/originals/cheers>) |
+| 2025-07-23 | [秘めた想い (2025ver.)](</en/songs/rime/originals/秘meta想i-2025ver>) |
+| 2025-07-29 | [stargazer](</en/songs/rime/originals/stargazer>) |
+| 2025-08-04 | [溶けきれない背景](</en/songs/rime/originals/溶kekirenai背景>) |
+| 2025-09-07 | [降り立つ今日は、](</en/songs/rime/originals/降ri立tsu今日ha>) |
+| 2025-09-09 | [God Gacha](</en/songs/rime/originals/god-gacha>) |
+| 2025-09-16 | [ことばたらず](</en/songs/rime/originals/kotobatarazu>) |
+| 2025-10-10 | [君と息をしていたかった](</en/songs/rime/originals/君to息woshiteitakatta>) |
+| 2025-10-13 | [unnamed](</en/songs/rime/originals/unnamed>) |
+| 2025-11-08 | [White Noise](</en/songs/rime/originals/white-noise>) |
+| 2025-11-20 | [ごめんね、いい子じゃなくて](</en/songs/rime/originals/gomenneii子janakute>) |
+| 2025-11-21 | [LOSER](</en/songs/rime/originals/loser>) |
+| 2025-12-20 | [ラストエンプティサテライト](</en/songs/rime/originals/rasutoenputeisateraito>) |
+| 2026-01-28 | [幽玄の詩 (feat. ◈*ゆくえわっと)](</en/songs/rime/originals/幽玄no詩-feat.-◈-yukuewatto>) |
+| 2026-03-29 | [現象ラブ・ソング](</en/songs/rime/originals/現象rabu-songu>) |
+| 2026-04-15 | [TIMEOVER](</en/songs/rime/originals/timeover>) |
+| 2026-07-30 | [レイニー・レメディ (feat. Rime)](</en/songs/rime/originals/reinii-remedei-feat.-rime>) |
+
+{{/details}}
 
 ## Basic Profile and Character Setting
 

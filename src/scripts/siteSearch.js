@@ -2,8 +2,9 @@ import { normalizeSearchText, searchResultPath, searchSiteIndex } from '../lib/s
 import { getSearchShortcut } from '../lib/searchShortcut.mjs';
 
 const searchDialog = document.querySelector('[data-site-search]');
-let indexPromise;
 let queryNormalizerPromise;
+const indexPromises = new Map();
+const bodyIndexPromises = new Map();
 
 function updateSearchShortcutHints() {
   const shortcut = getSearchShortcut({
@@ -34,19 +35,37 @@ function resultCount(copy, count) {
 }
 
 function loadIndex(locale) {
-  if (!indexPromise) {
-    indexPromise = fetch(`/${locale}/search-index.json`, { headers: { Accept: 'application/json' } })
+  if (!indexPromises.has(locale)) {
+    const promise = fetch(`/${locale}/search-index.json`, { headers: { Accept: 'application/json' } })
       .then((response) => {
         if (!response.ok) throw new Error(`Search index returned ${response.status}`);
         return response.json();
       })
       .then((payload) => Array.isArray(payload?.entries) ? payload.entries : [])
       .catch((error) => {
-        indexPromise = undefined;
+        indexPromises.delete(locale);
         throw error;
       });
+    indexPromises.set(locale, promise);
   }
-  return indexPromise;
+  return indexPromises.get(locale);
+}
+
+function loadBodyIndex(locale) {
+  if (!bodyIndexPromises.has(locale)) {
+    const promise = fetch(`/${locale}/search-body.json`, { headers: { Accept: 'application/json' } })
+      .then((response) => {
+        if (!response.ok) throw new Error(`Search body returned ${response.status}`);
+        return response.json();
+      })
+      .then((payload) => (payload?.bodies && typeof payload.bodies === 'object' ? payload.bodies : {}))
+      .catch((error) => {
+        bodyIndexPromises.delete(locale);
+        throw error;
+      });
+    bodyIndexPromises.set(locale, promise);
+  }
+  return bodyIndexPromises.get(locale);
 }
 
 function loadQueryNormalizer() {
@@ -133,6 +152,7 @@ function initializeSearch(root) {
   const close = root.querySelector('[data-search-close]');
   const form = root.querySelector('[data-search-form]');
   let entries = [];
+  let bodyLoaded = false;
   let activeIndex = -1;
   let activeKind = '';
   let queryNormalizer = normalizeSearchText;
@@ -220,17 +240,48 @@ function initializeSearch(root) {
     }
     window.requestAnimationFrame(() => input.focus());
 
+    const locale = root.dataset.locale || 'zh';
+
     if (!entries.length) {
       status.textContent = copy.loading;
       try {
         [entries, queryNormalizer] = await Promise.all([
-          loadIndex(root.dataset.locale || 'zh'),
+          loadIndex(locale),
           loadQueryNormalizer(),
         ]);
         render();
       } catch {
-        status.textContent = copy.error;
+        status.innerHTML = '';
+        const msg = document.createElement('span');
+        msg.textContent = copy.error;
+        const retryBtn = document.createElement('button');
+        retryBtn.type = 'button';
+        retryBtn.className = 'site-search__retry-btn';
+        retryBtn.textContent = copy.retry || 'Retry';
+        retryBtn.addEventListener('click', () => {
+          openSearch();
+        });
+        status.append(msg, retryBtn);
+        return;
       }
+    }
+
+    if (!bodyLoaded) {
+      loadBodyIndex(locale)
+        .then((bodies) => {
+          bodyLoaded = true;
+          for (const entry of entries) {
+            if (entry.id && bodies[entry.id]) {
+              entry.searchKey = bodies[entry.id];
+            }
+          }
+          if (input.value.trim()) {
+            render();
+          }
+        })
+        .catch(() => {
+          // If body index fails to load, title/alias/heading/description search continues working
+        });
     }
   };
 

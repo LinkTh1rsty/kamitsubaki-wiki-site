@@ -120,13 +120,77 @@ That makes her an important hybrid figure inside Kamitsubaki: not only a singer,
 
 ## Representative Works and Related Entries
 
-- **Solo Singles and EPs**: e.g., *Genshiroku*
-- **V.W.P Paired Songs**: Darker unit tracks with strong story atmosphere
-- **Cross-Media Works**: Projects where her visual and vocal presence both matter (e.g., *Virtual Ties*)
+{{details::Expand full albums and EPs}}
 
-Related entries:
-- [SEKAI](/en/artists/isotopes/sekai)
-- [Kamitsubaki City Under Construction](/en/projects/arg/kamitsubaki-city)
+**Albums & EPs**
+
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2021-03-31 | Live album | [CANDY LIVE](</en/albums/isekaijoucho/candy-live>) |
+| 2021-12-08 | Studio album | [創生](</en/albums/isekaijoucho/sousei>) |
+| 2023-03-29 | Live album | [CANDY LIVE 2](</en/albums/isekaijoucho/candy-live-2>) |
+| 2024-03-27 | Studio album | [色彩](</en/albums/isekaijoucho/shikisai>) |
+| 2025-12-10 | Live album | [CANDY LIVE 3](</en/albums/isekaijoucho/candy-live-3>) |
+| 2026-03-19 | EP | [Virtual Ties 〜ヰ世界情緒夢想曲〜 Theme Songs](</en/albums/isekaijoucho/virtual-ties>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2020-12-30 | [物語りのワルツ](</en/songs/isekaijoucho/originals/物語りのワルツ-waltz-of-storyteller>) |
+| 2020-12-30 | [いろはに咲きて](</en/songs/isekaijoucho/originals/いろはに咲きて-irohani-sakite>) |
+| 2020-12-30 | [ジオラマドラマ](</en/songs/isekaijoucho/originals/ジオラマドラマ-georama-drama>) |
+| 2021-12-08 | [斯く美しき造花](</en/songs/isekaijoucho/originals/斯く美しき造花-such-a-beautiful-artificial-flower>) |
+| 2021-12-08 | [誰もいない絵で](</en/songs/isekaijoucho/originals/誰もいない絵で-dare-mo-inai-e-de>) |
+| 2021-12-08 | [霞がついてくる](</en/songs/isekaijoucho/originals/霞がついてくる-haze-comes>) |
+| 2021-12-08 | [ANEMONE](</en/songs/isekaijoucho/originals/anemone>) |
+| 2021-12-08 | [ARCADIA](</en/songs/isekaijoucho/originals/arcadia>) |
+| 2021-12-08 | [シリウスの心臓](</en/songs/isekaijoucho/originals/シリウスの心臓-siriuss-heart>) |
+| 2021-12-08 | [とめどなき白情](</en/songs/isekaijoucho/originals/とめどなき白情-tomedonaki-hakujou>) |
+| 2021-12-08 | [ハイドレンジア](</en/songs/isekaijoucho/originals/ハイドレンジア-hydrangea>) |
+| 2021-12-08 | [マボロシのまち](</en/songs/isekaijoucho/originals/マボロシのまち-phantom-town>) |
+| 2021-12-08 | [やさしいせかい](</en/songs/isekaijoucho/originals/やさしいせかい-the-gentle-world>) |
+| 2021-12-08 | [ヰ世界の宝石譚](</en/songs/isekaijoucho/originals/ヰ世界の宝石譚-isekai-no-housekitan>) |
+| 2022-08-17 | [パンドラコール](</en/songs/isekaijoucho/originals/パンドラコール-pandora-call>) |
+| 2022-11-09 | [かたちなきもの](</en/songs/isekaijoucho/originals/かたちなきもの-formless-thing>) |
+| 2022-12-07 | [暮れなずむ約束](</en/songs/isekaijoucho/originals/暮れなずむ約束-promise-in-the-twilight>) |
+| 2023-03-31 | [そして白に還る](</en/songs/isekaijoucho/originals/そして白に還る-and-return-to-white>) |
+| 2023-07-03 | [キミ消失セカイ](</en/songs/isekaijoucho/originals/キミ消失セカイ-kimi-syoushitu-sekai>) |
+| 2023-09-20 | [ラピスのお人形](</en/songs/isekaijoucho/originals/ラピスのお人形-a-doll-of-lapis>) |
+| 2024-03-27 | [此処に棘と死を](</en/songs/isekaijoucho/originals/此処に棘と死を-kokoni-togeto-shiwo>) |
+| 2024-03-27 | [描き続けた君へ](</en/songs/isekaijoucho/originals/描き続けた君へ-to-you-who-kept-on-drawing>) |
+| 2024-03-27 | [ANGELIC](</en/songs/isekaijoucho/originals/angelic>) |
+| 2024-03-27 | [ヴァーミリオン](</en/songs/isekaijoucho/originals/ヴァーミリオン-vermilion>) |
+| 2024-03-27 | [グレイスケイル](</en/songs/isekaijoucho/originals/グレイスケイル-grayscale>) |
+| 2024-03-27 | [ディメンション](</en/songs/isekaijoucho/originals/ディメンション-dimension>) |
+| 2024-03-27 | [ネリネの内緒事](</en/songs/isekaijoucho/originals/ネリネの内緒事-nerines-secrets>) |
+| 2024-06-12 | [new world](</en/songs/isekaijoucho/originals/new-world>) |
+| 2024-07-31 | [システムズコア](</en/songs/isekaijoucho/originals/システムズコア-systems-core>) |
+| 2024-07-31 | [セカイの箱庭 (feat. Isekaijoucho)](</en/songs/isekaijoucho/originals/セカイの箱庭-sekai-no-hakoniwa>) |
+| 2024-08-14 | [双生コンフリクト feat. ヰ世界情緒](</en/songs/isekaijoucho/originals/双生コンフリクト-twins-conflict>) |
+| 2024-09-11 | [眠りゆく芽吹き](</en/songs/isekaijoucho/originals/眠りゆく芽吹き-nemuriyuku-mebuki>) |
+| 2024-10-23 | [アンビバレント](</en/songs/isekaijoucho/originals/アンビバレント-ambivalent>) |
+| 2024-12-12 | [果てなきソラへ](</en/songs/isekaijoucho/originals/果てなきソラへ-to-the-endless-sky>) |
+| 2025-03-26 | [みらいのかたち](</en/songs/isekaijoucho/originals/みらいのかたち-mirainokatachi>) |
+| 2025-05-14 | [連れ出してトロイメライ](</en/songs/isekaijoucho/originals/連れ出してトロイメライ-traumerei>) |
+| 2025-06-25 | [ETERNAL](</en/songs/isekaijoucho/originals/eternal>) |
+| 2025-07-23 | [BREATHE](</en/songs/isekaijoucho/originals/breathe>) |
+| 2025-09-19 | [Silhouette (feat. ヰ世界情緒)](</en/songs/isekaijoucho/originals/silhouette>) |
+| 2025-12-24 | [クロマティック (feat. ヰ世界情緒)](</en/songs/isekaijoucho/originals/クロマティック-chromatik>) |
+| 2026-01-04 | [ラケナリアの夢](</en/songs/isekaijoucho/originals/ラケナリアの夢-the-dream-of-lachenalia>) |
+| 2026-01-11 | [まぼろしの行方](</en/songs/isekaijoucho/originals/まぼろしの行方-whereabouts-of-the-phantom>) |
+| 2026-03-19 | [コンパスローズ](</en/songs/isekaijoucho/originals/コンパスローズ-compass-rose>) |
+| 2026-03-19 | [また、ここから](</en/songs/isekaijoucho/originals/また-ここから-once-again-it-begins>) |
+| 2026-03-19 | [モシモノセカイ](</en/songs/isekaijoucho/originals/モシモノセカイ-a-world-of-what-ifs>) |
+| 2026-04-22 | [FARAWAY](</en/songs/isekaijoucho/originals/faraway>) |
+| 2026-05-02 | [永久に枯れぬ花](</en/songs/isekaijoucho/originals/永久に枯れぬ花-eikyuuni-karenu-hana>) |
+| 2026-05-02 | [永久に枯れぬ花](</en/songs/isekaijoucho/originals/永久に枯れぬ花-the-flower-that-never-wilt>) |
+
+{{/details}}
 
 ## Basic Profile and Character Setting
 

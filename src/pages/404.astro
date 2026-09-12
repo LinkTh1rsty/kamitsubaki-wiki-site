@@ -19,7 +19,9 @@ const title = '404 - Kamitsubaki Studio Fan Wiki';
     <header class="not-found-page__nav">
       <a class="not-found-page__brand" href="/zh/" data-home-link>KAMITSUBAKI FAN WIKI</a>
       <nav aria-label="Language switcher">
-        <a href="/zh/404" data-locale-link="zh">中</a>
+        <a href="/zh/404" data-locale-link="zh">简</a>
+        <a href="/zh-tw/404" data-locale-link="zh-tw">台</a>
+        <a href="/zh-hk/404" data-locale-link="zh-hk">港</a>
         <a href="/ja/404" data-locale-link="ja">日</a>
         <a href="/en/404" data-locale-link="en">EN</a>
       </nav>
@@ -58,6 +60,30 @@ const title = '404 - Kamitsubaki Studio Fan Wiki';
           interrupted: '信号中断',
           retry: '再次连接',
         },
+        'zh-tw': {
+          pageTitle: '404 / 觀測中斷 - 神椿觀測站',
+          title: '觀測記錄不存在',
+          description: '這段記錄已經脫離觀測範圍。先穿過失聯區，或者返回檔案庫。',
+          home: '返回首頁',
+          fullGame: '進入完整記憶迴廊',
+          distance: '距離',
+          best: '最高',
+          hint: '點擊 / 空格 / ↑ 跳躍',
+          interrupted: '訊號中斷',
+          retry: '再次連接',
+        },
+        'zh-hk': {
+          pageTitle: '404 / 觀測中斷 - 神椿觀測站',
+          title: '觀測記錄不存在',
+          description: '這段記錄已經脫離觀測範圍。先穿過失聯區，或者返回檔案庫。',
+          home: '返回首頁',
+          fullGame: '進入完整記憶迴廊',
+          distance: '距離',
+          best: '最高',
+          hint: '點擊 / 空格 / ↑ 跳躍',
+          interrupted: '信號中斷',
+          retry: '再次連接',
+        },
         ja: {
           pageTitle: '404 / 観測中断 - 神椿観測所',
           title: '観測記録が見つかりません',
@@ -83,11 +109,18 @@ const title = '404 - Kamitsubaki Studio Fan Wiki';
           retry: 'Reconnect',
         },
       };
-      const matchedLocale = window.location.pathname.match(/^\/(zh|ja|en)(?:\/|$)/)?.[1];
+      const languageTags = {
+        zh: 'zh-Hans-CN',
+        'zh-tw': 'zh-Hant-TW',
+        'zh-hk': 'zh-Hant-HK',
+        ja: 'ja-JP',
+        en: 'en',
+      };
+      const matchedLocale = window.location.pathname.match(/^\/(zh-tw|zh-hk|zh|ja|en)(?:\/|$)/)?.[1];
       const locale = matchedLocale && copy[matchedLocale] ? matchedLocale : 'zh';
       const localized = copy[locale];
 
-      document.documentElement.lang = locale;
+      document.documentElement.lang = languageTags[locale] || locale;
       document.title = localized.pageTitle;
       document.querySelectorAll('[data-copy]').forEach((node) => {
         const key = node.getAttribute('data-copy');

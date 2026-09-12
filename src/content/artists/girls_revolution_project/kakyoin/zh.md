@@ -72,43 +72,20 @@ seo:
 
 ## 作品概览
 
-### 原创曲
+{{details::展开完整单曲目录}}
 
-- 此分类包含佳镜院单人所演唱之原创曲目。
+**单曲**
 
-|    投稿时间     |                 歌曲名称                 |    作词     |    作曲     |                                                                                                                                                                                                     试听                                                                                                                                                                                                      |
-| :---------: | :----------------------------------: | :-------: | :-------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 2024年10月23日 |                 夢の揺籠                 | Wiz_nicc  | Wiz_nicc  |   @[bilibili](BV13ZZNYQEQx) @[netease](2637083551)  |
-| 2024年12月11日 |                [宇宙逃避行](/zh/songs/kakyoin/originals/uchu-touhikou)                 |   [MIMI](/zh/artists/creators/mimi)    |   MIMI    | @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=114517451215757&bvid=BV1cUE4zgEVF&cid=29991305386&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2653100592&auto=0&height=66) |
-| 2025年3月19日  | <ruby>[キリガサガリキ](/zh/songs/kakyoin/originals/kirigasa-gariki)<rt>kirigasagariki</rt></ruby> | Purukichi | Purukichi |   @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=115049322584049&bvid=BV19fY4zYEaP&cid=31779784208&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2683803668&auto=0&height=66)   |
-| 2025年11月12日 |                 [月へゆく](/zh/songs/kakyoin/originals/tsuki-e-yuku)                 |   tama    |   tama    |   @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=115576294936811&bvid=BV1cByJBNEUm&cid=34113520708&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2754194786&auto=0&height=66)   |
+| 发行日期 | 标题 |
+| --- | --- |
+| 2024-10-23 | [夢の揺籠](</zh/songs/kakyoin/originals/yume-no-yurikago>) |
+| 2024-12-11 | [宇宙逃避行](</zh/songs/kakyoin/originals/uchu-touhikou>) |
+| 2025-02-12 | [シネマティック](</zh/songs/kakyoin/originals/cinematic>) |
+| 2025-03-19 | [キリガサガリキ](</zh/songs/kakyoin/originals/kirigasa-gariki>) |
+| 2025-11-12 | [月へゆく](</zh/songs/kakyoin/originals/tsuki-e-yuku>) |
 
-### 合作与团体曲目
+{{/details}}
 
-- 该类别包含佳镜院参与演唱之曲目，包含合唱曲目、心世纪团曲与少女革命计划团曲等。
-
-#### 合唱曲目
-
-|    投稿时间    |              歌曲名称               |    演唱者     |  作词   |  作曲   |                                                                                                                                                                                                   试听                                                                                                                                                                                                    |
-| :--------: | :-----------------------------: | :--------: | :---: | :---: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 2025年2月12日 | <ruby>[シネマティック](/zh/songs/kakyoin/originals/cinematic)<rt>Cinematic</rt></ruby> | 佳镜院<br>冰夏至 | 櫻井健太郎 | 櫻井健太郎 | @[bilibili](https://player.bilibili.com/player.html?isOutside=true&aid=114815800445626&bvid=BV12KGEz5Er2&cid=30913922329&p=1) @[netease](https://music.163.com/outchain/player?type=2&id=2672413957&auto=0&height=66) |
-
-#### 心世纪曲目
-
-|    投稿时间    |                           歌曲名称                           |    作词     |      作曲       |                                                                                       试听                                                                                       |
-| :--------: | :------------------------------------------------------: | :-------: | :-----------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 2024年8月9日 | <ruby>[フェイクナイト・シンデレラ](/zh/songs/sinseiki/originals/fake-night-cinderella)<rt>Fake Night Cinderella</rt></ruby> |   矢野達也    |     矢野達也      | @[netease](https://music.163.com/outchain/player?type=2&id=2749848111&auto=0&height=66) |
-| 2024年9月18日 |         <ruby>[パーフェクション](/zh/songs/sinseiki/originals/perfection)<rt>Perfection</rt></ruby>         |   水野あつ    | HIDEYA KOJIMA | @[netease](https://music.163.com/outchain/player?type=2&id=2749849270&auto=0&height=66) |
-| 2025年1月22日 |                        [Ephemeral](/zh/songs/sinseiki/originals/ephemeral)                         |  100回嘔吐   |    100回嘔吐     | @[netease](https://music.163.com/outchain/player?type=2&id=2749849268&auto=0&height=66) |
-| 2025年2月26日 |            <ruby>[ココロト](/zh/songs/sinseiki/originals/kokoroto)<rt>Kokoroto</rt></ruby>            |    とあ     |      とあ       | @[netease](https://music.163.com/outchain/player?type=2&id=2749849271&auto=0&height=66) |
-| 2025年4月2日 |                           [うそ鳴き](/zh/songs/sinseiki/originals/usonaki)                           |    ぽん     | HIDEYA KOJIMA | @[netease](https://music.163.com/outchain/player?type=2&id=2749848112&auto=0&height=66) |
-| 2025年5月21日 |                         [いずれ僕は溶けて](/zh/songs/sinseiki/originals/izure-boku-wa-tokete)                         | Purukichi |   Purukichi   | @[netease](https://music.163.com/outchain/player?type=2&id=2749849272&auto=0&height=66) |
-| 2025年5月21日 |  <ruby>[ミリオン・コンプレクシティ](/zh/songs/sinseiki/originals/million-complexity)<rt>Million Complexity</rt></ruby>   |   矢野達也    |     矢野達也      | @[netease](https://music.163.com/outchain/player?type=2&id=2749849274&auto=0&height=66) |
-| 2025年10月29日 |         <ruby>[ロストオービット](/zh/songs/sinseiki/originals/lost-orbit)<rt>Lost Orbit</rt></ruby>         | shikisai  |   shikisai    | @[netease](https://music.163.com/outchain/player?type=2&id=2749849269&auto=0&height=66) |
-| 2025年10月29日 |           <ruby>[コントラスト](/zh/songs/sinseiki/originals/contrast)<rt>Contrast</rt></ruby>           |   矢野達也    |     矢野達也      | @[netease](https://music.163.com/outchain/player?type=2&id=2749849273&auto=0&height=66) |
-| 2025年10月29日 |                        [FantastiQ](/zh/songs/sinseiki/originals/fantasti-q)                         |    ぽん     | HIDEYA KOJIMA | @[netease](https://music.163.com/outchain/player?type=2&id=2749848113&auto=0&height=66) |
-| 2025年10月29日 |                          改変 -心-                          |    たなか    |   たなか、LLLL    | @[netease](https://music.163.com/outchain/player?type=2&id=2749849275&auto=0&height=66) |
-| 2026年2月20日 |                           [雑几帖](/zh/songs/sinseiki/originals/zatsukichou)                            |   矢野達也    |     矢野達也      | @[netease](https://music.163.com/outchain/player?type=2&id=3339843367&auto=0&height=66) |
 ## 外部链接
 
 - [神椿工作室 官方艺人页](https://kamitsubaki.jp/artist/sinseiki/)

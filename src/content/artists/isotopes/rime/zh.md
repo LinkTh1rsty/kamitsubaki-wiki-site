@@ -100,6 +100,91 @@ seo:
 ## 项目关联
 
 裏命是音乐同位体项目的第三位公开成员，也是 [理芽 / RIM](/zh/artists/vwp/rim) 声线进入合成声创作生态的入口。与其余同位体共同以 V.I.P 名义参与周年虚拟演出及 KAMITSUBAKI FES 舞台。
+## 代表作品与相关条目
+
+{{details::展开完整专辑与 EP 目录}}
+
+**专辑与 EP**
+
+| 发行日期 | 类型 | 标题 |
+| --- | --- | --- |
+| 2025-01-11 | Album | [5: I Wish I Could Figure Out Why I Can Dream](</zh/albums/rime/5-I-Wish-I-Could-Figure-Out-Why-I-Can-Dream-1787973321>) |
+| 2025-01-16 | Album | [Only pitch-blackness can save you.](</zh/albums/rime/Only-pitch-blackness-can-save-you.-1786954898>) |
+| 2025-03-15 | Album | [Adore](</zh/albums/rime/Adore-1798669277>) |
+| 2025-04-26 | EP | [Newgame](</zh/albums/rime/Newgame-1808133126>) |
+
+{{/details}}
+
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2015-05-14 | [Doubt](</zh/songs/rime/originals/doubt>) |
+| 2015-10-11 | [爆発反転 (feat. マサラダ)](</zh/songs/rime/originals/爆発反転-feat.-masarada>) |
+| 2015-10-11 | [EXAM (feat. Rime)](</zh/songs/rime/originals/exam-feat.-rime>) |
+| 2016-01-28 | [Everything](</zh/songs/rime/originals/everything>) |
+| 2017-07-25 | [怪獣は猫が好きなんだ](</zh/songs/rime/originals/怪獣ha猫ga好kinanda>) |
+| 2023-03-20 | [文明と呼吸](</zh/songs/rime/originals/文明to呼吸>) |
+| 2023-04-13 | [PHNTM](</zh/songs/rime/originals/phntm>) |
+| 2023-05-27 | [マタドール](</zh/songs/rime/originals/matadooru>) |
+| 2023-06-02 | [けだもの](</zh/songs/rime/originals/kedamono>) |
+| 2023-07-17 | [亜ガキ](</zh/songs/rime/originals/亜gaki>) |
+| 2023-07-26 | [ヨークシャンデレラ](</zh/songs/rime/originals/yookushanderera>) |
+| 2023-08-13 | [レセダ](</zh/songs/rime/originals/reseda>) |
+| 2023-08-19 | [ぜんぶどうでも](</zh/songs/rime/originals/zenbudoudemo>) |
+| 2023-09-06 | [半直線のうた](</zh/songs/rime/originals/半直線nouta>) |
+| 2023-09-06 | [バンビ](</zh/songs/rime/originals/banbi>) |
+| 2023-12-04 | [夜のワルツ](</zh/songs/rime/originals/夜nowarutsu>) |
+| 2023-12-22 | [ぎゅっとして](</zh/songs/rime/originals/gyuttoshite>) |
+| 2024-01-31 | [やさしい嘘](</zh/songs/rime/originals/yasashii嘘>) |
+| 2024-06-25 | [真夜中はいつも一人](</zh/songs/rime/originals/真夜中haitsumo一人>) |
+| 2024-08-25 | [美しいもの](</zh/songs/rime/originals/美shiimono>) |
+| 2024-08-31 | [微睡む夏](</zh/songs/rime/originals/微睡mu夏>) |
+| 2024-10-16 | [多角的に見た自己犠牲、または愛と呼ばれる行動についての考察](</zh/songs/rime/originals/多角的ni見ta自己犠牲mataha愛to呼bareru行動nitsuiteno考察>) |
+| 2024-10-22 | [大作戦です。](</zh/songs/rime/originals/大作戦desu>) |
+| 2024-10-29 | [否・アンチドート](</zh/songs/rime/originals/否-anchidooto>) |
+| 2024-10-29 | [哀しき玩具](</zh/songs/rime/originals/哀shiki玩具>) |
+| 2025-02-28 | [eden-404](</zh/songs/rime/originals/eden-404>) |
+| 2025-03-22 | [赤い目に君は気づかない](</zh/songs/rime/originals/赤i目ni君ha気zukanai>) |
+| 2025-05-01 | [アイニーク](</zh/songs/rime/originals/ainiiku>) |
+| 2025-07-16 | [花に笑う](</zh/songs/rime/originals/花ni笑u>) |
+| 2025-07-18 | [cheers](</zh/songs/rime/originals/cheers>) |
+| 2025-07-23 | [秘めた想い (2025ver.)](</zh/songs/rime/originals/秘meta想i-2025ver>) |
+| 2025-07-29 | [stargazer](</zh/songs/rime/originals/stargazer>) |
+| 2025-08-04 | [溶けきれない背景](</zh/songs/rime/originals/溶kekirenai背景>) |
+| 2025-09-07 | [降り立つ今日は、](</zh/songs/rime/originals/降ri立tsu今日ha>) |
+| 2025-09-09 | [God Gacha](</zh/songs/rime/originals/god-gacha>) |
+| 2025-09-16 | [ことばたらず](</zh/songs/rime/originals/kotobatarazu>) |
+| 2025-10-10 | [君と息をしていたかった](</zh/songs/rime/originals/君to息woshiteitakatta>) |
+| 2025-10-13 | [unnamed](</zh/songs/rime/originals/unnamed>) |
+| 2025-11-08 | [White Noise](</zh/songs/rime/originals/white-noise>) |
+| 2025-11-20 | [ごめんね、いい子じゃなくて](</zh/songs/rime/originals/gomenneii子janakute>) |
+| 2025-11-21 | [LOSER](</zh/songs/rime/originals/loser>) |
+| 2025-12-20 | [ラストエンプティサテライト](</zh/songs/rime/originals/rasutoenputeisateraito>) |
+| 2026-01-28 | [幽玄の詩 (feat. ◈*ゆくえわっと)](</zh/songs/rime/originals/幽玄no詩-feat.-◈-yukuewatto>) |
+| 2026-03-29 | [現象ラブ・ソング](</zh/songs/rime/originals/現象rabu-songu>) |
+| 2026-04-15 | [TIMEOVER](</zh/songs/rime/originals/timeover>) |
+| 2026-07-30 | [レイニー・レメディ (feat. Rime)](</zh/songs/rime/originals/reinii-remedei-feat.-rime>) |
+
+{{/details}}
+
+{{details::展开首批官方曲目}}
+
+| 类别 | 曲名 | 创作者 / 来源 |
+| --- | --- | --- |
+| Cover | 《食虫植物》 | [花譜](/zh/artists/vwp/kaf)原曲 |
+| Cover | 《甘美な無法》 | 理芽原曲 |
+| Cover | 《法螺話》 | 理芽原曲 |
+| 原创 | 《マンダリン》 | R Sound Design |
+| 原创 | 《傷心中》 | ピコン |
+| 原创 | 《心中なら倉敷で》 | SLAVE.V-V-R |
+| 原创 | 《不純性交遊》 | FLG4 |
+| 原创 | 《貼絵》 | 鬱P |
+
+{{/details}}
+
 ## 外部链接
 
 - [音乐同位体 裏命 官方网站](https://rime.kamitsubaki.jp/)

@@ -56,8 +56,37 @@ seo:
 
 ## 代表作品
 
-「ツギハギスタッカート」と「[アイディスマイル](/ja/songs/toa/originals/aideisumairu)」は、明るくキャッチーなメロディと情感豊かな物語が融合した代表曲として、ボカロコミュニティ内で高い再生数とカバー数を記録し、ファンに愛され続けている。
+{{details::アルバムとEPの一覧を開く}}
 
+**アルバム / EP**
+
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2021-09-22 | Album | [MIKU TOA (feat. 初音ミク)](</ja/albums/toa/MIKU-TOA-feat.-初音ミク-1585735634>) |
+| 2026-07-22 | Album | [Muguet/Tagetes (feat. Hatsune Miku, 鏡音レン & 鏡音リン)](</ja/albums/toa/MuguetTagetes-feat.-Hatsune-Miku-鏡音レン-&-鏡音リン-6790240020>) |
+
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2013-12-31 | [ピチカートドロップス](</ja/songs/toa/originals/pichikaatodoroppusu>) |
+| 2015-04-24 | [真白闇 (feat. 初音ミク)](</ja/songs/toa/originals/真白闇-feat.-初音miku>) |
+| 2019-01-22 | [ユキソラ (feat. 初音ミク)](</ja/songs/toa/originals/yukisora-feat.-初音miku>) |
+| 2022-02-21 | [ステンドノクターン](</ja/songs/toa/originals/sutendonokutaan>) |
+| 2022-03-01 | [ツギハギスタッカート (feat. 初音ミク)](</ja/songs/toa/originals/tsugihagisutakkaato-feat.-初音miku>) |
+| 2023-12-06 | [トワイライトライト](</ja/songs/toa/originals/towairaitoraito>) |
+| 2024-03-12 | [スカーティシュー](</ja/songs/toa/originals/sukaateishuu>) |
+| 2024-06-04 | [ドライドライフラワー](</ja/songs/toa/originals/doraidoraifurawaa>) |
+| 2024-07-16 | [アイディスマイル](</ja/songs/toa/originals/aideisumairu>) |
+| 2024-09-10 | [アイノ](</ja/songs/toa/originals/aino>) |
+| 2025-05-27 | [ときめきエンカウント](</ja/songs/toa/originals/tokimekienkaunto>) |
+| 2026-03-10 | [メルティンメロウ](</ja/songs/toa/originals/meruteinmerou>) |
+
+{{/details}}
 
 ## 役割と創作上の位置づけ
 
@@ -65,12 +94,10 @@ Toa のプロデューススタイルはボカロシーンの中で独自のポ�
 
 10 年以上のキャリアは、シンセボーカルプロデューサーコミュニティにおける持続性と進化する芸術性を示している。
 
-
 ## 作品リスト
 
 - 「ツギハギスタッカート」
 - 「アイディスマイル」
-
 
 ## 外部リンク
 

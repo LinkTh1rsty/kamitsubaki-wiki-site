@@ -263,6 +263,7 @@
     "emptyResponse": "観測は完了しましたが、表示できる回答がありません。",
     "challengeFallback": "観測頻度が高すぎます。少し後でもう一度試してください。",
     "streamErrorFallback": "観測端末は一時的に回答できません。",
+    "retry": "再試行",
     "quickPrompts": [
       "このページを要約して",
       "V.W.P との関係は？",

@@ -54,13 +54,11 @@ seo:
 
 2025年1月に 1st Album「[グラデーション](/ja/albums/awairo/グラデーション-1798638788)」をリリースし、発売記念 Party を開催。同年 2 月にはシングル「ブルーンーン」を発表した。KAMITSUBAKI WARS 2024 横浜公演や KAMITSUBAKI FES '24 への出演、梓川との 2MAN LIVE を通じて、神椿体系内での存在感を着実に広げている。
 
-
 ## 役割と創作上の位置づけ
 
 淡色の音楽の核は「センシビリティ」と「エレクトロニクス」の融合にある。作曲を担当するゆのすけは感情の起伏を電子サウンドで描き出すことに長け、歌手の WaMi は柔らかくも穿透力のあるボーカルで楽曲に独自の温もりを加える。二人の化学反応によって、淡色の音楽は EDM のグルーヴ感を保ちながら、ポップスとしての情感の共鳴も失わない。
 
 ユニット名「淡色」そのものが、彼らの美学を象徴している——濃くもなく、派手でもない。しかし淡い色合いのなかに、深い感情の層が宿っている。
-
 
 ## 活動歴
 
@@ -75,23 +73,39 @@ seo:
 
 ## 代表作品と関連項目
 
-- アルバム：「グラデーション」（2025年1月15日）
-- シングル：「[Pale](/ja/songs/mimi/originals/pale)&Deep」「個性」「Satellite」「烙印」「ブルーンーン」
+{{details::アルバムとEPの一覧を開く}}
 
-あわせて読むとつながりが見えやすい項目：
+**アルバム / EP**
 
-- 梓川関連項目
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2025-03-14 | Album | [グラデーション](</ja/albums/awairo/グラデーション-1798638788>) |
 
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2022-10-21 | [Satellite (feat. Yunosuke & WaMi)](</ja/songs/awairo/originals/satellite-feat.-yunosuke-&-wami>) |
+| 2023-10-20 | [Pale&Deep (feat. 雄之助 & WaMi)](</ja/songs/awairo/originals/pale&deep-feat.-雄之助-&-wami>) |
+| 2023-12-08 | [個性 (feat. WaMi & 雄之助)](</ja/songs/awairo/originals/個性-feat.-wami-&-雄之助>) |
+| 2024-04-26 | [烙印 (feat. 雄之助 & WaMi)](</ja/songs/awairo/originals/烙印-feat.-雄之助-&-wami>) |
+| 2024-07-13 | [Replay feat. 梓川](</ja/songs/awairo/originals/replay-feat.-梓川>) |
+| 2024-12-05 | [Love or Lie](</ja/songs/awairo/originals/love-or-lie>) |
+| 2025-02-21 | [ブルームーン](</ja/songs/awairo/originals/buruumuun>) |
+
+{{/details}}
 
 ## 関連企画 / 関連設定
 
 淡色は KAMITSUBAKI WARS や KAMITSUBAKI FES などの大型イベントを通じて、神椿所属の他アーティストとの接点を持つ。梓川との 2MAN LIVE は、神椿内部のアーティスト間コラボレーションの好例である。
 
-
 ## 参考資料
 
 - KAMITSUBAKI STUDIO 公式情報
-
 
 ## 外部リンク
 

@@ -6,6 +6,7 @@ import {
   buildAiLocaleRequest,
   convertAiResponseText,
   isTraditionalAiResponseLocale,
+  loadTraditionalConverters,
   normalizeAiResponseLocale,
 } from '../src/lib/aiResponseLocale.mjs';
 
@@ -27,10 +28,19 @@ test('AI response locales preserve Taiwan and Hong Kong Traditional Chinese vari
   assert.match(hongKong.responseInstruction, /Traditional Chinese as used in Hong Kong/);
 });
 
-test('AI response fallback converts visible prose to the selected regional vocabulary', () => {
+test('AI response fallback converts visible prose to the selected regional vocabulary', async () => {
+  await loadTraditionalConverters();
   assert.equal(convertAiResponseText('软件和鼠标', 'zh-tw'), '軟體和滑鼠');
   assert.equal(convertAiResponseText('软件和鼠标', 'zh-hk'), '軟件和滑鼠');
   assert.equal(convertAiResponseText('软件和鼠标', 'zh'), '软件和鼠标');
+});
+
+test('convertAiResponseText returns input unchanged before converters load', async () => {
+  const { convertAiResponseText: freshConvert } = await import(
+    '../src/lib/aiResponseLocale.mjs?fresh-module'
+  );
+  assert.equal(freshConvert('软件和鼠标', 'zh-tw'), '软件和鼠标');
+  await loadTraditionalConverters();
 });
 
 test('AI chat sends an explicit response locale contract and preserves dynamic greetings', async () => {

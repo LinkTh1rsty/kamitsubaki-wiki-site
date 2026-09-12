@@ -8,20 +8,19 @@ composer: "カンザキイオリ"
 album: "観測"
 duration: "02:30"
 releaseDate: "2019-09-11"
-categoryTitle: "インストゥルメンタル"
+categoryTitle: "インスト・伴奏"
 categorySubtitle: INSTRUMENTALS
 categoryOrder: 60
 itemOrder: 19
 code: "apple-1688351159"
 image: /images/albums/kaf/kansoku.jpg
-contentStatus: stub
 ---
 
 ## 作品概要
 
-「The end of prologue(Instrumental)」は[花譜](/ja/artists/vwp/kaf)の『[観測](/ja/albums/kaf/kansoku)』に収録された15曲目です。
+「The end of prologue(Instrumental)」は[花譜](/ja/artists/vwp/kaf)の1st Album『[観測](/ja/albums/kaf/kansoku)』（観測α）の15曲目で、2019年9月11日リリースです。公式ではアルバム全曲の作詞・作曲・編曲をカンザキイオリが担当したと記載しています。本曲はインストゥルメンタル作品です。
 
-## 視聴
+## 試聴
 
 {{media-switcher::The end of prologue(Instrumental)}}
 @[apple-music](https://music.apple.com/jp/album/the-end-of-prologue-instrumental/1688351143?i=1688351159&uo=4 "The end of prologue(Instrumental)")
@@ -30,9 +29,9 @@ contentStatus: stub
 
 ## 歌詞
 
-本トラックはインストゥルメンタルのため、歌詞はありません。
+本曲はインストゥルメンタルのため歌詞はありません。
 
 ## 出典
 
-- [花譜オフィシャルサイト](https://kaf.kamitsubaki.jp/discography/20190911/107/)
+- [花譜公式サイト](https://kaf.kamitsubaki.jp/discography/20190911/107/)
 - [Apple Music](https://music.apple.com/jp/album/the-end-of-prologue-instrumental/1688351143?i=1688351159&uo=4)

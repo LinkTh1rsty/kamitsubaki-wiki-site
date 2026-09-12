@@ -9,12 +9,16 @@ import TableOfContents from '../../../components/TableOfContents.astro';
 import WikiArticleHeader from '../../../components/WikiArticleHeader.astro';
 import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
 import MemoryCorridorEntryLink from '../../../components/MemoryCorridorEntryLink.astro';
+import EntryCompleteness from '../../../components/EntryCompleteness.astro';
+import MissingDataNotice from '../../../components/MissingDataNotice.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, getEditableLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArticleMetadata } from '../../../lib/metadata.mjs';
 import { renderContentEntry } from '../../../lib/contentSource.mjs';
 import { buildLocalizedStaticPaths } from '../../../lib/staticPaths.mjs';
+import { completenessTier, computeCompleteness } from '../../../lib/entryCompleteness.mjs';
+import { buildContentIndex, detectEntryIssues, summarizeIssues } from '../../../lib/missingData.mjs';
 
 export async function getStaticPaths() {
   const albumEntries = await getCollection('albums');
@@ -49,18 +53,54 @@ const articleLabels = resolveLocaleCopy({
     contents: '目录', infobox: '专辑信息', artist: '艺人', type: '类型', releaseDate: '发行日期', label: '发行厂牌',
     catalogNumber: '商品编号', trackCount: '曲目数', duration: '总时长', officialLinks: '官方链接', coverPlaceholder: '暂无专辑封面',
     tracklist: '曲目列表', disc: '碟片', track: '曲目', trackArtist: '艺人', trackDuration: '时长', albumFallback: '专辑作品',
+    completeness: {
+      kicker: 'ENTRY COMPLETENESS',
+      scoreLabel: '条目完整度',
+      missingLabel: '缺失字段',
+      missingSummary: '查看缺失字段',
+      missingEmpty: '可选字段已齐全。',
+      tiers: { complete: '完整', good: '良好', brief: '简要', stub: '草稿' },
+      fieldLabels: {
+        image: '封面图', releaseDate: '发行日期', tracks: '曲目列表', type: '类型', label: '发行厂牌',
+        catalogNumber: '商品编号', trackCount: '曲目数', description: '简介', romanizedTitle: '罗马字标题', officialLinks: '官方链接',
+      },
+    },
   },
   ja: {
     home: 'ホーム', albums: 'アルバム', article: 'Wiki 記事', category: '分類', source: '記事を編集', languages: '言語を切り替え',
     contents: '目次', infobox: 'アルバム情報', artist: 'アーティスト', type: '種類', releaseDate: 'リリース日', label: 'レーベル',
     catalogNumber: '規格品番', trackCount: '曲数', duration: '総時間', officialLinks: '公式リンク', coverPlaceholder: 'ジャケット未登録',
     tracklist: '収録曲', disc: 'ディスク', track: '曲名', trackArtist: 'アーティスト', trackDuration: '時間', albumFallback: 'アルバム作品',
+    completeness: {
+      kicker: 'ENTRY COMPLETENESS',
+      scoreLabel: '記事完成度',
+      missingLabel: '不足フィールド',
+      missingSummary: '不足フィールドを見る',
+      missingEmpty: '任意項目は揃っています。',
+      tiers: { complete: '完備', good: '良好', brief: '概要', stub: '草稿' },
+      fieldLabels: {
+        image: 'カバー画像', releaseDate: 'リリース日', tracks: '収録曲', type: '種類', label: 'レーベル',
+        catalogNumber: '規格品番', trackCount: '曲数', description: '紹介', romanizedTitle: 'ローマ字タイトル', officialLinks: '公式リンク',
+      },
+    },
   },
   en: {
     home: 'Home', albums: 'Albums', article: 'Wiki Article', category: 'Category', source: 'Edit article', languages: 'Switch language',
     contents: 'Contents', infobox: 'Album Info', artist: 'Artist', type: 'Type', releaseDate: 'Release Date', label: 'Label',
     catalogNumber: 'Catalog No.', trackCount: 'Tracks', duration: 'Duration', officialLinks: 'Official Links', coverPlaceholder: 'No cover available',
     tracklist: 'Track listing', disc: 'Disc', track: 'Track', trackArtist: 'Artist', trackDuration: 'Duration', albumFallback: 'Album works',
+    completeness: {
+      kicker: 'ENTRY COMPLETENESS',
+      scoreLabel: 'Entry completeness',
+      missingLabel: 'Missing fields',
+      missingSummary: 'View missing fields',
+      missingEmpty: 'All optional fields are present.',
+      tiers: { complete: 'Complete', good: 'Good', brief: 'Brief', stub: 'Stub' },
+      fieldLabels: {
+        image: 'Cover image', releaseDate: 'Release date', tracks: 'Track listing', type: 'Type', label: 'Label',
+        catalogNumber: 'Catalog no.', trackCount: 'Track count', description: 'Description', romanizedTitle: 'Romanized title', officialLinks: 'Official links',
+      },
+    },
   },
 }, localeCode);
 
@@ -90,6 +130,111 @@ const themeStyle = [
   `--wiki-surface-color:${theme.surfaceColor ?? '#11111a'}`,
   `--wiki-highlight-color:${theme.highlightColor ?? '#f8f5ff'}`,
 ].join(';');
+
+const completeness = computeCompleteness('albums', entry.data);
+const completenessLabels = {
+  kicker: articleLabels.completeness.kicker,
+  scoreLabel: articleLabels.completeness.scoreLabel,
+  missingLabel: articleLabels.completeness.missingLabel,
+  missingSummary: articleLabels.completeness.missingSummary,
+  missingEmpty: articleLabels.completeness.missingEmpty,
+  tiers: articleLabels.completeness.tiers,
+};
+const completenessMissing = completeness.missing.map((item) => ({
+  ...item,
+  label: articleLabels.completeness.fieldLabels[item.field] ?? item.field,
+}));
+
+const [allSongs, allAlbums, allArtists] = await Promise.all([
+  getCollection('songs'),
+  getCollection('albums'),
+  getCollection('artists'),
+]);
+const missingIndex = buildContentIndex({ songs: allSongs, albums: allAlbums, artists: allArtists });
+const missingIssues = detectEntryIssues({
+  collection: 'albums',
+  entry,
+  index: missingIndex,
+  body: articleBody,
+});
+const missingSummary = summarizeIssues(missingIssues);
+const missingLabels = resolveLocaleCopy({
+  zh: {
+    eyebrow: '待补全',
+    summary: missingSummary.total === 1 ? '该条目有 1 项待补全资料' : `该条目有 ${missingSummary.total} 项待补全资料`,
+    details: '展开明细',
+    edit: '去编辑补充',
+    severityWarning: '警告',
+    severityInfo: '提示',
+    kinds: {
+      'missing-fields': '缺失字段',
+      'missing-locale': '缺少语言版本',
+      'unknown-artist': '未识别的艺人',
+      'album-not-linked': '未关联到专辑条目',
+      'track-song-missing': '曲目关联的歌曲缺失',
+      'tracks-unlinked': '曲目均未关联歌曲',
+      'thin-body': '正文过短',
+    },
+    fieldNames: {
+      image: '封面图', releaseDate: '发行日期', tracks: '曲目列表', type: '类型', label: '发行厂牌',
+      catalogNumber: '商品编号', trackCount: '曲目数', description: '简介', romanizedTitle: '罗马字标题', officialLinks: '官方链接',
+      composer: '作曲', lyricist: '作词', lyricsSources: '歌词来源', album: '收录专辑', duration: '时长', code: '编号',
+      categoryTitle: '分类', profileTagline: '简介标签', debutDate: '出道日期', meta: '备注', affiliations: '所属 / 关联',
+      designCredits: '设定 / 设计', featuredEntries: '相关词条',
+    },
+    localeNames: { zh: '简体中文', ja: '日语', en: '英语' },
+  },
+  ja: {
+    eyebrow: '要補完',
+    summary: missingSummary.total === 1 ? 'この記事には補完が必要な情報が 1 件あります' : `この記事には補完が必要な情報が ${missingSummary.total} 件あります`,
+    details: '詳細を展開',
+    edit: '編集して補う',
+    severityWarning: '警告',
+    severityInfo: '情報',
+    kinds: {
+      'missing-fields': '不足フィールド',
+      'missing-locale': '不足している言語',
+      'unknown-artist': '未確認のアーティスト',
+      'album-not-linked': 'アルバム記事が未リンク',
+      'track-song-missing': '収録曲のリンク先が不足',
+      'tracks-unlinked': '収録曲が未リンク',
+      'thin-body': '本文が短すぎます',
+    },
+    fieldNames: {
+      image: 'カバー画像', releaseDate: 'リリース日', tracks: '収録曲', type: '種類', label: 'レーベル',
+      catalogNumber: '規格品番', trackCount: '曲数', description: '紹介', romanizedTitle: 'ローマ字タイトル', officialLinks: '公式リンク',
+      composer: '作曲', lyricist: '作詞', lyricsSources: '歌詞ソース', album: '収録アルバム', duration: '時間', code: 'コード',
+      categoryTitle: '分類', profileTagline: '紹介タグライン', debutDate: 'デビュー', meta: 'メモ', affiliations: '所属 / 関連',
+      designCredits: '設定 / デザイン', featuredEntries: '関連記事',
+    },
+    localeNames: { zh: '中国語（簡体）', ja: '日本語', en: '英語' },
+  },
+  en: {
+    eyebrow: 'Needs work',
+    summary: missingSummary.total === 1 ? 'This entry has 1 item that still needs work' : `This entry has ${missingSummary.total} items that still need work`,
+    details: 'Show details',
+    edit: 'Edit to fill in',
+    severityWarning: 'Warning',
+    severityInfo: 'Info',
+    kinds: {
+      'missing-fields': 'Missing fields',
+      'missing-locale': 'Missing language',
+      'unknown-artist': 'Unknown artist',
+      'album-not-linked': 'Album not linked',
+      'track-song-missing': 'Track song missing',
+      'tracks-unlinked': 'Tracks unlinked',
+      'thin-body': 'Thin body',
+    },
+    fieldNames: {
+      image: 'Cover image', releaseDate: 'Release date', tracks: 'Track listing', type: 'Type', label: 'Label',
+      catalogNumber: 'Catalog no.', trackCount: 'Track count', description: 'Description', romanizedTitle: 'Romanized title', officialLinks: 'Official links',
+      composer: 'Composer', lyricist: 'Lyricist', lyricsSources: 'Lyrics sources', album: 'Album', duration: 'Duration', code: 'Code',
+      categoryTitle: 'Category', profileTagline: 'Profile tagline', debutDate: 'Debut date', meta: 'Meta', affiliations: 'Affiliations',
+      designCredits: 'Design credits', featuredEntries: 'Related entries',
+    },
+    localeNames: { zh: 'Simplified Chinese', ja: 'Japanese', en: 'English' },
+  },
+}, localeCode);
 ---
 
 <BaseLayout reading lang={localeCode} alternates={alternates} title={`${entry.data.title} - Kamitsubaki Studio Fan Wiki`} metadata={metadata}>
@@ -115,7 +260,7 @@ const themeStyle = [
 
       {hasMainContent && (
         <main class:list={[
-          'reader-body order-last w-full min-w-0 lg:order-none',
+          'reader-body w-full min-w-0',
           hasTableOfContents ? 'lg:col-span-7' : 'lg:col-span-8 lg:col-start-2',
         ]}>
           {hasTableOfContents && (
@@ -123,6 +268,15 @@ const themeStyle = [
               <summary class="cursor-pointer font-mono text-[11px] uppercase tracking-[0.24em] text-white/65">{articleLabels.contents}</summary>
               <div class="mt-4 border-t border-white/10 pt-4"><TableOfContents headings={headings} title={articleLabels.contents} /></div>
             </details>
+          )}
+
+          {missingIssues.length > 0 && (
+            <MissingDataNotice
+              issues={missingIssues}
+              summary={missingSummary}
+              labels={missingLabels}
+              editHref={sourceHref}
+            />
           )}
 
           {hasArticleBody && <article class="wiki-reader wiki-prose prose prose-invert max-w-none"><Fragment set:html={contentHtml} /></article>}
@@ -168,6 +322,12 @@ const themeStyle = [
         hasMainContent ? 'lg:col-span-3' : 'lg:col-start-2',
       ]}>
         <AlbumInfoBox data={entry.data} labels={articleLabels} />
+        <EntryCompleteness
+          score={completeness.score}
+          tier={completenessTier(completeness.score)}
+          missing={completenessMissing}
+          labels={completenessLabels}
+        />
         <ContributorRoster mode="entry" locale={localeCode} collection="albums" entryId={id} />
       </aside>
     </div>

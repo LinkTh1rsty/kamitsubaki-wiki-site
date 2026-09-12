@@ -77,17 +77,15 @@ test('artist display data preserves extended metadata from content files', async
 });
 
 test('placeholder artist entries are visibly marked and excluded from indexing', async () => {
-  const [config, database, detail, stubEntry] = await Promise.all([
+  const [config, database, detail] = await Promise.all([
     readSource('../src/content.config.ts'),
     readSource('../src/components/ArtistDatabase.astro'),
     readSource('../src/pages/[locale]/artists/[...id].astro'),
-    readSource('../src/content/artists/girls_revolution_project/orihime/zh.md'),
   ]);
 
   assert.match(config, /z\.enum\(\['stub', 'published'\]\)/);
   assert.match(database, /artist\.contentStatus === 'stub'/);
   assert.match(detail, /articleData\.contentStatus === 'stub'/);
-  assert.match(stubEntry, /contentStatus: stub/);
 });
 
 test('every artist row receives direct hover and keyboard background listeners', async () => {

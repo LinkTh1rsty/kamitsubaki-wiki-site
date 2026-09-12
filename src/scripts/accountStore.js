@@ -171,6 +171,7 @@ accountDialog?.addEventListener('pointerdown',event=>{backdropPress=event.target
 accountDialog?.addEventListener('click',event=>{if(backdropPress && event.target===accountDialog && outsideDialog(event))accountDialog.close();backdropPress=false;});
 new MutationObserver(renderChrome).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
 window.addEventListener('kamitsubaki-account-state',renderChrome);
+
 document.addEventListener('click',async event=>{
   const trigger=event.target.closest('[data-account-nav],[data-account-login],[data-account-retry],[data-account-cloud],[data-account-backup],[data-account-local],[data-account-sync-now],[data-account-logout],[data-account-close]');
   if(!trigger)return;

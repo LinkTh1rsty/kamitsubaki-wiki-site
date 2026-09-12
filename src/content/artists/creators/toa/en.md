@@ -56,8 +56,37 @@ Toa (とあ) is a Vocaloid and synth vocal producer who has been active since 20
 
 ## Representative Works
 
-Among his most celebrated tracks are "Tsugihagi Staccato" (ツギハギスタッカート) and "Idea Smile" (アイディスマイル), both of which showcase his signature blend of bright, catchy melodies and emotionally resonant, wistful storytelling. These songs have become fan favorites within the Vocaloid community, accumulating significant play counts and covers.
+{{details::Expand full albums and EPs}}
 
+**Albums & EPs**
+
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2021-09-22 | Album | [MIKU TOA (feat. 初音ミク)](</en/albums/toa/MIKU-TOA-feat.-初音ミク-1585735634>) |
+| 2026-07-22 | Album | [Muguet/Tagetes (feat. Hatsune Miku, 鏡音レン & 鏡音リン)](</en/albums/toa/MuguetTagetes-feat.-Hatsune-Miku-鏡音レン-&-鏡音リン-6790240020>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2013-12-31 | [ピチカートドロップス](</en/songs/toa/originals/pichikaatodoroppusu>) |
+| 2015-04-24 | [真白闇 (feat. 初音ミク)](</en/songs/toa/originals/真白闇-feat.-初音miku>) |
+| 2019-01-22 | [ユキソラ (feat. 初音ミク)](</en/songs/toa/originals/yukisora-feat.-初音miku>) |
+| 2022-02-21 | [ステンドノクターン](</en/songs/toa/originals/sutendonokutaan>) |
+| 2022-03-01 | [ツギハギスタッカート (feat. 初音ミク)](</en/songs/toa/originals/tsugihagisutakkaato-feat.-初音miku>) |
+| 2023-12-06 | [トワイライトライト](</en/songs/toa/originals/towairaitoraito>) |
+| 2024-03-12 | [スカーティシュー](</en/songs/toa/originals/sukaateishuu>) |
+| 2024-06-04 | [ドライドライフラワー](</en/songs/toa/originals/doraidoraifurawaa>) |
+| 2024-07-16 | [アイディスマイル](</en/songs/toa/originals/aideisumairu>) |
+| 2024-09-10 | [アイノ](</en/songs/toa/originals/aino>) |
+| 2025-05-27 | [ときめきエンカウント](</en/songs/toa/originals/tokimekienkaunto>) |
+| 2026-03-10 | [メルティンメロウ](</en/songs/toa/originals/meruteinmerou>) |
+
+{{/details}}
 
 ## Role and Creative Position
 
@@ -65,12 +94,10 @@ Toa's production style occupies a unique niche in the Vocaloid landscape. Rather
 
 His long career spanning over a decade speaks to his consistency and evolving artistry within the synth vocal producer community.
 
-
 ## Work Index
 
 - "Tsugihagi Staccato" (ツギハギスタッカート)
 - "Idea Smile" (アイディスマイル)
-
 
 ## External Links
 

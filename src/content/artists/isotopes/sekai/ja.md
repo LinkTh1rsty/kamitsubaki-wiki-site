@@ -99,12 +99,56 @@ seo:
 
 ## 代表作品と関連項目
 
-星界自身は従来の意味での音楽作品を発表するのではなく、創作ツールとして存在する。星界を中心とした楽曲はUGCコミュニティから継続的に生み出されている。
+{{details::アルバムとEPの一覧を開く}}
 
-あわせて読むとつながりが見えやすい項目：
+**アルバム / EP**
 
-- [ヰ世界情緒 / ISEKAIJOUCHO](/ja/artists/vwp/isekaijoucho)
-- [可不 / KAFU](/ja/artists/isotopes/kafu)
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2023-11-19 | Album | [Three and Harf Years](</ja/albums/sekai/Three-and-Harf-Years-1717280761>) |
+| 2023-12-21 | Album | [Tropicariddim!](</ja/albums/sekai/Tropicariddim-1722527956>) |
+| 2024-02-01 | EP | [Yumemigokochi](</ja/albums/sekai/Yumemigokochi-1727860949>) |
+| 2024-06-26 | Album | [那由多のメタファー](</ja/albums/sekai/那由多のメタファー-1751841858>) |
+
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2016-02-16 | [ノーモフィリア](</ja/songs/sekai/originals/noomofyiria>) |
+| 2022-10-14 | [ココロノカタチ](</ja/songs/sekai/originals/kokoronokatachi>) |
+| 2023-05-14 | [film.](</ja/songs/sekai/originals/film>) |
+| 2023-06-09 | [僕らは青春に参加しない](</ja/songs/sekai/originals/僕raha青春ni参加shinai>) |
+| 2023-06-14 | [宙を駆ける夢、ほうき星。](</ja/songs/sekai/originals/宙wo駆keru夢houki星>) |
+| 2023-12-24 | [仏翼](</ja/songs/sekai/originals/仏翼>) |
+| 2024-03-05 | [ガオウ (feat. 星界)](</ja/songs/sekai/originals/gaou-feat.-星界>) |
+| 2024-04-11 | [ハナビラ](</ja/songs/sekai/originals/hanabira>) |
+| 2024-05-10 | [夏が来る。 (feat. 重音テト & 初音ミク)](</ja/songs/sekai/originals/夏ga来ru.-feat.-重音teto-&-初音miku>) |
+| 2024-10-15 | [花の名残り](</ja/songs/sekai/originals/花no名残ri>) |
+| 2024-10-22 | [終着世界](</ja/songs/sekai/originals/終着世界>) |
+| 2024-10-24 | [仮面に咲く](</ja/songs/sekai/originals/仮面ni咲ku>) |
+| 2024-11-19 | [サイケデリック感情戦](</ja/songs/sekai/originals/saikederikku感情戦>) |
+| 2024-11-26 | [背水、偶像神話](</ja/songs/sekai/originals/背水偶像神話>) |
+| 2024-12-24 | [初恋レモンジュース](</ja/songs/sekai/originals/初恋remonjuusu>) |
+| 2025-03-16 | [空白](</ja/songs/sekai/originals/空白>) |
+| 2025-03-23 | [雨霧](</ja/songs/sekai/originals/雨霧>) |
+| 2025-04-06 | [呼吸](</ja/songs/sekai/originals/呼吸>) |
+| 2025-04-06 | [星追](</ja/songs/sekai/originals/星追>) |
+| 2025-04-13 | [真想](</ja/songs/sekai/originals/真想>) |
+| 2025-07-05 | [言葉の中にはりせんぼん](</ja/songs/sekai/originals/言葉no中niharisenbon>) |
+| 2025-07-05 | [soudesuka雪見](</ja/songs/sekai/originals/soudesuka雪見>) |
+| 2025-11-30 | [音とは](</ja/songs/sekai/originals/音toha>) |
+| 2025-12-17 | [トワイライト・オービット (feat. Kisara)](</ja/songs/sekai/originals/towairaito-oobitto-feat.-kisara>) |
+| 2026-03-22 | [ココロポロリカ](</ja/songs/sekai/originals/kokoropororika>) |
+| 2026-03-27 | [9月の老蝶はまだ飛べるだろうか](</ja/songs/sekai/originals/9月no老蝶hamada飛berudarouka>) |
+| 2026-03-27 | [棺は明澄の底で眠る](</ja/songs/sekai/originals/棺ha明澄no底de眠ru>) |
+| 2026-04-23 | [ゲームがしたいのうた](</ja/songs/sekai/originals/geemugashitainouta>) |
+| 2026-06-30 | [Halcyondaydream](</ja/songs/sekai/originals/halcyondaydream>) |
+
+{{/details}}
 
 ## 基本資料とキャラクター設定
 
