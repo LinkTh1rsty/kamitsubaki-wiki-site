@@ -1,4 +1,5 @@
 import { getLocalizedSiteName } from './i18n.mjs';
+import { homePreviewImage } from './searchMetadata.mjs';
 
 export const defaultSiteDescription = 'KAMITSUBAKI STUDIO 非官方粉丝百科。';
 export const siteName = getLocalizedSiteName('en');
@@ -100,6 +101,10 @@ export function buildHomeMetadata(siteContent, locale) {
     title: getLocalizedSiteName(locale),
     description: truncateDescription(descriptionSource || defaultSiteDescription),
     canonicalPath: `/${locale}/`,
+    image: homePreviewImage,
+    imageAlt: 'V.W.P — KAF, RIM, HARUSARUHI, ISEKAIJOUCHO, KOKO',
+    imageWidth: 1260,
+    imageHeight: 1260,
     type: 'website',
   };
 }
