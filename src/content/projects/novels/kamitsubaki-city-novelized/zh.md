@@ -28,4 +28,4 @@ officialLinks:
 
 [查看世界与故事阅读路线](/zh/labs/world/)
 
-<!-- Wiki editor integration test: smoke-1789284110400; do not merge. -->
+<!-- Wiki editor integration test: smoke-1789284110400; revision 2; do not merge. -->
