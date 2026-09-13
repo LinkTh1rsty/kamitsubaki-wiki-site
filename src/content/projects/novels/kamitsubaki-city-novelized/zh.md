@@ -24,6 +24,8 @@ officialLinks:
 
 本页整理出版资料，不转载小说正文。
 
+编辑器上线验收测试：验证站内投稿与 GitHub PR 同步，请勿合并。
+
 [查看 KADOKAWA 出版页面与试读入口](https://www.kadokawa.co.jp/product/322412000963/)
 
 [查看世界与故事阅读路线](/zh/labs/world/)
