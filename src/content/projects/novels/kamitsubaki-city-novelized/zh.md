@@ -27,3 +27,5 @@ officialLinks:
 [查看 KADOKAWA 出版页面与试读入口](https://www.kadokawa.co.jp/product/322412000963/)
 
 [查看世界与故事阅读路线](/zh/labs/world/)
+
+<!-- Wiki editor integration test: smoke-1789284110400; do not merge. -->
