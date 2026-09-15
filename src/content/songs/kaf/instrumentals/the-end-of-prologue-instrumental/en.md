@@ -2,10 +2,10 @@
 locale: en
 translationKey: kaf_instrumentals_track_1688351159
 title: "The end of prologue(Instrumental)"
-artist: "花譜"
+artist: "KAF"
 artistId: kaf
-composer: "カンザキイオリ"
-album: "観測"
+composer: "Kanzaki Iori"
+album: "Kansoku"
 duration: "02:30"
 releaseDate: "2019-09-11"
 categoryTitle: "Instrumentals"
@@ -14,12 +14,11 @@ categoryOrder: 60
 itemOrder: 19
 code: "apple-1688351159"
 image: /images/albums/kaf/kansoku.jpg
-contentStatus: stub
 ---
 
 ## Overview
 
-“The end of prologue(Instrumental)” is track 15 of [KAF](/en/artists/vwp/kaf)’s [観測](/en/albums/kaf/kansoku).
+"The end of prologue (Instrumental)" is track 15 on [KAF](/en/artists/vwp/kaf)'s first album *[Kansoku](/en/albums/kaf/kansoku)* (Kansoku α), released on September 11, 2019. Official notes state that all lyrics, music, and arrangement on the album were handled by Kanzaki Iori. This track is an instrumental.
 
 ## Listen
 
@@ -30,7 +29,7 @@ contentStatus: stub
 
 ## Lyrics
 
-This is an instrumental track and has no lyrics.
+This track is an instrumental and has no lyrics.
 
 ## Sources
 

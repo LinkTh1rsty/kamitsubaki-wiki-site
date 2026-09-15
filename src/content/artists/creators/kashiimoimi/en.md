@@ -54,28 +54,52 @@ Kashii Moimi (香椎モイミ) is a female VocaloP who debuted in December 2018.
 
 Active under the ANARCHIC RECORD label (transferred to [KYOKAI STUDIO](/en/projects/labels/kyokai-studio) in September 2026 as part of THINKR's studio reorganization), Kashii Moimi posted approximately 30 songs within her first two years of activity. Her breakout hit "Cat Loving" (キャットラビング) amassed over 24 million views, while "Henshoku" (偏食) surpassed 2 million views, establishing her as one of the most commercially successful producers on the label.
 
-
 ## Role and Creative Position
 
 Kashii Moimi's compositions are characterized by their darkly alluring melodic hooks and emotionally charged narratives. Her ability to blend contrasting genres -- the intimacy of piano ballads with the energy of electronic dance music -- gives her work a distinctive edge. The feminine perspective woven throughout her lyrics adds a layer of vulnerability and raw honesty that resonates deeply with listeners.
 
 Her prolific output and consistent quality have made her a cornerstone of the ANARCHIC RECORD roster.
 
-
 ## Representative Works
 
-- "Cat Loving" (キャットラビング) -- 24M+ views
-- "Henshoku" (偏食) -- 2M+ views
-- "Kanriyoku" (管理欲)
-- "Blue Hero" (ブルーヒーロー)
-- "Akumu no Hikari" (あくむのひかり)
-- "Tobu" (飞翔)
-- "Shissou Zenya" (失踪前夜)
-- "Bad End Maker" (バッドエンドメーカー)
-- "[Human-Like](/en/songs/kashiimoimi/originals/human-like)"
-- "Wonderland Underground" (ワンダーランド地下)
-- "Honey Diary" (蜂蜜日記)
+{{details::Expand full albums and EPs}}
 
+**Albums & EPs**
+
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2020-08-03 | Album | [渇愛](</en/albums/kashiimoimi/渇愛-1525996939>) |
+| 2023-02-08 | Album | [偏愛](</en/albums/kashiimoimi/偏愛-1667770496>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2019-11-06 | [Sweet for You](</en/songs/kashiimoimi/originals/sweet-for-you>) |
+| 2020-02-13 | [花色 (feat. KAITO)](</en/songs/kashiimoimi/originals/花色-feat.-kaito>) |
+| 2022-07-12 | [キャットラビング](</en/songs/kashiimoimi/originals/kyattorabingu>) |
+| 2022-07-19 | [FLASH (feat. KAITO)](</en/songs/kashiimoimi/originals/flash-feat.-kaito>) |
+| 2023-04-04 | [Makeup](</en/songs/kashiimoimi/originals/makeup>) |
+| 2023-09-19 | [バッドエンドメーカー](</en/songs/kashiimoimi/originals/baddoendomeekaa>) |
+| 2023-12-05 | [失踪前夜](</en/songs/kashiimoimi/originals/失踪前夜>) |
+| 2024-03-19 | [Human-Like](</en/songs/kashiimoimi/originals/human-like>) |
+| 2024-05-14 | [ワンダーランド地下](</en/songs/kashiimoimi/originals/wandaarando地下>) |
+| 2024-05-21 | [蜂蜜日記](</en/songs/kashiimoimi/originals/蜂蜜日記>) |
+| 2024-10-15 | [海蛍](</en/songs/kashiimoimi/originals/海蛍>) |
+| 2024-10-22 | [紫色の向日葵](</en/songs/kashiimoimi/originals/紫色no向日葵>) |
+| 2025-02-11 | [躁転彼女](</en/songs/kashiimoimi/originals/躁転彼女>) |
+| 2025-03-18 | [葡萄色陶酔](</en/songs/kashiimoimi/originals/葡萄色陶酔>) |
+| 2025-06-11 | [オールセーブチャレンジ](</en/songs/kashiimoimi/originals/ooruseebucharenji>) |
+| 2025-07-15 | [飛翔](</en/songs/kashiimoimi/originals/飛翔>) |
+| 2025-10-14 | [あくむのひかり](</en/songs/kashiimoimi/originals/akumunohikari>) |
+| 2026-03-10 | [ブルーヒーロー](</en/songs/kashiimoimi/originals/buruuhiiroo>) |
+| 2026-03-24 | [管理欲](</en/songs/kashiimoimi/originals/管理欲>) |
+
+{{/details}}
 
 ## Activity History and Upload Statistics
 
@@ -89,12 +113,10 @@ The organized record counts 53 original VOCALOID/CeVIO uploads as of April 27, 2
 
 Representative works include “Cat Loving”, “Henshoku”, “Kanri-yoku”, “Blue Hero”, “Akumu no Hikari”, “Hishō”, “Shissō Zenya”, “Bad End Maker”, “Human-Like”, “Wonderland Underground”, and “Hachimitsu Nikki”. Album references include *Katsua* and *Henai*. VOCALOID/CeVIO uploads, songs supplied to Kamitsubaki artists, demonstration covers, and personal albums should remain separate catalogue layers.
 
-
 ## References
 
 - YouTube: <https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg>
 - Twitter: <https://twitter.com/moi__moimi>
-
 
 ## External Links
 

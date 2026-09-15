@@ -72,11 +72,36 @@ Steam では『ナツノカナタ』（App ID: 2951340）と第 2 作（App ID: 
 
 ## ディスコグラフィ
 
-- 6th シングル：「また旅はネコミミと」feat. kahoca（[Empty old City](/ja/artists/solo/empty-old-city)）、一ノ瀬陽鞠
-- 5th シングル：「ふたりだけの物語」
-- 4th シングル：「moonless」
-- 3rd シングル：「月の匂い」feat. WaMi
-- 2nd シングル：「Outline Seaside」feat. kahoca
+{{details::アルバムとEPの一覧を開く}}
+
+**アルバム / EP**
+
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2024-12-06 | Soundtrack | [『ムーンレスムーン』BGM Soundtrack](</ja/albums/anmc/『ムーンレスムーン』BGM-Soundtrack-1781196523>) |
+| 2025-04-10 | Soundtrack | [『ガールズメイドプディング』BGM Soundtrack](</ja/albums/anmc/『ガールズメイドプディング』BGM-Soundtrack-1811934640>) |
+| 2025-05-22 | Album | [ガールズメイドプディング - Solo Collection -](</ja/albums/anmc/ガールズメイドプディング-Solo-Collection-1849111185>) |
+
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2024-08-07 | [Sad Sad Hot Latte feat. むト](</ja/songs/anmc/originals/sad-sad-hot-latte-feat.-muto>) |
+| 2024-08-28 | [アウトライン・シーサイド feat. kahoca , ハルハ](</ja/songs/anmc/originals/autorain-shiisaido-feat.-kahoca--haruha>) |
+| 2024-09-11 | [月の匂い feat. WaMi , ueil](</ja/songs/anmc/originals/月no匂i-feat.-wami--ueil>) |
+| 2024-12-06 | [moonless feat. 椎可](</ja/songs/anmc/originals/moonless-feat.-椎可>) |
+| 2025-04-09 | [二人だけの物語 feat. むト, m](</ja/songs/anmc/originals/二人dakeno物語-feat.-muto-m>) |
+| 2025-04-16 | [また旅はネコミミと feat. kahoca, 一ノ瀬陽鞠](</ja/songs/anmc/originals/mata旅hanekomimito-feat.-kahoca-一no瀬陽鞠>) |
+| 2025-04-23 | [二人だけの物語 feat. kahoca, 一ノ瀬陽鞠](</ja/songs/anmc/originals/二人dakeno物語-feat.-kahoca-一no瀬陽鞠>) |
+| 2025-04-30 | [また旅はネコミミと feat. むト, m](</ja/songs/anmc/originals/mata旅hanekomimito-feat.-muto-m>) |
+| 2026-06-12 | [My Dad is A](</ja/songs/anmc/originals/my-dad-is-a>) |
+| 2026-07-29 | [ねむるそら (feat. somunia)](</ja/songs/anmc/originals/nemurusora-feat.-somunia>) |
+
+{{/details}}
 
 ## 参考資料
 

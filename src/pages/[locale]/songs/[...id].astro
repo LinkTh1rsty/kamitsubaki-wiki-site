@@ -11,11 +11,15 @@ import ContributorRoster from '../../../components/ContributorRoster.astro';
 import MusicSubnav from '../../../components/MusicSubnav.astro';
 import ContentLicenseNotice from '../../../components/ContentLicenseNotice.astro';
 import MemoryCorridorEntryLink from '../../../components/MemoryCorridorEntryLink.astro';
+import EntryCompleteness from '../../../components/EntryCompleteness.astro';
+import MissingDataNotice from '../../../components/MissingDataNotice.astro';
 import { getLocalizedEntries, getLocalizedSite } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, getEditableLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArticleMetadata } from '../../../lib/metadata.mjs';
 import { renderContentEntry } from '../../../lib/contentSource.mjs';
 import { buildLocalizedStaticPaths } from '../../../lib/staticPaths.mjs';
+import { completenessTier, computeCompleteness } from '../../../lib/entryCompleteness.mjs';
+import { buildContentIndex, detectEntryIssues, summarizeIssues } from '../../../lib/missingData.mjs';
 
 export async function getStaticPaths() {
   const songEntries = await getCollection('songs');
@@ -31,7 +35,7 @@ const hasArticleBody = Boolean(articleBody);
 
 const siteEntries = await getCollection('site');
 const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
-const artistEntries = getLocalizedEntries(await getCollection('artists'), localeCode, defaultLocale);
+const artistEntries = getLocalizedEntries(allArtists, localeCode, defaultLocale);
 const artistEntry = artistEntries.find((artist) => artist.data.translationKey === entry.data.artistId);
 const currentPath = `/songs/${id}`;
 const localeLinks = buildLocaleLinks(homeContent, localeCode, currentPath);
@@ -76,6 +80,30 @@ const articleLabels = resolveLocaleCopy({
       album: '专辑',
       song: '歌曲',
     },
+    completeness: {
+      kicker: 'ENTRY COMPLETENESS',
+      scoreLabel: '条目完整度',
+      missingLabel: '缺失字段',
+      missingSummary: '查看缺失字段',
+      missingEmpty: '可选字段已齐全。',
+      tiers: {
+        complete: '完整',
+        good: '良好',
+        brief: '简要',
+        stub: '草稿',
+      },
+      fieldLabels: {
+        image: '封面图',
+        releaseDate: '发布日期',
+        composer: '作曲',
+        lyricist: '作词',
+        lyricsSources: '歌词来源',
+        album: '收录专辑',
+        duration: '时长',
+        code: '编号',
+        categoryTitle: '分类标题',
+      },
+    },
   },
   ja: {
     home: 'ホーム',
@@ -111,6 +139,30 @@ const articleLabels = resolveLocaleCopy({
       album: 'アルバム',
       song: '楽曲',
     },
+    completeness: {
+      kicker: 'ENTRY COMPLETENESS',
+      scoreLabel: '記事完成度',
+      missingLabel: '不足フィールド',
+      missingSummary: '不足フィールドを見る',
+      missingEmpty: '任意項目は揃っています。',
+      tiers: {
+        complete: '完備',
+        good: '良好',
+        brief: '概要',
+        stub: '草稿',
+      },
+      fieldLabels: {
+        image: 'カバー画像',
+        releaseDate: 'リリース日',
+        composer: '作曲',
+        lyricist: '作詞',
+        lyricsSources: '歌詞ソース',
+        album: '収録アルバム',
+        duration: '時間',
+        code: 'コード',
+        categoryTitle: '分類タイトル',
+      },
+    },
   },
   en: {
     home: 'Home',
@@ -145,6 +197,30 @@ const articleLabels = resolveLocaleCopy({
       project: 'Project',
       album: 'Album',
       song: 'Song',
+    },
+    completeness: {
+      kicker: 'ENTRY COMPLETENESS',
+      scoreLabel: 'Entry completeness',
+      missingLabel: 'Missing fields',
+      missingSummary: 'View missing fields',
+      missingEmpty: 'All optional fields are present.',
+      tiers: {
+        complete: 'Complete',
+        good: 'Good',
+        brief: 'Brief',
+        stub: 'Stub',
+      },
+      fieldLabels: {
+        image: 'Cover image',
+        releaseDate: 'Release date',
+        composer: 'Composer',
+        lyricist: 'Lyricist',
+        lyricsSources: 'Lyrics sources',
+        album: 'Album',
+        duration: 'Duration',
+        code: 'Code',
+        categoryTitle: 'Category title',
+      },
     },
   },
 }, localeCode);
@@ -202,6 +278,20 @@ const themeStyle = [
   `--wiki-surface-color:${theme.surfaceColor ?? '#0f1419'}`,
   `--wiki-highlight-color:${theme.highlightColor ?? '#f6f7fb'}`,
 ].join(';');
+
+const completeness = computeCompleteness('songs', entry.data);
+const completenessLabels = {
+  kicker: articleLabels.completeness.kicker,
+  scoreLabel: articleLabels.completeness.scoreLabel,
+  missingLabel: articleLabels.completeness.missingLabel,
+  missingSummary: articleLabels.completeness.missingSummary,
+  missingEmpty: articleLabels.completeness.missingEmpty,
+  tiers: articleLabels.completeness.tiers,
+};
+const completenessMissing = completeness.missing.map((item) => ({
+  ...item,
+  label: articleLabels.completeness.fieldLabels[item.field] ?? item.field,
+}));
 ---
 
 <BaseLayout reading lang={locale} alternates={alternates} title={`${articleData.name} - Kamitsubaki Studio Fan Wiki`} metadata={metadata}>
@@ -222,16 +312,48 @@ const themeStyle = [
       </WikiArticleHeader>
     </div>
 
-    <Reader backgroundImage={entry.data.image ?? artistEntry?.data.image} variant="entry" headings={headings} contentsTitle={articleLabels.contents} hasContent={hasArticleBody}>
-      <LyricsPractice locale={localeCode} sourceLinks={sourceLinks} />
+    <div class:list={[
+      'reader-frame reader-layout mx-auto grid max-w-[92rem] items-start gap-5 px-4 py-4 sm:gap-8 sm:px-6 sm:py-5 lg:gap-8',
+      hasArticleBody ? 'lg:grid-cols-12' : 'lg:grid-cols-[minmax(0,1fr)_22rem]',
+    ]}>
+      {hasTableOfContents && (
+        <aside class="reader-toc-column hidden lg:block lg:col-span-2 sticky top-32">
+          <TableOfContents headings={headings} title={articleLabels.contents} />
+        </aside>
+      )}
+
+      {hasArticleBody && (
+        <main class:list={[
+          'reader-body order-last w-full min-w-0 lg:order-none',
+          hasTableOfContents ? 'lg:col-span-7' : 'lg:col-span-8 lg:col-start-2',
+        ]}>
+          {hasTableOfContents && (
+            <details class="wiki-mobile-toc mb-8 rounded-lg border border-white/10 bg-white/[0.03] p-4 lg:hidden">
+              <summary class="cursor-pointer text-[11px] font-mono uppercase tracking-[0.24em] text-white/65">
+                {articleLabels.contents}
+              </summary>
+              <div class="mt-4 border-t border-white/10 pt-4">
+                <TableOfContents headings={headings} title={articleLabels.contents} />
+              </div>
+            </details>
+          )}
+
+          <LyricsPractice locale={localeCode} sourceLinks={sourceLinks} />
           <article class="wiki-reader wiki-prose prose prose-invert max-w-none">
             <Fragment set:html={contentHtml} />
           </article>
       <Fragment slot="sidebar">
         <WikiInfoBox data={articleData} labels={articleLabels} />
+        <EntryCompleteness
+          score={completeness.score}
+          tier={completenessTier(completeness.score)}
+          missing={completenessMissing}
+          labels={completenessLabels}
+        />
         <ContributorRoster mode="entry" locale={localeCode} collection="songs" entryId={id} />
-      </Fragment>
-    </Reader>
+      </aside>
+      
+    </div>
 
     <div class="reader-frame reader-end mx-auto max-w-[92rem] px-4 pb-6 sm:px-6">
       <MemoryCorridorEntryLink locale={localeCode} kind="song" entryId={id!} />

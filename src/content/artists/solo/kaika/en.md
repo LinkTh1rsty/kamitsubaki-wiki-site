@@ -60,11 +60,9 @@ Kaika (廻花) is a new-generation virtual singer-songwriter under [KYOKAI STUDI
 
 With a vocal style that leans into raw emotional expression, Kaika occupies a unique space within the Kamitsubaki ecosystem: part singer-songwriter, part character narrative. Her work explores immediacy and instinct, contrasting with the more literary or philosophical approaches of other [V.W.P](/en/artists/vwp/vwp) members.
 
-
 ## Role and Creative Position
 
 Kaika's identity is built on the idea of "branching" — she is explicitly framed as a new divergence from KAF, carrying forward elements of KAF's artistic DNA while developing her own voice. The name 廻花 ("circling flower") evokes cyclical growth and return, suggesting that even as she branches out, the connection to her origin remains. Her creative direction emphasizes directness: capturing feelings as they arise, before they can be rationalized or refined.
-
 
 ## Activity History
 
@@ -80,23 +78,38 @@ Kaika's identity is built on the idea of "branching" — she is explicitly frame
 
 ## Representative Works
 
-- 1st Album: *Umareru mae kara kimi wo shitteru*
-- Singles: "Stand By Me" (スタンドバイミー), "Higurashi no Uta" (ひぐらしのうた), "Teddy Bear" (テディベア), "Kaika" (かいか)
+{{details::Expand full albums and EPs}}
 
-See also:
+**Albums & EPs**
 
-- [KAF](/en/artists/vwp/kaf)
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2025-03-26 | Album | [うまれるまえからきみをしってる](</en/albums/kaika/うまれるまえからきみをしってる-1801387883>) |
 
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2024-04-23 | [かいか](</en/songs/kaika/originals/kaika>) |
+| 2024-08-27 | [テディベア](</en/songs/kaika/originals/tedeibea>) |
+| 2025-03-25 | [東京、ぼくらは大丈夫かな](</en/songs/kaika/originals/東京bokuraha大丈夫kana>) |
+| 2025-03-25 | [スタンドバイミー](</en/songs/kaika/originals/sutandobaimii>) |
+| 2025-03-25 | [ひぐらしのうた](</en/songs/kaika/originals/higurashinouta>) |
+| 2026-01-13 | [人魚](</en/songs/kaika/originals/人魚>) |
+
+{{/details}}
 
 ## Related Projects / Setting
 
 Kaika's origin is directly tied to KAF's artistic narrative — she emerged from KAF's creative universe as a branching identity, making her one of the most narratively integrated solo acts in the Kamitsubaki roster. Her solo exhibition "KuruKuru" further expanded her presence into visual art and physical space, reflecting the studio's tendency to blur boundaries between music, character, and experiential art.
 
-
 ## References
 
 - Kaika official site: <https://kaika.kamitsubaki.jp/>
-
 
 ## External Links
 

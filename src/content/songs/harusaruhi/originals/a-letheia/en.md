@@ -7,6 +7,8 @@ artistId: harusaruhi
 artistIds:
   - "harusaruhi"
 album: "(A)letheia"
+composer: "Masayoshi Iimori / Native Rapper"
+lyricist: "弥之助 (AFRO PARKER)"
 duration: "03:04"
 releaseDate: "2025-08-27"
 categoryTitle: "Original Songs"
@@ -15,12 +17,13 @@ categoryOrder: 10
 itemOrder: 532
 code: "apple-1830153009"
 image: /images/songs/harusaruhi/single-1830153002.jpg
-contentStatus: stub
 ---
 
 ## Overview
 
-(A)letheia appears on (A)letheia or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+"(A)letheia" is a digital single by [Harusaruhi](/en/artists/vwp/harusaruhi), released on August 27, 2025. It is the theme song for the horror adventure game *Haruto Kaiya*. The official release page credits lyrics to 弥之助 (AFRO PARKER), music to Masayoshi Iimori and Native Rapper, and arrangement to Masayoshi Iimori.
+
+Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
 
 ## Listen
 
@@ -30,6 +33,7 @@ contentStatus: stub
 
 ## Sources
 
-- [Official discography](https://kamitsubaki.jp/discography/harusaruhi/8340/)
+- [Official release page](https://kamitsubaki.jp/discography/harusaruhi/8340/)
+- [Official discography](https://kamitsubaki.jp/discography/harusaruhi/)
 - [Apple Music](https://music.apple.com/jp/album/a-letheia/1830153002?i=1830153009&uo=4)
 - [VGMdb Harusaruhi](https://vgmdb.net/artist/48426)

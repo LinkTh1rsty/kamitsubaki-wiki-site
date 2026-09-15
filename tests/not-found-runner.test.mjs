@@ -34,9 +34,12 @@ test('the 404 fallback localizes its recovery actions from the requested path', 
   const page = await readProjectFile('../src/pages/404.astro');
 
   assert.match(page, /window\.location\.pathname\.match/);
-  assert.match(page, /\(zh\|ja\|en\)/);
+  assert.match(page, /\(zh-tw\|zh-hk\|zh\|ja\|en\)/);
   assert.match(page, /`\/\$\{locale\}\/`/);
   assert.match(page, /`\/\$\{locale\}\/games\/memory-corridor`/);
+  assert.match(page, /觀測記錄不存在/);
+  assert.match(page, /訊號中斷/);
+  assert.match(page, /信號中斷/);
   assert.match(page, /観測記録が見つかりません/);
   assert.match(page, /Observation not found/);
 });

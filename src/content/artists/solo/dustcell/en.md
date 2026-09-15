@@ -116,6 +116,54 @@ The early route runs through “CULT”, “STIGMA”, “LAZY”, “Heaven and
 
 DUSTCELL's place in KAMITSUBAKI cannot be reduced to a management label. It connects a real singer, Vocaloid production, virtual-artist culture, music video direction, and live performance. The difference between EMA's singer identity and Misumi's producer identity is precisely what lets the duo move freely between human voice and electronic/virtual creation.
 
+## Representative Works and Related Entries
+
+{{details::Expand full albums and EPs}}
+
+**Albums & EPs**
+
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2020-05-20 | Album | [SUMMIT](</en/albums/dustcell/SUMMIT-1688155907>) |
+| 2021-10-20 | Album | [自白](</en/albums/dustcell/自白-1587649555>) |
+| 2022-08-31 | Album | [Hypnotize](</en/albums/dustcell/Hypnotize-1637382530>) |
+| 2023-03-29 | Album | [ROUND TRIP](</en/albums/dustcell/ROUND-TRIP-1676025466>) |
+| 2024-07-24 | Album | [光](</en/albums/dustcell/光-1755122020>) |
+| 2025-12-10 | Album | [碧い海](</en/albums/dustcell/碧い海-1853446220>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2020-09-15 | [PAIN](</en/songs/dustcell/originals/pain>) |
+| 2021-04-09 | [命の行方](</en/songs/dustcell/originals/命no行方>) |
+| 2021-06-22 | [独白](</en/songs/dustcell/originals/独白>) |
+| 2021-07-27 | [TOUBOU](</en/songs/dustcell/originals/toubou>) |
+| 2021-10-19 | [DERO](</en/songs/dustcell/originals/dero>) |
+| 2021-10-19 | [Mad Hatter](</en/songs/dustcell/originals/mad-hatter>) |
+| 2022-02-08 | [独白(カンザキイオリ Remix)](</en/songs/dustcell/originals/独白-kanzakiiori-remix>) |
+| 2022-05-31 | [足りない](</en/songs/dustcell/originals/足rinai>) |
+| 2022-07-19 | [Void](</en/songs/dustcell/originals/void>) |
+| 2023-01-26 | [ANTIHERO](</en/songs/dustcell/originals/antihero>) |
+| 2023-02-21 | [オルターエゴ](</en/songs/dustcell/originals/orutaaego>) |
+| 2023-05-16 | [Caffeine](</en/songs/dustcell/originals/caffeine>) |
+| 2023-10-03 | [フラッシュバック](</en/songs/dustcell/originals/furasshubakku>) |
+| 2024-04-23 | [可笑しな生き物](</en/songs/dustcell/originals/可笑shina生ki物>) |
+| 2024-06-25 | [Nighthawk (feat. たなか)](</en/songs/dustcell/originals/nighthawk-feat.-tanaka>) |
+| 2024-10-08 | [表情差分](</en/songs/dustcell/originals/表情差分>) |
+| 2024-12-10 | [NO PAIN](</en/songs/dustcell/originals/no-pain>) |
+| 2025-01-01 | [畢竟](</en/songs/dustcell/originals/畢竟>) |
+| 2025-02-18 | [心臓](</en/songs/dustcell/originals/心臓>) |
+| 2025-02-25 | [SCAPEGOAT](</en/songs/dustcell/originals/scapegoat>) |
+| 2025-07-15 | [灯火](</en/songs/dustcell/originals/灯火>) |
+| 2026-07-14 | [Gimme That!](</en/songs/dustcell/originals/gimme-that>) |
+
+{{/details}}
+
 ## References
 
 - DUSTCELL official YouTube, social accounts, and published works.

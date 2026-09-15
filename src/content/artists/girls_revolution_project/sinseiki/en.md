@@ -47,9 +47,36 @@ The unit is characterized by “heart-generation music” that crosses the bound
 
 ## Selected Works
 
-- Album: “改変 -心-”
-- Singles: “[フェイクナイト・シンデレラ](/en/songs/sinseiki/originals/fake-night-cinderella)”, “[ココロト](/en/songs/sinseiki/originals/kokoroto)”, “[Ephemeral](/en/songs/sinseiki/originals/ephemeral)”, “[雑几帖](/en/songs/sinseiki/originals/zatsukichou)”, etc.
-- Dual-unit songs: “[改変](/en/songs/grp/originals/kaihen)”, “[主人行路](/en/songs/grp/originals/shujin-kouro)”, “[鈍色幻灯](/en/songs/grp/originals/nibiiro-gentou)”, “[現世回帰](/en/songs/grp/originals/gense-kaiki)”
+{{details::Expand full albums and EPs}}
+
+**Albums & EPs**
+
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2025-10-29 | Album | [改変 -心-](</en/albums/sinseiki/kaihen-kokoro>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2024-09-18 | [パーフェクション (feat. 御莉姫, 佳鏡院, 硝子宮 & 小島 英也)](</en/songs/sinseiki/originals/perfection>) |
+| 2025-01-22 | [Ephemeral (feat. 御莉姫, 佳鏡院 & 硝子宮)](</en/songs/sinseiki/originals/ephemeral>) |
+| 2025-02-26 | [ココロト (feat. Toa)](</en/songs/sinseiki/originals/kokoroto>) |
+| 2025-04-02 | [うそ鳴き (feat. 御莉姫, 佳鏡院 & GARASUMIYA)](</en/songs/sinseiki/originals/usonaki>) |
+| 2025-10-29 | [改変 -心- (feat. たなか & LLLL)](</en/songs/sinseiki/originals/kaihen-kokoro>) |
+| 2025-10-29 | [FantastiQ (feat. Hideya Kojima)](</en/songs/sinseiki/originals/fantasti-q>) |
+| 2025-10-29 | [いずれ僕は溶けて (feat. Purukichi)](</en/songs/sinseiki/originals/izure-boku-wa-tokete>) |
+| 2025-10-29 | [コントラスト (feat. 矢野達也)](</en/songs/sinseiki/originals/contrast>) |
+| 2025-10-29 | [ミリオン・コンプレクシティ](</en/songs/sinseiki/originals/million-complexity>) |
+| 2025-10-29 | [ロストオービット (feat. shikisai)](</en/songs/sinseiki/originals/lost-orbit>) |
+| 2026-02-20 | [雑几帖](</en/songs/sinseiki/originals/zatsukichou>) |
+| 2026-04-01 | [フェイクナイト・シンデレラ (KAIHEN Live ver.)](</en/songs/sinseiki/originals/fake-night-cinderella>) |
+
+{{/details}}
 
 ## External Links
 

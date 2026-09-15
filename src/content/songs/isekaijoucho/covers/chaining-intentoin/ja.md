@@ -14,12 +14,11 @@ categoryOrder: 20
 itemOrder: 54
 code: "archive-candy-live-06"
 image: /images/albums/isekaijoucho/candy-live.jpg
-contentStatus: stub
 ---
 
 ## 作品概要
 
-「Chaining Intentoin」は『[CANDY LIVE](/ja/albums/isekaijoucho/candy-live)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「Chaining Intentoin」は[ヰ世界情緒](/ja/artists/vwp/isekaijoucho)が2020年12月26日に開催したストリーミングカバーライブ「キャンディライブ」でのカバー音源で、Cover Live Album『[CANDY LIVE](/ja/albums/isekaijoucho/candy-live)』（2021年3月31日リリース）に収録されています。このページはライブ録音バージョン単位で作成しています。原曲の作詞作曲は公式または原曲リリース情報を優先します。
 
 ## 歌詞
 

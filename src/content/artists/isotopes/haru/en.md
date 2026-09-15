@@ -87,13 +87,44 @@ In terms of vocal performance, HARU features crisp pronunciation and excels in r
 
 ## Representative Works and Related Entries
 
-HARU is highly regarded among online creators as a virtual rapper, utilized in rap-heavy and high-tempo electronic-pop tracks.
+{{details::Expand full albums and EPs}}
 
-Recommended related entries:
+**Albums & EPs**
 
-- [HARUSARUHI](/en/artists/vwp/harusaruhi)
-- [KAFU](/en/artists/isotopes/kafu)
-- [SEKAI](/en/artists/isotopes/sekai)
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2024-09-18 | Album | [制定のオーバーラップ](</en/albums/haru/制定のオーバーラップ-1766443053>) |
+| 2024-10-16 | Album | [対峙のオーバーラップ](</en/albums/haru/対峙のオーバーラップ-1772594213>) |
+| 2024-10-30 | Album | [結尾のオーバーラップ](</en/albums/haru/結尾のオーバーラップ-1774456144>) |
+| 2026-04-26 | EP | [ビビッド](</en/albums/haru/ビビッド-1889096773>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 1997-11-26 | [promise](</en/songs/haru/originals/promise>) |
+| 2013-04-28 | [思い出の帰り道](</en/songs/haru/originals/思i出no帰ri道>) |
+| 2016-01-26 | [小さな冒険](</en/songs/haru/originals/小sana冒険>) |
+| 2024-03-27 | [Follow Me Now!](</en/songs/haru/originals/follow-me-now>) |
+| 2024-05-26 | [送り雨道](</en/songs/haru/originals/送ri雨道>) |
+| 2024-06-27 | [拒絶反応 feat. 羽累](</en/songs/haru/originals/拒絶反応-feat.-羽累>) |
+| 2024-08-31 | [ヒットパレル](</en/songs/haru/originals/hittopareru>) |
+| 2024-10-16 | [ロースピードフェイクリリック](</en/songs/haru/originals/low-speed-fake-lyric>) |
+| 2024-10-25 | [バーナリゼーション](</en/songs/haru/originals/baanarizeeshon>) |
+| 2024-11-26 | [ラジオヒーロー](</en/songs/haru/originals/rajiohiiroo>) |
+| 2025-02-20 | [過去を刺す](</en/songs/haru/originals/過去wo刺su>) |
+| 2025-06-26 | [光速セオリー](</en/songs/haru/originals/光速seorii>) |
+| 2025-06-29 | [森の中のピアノ](</en/songs/haru/originals/森no中nopiano>) |
+| 2025-07-01 | [夢のステップ](</en/songs/haru/originals/夢nosuteppu>) |
+| 2025-08-31 | [ゾンビフラッカ](</en/songs/haru/originals/zonbifurakka>) |
+| 2026-07-29 | [meguru](</en/songs/haru/originals/meguru>) |
+| 2026-07-31 | [森の夕暮れのピアノ](</en/songs/haru/originals/森no夕暮renopiano>) |
+
+{{/details}}
 
 ## Basic Profile and Character Setting
 

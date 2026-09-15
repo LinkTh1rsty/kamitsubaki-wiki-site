@@ -89,7 +89,7 @@
 .labs-practice .labs-practice-line { font-size: clamp(1.1rem,2vw,1.375rem); line-height: 2.2; padding: 1.5rem 0 .75rem; overflow-wrap: anywhere; }
 .labs-practice-line .lyric-line { display: grid; gap: .875rem; }
 .labs-practice-line :is(.cn-lyric,.trans-lyric) { font-size: .875rem; line-height: 1.85; color: var(--personal-muted); }
-.labs-practice-line ruby { ruby-align: center; }
+.labs-practice-line ruby { ruby-align: center; white-space: nowrap; }
 .labs-practice-line rt { font-size: .55em; color: var(--personal-muted); }
 .labs-practice[data-hints='none'] rt, .labs-practice[data-hints='kana'] rt.roma, .labs-practice[data-hints='romaji'] rt.furi { display: none; }
 .labs-practice[data-translation='hide'] :is(.cn-lyric,.trans-lyric) { display: none; }

@@ -120,6 +120,35 @@ LOLUET's character design is by Kei Mochizuki. Speculation about former identiti
 
 LOLUET's history has a clear boundary: before March 31, 2023 she worked under her own name, and afterwards she entered KAMITSUBAKI STUDIO's artist network. Catalogue entries should preserve that distinction while linking the personal, Kamitsubaki, and collaboration phases.
 
+## Representative Works and Related Entries
+
+{{details::Expand full albums and EPs}}
+
+**Albums & EPs**
+
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2025-03-19 | Album | [stream](</en/albums/loluet/stream-1799863545>) |
+| 2026-02-25 | EP | [空想](</en/albums/loluet/空想-1873244105>) |
+| 2026-02-25 | EP | [迷路](</en/albums/loluet/迷路-1872932511>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2015-10-11 | [ハネムーン feat. 理芽](</en/songs/loluet/originals/hanemuun-feat.-理芽>) |
+| 2024-11-19 | [crack](</en/songs/loluet/originals/crack>) |
+| 2025-01-21 | [アイ](</en/songs/loluet/originals/ai>) |
+| 2025-09-09 | [ドレス](</en/songs/loluet/originals/doresu>) |
+| 2026-02-24 | [スプートニク](</en/songs/loluet/originals/supuutoniku>) |
+| 2026-07-21 | [双生コンフリクト feat. ヰ世界情緒](</en/songs/loluet/originals/双生konfurikuto-feat.-wi世界情緒>) |
+
+{{/details}}
+
 ## References
 
 - LOLUET official YouTube and published activity records.

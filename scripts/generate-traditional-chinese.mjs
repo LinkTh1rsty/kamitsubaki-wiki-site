@@ -102,12 +102,59 @@ function serializeGeneratedMarkdown(data, body, locale) {
   return `---\n${frontmatter}\n---\n\n${generatedMarker}\n\n${convertedBody}\n`;
 }
 
+async function loadJapaneseWorkTitles(sourcePath) {
+  const jaPath = join(sourcePath.slice(0, -'zh.md'.length), 'ja.md');
+  if (!(await pathExists(jaPath))) return new Set();
+
+  try {
+    const { data } = parseMarkdownDocument(await readFile(jaPath, 'utf8'), jaPath);
+    const titles = new Set();
+    if (typeof data?.title === 'string' && data.title) titles.add(data.title.normalize('NFC'));
+    if (Array.isArray(data?.tracks)) {
+      for (const track of data.tracks) {
+        if (typeof track?.title === 'string' && track.title) {
+          titles.add(track.title.normalize('NFC'));
+        }
+      }
+    }
+    return titles;
+  } catch {
+    return new Set();
+  }
+}
+
+function restoreJapaneseWorkTitles(source, converted, japaneseTitles) {
+  if (!japaneseTitles.size) return converted;
+  if (Array.isArray(source) && Array.isArray(converted)) {
+    return converted.map((item, index) => restoreJapaneseWorkTitles(source[index], item, japaneseTitles));
+  }
+  if (!source || typeof source !== 'object' || !converted || typeof converted !== 'object') {
+    return converted;
+  }
+
+  return Object.fromEntries(
+    Object.entries(converted).map(([key, item]) => {
+      const original = source[key];
+      if (
+        key === 'title'
+        && typeof original === 'string'
+        && typeof item === 'string'
+        && japaneseTitles.has(original.normalize('NFC'))
+      ) {
+        return [key, original];
+      }
+      return [key, restoreJapaneseWorkTitles(original, item, japaneseTitles)];
+    }),
+  );
+}
+
 async function generateMarkdownFiles(sourceFiles) {
   let generatedCount = 0;
 
   for (const sourcePath of sourceFiles) {
     const source = await readFile(sourcePath, 'utf8');
     const { data, body } = parseMarkdownDocument(source, sourcePath);
+    const japaneseTitles = await loadJapaneseWorkTitles(sourcePath);
 
     for (const locale of targetLocales) {
       const targetPath = join(sourcePath.slice(0, -'zh.md'.length), `${locale}.md`);
@@ -116,7 +163,11 @@ async function generateMarkdownFiles(sourceFiles) {
         continue;
       }
 
-      const convertedData = convertChineseContentValue(data, locale);
+      const convertedData = restoreJapaneseWorkTitles(
+        data,
+        convertChineseContentValue(data, locale),
+        japaneseTitles,
+      );
       await writeFile(
         targetPath,
         serializeGeneratedMarkdown(convertedData, body, locale),

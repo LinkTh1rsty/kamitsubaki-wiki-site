@@ -128,3 +128,29 @@ CeVIO AIプラットフォーム上で動作し、日本語の「狐子（ここ
 - [音楽的同位体 公式サイト](https://musical-isotope.kamitsubaki.jp/)
 - [音楽的同位体 公式 X (Twitter)](https://twitter.com/musicalisotope)
 - [音楽的同位体 公式 YouTubeチャンネル](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
+
+## 代表作品と関連項目
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2015-10-11 | [スカイライン (feat. 狐子)](</ja/songs/coko/originals/sukairain-feat.-狐子>) |
+| 2015-10-11 | [てやんでいっ! (feat. 狐子)](</ja/songs/coko/originals/teyandei-feat.-狐子>) |
+| 2020-05-24 | [Ballerina (feat. Lil wick)](</ja/songs/coko/originals/ballerina-feat.-lil-wick>) |
+| 2021-06-19 | [KiLLer TuNe (feat. 狐子)](</ja/songs/coko/originals/killer-tune-feat.-狐子>) |
+| 2023-03-26 | [心の傘](</ja/songs/coko/originals/心no傘>) |
+| 2023-11-27 | [FAKE](</ja/songs/coko/originals/fake>) |
+| 2024-03-14 | [ギフテッド・ギミック](</ja/songs/coko/originals/gifuteddo-gimikku>) |
+| 2024-12-10 | [おぼえてろ](</ja/songs/coko/originals/oboetero>) |
+| 2024-12-10 | [キツネガミ](</ja/songs/coko/originals/kitsunegami>) |
+| 2025-02-28 | [NEVERMIND NEVERLAND](</ja/songs/coko/originals/nevermind-neverland>) |
+| 2025-11-14 | [消えてしまいたい夜に](</ja/songs/coko/originals/消eteshimaitai夜ni>) |
+| 2026-01-28 | [Sugar-High](</ja/songs/coko/originals/sugar-high>) |
+| 2026-04-29 | [神羅 (feat. ゆうゆ)](</ja/songs/coko/originals/神羅-feat.-yuuyu>) |
+| 2026-05-26 | [TOKYO MIDNIGHT FANTASY](</ja/songs/coko/originals/tokyo-midnight-fantasy>) |
+
+{{/details}}
+

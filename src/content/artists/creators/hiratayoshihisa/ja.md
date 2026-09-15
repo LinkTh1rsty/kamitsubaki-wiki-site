@@ -60,16 +60,37 @@ seo:
 
 UTAU 音源「劇薬」の活用は、ボカロ / UTAU クリエイターとの接点を生みつつ、マルチジャンルアーティストとしての独自性を保つための重要な要素となっている。
 
-
 ## 代表作品
 
-- 「[夜に暇電](/ja/songs/hiratayoshihisa/originals/夜ni暇電)」
-- 「[日本の夜](/ja/albums/hiratayoshihisa/日本の夜-1820372816)」-- フルアルバム
-- 「渇愛論II」
-- 「[トーキョー・コーリング](/ja/songs/hiratayoshihisa/originals/tookyoo-kooringu)」
-- 「[夏至下る](/ja/songs/hiratayoshihisa/originals/夏至下ru)」
-- 「[飛燕](/ja/songs/hiratayoshihisa/originals/飛燕)」
+{{details::アルバムとEPの一覧を開く}}
 
+**アルバム / EP**
+
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2018-06-13 | Album | [All in this summer LP](</ja/albums/hiratayoshihisa/All-in-this-summer-LP-1389788816>) |
+| 2019-04-28 | Album | [Hit The Floor L.P.](</ja/albums/hiratayoshihisa/Hit-The-Floor-L.P.-1460365637>) |
+| 2025-07-09 | Album | [日本の夜](</ja/albums/hiratayoshihisa/日本の夜-1820372816>) |
+
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2015-10-11 | [ナイトドライバー (feat. JOLNO)](</ja/songs/hiratayoshihisa/originals/naitodoraibaa-feat.-jolno>) |
+| 2022-01-07 | [アヤカシライダー](</ja/songs/hiratayoshihisa/originals/ayakashiraidaa>) |
+| 2022-01-28 | [バケモノバッター](</ja/songs/hiratayoshihisa/originals/bakemonobattaa>) |
+| 2022-07-21 | [日本の夏 (feat. 七滝今 & 梓川)](</ja/songs/hiratayoshihisa/originals/日本no夏-feat.-七滝今-&-梓川>) |
+| 2022-09-13 | [飛燕](</ja/songs/hiratayoshihisa/originals/飛燕>) |
+| 2023-05-09 | [夏至下る](</ja/songs/hiratayoshihisa/originals/夏至下ru>) |
+| 2024-02-06 | [トーキョー・コーリング](</ja/songs/hiratayoshihisa/originals/tookyoo-kooringu>) |
+| 2024-11-26 | [渇愛論II(梓川版) [feat. Azsagawa]](</ja/songs/hiratayoshihisa/originals/渇愛論ii-梓川版-feat.-azsagawa>) |
+| 2026-06-16 | [夜に暇電](</ja/songs/hiratayoshihisa/originals/夜ni暇電>) |
+
+{{/details}}
 
 ## 外部リンク
 

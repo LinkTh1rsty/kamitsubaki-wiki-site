@@ -12,6 +12,10 @@ export function renderInlineShortcode(name, args) {
     return { type: 'text', value: args[0] };
   }
 
+  if (name === 'ja' && args.length === 1 && args[0]) {
+    return `<span lang="ja">${escapeHtml(args[0])}</span>`;
+  }
+
   const safe = args.map(escapeHtml);
   if (name === 'ruby' && (safe.length === 2 || safe.length === 3) && safe.every(Boolean)) {
     if (safe.length === 3) {

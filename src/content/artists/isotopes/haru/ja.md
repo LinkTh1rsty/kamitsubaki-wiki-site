@@ -124,3 +124,45 @@ CeVIO AIプラットフォーム上で動作し、名前の「HARU」は春猿�
 - [音楽的同位体 公式サイト](https://musical-isotope.kamitsubaki.jp/)
 - [音楽的同位体 公式 X (Twitter)](https://twitter.com/musicalisotope)
 - [音楽的同位体 公式 YouTubeチャンネル](https://www.youtube.com/channel/UCm_1n9F3A6pz-Ms2NP93tBA)
+
+## 代表作品と関連項目
+
+{{details::アルバムとEPの一覧を開く}}
+
+**アルバム / EP**
+
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2024-09-18 | Album | [制定のオーバーラップ](</ja/albums/haru/制定のオーバーラップ-1766443053>) |
+| 2024-10-16 | Album | [対峙のオーバーラップ](</ja/albums/haru/対峙のオーバーラップ-1772594213>) |
+| 2024-10-30 | Album | [結尾のオーバーラップ](</ja/albums/haru/結尾のオーバーラップ-1774456144>) |
+| 2026-04-26 | EP | [ビビッド](</ja/albums/haru/ビビッド-1889096773>) |
+
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 1997-11-26 | [promise](</ja/songs/haru/originals/promise>) |
+| 2013-04-28 | [思い出の帰り道](</ja/songs/haru/originals/思i出no帰ri道>) |
+| 2016-01-26 | [小さな冒険](</ja/songs/haru/originals/小sana冒険>) |
+| 2024-03-27 | [Follow Me Now!](</ja/songs/haru/originals/follow-me-now>) |
+| 2024-05-26 | [送り雨道](</ja/songs/haru/originals/送ri雨道>) |
+| 2024-06-27 | [拒絶反応 feat. 羽累](</ja/songs/haru/originals/拒絶反応-feat.-羽累>) |
+| 2024-08-31 | [ヒットパレル](</ja/songs/haru/originals/hittopareru>) |
+| 2024-10-16 | [ロースピードフェイクリリック](</ja/songs/haru/originals/low-speed-fake-lyric>) |
+| 2024-10-25 | [バーナリゼーション](</ja/songs/haru/originals/baanarizeeshon>) |
+| 2024-11-26 | [ラジオヒーロー](</ja/songs/haru/originals/rajiohiiroo>) |
+| 2025-02-20 | [過去を刺す](</ja/songs/haru/originals/過去wo刺su>) |
+| 2025-06-26 | [光速セオリー](</ja/songs/haru/originals/光速seorii>) |
+| 2025-06-29 | [森の中のピアノ](</ja/songs/haru/originals/森no中nopiano>) |
+| 2025-07-01 | [夢のステップ](</ja/songs/haru/originals/夢nosuteppu>) |
+| 2025-08-31 | [ゾンビフラッカ](</ja/songs/haru/originals/zonbifurakka>) |
+| 2026-07-29 | [meguru](</ja/songs/haru/originals/meguru>) |
+| 2026-07-31 | [森の夕暮れのピアノ](</ja/songs/haru/originals/森no夕暮renopiano>) |
+
+{{/details}}
+

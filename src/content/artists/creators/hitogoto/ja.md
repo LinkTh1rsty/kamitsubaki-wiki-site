@@ -55,13 +55,11 @@ seo:
 
 2022 年春の The VOCALOID Collection では、約 2,800 曲の応募の中からルーキーランキング 8 位にランクインし、大きな注目を集めた。イラストは神多洋氏が担当し、楽曲の情感を視覚的にも表現している。
 
-
 ## 役割と創作上の位置づけ
 
 ヒトゴトの強みは、心に深く刺さる歌詞と記憶に残るメロディにある。アレンジ面でも複数のジャンルにわたる柔軟さを見せつつ、一貫した emotional な核がユニットのアイデンティティを支えている。
 
 自作品の制作だけでなく、楽曲提供にも実績があり、[V.W.P](/ja/artists/vwp/vwp)、罪と罰、Muse Dash などのプロジェクトへ作詞・作曲・編曲を提供している。
-
 
 ## 活動歴
 
@@ -76,20 +74,24 @@ seo:
 
 ## 代表作品と関連項目
 
-- 「弔花」-- 罪と罰への楽曲提供（作詞 / 作曲 / 編曲）
-- 「真偽」-- V.W.P への楽曲提供（作詞 / 作曲）
-- 「信仰と存在」-- Muse Dash への楽曲提供（300 万回再生超）
-- ボカロオリジナル楽曲およびセルフカバー
+{{details::シングル一覧を開く}}
 
-あわせて読むとつながりが見えやすい項目：
+**シングル**
 
-- [tokiwa](/ja/artists/creators/tokiwa)
+| リリース日 | タイトル |
+| --- | --- |
+| 2022-04-22 | [神を偽った悪魔へ【始】](</ja/songs/hitogoto/originals/神wo偽tta悪魔he-始>) |
+| 2022-08-12 | [信仰と存在 (feat. 否)](</ja/songs/hitogoto/originals/信仰to存在-feat.-否>) |
+| 2023-11-24 | [アイアンメーデー (feat. ねね)](</ja/songs/hitogoto/originals/aianmeedee-feat.-nene>) |
+| 2024-02-22 | [箱庭の果実【始】 (feat. ねね)](</ja/songs/hitogoto/originals/箱庭no果実-始-feat.-nene>) |
+| 2025-04-10 | [偶像と悪魔 (feat. 70D)](</ja/songs/hitogoto/originals/偶像to悪魔-feat.-70d>) |
+| 2025-06-06 | [偶像と悪魔 (feat. Gurni.)](</ja/songs/hitogoto/originals/偶像to悪魔-feat.-gurni>) |
 
+{{/details}}
 
 ## 参考資料
 
 - ヒトゴト Twitter：<https://twitter.com/hito_go_to_7>
-
 
 ## 外部リンク
 

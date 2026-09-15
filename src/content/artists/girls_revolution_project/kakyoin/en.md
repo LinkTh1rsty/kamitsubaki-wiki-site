@@ -107,6 +107,22 @@ Kakyoin is a cross-dimensional streamer (Xtuber) who began her activities on Aug
 | October 29, 2025  |               FantastiQ               |     Pon      | HIDEYA KOJIMA |                                   @[apple-music](https://embed.music.apple.com/cn/song/fantastiq-feat-hideya-kojima/1842289627)                                   |
 | October 29, 2025  |      [改変 -心-](/en/albums/sinseiki/kaihen-kokoro) (Alteration -Shin-)       |    Tanaka    | Tanaka, LLLL  |                @[apple-music](https://embed.music.apple.com/cn/song/%E6%94%B9%E5%A4%89-%E5%BF%83-feat-%E3%81%9F%E3%81%AA%E3%81%8B-llll/1842289629)                |
 | February 20, 2026  |            [雑几帖](/en/songs/sinseiki/originals/zatsukichou) (Zakkichou)            | Tatsuya Yano | Tatsuya Yano  |                                                                               @[youtube](https://www.youtube.com/embed/XhXkkh_4cVs?si=WVor92d2H8x5MgKF)                                                                                |
+## Representative Works and Related Entries
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2024-10-23 | [夢の揺籠 (feat. Wiz_nicc)](</en/songs/kakyoin/originals/yume-no-yurikago>) |
+| 2024-12-11 | [宇宙逃避行 (feat. MIMI)](</en/songs/kakyoin/originals/uchu-touhikou>) |
+| 2025-02-12 | [シネマティック](</en/songs/kakyoin/originals/cinematic>) |
+| 2025-03-19 | [キリガサガリキ](</en/songs/kakyoin/originals/kirigasa-gariki>) |
+| 2025-11-12 | [月へゆく (feat. タマ)](</en/songs/kakyoin/originals/tsuki-e-yuku>) |
+
+{{/details}}
+
 ## External Links
 
 - [KAMITSUBAKI STUDIO Official Site](https://kamitsubaki.jp/artist/sinseiki/)

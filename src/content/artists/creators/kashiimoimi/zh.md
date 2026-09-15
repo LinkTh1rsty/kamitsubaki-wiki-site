@@ -54,28 +54,52 @@ seo:
 
 原隶属 ANARCHIC RECORD 厂牌（2026年9月随 THINKR 工作室重组移籍 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)），香椎モイミ在出道后约两年内发布了约 30 首作品。代表作「[キャットラビング](/zh/songs/kashiimoimi/originals/kyattorabingu)」（Cat Loving）播放量超过 2,400 万，「偏食」（Henshoku）播放量超过 200 万，使她成为厂牌中商业成绩最为突出的创作者之一。
 
-
 ## 角色与创作定位
 
 香椎モイミ的创作以暗色迷幻的旋律钩子和情感充沛的叙事性为核心特征。她擅长在钢琴抒情曲的亲密感与电子舞曲的跃动感之间自如切换，这种跨风格的融合赋予了她作品独特的辨识度。歌词中交织的女性视角，以脆弱与坦诚的并存深深打动听众。
 
 旺盛的创作力与稳定的品质使她成为 ANARCHIC RECORD 不可或缺的核心成员。
 
-
 ## 代表作品
 
-- 「キャットラビング」（Cat Loving）-- 2,400 万+ 播放
-- 「偏食」（Henshoku）-- 200 万+ 播放
-- 「[管理欲](/zh/songs/kashiimoimi/originals/管理欲)」
-- 「[ブルーヒーロー](/zh/songs/kashiimoimi/originals/buruuhiiroo)」（Blue Hero）
-- 「[あくむのひかり](/zh/songs/kashiimoimi/originals/akumunohikari)」
-- 「[飛翔](/zh/songs/kashiimoimi/originals/飛翔)」
-- 「[失踪前夜](/zh/songs/kashiimoimi/originals/失踪前夜)」
-- 「[バッドエンドメーカー](/zh/songs/kashiimoimi/originals/baddoendomeekaa)」（Bad End Maker）
-- 「[Human-Like](/zh/songs/kashiimoimi/originals/human-like)」
-- 「[ワンダーランド地下](/zh/songs/kashiimoimi/originals/wandaarando地下)」
-- 「[蜂蜜日記](/zh/songs/kashiimoimi/originals/蜂蜜日記)」
+{{details::展开完整专辑与 EP 目录}}
 
+**专辑与 EP**
+
+| 发行日期 | 类型 | 标题 |
+| --- | --- | --- |
+| 2020-08-03 | Album | [渇愛](</zh/albums/kashiimoimi/渇愛-1525996939>) |
+| 2023-02-08 | Album | [偏愛](</zh/albums/kashiimoimi/偏愛-1667770496>) |
+
+{{/details}}
+
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2019-11-06 | [Sweet for You](</zh/songs/kashiimoimi/originals/sweet-for-you>) |
+| 2020-02-13 | [花色 (feat. KAITO)](</zh/songs/kashiimoimi/originals/花色-feat.-kaito>) |
+| 2022-07-12 | [キャットラビング](</zh/songs/kashiimoimi/originals/kyattorabingu>) |
+| 2022-07-19 | [FLASH (feat. KAITO)](</zh/songs/kashiimoimi/originals/flash-feat.-kaito>) |
+| 2023-04-04 | [Makeup](</zh/songs/kashiimoimi/originals/makeup>) |
+| 2023-09-19 | [バッドエンドメーカー](</zh/songs/kashiimoimi/originals/baddoendomeekaa>) |
+| 2023-12-05 | [失踪前夜](</zh/songs/kashiimoimi/originals/失踪前夜>) |
+| 2024-03-19 | [Human-Like](</zh/songs/kashiimoimi/originals/human-like>) |
+| 2024-05-14 | [ワンダーランド地下](</zh/songs/kashiimoimi/originals/wandaarando地下>) |
+| 2024-05-21 | [蜂蜜日記](</zh/songs/kashiimoimi/originals/蜂蜜日記>) |
+| 2024-10-15 | [海蛍](</zh/songs/kashiimoimi/originals/海蛍>) |
+| 2024-10-22 | [紫色の向日葵](</zh/songs/kashiimoimi/originals/紫色no向日葵>) |
+| 2025-02-11 | [躁転彼女](</zh/songs/kashiimoimi/originals/躁転彼女>) |
+| 2025-03-18 | [葡萄色陶酔](</zh/songs/kashiimoimi/originals/葡萄色陶酔>) |
+| 2025-06-11 | [オールセーブチャレンジ](</zh/songs/kashiimoimi/originals/ooruseebucharenji>) |
+| 2025-07-15 | [飛翔](</zh/songs/kashiimoimi/originals/飛翔>) |
+| 2025-10-14 | [あくむのひかり](</zh/songs/kashiimoimi/originals/akumunohikari>) |
+| 2026-03-10 | [ブルーヒーロー](</zh/songs/kashiimoimi/originals/buruuhiiroo>) |
+| 2026-03-24 | [管理欲](</zh/songs/kashiimoimi/originals/管理欲>) |
+
+{{/details}}
 
 ## 活动历程与投稿统计
 
@@ -89,12 +113,10 @@ seo:
 
 代表曲包括《[キャットラビング](/zh/songs/kashiimoimi/originals/kyattorabingu)》《偏食》《[管理欲](/zh/songs/kashiimoimi/originals/管理欲)》《[ブルーヒーロー](/zh/songs/kashiimoimi/originals/buruuhiiroo)》《[あくむのひかり](/zh/songs/kashiimoimi/originals/akumunohikari)》《[飛翔](/zh/songs/kashiimoimi/originals/飛翔)》《[失踪前夜](/zh/songs/kashiimoimi/originals/失踪前夜)》《[バッドエンドメーカー](/zh/songs/kashiimoimi/originals/baddoendomeekaa)》《[Human-Like](/zh/songs/kashiimoimi/originals/human-like)》《[ワンダーランド地下](/zh/songs/kashiimoimi/originals/wandaarando地下)》《[蜂蜜日記](/zh/songs/kashiimoimi/originals/蜂蜜日記)》。专辑线索包括《[渇愛](/zh/albums/kashiimoimi/渇愛-1525996939)》和《[偏愛](/zh/albums/kashiimoimi/偏愛-1667770496)》；记录时应区分 VOCALOID / CeVIO 投稿、为神椿艺人供曲、翻唱示范和个人专辑。
 
-
 ## 参考资料
 
 - YouTube：<https://www.youtube.com/channel/UC9_8AXpxjjNl62HPhF5IAyg>
 - Twitter：<https://twitter.com/moi__moimi>
-
 
 ## 外部链接
 

@@ -76,15 +76,50 @@ As a member of KAMITSUBAKI CREATION, Guiano's activities extend beyond the virtu
 
 ## Representative Works and Related Entries
 
-- Singles: "Hana," "Watashi wa, Watashitachi wa," "Good Style"
-- EP: "Kachou Fuugetsu"
-- Collaborative album: *imagine* (with Rim)
-- Song provision: Myuk "Ai no Uta," "Arcana"
+{{details::Expand full albums and EPs}}
 
-Useful related entries:
+**Albums & EPs**
 
-- [Rim](/en/artists/vwp/rim)
-- [KAF](/en/artists/vwp/kaf)
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2019-11-27 | EP | [Love & Music -DISC2-](</en/albums/guiano/Love-&-Music-DISC2-1688154399>) |
+| 2020-03-13 | Album | [Love & Music -DISC1-](</en/albums/guiano/Love-&-Music-DISC1-1688519665>) |
+| 2020-08-12 | EP | [あの夏の記憶だけ](</en/albums/guiano/あの夏の記憶だけ-1688523952>) |
+| 2021-03-24 | Album | [A](</en/albums/guiano/A-1688521398>) |
+| 2023-04-29 | Album | [花鳥風月](</en/albums/guiano/花鳥風月-1688662053>) |
+| 2023-09-20 | Album | [imagine](</en/albums/guiano/imagine-1706455950>) |
+| 2024-12-11 | EP | [Save Me](</en/albums/guiano/Save-Me-1782045811>) |
+| 2025-05-28 | EP | [Hold Me Tight (yourself)](</en/albums/guiano/Hold-Me-Tight-yourself-1813089828>) |
+| 2026-01-28 | Album | [The Sky](</en/albums/guiano/The-Sky-1866810662>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2019-12-25 | [シャナ](</en/songs/guiano/originals/shana>) |
+| 2019-12-25 | [スーパーヒーロー](</en/songs/guiano/originals/suupaahiiroo>) |
+| 2021-03-23 | [法螺話(self cover)](</en/songs/guiano/originals/法螺話-self-cover>) |
+| 2021-04-29 | [Black Gold (feat. IA)](</en/songs/guiano/originals/black-gold-feat.-ia>) |
+| 2022-03-08 | [舞 feat. 理芽](</en/songs/guiano/originals/舞-feat.-理芽>) |
+| 2022-05-21 | [花](</en/songs/guiano/originals/花>) |
+| 2022-09-22 | [鳥](</en/songs/guiano/originals/鳥>) |
+| 2022-10-20 | [風](</en/songs/guiano/originals/風>) |
+| 2022-11-22 | [月](</en/songs/guiano/originals/月>) |
+| 2023-01-17 | [透過夏 (feat. RIM)](</en/songs/guiano/originals/透過夏-feat.-rim>) |
+| 2023-03-21 | [私は、私達は](</en/songs/guiano/originals/私ha私達ha>) |
+| 2023-09-19 | [法螺話 (with Guiano)](</en/songs/guiano/originals/法螺話-with-guiano>) |
+| 2024-03-26 | [Good Style](</en/songs/guiano/originals/good-style>) |
+| 2024-04-23 | [faker](</en/songs/guiano/originals/faker>) |
+| 2024-05-21 | [Da Ba Du](</en/songs/guiano/originals/da-ba-du>) |
+| 2024-10-29 | [星くずのうた](</en/songs/guiano/originals/星kuzunouta>) |
+| 2025-04-29 | [スーパーヒーロー (in 2025)](</en/songs/guiano/originals/suupaahiiroo-in-2025>) |
+| 2025-06-07 | [光線歌](</en/songs/guiano/originals/光線歌>) |
+
+{{/details}}
 
 ## References
 

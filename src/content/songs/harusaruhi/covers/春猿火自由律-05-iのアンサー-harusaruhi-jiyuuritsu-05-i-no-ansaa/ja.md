@@ -14,12 +14,11 @@ categoryOrder: 20
 itemOrder: 29
 code: "archive-cream-puff-live-16"
 image: /images/albums/harusaruhi/cream-puff-live.jpg
-contentStatus: stub
 ---
 
 ## 作品概要
 
-「[春猿火](/ja/artists/vwp/harusaruhi)自由律#05「iのアンサー」」は『[CREAM PUFF LIVE](/ja/albums/harusaruhi/cream-puff-live)』または関連する正式リリースに収録です。このページは録音バージョン単位で作成し、ライブ、リミックス、リアレンジ版を原曲と区別しています。
+「春猿火自由律#05「iのアンサー」」は[春猿火](/ja/artists/vwp/harusaruhi)のカバーライブ音源で、『[CREAM PUFF LIVE](/ja/albums/harusaruhi/cream-puff-live)』に収録されています。このページは当該録音バージョン単位で作成しています。原曲の作詞作曲は公式または原曲リリース情報を優先します。
 
 ## 歌詞
 

@@ -66,6 +66,31 @@ This approach fosters a community where fans and independent creators can produc
 
 For details on individual voice models (KAFU, SEKAI, etc.), see their respective dedicated entries.
 
+## Representative Works and Related Entries
+
+{{details::Expand full albums and EPs}}
+
+**Albums & EPs**
+
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2025-04-24 | Album | [あ行でかわいいミュージック](</en/albums/musical-isotope/あ行でかわいいミュージック-1810142549>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2023-11-12 | [辺獄エコノミカ](</en/songs/musical-isotope/originals/辺獄ekonomika>) |
+| 2024-10-30 | [泡沫幸福論](</en/songs/musical-isotope/originals/泡沫幸福論>) |
+| 2026-03-18 | [VIPエンジョイ (feat. アテナ)](</en/songs/musical-isotope/originals/vip-enjoy>) |
+| 2026-05-20 | [口移詩](</en/songs/musical-isotope/originals/口移詩>) |
+
+{{/details}}
+
 ## References
 
 - Musical Isotope official site: <https://musical-isotope.kamitsubaki.jp/>

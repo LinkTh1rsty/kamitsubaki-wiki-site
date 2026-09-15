@@ -29,6 +29,7 @@ test('renders fixed inline Wiki aliases without authored HTML', async () => {
 {{ruby::糸::いと}} {{ruby::間違::まちが::machiga}}
 {{spoiler::hidden}} {{mark::important}} {{abbr::V.W.P::Virtual Witch Phenomenon}}
 {{kbd::Ctrl+K}} H{{sub::2}}O x{{sup::2}} {{small::note}} {{time::today::2026-07-19}}
+{{ja::独白}}
   `);
 
   assert.match(rendered, /<ruby>糸<rt>いと<\/rt><\/ruby>/);
@@ -40,6 +41,7 @@ test('renders fixed inline Wiki aliases without authored HTML', async () => {
   assert.match(rendered, /H<sub>2<\/sub>O x<sup>2<\/sup>/);
   assert.match(rendered, /<small>note<\/small>/);
   assert.match(rendered, /<time datetime="2026-07-19">today<\/time>/);
+  assert.match(rendered, /<span lang="ja">独白<\/span>/);
 });
 
 test('renders the Simplified Chinese branch of a regional vocabulary override', async () => {

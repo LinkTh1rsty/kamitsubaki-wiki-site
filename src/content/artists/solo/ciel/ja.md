@@ -81,14 +81,37 @@ CIEL のキャラクター設定は「俯いていた少女が空を仰ぐ」と
 
 ## 代表作品と関連項目
 
-- シングル：「[眼裏の懐疑](/ja/songs/ciel/originals/眼裏no懐疑)」「[窓を開けて](/ja/songs/ciel/originals/窓wo開kete)」
-- 映像作品：[Rim](/ja/artists/vwp/rim) × [ヰ世界情緒](/ja/artists/vwp/isekaijoucho) TWO-MAN LIVE「[Singularity Live](/ja/albums/rim/singularity-live)」（CIEL 出演）
-- ユニットデビュー曲：「透明流星ラプソディ」（空爽名義）
+{{details::アルバムとEPの一覧を開く}}
 
-あわせて読むとつながりが見えやすい項目：
+**アルバム / EP**
 
-- [空爽 / KUUSOU](/ja/artists/solo/kuusou)
-- [Sooda](/ja/artists/creators/sooda)
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2023-02-15 | Live Album | [STRAWBERRY LIVE](</ja/albums/ciel/STRAWBERRY-LIVE-1669426651>) |
+| 2023-10-04 | Live Album | [STRAWBERRY LIVE 2](</ja/albums/ciel/STRAWBERRY-LIVE-2-1708546500>) |
+| 2023-12-13 | EP | [空想少女](</ja/albums/ciel/空想少女-1718887889>) |
+| 2024-07-24 | Album | [空想劇](</ja/albums/ciel/空想劇-1756276963>) |
+| 2026-03-04 | EP | [再晴](</ja/albums/ciel/再晴-1875196168>) |
+
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2022-03-29 | [馥郁の街](</ja/songs/ciel/originals/馥郁no街>) |
+| 2023-04-11 | [生活に落ちる](</ja/songs/ciel/originals/生活ni落chiru>) |
+| 2023-12-05 | [うわのそら](</ja/songs/ciel/originals/uwanosora>) |
+| 2024-07-23 | [少年漫画](</ja/songs/ciel/originals/少年漫画>) |
+| 2024-07-23 | [空より](</ja/songs/ciel/originals/空yori>) |
+| 2024-07-23 | [眼裏の懐疑](</ja/songs/ciel/originals/眼裏no懐疑>) |
+| 2024-07-23 | [窓を開けて](</ja/songs/ciel/originals/窓wo開kete>) |
+| 2025-09-23 | [常しなえ](</ja/songs/ciel/originals/常shinae>) |
+| 2026-05-12 | [君と旅風](</ja/songs/ciel/originals/君to旅風>) |
+
+{{/details}}
 
 ## 関連企画 / 関連設定
 

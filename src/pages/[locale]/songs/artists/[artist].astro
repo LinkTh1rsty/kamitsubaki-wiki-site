@@ -4,10 +4,14 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import MusicSubnav from '../../../../components/MusicSubnav.astro';
 import SiteFooter from '../../../../components/SiteFooter.astro';
 import SiteNav from '../../../../components/SiteNav.astro';
+import SongCatalogFilter from '../../../../components/SongCatalogFilter.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { foldCjkSearchText } from '../../../../lib/cjkSearch.mjs';
+import { collectFilterAlbums, collectFilterYears, extractYearFromDate } from '../../../../lib/catalogFilter.mjs';
 import { getLocalizedEntries, getLocalizedSite } from '../../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../../../lib/i18n.mjs';
 import { buildArtistSongCatalog } from '../../../../lib/musicCatalog.mjs';
+import { completenessTier, computeCompleteness } from '../../../../lib/entryCompleteness.mjs';
 
 export async function getStaticPaths() {
   const [allSongs, allArtists] = await Promise.all([
@@ -61,6 +65,24 @@ const copy = resolveLocaleCopy({
 }, localeCode);
 const accentColor = group.theme?.accentColor ?? '#d9dbe8';
 const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.theme?.surfaceColor ?? '#101117'}`;
+
+const filterCategories = categories.map((category) => ({
+  slug: category.slug,
+  title: category.slug === 'uncategorized' ? copy.uncategorized : category.title,
+}));
+const filterSongs = categories.flatMap((category) =>
+  category.entries.map((song) => ({
+    releaseDate: song.data.releaseDate,
+    album: song.data.album,
+  })),
+);
+const { years: filterYears, hasUnknown: hasUnknownYear } = collectFilterYears(filterSongs);
+const filterAlbums = collectFilterAlbums(filterSongs);
+const completenessTierNames = resolveLocaleCopy({
+  zh: { complete: '完整', good: '良好', brief: '简要', stub: '草稿' },
+  ja: { complete: '完備', good: '良好', brief: '概要', stub: '草稿' },
+  en: { complete: 'Complete', good: 'Good', brief: 'Brief', stub: 'Stub' },
+}, localeCode);
 ---
 
 <BaseLayout lang={localeCode} alternates={alternates} title={`${artistName} - Kamitsubaki Studio Fan Wiki`}>
@@ -101,18 +123,35 @@ const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.the
 
       <div class="mt-8"><MusicSubnav locale={localeCode} current="songs" /></div>
 
+      <SongCatalogFilter
+        locale={localeCode}
+        categories={filterCategories}
+        years={filterYears}
+        hasUnknownYear={hasUnknownYear}
+        albums={filterAlbums}
+        totalCount={group.entries.length}
+      />
+
       <nav class="category-jump mt-8 border-y border-white/10 py-4" aria-label={copy.browse}>
         <div class="flex items-center gap-5 overflow-x-auto pb-1 sm:gap-8">
           <span class="shrink-0 font-mono text-[9px] uppercase tracking-[0.2em] text-white/25">{copy.browse}</span>
           {categories.map((category, index) => (
-            <a href={`#${category.id}`} class="category-jump__link shrink-0 font-mono text-[10px] uppercase tracking-[0.16em] text-white/45 transition-colors hover:text-white">
+            <a href={`#${category.id}`} data-category-jump={category.slug} class="category-jump__link shrink-0 font-mono text-[10px] uppercase tracking-[0.16em] text-white/45 transition-colors hover:text-white">
               <span class="mr-2 text-white/20">{String(index + 1).padStart(2, '0')}</span>{category.title}
             </a>
           ))}
         </div>
       </nav>
 
-      <div class="mt-14 space-y-16 sm:space-y-20">
+      <p class="song-catalog-filter__empty mt-10 font-mono text-xs tracking-wide text-white/45" data-catalog-filter-empty hidden>
+        {resolveLocaleCopy({
+          zh: { empty: '没有符合当前筛选条件的歌曲。' },
+          ja: { empty: '条件に一致する楽曲がありません。' },
+          en: { empty: 'No songs match the current filters.' },
+        }, localeCode).empty}
+      </p>
+
+      <div class="catalog-category-list mt-14 space-y-16 sm:space-y-20">
         {categories.map((category, categoryIndex) => (
           <section id={category.id} class="catalog-category scroll-mt-28">
             <header class="mb-6 flex items-end justify-between gap-5 border-b border-white/10 pb-5">
@@ -126,11 +165,30 @@ const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.the
               <span class="shrink-0 font-mono text-[9px] uppercase tracking-[0.16em] text-white/30">{category.entries.length} {copy.songs}</span>
             </header>
 
-            <div class="grid gap-px bg-white/10 sm:grid-cols-2">
+            <div class="song-row-grid grid gap-px bg-white/10 sm:grid-cols-2">
               {category.entries.map((song, songIndex) => {
                 const songPath = song.id.split('/').slice(0, -1).join('/');
+                const titleFolded = foldCjkSearchText(song.data.title);
+                const albumFolded = foldCjkSearchText(song.data.album ?? '');
+                const composerFolded = foldCjkSearchText(song.data.composer ?? '');
+                const lyricistFolded = foldCjkSearchText(song.data.lyricist ?? '');
+                const searchText = [titleFolded, albumFolded, composerFolded, lyricistFolded]
+                  .filter(Boolean)
+                  .join(' ');
+                const songYear = extractYearFromDate(song.data.releaseDate);
                 return (
-                  <a href={`/${localeCode}/songs/${songPath}`} class="song-row group relative flex min-h-28 items-center gap-4 bg-[var(--theme-panel-solid)] p-4 transition-colors hover:bg-white/[0.045] sm:p-5">
+                  <a
+                    href={`/${localeCode}/songs/${songPath}`}
+                    class="song-row group relative flex min-h-28 items-center gap-4 bg-[var(--theme-panel-solid)] p-4 transition-colors hover:bg-white/[0.045] sm:p-5"
+                    data-song-row
+                    data-title={song.data.title}
+                    data-search-text={searchText}
+                    data-category={category.slug}
+                    data-release-date={song.data.releaseDate ?? ''}
+                    data-year={songYear ?? ''}
+                    data-album={song.data.album ?? ''}
+                    data-default-index={songIndex}
+                  >
                     <span class="absolute left-0 top-0 h-full w-px bg-[var(--catalog-accent)] opacity-0 transition-opacity group-hover:opacity-80"></span>
                     {song.data.image ?? group.cover ? (
                       <ResponsiveImage widths={[96, 192]} sizes="80px" src={song.data.image ?? group.cover} alt="" class="h-20 w-20 shrink-0 object-cover opacity-75 transition-opacity group-hover:opacity-100" loading="lazy" />
@@ -143,6 +201,18 @@ const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.the
                         {song.data.album ? `${copy.album}: ${song.data.album}` : song.data.releaseDate ? `${copy.released} ${song.data.releaseDate}` : artistName}
                       </span>
                     </span>
+                    {(() => {
+                      const completeness = computeCompleteness('songs', song.data);
+                      const tier = completenessTier(completeness.score);
+                      const badgeTitle = `${completeness.score} · ${completenessTierNames[tier]}`;
+                      return (
+                        <span
+                          class:list={['completeness-dot', `completeness-dot--${tier}`]}
+                          title={badgeTitle}
+                          aria-label={badgeTitle}
+                        ></span>
+                      );
+                    })()}
                     <span class="shrink-0 font-mono text-xs text-white/20 transition-transform group-hover:translate-x-1 group-hover:text-white/60" aria-hidden="true">→</span>
                   </a>
                 );
@@ -186,6 +256,19 @@ const pageStyle = `--catalog-accent:${accentColor};--catalog-surface:${group.the
     outline: 1px solid color-mix(in srgb, var(--catalog-accent) 72%, var(--theme-fg));
     outline-offset: 3px;
   }
+
+  .completeness-dot {
+    width: 0.45rem;
+    height: 0.45rem;
+    flex-shrink: 0;
+    border-radius: 9999px;
+    background: rgb(var(--theme-fg-rgb) / 0.28);
+  }
+
+  .completeness-dot--complete { background: rgb(74 222 128 / 0.75); }
+  .completeness-dot--good { background: rgb(125 211 252 / 0.7); }
+  .completeness-dot--brief { background: rgb(253 224 71 / 0.65); }
+  .completeness-dot--stub { background: rgb(252 165 165 / 0.65); }
 
   @media (min-width: 640px) {
     .catalog-hero {

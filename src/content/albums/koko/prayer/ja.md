@@ -60,7 +60,7 @@ tracks:
     number: "8"
     title: "レイヴン・フリージア"
     duration: "03:57"
-    songId: "koko/originals/レイヴン・フリージア-raven-freesia"
+    songId: "koko/originals/レイヴンフリージア-raven-freesia"
   -
     number: "9"
     title: "夜光を呼ぶ"

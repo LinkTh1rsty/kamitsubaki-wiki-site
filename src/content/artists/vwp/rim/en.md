@@ -120,13 +120,77 @@ She also stands out for singing across Japanese, English, and Korean material, w
 
 ## Representative Works and Related Entries
 
-- **Albums**: 1st *New Romancer* (2021), 2nd *New Romancer 2* (2023)
-- **Representative Songs**: "Carnivorous Plant", "Kanbi na Muho", "Jukugatsu", "Inner Child", "Eroim"
-- **Important Collaboration Lines**: Mao Sasagawa, [Guiano](/en/artists/creators/guiano)
-- **Cover Live Series**: *CHOCOLATE LIVE* series
+{{details::Expand full albums and EPs}}
 
-Related entry:
-- [Kamitsubaki City Under Construction](/en/projects/arg/kamitsubaki-city)
+**Albums & EPs**
+
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2021-03-24 | Live album | [CHOCOLATE LIVE](</en/albums/rim/chocolate-live>) |
+| 2021-07-21 | Studio album | [NEW ROMANCER](</en/albums/rim/new-romancer>) |
+| 2022-11-23 | Live album | [Singularity Live](</en/albums/rim/singularity-live>) |
+| 2023-09-20 | Studio album | [imagine](</en/albums/rim/imagine>) |
+| 2023-12-06 | Studio album | [NEW ROMANCER2](</en/albums/rim/new-romancer-2>) |
+| 2024-02-28 | Live album | [CHOCOLATE LIVE2](</en/albums/rim/chocolate-live-2>) |
+| 2025-04-23 | Live album | [CHOCOLATE LIVE3](</en/albums/rim/chocolate-live-3>) |
+| 2026-04-29 | Live album | [CHOCOLATE LIVE4](</en/albums/rim/chocolate-live-4>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2020-04-10 | [透過夏 (feat. RIM)](</en/songs/rim/originals/透過夏-i-think-of-summer>) |
+| 2020-07-01 | [クライベイビー](</en/songs/rim/originals/クライベイビー-cry-baby>) |
+| 2020-07-22 | [ユーエンミー](</en/songs/rim/originals/ユーエンミー-you-and-me>) |
+| 2020-08-11 | [食虫植物](</en/songs/rim/originals/食虫植物-carnivorous-plant>) |
+| 2020-09-02 | [ピロウトーク](</en/songs/rim/originals/ピロウトーク-pillow-talk>) |
+| 2020-09-30 | [Flowering (with Misumi)](</en/songs/rim/originals/flowering>) |
+| 2020-10-28 | [甘美な無法](</en/songs/rim/originals/甘美な無法-luscious-lawless>) |
+| 2021-01-20 | [法螺話 (with Guiano)](</en/songs/rim/originals/法螺話-tall-story>) |
+| 2021-04-28 | [胎児に月はキスをしない](</en/songs/rim/originals/胎児に月はキスをしない-the-moon-not-kiss-the-foetation>) |
+| 2021-06-09 | [十九月](</en/songs/rim/originals/十九月-juuku-gatsu>) |
+| 2021-07-21 | [宿木](</en/songs/rim/originals/宿木-mistletoe>) |
+| 2021-07-21 | [NEUROMANCE](</en/songs/rim/originals/neuromance>) |
+| 2021-07-21 | [いたいよ](</en/songs/rim/originals/いたいよ-it-hurts>) |
+| 2021-07-21 | [さみしいひと](</en/songs/rim/originals/さみしいひと-lonely>) |
+| 2021-07-21 | [やさしくしないで](</en/songs/rim/originals/やさしくしないで-dont-be-kind-to-me>) |
+| 2021-07-21 | [ラヴソング](</en/songs/rim/originals/ラヴソング-love-song>) |
+| 2022-03-09 | [舞 feat. 理芽](</en/songs/rim/originals/舞-mai>) |
+| 2022-04-27 | [ピルグリム](</en/songs/rim/originals/ピルグリム-pilgrim>) |
+| 2022-08-17 | [チクタクボーイ](</en/songs/rim/originals/チクタクボーイ-tick-tock-boy>) |
+| 2022-10-05 | [インナアチャイルド](</en/songs/rim/originals/インナアチャイルド-inner-child>) |
+| 2023-01-18 | [狂えない](</en/songs/rim/originals/狂えない-not-lunatic>) |
+| 2023-08-23 | [えろいむ](</en/songs/rim/originals/えろいむ-eloim>) |
+| 2023-09-20 | [人生は映画じゃない](</en/songs/rim/originals/人生は映画じゃない-life-isnt-a-movie>) |
+| 2023-09-20 | [言っちゃいけないことばっか浮かぶよな](</en/songs/rim/originals/言っちゃいけないことばっか浮かぶよな-only-the-unspoken-comes-to-mind>) |
+| 2023-09-20 | [空っぽなら、踊ろうぜ](</en/songs/rim/originals/空っぽなら-踊ろうぜ-lets-dance-if-were-empty>) |
+| 2023-09-20 | [絵画のように美しくいたかった](</en/songs/rim/originals/絵画のように美しくいたかった-wished-to-be-beautiful-as-a-painting>) |
+| 2023-09-20 | [詞を書く化物](</en/songs/rim/originals/詞を書く化物-the-beast-that-writes-lyrics>) |
+| 2023-09-20 | [傷は増え続ける、だけどそれでいい](</en/songs/rim/originals/傷は増え続ける-だけどそれでいい-the-wounds-keep-increasing-but-thats-okay>) |
+| 2023-09-20 | [想像して、創造して](</en/songs/rim/originals/想像して-創造して-imagine-invent>) |
+| 2023-09-20 | [いつもシミュレーション](</en/songs/rim/originals/いつもシミュレーション-always-a-simulation-in-my-mind>) |
+| 2023-11-01 | [ルフラン (feat. 笹川真生)](</en/songs/rim/originals/ルフラン-refrain-ルフラン>) |
+| 2023-11-01 | [ルフラン (feat. Mao Sasagawa)](</en/songs/rim/originals/ルフラン-re-flain-new-romancer2>) |
+| 2023-12-06 | [生きているより楽しそう](</en/songs/rim/originals/生きているより楽しそう-sounds-more-fun-than-living>) |
+| 2023-12-06 | [百年](</en/songs/rim/originals/百年-eons-whispered>) |
+| 2023-12-06 | [おしえてかみさま](</en/songs/rim/originals/おしえてかみさま-divine-delays>) |
+| 2023-12-06 | [デイネイ](</en/songs/rim/originals/デイネイ-muddy>) |
+| 2023-12-06 | [どくどく](</en/songs/rim/originals/どくどく-poisonus>) |
+| 2023-12-06 | [ファンファーレ](</en/songs/rim/originals/ファンファーレ-fanfare>) |
+| 2023-12-06 | [フロム天国 (feat. EMA)](</en/songs/rim/originals/フロム天国-from-heaven>) |
+| 2024-05-29 | [ハネムーン feat. 理芽](</en/songs/rim/originals/ハネムーン-honeymoon>) |
+| 2024-09-16 | [きみが大人になったんだ](</en/songs/rim/originals/きみが大人になったんだ-mutant-love>) |
+| 2024-11-27 | [アイノ最適解](</en/songs/rim/originals/アイノ最適解-the-answer-of-love>) |
+| 2025-07-30 | [閃光だった](</en/songs/rim/originals/閃光だった-insight>) |
+| 2025-10-15 | [ノマネ](</en/songs/rim/originals/ノマネ-no-money>) |
+| 2026-03-11 | [ぷれいや](</en/songs/rim/originals/ぷれいや-the-prayer-for-baby-blue>) |
+| 2026-08-19 | [ハウメニ](</en/songs/rim/originals/ハウメニ-how-many>) |
+
+{{/details}}
 
 ## Basic Profile and Character Setting
 

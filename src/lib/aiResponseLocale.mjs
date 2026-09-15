@@ -1,4 +1,16 @@
-import OpenCC from 'opencc-js';
+let traditionalConverters = null;
+
+export async function loadTraditionalConverters() {
+  if (traditionalConverters) {
+    return traditionalConverters;
+  }
+  const OpenCC = (await import('opencc-js')).default || (await import('opencc-js'));
+  traditionalConverters = Object.freeze({
+    'zh-tw': OpenCC.Converter({ from: 'cn', to: 'twp' }),
+    'zh-hk': OpenCC.Converter({ from: 'cn', to: 'hkp' }),
+  });
+  return traditionalConverters;
+}
 
 const responseLocaleProfiles = Object.freeze({
   zh: Object.freeze({
@@ -38,11 +50,6 @@ const responseLocaleProfiles = Object.freeze({
   }),
 });
 
-const traditionalConverters = Object.freeze({
-  'zh-tw': OpenCC.Converter({ from: 'cn', to: 'twp' }),
-  'zh-hk': OpenCC.Converter({ from: 'cn', to: 'hkp' }),
-});
-
 export function normalizeAiResponseLocale(value) {
   const locale = String(value || '').trim().toLowerCase().replaceAll('_', '-');
   if (responseLocaleProfiles[locale]) {
@@ -77,7 +84,7 @@ export function buildAiLocaleRequest(locale) {
 
 export function convertAiResponseText(value, locale) {
   const normalizedLocale = normalizeAiResponseLocale(locale);
-  const converter = traditionalConverters[normalizedLocale];
+  const converter = traditionalConverters?.[normalizedLocale];
   const text = String(value ?? '');
   return converter ? converter(text) : text;
 }

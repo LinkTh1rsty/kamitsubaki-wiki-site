@@ -14,12 +14,11 @@ categoryOrder: 20
 itemOrder: 29
 code: "archive-cream-puff-live-16"
 image: /images/albums/harusaruhi/cream-puff-live.jpg
-contentStatus: stub
 ---
 
 ## Overview
 
-[春猿火](/en/artists/vwp/harusaruhi)自由律#05「iのアンサー」 appears on [CREAM PUFF LIVE](/en/albums/harusaruhi/cream-puff-live) or a related official release. Entries are version-specific, keeping live, remix, and rearranged recordings separate from the original.
+"春猿火自由律#05「iのアンサー」" is a cover recording by [Harusaruhi](/en/artists/vwp/harusaruhi) included on *[CREAM PUFF LIVE](/en/albums/harusaruhi/cream-puff-live)*. This entry is version-specific to that recording and is not merged with the original song page. Original song credits should follow official or original-release information; this page does not invent them.
 
 ## Lyrics
 

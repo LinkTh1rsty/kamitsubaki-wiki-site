@@ -1,0 +1,162 @@
+---
+interface MissingItem {
+  field: string;
+  weight: number;
+  label?: string;
+}
+
+interface Props {
+  score: number;
+  tier: 'complete' | 'good' | 'brief' | 'stub';
+  missing: MissingItem[];
+  labels: {
+    kicker: string;
+    scoreLabel: string;
+    missingLabel: string;
+    missingSummary: string;
+    missingEmpty: string;
+    tiers: {
+      complete: string;
+      good: string;
+      brief: string;
+      stub: string;
+    };
+  };
+}
+
+const { score, tier, missing, labels } = Astro.props;
+
+const tierClass = `entry-completeness__badge entry-completeness__badge--${tier}`;
+const tierLabel = labels.tiers[tier] ?? labels.tiers.stub;
+---
+
+<section class="entry-completeness wiki-side-card mt-5 w-full overflow-hidden rounded-md border border-white/10 bg-white/[0.035] sm:rounded-lg" data-entry-completeness data-score={score} data-tier={tier}>
+  <div class="border-b border-white/10 px-3 py-2.5 sm:px-4 sm:py-3">
+    <p class="font-mono text-[9px] uppercase tracking-[0.24em] text-white/35 sm:text-[10px] sm:tracking-[0.28em]">{labels.kicker}</p>
+    <div class="mt-1.5 flex items-baseline justify-between gap-3">
+      <span class="font-serif text-xl font-semibold tracking-[0.08em] text-white sm:text-2xl">{score}</span>
+      <span class={tierClass}>{tierLabel}</span>
+    </div>
+    <p class="mt-1 font-mono text-[9px] uppercase tracking-[0.18em] text-white/30 sm:text-[10px]">{labels.scoreLabel}</p>
+    <div class="entry-completeness__track mt-2.5 h-1.5 w-full overflow-hidden rounded-full bg-white/10" aria-hidden="true">
+      <div class:list={['entry-completeness__fill', `entry-completeness__fill--${tier}`]} style={`width: ${score}%`}></div>
+    </div>
+  </div>
+
+  {missing.length > 0 ? (
+    <details class="entry-completeness__details">
+      <summary class="cursor-pointer select-none list-none px-3 py-2.5 font-mono text-[10px] uppercase tracking-[0.18em] text-white/45 sm:px-4 sm:py-3 hover:text-white/70">
+        {labels.missingSummary} · {missing.length}
+      </summary>
+      <div class="border-t border-white/10 px-3 pb-3 pt-2 sm:px-4 sm:pb-4">
+        <p class="font-mono text-[9px] uppercase tracking-[0.18em] text-white/30">{labels.missingLabel}</p>
+        <ul class="mt-2 space-y-1.5">
+          {missing.map((item) => (
+            <li class="flex items-center justify-between gap-3 text-xs text-white/70">
+              <span class="min-w-0 truncate">{item.label ?? item.field}</span>
+              <span class="font-mono text-[9px] uppercase tracking-[0.16em] text-white/30 shrink-0">+{item.weight}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </details>
+  ) : (
+    <div class="px-3 py-2.5 text-xs text-white/45 sm:px-4 sm:py-3">{labels.missingEmpty}</div>
+  )}
+</section>
+
+<style>
+  .entry-completeness__badge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 9999px;
+    border: 1px solid transparent;
+    padding: 0.15rem 0.55rem;
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+
+  .entry-completeness__badge--complete {
+    border-color: rgb(74 222 128 / 0.35);
+    background: rgb(74 222 128 / 0.12);
+    color: rgb(187 247 208 / 0.9);
+  }
+
+  .entry-completeness__badge--good {
+    border-color: rgb(125 211 252 / 0.32);
+    background: rgb(125 211 252 / 0.1);
+    color: rgb(186 230 253 / 0.9);
+  }
+
+  .entry-completeness__badge--brief {
+    border-color: rgb(253 224 71 / 0.3);
+    background: rgb(253 224 71 / 0.1);
+    color: rgb(254 249 195 / 0.88);
+  }
+
+  .entry-completeness__badge--stub {
+    border-color: rgb(252 165 165 / 0.3);
+    background: rgb(252 165 165 / 0.1);
+    color: rgb(254 226 226 / 0.88);
+  }
+
+  .entry-completeness__fill {
+    height: 100%;
+    border-radius: 9999px;
+    background: color-mix(in srgb, var(--wiki-accent-color, #89f5df) 72%, white);
+  }
+
+  .entry-completeness__fill--complete {
+    background: color-mix(in srgb, #4ade80 80%, var(--wiki-accent-color, #89f5df));
+  }
+
+  .entry-completeness__fill--good {
+    background: color-mix(in srgb, #7dd3fc 80%, var(--wiki-accent-color, #89f5df));
+  }
+
+  .entry-completeness__fill--brief {
+    background: color-mix(in srgb, #fde047 75%, var(--wiki-accent-color, #89f5df));
+  }
+
+  .entry-completeness__fill--stub {
+    background: color-mix(in srgb, #f87171 70%, var(--wiki-accent-color, #89f5df));
+  }
+
+  .entry-completeness__details summary::-webkit-details-marker {
+    display: none;
+  }
+
+  :global(html[data-theme='light']) .entry-completeness__badge--complete {
+    border-color: rgb(22 163 74 / 0.35);
+    background: rgb(22 163 74 / 0.1);
+    color: rgb(21 128 61 / 0.95);
+  }
+
+  :global(html[data-theme='light']) .entry-completeness__badge--good {
+    border-color: rgb(2 132 199 / 0.3);
+    background: rgb(2 132 199 / 0.08);
+    color: rgb(3 105 161 / 0.95);
+  }
+
+  :global(html[data-theme='light']) .entry-completeness__badge--brief {
+    border-color: rgb(202 138 4 / 0.3);
+    background: rgb(202 138 4 / 0.08);
+    color: rgb(161 98 7 / 0.95);
+  }
+
+  :global(html[data-theme='light']) .entry-completeness__badge--stub {
+    border-color: rgb(220 38 38 / 0.3);
+    background: rgb(220 38 38 / 0.08);
+    color: rgb(185 28 28 / 0.95);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .entry-completeness__fill {
+      transition: none;
+    }
+  }
+</style>

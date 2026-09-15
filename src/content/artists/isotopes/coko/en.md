@@ -87,16 +87,28 @@ Vocally, COKO preserves KOKO's strong long notes while featuring realistic breat
 
 ## Representative Works and Related Entries
 
-COKO has been widely adopted by UGC (User Generated Content) creators. Notable works include:
+{{details::Expand full singles list}}
 
-- "[the last bullet](/en/songs/koko/originals/the-last-bullet)" (Covered by COKO)
-- High-energy derivative tracks created by the UGC community.
+**Singles**
 
-Recommended related entries:
+| Release date | Title |
+| --- | --- |
+| 2015-10-11 | [スカイライン (feat. 狐子)](</en/songs/coko/originals/sukairain-feat.-狐子>) |
+| 2015-10-11 | [てやんでいっ! (feat. 狐子)](</en/songs/coko/originals/teyandei-feat.-狐子>) |
+| 2020-05-24 | [Ballerina (feat. Lil wick)](</en/songs/coko/originals/ballerina-feat.-lil-wick>) |
+| 2021-06-19 | [KiLLer TuNe (feat. 狐子)](</en/songs/coko/originals/killer-tune-feat.-狐子>) |
+| 2023-03-26 | [心の傘](</en/songs/coko/originals/心no傘>) |
+| 2023-11-27 | [FAKE](</en/songs/coko/originals/fake>) |
+| 2024-03-14 | [ギフテッド・ギミック](</en/songs/coko/originals/gifuteddo-gimikku>) |
+| 2024-12-10 | [おぼえてろ](</en/songs/coko/originals/oboetero>) |
+| 2024-12-10 | [キツネガミ](</en/songs/coko/originals/kitsunegami>) |
+| 2025-02-28 | [NEVERMIND NEVERLAND](</en/songs/coko/originals/nevermind-neverland>) |
+| 2025-11-14 | [消えてしまいたい夜に](</en/songs/coko/originals/消eteshimaitai夜ni>) |
+| 2026-01-28 | [Sugar-High](</en/songs/coko/originals/sugar-high>) |
+| 2026-04-29 | [神羅 (feat. ゆうゆ)](</en/songs/coko/originals/神羅-feat.-yuuyu>) |
+| 2026-05-26 | [TOKYO MIDNIGHT FANTASY](</en/songs/coko/originals/tokyo-midnight-fantasy>) |
 
-- [KOKO](/en/artists/vwp/koko)
-- [KAFU](/en/artists/isotopes/kafu)
-- [SEKAI](/en/artists/isotopes/sekai)
+{{/details}}
 
 ## Basic Profile and Character Setting
 

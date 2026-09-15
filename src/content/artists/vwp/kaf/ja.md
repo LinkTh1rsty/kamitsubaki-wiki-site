@@ -120,13 +120,111 @@ seo:
 
 ## 代表作品と関連項目
 
-- **アルバム**：1st『観測』(2019)、2nd『魔法』(2020)、3rd『狂想』(2023)、4th『寓話』(2024)、5th『深愛』(2025)
-- **初期代表曲**：『糸』『雛鳥』『[夜が降り止む前に](/ja/songs/kaf/originals/yoru-ga-furiyamu-mae-ni)』
-- **神椿全体との接点として重要な軸**：組曲、V.W.P、可不 / KAFU
+{{details::アルバムとEPの一覧を開く}}
 
-あわせて読むとつながりが見えやすい項目：
-- [可不 / KAFU](/ja/artists/isotopes/kafu)
-- [神椿市建設中。](/ja/projects/arg/kamitsubaki-city)
+**アルバム / EP**
+
+| リリース日 | 種別 | タイトル |
+| --- | --- | --- |
+| 2019-05-15 | EP | [花と心臓](</ja/albums/kaf/flower-and-heart>) |
+| 2019-06-28 | EP | [夜が降り止む前に](</ja/albums/kaf/yoru-ga-furiyamu-mae-ni>) |
+| 2019-09-11 | スタジオアルバム | [観測](</ja/albums/kaf/kansoku>) |
+| 2019-12-25 | リミックスアルバム | [観測γ](</ja/albums/kaf/kansoku-gamma>) |
+| 2020-06-10 | EP | [戸惑いテレパシー](</ja/albums/kaf/tomadoi-telepathy>) |
+| 2020-08-19 | ライブアルバム | [I SCREAM LIVE](</ja/albums/kaf/i-scream-live>) |
+| 2020-09-23 | EP | [愛と花](</ja/albums/kaf/love-and-flower>) |
+| 2020-11-25 | スタジオアルバム | [魔法](</ja/albums/kaf/maho>) |
+| 2021-12-22 | リミックスアルバム | [魔法γ](</ja/albums/kaf/maho-gamma>) |
+| 2023-03-08 | スタジオアルバム | [狂想](</ja/albums/kaf/kyoso>) |
+| 2023-09-27 | ライブアルバム | [I SCREAM LIVE2](</ja/albums/kaf/i-scream-live-2>) |
+| 2024-03-22 | コラボレーションアルバム | [組曲](</ja/albums/kaf/suite>) |
+| 2024-03-27 | リミックスアルバム | [狂想γ](</ja/albums/kaf/kyoso-gamma>) |
+| 2024-05-22 | EP | [GSA](</ja/albums/kaf/gsa>) |
+| 2024-10-30 | ライブアルバム | [I SCREAM LIVE3](</ja/albums/kaf/i-scream-live-3>) |
+| 2024-12-25 | スタジオアルバム | [寓話](</ja/albums/kaf/guwa>) |
+| 2025-07-16 | リミックスアルバム | [寓話γ](</ja/albums/kaf/guwa-gamma>) |
+| 2026-01-14 | ライブアルバム | [I SCREAM LIVE4 - Cover Live Album -](</ja/albums/kaf/i-scream-live-4>) |
+| 2026-05-27 | スタジオアルバム | [深愛](</ja/albums/kaf/shinai>) |
+
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2018-12-06 | [糸](</ja/songs/kaf/originals/shi>) |
+| 2018-12-28 | [心臓と絡繰](</ja/songs/kaf/originals/shinzou-to-karakuri>) |
+| 2019-01-09 | [魔女](</ja/songs/kaf/originals/majo>) |
+| 2019-01-31 | [忘れてしまえ](</ja/songs/kaf/originals/wasurete-shimae>) |
+| 2019-03-22 | [雛鳥](</ja/songs/kaf/originals/hinadori>) |
+| 2019-06-05 | [過去を喰らう](</ja/songs/kaf/originals/kako-wo-kurau>) |
+| 2019-06-28 | [夜が降り止む前に](</ja/songs/kaf/originals/yoru-ga-furiyamu-mae-ni>) |
+| 2019-08-01 | [そして花になる](</ja/songs/kaf/originals/soshite-hana-ni-naru>) |
+| 2019-08-06 | [quiz](</ja/songs/kaf/originals/quiz>) |
+| 2019-08-14 | [夜行バスにて](</ja/songs/kaf/originals/yakou-bus-nite>) |
+| 2019-09-11 | [不可解](</ja/songs/kaf/originals/不可解-inexplicable>) |
+| 2019-09-11 | [未確認少女進行形](</ja/songs/kaf/originals/未確認少女進行形-unconfirmed-girl-progress-form>) |
+| 2019-09-11 | [Re:HEROINES](</ja/songs/kaf/originals/re-heroines>) |
+| 2019-09-11 | [エリカ](</ja/songs/kaf/originals/エリカ-erica>) |
+| 2020-06-10 | [戸惑いテレパシー](</ja/songs/kaf/originals/戸惑いテレパシー-confused-telepathy>) |
+| 2020-11-25 | [危ノーマル](</ja/songs/kaf/originals/危ノーマル-abnormal>) |
+| 2020-11-25 | [彷徨い](</ja/songs/kaf/originals/彷徨い-wandering>) |
+| 2020-11-25 | [私論理](</ja/songs/kaf/originals/私論理-my-logic>) |
+| 2020-11-25 | [花女](</ja/songs/kaf/originals/花女-flower-girl>) |
+| 2020-11-25 | [帰り路](</ja/songs/kaf/originals/帰り路-on-the-way-back-home>) |
+| 2020-11-25 | [畢生よ](</ja/songs/kaf/originals/畢生よ-lifetime>) |
+| 2020-11-25 | [景色](</ja/songs/kaf/originals/景色-landscape>) |
+| 2020-11-25 | [痛みを](</ja/songs/kaf/originals/痛みを-pain>) |
+| 2020-11-25 | [アンサー](</ja/songs/kaf/originals/アンサー-answer>) |
+| 2020-11-25 | [まほう (feat. RIM)](</ja/songs/kaf/originals/まほう-magic>) |
+| 2020-11-25 | [メルの黄昏](</ja/songs/kaf/originals/メルの黄昏-mels-twilight>) |
+| 2020-11-25 | [モンタージュ](</ja/songs/kaf/originals/モンタージュ-montage>) |
+| 2021-05-19 | [例えば](</ja/songs/kaf/originals/例えば-for-example>) |
+| 2021-06-30 | [海に化ける](</ja/songs/kaf/originals/海に化ける-turn-into-the-sea>) |
+| 2023-03-08 | [人を気取る](</ja/songs/kaf/originals/人を気取る-human-snob>) |
+| 2023-03-08 | [世惑い子](</ja/songs/kaf/originals/世惑い子-world-confuse-child>) |
+| 2023-03-08 | [未観測](</ja/songs/kaf/originals/未観測-unobserved>) |
+| 2023-03-08 | [狂感覚](</ja/songs/kaf/originals/狂感覚-crazy-sensation>) |
+| 2023-03-08 | [青春の温度](</ja/songs/kaf/originals/青春の温度-temperature-of-youth>) |
+| 2023-03-08 | [春を発つ](</ja/songs/kaf/originals/春を発つ-depart-from-spring>) |
+| 2023-03-08 | [裏表ガール](</ja/songs/kaf/originals/裏表ガール-two-faced-girl>) |
+| 2023-03-08 | [邂逅](</ja/songs/kaf/originals/邂逅-chance-meeting>) |
+| 2023-03-08 | [あるふぁYOU](</ja/songs/kaf/originals/あるふぁYOU-alpha-you>) |
+| 2023-03-08 | [それを世界と言うんだね](</ja/songs/kaf/originals/それを世界と言うんだね-you-call-it-the-world>) |
+| 2023-03-08 | [ニヒル](</ja/songs/kaf/originals/ニヒル-nihil>) |
+| 2024-02-28 | [ギミギミ逃避行 feat. #KTちゃん](</ja/songs/kaf/originals/ギミギミ逃避行-gimi-gimi-flight>) |
+| 2024-05-22 | [アポカリプスより](</ja/songs/kaf/originals/アポカリプスより-from-apocalypse>) |
+| 2024-05-22 | [ゲシュタルト](</ja/songs/kaf/originals/ゲシュタルト-gestalt>) |
+| 2024-05-22 | [スイマー](</ja/songs/kaf/originals/スイマー-swimmer>) |
+| 2024-12-25 | [何者](</ja/songs/kaf/originals/何者-who>) |
+| 2024-12-25 | [俯瞰する事象](</ja/songs/kaf/originals/俯瞰する事象-overlooked-phenomenon>) |
+| 2024-12-25 | [黄金の木](</ja/songs/kaf/originals/黄金の木-tree-of-gold>) |
+| 2024-12-25 | [Replaceable Goodbye](</ja/songs/kaf/originals/replaceable-goodbye>) |
+| 2024-12-25 | [カルぺ・ディエム](</ja/songs/kaf/originals/カルぺ・ディエム-carpe-diem>) |
+| 2024-12-25 | [この世界は美しい](</ja/songs/kaf/originals/この世界は美しい-the-beautiful-world>) |
+| 2024-12-25 | [スワン](</ja/songs/kaf/originals/スワン-swan>) |
+| 2024-12-25 | [ダンダラボッチ](</ja/songs/kaf/originals/ダンダラボッチ-dandarabotchi>) |
+| 2024-12-25 | [ホワイトブーケ](</ja/songs/kaf/originals/ホワイトブーケ-white-bouget>) |
+| 2025-03-05 | [代替嬉々](</ja/songs/kaf/originals/代替嬉々-positive-substitution>) |
+| 2025-06-25 | [撃って (feat. CHiCO)](</ja/songs/kaf/originals/撃って-break-out>) |
+| 2025-08-20 | [ひとえに壊れて](</ja/songs/kaf/originals/ひとえに壊れて-unraveling>) |
+| 2025-10-15 | [ありふれてたい](</ja/songs/kaf/originals/ありふれてたい-just-the-way-we-are>) |
+| 2026-02-25 | [周波数0の合言葉](</ja/songs/kaf/originals/周波数0の合言葉-voiceless-password>) |
+| 2026-04-01 | [エラーソング](</ja/songs/kaf/originals/エラーソング-error-song>) |
+| 2026-05-27 | [君は水、私は魚](</ja/songs/kaf/originals/君は水-私は魚-water-and-fish>) |
+| 2026-05-27 | [私の在処](</ja/songs/kaf/originals/私の在処-where-i-am>) |
+| 2026-05-27 | [乳白の宇宙](</ja/songs/kaf/originals/乳白の宇宙-opalescent-universe>) |
+| 2026-05-27 | [学園戦線](</ja/songs/kaf/originals/学園戦線-school-wars>) |
+| 2026-05-27 | [明滅](</ja/songs/kaf/originals/明滅-strobe>) |
+| 2026-05-27 | [愛想](</ja/songs/kaf/originals/愛想-unsaid>) |
+| 2026-05-27 | [エコーノイズ](</ja/songs/kaf/originals/エコーノイズ-echo-noise>) |
+| 2026-05-27 | [オーギュメント](</ja/songs/kaf/originals/オーギュメント-augment>) |
+| 2026-05-27 | [コネクト](</ja/songs/kaf/originals/コネクト-connect>) |
+| 2026-05-27 | [そばにいていいよ](</ja/songs/kaf/originals/そばにいていいよ-while-this-lasts>) |
+
+{{/details}}
 
 ## 基本資料とキャラクター設定
 

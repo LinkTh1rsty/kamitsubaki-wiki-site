@@ -42,16 +42,33 @@ Albemuth 的两位成员拥有反差明显的歌唱个性：存流以低语感�
 
 ## 组合音乐与作品
 
-Albemuth 的作品以成员各自的视角形成对照。2023年7月5日发行的《eve》与《ADAM》分别从存流与[明透](/zh/artists/solo/asu)的侧面展开，是理解二人不同创作气质的核心专辑。组合代表曲包括《[Guilty](/zh/songs/albemuth/originals/guilty)》《[新世界へ](/zh/songs/asu/originals/新世界he)》《tether》《Black Cloth》。
+{{details::展开完整专辑与 EP 目录}}
 
-| 作品 | 关联成员 / 说明 |
+**专辑与 EP**
+
+| 发行日期 | 类型 | 标题 |
+| --- | --- | --- |
+| 2023-11-22 | Album | [ADAM (feat. 存流 & 明透)](</zh/albums/albemuth/ADAM-feat.-存流-&-明透-1715604776>) |
+| 2023-11-22 | Album | [eve (feat. 存流 & 明透)](</zh/albums/albemuth/eve-feat.-存流-&-明透-1715607878>) |
+| 2024-02-14 | Album | [Happy Merry Xmath (feat. 存流 & 明透)](</zh/albums/albemuth/Happy-Merry-Xmath-feat.-存流-&-明透-1728182964>) |
+
+{{/details}}
+
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
 | --- | --- |
-| 《eve》 | 存流侧的 1st Album |
-| 《ADAM》 | 明透侧的 1st Album |
-| 《Guilty》 | 组合代表单曲 |
-| 《新世界へ》 | 以异世界与前进为意象的组合曲 |
-| 《tether》 | 强调成员相互牵引关系的作品 |
-| 《Black Cloth》 | 以暗色视觉和双人声部为重点的作品 |
+| 2022-11-23 | [幽ノ楽園](</zh/songs/albemuth/originals/幽no楽園>) |
+| 2023-02-15 | [感光](</zh/songs/albemuth/originals/感光>) |
+| 2023-04-26 | [guilty](</zh/songs/albemuth/originals/guilty>) |
+| 2023-06-21 | [Black Glow](</zh/songs/albemuth/originals/black-glow>) |
+| 2023-08-16 | [星月夜の調べ (feat. 存流 & 明透)](</zh/songs/albemuth/originals/星月夜no調be-feat.-存流-&-明透>) |
+| 2023-08-16 | [Underdrain (feat. 存流 & 明透)](</zh/songs/albemuth/originals/underdrain-feat.-存流-&-明透>) |
+| 2023-08-30 | [tuberose (feat. 存流 & 明透)](</zh/songs/albemuth/originals/tuberose-feat.-存流-&-明透>) |
+
+{{/details}}
 
 ## 组合历程与解散
 

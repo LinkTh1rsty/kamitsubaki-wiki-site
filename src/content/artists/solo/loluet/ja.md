@@ -89,16 +89,32 @@ LOLUETは2021年からYouTubeを中心に活動するバーチャルシンガー
 
 ## 作品の整理
 
-初期の作品はバラード、電子音楽、ロック、アニメ・ゲーム楽曲など幅広いカバーで構成される。投稿日時、カバーかオリジナルか、共演者、MVの別バージョンを分けて記録する。
+{{details::アルバムとEPの一覧を開く}}
 
-| 時期 | 入口となる作品 | 文脈 |
+**アルバム / EP**
+
+| リリース日 | 種別 | タイトル |
 | --- | --- | --- |
-| 2021 | 「さよならテンダー」「浴槽とネオンテトラ」「グラーミィ」「追想輪廻」 | 個人名義の初期カバー |
-| 2022 | 「I beg you」 | 歌声の識別性を形成した時期 |
-| 2023 | 「トワニ」「G4L」「Shadow Shadow」「胎児の夢」 | 神椿所属後の活動拡張 |
-| 2024 | 「NightmaRe」「レコード・レド」「ラブ＆デストロイ」 | コラボ・オリジナル期への移行 |
+| 2025-03-19 | Album | [stream](</ja/albums/loluet/stream-1799863545>) |
+| 2026-02-25 | EP | [空想](</ja/albums/loluet/空想-1873244105>) |
+| 2026-02-25 | EP | [迷路](</ja/albums/loluet/迷路-1872932511>) |
 
-「[ハネムーン feat. 理芽](/ja/songs/loluet/originals/hanemuun-feat-理芽)」は理芽とのコラボレーションであり、LOLUETの声を神椿の既存音楽ネットワークへ接続する作品である。『愛狂』への参加は、投稿中心の活動から正式リリースへ広がった段階として記録できる。
+{{/details}}
+
+{{details::シングル一覧を開く}}
+
+**シングル**
+
+| リリース日 | タイトル |
+| --- | --- |
+| 2015-10-11 | [ハネムーン feat. 理芽](</ja/songs/loluet/originals/hanemuun-feat.-理芽>) |
+| 2024-11-19 | [crack](</ja/songs/loluet/originals/crack>) |
+| 2025-01-21 | [アイ](</ja/songs/loluet/originals/ai>) |
+| 2025-09-09 | [ドレス](</ja/songs/loluet/originals/doresu>) |
+| 2026-02-24 | [スプートニク](</ja/songs/loluet/originals/supuutoniku>) |
+| 2026-07-21 | [双生コンフリクト feat. ヰ世界情緒](</ja/songs/loluet/originals/双生konfurikuto-feat.-wi世界情緒>) |
+
+{{/details}}
 
 ## 形態・創作者・エピソード
 

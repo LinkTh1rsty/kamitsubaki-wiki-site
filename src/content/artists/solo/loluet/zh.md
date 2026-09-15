@@ -103,20 +103,32 @@ LOLUET 的公开形象和活动方式都带有不稳定、自由和难以预测�
 
 ## 作品目录
 
-### 翻唱与个人投稿
+{{details::展开完整专辑与 EP 目录}}
 
-LOLUET 的早期目录以翻唱为主，作品选择横跨抒情、电子、摇滚和动画/游戏歌曲。目录记录时应保留投稿日期、是否为翻唱、合作对象和 MV 版本之间的区别。
+**专辑与 EP**
 
-| 时期 | 代表投稿 | 记录重点 |
+| 发行日期 | 类型 | 标题 |
 | --- | --- | --- |
-| 2021 | 《さよならテンダー》《浴槽とネオンテトラ》《グラーミィ》《追想輪廻》 | 个人名义初期翻唱 |
-| 2022 | 《I beg you》 | 持续建立声线辨识度 |
-| 2023 | 《トワニ》《G4L》《Shadow Shadow》《胎児の夢》 | 加入神椿后的投稿扩展 |
-| 2024 | 《NightmaRe》《レコード・レド》《ラブ＆デストロイ》 | 合作与原创前的活动积累 |
+| 2025-03-19 | Album | [stream](</zh/albums/loluet/stream-1799863545>) |
+| 2026-02-25 | EP | [空想](</zh/albums/loluet/空想-1873244105>) |
+| 2026-02-25 | EP | [迷路](</zh/albums/loluet/迷路-1872932511>) |
 
-### 原创与合作
+{{/details}}
 
-《[ハネムーン feat. 理芽](/zh/songs/loluet/originals/hanemuun-feat-理芽)》是 LOLUET 与神椿艺人合作的重要作品，由理芽参与演唱，制作上连接了 LOLUET 的个人声线与神椿既有音乐网络。参与《愛狂》mini album 则体现了她在个人投稿之外进入正式发行体系的阶段。
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2015-10-11 | [ハネムーン feat. 理芽](</zh/songs/loluet/originals/hanemuun-feat.-理芽>) |
+| 2024-11-19 | [crack](</zh/songs/loluet/originals/crack>) |
+| 2025-01-21 | [アイ](</zh/songs/loluet/originals/ai>) |
+| 2025-09-09 | [ドレス](</zh/songs/loluet/originals/doresu>) |
+| 2026-02-24 | [スプートニク](</zh/songs/loluet/originals/supuutoniku>) |
+| 2026-07-21 | [双生コンフリクト feat. ヰ世界情緒](</zh/songs/loluet/originals/双生konfurikuto-feat.-wi世界情緒>) |
+
+{{/details}}
 
 ## 形象、创作者与轶事
 

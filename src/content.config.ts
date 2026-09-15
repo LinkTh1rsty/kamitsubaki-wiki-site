@@ -242,6 +242,7 @@ const site = defineCollection({
       emptyResponse: z.string(),
       challengeFallback: z.string(),
       streamErrorFallback: z.string(),
+      retry: z.string(),
       loginRequiredFallback: z.string(),
       accountAnonymous: z.string(),
       accountLoggedInPrefix: z.string(),

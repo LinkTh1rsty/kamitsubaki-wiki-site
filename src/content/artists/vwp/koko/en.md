@@ -112,12 +112,65 @@ KOKO tends to leave an impression through pressure and directness first. Whether
 
 ## Representative Works and Related Entries
 
-- **Solo Singles and Albums**: e.g., "Musunde Hiraite", *prayer2*
-- **V.W.P Paired Songs**: Unit songs built on contrast and pressure
-- **Live Performances**: Live settings where her stage-force is especially clear
+{{details::Expand full albums and EPs}}
 
-Related entry:
-- [Kamitsubaki City Under Construction](/en/projects/arg/kamitsubaki-city)
+**Albums & EPs**
+
+| Release date | Type | Title |
+| --- | --- | --- |
+| 2021-07-14 | Live album | [ARARE LIVE](</en/albums/koko/arare-live>) |
+| 2022-02-26 | Studio album | [prayer](</en/albums/koko/prayer>) |
+| 2024-11-13 | Studio album | [ClimBinge the Remix](</en/albums/koko/climbinge-the-remix>) |
+| 2025-04-23 | Studio album | [prayer2](</en/albums/koko/prayer-2>) |
+
+{{/details}}
+
+{{details::Expand full singles list}}
+
+**Singles**
+
+| Release date | Title |
+| --- | --- |
+| 2021-10-03 | [白昼夢](</en/songs/koko/originals/白昼夢-daydream>) |
+| 2021-10-03 | [夜光を呼ぶ](</en/songs/koko/originals/夜光を呼ぶ-recall-me>) |
+| 2021-10-03 | [瞑目](</en/songs/koko/originals/瞑目-closing-ones-eyes>) |
+| 2021-10-03 | [harmony](</en/songs/koko/originals/harmony>) |
+| 2021-10-03 | [the last bullet](</en/songs/koko/originals/the-last-bullet>) |
+| 2021-10-03 | [この世界に口づけを](</en/songs/koko/originals/この世界に口づけを-kiss-this-world>) |
+| 2022-02-23 | [此処へ](</en/songs/koko/originals/此処へ-koko-e>) |
+| 2022-02-23 | [花と蜜](</en/songs/koko/originals/花と蜜-flowers-and-nectar>) |
+| 2022-02-23 | [閃光の彼方](</en/songs/koko/originals/閃光の彼方-beyond-the-flash>) |
+| 2022-02-23 | [錘](</en/songs/koko/originals/錘-weight>) |
+| 2022-02-23 | [bliss](</en/songs/koko/originals/bliss>) |
+| 2022-02-23 | [LIT](</en/songs/koko/originals/lit>) |
+| 2022-02-23 | [レイヴン・フリージア](</en/songs/koko/originals/レイヴンフリージア-raven-freesia>) |
+| 2022-09-14 | [TIME](</en/songs/koko/originals/time>) |
+| 2023-02-01 | [ミラージュコード](</en/songs/koko/originals/ミラージュコード-mirage-code>) |
+| 2023-03-29 | [Abstractions Void](</en/songs/koko/originals/abstractions-void>) |
+| 2023-10-25 | [ゲンフウケイ](</en/songs/koko/originals/ゲンフウケイ-nostalgic-scene>) |
+| 2024-06-12 | [始まりの銃声](</en/songs/koko/originals/始まりの銃声-signal-of-the-beginning>) |
+| 2024-10-05 | [Tempest (feat. 幸祜)](</en/songs/koko/originals/tempest>) |
+| 2024-10-30 | [ClimBinge](</en/songs/koko/originals/climbinge>) |
+| 2025-02-05 | [むすんでひらいて](</en/songs/koko/originals/むすんでひらいて-musunde-hiraite>) |
+| 2025-04-10 | [詩月灯りに幸福を (feat. KOKO)](</en/songs/koko/originals/詩月灯りに幸福を-blessings-of-moonlight>) |
+| 2025-04-23 | [私を纏う](</en/songs/koko/originals/私を纏う-bask-in-light>) |
+| 2025-04-23 | [ANTINOMY](</en/songs/koko/originals/antinomy>) |
+| 2025-04-23 | [Lullaby](</en/songs/koko/originals/lullaby>) |
+| 2025-04-23 | [MiMi Cry](</en/songs/koko/originals/mimi-cry>) |
+| 2025-04-23 | [Revy](</en/songs/koko/originals/revy>) |
+| 2025-04-23 | [カスミソウ](</en/songs/koko/originals/カスミソウ-gypsophila>) |
+| 2025-04-23 | [ナナシノウタ](</en/songs/koko/originals/ナナシノウタ-anonymous>) |
+| 2025-05-15 | [オレンジ](</en/songs/koko/originals/オレンジ-orange>) |
+| 2025-06-18 | [在処](</en/songs/koko/originals/在処-the-known-place>) |
+| 2025-07-16 | [Kazura](</en/songs/koko/originals/kazura>) |
+| 2025-08-14 | [シャングリラ](</en/songs/koko/originals/シャングリラ-shangri-la>) |
+| 2025-09-17 | [僕は願うことをやめたんだ](</en/songs/koko/originals/僕は願うことをやめたんだ-wishing>) |
+| 2025-10-22 | [月時雨](</en/songs/koko/originals/月時雨-moon-tears>) |
+| 2025-11-24 | [切り咲く](</en/songs/koko/originals/切り咲く-slashing-bloom>) |
+| 2025-12-07 | [切り咲く (English Ver.)](</en/songs/koko/originals/切り咲く(English-Ver)-slashing-bloom-english-ver>) |
+| 2026-04-22 | [Phantom](</en/songs/koko/originals/phantom>) |
+
+{{/details}}
 
 ## Basic Profile and Character Setting
 

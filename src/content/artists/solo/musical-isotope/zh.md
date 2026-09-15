@@ -66,6 +66,31 @@ seo:
 
 各语音模型（KAFU、SEKAI 等）的详情请参阅各专属条目。
 
+## 代表作品与相关条目
+
+{{details::展开完整专辑与 EP 目录}}
+
+**专辑与 EP**
+
+| 发行日期 | 类型 | 标题 |
+| --- | --- | --- |
+| 2025-04-24 | Album | [あ行でかわいいミュージック](</zh/albums/musical-isotope/あ行でかわいいミュージック-1810142549>) |
+
+{{/details}}
+
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2023-11-12 | [辺獄エコノミカ](</zh/songs/musical-isotope/originals/辺獄ekonomika>) |
+| 2024-10-30 | [泡沫幸福論](</zh/songs/musical-isotope/originals/泡沫幸福論>) |
+| 2026-03-18 | [VIPエンジョイ (feat. アテナ)](</zh/songs/musical-isotope/originals/vip-enjoy>) |
+| 2026-05-20 | [口移詩](</zh/songs/musical-isotope/originals/口移詩>) |
+
+{{/details}}
+
 ## 参考资料
 
 - 音楽的同位体公式サイト：<https://musical-isotope.kamitsubaki.jp/>
