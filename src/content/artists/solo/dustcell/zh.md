@@ -89,8 +89,8 @@ Misumi 是 DUSTCELL 的作曲与编曲担当，也是活跃于 Vocaloid 领域�
 
 - **1月1日**：开设面向中文观众的 Bilibili 与微博账号。
 - **1月2日**：发布《LAZY》；随后《Heaven and Hell》《DOMINATION》《LILAC》《SOPPY》等作品陆续公开。
-- **4月2日**：公布首张完整专辑《[SUMMIT](/zh/albums/dustcell/summit-1688155907)》及同名 One-Man Live 计划。
-- **5月20日**：发行 1st FULL ALBUM《[SUMMIT](/zh/albums/dustcell/summit-1688155907)》，并发布《アネモネ》。
+- **4月2日**：公布首张完整专辑**《[SUMMIT](/zh/albums/dustcell/summit-1688155907)》**及同名 One-Man Live 计划。
+- **5月20日**：发行 1st FULL ALBUM**《[SUMMIT](/zh/albums/dustcell/summit-1688155907)》**，并发布《アネモネ》。
 - **7月3日**：因疫情影响，将原定现场演出调整为无观众线上直播。
 - **7月31日**：举办 1st ONE-MAN LIVE「SUMMIT」，并公布 2nd ONE-MAN LIVE「HOWL」。
 - **11月15日**：举行 2nd ONE-MAN LIVE「HOWL」，线上与线下同步展开。
@@ -98,9 +98,28 @@ Misumi 是 DUSTCELL 的作曲与编曲担当，也是活跃于 Vocaloid 领域�
 
 ### 2021年以后：扩展至广告、专辑与持续现场
 
-- **2021年4月**：歌曲《命の行方》成为 HAL 专门学校年度电视广告主题曲。
-- **2021年6月**：发布《[独白](/zh/songs/dustcell/originals/独白)》，继续扩展 DUSTCELL 的个人叙事线。
+- **2021年4月10日**：歌曲《命の行方》成为 HAL 专门学校年度电视广告主题曲。
+- **2021年6月23日**：发布《[独白](/zh/songs/dustcell/originals/%E7%8B%AC%E7%99%BD)》，继续扩展 DUSTCELL 的个人叙事线。
 - 此后持续以团体名义发布原创曲、专辑和现场作品，并与 KAMITSUBAKI STUDIO 的其他音乐、影像与舞台企划发生联动。
+- **10月20日：**发布第二张专辑**「自白」**。
+- **2022年4月14至18日：**分别在东京、名古屋和大阪举办Live｢百鬼夜行｣。
+- **6月1日：**发布单曲《足りない》，是电视剧《明日、私は誰かのカノジョ》的片尾曲。
+- **7月22日：**发表『クロスの行方 ―DUSTCELL小説集―』。{{spoiler::老朋友中村 紬}}
+- **8月31日：**发布第一张迷你专辑**「Hypnotize」**。
+- **11月17日：**在东京巨蛋市政厅中举办演出「PREPARATION」。
+- **2023年3月29日：**发布第二张迷你专辑**「ROUND TRIP」**和「PREPARATION」』Blu-ray。
+- **4月至5月：**第二次全国巡演「ROUND TRIP」。
+- **5月17日：**发布单曲《Caffeine》，是电视剧《明日、私は誰かのカノジョ Season2》的片尾曲。
+- **12月**：举办个人巡演『DUSTCELL LIVE 2023「DAWN」』。
+- **2024年3月27日：**Blu-ray「DUSTCELL LIVE 2023 -DAWN-」发售。
+- **7月24日**：发布第三章专辑**「光」**
+- **12月：**举办巡演「光」
+- **2025年2月19日**：发表单曲「心臓」。Blu-ray「DUSTCELL TOUR 2025 -光-」发售。
+- **3月3日：**为纪念成立五周年**{{mark::【DUSTCELL LIVE「ONE」at 日本武道館】}}。**
+- **11月：**于东京与大阪举办「DUSTCELL LIVE 2025 -月の裏-」。
+- **12月10日：**发布第四张专辑**「碧い海」**
+- **2026年1月至3月：**举办全国巡演「DUSTCELL TOUR 2026 -碧い海-」
+- **11月23日：**举办「DUSTCELL LIVE 2026 ―道―」
 
 ## 音乐作品
 
