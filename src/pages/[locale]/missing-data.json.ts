@@ -3,7 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
 import { supportedLocales } from '../../lib/i18n.mjs';
 import {
-  buildContentIndex,
+  getContentIndex,
   dedupeIssues,
   detectEntryIssues,
 } from '../../lib/missingData.mjs';
@@ -34,7 +34,7 @@ export const GET: APIRoute = async () => {
     getCollection('artists'),
   ]);
 
-  const index = buildContentIndex({ songs, albums, artists });
+  const index = getContentIndex({ songs, albums, artists });
   const byCollection = new Map<ContentCollectionName, Map<string, MissingIssue[]>>();
   const groups: Array<[ContentCollectionName, AnyMusicEntry[]]> = [
     ['songs', songs],

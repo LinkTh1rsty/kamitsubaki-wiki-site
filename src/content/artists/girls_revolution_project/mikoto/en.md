@@ -49,7 +49,7 @@ In her official channel description, she states that she loves art and expressio
 - **August 8, 2024**: Officially debuted at KAMITSUBAKI FES '24.
 - **November 13, 2024**: Released her first solo single, "[Selfish](/en/songs/mikoto/originals/selfish)".
 - **January 8, 2025**: Released the single "[Awase Kagami](/en/songs/mikoto/originals/awase-kagami)".
-- **February 5, 2025**: Featured on Garasumiya's single "[Glass no Puzzle](/en/songs/mikoto/originals/glass-no-puzzle)".
+- **February 5, 2025**: Featured on Garasumiya's single "Glass no Puzzle".
 - **April 23, 2025**: Released the single "[Kaisou no Sou](/en/songs/mikoto/originals/kaisou-no-sou)".
 - **July 11, 2025**: Appeared in KAMITSUBAKI WARS 2025 Kawasaki Front — Girls Revolution Project 1st LIVE / Act I "[Kaihen](/en/songs/grp/originals/kaihen)".
 - **February 18, 2026**: Released the single "[Shinshoku no Kiroku](/en/songs/mikoto/originals/shinshoku-no-kiroku)".

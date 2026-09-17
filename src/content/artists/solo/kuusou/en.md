@@ -75,7 +75,7 @@ KUUSOU occupies a unique structural position in the Kamitsubaki roster as a unit
 
 | Release date | Type | Title |
 | --- | --- | --- |
-| 2026-06-17 | EP | [CYAN](</en/albums/kuusou/CYAN-6775756685>) |
+| 2026-06-17 | EP | [CYAN](</en/albums/kuusou/cyan-6775756685>) |
 
 {{/details}}
 

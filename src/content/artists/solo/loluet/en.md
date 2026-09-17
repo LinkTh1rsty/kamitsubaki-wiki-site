@@ -140,12 +140,12 @@ LOLUET's history has a clear boundary: before March 31, 2023 she worked under he
 
 | Release date | Title |
 | --- | --- |
-| 2015-10-11 | [ハネムーン feat. 理芽](</en/songs/loluet/originals/hanemuun-feat.-理芽>) |
+| 2015-10-11 | [ハネムーン feat. 理芽](</en/songs/loluet/originals/hanemuun-feat-理芽>) |
 | 2024-11-19 | [crack](</en/songs/loluet/originals/crack>) |
 | 2025-01-21 | [アイ](</en/songs/loluet/originals/ai>) |
 | 2025-09-09 | [ドレス](</en/songs/loluet/originals/doresu>) |
 | 2026-02-24 | [スプートニク](</en/songs/loluet/originals/supuutoniku>) |
-| 2026-07-21 | [双生コンフリクト feat. ヰ世界情緒](</en/songs/loluet/originals/双生konfurikuto-feat.-wi世界情緒>) |
+| 2026-07-21 | [双生コンフリクト feat. ヰ世界情緒](</en/songs/loluet/originals/双生konfurikuto-feat-wi世界情緒>) |
 
 {{/details}}
 

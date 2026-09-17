@@ -89,11 +89,11 @@ seo:
 
 | 发行日期 | 标题 |
 | --- | --- |
-| 2022-10-21 | [Satellite (feat. Yunosuke & WaMi)](</zh/songs/awairo/originals/satellite-feat.-yunosuke-&-wami>) |
-| 2023-10-20 | [Pale&Deep (feat. 雄之助 & WaMi)](</zh/songs/awairo/originals/pale&deep-feat.-雄之助-&-wami>) |
-| 2023-12-08 | [個性 (feat. WaMi & 雄之助)](</zh/songs/awairo/originals/個性-feat.-wami-&-雄之助>) |
-| 2024-04-26 | [烙印 (feat. 雄之助 & WaMi)](</zh/songs/awairo/originals/烙印-feat.-雄之助-&-wami>) |
-| 2024-07-13 | [Replay feat. 梓川](</zh/songs/awairo/originals/replay-feat.-梓川>) |
+| 2022-10-21 | [Satellite (feat. Yunosuke & WaMi)](</zh/songs/awairo/originals/satellite-feat-yunosuke--wami>) |
+| 2023-10-20 | [Pale&Deep (feat. 雄之助 & WaMi)](</zh/songs/awairo/originals/paledeep-feat-雄之助--wami>) |
+| 2023-12-08 | [個性 (feat. WaMi & 雄之助)](</zh/songs/awairo/originals/個性-feat-wami--雄之助>) |
+| 2024-04-26 | [烙印 (feat. 雄之助 & WaMi)](</zh/songs/awairo/originals/烙印-feat-雄之助--wami>) |
+| 2024-07-13 | [Replay feat. 梓川](</zh/songs/awairo/originals/replay-feat-梓川>) |
 | 2024-12-05 | [Love or Lie](</zh/songs/awairo/originals/love-or-lie>) |
 | 2025-02-21 | [ブルームーン](</zh/songs/awairo/originals/buruumuun>) |
 

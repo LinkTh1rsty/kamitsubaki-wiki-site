@@ -1,8 +1,4 @@
 import {isLocalEditorMode} from '../lib/localEditorMode.mjs';
-import katex from 'katex';
-import { micromark } from 'micromark';
-import { gfm, gfmHtml } from 'micromark-extension-gfm';
-import { math, mathHtml } from 'micromark-extension-math';
 import { setSegmentedValue } from '../lib/aiChatControls.mjs';
 import {
   buildAiLocaleRequest,

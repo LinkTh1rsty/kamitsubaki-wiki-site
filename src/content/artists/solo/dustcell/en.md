@@ -124,10 +124,10 @@ DUSTCELL's place in KAMITSUBAKI cannot be reduced to a management label. It conn
 
 | Release date | Type | Title |
 | --- | --- | --- |
-| 2020-05-20 | Album | [SUMMIT](</en/albums/dustcell/SUMMIT-1688155907>) |
+| 2020-05-20 | Album | [SUMMIT](</en/albums/dustcell/summit-1688155907>) |
 | 2021-10-20 | Album | [自白](</en/albums/dustcell/自白-1587649555>) |
-| 2022-08-31 | Album | [Hypnotize](</en/albums/dustcell/Hypnotize-1637382530>) |
-| 2023-03-29 | Album | [ROUND TRIP](</en/albums/dustcell/ROUND-TRIP-1676025466>) |
+| 2022-08-31 | Album | [Hypnotize](</en/albums/dustcell/hypnotize-1637382530>) |
+| 2023-03-29 | Album | [ROUND TRIP](</en/albums/dustcell/round-trip-1676025466>) |
 | 2024-07-24 | Album | [光](</en/albums/dustcell/光-1755122020>) |
 | 2025-12-10 | Album | [碧い海](</en/albums/dustcell/碧い海-1853446220>) |
 
@@ -153,7 +153,7 @@ DUSTCELL's place in KAMITSUBAKI cannot be reduced to a management label. It conn
 | 2023-05-16 | [Caffeine](</en/songs/dustcell/originals/caffeine>) |
 | 2023-10-03 | [フラッシュバック](</en/songs/dustcell/originals/furasshubakku>) |
 | 2024-04-23 | [可笑しな生き物](</en/songs/dustcell/originals/可笑shina生ki物>) |
-| 2024-06-25 | [Nighthawk (feat. たなか)](</en/songs/dustcell/originals/nighthawk-feat.-tanaka>) |
+| 2024-06-25 | [Nighthawk (feat. たなか)](</en/songs/dustcell/originals/nighthawk-feat-tanaka>) |
 | 2024-10-08 | [表情差分](</en/songs/dustcell/originals/表情差分>) |
 | 2024-12-10 | [NO PAIN](</en/songs/dustcell/originals/no-pain>) |
 | 2025-01-01 | [畢竟](</en/songs/dustcell/originals/畢竟>) |

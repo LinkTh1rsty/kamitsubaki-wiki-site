@@ -41,8 +41,8 @@ Sooda は、 ethereal なウィスパーボーカルで知られるシンガー�
 | --- | --- |
 | 2023-11-09 | [甘党](</ja/songs/sooda/originals/甘党>) |
 | 2024-03-22 | [Bansoukou](</ja/songs/sooda/originals/bansoukou>) |
-| 2024-06-30 | [人生ゲーム (feat. 彗星ルナ (CV:ようなぴ), 犬甘うる(CV:POCHI), 犬甘るる(CV:由莉子) & HIDEYA KOJIMA)](</ja/songs/sooda/originals/人生geemu-feat.-彗星runa-cv-younapi--犬甘uru-cv-pochi--犬甘ruru-cv-由莉子-&-hideya-kojima>) |
-| 2025-08-17 | [人生ゲーム (feat. 犬甘うる(CV:POCHI), 犬甘るる(CV:由莉子) & 彗星ルナ (CV:ようなぴ)) [Sped up]](</ja/songs/sooda/originals/人生geemu-feat.-犬甘uru-cv-pochi--犬甘ruru-cv-由莉子-&-彗星runa-cv-younapi-sped-up>) |
+| 2024-06-30 | [人生ゲーム (feat. 彗星ルナ (CV:ようなぴ), 犬甘うる(CV:POCHI), 犬甘るる(CV:由莉子) & HIDEYA KOJIMA)](</ja/songs/sooda/originals/人生geemu-feat-彗星runa-cv-younapi--犬甘uru-cv-pochi--犬甘ruru-cv-由莉子--hideya-kojima>) |
+| 2025-08-17 | [人生ゲーム (feat. 犬甘うる(CV:POCHI), 犬甘るる(CV:由莉子) & 彗星ルナ (CV:ようなぴ)) [Sped up]](</ja/songs/sooda/originals/人生geemu-feat-犬甘uru-cv-pochi--犬甘ruru-cv-由莉子--彗星runa-cv-younapi-sped-up>) |
 | 2025-11-18 | [トートバッグ](</ja/songs/sooda/originals/tootobaggu>) |
 | 2026-04-07 | [メモリーズ](</ja/songs/sooda/originals/memoriizu>) |
 

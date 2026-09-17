@@ -75,7 +75,7 @@ seo:
 
 | リリース日 | 種別 | タイトル |
 | --- | --- | --- |
-| 2026-06-17 | EP | [CYAN](</ja/albums/kuusou/CYAN-6775756685>) |
+| 2026-06-17 | EP | [CYAN](</ja/albums/kuusou/cyan-6775756685>) |
 
 {{/details}}
 

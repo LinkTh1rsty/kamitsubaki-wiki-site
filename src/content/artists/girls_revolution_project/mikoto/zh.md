@@ -49,7 +49,7 @@ categorySubtitle: GIRLS REVOLUTION PROJECT
 - **2024年8月8日**：在 KAMITSUBAKI FES '24 正式出道，开启少女革命计划活动。
 - **2024年11月13日**：发行个人首支单曲《[セルフィッシュ](/zh/songs/mikoto/originals/selfish)》。
 - **2025年1月8日**：发行单曲《[アワセカガミ](/zh/songs/mikoto/originals/awase-kagami)》。
-- **2025年2月5日**：参与硝子宮单曲《[ガラスのパズル](/zh/songs/mikoto/originals/glass-no-puzzle)》。
+- **2025年2月5日**：参与硝子宮单曲《ガラスのパズル》。
 - **2025年4月23日**：发行单曲《[回想の層](/zh/songs/mikoto/originals/kaisou-no-sou)》。
 - **2025年7月11日**：参加 KAMITSUBAKI WARS 2025 神椿川崎戦線 少女革命計画 1st LIVE/第一幕『[改変](/zh/songs/grp/originals/kaihen)』。
 - **2026年2月18日**：发行单曲《[侵蝕の記録](/zh/songs/mikoto/originals/shinshoku-no-kiroku)》。

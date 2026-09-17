@@ -41,11 +41,11 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 - **2025年10月31日**：初の全編無料カバーライブ「Dark Night LIVE」を開催（YouTube Live）。
 - **2025年11月4日**：シングル『[捕食者](/ja/songs/bema/originals/捕食者)』をリリース。
 - **2025年12月24日**：シングル『[ファーストエイド](/ja/songs/bema/originals/fuaasutoeido)』をリリース。
-- **2025年12月25日**：Cover Live Album『[Dark Night LIVE (Cover Live)](/ja/albums/bema/Dark-Night-LIVE-Cover-Live-1858175130)』をリリース。
+- **2025年12月25日**：Cover Live Album『[Dark Night LIVE (Cover Live)](</ja/albums/bema/dark-night-live-cover-live-1858175130>)』をリリース。
 - **2025年11月2日–3日**：KAMITSUBAKI WARS 2025 神椿後楽園戦線に出演。
-- **2026年3月3日**：シングル『[戯れ](/ja/songs/bema/originals/戯re>)』をリリース。
-- **2026年5月5日**：明透と同時リリース『[月夜にマリアージュ](/ja/songs/bema/originals/月夜nimariaaju>)』。
-- **2026年7月8日**：明透と同時リリース『[Alt Skin](/ja/songs/bema/originals/alt-skin>)』。
+- **2026年3月3日**：シングル『[戯れ](</ja/songs/bema/originals/戯re>)』をリリース。
+- **2026年5月5日**：明透と同時リリース『[月夜にマリアージュ](</ja/songs/bema/originals/月夜nimariaaju>)』。
+- **2026年7月8日**：明透と同時リリース『[Alt Skin](</ja/songs/bema/originals/alt-skin>)』。
 - **2026年9月5日–6日**：KAMITSUBAKI WARS 2026 神椿横浜戦線に出演。
 
 ## 代表作品と関連項目
@@ -56,7 +56,7 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 
 | リリース日 | 種別 | タイトル |
 | --- | --- | --- |
-| 2025-12-25 | Live Album | [Dark Night LIVE (Cover Live)](</ja/albums/bema/Dark-Night-LIVE-Cover-Live-1858175130>) |
+| 2025-12-25 | Live Album | [Dark Night LIVE (Cover Live)](</ja/albums/bema/dark-night-live-cover-live-1858175130>) |
 
 {{/details}}
 

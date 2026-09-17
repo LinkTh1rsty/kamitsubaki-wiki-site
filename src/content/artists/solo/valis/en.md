@@ -100,13 +100,13 @@ The major album line includes the 1st Album *WONDERLAND* (2021) and 2nd Album *S
 
 | Release date | Type | Title |
 | --- | --- | --- |
-| 2022-04-23 | Album | [覚醒ヒストリア(覚醒 ver.)](</en/albums/valis/覚醒ヒストリア覚醒-ver.-1688519146>) |
-| 2022-04-23 | Album | [覚醒ヒストリア(裏世界 ver.)](</en/albums/valis/覚醒ヒストリア裏世界-ver.-1688154026>) |
-| 2023-04-18 | Album | [流転ファンタジア(深脊界 ver.)](</en/albums/valis/流転ファンタジア深脊界-ver.-1680449934>) |
-| 2023-04-18 | Album | [流転ファンタジア(覚醒 ver.)](</en/albums/valis/流転ファンタジア覚醒-ver.-1680448823>) |
+| 2022-04-23 | Album | [覚醒ヒストリア(覚醒 ver.)](</en/albums/valis/覚醒ヒストリア覚醒-ver-1688519146>) |
+| 2022-04-23 | Album | [覚醒ヒストリア(裏世界 ver.)](</en/albums/valis/覚醒ヒストリア裏世界-ver-1688154026>) |
+| 2023-04-18 | Album | [流転ファンタジア(深脊界 ver.)](</en/albums/valis/流転ファンタジア深脊界-ver-1680449934>) |
+| 2023-04-18 | Album | [流転ファンタジア(覚醒 ver.)](</en/albums/valis/流転ファンタジア覚醒-ver-1680448823>) |
 | 2024-03-05 | Album | [再現ガールフレンド](</en/albums/valis/再現ガールフレンド-1738198240>) |
-| 2024-08-28 | Album | [青春イマジネーション 瓦利斯飯店ver.](</en/albums/valis/青春イマジネーション-瓦利斯飯店ver.-1763999465>) |
-| 2024-08-28 | Album | [青春イマジネーション 覚醒ver.](</en/albums/valis/青春イマジネーション-覚醒ver.-1763997014>) |
+| 2024-08-28 | Album | [青春イマジネーション 瓦利斯飯店ver.](</en/albums/valis/青春イマジネーション-瓦利斯飯店ver-1763999465>) |
+| 2024-08-28 | Album | [青春イマジネーション 覚醒ver.](</en/albums/valis/青春イマジネーション-覚醒ver-1763997014>) |
 | 2025-08-27 | Album | [悠久オーケストラ](</en/albums/valis/悠久オーケストラ-1829413076>) |
 
 {{/details}}

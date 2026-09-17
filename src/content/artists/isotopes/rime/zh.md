@@ -108,10 +108,10 @@ seo:
 
 | 发行日期 | 类型 | 标题 |
 | --- | --- | --- |
-| 2025-01-11 | Album | [5: I Wish I Could Figure Out Why I Can Dream](</zh/albums/rime/5-I-Wish-I-Could-Figure-Out-Why-I-Can-Dream-1787973321>) |
-| 2025-01-16 | Album | [Only pitch-blackness can save you.](</zh/albums/rime/Only-pitch-blackness-can-save-you.-1786954898>) |
-| 2025-03-15 | Album | [Adore](</zh/albums/rime/Adore-1798669277>) |
-| 2025-04-26 | EP | [Newgame](</zh/albums/rime/Newgame-1808133126>) |
+| 2025-01-11 | Album | [5: I Wish I Could Figure Out Why I Can Dream](</zh/albums/rime/5-i-wish-i-could-figure-out-why-i-can-dream-1787973321>) |
+| 2025-01-16 | Album | [Only pitch-blackness can save you.](</zh/albums/rime/only-pitch-blackness-can-save-you-1786954898>) |
+| 2025-03-15 | Album | [Adore](</zh/albums/rime/adore-1798669277>) |
+| 2025-04-26 | EP | [Newgame](</zh/albums/rime/newgame-1808133126>) |
 
 {{/details}}
 
@@ -122,8 +122,8 @@ seo:
 | 发行日期 | 标题 |
 | --- | --- |
 | 2015-05-14 | [Doubt](</zh/songs/rime/originals/doubt>) |
-| 2015-10-11 | [爆発反転 (feat. マサラダ)](</zh/songs/rime/originals/爆発反転-feat.-masarada>) |
-| 2015-10-11 | [EXAM (feat. Rime)](</zh/songs/rime/originals/exam-feat.-rime>) |
+| 2015-10-11 | [爆発反転 (feat. マサラダ)](</zh/songs/rime/originals/爆発反転-feat-masarada>) |
+| 2015-10-11 | [EXAM (feat. Rime)](</zh/songs/rime/originals/exam-feat-rime>) |
 | 2016-01-28 | [Everything](</zh/songs/rime/originals/everything>) |
 | 2017-07-25 | [怪獣は猫が好きなんだ](</zh/songs/rime/originals/怪獣ha猫ga好kinanda>) |
 | 2023-03-20 | [文明と呼吸](</zh/songs/rime/originals/文明to呼吸>) |
@@ -163,10 +163,10 @@ seo:
 | 2025-11-20 | [ごめんね、いい子じゃなくて](</zh/songs/rime/originals/gomenneii子janakute>) |
 | 2025-11-21 | [LOSER](</zh/songs/rime/originals/loser>) |
 | 2025-12-20 | [ラストエンプティサテライト](</zh/songs/rime/originals/rasutoenputeisateraito>) |
-| 2026-01-28 | [幽玄の詩 (feat. ◈*ゆくえわっと)](</zh/songs/rime/originals/幽玄no詩-feat.-◈-yukuewatto>) |
+| 2026-01-28 | [幽玄の詩 (feat. ◈*ゆくえわっと)](</zh/songs/rime/originals/幽玄no詩-feat--yukuewatto>) |
 | 2026-03-29 | [現象ラブ・ソング](</zh/songs/rime/originals/現象rabu-songu>) |
 | 2026-04-15 | [TIMEOVER](</zh/songs/rime/originals/timeover>) |
-| 2026-07-30 | [レイニー・レメディ (feat. Rime)](</zh/songs/rime/originals/reinii-remedei-feat.-rime>) |
+| 2026-07-30 | [レイニー・レメディ (feat. Rime)](</zh/songs/rime/originals/reinii-remedei-feat-rime>) |
 
 {{/details}}
 

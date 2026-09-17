@@ -86,8 +86,8 @@ Within KUUSOU, CIEL's voice forms a distinctive complementary relationship with 
 
 | Release date | Type | Title |
 | --- | --- | --- |
-| 2023-02-15 | Live Album | [STRAWBERRY LIVE](</en/albums/ciel/STRAWBERRY-LIVE-1669426651>) |
-| 2023-10-04 | Live Album | [STRAWBERRY LIVE 2](</en/albums/ciel/STRAWBERRY-LIVE-2-1708546500>) |
+| 2023-02-15 | Live Album | [STRAWBERRY LIVE](</en/albums/ciel/strawberry-live-1669426651>) |
+| 2023-10-04 | Live Album | [STRAWBERRY LIVE 2](</en/albums/ciel/strawberry-live-2-1708546500>) |
 | 2023-12-13 | EP | [空想少女](</en/albums/ciel/空想少女-1718887889>) |
 | 2024-07-24 | Album | [空想劇](</en/albums/ciel/空想劇-1756276963>) |
 | 2026-03-04 | EP | [再晴](</en/albums/ciel/再晴-1875196168>) |

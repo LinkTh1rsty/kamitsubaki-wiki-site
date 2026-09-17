@@ -80,9 +80,9 @@ Her prolific output and consistent quality have made her a cornerstone of the AN
 | Release date | Title |
 | --- | --- |
 | 2019-11-06 | [Sweet for You](</en/songs/kashiimoimi/originals/sweet-for-you>) |
-| 2020-02-13 | [花色 (feat. KAITO)](</en/songs/kashiimoimi/originals/花色-feat.-kaito>) |
+| 2020-02-13 | [花色 (feat. KAITO)](</en/songs/kashiimoimi/originals/花色-feat-kaito>) |
 | 2022-07-12 | [キャットラビング](</en/songs/kashiimoimi/originals/kyattorabingu>) |
-| 2022-07-19 | [FLASH (feat. KAITO)](</en/songs/kashiimoimi/originals/flash-feat.-kaito>) |
+| 2022-07-19 | [FLASH (feat. KAITO)](</en/songs/kashiimoimi/originals/flash-feat-kaito>) |
 | 2023-04-04 | [Makeup](</en/songs/kashiimoimi/originals/makeup>) |
 | 2023-09-19 | [バッドエンドメーカー](</en/songs/kashiimoimi/originals/baddoendomeekaa>) |
 | 2023-12-05 | [失踪前夜](</en/songs/kashiimoimi/originals/失踪前夜>) |

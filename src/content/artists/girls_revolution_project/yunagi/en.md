@@ -49,7 +49,7 @@ In her official channel description, she introduces herself with "Sing, eat, pla
 - **August 8, 2024**: Officially debuted at KAMITSUBAKI FES '24.
 - **October 30, 2024**: Released her first solo single, "[About](/en/songs/yunagi/originals/about)".
 - **December 18, 2024**: Released the single "[Player Watashi](/en/songs/yunagi/originals/player-watashi)".
-- **February 19, 2025**: Featured on Orihime's single "[Mabataki](/en/songs/yunagi/originals/mabataki)".
+- **February 19, 2025**: Featured on Orihime's single "Mabataki".
 - **April 30, 2025**: Released the single "[Yellow Yellow](/en/songs/yunagi/originals/yellow-yellow)".
 - **July 11, 2025**: Appeared in KAMITSUBAKI WARS 2025 Kawasaki Front — Girls Revolution Project 1st LIVE / Act I "[Kaihen](/en/songs/grp/originals/kaihen)".
 - **December 17, 2025**: Released the single "[Bakemono de Isasete](/en/songs/yunagi/originals/bakemono-de-isasete)".

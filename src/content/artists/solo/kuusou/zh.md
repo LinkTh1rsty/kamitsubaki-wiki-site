@@ -75,7 +75,7 @@ seo:
 
 | 发行日期 | 类型 | 标题 |
 | --- | --- | --- |
-| 2026-06-17 | EP | [CYAN](</zh/albums/kuusou/CYAN-6775756685>) |
+| 2026-06-17 | EP | [CYAN](</zh/albums/kuusou/cyan-6775756685>) |
 
 {{/details}}
 

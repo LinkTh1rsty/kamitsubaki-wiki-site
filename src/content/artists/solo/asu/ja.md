@@ -78,9 +78,9 @@ ASU の特徴は「本能」と「予測不能」にある。歌声の表現力�
 
 | リリース日 | 種別 | タイトル |
 | --- | --- | --- |
-| 2022-10-21 | Live Album | [サンライトLIVE](</ja/albums/asu/サンライトLIVE-1712470891>) |
-| 2023-04-19 | Album | [ASU](</ja/albums/asu/ASU-1680653014>) |
-| 2023-10-25 | Live Album | [サンライトLIVE 2](</ja/albums/asu/サンライトLIVE-2-1712458671>) |
+| 2022-10-21 | Live Album | [サンライトLIVE](</ja/albums/asu/サンライトlive-1712470891>) |
+| 2023-04-19 | Album | [ASU](</ja/albums/asu/asu-1680653014>) |
+| 2023-10-25 | Live Album | [サンライトLIVE 2](</ja/albums/asu/サンライトlive-2-1712458671>) |
 | 2025-03-26 | Album | [ray of hope](</ja/albums/asu/ray-of-hope-1801902980>) |
 
 {{/details}}

@@ -78,9 +78,9 @@ ASU 的核心气质是「本能」与「不可预测」。她的声线变化丰�
 
 | 发行日期 | 类型 | 标题 |
 | --- | --- | --- |
-| 2022-10-21 | Live Album | [サンライトLIVE](</zh/albums/asu/サンライトLIVE-1712470891>) |
-| 2023-04-19 | Album | [ASU](</zh/albums/asu/ASU-1680653014>) |
-| 2023-10-25 | Live Album | [サンライトLIVE 2](</zh/albums/asu/サンライトLIVE-2-1712458671>) |
+| 2022-10-21 | Live Album | [サンライトLIVE](</zh/albums/asu/サンライトlive-1712470891>) |
+| 2023-04-19 | Album | [ASU](</zh/albums/asu/asu-1680653014>) |
+| 2023-10-25 | Live Album | [サンライトLIVE 2](</zh/albums/asu/サンライトlive-2-1712458671>) |
 | 2025-03-26 | Album | [ray of hope](</zh/albums/asu/ray-of-hope-1801902980>) |
 
 {{/details}}

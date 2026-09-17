@@ -78,9 +78,9 @@ Her songwriting emphasizes intuitive emotional expression. The lyrics and melodi
 
 | Release date | Type | Title |
 | --- | --- | --- |
-| 2022-10-21 | Live Album | [サンライトLIVE](</en/albums/asu/サンライトLIVE-1712470891>) |
-| 2023-04-19 | Album | [ASU](</en/albums/asu/ASU-1680653014>) |
-| 2023-10-25 | Live Album | [サンライトLIVE 2](</en/albums/asu/サンライトLIVE-2-1712458671>) |
+| 2022-10-21 | Live Album | [サンライトLIVE](</en/albums/asu/サンライトlive-1712470891>) |
+| 2023-04-19 | Album | [ASU](</en/albums/asu/asu-1680653014>) |
+| 2023-10-25 | Live Album | [サンライトLIVE 2](</en/albums/asu/サンライトlive-2-1712458671>) |
 | 2025-03-26 | Album | [ray of hope](</en/albums/asu/ray-of-hope-1801902980>) |
 
 {{/details}}

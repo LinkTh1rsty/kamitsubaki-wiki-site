@@ -151,7 +151,7 @@ CeVIO AIプラットフォーム上で動作し、名前の「HARU」は春猿�
 | 2016-01-26 | [小さな冒険](</ja/songs/haru/originals/小sana冒険>) |
 | 2024-03-27 | [Follow Me Now!](</ja/songs/haru/originals/follow-me-now>) |
 | 2024-05-26 | [送り雨道](</ja/songs/haru/originals/送ri雨道>) |
-| 2024-06-27 | [拒絶反応 feat. 羽累](</ja/songs/haru/originals/拒絶反応-feat.-羽累>) |
+| 2024-06-27 | [拒絶反応 feat. 羽累](</ja/songs/haru/originals/拒絶反応-feat-羽累>) |
 | 2024-08-31 | [ヒットパレル](</ja/songs/haru/originals/hittopareru>) |
 | 2024-10-16 | [ロースピードフェイクリリック](</ja/songs/haru/originals/low-speed-fake-lyric>) |
 | 2024-10-25 | [バーナリゼーション](</ja/songs/haru/originals/baanarizeeshon>) |

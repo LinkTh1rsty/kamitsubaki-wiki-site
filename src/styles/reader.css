@@ -48,6 +48,7 @@ html body .reader-layout:not(:has(.reader-body)) > .reader-sidebar { grid-column
     max-width: 24rem;
     margin-inline: auto;
   }
+  html body .reader-body { order: 1; }
   html body .reader-sidebar > .contributor-roster {
     order: 2;
     width: 100%;

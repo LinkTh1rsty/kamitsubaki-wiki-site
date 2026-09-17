@@ -30,7 +30,7 @@ HiFi-P 现隶属于 [KYOKAI STUDIO](/zh/projects/labels/kyokai-studio)（2026年
 
 | 发行日期 | 类型 | 标题 |
 | --- | --- | --- |
-| 2023-05-11 | Album | [Pixels](</zh/albums/hifi-p/Pixels-1685405328>) |
+| 2023-05-11 | Album | [Pixels](</zh/albums/hifi-p/pixels-1685405328>) |
 
 {{/details}}
 

@@ -30,7 +30,7 @@ Illustrations by Ritsao (りたお).
 
 | Release date | Type | Title |
 | --- | --- | --- |
-| 2023-05-11 | Album | [Pixels](</en/albums/hifi-p/Pixels-1685405328>) |
+| 2023-05-11 | Album | [Pixels](</en/albums/hifi-p/pixels-1685405328>) |
 
 {{/details}}
 

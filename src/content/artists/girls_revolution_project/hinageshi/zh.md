@@ -49,7 +49,7 @@ categorySubtitle: GIRLS REVOLUTION PROJECT
 - **2024年8月8日**：在 KAMITSUBAKI FES '24 正式出道，开启少女革命计划活动。
 - **2024年10月16日**：发行个人首支单曲《[アライブ](/zh/songs/hinageshi/originals/alive)》。
 - **2024年12月4日**：发行单曲《[ジャンク](/zh/songs/hinageshi/originals/junk)》。
-- **2025年2月12日**：参与佳鏡院单曲《[シネマティック](/zh/songs/hinageshi/originals/cinematic)》。
+- **2025年2月12日**：参与佳鏡院单曲《シネマティック》。
 - **2025年4月16日**：发行单曲《[ホンキートンキーラブ](/zh/songs/hinageshi/originals/honky-tonky-love)》。
 - **2025年7月11日**：参加 KAMITSUBAKI WARS 2025 神椿川崎戦線 少女革命計画 1st LIVE/第一幕『[改変](/zh/songs/grp/originals/kaihen)』。
 - **2026年1月7日**：发行单曲《[sweet/sour](/zh/songs/hinageshi/originals/sweet-sour)》。

@@ -46,10 +46,10 @@ His role was broader than supplying isolated tracks: lyrics, music, live themes,
 | 2021-08-11 | EP | [人生はコメディ](</en/albums/kanzaki-iori/人生はコメディ-1688672421>) |
 | 2021-08-11 | Album | [不器用な男](</en/albums/kanzaki-iori/不器用な男-1688512735>) |
 | 2021-08-11 | Album | [白紙](</en/albums/kanzaki-iori/白紙-1688516351>) |
-| 2023-07-21 | EP | [Boys and Girls](</en/albums/kanzaki-iori/Boys-and-Girls-1697284180>) |
-| 2024-12-11 | Live Album | [Acoustic Mini Live [Hibi, ]](</en/albums/kanzaki-iori/Acoustic-Mini-Live-Hibi-1784434167>) |
-| 2024-12-25 | Album | [Freely Captured](</en/albums/kanzaki-iori/Freely-Captured-1786566019>) |
-| 2025-08-12 | Album | [That Summer Saturates](</en/albums/kanzaki-iori/That-Summer-Saturates-1831730283>) |
+| 2023-07-21 | EP | [Boys and Girls](</en/albums/kanzaki-iori/boys-and-girls-1697284180>) |
+| 2024-12-11 | Live Album | [Acoustic Mini Live [Hibi, ]](</en/albums/kanzaki-iori/acoustic-mini-live-hibi-1784434167>) |
+| 2024-12-25 | Album | [Freely Captured](</en/albums/kanzaki-iori/freely-captured-1786566019>) |
+| 2025-08-12 | Album | [That Summer Saturates](</en/albums/kanzaki-iori/that-summer-saturates-1831730283>) |
 
 {{/details}}
 
@@ -59,21 +59,21 @@ His role was broader than supplying isolated tracks: lyrics, music, live themes,
 
 | Release date | Title |
 | --- | --- |
-| 2015-10-11 | [あの春を返して (feat. 鏡音リン)](</en/songs/kanzaki-iori/originals/ano春wo返shite-feat.-鏡音rin>) |
+| 2015-10-11 | [あの春を返して (feat. 鏡音リン)](</en/songs/kanzaki-iori/originals/ano春wo返shite-feat-鏡音rin>) |
 | 2021-08-10 | [大人](</en/songs/kanzaki-iori/originals/大人>) |
 | 2021-11-18 | [爆弾](</en/songs/kanzaki-iori/originals/爆弾>) |
 | 2022-02-28 | [偶像](</en/songs/kanzaki-iori/originals/偶像>) |
 | 2023-03-31 | [なぜ](</en/songs/kanzaki-iori/originals/naze>) |
 | 2023-08-09 | [文化になっていく](</en/songs/kanzaki-iori/originals/文化ninatteiku>) |
 | 2024-01-12 | [25時の情熱](</en/songs/kanzaki-iori/originals/25時no情熱>) |
-| 2024-08-24 | [あんたは死んだ (feat. 重音テト)](</en/songs/kanzaki-iori/originals/antaha死nda-feat.-重音teto>) |
+| 2024-08-24 | [あんたは死んだ (feat. 重音テト)](</en/songs/kanzaki-iori/originals/antaha死nda-feat-重音teto>) |
 | 2024-10-28 | [成長痛 (梵そよぎ Ver.)](</en/songs/kanzaki-iori/originals/成長痛-梵soyogi-ver>) |
-| 2024-11-10 | [吸血鬼 (feat. 重音テト & GUMI)](</en/songs/kanzaki-iori/originals/吸血鬼-feat.-重音teto-&-gumi>) |
-| 2025-04-18 | [泥虫 (feat. 重音テト)](</en/songs/kanzaki-iori/originals/泥虫-feat.-重音teto>) |
-| 2025-12-09 | [スーツ (feat. 重音テト & 初音ミク)](</en/songs/kanzaki-iori/originals/suutsu-feat.-重音teto-&-初音miku>) |
+| 2024-11-10 | [吸血鬼 (feat. 重音テト & GUMI)](</en/songs/kanzaki-iori/originals/吸血鬼-feat-重音teto--gumi>) |
+| 2025-04-18 | [泥虫 (feat. 重音テト)](</en/songs/kanzaki-iori/originals/泥虫-feat-重音teto>) |
+| 2025-12-09 | [スーツ (feat. 重音テト & 初音ミク)](</en/songs/kanzaki-iori/originals/suutsu-feat-重音teto--初音miku>) |
 | 2026-02-13 | [怒り](</en/songs/kanzaki-iori/originals/怒ri>) |
-| 2026-02-13 | [怒り[VOCALOID ver.] [feat. Noz.]](</en/songs/kanzaki-iori/originals/怒ri-vocaloid-ver.-feat.-noz>) |
-| 2026-04-16 | [旅に帰る (feat. 初音ミク & 重音テト)](</en/songs/kanzaki-iori/originals/旅ni帰ru-feat.-初音miku-&-重音teto>) |
+| 2026-02-13 | [怒り[VOCALOID ver.] [feat. Noz.]](</en/songs/kanzaki-iori/originals/怒ri-vocaloid-ver-feat-noz>) |
+| 2026-04-16 | [旅に帰る (feat. 初音ミク & 重音テト)](</en/songs/kanzaki-iori/originals/旅ni帰ru-feat-初音miku--重音teto>) |
 
 {{/details}}
 

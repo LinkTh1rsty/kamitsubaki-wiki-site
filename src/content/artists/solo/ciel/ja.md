@@ -87,8 +87,8 @@ CIEL のキャラクター設定は「俯いていた少女が空を仰ぐ」と
 
 | リリース日 | 種別 | タイトル |
 | --- | --- | --- |
-| 2023-02-15 | Live Album | [STRAWBERRY LIVE](</ja/albums/ciel/STRAWBERRY-LIVE-1669426651>) |
-| 2023-10-04 | Live Album | [STRAWBERRY LIVE 2](</ja/albums/ciel/STRAWBERRY-LIVE-2-1708546500>) |
+| 2023-02-15 | Live Album | [STRAWBERRY LIVE](</ja/albums/ciel/strawberry-live-1669426651>) |
+| 2023-10-04 | Live Album | [STRAWBERRY LIVE 2](</ja/albums/ciel/strawberry-live-2-1708546500>) |
 | 2023-12-13 | EP | [空想少女](</ja/albums/ciel/空想少女-1718887889>) |
 | 2024-07-24 | Album | [空想劇](</ja/albums/ciel/空想劇-1756276963>) |
 | 2026-03-04 | EP | [再晴](</ja/albums/ciel/再晴-1875196168>) |

@@ -247,7 +247,7 @@ seo:
 | 2023-03-08 | [春を発つ](</zh/songs/kaf/originals/春を発つ-depart-from-spring>) |
 | 2023-03-08 | [裏表ガール](</zh/songs/kaf/originals/裏表ガール-two-faced-girl>) |
 | 2023-03-08 | [邂逅](</zh/songs/kaf/originals/邂逅-chance-meeting>) |
-| 2023-03-08 | [あるふぁYOU](</zh/songs/kaf/originals/あるふぁYOU-alpha-you>) |
+| 2023-03-08 | [あるふぁYOU](</zh/songs/kaf/originals/あるふぁyou-alpha-you>) |
 | 2023-03-08 | [それを世界と言うんだね](</zh/songs/kaf/originals/それを世界と言うんだね-you-call-it-the-world>) |
 | 2023-03-08 | [ニヒル](</zh/songs/kaf/originals/ニヒル-nihil>) |
 | 2024-02-28 | [ギミギミ逃避行 feat. #KTちゃん](</zh/songs/kaf/originals/ギミギミ逃避行-gimi-gimi-flight>) |
@@ -258,7 +258,7 @@ seo:
 | 2024-12-25 | [俯瞰する事象](</zh/songs/kaf/originals/俯瞰する事象-overlooked-phenomenon>) |
 | 2024-12-25 | [黄金の木](</zh/songs/kaf/originals/黄金の木-tree-of-gold>) |
 | 2024-12-25 | [Replaceable Goodbye](</zh/songs/kaf/originals/replaceable-goodbye>) |
-| 2024-12-25 | [カルぺ・ディエム](</zh/songs/kaf/originals/カルぺ・ディエム-carpe-diem>) |
+| 2024-12-25 | [カルぺ・ディエム](</zh/songs/kaf/originals/カルぺディエム-carpe-diem>) |
 | 2024-12-25 | [この世界は美しい](</zh/songs/kaf/originals/この世界は美しい-the-beautiful-world>) |
 | 2024-12-25 | [スワン](</zh/songs/kaf/originals/スワン-swan>) |
 | 2024-12-25 | [ダンダラボッチ](</zh/songs/kaf/originals/ダンダラボッチ-dandarabotchi>) |

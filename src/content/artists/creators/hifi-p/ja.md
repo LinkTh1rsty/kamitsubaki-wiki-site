@@ -35,7 +35,7 @@ HiFi-P は [KYOKAI STUDIO](/ja/projects/labels/kyokai-studio) に所属し（202
 
 | リリース日 | 種別 | タイトル |
 | --- | --- | --- |
-| 2023-05-11 | Album | [Pixels](</ja/albums/hifi-p/Pixels-1685405328>) |
+| 2023-05-11 | Album | [Pixels](</ja/albums/hifi-p/pixels-1685405328>) |
 
 {{/details}}
 

@@ -49,7 +49,7 @@ Her official channel description frames singing amid contradictions of cold and 
 - **August 8, 2024**: Officially debuted at KAMITSUBAKI FES '24.
 - **October 16, 2024**: Released her first solo single, "[Alive](/en/songs/hinageshi/originals/alive)".
 - **December 4, 2024**: Released the single "[Junk](/en/songs/hinageshi/originals/junk)".
-- **February 12, 2025**: Featured on Kakyoin's single "[Cinematic](/en/songs/hinageshi/originals/cinematic)".
+- **February 12, 2025**: Featured on Kakyoin's single "Cinematic".
 - **April 16, 2025**: Released the single "[Honky Tonky Love](/en/songs/hinageshi/originals/honky-tonky-love)".
 - **July 11, 2025**: Appeared in KAMITSUBAKI WARS 2025 Kawasaki Front — Girls Revolution Project 1st LIVE / Act I "[Kaihen](/en/songs/grp/originals/kaihen)".
 - **January 7, 2026**: Released the single "[sweet/sour](/en/songs/hinageshi/originals/sweet-sour)".

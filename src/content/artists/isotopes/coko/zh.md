@@ -109,10 +109,10 @@ seo:
 
 | 发行日期 | 标题 |
 | --- | --- |
-| 2015-10-11 | [スカイライン (feat. 狐子)](</zh/songs/coko/originals/sukairain-feat.-狐子>) |
-| 2015-10-11 | [てやんでいっ! (feat. 狐子)](</zh/songs/coko/originals/teyandei-feat.-狐子>) |
-| 2020-05-24 | [Ballerina (feat. Lil wick)](</zh/songs/coko/originals/ballerina-feat.-lil-wick>) |
-| 2021-06-19 | [KiLLer TuNe (feat. 狐子)](</zh/songs/coko/originals/killer-tune-feat.-狐子>) |
+| 2015-10-11 | [スカイライン (feat. 狐子)](</zh/songs/coko/originals/sukairain-feat-狐子>) |
+| 2015-10-11 | [てやんでいっ! (feat. 狐子)](</zh/songs/coko/originals/teyandei-feat-狐子>) |
+| 2020-05-24 | [Ballerina (feat. Lil wick)](</zh/songs/coko/originals/ballerina-feat-lil-wick>) |
+| 2021-06-19 | [KiLLer TuNe (feat. 狐子)](</zh/songs/coko/originals/killer-tune-feat-狐子>) |
 | 2023-03-26 | [心の傘](</zh/songs/coko/originals/心no傘>) |
 | 2023-11-27 | [FAKE](</zh/songs/coko/originals/fake>) |
 | 2024-03-14 | [ギフテッド・ギミック](</zh/songs/coko/originals/gifuteddo-gimikku>) |
@@ -121,7 +121,7 @@ seo:
 | 2025-02-28 | [NEVERMIND NEVERLAND](</zh/songs/coko/originals/nevermind-neverland>) |
 | 2025-11-14 | [消えてしまいたい夜に](</zh/songs/coko/originals/消eteshimaitai夜ni>) |
 | 2026-01-28 | [Sugar-High](</zh/songs/coko/originals/sugar-high>) |
-| 2026-04-29 | [神羅 (feat. ゆうゆ)](</zh/songs/coko/originals/神羅-feat.-yuuyu>) |
+| 2026-04-29 | [神羅 (feat. ゆうゆ)](</zh/songs/coko/originals/神羅-feat-yuuyu>) |
 | 2026-05-26 | [TOKYO MIDNIGHT FANTASY](</zh/songs/coko/originals/tokyo-midnight-fantasy>) |
 
 {{/details}}

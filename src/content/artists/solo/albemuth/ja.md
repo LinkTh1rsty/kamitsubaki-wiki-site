@@ -42,9 +42,9 @@ Albemuth（アルベムス）は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kami
 
 | リリース日 | 種別 | タイトル |
 | --- | --- | --- |
-| 2023-11-22 | Album | [ADAM (feat. 存流 & 明透)](</ja/albums/albemuth/ADAM-feat.-存流-&-明透-1715604776>) |
-| 2023-11-22 | Album | [eve (feat. 存流 & 明透)](</ja/albums/albemuth/eve-feat.-存流-&-明透-1715607878>) |
-| 2024-02-14 | Album | [Happy Merry Xmath (feat. 存流 & 明透)](</ja/albums/albemuth/Happy-Merry-Xmath-feat.-存流-&-明透-1728182964>) |
+| 2023-11-22 | Album | [ADAM (feat. 存流 & 明透)](</ja/albums/albemuth/adam-feat-存流--明透-1715604776>) |
+| 2023-11-22 | Album | [eve (feat. 存流 & 明透)](</ja/albums/albemuth/eve-feat-存流--明透-1715607878>) |
+| 2024-02-14 | Album | [Happy Merry Xmath (feat. 存流 & 明透)](</ja/albums/albemuth/happy-merry-xmath-feat-存流--明透-1728182964>) |
 
 {{/details}}
 
@@ -58,9 +58,9 @@ Albemuth（アルベムス）は、[KAMITSUBAKI STUDIO](/ja/projects/labels/kami
 | 2023-02-15 | [感光](</ja/songs/albemuth/originals/感光>) |
 | 2023-04-26 | [guilty](</ja/songs/albemuth/originals/guilty>) |
 | 2023-06-21 | [Black Glow](</ja/songs/albemuth/originals/black-glow>) |
-| 2023-08-16 | [星月夜の調べ (feat. 存流 & 明透)](</ja/songs/albemuth/originals/星月夜no調be-feat.-存流-&-明透>) |
-| 2023-08-16 | [Underdrain (feat. 存流 & 明透)](</ja/songs/albemuth/originals/underdrain-feat.-存流-&-明透>) |
-| 2023-08-30 | [tuberose (feat. 存流 & 明透)](</ja/songs/albemuth/originals/tuberose-feat.-存流-&-明透>) |
+| 2023-08-16 | [星月夜の調べ (feat. 存流 & 明透)](</ja/songs/albemuth/originals/星月夜no調be-feat-存流--明透>) |
+| 2023-08-16 | [Underdrain (feat. 存流 & 明透)](</ja/songs/albemuth/originals/underdrain-feat-存流--明透>) |
+| 2023-08-30 | [tuberose (feat. 存流 & 明透)](</ja/songs/albemuth/originals/tuberose-feat-存流--明透>) |
 
 {{/details}}
 

@@ -77,7 +77,7 @@ Ren (廉) is a Vocaloid producer who began releasing music in March 2020. His wo
 | 2024-09-17 | [ノイズゴト](</en/songs/ren/originals/noizugoto>) |
 | 2024-10-01 | [雨傘に哭く](</en/songs/ren/originals/雨傘ni哭ku>) |
 | 2024-12-03 | [キミアイギミー](</en/songs/ren/originals/kimiaigimii>) |
-| 2025-01-06 | [セカイの箱庭 (feat. Isekaijoucho)](</en/songs/ren/originals/sekaino箱庭-feat.-isekaijoucho>) |
+| 2025-01-06 | [セカイの箱庭 (feat. Isekaijoucho)](</en/songs/ren/originals/sekaino箱庭-feat-isekaijoucho>) |
 | 2025-01-28 | [ラストバースデイ](</en/songs/ren/originals/rasutobaasudei>) |
 | 2025-05-06 | [レムシェイディ](</en/songs/ren/originals/remusheidei>) |
 | 2025-08-26 | [エメの鳥籠](</en/songs/ren/originals/emeno鳥籠>) |

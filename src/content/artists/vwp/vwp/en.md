@@ -123,11 +123,11 @@ This three-track creative structure allows V.W.P to maintain narrative coherence
 
 | Release date | Title |
 | --- | --- |
-| 2025-02-26 | [真偽 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</en/songs/vwp/projects/真偽-magi-都市-from-神椿市建設中-REGENERATE>) |
-| 2025-04-11 | [反逆 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</en/songs/vwp/projects/反逆-rebellion-都市-from-神椿市建設中-REGENERATE>) |
-| 2025-04-11 | [決意 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</en/songs/vwp/projects/決意-determination-都市-from-神椿市建設中-REGENERATE>) |
-| 2025-04-11 | [流転 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</en/songs/vwp/projects/流転-reincarnation-都市-from-神椿市建設中-REGENERATE>) |
-| 2025-04-11 | [神話 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</en/songs/vwp/projects/神話-mythology-都市-from-神椿市建設中-REGENERATE>) |
+| 2025-02-26 | [真偽 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</en/songs/vwp/projects/真偽-magi-都市-from-神椿市建設中-regenerate>) |
+| 2025-04-11 | [反逆 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</en/songs/vwp/projects/反逆-rebellion-都市-from-神椿市建設中-regenerate>) |
+| 2025-04-11 | [決意 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</en/songs/vwp/projects/決意-determination-都市-from-神椿市建設中-regenerate>) |
+| 2025-04-11 | [流転 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</en/songs/vwp/projects/流転-reincarnation-都市-from-神椿市建設中-regenerate>) |
+| 2025-04-11 | [神話 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</en/songs/vwp/projects/神話-mythology-都市-from-神椿市建設中-regenerate>) |
 | 2025-07-04 | [歌姫 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/projects/歌姫-diva>) |
 | 2025-07-09 | [追憶 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/projects/追憶-chase-the-day>) |
 | 2025-08-14 | [シャングリラ](</en/songs/vwp/projects/シャングリラ-shangri-la>) |
@@ -135,11 +135,11 @@ This three-track creative structure allows V.W.P to maintain narrative coherence
 | 2025-11-19 | [閃光だった](</en/songs/vwp/projects/閃光だった-insight>) |
 | 2025-11-19 | [距離。](</en/songs/vwp/projects/距離-distance>) |
 | 2025-11-19 | [BREATHE](</en/songs/vwp/projects/breathe>) |
-| 2025-12-19 | [反逆 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/projects/反逆-rebellion-都市II-from-神椿市建設中-VIRTUAL-REALITY>) |
-| 2025-12-19 | [決意 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/projects/決意-determination-都市II-from-神椿市建設中-VIRTUAL-REALITY>) |
-| 2025-12-19 | [流転 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/projects/流転-reincarnation-都市II-from-神椿市建設中-VIRTUAL-REALITY>) |
-| 2025-12-19 | [真偽 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/projects/真偽-magi-都市II-from-神椿市建設中-VIRTUAL-REALITY>) |
-| 2025-12-19 | [神話 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/projects/神話-mythology-都市II-from-神椿市建設中-VIRTUAL-REALITY>) |
+| 2025-12-19 | [反逆 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/projects/反逆-rebellion-都市ii-from-神椿市建設中-virtual-reality>) |
+| 2025-12-19 | [決意 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/projects/決意-determination-都市ii-from-神椿市建設中-virtual-reality>) |
+| 2025-12-19 | [流転 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/projects/流転-reincarnation-都市ii-from-神椿市建設中-virtual-reality>) |
+| 2025-12-19 | [真偽 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/projects/真偽-magi-都市ii-from-神椿市建設中-virtual-reality>) |
+| 2025-12-19 | [神話 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/projects/神話-mythology-都市ii-from-神椿市建設中-virtual-reality>) |
 
 {{/details}}
 
@@ -165,8 +165,8 @@ This three-track creative structure allows V.W.P to maintain narrative coherence
 | 2022-12-21 | [輪廻 acoustic ver. (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/genealogy/輪廻-acoustic-ver-reincarnation-acoustic-ver>) |
 | 2023-04-01 | [古傷 (feat. Harusaruhi & V.W.P)](</en/songs/vwp/genealogy/古傷-furukizu>) |
 | 2023-05-17 | [生存 (feat. Harusaruhi & V.W.P)](</en/songs/vwp/genealogy/生存-seizon>) |
-| 2023-05-24 | [魔女(真) [feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO]](</en/songs/vwp/genealogy/魔女(真)-the-witches-true-運命>) |
-| 2023-05-24 | [魔女(真) [feat. KAF, RIM, Isekaijoucho, Harusaruhi & KOKO]](</en/songs/vwp/genealogy/魔女(真)-the-witches-true-魔女(真)>) |
+| 2023-05-24 | [魔女(真) [feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO]](</en/songs/vwp/genealogy/魔女真-the-witches-true-運命>) |
+| 2023-05-24 | [魔女(真) [feat. KAF, RIM, Isekaijoucho, Harusaruhi & KOKO]](</en/songs/vwp/genealogy/魔女真-the-witches-true-魔女真>) |
 | 2023-06-19 | [定命 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</en/songs/vwp/genealogy/定命-destiny-運命>) |
 | 2023-06-19 | [定命 (feat. KAF, RIM, Isekaijoucho, Harusaruhi & KOKO)](</en/songs/vwp/genealogy/定命-destiny-定命>) |
 | 2023-07-12 | [玩具 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)](</en/songs/vwp/genealogy/玩具-toy-運命>) |
@@ -230,7 +230,7 @@ This three-track creative structure allows V.W.P to maintain narrative coherence
 | 2025-06-11 | [アイノ最適解](</en/songs/vwp/genealogy/アイノ最適解-the-answer-of-love>) |
 | 2025-06-11 | [ぼくらの逃避行](</en/songs/vwp/genealogy/ぼくらの逃避行-our-escape>) |
 | 2025-09-17 | [電脳 sinka ver. (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/genealogy/電脳-sinka-ver-cyberbrains-sinka-ver>) |
-| 2025-10-01 | [魔女(真) sinka ver. (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/genealogy/魔女(真)-sinka-ver-witch-true-sinka-ver>) |
+| 2025-10-01 | [魔女(真) sinka ver. (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/genealogy/魔女真-sinka-ver-witch-true-sinka-ver>) |
 | 2025-10-30 | [終点 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/genealogy/終点-terminal>) |
 | 2025-11-19 | [点灯 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/genealogy/点灯-lights>) |
 | 2026-01-03 | [照射 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)](</en/songs/vwp/genealogy/照射-irradiation>) |

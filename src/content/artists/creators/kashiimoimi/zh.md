@@ -80,9 +80,9 @@ seo:
 | 发行日期 | 标题 |
 | --- | --- |
 | 2019-11-06 | [Sweet for You](</zh/songs/kashiimoimi/originals/sweet-for-you>) |
-| 2020-02-13 | [花色 (feat. KAITO)](</zh/songs/kashiimoimi/originals/花色-feat.-kaito>) |
+| 2020-02-13 | [花色 (feat. KAITO)](</zh/songs/kashiimoimi/originals/花色-feat-kaito>) |
 | 2022-07-12 | [キャットラビング](</zh/songs/kashiimoimi/originals/kyattorabingu>) |
-| 2022-07-19 | [FLASH (feat. KAITO)](</zh/songs/kashiimoimi/originals/flash-feat.-kaito>) |
+| 2022-07-19 | [FLASH (feat. KAITO)](</zh/songs/kashiimoimi/originals/flash-feat-kaito>) |
 | 2023-04-04 | [Makeup](</zh/songs/kashiimoimi/originals/makeup>) |
 | 2023-09-19 | [バッドエンドメーカー](</zh/songs/kashiimoimi/originals/baddoendomeekaa>) |
 | 2023-12-05 | [失踪前夜](</zh/songs/kashiimoimi/originals/失踪前夜>) |

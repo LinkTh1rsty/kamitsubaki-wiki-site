@@ -62,8 +62,8 @@ seo:
 
 | 发行日期 | 类型 | 标题 |
 | --- | --- | --- |
-| 2021-09-22 | Album | [MIKU TOA (feat. 初音ミク)](</zh/albums/toa/MIKU-TOA-feat.-初音ミク-1585735634>) |
-| 2026-07-22 | Album | [Muguet/Tagetes (feat. Hatsune Miku, 鏡音レン & 鏡音リン)](</zh/albums/toa/MuguetTagetes-feat.-Hatsune-Miku-鏡音レン-&-鏡音リン-6790240020>) |
+| 2021-09-22 | Album | [MIKU TOA (feat. 初音ミク)](</zh/albums/toa/miku-toa-feat-初音ミク-1585735634>) |
+| 2026-07-22 | Album | [Muguet/Tagetes (feat. Hatsune Miku, 鏡音レン & 鏡音リン)](</zh/albums/toa/muguettagetes-feat-hatsune-miku-鏡音レン--鏡音リン-6790240020>) |
 
 {{/details}}
 
@@ -74,10 +74,10 @@ seo:
 | 发行日期 | 标题 |
 | --- | --- |
 | 2013-12-31 | [ピチカートドロップス](</zh/songs/toa/originals/pichikaatodoroppusu>) |
-| 2015-04-24 | [真白闇 (feat. 初音ミク)](</zh/songs/toa/originals/真白闇-feat.-初音miku>) |
-| 2019-01-22 | [ユキソラ (feat. 初音ミク)](</zh/songs/toa/originals/yukisora-feat.-初音miku>) |
+| 2015-04-24 | [真白闇 (feat. 初音ミク)](</zh/songs/toa/originals/真白闇-feat-初音miku>) |
+| 2019-01-22 | [ユキソラ (feat. 初音ミク)](</zh/songs/toa/originals/yukisora-feat-初音miku>) |
 | 2022-02-21 | [ステンドノクターン](</zh/songs/toa/originals/sutendonokutaan>) |
-| 2022-03-01 | [ツギハギスタッカート (feat. 初音ミク)](</zh/songs/toa/originals/tsugihagisutakkaato-feat.-初音miku>) |
+| 2022-03-01 | [ツギハギスタッカート (feat. 初音ミク)](</zh/songs/toa/originals/tsugihagisutakkaato-feat-初音miku>) |
 | 2023-12-06 | [トワイライトライト](</zh/songs/toa/originals/towairaitoraito>) |
 | 2024-03-12 | [スカーティシュー](</zh/songs/toa/originals/sukaateishuu>) |
 | 2024-06-04 | [ドライドライフラワー](</zh/songs/toa/originals/doraidoraifurawaa>) |

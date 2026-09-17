@@ -87,8 +87,8 @@ CIEL 的核心设定是一个「总是低着头的少女终于抬起头来」的
 
 | 发行日期 | 类型 | 标题 |
 | --- | --- | --- |
-| 2023-02-15 | Live Album | [STRAWBERRY LIVE](</zh/albums/ciel/STRAWBERRY-LIVE-1669426651>) |
-| 2023-10-04 | Live Album | [STRAWBERRY LIVE 2](</zh/albums/ciel/STRAWBERRY-LIVE-2-1708546500>) |
+| 2023-02-15 | Live Album | [STRAWBERRY LIVE](</zh/albums/ciel/strawberry-live-1669426651>) |
+| 2023-10-04 | Live Album | [STRAWBERRY LIVE 2](</zh/albums/ciel/strawberry-live-2-1708546500>) |
 | 2023-12-13 | EP | [空想少女](</zh/albums/ciel/空想少女-1718887889>) |
 | 2024-07-24 | Album | [空想劇](</zh/albums/ciel/空想劇-1756276963>) |
 | 2026-03-04 | EP | [再晴](</zh/albums/ciel/再晴-1875196168>) |

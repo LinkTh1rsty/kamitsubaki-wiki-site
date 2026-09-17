@@ -48,9 +48,9 @@ Albemuth 的两位成员拥有反差明显的歌唱个性：存流以低语感�
 
 | 发行日期 | 类型 | 标题 |
 | --- | --- | --- |
-| 2023-11-22 | Album | [ADAM (feat. 存流 & 明透)](</zh/albums/albemuth/ADAM-feat.-存流-&-明透-1715604776>) |
-| 2023-11-22 | Album | [eve (feat. 存流 & 明透)](</zh/albums/albemuth/eve-feat.-存流-&-明透-1715607878>) |
-| 2024-02-14 | Album | [Happy Merry Xmath (feat. 存流 & 明透)](</zh/albums/albemuth/Happy-Merry-Xmath-feat.-存流-&-明透-1728182964>) |
+| 2023-11-22 | Album | [ADAM (feat. 存流 & 明透)](</zh/albums/albemuth/adam-feat-存流--明透-1715604776>) |
+| 2023-11-22 | Album | [eve (feat. 存流 & 明透)](</zh/albums/albemuth/eve-feat-存流--明透-1715607878>) |
+| 2024-02-14 | Album | [Happy Merry Xmath (feat. 存流 & 明透)](</zh/albums/albemuth/happy-merry-xmath-feat-存流--明透-1728182964>) |
 
 {{/details}}
 
@@ -64,9 +64,9 @@ Albemuth 的两位成员拥有反差明显的歌唱个性：存流以低语感�
 | 2023-02-15 | [感光](</zh/songs/albemuth/originals/感光>) |
 | 2023-04-26 | [guilty](</zh/songs/albemuth/originals/guilty>) |
 | 2023-06-21 | [Black Glow](</zh/songs/albemuth/originals/black-glow>) |
-| 2023-08-16 | [星月夜の調べ (feat. 存流 & 明透)](</zh/songs/albemuth/originals/星月夜no調be-feat.-存流-&-明透>) |
-| 2023-08-16 | [Underdrain (feat. 存流 & 明透)](</zh/songs/albemuth/originals/underdrain-feat.-存流-&-明透>) |
-| 2023-08-30 | [tuberose (feat. 存流 & 明透)](</zh/songs/albemuth/originals/tuberose-feat.-存流-&-明透>) |
+| 2023-08-16 | [星月夜の調べ (feat. 存流 & 明透)](</zh/songs/albemuth/originals/星月夜no調be-feat-存流--明透>) |
+| 2023-08-16 | [Underdrain (feat. 存流 & 明透)](</zh/songs/albemuth/originals/underdrain-feat-存流--明透>) |
+| 2023-08-30 | [tuberose (feat. 存流 & 明透)](</zh/songs/albemuth/originals/tuberose-feat-存流--明透>) |
 
 {{/details}}
 

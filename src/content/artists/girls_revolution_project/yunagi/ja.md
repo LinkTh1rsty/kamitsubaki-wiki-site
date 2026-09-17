@@ -49,7 +49,7 @@ categorySubtitle: GIRLS REVOLUTION PROJECT
 - **2024年8月8日**：KAMITSUBAKI FES '24 にて正式デビュー。
 - **2024年10月30日**：初のソロシングル『[アバウト](/ja/songs/yunagi/originals/about)』をリリース。
 - **2024年12月18日**：シングル『[プレイヤーわたし](/ja/songs/yunagi/originals/player-watashi)』をリリース。
-- **2025年2月19日**：御莉姫のシングル『[瞬き](/ja/songs/yunagi/originals/mabataki)』に参加。
+- **2025年2月19日**：御莉姫のシングル『瞬き』に参加。
 - **2025年4月30日**：シングル『[Yellow Yellow](/ja/songs/yunagi/originals/yellow-yellow)』をリリース。
 - **2025年7月11日**：KAMITSUBAKI WARS 2025 神椿川崎戦線 少女革命計画 1st LIVE/第一幕『[改変](/ja/songs/grp/originals/kaihen)』に出演。
 - **2025年12月17日**：シングル『[化け物でいさせて](/ja/songs/yunagi/originals/bakemono-de-isasete)』をリリース。

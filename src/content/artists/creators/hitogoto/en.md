@@ -80,11 +80,11 @@ Beyond their own releases, Hitogoto has established a track record of song provi
 | Release date | Title |
 | --- | --- |
 | 2022-04-22 | [神を偽った悪魔へ【始】](</en/songs/hitogoto/originals/神wo偽tta悪魔he-始>) |
-| 2022-08-12 | [信仰と存在 (feat. 否)](</en/songs/hitogoto/originals/信仰to存在-feat.-否>) |
-| 2023-11-24 | [アイアンメーデー (feat. ねね)](</en/songs/hitogoto/originals/aianmeedee-feat.-nene>) |
-| 2024-02-22 | [箱庭の果実【始】 (feat. ねね)](</en/songs/hitogoto/originals/箱庭no果実-始-feat.-nene>) |
-| 2025-04-10 | [偶像と悪魔 (feat. 70D)](</en/songs/hitogoto/originals/偶像to悪魔-feat.-70d>) |
-| 2025-06-06 | [偶像と悪魔 (feat. Gurni.)](</en/songs/hitogoto/originals/偶像to悪魔-feat.-gurni>) |
+| 2022-08-12 | [信仰と存在 (feat. 否)](</en/songs/hitogoto/originals/信仰to存在-feat-否>) |
+| 2023-11-24 | [アイアンメーデー (feat. ねね)](</en/songs/hitogoto/originals/aianmeedee-feat-nene>) |
+| 2024-02-22 | [箱庭の果実【始】 (feat. ねね)](</en/songs/hitogoto/originals/箱庭no果実-始-feat-nene>) |
+| 2025-04-10 | [偶像と悪魔 (feat. 70D)](</en/songs/hitogoto/originals/偶像to悪魔-feat-70d>) |
+| 2025-06-06 | [偶像と悪魔 (feat. Gurni.)](</en/songs/hitogoto/originals/偶像to悪魔-feat-gurni>) |
 
 {{/details}}
 

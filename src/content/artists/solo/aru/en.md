@@ -60,9 +60,9 @@ Her whisper-like, breathy, restrained vocal colour and white gothic-elegant visu
 
 | Release date | Title |
 | --- | --- |
-| 2018-04-19 | [Call Me Anytime (feat. Demxntia)](</en/songs/aru/originals/call-me-anytime-feat.-demxntia>) |
+| 2018-04-19 | [Call Me Anytime (feat. Demxntia)](</en/songs/aru/originals/call-me-anytime-feat-demxntia>) |
 | 2026-03-02 | [三日月の街](</en/songs/aru/originals/三日月no街>) |
-| 2026-04-24 | [ピンクリボン～願い～](</en/songs/aru/originals/pinkuribon～願i～>) |
+| 2026-04-24 | [ピンクリボン～願い～](</en/songs/aru/originals/pinkuribon願i>) |
 
 {{/details}}
 

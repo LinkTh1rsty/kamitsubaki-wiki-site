@@ -18,7 +18,7 @@ import { buildArticleMetadata } from '../../../lib/metadata.mjs';
 import { renderContentEntry } from '../../../lib/contentSource.mjs';
 import { buildLocalizedStaticPaths } from '../../../lib/staticPaths.mjs';
 import { completenessTier, computeCompleteness } from '../../../lib/entryCompleteness.mjs';
-import { buildContentIndex, detectEntryIssues, summarizeIssues } from '../../../lib/missingData.mjs';
+import { getContentIndex, detectEntryIssues, summarizeIssues } from '../../../lib/missingData.mjs';
 
 export async function getStaticPaths() {
   const albumEntries = await getCollection('albums');
@@ -149,7 +149,7 @@ const [allSongs, allAlbums, allArtists] = await Promise.all([
   getCollection('albums'),
   getCollection('artists'),
 ]);
-const missingIndex = buildContentIndex({ songs: allSongs, albums: allAlbums, artists: allArtists });
+const missingIndex = getContentIndex({ songs: allSongs, albums: allAlbums, artists: allArtists });
 const missingIssues = detectEntryIssues({
   collection: 'albums',
   entry,
@@ -248,6 +248,15 @@ const missingLabels = resolveLocaleCopy({
     </div>
 
     <Reader backgroundImage={entry.data.image} variant="entry" headings={headings} contentsTitle={articleLabels.contents} hasContent={hasMainContent}>
+      {missingIssues.length > 0 && (
+        <MissingDataNotice
+          issues={missingIssues}
+          summary={missingSummary}
+          labels={missingLabels}
+          editHref={sourceHref}
+        />
+      )}
+
       {hasArticleBody && <article class="wiki-reader wiki-prose prose prose-invert max-w-none"><Fragment set:html={contentHtml} /></article>}
 
           {hasTracks && (

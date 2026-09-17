@@ -116,10 +116,10 @@ As a member of the Musical Isotope series, she is positioned as a "creative part
 
 | Release date | Type | Title |
 | --- | --- | --- |
-| 2025-01-11 | Album | [5: I Wish I Could Figure Out Why I Can Dream](</en/albums/rime/5-I-Wish-I-Could-Figure-Out-Why-I-Can-Dream-1787973321>) |
-| 2025-01-16 | Album | [Only pitch-blackness can save you.](</en/albums/rime/Only-pitch-blackness-can-save-you.-1786954898>) |
-| 2025-03-15 | Album | [Adore](</en/albums/rime/Adore-1798669277>) |
-| 2025-04-26 | EP | [Newgame](</en/albums/rime/Newgame-1808133126>) |
+| 2025-01-11 | Album | [5: I Wish I Could Figure Out Why I Can Dream](</en/albums/rime/5-i-wish-i-could-figure-out-why-i-can-dream-1787973321>) |
+| 2025-01-16 | Album | [Only pitch-blackness can save you.](</en/albums/rime/only-pitch-blackness-can-save-you-1786954898>) |
+| 2025-03-15 | Album | [Adore](</en/albums/rime/adore-1798669277>) |
+| 2025-04-26 | EP | [Newgame](</en/albums/rime/newgame-1808133126>) |
 
 {{/details}}
 
@@ -130,8 +130,8 @@ As a member of the Musical Isotope series, she is positioned as a "creative part
 | Release date | Title |
 | --- | --- |
 | 2015-05-14 | [Doubt](</en/songs/rime/originals/doubt>) |
-| 2015-10-11 | [爆発反転 (feat. マサラダ)](</en/songs/rime/originals/爆発反転-feat.-masarada>) |
-| 2015-10-11 | [EXAM (feat. Rime)](</en/songs/rime/originals/exam-feat.-rime>) |
+| 2015-10-11 | [爆発反転 (feat. マサラダ)](</en/songs/rime/originals/爆発反転-feat-masarada>) |
+| 2015-10-11 | [EXAM (feat. Rime)](</en/songs/rime/originals/exam-feat-rime>) |
 | 2016-01-28 | [Everything](</en/songs/rime/originals/everything>) |
 | 2017-07-25 | [怪獣は猫が好きなんだ](</en/songs/rime/originals/怪獣ha猫ga好kinanda>) |
 | 2023-03-20 | [文明と呼吸](</en/songs/rime/originals/文明to呼吸>) |
@@ -171,10 +171,10 @@ As a member of the Musical Isotope series, she is positioned as a "creative part
 | 2025-11-20 | [ごめんね、いい子じゃなくて](</en/songs/rime/originals/gomenneii子janakute>) |
 | 2025-11-21 | [LOSER](</en/songs/rime/originals/loser>) |
 | 2025-12-20 | [ラストエンプティサテライト](</en/songs/rime/originals/rasutoenputeisateraito>) |
-| 2026-01-28 | [幽玄の詩 (feat. ◈*ゆくえわっと)](</en/songs/rime/originals/幽玄no詩-feat.-◈-yukuewatto>) |
+| 2026-01-28 | [幽玄の詩 (feat. ◈*ゆくえわっと)](</en/songs/rime/originals/幽玄no詩-feat--yukuewatto>) |
 | 2026-03-29 | [現象ラブ・ソング](</en/songs/rime/originals/現象rabu-songu>) |
 | 2026-04-15 | [TIMEOVER](</en/songs/rime/originals/timeover>) |
-| 2026-07-30 | [レイニー・レメディ (feat. Rime)](</en/songs/rime/originals/reinii-remedei-feat.-rime>) |
+| 2026-07-30 | [レイニー・レメディ (feat. Rime)](</en/songs/rime/originals/reinii-remedei-feat-rime>) |
 
 {{/details}}
 

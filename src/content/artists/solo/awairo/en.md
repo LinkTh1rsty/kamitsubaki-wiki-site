@@ -89,11 +89,11 @@ The unit name "Awairo" (meaning "pale color") itself embodies their aesthetic di
 
 | Release date | Title |
 | --- | --- |
-| 2022-10-21 | [Satellite (feat. Yunosuke & WaMi)](</en/songs/awairo/originals/satellite-feat.-yunosuke-&-wami>) |
-| 2023-10-20 | [Pale&Deep (feat. 雄之助 & WaMi)](</en/songs/awairo/originals/pale&deep-feat.-雄之助-&-wami>) |
-| 2023-12-08 | [個性 (feat. WaMi & 雄之助)](</en/songs/awairo/originals/個性-feat.-wami-&-雄之助>) |
-| 2024-04-26 | [烙印 (feat. 雄之助 & WaMi)](</en/songs/awairo/originals/烙印-feat.-雄之助-&-wami>) |
-| 2024-07-13 | [Replay feat. 梓川](</en/songs/awairo/originals/replay-feat.-梓川>) |
+| 2022-10-21 | [Satellite (feat. Yunosuke & WaMi)](</en/songs/awairo/originals/satellite-feat-yunosuke--wami>) |
+| 2023-10-20 | [Pale&Deep (feat. 雄之助 & WaMi)](</en/songs/awairo/originals/paledeep-feat-雄之助--wami>) |
+| 2023-12-08 | [個性 (feat. WaMi & 雄之助)](</en/songs/awairo/originals/個性-feat-wami--雄之助>) |
+| 2024-04-26 | [烙印 (feat. 雄之助 & WaMi)](</en/songs/awairo/originals/烙印-feat-雄之助--wami>) |
+| 2024-07-13 | [Replay feat. 梓川](</en/songs/awairo/originals/replay-feat-梓川>) |
 | 2024-12-05 | [Love or Lie](</en/songs/awairo/originals/love-or-lie>) |
 | 2025-02-21 | [ブルームーン](</en/songs/awairo/originals/buruumuun>) |
 

@@ -167,7 +167,7 @@ seo:
 | 2025-09-17 | [僕は願うことをやめたんだ](</ja/songs/koko/originals/僕は願うことをやめたんだ-wishing>) |
 | 2025-10-22 | [月時雨](</ja/songs/koko/originals/月時雨-moon-tears>) |
 | 2025-11-24 | [切り咲く](</ja/songs/koko/originals/切り咲く-slashing-bloom>) |
-| 2025-12-07 | [切り咲く (English Ver.)](</ja/songs/koko/originals/切り咲く(English-Ver)-slashing-bloom-english-ver>) |
+| 2025-12-07 | [切り咲く (English Ver.)](</ja/songs/koko/originals/切り咲くenglish-ver-slashing-bloom-english-ver>) |
 | 2026-04-22 | [Phantom](</ja/songs/koko/originals/phantom>) |
 
 {{/details}}

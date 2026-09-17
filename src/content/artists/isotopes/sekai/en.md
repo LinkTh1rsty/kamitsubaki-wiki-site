@@ -105,9 +105,9 @@ Like KAFU, SEKAI is not merely a tool but is positioned as a "voice character" w
 
 | Release date | Type | Title |
 | --- | --- | --- |
-| 2023-11-19 | Album | [Three and Harf Years](</en/albums/sekai/Three-and-Harf-Years-1717280761>) |
-| 2023-12-21 | Album | [Tropicariddim!](</en/albums/sekai/Tropicariddim-1722527956>) |
-| 2024-02-01 | EP | [Yumemigokochi](</en/albums/sekai/Yumemigokochi-1727860949>) |
+| 2023-11-19 | Album | [Three and Harf Years](</en/albums/sekai/three-and-harf-years-1717280761>) |
+| 2023-12-21 | Album | [Tropicariddim!](</en/albums/sekai/tropicariddim-1722527956>) |
+| 2024-02-01 | EP | [Yumemigokochi](</en/albums/sekai/yumemigokochi-1727860949>) |
 | 2024-06-26 | Album | [那由多のメタファー](</en/albums/sekai/那由多のメタファー-1751841858>) |
 
 {{/details}}
@@ -124,9 +124,9 @@ Like KAFU, SEKAI is not merely a tool but is positioned as a "voice character" w
 | 2023-06-09 | [僕らは青春に参加しない](</en/songs/sekai/originals/僕raha青春ni参加shinai>) |
 | 2023-06-14 | [宙を駆ける夢、ほうき星。](</en/songs/sekai/originals/宙wo駆keru夢houki星>) |
 | 2023-12-24 | [仏翼](</en/songs/sekai/originals/仏翼>) |
-| 2024-03-05 | [ガオウ (feat. 星界)](</en/songs/sekai/originals/gaou-feat.-星界>) |
+| 2024-03-05 | [ガオウ (feat. 星界)](</en/songs/sekai/originals/gaou-feat-星界>) |
 | 2024-04-11 | [ハナビラ](</en/songs/sekai/originals/hanabira>) |
-| 2024-05-10 | [夏が来る。 (feat. 重音テト & 初音ミク)](</en/songs/sekai/originals/夏ga来ru.-feat.-重音teto-&-初音miku>) |
+| 2024-05-10 | [夏が来る。 (feat. 重音テト & 初音ミク)](</en/songs/sekai/originals/夏ga来ru-feat-重音teto--初音miku>) |
 | 2024-10-15 | [花の名残り](</en/songs/sekai/originals/花no名残ri>) |
 | 2024-10-22 | [終着世界](</en/songs/sekai/originals/終着世界>) |
 | 2024-10-24 | [仮面に咲く](</en/songs/sekai/originals/仮面ni咲ku>) |
@@ -141,7 +141,7 @@ Like KAFU, SEKAI is not merely a tool but is positioned as a "voice character" w
 | 2025-07-05 | [言葉の中にはりせんぼん](</en/songs/sekai/originals/言葉no中niharisenbon>) |
 | 2025-07-05 | [soudesuka雪見](</en/songs/sekai/originals/soudesuka雪見>) |
 | 2025-11-30 | [音とは](</en/songs/sekai/originals/音toha>) |
-| 2025-12-17 | [トワイライト・オービット (feat. Kisara)](</en/songs/sekai/originals/towairaito-oobitto-feat.-kisara>) |
+| 2025-12-17 | [トワイライト・オービット (feat. Kisara)](</en/songs/sekai/originals/towairaito-oobitto-feat-kisara>) |
 | 2026-03-22 | [ココロポロリカ](</en/songs/sekai/originals/kokoropororika>) |
 | 2026-03-27 | [9月の老蝶はまだ飛べるだろうか](</en/songs/sekai/originals/9月no老蝶hamada飛berudarouka>) |
 | 2026-03-27 | [棺は明澄の底で眠る](</en/songs/sekai/originals/棺ha明澄no底de眠ru>) |

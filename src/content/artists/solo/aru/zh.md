@@ -60,9 +60,9 @@ categorySubtitle: "SOLO ARTISTS & UNITS"
 
 | 发行日期 | 标题 |
 | --- | --- |
-| 2018-04-19 | [Call Me Anytime (feat. Demxntia)](</zh/songs/aru/originals/call-me-anytime-feat.-demxntia>) |
+| 2018-04-19 | [Call Me Anytime (feat. Demxntia)](</zh/songs/aru/originals/call-me-anytime-feat-demxntia>) |
 | 2026-03-02 | [三日月の街](</zh/songs/aru/originals/三日月no街>) |
-| 2026-04-24 | [ピンクリボン～願い～](</zh/songs/aru/originals/pinkuribon～願i～>) |
+| 2026-04-24 | [ピンクリボン～願い～](</zh/songs/aru/originals/pinkuribon願i>) |
 
 {{/details}}
 

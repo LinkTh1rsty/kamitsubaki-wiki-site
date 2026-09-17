@@ -41,7 +41,7 @@ Official descriptions note that she depicts shadowed musical worlds with a cryst
 - **October 31, 2025**: Held her first free full cover live, "Dark Night LIVE" (YouTube Live).
 - **November 4, 2025**: Released the single "[Hoshokusha](/en/songs/bema/originals/捕食者)".
 - **December 24, 2025**: Released the single "[First Aid](/en/songs/bema/originals/fuaasutoeido)".
-- **December 25, 2025**: Released the Cover Live Album "[Dark Night LIVE (Cover Live)](/en/albums/bema/Dark-Night-LIVE-Cover-Live-1858175130)".
+- **December 25, 2025**: Released the Cover Live Album "[Dark Night LIVE (Cover Live)](</en/albums/bema/dark-night-live-cover-live-1858175130>)".
 - **November 2–3, 2025**: Appeared in KAMITSUBAKI WARS 2025 Korakuen Front.
 - **March 3, 2026**: Released the single "[Tawamure](/en/songs/bema/originals/戯re)".
 - **May 5, 2026**: Simultaneous release with ASU, "[Tsukiyo ni Mariage](/en/songs/bema/originals/月夜nimariaaju)".
@@ -56,7 +56,7 @@ Official descriptions note that she depicts shadowed musical worlds with a cryst
 
 | Release date | Type | Title |
 | --- | --- | --- |
-| 2025-12-25 | Live Album | [Dark Night LIVE (Cover Live)](</en/albums/bema/Dark-Night-LIVE-Cover-Live-1858175130>) |
+| 2025-12-25 | Live Album | [Dark Night LIVE (Cover Live)](</en/albums/bema/dark-night-live-cover-live-1858175130>) |
 
 {{/details}}
 

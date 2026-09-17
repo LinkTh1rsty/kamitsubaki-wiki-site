@@ -77,7 +77,7 @@ seo:
 | 2024-09-17 | [ノイズゴト](</ja/songs/ren/originals/noizugoto>) |
 | 2024-10-01 | [雨傘に哭く](</ja/songs/ren/originals/雨傘ni哭ku>) |
 | 2024-12-03 | [キミアイギミー](</ja/songs/ren/originals/kimiaigimii>) |
-| 2025-01-06 | [セカイの箱庭 (feat. Isekaijoucho)](</ja/songs/ren/originals/sekaino箱庭-feat.-isekaijoucho>) |
+| 2025-01-06 | [セカイの箱庭 (feat. Isekaijoucho)](</ja/songs/ren/originals/sekaino箱庭-feat-isekaijoucho>) |
 | 2025-01-28 | [ラストバースデイ](</ja/songs/ren/originals/rasutobaasudei>) |
 | 2025-05-06 | [レムシェイディ](</ja/songs/ren/originals/remusheidei>) |
 | 2025-08-26 | [エメの鳥籠](</ja/songs/ren/originals/emeno鳥籠>) |

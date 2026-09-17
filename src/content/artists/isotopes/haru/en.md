@@ -111,7 +111,7 @@ In terms of vocal performance, HARU features crisp pronunciation and excels in r
 | 2016-01-26 | [小さな冒険](</en/songs/haru/originals/小sana冒険>) |
 | 2024-03-27 | [Follow Me Now!](</en/songs/haru/originals/follow-me-now>) |
 | 2024-05-26 | [送り雨道](</en/songs/haru/originals/送ri雨道>) |
-| 2024-06-27 | [拒絶反応 feat. 羽累](</en/songs/haru/originals/拒絶反応-feat.-羽累>) |
+| 2024-06-27 | [拒絶反応 feat. 羽累](</en/songs/haru/originals/拒絶反応-feat-羽累>) |
 | 2024-08-31 | [ヒットパレル](</en/songs/haru/originals/hittopareru>) |
 | 2024-10-16 | [ロースピードフェイクリリック](</en/songs/haru/originals/low-speed-fake-lyric>) |
 | 2024-10-25 | [バーナリゼーション](</en/songs/haru/originals/baanarizeeshon>) |

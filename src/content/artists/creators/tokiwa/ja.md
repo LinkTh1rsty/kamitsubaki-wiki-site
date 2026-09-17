@@ -86,22 +86,22 @@ EDM、R&B、ロックと柔軟にジャンルを渡り歩くその作風は、CR
 | リリース日 | タイトル |
 | --- | --- |
 | 2005-11-22 | [ソムニア](</ja/songs/tokiwa/originals/somunia>) |
-| 2020-05-10 | [Vanguards (feat. 星宮とと)](</ja/songs/tokiwa/originals/vanguards-feat.-星宮toto>) |
-| 2021-04-09 | [La rose jaune (feat. Sennzai)](</ja/songs/tokiwa/originals/la-rose-jaune-feat.-sennzai>) |
-| 2021-08-26 | [Charm (feat. Achu*)](</ja/songs/tokiwa/originals/charm-feat.-achu>) |
-| 2022-03-31 | [Cirrus (feat. Achu*)](</ja/songs/tokiwa/originals/cirrus-feat.-achu>) |
-| 2022-05-13 | [Moonflower (feat. Achu*)](</ja/songs/tokiwa/originals/moonflower-feat.-achu>) |
+| 2020-05-10 | [Vanguards (feat. 星宮とと)](</ja/songs/tokiwa/originals/vanguards-feat-星宮toto>) |
+| 2021-04-09 | [La rose jaune (feat. Sennzai)](</ja/songs/tokiwa/originals/la-rose-jaune-feat-sennzai>) |
+| 2021-08-26 | [Charm (feat. Achu*)](</ja/songs/tokiwa/originals/charm-feat-achu>) |
+| 2022-03-31 | [Cirrus (feat. Achu*)](</ja/songs/tokiwa/originals/cirrus-feat-achu>) |
+| 2022-05-13 | [Moonflower (feat. Achu*)](</ja/songs/tokiwa/originals/moonflower-feat-achu>) |
 | 2022-09-23 | [Wraith](</ja/songs/tokiwa/originals/wraith>) |
 | 2022-11-11 | [Haint](</ja/songs/tokiwa/originals/haint>) |
 | 2022-12-21 | [thaw](</ja/songs/tokiwa/originals/thaw>) |
 | 2023-02-09 | [butterscotch](</ja/songs/tokiwa/originals/butterscotch>) |
-| 2023-04-20 | [Moonlight (feat. パン野実々美)](</ja/songs/tokiwa/originals/moonlight-feat.-pan野実々美>) |
+| 2023-04-20 | [Moonlight (feat. パン野実々美)](</ja/songs/tokiwa/originals/moonlight-feat-pan野実々美>) |
 | 2023-05-11 | [niwl](</ja/songs/tokiwa/originals/niwl>) |
 | 2023-10-03 | [empty](</ja/songs/tokiwa/originals/empty>) |
 | 2023-10-30 | [Fragmented World](</ja/songs/tokiwa/originals/fragmented-world>) |
-| 2024-04-26 | [Blackrose (feat. 星界)](</ja/songs/tokiwa/originals/blackrose-feat.-星界>) |
-| 2024-08-09 | [Clover (feat. 星界)](</ja/songs/tokiwa/originals/clover-feat.-星界>) |
-| 2024-08-28 | [ジキル (feat. 星界)](</ja/songs/tokiwa/originals/jikiru-feat.-星界>) |
+| 2024-04-26 | [Blackrose (feat. 星界)](</ja/songs/tokiwa/originals/blackrose-feat-星界>) |
+| 2024-08-09 | [Clover (feat. 星界)](</ja/songs/tokiwa/originals/clover-feat-星界>) |
+| 2024-08-28 | [ジキル (feat. 星界)](</ja/songs/tokiwa/originals/jikiru-feat-星界>) |
 | 2024-10-29 | [ソーマ](</ja/songs/tokiwa/originals/sooma>) |
 | 2024-12-24 | [メテウス](</ja/songs/tokiwa/originals/meteusu>) |
 | 2025-01-28 | [ドロン](</ja/songs/tokiwa/originals/doron>) |

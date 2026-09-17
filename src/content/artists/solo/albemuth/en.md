@@ -69,9 +69,9 @@ Albemuth connects SINSEKAI STUDIO's other-worldly line with KAMITSUBAKI's virtua
 
 | Release date | Type | Title |
 | --- | --- | --- |
-| 2023-11-22 | Album | [ADAM (feat. 存流 & 明透)](</en/albums/albemuth/ADAM-feat.-存流-&-明透-1715604776>) |
-| 2023-11-22 | Album | [eve (feat. 存流 & 明透)](</en/albums/albemuth/eve-feat.-存流-&-明透-1715607878>) |
-| 2024-02-14 | Album | [Happy Merry Xmath (feat. 存流 & 明透)](</en/albums/albemuth/Happy-Merry-Xmath-feat.-存流-&-明透-1728182964>) |
+| 2023-11-22 | Album | [ADAM (feat. 存流 & 明透)](</en/albums/albemuth/adam-feat-存流--明透-1715604776>) |
+| 2023-11-22 | Album | [eve (feat. 存流 & 明透)](</en/albums/albemuth/eve-feat-存流--明透-1715607878>) |
+| 2024-02-14 | Album | [Happy Merry Xmath (feat. 存流 & 明透)](</en/albums/albemuth/happy-merry-xmath-feat-存流--明透-1728182964>) |
 
 {{/details}}
 
@@ -85,9 +85,9 @@ Albemuth connects SINSEKAI STUDIO's other-worldly line with KAMITSUBAKI's virtua
 | 2023-02-15 | [感光](</en/songs/albemuth/originals/感光>) |
 | 2023-04-26 | [guilty](</en/songs/albemuth/originals/guilty>) |
 | 2023-06-21 | [Black Glow](</en/songs/albemuth/originals/black-glow>) |
-| 2023-08-16 | [星月夜の調べ (feat. 存流 & 明透)](</en/songs/albemuth/originals/星月夜no調be-feat.-存流-&-明透>) |
-| 2023-08-16 | [Underdrain (feat. 存流 & 明透)](</en/songs/albemuth/originals/underdrain-feat.-存流-&-明透>) |
-| 2023-08-30 | [tuberose (feat. 存流 & 明透)](</en/songs/albemuth/originals/tuberose-feat.-存流-&-明透>) |
+| 2023-08-16 | [星月夜の調べ (feat. 存流 & 明透)](</en/songs/albemuth/originals/星月夜no調be-feat-存流--明透>) |
+| 2023-08-16 | [Underdrain (feat. 存流 & 明透)](</en/songs/albemuth/originals/underdrain-feat-存流--明透>) |
+| 2023-08-30 | [tuberose (feat. 存流 & 明透)](</en/songs/albemuth/originals/tuberose-feat-存流--明透>) |
 
 {{/details}}
 

@@ -164,9 +164,9 @@ seo:
 | 2021-10-06 | [青春](</zh/songs/harusaruhi/originals/青春-youth>) |
 | 2021-10-06 | [逆転](</zh/songs/harusaruhi/originals/逆転-reversal>) |
 | 2021-10-06 | [猛進](</zh/songs/harusaruhi/originals/猛進-rush>) |
-| 2021-10-06 | [INTRODUCTION -目-](</zh/songs/harusaruhi/originals/INTRODUCTION-目-introduction-eye>) |
+| 2021-10-06 | [INTRODUCTION -目-](</zh/songs/harusaruhi/originals/introduction-目-introduction-eye>) |
 | 2021-10-06 | [Lift Up](</zh/songs/harusaruhi/originals/lift-up>) |
-| 2021-10-06 | [OUTRODUCTION -眼-](</zh/songs/harusaruhi/originals/OUTRODUCTION-眼-outroduction-eye>) |
+| 2021-10-06 | [OUTRODUCTION -眼-](</zh/songs/harusaruhi/originals/outroduction-眼-outroduction-eye>) |
 | 2021-10-06 | [オオゴト](</zh/songs/harusaruhi/originals/オオゴト-serious-affair>) |
 | 2022-01-28 | [Oarana](</zh/songs/harusaruhi/originals/oarana>) |
 | 2022-06-29 | [百花繚乱](</zh/songs/harusaruhi/originals/百花繚乱-profusion-of-flowers>) |
@@ -180,7 +180,7 @@ seo:
 | 2024-01-24 | [中間地点](</zh/songs/harusaruhi/originals/中間地点-halfway-point>) |
 | 2024-01-24 | [声帯学](</zh/songs/harusaruhi/originals/声帯学-vocal-cordology>) |
 | 2024-01-24 | [friction](</zh/songs/harusaruhi/originals/friction>) |
-| 2024-01-24 | [Interlude #1 -ケダモノ-](</zh/songs/harusaruhi/originals/Interlude-1-ケダモノ-interlude-1-the-beast>) |
+| 2024-01-24 | [Interlude #1 -ケダモノ-](</zh/songs/harusaruhi/originals/interlude-1-ケダモノ-interlude-1-the-beast>) |
 | 2024-01-24 | [Interlude #2 -eventide-](</zh/songs/harusaruhi/originals/interlude-2-eventide>) |
 | 2024-01-24 | [Wind walker](</zh/songs/harusaruhi/originals/wind-walker>) |
 | 2024-01-24 | [ディストーション](</zh/songs/harusaruhi/originals/ディストーション-distortion>) |

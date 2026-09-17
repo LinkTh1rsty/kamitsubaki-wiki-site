@@ -86,10 +86,10 @@ Empty old City は、コンポーザー兼プロデューサーの Neuron（ニ�
 
 | リリース日 | 種別 | タイトル |
 | --- | --- | --- |
-| 2021-10-20 | Album | [Para-Scope](</ja/albums/empty-old-city/Para-Scope-1724171031>) |
-| 2025-03-12 | Album | [Blood in the Void](</ja/albums/empty-old-city/Blood-in-the-Void-1798854694>) |
-| 2025-10-15 | EP | [From Noir into Clair](</ja/albums/empty-old-city/From-Noir-into-Clair-1840911030>) |
-| 2026-04-22 | Album | [Strings in Owl](</ja/albums/empty-old-city/Strings-in-Owl-1888375903>) |
+| 2021-10-20 | Album | [Para-Scope](</ja/albums/empty-old-city/para-scope-1724171031>) |
+| 2025-03-12 | Album | [Blood in the Void](</ja/albums/empty-old-city/blood-in-the-void-1798854694>) |
+| 2025-10-15 | EP | [From Noir into Clair](</ja/albums/empty-old-city/from-noir-into-clair-1840911030>) |
+| 2026-04-22 | Album | [Strings in Owl](</ja/albums/empty-old-city/strings-in-owl-1888375903>) |
 
 {{/details}}
 
@@ -104,7 +104,7 @@ Empty old City は、コンポーザー兼プロデューサーの Neuron（ニ�
 | 2022-02-08 | [Area G](</ja/songs/empty-old-city/originals/area-g>) |
 | 2022-03-22 | [Villain](</ja/songs/empty-old-city/originals/villain>) |
 | 2022-05-17 | [カミツレと愛のブーケ](</ja/songs/empty-old-city/originals/kamitsureto愛nobuuke>) |
-| 2022-05-30 | [青揺れるフィリア (feat. Dazbee)](</ja/songs/empty-old-city/originals/青揺rerufyiria-feat.-dazbee>) |
+| 2022-05-30 | [青揺れるフィリア (feat. Dazbee)](</ja/songs/empty-old-city/originals/青揺rerufyiria-feat-dazbee>) |
 | 2022-08-02 | [トワイライト・セレナーデ](</ja/songs/empty-old-city/originals/towairaito-serenaade>) |
 | 2022-11-08 | [Enigma](</ja/songs/empty-old-city/originals/enigma>) |
 | 2023-01-31 | [ミレニアの水槽](</ja/songs/empty-old-city/originals/mireniano水槽>) |
@@ -112,7 +112,7 @@ Empty old City は、コンポーザー兼プロデューサーの Neuron（ニ�
 | 2023-07-04 | [羊飼いの号令](</ja/songs/empty-old-city/originals/羊飼ino号令>) |
 | 2023-10-24 | [Chronicle A](</ja/songs/empty-old-city/originals/chronicle-a>) |
 | 2024-01-23 | [Chronicle A (English Ver.)](</ja/songs/empty-old-city/originals/chronicle-a-english-ver>) |
-| 2024-01-23 | [Offline Saga (feat. 水槽)](</ja/songs/empty-old-city/originals/offline-saga-feat.-水槽>) |
+| 2024-01-23 | [Offline Saga (feat. 水槽)](</ja/songs/empty-old-city/originals/offline-saga-feat-水槽>) |
 | 2024-04-02 | [Buffer](</ja/songs/empty-old-city/originals/buffer>) |
 | 2024-05-14 | [Buffer (English Ver.)](</ja/songs/empty-old-city/originals/buffer-english-ver>) |
 | 2024-07-02 | [ゴースト警告を唄う](</ja/songs/empty-old-city/originals/goosuto警告wo唄u>) |

@@ -110,10 +110,10 @@ Misumi 是 DUSTCELL 的作曲与编曲担当，也是活跃于 Vocaloid 领域�
 
 | 发行日期 | 类型 | 标题 |
 | --- | --- | --- |
-| 2020-05-20 | Album | [SUMMIT](</zh/albums/dustcell/SUMMIT-1688155907>) |
+| 2020-05-20 | Album | [SUMMIT](</zh/albums/dustcell/summit-1688155907>) |
 | 2021-10-20 | Album | [自白](</zh/albums/dustcell/自白-1587649555>) |
-| 2022-08-31 | Album | [Hypnotize](</zh/albums/dustcell/Hypnotize-1637382530>) |
-| 2023-03-29 | Album | [ROUND TRIP](</zh/albums/dustcell/ROUND-TRIP-1676025466>) |
+| 2022-08-31 | Album | [Hypnotize](</zh/albums/dustcell/hypnotize-1637382530>) |
+| 2023-03-29 | Album | [ROUND TRIP](</zh/albums/dustcell/round-trip-1676025466>) |
 | 2024-07-24 | Album | [光](</zh/albums/dustcell/光-1755122020>) |
 | 2025-12-10 | Album | [碧い海](</zh/albums/dustcell/碧い海-1853446220>) |
 
@@ -139,7 +139,7 @@ Misumi 是 DUSTCELL 的作曲与编曲担当，也是活跃于 Vocaloid 领域�
 | 2023-05-16 | [Caffeine](</zh/songs/dustcell/originals/caffeine>) |
 | 2023-10-03 | [フラッシュバック](</zh/songs/dustcell/originals/furasshubakku>) |
 | 2024-04-23 | [可笑しな生き物](</zh/songs/dustcell/originals/可笑shina生ki物>) |
-| 2024-06-25 | [Nighthawk (feat. たなか)](</zh/songs/dustcell/originals/nighthawk-feat.-tanaka>) |
+| 2024-06-25 | [Nighthawk (feat. たなか)](</zh/songs/dustcell/originals/nighthawk-feat-tanaka>) |
 | 2024-10-08 | [表情差分](</zh/songs/dustcell/originals/表情差分>) |
 | 2024-12-10 | [NO PAIN](</zh/songs/dustcell/originals/no-pain>) |
 | 2025-01-01 | [畢竟](</zh/songs/dustcell/originals/畢竟>) |

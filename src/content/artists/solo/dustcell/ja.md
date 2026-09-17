@@ -104,10 +104,10 @@ DUSTCELLのボーカル。低い語り、強い叫び、かすれた境界、長
 
 | リリース日 | 種別 | タイトル |
 | --- | --- | --- |
-| 2020-05-20 | Album | [SUMMIT](</ja/albums/dustcell/SUMMIT-1688155907>) |
+| 2020-05-20 | Album | [SUMMIT](</ja/albums/dustcell/summit-1688155907>) |
 | 2021-10-20 | Album | [自白](</ja/albums/dustcell/自白-1587649555>) |
-| 2022-08-31 | Album | [Hypnotize](</ja/albums/dustcell/Hypnotize-1637382530>) |
-| 2023-03-29 | Album | [ROUND TRIP](</ja/albums/dustcell/ROUND-TRIP-1676025466>) |
+| 2022-08-31 | Album | [Hypnotize](</ja/albums/dustcell/hypnotize-1637382530>) |
+| 2023-03-29 | Album | [ROUND TRIP](</ja/albums/dustcell/round-trip-1676025466>) |
 | 2024-07-24 | Album | [光](</ja/albums/dustcell/光-1755122020>) |
 | 2025-12-10 | Album | [碧い海](</ja/albums/dustcell/碧い海-1853446220>) |
 
@@ -133,7 +133,7 @@ DUSTCELLのボーカル。低い語り、強い叫び、かすれた境界、長
 | 2023-05-16 | [Caffeine](</ja/songs/dustcell/originals/caffeine>) |
 | 2023-10-03 | [フラッシュバック](</ja/songs/dustcell/originals/furasshubakku>) |
 | 2024-04-23 | [可笑しな生き物](</ja/songs/dustcell/originals/可笑shina生ki物>) |
-| 2024-06-25 | [Nighthawk (feat. たなか)](</ja/songs/dustcell/originals/nighthawk-feat.-tanaka>) |
+| 2024-06-25 | [Nighthawk (feat. たなか)](</ja/songs/dustcell/originals/nighthawk-feat-tanaka>) |
 | 2024-10-08 | [表情差分](</ja/songs/dustcell/originals/表情差分>) |
 | 2024-12-10 | [NO PAIN](</ja/songs/dustcell/originals/no-pain>) |
 | 2025-01-01 | [畢竟](</ja/songs/dustcell/originals/畢竟>) |

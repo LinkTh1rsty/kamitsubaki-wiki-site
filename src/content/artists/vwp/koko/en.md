@@ -167,7 +167,7 @@ KOKO tends to leave an impression through pressure and directness first. Whether
 | 2025-09-17 | [僕は願うことをやめたんだ](</en/songs/koko/originals/僕は願うことをやめたんだ-wishing>) |
 | 2025-10-22 | [月時雨](</en/songs/koko/originals/月時雨-moon-tears>) |
 | 2025-11-24 | [切り咲く](</en/songs/koko/originals/切り咲く-slashing-bloom>) |
-| 2025-12-07 | [切り咲く (English Ver.)](</en/songs/koko/originals/切り咲く(English-Ver)-slashing-bloom-english-ver>) |
+| 2025-12-07 | [切り咲く (English Ver.)](</en/songs/koko/originals/切り咲くenglish-ver-slashing-bloom-english-ver>) |
 | 2026-04-22 | [Phantom](</en/songs/koko/originals/phantom>) |
 
 {{/details}}

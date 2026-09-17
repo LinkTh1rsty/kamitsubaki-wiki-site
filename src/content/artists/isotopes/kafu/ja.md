@@ -110,7 +110,7 @@ PALOW.による白と黄色を軸にしたデザイン、環状の瞳、フー�
 
 | リリース日 | 種別 | タイトル |
 | --- | --- | --- |
-| 2023-10-04 | Album | [Dead Delay Man](</ja/albums/kafu/Dead-Delay-Man-1708165441>) |
+| 2023-10-04 | Album | [Dead Delay Man](</ja/albums/kafu/dead-delay-man-1708165441>) |
 
 {{/details}}
 
@@ -125,7 +125,7 @@ PALOW.による白と黄色を軸にしたデザイン、環状の瞳、フー�
 | 2020-12-24 | [くるくる](</ja/songs/kafu/originals/kurukuru>) |
 | 2022-01-29 | [メイドインベイビー](</ja/songs/kafu/originals/meidoinbeibii>) |
 | 2022-05-11 | [夜の自販機](</ja/songs/kafu/originals/夜no自販機>) |
-| 2022-07-12 | [水面下 (feat. Kafu)](</ja/songs/kafu/originals/水面下-feat.-kafu>) |
+| 2022-07-12 | [水面下 (feat. Kafu)](</ja/songs/kafu/originals/水面下-feat-kafu>) |
 | 2022-07-12 | [流線形メーデー](</ja/songs/kafu/originals/流線形meedee>) |
 | 2022-07-31 | [ようやく君が死んだんだ。](</ja/songs/kafu/originals/youyaku君ga死ndanda>) |
 | 2022-11-09 | [ハロウィン・マスカレイド](</ja/songs/kafu/originals/harouin-masukareido>) |
@@ -134,24 +134,24 @@ PALOW.による白と黄色を軸にしたデザイン、環状の瞳、フー�
 | 2023-03-23 | [ストレイシープ](</ja/songs/kafu/originals/sutoreishiipu>) |
 | 2023-04-29 | [ルムルトル](</ja/songs/kafu/originals/rumurutoru>) |
 | 2023-05-03 | [アノニマス](</ja/songs/kafu/originals/anonimasu>) |
-| 2023-07-21 | [スワロー (feat. KAFU)](</ja/songs/kafu/originals/suwaroo-feat.-kafu>) |
+| 2023-07-21 | [スワロー (feat. KAFU)](</ja/songs/kafu/originals/suwaroo-feat-kafu>) |
 | 2023-12-10 | [解/体](</ja/songs/kafu/originals/解-体>) |
-| 2024-01-08 | [おさけを飲んだらくすりが飲めないの唄 (feat. 初音ミク)](</ja/songs/kafu/originals/osakewo飲ndarakusuriga飲menaino唄-feat.-初音miku>) |
+| 2024-01-08 | [おさけを飲んだらくすりが飲めないの唄 (feat. 初音ミク)](</ja/songs/kafu/originals/osakewo飲ndarakusuriga飲menaino唄-feat-初音miku>) |
 | 2024-02-26 | [模範解答実験室](</ja/songs/kafu/originals/模範解答実験室>) |
 | 2024-04-04 | [Voyager](</ja/songs/kafu/originals/voyager>) |
 | 2024-05-31 | [混沌ブギ (Cover)](</ja/songs/kafu/originals/混沌bugi-cover>) |
 | 2024-09-05 | [最期の逢瀬](</ja/songs/kafu/originals/最期no逢瀬>) |
-| 2024-10-15 | [コぇちっちゃ<てゴ×ンネ](</ja/songs/kafu/originals/koechitcha-tego×nne>) |
+| 2024-10-15 | [コぇちっちゃ<てゴ×ンネ](</ja/songs/kafu/originals/koechitcha-tegonne>) |
 | 2024-10-22 | [『抱きしめて。』](</ja/songs/kafu/originals/抱kishimete>) |
 | 2024-12-20 | [アット・ザ・電脳シティ(STEAKA Remix)](</ja/songs/kafu/originals/atto-za-電脳shitei-steaka-remix>) |
 | 2025-02-01 | [人間に産まれたから](</ja/songs/kafu/originals/人間ni産maretakara>) |
 | 2025-02-20 | [MaDiVA](</ja/songs/kafu/originals/madiva>) |
-| 2025-04-18 | [テレパシ (feat. 重音テト) [Cover]](</ja/songs/kafu/originals/terepashi-feat.-重音teto-cover>) |
-| 2025-07-11 | [Plazma (feat. 重音テト) [TETO with KAFU Cover]](</ja/songs/kafu/originals/plazma-feat.-重音teto-teto-with-kafu-cover>) |
-| 2025-10-05 | [IRIS OUT (feat. 重音テト) [Teto Cover]](</ja/songs/kafu/originals/iris-out-feat.-重音teto-teto-cover>) |
+| 2025-04-18 | [テレパシ (feat. 重音テト) [Cover]](</ja/songs/kafu/originals/terepashi-feat-重音teto-cover>) |
+| 2025-07-11 | [Plazma (feat. 重音テト) [TETO with KAFU Cover]](</ja/songs/kafu/originals/plazma-feat-重音teto-teto-with-kafu-cover>) |
+| 2025-10-05 | [IRIS OUT (feat. 重音テト) [Teto Cover]](</ja/songs/kafu/originals/iris-out-feat-重音teto-teto-cover>) |
 | 2025-10-13 | [IRIS OUT (KAFU Cover)](</ja/songs/kafu/originals/iris-out-kafu-cover>) |
-| 2025-10-26 | [IRIS OUT (feat. 初音ミク) [Hatsune Miku Cover]](</ja/songs/kafu/originals/iris-out-feat.-初音miku-hatsune-miku-cover>) |
-| 2025-12-17 | [モニタリング (feat. 重音テト) [Cover]](</ja/songs/kafu/originals/monitaringu-feat.-重音teto-cover>) |
+| 2025-10-26 | [IRIS OUT (feat. 初音ミク) [Hatsune Miku Cover]](</ja/songs/kafu/originals/iris-out-feat-初音miku-hatsune-miku-cover>) |
+| 2025-12-17 | [モニタリング (feat. 重音テト) [Cover]](</ja/songs/kafu/originals/monitaringu-feat-重音teto-cover>) |
 | 2026-05-21 | [痣痣](</ja/songs/kafu/originals/痣痣>) |
 | 2026-07-28 | [ゆらゆら](</ja/songs/kafu/originals/yurayura>) |
 

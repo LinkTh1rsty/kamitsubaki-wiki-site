@@ -107,12 +107,12 @@ LOLUETは2021年からYouTubeを中心に活動するバーチャルシンガー
 
 | リリース日 | タイトル |
 | --- | --- |
-| 2015-10-11 | [ハネムーン feat. 理芽](</ja/songs/loluet/originals/hanemuun-feat.-理芽>) |
+| 2015-10-11 | [ハネムーン feat. 理芽](</ja/songs/loluet/originals/hanemuun-feat-理芽>) |
 | 2024-11-19 | [crack](</ja/songs/loluet/originals/crack>) |
 | 2025-01-21 | [アイ](</ja/songs/loluet/originals/ai>) |
 | 2025-09-09 | [ドレス](</ja/songs/loluet/originals/doresu>) |
 | 2026-02-24 | [スプートニク](</ja/songs/loluet/originals/supuutoniku>) |
-| 2026-07-21 | [双生コンフリクト feat. ヰ世界情緒](</ja/songs/loluet/originals/双生konfurikuto-feat.-wi世界情緒>) |
+| 2026-07-21 | [双生コンフリクト feat. ヰ世界情緒](</ja/songs/loluet/originals/双生konfurikuto-feat-wi世界情緒>) |
 
 {{/details}}
 

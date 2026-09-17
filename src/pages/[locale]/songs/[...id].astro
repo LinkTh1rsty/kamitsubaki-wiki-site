@@ -19,7 +19,7 @@ import { buildArticleMetadata } from '../../../lib/metadata.mjs';
 import { renderContentEntry } from '../../../lib/contentSource.mjs';
 import { buildLocalizedStaticPaths } from '../../../lib/staticPaths.mjs';
 import { completenessTier, computeCompleteness } from '../../../lib/entryCompleteness.mjs';
-import { buildContentIndex, detectEntryIssues, summarizeIssues } from '../../../lib/missingData.mjs';
+import { getContentIndex, detectEntryIssues, summarizeIssues } from '../../../lib/missingData.mjs';
 
 export async function getStaticPaths() {
   const songEntries = await getCollection('songs');
@@ -39,7 +39,7 @@ const [allSongs, allAlbums, allArtists] = await Promise.all([
   getCollection('albums'),
   getCollection('artists'),
 ]);
-const missingIndex = buildContentIndex({ songs: allSongs, albums: allAlbums, artists: allArtists });
+const missingIndex = getContentIndex({ songs: allSongs, albums: allAlbums, artists: allArtists });
 const missingIssues = detectEntryIssues({
   collection: 'songs',
   entry,

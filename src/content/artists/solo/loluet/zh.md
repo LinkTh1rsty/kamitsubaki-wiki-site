@@ -121,12 +121,12 @@ LOLUET 的公开形象和活动方式都带有不稳定、自由和难以预测�
 
 | 发行日期 | 标题 |
 | --- | --- |
-| 2015-10-11 | [ハネムーン feat. 理芽](</zh/songs/loluet/originals/hanemuun-feat.-理芽>) |
+| 2015-10-11 | [ハネムーン feat. 理芽](</zh/songs/loluet/originals/hanemuun-feat-理芽>) |
 | 2024-11-19 | [crack](</zh/songs/loluet/originals/crack>) |
 | 2025-01-21 | [アイ](</zh/songs/loluet/originals/ai>) |
 | 2025-09-09 | [ドレス](</zh/songs/loluet/originals/doresu>) |
 | 2026-02-24 | [スプートニク](</zh/songs/loluet/originals/supuutoniku>) |
-| 2026-07-21 | [双生コンフリクト feat. ヰ世界情緒](</zh/songs/loluet/originals/双生konfurikuto-feat.-wi世界情緒>) |
+| 2026-07-21 | [双生コンフリクト feat. ヰ世界情緒](</zh/songs/loluet/originals/双生konfurikuto-feat-wi世界情緒>) |
 
 {{/details}}
 
