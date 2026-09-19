@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { getCollection } from 'astro:content';
+import { getBuildCollection as getCollection } from '../../../../lib/contentAuditContext';
 import { entrySourcePath, readEditorSource } from '../../../../lib/editorSourceServer.mjs';
 import { editorCollections, editorLocales, sourceBucket } from '../../../../lib/editorSource.mjs';
 export const prerender = true;

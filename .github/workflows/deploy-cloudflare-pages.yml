@@ -36,7 +36,7 @@ jobs:
           path: |
             .cache/image-thumbnails
             public/thumbnails
-            node_modules/.cache/kamitsubaki-thumbs
+            node_modules/.astro/kamitsubaki-thumbs
             src/content/**/zh-tw.md
             src/content/**/zh-hk.md
             src/content/site/zh-tw.json

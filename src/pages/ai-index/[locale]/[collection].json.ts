@@ -1,5 +1,5 @@
 import type { APIRoute, GetStaticPaths } from 'astro';
-import { getCollection } from 'astro:content';
+import { getBuildCollection as getCollection } from '../../../lib/contentAuditContext';
 import {
   aiIndexCollections,
   buildAiIndexEntries,
@@ -21,13 +21,21 @@ const collectionLoaders = {
   logs: () => getCollection('logs'),
 } satisfies Record<AiIndexCollection, () => Promise<unknown[]>>;
 
-const collectionCache = new Map<AiIndexCollection, Promise<unknown[]>>();
+// globalThis-backed so page-module re-evaluation cannot drop the shared snapshot.
+const SHARED_KEY = Symbol.for('kamitsubaki.aiIndex.collectionCache');
+
+function sharedCache(): Map<AiIndexCollection, Promise<unknown[]>> {
+  const globalCache = globalThis as typeof globalThis & { [SHARED_KEY]?: Map<AiIndexCollection, Promise<unknown[]>> };
+  globalCache[SHARED_KEY] ??= new Map();
+  return globalCache[SHARED_KEY]!;
+}
 
 function loadAiIndexCollection(collection: AiIndexCollection) {
-  let pending = collectionCache.get(collection);
+  const cache = sharedCache();
+  let pending = cache.get(collection);
   if (!pending) {
     pending = collectionLoaders[collection]() as Promise<unknown[]>;
-    collectionCache.set(collection, pending);
+    cache.set(collection, pending);
   }
   return pending;
 }

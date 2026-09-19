@@ -3,7 +3,7 @@ import ContributionHubRedirect from '../../../components/ContributionHubRedirect
 import zh from '../../../../docs/files-and-images.md?raw';
 import en from '../../../../docs/files-and-images.en.md?raw';
 import ja from '../../../../docs/files-and-images.ja.md?raw';
-import { getCollection } from 'astro:content';
+import { getBuildCollection as getCollection } from '../../../lib/contentAuditContext';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';

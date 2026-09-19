@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { getCollection } from 'astro:content';
+import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
 import { getLocalizedEntries } from '../../lib/homeData.mjs';
 import { buildHomeMusicCatalog } from '../../lib/homeMusicCatalog.mjs';
 import { thumbnailCatalog } from '../../lib/imageAssets.mjs';

@@ -4,7 +4,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import SiteNav from '../../../components/SiteNav.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
 import MusicSubnav from '../../../components/MusicSubnav.astro';
-import { getCollection } from 'astro:content';
+import { getBuildCollection as getCollection } from '../../../lib/contentAuditContext';
 import { getLocalizedSite, getLocalizedEntries } from '../../../lib/homeData.mjs';
 import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../../lib/i18n.mjs';
 import { buildArtistSongCatalog } from '../../../lib/musicCatalog.mjs';

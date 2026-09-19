@@ -1,4 +1,4 @@
-import { getCollection } from 'astro:content';
+import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
 import type { APIRoute } from 'astro';
 import { supportedLocales } from '../../lib/i18n.mjs';
 

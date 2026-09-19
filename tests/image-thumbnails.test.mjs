@@ -55,11 +55,34 @@ test('thumbnail generation preserves sources, dimensions, transparency, cache an
   assert.equal((await run()).generated, 0);
   assert.equal((await stat(thumb)).mtimeMs, oldTime);
   await removePath(thumb);
-  await removePath(join(root, 'node_modules/.cache/kamitsubaki-thumbs'));
+  await removePath(join(root, 'node_modules/.astro/kamitsubaki-thumbs'));
   assert.ok((await run()).generated >= 1);
   await sharp(original).negate().jpeg().toFile(join(images, '花 譜.jpg'));
   await run();
   assert.notEqual((await manifest()).images['/images/花 譜.jpg'].variants[0].src, first['/images/花 譜.jpg'].variants[0].src);
+});
+
+test('a fresh Pages checkout restores thumbnails using only the Astro build cache', async t => {
+  const root = await mkdtemp(join(tmpdir(), 'wiki-pages-thumbnails-'));
+  t.after(() => removeDirectory(root));
+  await mkdir(join(root, 'public/images'), { recursive: true });
+  await sharp({ create: { width: 320, height: 160, channels: 3, background: 'blue' } })
+    .png().toFile(join(root, 'public/images/cover.png'));
+  const run = () => generateThumbnails({ root, log: () => {} });
+  await run();
+  const manifestPath = join(root, '.cache/image-thumbnails/manifest.json');
+  const originalManifest = await readFile(manifestPath, 'utf8');
+  assert.equal(await readFile(join(root, 'node_modules/.astro/kamitsubaki-thumbs/manifest.json'), 'utf8'), originalManifest);
+
+  await removePath(join(root, 'public/thumbnails'));
+  await removePath(join(root, '.cache/image-thumbnails'));
+  const restored = await run();
+  assert.equal(restored.generated, 0);
+  assert.equal(restored.cached, 1);
+  assert.equal(await readFile(manifestPath, 'utf8'), originalManifest);
+  for (const variant of JSON.parse(originalManifest).images['/images/cover.png'].variants) {
+    assert.equal((await stat(join(root, 'public', variant.src))).size, variant.bytes);
+  }
 });
 
 test('EXIF rotation is applied before responsive dimensions are recorded', async t => {

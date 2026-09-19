@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { getCollection } from 'astro:content';
+import { getBuildCollection as getCollection } from '../lib/contentAuditContext';
 import {
   aiIndexCollections,
   buildAiIndexEntries,

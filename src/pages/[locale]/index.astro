@@ -13,7 +13,7 @@ import SiteFooter from '../../components/SiteFooter.astro';
 import SupportBanner from '../../components/SupportBanner.astro';
 import SongsSection from '../../components/SongsSection.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
+import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
 import { buildDatabaseJumpLinks, buildHomepageArtistCategories, buildProjectCards, getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
 import { buildHomeMusicCatalog, sampleRandom } from '../../lib/homeMusicCatalog.mjs';
 import { buildLocaleLinks, defaultLocale, resolveLocaleCopy, supportedLocales } from '../../lib/i18n.mjs';

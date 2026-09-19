@@ -151,6 +151,22 @@ pnpm build
 - `pnpm check`：运行 Astro 诊断并校验 Content Collections schema。
 - `pnpm build`：生成静态站点并确认所有路由能构建。
 
+### Cloudflare Pages 构建
+
+Pages 的构建命令使用 `pnpm build`，输出目录使用 `dist`。在项目的
+**Settings → Build → Build cache** 中启用构建缓存；Astro 的可恢复目录是
+`node_modules/.astro`，缩略图缓存也存放在该目录内。参见
+[Cloudflare 构建缓存说明](https://developers.cloudflare.com/pages/configuration/build-caching/)。
+
+歌曲、专辑和艺人详情页通过 `src/lib/contentCollections.ts` 共享本次静态构建的内容集合，
+避免每生成一页都重新深拷贝全站条目。调用方应只读这些集合；开发模式不缓存读取结果，
+因此编辑内容后仍能即时更新。
+
+仓库也提供 `.github/workflows/deploy-cloudflare-pages.yml`，可在 GitHub Actions 完成构建后
+上传至 Pages。使用此方式需配置 `CLOUDFLARE_API_TOKEN` 和 `CLOUDFLARE_ACCOUNT_ID`，
+并核对工作流中的 Pages 项目名。工作流的超时设置只作用于 GitHub Actions，不能延长
+[Pages 自带构建的 20 分钟上限](https://developers.cloudflare.com/pages/platform/limits/)。
+
 ## 统一 AI 入口
 
 Wiki 内的小组件和独立 `KAMITSUBAKI AI 观测终端` 使用同一个 AI v2 控制平面。这个公开仓库只保留 Astro 小组件、流式显示和三语文案；Worker/Gateway/AstrBot 负责登录、Agent、检索、历史、记忆、模型与防滥用。小组件默认打开第六个 Agent `observer`，完整角色大厅位于 `https://chat.kamitsubaki.wiki/<locale>/`。

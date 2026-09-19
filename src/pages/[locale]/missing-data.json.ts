@@ -1,9 +1,8 @@
 import type { APIRoute } from 'astro';
 import type { CollectionEntry } from 'astro:content';
-import { getCollection } from 'astro:content';
+import { getCollection, getContentAuditIndex } from '../../lib/contentAuditContext';
 import { supportedLocales } from '../../lib/i18n.mjs';
 import {
-  getContentIndex,
   dedupeIssues,
   detectEntryIssues,
 } from '../../lib/missingData.mjs';
@@ -33,8 +32,8 @@ export const GET: APIRoute = async () => {
     getCollection('albums'),
     getCollection('artists'),
   ]);
+  const index = await getContentAuditIndex();
 
-  const index = getContentIndex({ songs, albums, artists });
   const byCollection = new Map<ContentCollectionName, Map<string, MissingIssue[]>>();
   const groups: Array<[ContentCollectionName, AnyMusicEntry[]]> = [
     ['songs', songs],

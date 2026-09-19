@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { getCollection } from 'astro:content';
+import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
 import { supportedLocales } from '../../lib/i18n.mjs';
 import { readContentEntryBody } from '../../lib/contentSource.mjs';
 import { foldCjkSearchText } from '../../lib/cjkSearch.mjs';

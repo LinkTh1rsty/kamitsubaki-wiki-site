@@ -39,9 +39,9 @@ async function atomicWrite(path, data) {
 export async function generateThumbnails({ root = projectRoot, concurrency = 4, log = console.log } = {}) {
   const publicDir = resolve(root, 'public');
   const outputDir = resolve(publicDir, 'thumbnails');
-  // Cloudflare Pages restores node_modules cache between builds; keep derivatives there too.
+  // Pages caches node_modules/.astro for Astro, not all of node_modules/.cache.
   const localCacheDir = resolve(root, '.cache/image-thumbnails');
-  const durableCacheDir = resolve(root, 'node_modules/.cache/kamitsubaki-thumbs');
+  const durableCacheDir = resolve(root, 'node_modules/.astro/kamitsubaki-thumbs');
   const manifestPath = resolve(localCacheDir, 'manifest.json');
   const durableManifestPath = resolve(durableCacheDir, 'manifest.json');
   await mkdir(outputDir, { recursive: true });
@@ -49,7 +49,11 @@ export async function generateThumbnails({ root = projectRoot, concurrency = 4, 
   await mkdir(durableCacheDir, { recursive: true });
   const files = await filesIn(resolve(publicDir, 'images'));
   let previous = {};
-  try { previous = JSON.parse(await readFile(manifestPath, 'utf8')); } catch { /* First build. */ }
+  let localManifest;
+  try {
+    localManifest = await readFile(manifestPath, 'utf8');
+    previous = JSON.parse(localManifest);
+  } catch { /* First build. */ }
   if (!Object.keys(previous).length) {
     try { previous = JSON.parse(await readFile(durableManifestPath, 'utf8')); } catch { /* Cold cache. */ }
   }
@@ -125,7 +129,8 @@ export async function generateThumbnails({ root = projectRoot, concurrency = 4, 
   // Stable ordering keeps unchanged builds and development reloads quiet.
   manifest.images = Object.fromEntries(Object.entries(manifest.images).sort(([a], [b]) => a.localeCompare(b)));
   const serialized = JSON.stringify(manifest);
-  if (serialized !== JSON.stringify(previous)) await atomicWrite(manifestPath, serialized);
+  // A restored durable manifest still needs its local copy for imageAssets.mjs.
+  if (serialized !== localManifest) await atomicWrite(manifestPath, serialized);
   await atomicWrite(durableManifestPath, serialized);
   for (const info of Object.values(manifest.images)) {
     for (const variant of info.variants || []) {

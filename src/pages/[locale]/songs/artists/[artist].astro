@@ -1,6 +1,7 @@
 ---
 import ResponsiveImage from '../../../../components/ResponsiveImage.astro';
-import { getCollection, type CollectionEntry } from 'astro:content';
+import { getBuildCollection as getCollection } from '../../../../lib/contentAuditContext';
+import type { CollectionEntry } from 'astro:content';
 import MusicSubnav from '../../../../components/MusicSubnav.astro';
 import SiteFooter from '../../../../components/SiteFooter.astro';
 import SiteNav from '../../../../components/SiteNav.astro';
