@@ -73,12 +73,37 @@ summary: "基于春猿火歌声打造的 CeVIO AI 音乐同位体声库，具备
 
 ## 历程
 
-| 时间 | 节点 | 说明 |
-| --- | --- | --- |
-| 2022年10月18日 | 先行预告 | 神椿工作室三周年特别节目公开羽累的预告影像。 |
-| 2023年11月13日 | 正式发售 | CeVIO AI 音乐同位体 羽累上线。 |
-| 2024年3月29日 | TALK EXTENSION | 与 VOICEPEAK 合作的朗读扩展版发售。 |
-| 2024年7月7日 | V.I.P 演出 | 参与「V.I.P 1st MINI LIVE ETHEREAL WORLD」。 |
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>节点</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022年10月18日</td>
+<td>先行预告</td>
+<td>神椿工作室三周年特别节目公开羽累的预告影像。</td>
+</tr>
+<tr>
+<td>2023年11月13日</td>
+<td>正式发售</td>
+<td>CeVIO AI 音乐同位体 羽累上线。</td>
+</tr>
+<tr>
+<td>2024年3月29日</td>
+<td>TALK EXTENSION</td>
+<td>与 VOICEPEAK 合作的朗读扩展版发售。</td>
+</tr>
+<tr>
+<td>2024年7月7日</td>
+<td>V.I.P 演出测试测试测试</td>
+<td>参与「V.I.P 1st MINI LIVE ETHEREAL WORLD」。</td>
+</tr>
+</tbody>
+</table>
 
 ## 使用场景与作品生态
 
