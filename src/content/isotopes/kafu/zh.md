@@ -124,42 +124,153 @@ summary: "基于花谱歌声打造的首款 CeVIO AI / Synthesizer V 音乐同�
 
 **单曲**
 
-| 发行日期 | 标题 |
-| --- | --- |
-| 2010-12-12 | [不可欠](</zh/songs/kafu/originals/不可欠>) |
-| 2020-02-29 | [病名を教えて](</zh/songs/kafu/originals/病名wo教ete>) |
-| 2020-12-24 | [くるくる](</zh/songs/kafu/originals/kurukuru>) |
-| 2022-01-29 | [メイドインベイビー](</zh/songs/kafu/originals/meidoinbeibii>) |
-| 2022-05-11 | [夜の自販機](</zh/songs/kafu/originals/夜no自販機>) |
-| 2022-07-12 | [水面下 (feat. Kafu)](</zh/songs/kafu/originals/水面下-feat-kafu>) |
-| 2022-07-12 | [流線形メーデー](</zh/songs/kafu/originals/流線形meedee>) |
-| 2022-07-31 | [ようやく君が死んだんだ。](</zh/songs/kafu/originals/youyaku君ga死ndanda>) |
-| 2022-11-09 | [ハロウィン・マスカレイド](</zh/songs/kafu/originals/harouin-masukareido>) |
-| 2023-02-28 | [イーシャンテン・オーバードーズ](</zh/songs/kafu/originals/iishanten-oobaadoozu>) |
-| 2023-03-17 | [生涯、貴方を悔やみます。](</zh/songs/kafu/originals/生涯貴方wo悔yamimasu>) |
-| 2023-03-23 | [ストレイシープ](</zh/songs/kafu/originals/sutoreishiipu>) |
-| 2023-04-29 | [ルムルトル](</zh/songs/kafu/originals/rumurutoru>) |
-| 2023-05-03 | [アノニマス](</zh/songs/kafu/originals/anonimasu>) |
-| 2023-07-21 | [スワロー (feat. KAFU)](</zh/songs/kafu/originals/suwaroo-feat-kafu>) |
-| 2023-12-10 | [解/体](</zh/songs/kafu/originals/解-体>) |
-| 2024-01-08 | [おさけを飲んだらくすりが飲めないの唄 (feat. 初音ミク)](</zh/songs/kafu/originals/osakewo飲ndarakusuriga飲menaino唄-feat-初音miku>) |
-| 2024-02-26 | [模範解答実験室](</zh/songs/kafu/originals/模範解答実験室>) |
-| 2024-04-04 | [Voyager](</zh/songs/kafu/originals/voyager>) |
-| 2024-05-31 | [混沌ブギ (Cover)](</zh/songs/kafu/originals/混沌bugi-cover>) |
-| 2024-09-05 | [最期の逢瀬](</zh/songs/kafu/originals/最期no逢瀬>) |
-| 2024-10-15 | [コぇちっちゃ<てゴ×ンネ](</zh/database/music/songs/single-kafu-koechitcha-tego-nne>) |
-| 2024-10-22 | [『抱きしめて。』](</zh/songs/kafu/originals/抱kishimete>) |
-| 2024-12-20 | [アット・ザ・電脳シティ(STEAKA Remix)](</zh/songs/kafu/originals/atto-za-電脳shitei-steaka-remix>) |
-| 2025-02-01 | [人間に産まれたから](</zh/songs/kafu/originals/人間ni産maretakara>) |
-| 2025-02-20 | [MaDiVA](</zh/songs/kafu/originals/madiva>) |
-| 2025-04-18 | [テレパシ (feat. 重音テト) [Cover]](</zh/songs/kafu/originals/terepashi-feat-重音teto-cover>) |
-| 2025-07-11 | [Plazma (feat. 重音テト) [TETO with KAFU Cover]](</zh/songs/kafu/originals/plazma-feat-重音teto-teto-with-kafu-cover>) |
-| 2025-10-05 | [IRIS OUT (feat. 重音テト) [Teto Cover]](</zh/songs/kafu/originals/iris-out-feat-重音teto-teto-cover>) |
-| 2025-10-13 | [IRIS OUT (KAFU Cover)](</zh/songs/kafu/originals/iris-out-kafu-cover>) |
-| 2025-10-26 | [IRIS OUT (feat. 初音ミク) [Hatsune Miku Cover]](</zh/songs/kafu/originals/iris-out-feat-初音miku-hatsune-miku-cover>) |
-| 2025-12-17 | [モニタリング (feat. 重音テト) [Cover]](</zh/songs/kafu/originals/monitaringu-feat-重音teto-cover>) |
-| 2026-05-21 | [痣痣](</zh/songs/kafu/originals/痣痣>) |
-| 2026-07-28 | [ゆらゆら](</zh/songs/kafu/originals/yurayura>) |
+
+<table>
+<thead>
+<tr>
+<th>发行日期</th>
+<th>标题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022-9-11</td>
+<td><a href="/zh/songs/kafu/originals/%E4%B8%8D%E5%8F%AF%E6%AC%A0">不可欠</a></td>
+</tr>
+<tr>
+<td>2020-02-29</td>
+<td><a href="/zh/songs/kafu/originals/%E7%97%85%E5%90%8Dwo%E6%95%99ete">病名を教えて</a></td>
+</tr>
+<tr>
+<td>2020-12-24</td>
+<td><a href="/zh/songs/kafu/originals/kurukuru">くるくる</a></td>
+</tr>
+<tr>
+<td>2022-01-29</td>
+<td><a href="/zh/songs/kafu/originals/meidoinbeibii">メイドインベイビー</a></td>
+</tr>
+<tr>
+<td>2022-05-11</td>
+<td><a href="/zh/songs/kafu/originals/%E5%A4%9Cno%E8%87%AA%E8%B2%A9%E6%A9%9F">夜の自販機</a></td>
+</tr>
+<tr>
+<td>2022-07-12</td>
+<td><a href="/zh/songs/kafu/originals/%E6%B0%B4%E9%9D%A2%E4%B8%8B-feat-kafu">水面下 (feat. Kafu)</a></td>
+</tr>
+<tr>
+<td>2022-07-12</td>
+<td><a href="/zh/songs/kafu/originals/%E6%B5%81%E7%B7%9A%E5%BD%A2meedee">流線形メーデー</a></td>
+</tr>
+<tr>
+<td>2022-07-31</td>
+<td><a href="/zh/songs/kafu/originals/youyaku%E5%90%9Bga%E6%AD%BBndanda">ようやく君が死んだんだ。</a></td>
+</tr>
+<tr>
+<td>2022-11-09</td>
+<td><a href="/zh/songs/kafu/originals/harouin-masukareido">ハロウィン・マスカレイド</a></td>
+</tr>
+<tr>
+<td>2023-02-28</td>
+<td><a href="/zh/songs/kafu/originals/iishanten-oobaadoozu">イーシャンテン・オーバードーズ</a></td>
+</tr>
+<tr>
+<td>2023-03-17</td>
+<td><a href="/zh/songs/kafu/originals/%E7%94%9F%E6%B6%AF%E8%B2%B4%E6%96%B9wo%E6%82%94yamimasu">生涯、貴方を悔やみます。</a></td>
+</tr>
+<tr>
+<td>2023-03-23</td>
+<td><a href="/zh/songs/kafu/originals/sutoreishiipu">ストレイシープ</a></td>
+</tr>
+<tr>
+<td>2023-04-29</td>
+<td><a href="/zh/songs/kafu/originals/rumurutoru">ルムルトル</a></td>
+</tr>
+<tr>
+<td>2023-05-03</td>
+<td><a href="/zh/songs/kafu/originals/anonimasu">アノニマス</a></td>
+</tr>
+<tr>
+<td>2023-07-21</td>
+<td><a href="/zh/songs/kafu/originals/suwaroo-feat-kafu">スワロー (feat. KAFU)</a></td>
+</tr>
+<tr>
+<td>2023-12-10</td>
+<td><a href="/zh/songs/kafu/originals/%E8%A7%A3-%E4%BD%93">解/体</a></td>
+</tr>
+<tr>
+<td>2024-01-08</td>
+<td><a href="/zh/songs/kafu/originals/osakewo%E9%A3%B2ndarakusuriga%E9%A3%B2menaino%E5%94%84-feat-%E5%88%9D%E9%9F%B3miku">おさけを飲んだらくすりが飲めないの唄 (feat. 初音ミク)</a></td>
+</tr>
+<tr>
+<td>2024-02-26</td>
+<td><a href="/zh/songs/kafu/originals/%E6%A8%A1%E7%AF%84%E8%A7%A3%E7%AD%94%E5%AE%9F%E9%A8%93%E5%AE%A4">模範解答実験室</a></td>
+</tr>
+<tr>
+<td>2024-04-04</td>
+<td><a href="/zh/songs/kafu/originals/voyager">Voyager</a></td>
+</tr>
+<tr>
+<td>2024-05-31</td>
+<td><a href="/zh/songs/kafu/originals/%E6%B7%B7%E6%B2%8Cbugi-cover">混沌ブギ (Cover)</a></td>
+</tr>
+<tr>
+<td>2024-09-05</td>
+<td><a href="/zh/songs/kafu/originals/%E6%9C%80%E6%9C%9Fno%E9%80%A2%E7%80%AC">最期の逢瀬</a></td>
+</tr>
+<tr>
+<td>2024-10-15</td>
+<td><a href="/zh/database/music/songs/single-kafu-koechitcha-tego-nne">コぇちっちゃ&lt;てゴ×ンネ</a></td>
+</tr>
+<tr>
+<td>2024-10-22</td>
+<td><a href="/zh/songs/kafu/originals/%E6%8A%B1kishimete">『抱きしめて。』</a></td>
+</tr>
+<tr>
+<td>2024-12-20</td>
+<td><a href="/zh/songs/kafu/originals/atto-za-%E9%9B%BB%E8%84%B3shitei-steaka-remix">アット・ザ・電脳シティ(STEAKA Remix)</a></td>
+</tr>
+<tr>
+<td>2025-02-01</td>
+<td><a href="/zh/songs/kafu/originals/%E4%BA%BA%E9%96%93ni%E7%94%A3maretakara">人間に産まれたから</a></td>
+</tr>
+<tr>
+<td>2025-02-20</td>
+<td><a href="/zh/songs/kafu/originals/madiva">MaDiVA</a></td>
+</tr>
+<tr>
+<td>2025-04-18</td>
+<td><a href="/zh/songs/kafu/originals/terepashi-feat-%E9%87%8D%E9%9F%B3teto-cover">テレパシ (feat. 重音テト) [Cover]</a></td>
+</tr>
+<tr>
+<td>2025-07-11</td>
+<td><a href="/zh/songs/kafu/originals/plazma-feat-%E9%87%8D%E9%9F%B3teto-teto-with-kafu-cover">Plazma (feat. 重音テト) [TETO with KAFU Cover]</a></td>
+</tr>
+<tr>
+<td>2025-10-05</td>
+<td><a href="/zh/songs/kafu/originals/iris-out-feat-%E9%87%8D%E9%9F%B3teto-teto-cover">IRIS OUT (feat. 重音テト) [Teto Cover]</a></td>
+</tr>
+<tr>
+<td>2025-10-13</td>
+<td><a href="/zh/songs/kafu/originals/iris-out-kafu-cover">IRIS OUT (KAFU Cover)</a></td>
+</tr>
+<tr>
+<td>2025-10-26</td>
+<td><a href="/zh/songs/kafu/originals/iris-out-feat-%E5%88%9D%E9%9F%B3miku-hatsune-miku-cover">IRIS OUT (feat. 初音ミク) [Hatsune Miku Cover]</a></td>
+</tr>
+<tr>
+<td>2025-12-17</td>
+<td><a href="/zh/songs/kafu/originals/monitaringu-feat-%E9%87%8D%E9%9F%B3teto-cover">モニタリング (feat. 重音テト) [Cover]</a></td>
+</tr>
+<tr>
+<td>2026-05-21</td>
+<td><a href="/zh/songs/kafu/originals/%E7%97%A3%E7%97%A3">痣痣</a></td>
+</tr>
+<tr>
+<td>2026-07-28</td>
+<td><a href="/zh/songs/kafu/originals/yurayura">ゆらゆら</a></td>
+</tr>
+</tbody>
+</table>
 
 {{/details}}
 
