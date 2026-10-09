@@ -1,16 +1,11 @@
 ---
-book: "contribute"
-chapter: "rights"
-locale: "zh-tw"
+book: contribute
+chapter: rights
+locale: zh-tw
 order: 9
-title: "來源、版權與多語言"
-summary: "給事實和圖片保留可核對的出處，並正確維護語言版本。"
-generatedFromHash: "13349d81318e286e876a"
-generated: true
-generatedFrom: "zh"
+title: 來源、版權與多語言
+summary: 給事實和圖片保留可核對的出處，並正確維護語言版本。
 ---
-
-<!-- AUTO-GENERATED FROM zh; DO NOT EDIT DIRECTLY. -->
 
 ## 事實與資料來源
 
@@ -112,3 +107,13 @@ license:
 - 圖片、歌詞和嵌入媒體是否被誤認為預設 CC 文字內容？
 - 三種語言是否使用一致的來源和許可邏輯？
 - `pnpm test`、`pnpm check` 和 `pnpm build` 是否通過？
+
+## 上傳表單的三種使用依據
+
+| 選項 | 需要填寫 |
+| --- | --- |
+| 官方公開素材 | 原作者／官方署名、實際釋出者或作品名稱、原始釋出頁面 URL |
+| 投稿者原創 | 確認你是原作者，填寫準確署名和出處名稱；可補充自己的原始釋出頁面 |
+| 已獲授權 | 原作者與原始出處，以及許可範圍、授權日期或可核對的許可憑據 |
+
+使用依據預設留空。渠道名稱候選不代表本站驗證了授權，官方公開也不是通用轉載許可。共用資料適用於整批圖片；署名或許可不同的圖片必須單獨補充。資料不清楚時先儲存私有草稿，再核對來源，稽核者可逐圖退回要求補充。
