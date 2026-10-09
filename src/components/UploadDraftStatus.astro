@@ -1,0 +1,8 @@
+---
+import {uploadGuidanceCopy} from '../lib/uploadGuidanceCopy.mjs';
+const {locale='zh'}=Astro.props;
+const g=uploadGuidanceCopy(locale);
+---
+<div class="upload-draft-status" aria-live="polite"><span>{g.local} · <strong data-draft-local-state>{g.localWaiting}</strong></span><span>{g.cloud} · <strong data-draft-cloud-state>{g.cloudWaiting}</strong></span></div>
+<section class="upload-draft-conflict" data-draft-conflict hidden role="status"><h3>{g.conflictTitle}</h3><p>{g.conflictNote}</p><div><button type="button" data-draft-use-local>{g.useLocal}</button><button type="button" data-draft-use-remote>{g.useRemote}</button></div></section>
+<style>.upload-draft-status{display:flex;flex-wrap:wrap;gap:6px 20px;font:11px/1.6 var(--font-sans);color:var(--workspace-muted)}.upload-draft-status strong{font-weight:400;color:var(--theme-fg)}.upload-draft-conflict{padding:12px 0;border-block:1px solid var(--ui-color-error);font:12px/1.7 var(--font-sans)}.upload-draft-conflict[hidden]{display:none}.upload-draft-conflict h3{margin:0;font:500 13px var(--font-sans)}.upload-draft-conflict p{margin:8px 0}.upload-draft-conflict>div{display:flex;flex-wrap:wrap;gap:8px}.upload-draft-conflict button{padding:8px 12px;min-height:44px;border:1px solid var(--ui-line);border-radius:var(--ui-radius-control);color:var(--theme-fg);background:var(--theme-bg);font:12px var(--font-sans)}</style>
