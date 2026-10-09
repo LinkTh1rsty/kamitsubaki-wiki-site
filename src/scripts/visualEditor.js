@@ -1,5 +1,8 @@
 import {articleCopy} from '../lib/articleCopy.mjs';
-import {state as accountState} from './accountStore.js';
+import {mountArticleAssets} from './articleAssets.js';
+import {mountArticleGallery} from './articleGallery.js';
+import {hasEditorLocalWork} from '../lib/editorWorkingState.mjs';
+import {state as accountState,refreshAuth} from './accountStore.js';
 import {mountArticlePicker,ensureArticleDraftUrl,initialArticleRelations,articleEntities} from '../lib/articleEntities.mjs';
 import {initializeArticleSubmission} from './articleSubmission.js';
 import {entitySourcePath} from '../lib/contentLayout.mjs';
@@ -17,7 +20,7 @@ import 'katex/dist/katex.min.css';
 import { isApplePlatform, formatShortcut } from '../lib/searchShortcut.mjs';
 import { fields, fieldsFor, blockTypes, entryTypes, newDraft, newBlock, blockMarkdown, parseVisualBlocks, importMarkdown, exportMarkdown, validateDraft, safeUrl, validPath, escapeHtml } from '../lib/visualEditor.mjs';
 
-const initialize = () => {
+const initialize = async () => {
   const root = document.querySelector('[data-visual-editor]');
   if (!root || root.dataset.ready) return;
   root.dataset.ready = 'true';
@@ -60,8 +63,12 @@ const initialize = () => {
   const uiLocale = root.dataset.locale.startsWith('zh') ? 'zh' : root.dataset.locale;
   const articleMode=root.dataset.articleMode==='true';
   if(articleMode){const url=ensureArticleDraftUrl(location.href,()=>crypto.randomUUID());window.history.replaceState(null,'',url);}
+  const articleOwner=articleMode?(await refreshAuth())?.userId||(accountState.auth==='guest'?'guest':'unverified'):null;
+  const currentOwner=()=>accountState.viewer?.userId||(accountState.auth==='guest'?'guest':'unverified');
+  const articleIdentity=new URLSearchParams(location.search).get('draft')||new URLSearchParams(location.search).get('id');
+  const legacyArticleKey=`kamitsubaki-article-workbench-v1:${articleIdentity}:${root.dataset.contentLocale}`;
   const prDemo = !articleMode && editorEnabled;
-  const key = `${articleMode ? 'kamitsubaki-article-workbench-v1:'+(new URLSearchParams(location.search).get('draft')||new URLSearchParams(location.search).get('id')) : prDemo ? 'kamitsubaki-visual-editor-pr-demo-v1' : 'kamitsubaki-visual-editor-v1'}:${root.dataset.contentLocale}`;
+  const key = articleMode?`kamitsubaki-article-workbench-v2:${articleOwner}:${articleIdentity}:${root.dataset.contentLocale}`:`${prDemo?'kamitsubaki-visual-editor-pr-demo-v1':'kamitsubaki-visual-editor-v1'}:${root.dataset.contentLocale}`;
   const md = renderRich;
   let draft = newDraft(articleMode?'articles':'projects', root.dataset.contentLocale);
   let saving = true, restoredArticle=false;
@@ -69,7 +76,9 @@ const initialize = () => {
   const sourceKey = key + ':source';
   if (window.innerWidth <= 900) root.setAttribute('data-sidebar-hidden','');
   try {
-    const saved = JSON.parse(localStorage.getItem(key) || 'null');
+    let saved = JSON.parse(localStorage.getItem(key) || 'null');
+    if(articleMode&&!saved){const legacy=JSON.parse(localStorage.getItem(legacyArticleKey)||'null');if(legacy?.ownerId===articleOwner){saved=legacy;const pending=localStorage.getItem(legacyArticleKey+':source');if(pending!==null&&localStorage.getItem(sourceKey)===null)localStorage.setItem(sourceKey,pending);}}
+    if(articleMode&&saved&&saved.ownerId!==articleOwner&&!(['guest','unverified'].includes(articleOwner)&&!saved.ownerId))saved=null;
     if (saved?.version === 1 && entryTypes.includes(saved.kind) && (!articleMode||saved.kind==='articles') && Array.isArray(saved.blocks) && saved.blocks.length < 1000 && saved.meta) {
       exportMarkdown(saved); draft = saved;restoredArticle=true;
     }
@@ -82,7 +91,8 @@ const initialize = () => {
   const serializeDraft=()=>articleMode?(draft.articleBodySnapshot===JSON.stringify(draft.blocks)?draft.articleOriginalBody:draft.blocks.map(b=>blockMarkdown(b,draft.meta.locale)).join('\n\n')):exportMarkdown(draft);
   let history = [JSON.stringify(draft)], cursor = 0, historyTimer;
   function save() {
-    if(!draft.ownerId&&accountState.viewer?.userId)draft.ownerId=accountState.viewer.userId;
+    if(articleMode)draft.ownerId=['guest','unverified'].includes(articleOwner)?null:articleOwner;
+    else if(!draft.ownerId&&accountState.viewer?.userId)draft.ownerId=accountState.viewer.userId;
     try { localStorage.setItem(key, JSON.stringify(draft)); saving = true; } catch { saving = false; }
     $('[data-save-status]').textContent = sourcePending !== null ? copy.sourcePending : saving ? copy.saved : copy.unsaved;
   }
@@ -97,7 +107,7 @@ const initialize = () => {
     refreshAttachmentPreviews();
   }
   function updateHistory() { const pending=JSON.stringify(draft)!==history[cursor]; $('[data-undo]').disabled = cursor === 0 && !pending; $('[data-redo]').disabled = pending || cursor === history.length - 1; }
-  function changed(structural = false) { save(); output(); clearTimeout(historyTimer); if (structural) checkpoint(); else historyTimer = setTimeout(checkpoint, 350); }
+  function changed(structural = false) { save(); output(); if(articleMode)root.dispatchEvent(new CustomEvent('article-draft-change')); clearTimeout(historyTimer); if (structural) checkpoint(); else historyTimer = setTimeout(checkpoint, 350); }
   const label = key => key.includes('.')?key.split('.').map(k=>/^\d+$/.test(k)?String(Number(k)+1):metadataLabel(k,uiLocale)).join(' / '):fieldsFor(draft).find(f => f.key === key)?.labels[uiLocale] || copy.blocks[key] || copy[key] || metadataLabel(key,uiLocale);
   function renderFields() {
     $('[data-kind]').value = draft.kind;
@@ -158,7 +168,7 @@ const initialize = () => {
     if (b.type === 'preserved') return `<p class="ve-hint">${copy.preservedHint}</p><details><summary>${copy.source}</summary><pre>${escapeHtml(b.text)}</pre></details>`;
     return '<hr />';
   }
-  function previewBlock(b) { return renderPreviewBlock(b,copy); }
+  function previewBlock(b) { if(articleMode&&b.type==='image'&&/^\/_private\/article-assets\/[a-f0-9]{64}$/.test(b.url||''))return `<figure><img data-article-reference="${escapeHtml(b.url)}" alt="${escapeHtml(b.text||'')}"/>${b.caption?`<figcaption>${escapeHtml(b.caption)}</figcaption>`:''}</figure>`;return renderPreviewBlock(b,copy); }
   function canvasBlock(b) {
     if (b.type === 'paragraph' || b.type === 'list') return richControls(b);
     if (b.type === 'heading') return `<input class="ve-heading-input" data-prop="text" value="${escapeHtml(b.text)}" placeholder="${copy.blocks.heading}" aria-label="${copy.blocks.heading}"/>`;
@@ -197,6 +207,7 @@ const initialize = () => {
     if(inspect) {if(window.innerWidth<=900)setLayout('preview'); changeView('properties');}
   }
   function output() {
+    if(articleMode)queueMicrotask(()=>void refreshAttachmentPreviews());
     if(draft.create&&draft.meta.schemaVersion===2){try{draft.path=entitySourcePath(draft.meta);}catch{/* Incomplete metadata is reported by validation. */}}
     const errors = articleMode?[]:[...validateDraft(draft), ...advancedErrors(draft.meta)];
     if (draft.needsOriginal) errors.push('loadOriginal');
@@ -679,6 +690,8 @@ const initialize = () => {
     const url=URL.createObjectURL(blob);imageURLs.set(asset.id,url);return url;
   }
   async function refreshAttachmentPreviews() {
+    if(articleMode&&currentOwner()===articleOwner)for(const ref of draft.meta.articleMediaRefs||[]){if(ref.src||!ref.assetId)continue;const reference=`/_private/article-assets/${ref.assetId}`,cacheKey='article:'+ref.assetId;try{let preview=imageURLs.get(cacheKey);if(!preview){const response=await fetch(`${root.dataset.articleApi}/api/articles/assets/${ref.assetId}/image`,{credentials:'include',cache:'no-store',signal:AbortSignal.timeout(15000)});if(!response.ok||currentOwner()!==articleOwner)continue;preview=URL.createObjectURL(await response.blob());imageURLs.set(cacheKey,preview);}root.querySelectorAll('.ve-canvas img,[data-preview] img').forEach(img=>{if(img.getAttribute('src')===reference||img.dataset.articleReference===reference)img.src=preview;});}catch{/* A failed preview keeps the stable private reference. */}}
+
     for(const asset of draft.assets || []) {
       try {const url=await localImageURL(asset);root.querySelectorAll('.ve-canvas img,[data-preview] img').forEach(img=>{if(img.getAttribute('src')===asset.url)img.src=url;});} catch { /* Missing local files remain recoverable through the attachment panel. */ }
     }
@@ -691,8 +704,22 @@ const initialize = () => {
       list.append(row);try {row.querySelector('img').src=await localImageURL(asset);}catch{}
     }
   }
+  let articleImagePosition=null;
+  const articleGalleryDialog=$('[data-article-gallery-dialog]'),articleAssetDialog=$('[data-article-asset-dialog]');
+  const captureArticlePosition=()=>root.dataset.mode==='source'?{source:true,from:$('[data-source]').selectionStart,to:$('[data-source]').selectionEnd}:{blockId:activeBlockId};
+  function insertArticleImage(url,ref){
+    if(!applySource())return false;checkpoint();
+    const image={...newBlock('image'),url,text:ref.alt,caption:[ref.caption,ref.sourceTitle,ref.sourceUrl].filter(Boolean).join(' · ')};
+    if(articleImagePosition?.source){const text=$('[data-source]').value;sourcePending=text.slice(0,articleImagePosition.from)+blockMarkdown(image,draft.meta.locale)+text.slice(articleImagePosition.to);$('[data-source]').value=sourcePending;applySource();}
+    else{const index=draft.blocks.findIndex(b=>b.id===articleImagePosition?.blockId);const empty=index>=0&&draft.blocks[index].type==='paragraph'&&!draft.blocks[index].text.trim();draft.blocks.splice(index<0?draft.blocks.length:empty?index:index+1,empty?1:0,image);renderBlocks(image.id);changed(true);}return true;
+  }
+  const articleAssetUploader=articleMode?mountArticleAssets(root,{api:root.dataset.articleApi,owner:articleOwner,currentOwner,onLocalChange:()=>{draft.meta.pendingArticleImage=true;changed();},onInsert:(ref,url)=>{draft.meta.articleMediaRefs=[...(draft.meta.articleMediaRefs||[]).filter(r=>r.assetId!==ref.assetId),ref];if(insertArticleImage(url,ref))articleAssetDialog.close();},onPublicInsert:(item,ref)=>{draft.meta.articleMediaRefs=[...(draft.meta.articleMediaRefs||[]).filter(r=>r.galleryId!==item.id),{...ref,galleryId:item.id,src:item.src}];if(insertArticleImage(item.src,ref))articleAssetDialog.close();}}):null;
+  const articleGallery=articleMode?mountArticleGallery(root,{api:root.dataset.articleApi,onChoose:item=>{articleGalleryDialog.close();articleAssetDialog.showModal();void articleAssetUploader.open(item);}}):null;
+  root.querySelectorAll('[data-article-images-open]').forEach(button=>button.addEventListener('click',()=>{articleImagePosition=captureArticlePosition();articleGalleryDialog.showModal();void articleGallery.load();}));
+  root.querySelectorAll('[data-article-upload-open]').forEach(button=>button.addEventListener('click',()=>{articleGalleryDialog.close();articleAssetDialog.showModal();void articleAssetUploader.open();}));
+  document.addEventListener('astro:before-swap',()=>{articleAssetUploader?.dispose();articleGallery?.dispose();imageURLs.forEach(URL.revokeObjectURL);},{once:true});
   function openImages(files=[]) {
-    if(articleMode){$('[data-article-status]').textContent='文章图片请使用插入菜单中的图片网址。';return;}
+    if(articleMode){articleImagePosition=captureArticlePosition();articleGalleryDialog.close();if(!articleAssetDialog.open)articleAssetDialog.showModal();void articleAssetUploader.open().then(()=>files[0]&&articleAssetUploader.selectFile(files[0]));return;}
     selectedImageFiles=files;$('[data-image-files]').value='';$('[data-image-selection]').textContent=files.map(f=>f.name).join('、');
     $('[data-image-feedback]').textContent='';renderAttachments();$('[data-attachments-dialog]').showModal();
   }
@@ -804,13 +831,22 @@ const initialize = () => {
       }
     })();
   }
+  if(articleMode&&!['guest','unverified'].includes(articleOwner)){
+    const recovery=articleCopy(root.dataset.locale).recovery,panel=document.createElement('div');panel.className='ve-row-tools';
+    for(const [scope,label]of [['guest',recovery.guest],['unverified',recovery.unverified]]){const recoveredKey=`kamitsubaki-article-workbench-v2:${scope}:${articleIdentity}:${root.dataset.contentLocale}`;let raw;try{raw=localStorage.getItem(recoveredKey);}catch{continue;}if(!raw)continue;
+      const button=document.createElement('button');button.type='button';button.textContent=label;button.onclick=()=>{if(currentOwner()!==articleOwner)return;let recovered;try{recovered=JSON.parse(raw);if(recovered.ownerId||recovered.kind!=='articles'||!Array.isArray(recovered.blocks)||recovered.blocks.length>1000)throw Error(recovery.invalid);exportMarkdown(recovered);}catch(error){$('[data-article-status]').textContent=error.message;return;}if(hasEditorLocalWork(draft,sourcePending)&&!window.confirm(recovery.replace))return;clearPendingSource();draft={...recovered,ownerId:articleOwner};try{const pending=localStorage.getItem(recoveredKey+':source');if(pending!==null){sourcePending=pending;$('[data-source]').value=pending;applySource();}}catch{}history=[JSON.stringify(draft)];cursor=0;renderFields();renderBlocks();changed(true);panel.remove();};panel.append(button);
+    }if(panel.childElementCount)$('[data-article-status]').after(panel);
+  }
+  if(articleMode)window.addEventListener('kamitsubaki-account-state',()=>{if(currentOwner()!==articleOwner){imageURLs.forEach(URL.revokeObjectURL);imageURLs.clear();root.querySelectorAll('[data-article-reference]').forEach(img=>img.removeAttribute('src'));articleAssetDialog?.close();}});
   if(articleMode)initializeArticleSubmission(root,{
     async validateRelations(){const ids=draft.meta.relatedEntities||[];if(!ids.length)return;const entries=await articleEntities(root.dataset.locale);if(ids.some(id=>!entries.some(e=>e.id===id)))throw Error(articleCopy(root.dataset.locale).invalidRelated);},
     prepareNavigation(){saving=true;},
-    snapshot(){if(!applySource())throw Error(copy.sourceError);return {locale:draft.meta.locale,content:{title:draft.meta.title||'',summary:draft.meta.summary||'',category:draft.meta.articleCategory||'archival',relatedEntities:draft.meta.relatedEntities||[],body:serializeDraft()}};},
-    restore(content,locale){clearPendingSource();draft=newDraft('articles',locale);Object.assign(draft.meta,{title:content.title||'',summary:content.summary||'',articleCategory:content.category||'archival',relatedEntities:content.relatedEntities||[]});draft.blocks=parseVisualBlocks(content.body||'');if(!draft.blocks.length)draft.blocks=[newBlock('paragraph')];draft.articleOriginalBody=content.body||'';draft.articleBodySnapshot=JSON.stringify(draft.blocks);history=[JSON.stringify(draft)];cursor=0;renderFields();renderBlocks();changed(true);},
-    hasLocalWork(){return Boolean(draft.meta.title||serializeDraft().trim());},
-  });
+    currentOwner,persistLocal(){if(sourcePending!==null)try{localStorage.setItem(sourceKey,sourcePending);}catch{}save();},
+    subscribe(callback){root.addEventListener('article-draft-change',callback);},
+    snapshot(){if(!applySource())throw Error(copy.sourceError);return {locale:draft.meta.locale,content:{title:draft.meta.title||'',summary:draft.meta.summary||'',category:draft.meta.articleCategory||'archival',relatedEntities:draft.meta.relatedEntities||[],body:serializeDraft(),mediaRefs:(draft.meta.articleMediaRefs||[]).filter(ref=>serializeDraft().includes(ref.src||`/_private/article-assets/${ref.assetId}`))}};},
+    restore(content,locale){clearPendingSource();draft=newDraft('articles',locale);Object.assign(draft.meta,{title:content.title||'',summary:content.summary||'',articleCategory:content.category||'archival',relatedEntities:content.relatedEntities||[],articleMediaRefs:content.mediaRefs||[]});draft.blocks=parseVisualBlocks(content.body||'');if(!draft.blocks.length)draft.blocks=[newBlock('paragraph')];draft.articleOriginalBody=content.body||'';draft.articleBodySnapshot=JSON.stringify(draft.blocks);history=[JSON.stringify(draft)];cursor=0;renderFields();renderBlocks();changed(true);},
+    hasLocalWork(){return hasEditorLocalWork(draft,sourcePending);},
+  },articleOwner);
   if (!articleMode && !target && new URLSearchParams(location.search).get('new')==='articles') openNewEntry('articles');
   if (target && sourceRequest(target) && !(draft.path === target && draft.originalMeta)) loadOriginal(target, hasWork());
 };
