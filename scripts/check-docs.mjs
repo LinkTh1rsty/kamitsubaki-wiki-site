@@ -19,6 +19,8 @@ sources.push(...await walk(join(root,'docs')));
 const missing=[];
 const privateDetails=[];
 const privateImplementation=/kamitsubaki-wiki-site-backend|\b(?:D1|R2|Worker|Wrangler)\b|AI_OBSERVER_DB|GALLERY_(?:STAGING|IMAGES)|migrations\/[0-9]+|数据库迁移|存储桶|后端部署/iu;
+// This engineering audit is outside docs/manuals and is not a public manual route.
+const engineeringAuditPath=join(root,'docs/upload-funnel-audit.md');
 const manualPaths=new Set();
 for(const locale of ['zh','ja','en','zh-tw','zh-hk']){
  const books=await getManualCatalog(locale);
@@ -36,7 +38,7 @@ if(manualBooks.some(book=>![...manualPaths].some(path=>path.startsWith(`${book}/
 for(const [old,target] of Object.entries(retiredDocTargets))if(!manualPaths.has(target))missing.push(`retired /docs/${old}/ -> missing ${target}`);
 for(const file of sources){
  const source=await readFile(file,'utf8');
- if(privateImplementation.test(source))privateDetails.push(relative(root,file));
+ if(file!==engineeringAuditPath&&privateImplementation.test(source))privateDetails.push(relative(root,file));
  const content=source.replace(/```[\s\S]*?```/g,'');
  for(const match of content.matchAll(/\[[^\]]*\]\(([^)]+)\)/g)){
   let target=match[1].trim().replace(/^<|>$/g,'').split(/\s+["']/)[0];
