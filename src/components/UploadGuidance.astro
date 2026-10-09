@@ -1,0 +1,14 @@
+---
+import {uploadGuidanceCopy} from '../lib/uploadGuidanceCopy.mjs';
+const {locale='zh'}=Astro.props;
+const g=uploadGuidanceCopy(locale);
+---
+<details class="upload-guidance">
+ <summary>{g.title}</summary>
+ <ol>{g.steps.map((step:string)=><li>{step}</li>)}</ol>
+ <h3>{g.examples}</h3>
+ <dl><div><dt>{g.authorLabel}</dt><dd>{g.authorExample}</dd></div><div><dt>{g.sourceLabel}</dt><dd>{g.sourceExample}</dd></div><div><dt>{g.urlLabel}</dt><dd>{g.urlExample}</dd></div><div><dt>{g.rightsLabel}</dt><dd>{g.rightsExample}</dd></div></dl>
+ <p>{g.classification}</p>
+ <nav><a href={`/${locale}/docs/contribute/gallery/`}>{g.manual} →</a><a href={`/${locale}/docs/contribute/rights/`}>{g.rightsManual} →</a></nav>
+</details>
+<style>.upload-guidance{margin:0 0 24px;padding:14px 0;border-block:1px solid var(--ui-line);font:13px/1.75 var(--font-sans);color:var(--theme-fg)}.upload-guidance summary{cursor:pointer;min-height:30px;font-weight:500}.upload-guidance ol{padding-left:22px;margin:14px 0}.upload-guidance h3{margin:18px 0 10px;font:500 14px/1.6 var(--font-sans)}.upload-guidance dl{margin:0}.upload-guidance dl>div{display:grid;grid-template-columns:100px minmax(0,1fr);gap:12px;padding:8px 0;border-top:1px solid var(--ui-line)}.upload-guidance dt{color:var(--workspace-muted);font-size:12px}.upload-guidance dd{margin:0}.upload-guidance p{color:var(--workspace-muted)}.upload-guidance nav{display:flex;flex-wrap:wrap;gap:12px 24px}.upload-guidance a{color:inherit;text-underline-offset:4px}@media(max-width:600px){.upload-guidance dl>div{grid-template-columns:1fr;gap:3px}.upload-guidance summary{min-height:44px}}</style>

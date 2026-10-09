@@ -1,27 +1,36 @@
 ---
+import {uploadGuidanceCopy} from '../lib/uploadGuidanceCopy.mjs';
+import UploadGuidance from './UploadGuidance.astro';
+import UploadDraftStatus from './UploadDraftStatus.astro';
+import SubmissionPanel from './SubmissionPanel.astro';
+import {contributionLayoutCopy} from '../lib/contributionLayoutCopy.mjs';
+import WorkspaceToolbar from './WorkspaceToolbar.astro';
 import CreationFields from './CreationFields.astro';
 import WorkspaceButton from './WorkspaceButton.astro';
 import SubmissionReceipt from './SubmissionReceipt.astro';
+import {creationWorkbenchCopy} from '../lib/creationWorkbenchCopy.mjs';
 import '../styles/creationWorkbench.css';
 const {live=false,locale='zh'}=Astro.props;
+const c=creationWorkbenchCopy(locale),layout=contributionLayoutCopy(locale),guidance=uploadGuidanceCopy(locale);
 ---
-<section class="creation-prototype" data-creation-prototype={!live || undefined} data-creation-uploader={live || undefined}>
+<section class="creation-prototype" data-creation-prototype={!live || undefined} data-creation-uploader={live || undefined} data-copy={JSON.stringify(c)} data-layout-copy={JSON.stringify(layout)} data-locale={locale}>
  <p class="creation-demo-note" hidden={live}><strong>交互原型</strong>示例设定与审核记录仅用于界面验收。选入的文件只在本机预览，不发送到服务器。</p>
  <nav hidden={live} class="creation-modes" aria-label="工作台示例"><button type="button" data-creation-mode="upload" aria-pressed="true">上传工作台</button><button type="button" data-creation-mode="review" aria-pressed="false">审核工作台</button></nav>
  <div data-creation-upload>
   {live&&<SubmissionReceipt locale={locale}/>}
-  <div class="creation-toolbar"><div><h2>一套设定，一组照片</h2>{live&&<div class="creation-session-strip" data-upload-session aria-label="上传额度与连接状态"><span class="creation-session-state" data-session-state role="status">正在连接投稿服务…</span><span class="creation-session-stat" data-session-stat hidden><small>今日剩余</small><strong><span data-quota-remaining>—</span> / <span data-quota-limit>—</span> 张</strong></span><span class="creation-session-stat" data-session-stat hidden><small>并行上传</small><strong><span data-session-concurrency>—</span> 张</strong></span><span class="creation-session-stat" data-session-expiry hidden><small>暂存到期</small><strong data-session-expiry-value>—</strong></span></div>}</div><div><WorkspaceButton hidden={live} data-demo-files tone="quiet">载入示例图片</WorkspaceButton><WorkspaceButton data-add-set>＋ 新增一组设定</WorkspaceButton></div></div>
+  {live&&<UploadGuidance locale={locale}/>}
+  <WorkspaceToolbar class="creation-toolbar"><div><h2>{c.toolbarTitle}</h2>{live&&<div class="creation-session-strip" data-upload-session aria-label={c.session}><span class="creation-session-state" data-session-state role="status">{c.connecting}</span><span class="creation-session-stat" data-session-stat hidden><small>{c.remaining}</small><strong><span data-quota-remaining>—</span> / <span data-quota-limit>—</span> {c.photosUnit}</strong></span><span class="creation-session-stat" data-session-stat hidden><small>{c.concurrent}</small><strong><span data-session-concurrency>—</span> {c.photosUnit}</strong></span><span class="creation-session-stat" data-session-expiry hidden><small>{c.expiry}</small><strong data-session-expiry-value>—</strong></span></div>}</div><div class="workspace-tool-group"><WorkspaceButton hidden={live} data-demo-files tone="quiet">{c.demoFiles}</WorkspaceButton>{live&&<a class="creation-new-draft" href={`/${locale}/gallery/manage/?mode=sets&new=1`}>{guidance.newDraft} →</a>}<WorkspaceButton data-add-set>{c.addSet}</WorkspaceButton></div></WorkspaceToolbar>
   <div class="creation-workspace">
-   <aside class="creation-index"><p class="creation-caption">本批设定</p><nav data-set-index aria-label="设定目录"></nav></aside>
+   <aside class="creation-index"><p class="creation-caption">{c.currentSets}</p><nav data-set-index aria-label={c.setIndex}></nav></aside>
    <div class="creation-content" data-set-container>
-    <section class="creation-set" data-set="set-1" id="creation-set-1"><header><div><span class="creation-caption">01 / SET</span><h3>第一套设定</h3></div><div class="creation-set-actions">{live&&<><button type="button" data-remove-set>删除空设定</button></>}</div></header><CreationFields prefix="set-1" live={live} locale={locale}/><div class="creation-image-heading"><h4>本组照片 <span data-set-photo-count>0 张</span></h4><span>第一张为封面 · 可调整顺序</span></div><div data-image-list></div><div class="creation-drop" data-drop-set="set-1" tabindex="0" aria-label="添加本组照片，可拖入或粘贴"><span aria-hidden="true">＋</span><strong>将本组照片拖到这里</strong><button type="button" data-select-set="set-1">添加本组照片</button><input data-file-picker type="file" accept="image/png,image/jpeg,image/webp,image/gif" multiple hidden/></div></section>
+    <section class="creation-set" data-set="set-1" id="creation-set-1"><header><div><span class="creation-caption">01 / SET</span><h3>{c.firstSet}</h3></div><div class="creation-set-actions">{live&&<><button type="button" data-remove-set>{c.removeSet}</button></>}</div></header><div class="submission-columns creation-set-layout"><SubmissionPanel title={layout.info} hint={layout.setHint} step="01" heading="h4"><CreationFields prefix="set-1" live={live} locale={locale}/></SubmissionPanel><SubmissionPanel title={layout.images} hint={layout.imageHint} step="02" heading="h4" class="creation-set-media"><div class="creation-image-heading"><strong data-set-photo-count>0 {c.photosUnit}</strong><span>{c.coverHint}</span></div><div class="creation-drop" data-drop-set="set-1" tabindex="0" aria-label={c.dropAria}><span aria-hidden="true">＋</span><strong>{c.dropPrompt}</strong><button type="button" data-select-set="set-1">{c.selectPhotos}</button><input data-file-picker type="file" accept="image/png,image/jpeg,image/webp,image/gif" multiple hidden/></div><div data-image-list></div></SubmissionPanel></div></section>
    </div>
-   <aside class="creation-preview"><div class="creation-preview-heading"><h3>图片预览</h3><span data-preview-counter>—</span></div><p class="creation-muted" data-preview-set></p><div class="creation-preview-stage"><img data-preview-image alt="选中图片预览" hidden/><p data-preview-empty>选择一张图片查看细节</p></div><dl class="creation-file-info"><div><dt>文件</dt><dd data-preview-name>—</dd></div><div><dt>文件大小</dt><dd data-preview-size>—</dd></div><div><dt>分辨率</dt><dd data-preview-resolution>—</dd></div><div><dt>格式</dt><dd data-preview-format>—</dd></div></dl><WorkspaceButton data-preview-open disabled>查看大图 ↗</WorkspaceButton></aside>
+
   </div>
-  <footer class="creation-upload-footer"><div><strong data-upload-count>0 张图片 · 1 套设定</strong><p data-upload-status role="status"></p><progress data-total-progress max="100" value="0" aria-label="整批上传进度"></progress></div><WorkspaceButton data-simulate-upload disabled tone="primary">{live?"上传全部照片":"演示上传进度"}</WorkspaceButton>{live&&<WorkspaceButton data-submit-batch disabled>提交全部设定审核</WorkspaceButton>}{live&&<ul data-upload-issues aria-label="需要补充的资料"></ul>}</footer>
+  <footer class="creation-upload-footer"><div><strong data-upload-count>{c.uploadCount.replace('{photos}','0').replace('{sets}','1').replace('{staged}','0')}</strong><p data-upload-status role="status"></p>{live&&<UploadDraftStatus locale={locale}/>}<progress data-total-progress max="100" value="0" aria-label={c.progress}></progress></div><WorkspaceButton data-simulate-upload disabled tone="primary">{live?c.uploadAll:'演示上传进度'}</WorkspaceButton>{live&&<WorkspaceButton data-submit-batch disabled>{c.submitAll}</WorkspaceButton>}{live&&<ul data-upload-issues aria-label={c.issues}></ul>}</footer>
  </div>
  {!live&&<div data-creation-review hidden>
-  <div class="creation-toolbar"><div><h2>审核工作台</h2><p>队列、内容差异与审核操作保持在同一个位置</p></div><label class="creation-review-type">投稿类型<select data-review-type><option value="gallery">设定图库</option><option value="article">文章</option><option value="entry">词条</option></select></label></div>
+  <WorkspaceToolbar class="creation-toolbar"><div><h2>审核工作台</h2><p>队列、内容差异与审核操作保持在同一个位置</p></div><label class="creation-review-type">投稿类型<select data-review-type><option value="gallery">设定图库</option><option value="article">文章</option><option value="entry">词条</option></select></label></WorkspaceToolbar>
   <div class="creation-review-workspace">
    <aside class="creation-review-queue"><label>搜索记录<input data-review-search type="search" placeholder="标题或投稿者"/></label><div data-review-queue></div></aside>
    <section class="creation-review-body"><header><span class="creation-caption" data-review-meta>图库 · 示例</span><h3 data-review-title></h3><p data-review-description></p></header><div data-review-gallery><div class="creation-review-images"><button type="button" data-review-image="0" aria-pressed="true"><img src="/images/albums/fate-vwp-1400x1400.jpg" alt="演示图片 1"/><span>01 · 封面图</span><small data-review-image-status="0">待审核</small></button><button type="button" data-review-image="1" aria-pressed="false"><img src="/images/albums/koko/prayer.jpg" alt="演示图片 2"/><span>02 · 补充图</span><small data-review-image-status="1">待审核</small></button></div><div class="creation-review-large"><img data-review-large src="/images/albums/fate-vwp-1400x1400.jpg" alt="演示审核图片"/></div></div><div class="creation-diff"><div><span>原公开版本</span><p data-review-before>尚未公开 · 新设定</p></div><div><span>本次提交</span><p data-review-after></p></div></div></section>
@@ -29,7 +38,7 @@ const {live=false,locale='zh'}=Astro.props;
   </div>
  </div>
  }
- <dialog class="creation-image-dialog" data-image-dialog><header><span data-dialog-title>图片预览</span><button type="button" data-dialog-close aria-label="关闭图片预览">关闭 ×</button></header><img data-dialog-image alt="本机图片预览"/></dialog>
+
 </section>
 <script>import '../scripts/creationPrototype.js';</script>
 <style>.creation-prototype[data-complete] .creation-toolbar,.creation-prototype[data-complete] .creation-workspace,.creation-prototype[data-complete] .creation-upload-footer{display:none}</style>

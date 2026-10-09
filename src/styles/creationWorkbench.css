@@ -30,3 +30,60 @@ html body main.creation-preview-page .workspace-heading>.workspace-eyebrow{margi
 @media(max-width:760px){.creation-session-strip{gap:6px 0}.creation-session-state{flex-basis:100%;padding-right:0}.creation-session-stat{gap:4px;padding:0 10px}.creation-session-stat:nth-child(2){padding-left:0;border-left:0}}
 
 .creation-upload-footer [data-upload-status]:empty{display:none}
+
+/* Keep the review and upload desk on the same control scale as account pages. */
+.creation-prototype :is(input:not([type=checkbox]),select){min-height:44px}
+.creation-fields label,.creation-image-inputs label{font-size:12px;line-height:1.5}
+.creation-set>header{align-items:flex-start}
+.creation-set>header>div{min-width:0}
+.creation-set h3{overflow-wrap:anywhere;text-wrap:pretty}
+.creation-drop{padding:28px 16px;background:rgb(var(--theme-fg-rgb)/.015);border-radius:var(--ui-radius-panel)}
+.creation-review-images{overflow-x:auto;scroll-snap-type:x proximity;padding:4px 2px 10px;scrollbar-width:thin}
+.creation-review-images button{flex:0 0 112px;scroll-snap-align:start}
+.creation-review-images img{width:100%;height:88px}
+.creation-review-images :is(span,strong,small){overflow-wrap:anywhere}
+.creation-upload-footer{padding-bottom:max(16px,env(safe-area-inset-bottom))}
+@media(max-width:480px){
+ .creation-fields{grid-template-columns:minmax(0,1fr)}
+ .creation-set>header{flex-wrap:wrap}
+ .creation-set-actions{justify-content:flex-start}
+ .creation-diff{grid-template-columns:minmax(0,1fr)}
+}
+
+/* One set = one information panel + one photo panel. */
+.creation-prototype .creation-workspace{display:block}
+.creation-prototype .creation-index{position:static;display:flex;align-items:center;gap:16px;margin-bottom:18px;padding-bottom:12px;border-bottom:1px solid var(--creation-line)}
+.creation-index>.creation-caption{flex:none;margin:0}
+.creation-prototype .creation-index nav{display:flex;gap:6px;overflow-x:auto;min-width:0;scrollbar-width:thin}
+.creation-prototype .creation-index a{flex:none;min-height:40px;padding:9px 12px;border:1px solid transparent;border-radius:var(--ui-radius-control);white-space:nowrap}
+.creation-prototype .creation-index a[aria-current]{border-color:var(--creation-line);background:rgb(var(--theme-fg-rgb)/.06)}
+.creation-content .creation-fields{display:block}
+.creation-content .creation-set>header{margin-bottom:14px}
+.creation-set-layout .creation-image-heading{margin:0 0 12px;gap:12px;flex-wrap:wrap}
+.creation-image-heading strong{font:500 12px/1.6 var(--font-mono)}
+.creation-set-media [data-image-list]{display:grid;gap:12px;margin-top:16px}
+.creation-set-media [data-image-list]:empty{margin:0}
+.creation-set-media .creation-image-row{display:grid;grid-template-columns:112px minmax(0,1fr);gap:14px;padding:14px;border:1px solid var(--creation-line);border-radius:var(--ui-radius-control);background:var(--theme-bg)}
+.creation-set-media .creation-image-thumbnail{width:112px;align-self:start;padding:0;border:0;background:rgb(var(--theme-fg-rgb)/.035)}
+.creation-set-media .creation-image-thumbnail img{width:112px;height:112px;object-fit:contain}
+.creation-set-media .creation-image-data{min-width:0}
+.creation-set-media .creation-image-data>strong{display:block;font-size:12px;overflow-wrap:anywhere;white-space:normal}
+.creation-set-media .creation-image-data>small{display:block;margin-top:4px;font:10px/1.6 var(--font-mono);color:var(--workspace-muted)}
+.creation-set-media .creation-image-inputs{grid-template-columns:minmax(0,1fr)}
+.creation-photo-details{margin-top:10px}
+.creation-photo-details>summary{display:flex;align-items:center;justify-content:space-between;min-height:40px;cursor:pointer;font:500 12px/1.5 var(--font-sans);list-style:none;border-block:1px solid var(--creation-line)}
+.creation-photo-details>summary::-webkit-details-marker{display:none}
+.creation-photo-details>summary::after{content:'＋';font:14px var(--font-mono)}
+.creation-photo-details[open]>summary::after{content:'−'}
+.creation-photo-details .submission-hint{margin:10px 0;font-size:11px}
+.creation-photo-details .creation-photo-rights{margin-bottom:0}
+.creation-set-media .creation-image-tools{margin-top:10px;gap:5px;flex-wrap:wrap}
+.creation-set-media .creation-image-tools button{min-height:36px;padding:6px 8px}
+@media(max-width:520px){.creation-prototype .creation-index{display:block}.creation-index>.creation-caption{margin-bottom:8px}.creation-set-media .creation-image-row{grid-template-columns:64px minmax(0,1fr);padding:10px;gap:10px}.creation-set-media .creation-image-thumbnail,.creation-set-media .creation-image-thumbnail img{width:64px;height:80px}.creation-set-media .creation-image-tools button,.creation-photo-details>summary{min-height:44px}}
+
+.creation-upload-footer .upload-draft-status{margin:6px 0}
+.creation-upload-footer .upload-draft-conflict{margin-top:12px}
+.creation-prototype :is(input,select,textarea,button){font-family:var(--font-sans)}
+.creation-upload-footer{padding-bottom:max(16px,env(safe-area-inset-bottom))}
+
+.creation-new-draft{display:inline-flex;align-items:center;min-height:44px;padding:8px 0;color:var(--theme-fg);font:12px var(--font-sans);text-underline-offset:4px}
