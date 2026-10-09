@@ -105,3 +105,13 @@ Entry pages display a shared media exclusion, so do not mark an entire article `
 - Could images, lyrics, or embedded media be mistaken for default CC-licensed text?
 - Do all three locales use consistent provenance and license logic?
 - Do `pnpm test`, `pnpm check`, and `pnpm build` pass?
+
+## Three upload usage bases
+
+| Choice | Details needed |
+| --- | --- |
+| Official public material | Original creator or official credit, actual publisher/work and original release page URL |
+| Your original work | Confirm you are the original creator; give accurate credit and source name, optionally your original release page |
+| Authorized use | Original creator/source plus permission scope, date or verifiable evidence |
+
+The basis for use starts blank. Channel suggestions are not permission verification, and an official release is not a blanket reuse license. Shared details apply to the batch; photos with different credits or terms need individual details. Keep uncertain material in a private draft while checking the source. Reviewers can return each image for more information.
