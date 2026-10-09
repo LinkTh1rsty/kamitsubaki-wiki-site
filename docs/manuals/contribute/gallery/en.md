@@ -7,7 +7,7 @@ title: Contribute photos, design sets and classifications
 summary: Upload photos without a category, build a design set, or suggest changes to a published photo.
 ---
 
-> This flow becomes available with the updated upload workspace and article editor. Maintainers must apply the matching incremental backend database migrations before releasing the frontend and this guide. A completed private upload is still private; explicit submission and approval are required.
+> This flow becomes available with the updated upload workspace and article editor. Maintainers must apply the matching incremental backend migrations before releasing the frontend and this guide. A completed private upload is still private; explicit submission and approval are required.
 
 ## Choose a task
 
