@@ -1,0 +1,9 @@
+---
+import '../styles/submissionLayout.css';
+interface Props {title:string; hint?:string; step?:string; class?:string; heading?:'h2'|'h3'|'h4'}
+const {title,hint,step,class:className,heading:Heading='h2'}=Astro.props;
+---
+<section class:list={['submission-panel',className]}>
+ <header class="submission-panel-header"><Heading>{step&&<span aria-hidden="true">{step}</span>}{title}</Heading>{hint&&<p>{hint}</p>}</header>
+ <slot/>
+</section>

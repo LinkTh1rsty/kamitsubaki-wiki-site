@@ -54,7 +54,9 @@
     "micromark-extension-math": "^3.1.0",
     "opencc-js": "1.4.1",
     "simple-icons": "^16.27.0",
-    "wanakana": "^5.3.1"
+    "wanakana": "^5.3.1",
+    "@uppy/core": "6.2.0",
+    "@uppy/xhr-upload": "6.0.1"
   },
   "devDependencies": {
     "@astrojs/check": "latest",

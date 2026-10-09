@@ -1,0 +1,15 @@
+---
+import {contributionFlowCopy} from '../lib/contributionFlowCopy.mjs';
+import ContextAction from './ContextAction.astro';
+interface Props {locale:string;kind?:'entry'|'image'|'article'|'timeline';}
+const {locale,kind}=Astro.props,c=contributionFlowCopy(locale);
+const kinds=kind?[kind]:['entry','image','article','timeline'] as const;
+---
+<details class="contribution-flow" open={!kind}>
+ <summary>{kind?`${c[kind].title} · ${c.title}`:c.title}</summary>
+ <div class="contribution-flow-grid">{kinds.map(key=><section><h3>{c[key].title}</h3><p class="contribution-flow-route">{c[key].route}</p><p>{c[key].note}</p></section>)}</div>
+ <ContextAction href={`/${locale}/account/creator/`} tone="quiet">{c.track}</ContextAction>
+</details>
+<style>
+.contribution-flow{margin:12px 0 20px;border-block:1px solid rgb(var(--theme-fg-rgb)/.15);padding:12px 0;font-size:12px;line-height:1.7}.contribution-flow summary{cursor:pointer;font-weight:600}.contribution-flow-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:14px 24px;margin:12px 0}.contribution-flow h3{margin:0;font-size:13px}.contribution-flow p{margin:5px 0;opacity:.72}.contribution-flow .contribution-flow-route{opacity:1}.contribution-flow a{text-decoration:underline;text-underline-offset:3px}.contribution-flow section{min-width:0}.contribution-flow:not([open]){margin-bottom:12px}
+</style>
