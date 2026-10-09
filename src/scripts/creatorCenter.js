@@ -1,3 +1,5 @@
+import {galleryDraft,listGalleryDrafts} from '../lib/galleryDraftStore.mjs';
+import {articleLocalDraftRecord,articleLocalKeysForRevision} from '../lib/articleDraftStorage.mjs';
 import {state,refreshAuth} from './accountStore.js';
 import {createContextAction} from '../lib/contextAction.js';
 
@@ -6,7 +8,7 @@ if(root){
  const $=selector=>root.querySelector(selector),c=JSON.parse(root.dataset.copy),locale=root.dataset.locale;
  const api=root.dataset.api.replace(/\/$/,''),editorApi=root.dataset.editorApi.replace(/\/$/,'');
  const text=(tag,value,className)=>{const node=document.createElement(tag);node.textContent=String(value??'');if(className)node.className=className;return node;};
- let owner=null,ownerGeneration=0,listGeneration=0,items=[],notifications=[],unreadCount=0,nextOffset=null,detailTrigger=null,searchTimer;
+ let owner=null,ownerGeneration=0,listGeneration=0,localDraftGeneration=0,items=[],notifications=[],unreadCount=0,nextOffset=null,detailTrigger=null,searchTimer;
  const request=async(base,path,method='GET',body)=>{
   const response=await fetch(base+path,{method,credentials:'include',cache:'no-store',signal:AbortSignal.timeout(15000),headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined});
   const data=await response.json().catch(()=>({}));if(!response.ok)throw Object.assign(Error(data.error?.message||data.error?.code||(typeof data.error==='string'?data.error:null)||c.error),{status:response.status});return data;
@@ -81,7 +83,9 @@ if(root){
      const key=`kamitsubaki-article-workbench-v1:${id}:${revisionLocale}`,saved=JSON.parse(localStorage.getItem(key)||'null');
      if(saved?.ownerId===accountId)localStorage.removeItem(key);
      localStorage.removeItem(`article-submission:${revisionLocale}:${id}`);
+     for(const localKey of articleLocalKeysForRevision(localStorage,accountId,id))localStorage.removeItem(localKey);
     }
+    if(type==='gallery'&&['batch','photos'].includes(kind)){for(const draft of await listGalleryDrafts(accountId))if(draft.id===id)await galleryDraft('delete',draft.key);}
    }catch{}
    localDrafts();
    if(params().get('record')===detailRecordId)closeDetail();
@@ -118,13 +122,14 @@ if(root){
  async function loadSummary(){const current=ownerGeneration;if(!owner){for(const key of ['attention','review','published','draft'])$(`[data-metric-count="${key}"]`).textContent='—';renderTodo([]);return;}try{const [summary,todo]=await Promise.all([account('/contributions/summary'),account('/contributions?state=attention')]);if(current!==ownerGeneration)return;for(const key of ['attention','review','published','draft'])$(`[data-metric-count="${key}"]`).textContent=summary.summary[key]??0;renderTodo(todo.items);}catch{if(current===ownerGeneration)$('[data-creator-todo]').replaceChildren(text('p',c.error));}}
  function renderNotifications(data){notifications=data.items||[];unreadCount=data.unread||0;const target=$('[data-creator-notifications]');target.replaceChildren();$('[data-notification-count]').textContent=unreadCount?`${unreadCount} ${c.unread}`:'';root.querySelectorAll('[data-creator-unread]').forEach(badge=>{badge.hidden=!unreadCount;badge.textContent=unreadCount||'';});if(!notifications.length){target.append(text('p',owner?c.noNotifications:c.loginHint));return;}for(const event of notifications){const row=text('div','','creator-notification-row');row.dataset.unread=String(!event.read_at);row.dataset.event=event.event_type;const content=document.createElement('div');content.append(text('strong',c.events[event.event_type]||event.event_type),text('small',' · '+(event.created_at||'').slice(0,16)));if(event.review_note)content.append(text('p',event.review_note,'creator-notification-note'));const button=text('button',event.event_type==='returned'||event.event_type==='comment'?c.viewFeedback:c.open);button.type='button';button.onclick=()=>openRecord(event.source_type,event.record_id,button);row.append(content,button);target.append(row);}}
  async function loadNotifications(){if(!owner){renderNotifications({items:[],unread:0});return;}try{renderNotifications(await account('/notifications'));}catch{$('[data-creator-notifications]').replaceChildren(text('p',c.error));}}
- function localDrafts(){
+ async function localDrafts(){
   const target=$('[data-creator-drafts]');target.replaceChildren();
   if(!owner){target.append(text('p',c.login));return;}
+  const currentOwner=owner,currentGeneration=ownerGeneration,currentDraftGeneration=++localDraftGeneration;
   let found=0;
   const addLocal=(key,title,href)=>{
    const row=text('div','','creator-local-row'),actions=text('div','','creator-local-actions'),remove=text('button',c.deleteDraft,'creator-delete-draft');
-   remove.type='button';remove.onclick=async()=>{if(!await confirmDraftDeletion(title))return;try{const draft=JSON.parse(localStorage.getItem(key)||'null');if(draft?.ownerId!==owner)throw Error(c.error);localStorage.removeItem(key);$('[data-creator-status]').textContent=c.deleted;localDrafts();}catch(error){$('[data-creator-status]').textContent=error.message||c.error;}};
+   remove.type='button';remove.onclick=async()=>{if(!await confirmDraftDeletion(title))return;if(currentOwner!==owner||currentGeneration!==ownerGeneration)return;try{const draft=JSON.parse(localStorage.getItem(key)||'null');if(draft?.ownerId!==owner)throw Error(c.error);localStorage.removeItem(key);localStorage.removeItem(key+':source');$('[data-creator-status]').textContent=c.deleted;localDrafts();}catch(error){$('[data-creator-status]').textContent=error.message||c.error;}};
    actions.append(createContextAction(c.continue,withReturn(href)),remove);row.append(text('strong',title),actions);target.append(row);found++;
   };
   try{for(let i=0;i<localStorage.length;i++){
@@ -134,12 +139,22 @@ if(root){
     if(draft?.ownerId===owner)addLocal(key,title||c.untitled,`/${locale}/chronicle/submit/?draft=${encodeURIComponent(id)}`);
     continue;
    }
+   const article=articleLocalDraftRecord(key,localStorage.getItem(key),owner);if(article){addLocal(key,article.title||c.untitled,`/${article.locale}/articles/submit/?draft=${encodeURIComponent(article.id)}`);continue;}
    const match=key?.match(/^kamitsubaki-(?:visual-editor(?:-pr-demo)?-v1|article-workbench-v1:([^:]+)):(zh|ja|en)$/);
    if(!match)continue;
    const draft=JSON.parse(localStorage.getItem(key)||'null');if(draft?.ownerId!==owner)continue;
    const isArticle=key.startsWith('kamitsubaki-article-'),href=isArticle?`/${match[2]}/articles/submit/?draft=${encodeURIComponent(match[1])}`:`/${match[2]}/contribute/editor/`;
    addLocal(key,draft.meta?.title||draft.meta?.name||c.untitled,href);
   }}catch{}
+  const galleryDrafts=await listGalleryDrafts(currentOwner).catch(()=>[]);
+  if(currentGeneration!==ownerGeneration||currentDraftGeneration!==localDraftGeneration||currentOwner!==owner)return;
+  for(const draft of galleryDrafts){
+   const photos=draft.kind==='photos'||draft.manifest?.kind==='photos',count=photos?draft.manifest?.photos?.length||draft.files?.length||0:draft.manifest?.sets?.length||0;
+   const title=count?`${photos?c.photoRecord:c.gallery} · ${count} ${photos?(count===1?c.photoCountUnit:c.photoCountPlural):c.setCountUnit}`:photos?c.photoRecord:c.gallery;
+   const href=`/${locale}/gallery/manage/${photos?'photos/':''}?batch=${encodeURIComponent(draft.id)}`,row=text('div','','creator-local-row'),actions=text('div','','creator-local-actions'),remove=text('button',c.deleteLocalCopy||c.deleteDraft,'creator-delete-draft');
+   remove.type='button';remove.onclick=async()=>{if(!await confirmRecordAction(title,c.deleteLocalGalleryPrompt||c.deleteDraftPrompt,c.deleteLocalCopy||c.deleteDraft))return;if(currentOwner!==owner||currentGeneration!==ownerGeneration)return;try{await galleryDraft('delete',draft.key);$('[data-creator-status]').textContent=c.localGalleryDeleted||c.deleted;void localDrafts();}catch(error){$('[data-creator-status]').textContent=error.message||c.error;}};
+   actions.append(createContextAction(c.continue,withReturn(href)),remove);row.append(text('strong',title),actions);target.append(row);found++;
+  }
   if(!found)target.append(text('p',c.todoEmpty));
  }
  function addDetailAction(parent,label,href,secondary=false){const link=createContextAction(label,withReturn(href),{tone:secondary?'quiet':'primary'});link.classList.add('creator-detail-action');parent.append(link);}

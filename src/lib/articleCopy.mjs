@@ -14,3 +14,21 @@ Object.assign(copies.en,{origin:'Source',allOrigins:'All sources',origins:{'site
 Object.assign(traditional,{origin:'來源',allOrigins:'全部來源',origins:{'site-original':'站點原創','user-submission':'用戶投稿'},writeRelated:'撰寫相關文章',allRelated:'查看全部相關文章',relatedArticles:'相關文章',removeRelated:'移除詞條篩選',pickRelated:'關聯詞條（選填）',findRelated:'搜尋名稱、別名或 ID',remove:'移除',retry:'重試',noMatches:'沒有符合的詞條',invalidRelated:'關聯詞條已失效，請移除後重試',limitRelated:'最多關聯 50 個詞條',login:'登入後儲存或投稿',intro:'站點原創與用戶投稿。登入後可投稿或修改自己的文章，由維護者審核發布。'});
 
 for(const [locale,values] of Object.entries({zh:{editorHint:'正文会自动保存在本机。登录后可保存云端草稿，并提交审核。',serverSaved:'草稿已保存到云端。'},en:{editorHint:'Your writing is saved on this device. Sign in to save a cloud draft and submit for review.',serverSaved:'Draft saved to your account.'},ja:{editorHint:'本文はこの端末に自動保存されます。ログインするとクラウド保存・審査への提出ができます。',serverSaved:'下書きをクラウドに保存しました。'},'zh-tw':{editorHint:'正文會自動儲存在本機。登入後可儲存雲端草稿，並提交審核。',serverSaved:'草稿已儲存至雲端。'},'zh-hk':{editorHint:'正文會自動儲存在本機。登入後可儲存雲端草稿，並提交審核。',serverSaved:'草稿已儲存至雲端。'}}))Object.assign(copies[locale],values);
+
+const conflicts={
+ zh:{title:'云端草稿已更新',detail:'当前编辑内容仍在本机。请比较两个版本再继续。',untitled:'未命名草稿',local:'本机版本',cloud:'云端版本',fork:'保留当前内容，另存新草稿',load:'备份当前内容并载入云端',backupFailed:'本机备份失败；请先复制正文后再载入云端。',restore:'恢复冲突前的本机版本',restored:'已恢复本机版本；云端版本未改变。',loaded:'已载入云端版本；原本地内容已备份，可随时恢复。'},
+ 'zh-tw':{title:'雲端草稿已更新',detail:'目前編輯內容仍在本機。請比較兩個版本後再繼續。',untitled:'未命名草稿',local:'本機版本',cloud:'雲端版本',fork:'保留目前內容，另存新草稿',load:'備份目前內容並載入雲端',backupFailed:'本機備份失敗；請先複製正文後再載入雲端。',restore:'還原衝突前的本機版本',restored:'已還原本機版本；雲端版本未變更。',loaded:'已載入雲端版本；原本機內容已備份，可隨時還原。'},
+ 'zh-hk':{title:'雲端草稿已更新',detail:'目前編輯內容仍在本機。請比較兩個版本後再繼續。',untitled:'未命名草稿',local:'本機版本',cloud:'雲端版本',fork:'保留目前內容，另存新草稿',load:'備份目前內容並載入雲端',backupFailed:'本機備份失敗；請先複製正文後再載入雲端。',restore:'還原衝突前的本機版本',restored:'已還原本機版本；雲端版本未變更。',loaded:'已載入雲端版本；原本機內容已備份，可隨時還原。'},
+ ja:{title:'クラウドの下書きが更新されました',detail:'編集中の内容はこの端末に残っています。両方の版を確認してから続行してください。',untitled:'無題の下書き',local:'この端末の版',cloud:'クラウドの版',fork:'現在の内容を新しい下書きとして保存',load:'現在の内容を控えてクラウド版を読み込む',backupFailed:'端末への控えの保存に失敗しました。本文をコピーしてから読み込んでください。',restore:'衝突前の端末版に戻す',restored:'端末版に戻しました。クラウド版は変更していません。',loaded:'クラウド版を読み込みました。元の端末版は保存済みで、復元できます。'},
+ en:{title:'Cloud draft changed',detail:'Your current edits remain on this device. Compare both versions before continuing.',untitled:'Untitled draft',local:'Device version',cloud:'Cloud version',fork:'Save current edits as a new draft',load:'Back up current edits and load cloud version',backupFailed:'Could not back up your edits on this device. Copy the body before loading the cloud version.',restore:'Restore the device version',restored:'Device version restored. The cloud version was not changed.',loaded:'Cloud version loaded. Your earlier device version is backed up and can be restored.'}
+};
+for(const locale of Object.keys(conflicts))copies[locale].conflict=conflicts[locale];
+
+const recoveries={
+ zh:{authUnavailable:'暂时无法确认当前账号。正文已保存在本机，请恢复连接后再保存云端。',guest:'导入登录前草稿',unverified:'导入账号未确认时的草稿',legacy:'导入旧版本地草稿',ownerMismatch:'草稿归属与当前账号不符。',replace:'导入将替换当前编辑区，是否继续？',invalid:'草稿无法恢复。'},
+ 'zh-tw':{authUnavailable:'暫時無法確認目前帳號。正文已儲存在本機，請恢復連線後再儲存至雲端。',guest:'匯入登入前草稿',unverified:'匯入帳號未確認時的草稿',legacy:'匯入舊版本機草稿',ownerMismatch:'草稿歸屬與目前帳號不符。',replace:'匯入將取代目前編輯區，是否繼續？',invalid:'草稿無法還原。'},
+ 'zh-hk':{authUnavailable:'暫時無法確認目前帳號。正文已儲存在本機，請恢復連線後再儲存至雲端。',guest:'匯入登入前草稿',unverified:'匯入帳號未確認時的草稿',legacy:'匯入舊版本機草稿',ownerMismatch:'草稿歸屬與目前帳號不符。',replace:'匯入將取代目前編輯區，是否繼續？',invalid:'草稿無法還原。'},
+ ja:{authUnavailable:'現在のアカウントを確認できません。本文はこの端末に保存されています。接続が戻ってからクラウドに保存してください。',guest:'ログイン前の下書きを読み込む',unverified:'アカウント未確認時の下書きを読み込む',legacy:'旧版の端末下書きを読み込む',ownerMismatch:'この下書きは現在のアカウントのものではありません。',replace:'読み込むと現在の編集内容が置き換わります。続行しますか？',invalid:'下書きを復元できません。'},
+ en:{authUnavailable:'Your account cannot be confirmed right now. Your writing is saved on this device; save to the cloud after reconnecting.',guest:'Import pre-login draft',unverified:'Import draft saved while account was unverified',legacy:'Import older device draft',ownerMismatch:'This draft belongs to a different account.',replace:'Importing will replace your current edits. Continue?',invalid:'Could not restore this draft.'}
+};
+for(const locale of Object.keys(recoveries))copies[locale].recovery=recoveries[locale];

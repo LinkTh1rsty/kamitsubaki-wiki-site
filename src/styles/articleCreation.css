@@ -1,0 +1,13 @@
+/* Article image dialogs share the existing editor's native dialog controls. */
+[data-article-asset-dialog],[data-article-gallery-dialog]{width:min(680px,calc(100vw - 24px));max-height:calc(100dvh - 32px);overflow:auto;box-sizing:border-box}
+[data-article-asset-form]{display:grid;gap:.75rem}
+[data-article-asset-form] label{display:grid;gap:.3rem}
+[data-article-asset-form] input,[data-article-asset-form] select,[data-article-asset-form] textarea,[data-article-gallery-dialog] input{font:inherit;max-width:100%;box-sizing:border-box}
+.article-gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.75rem;margin-block:1rem}
+.article-gallery-choice{display:grid;gap:.4rem;min-width:0}
+.article-gallery-choice img{width:100%;aspect-ratio:1;object-fit:contain;background:var(--color-surface,#8881)}
+.article-gallery-choice strong{overflow-wrap:anywhere}
+.ve-article-save-conflict{padding:1rem;border-block:1px solid currentColor}
+.ve-article-save-conflict pre{max-height:16rem;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere}
+.ve-article-save-conflict button{margin:.5rem .5rem 0 0;font:inherit}
+@media(max-width:600px){[data-article-cloud-status]{max-width:9rem;font-size:.75rem}[data-article-asset-dialog],[data-article-gallery-dialog]{padding:1rem}.article-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
