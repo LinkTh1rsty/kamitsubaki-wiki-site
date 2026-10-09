@@ -1,0 +1,68 @@
+/* Shared operation surface: view, query, filters, then contextual actions.
+   Keep these rules scoped so document forms and reader typography are unaffected. */
+html body [data-workspace-toolbar].workspace-toolbar {
+  --tool-height:40px;
+  --tool-line:rgb(var(--theme-fg-rgb)/.18);
+  display:flex;align-items:flex-end;flex-wrap:wrap;gap:12px;
+  min-width:0;margin:0 0 16px;padding:12px 0;
+  border:0;border-block:1px solid var(--tool-line);border-radius:0;
+  background:none;box-shadow:none;
+}
+html body [data-workspace-toolbar][hidden]{display:none!important}
+html body [data-workspace-toolbar].workspace-toolbar>label,html body [data-workspace-toolbar].workspace-toolbar>form>label,html body [data-workspace-toolbar].workspace-toolbar label.workspace-tool-field{
+  display:grid;flex:1 1 120px;gap:5px;min-width:0;max-width:none;margin:0;padding:0;border:0;background:none;
+  font:12px/1.5 var(--font-sans);color:var(--workspace-muted,rgb(var(--theme-fg-rgb)/.65));
+}
+html body [data-workspace-toolbar].workspace-toolbar>label:has(input[type=search]),html body [data-workspace-toolbar].workspace-toolbar>form>label:has(input[type=search]){flex:3 1 220px}
+html body [data-workspace-toolbar].workspace-toolbar label>span{font:12px/1.5 var(--font-sans);letter-spacing:normal}
+html body [data-workspace-toolbar].workspace-toolbar :is(input[type=search],select){
+  box-sizing:border-box;width:100%;min-width:0;height:var(--tool-height);min-height:var(--tool-height);max-width:100%;
+  margin:0;padding:8px 11px;border:1px solid var(--tool-line);border-radius:var(--ui-radius-control,4px);
+  background:var(--theme-bg);color:var(--theme-fg);font:13px/1.5 var(--font-sans);letter-spacing:normal;box-shadow:none;
+}
+html body [data-workspace-toolbar].workspace-toolbar :is(button,.workspace-tool-action,.workspace-filter-more>summary){
+  display:inline-flex;align-items:center;justify-content:center;gap:6px;flex:none;box-sizing:border-box;
+  min-height:var(--tool-height);margin:0;padding:8px 12px;border:1px solid var(--tool-line);
+  border-radius:var(--ui-radius-control,4px);background:transparent;color:var(--theme-fg);
+  font:500 13px/1.5 var(--font-sans);text-decoration:none;cursor:pointer;
+}
+html body [data-workspace-toolbar].workspace-toolbar :is(button,.workspace-tool-action):hover{background:rgb(var(--theme-fg-rgb)/.05);border-color:rgb(var(--theme-fg-rgb)/.45)}
+html body [data-workspace-toolbar].workspace-toolbar :is(button,.workspace-tool-action):disabled{opacity:.45;cursor:not-allowed}
+html body [data-workspace-toolbar].workspace-toolbar :is(button[aria-pressed=true],[data-tone=primary]){background:var(--theme-fg);color:var(--theme-bg);border-color:var(--theme-fg)}
+html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-group{display:flex;align-items:flex-end;flex-wrap:wrap;gap:8px;min-width:0}
+html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-segments{display:inline-flex;align-items:center;gap:2px;flex:none;padding:2px;border:1px solid var(--tool-line);border-radius:var(--ui-radius-control,4px);margin:0}
+html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-segments>button{min-height:calc(var(--tool-height) - 6px);border-color:transparent;padding:6px 12px;font-size:12px;white-space:nowrap}
+html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters{display:flex;flex:0 0 100%;align-items:center;flex-wrap:wrap;gap:6px;margin:0;padding:10px 0 0;border-top:1px solid var(--tool-line)}
+html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters:empty{display:none}
+html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters>button{min-height:32px;padding:5px 10px;font-size:12px;border-color:transparent;color:var(--workspace-muted,rgb(var(--theme-fg-rgb)/.65))}
+html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters>button[aria-pressed=true]{color:var(--theme-fg);background:rgb(var(--theme-fg-rgb)/.07);border-color:var(--tool-line)}
+html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters small{font:10px var(--font-mono);margin-left:4px;opacity:.7}
+@media(max-width:700px){
+ html body [data-workspace-toolbar].workspace-toolbar{--tool-height:44px;gap:10px}
+ html body [data-workspace-toolbar].workspace-toolbar>label,html body [data-workspace-toolbar].workspace-toolbar>form>label{flex-basis:calc(50% - 10px)}
+ html body [data-workspace-toolbar].workspace-toolbar>label:has(input[type=search]),html body [data-workspace-toolbar].workspace-toolbar>form>label:has(input[type=search]){flex-basis:100%}
+ html body [data-workspace-toolbar].workspace-toolbar :is(input[type=search],select){font-size:16px}
+ html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters>button{min-height:44px}
+}
+@media(pointer:coarse){html body [data-workspace-toolbar].workspace-toolbar{--tool-height:44px}html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters>button{min-height:44px}}
+
+/* Domain toolbars share controls while keeping their meaningful groups together. */
+html body .timeline-options.workspace-toolbar[data-workspace-toolbar]{align-items:center;gap:10px}
+html body .timeline-options.workspace-toolbar[data-workspace-toolbar] .timeline-view-tools{margin-left:auto;gap:8px}
+html body .timeline-options.workspace-toolbar[data-workspace-toolbar] .timeline-view-tools label{display:flex;align-items:center;gap:6px;flex:none}
+html body .timeline-options.workspace-toolbar[data-workspace-toolbar] .timeline-view-tools select{width:auto;max-width:180px}
+html body .timeline-options.workspace-toolbar[data-workspace-toolbar] .timeline-filter-panel>summary{display:flex;align-items:center;min-height:var(--tool-height);padding:8px 12px;border:1px solid var(--tool-line);border-radius:var(--ui-radius-control);box-sizing:border-box}
+html body .timeline-options.workspace-toolbar[data-workspace-toolbar] .timeline-filter-panel[open]{flex-basis:100%;order:3}
+html body .timeline-options.workspace-toolbar[data-workspace-toolbar] .timeline-filter-panel .workspace-toolbar{border-bottom:0;margin:10px 0 0}
+html body .creation-toolbar.workspace-toolbar[data-workspace-toolbar]{align-items:center;flex-direction:row;justify-content:space-between}
+html body .creation-toolbar.workspace-toolbar[data-workspace-toolbar]>div:first-child{flex:1;min-width:200px}
+html body .creation-toolbar.workspace-toolbar[data-workspace-toolbar]>label{flex:0 1 180px}
+html body .creation-toolbar.workspace-toolbar[data-workspace-toolbar] h2{font-size:21px;margin:0 0 4px}
+html body .workspace-toolbar[data-workspace-toolbar] .perspective-rail{display:flex;flex:1 1 240px;align-items:center;gap:2px;padding:0;margin:0;border:0;min-height:0}
+html body .workspace-toolbar[data-workspace-toolbar] .perspective-rail legend{position:static;padding:0 0 5px;font:12px/1.5 var(--font-sans)}
+html body .workspace-toolbar[data-workspace-toolbar] .perspective-rail label{flex:1;min-width:0;padding:0;margin:0}
+html body .workspace-toolbar[data-workspace-toolbar] .perspective-rail label span{display:flex;align-items:center;justify-content:center;min-height:var(--tool-height);box-sizing:border-box;padding:8px;border:1px solid var(--tool-line);border-radius:var(--ui-radius-control);font:12px/1.5 var(--font-sans)}
+html body .workspace-toolbar[data-workspace-toolbar] .perspective-rail input:checked+span{color:var(--theme-fg);background:rgb(var(--theme-fg-rgb)/.07);border-color:rgb(var(--theme-fg-rgb)/.45)}
+@media(max-width:700px){html body .timeline-options.workspace-toolbar[data-workspace-toolbar] .timeline-view-tools{margin-left:0;flex:1 1 100%;flex-wrap:wrap}.workspace-toolbar .workspace-filter-actions{margin-left:auto}}
+
+@media(pointer:coarse){html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-segments>button{min-height:44px}}

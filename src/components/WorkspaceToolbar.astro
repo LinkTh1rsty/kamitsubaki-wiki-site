@@ -1,0 +1,9 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+import '../styles/workspaceToolbar.css';
+interface Props extends HTMLAttributes<'div'> {}
+const { class: className, ...attributes } = Astro.props;
+---
+<div {...attributes} class:list={['workspace-toolbar', className]} data-workspace-toolbar>
+  <slot />
+</div>

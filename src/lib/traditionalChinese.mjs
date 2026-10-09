@@ -1,14 +1,8 @@
-import { readFileSync } from 'node:fs';
-import { resolve } from 'node:path';
+import traditionalDefinition from '../../public/TraditionalChineseConvert.json' with {type:'json'};
+import uiOverrides from '../i18n/traditional-ui-overrides.json' with {type:'json'};
 import OpenCC from 'opencc-js';
 
 import { splitShortcodeArguments } from './shortcodeArguments.mjs';
-
-const traditionalDefinitionPath = resolve(process.cwd(), 'public', 'TraditionalChineseConvert.json');
-const uiOverridesPath = resolve(process.cwd(), 'src', 'i18n', 'traditional-ui-overrides.json');
-
-const traditionalDefinition = JSON.parse(readFileSync(traditionalDefinitionPath, 'utf8'));
-const uiOverrides = JSON.parse(readFileSync(uiOverridesPath, 'utf8'));
 
 const simplifiedNormalizer = OpenCC.Converter({ from: 't', to: 'cn' });
 
