@@ -50269,6 +50269,76 @@
       ]
     },
     {
+      "id": "asset-c6cd8e0d90b3a6e3985bfe1b2373db7109b2a0127efa3955fc16be739f8a8050",
+      "sourceUrl": "/images/artists/azsagawa.png",
+      "sha256": "c6cd8e0d90b3a6e3985bfe1b2373db7109b2a0127efa3955fc16be739f8a8050",
+      "references": [
+        {
+          "kind": "content",
+          "path": "src/content/artists/solo/azsagawa/en.md",
+          "locale": "en",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/solo/azsagawa/ja.md",
+          "locale": "ja",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/solo/azsagawa/zh-hk.md",
+          "locale": "zh-hk",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/solo/azsagawa/zh-tw.md",
+          "locale": "zh-tw",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/solo/azsagawa/zh.md",
+          "locale": "zh",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/people/solo/azsagawa/en.md",
+          "locale": "en",
+          "entityId": "azsagawa"
+        },
+        {
+          "kind": "content",
+          "path": "src/content/people/solo/azsagawa/ja.md",
+          "locale": "ja",
+          "entityId": "azsagawa"
+        },
+        {
+          "kind": "content",
+          "path": "src/content/people/solo/azsagawa/zh-hk.md",
+          "locale": "zh-hk",
+          "entityId": "azsagawa"
+        },
+        {
+          "kind": "content",
+          "path": "src/content/people/solo/azsagawa/zh-tw.md",
+          "locale": "zh-tw",
+          "entityId": "azsagawa"
+        },
+        {
+          "kind": "content",
+          "path": "src/content/people/solo/azsagawa/zh.md",
+          "locale": "zh",
+          "entityId": "azsagawa"
+        }
+      ],
+      "suggestedEntities": [
+        "azsagawa"
+      ]
+    },
+    {
       "id": "asset-c7672a49c7b0d19809f35571bfed44451bb264bd4be9a7a30b9b694d50cbf67d",
       "sourceUrl": "/images/songs/yunosuke/nehan.jpg",
       "sha256": "c7672a49c7b0d19809f35571bfed44451bb264bd4be9a7a30b9b694d50cbf67d",
@@ -57914,6 +57984,76 @@
       ],
       "suggestedEntities": [
         "empty-old-city"
+      ]
+    },
+    {
+      "id": "asset-e82a9efb9c642cc6fb693696a4c814dc6192e0f8554eff0ab3b0ee047e36b2db",
+      "sourceUrl": "/images/artists/onuma-parsley.jpg",
+      "sha256": "e82a9efb9c642cc6fb693696a4c814dc6192e0f8554eff0ab3b0ee047e36b2db",
+      "references": [
+        {
+          "kind": "content",
+          "path": "src/content/artists/creators/onuma-parsley/en.md",
+          "locale": "en",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/creators/onuma-parsley/ja.md",
+          "locale": "ja",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/creators/onuma-parsley/zh-hk.md",
+          "locale": "zh-hk",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/creators/onuma-parsley/zh-tw.md",
+          "locale": "zh-tw",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/artists/creators/onuma-parsley/zh.md",
+          "locale": "zh",
+          "entityId": null
+        },
+        {
+          "kind": "content",
+          "path": "src/content/people/creators/onuma-parsley/en.md",
+          "locale": "en",
+          "entityId": "onuma-parsley"
+        },
+        {
+          "kind": "content",
+          "path": "src/content/people/creators/onuma-parsley/ja.md",
+          "locale": "ja",
+          "entityId": "onuma-parsley"
+        },
+        {
+          "kind": "content",
+          "path": "src/content/people/creators/onuma-parsley/zh-hk.md",
+          "locale": "zh-hk",
+          "entityId": "onuma-parsley"
+        },
+        {
+          "kind": "content",
+          "path": "src/content/people/creators/onuma-parsley/zh-tw.md",
+          "locale": "zh-tw",
+          "entityId": "onuma-parsley"
+        },
+        {
+          "kind": "content",
+          "path": "src/content/people/creators/onuma-parsley/zh.md",
+          "locale": "zh",
+          "entityId": "onuma-parsley"
+        }
+      ],
+      "suggestedEntities": [
+        "onuma-parsley"
       ]
     },
     {

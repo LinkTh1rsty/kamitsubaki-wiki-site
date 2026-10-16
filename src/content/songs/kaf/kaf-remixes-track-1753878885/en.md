@@ -16,7 +16,51 @@ romanizedTitle: "ゲシュタルト(崩壊Remix)"
 performers:
   - entity: "kaf"
     role: "lead-vocal"
-credits: []
+sources:
+  - id: official-gestalt-remix
+    title: ゲシュタルト-崩壊Remix- · 花譜 Official Website
+    url: https://kaf.kamitsubaki.jp/discography/20240710/814/
+    type: official
+    publisher: KAMITSUBAKI STUDIO
+versions:
+  - entity: kaf-originals-track-1747225955
+    type: remix
+    sourceIds:
+      - official-gestalt-remix
+credits:
+  - role: lyricist
+    name: Kanata Okajima
+    sourceIds:
+      - official-gestalt-remix
+  - role: lyricist
+    name: 栗原暁
+    sourceIds:
+      - official-gestalt-remix
+  - role: composer
+    name: Kanata Okajima
+    sourceIds:
+      - official-gestalt-remix
+  - role: composer
+    name: 久保田真悟
+    sourceIds:
+      - official-gestalt-remix
+  - role: arranger
+    name: おとめ
+    sourceIds:
+      - official-gestalt-remix
+evidence:
+  - id: remix-relationship
+    field: versions
+    sourceIds:
+      - official-gestalt-remix
+    checkedAt: "2026-10-13"
+    status: reviewed
+  - id: remix-credits
+    field: credits
+    sourceIds:
+      - official-gestalt-remix
+    checkedAt: "2026-10-13"
+    status: reviewed
 ---
 
 ## Overview

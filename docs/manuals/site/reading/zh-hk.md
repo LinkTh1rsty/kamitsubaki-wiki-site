@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 2
 title: "查閲百科與閲讀詞條"
 summary: "使用分類、閲讀目錄、形態選擇和關聯檔案繼續查找資料。"
-generatedFromHash: "df907c60a07f88ba6c74"
+generatedFromHash: "92207d29bff26a9cdc6e"
 generated: true
 generatedFrom: "zh"
 ---

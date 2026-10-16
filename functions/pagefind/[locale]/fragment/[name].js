@@ -8,7 +8,7 @@ export async function onRequest({request,env,params}){
  if(!locales.has(locale)||!match||match[1] !== (locale.startsWith('zh')?'zh':locale))
   return new Response('Not found',{status:404,headers:noStore});
  try{
-  const url=new URL(`/pagefind-packs/${locale}/${match[2].slice(0,2)}.json`,request.url);
+  const url=new URL(`/pagefind-packs/${locale}/${match[2].slice(0,1)}.json`,request.url);
   const response=await env.ASSETS.fetch(new Request(url,{method:'GET'}));
   if(!response.ok)return new Response('Search fragment unavailable',{status:response.status===404?404:503,headers:noStore});
   const pack=await response.json();

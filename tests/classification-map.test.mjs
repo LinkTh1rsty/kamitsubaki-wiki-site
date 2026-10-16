@@ -6,9 +6,9 @@ const records=new Map();
 for(const collection of ['people','units','isotopes','songs','releases','projects','lives','organizations','lore','articles']) {
  const base=`src/content/${collection}`;
  if(!fs.existsSync(base))continue;
- for(const relative of fs.readdirSync(base,{recursive:true})) {
+ for(const relative of fs.readdirSync(base,{recursive:true}).map(r=>r.split('\\').join('/'))) {
   if(!relative.endsWith('/zh.md'))continue;
-  const data=parse(fs.readFileSync(`${base}/${relative}`,'utf8').split('---')[1]);records.set(data.id,{data});
+  const raw=fs.readFileSync(`${base}/${relative}`,'utf8');const m=raw.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);const data=parse(m[1]);records.set(data.id,{data});
  }
 }
 const registry={list:()=>[...records.values()],resolveEntity:id=>records.get(id)};

@@ -17,6 +17,7 @@ export function entityEdges(data) {
   for(const a of data.affiliations||[])if(typeof a==='object')add(a.organization,'affiliated-with',{...a});
   for(const t of data.tracks||[])add(t.songId,'includes-track',{disc:t.disc,number:t.number});
   for(const t of data.setlist||[])add(t.songId,'performed-track',{number:t.number});
+  for(const version of data.versions||[])add(version.entity,'version-of',{versionType:version.type,sourceIds:version.sourceIds});
   for(const id of data.headliners||[])add(id,'headlined-by');
   for(const id of data.guestPerformers||[])add(id,'guest-performer');
   for(const id of data.relatedEntities||[])add(id,'discusses');

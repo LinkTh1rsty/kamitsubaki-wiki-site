@@ -1,0 +1,25 @@
+---
+import {archiveFeatureCopy} from '../lib/archiveFeatureCopy.mjs';
+import {entityArchiveHub} from '../lib/entityArchiveHub.mjs';
+const {entity,locale,registry,timeline=[],hasGallery=false}=Astro.props,c=archiveFeatureCopy(locale);
+const artist=['person','virtual-avatar','unit','software-voice'].includes(entity.entityType);
+const metrics=registry?entityArchiveHub(registry,entity.id,locale,timeline):[];
+---
+<nav class="entity-archive-actions" data-entity-archive-actions data-entity-id={entity.id} data-locale={locale} aria-label={c.open}>
+ {artist && <a href={'/'+locale+'/explore/music/?artist='+entity.id}>{c.songs}</a>}
+ {entity.entityType==='work-track' && <><button type="button" data-observation-kind="heard">{c.heard}</button><a href={'/'+locale+'/explore/music/?entry='+entity.id}>{c.versions}</a><a href={'/'+locale+'/explore/radio/?q='+entity.id}>{c.queue}</a></>}
+ {entity.entityType==='work-release' && <a href={'/'+locale+'/explore/physical/?q='+entity.id}>{c.edition}</a>}
+ {entity.entityType==='live-event' && <><a href={'/'+locale+'/explore/observatory/?live='+entity.id}>{c.witness}</a><a href={'/'+locale+'/explore/atlas/?q='+encodeURIComponent(entity.venue?.name || entity.id)}>{c.real}</a></>}
+ <a href={'/'+locale+'/explore/evidence/?entity='+entity.id}>{c.claims}</a><a href={'/'+locale+'/explore/compare/?left='+entity.id}>{c.compare}</a>
+ <button type="button" data-observation-kind="read">{c.read}</button><span data-observation-status role="status"></span>
+ {artist && <button type="button" data-observation-kind="guarding">{locale==='en'?'Follow this record':locale==='ja'?'この項目を見守る':'守护此词条'}</button>}
+ <script is:inline type="application/json" data-observation-copy set:html={JSON.stringify(c).replaceAll('<','\\u003c')}/>
+</nav>
+{metrics.length>0 && <section class="entity-archive-hub" data-entity-archive-hub data-entity={entity.id} aria-label={c.archiveHub}>
+ <header><h2>{c.archiveHub}</h2><p>{c.hubNote}</p></header>
+ <div class="entity-archive-hub__metrics">{metrics.map(metric=><div><a href={metric.href}><span>{c[(metric.labelKey || metric.key) as keyof typeof c] || metric.key}</span><strong>{metric.count}</strong></a>{metric.records.length>0 && <p>{metric.records.slice(0,3).map((record,index)=><>{index>0 && ' · '}<a href={record.path}>{record.title}</a></>)}</p>}</div>)}{hasGallery && <div><a href={'/'+locale+'/gallery/?entity='+entity.id}><span>{c.publicImages}</span><strong data-hub-gallery-count>{c.unknown}</strong></a></div>}</div>
+</section>}
+<style>.entity-archive-hub{margin:22px 0 30px;padding:18px 0;border-bottom:1px solid var(--reader-line);color:var(--reader-muted)}.entity-archive-hub header h2{margin:0 0 8px;font:500 16px/1.5 var(--font-sans);color:var(--theme-fg)}.entity-archive-hub header p{margin:0 0 18px;font:12px/1.8 var(--font-sans)}.entity-archive-hub__metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:20px}.entity-archive-hub__metrics>div>a{display:flex;gap:16px;justify-content:space-between;align-items:baseline;text-decoration:none;font:12px/1.7 var(--font-sans)}.entity-archive-hub__metrics strong{font:400 24px/1.4 var(--font-mono);color:var(--theme-fg)}.entity-archive-hub__metrics p{margin:8px 0 0;font:11px/1.8 var(--font-sans);overflow-wrap:anywhere}.entity-archive-hub a:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:3px}</style>
+<style>.entity-archive-actions{display:flex;gap:8px 16px;flex-wrap:wrap;align-items:center;padding:16px 0;border-block:1px solid var(--reader-line);margin:16px 0;font:12px/1.6 var(--font-sans);color:var(--reader-muted)}.entity-archive-actions a{text-underline-offset:4px}.entity-archive-actions button{min-height:40px;padding:8px 10px;border:1px solid var(--reader-line);border-radius:3px;background:transparent;color:var(--theme-fg);cursor:pointer}.entity-archive-actions :is(a,button):focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:3px}</style>
+<script>import '../scripts/archiveRecorder.js';</script>
+<style>.entity-archive-actions a{display:inline-flex;align-items:center;min-height:var(--ui-hit-target,44px);overflow-wrap:anywhere}.entity-archive-actions button{min-height:var(--ui-hit-target,44px)}.entity-archive-actions{font-size:13px}.entity-archive-hub__metrics>div>a{min-height:var(--ui-hit-target,44px)}</style>

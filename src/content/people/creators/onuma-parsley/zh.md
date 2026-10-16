@@ -1,4 +1,5 @@
 ---
+
 schemaVersion: 2
 id: "onuma-parsley"
 entityType: "person"
@@ -16,6 +17,8 @@ affiliations:
     current: true
   - organization: "kamitsubaki-studio"
     current: true
+presentation:
+  image: "/images/artists/onuma-parsley.jpg"
 contentStatus: published
 locale: "zh"
 summary: "KAMITSUBAKI STUDIO 创立元老级词曲作家与唱作人，所属 ANARCHIC RECORD，以极具中毒性的电子切片、City Pop 与前卫流行风格著称。"

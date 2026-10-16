@@ -5,12 +5,13 @@ import {getEntityRegistry} from '../src/lib/entityRegistry.mjs';
 const registry=await getEntityRegistry();
 const backend=resolve('../kamitsubaki-wiki-site-backend/src/gallery');
 const frontendTarget=resolve('src/data/gallery-entities.json');
-const backendCharacters=await readFile(resolve(backend,'characters.json'),'utf8').catch(error=>{
+const frontendOnly=process.argv.includes('--frontend-only');
+const backendCharacters=frontendOnly?null:await readFile(resolve(backend,'characters.json'),'utf8').catch(error=>{
  if(error.code==='ENOENT')return null;
  throw error;
 });
 const check=process.argv.includes('--check');
-if(!backendCharacters&&!check)throw Error('同步图库词条目录需要后端仓库');
+if(!backendCharacters&&!check&&!frontendOnly)throw Error('同步图库词条目录需要后端仓库；仅更新本站目录时使用 --frontend-only');
 const previous=JSON.parse(backendCharacters??await readFile(frontendTarget,'utf8'));
 const retained=new Set(previous.map(row=>row.id));
 const eligible=new Set(['person','virtual-avatar','software-voice','unit']);
@@ -41,6 +42,6 @@ if(backendCharacters){
  targets.set(resolve(backend,'entities.json'),JSON.stringify(backendEntities,null,2)+'\n');
 }
 if(check){
- for(const [target,expected] of targets)if(await readFile(target,'utf8').catch(()=>null)!==expected)throw Error(`图库词条目录需要同步：${target}`);
+ for(const [target,expected] of targets)if((await readFile(target,'utf8').catch(()=>null)||'').replace(/\r\n/g,'\n')!==expected)throw Error(`图库词条目录需要同步：${target}`);
 }else for(const [target,expected] of targets)await writeFile(target,expected);
 console.log(`图库词条目录：${entities.length} 个对象`);

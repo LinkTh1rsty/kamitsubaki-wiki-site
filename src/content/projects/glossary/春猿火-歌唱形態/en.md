@@ -1,0 +1,16 @@
+---
+locale: "en"
+translationKey: "glossary-春猿火-歌唱形態"
+kind: "GLOSSARY"
+title: "春猿火 歌唱形態"
+description: "春猿火 歌唱形態 - KAMITSUBAKI terminology"
+order: 42
+---
+
+## Overview
+
+春猿火 歌唱形態 is a key term in the KAMITSUBAKI STUDIO ecosystem.
+
+### Japanese Definition
+
+バーチャルシンガー春猿火の歌唱形態。これまで、下記の衣装が発表されている。 ・纏 其ノ壱 -丹頂-（たんちょう） ・纏 其ノ弐 -浅黄-（あさぎ） ・纏 其ノ特 -九紋龍-（くもんりゅう）※2021年「シャーマニズム」にてお披露目 ・纏 其ノ参 -落葉-（おちば）※2022年お披露目 ・纏 其ノ肆 -昭和三色-（しょうわさんしょく） ※2023年お披露目 ・纏 其ノ伍 -銀兜-（ぎんかぶと） ※2024年お披露目

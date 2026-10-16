@@ -10,7 +10,7 @@ const text=resolveLocaleCopy({
  ja:{label:'支援プラン',cta:'愛発電で支援する',ctaNote:'決済は愛発電で完了。いつでも変更・解約できます。',other:'WeChat / Alipay のQR',uses:['サーバー・ドメイン・CDN','画像ストレージと AI API','資料整理と継続的な保守'],usesLabel:'支援の使いみち',recommended:'おすすめ',groups:'観測者グループ',custom:'金額を自由に',customNote:'任意の金額で',long:'長期サポート',wall:'謝辞一覧を見る',free:'Wiki は常に無料で公開。支援で解放される内容はありません。'},
  en:{label:'Support plans',cta:'Support on Afdian',ctaNote:'Pay on Afdian; change or cancel any time.',other:'WeChat / Alipay QR',uses:['Servers, domain and CDN','Gallery storage and AI API','Archive work and maintenance'],usesLabel:'Where support goes',recommended:'Popular',groups:'Observer groups',custom:'Custom amount',customNote:'Any amount you choose',long:'Long-term support',wall:'See acknowledgements',free:'The Wiki stays free for everyone; support unlocks nothing.'}
 },locale);
-const tier=id=>tiers.find(item=>item.id===id)!;
+const tier=(id:string)=>tiers.find(item=>item.id===id)!;
 const cards=[
  {key:'observer',tier:tier('observer'),note:c.base[0]},
  {key:'group',tier:tier('koko'),note:c.group[0],featured:true},
@@ -22,7 +22,7 @@ const long=tier('long-term');
  <div class="support-hero__lead">
   <p class="support-eyebrow">{text.usesLabel}</p>
   <h2 id="support-hero-title">{c.quickNote}</h2>
-  <ul class="support-hero__uses">{text.uses.map(item=><li>{item}</li>)}</ul>
+  <ul class="support-hero__uses">{text.uses.map((item:string)=><li>{item}</li>)}</ul>
   <div class="support-hero__actions">
    <WorkspaceButton tone="primary" class="support-hero__cta" href={supportCatalog.planUrl} target="_blank" rel="noopener noreferrer" data-support-primary>{text.cta}<Icon name="arrow-up-right"/></WorkspaceButton>
    <button type="button" class="support-hero__alt" data-support-open data-support-preferred-channel="wechat">{text.other}</button>

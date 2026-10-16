@@ -5,7 +5,7 @@ locale: "zh-tw"
 order: 2
 title: "分類、後設資料與內容維護"
 summary: "使用分類地圖、schema 和結構化關聯維護百科及探索資料。"
-generatedFromHash: "32917223c47e6d798aac"
+generatedFromHash: "3b80731c555c79197e70"
 generated: true
 generatedFrom: "zh"
 ---

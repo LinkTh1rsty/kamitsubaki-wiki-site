@@ -1,9 +1,10 @@
 import {resolveLocaleCopy} from './i18n.mjs';
+import {concertEventTypes} from './entityContract.mjs';
 
 const navigationCopy = {
-  zh: {overview:'概览',music:'音乐',albums:'专辑',live:'演出',chronicle:'编年史',gallery:'图库',relations:'关系',listen:'试听',lyrics:'歌词',tracks:'曲目',credits:'制作名单'},
-  ja: {overview:'概要',music:'楽曲',albums:'アルバム',live:'ライブ',chronicle:'年代記',gallery:'ギャラリー',relations:'関連',listen:'再生',lyrics:'歌詞',tracks:'収録曲',credits:'クレジット'},
-  en: {overview:'Overview',music:'Music',albums:'Albums',live:'Live',chronicle:'Chronicle',gallery:'Gallery',relations:'Relations',listen:'Listen',lyrics:'Lyrics',tracks:'Track list',credits:'Credits'},
+  zh: {overview:'概览',music:'音乐',albums:'专辑',live:'演出',chronicle:'编年史',gallery:'图库',relations:'关系',listen:'试听',lyrics:'歌词',tracks:'曲目',credits:'制作名单',setlist:'演出曲目',performances:'演出记录'},
+  ja: {overview:'概要',music:'楽曲',albums:'アルバム',live:'ライブ',chronicle:'年代記',gallery:'ギャラリー',relations:'関連',listen:'再生',lyrics:'歌詞',tracks:'収録曲',credits:'クレジット',setlist:'セットリスト',performances:'歌唱履歴'},
+  en: {overview:'Overview',music:'Music',albums:'Albums',live:'Live',chronicle:'Chronicle',gallery:'Gallery',relations:'Relations',listen:'Listen',lyrics:'Lyrics',tracks:'Track list',credits:'Credits',setlist:'Setlist',performances:'Performances'},
 };
 const mediaClasses = new Set(['wiki-media-switcher','wiki-embed']);
 const mediaTags = new Set(['div','section','figure']);
@@ -85,11 +86,11 @@ function groupHasRecords(value) {
 }
 
 /**
- * @param {{kind:string|null,data?:{id?:string,tracks?:unknown[],credits?:unknown[]},headings?:unknown[],html?:string,groups?:Partial<Record<'music'|'albums'|'live'|'other',unknown[]|number>>,locale?:string,hasGallery?:boolean,footprintCount?:number}} options
+ * @param {{kind:string|null,data?:{id?:string,tracks?:unknown[],credits?:unknown[],setlist?:unknown[],eventType?:string},headings?:unknown[],html?:string,groups?:Partial<Record<'music'|'albums'|'live'|'other',unknown[]|number>>,locale?:string,hasGallery?:boolean,footprintCount?:number,performanceCount?:number}} options
  * @returns {{key:string,label:string,href:string}[]}
  */
-export function buildEntityReaderNavigation({kind,data = {},html = '',groups = {},locale = 'zh',hasGallery = false,footprintCount = 0}) {
-  if (!['artist','music'].includes(kind)) return [];
+export function buildEntityReaderNavigation({kind,data = {},html = '',groups = {},locale = 'zh',hasGallery = false,footprintCount = 0,performanceCount = 0}) {
+  if (!['artist','music','live'].includes(kind)) return [];
   const copy = resolveLocaleCopy(navigationCopy,locale);
   const items = [{key:'overview',label:copy.overview,href:'#entry-overview'}];
   const add = (key,href = `#entry-${key}`) => items.push({key,label:copy[key],href});
@@ -99,12 +100,15 @@ export function buildEntityReaderNavigation({kind,data = {},html = '',groups = {
     if (groupHasRecords(groups.live)) add('live');
     if (data.id && footprintCount > 0) add('chronicle',`/${locale}/chronicle/?entity=${encodeURIComponent(data.id)}`);
     if (data.id && hasGallery) add('gallery',`/${locale}/gallery/?entity=${encodeURIComponent(data.id)}`);
+  } else if (kind === 'live') {
+    if (data.setlist?.length || concertEventTypes.includes(data.eventType || '')) add('setlist');
   } else {
     const tags = htmlTags(String(html || ''));
     if (firstMedia(tags)) add('listen');
     if (firstLyrics(tags)) add('lyrics');
     if (data.tracks?.length) add('tracks');
     if (data.credits?.length) add('credits');
+    if (performanceCount > 0) add('performances');
   }
   if (groupHasRecords(groups.other)) add('relations');
   return items;

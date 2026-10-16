@@ -5,7 +5,7 @@ locale: "zh-tw"
 order: 1
 title: "前臺倉庫與整合邊界"
 summary: "瞭解公開前臺、百科源稿和三類投稿在介面上的邊界。"
-generatedFromHash: "ba5d9997959b783d80e2"
+generatedFromHash: "33be49a96a4ea786a2db"
 generated: true
 generatedFrom: "zh"
 ---

@@ -76,7 +76,7 @@
     "type": "person",
     "name": "梓川",
     "url": "/zh/database/artists/solo/azsagawa/",
-    "image": null,
+    "image": "/images/artists/azsagawa.png",
     "labels": {
       "zh": "梓川",
       "ja": "梓川",
@@ -508,7 +508,7 @@
     "type": "person",
     "name": "大沼パセリ",
     "url": "/zh/database/creators/onuma-parsley/",
-    "image": null,
+    "image": "/images/artists/onuma-parsley.jpg",
     "labels": {
       "zh": "大沼パセリ",
       "ja": "大沼パセリ",

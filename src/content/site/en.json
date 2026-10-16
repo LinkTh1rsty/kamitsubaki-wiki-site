@@ -217,6 +217,8 @@
     "selectDateLabel": "Selected date",
     "emptyDay": "No recorded events on this date.",
     "eventCountLabel": "events",
+    "artistFilterLabel": "Filter by artist",
+    "allArtistsLabel": "All artists",
     "backHomeLabel": "Back to home",
     "weekdays": [
       "Sun",

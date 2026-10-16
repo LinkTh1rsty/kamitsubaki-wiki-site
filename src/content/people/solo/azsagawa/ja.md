@@ -1,4 +1,5 @@
 ---
+
 schemaVersion: 2
 id: azsagawa
 entityType: person
@@ -9,6 +10,8 @@ roles:
   - singer-songwriter
 lifecycle:
   activity: unknown
+presentation:
+  image: "/images/artists/azsagawa.png"
 contentStatus: published
 locale: ja
 summary: 深脊界発のバーチャル×リアルハイブリッドシンガー。深みのある低音ボイスを武器にTOYS FACTORYよりメジャーデビュー。

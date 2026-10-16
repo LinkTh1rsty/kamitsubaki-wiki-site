@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 4
 title: "前台開發與驗收"
 summary: "按修改範圍檢查前台，並區分本地效果與真實投稿流程。"
-generatedFromHash: "55b8c6fccb8537931f97"
+generatedFromHash: "78bb87c01d0611b66fd1"
 generated: true
 generatedFrom: "zh"
 ---

@@ -1,0 +1,16 @@
+---
+locale: "en"
+translationKey: "glossary-御伽噺"
+kind: "GLOSSARY"
+title: "御伽噺"
+description: "御伽噺 - KAMITSUBAKI terminology"
+order: 40
+---
+
+## Overview
+
+御伽噺 is a key term in the KAMITSUBAKI STUDIO ecosystem.
+
+### Japanese Definition
+
+花譜が語る未だ謎多き物語。 2019年8月に開催された「不可解」の中で初披露された。 花譜のファンクラブ「未確認少女観測部」では、御伽噺のもう一つのストーリー「御伽噺/outside」も展開されていた。

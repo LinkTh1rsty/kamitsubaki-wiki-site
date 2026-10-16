@@ -9,7 +9,7 @@ import { convertChineseContentValue } from './traditionalChinese.mjs';
 const fallbackTargetLocales = Object.freeze(['zh-tw', 'zh-hk', 'ja', 'en']);
 
 function splitEntryId(entryId) {
-  const parts = entryId.split('/');
+  const parts = entryId.normalize('NFC').split('/');
   const locale = parts.pop();
   return { idPath: parts.join('/'), locale };
 }

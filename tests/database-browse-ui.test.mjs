@@ -35,7 +35,7 @@ function options(values) {
 }
 
 function browser(search='') {
-  const dom=new JSDOM(`<main data-database-catalog data-locale="zh" data-view="grid" data-filters-open="false">
+  const dom=new JSDOM(`<div class="site-nav__language-switcher"><a href="/en/database/" hreflang="en">EN</a></div><main data-database-catalog data-locale="zh" data-view="grid" data-filters-open="false">
     <nav><a href="/zh/database/" data-database-collection="">All</a><a href="?collection=people" data-database-collection="people">People</a><a href="?collection=music" data-database-collection="music">Music</a></nav>
     <form data-database-form><input name="q" type="search">
       <button type="button" data-database-filter-toggle aria-expanded="false" aria-controls="database-filters"><span>Filters</span></button>
@@ -46,9 +46,10 @@ function browser(search='') {
       <select name="genre">${options(facets.genres)}</select>
       <select name="project">${options(facets.projects.map(value=>value.id))}</select>
       </div>
+      <select name="sort"><option value="catalog">Catalogue</option><option value="title">Name</option><option value="newest">Newest</option><option value="oldest">Oldest</option></select>
       <p data-database-count></p><button type="reset" data-database-clear hidden>Clear</button>
       <button type="button" data-database-view="grid">Grid</button><button type="button" data-database-view="list">List</button>
-    </form><ul data-database-records><li>Server-rendered first record</li></ul>
+    </form><div data-database-active-filters hidden></div><ul data-database-records><li>Server-rendered first record</li></ul>
     <div data-database-empty hidden><button type="button" data-database-empty-clear>Clear</button></div>
     <button type="button" data-database-more>More</button>
     <details data-database-classification><summary>Classification</summary><button data-root-choice="people">People</button><button data-choose="city-project">City</button></details>
@@ -62,7 +63,7 @@ function browser(search='') {
   w.requestAnimationFrame=callback=>{callback();return 1;};
   w.eval(bundled.outputFiles[0].text);
   const select=name=>document.querySelector(`[name="${name}"]`);
-  const input=(name,value)=>{select(name).value=value;select(name).dispatchEvent(new w.Event('input',{bubbles:true}));};
+  const input=(name,value)=>{select(name).value=value;select(name).dispatchEvent(new w.Event(select(name).tagName==='SELECT'?'change':'input',{bubbles:true}));};
   const rows=()=>[...document.querySelectorAll('[data-database-records] [data-record-id]')];
   return {dom,w,document,select,input,rows,scrolled};
 }
@@ -311,4 +312,46 @@ test('only a valid legacy section opens and scrolls classification, while a hash
       assert.equal(tree.open,open);assert.deepEqual(b.scrolled,scroll?[tree]:[]);
     } finally {b.w.close();}
   }
+});
+
+test('applied filters retain language links and each chip removes only its own condition',()=>{
+  const b=browser('?q=Witch&artist=kaf&year=2023&collection=music&sort=newest&view=list&from=home');
+  try {
+    const language=new URL(b.document.querySelector('a[hreflang=en]').href);
+    assert.equal(language.searchParams.get('artist'),'kaf');assert.equal(language.searchParams.get('sort'),'newest');
+    assert.equal(language.searchParams.get('q'),'Witch');assert.equal(language.pathname,'/en/database/');
+    const chips=b.document.querySelector('[data-database-active-filters]');
+    assert.equal(chips.hidden,false);assert.equal(chips.querySelectorAll('button').length,4);
+    chips.querySelector('[data-database-remove-filter=year]').click();
+    const params=new URLSearchParams(b.w.location.search);
+    assert.equal(params.has('year'),false);assert.equal(params.get('artist'),'kaf');assert.equal(params.get('q'),'Witch');
+    assert.equal(params.get('sort'),'newest');assert.equal(params.get('from'),'home');
+    b.document.querySelector('[data-database-clear]').click();
+    assert.equal(new URLSearchParams(b.w.location.search).get('sort'),'newest');assert.equal(chips.hidden,true);
+  } finally {b.w.close();}
+});
+
+test('discrete query changes form real history entries and browser Back restores results and sorting',async()=>{
+  const b=browser('?from=home');
+  try {
+    b.input('sort','newest');
+    b.document.querySelector('[data-database-collection=people]').click();
+    assert.deepEqual(b.rows().map(row=>row.dataset.recordId),['kaf']);
+    const restored=new Promise(resolve=>b.w.addEventListener('popstate',resolve,{once:true}));
+    b.w.history.back();await restored;
+    assert.equal(b.select('sort').value,'newest');assert.equal(b.rows().length,24);
+    assert.equal(new URLSearchParams(b.w.location.search).has('collection'),false);
+    assert.equal(new URLSearchParams(b.w.location.search).get('from'),'home');
+  } finally {b.w.close();}
+});
+
+test('IME drafts leave applied records alone until composition commits',()=>{
+  const b=browser();
+  try {
+    b.select('q').value='Witch';
+    b.select('q').dispatchEvent(new b.w.InputEvent('input',{bubbles:true,isComposing:true}));
+    assert.equal(b.rows().length,24);assert.equal(b.w.location.search,'');
+    b.select('q').dispatchEvent(new b.w.CompositionEvent('compositionend',{bubbles:true}));
+    assert.deepEqual(b.rows().map(row=>row.dataset.recordId),['track-0']);
+  } finally {b.w.close();}
 });

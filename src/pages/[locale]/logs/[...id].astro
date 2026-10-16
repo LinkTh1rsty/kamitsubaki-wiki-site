@@ -37,7 +37,8 @@ const metadata = buildLogMetadata({
   locale: localeCode,
   id,
 });
-const sourceHref = `/${localeCode}/contribute/edit?target=${encodeURIComponent(`src/content/logs/${id}/${getEditableLocale(localeCode)}.md`)}`;
+const sourceId = entry.id.split('/').slice(0,-1).join('/');
+const sourceHref = `/${localeCode}/contribute/edit?target=${encodeURIComponent(`src/content/logs/${sourceId}/${getEditableLocale(localeCode)}.md`)}`;
 const hasArticleBody = Boolean(articleBody);
 
 const labels = resolveLocaleCopy({

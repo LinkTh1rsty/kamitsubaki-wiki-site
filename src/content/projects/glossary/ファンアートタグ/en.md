@@ -1,0 +1,16 @@
+---
+locale: "en"
+translationKey: "glossary-ファンアートタグ"
+kind: "GLOSSARY"
+title: "ファンアートタグ"
+description: "ファンアートタグ - KAMITSUBAKI terminology"
+order: 30
+---
+
+## Overview
+
+ファンアートタグ is a key term in the KAMITSUBAKI STUDIO ecosystem.
+
+### Japanese Definition
+
+KAMITSUBAKI所属アーティストらのファンアートを投稿する際のハッシュタグ。 所属各メンバーについては、それぞれ下記のように表記する。 ・花譜：花譜美術部 ・理芽：理芽美術部 ・春猿火：春猿火美術部 ・ヰ世界情緒：ヰ世界情緒美術部 ・幸祜：幸祜美術部 ・VALIS：VALIS\_ART ・存流：存流あーと ・明透：明透あーと ・跳亜：跳亜画 ・雨宿り：アメ美術展 ほか（随時追加）。 また、切り抜き動画用のタグも存在する。 ・VALIS：きりばりす ・存流：あるカット ・明透：あすカット

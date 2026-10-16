@@ -7,6 +7,17 @@ const media = '<section class="wiki-media-switcher"><div class="wiki-media-switc
 const lyrics = '<div class="my-lyric-box"><div class="lyric-line"><ruby>歌<rt>うた</rt></ruby></div></div>';
 const music = extra => buildEntityReaderNavigation({kind:'music',locale:'en',...extra});
 
+test('live navigation links to the setlist section for concerts and populated event records only',()=>{
+  assert.deepEqual(buildEntityReaderNavigation({kind:'live',locale:'en',data:{eventType:'oneman-live'}}).map(link=>link.href),['#entry-overview','#entry-setlist']);
+  assert.deepEqual(buildEntityReaderNavigation({kind:'live',locale:'en',data:{eventType:'exhibition'}}).map(link=>link.href),['#entry-overview']);
+  assert.ok(buildEntityReaderNavigation({kind:'live',locale:'ja',data:{eventType:'event',setlist:[{}]}}).some(link=>link.label==='セットリスト'));
+});
+
+test('song navigation exposes recorded performance history only when there are actual linked records',()=>{
+  assert.ok(music({performanceCount:2}).some(link=>link.href==='#entry-performances'));
+  assert.deepEqual(music({performanceCount:0}).map(link=>link.href),['#entry-overview']);
+});
+
 test('missing sections leave a single overview link, without placeholder tabs',() => {
   assert.deepEqual(music({data:{credits:[],tracks:[]},html:'<p>Text only</p>'}),[{key:'overview',label:'Overview',href:'#entry-overview'}]);
   assert.deepEqual(buildEntityReaderNavigation({kind:'artist',locale:'en',data:{id:'kaf'},groups:{music:[],albums:[],live:[],other:[]}}),[{key:'overview',label:'Overview',href:'#entry-overview'}]);

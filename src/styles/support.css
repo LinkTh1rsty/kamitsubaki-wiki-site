@@ -7,6 +7,10 @@
 .support-shell [id] { scroll-margin-top: 108px; }
 .support-shell :is(a, button, summary, [tabindex]):focus-visible { outline: 2px solid var(--theme-accent-color); outline-offset: 5px; }
 .support-shell [hidden] { display: none; }
+.support-overview { padding: 18px 0 25px; border-bottom: 1px solid var(--ui-line); }
+.support-overview-actions { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; margin-bottom: 22px; }
+.support-overview [data-support-overview] > p { font: 12px/1.8 var(--font-mono); color: var(--support-muted); }
+.support-overview .support-totals { margin: 14px 0; }
 .support-eyebrow { font: 10px/1.8 var(--font-mono); letter-spacing: .16em; color: var(--theme-accent-color); }
 .support-button { display: inline-flex; align-items: center; justify-content: center; gap: 28px; min-height: 44px; padding: 11px 18px; border: 1px solid var(--ui-line); border-radius: var(--ui-radius-control); font-size: 13px; transition: background var(--ui-duration), border-color var(--ui-duration), color var(--ui-duration); }
 .support-button:hover { background: var(--ui-hover); border-color: var(--theme-accent-color); }

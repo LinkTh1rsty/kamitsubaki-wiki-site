@@ -4,10 +4,13 @@ import {
   LIVE_EVENTS_POLL_INTERVAL,
   buildEventsUrl,
   formatDisplayDate,
+  formatEventArtists,
   formatEventTime,
   getEventDateKey,
   getJapanDateKey,
+  normalizeArtistsRegistry,
   normalizeEventsPayload,
+  resolveArtistLabel,
   resolveEventStatus,
 } from '../lib/liveEventsClient.js';
 
@@ -44,6 +47,8 @@ function mountCalendar(calendar) {
   let month = initial[1] - 1;
   let selectedDate = today;
   let events = [];
+  let artistsRegistry = new Map();
+  let artistFilter = '';
   let timer;
   let request;
   let disposed = false;
@@ -71,8 +76,53 @@ function mountCalendar(calendar) {
 
   const monthRange = () => calendarMonthRange(monthKey(year,month));
 
+  // 当前筛选条件下可见的活动；artistFilter 为空时返回全部
+  const visibleEvents = () => (artistFilter
+    ? events.filter((event) => Array.isArray(event.artistIds) && event.artistIds.includes(artistFilter))
+    : events);
+
+  const filterContainer = calendar.querySelector('[data-events-calendar-filter]');
+  const filterSelect = calendar.querySelector('[data-events-calendar-artist]');
+
+  // 依据当前月份活动中实际出现的艺人重建筛选选项；保留仍存在的选中项
+  const renderArtistFilter = () => {
+    if (!(filterContainer instanceof HTMLElement) || !(filterSelect instanceof HTMLSelectElement)) return;
+    const presentIds = [];
+    events.forEach((event) => {
+      (event.artistIds || []).forEach((id) => {
+        if (artistsRegistry.has(id) && !presentIds.includes(id)) presentIds.push(id);
+      });
+    });
+
+    if (!presentIds.length) {
+      filterContainer.hidden = true;
+      artistFilter = '';
+      return;
+    }
+
+    const options = presentIds
+      .map((id) => ({ id, label: resolveArtistLabel(artistsRegistry.get(id), languageTag, id) }))
+      .sort((a, b) => a.label.localeCompare(b.label, languageTag));
+
+    filterSelect.replaceChildren();
+    const allOption = document.createElement('option');
+    allOption.value = '';
+    allOption.textContent = copy.allArtistsLabel;
+    filterSelect.append(allOption);
+    options.forEach(({ id, label }) => {
+      const option = document.createElement('option');
+      option.value = id;
+      option.textContent = label;
+      filterSelect.append(option);
+    });
+
+    if (artistFilter && !presentIds.includes(artistFilter)) artistFilter = '';
+    filterSelect.value = artistFilter;
+    filterContainer.hidden = false;
+  };
+
   const renderAgenda = () => {
-    const selectedEvents = events.filter((event) => getEventDateKey(event) === selectedDate);
+    const selectedEvents = visibleEvents().filter((event) => getEventDateKey(event) === selectedDate);
     const selectedDateObject = new Date(`${selectedDate}T12:00:00+09:00`);
     if (selectedDateOutput instanceof HTMLElement) {
       selectedDateOutput.textContent = formatDisplayDate(selectedDateObject, languageTag, { weekday: 'long' });
@@ -109,7 +159,7 @@ function mountCalendar(calendar) {
       const title = document.createElement('h4');
       title.textContent = event.title;
       body.append(title);
-      const metadata = [event.artist, event.location].filter(Boolean);
+      const metadata = [formatEventArtists(event, artistsRegistry, languageTag), event.location].filter(Boolean);
       if (metadata.length) {
         const detail = document.createElement('p');
         detail.textContent = metadata.join(' · ');
@@ -130,7 +180,7 @@ function mountCalendar(calendar) {
 
   const renderGrid = () => {
     monthOutput.textContent = new Intl.DateTimeFormat(languageTag, {year:'numeric',month:'long',timeZone:'UTC'}).format(new Date(Date.UTC(year,month,1)));
-    renderCalendarMonth({grid,month:monthKey(year,month),selected:selectedDate,today,locale:languageTag,entries:events.map(event=>({id:event.id,startDate:getEventDateKey(event),endDate:getEventDateKey(event)})),onSelect(day){selectedDate=day;renderGrid();}});
+    renderCalendarMonth({grid,month:monthKey(year,month),selected:selectedDate,today,locale:languageTag,entries:visibleEvents().map(event=>({id:event.id,startDate:getEventDateKey(event),endDate:getEventDateKey(event)})),onSelect(day){selectedDate=day;renderGrid();}});
     renderAgenda();
   };
 
@@ -161,8 +211,11 @@ function mountCalendar(calendar) {
         signal: activeRequest.signal,
       });
       if (!response.ok) throw new Error(`Events API returned ${response.status}`);
-      events = normalizeEventsPayload(await response.json());
+      const payload = await response.json();
+      events = normalizeEventsPayload(payload);
+      artistsRegistry = normalizeArtistsRegistry(payload);
       status.hidden = true;
+      renderArtistFilter();
       renderGrid();
       if (updated instanceof HTMLElement) {
         updated.textContent = `${copy.updatedLabel} ${new Intl.DateTimeFormat(languageTag, {
@@ -172,8 +225,10 @@ function mountCalendar(calendar) {
     } catch (error) {
       if (error?.name !== 'AbortError') {
         events = [];
+        artistsRegistry = new Map();
         status.textContent = copy.fallback;
         status.dataset.state = 'error';
+        renderArtistFilter();
         renderGrid();
       }
     } finally {
@@ -201,6 +256,10 @@ function mountCalendar(calendar) {
 
   calendar.querySelector('[data-events-calendar-previous]')?.addEventListener('click', () => changeMonth(-1));
   calendar.querySelector('[data-events-calendar-next]')?.addEventListener('click', () => changeMonth(1));
+  filterSelect?.addEventListener('change', () => {
+    artistFilter = filterSelect.value;
+    renderGrid();
+  });
   calendar.querySelector('[data-events-calendar-today]')?.addEventListener('click', () => {
     const parts = today.split('-').map(Number);
     year = parts[0];

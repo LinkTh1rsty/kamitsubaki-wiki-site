@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 3
 title: "前台頁面與共享組件"
 summary: "用統一頁面骨架、Reader 和控件規範擴展網站而不破壞既有體驗。"
-generatedFromHash: "c6383dc3fd6891a31ff1"
+generatedFromHash: "9005006fec28b9ec4d0e"
 generated: true
 generatedFrom: "zh"
 ---

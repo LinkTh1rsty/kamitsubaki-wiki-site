@@ -217,6 +217,8 @@
     "selectDateLabel": "選択した日付",
     "emptyDay": "この日に登録されているイベントはありません。",
     "eventCountLabel": "件",
+    "artistFilterLabel": "アーティストで絞り込む",
+    "allArtistsLabel": "すべてのアーティスト",
     "backHomeLabel": "ホームに戻る",
     "weekdays": [
       "日",

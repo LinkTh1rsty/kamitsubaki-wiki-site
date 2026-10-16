@@ -13,6 +13,12 @@ For a correction, open the entry in the intended content language and use its re
 
 “Improve this entry,” the stub notice, and the missing-detail list in the reader open that same entry in the editor; they are not separate submission routes. You can also start a new record from the [encyclopedia directory](/en/database/). Clear filters and check aliases before creating one, since an empty search result does not prove the record is absent.
 
+## Find missing details
+
+The [contribution board](/en/contribute/missing/) lists entries with missing structured fields. Search names or aliases, combine entry-type and field filters, or start with a Sources, Credits or Image chip. It displays 24 entries at a time and preserves filters in the URL. **Add details** opens the actual source file. For a translation gap, check the displayed source language before using the multilingual translation workflow.
+
+The board and reader share metadata coverage rules. Placeholder artwork does not count as an image; concerts check setlists, while exhibitions do not require them. Coverage measures filled fields; facts and sources still need verification. The public board updates after review, merge and site publication.
+
 ## Write content and properties
 
 Keep the [complete content and style guide](/en/docs/contribute/format/) open while writing. It preserves the detailed rules for structure, names, prose, sources, dates, media, privacy, multilingual content, recommended entry outlines, and the final checklist. Use the [complete syntax and properties guide](/en/docs/contribute/syntax/) for Markdown, frontmatter, media syntax, and field examples. These are full references, not abbreviated by this chapter.

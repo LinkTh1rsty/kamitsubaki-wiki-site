@@ -1,0 +1,52 @@
+[data-graph-app]{--b-muted:var(--workspace-muted);--b-accent:var(--theme-accent-color);--b-line:var(--workspace-line);--b-soft:var(--workspace-surface);
+ --graph-color-0:#37797b;--graph-color-1:#885ca2;--graph-color-2:#b36339;--graph-color-3:#9e476f;--graph-color-4:#617eae;--graph-color-5:#90823b;--graph-color-6:#397c55;--graph-color-7:#866249;--graph-color-8:#af554e;--graph-color-9:#747199;--graph-color-10:#566d76;--graph-color-11:#698456}
+html[data-theme=dark] [data-graph-app],html.dark [data-graph-app]{--graph-color-0:#8bcece;--graph-color-1:#c8a0e2;--graph-color-2:#e7ac88;--graph-color-3:#e7a0c2;--graph-color-4:#9ebfee;--graph-color-5:#e2cf7d;--graph-color-6:#97d1ad;--graph-color-7:#d0b69f;--graph-color-8:#efa5a1;--graph-color-9:#b8b5dc;--graph-color-10:#abc7d1;--graph-color-11:#b5d39f}
+.graph-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:20px 0;border-block:1px solid var(--workspace-line)}
+.graph-metrics>div{padding:20px;border-right:1px solid var(--workspace-line)}.graph-metrics>div:first-child{padding-left:0}.graph-metrics>div:last-child{border:0}
+.graph-metrics dt{color:var(--workspace-muted);font:12px/1.7 var(--font-sans)}.graph-metrics dd{margin:10px 0 0;font:400 32px/1.4 var(--font-serif)}
+.graph-load-status,.graph-gesture-note{color:var(--workspace-muted);font:12px/1.8 var(--font-sans)}
+[data-graph-app] :is(input,select){box-sizing:border-box;width:100%;min-width:0;min-height:var(--workspace-control-height);padding:8px 11px;color:var(--theme-fg);font:13px/1.5 var(--font-sans);border:1px solid rgb(var(--theme-fg-rgb)/.18);border-radius:var(--ui-radius-control);background:var(--theme-bg)}
+.workspace-page[data-graph-app] button[aria-pressed=true]{border-color:var(--theme-accent-color);color:var(--theme-accent-color);background:var(--workspace-surface)}
+[data-graph-app] :is(button,input,select,canvas,a):focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:3px}
+[data-graph-app] select:disabled{opacity:.45;cursor:default}
+[data-graph-app] :is(button,input,select)[hidden]{display:none}
+html body .workspace-toolbar.graph-filters>label.graph-event-toggle{flex-basis:100%;display:flex;align-items:center;gap:8px}.graph-event-toggle input{width:auto;min-height:0;accent-color:var(--theme-accent-color)}
+.graph-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 20px;padding:12px 0;border-top:1px solid var(--workspace-line)}
+.graph-toolbar p{font:12px var(--font-mono);margin:0}.graph-toolbar>span{font:11px var(--font-sans);color:var(--workspace-muted);margin-right:auto}
+.graph-actions{display:flex;align-items:center;flex-wrap:wrap;gap:8px}.graph-actions a{font:12px/1.7 var(--font-sans);text-decoration:underline;text-underline-offset:4px}
+.graph-workspace{display:grid;grid-template-columns:minmax(0,1fr) 320px;border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);overflow:hidden}
+.graph-stage{position:relative;min-width:0;background:var(--theme-bg)}
+.graph-stage canvas{display:block;width:100%;height:580px;background:var(--theme-bg);color:var(--theme-fg);font-family:var(--font-sans);touch-action:none;outline-offset:-4px!important}
+.graph-tooltip{position:absolute;max-width:190px;padding:7px 10px;background:var(--workspace-surface);color:var(--theme-fg);border:1px solid var(--workspace-line);font:12px/1.6 var(--font-sans);pointer-events:none;overflow-wrap:anywhere}
+.graph-detail{max-height:580px;overflow:auto;padding:22px;border-left:1px solid var(--workspace-line);background:var(--workspace-surface);scrollbar-gutter:stable}
+.graph-detail>small,.graph-connections small{font:10px/1.7 var(--font-mono);color:var(--workspace-muted);overflow-wrap:anywhere}
+.graph-detail h2{font:400 25px/1.6 var(--font-serif);margin:9px 0}.graph-detail h3{font:400 16px/1.7 var(--font-serif);margin-top:24px}
+.graph-detail p{font:12px/1.8 var(--font-sans);color:var(--workspace-muted);overflow-wrap:anywhere}.graph-detail .graph-actions{margin-top:16px}
+.graph-connections{list-style:none;padding:0;margin:0}.graph-connections li{padding:16px 0;border-top:1px solid var(--workspace-line)}.graph-connections p{margin:5px 0}
+.graph-legend{display:flex;gap:10px 20px;flex-wrap:wrap;padding:0;margin:16px 0;list-style:none;font:11px/1.7 var(--font-sans);color:var(--workspace-muted)}
+.graph-legend li::before{content:'';display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;background:var(--theme-fg)}
+.graph-legend [data-graph-kind=person]::before{background:var(--graph-color-0)}.graph-legend [data-graph-kind=virtual-avatar]::before{background:var(--graph-color-1)}
+.graph-legend [data-graph-kind=unit]::before{background:var(--graph-color-2)}.graph-legend [data-graph-kind=software-voice]::before{background:var(--graph-color-3)}
+.graph-legend [data-graph-kind=work-track]::before{background:var(--graph-color-4)}.graph-legend [data-graph-kind=work-release]::before{background:var(--graph-color-5)}
+.graph-legend [data-graph-kind=project]::before{background:var(--graph-color-6)}.graph-legend [data-graph-kind=organization]::before{background:var(--graph-color-7)}
+.graph-legend [data-graph-kind=live-event]::before{background:var(--graph-color-8)}.graph-legend [data-graph-kind=lore-concept]::before{background:var(--graph-color-9)}
+.graph-legend [data-graph-kind=editorial-article]::before{background:var(--graph-color-10)}.graph-legend [data-graph-kind=events]::before{background:var(--graph-color-11)}
+[data-graph-app] .relation-path{margin:35px 0;padding:28px 0;border:0;border-top:1px solid var(--workspace-line);border-radius:0;background:none}.relation-path header h2{font:400 25px/1.5 var(--font-serif);margin:8px 0}
+[data-path-compare] .relation-path-results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.relation-path-route{padding:15px;border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);min-width:0}
+.relation-path-route h3{font:400 17px/1.6 var(--font-serif);margin:0 0 10px}.relation-path-steps{list-style:none;padding:0;margin:10px 0 0}
+.relation-path-route .relation-path-entry{flex-wrap:wrap;gap:8px}.relation-path-route .relation-path-entry>a{font-size:15px;min-width:65%}
+.relation-path-route .relation-path-entry>button{margin-left:23px}.relation-path-route .relation-path-connection{margin-left:6px;padding-left:10px}
+[data-graph-app] .relation-path-inputs label{display:grid;gap:7px;font:12px var(--font-sans)}
+[data-graph-app] .relation-path-options input{width:auto;min-height:0;accent-color:var(--theme-accent-color)}
+.graph-directory-section{margin:32px 0}.graph-directory-section>header{display:flex;align-items:baseline;gap:20px;flex-wrap:wrap}
+.graph-directory-section h2{font:400 25px var(--font-serif)}.graph-directory-section>header p{font:11px var(--font-mono);color:var(--workspace-muted)}
+.graph-directory{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 24px;list-style:none;padding:0}
+.graph-directory>li{display:flex;align-items:center;gap:12px;justify-content:space-between;padding:20px 0;border-top:1px solid var(--workspace-line);min-width:0}
+.graph-directory>li>div{min-width:0}.graph-directory small{font:10px/1.7 var(--font-mono);color:var(--workspace-muted);overflow-wrap:anywhere}
+.graph-directory h3{font:400 18px/1.6 var(--font-serif);margin:6px 0;overflow-wrap:anywhere}.graph-directory p{font:11px/1.6 var(--font-sans);color:var(--workspace-muted);margin:0}
+.graph-directory button{flex-shrink:0;max-width:85px}
+@media(max-width:1100px){.graph-workspace{grid-template-columns:minmax(0,1fr) 280px}.graph-directory{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:850px){.graph-workspace{grid-template-columns:1fr}.graph-stage canvas{height:460px}.graph-detail{max-height:420px;border-left:0;border-top:1px solid var(--workspace-line)}[data-path-compare] .relation-path-results{grid-template-columns:1fr}.graph-directory{grid-template-columns:1fr}}
+@media(max-width:760px){[data-graph-app] :is(input,select){font-size:16px}}
+@media(max-width:600px){.graph-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.graph-metrics>div{padding:14px}.graph-metrics>div:nth-child(2){border-right:0}.graph-metrics>div:nth-child(3){padding-left:0;border-top:1px solid var(--workspace-line)}.graph-metrics>div:last-child{border-top:1px solid var(--workspace-line)}.graph-stage canvas{height:380px}.graph-toolbar{gap:12px}.graph-detail{padding:16px}.graph-directory small{font-size:9px}.graph-directory button{max-width:75px}}

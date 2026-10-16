@@ -31,7 +31,7 @@ export function buildAiIndexShardDescriptors(locales) {
 }
 
 function articleRoute(collection, id) {
-  const parts = id.split('/');
+  const parts = id.normalize('NFC').split('/');
   const locale = parts.pop() || 'zh';
   return `/${locale}/${collection}/${parts.join('/')}/`;
 }

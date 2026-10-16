@@ -1,0 +1,18 @@
+---
+locale: "zh"
+translationKey: "2020-09-19-dustcell-11-15-2n"
+date: "2020.09.19"
+eventDate: "2020-09-19"
+type: "OFFICIAL"
+title: "【DUSTCELL】11月15日（日）2nd ONE-MAN LIVE「HOWL」開催決定"
+order: 24
+---
+
+## 简介
+
+【DUSTCELL】11月15日（日）2nd ONE-MAN LIVE「HOWL」開催決定
+
+- 日期：2020.09.19
+- 关联：DUSTCELL
+- 类别：官方公告 / 演出活动
+

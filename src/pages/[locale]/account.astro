@@ -63,6 +63,6 @@ import '../../scripts/accountNavigation.js';
 import '../../scripts/accountContributionBadge.js';
 import '../../scripts/accountOverview.js';
 import {initializeAccountPage} from '../../scripts/accountPage.js';
-const start=()=>{try{initializeAccountPage();window.dispatchEvent(new Event('kamitsubaki-account-state'));}catch(error){console.error('Account workspace initialization failed',error);const status=document.querySelector('[data-account-action-status]'),guest=document.querySelector('[data-account-overview-guest]');if(status)status.textContent=[guest?.dataset.unavailableTitle,guest?.dataset.unavailableNote].filter(Boolean).join(' ')||'Account workspace unavailable. Refresh to retry.';}};
+const start=()=>{try{initializeAccountPage();window.dispatchEvent(new Event('kamitsubaki-account-state'));}catch(error){console.error('Account workspace initialization failed',error);const status=document.querySelector('[data-account-action-status]'),guest=document.querySelector<HTMLElement>('[data-account-overview-guest]');if(status)status.textContent=[guest?.dataset.unavailableTitle,guest?.dataset.unavailableNote].filter(Boolean).join(' ')||'Account workspace unavailable. Refresh to retry.';}};
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
 </script>

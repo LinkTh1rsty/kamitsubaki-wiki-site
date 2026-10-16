@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 3
 title: "統一內容格式指南"
 summary: "統一本站詞條的結構、命名、文風、來源、時間、媒體與多語言寫法，讓內容準確、中立、易讀且便於長期維護。"
-generatedFromHash: "233b1a9a495914250381"
+generatedFromHash: "df79fbe79602b516534e"
 generated: true
 generatedFrom: "zh"
 ---

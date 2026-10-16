@@ -1,7 +1,8 @@
 import {readdir,readFile} from 'node:fs/promises';
 import {siteIcons} from '../src/lib/icons.mjs';
 const root=new URL('../src/',import.meta.url);
-const exceptions=new Set(['components/Icon.astro','components/ProviderIcon.astro','components/ContactIcon.astro','components/PlatformIcon.astro','components/Hero.astro','pages/[locale]/explore/[section].astro','lib/icons.mjs','scripts/siteInteractions.js','scripts/labsApp.js','backend/generatedUiIcons.js','backend/adminBrand.js']);
+// archiveChart contains documented data visualization primitives, with no interface icons.
+const exceptions=new Set(['components/Icon.astro','components/ProviderIcon.astro','components/ContactIcon.astro','components/PlatformIcon.astro','components/Hero.astro','pages/[locale]/explore/[section].astro','lib/icons.mjs','lib/archiveChart.mjs','scripts/siteInteractions.js','scripts/labsApp.js','backend/generatedUiIcons.js','backend/adminBrand.js']);
 const problems=[];let count=0;
 async function scan(dir,path='') {
  for(const entry of await readdir(dir,{withFileTypes:true})){

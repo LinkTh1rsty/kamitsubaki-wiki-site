@@ -1,0 +1,11 @@
+---
+locale: "ja"
+translationKey: "2024-08-29"
+date: "2024.08.29"
+eventDate: "2024-08-29"
+type: "OFFICIAL"
+title: "【神椿市協奏中。】リズムゲーム「神椿市協奏中。」本日8月29日(木)発売"
+order: 301
+---
+
+

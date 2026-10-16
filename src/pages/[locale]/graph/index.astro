@@ -1,0 +1,87 @@
+---
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
+import WorkspaceFilters from '../../../components/WorkspaceFilters.astro';
+import Icon from '../../../components/Icon.astro';
+import RelationPath from '../../../components/RelationPath.astro';
+import { getEntityRegistry, entityLocales } from '../../../lib/entityRegistry.mjs';
+import { loadFeatureData } from '../../../lib/featureData.mjs';
+import { buildEntityLabsCatalog } from '../../../lib/labsCatalog.mjs';
+import { createGraphIndex, searchGraphNodes, isGraphEvent } from '../../../lib/graphModel.mjs';
+import { graphCopy } from '../../../lib/graphCopy.mjs';
+import '../../../styles/graph.css';
+export function getStaticPaths() { return entityLocales.map(locale => ({ params: { locale } })); }
+const { locale = 'zh' } = Astro.params;
+const c = graphCopy(locale);
+const index = createGraphIndex(buildEntityLabsCatalog(await getEntityRegistry(), await loadFeatureData(), locale));
+const initial = searchGraphNodes(index.nodes.filter(node => !isGraphEvent(node))).slice(0, 30);
+const metrics = [
+  [c.entities, index.nodes.filter(node => !isGraphEvent(node)).length],
+  [c.events, index.nodes.filter(isGraphEvent).length],
+  [c.edges, index.edges.length], [c.isolated, index.nodes.filter(node => !node.degree).length],
+];
+---
+<WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/graph/" eyebrow="RELATION / GRAPH" width="wide" backHref={`/${locale}/`} backLabel={c.home}
+  mainAttributes={{ 'data-graph-app': '', 'data-graph-catalog': `/${locale}/labs-catalog.json` }}>
+  <dl class="graph-metrics">{metrics.map(([label, value]) => <div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
+  <noscript><style is:inline>[data-graph-app] .relation-path,[data-graph-load-status]{display:none}</style><p>{c.nojs} <a href={`/${locale}/database/`}>{c.catalog} ↗</a></p></noscript>
+  <p class="graph-load-status" data-graph-load-status role="status" aria-live="polite">{c.loading}</p>
+  <WorkspaceButton data-graph-retry hidden>{c.retry}</WorkspaceButton>
+  <a data-graph-reload href={`/${locale}/graph/`} hidden>{c.retry} ↗</a>
+  <WorkspaceFilters class="graph-filters" data-graph-form aria-label={c.filters} data-graph-control hidden role="search">
+    <label class="graph-search"><span>{c.query}</span><input type="search" name="q" autocomplete="off" /></label>
+    <label><span>{c.kind}</span><select name="kind"><option value="">{c.all}</option></select></label>
+    <label><span>{c.relation}</span><select name="relation"><option value="">{c.all}</option></select></label>
+    <label><span>{c.scope}</span><select name="scope"><option value="all">{c.global}</option><option value="neighborhood">{c.neighborhood}</option></select></label>
+    <label><span>{c.depth}</span><select name="depth">{[1, 2, 3].map(count => <option value={count}>{c.layers.replace('{count}', String(count))}</option>)}</select></label>
+    <WorkspaceButton type="reset" tone="quiet">{c.reset}</WorkspaceButton>
+    <label class="graph-event-toggle"><input type="checkbox" name="events" />{c.path.chronicle}</label>
+  </WorkspaceFilters>
+  <section class="graph-canvas-panel" data-graph-canvas-panel hidden aria-label={c.title}>
+    <div class="graph-toolbar">
+      <p data-graph-count role="status" aria-live="polite"></p><span data-graph-layout-status role="status"></span>
+      <div class="graph-actions">
+        <WorkspaceButton data-graph-zoom-in aria-label={c.zoomIn}><Icon name="plus" size={16} /></WorkspaceButton>
+        <WorkspaceButton data-graph-zoom-out aria-label={c.zoomOut}><Icon name="minus" size={16} /></WorkspaceButton>
+        <WorkspaceButton data-graph-fit>{c.fit}</WorkspaceButton>
+        <WorkspaceButton tone="quiet" data-graph-clear-path hidden>{c.clearPath}</WorkspaceButton>
+        <WorkspaceButton data-graph-share>{c.share}</WorkspaceButton>
+        <WorkspaceButton data-graph-export>{c.export}</WorkspaceButton>
+      </div>
+    </div>
+    <p class="graph-gesture-note" id="graph-gestures">{c.gestures}</p>
+    <div class="graph-workspace">
+      <div class="graph-stage">
+        <canvas data-graph-canvas tabindex="0" role="img" aria-label={c.canvas} aria-describedby="graph-gestures"></canvas>
+        <div class="graph-tooltip" data-graph-tooltip hidden></div>
+      </div>
+      <aside class="graph-detail" data-graph-detail aria-label={c.detail}><h2>{c.detail}</h2><p>{c.chooseHint}</p></aside>
+    </div>
+    <ul class="graph-legend" data-graph-legend aria-label={c.legend}></ul>
+    <p class="graph-gesture-note">{c.relationNote}</p>
+    <p data-graph-share-status role="status"></p>
+    <input class="graph-share-url" data-graph-share-url aria-label={c.share} readonly hidden />
+  </section>
+  <RelationPath locale={locale} compare />
+  <section class="graph-directory-section" aria-labelledby="graph-directory-title">
+    <header><h2 id="graph-directory-title">{c.directory}</h2><p data-graph-list-count></p></header>
+    <p class="graph-gesture-note">{c.searchHint}</p>
+    <ul class="graph-directory" data-graph-directory>{initial.map(node => <li data-graph-record={node.id}><div><small>{c.kinds[node.kind]} · {node.id}</small><h3><a href={node.path}>{node.title}</a></h3>{node.subtitle && <p>{node.subtitle}</p>}</div></li>)}</ul>
+    <p data-graph-empty hidden>{c.empty}</p>
+    <WorkspaceButton data-graph-more data-graph-control hidden>{c.more}</WorkspaceButton>
+  </section>
+  <script is:inline type="application/json" data-graph-copy set:html={JSON.stringify(c).replace(/</g, '\\u003c')} />
+  <script is:inline>
+    window.setTimeout(() => {
+      const root = document.querySelector('[data-graph-app]');
+      const status = root?.querySelector('[data-graph-load-status]');
+      const config = root?.querySelector('[data-graph-copy]');
+      const reload = root?.querySelector('[data-graph-reload]');
+      if (!root || !status || !config || !reload || root.dataset.graphInitialized === 'true') return;
+      const copy = JSON.parse(config.textContent || '{}');
+      if (status.textContent !== copy.loading) return;
+      status.textContent = copy.failure; reload.href = location.href; reload.hidden = false;
+    }, 14000);
+  </script>
+  <script>import '../../../scripts/graphApp.js';</script>
+</WorkspaceLayout>

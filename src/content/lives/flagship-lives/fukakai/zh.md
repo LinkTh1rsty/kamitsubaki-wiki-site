@@ -7,17 +7,44 @@ romanizedName: "KAF 1st ONE-MAN LIVE Fukakai"
 eventType: "oneman-live"
 dateRange:
   start: "2019-08-01"
-venue:
-  name: "LIQUIDROOM 恵比寿"
-  city: "东京"
-  country: "日本"
-  isVirtual: false
 headliners:
   - "kaf"
 organizer: "kamitsubaki-studio"
 contentStatus: published
 locale: "zh"
 summary: "花譜个人演艺生涯的首次单人专场演出，Campfire 众筹破 4000 万日元，推特话题荣登全球趋势第一。"
+venue:
+  name: LIQUIDROOM 恵比寿
+  city: 东京
+  country: 日本
+  isVirtual: false
+  coordinates:
+    lat: 35.6490399
+    lng: 139.710584
+    sourceIds:
+      - official-liquidroom-access
+  sourceIds:
+    - official-liquidroom-access
+sources:
+  - id: official-liquidroom-access
+    title: ACCESS · LIQUIDROOM
+    url: https://www.liquidroom.net/access
+    type: official
+    publisher: LIQUIDROOM
+liveInfo:
+  access:
+    - title: LIQUIDROOM · official access information
+      url: https://www.liquidroom.net/access
+      sourceIds:
+        - official-liquidroom-access
+evidence:
+  - id: venue-coordinates
+    field: venue.coordinates
+    sourceIds:
+      - official-liquidroom-access
+    checkedAt: "2026-10-13"
+    status: reviewed
+    note: Coordinates read from the official access page’s linked Google Maps place marker, not its viewport center.
 ---
 
 ## 演出现场概述

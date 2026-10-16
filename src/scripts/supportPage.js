@@ -1,6 +1,6 @@
 import { orderSupporters } from '../lib/supporterOrder.mjs';
 import { readBoundedJson } from '../lib/boundedJson.mjs';
-import { renderSupportData, validSupportPayload } from '../lib/supportView.mjs';
+import { renderSupportData, renderSupportOverview, validSupportPayload } from '../lib/supportView.mjs';
 
 const page=document.querySelector('[data-support-page]');
 if(page) {
@@ -17,9 +17,11 @@ if(page) {
   function show(payload) {
     if(!validSupportPayload(payload))throw new Error('Invalid support data');
     const views=renderSupportData(payload.data,copy,locale,page.dataset.apiBase,true);
+    const overview=renderSupportOverview(payload.data,copy,locale);
     const openYears=new Map([...page.querySelectorAll('.support-report')].map(node=>[node.dataset.year||node.querySelector('.support-report__year').textContent.trim(),node.open]));
     // Rendering and validation finish before any visible content is replaced.
     for(const [name,html] of Object.entries(views))page.querySelector(`[data-support-${name}]`).innerHTML=html;
+    const summary=page.querySelector('[data-support-overview]');if(summary)summary.innerHTML=overview;
     for(const node of page.querySelectorAll('.support-report'))if(openYears.has(node.dataset.year))node.open=openYears.get(node.dataset.year);
     const updated=new Date(payload.updatedAt);
     status.textContent=Number.isNaN(updated.getTime())?'':copy.updated+' '+updated.toLocaleString(locale);

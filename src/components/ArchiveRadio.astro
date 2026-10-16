@@ -1,0 +1,17 @@
+---
+import {archiveFeatureCopy} from '../lib/archiveFeatureCopy.mjs';
+import Icon from './Icon.astro';
+import '../styles/fanArchive.css';
+const {locale='zh'}=Astro.props,c=archiveFeatureCopy(locale);
+---
+<details class="archive-radio" data-archive-radio data-locale={locale} hidden>
+ <summary><Icon name="play"/> KAMITSUBAKI Radio · <span data-radio-count>0</span></summary>
+ <div class="archive-radio__body"><a data-radio-title></a><div data-radio-player></div>
+  <div class="archive-actions"><button type="button" data-radio-play>{c.play}</button><button type="button" data-radio-previous>{c.previous}</button><button type="button" data-radio-next>{c.next}</button></div>
+  <button type="button" data-radio-window>{locale==='en'?'Continuous player window':locale==='ja'?'連続再生ウィンドウ':'连续播放窗口'}</button>
+  <ol data-radio-queue></ol><p data-radio-status role="status"></p>
+  <button type="button" data-radio-clear>{c.clearQueue}</button><a href={'/'+locale+'/explore/radio/'}>{c.station}</a>
+ </div>
+ <script is:inline type="application/json" data-radio-copy set:html={JSON.stringify(c).replaceAll('<','\\u003c')}/>
+</details>
+<script>import '../scripts/archiveRadio.js';</script>

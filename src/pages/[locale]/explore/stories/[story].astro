@@ -1,0 +1,48 @@
+---
+import WorkspaceLayout from '../../../../layouts/WorkspaceLayout.astro';
+import WorkspaceButton from '../../../../components/WorkspaceButton.astro';
+import StoryMaterial from '../../../../components/StoryMaterial.astro';
+import { getEntityRegistry, entityLocales } from '../../../../lib/entityRegistry.mjs';
+import { loadFeatureData } from '../../../../lib/featureData.mjs';
+import { buildStoryCatalog } from '../../../../lib/storyCatalog.mjs';
+import type { StoryRoute } from '../../../../lib/storyCatalog.mjs';
+import {storyRoutes} from '../../../../data/storyRoutes.mjs';
+import { storyCopy, storyFormat } from '../../../../lib/storyCopy.mjs';
+import '../../../../styles/story.css';
+export async function getStaticPaths() {
+  const registry = await getEntityRegistry(), feature = await loadFeatureData();
+  return entityLocales.flatMap(locale => buildStoryCatalog(registry, feature, locale).routes.map(route => ({ params: { locale, story: route.id }, props: { route } })));
+}
+interface Props { route: StoryRoute; }
+const { locale = 'zh' } = Astro.params, { route } = Astro.props, c = storyCopy(locale);
+const path = `/explore/stories/${route.id}/`;
+const data = { route: { id: route.id, fingerprint: route.fingerprint, chapters: route.chapters.map(ch => ({ id: ch.id, title: ch.title })) }, copy: c };
+---
+<WorkspaceLayout locale={locale} title={route.title} intro={route.intro} path={path} eyebrow="STORY MODE / GUIDED ROUTE" width="wide" backHref={`/${locale}/explore/stories/`} backLabel={c.directory} mainAttributes={{ 'data-story-app': '', 'data-locale': locale, 'data-story-route': route.id }}>
+  <a class="story-note" href={'/'+locale+'/chronicle/?entity='+encodeURIComponent(route.id==='read-a-stage'?'kaf':storyRoutes.find(definition=>definition.id===route.id)?.anchor || 'kaf')}>{locale==='en'?'Continue in Chronicle':locale==='ja'?'年代記で続ける':'从 Chronicle 主题继续探索'}</a><div class="story-route-meta"><span>{storyFormat(c.minutes, { count: route.minutes })}</span><span>{storyFormat(c.chapters, { count: route.chapters.length })}</span><p>{route.outcome}</p></div>
+  <p class="story-note">{c.durationNote}</p>
+  <div class="story-progress-bar" data-story-controls hidden><p data-story-step></p><progress data-story-meter value="0" max={route.chapters.length} aria-label={c.outline}></progress><p data-story-progress role="status"></p></div>
+  <div class="story-reader">
+    <nav class="story-outline" aria-label={c.outline}><h2>{c.outline}</h2><ol>{route.chapters.map((chapter, index) => <li><a href={`?chapter=${encodeURIComponent(chapter.id)}#story-chapter-${chapter.id}`} data-story-jump={chapter.id}><span>{String(index + 1).padStart(2, '0')}</span><span>{chapter.title}<small data-story-read hidden>{c.marked}</small></span></a></li>)}</ol></nav>
+    <div class="story-chapters">{route.chapters.map((chapter, index) => <section class="story-chapter" id={`story-chapter-${chapter.id}`} data-story-chapter={chapter.id} aria-labelledby={`story-heading-${chapter.id}`}>
+      <p class="story-chapter-kicker">{String(index + 1).padStart(2, '0')} / {storyFormat(c.minutes, { count: chapter.minutes })}</p>
+      <h2 id={`story-heading-${chapter.id}`} tabindex="-1">{chapter.title}</h2><p class="story-chapter-intro">{chapter.intro}</p>
+      <aside class="story-prompt"><span>{c.prompt}</span><p>{chapter.prompt}</p></aside>
+      <ul class="story-materials">{chapter.materials.map(material => <StoryMaterial material={material} locale={locale} />)}</ul>
+      {chapter.resources.length > 0 && <ul class="story-resources">{chapter.resources.map(link => <li><a href={link.href} target="_blank" rel="noopener noreferrer">{link.label} ↗</a></li>)}</ul>}
+      {chapter.missing && <p class="story-note">{c.missing}</p>}
+    </section>)}
+    <div class="story-navigation" data-story-controls hidden><WorkspaceButton data-story-previous>{c.previous}</WorkspaceButton><WorkspaceButton tone="primary" class="story-mark" data-story-mark>{c.finishChapter}</WorkspaceButton><WorkspaceButton data-story-next>{c.next}</WorkspaceButton></div>
+    <p class="story-note" data-story-unfinished hidden></p>
+    <section class="story-finished" data-story-finished hidden><span>CONTINUE / YOUR NEXT OBSERVATION</span><h2 tabindex="-1">{c.finished}</h2><p>{c.finishIntro}</p><div class="story-links"><a href={`/${locale}/explore/stories/`}>{c.otherRoutes} ↗</a><a href={`/${locale}/explore/discovery/?start=${encodeURIComponent(route.anchor)}`}>{c.discovery} ↗</a><a href={`/${locale}/graph/?entry=${encodeURIComponent(route.anchor)}&scope=neighborhood`}>{c.graph} ↗</a></div></section>
+    </div>
+  </div>
+  <div class="story-tools" data-story-controls hidden><WorkspaceButton data-story-share>{c.share}</WorkspaceButton><WorkspaceButton tone="quiet" data-story-reset>{c.reset}</WorkspaceButton></div>
+  <p role="status" aria-live="polite" data-story-status></p><p role="status" data-story-share-status></p><input class="story-share-url" data-story-share-url aria-label={c.share} readonly hidden />
+  <p class="story-note">{c.local}</p><details class="story-method"><summary>{c.about}</summary><p>{c.editorial}</p></details>
+  <p class="story-note" data-story-fallback hidden>{c.loadError} <a href={`/${locale}${path}`} data-story-reload>{c.reload} ↗</a></p>
+  <noscript><p class="story-note">{c.nojs}</p></noscript>
+  <script is:inline type="application/json" data-story-data set:html={JSON.stringify(data).replace(/</g, '\\u003c')} />
+  <script is:inline>window.setTimeout(() => { const root = document.querySelector('[data-story-app]'); if (!root || root.dataset.storyInitialized === 'true') return; root.querySelector('[data-story-fallback]').hidden = false; root.querySelector('[data-story-reload]').href = location.href; }, 14000);</script>
+  <script>import '../../../../scripts/storyApp.js';</script>
+</WorkspaceLayout>

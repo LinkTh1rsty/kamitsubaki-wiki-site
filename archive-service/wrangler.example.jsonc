@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "kamitsubaki-archive-service",
+  "main": "src/worker.mjs",
+  "compatibility_date": "2026-10-13",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {"enabled": true},
+  "routes": [{"pattern": "api.kamitsubaki.wiki/api/archive/community/*", "zone_name": "kamitsubaki.wiki"}],
+  "vars": {
+    "ARCHIVE_FRONTEND_ORIGIN": "https://kamitsubaki.wiki",
+    "ARCHIVE_ALLOWED_ORIGINS": "https://kamitsubaki.wiki",
+    "ARCHIVE_REVIEWER_IDS": ""
+  },
+  "d1_databases": [{
+    "binding": "ARCHIVE_DB",
+    "database_name": "kamitsubaki-archive",
+    "database_id": "00000000-0000-0000-0000-000000000000",
+    "migrations_dir": "../migrations/archive"
+  }],
+  "services": [{"binding": "ARCHIVE_ACCOUNT", "service": "REPLACE_WITH_EXISTING_CENTRAL_ACCOUNT_WORKER"}]
+}

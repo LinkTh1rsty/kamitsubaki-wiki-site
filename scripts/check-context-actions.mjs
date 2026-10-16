@@ -8,6 +8,7 @@ const intentionalNavigation = [
   /^src\/components\/ContributionNav\.astro$/,
   /^src\/components\/editor\/EditorEntry\.astro$/,
   /^src\/components\/editor\/EditorWorkbench\.astro$/,
+  /^src\/components\/editor\/NovelWorkbench\.astro$/,
   /^src\/pages\/\[locale\]\/account\.astro$/,
   /^src\/pages\/\[locale\]\/contribute\/edit\.astro$/,
 ];
@@ -26,7 +27,7 @@ for (const base of ['src/components', 'src/pages/[locale]']) {
 const errors = [];
 for (const file of files) {
   const source = readFileSync(file, 'utf8');
-  const name = relative('.', file);
+  const name = relative('.', file).replace(/\\/g, '/');
   for (const match of source.matchAll(/<a\b[^>]*>/g)) {
     const tag = match[0];
     if (!actionRoute.test(tag) || /\bclass(?::list)?=/.test(tag)) continue;

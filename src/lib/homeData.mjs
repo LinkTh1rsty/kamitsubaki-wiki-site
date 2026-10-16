@@ -86,7 +86,7 @@ export function humanizeSlug(slug) {
 }
 
 function parseLogPath(entryId) {
-  const parts = entryId.split('/');
+  const parts = entryId.normalize('NFC').split('/');
   parts.pop();
   const slug = parts.pop();
   const year = parts[0] ?? 'logs';

@@ -2,6 +2,7 @@ import {entityTypes} from './entityModel.mjs';
 import {entityLabel} from './entityLabels.mjs';
 import { personalToolsCopy } from './personalToolsCopy.mjs';
 import { resolveLocaleCopy } from './i18n.mjs';
+import { relationPathCopy } from './relationPathCopy.mjs';
 const zh = {
   title: 'LABs · 观测实验室',
   intro: '把散落的时间、作品与人，连成自己的观测路径。',
@@ -379,7 +380,7 @@ export function labsCopy(locale) {
   );
   Object.assign(copy.entryKinds,Object.fromEntries(entityTypes.map(type=>[type,entityLabel(type,locale)])),{database:entityLabel('person',locale),articles:entityLabel('editorial-article',locale)});
   Object.assign(copy.kinds,copy.entryKinds);
-  return { ...copy, ...personalToolsCopy(locale) };
+  return { ...copy, ...personalToolsCopy(locale), path: relationPathCopy(locale) };
 }
 export const labsSections = [
   'explore',
