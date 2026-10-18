@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # V3 分类目录实施与验收
 
 分类依据：`../category-optimization/classification-detailed-map.md`。导航树的唯一实现数据为 `src/data/classification-map.json`，首页和数据库复用同一组件。

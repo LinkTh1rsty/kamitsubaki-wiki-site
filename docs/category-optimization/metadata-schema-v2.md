@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # 《KAMITSUBAKI Wiki Metadata Schema v2.0 设计规范》
 > **版本**：v2.0.0 (Master Content Specification)  
 > **状态**：APPROVED / IMPLEMENTATION BASELINE  

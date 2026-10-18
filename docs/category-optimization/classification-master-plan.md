@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # KAMITSUBAKI FAN WIKI 分类架构重构设计规范 (Classification Master Plan)
 
 > **版本**：v2.0.0 (Master Edition)  

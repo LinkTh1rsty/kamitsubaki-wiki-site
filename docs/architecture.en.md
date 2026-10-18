@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # V3 frontend architecture
 
 This repository maintains the static frontend, encyclopedia content, and user-visible submission interfaces. The server is closed source. Its code, internal data model, and operations material are not supplied here.

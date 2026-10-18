@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # Unified production baseline (2026-10-12)
 
 Production source is remote `main`. The October 11 account release and gallery/icon release are now reconciled in source. Feature branches must incorporate main before release; never upload a directory based on an older production snapshot.

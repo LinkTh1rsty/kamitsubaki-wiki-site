@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # 脑暴方案 02：制作人与曲风流派透视维度 (Creator & Genre Perspective)
 
 > **归档位置**：`docs/brainstorming/02-creator-and-genre-perspective.md`  

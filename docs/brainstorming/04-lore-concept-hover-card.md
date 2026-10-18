@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # 脑暴方案 04：专栏生僻概念悬浮气泡卡片 (Lore Concept Hover Card)
 
 > **归档位置**：`docs/brainstorming/04-lore-concept-hover-card.md`  

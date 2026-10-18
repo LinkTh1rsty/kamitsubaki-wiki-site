@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # Branded External-Link Cards
 
 Artist and album infoboxes and the artist article's External Links section share one platform registry and visual system. Brand SVGs come from `simple-icons` and are inlined at build time or by the site script; there is no runtime icon CDN.

@@ -33,3 +33,32 @@ test('trusted preview task URLs retain draft encoding, query and hash without ac
  assert.equal(centralAccountReturnTo('https://kamitsubaki.wiki/ja/',api,'ja'),'https://wiki-auth-preview.kamitsubaki.wiki/ja/');
  assert.equal(centralAccountReturnTo('https://evil.example/ja/',api,'ja','companion'),'https://chat-auth-preview.kamitsubaki.wiki/ja/');
 });
+
+import {centralAccountUIOrigin} from '../src/lib/centralAccountOrigins.mjs';
+const workspace = {
+ PUBLIC_WORKSPACE_ISOLATED: 'true',
+ PUBLIC_WORKSPACE_API_ORIGIN: 'http://127.0.0.1:18002',
+ PUBLIC_WORKSPACE_WIKI_ORIGIN: 'http://127.0.0.1:18000',
+ PUBLIC_WORKSPACE_COMPANION_ORIGIN: 'http://127.0.0.1:18001',
+};
+test('workspace account routes use only exact task origins and preserve the task URL',()=>{
+ const api=workspace.PUBLIC_WORKSPACE_API_ORIGIN;
+ assert.deepEqual(centralAccountReturnOrigins(api,workspace),['http://127.0.0.1:18000','http://127.0.0.1:18001']);
+ assert.equal(centralAccountFrontendOrigin(api,'https://kamitsubaki.wiki','wiki',workspace),'http://127.0.0.1:18000');
+ assert.equal(centralAccountFrontendOrigin(api,'http://127.0.0.1:18000','companion',workspace),'http://127.0.0.1:18001');
+ const target='http://127.0.0.1:18001/ja/?agent=kaf&draft=A%20B#editor';
+ assert.equal(centralAccountReturnTo(target,api,'ja','companion',workspace),target);
+ for(const raw of ['https://chat.kamitsubaki.wiki/ja/','http://127.0.0.1:18021/ja/','http://user:pass@127.0.0.1:18001/ja/'])
+  assert.equal(centralAccountReturnTo(raw,api,'ja','companion',workspace),'http://127.0.0.1:18001/ja/');
+ assert.equal(centralAccountUIOrigin(api,workspace),api);
+});
+test('workspace configuration fails closed instead of navigating to production',()=>{
+ for(const api of ['', 'https://api.kamitsubaki.wiki','http://127.0.0.1:18022']){
+  assert.throws(()=>centralAccountReturnTo('https://evil.example',api,'zh','wiki',workspace),/registry/);
+  assert.throws(()=>centralAccountUIOrigin(api,workspace),/registry/);
+ }
+ for(const value of [undefined,'https://kamitsubaki.wiki','http://user:pass@127.0.0.1:18000','http://127.0.0.1:18000/path','http://127.0.0.1:18000?x=1'])
+  assert.throws(()=>centralAccountReturnOrigins(workspace.PUBLIC_WORKSPACE_API_ORIGIN,{...workspace,PUBLIC_WORKSPACE_WIKI_ORIGIN:value}),/workspace/i);
+ const off={...workspace,PUBLIC_WORKSPACE_ISOLATED:'false'};
+ assert.deepEqual(centralAccountReturnOrigins('https://api.kamitsubaki.wiki',off),production);
+});

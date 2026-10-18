@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # 脑暴方案 03：全景时间轴的多轨并行叙事 (Multi-Track Timeline)
 
 > **归档位置**：`docs/brainstorming/03-multi-track-timeline.md`  

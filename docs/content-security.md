@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # Content rendering security policy
 
 This document defines the trust boundary for Markdown under `src/content/`. It is the maintainer reference; author-facing examples live in the three localized syntax guides under `docs/manuals/contribute/syntax/`.

@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # 脑暴方案 01：四位一体形态切换器 (Entity Morphing Switcher)
 
 > **归档位置**：`docs/brainstorming/01-entity-morphing-switcher.md`  

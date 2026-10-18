@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # Upload, review and publication funnel audit
 
 Audit date: 2026-10-09. Repositories: `LinkTh1rsty/kamitsubaki-wiki-site` and `LinkTh1rsty/kamitsubaki-wiki-site-backend`. Evidence below comes from reading the actual current V3.1.0 workspaces, not filenames or the reference design. The workspaces contain earlier unrelated changes; those must not be swept into upload PRs. No production writes or deployment are authorized by this project.

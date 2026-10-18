@@ -70,3 +70,7 @@ public/images/novel-prototype/
 
 public/_editor/
 prototypes/novel-editor/dist-website/
+
+# Per-task local candidate runtime
+.workspace-runtime/
+wrangler.workspace-local.toml

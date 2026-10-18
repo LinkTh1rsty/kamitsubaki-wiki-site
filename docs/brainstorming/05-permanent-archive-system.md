@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # 脑暴方案 05：不可逆历史与永久观测归档体系 (Permanent Archive System)
 
 > **归档位置**：`docs/brainstorming/05-permanent-archive-system.md`  

@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # Survey LABs
 
 Implemented independently on `feature/new-features`, based on `origin/main` at `9bfebdb0`. The archived immersive refactor is not merged or enabled.

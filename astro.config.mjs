@@ -1,3 +1,4 @@
+import workspaceBoundary from './scripts/workspace-boundary.mjs';
 import { defineConfig } from 'astro/config';
 import { loadEnv } from 'vite';
 import searchIndex from './scripts/search-index-integration.mjs';
@@ -34,7 +35,7 @@ export default defineConfig({
     // Separate caches when running an isolated preview beside the main dev server.
     cacheDir: process.env.VITE_CACHE_DIR,
     server: { strictPort: process.env.ONLINE_INTEGRATION === 'true' },
-    plugins: [localPagefind(),stableFontDisplay(),tailwindcss()],
+    plugins: [workspaceBoundary(),localPagefind(),stableFontDisplay(),tailwindcss()],
   },
   markdown: {
     syntaxHighlight: false,

@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # 可复用阅读器
 
 长文本页面统一使用 `src/components/Reader.astro`。不要在页面重复写桌面目录、移动目录或章节滚动脚本。

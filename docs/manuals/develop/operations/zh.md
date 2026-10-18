@@ -7,21 +7,6 @@ title: 前台开发与验收
 summary: 按修改范围检查前台，并区分本地效果与真实投稿流程。
 ---
 
-## 本地准备
+main 是生产来源。任务与外部 PR 保持目标 main，由协调者固定原始提交并集成到短期 release 分支。每个 PR 的检查和审查通过后，再验证整体候选。用户明确批准具体候选清单后，使用 merge commit 一次合入发布批次。正常生产由 Cloudflare Git 集成执行 node scripts/release-build.mjs，发布前后核对 main 和公开发布标记。禁止绕过发布入口上传旧构建。记录实际来源提交、部署 ID，以及账号导航和图库回归结果。
 
-在前台仓库确认当前分支与未提交修改，安装 Node.js 和 pnpm，运行 `pnpm install --frozen-lockfile`、`pnpm dev`。说明书只在本仓库 `docs/manuals/` 编辑，再运行 `node scripts/sync-docs.mjs` 更新工作区镜像。环境密钥不得写进仓库、截图或浏览器日志。服务端的运行、发布和故障处理属于维护者的私有流程，不在此提供。
-
-## 按改动检查
-
-| 前台变更 | 建议检查 |
-| --- | --- |
-| 文档正文与链接 | `node scripts/check-docs.mjs`、`node scripts/sync-docs.mjs --check`。 |
-| 分类与词条元数据 | `pnpm validate:content`，检查受影响的语言和目录。 |
-| 页面、控件与阅读器 | `pnpm check`、`pnpm build`，在桌面和窄屏实际操作。 |
-| 投稿界面 | 本机草稿、登录状态、错误提示、提交回执与创作者中心跳转。 |
-
-前台构建通过只证明静态产物可生成。模拟响应、浏览器预览和真实账号提交应在验收记录中分别标注，不能相互代替。测试前保留原有词条正文和审核记录，避免用测试内容覆盖真实资料。
-
-## 前台发布边界
-
-前台候选需记录提交号、构建结果、受影响页面、可见回归项和恢复版本。上线前由维护者确认依赖服务已可用，再检查词条提案、文章公开和图库上传各自的真实流程。若页面与服务状态不一致，暂停前台发布并保留可复现的页面地址及回执编号；服务端排查和恢复由私有运维流程处理。本公开说明书不包含服务端仓库、配置、数据迁移或部署命令。
+[Repository maintenance / 仓库维护 / 保守手順](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/maintenance/README.md)

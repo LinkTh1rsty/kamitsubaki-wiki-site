@@ -1,0 +1,1142 @@
+[
+  {
+    "path": "README.md",
+    "status": "replaced",
+    "source": "origin/main:README.md"
+  },
+  {
+    "path": "README.en.md",
+    "status": "replaced",
+    "source": "origin/main:README.en.md"
+  },
+  {
+    "path": "README.ja.md",
+    "status": "replaced",
+    "source": "origin/main:README.ja.md"
+  },
+  {
+    "path": "AGENTS.md",
+    "status": "replaced",
+    "source": "origin/main:AGENTS.md"
+  },
+  {
+    "path": "docs/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/README.md"
+  },
+  {
+    "path": "docs/account.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/account.md"
+  },
+  {
+    "path": "docs/ai-terminal.en.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/ai-terminal.en.md"
+  },
+  {
+    "path": "docs/ai-terminal.ja.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/ai-terminal.ja.md"
+  },
+  {
+    "path": "docs/ai-terminal.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/ai-terminal.md"
+  },
+  {
+    "path": "docs/architecture/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/architecture/README.md"
+  },
+  {
+    "path": "docs/architecture-overview.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/architecture-overview.md"
+  },
+  {
+    "path": "docs/architecture.en.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/architecture.en.md"
+  },
+  {
+    "path": "docs/architecture.ja.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/architecture.ja.md"
+  },
+  {
+    "path": "docs/architecture.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/architecture.md"
+  },
+  {
+    "path": "docs/archive/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/README.md"
+  },
+  {
+    "path": "docs/archive/architecture-v2.en.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/architecture-v2.en.md"
+  },
+  {
+    "path": "docs/archive/architecture-v2.ja.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/architecture-v2.ja.md"
+  },
+  {
+    "path": "docs/archive/architecture-v2.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/architecture-v2.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/chronicle-style-and-live-study/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/chronicle-style-and-live-study/en.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/chronicle-style-and-live-study/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/chronicle-style-and-live-study/ja.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/chronicle-style-and-live-study/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/chronicle-style-and-live-study/zh-hk.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/chronicle-style-and-live-study/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/chronicle-style-and-live-study/zh-tw.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/chronicle-style-and-live-study/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/chronicle-style-and-live-study/zh.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/conflict-resolutions/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/conflict-resolutions/en.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/conflict-resolutions/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/conflict-resolutions/ja.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/conflict-resolutions/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/conflict-resolutions/zh-hk.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/conflict-resolutions/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/conflict-resolutions/zh-tw.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/conflict-resolutions/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/conflict-resolutions/zh.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/cross-source-comparison/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/cross-source-comparison/en.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/cross-source-comparison/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/cross-source-comparison/ja.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/cross-source-comparison/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/cross-source-comparison/zh-hk.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/cross-source-comparison/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/cross-source-comparison/zh-tw.md"
+  },
+  {
+    "path": "docs/archive/articles/archival/cross-source-comparison/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/archival/cross-source-comparison/zh.md"
+  },
+  {
+    "path": "docs/archive/articles/art-philosophy/kaika-artistic-evolution/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/art-philosophy/kaika-artistic-evolution/en.md"
+  },
+  {
+    "path": "docs/archive/articles/art-philosophy/kaika-artistic-evolution/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/art-philosophy/kaika-artistic-evolution/ja.md"
+  },
+  {
+    "path": "docs/archive/articles/art-philosophy/kaika-artistic-evolution/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/art-philosophy/kaika-artistic-evolution/zh-hk.md"
+  },
+  {
+    "path": "docs/archive/articles/art-philosophy/kaika-artistic-evolution/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/art-philosophy/kaika-artistic-evolution/zh-tw.md"
+  },
+  {
+    "path": "docs/archive/articles/art-philosophy/kaika-artistic-evolution/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/art-philosophy/kaika-artistic-evolution/zh.md"
+  },
+  {
+    "path": "docs/archive/articles/business/thinkr-capital-and-mbo-study/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/business/thinkr-capital-and-mbo-study/en.md"
+  },
+  {
+    "path": "docs/archive/articles/business/thinkr-capital-and-mbo-study/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/business/thinkr-capital-and-mbo-study/ja.md"
+  },
+  {
+    "path": "docs/archive/articles/business/thinkr-capital-and-mbo-study/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/business/thinkr-capital-and-mbo-study/zh-hk.md"
+  },
+  {
+    "path": "docs/archive/articles/business/thinkr-capital-and-mbo-study/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/business/thinkr-capital-and-mbo-study/zh-tw.md"
+  },
+  {
+    "path": "docs/archive/articles/business/thinkr-capital-and-mbo-study/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/business/thinkr-capital-and-mbo-study/zh.md"
+  },
+  {
+    "path": "docs/archive/articles/infrastructure/pndr-business-model/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/infrastructure/pndr-business-model/en.md"
+  },
+  {
+    "path": "docs/archive/articles/infrastructure/pndr-business-model/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/infrastructure/pndr-business-model/ja.md"
+  },
+  {
+    "path": "docs/archive/articles/infrastructure/pndr-business-model/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/infrastructure/pndr-business-model/zh-hk.md"
+  },
+  {
+    "path": "docs/archive/articles/infrastructure/pndr-business-model/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/infrastructure/pndr-business-model/zh-tw.md"
+  },
+  {
+    "path": "docs/archive/articles/infrastructure/pndr-business-model/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/archive/articles/infrastructure/pndr-business-model/zh.md"
+  },
+  {
+    "path": "docs/archive/features/account-v1.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/features/account-v1.md"
+  },
+  {
+    "path": "docs/archive/features/account-v2.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/features/account-v2.md"
+  },
+  {
+    "path": "docs/archive/plans/frontend-roadmap-v2.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/plans/frontend-roadmap-v2.md"
+  },
+  {
+    "path": "docs/archive/reviews/editor-files-review-20260914.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/reviews/editor-files-review-20260914.md"
+  },
+  {
+    "path": "docs/archive/reviews/editor-pr-demo.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/reviews/editor-pr-demo.md"
+  },
+  {
+    "path": "docs/archive/reviews/editor-release-review.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/reviews/editor-release-review.md"
+  },
+  {
+    "path": "docs/archive/reviews/editor-ux-review-20260913.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/reviews/editor-ux-review-20260913.md"
+  },
+  {
+    "path": "docs/archive/reviews/project-overview-v1.3.3.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/reviews/project-overview-v1.3.3.md"
+  },
+  {
+    "path": "docs/archive/v2-property-guide.en.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/v2-property-guide.en.md"
+  },
+  {
+    "path": "docs/archive/v2-property-guide.ja.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/v2-property-guide.ja.md"
+  },
+  {
+    "path": "docs/archive/v2-property-guide.zh.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/archive/v2-property-guide.zh.md"
+  },
+  {
+    "path": "docs/brainstorming/01-entity-morphing-switcher.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/brainstorming/01-entity-morphing-switcher.md"
+  },
+  {
+    "path": "docs/brainstorming/02-creator-and-genre-perspective.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/brainstorming/02-creator-and-genre-perspective.md"
+  },
+  {
+    "path": "docs/brainstorming/03-multi-track-timeline.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/brainstorming/03-multi-track-timeline.md"
+  },
+  {
+    "path": "docs/brainstorming/04-lore-concept-hover-card.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/brainstorming/04-lore-concept-hover-card.md"
+  },
+  {
+    "path": "docs/brainstorming/05-permanent-archive-system.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/brainstorming/05-permanent-archive-system.md"
+  },
+  {
+    "path": "docs/brainstorming/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/brainstorming/README.md"
+  },
+  {
+    "path": "docs/category-optimization/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/category-optimization/README.md"
+  },
+  {
+    "path": "docs/category-optimization/classification-detailed-map.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/category-optimization/classification-detailed-map.md"
+  },
+  {
+    "path": "docs/category-optimization/classification-master-plan.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/category-optimization/classification-master-plan.md"
+  },
+  {
+    "path": "docs/category-optimization/feature-data-architecture.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/category-optimization/feature-data-architecture.md"
+  },
+  {
+    "path": "docs/category-optimization/metadata-schema-v2.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/category-optimization/metadata-schema-v2.md"
+  },
+  {
+    "path": "docs/community-activities.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/community-activities.md"
+  },
+  {
+    "path": "docs/community-location-audit.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/community-location-audit.md"
+  },
+  {
+    "path": "docs/content-security.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/content-security.md"
+  },
+  {
+    "path": "docs/design/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/design/README.md"
+  },
+  {
+    "path": "docs/design/context-actions.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/design/context-actions.md"
+  },
+  {
+    "path": "docs/design/frontend-system-v3.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/design/frontend-system-v3.md"
+  },
+  {
+    "path": "docs/design/page-system.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/design/page-system.md"
+  },
+  {
+    "path": "docs/external-links.en.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/external-links.en.md"
+  },
+  {
+    "path": "docs/external-links.ja.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/external-links.ja.md"
+  },
+  {
+    "path": "docs/external-links.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/external-links.md"
+  },
+  {
+    "path": "docs/guides/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/guides/README.md"
+  },
+  {
+    "path": "docs/guides/reviewer-checklist.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/guides/reviewer-checklist.md"
+  },
+  {
+    "path": "docs/image-thumbnails.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/image-thumbnails.md"
+  },
+  {
+    "path": "docs/live-events-api-configuration.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/live-events-api-configuration.md"
+  },
+  {
+    "path": "docs/maintenance/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/maintenance/README.md"
+  },
+  {
+    "path": "docs/maintenance/entity-classification.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/maintenance/entity-classification.md"
+  },
+  {
+    "path": "docs/manuals/contribute/article/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/article/en.md"
+  },
+  {
+    "path": "docs/manuals/contribute/article/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/article/ja.md"
+  },
+  {
+    "path": "docs/manuals/contribute/article/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/article/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/contribute/article/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/article/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/contribute/article/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/article/zh.md"
+  },
+  {
+    "path": "docs/manuals/contribute/chronicle/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/chronicle/en.md"
+  },
+  {
+    "path": "docs/manuals/contribute/chronicle/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/chronicle/ja.md"
+  },
+  {
+    "path": "docs/manuals/contribute/chronicle/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/chronicle/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/contribute/chronicle/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/chronicle/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/contribute/chronicle/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/chronicle/zh.md"
+  },
+  {
+    "path": "docs/manuals/contribute/entry/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/entry/en.md"
+  },
+  {
+    "path": "docs/manuals/contribute/entry/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/entry/ja.md"
+  },
+  {
+    "path": "docs/manuals/contribute/entry/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/entry/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/contribute/entry/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/entry/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/contribute/entry/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/entry/zh.md"
+  },
+  {
+    "path": "docs/manuals/contribute/format/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/format/en.md"
+  },
+  {
+    "path": "docs/manuals/contribute/format/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/format/ja.md"
+  },
+  {
+    "path": "docs/manuals/contribute/format/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/format/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/contribute/format/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/format/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/contribute/format/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/format/zh.md"
+  },
+  {
+    "path": "docs/manuals/contribute/gallery/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/gallery/en.md"
+  },
+  {
+    "path": "docs/manuals/contribute/gallery/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/gallery/ja.md"
+  },
+  {
+    "path": "docs/manuals/contribute/gallery/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/gallery/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/contribute/gallery/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/gallery/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/contribute/gallery/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/gallery/zh.md"
+  },
+  {
+    "path": "docs/manuals/contribute/review/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/review/en.md"
+  },
+  {
+    "path": "docs/manuals/contribute/review/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/review/ja.md"
+  },
+  {
+    "path": "docs/manuals/contribute/review/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/review/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/contribute/review/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/review/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/contribute/review/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/review/zh.md"
+  },
+  {
+    "path": "docs/manuals/contribute/rights/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/rights/en.md"
+  },
+  {
+    "path": "docs/manuals/contribute/rights/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/rights/ja.md"
+  },
+  {
+    "path": "docs/manuals/contribute/rights/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/rights/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/contribute/rights/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/rights/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/contribute/rights/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/rights/zh.md"
+  },
+  {
+    "path": "docs/manuals/contribute/start/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/start/en.md"
+  },
+  {
+    "path": "docs/manuals/contribute/start/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/start/ja.md"
+  },
+  {
+    "path": "docs/manuals/contribute/start/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/start/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/contribute/start/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/start/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/contribute/start/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/start/zh.md"
+  },
+  {
+    "path": "docs/manuals/contribute/syntax/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/syntax/en.md"
+  },
+  {
+    "path": "docs/manuals/contribute/syntax/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/syntax/ja.md"
+  },
+  {
+    "path": "docs/manuals/contribute/syntax/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/syntax/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/contribute/syntax/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/syntax/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/contribute/syntax/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/syntax/zh.md"
+  },
+  {
+    "path": "docs/manuals/contribute/walkthrough/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/walkthrough/en.md"
+  },
+  {
+    "path": "docs/manuals/contribute/walkthrough/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/walkthrough/ja.md"
+  },
+  {
+    "path": "docs/manuals/contribute/walkthrough/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/walkthrough/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/contribute/walkthrough/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/walkthrough/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/contribute/walkthrough/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/contribute/walkthrough/zh.md"
+  },
+  {
+    "path": "docs/manuals/develop/architecture/en.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/architecture/en.md"
+  },
+  {
+    "path": "docs/manuals/develop/architecture/ja.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/architecture/ja.md"
+  },
+  {
+    "path": "docs/manuals/develop/architecture/zh-hk.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/architecture/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/develop/architecture/zh-tw.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/architecture/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/develop/architecture/zh.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/architecture/zh.md"
+  },
+  {
+    "path": "docs/manuals/develop/content/en.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/content/en.md"
+  },
+  {
+    "path": "docs/manuals/develop/content/ja.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/content/ja.md"
+  },
+  {
+    "path": "docs/manuals/develop/content/zh-hk.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/content/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/develop/content/zh-tw.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/content/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/develop/content/zh.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/content/zh.md"
+  },
+  {
+    "path": "docs/manuals/develop/frontend/en.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/frontend/en.md"
+  },
+  {
+    "path": "docs/manuals/develop/frontend/ja.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/frontend/ja.md"
+  },
+  {
+    "path": "docs/manuals/develop/frontend/zh-hk.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/frontend/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/develop/frontend/zh-tw.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/frontend/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/develop/frontend/zh.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/frontend/zh.md"
+  },
+  {
+    "path": "docs/manuals/develop/operations/en.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/operations/en.md"
+  },
+  {
+    "path": "docs/manuals/develop/operations/ja.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/operations/ja.md"
+  },
+  {
+    "path": "docs/manuals/develop/operations/zh-hk.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/operations/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/develop/operations/zh-tw.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/operations/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/develop/operations/zh.md",
+    "status": "replaced",
+    "source": "origin/main:docs/manuals/develop/operations/zh.md"
+  },
+  {
+    "path": "docs/manuals/site/account/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/account/en.md"
+  },
+  {
+    "path": "docs/manuals/site/account/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/account/ja.md"
+  },
+  {
+    "path": "docs/manuals/site/account/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/account/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/site/account/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/account/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/site/account/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/account/zh.md"
+  },
+  {
+    "path": "docs/manuals/site/explore/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/explore/en.md"
+  },
+  {
+    "path": "docs/manuals/site/explore/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/explore/ja.md"
+  },
+  {
+    "path": "docs/manuals/site/explore/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/explore/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/site/explore/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/explore/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/site/explore/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/explore/zh.md"
+  },
+  {
+    "path": "docs/manuals/site/reading/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/reading/en.md"
+  },
+  {
+    "path": "docs/manuals/site/reading/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/reading/ja.md"
+  },
+  {
+    "path": "docs/manuals/site/reading/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/reading/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/site/reading/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/reading/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/site/reading/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/reading/zh.md"
+  },
+  {
+    "path": "docs/manuals/site/start/en.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/start/en.md"
+  },
+  {
+    "path": "docs/manuals/site/start/ja.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/start/ja.md"
+  },
+  {
+    "path": "docs/manuals/site/start/zh-hk.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/start/zh-hk.md"
+  },
+  {
+    "path": "docs/manuals/site/start/zh-tw.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/start/zh-tw.md"
+  },
+  {
+    "path": "docs/manuals/site/start/zh.md",
+    "status": "public-content-preserved",
+    "source": "origin/main:docs/manuals/site/start/zh.md"
+  },
+  {
+    "path": "docs/medle-game-integration.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/medle-game-integration.md"
+  },
+  {
+    "path": "docs/operations/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/operations/README.md"
+  },
+  {
+    "path": "docs/operations/release-runbook.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/operations/release-runbook.md"
+  },
+  {
+    "path": "docs/prompts/22-catalog-advanced-filter.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/prompts/22-catalog-advanced-filter.md"
+  },
+  {
+    "path": "docs/qa/2026-09-08-site-review.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/qa/2026-09-08-site-review.md"
+  },
+  {
+    "path": "docs/qa/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/qa/README.md"
+  },
+  {
+    "path": "docs/qa/account-ui/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/qa/account-ui/README.md"
+  },
+  {
+    "path": "docs/qa/experience-motion-2026-09-14.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/qa/experience-motion-2026-09-14.md"
+  },
+  {
+    "path": "docs/qa/release-v2-2/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/qa/release-v2-2/README.md"
+  },
+  {
+    "path": "docs/reader-component.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/reader-component.md"
+  },
+  {
+    "path": "docs/superpowers/plans/2026-07-12-contributor-roster-redesign.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/superpowers/plans/2026-07-12-contributor-roster-redesign.md"
+  },
+  {
+    "path": "docs/superpowers/plans/2026-07-12-contributor-sync-reliability.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/superpowers/plans/2026-07-12-contributor-sync-reliability.md"
+  },
+  {
+    "path": "docs/superpowers/specs/2026-07-04-contributor-roster-design.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/superpowers/specs/2026-07-04-contributor-roster-design.md"
+  },
+  {
+    "path": "docs/superpowers/specs/2026-07-12-contributor-roster-redesign-design.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/superpowers/specs/2026-07-12-contributor-roster-redesign-design.md"
+  },
+  {
+    "path": "docs/superpowers/specs/2026-07-12-contributor-sync-reliability-design.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/superpowers/specs/2026-07-12-contributor-sync-reliability-design.md"
+  },
+  {
+    "path": "docs/support-page.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/support-page.md"
+  },
+  {
+    "path": "docs/survey-labs.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/survey-labs.md"
+  },
+  {
+    "path": "docs/ui-component-research-2026-10-11.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/ui-component-research-2026-10-11.md"
+  },
+  {
+    "path": "docs/ui-controls.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/ui-controls.md"
+  },
+  {
+    "path": "docs/ui-icons.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/ui-icons.md"
+  },
+  {
+    "path": "docs/upload-funnel-audit.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/upload-funnel-audit.md"
+  },
+  {
+    "path": "docs/v3/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/README.md"
+  },
+  {
+    "path": "docs/v3/acceptance/2026-09-28-local-ux.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/2026-09-28-local-ux.md"
+  },
+  {
+    "path": "docs/v3/acceptance/2026-09-29-gallery-archive.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/2026-09-29-gallery-archive.md"
+  },
+  {
+    "path": "docs/v3/acceptance/2026-09-29-online-integration.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/2026-09-29-online-integration.md"
+  },
+  {
+    "path": "docs/v3/acceptance/2026-09-29-visual-iteration.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/2026-09-29-visual-iteration.md"
+  },
+  {
+    "path": "docs/v3/acceptance/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/README.md"
+  },
+  {
+    "path": "docs/v3/acceptance/article-system-acceptance-2026-09-20.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/article-system-acceptance-2026-09-20.md"
+  },
+  {
+    "path": "docs/v3/acceptance/chronicle-gallery-acceptance.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/chronicle-gallery-acceptance.md"
+  },
+  {
+    "path": "docs/v3/acceptance/classification-ui-acceptance.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/classification-ui-acceptance.md"
+  },
+  {
+    "path": "docs/v3/acceptance/creation-workbench-2026-09-23.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/creation-workbench-2026-09-23.md"
+  },
+  {
+    "path": "docs/v3/acceptance/creator-center-2026-09-23.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/creator-center-2026-09-23.md"
+  },
+  {
+    "path": "docs/v3/acceptance/experience-and-integration-acceptance.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/experience-and-integration-acceptance.md"
+  },
+  {
+    "path": "docs/v3/acceptance/frontend-refactor-2026-09-23.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/frontend-refactor-2026-09-23.md"
+  },
+  {
+    "path": "docs/v3/acceptance/full-site-qa-2026-09-20.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/full-site-qa-2026-09-20.md"
+  },
+  {
+    "path": "docs/v3/acceptance/hardcoding-audit.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/hardcoding-audit.md"
+  },
+  {
+    "path": "docs/v3/acceptance/home-refresh-fix.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/home-refresh-fix.md"
+  },
+  {
+    "path": "docs/v3/acceptance/manuals-2026-09-24.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/manuals-2026-09-24.md"
+  },
+  {
+    "path": "docs/v3/acceptance/online-integration-2026-09-23.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/online-integration-2026-09-23.md"
+  },
+  {
+    "path": "docs/v3/acceptance/release-check-2026-09-20.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/release-check-2026-09-20.md"
+  },
+  {
+    "path": "docs/v3/acceptance/ui-contribution-audit-2026-09-24.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/ui-contribution-audit-2026-09-24.md"
+  },
+  {
+    "path": "docs/v3/acceptance/visual-prototypes-2026-09-23.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/acceptance/visual-prototypes-2026-09-23.md"
+  },
+  {
+    "path": "docs/v3/article-database-rollout.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/article-database-rollout.md"
+  },
+  {
+    "path": "docs/v3/article-publishing.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/article-publishing.md"
+  },
+  {
+    "path": "docs/v3/content-layout.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/content-layout.md"
+  },
+  {
+    "path": "docs/v3/feature-maintenance.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/feature-maintenance.md"
+  },
+  {
+    "path": "docs/v3/gallery-r2.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/gallery-r2.md"
+  },
+  {
+    "path": "docs/v3/reports/README.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/reports/README.md"
+  },
+  {
+    "path": "docs/v3/reports/entry-review-2026-09-23.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/reports/entry-review-2026-09-23.md"
+  },
+  {
+    "path": "docs/v3/static-output-optimization.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/static-output-optimization.md"
+  },
+  {
+    "path": "docs/v3/translation-handoff.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/v3/translation-handoff.md"
+  },
+  {
+    "path": "docs/workspace-components.md",
+    "status": "historical-reference",
+    "source": "origin/main:docs/workspace-components.md"
+  }
+]

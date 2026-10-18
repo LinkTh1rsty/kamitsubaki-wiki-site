@@ -1,5 +1,6 @@
 ---
 import Icon from './Icon.astro';
+import { centralAccountFrontendOrigin } from '../lib/centralAccountOrigins.mjs';
 import ResponsiveImage from './ResponsiveImage.astro';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
 
@@ -20,7 +21,10 @@ const copy = resolveLocaleCopy({
 const pillars=resolveLocaleCopy({zh:['百科资料库','人物、音乐、企划与世界观','文章','史料、观点与艺术研究','全景时间轴','追溯事件与人物的交汇','图片档案','浏览人物、作品与设定图片'],ja:['データベース','人物・音楽・企画・世界観','記事','史料と芸術研究','年代記','出来事と人物の軌跡','画像アーカイブ','人物・作品・設定の画像を探す'],en:['Database','People, music, projects and worlds','Articles','Sources, perspectives and artistic research','Chronicle','Events and connected histories','Image archive','Browse people, works and design images']},locale);
 const labs = { key: 'labs', title: 'LABs · Beta', description: copy.labs, href: `/${locale}/labs/`, image: null };
 const game = { key: 'game', title: copy.gameTitle, description: gameHint ?? copy.game, href: gameHref ?? `/${locale}/games/memory-corridor`, image: '/games/memory-corridor/assets/creature-idle.png' };
-const chat = { key: 'chat', title: copy.chatTitle, description: copy.chat, href: 'https://chat.kamitsubaki.wiki/', image: '/images/artists/vwp.jpg' };
+const chatHref = import.meta.env.PUBLIC_WORKSPACE_ISOLATED === 'true'
+  ? `${centralAccountFrontendOrigin(import.meta.env.PUBLIC_AI_OBSERVER_API_BASE, null, 'companion')}/`
+  : 'https://chat.kamitsubaki.wiki/';
+const chat = { key: 'chat', title: copy.chatTitle, description: copy.chat, href: chatHref, image: '/images/artists/vwp.jpg' };
 const cards = reader ? [game, labs, chat] : [labs, game, chat];
 ---
 

@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # KAMITSUBAKI FAN WIKI 功能型数据集架构设计规范 (Feature Data Architecture)
 
 > **版本**：v1.0.0 (Master Feature Specification)  

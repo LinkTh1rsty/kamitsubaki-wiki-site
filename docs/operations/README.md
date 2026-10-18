@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # 前台检查索引
 
 - [本地开发与前台验收](../manuals/develop/operations/zh.md)

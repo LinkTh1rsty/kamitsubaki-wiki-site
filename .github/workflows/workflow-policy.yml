@@ -1,0 +1,17 @@
+name: Workflow policy
+on:
+  pull_request:
+  push:
+    branches: [main, 'release/**', 'task/**']
+permissions:
+  contents: read
+jobs:
+  policy:
+    name: Workflow policy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python3 scripts/check-workflow.py

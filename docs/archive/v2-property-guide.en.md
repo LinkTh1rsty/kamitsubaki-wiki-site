@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # V2 historical reference — superseded by Metadata Schema v2
 
 ## Property block guide

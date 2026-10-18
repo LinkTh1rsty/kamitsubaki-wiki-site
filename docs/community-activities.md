@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # 使用观测者企划
 
 [观测者企划活动日历](https://kamitsubaki.wiki/zh/community/activities/)收录神椿社群的聚会、应援、同人创作和线上活动，与官方演出日历分别维护。

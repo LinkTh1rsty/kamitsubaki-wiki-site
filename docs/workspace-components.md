@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # Shared workspace header and navigation
 
 Contribution hub, My space and all LABs sections use `WorkspaceHeader.astro` and `WorkspaceNavigation.astro`. `workspaceNavigation.mjs` owns the moving indicator, sticky compact navigation, overflow reveal, reduced motion and observer cleanup. `uiMotion.mjs` owns panel entry animation.

@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # 本地体验与动效检查（2026-09-14）
 
 范围：`codex/wiki-editor-pr`，本地预览 `http://localhost:4358`。此记录不是线上验收。

@@ -7,21 +7,6 @@ title: Frontend development and acceptance
 summary: Check frontend changes by scope and distinguish local behavior from real submissions.
 ---
 
-## Local setup
+main is the production source. Task and external PRs keep main as their target; the coordinator integrates fixed original commits into a short-lived release branch. Check and review every member, then validate the complete candidate. Only explicit user approval of that fixed manifest permits a single merge-commit release. Normal production uses Cloudflare Git integration with node scripts/release-build.mjs. Recheck main and the public release marker, never bypass the release entry point with an older build, and record the actual source commit, deployment ID, account navigation and gallery regression results.
 
-Check the frontend branch and pending changes, install Node.js and pnpm, then run `pnpm install --frozen-lockfile` and `pnpm dev`. Edit manuals only under this repository's `docs/manuals/`, then run `node scripts/sync-docs.mjs` for the workspace mirror. Never put secrets in the repository, screenshots, or browser logs. Server operation, releases, and incident response follow private maintainer procedures and are not documented here.
-
-## Checks by change
-
-| Frontend change | Suggested checks |
-| --- | --- |
-| Manual text and links | `node scripts/check-docs.mjs`, `node scripts/sync-docs.mjs --check`. |
-| Taxonomy and entry metadata | `pnpm validate:content`; inspect affected languages and directories. |
-| Pages, controls, and reader | `pnpm check`, `pnpm build`, then use the affected desktop and narrow-screen flows. |
-| Submission UI | Local drafts, sign-in state, errors, receipt, and Creator Center navigation. |
-
-A successful build proves only that static output can be generated. Label mocked responses, browser preview, and real account submissions separately in acceptance records. Preserve existing entry prose and review records when using test data.
-
-## Frontend release boundary
-
-Record the frontend candidate commit, build result, affected pages, visible regressions, and restore version. Before release, maintainers confirm the dependent service is available and verify the real entry, article, and gallery paths. If the page disagrees with the service state, pause the frontend release and retain a reproducible URL and receipt number; server diagnosis and recovery follow private procedures. This public manual contains no server repository, configuration, data migration, or deployment commands.
+[Repository maintenance / 仓库维护 / 保守手順](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/maintenance/README.md)

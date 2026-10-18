@@ -1,3 +1,5 @@
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+
 # 前台架构索引
 
 - [前台架构总览](../architecture.md) · [English](../architecture.en.md) · [日本語](../architecture.ja.md)
