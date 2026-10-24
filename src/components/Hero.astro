@@ -39,9 +39,10 @@ const verticalRailHeight = hasCjkVerticalText ? 'h-[22rem] md:h-[24rem]' : 'h-72
     <p class="mb-6 text-[9px] font-light text-white/40 tracking-kamidest-lg reveal-up md:text-xs">
       {hero.eyebrow}
     </p>
-    <h2 class="text-5xl font-extralight uppercase tracking-[0.12em] text-white reveal-up mix-blend-overlay sm:text-7xl md:text-8xl lg:text-[10rem]" style="transition-delay: 0.08s;">
+    <h1 class="text-5xl font-extralight uppercase tracking-[0.12em] text-white reveal-up mix-blend-overlay sm:text-7xl md:text-8xl lg:text-[10rem]" style="transition-delay: 0.08s;">
       {hero.title}
-    </h2>
+    </h1>
+    <slot />
     <div class="mx-auto mt-10 h-18 w-px bg-white/20 reveal-up sm:mt-12 sm:h-24" style="transition-delay: 0.24s;"></div>
     <p class="mx-auto mt-8 max-w-xs text-[11px] leading-7 text-white/36 lg:hidden">
       {hero.leftVertical}

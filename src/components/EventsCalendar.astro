@@ -22,6 +22,8 @@ type EventsCalendarCopy = {
   selectDateLabel: string;
   emptyDay: string;
   eventCountLabel: string;
+  artistFilterLabel: string;
+  allArtistsLabel: string;
   weekdays: string[];
 };
 
@@ -50,6 +52,14 @@ const apiBase = import.meta.env.PUBLIC_EVENTS_API_BASE || 'https://kamitsubaki-e
   </header>
 
   <p class="events-calendar__intro">{copy.calendarIntro}</p>
+
+  <div class="events-calendar__filter" data-events-calendar-filter hidden>
+    <label data-events-calendar-filter-label>{copy.artistFilterLabel}</label>
+    <select data-events-calendar-artist aria-label={copy.artistFilterLabel}>
+      <option value="">{copy.allArtistsLabel}</option>
+    </select>
+  </div>
+
   <div class="events-calendar__month" data-events-calendar-month aria-live="polite"></div>
 
   <CalendarMonth locale={languageTag} weekdays={copy.weekdays}/>

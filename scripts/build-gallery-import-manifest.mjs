@@ -1,12 +1,13 @@
 import {readFile,readdir,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-import {join,relative,resolve} from 'node:path';
+import {join,relative,resolve,sep} from 'node:path';
 import YAML from 'yaml';
 import entities from '../src/data/gallery-entities.json' with {type:'json'};
 
+const posix=p=>p.split(sep).join('/');
 const contentRoot=resolve('src/content'),publicRoot=resolve('public'),entityIds=new Set(entities.map(entity=>entity.id));
-async function walk(dir){const result=[];for(const entry of await readdir(dir,{withFileTypes:true})){const path=join(dir,entry.name);if(entry.isDirectory())result.push(...await walk(path));else if(entry.name.endsWith('.md'))result.push(path);}return result;}
-async function walkImages(dir){const result=[];for(const entry of await readdir(dir,{withFileTypes:true})){const path=join(dir,entry.name);if(entry.isDirectory())result.push(...await walkImages(path));else if(/\.(?:png|jpe?g|webp|gif|avif)$/i.test(entry.name))result.push(path);}return result;}
+async function walk(dir){const result=[];for(const entry of await readdir(dir,{withFileTypes:true})){const path=posix(join(dir,entry.name));if(entry.isDirectory())result.push(...await walk(path));else if(entry.name.endsWith('.md'))result.push(path);}return result;}
+async function walkImages(dir){const result=[];for(const entry of await readdir(dir,{withFileTypes:true})){const path=posix(join(dir,entry.name));if(entry.isDirectory())result.push(...await walkImages(path));else if(/\.(?:png|jpe?g|webp|gif|avif)$/i.test(entry.name))result.push(path);}return result;}
 const digest=value=>createHash('sha256').update(value).digest('hex');
 const sources=new Map(),missing=[];
 for(const path of (await walk(contentRoot)).sort()){
@@ -18,7 +19,7 @@ for(const path of (await walk(contentRoot)).sort()){
  for(const relation of data.relations||[])if(entityIds.has(relation.target))suggestions.add(relation.target);
  for(const sourceUrl of new Set(matches)){
   if(sourceUrl.startsWith('/images/contributors/')||/placehold\.co|placeholder/i.test(sourceUrl))continue;
-  let hash=null;if(sourceUrl.startsWith('/images/')){const file=resolve(publicRoot,'.'+sourceUrl);if(!file.startsWith(publicRoot+'/'))continue;try{hash=digest(await readFile(file));}catch{missing.push({sourceUrl,contentPath});continue;}}
+  let hash=null;if(sourceUrl.startsWith('/images/')){const file=posix(resolve(publicRoot,'.'+sourceUrl));if(!file.startsWith(posix(publicRoot)+'/'))continue;try{hash=digest(await readFile(file));}catch{missing.push({sourceUrl,contentPath});continue;}}
   const key=hash||'url-'+digest(sourceUrl);let item=sources.get(key);
   if(!item){item={id:'asset-'+key.slice(0,64),sourceUrl,sha256:hash,references:[],suggestedEntities:[]};sources.set(key,item);}
   item.references.push({kind:'content',path:contentPath,locale,entityId:data.id||null});
@@ -37,6 +38,6 @@ for(const file of (await walkImages(resolve(publicRoot,'images'))).sort()){
 }
 const items=[...sources.values()].map(item=>({...item,references:[...new Map(item.references.map(ref=>[JSON.stringify(ref),ref])).values()],suggestedEntities:[...new Set(item.suggestedEntities)]})).sort((a,b)=>a.id.localeCompare(b.id));
 const output=JSON.stringify({schemaVersion:1,items},null,2)+'\n',target=resolve('public/gallery-import-manifest.json');
-if(process.argv.includes('--check')){if(await readFile(target,'utf8').catch(()=>null)!==output)throw Error('图库旧图扫描清单需要更新');}else await writeFile(target,output);
+if(process.argv.includes('--check')){if((await readFile(target,'utf8').catch(()=>null)||'').replace(/\r\n/g,'\n')!==output)throw Error('图库旧图扫描清单需要更新');}else await writeFile(target,output);
 console.log(`旧图候选 ${items.length} 张（其中未关联词条的站内素材 ${items.filter(item=>item.references.every(ref=>ref.kind==='asset')).length} 张）；缺失文件引用 ${missing.length} 条。`);
 if(missing.length)console.log(missing.slice(0,5));

@@ -1,0 +1,14 @@
+---
+const {module,copy:c,snapshot}=Astro.props;
+---
+{module==='atlas' && <div class="archive-actions"><button type="button" data-export-route="gpx">{c.exportGpx}</button><button type="button" data-export-route="geojson">{c.exportGeoJson}</button><p>{c.missingCoordinates}</p></div>}
+{['music','live-mode','visual','museum','statistics'].includes(module) && <div class="archive-actions"><button type="button" data-export-research="json">{c.exportJson}</button><button type="button" data-export-research="csv">{c.exportCsv}</button><button type="button" data-export-research="zip">{c.exportZip}</button></div>}
+{module==='live-mode' && <section class="archive-space"><h2>{c.compareSetlists}</h2><p>{c.matrixNote}</p><form data-setlist-compare class="archive-form"><label>{c.selectLives}<textarea name="lives" rows="4" maxlength="1000" required/></label><button>{c.compare}</button></form><div data-setlist-comparison></div></section>}
+{['visual','museum'].includes(module) && <div data-visual-chronology class="archive-space"></div>}
+{module==='statistics' && <div data-statistics-coverage class="archive-space"></div>}
+{module==='collections' && <><p>{c.privateDraft}</p><section class="archive-space"><h2>{c.deviceDrafts}</h2><div data-device-drafts></div><label>{c.importDraft}<input type="file" data-import-collection accept="application/json"/></label></section><section data-collection-preview class="archive-space" hidden tabindex="-1"></section></>}
+{module==='open-data' && <section class="archive-space" data-open-data>
+ <p>{c.openDataIntro}</p><div class="archive-filters"><label>{c.snapshot}<select data-data-snapshot><option value={snapshot.snapshot}>{c.current} · {snapshot.snapshot.slice(0,12)}</option></select></label><label>{c.resource}<select data-data-resource>{['entities','relations','events','evidence','physical','issues','credits'].map(resource=><option value={resource}>{resource}</option>)}</select></label><button type="button" data-data-verify>{c.verify}</button></div>
+ <p data-data-status role="status"></p><div class="archive-actions"><button type="button" data-data-download="json" disabled>{c.exportJson}</button><button type="button" data-data-download="csv" disabled>{c.exportCsv}</button><button type="button" data-data-download="zip" disabled>{c.exportZip}</button><a href="/api/archive/v1/schema.json">{c.schema}</a><a href="/api/archive/v1/catalogue.json">{c.history}</a></div>
+ <h2>{c.citation}</h2><pre data-data-citation></pre><pre data-data-preview class="archive-json-preview"></pre>
+ </section>}

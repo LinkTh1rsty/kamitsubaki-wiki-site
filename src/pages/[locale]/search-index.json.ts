@@ -19,7 +19,7 @@ export function getStaticPaths() {
 }
 
 function articleRoute(collection: string, id: string) {
-  const parts = id.split('/');
+  const parts = id.normalize('NFC').split('/');
   const locale = parts.pop() || 'zh';
   return `/${locale}/${collection}/${parts.join('/')}/`;
 }

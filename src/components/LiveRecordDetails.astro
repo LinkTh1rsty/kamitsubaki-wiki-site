@@ -1,0 +1,25 @@
+---
+import type {ResolvedEntity,EntityRegistry} from '../lib/entityRegistry.mjs';
+import ReaderDisclosure from './ReaderDisclosure.astro';
+import ContextAction from './ContextAction.astro';
+import {liveArchiveRecord} from '../lib/liveArchive.mjs';
+import {archiveCopy} from '../lib/archiveCopy.mjs';
+const {entry,registry,locale}=Astro.props as {entry:ResolvedEntity;registry:EntityRegistry;locale:string};
+const r=liveArchiveRecord(entry,registry,locale),c=archiveCopy(locale);
+---
+<section class="live-record-details" data-live-details>
+  <div class="live-record-link"><ContextAction href={`/${locale}/explore/lives/`} tone="quiet">{c.live.browse} ↗</ContextAction></div>
+  <dl class="live-record-facts">
+    <dt>{c.dates}</dt><dd>{r.date||c.unknownDate}{r.endDate&&r.endDate!==r.date?` — ${r.endDate}`:''}</dd>
+    {r.venue&&<><dt>{c.venue}</dt><dd>{r.venue}{r.location?` · ${r.location}`:''} · {c.live.modes[r.mode]}</dd></>}
+    {[[c.headliners,r.headliners],[c.guests,r.guests],[c.organizer,r.organizer?[r.organizer]:[]]].map(([label,refs]:any)=>refs.length>0&&<><dt>{label}</dt><dd>{refs.map((ref:any,index:number)=><>{index>0&&' / '}{ref.path?<a href={ref.path}>{ref.title}</a>:ref.title}</>)}</dd></>)}
+  </dl>
+  {(r.setlist.length>0||r.needsSetlist)&&<ReaderDisclosure id="entry-setlist" title={c.live.setlist} count={r.setlist.length}>
+    <p class="live-record-note">{r.setlist.length?c.live.setlistNote:c.live.noSetlistNote}</p>
+    {r.setlist.length>0&&<table class="live-setlist-table"><thead><tr><th scope="col">{c.live.positions}</th><th scope="col">{c.live.setlist}</th><th scope="col">{locale==='en'?'Duration':locale==='ja'?'長さ':'时长'}</th></tr></thead><tbody>{r.setlist.map(row=><tr><td>{row.number||'—'}</td><td>{row.path?<a href={row.path}>{row.title}</a>:row.title||c.unnamed}{row.artist&&<small>{row.artist}</small>}</td><td>{row.duration||'—'}</td></tr>)}</tbody></table>}
+    {r.editHref&&<ContextAction href={r.editHref} tone="quiet">{c.live.add} →</ContextAction>}
+  </ReaderDisclosure>}
+</section>
+<style>
+.live-record-details{margin:24px 0;color:var(--reader-text,var(--theme-fg))}.live-record-link{display:flex;justify-content:flex-end;border-top:1px solid var(--reader-line);padding-top:8px}.live-record-facts{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px 22px;margin:18px 0 26px;font:13px/1.8 var(--font-sans)}.live-record-facts dt{color:var(--reader-muted)}.live-record-facts dd{margin:0;overflow-wrap:anywhere}.live-record-facts a,.live-setlist-table a{color:var(--theme-accent-color);text-underline-offset:4px}.live-record-note{font:12px/1.9 var(--font-sans);color:var(--reader-muted)}.live-setlist-table{table-layout:fixed;width:100%;border-collapse:collapse;margin:20px 0;font:13px/1.8 var(--font-sans)}.live-setlist-table th,.live-setlist-table td{padding:12px 8px;text-align:left;border-bottom:1px solid var(--reader-line);overflow-wrap:anywhere;vertical-align:top}.live-setlist-table th{font-weight:400;color:var(--reader-muted)}.live-setlist-table th:first-child{width:18%}.live-setlist-table th:last-child{width:18%}.live-setlist-table small{display:block;margin-top:4px;color:var(--reader-muted)}
+</style>

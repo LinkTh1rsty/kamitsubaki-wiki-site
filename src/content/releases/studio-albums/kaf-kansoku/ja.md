@@ -82,6 +82,59 @@ entityType: "work-release"
 releaseType: "album"
 primaryArtist: "kaf"
 summary: "デビューから約11か月の歩みをまとめた1stアルバム。パッケージのα／βは同一曲目で、同梱物とビジュアルが異なる。"
+sources:
+  - id: official-kansoku-alpha
+    title: 観測α · 花譜 Official Website
+    url: https://kaf.kamitsubaki.jp/discography/20190911/107/
+    type: official
+    publisher: KAMITSUBAKI STUDIO
+  - id: official-kansoku-beta
+    title: 観測β · 花譜 Official Website
+    url: https://kaf.kamitsubaki.jp/discography/20190911/108/
+    type: official
+    publisher: KAMITSUBAKI STUDIO
+editions:
+  - id: alpha
+    name: 観測α
+    format: CD BOX
+    sourceIds:
+      - official-kansoku-alpha
+    bonusItems:
+      - 写真集「透明」24P
+      - 音声劇「御伽噺 -第零幕-」CD
+      - PALOW. artwork goods
+      - ステッカーα・缶バッジα
+  - id: beta
+    name: 観測β
+    format: CD BOX
+    sourceIds:
+      - official-kansoku-beta
+    bonusItems:
+      - 写真集「透明」24P
+      - 音声劇「御伽噺 -第一幕-」CD
+      - shirone artwork goods
+      - ステッカーβ・缶バッジβ
+evidence:
+  - id: release-date
+    field: releaseDate
+    sourceIds:
+      - official-kansoku-alpha
+      - official-kansoku-beta
+    checkedAt: "2026-10-13"
+    status: reviewed
+  - id: editions
+    field: editions
+    sourceIds:
+      - official-kansoku-alpha
+      - official-kansoku-beta
+    checkedAt: "2026-10-13"
+    status: reviewed
+  - id: tracks
+    field: tracks
+    sourceIds:
+      - official-kansoku-alpha
+    checkedAt: "2026-10-13"
+    status: reviewed
 ---
 
 ## 作品概要

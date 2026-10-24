@@ -1,0 +1,7 @@
+---
+import ArchiveFeaturePage from '../../../components/ArchiveFeaturePage.astro';
+import {supportedLocales} from '../../../lib/i18n.mjs';
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const {locale='zh'}=Astro.params;
+---
+<ArchiveFeaturePage locale={locale} module="live-mode"/>

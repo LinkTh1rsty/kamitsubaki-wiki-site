@@ -1,0 +1,3 @@
+# Pinned UI artifacts are verified byte for byte against their manifest.
+public/_ui/** text eol=lf
+public/support-qr/*.svg text eol=lf

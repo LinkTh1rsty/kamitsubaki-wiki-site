@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
 import { JSDOM } from 'jsdom';
 import { labsCopy } from '../src/lib/labsCopy.mjs';
 import { applyLibraryChanges, libraryChanges } from '../src/lib/accountLibrary.mjs';
@@ -10,7 +11,7 @@ const { build } = createRequire(require.resolve('vite'))('esbuild');
 const bundle = await build({
   stdin: {
     contents: "export { initializeLibrary } from './src/scripts/personalLibrary.js'; export { setLibraryOwner } from './src/lib/personalLibrary.mjs';",
-    resolveDir: new URL('..', import.meta.url).pathname,
+    resolveDir: fileURLToPath(new URL('..', import.meta.url)),
   },
   bundle: true, write: false, platform: 'browser', format: 'iife',
   globalName: 'WikiLibrary', footer: { js: 'globalThis.WikiLibrary = WikiLibrary;' },

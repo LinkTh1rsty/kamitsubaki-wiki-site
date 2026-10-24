@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kamitsubaki.wiki/api/archive/v1/schema.json",
+  "title": "KAMITSUBAKI Archive Snapshot v1",
+  "type": "object",
+  "required": ["version", "snapshot", "entities", "relations", "events", "evidence", "physical", "issues"],
+  "properties": {
+    "version": {"const": 1},
+    "snapshot": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "entities": {"type": "array", "items": {"$ref": "#/$defs/entity"}},
+    "relations": {"type": "array", "items": {"type": "object", "required": ["source", "target", "type"], "properties": {"source": {"$ref": "#/$defs/id"}, "target": {"$ref": "#/$defs/id"}, "type": {"type": "string"}}}},
+    "events": {"type": "array", "items": {"type": "object", "required": ["id", "date", "text"], "properties": {"id": {"$ref": "#/$defs/id"}, "date": {"type": "object", "required": ["start", "precision"], "properties": {"start": {"type": "string"}, "precision": {"enum": ["day", "month", "year"]}}}, "text": {"type": "object"}}}},
+    "evidence": {"type": "array", "items": {"type": "object", "required": ["id", "entityId", "field", "sourceIds", "status", "sources"], "properties": {"id": {"type": "string"}, "entityId": {"$ref": "#/$defs/id"}, "field": {"type": "string"}, "sourceIds": {"type": "array", "minItems": 1, "items": {"type": "string"}}, "status": {"enum": ["unreviewed", "reviewed", "disputed"]}, "sources": {"type": "array"}}}},
+    "physical": {"type": "array"},
+    "issues": {"type": "array"}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "narrative": {"type": "object", "required": ["locale", "title", "path"], "properties": {"locale": {"enum": ["zh", "zh-tw", "zh-hk", "ja", "en"]}, "title": {"type": "string"}, "summary": {"type": "string"}, "path": {"type": "string", "pattern": "^/(zh|zh-tw|zh-hk|ja|en)/"}, "generated": {"type": "boolean"}}},
+    "entity": {"type": "object", "required": ["id", "type", "canonicalLocale", "facts", "narratives", "datePrecision", "completeness"], "properties": {"id": {"$ref": "#/$defs/id"}, "type": {"type": "string"}, "canonicalLocale": {"enum": ["zh", "ja", "en"]}, "facts": {"type": "object"}, "narratives": {"type": "object", "additionalProperties": {"$ref": "#/$defs/narrative"}}, "datePrecision": {"enum": ["day", "month", "year", null]}, "completeness": {"type": "object", "required": ["score", "missing"], "properties": {"score": {"type": "number", "minimum": 0, "maximum": 100}, "missing": {"type": "array"}}}}}
+  }
+}

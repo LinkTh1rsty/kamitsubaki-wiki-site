@@ -1,0 +1,18 @@
+---
+interface Props { record:any; kind:'lives'|'credits'; copy:any; locale:string; }
+const {record:r,kind,copy:c,locale}=Astro.props as Props;
+const people=kind==='lives'?r.headliners:r.artists;
+---
+<article class="archive-record" data-archive-record={r.id}>
+  <header><time datetime={r.date||undefined}>{r.date||c.unknownDate}{r.endDate&&r.endDate!==r.date?` — ${r.endDate}`:''}</time><span>{kind==='lives'?c.live.types[r.eventType]||r.eventType:c.credits.credits}</span></header>
+  <h2><a href={r.path}>{r.title}</a></h2>
+  {r.summary&&<p class="archive-record-summary">{r.summary}</p>}
+  <dl>
+    {kind==='lives'&&r.venue&&<><dt>{c.venue}</dt><dd>{r.venue}{r.location?` · ${r.location}`:''} · {c.live.modes[r.mode]}</dd></>}
+    {people.length>0&&<><dt>{kind==='lives'?c.headliners:c.artist}</dt><dd>{people.map((person:any,index:number)=><>{index>0&&' / '}{person.path?<a href={person.path}>{person.title}</a>:person.title}</>)}</dd></>}
+    {kind==='lives'&&r.guests.length>0&&<><dt>{c.guests}</dt><dd>{r.guests.map((person:any,index:number)=><>{index>0&&' / '}{person.path?<a href={person.path}>{person.title}</a>:person.title}</>)}</dd></>}
+  </dl>
+  {kind==='credits'&&<ul aria-label={c.credits.credits}>{r.credits.map((credit:any)=><li><span>{c.roles[credit.role]||credit.role}</span><a data-archive-filter-link href={`/${locale}/explore/credits/?creator=${encodeURIComponent(credit.key)}`}>{credit.title}</a>{!credit.entityId&&<small>{c.credits.named}</small>}</li>)}</ul>}
+  {kind==='lives'&&(r.setlist.length>0||r.needsSetlist)&&<p class="archive-note">{r.setlist.length?c.live.setlistCount.replace('{count}',String(r.setlist.length)):c.live.noSetlist}</p>}
+  <div class="archive-record-actions"><a href={r.path}>{c.open} ↗</a>{kind==='lives'&&r.needsSetlist&&r.editHref&&<a href={r.editHref}>{c.live.add} →</a>}</div>
+</article>

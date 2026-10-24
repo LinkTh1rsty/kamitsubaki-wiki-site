@@ -1,0 +1,11 @@
+---
+locale: "ja"
+translationKey: "2025-10-18-5th-one-man-liv"
+date: "2025.10.18"
+eventDate: "2025-10-18"
+type: "OFFICIAL"
+title: "【花譜】花譜5th  ONE-MAN LIVE「宿声 / 深愛」 ぴあアリーナMMにて26年3月1日(日)開催決定！"
+order: 457
+---
+
+

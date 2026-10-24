@@ -1,4 +1,5 @@
 ---
+
 schemaVersion: 2
 id: onuma-parsley
 entityType: person
@@ -8,6 +9,8 @@ roles:
   - composer
 lifecycle:
   activity: unknown
+presentation:
+  image: "/images/artists/onuma-parsley.jpg"
 contentStatus: published
 locale: ja
 summary: 神椿創設時からの初期メンバー。ボカロPとしての活動を経て自作自演のシンガーソングライターへ進化。

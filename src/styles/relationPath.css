@@ -1,0 +1,21 @@
+.relation-path{margin:0 0 40px;padding:24px;border:1px solid var(--workspace-line,var(--b-line));border-radius:var(--workspace-radius,12px);background:var(--workspace-surface,var(--b-soft))}
+.relation-path-kicker{font:10px/1.5 var(--font-mono);letter-spacing:.14em;color:var(--b-muted)}
+.labs-shell .relation-path h2{margin:8px 0;font-size:25px}
+.relation-path header p,.relation-path-options p,.relation-path-note{color:var(--b-muted);font-size:12px}
+.relation-path-inputs{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) auto;gap:12px;align-items:end;margin-top:22px}
+.relation-path-inputs label{min-width:0}
+.relation-path-inputs button{min-height:46px}
+.relation-path-options{display:flex;align-items:baseline;gap:12px 24px;flex-wrap:wrap;margin-top:14px}
+.relation-path-options label{display:flex;align-items:center;gap:8px;white-space:nowrap}
+.relation-path-options input{accent-color:var(--b-accent)}
+.relation-path-options p{margin:0}
+.relation-path [data-path-status]{margin:18px 0 8px;font-size:13px;color:var(--b-accent)}
+.relation-path-results{list-style:none;margin:0;padding:0}
+.relation-path-entry{display:flex;align-items:center;gap:16px;padding:13px 0;min-width:0}
+.relation-path-entry>span{font:11px var(--font-mono);color:var(--b-muted)}
+.relation-path-entry>a{flex:1;overflow-wrap:anywhere;font:500 17px/1.6 var(--font-serif)}
+.relation-path-entry>button{flex-shrink:0}
+.relation-path-connection{margin-left:25px;padding:10px 0 10px 18px;border-left:1px solid var(--b-accent);display:flex;align-items:baseline;flex-wrap:wrap;gap:8px 20px;font-size:12px;color:var(--b-muted)}
+.relation-path-connection>a{text-decoration:underline;text-underline-offset:3px}
+.labs-shell .relation-path-note{margin:20px 0 0;padding-top:14px;border-top:1px solid var(--b-line);font-size:12px}
+@media(max-width:760px){.relation-path{padding:18px}.relation-path-inputs{grid-template-columns:minmax(0,1fr) auto}.relation-path-inputs>label:last-of-type{grid-column:1}.relation-path-inputs>button[type=submit]{grid-column:1/-1}.relation-path-entry{gap:10px;flex-wrap:wrap}.relation-path-entry>button{margin-left:25px;min-height:36px}.relation-path-entry>a{min-width:65%}}

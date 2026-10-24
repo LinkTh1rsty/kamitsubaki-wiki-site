@@ -17,7 +17,7 @@ import {getEntityRegistry} from '../lib/entityRegistry.mjs';
 import {entityLabel} from '../lib/entityLabels.mjs';
 import {imageAttributes} from '../lib/imageAssets.mjs';
 import {DATABASE_ARTWORK_FALLBACKS} from '../lib/databaseArtwork.mjs';
-import {toDatabaseRecord,collectDatabaseFacets} from '../lib/databaseBrowse.mjs';
+import {toDatabaseRecord,collectDatabaseFacets,databaseCollectionCounts} from '../lib/databaseBrowse.mjs';
 import {databaseBrowseCopy} from '../lib/databaseBrowseCopy.mjs';
 import {foldCjkSearchText} from '../lib/cjkSearch.mjs';
 import '../styles/databaseBrowse.css';
@@ -43,7 +43,7 @@ const records=entities.flatMap(entity=>{
   return [{...record,searchText,typeLabel,imageProps,sortOrder:entity.data.presentation?.sortOrder??999}];
 }).sort((a,b)=>collectionOrder.indexOf(a.collection)-collectionOrder.indexOf(b.collection)||a.sortOrder-b.sortOrder||a.title.localeCompare(b.title,locale));
 const facets=collectDatabaseFacets(records);
-const collections=collectionOrder.filter(id=>records.some(record=>record.collection===id)).map(id=>({id,label:copy.collections[id],count:records.filter(record=>record.collection===id).length}));
+const collections=databaseCollectionCounts(records).map(row=>({...row,label:copy.collections[row.id]}));
 const initial=records.slice(0,24);
 const payload=JSON.stringify({records,facets,copy}).replace(/</g,'\\u003c');
 ---
@@ -73,12 +73,14 @@ const payload=JSON.stringify({records,facets,copy}).replace(/</g,'\\u003c');
         <div class="database-results-bar">
           <p data-database-count role="status" aria-live="polite">{copy.shown} {initial.length} / {records.length} {copy.records}</p>
           <WorkspaceButton type="reset" class="database-clear dui-btn dui-btn-ghost" data-database-clear hidden>{copy.clear}</WorkspaceButton>
+          <label class="database-sort"><span>{copy.sort}</span><WorkspaceControl as="select" name="sort">{Object.entries(copy.sortOptions).map(([value,label])=><option value={value}>{label}</option>)}</WorkspaceControl></label>
           <div class="database-view-switch" role="group" aria-label={locale==='en'?'Record layout':locale==='ja'?'表示形式':'记录视图'}>
             <WorkspaceButton type="button" class="dui-btn dui-btn-ghost" data-database-view="grid" aria-pressed="true"><Icon name="layout-grid" />Grid</WorkspaceButton>
             <WorkspaceButton type="button" class="dui-btn dui-btn-ghost" data-database-view="list" aria-pressed="false"><Icon name="list" />List</WorkspaceButton>
           </div>
         </div>
       </form>
+      <div class="database-active-filters" data-database-active-filters aria-label={copy.activeFilters} hidden></div>
       <div class="database-list-heading" aria-hidden="true"><span>{copy.record}</span><span>{copy.type}</span><span>{copy.artist}</span><span>{copy.year}</span></div>
       <ul class="database-records" data-database-records>{initial.map(record=><DatabaseRecord record={record} placeholderLabel={copy.imagePending}/>)}</ul>
       <div class="database-empty" data-database-empty hidden><p>{copy.empty}</p><span>{copy.emptyHint}</span><WorkspaceButton type="button" data-database-empty-clear>{copy.clear}</WorkspaceButton></div>

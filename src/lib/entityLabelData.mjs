@@ -12,4 +12,6 @@ export const entityLabels={
  'performed-by':['演唱','Performed by','歌唱'],'credited-to':['制作','Created by','制作'],'includes-track':['收录曲目','Included track','収録曲'],'performed-track':['现场曲目','Setlist track','披露曲'],'headlined-by':['主要出演','Headliner','主な出演者'],'guest-performer':['嘉宾','Guest performer','ゲスト'],'discusses':['相关研究','Discussed entity','関連研究'],'primaryArtist':['主要艺人','Primary artist','主要アーティスト'],'label':['发行厂牌','Label','レーベル'],'parentOrg':['上级机构','Parent organization','上位組織'],'organizer':['主办方','Organizer','主催'],'belongToUniverse':['所属世界观','Universe','所属世界観'],
  'active':['活动中','Active','活動中'],'hiatus':['暂停活动','On hiatus','活動休止'],'ended':['活动结束','Activity ended','活動終了'],'unknown':['未确认','Unconfirmed','未確認'],'historical':['历史关联','Historical','過去の関係'],
  'lead-vocal':['主唱','Lead vocal','主唱'],'guest-vocal':['客座演唱','Guest vocal','ゲスト歌唱'],'composer':['作曲','Composer','作曲'],'lyricist':['作词','Lyricist','作詞'],'arranger':['编曲','Arranger','編曲'],'illustrator':['插画','Illustrator','イラスト'],'producer':['制作人','Producer','プロデューサー'],'literature-rock':['文学摇滚','Literature rock','文学ロック'],
+ "version-of":["版本关系","Version of","バージョン元"],
+ "has-version":["衍生版本","Versions","各バージョン"],
 };

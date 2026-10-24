@@ -1,4 +1,5 @@
 ---
+
 schemaVersion: 2
 id: onuma-parsley
 entityType: person
@@ -8,6 +9,8 @@ roles:
   - composer
 lifecycle:
   activity: unknown
+presentation:
+  image: "/images/artists/onuma-parsley.jpg"
 contentStatus: published
 locale: en
 summary: Founding composer of KAMITSUBAKI STUDIO, evolving from acclaimed

@@ -6,13 +6,13 @@ for f in ['AGENTS.md','CONTRIBUTING.md','README.md','CLAUDE.md','GEMINI.md','.gi
 for f in ['CLAUDE.md','GEMINI.md']:
  assert '@AGENTS.md' in (r/f).read_text(),f
 for f in ['README.md','CONTRIBUTING.md','maintenance/README.md']:
- text=re.sub(r'```.*?```','',(r/f).read_text(),flags=re.S)
+ text=re.sub(r'```.*?```','',(r/f).read_text(encoding='utf-8'),flags=re.S)
  for target in re.findall(r'\[[^\]]*\]\(([^)]+)\)',text):
   if re.match(r'^[a-z]+:|^#|^/',target):continue
   assert (r/f).parent.joinpath(target.split('#')[0]).exists(),target
 mirror=r/'scripts/sync-docs.mjs'
 if mirror.exists():
- assert '../../docs/' not in mirror.read_text(),'Workspace mirror generator is forbidden'
+ assert '../../docs/' not in mirror.read_text(encoding='utf-8'),'Workspace mirror generator is forbidden'
 print('Workflow entry files and local links valid; no workspace mirror generator')
 
 # All build/sync jobs select the same exact patch and verify the actual binary.

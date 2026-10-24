@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
+import {buildLogDisplayData} from '../src/lib/homeData.mjs';
 import { buildLocalizedStaticPaths } from '../src/lib/staticPaths.mjs';
 
 function entry(id, data = {}) {
@@ -104,4 +105,11 @@ test('multiple entries keep their own ids and locales', () => {
     new Set(paths.map((route) => route.params.id)),
     new Set(['vwp/kaf', 'solo/ciel']),
   );
+});
+
+test('Unicode-equivalent log ids share one canonical route and preserve their original source ids',()=>{
+ const canonical='2024/event-ライブ',decomposed=canonical.normalize('NFD'),zh=entry(decomposed+'/zh'),ja=entry(canonical+'/ja');
+ const paths=buildLocalizedStaticPaths([zh,ja]);assert.equal(paths.length,5);assert.ok(paths.every(route=>route.params.id===canonical));
+ assert.equal(paths.find(route=>route.params.locale==='zh').props.entry.id,zh.id);
+ assert.equal(buildLogDisplayData(zh,'zh').href,'/zh/logs/'+canonical);
 });

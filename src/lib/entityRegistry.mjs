@@ -1,5 +1,5 @@
 import {readFile,readdir,stat} from 'node:fs/promises';
-import {resolve,join} from 'node:path';
+import {resolve,join,sep} from 'node:path';
 import YAML from 'yaml';
 import {entityCollections} from './entityModel.mjs';
 import {createEntityRegistry} from './entityRegistryCore.mjs';
@@ -13,7 +13,7 @@ export async function getEntityRegistry(){
  if(pending)return pending;
  pending=(async()=>{
   const root=resolve('src/content');const collections=new Set(entityCollections);
-  const paths=(await walk(root)).filter(p=>collections.has(p.slice(root.length+1).split('/')[0])&&/\/(zh|ja|en)\.md$/.test(p));
+  const paths=(await walk(root)).map(p=>p.split(sep).join('/')).filter(p=>collections.has(p.slice(root.length+1).split('/')[0])&&/\/(zh|ja|en)\.md$/.test(p));
   const redirectsPath=resolve('src/data/entity-redirects.json');
   const nextSignature=import.meta.env?.PROD?'production':(await Promise.all([...paths,redirectsPath].map(async p=>{const info=await stat(p);return p+':'+info.mtimeMs+':'+info.size;}))).join('|');
   if(cached&&signature===nextSignature)return cached;

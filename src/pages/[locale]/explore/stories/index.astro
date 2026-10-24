@@ -1,0 +1,27 @@
+---
+import WorkspaceLayout from '../../../../layouts/WorkspaceLayout.astro';
+import Icon from '../../../../components/Icon.astro';
+import { getEntityRegistry, entityLocales } from '../../../../lib/entityRegistry.mjs';
+import { loadFeatureData } from '../../../../lib/featureData.mjs';
+import { buildStoryCatalog } from '../../../../lib/storyCatalog.mjs';
+import { storyCopy, storyFormat } from '../../../../lib/storyCopy.mjs';
+import '../../../../styles/story.css';
+export function getStaticPaths() { return entityLocales.map(locale => ({ params: { locale } })); }
+const { locale = 'zh' } = Astro.params, c = storyCopy(locale);
+const catalog = buildStoryCatalog(await getEntityRegistry(), await loadFeatureData(), locale);
+const data = { routes: catalog.routes.map(route => ({ id: route.id, fingerprint: route.fingerprint, chapters: route.chapters.map(ch => ({ id: ch.id })) })), copy: c };
+---
+<WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/explore/stories/" eyebrow="STORY MODE / BEGIN" width="wide" backHref={`/${locale}/explore/`} backLabel={c.back} mainAttributes={{ 'data-story-directory': '', 'data-locale': locale }}>
+  <p class="story-note">{c.durationNote}</p>
+  <div class="story-directory-grid">{catalog.routes.map((route, index) => <article class="story-card" data-story-card={route.id}>
+    <span class="story-card-number">{String(index + 1).padStart(2, '0')}</span>
+    <p class="story-card-meta">{storyFormat(c.minutes, { count: route.minutes })} · {storyFormat(c.chapters, { count: route.chapters.length })}</p>
+    <h2><a href={`/${locale}/explore/stories/${route.id}/`}>{route.title}</a></h2><p>{route.intro}</p>
+    <p class="story-outcome">{route.outcome}</p><p class="story-note" data-story-card-progress></p>
+    <a class="story-start" data-story-start href={`/${locale}/explore/stories/${route.id}/`}><span data-story-start-label>{c.start}</span><Icon name="arrow-up-right" size={16} /></a>
+  </article>)}</div>
+  <p class="story-note">{c.local}</p><p role="status" data-story-directory-status></p>
+  <details class="story-method"><summary>{c.about}</summary><p>{c.editorial}</p></details>
+  <script is:inline type="application/json" data-story-data set:html={JSON.stringify(data).replace(/</g, '\\u003c')} />
+  <script>import '../../../../scripts/storyApp.js';</script>
+</WorkspaceLayout>

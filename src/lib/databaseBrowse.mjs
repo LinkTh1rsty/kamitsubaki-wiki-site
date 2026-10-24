@@ -19,7 +19,8 @@ const collectionsByType = {
 };
 const artistTypes = new Set(['person', 'virtual-avatar', 'unit', 'software-voice']);
 const filterKeys = ['type', 'artist', 'year', 'genre', 'project', 'collection'];
-const defaultState = { q: '', type: '', artist: '', year: '', genre: '', project: '', collection: '', view: 'grid' };
+export const DATABASE_SORTS = Object.freeze(['catalog', 'title', 'newest', 'oldest']);
+const defaultState = { q: '', type: '', artist: '', year: '', genre: '', project: '', collection: '', view: 'grid', sort: 'catalog' };
 
 function text(value) {
   return typeof value === 'string' ? value.trim() : '';
@@ -170,6 +171,26 @@ export function filterDatabaseRecords(records, state = {}) {
   return records.filter(record => matchesFilters(record, state, tokens));
 }
 
+/** Dates are recorded years; undated records stay last in either direction. */
+export function sortDatabaseRecords(records, sort = 'catalog', locale = 'zh') {
+  if (!DATABASE_SORTS.includes(sort) || sort === 'catalog') return [...records];
+  const collator = new Intl.Collator(locale, {numeric: true, sensitivity: 'base'});
+  return [...records].sort((a, b) => {
+    if (sort !== 'title') {
+      const aKnown = /^\d{4}$/.test(String(a.year || ''));
+      const bKnown = /^\d{4}$/.test(String(b.year || ''));
+      if (aKnown !== bKnown) return aKnown ? -1 : 1;
+      if (aKnown && a.year !== b.year) return (Number(a.year) - Number(b.year)) * (sort === 'newest' ? -1 : 1);
+    }
+    return collator.compare(a.title, b.title) || String(a.id).localeCompare(String(b.id));
+  });
+}
+
+/** The homepage and full browser count the same canonical record rows. */
+export function databaseCollectionCounts(records) {
+  return DATABASE_COLLECTIONS.map(id => ({id, count: records.filter(record => record?.collection === id).length})).filter(row => row.count > 0);
+}
+
 function paramsFromSearch(search) {
   return new URLSearchParams(search instanceof URLSearchParams ? search : text(search).replace(/^\?/, ''));
 }
@@ -191,6 +212,7 @@ export function readDatabaseQuery(search = '', facets) {
     if (!allowed || allowed[key].includes(value)) state[key] = value;
   }
   if (params.get('view') === 'list') state.view = 'list';
+  if (DATABASE_SORTS.includes(params.get('sort'))) state.sort = params.get('sort');
   return state;
 }
 
@@ -204,5 +226,7 @@ export function writeDatabaseQuery(state = {}, search = '') {
   }
   if (state.view === 'list') params.set('view', 'list');
   else params.delete('view');
+  if (DATABASE_SORTS.includes(state.sort) && state.sort !== 'catalog') params.set('sort', state.sort);
+  else params.delete('sort');
   return params;
 }

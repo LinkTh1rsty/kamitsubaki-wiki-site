@@ -1,5 +1,6 @@
 import {setIconLabel} from '../lib/icons.mjs';
-import {filterDatabaseRecords,readDatabaseQuery,writeDatabaseQuery} from '../lib/databaseBrowse.mjs';
+import {filterDatabaseRecords,sortDatabaseRecords,readDatabaseQuery,writeDatabaseQuery} from '../lib/databaseBrowse.mjs';
+import {updateLocaleQueries} from '../lib/localeQuery.mjs';
 import {DATABASE_PLACEHOLDER_IMAGE} from '../lib/databaseArtwork.mjs';
 
 const PAGE_SIZE=24;
@@ -70,6 +71,7 @@ export function initDatabaseBrowse(scope=document) {
     const controls=[...form.querySelectorAll('input[name],select[name]')];
     const typeControl=form.querySelector('select[name=type]');
     const filterToggle=root.querySelector('[data-database-filter-toggle]');
+    const activeFiltersRoot=root.querySelector('[data-database-active-filters]');
     let state=readDatabaseQuery(location.search,facets);
     let limit=PAGE_SIZE;
     let matched=[];
@@ -94,11 +96,30 @@ export function initDatabaseBrowse(scope=document) {
       [...typeControl.options].forEach(option=>{
         option.disabled=Boolean(option.value&&state.collection&&!records.some(record=>record.collection===state.collection&&record.type===option.value));
       });
+      updateLocaleQueries(root.ownerDocument,writeDatabaseQuery(state,location.search).toString());
     };
-    const saveUrl=()=>{
+    const saveUrl=(mode='replace')=>{
       const url=new URL(location.href);
       url.search=writeDatabaseQuery(state,url.search).toString();
-      history.replaceState(null,'',url);
+      if(url.href!==location.href)history[mode==='push'?'pushState':'replaceState'](null,'',url);
+    };
+    const renderActiveFilters=()=>{
+      if(!activeFiltersRoot)return;
+      const keys=['q','collection','type','artist','year','genre','project'].filter(key=>state[key]);
+      const buttons=keys.map(key=>{
+        let value=state[key];
+        if(key==='artist'||key==='project')value=facets[key==='artist'?'artists':'projects'].find(item=>item.id===value)?.label||value;
+        else if(key==='collection')value=copy.collections[value]||value;
+        else if(key==='type'||key==='genre')value=[...form.querySelectorAll(`select[name="${key}"] option`)].find(option=>option.value===value)?.textContent||value;
+        else if(key==='year'&&value==='unknown')value=copy.unknownYear;
+        const label=`${copy[key==='q'?'search':key]}: ${value}`;
+        const button=document.createElement('button');button.type='button';button.dataset.databaseRemoveFilter=key;
+        const text=document.createElement('span');text.textContent=label;
+        const icon=textElement('span','','×');icon.setAttribute('aria-hidden','true');
+        button.append(text,icon);button.setAttribute('aria-label',copy.removeFilter.replace('{label}',label));
+        return button;
+      });
+      activeFiltersRoot.replaceChildren(...buttons);activeFiltersRoot.hidden=!keys.length;
     };
     const updateCount=()=>{
       count.textContent=`${copy.shown} ${Math.min(limit,matched.length).toLocaleString(root.dataset.locale)} / ${matched.length.toLocaleString(root.dataset.locale)} ${copy.records}`;
@@ -106,15 +127,15 @@ export function initDatabaseBrowse(scope=document) {
       empty.hidden=matched.length>0;
       clear.hidden=!['q','type','artist','year','genre','project','collection'].some(key=>state[key]);
     };
-    const apply=(save=false)=>{
-      matched=filterDatabaseRecords(records,state);
+    const apply=(save=false,mode='replace')=>{
+      matched=sortDatabaseRecords(filterDatabaseRecords(records,state),state.sort,root.dataset.locale);
       list.replaceChildren(...matched.slice(0,limit).map(record=>renderRecord(record,state.view,copy.imagePending)));
-      syncControls();updateCount();
-      if(save)saveUrl();
+      syncControls();updateCount();renderActiveFilters();
+      if(save)saveUrl(mode);
     };
     const clearFilters=()=>{
-      const view=state.view;
-      state=readDatabaseQuery('',facets);state.view=view;limit=PAGE_SIZE;apply(true);
+      const {view,sort}=state;
+      state=readDatabaseQuery('',facets);state.view=view;state.sort=sort;limit=PAGE_SIZE;apply(true,'push');
     };
     const restore=()=>{
       state=readDatabaseQuery(location.search,facets);limit=PAGE_SIZE;
@@ -131,22 +152,33 @@ export function initDatabaseBrowse(scope=document) {
       event.preventDefault();
       state.collection=link.dataset.databaseCollection;
       normalizeType();
-      limit=PAGE_SIZE;apply(true);
+      limit=PAGE_SIZE;apply(true,'push');
     }));
     views.forEach(button=>button.addEventListener('click',()=>{
-      state.view=button.dataset.databaseView;syncControls();saveUrl();
+      state.view=button.dataset.databaseView;syncControls();saveUrl('push');
     }));
     filterToggle?.addEventListener('click',()=>{
       const open=filterToggle.getAttribute('aria-expanded')!=='true';
       filterToggle.setAttribute('aria-expanded',String(open));root.dataset.filtersOpen=String(open);
     });
-    form.addEventListener('input',()=>{
+    const readControls=(mode)=>{
       controls.forEach(control=>{state[control.name]=control.value;});
-      limit=PAGE_SIZE;apply(true);
+      normalizeType();limit=PAGE_SIZE;apply(true,mode);
+    };
+    form.addEventListener('input',event=>{
+      if(event.isComposing||event.target.tagName==='SELECT')return;
+      readControls('replace');
     });
+    form.addEventListener('change',event=>{if(event.target.tagName==='SELECT')readControls('push');});
+    form.addEventListener('compositionend',()=>readControls('replace'));
     form.addEventListener('submit',event=>event.preventDefault());
     form.addEventListener('reset',event=>{event.preventDefault();clearFilters();});
     root.querySelector('[data-database-empty-clear]').addEventListener('click',clearFilters);
+    activeFiltersRoot?.addEventListener('click',event=>{
+      const button=event.target.closest('[data-database-remove-filter]');if(!button)return;
+      state[button.dataset.databaseRemoveFilter]='';normalizeType();limit=PAGE_SIZE;apply(true,'push');
+      (activeFiltersRoot.querySelector('button')||form.querySelector('input[name=q]')).focus({preventScroll:true});
+    });
     more.addEventListener('click',()=>{
       const start=limit;limit+=PAGE_SIZE;
       const additions=matched.slice(start,limit).map(record=>renderRecord(record,state.view,copy.imagePending));
@@ -155,6 +187,7 @@ export function initDatabaseBrowse(scope=document) {
       additions[0]?.querySelector('a')?.focus({preventScroll:true});
     });
     window.addEventListener('popstate',restore);
+    window.addEventListener('pageshow',event=>{if(event.persisted)restore();});
     restore();
   });
 }

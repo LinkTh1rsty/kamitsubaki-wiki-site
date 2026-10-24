@@ -1,0 +1,45 @@
+---
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import WorkspaceFilters from '../../../components/WorkspaceFilters.astro';
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
+import { getEntityRegistry, entityLocales } from '../../../lib/entityRegistry.mjs';
+import { buildKnowledgeReport, selectKnowledgeEntries } from '../../../lib/knowledgeStatus.mjs';
+import { knowledgeCopy } from '../../../lib/knowledgeCopy.mjs';
+import '../../../styles/knowledgeBoard.css';
+export function getStaticPaths() { return entityLocales.map(locale => ({ params: { locale } })); }
+const { locale = 'zh' } = Astro.params;
+const c = knowledgeCopy(locale);
+const report = buildKnowledgeReport(await getEntityRegistry(), locale);
+const initial = selectKnowledgeEntries(report.entries).slice(0, 24);
+const types = [...new Set(report.entries.map(entry => entry.entityType))];
+const resultsText = (shown: number, total: number) => c.results.replace('{shown}', String(shown)).replace('{total}', String(total));
+---
+<WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/contribute/missing/" eyebrow="CONTRIBUTE / KNOWLEDGE" width="wide" backHref={`/${locale}/contribute/`} backLabel={c.home} mainAttributes={{ 'data-knowledge-board': '', class: 'knowledge-board' }}>
+  <div class="knowledge-summary">{[[c.total, report.summary.total], [c.needsWork, report.summary.needsWork], [c.gaps, report.summary.missingFields], [c.average, `${report.summary.averageScore}%`]].map(([label, value]) => <div><span>{label}</span><strong>{value}</strong></div>)}</div>
+  <p class="knowledge-note">{c.note}</p>
+  <section class="knowledge-fields" aria-labelledby="knowledge-fields-title" data-quality-controls hidden>
+    <header><h2 id="knowledge-fields-title">{c.fieldTitle}</h2><p>{c.fieldNote}</p></header>
+    <div>{report.fields.map(item => <button type="button" data-quality-field={item.field} aria-pressed="false"><span>{c.fields[item.field] || item.field}</span><strong>{item.count}</strong></button>)}</div>
+  </section>
+  <WorkspaceFilters class="knowledge-filters" data-quality-form data-quality-controls hidden role="search">
+    <label><span>{c.search}</span><input type="search" name="q" autocomplete="off" placeholder={c.search} /></label>
+    <label><span>{c.type}</span><select name="type"><option value="">{c.all}</option>{types.map(type => <option value={type}>{c.types[type]}</option>)}</select></label>
+    <label><span>{c.field}</span><select name="field"><option value="">{c.all}</option>{report.fields.map(item => <option value={item.field}>{c.fields[item.field] || item.field} · {item.count}</option>)}</select></label>
+    <label><span>{c.order}</span><select name="sort">{Object.entries(c.sorts).map(([value, label]) => <option value={value}>{label}</option>)}</select></label>
+    <button type="reset">{c.reset}</button>
+  </WorkspaceFilters>
+  <p class="knowledge-count" data-quality-count role="status" aria-live="polite">{resultsText(initial.length, report.entries.length)}</p>
+  <div class="knowledge-entries" data-quality-results>{initial.map(entry => <article class="knowledge-entry">
+    <header><small>{c.types[entry.entityType]}</small><span>{c.score.replace('{score}', String(entry.score))}</span></header>
+    <h2><a href={entry.path}>{entry.title}</a></h2>
+    <ul class="knowledge-missing">{entry.missing.map(item => <li>{c.fields[item.field] || item.field}</li>)}</ul>
+    {entry.missing.some(item => item.field === 'translation') && <p class="knowledge-source-language">{c.sourceLocale}: {entry.sourceLocale}</p>}
+    <div class="knowledge-entry-actions"><a href={entry.path}>{c.open} ↗</a>{entry.editHref && <a href={entry.editHref}>{c.edit} →</a>}</div>
+  </article>)}</div>
+  <p class="knowledge-empty" data-quality-empty hidden>{c.empty}</p>
+  <WorkspaceButton data-quality-more data-quality-controls hidden>{c.more}</WorkspaceButton>
+  <noscript><p class="knowledge-note">{c.fallback}</p></noscript>
+  <a class="knowledge-index-link" href={`/${locale}/missing-data.json`}>{c.download} ↗</a>
+  <script type="application/json" data-quality-data is:inline set:html={JSON.stringify({ entries: report.entries, copy: c }).replaceAll('<', '\u003c')} />
+</WorkspaceLayout>
+<script>import '../../../scripts/knowledgeBoard.js';</script>

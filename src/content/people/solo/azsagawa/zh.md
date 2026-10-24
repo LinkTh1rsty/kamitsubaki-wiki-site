@@ -1,4 +1,5 @@
 ---
+
 schemaVersion: 2
 id: azsagawa
 entityType: person
@@ -15,6 +16,8 @@ affiliations:
     current: false
   - organization: kyokai-studio
     current: true
+presentation:
+  image: "/images/artists/azsagawa.png"
 contentStatus: published
 locale: zh
 summary: 穿梭于虚拟与现实两界的混合形态（Hybrid）实力派男歌手，以深沉磁性的中低音和 R&B/都市流行驾驭力著称，主流签约 TOY'S FACTORY。

@@ -1,0 +1,38 @@
+---
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import WorkspaceFilters from '../../../components/WorkspaceFilters.astro';
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
+import ArchiveRecord from '../../../components/ArchiveRecord.astro';
+import {getEntityRegistry,entityLocales} from '../../../lib/entityRegistry.mjs';
+import {buildCreditsArchive,selectCreditsArchive} from '../../../lib/creditsArchive.mjs';
+import {archiveCopy} from '../../../lib/archiveCopy.mjs';
+import '../../../styles/archiveBrowser.css';
+export function getStaticPaths(){return entityLocales.map(locale=>({params:{locale}}));}
+const {locale='zh'}=Astro.params;
+const c=archiveCopy(locale),catalog=buildCreditsArchive(await getEntityRegistry(),locale);
+const initial=selectCreditsArchive(catalog.entries).slice(0,12);
+---
+<WorkspaceLayout locale={locale} title={c.credits.title} intro={c.credits.intro} path="/explore/credits/" eyebrow="ARCHIVE / CREDITS" width="wide" backHref={`/${locale}/explore/`} backLabel={c.back} mainAttributes={{class:'archive-browser', 'data-archive-browser':'credits'}}>
+  <WorkspaceButton href={`/${locale}/contribute/missing/?type=work-track&field=credits`} slot="actions">{c.credits.tasks} ↗</WorkspaceButton>
+  <div class="archive-metrics">{[[c.credits.total,catalog.summary.totalSongs],[c.credits.documented,catalog.summary.withCredits],[c.credits.creators,catalog.summary.creatorGroups],[c.credits.linked,catalog.summary.linkedCreators]].map(([label,count])=><div><span>{label}</span><strong>{count}</strong></div>)}</div>
+  <p class="archive-note">{c.credits.note}</p>
+  <WorkspaceFilters data-archive-form data-archive-controls hidden role="search">
+    <label><span>{c.credits.search}</span><input name="q" type="search" placeholder={c.credits.search} autocomplete="off"/></label>
+    <label><span>{c.credits.creator}</span><select name="creator"><option value="">{c.all}</option>{catalog.creators.map(creator=><option value={creator.key}>{creator.title} · {creator.entityId||c.credits.named} · {creator.workCount}</option>)}</select></label>
+    <label><span>{c.coCreator}</span><select name="collaborator"><option value="">{c.all}</option>{catalog.creators.map(creator=><option value={creator.key}>{creator.title} · {creator.entityId||c.credits.named}</option>)}</select></label>
+    <label><span>{c.workType}</span><select name="workType"><option value="">{c.all}</option><option value="work-track">{c.tracks}</option><option value="work-release">{c.releases}</option></select></label>
+    <label><span>{c.artist}</span><select name="artist"><option value="">{c.all}</option>{catalog.artists.map(artist=><option value={artist.id}>{artist.title}</option>)}</select></label>
+    <label><span>{c.credits.role}</span><select name="role"><option value="">{c.all}</option>{catalog.roles.map(role=><option value={role}>{c.roles[role]||role}</option>)}</select></label>
+    <label><span>{c.year}</span><select name="year"><option value="">{c.all}</option>{catalog.years.map(year=><option value={year}>{year}</option>)}{catalog.entries.some(entry=>!entry.year)&&<option value="unknown">{c.unknownYear}</option>}</select></label>
+    <label><span>{c.sort}</span><select name="sort">{Object.entries(c.sorts).map(([key,label])=><option value={key}>{label}</option>)}</select></label>
+    <button type="reset">{c.clear}</button>
+  </WorkspaceFilters>
+  <section class="creator-overview" data-creator-overview aria-labelledby="creator-overview-title" hidden></section>
+  <p class="archive-count" data-archive-count role="status" aria-live="polite">{c.results.replace('{shown}',String(initial.length)).replace('{total}',String(catalog.entries.length))}</p>
+  <div class="archive-records" data-archive-results>{initial.map(record=><ArchiveRecord record={record} kind="credits" copy={c} locale={locale}/>)}</div>
+  <p class="archive-empty" data-archive-empty hidden>{c.credits.empty}</p>
+  <WorkspaceButton data-archive-more data-archive-controls hidden>{c.more}</WorkspaceButton>
+  <noscript><p class="archive-note">{c.noJS}</p></noscript>
+  <script type="application/json" data-archive-data is:inline set:html={JSON.stringify({catalog,copy:c,locale}).replaceAll('<','\u003c')}/>
+</WorkspaceLayout>
+<script>import '../../../scripts/archiveBrowser.js';</script>

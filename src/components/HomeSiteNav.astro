@@ -86,6 +86,7 @@ const themeCopy = resolveLocaleCopy({
   <div class="home-chrome__actions">
     <a class="account-nav" data-account-nav href={`/${currentLocale}/account/`}>{accountCopy(currentLocale).title}</a>
     <a href={`/${currentLocale}/explore/`} class="home-chrome__labs">{labsLabel}<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
+    <a href={`/${currentLocale}/graph/`} class="home-chrome__labs" data-nav-graph>Graph<span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
     <WorkspaceButton class="home-chrome__search" type="button" data-search-open aria-label={searchLabel} title={searchLabel}>
       <Icon name="search" />
     </WorkspaceButton>
