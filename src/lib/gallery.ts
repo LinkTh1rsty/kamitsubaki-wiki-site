@@ -83,6 +83,8 @@ export async function initGallery(){
  function renderTypes(){
   const target=$('[data-gallery-types]');target.hidden=mode()!=='photos';if(target.hidden)return;
   if(!target.hasAttribute('data-rendered')){
+   const focused=document.activeElement instanceof HTMLButtonElement&&target.contains(document.activeElement)?{type:document.activeElement.dataset.type,unknown:document.activeElement.dataset.unknown}:null;
+   target.replaceChildren();
    target.setAttribute('data-rendered','');
    const add=(label:string,type:string|null,unknown=false,count?:number)=>{
     const button=newButton(label,()=>{setUrl({type,unclassified:unknown?'1':null,page:null,photo:null});void route();});
@@ -92,6 +94,7 @@ export async function initGallery(){
    add(copy.allTypes,null);add(copy.unclassifiedType,null,true,archiveFacets.unclassified||0);
    for(const type of mediaTypes)add(typeName(type.id),type.id,false,archiveFacets.typeCounts?.find(row=>row.id===type.id)?.count||0);
    target.append(text('small',copy.globalCount||copy.allTypes,'gallery-count-scope'));
+   if(focused)[...target.querySelectorAll<HTMLButtonElement>('button')].find(button=>button.dataset.type===focused.type&&button.dataset.unknown===focused.unknown)?.focus({preventScroll:true});
   }
   const active=params().get('type')||'',uncategorized=params().has('unclassified');
   for(const button of target.querySelectorAll<HTMLButtonElement>('button'))button.setAttribute('aria-pressed',String(button.dataset.unknown==='true'?uncategorized:!uncategorized&&button.dataset.type===active));

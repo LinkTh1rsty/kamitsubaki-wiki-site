@@ -51,5 +51,7 @@ export function initArticleBrowser(root:HTMLElement){
  root.querySelector<HTMLButtonElement>('[data-related-clear]')!.onclick=()=>{related='';updateFilter();void load(true);};
  window.addEventListener('popstate',()=>{const params=new URL(location.href).searchParams;for(const name of ['q','category','origin','sort']){const control=form.elements.namedItem(name) as HTMLInputElement|HTMLSelectElement;if(control)control.value=params.get(name)||'';}offset=Math.max(0,Math.floor(Number(params.get('offset'))||0));related=params.get('related')||'';updateFilter();void load();});
  form.addEventListener('change',e=>{if(e.target instanceof HTMLSelectElement)void load(true);});
- form.addEventListener('submit',e=>{e.preventDefault();more.onclick=()=>void load();void load(true);});form.addEventListener('reset',()=>queueMicrotask(()=>{related='';updateFilter();more.onclick=()=>void load();void load(true);}));more.onclick=()=>void load();void load();
+ form.addEventListener('submit',e=>{e.preventDefault();more.onclick=()=>void load();void load(true);});
+ // A trusted reset can checkpoint microtasks before its default action resets controls.
+ form.addEventListener('reset',event=>window.setTimeout(()=>{if(event.defaultPrevented)return;related='';updateFilter();more.onclick=()=>void load();void load(true);},0));more.onclick=()=>void load();void load();
 }
