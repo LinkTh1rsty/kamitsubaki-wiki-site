@@ -5,6 +5,7 @@ import ObserverDashboard from '../components/ObserverDashboard.astro';
 import SupportFloat from '../components/SupportFloat.astro';
 import SupportDialog from '../components/SupportDialog.astro';
 import AccountChrome from '../components/AccountChrome.astro';
+import ArchiveRadio from '../components/ArchiveRadio.astro';
 
 import SiteSearch from '../components/SiteSearch.astro';
 import SiteIntro from '../components/SiteIntro.astro';
@@ -217,6 +218,7 @@ const liveEventsCopy = siteContent?.liveEvents;
 
     <slot />
     <AccountChrome locale={lang} />
+    <ArchiveRadio locale={lang} />
     <div id="cursor" class="cursor-dot" aria-hidden="true"></div>
     <SiteSearch lang={lang} />
 

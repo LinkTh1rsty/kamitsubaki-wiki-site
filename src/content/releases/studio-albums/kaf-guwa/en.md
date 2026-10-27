@@ -82,6 +82,58 @@ entityType: "work-release"
 releaseType: "album"
 primaryArtist: "kaf"
 summary: "KAF’s fourth studio album and her first full multi-composer record after Iori Kanzaki’s departure from KAMITSUBAKI, presenting fifteen tracks around loss and acquisition."
+sources:
+  - id: official-guwa
+    title: 花譜「寓話」 · KAMITSUBAKI STUDIO
+    url: https://kamitsubaki.jp/discography/kaf/5114/
+    type: official
+    publisher: KAMITSUBAKI STUDIO
+credits:
+  - entity: palow
+    role: illustrator
+    sourceIds:
+      - official-guwa
+editions:
+  - id: alpha
+    name: 寓話α
+    format: CD BOX
+    sourceIds:
+      - official-guwa
+  - id: beta
+    name: 寓話β
+    format: CD BOX
+    sourceIds:
+      - official-guwa
+visualHistory:
+  - id: guwa-jacket
+    title: 寓話 · jacket illustration
+    date: "2024-12-25"
+    image: /images/albums/kaf/guwa.jpg
+    designer: palow
+    sourceIds:
+      - official-guwa
+    uses:
+      - entity: kaf-guwa
+        date: "2024-12-25"
+evidence:
+  - id: release-date
+    field: releaseDate
+    sourceIds:
+      - official-guwa
+    checkedAt: "2026-10-13"
+    status: reviewed
+  - id: jacket-credit
+    field: credits
+    sourceIds:
+      - official-guwa
+    checkedAt: "2026-10-13"
+    status: reviewed
+  - id: editions
+    field: editions
+    sourceIds:
+      - official-guwa
+    checkedAt: "2026-10-13"
+    status: reviewed
 ---
 
 ## Overview

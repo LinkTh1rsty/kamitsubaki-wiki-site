@@ -6,7 +6,7 @@ export function initEntityGalleryPreviews(){
  for(const root of document.querySelectorAll('[data-entity-gallery]:not([data-initialized])')){
   root.dataset.initialized='';
   const load=async()=>{
-   try{const query=new URLSearchParams({entity:root.dataset.entity,offset:'0'}),response=await fetch(root.dataset.api.replace(/\/$/,'')+'/api/gallery/items?'+query,{signal:AbortSignal.timeout(15000)});if(!response.ok)return;const data=await response.json();if(!data.items?.length)return;
+   try{const query=new URLSearchParams({entity:root.dataset.entity,offset:'0'}),response=await fetch(root.dataset.api.replace(/\/$/,'')+'/api/gallery/items?'+query,{signal:AbortSignal.timeout(15000)});if(!response.ok)return;const data=await response.json();if(Number.isSafeInteger(data.total) && data.total>=0){for(const hub of document.querySelectorAll('[data-entity-archive-hub]'))if(hub.dataset.entity===root.dataset.entity){const count=hub.querySelector('[data-hub-gallery-count]');if(count)count.textContent=String(data.total);}}if(!data.items?.length)return;
     const copy=JSON.parse(root.dataset.copy||'{}'),locale=root.dataset.locale,images=root.querySelector('[data-gallery-images]'),items=data.items.slice(0,6);
     const view=items.map(item=>({id:item.id,src:item.src,msrc:item.thumbnail||undefined,width:item.width,height:item.height,title:item.title||copy.title,notes:item.notes||'',links:[{href:`/${locale}/gallery/classify/?photo=${encodeURIComponent(item.id)}&returnTo=${encodeURIComponent(location.pathname)}`,label:copy.classify},...(item.sourceUrl?[{href:item.sourceUrl,label:item.sourceTitle||copy.source}]:[]),{href:item.src,label:copy.original}]}));
     setIconLabel(root.querySelector('[data-gallery-all]'),`${copy.all} (${data.total}) →`);

@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {JSDOM} from 'jsdom';
 import {benefitsCopy} from '../src/lib/benefitsCopy.mjs';
-const script=readFileSync(new URL('../src/scripts/accountBenefits.js',import.meta.url),'utf8').replace(/^import .*;\n/gm,'');
+const script=readFileSync(new URL('../src/scripts/accountBenefits.js',import.meta.url),'utf8').replace(/^import .*;\r?\n/gm,'');
 const tick=()=>new Promise(resolve=>setTimeout(resolve,0));
 function fixture(api){
  const dom=new JSDOM('<div data-account-page><a href="#benefits">benefits</a><section data-account-benefits><button data-benefit-refresh>refresh</button><p data-benefit-status></p><div data-benefit-view></div></section></div>',{url:'https://wiki.example.test/zh/account/#benefits',runScripts:'outside-only'}),state={viewer:{userId:'alice'}};

@@ -217,6 +217,8 @@
     "selectDateLabel": "已选日期",
     "emptyDay": "该日期暂无已收录活动。",
     "eventCountLabel": "项活动",
+    "artistFilterLabel": "按艺人筛选",
+    "allArtistsLabel": "全部艺人",
     "backHomeLabel": "返回首页",
     "weekdays": [
       "日",

@@ -11,7 +11,7 @@ export async function packPagefindFragments(directory, locales){
   for(const name of (await readdir(source)).sort()){
    const match=/^(?:zh|ja|en)_([a-f0-9]{7,64})\.pf_fragment$/.exec(name);
    if(!match)throw Error('Unexpected Pagefind fragment name: '+name);
-   const group=match[1].slice(0,2),entries=groups.get(group)||Object.create(null);
+   const group=match[1].slice(0,1),entries=groups.get(group)||Object.create(null);
    entries[name]=(await readFile(join(source,name))).toString('base64');
    groups.set(group,entries);fragments++;
   }

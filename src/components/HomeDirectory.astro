@@ -1,14 +1,25 @@
 ---
-import ClassificationDirectory from './ClassificationDirectory.astro';
-const {locale='zh',section}=Astro.props;
+import Icon from './Icon.astro';
+import ClassificationRecord from './ClassificationRecord.astro';
+import {getEntityRegistry} from '../lib/entityRegistry.mjs';
+import {buildClassificationTree,flattenClassification,classificationEntries} from '../lib/classificationTree.mjs';
+import {buildHomePortal,homeUpdates} from '../lib/homePortal.mjs';
+import {homePortalCopy} from '../lib/homePortalCopy.mjs';
+import {databaseBrowseCopy} from '../lib/databaseBrowseCopy.mjs';
+import '../styles/classificationDirectory.css';
+import '../styles/homePortal.css';
+const {locale='zh',announcements=[]}=Astro.props,registry=await getEntityRegistry(),c=homePortalCopy(locale),database=databaseBrowseCopy(locale);
+const solo=flattenClassification(buildClassificationTree(registry,locale)).find((node:{category?:string})=>node.category==='solo');
+const portal=buildHomePortal(registry.list(locale),solo?classificationEntries(registry,solo,locale):[]);
+const updates=homeUpdates(announcements,locale);
 ---
-<section id="database" class="observatory-directory relative mx-auto max-w-7xl px-5 py-20 ui-crosshair bl br tl tr sm:px-6 sm:py-32">
+<section id="database" class="home-portal mx-auto max-w-7xl px-5 sm:px-6" data-home-portal>
 <div id="artist-bg-container" class="artist-bg fixed-bg-hack pointer-events-none" aria-hidden="true"><div class="artist-bg__veil absolute inset-0 z-10 bg-[var(--theme-bg)] opacity-65 mix-blend-multiply"></div><img id="artist-bg-img" alt="" class="artist-bg__image saturate-125"/><img alt="" class="artist-bg__image saturate-125"/></div>
-<ClassificationDirectory locale={locale} home>
- <header slot="heading" class="reveal-up">
-  <h3 class="text-[10px] tracking-kamidest-lg font-light text-white mb-2">{section.heading}</h3>
-  <p class="font-serif text-[10px] text-white/50 tracking-widest mb-12">{section.subheading}</p>
- </header>
-</ClassificationDirectory>
+  <header class="home-portal__header"><div><p class="home-portal__eyebrow">01. ARCHIVE</p><h2>{c.browse}</h2><p>{c.note}</p></div><a href={`/${locale}/database/`}>{c.directory} <Icon name="arrow-right" /></a></header>
+  <nav class="home-portal__collections" aria-label={database.collection}>{portal.collections.map(row=><a href={`/${locale}/database/?collection=${row.id}`} data-home-collection={row.id}><span>{database.collections[row.id]}</span><strong>{row.count.toLocaleString(locale)}</strong></a>)}</nav>
+  <div class="home-portal__body">
+    <section class="classification-directory home-portal__people" aria-labelledby="home-start-title"><h3 id="home-start-title">{c.start}</h3><div id="artist-list">{portal.people.map((entry,index)=><ClassificationRecord entry={entry} index={index} locale={locale}/>)}</div></section>
+    <section class="home-portal__updates" aria-labelledby="home-updates-title"><h3 id="home-updates-title">{c.updates}</h3>{updates.length?<ol>{updates.map(update=><li><a href={update.href}><time datetime={update.datetime}>{update.date}</time><span>{update.title}</span><Icon name="arrow-up-right" size={16}/></a></li>)}</ol>:<p>{c.empty}</p>}<a class="home-portal__more" href={`/${locale}/announcements/`}>{c.allUpdates} <Icon name="arrow-right" size={16}/></a></section>
+  </div>
 </section>
-<style>.observatory-directory{scroll-margin-top:90px}.artist-bg__veil{position:absolute;inset:0}</style>
+<style>.artist-bg__veil{position:absolute;inset:0}</style>

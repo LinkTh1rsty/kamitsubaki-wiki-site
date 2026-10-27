@@ -2,12 +2,13 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
 import {JSDOM} from 'jsdom';
 const require=createRequire(import.meta.url),{build}=createRequire(require.resolve('vite'))('esbuild');
 const original=await readFile('src/scripts/accountStore.js','utf8');
 const remote='import(/* @vite-ignore */ `${apiBase}/auth/client/v1.mjs?ui=modal-1`)';assert.ok(original.includes(remote));
 // Supply the remote module at the loading boundary; execute the real site glue.
-const bundle=await build({stdin:{contents:original.replace(remote,'Promise.resolve(globalThis.centralTestModule)'),resolveDir:new URL('../src/scripts/',import.meta.url).pathname},bundle:true,write:false,format:'iife',globalName:'AccountGlue',platform:'browser',define:{'import.meta.env.PUBLIC_EDITOR_ENABLED':'"false"','import.meta.env.PUBLIC_EDITOR_LOCAL':'"false"','import.meta.env.PUBLIC_EDITOR_API_BASE':'""','import.meta.env.DEV':'false'}});
+const bundle=await build({stdin:{contents:original.replace(remote,'Promise.resolve(globalThis.centralTestModule)'),resolveDir:fileURLToPath(new URL('../src/scripts/',import.meta.url))},bundle:true,write:false,format:'iife',globalName:'AccountGlue',platform:'browser',define:{'import.meta.env.PUBLIC_EDITOR_ENABLED':'"false"','import.meta.env.PUBLIC_EDITOR_LOCAL':'"false"','import.meta.env.PUBLIC_EDITOR_API_BASE':'""','import.meta.env.DEV':'false'}});
 const tick=()=>new Promise(resolve=>setTimeout(resolve,15));
 test('Wiki header, account, AI and creator entry open the shared form without losing the current page or draft',async()=>{
  const calls=[],before='https://wiki-auth-preview.kamitsubaki.wiki/ja/chronicle/submit/?draft=A%20B&source=a%2fb#editor';

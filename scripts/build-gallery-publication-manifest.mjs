@@ -43,10 +43,10 @@ const items=[];
 for(const candidate of source.items){
  const references=candidate.references.filter(ref=>ref.kind==='content');
  const checked=await Promise.all(references.map(async ref=>({ref,data:await page(ref.path)})));
- const selected=checked.find(({ref,data})=>ref.locale==='zh'&&data.presentation?.image===candidate.sourceUrl)
-  ||checked.find(({ref})=>ref.locale==='zh')||checked[0];
+ const selected=checked.find(({ref,data})=>ref.locale==='zh'&&data.presentation?.image===candidate.sourceUrl&&data.id)
+  ||checked.find(({ref,data})=>ref.locale==='zh'&&data.id)||checked.find(({data})=>data.id);
  const isAsset=!selected;
- if(isAsset&&!candidate.references.some(ref=>ref.kind==='asset'))throw Error(`没有站内来源：${candidate.id}`);
+ if(isAsset&&!candidate.references.some(ref=>ref.kind==='asset')&&!candidate.references.length)throw Error(`没有站内来源：${candidate.id}`);
  const title=isAsset?assetTitle(candidate.sourceUrl):String(selected.data.title||selected.data.name||selected.data.romanizedTitle||selected.data.romanizedName||'').trim();
  if(!title)throw Error(`缺少标题：${candidate.id}`);
  const pageUrl=isAsset?new URL(candidate.sourceUrl,'https://kamitsubaki.wiki').href:`https://kamitsubaki.wiki/zh${entityRoute(selected.data)}`;
@@ -61,6 +61,6 @@ for(const candidate of source.items){
 }
 const output=JSON.stringify({schemaVersion:1,sourceManifest:'public/gallery-import-manifest.json',items},null,2)+'\n';
 if(process.argv.includes('--check')){
- if(await readFile(target,'utf8').catch(()=>null)!==output)throw Error('图库公开清单需要更新');
+ if((await readFile(target,'utf8').catch(()=>null)||'').replace(/\r\n/g,'\n')!==output)throw Error('图库公开清单需要更新');
 }else await writeFile(target,output);
 console.log(`站内既有图片公开清单：${items.length} 张（其中未关联词条的站内素材 ${items.filter(item=>item.metadata.archiveProvenance==='existing-file').length} 张）；作者和原始图片出处未被推定。`);

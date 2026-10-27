@@ -20,6 +20,42 @@ organizer: "kamitsubaki-studio"
 contentStatus: published
 locale: "zh"
 summary: "史上首位登上日本武道馆举办个人单独公演的虚拟歌手现场，改写数字演艺历史的里程碑之夜。"
+sources:
+  - id: official-fukakai-iii-bd
+    title: 3rd ONE-MAN LIVE「不可解参(狂)」Blu-ray · 花譜 Official Website
+    url: https://kaf.kamitsubaki.jp/discography/20230601/213/
+    type: official
+    publisher: KAMITSUBAKI STUDIO
+setlistStatus: partial
+setlist:
+  - number: BD 03
+    songId: kaf-majo
+  - number: BD 04
+    songId: kaf-originals-track-1688520970
+  - number: BD 05
+    songId: kaf-yoru-ga-furiyamu-mae-ni-songs
+  - number: BD 08
+    songId: kaf-originals-track-1688520966
+  - number: BD 13
+    songId: shi-kaf
+  - number: BD 43
+    songId: kaf-kako-wo-kurau
+  - number: BD 47
+    songId: kaf-originals-track-1688351157
+liveInfo:
+  reports:
+    - title: 3rd ONE-MAN LIVE「不可解参(狂)」Blu-ray · 花譜 Official Website
+      url: https://kaf.kamitsubaki.jp/discography/20230601/213/
+      sourceIds:
+        - official-fukakai-iii-bd
+evidence:
+  - id: recording-excerpt
+    field: setlist
+    sourceIds:
+      - official-fukakai-iii-bd
+    checkedAt: "2026-10-13"
+    status: reviewed
+    note: Partial excerpt from the official recording’s main program; BD track numbers are retained. This excludes MC, interludes and bonus tracks and does not claim a complete live setlist.
 ---
 
 ## 演出现场概述

@@ -171,3 +171,64 @@ test('calendar month changes cannot be delayed by an aborted request cleanup', a
     /finally \{\s*if \(request === activeRequest\) \{\s*request = undefined;\s*schedule\(\);\s*\}\s*\}/,
   );
 });
+
+test('events payload keeps artistIds and exposes the artists registry', async () => {
+  const { normalizeArtistsRegistry, normalizeEventsPayload } = await import('../src/lib/liveEventsClient.js');
+  const payload = {
+    updatedAt: '2026-10-06T00:00:00.000Z',
+    artists: [
+      { id: 'kaf', type: 'virtual-avatar', labels: { zh: '花譜', ja: '花譜', en: 'KAF' } },
+      { id: 'teresa', type: 'virtual-avatar', labels: { zh: 'teresaAI', ja: 'teresaAI', en: 'teresaAI' } },
+      { id: '' },
+      null,
+    ],
+    events: [
+      { ...event, artistIds: ['kaf', 'teresa', 'kaf', 42, ' '] },
+      { ...event, id: 'stream-2', title: 'No ids' },
+    ],
+  };
+
+  const events = normalizeEventsPayload(payload);
+  assert.deepEqual(events[0].artistIds, ['kaf', 'teresa']);
+  assert.deepEqual(events[1].artistIds, []);
+
+  const registry = normalizeArtistsRegistry(payload);
+  assert.equal(registry.size, 2);
+  assert.equal(registry.get('kaf').labels.zh, '花譜');
+  // 旧格式载荷（数组或缺少 artists 字段）回退为空注册表
+  assert.equal(normalizeArtistsRegistry(events).size, 0);
+  assert.equal(normalizeArtistsRegistry({ events }).size, 0);
+});
+
+test('artist labels resolve per locale with documented fallbacks', async () => {
+  const { formatEventArtists, resolveArtistLabel } = await import('../src/lib/liveEventsClient.js');
+  const registry = new Map([
+    ['asu', { id: 'asu', type: 'virtual-avatar', labels: { zh: '明透 / ASU', 'zh-tw': '明透 / ASU', ja: '明透 / ASU', en: 'ASU' } }],
+    ['kanzaki-iori', { id: 'kanzaki-iori', type: 'person', labels: { zh: '神崎一织', ja: 'カンザキイオリ', en: 'Kanzaki Iori' } }],
+  ]);
+
+  assert.equal(resolveArtistLabel(registry.get('asu'), 'en', 'x'), 'ASU');
+  assert.equal(resolveArtistLabel(registry.get('asu'), 'zh-HK', 'x'), '明透 / ASU');
+  assert.equal(resolveArtistLabel(registry.get('kanzaki-iori'), 'ja', 'x'), 'カンザキイオリ');
+  assert.equal(resolveArtistLabel(undefined, 'zh', 'fallback'), 'fallback');
+
+  const withIds = { artist: '明透', artistIds: ['asu', 'kanzaki-iori'] };
+  assert.equal(formatEventArtists(withIds, registry, 'en'), 'ASU / Kanzaki Iori');
+  assert.equal(formatEventArtists(withIds, registry, 'zh'), '明透 / ASU / 神崎一织');
+  // 无 artistIds 或注册表缺失时回退到 artist 原文，保证旧数据展示不变
+  assert.equal(formatEventArtists({ artist: '詩道', artistIds: [] }, registry, 'zh'), '詩道');
+  assert.equal(formatEventArtists({ artist: '詩道' }, new Map(), 'zh'), '詩道');
+});
+
+test('calendar filter renders only for artist-tagged payloads and filters by id', async () => {
+  const script = await readFile(new URL('../src/scripts/eventsCalendar.js', import.meta.url), 'utf8');
+  const component = await readFile(new URL('../src/components/EventsCalendar.astro', import.meta.url), 'utf8');
+  const styles = await readFile(new URL('../src/styles/global.css', import.meta.url), 'utf8');
+
+  assert.match(component, /data-events-calendar-artist/);
+  assert.match(component, /allArtistsLabel/);
+  assert.match(script, /event\.artistIds\.includes\(artistFilter\)/);
+  assert.match(script, /filterContainer\.hidden = true/);
+  assert.match(script, /normalizeArtistsRegistry\(payload\)/);
+  assert.match(styles, /\.events-calendar__filter select/);
+});

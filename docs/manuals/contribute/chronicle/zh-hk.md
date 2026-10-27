@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 7
 title: "新增與修訂時間軸事件"
 summary: "從日期精度、關聯詞條和來源到草稿、PR 審核及網站公開。"
-generatedFromHash: "6033cbac312a285274ec"
+generatedFromHash: "6764cd2b1be0160b7c9f"
 generated: true
 generatedFrom: "zh"
 ---

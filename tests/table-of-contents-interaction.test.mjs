@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
 import { JSDOM } from 'jsdom';
 import { installDetailsMotion } from '../src/lib/detailsMotion.mjs';
 
@@ -10,7 +11,7 @@ const { build } = createRequire(require.resolve('vite'))('esbuild');
 const component = await readFile(new URL('../src/components/TableOfContents.astro', import.meta.url), 'utf8');
 const script = component.match(/<script>([\s\S]*?)<\/script>/)[1];
 const bundled = await build({
-  stdin: { contents: script, resolveDir: new URL('../src/components/', import.meta.url).pathname, loader: 'ts' },
+  stdin: { contents: script, resolveDir: fileURLToPath(new URL('../src/components/', import.meta.url)), loader: 'ts' },
   bundle: true, platform: 'browser', format: 'iife', write: false,
 });
 

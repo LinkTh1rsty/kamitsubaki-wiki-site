@@ -4,6 +4,9 @@ import HomeMusicSection from '../../components/HomeMusicSection.astro';
 import HomeArticles from '../../components/HomeArticles.astro';
 import HomeExplore from '../../components/HomeExplore.astro';
 import HomeDirectory from '../../components/HomeDirectory.astro';
+import HomeQuickSearch from '../../components/HomeQuickSearch.astro';
+import Icon from '../../components/Icon.astro';
+import {homePortalCopy} from '../../lib/homePortalCopy.mjs';
 import {getEntityRegistry} from '../../lib/entityRegistry.mjs';
 import {buildEntityMusicCatalog} from '../../lib/entityViews.mjs';
 import ContributorRoster from '../../components/ContributorRoster.astro';
@@ -15,7 +18,7 @@ import SupportBanner from '../../components/SupportBanner.astro';
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getBuildCollection as getCollection } from '../../lib/contentAuditContext';
-import { getLocalizedSite } from '../../lib/homeData.mjs';
+import { getLocalizedEntries, getLocalizedSite } from '../../lib/homeData.mjs';
 import { sampleRandom } from '../../lib/homeMusicCatalog.mjs';
 import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../lib/i18n.mjs';
 import { buildHomeMetadata } from '../../lib/metadata.mjs';
@@ -28,6 +31,7 @@ export function getStaticPaths() {
 
 const { locale } = Astro.params;
 const siteEntries = await getCollection('site');
+const announcementEntries = getLocalizedEntries(await getCollection('announcements'), locale, defaultLocale);
 const homeContent = getLocalizedSite(siteEntries, locale, defaultLocale);
 const registry=await getEntityRegistry();
 const homeMusicCatalog = buildEntityMusicCatalog(registry, locale);
@@ -40,20 +44,24 @@ const alternates = supportedLocales.map((localeCode) => ({
   href: `/${localeCode}/`,
 }));
 const metadata = buildHomeMetadata(homeContent, locale);
+const portalCopy=homePortalCopy(locale);
 ---
 
 <BaseLayout lang={locale} alternates={alternates} metadata={metadata}>
   <div data-page-context-root>
     <HomeSiteNav navItems={homeContent.navItems} localeLinks={localeLinks} brandLines={homeContent.hero.brandLines} homeHref={`/${locale}/`} />
-    <Hero hero={homeContent.hero} />
-    <HomeDirectory locale={locale} section={homeContent.sections.database}/>
+    <Hero hero={homeContent.hero}><HomeQuickSearch locale={locale}/></Hero>
+    <HomeDirectory locale={locale} announcements={announcementEntries}/>
     <HomeMusicSection songs={songs} albums={albums} sections={homeContent.sections} locale={locale}/>
     <HomeArticles locale={locale}/>
     <HomeExplore locale={locale}/>
     <ContributorRoster mode="summary" locale={locale} />
+    <details class="home-preface" data-home-preface>
+      <summary><span>{portalCopy.preface}<small>{portalCopy.prefaceNote}</small></span><Icon name="chevron-down"/></summary>
     <AboutSection content={{...homeContent.sections.about,heading:'05. PREFACE'}}>
       <ExperiencePortals slot="explore" locale={locale} compact />
     </AboutSection>
+    </details>
     <SupportBanner locale={locale ?? defaultLocale} />
     <SiteFooter footer={homeContent.footer} />
   </div>
@@ -62,5 +70,7 @@ const metadata = buildHomeMetadata(homeContent, locale);
     import { initializeHomeMusicRandomizer } from '../../scripts/homeMusicRandomizer.js';
 
     initializeHomeMusicRandomizer();
+    const openPreface=()=>{if(location.hash==='#about'){const preface=document.querySelector<HTMLDetailsElement>('[data-home-preface]');if(preface)preface.open=true;}};
+    openPreface();window.addEventListener('hashchange',openPreface);
   </script>
 </BaseLayout>

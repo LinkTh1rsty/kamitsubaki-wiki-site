@@ -2,12 +2,18 @@
 import Icon from './Icon.astro';
 import {featuresFor} from '../lib/siteFeatures.mjs';
 import WorkspaceLinkCard from './WorkspaceLinkCard.astro';
+import {archiveFeatureCopy} from '../lib/archiveFeatureCopy.mjs';
 const {locale='zh'}=Astro.props;
 const section=featuresFor(locale,'main').find(item=>item.id==='explore')!;
+const c=archiveFeatureCopy(locale);
+const startIds=['stories','chronicle','gallery','archive-music','archive-atlas','archive-statistics','archive-observatory','archive-ask'];
+const starts=featuresFor(locale,'explore').filter(item=>startIds.includes(item.id));
 ---
 <section id="explore" class="mx-auto max-w-7xl px-5 py-20 sm:px-6">
  <header><h2>04. EXPLORE</h2><p>{section.title}</p></header>
- <div class="home-explore-grid">{featuresFor(locale,'explore').map((item,i)=><WorkspaceLinkCard href={item.href} title={item.title} description={item.summary} index={String(i+1).padStart(2,'0')}/>)}</div>
+ <div class="home-explore-grid">{starts.map((item,i)=><WorkspaceLinkCard href={item.href} title={item.title} description={item.summary} index={String(i+1).padStart(2,'0')}/>)}</div>
+ <div data-home-archive-day data-locale={locale} class="home-archive-day"><a href={'/'+locale+'/explore/today/'}>{c.monthDay} · {c.mystery}</a><p data-home-day-status>{c.todayNote}</p><ul data-home-day-events></ul></div>
  <a href={section.href}>{section.title} <Icon name="arrow-right" /></a>
 </section>
+<script>import '../scripts/homeArchiveDay.js';</script>
 <style>header h2{font-size:10px;letter-spacing:.25em;font-weight:300}header p{font:10px var(--font-serif);opacity:.55;margin:8px 0 28px}.home-explore-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}section>a{display:inline-block;margin-top:20px;font-size:12px}@media(max-width:640px){.home-explore-grid{grid-template-columns:1fr}}</style>

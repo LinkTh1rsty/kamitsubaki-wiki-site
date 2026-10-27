@@ -1,0 +1,25 @@
+---
+import { relationPathCopy } from '../lib/relationPathCopy.mjs';
+import Icon from './Icon.astro';
+import WorkspaceButton from './WorkspaceButton.astro';
+import '../styles/relationPath.css';
+const { locale, compare = false } = Astro.props;
+const c = relationPathCopy(locale);
+---
+<section class="relation-path" data-relation-path data-path-compare={compare || undefined} aria-labelledby="relation-path-title">
+  <header><span class="relation-path-kicker">GRAPH / PATH</span><h2 id="relation-path-title">{c.title}</h2><p>{c.intro}</p></header>
+  <form data-path-form>
+    <div class="relation-path-inputs">
+      <label><span>{c.from}</span><input type="search" data-path-from list="relation-path-entries" placeholder={c.placeholder} aria-describedby="relation-path-hint" autocomplete="off" required disabled /></label>
+      <WorkspaceButton data-path-swap aria-label={c.swap} title={c.swap} disabled><Icon name="move-horizontal" size={16} /></WorkspaceButton>
+      <label><span>{c.to}</span><input type="search" data-path-to list="relation-path-entries" placeholder={c.placeholder} aria-describedby="relation-path-hint" autocomplete="off" required disabled /></label>
+      <WorkspaceButton type="submit" tone="primary" data-path-submit disabled>{compare ? c.compare : c.find} <span aria-hidden="true"><Icon name="arrow-up-right" /></span></WorkspaceButton>
+    </div>
+    <datalist id="relation-path-entries" data-path-options></datalist>
+    <div class="relation-path-options"><label><input type="checkbox" data-path-chronicle disabled />{c.chronicle}</label><p id="relation-path-hint">{c.hint}</p></div>
+  </form>
+  <p data-path-status role="status" aria-live="polite">{c.ready}</p>
+  <ol class="relation-path-results" data-path-results aria-label={c.title}></ol>
+  <p class="relation-path-note">{c.note}</p>
+  {compare && <p class="relation-path-note">{c.filterNote}</p>}
+</section>

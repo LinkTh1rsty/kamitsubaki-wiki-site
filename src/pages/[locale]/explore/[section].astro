@@ -9,6 +9,7 @@ import WorkspaceSection from '../../../components/WorkspaceSection.astro';
 import WorkspaceLinkCard from '../../../components/WorkspaceLinkCard.astro';
 import WorkspaceShell from '../../../components/WorkspaceShell.astro';
 import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
+import RelationPath from '../../../components/RelationPath.astro';
 import {getEntityRegistry} from '../../../lib/entityRegistry.mjs';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
@@ -50,13 +51,15 @@ const projects = registry.list(locale).filter(e=>e.data.entityType==='project');
       <div class="labs-status" role="status" data-status><LoadingStatus label={copy.loading}/></div><div class="labs-results" data-results></div><WorkspaceButton type="submit" data-more hidden>{copy.more}</WorkspaceButton>
     </section>
     <section class="labs-panel" id="labs-panel-relations" data-labs-panel="relations" aria-label={copy.tabs[2]} hidden={section !== 'relations'}>
+      <WorkspaceButton href={`/${locale}/graph/`} data-full-graph>{locale==='en'?'Open the full archive graph':locale==='ja'?'全体グラフを開く':'打开全站关系图谱'} ↗</WorkspaceButton>
+      <RelationPath locale={locale} />
       <label><span>{copy.choose}</span><WorkspaceControl data-query type="search" placeholder="花谱 / KAF / V.W.P" /></label>
       <div class="labs-status" role="status" data-status><LoadingStatus label={copy.loading}/></div><div class="labs-pick-list" data-picks></div>
       <div class="labs-graph-layout"><svg class="labs-graph" viewBox="0 0 700 460" role="group" aria-label={copy.tabs[2]} data-graph></svg><aside class="labs-graph-detail" data-detail></aside></div>
       <h2 style="margin-top:32px">{copy.related}</h2><div class="labs-results" data-results></div><WorkspaceButton type="submit" data-more hidden>{copy.more}</WorkspaceButton>
     </section>
     <section class="labs-panel" id="labs-panel-world" data-labs-panel="world" aria-label={copy.tabs[3]} hidden={section !== 'world'}>
-
+      <WorkspaceButton href={`/${locale}/explore/stories/kamitsubaki-city/`}>{locale==='en'?'Follow the guided introduction':locale==='ja'?'入門ガイドを読む':'跟着 Story Mode 开始认识神椿市'} ↗</WorkspaceButton>
       {labsWorlds.map((world, i) => <section class="labs-world-route"><small>{String(i+1).padStart(2,'0')} / {world.kind} · {world.date}</small><h2>{world.title}</h2><p>{resolveLocaleCopy(world.copy, locale)}</p><details><summary>{copy.spoiler}</summary><p>{resolveLocaleCopy(world.spoiler, locale)}</p></details><div class="labs-actions"><a class="labs-button" href={world.source} target="_blank" rel="noopener noreferrer">{copy.source} <Icon name="arrow-up-right" /></a>{world.entity && registry.resolveEntity(world.entity,locale) && <a class="labs-button" href={registry.resolveEntityUrl(world.entity,locale)}>{copy.open}</a>}</div></section>)}
       <h2 style="margin-top:40px">{copy.projects}</h2>{projects.map(p => <div class="labs-row"><div class="labs-row-body"><h3><a href={p.url}>{p.data.title || p.data.name}</a></h3><p>{p.data.summary || copy.projects}</p></div></div>)}
     </section>
@@ -84,4 +87,5 @@ const projects = registry.list(locale).filter(e=>e.data.entityType==='project');
   </WorkspaceShell>
   <SiteFooter footer={site.footer} />
   <script>import '../../../scripts/labsTabs.js';</script>
+  <script is:inline>document.querySelectorAll('[data-full-graph]').forEach(link => { link.href += location.search; });</script>
 </BaseLayout>

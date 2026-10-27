@@ -1,10 +1,12 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
+import { fileURLToPath } from 'node:url';
 import { build } from 'vite';
 import {
   DATABASE_COLLECTIONS,
   collectDatabaseFacets,
   filterDatabaseRecords,
+  sortDatabaseRecords,
   matchesDatabaseRecord,
   readDatabaseQuery,
   toDatabaseRecord,
@@ -93,7 +95,7 @@ test('the complete browser bundle has no externalized Node built-ins', async () 
     build: {
       write: false,
       minify: false,
-      lib: { entry: new URL('../src/lib/databaseBrowse.mjs', import.meta.url).pathname, formats: ['es'] },
+      lib: { entry: fileURLToPath(new URL('../src/lib/databaseBrowse.mjs', import.meta.url)), formats: ['es'] },
     },
   });
   const bundles = (Array.isArray(result) ? result : [result]).flatMap(bundle => bundle.output);
@@ -193,7 +195,7 @@ test('facets come from records, deduplicate multi-links, and label IDs without c
 test('query state round-trips every filter and List view while retaining legacy section and unrelated params', () => {
   const records = [track(), track({ id: 'unknown', releaseDate: undefined })];
   const facets = collectDatabaseFacets(records);
-  const state = { q: '魔女 & KAF', type: 'work-track', artist: 'kaf', year: 'unknown', genre: 'art-pop', project: 'city', collection: 'music', view: 'list' };
+  const state = { q: '魔女 & KAF', type: 'work-track', artist: 'kaf', year: 'unknown', genre: 'art-pop', project: 'city', collection: 'music', view: 'list', sort: 'newest' };
   const params = writeDatabaseQuery(state, '?section=city-project&from=home');
   assert.equal(params.get('section'), 'city-project');
   assert.equal(params.get('from'), 'home');
@@ -208,8 +210,17 @@ test('query state round-trips every filter and List view while retaining legacy 
 test('query restoration discards stale facets and invalid views but preserves ordinary search text', () => {
   const facets = collectDatabaseFacets([track()]);
   assert.deepEqual(readDatabaseQuery('?q=%E9%AD%94%E5%A5%B3&type=invalid&artist=missing&year=unknown&genre=absent&project=unknown&collection=bogus&view=tiles', facets), {
-    q: '魔女', type: '', artist: '', year: '', genre: '', project: '', collection: '', view: 'grid',
+    q: '魔女', type: '', artist: '', year: '', genre: '', project: '', collection: '', view: 'grid', sort: 'catalog',
   });
   assert.equal(readDatabaseQuery('?year=2023&view=list', facets).year, '2023');
   assert.equal(readDatabaseQuery('?year=2023&view=list', facets).view, 'list');
+});
+
+test('recorded years sort in either direction with unknown years last and no input mutation',()=>{
+  const rows=[{id:'unknown',title:'A',year:null},{id:'new',title:'B',year:'2026'},{id:'old',title:'C',year:'2018'}];
+  assert.deepEqual(sortDatabaseRecords(rows,'newest','en').map(row=>row.id),['new','old','unknown']);
+  assert.deepEqual(sortDatabaseRecords(rows,'oldest','en').map(row=>row.id),['old','new','unknown']);
+  assert.deepEqual(sortDatabaseRecords(rows,'title','en').map(row=>row.id),['unknown','new','old']);
+  assert.deepEqual(rows.map(row=>row.id),['unknown','new','old']);
+  assert.equal(readDatabaseQuery('?sort=invalid').sort,'catalog');
 });

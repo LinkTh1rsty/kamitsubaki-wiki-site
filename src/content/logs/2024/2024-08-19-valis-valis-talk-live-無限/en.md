@@ -1,0 +1,11 @@
+---
+locale: "en"
+translationKey: "2024-08-19-valis-valis-talk-liv"
+date: "2024.08.19"
+eventDate: "2024-08-19"
+type: "OFFICIAL"
+title: "【VALIS】VALIS TALK&LIVE「無限ミーティング Vol.3 -Side ORIGIN-」返金対応につきまして"
+order: 297
+---
+
+

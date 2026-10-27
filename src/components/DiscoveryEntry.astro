@@ -1,0 +1,35 @@
+---
+import { discoveryReason, discoveryEdgeText } from '../lib/discoveryPresentation.mjs';
+import type { DiscoveryNode, DiscoveryCatalog } from '../lib/discoveryEngine.mjs';
+import { discoveryCopy } from '../lib/discoveryCopy.mjs';
+type Step = { to: string; inverse: boolean; edge: Record<string, any> };
+type Reason = { type: string; seed?: string; steps?: Step[]; value?: string; end?: string };
+interface Props {
+  record: { node: DiscoveryNode; reasons?: Reason[]; step?: Step | null };
+  catalog: DiscoveryCatalog; copy: ReturnType<typeof discoveryCopy>; locale: string; index?: number; route?: boolean;
+}
+const { record, catalog, copy: c, locale, index = 0, route = false } = Astro.props;
+const node = record.node;
+const connection = record.reasons?.find(reason => reason.type === 'connection');
+const evidence = connection ? [{ node: catalog.nodes.find(item => item.id === connection.seed), step: null },
+  ...(connection.steps || []).map(step => ({ node: catalog.nodes.find(item => item.id === step.to), step }))].filter((row): row is typeof row & {node:DiscoveryNode} => Boolean(row.node)) : [];
+---
+<li class:list={['discovery-entry', route && 'discovery-stop']} data-discovery-record={!route ? node.id : undefined}
+  data-discovery-step={route ? node.id : undefined} data-stop-index={route ? index : undefined} aria-current={route && index === 0 ? 'step' : undefined}>
+  {route && <span class="discovery-stop-number">{String(index + 1).padStart(2, '0')}</span>}
+  <div class="discovery-entry-body">
+    {route && record.step && <div class="discovery-edge"><span>{discoveryEdgeText(record.step, c)}</span>{record.step.edge.evidence && <a href={record.step.edge.evidence}>{c.evidence}</a>}</div>}
+    <small>{c.kinds[node.kind] || node.kind}{node.date && <> · <time datetime={node.date.label}>{node.date.label}</time></>}</small>
+    <h3><a href={node.path}>{node.title}</a></h3>
+    {node.subtitle && <p class="discovery-subtitle">{node.subtitle}</p>}
+    {node.description && <p>{node.description}</p>}
+    {!route && <ul class="discovery-reasons">{(record.reasons || []).map(reason => <li>{discoveryReason(reason, catalog, c)}</li>)}</ul>}
+    {route && index === 0 && <p class="discovery-seed-note">{c.routeSeed}</p>}
+    {evidence.length > 0 && <details class="discovery-evidence"><summary>{c.pathDetail}</summary><ol>{evidence.map(({ node: related, step }) => <li>{step && <span>{discoveryEdgeText(step, c)} </span>}<a href={related.path}>{related.title}</a>{step?.edge.evidence && <> · <a href={step.edge.evidence}>{c.evidence}</a></>}</li>)}</ol></details>}
+    <div class="discovery-entry-actions">
+      <a href={node.path}>{c.open} ↗</a>
+      {!node.id.startsWith('article:') && <a href={`/${locale}/graph/?entry=${encodeURIComponent(node.id)}&scope=neighborhood${node.kind === 'events' ? '&events=1' : ''}`}>{c.graph} ↗</a>}
+      <a href={`/${locale}/explore/discovery/?start=${encodeURIComponent(node.id)}${node.kind === 'events' ? '&events=1' : ''}`}>{c.continue} ↗</a>
+    </div>
+  </div>
+</li>

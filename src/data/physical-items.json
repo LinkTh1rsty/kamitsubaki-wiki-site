@@ -1,0 +1,28 @@
+[
+  {
+    "id": "fukakai-iii-mad-bluray",
+    "type": "bluray",
+    "names": {
+      "zh": "不可解参（狂）Blu-ray",
+      "ja": "不可解参（狂）Blu-ray",
+      "en": "Fukakai III MAD Blu-ray"
+    },
+    "format": "Blu-ray × 2",
+    "date": "2023-06",
+    "relatedEntities": [
+      "fukakai-san-kyou"
+    ],
+    "bonusItems": [
+      "Live photo booklet / interview"
+    ],
+    "sources": [
+      {
+        "id": "official-fukakai-iii-bd",
+        "title": "3rd ONE-MAN LIVE「不可解参(狂)」Blu-ray · 花譜 Official Website",
+        "url": "https://kaf.kamitsubaki.jp/discography/20230601/213/",
+        "type": "official",
+        "publisher": "KAMITSUBAKI STUDIO"
+      }
+    ]
+  }
+]

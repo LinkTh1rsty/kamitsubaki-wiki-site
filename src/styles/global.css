@@ -1289,8 +1289,8 @@ html.site-search-open body {
 .site-search__close {
   appearance: none;
   display: grid;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: var(--ui-hit-target, 44px);
+  height: var(--ui-hit-target, 44px);
   place-items: center;
   border: 1px solid rgb(var(--theme-fg-rgb) / 0.12);
   background: rgb(var(--theme-fg-rgb) / 0.025);
@@ -3862,6 +3862,44 @@ html[data-theme='light'] .guide-shell {
   padding: 1rem 1.5rem;
   color: rgb(var(--theme-fg-rgb) / 0.45);
   font: 0.68rem/1.8 var(--font-sans);
+}
+
+.events-calendar__filter {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  border-bottom: 1px solid rgb(var(--theme-fg-rgb) / 0.07);
+  padding: 0.85rem 1.5rem;
+}
+
+.events-calendar__filter[hidden] {
+  display: none;
+}
+
+.events-calendar__filter label {
+  color: rgb(var(--theme-fg-rgb) / 0.4);
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.events-calendar__filter select {
+  flex: 1;
+  max-width: 22rem;
+  border: 1px solid rgb(var(--theme-fg-rgb) / 0.12);
+  padding: 0.55rem 0.7rem;
+  background: rgb(var(--theme-fg-rgb) / 0.025);
+  color: rgb(var(--theme-fg-rgb) / 0.78);
+  font: 0.68rem/1.2 var(--font-mono);
+  letter-spacing: 0.04em;
+}
+
+.events-calendar__filter select:hover,
+.events-calendar__filter select:focus-visible {
+  border-color: rgb(var(--theme-accent-rgb) / 0.5);
+  color: var(--theme-accent-color);
+  outline: none;
 }
 
 .events-calendar__month {
@@ -6914,6 +6952,10 @@ html body .site-search__input.workspace-control{border:0;box-shadow:none;--works
 html body .site-search__status{min-height:52px;line-height:1.7;letter-spacing:0;font-family:var(--font-sans);}
 html body .site-search__more{margin:0;border-radius:0;}
 html body .site-search__footer{min-height:40px;}
+/* Search actions retain the same touch and keyboard treatment as archive controls. */
+.site-search__filters button,.site-search__retry-btn,.site-search__more{min-height:var(--ui-hit-target,44px);font-size:var(--ui-font-xs,12px)}
+.site-search__retry-btn{padding:8px 12px}
+.site-search :is(button,input,a):focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:3px}
 
 /* Search controls share one optical center, independent of native input metrics. */
 html body .site-search__form { gap: 12px; padding-block: 12px; }

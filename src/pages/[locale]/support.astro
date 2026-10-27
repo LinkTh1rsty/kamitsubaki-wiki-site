@@ -14,7 +14,7 @@ import {getLocalizedSite} from '../../lib/homeData.mjs';
 import {buildLocaleLinks,defaultLocale,supportedLocales} from '../../lib/i18n.mjs';
 import {getSupportCopy} from '../../data/supportCopy';
 import {getSupportData} from '../../lib/support';
-import {renderSupportData} from '../../lib/supportView.mjs';
+import {renderSupportData,renderSupportOverview} from '../../lib/supportView.mjs';
 import {supportExperienceCopy} from '../../lib/supportExperienceCopy.mjs';
 import '../../styles/support.css';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
@@ -29,6 +29,10 @@ const currentPath='/support/',metadata={title:`${copy.title} - Kamitsubaki Studi
   <script is:inline type="application/json" data-support-copy set:html={JSON.stringify(copy).replace(/</g,'\u003c')}/>
   <WorkspaceHeader title={copy.heroTitle} intro={copy.intro} eyebrow="SUPPORT THE OBSERVATORY" backHref={`/${locale}/`} backLabel={copy.home}/>
   <SupportHero locale={locale}/>
+  <section class="support-overview" aria-label={copy.reportLabel}>
+   <div class="support-overview-actions"><a class="support-text-link" href={`/${locale}/contribute/`}>{copy.contribute}</a><a class="support-text-link" href="#transparency">{copy.seeReports}</a></div>
+   <div data-support-overview set:html={renderSupportOverview(data,copy,locale)}/>
+  </section>
   <WorkspaceNavigation label={copy.pageNav} kind="support">{[{id:'ways-to-support',label:copy.navChannels},{id:'running-costs',label:copy.navCosts},{id:'transparency',label:copy.navReports},{id:'sponsor-wall',label:copy.navWall}].map(item=><a id={`support-tab-${item.id}`} href={`#${item.id}`} data-support-tab={item.id}>{item.label}</a>)}</WorkspaceNavigation>
   <div class="support-live-status"><p class="support-note" data-support-status role="status"></p><WorkspaceButton data-support-retry hidden>{copy.retry}<Icon name="history"/></WorkspaceButton></div>
   <div class="support-panels">

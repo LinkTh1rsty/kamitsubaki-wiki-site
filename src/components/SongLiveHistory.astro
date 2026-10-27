@@ -1,0 +1,16 @@
+---
+import type {EntityRegistry} from '../lib/entityRegistry.mjs';
+import ReaderDisclosure from './ReaderDisclosure.astro';
+import ReaderRecordList from './ReaderRecordList.astro';
+import ContextAction from './ContextAction.astro';
+import {songLiveHistory} from '../lib/liveArchive.mjs';
+import {archiveCopy} from '../lib/archiveCopy.mjs';
+const {registry,songId,locale}=Astro.props as {registry:EntityRegistry;songId:string;locale:string};
+const records=songLiveHistory(registry,songId,locale),c=archiveCopy(locale);
+---
+<ReaderDisclosure id="entry-performances" title={c.live.history} count={records.length}>
+  <p class="song-live-note">{c.live.historyNote}</p>
+  {records.length>0?<ReaderRecordList id="reader-performances-more" locale={locale} records={records.map(record=>({href:`${record.path}#entry-setlist`,title:record.title,detail:[record.date,record.venue,`${c.live.positions}: ${record.performances.map(row=>row.number||'—').join(' / ')}`].filter(Boolean).join(' · ')}))}/>:<p class="song-live-note">{c.live.noHistory}</p>}
+  <ContextAction href={`/${locale}/explore/lives/`} tone="quiet">{c.live.browse} ↗</ContextAction>
+</ReaderDisclosure>
+<style>.song-live-note{font:12px/1.9 var(--font-sans);color:var(--reader-muted)}</style>

@@ -16,11 +16,33 @@ romanizedTitle: "夜が降り止む前に"
 performers:
   - entity: "kaf"
     role: "lead-vocal"
+sources:
+  - id: official-kansoku-alpha
+    title: 観測α · 花譜 Official Website
+    url: https://kaf.kamitsubaki.jp/discography/20190911/107/
+    type: official
+    publisher: KAMITSUBAKI STUDIO
 credits:
-  - role: "composer"
-    entity: "kanzaki-iori"
-  - role: "lyricist"
-    entity: "kanzaki-iori"
+  - role: composer
+    entity: kanzaki-iori
+    sourceIds:
+      - official-kansoku-alpha
+  - role: lyricist
+    entity: kanzaki-iori
+    sourceIds:
+      - official-kansoku-alpha
+  - role: arranger
+    entity: kanzaki-iori
+    sourceIds:
+      - official-kansoku-alpha
+evidence:
+  - id: album-credits
+    field: credits
+    sourceIds:
+      - official-kansoku-alpha
+    checkedAt: "2026-10-13"
+    status: reviewed
+    note: Official album page attributes lyrics, composition and arrangement to カンザキイオリ.
 ---
 
 ## 作品概要

@@ -13,7 +13,7 @@ test('packed fragments preserve every byte, locale URL and HEAD metadata without
   const expected=new Map();
   for(const locale of locales){
    const fragmentDir=join(directory,'pagefind',locale,'fragment');await mkdir(fragmentDir,{recursive:true});
-   for(const hash of ['aa01234','aa56789','ff00000']){
+   for(const hash of ['aa01234','ab56789','ff00000']){
     const name=`${locale.startsWith('zh')?'zh':locale}_${hash}.pf_fragment`;
     const bytes=Buffer.from([0,255,31,139,...Buffer.from(locale+hash)]);
     await writeFile(join(fragmentDir,name),bytes);expected.set(locale+'/'+name,bytes);
@@ -24,7 +24,7 @@ test('packed fragments preserve every byte, locale URL and HEAD metadata without
   const env={ASSETS:{fetch:async request=>{
    subrequests++;assert.equal(request.method,'GET');
    const path=new URL(request.url).pathname;
-   assert.match(path,/^\/pagefind-packs\/(?:zh|zh-tw|zh-hk|ja|en)\/[a-f0-9]{2}\.json$/);
+   assert.match(path,/^\/pagefind-packs\/(?:zh|zh-tw|zh-hk|ja|en)\/[a-f0-9]\.json$/);
    try{return new Response(await readFile(join(directory,path)));}catch{return new Response(null,{status:404});}
   }}};
   for(const [path,bytes] of expected){

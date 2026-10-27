@@ -14,6 +14,7 @@ export const copy = JSON.parse(config?.dataset.copy || '{}');
 export const apiBase = (config?.dataset.apiBase || 'https://api.kamitsubaki.wiki').replace(/\/$/,'');
 export const state = {viewer:null,auth:'checking',sync:'guest',account:null,accountLoad:'idle'};
 let authPromise, lastChecked=0, syncPromise, timer, generation=0,lastLibraryRead=0;
+export const getAccountGeneration=()=>generation;
 // Shared module has a real-link fallback when the central host is unavailable.
 let canonicalClient=null;
 const centralClient=import(/* @vite-ignore */ `${apiBase}/auth/client/v1.mjs?ui=modal-1`).then(module=>{canonicalClient=module.createAccountAuthClient({apiBase,locale});queueMicrotask(renderChrome);return canonicalClient;}).catch(()=>null);

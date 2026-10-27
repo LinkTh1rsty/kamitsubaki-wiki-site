@@ -13,7 +13,9 @@ const section=featuresFor(locale,'main').find(item=>item.id==='explore')!;
 const features=featuresFor(locale,'explore');
 const chronicle=features.find(item=>item.id==='chronicle')!;
 const gallery=features.find(item=>item.id==='gallery')!;
-const rest=features.filter(item=>item.section==='connections');
+const rest=features.filter(item=>!['chronicle','gallery'].includes(item.id));
+const systems=resolveLocaleCopy({zh:{discover:'发现与入门',archive:'作品与档案',time:'时间与地点',community:'个人与社区',intelligence:'查询与研究',infrastructure:'来源与开放数据'},en:{discover:'Discover',archive:'Archive',time:'Time & Space',community:'Community',intelligence:'Intelligence',infrastructure:'Infrastructure'},ja:{discover:'発見と入門',archive:'作品と記録',time:'時間と場所',community:'個人とコミュニティ',intelligence:'検索と研究',infrastructure:'出典と公開データ'}},locale);
+const groups=Object.entries(systems).map(([id,title])=>({id,title,items:rest.filter(item=>(item.section==='connections'?'discover':item.section)===id)}));
 const copy=resolveLocaleCopy({
  zh:{lead:'从一条线索，走进神椿。',leadNote:'想知道一件事发生在何时，或想看清一张照片？从时间与影像开始，再沿关联阅读人物与世界。',timeKicker:'01 / 按时间阅读',timeAction:'打开剪辑式时间轴',imageKicker:'02 / 按影像阅读',imageAction:'浏览图片档案',more:'继续探索',moreNote:'从一个人物、一部作品或一段故事，找到下一条线索。',journal:'站点公告',journalNote:'阅读网站更新和历史记录。',journalAction:'阅读公告历史'},
  ja:{lead:'ひとつの手がかりから、神椿へ。',leadNote:'出来事がいつ起きたか、写真を詳しく見たいときは、時間と画像から始めましょう。',timeKicker:'01 / 時間から読む',timeAction:'トラック型の年代記を開く',imageKicker:'02 / 画像から読む',imageAction:'画像アーカイブを見る',more:'さらに探索',moreNote:'人物・作品・物語のつながりから次の手がかりへ。',journal:'サイトのお知らせ',journalNote:'更新履歴と過去のお知らせを読む。',journalAction:'お知らせ一覧へ'},
@@ -37,7 +39,7 @@ const copy=resolveLocaleCopy({
     </a>
   </div>
   <VisualRoamPortal locale={locale}/>
-  <section class="explore-related"><header><span>03 / CONNECTIONS</span><h2>{copy.more}</h2><p>{copy.moreNote}</p></header><div>{rest.map((item,index)=><WorkspaceLinkCard href={item.href} index={String(index+1).padStart(2,'0')} title={item.title} description={item.summary}/>)}</div></section>
+  <section class="explore-related"><header><span>03 / CONNECTIONS</span><h2>{copy.more}</h2><p>{copy.moreNote}</p></header><div class="explore-systems"><nav class="explore-system-nav">{groups.map(group=><a href={'#system-'+group.id}>{group.title}</a>)}</nav>{groups.map(group=><section id={'system-'+group.id}><h3>{group.title}</h3>{group.items.map((item,index)=><WorkspaceLinkCard href={item.href} index={String(index+1).padStart(2,'0')} title={item.title} description={item.summary}/>)}</section>)}</div></section>
   <a class="explore-journal" href={`/${locale}/announcements/`}><span>SITE / JOURNAL</span><strong>{copy.journal}</strong><small>{copy.journalNote}</small><b>{copy.journalAction} <Icon name="arrow-up-right" /></b></a>
 </WorkspaceLayout>
 <style>
@@ -65,6 +67,7 @@ const copy=resolveLocaleCopy({
 .explore-path__action>span{font-size:19px}
 .explore-related{display:grid;grid-template-columns:minmax(220px,1fr) minmax(0,2fr);gap:24px 50px;margin-top:62px;border-top:1px solid var(--workspace-line);padding-top:30px}
 .explore-related h2{margin:10px 0 8px;font:400 27px/1.4 var(--font-serif)}.explore-related p{max-width:35ch;color:var(--workspace-muted);font:13px/1.8 var(--font-sans)}
+.explore-systems section{scroll-margin-top:100px;margin-top:28px}.explore-systems h3{font:500 16px/1.6 var(--font-sans);margin-bottom:12px}.explore-system-nav{display:flex;flex-wrap:wrap;gap:12px 20px;font:12px/1.8 var(--font-sans)}
 .explore-journal{display:grid;grid-template-columns:145px minmax(120px,1fr) minmax(180px,2fr) auto;align-items:center;gap:16px;margin-top:38px;padding:23px 0;border-block:1px solid var(--workspace-line);color:var(--theme-fg);text-decoration:none}
 .explore-journal strong{font:400 19px var(--font-serif)}.explore-journal small{font:12px/1.6 var(--font-sans);color:var(--workspace-muted)}.explore-journal b{font:12px var(--font-sans)}
 .explore-journal:hover b{color:var(--theme-accent-color)}

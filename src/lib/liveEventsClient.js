@@ -71,10 +71,15 @@ export function normalizeEventsPayload(payload) {
       ? item.endAt
       : undefined;
 
+    const artistIds = Array.isArray(item.artistIds)
+      ? [...new Set(item.artistIds.filter((id) => typeof id === 'string' && id.trim()).map((id) => id.trim()))]
+      : [];
+
     return [{
       id: String(item.id ?? `${startAt}-${index}`),
       title,
       artist: typeof item.artist === 'string' ? item.artist.trim() : '',
+      artistIds,
       location: typeof item.location === 'string' ? item.location.trim() : '',
       startAt,
       endAt,
@@ -83,6 +88,48 @@ export function normalizeEventsPayload(payload) {
       url: isSafeHttpUrl(item.url) ? item.url : '',
     }];
   }).sort((a, b) => Date.parse(a.startAt) - Date.parse(b.startAt));
+}
+
+// 解析 API 载荷顶层的艺人注册表（{ id, type, labels: { <locale>: name } }），
+// 以 id 为键返回；缺失时返回空 Map，调用方回退到 event.artist 原文展示。
+export function normalizeArtistsRegistry(payload) {
+  const source = Array.isArray(payload) ? null : payload?.artists;
+  const registry = new Map();
+  if (!Array.isArray(source)) return registry;
+  for (const item of source) {
+    if (!item || typeof item !== 'object') continue;
+    const id = typeof item.id === 'string' ? item.id.trim() : '';
+    if (!id) continue;
+    const labels = item.labels && typeof item.labels === 'object' ? item.labels : {};
+    registry.set(id, { id, type: typeof item.type === 'string' ? item.type : '', labels });
+  }
+  return registry;
+}
+
+// 依据艺人注册表按语言环境解析显示名；无词条时回退到 fallback（通常为 event.artist 原文）
+export function resolveArtistLabel(entry, languageTag, fallback = '') {
+  if (!entry || typeof entry !== 'object') return fallback;
+  const labels = entry.labels || {};
+  const tag = String(languageTag || '').toLowerCase();
+  const candidates = tag.startsWith('zh-tw') ? ['zh-tw', 'zh']
+    : tag.startsWith('zh-hk') || tag.startsWith('zh-mo') ? ['zh-hk', 'zh-tw', 'zh']
+    : tag.startsWith('zh') ? ['zh']
+    : tag.startsWith('ja') ? ['ja', 'en', 'zh']
+    : ['en', 'zh'];
+  for (const key of candidates) {
+    const value = labels[key];
+    if (typeof value === 'string' && value.trim()) return value.trim();
+  }
+  const first = Object.values(labels).find((value) => typeof value === 'string' && value.trim());
+  return first ? first.trim() : fallback;
+}
+
+// 组装活动的艺人展示文案：优先使用 artistIds + 注册表的本地化名称，否则回退原文
+export function formatEventArtists(event, artistsRegistry, languageTag) {
+  const ids = Array.isArray(event?.artistIds) ? event.artistIds : [];
+  if (!ids.length || !(artistsRegistry instanceof Map)) return event?.artist || '';
+  const names = ids.map((id) => resolveArtistLabel(artistsRegistry.get(id), languageTag, '')).filter(Boolean);
+  return names.length ? names.join(' / ') : event?.artist || '';
 }
 
 export function isSafeHttpUrl(value) {

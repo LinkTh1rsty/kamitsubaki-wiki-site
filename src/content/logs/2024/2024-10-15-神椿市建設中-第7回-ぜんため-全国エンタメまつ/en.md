@@ -1,0 +1,11 @@
+---
+locale: "en"
+translationKey: "2024-10-15-7"
+date: "2024.10.15"
+eventDate: "2024-10-15"
+type: "OFFICIAL"
+title: "【神椿市建設中。】第7回 ぜんため（全国エンタメまつり）に「神椿市建設中。REGENERATE／神椿市協奏中。」出展決定"
+order: 326
+---
+
+

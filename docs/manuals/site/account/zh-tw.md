@@ -5,7 +5,7 @@ locale: "zh-tw"
 order: 4
 title: "賬號、外觀與常見問題"
 summary: "管理個人空間，理解本機資料與登入投稿的區別。"
-generatedFromHash: "9a383abebe73714e3803"
+generatedFromHash: "194d7fd7b402135b6d81"
 generated: true
 generatedFrom: "zh"
 ---

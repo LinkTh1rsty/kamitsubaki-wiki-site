@@ -1,0 +1,22 @@
+const fields={id:180,title:120,description:3000,kind:20,revision:20,items:15000,notes:40000,presentation:350000};
+export function validateCollectionEditor(value){
+ if(!value || typeof value!=='object' || Array.isArray(value))throw Error('invalid_draft');
+ const editor={};for(const [key,max]of Object.entries(fields)){const text=value[key] ?? (key==='kind'?'collection':key==='revision'?'0':'');if(typeof text!=='string' || text.length>max)throw Error('invalid_draft');editor[key]=text;}
+ if(!['collection','exhibition'].includes(editor.kind) || !/^\d{1,16}$/.test(editor.revision))throw Error('invalid_draft');
+ if(editor.presentation){const data=JSON.parse(editor.presentation);if(!data || Array.isArray(data) || typeof data!=='object' || Object.keys(data).length>100)throw Error('invalid_draft');let covers=0;for(const [id,item]of Object.entries(data)){if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id) || !item || typeof item!=='object' || typeof item.note!=='string' || item.note.length>2000 || typeof item.section!=='string' || item.section.length>120 || typeof item.cover!=='boolean')throw Error('invalid_draft');if(item.cover)covers++;}if(covers>1)throw Error('invalid_draft');}
+ return editor;
+}
+export function collectionEditorItems(editor){const notes=editor.notes.split(/\r?\n/),presentation=JSON.parse(editor.presentation || '{}');return editor.items.split(/\r?\n/).map((entityId,index)=>{const id=entityId.trim(),meta=presentation[id];return {entityId:id,note:meta?.note ?? notes[index] ?? '',...(meta?.section?{section:meta.section}:{}),...(meta?.cover?{cover:true}:{})};}).filter(row=>row.entityId);}
+export function collectionPresentation(items){return JSON.stringify(Object.fromEntries(items.map(row=>[row.entityId,{note:row.note || '',section:row.section || '',cover:row.cover===true}])));}
+// The raw text editor mirrors one short line per chapter; presentation retains the full note.
+export const collectionNoteLine=note=>(note || '').replace(/\r?\n/g,' ').slice(0,300);
+export const collectionDraftKey=owner=>'kamitsubaki-collection-drafts-v1:'+ (owner || 'guest');
+export function readCollectionDrafts(storage,owner){
+ try{const raw=storage.getItem(collectionDraftKey(owner));if(!raw)return [];if(raw.length>1500000)throw Error('large_drafts');const store=JSON.parse(raw);if(store.version!==1 || !Array.isArray(store.drafts) || store.drafts.length>50)throw Error('invalid_drafts');const seen=new Set();return store.drafts.map(draft=>{if(typeof draft.localId!=='string' || !/^local-[a-f0-9-]{36}$/.test(draft.localId) || seen.has(draft.localId) || !Number.isSafeInteger(draft.updatedAt))throw Error('invalid_draft');seen.add(draft.localId);return {...draft,editor:validateCollectionEditor(draft.editor)};});}catch{return [];}
+}
+export function saveCollectionDraft(storage,owner,editor,localId=null){
+ const draft={localId:localId || 'local-'+crypto.randomUUID(),updatedAt:Date.now(),editor:validateCollectionEditor(editor)},current=readCollectionDrafts(storage,owner);if(current.length>=50 && !current.some(row=>row.localId===draft.localId))throw Error('draft_limit');const drafts=[draft,...current.filter(row=>row.localId!==draft.localId)],json=JSON.stringify({version:1,drafts});if(json.length>1500000)throw Error('large_drafts');storage.setItem(collectionDraftKey(owner),json);return draft;
+}
+export function removeCollectionDraft(storage,owner,localId){storage.setItem(collectionDraftKey(owner),JSON.stringify({version:1,drafts:readCollectionDrafts(storage,owner).filter(row=>row.localId!==localId)}));storage.removeItem(collectionDraftKey(owner)+':progress:'+localId);}
+export function importCollectionEditor(raw){if(!raw || raw.format!=='archive-exhibition-draft' || raw.version!==1)throw Error('invalid_draft');return validateCollectionEditor(raw.editor);}
+export const exportCollectionEditor=editor=>({format:'archive-exhibition-draft',version:1,editor:validateCollectionEditor(editor)});

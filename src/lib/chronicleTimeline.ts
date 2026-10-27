@@ -1,9 +1,12 @@
+import {resolveChroniclePreset} from './chroniclePresets.mjs';
 import {setIconLabel} from './icons.mjs';
 import {dateBounds, eventBounds, timelineBounds, clusterEvents} from './chronicleTimeline.mjs';
 import {createChronicleZoomScheduler} from './chronicleZoomScheduler.mjs';
+import {updateLocaleQueries} from './localeQuery.mjs';
 interface TimelineEvent {id:string;title:string;summary:string;era?:string;date:{start:string;end?:string;precision:string};tracks:string[];eventTypes:string[];importance:string;sourceLocale?:string;translationPending?:boolean;related?:{entity:string}[];links:{label:string;url:string}[];sources?:{url?:string;title?:string;publisher?:string;page?:string}[]}
 export function initTimeline(){
  const root=document.querySelector<HTMLElement>('[data-timeline]');if(!root)return;
+ const saveLocation=(url:URL)=>{history.replaceState(null,'',url);updateLocaleQueries(root.ownerDocument,url.search,url.hash);};
  const data=JSON.parse(root.querySelector('[data-timeline-data]')!.textContent!);
  const events:TimelineEvent[]=data.events, eras:{id:string;start:string;end:string}[]=data.eras;
  const ui=data.ui, domain=timelineBounds(events,eras), duration=domain.end-domain.start;
@@ -60,7 +63,7 @@ export function initTimeline(){
    setPlayhead(eventBounds(event).start);
    root.querySelectorAll<HTMLElement>('[data-event-ids]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.eventIds!.split(' ').includes(event.id))));
    if(!reduced.matches)detail.animate([{opacity:.35,transform:'translateY(5px)'},{opacity:1,transform:'none'}],{duration:220,easing:'ease-out'});
-   if(save){const url=new URL(location.href);url.hash=event.id;history.replaceState(null,'',url);}
+   if(save){const url=new URL(location.href);url.hash=event.id;saveLocation(url);}
    if(locate)focusEvent(event);
  };
  const draw=()=>{
@@ -112,10 +115,10 @@ export function initTimeline(){
  };
  const zoomScheduler=createChronicleZoomScheduler({
   render:(anchor:{time:number;x:number}|null)=>{draw();if(anchor)viewport.scrollLeft=pos(anchor.time)-anchor.x;viewportState();},
-  commit:()=>{const url=new URL(location.href);url.searchParams.delete('era');history.replaceState(null,'',url);}
+  commit:()=>{const url=new URL(location.href);url.searchParams.delete('era');saveLocation(url);}
  });
  const commitZoomUrl=()=>zoomScheduler.finish();
- const saveEra=(id='')=>{zoomScheduler.cancel();activeEra=id;const url=new URL(location.href);id?url.searchParams.set('era',id):url.searchParams.delete('era');history.replaceState(null,'',url);if(viewControl.value==='list'){renderList();viewportState();}};
+ const saveEra=(id='')=>{zoomScheduler.cancel();activeEra=id;const url=new URL(location.href);id?url.searchParams.set('era',id):url.searchParams.delete('era');saveLocation(url);if(viewControl.value==='list'){renderList();viewportState();}};
  const scheduleZoom=(time:number,x:number)=>{activeEra='';const scale=zoomLevel();get('[data-scale]').textContent=(scale<10?scale.toFixed(1):Math.round(scale))+'×';zoomScheduler.schedule({time,x});};
  const fitRange=(start:number,end:number,animate=true)=>{
    const range=Math.max(86400000,Math.min(domain.end,end)-Math.max(domain.start,start));setZoomLevel(duration/range);draw();setPlayhead(Math.max(domain.start,start));viewport.scrollTo({left:pos(Math.max(domain.start,start)),behavior:animate&&!reduced.matches?'smooth':'instant'});
@@ -123,11 +126,11 @@ export function initTimeline(){
  const fitSiteRange=()=>{const siteEvents=events.filter(e=>e.tracks.includes('site-updates'));if(!siteEvents.length)return fitRange(domain.start,domain.end,false);const starts=siteEvents.map(e=>eventBounds(e).start),ends=siteEvents.map(e=>eventBounds(e).end);fitRange(Math.min(...starts)-14*86400000,Math.max(...ends)+14*86400000,false);};
  const listView=get<HTMLElement>('[data-chronicle-list]'),viewControl=get<HTMLSelectElement>('[data-timeline-view]'),orderControl=get<HTMLSelectElement>('[data-timeline-order]');
  const renderList=()=>{listView.replaceChildren();const ordered=filtered.filter(event=>viewControl.value!=='list'||!activeEra||event.era===activeEra).sort((a,b)=>a.date.start.localeCompare(b.date.start)||a.id.localeCompare(b.id));if(orderControl.value==='desc')ordered.reverse();let shown=0;const more=el('button',ui.more) as HTMLButtonElement;more.type='button';const reveal=()=>{for(const event of ordered.slice(shown,shown+12)){const button=el('button',`${dateLabel(event)} · ${event.title}`) as HTMLButtonElement;button.type='button';button.onclick=()=>{group=[event];select(event);get('[data-detail]').scrollIntoView({block:'nearest',behavior:'instant'});};listView.insertBefore(button,more);}shown+=12;more.hidden=shown>=ordered.length;collapse.hidden=shown<=12;};const collapse=el('button',ui.collapse) as HTMLButtonElement;collapse.type='button';collapse.onclick=()=>{renderList();listView.scrollIntoView({block:'nearest',behavior:'instant'});};listView.append(more,collapse);more.onclick=reveal;reveal();};
- const changeListView=(save=true)=>{listView.hidden=viewControl.value!=='list';get<HTMLElement>('.timeline-console').hidden=!listView.hidden;renderList();if(listView.hidden)draw();if(save){const url=new URL(location.href);url.searchParams.set('view',viewControl.value);url.searchParams.set('order',orderControl.value);history.replaceState(null,'',url);}};
+ const changeListView=(save=true)=>{listView.hidden=viewControl.value!=='list';get<HTMLElement>('.timeline-console').hidden=!listView.hidden;renderList();if(listView.hidden)draw();if(save){const url=new URL(location.href);url.searchParams.set('view',viewControl.value);url.searchParams.set('order',orderControl.value);saveLocation(url);}};
  viewControl.onchange=()=>changeListView();orderControl.onchange=()=>changeListView();
  const apply=(save=false)=>{
    const values=Object.fromEntries(new FormData(form)),on=enabled();
-   filtered=events.filter(e=>on.some(t=>scopeTrack(t)&&e.tracks.includes(t))&&(!values.q||`${e.title} ${e.summary}`.toLowerCase().includes(String(values.q).toLowerCase()))&&(!values.entity||e.related?.some(r=>r.entity===values.entity))&&(!values.type||e.eventTypes.includes(String(values.type)))&&(!values.year||e.date.start.startsWith(String(values.year)))).sort((a,b)=>eventBounds(a).start-eventBounds(b).start||a.id.localeCompare(b.id));
+   filtered=events.filter(e=>on.some(t=>scopeTrack(t)&&e.tracks.includes(t))&&(!values.q||`${e.title} ${e.summary}`.toLowerCase().includes(String(values.q).toLowerCase()))&&(!values.entity||e.related?.some(r=>r.entity===values.entity))&&(!values.type||e.eventTypes.includes(String(values.type)))&&(!values.year||e.date.start.startsWith(String(values.year)))&&(!values.from||(e.date.end||e.date.start)>=String(values.from))&&(!values.to||e.date.start.slice(0,String(values.to).length)<=String(values.to))).sort((a,b)=>eventBounds(a).start-eventBounds(b).start||a.id.localeCompare(b.id));
    get('[data-count]').textContent=`${filtered.length} / ${events.length} ${ui.events}`;get('[data-filter-count]').textContent=filtered.length===events.length?'':`${filtered.length} / ${events.length}`;
    get<HTMLElement>('[data-empty]').hidden=filtered.length>0;
    root.querySelectorAll<HTMLElement>('[data-solo]').forEach(b=>b.setAttribute('aria-pressed',String(on.length===1&&on[0]===b.dataset.solo)));
@@ -135,10 +138,11 @@ export function initTimeline(){
    if(selected){group=group.filter(e=>filtered.some(f=>f.id===e.id));select(selected,false);}
    draw();renderList();
    if(values.year){activeEra='';fitRange(Date.UTC(Number(values.year),0,1),Date.UTC(Number(values.year)+1,0,1));if(save)saveEra();}
-   if(save){const url=new URL(location.href);for(const [key,value]of Object.entries(values))value?url.searchParams.set(key,String(value)):url.searchParams.delete(key);const defaultTracks=scope==='site'?on.length===1&&on[0]==='site-updates':on.length===checks.length-1&&!on.includes('site-updates');defaultTracks?url.searchParams.delete('tracks'):url.searchParams.set('tracks',on.join(','));if(!selected)url.hash='';history.replaceState(null,'',url);}
+   if(save){const url=new URL(location.href);for(const [key,value]of Object.entries(values))value?url.searchParams.set(key,String(value)):url.searchParams.delete(key);const defaultTracks=scope==='site'?on.length===1&&on[0]==='site-updates':on.length===checks.length-1&&!on.includes('site-updates');defaultTracks?url.searchParams.delete('tracks'):url.searchParams.set('tracks',on.join(','));if(!selected)url.hash='';saveLocation(url);}
  };
  const restore=()=>{
-   const params=new URLSearchParams(location.search);viewControl.value=params.get('view')==='list'?'list':'timeline';orderControl.value=params.get('order')==='desc'?'desc':'asc';
+   updateLocaleQueries(root.ownerDocument,location.search,location.hash);
+   const params=new URLSearchParams(location.search);const preset=resolveChroniclePreset(params.get('preset'));if(preset)for(const [key,value]of Object.entries(preset))if(!params.has(key))params.set(key,String(value));viewControl.value=params.get('view')==='list'?'list':'timeline';orderControl.value=params.get('order')==='desc'?'desc':'asc';
    let id='';try{id=decodeURIComponent(location.hash.slice(1));}catch{}
    scope=params.get('scope')==='site'||id.startsWith('site-')?'site':'chronicle';root.dataset.timelineScope=scope;root.querySelectorAll<HTMLButtonElement>('[data-timeline-scope]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.timelineScope===scope)));
    form.querySelectorAll<HTMLInputElement|HTMLSelectElement>('[name]').forEach(c=>c.value=params.get(c.name)||'');checks.forEach(c=>c.checked=params.has('tracks')?(params.get('tracks')||'').split(',').includes(c.value)&&scopeTrack(c.value):scopeTrack(c.value));apply();
@@ -150,7 +154,7 @@ export function initTimeline(){
  };
  eras.forEach((era,i)=>{const start=Math.max(domain.start,dateBounds(era.start).start),end=Math.min(domain.end,dateBounds(era.end).end);const span=el('span',`0${i+1}`);span.style.position='absolute';span.style.left=(start-domain.start)/duration*100+'%';span.style.width=Math.max(0,(end-start)/duration*100)+'%';get('[data-overview-eras]').append(span);});
  root.querySelectorAll<HTMLButtonElement>('[data-era]').forEach(b=>b.addEventListener('click',()=>{const year=form.querySelector<HTMLSelectElement>('[name=year]')!;if(year.value){year.value='';apply(true);}const era=eras.find(e=>e.id===b.dataset.era)!;fitRange(dateBounds(era.start).start,dateBounds(era.end).end);saveEra(era.id);}));
- root.querySelectorAll<HTMLButtonElement>('[data-timeline-scope]').forEach(button=>button.addEventListener('click',()=>{const next=button.dataset.timelineScope==='site'?'site':'chronicle';if(next===scope)return;scope=next;root.dataset.timelineScope=scope;root.querySelectorAll<HTMLButtonElement>('[data-timeline-scope]').forEach(item=>item.setAttribute('aria-pressed',String(item.dataset.timelineScope===scope)));resetTracks();activeEra='';apply(true);saveEra();const url=new URL(location.href);scope==='site'?url.searchParams.set('scope','site'):url.searchParams.delete('scope');history.replaceState(null,'',url);if(viewControl.value==='timeline'){scope==='site'?fitSiteRange():fitRange(domain.start,domain.end,false);}}));
+ root.querySelectorAll<HTMLButtonElement>('[data-timeline-scope]').forEach(button=>button.addEventListener('click',()=>{const next=button.dataset.timelineScope==='site'?'site':'chronicle';if(next===scope)return;scope=next;root.dataset.timelineScope=scope;root.querySelectorAll<HTMLButtonElement>('[data-timeline-scope]').forEach(item=>item.setAttribute('aria-pressed',String(item.dataset.timelineScope===scope)));resetTracks();activeEra='';apply(true);saveEra();const url=new URL(location.href);scope==='site'?url.searchParams.set('scope','site'):url.searchParams.delete('scope');saveLocation(url);if(viewControl.value==='timeline'){scope==='site'?fitSiteRange():fitRange(domain.start,domain.end,false);}}));
  get('[data-fit]').addEventListener('click',()=>{saveEra();scope==='site'?fitSiteRange():fitRange(domain.start,domain.end);});
  zoom.addEventListener('input',()=>{
    const playheadX=pos(scrubTime)-viewport.scrollLeft;

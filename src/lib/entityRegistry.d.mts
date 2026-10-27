@@ -12,7 +12,7 @@ export interface EntityData {
  [field: string]: any;
 }
 export interface EntityEntry {filePath: string; body: string; data: EntityData}
-export interface ResolvedEntity extends EntityEntry {sourceLocale: string; requestedLocale: string; fallback: boolean; url: string}
+export interface ResolvedEntity extends EntityEntry {sourceLocale: string; requestedLocale: string; fallback: boolean; url: string;factsLocale?:string;factSourceFilePath?:string}
 export interface EntityEdge {source: string; target: string; type: string; inverse?: boolean; role?: string; current?: boolean; startDate?: string; endDate?: string}
 export interface EntityRegistry {
  entities: Map<string, Map<string,EntityEntry>>;

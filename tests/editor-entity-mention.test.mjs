@@ -11,7 +11,7 @@ const entity = { kind:'people', id:'observer', entityType:'virtual-avatar', titl
 
 test('mention links accept the same canonical route shape as published V3 entities', async () => {
   const source = await readFile(new URL('../src/content/people/solo/kaf/zh.md',import.meta.url),'utf8');
-  const data = parse(source.match(/^---\s*\n([\s\S]*?)\n---/)[1]);
+  const data = parse(source.match(/^\uFEFF?---\r?\n([\s\S]*?)\r?\n---/)[1]);
   const url = `/zh${entityRoute(data)}`;
   assert.equal(url,'/zh/database/artists/solo/kaf/');
   assert.equal(safeEditorEntityUrl(url,'zh','kaf'),url);

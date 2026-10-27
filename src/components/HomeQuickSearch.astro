@@ -1,0 +1,15 @@
+---
+import Icon from './Icon.astro';
+import {homePortalCopy} from '../lib/homePortalCopy.mjs';
+const {locale='zh'}=Astro.props,c=homePortalCopy(locale);
+---
+<div class="home-quick-search" data-home-quick-search>
+  <form role="search" action={`/${locale}/database/`} method="get" aria-label={c.search}>
+    <label><span class="home-quick-search__label">{c.search}</span><input type="search" name="q" placeholder={c.placeholder} aria-label={c.search} required/></label>
+    <button type="submit" aria-label={c.find}><Icon name="arrow-right" /></button>
+  </form>
+  <button type="button" class="home-quick-search__full-text" data-search-open><Icon name="search" size={14}/>{c.fullText}</button>
+</div>
+<style>
+.home-quick-search{width:min(42rem,100%);margin:24px auto 0;text-align:left;color:var(--theme-fg);font-family:var(--font-sans)}form{display:flex;align-items:flex-end;gap:12px;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.4);padding:0 0 6px}label{display:block;flex:1;min-width:0}.home-quick-search__label{display:block;font-size:12px;line-height:1.6;opacity:.7}input{display:block;width:100%;min-width:0;min-height:44px;padding:8px 0;background:transparent;border:0;color:inherit;font:16px/1.5 var(--font-sans);outline-offset:3px}input::placeholder{color:rgb(var(--theme-fg-rgb)/.55)}button{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:0;background:transparent;color:inherit;cursor:pointer}.home-quick-search__full-text{gap:8px;font-size:12px;opacity:.75;margin-top:4px}button:hover{color:var(--theme-accent-color)}:is(input,button):focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:4px}
+</style>

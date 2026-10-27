@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 2
 title: "分類、元數據與內容維護"
 summary: "使用分類地圖、schema 和結構化關聯維護百科及探索資料。"
-generatedFromHash: "0025e207a54c18749f0d"
+generatedFromHash: "d9c554973697c1c192e6"
 generated: true
 generatedFrom: "zh"
 ---

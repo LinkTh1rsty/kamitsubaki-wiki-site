@@ -1,6 +1,7 @@
 import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import { foldCjkSearchText } from '../lib/cjkSearch.mjs';
 import { selectTimeline, neighbors } from '../lib/labsCatalog.mjs';
+import { initializeRelationPath } from './relationPath.js';
 import {
   readLibrary,
   writeLibrary,
@@ -216,6 +217,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
     init();
   }
   if (section === 'relations') {
+    let pathController;
     let selected,
       limit = 12;
     const svgNS = 'http://www.w3.org/2000/svg';
@@ -293,6 +295,10 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
         link(c.open, center.path, 'labs-button'),
         saveButton(center),
       );
+      if (pathController) actions.append(
+        button(c.path.fromHere, () => pathController.setEndpoint('from', center.id)),
+        button(c.path.toHere, () => pathController.setEndpoint('to', center.id)),
+      );
       detail.append(actions);
       renderRows(connected.slice(0, limit));
       [...$('[data-results]').children].forEach((r, i) => {
@@ -302,7 +308,7 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
         const p = element('p');
         p.append(
           link(
-            `${edge.type === 'credit' ? c.credit : edge.type === 'affiliation' ? c.affiliation : c.related} · ${c.evidence}`,
+            `${c.path.relationLabels[edge.type] || c.related} · ${c.evidence}`,
             edge.evidence,
           ),
         );
@@ -323,7 +329,9 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
         `${connected.length} ${c.results} · ${visual.length} / ${connected.length}`,
       );
       $('[data-more]').hidden = connected.length <= limit;
-      setURL(new URLSearchParams({ entry: selected }), { push });
+      const query = getURL().searchParams;
+      query.set('entry', selected);
+      setURL(query, { push });
     }
     function picks() {
       const q = foldCjkSearchText($('[data-query]').value);
@@ -354,10 +362,15 @@ export function initializeLabsPanel(root, { copy: c, loadCatalog, getURL, setURL
       selected = next;
       picks();
       draw();
+      pathController?.activate();
     };
     async function init() {
       try {
         await load();
+        pathController = initializeRelationPath($('[data-relation-path]'), {
+          catalog, copy: c.path, getURL, setURL,
+          onExplore: id => { selected = id; limit = 12; draw({ push: true }); },
+        });
         activate();
       } catch {
         failure(init);

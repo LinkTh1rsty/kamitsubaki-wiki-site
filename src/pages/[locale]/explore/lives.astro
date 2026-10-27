@@ -1,0 +1,35 @@
+---
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import WorkspaceFilters from '../../../components/WorkspaceFilters.astro';
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
+import ArchiveRecord from '../../../components/ArchiveRecord.astro';
+import {getEntityRegistry,entityLocales} from '../../../lib/entityRegistry.mjs';
+import {buildLiveArchive,selectLiveArchive} from '../../../lib/liveArchive.mjs';
+import {archiveCopy} from '../../../lib/archiveCopy.mjs';
+import '../../../styles/archiveBrowser.css';
+export function getStaticPaths(){return entityLocales.map(locale=>({params:{locale}}));}
+const {locale='zh'}=Astro.params;
+const c=archiveCopy(locale),catalog=buildLiveArchive(await getEntityRegistry(),locale);
+const initial=selectLiveArchive(catalog.entries).slice(0,12);
+---
+<WorkspaceLayout locale={locale} title={c.live.title} intro={c.live.intro} path="/explore/lives/" eyebrow="ARCHIVE / LIVE" width="wide" backHref={`/${locale}/explore/`} backLabel={c.back} mainAttributes={{class:'archive-browser', 'data-archive-browser':'lives'}}>
+  <WorkspaceButton href={`/${locale}/contribute/missing/?type=live-event&field=setlist`} slot="actions">{c.live.tasks} ↗</WorkspaceButton>
+  <div class="archive-metrics">{[[c.live.total,catalog.summary.total],[c.live.concerts,catalog.summary.concerts],[c.live.withSetlists,catalog.summary.withSetlists],[c.live.artists,catalog.summary.artists]].map(([label,count])=><div><span>{label}</span><strong>{count}</strong></div>)}</div>
+  <p class="archive-note">{c.live.note}</p><nav class="archive-actions"><a href={'/'+locale+'/explore/live-mode/'}>Live Mode</a><a href={'/'+locale+'/explore/statistics/'}>Setlist Engine</a><a href={'/'+locale+'/explore/observatory/'}>Live Witness</a></nav>
+  <WorkspaceFilters data-archive-form data-archive-controls hidden role="search">
+    <label><span>{c.search}</span><input name="q" type="search" placeholder={c.search} autocomplete="off"/></label>
+    <label><span>{c.artist}</span><select name="artist"><option value="">{c.all}</option>{catalog.artists.map(artist=><option value={artist.id}>{artist.title}</option>)}</select></label>
+    <label><span>{c.live.type}</span><select name="type"><option value="">{c.all}</option>{catalog.types.map(type=><option value={type}>{c.live.types[type]||type}</option>)}</select></label>
+    <label><span>{c.year}</span><select name="year"><option value="">{c.all}</option>{catalog.years.map(year=><option value={year}>{year}</option>)}{catalog.entries.some(entry=>!entry.year)&&<option value="unknown">{c.unknownYear}</option>}</select></label>
+    <label><span>{c.live.mode}</span><select name="mode"><option value="">{c.all}</option>{Object.entries(c.live.modes).map(([key,label])=><option value={key}>{label}</option>)}</select></label>
+    <label><span>{c.sort}</span><select name="sort">{Object.entries(c.sorts).map(([key,label])=><option value={key}>{label}</option>)}</select></label>
+    <button type="reset">{c.clear}</button>
+  </WorkspaceFilters>
+  <p class="archive-count" data-archive-count role="status" aria-live="polite">{c.results.replace('{shown}',String(initial.length)).replace('{total}',String(catalog.entries.length))}</p>
+  <div class="archive-records" data-archive-results>{initial.map(record=><ArchiveRecord record={record} kind="lives" copy={c} locale={locale}/>)}</div>
+  <p class="archive-empty" data-archive-empty hidden>{c.live.empty}</p>
+  <WorkspaceButton data-archive-more data-archive-controls hidden>{c.more}</WorkspaceButton>
+  <noscript><p class="archive-note">{c.noJS}</p></noscript>
+  <script type="application/json" data-archive-data is:inline set:html={JSON.stringify({catalog,copy:c,locale}).replaceAll('<','\u003c')}/>
+</WorkspaceLayout>
+<script>import '../../../scripts/archiveBrowser.js';</script>

@@ -70,6 +70,8 @@ public/images/novel-prototype/
 
 public/_editor/
 prototypes/novel-editor/dist-website/
+archive-service/wrangler.local.jsonc
+archive-service/.dev.vars*
 
 # Per-task local candidate runtime
 .workspace-runtime/

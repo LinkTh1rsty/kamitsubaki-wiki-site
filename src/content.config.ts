@@ -210,6 +210,8 @@ const site = defineCollection({
       selectDateLabel: z.string(),
       emptyDay: z.string(),
       eventCountLabel: z.string(),
+      artistFilterLabel: z.string(),
+      allArtistsLabel: z.string(),
       backHomeLabel: z.string(),
       weekdays: z.array(z.string()).length(7),
     }),
@@ -261,8 +263,13 @@ const site = defineCollection({
 });
 
 const entitySchema = createEntitySchema(z);
-const projects = defineCollection({loader:metadataOnlyGlob({pattern:'**/{zh,zh-tw,zh-hk,ja,en}.md',base:'./src/content/projects'}),schema:entitySchema});
-const songs = defineCollection({loader:metadataOnlyGlob({pattern:'**/{zh,zh-tw,zh-hk,ja,en}.md',base:'./src/content/songs'}),schema:entitySchema});
+// Legacy citiao staging trees (projects/glossary, projects/labels) hold pre-V3
+// entries awaiting field-level merge into canonical V3 entities; excluded from
+// the schema-validated collections until that editorial pass lands.
+const projects = defineCollection({loader:metadataOnlyGlob({pattern:['**/{zh,zh-tw,zh-hk,ja,en}.md','!glossary/**','!labels/**'],base:'./src/content/projects'}),schema:entitySchema});
+// Satellite-artist song stubs (citiao staging) are interleaved with V2 entries;
+// exclude only their originals/covers/remixes/collaborations subtrees.
+const songs = defineCollection({loader:metadataOnlyGlob({pattern:['**/{zh,zh-tw,zh-hk,ja,en}.md','!{albemuth,aru,asu,awairo,azsagawa,ciel,dustcell,guiano,hiratayoshihisa,kaika,kanzaki-iori,kashiimoimi,mimi,misumi,onuma-parsley,ren,sekai,sinseiki,sooda,teresa,toa,valis,yunosuke}/{originals,covers,remixes,collaborations}/**'],base:'./src/content/songs'}),schema:entitySchema});
 const logs = defineCollection({loader:metadataOnlyGlob({pattern:'**/{zh,zh-tw,zh-hk,ja,en}.md',base:'./src/content/logs'}),schema:z.object({locale,translationKey:z.string(),date:z.string(),eventDate:dateString.optional(),eventSource:siteRelativeOrHttpUrl.optional(),type:z.string(),title:z.string(),summary:z.string().optional(),order:z.number(),license:contentLicense.optional(),seo})});
 
 const announcements = defineCollection({

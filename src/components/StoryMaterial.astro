@@ -1,0 +1,26 @@
+---
+import type { StoryMaterial } from '../lib/storyCatalog.mjs';
+import { storyCopy, storyFormat } from '../lib/storyCopy.mjs';
+import { discoveryCopy } from '../lib/discoveryCopy.mjs';
+import { discoveryEdgeText } from '../lib/discoveryPresentation.mjs';
+import WorkspaceButton from './WorkspaceButton.astro';
+interface Props { material: StoryMaterial; locale: string; }
+const { material, locale } = Astro.props;
+const c = storyCopy(locale), node = material.node;
+---
+<li class="story-material" data-story-material={node.id}>
+  <div class="story-material-meta"><span>{c.kinds[node.kind] || node.kind}</span>{node.date && <time datetime={node.date.label}>{node.date.label}</time>}</div>
+  <h3><a href={node.path}>{node.title}</a></h3>
+  {node.subtitle && node.subtitle !== node.title && <p class="story-muted">{node.subtitle}</p>}
+  {node.description && (node.kind === 'lore-concept' ? <details class="story-lore"><summary>{c.reveal}</summary><p>{node.description}</p></details> : <p>{node.description}</p>)}
+  {material.steps.length > 0 ? <details class="story-evidence"><summary>{c.evidence}</summary>
+    <p>{storyFormat(c.recordedConnection, { name: material.steps[0].fromNode.title })}</p>
+    <ol>{material.steps.map(step => <li><a href={step.fromNode.path}>{step.fromNode.title}</a><span> · {discoveryEdgeText(step, discoveryCopy(locale))} · </span><a href={step.toNode.path}>{step.toNode.title}</a>{step.edge.evidence && <> · <a href={step.edge.evidence}>{c.evidence}</a></>}</li>)}</ol>
+  </details> : <p class="story-selection">{c.editorialChoice}</p>}
+  <div class="story-links"><a href={node.path}>{c.open} ↗</a><a href={`/${locale}/graph/?entry=${encodeURIComponent(node.id)}&scope=neighborhood${node.kind === 'events' ? '&events=1' : ''}`}>{c.graph} ↗</a></div>
+  {node.media.map(media => <div class:list={['story-media', media.kind === 'audio' && 'story-media--audio']} data-story-media>
+    <p>{media.label} · {media.provider}</p><p class="story-muted">{c.mediaNote}</p>
+    <div class="story-links"><WorkspaceButton data-story-play data-story-controls hidden aria-expanded="false" data-media-src={media.src} data-media-title={media.label} data-media-sandbox={media.sandbox}>{c.play}</WorkspaceButton><a href={media.href} target="_blank" rel="noopener noreferrer">{c.original} ↗</a></div>
+  </div>)}
+  {node.links.length > 0 && <details class="story-sources"><summary>{c.sources}</summary><ul>{node.links.map(link => <li><a href={link.href} target="_blank" rel="noopener noreferrer">{link.label || link.href} ↗</a></li>)}</ul></details>}
+</li>
