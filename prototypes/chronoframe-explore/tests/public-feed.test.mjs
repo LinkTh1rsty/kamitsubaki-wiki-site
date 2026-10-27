@@ -51,3 +51,11 @@ test('refresh also rejects a late direct-photo detail from the previous generati
  assert.equal(catalog.state.total,0)
  assert.equal(catalog.state.photos.length,0)
 })
+
+test('overlapping initialization shares one set of background metadata requests',async()=>{
+ let resolveInitial;const calls=[]
+ const catalog=feed(offset=>{calls.push(offset);return offset===0?new Promise(resolve=>{resolveInitial=resolve}):Promise.resolve(page(offset,52))})
+ const first=catalog.all();const second=catalog.all();resolveInitial(page(0,52));await Promise.all([first,second])
+ for(let i=0;i<20&&catalog.state.loadingAll;i++)await new Promise(resolve=>setTimeout(resolve,1))
+ assert.deepEqual(calls,[0,24,48]);assert.equal(catalog.state.photos.length,52);assert.equal(catalog.state.nextOffset,null)
+})

@@ -19,7 +19,7 @@ export function usePublicFeed(){
   if(state.loading){state.wantAll=true;return}
   state.error=''
   if(!state.initialized)await next()
-  if(state.loading||state.nextOffset===null||state.error)return
+  if(state.loading||state.loadingAll||state.nextOffset===null||state.error)return
   const epoch=state.epoch,start=state.nextOffset,stride=state.stride,total=state.total
   const offsets=Array.from({length:Math.ceil((total-start)/stride)},(_,i)=>start+i*stride)
   const completed=new Map<number,FeedPage>();let cursor=0,mergeOffset=start,failed=false
@@ -29,12 +29,14 @@ export function usePublicFeed(){
     const offset=offsets[cursor++]!,page=await read(offset)
     if(state.epoch!==epoch)return
     completed.set(offset,page)
+    const batch:Photo[]=[]
     while(completed.has(mergeOffset)){
      const ready=completed.get(mergeOffset)!
-     completed.delete(mergeOffset);merge(ready.photos);state.total=ready.total;state.nextOffset=ready.nextOffset
+     completed.delete(mergeOffset);batch.push(...ready.photos);state.total=ready.total;state.nextOffset=ready.nextOffset
      if(ready.nextOffset===null)break
      mergeOffset=ready.nextOffset
     }
+    if(batch.length)merge(batch)
    }}catch{failed=true}
   }))
   if(state.epoch!==epoch)return

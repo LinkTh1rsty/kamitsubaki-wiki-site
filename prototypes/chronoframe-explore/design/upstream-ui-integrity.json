@@ -4,7 +4,7 @@
     "matchesUpstream": false,
     "upstreamSha256": "7e9cddc2823dd6ea6c81419e97a71abf8c3325a9eedaf6da1ba0e98918ecee11",
     "adaptedSha256": "7b2e90dd7f67c17c2f18572603d1dee16097a9d12868bef040e4936dde7bac1a",
-    "onlyChanges": "Bound rendered cards and synchronize paginated viewer; type-only callback signature. Template geometry, CSS and animation definitions unchanged."
+    "onlyChanges": "Bound rendered cards and synchronize paginated viewer; type-only callback signature. Template geometry, CSS and animation definitions unchanged. Metadata now prepares continuously and the external sentinel automatically extends the render window."
   },
   {
     "path": "app/components/masonry/Item.vue",
@@ -34,9 +34,10 @@
   },
   {
     "path": "app/components/masonry/item/Photo.vue",
-    "matchesUpstream": true,
+    "matchesUpstream": false,
     "upstreamSha256": "5f9dcf9585d1c0961ab72dde332f5f55cff53c1b2ed3d71d129654ce6787625a",
-    "adaptedSha256": "5f9dcf9585d1c0961ab72dde332f5f55cff53c1b2ed3d71d129654ce6787625a"
+    "adaptedSha256": "fcb1ec7796feb3c1124c6b4d090c05fdfbf7eb8b4f4d974fe1350f35170551a4",
+    "onlyChanges": "Remove duplicate eager Image() preload for no-store proxy; ThumbImage alone preloads1200px before viewport. Original template geometry, styles and motion retained."
   },
   {
     "path": "app/components/photo/InfoPanel.vue",

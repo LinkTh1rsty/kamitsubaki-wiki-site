@@ -49,10 +49,16 @@ const feed=usePublicFeed()
 if(!feed.state.initialized)await feed.next()
 if(import.meta.client){
  let checked=Date.now()
- const revalidate=()=>{if(!document.hidden&&Date.now()-checked>60000){checked=Date.now();void feed.refresh()}}
+ const revalidate=()=>{if(!document.hidden&&Date.now()-checked>60000){checked=Date.now();void feed.refresh().then(()=>{if(['/', '/photos'].includes(route.path)&&!feed.state.error)void feed.all()})}}
  onMounted(()=>document.addEventListener('visibilitychange',revalidate))
  onUnmounted(()=>document.removeEventListener('visibilitychange',revalidate))
 }
+// Match upstream's complete metadata list without blocking the first paint.
+const catalogMounted=ref(false)
+onMounted(()=>{catalogMounted.value=true})
+watch([catalogMounted,()=>route.path],([mounted,path])=>{
+ if(mounted&&['/','/photos'].includes(path)&&!feed.state.error)void feed.all()
+},{immediate:true})
 const photos=computed(()=>feed.state.photos)
 const refresh=feed.refresh
 const status=computed(()=>feed.state.loading?'pending':feed.state.error?'error':'success')

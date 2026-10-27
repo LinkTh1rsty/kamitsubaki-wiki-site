@@ -403,23 +403,8 @@ onMounted(() => {
     }
   })
 
-  // Preload thumbnail image
-  if (props.photo.thumbnailUrl) {
-    const img = new Image()
-    img.onload = () => {
-      // Update loading state after preload completes
-      isLoading.value = false
-    }
-    img.onerror = () => {
-      // Even if preload fails, we should stop loading state
-      isLoading.value = false
-    }
-    img.src = props.photo.thumbnailUrl
-  } else {
-    // If no thumbnail URL, stop loading immediately
-    isLoading.value = false
-  }
-
+  // ThumbImage owns near-viewport preloading. A separate Image() request
+  // cannot warm our no-store media response and would download it twice.
   // Set up intersection observer for visibility tracking
   nextTick(() => {
     if (photoRef.value) {
@@ -507,6 +492,7 @@ onUnmounted(() => {
       >
         <ThumbImage
           :src="photo.thumbnailUrl || ''"
+          root-margin="1200px 0px"
           :alt="photo.title || $t('ui.photo.altFallback')"
           :thumbhash="photo.thumbnailHash || ''"
           class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
