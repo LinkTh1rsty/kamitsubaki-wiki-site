@@ -18,6 +18,7 @@ import {metadataLabel} from '../lib/editorMetadata.mjs';
 import LyricsPractice from './labs/LyricsPractice.astro';
 import MemoryCorridorEntryLink from './MemoryCorridorEntryLink.astro';
 import EntityInfoBox from './EntityInfoBox.astro';
+import MusicListenAction from './MusicListenAction.astro';
 import MorphingSwitcher from './MorphingSwitcher.astro';
 import Reader from './Reader.astro';
 import GalleryEntityPreview from './GalleryEntityPreview.astro';
@@ -75,6 +76,7 @@ const sections=buildEntityReaderNavigation({kind:presentationKind,data:d,heading
   </div>
   <Reader headings={rendered.headings} contentsTitle={contentsTitle} variant="entry" backgroundImage={presentationKind?(artwork.placeholder?undefined:artwork.src):d.presentation?.image}>
    {!presentationKind&&d.entityType==='work-track'&&<LyricsPractice locale={locale} sourceLinks={d.lyricsSources||[]}/>}
+   <MusicListenAction data={d} locale={locale} wikiPath={entry.url}/>
    <article id={presentationKind?'entry-overview':undefined} class="wiki-reader wiki-prose wiki-artist-prose prose prose-invert max-w-none" set:html={readerHtml}/>
    {presentationKind&&d.entityType==='work-track'&&<LyricsPractice locale={locale} sourceLinks={d.lyricsSources||[]}/>}
    <Fragment slot="sidebar">
