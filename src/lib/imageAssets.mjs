@@ -22,6 +22,11 @@ export function thumbnailUrl(src, width = 192) {
   return imageAttributes(src, { widths: [width], sizes: `${width}px` }).src;
 }
 
+// Opt-in for slots that must never fetch an original when a derivative is missing.
+export function requiredThumbnailUrl(src, width = 192) {
+  return imageAttributes(src, { widths: [width], sizes: `${width}px`, requireThumbnail: true }).src;
+}
+
 export function thumbnailCatalog(catalog, size = 48) {
   for (const items of Object.values(catalog)) for (const item of items) {
     if (!item.image) continue;

@@ -107,3 +107,14 @@ test('small slots expose only small candidates; high-density displays and origin
   assert.equal(selectImageAttributes('/images/cover.jpg', entry, { widths: [2000, 3000] }).srcset, '/thumbnails/hash-960.webp 960w');
   for (const src of ['/brand/logo.svg', 'https://example.com/remote.jpg', '/images/missing.jpg']) assert.deepEqual(selectImageAttributes(src), { src, decoding: 'async' });
 });
+
+
+test('strict small slots reject missing, original or oversized thumbnail variants', () => {
+  const source='/images/cover.jpg';
+  assert.throws(()=>selectImageAttributes(source,undefined,{widths:[480],requireThumbnail:true}),/Missing thumbnail/);
+  for(const variant of [{src:source,width:480},{src:'/thumbnails/cover-960.webp',width:960}]){
+    assert.throws(()=>selectImageAttributes(source,{variants:[variant]},{widths:[480],requireThumbnail:true}),/Missing bounded thumbnail/);
+  }
+  const selected=selectImageAttributes(source,{variants:[{src:'/thumbnails/cover-480.webp',width:480}]},{widths:[480],requireThumbnail:true});
+  assert.equal(selected.src,'/thumbnails/cover-480.webp');
+});

@@ -2,10 +2,10 @@
 import Icon from './Icon.astro';
 import {resolveLocaleCopy} from '../lib/i18n.mjs';
 import {foliaOrigin} from '../lib/musicListen.mjs';
-import {thumbnailUrl} from '../lib/imageAssets.mjs';
+import {requiredThumbnailUrl} from '../lib/imageAssets.mjs';
 const {locale='zh'}=Astro.props;
 const explorerBase=foliaOrigin();
-const entranceImages=["/images/albums/kaf/kansoku.jpg", "/images/albums/koko/prayer.jpg", "/images/albums/isekaijoucho/virtual-ties.jpg", "/images/albums/koko/arare-live.jpg", "/images/albums/koko/prayer-2.jpg", "/images/albums/fate-vwp-1400x1400.jpg", "/images/albums/ciel/再晴-1875196168.jpg", "/images/albums/ciel/STRAWBERRY-LIVE-1669426651.jpg", "/images/albums/ciel/空想少女-1718887889.jpg", "/images/albums/ciel/STRAWBERRY-LIVE-2-1708546500.jpg", "/images/albums/ciel/空想劇-1756276963.jpg", "/images/albums/rim/imagine.jpg"].map(src=>thumbnailUrl(src,480));
+const entranceImages=["/images/albums/kaf/kansoku.jpg", "/images/albums/koko/prayer.jpg", "/images/albums/isekaijoucho/virtual-ties.jpg", "/images/albums/koko/arare-live.jpg", "/images/albums/koko/prayer-2.jpg", "/images/albums/fate-vwp-1400x1400.jpg", "/images/albums/ciel/再晴-1875196168.jpg", "/images/albums/ciel/STRAWBERRY-LIVE-1669426651.jpg", "/images/albums/ciel/空想少女-1718887889.jpg", "/images/albums/ciel/STRAWBERRY-LIVE-2-1708546500.jpg", "/images/albums/ciel/空想劇-1756276963.jpg", "/images/albums/rim/imagine.jpg"].map(src=>requiredThumbnailUrl(src,480));
 const copy=resolveLocaleCopy({
  zh:{title:'音乐漫游',description:'换一种方式，听见神椿。',action:'开始聆听'},
  ja:{title:'音楽散歩',description:'音から出会う、神椿の世界。',action:'聴きはじめる'},
