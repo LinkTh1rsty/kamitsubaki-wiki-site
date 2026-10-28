@@ -17,7 +17,7 @@ const unresolved=review.unresolved.filter(row=>!catalog.entries[row.id]).map(({i
 if(unresolved.length+result.entries!==rows.length)throw Error('Coverage does not account for every Wiki music entry');
 const count=kind=>({total:rows.filter(r=>r.kind===kind).length,mapped:Object.values(catalog.entries).filter(r=>r.kind===kind).length});
 writeFileSync('maintenance/music-listen-coverage.json',JSON.stringify({
- verifiedAt:'2026-10-28',sourceSha256:createHash('sha256').update(source).digest('hex'),
+ verifiedAt:review.verifiedAt||Object.values(catalog.entries).map(e=>e.verifiedAt).sort().at(-1),sourceSha256:createHash('sha256').update(source).digest('hex'),
  albums:count('album'),tracks:count('track'),identities:result.identities,
  unresolvedReasons:Object.fromEntries([...new Set(unresolved.map(r=>r.reason))].map(reason=>[reason,unresolved.filter(r=>r.reason===reason).length])),
  unresolved,

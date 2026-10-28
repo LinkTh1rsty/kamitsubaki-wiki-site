@@ -1,12 +1,14 @@
-import {readFileSync,writeFileSync,readdirSync,mkdirSync,existsSync} from 'node:fs';
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import {resolve,join} from 'node:path';
 import {musicInventory} from './inventory.mjs';
 import {publicCatalog} from './qq-public-catalog.mjs';
-import {artistKey,titleKey,titleMatches,releaseTrackTitleMatches,durationMatches,seconds,sameRelease,sameTrack,checkTracklist,songMid,albumMid,songTitle} from './catalog-match.mjs';
+import {artistKey,titleKey,releaseTrackTitleMatches,durationMatches,seconds,sameRelease,sameTrack,checkTracklist,songMid,albumMid,songTitle} from './catalog-match.mjs';
 
 // Curate public Wiki↔QQ identities offline. Evidence and cache stay outside the published catalog.
 const argv=process.argv.slice(2),arg=(name,fallback)=>argv.includes(name)?argv[argv.indexOf(name)+1]:fallback;
 const stage=arg('--stage','artists'),out=resolve(arg('--out','.music-catalog-audit'));
+const verifiedAt=arg('--verified-at',new Date().toISOString().slice(0,10));
+if(!/^\d{4}-\d{2}-\d{2}$/.test(verifiedAt))throw Error('Invalid review date');
 mkdirSync(out,{recursive:true});
 const save=(name,data)=>writeFileSync(join(out,name+'.json'),JSON.stringify(data,null,2)+'\n');
 const load=name=>JSON.parse(readFileSync(join(out,name+'.json'),'utf8'));
@@ -42,7 +44,7 @@ if(stage==='artists'){
  const {selected}=load('artists'),all={};
  for(const [id,artist] of Object.entries(selected)){
   try{const songs=[];let total=0,partial=false;
-   for(const mid of artist.mids||[artist.mid]){let begin=0,count;do{const d=await api.songs(mid,begin);const page=d.songList||[];songs.push(...page.map(s=>s.songInfo||s));count=Number(d.totalNum??d.total??d.totalSongNum);begin+=page.length;if(!page.length)break;}while((!Number.isFinite(count)?begin%30===0:begin<count)&&begin<1500);total+=count||begin;partial ||= begin<count;}
+   for(const mid of artist.mids||[artist.mid]){let begin=0,count;do{const d=await api.songs(mid,begin);const page=d.songList||[];songs.push(...page.map(s=>s.songInfo||s));count=Number(d.totalNum??d.total??d.totalSongNum);begin+=page.length;if(!page.length)break;}while((!Number.isFinite(count)?begin%30===0:begin<count)&&begin<1500);total+=count||begin;partial ||= !Number.isFinite(count)||begin<count;}
    all[id]={mid:artist.mid,songs:[...new Map(songs.map(s=>[songMid(s),s])).values()],total,partial};console.log(JSON.stringify({artist:id,songs:all[id].songs.length,total,partial}));}
   catch(error){all[id]={mid:artist.mid,songs:[],error:error.message};}
   save('songs',all);
@@ -52,7 +54,7 @@ if(stage==='artists'){
  const {selected,unresolved:artistUnresolved}=load('artists'),songCatalog=load('songs');
  const previous=JSON.parse(readFileSync('src/data/music-listen.json','utf8')),entries={...previous.entries},evidence=[],unresolved=[];
  const albumDetails=new Map(),detail=async mid=>{if(!albumDetails.has(mid))albumDetails.set(mid,await api.album(mid));return albumDetails.get(mid);};
- const make=(row,song,album,proof)=>({kind:row.kind,mid:row.kind==='album'?album.mid:songMid(song),title:row.title,qqTitle:row.kind==='album'?album.name:songTitle(song),artist:album.singername||selected[row.artist||row.performers[0]]?.name,...(row.kind==='track'?{albumMid:album.mid,albumTitle:album.name}:{}),source:`https://y.qq.com/n/ryqq/${row.kind==='album'?'albumDetail':'songDetail'}/${row.kind==='album'?album.mid:songMid(song)}`,verifiedAt:'2026-10-28',match:proof});
+ const make=(row,song,album,proof)=>({kind:row.kind,mid:row.kind==='album'?album.mid:songMid(song),title:row.title,qqTitle:row.kind==='album'?album.name:songTitle(song),artist:album.singername||selected[row.artist||row.performers[0]]?.name,...(row.kind==='track'?{albumMid:album.mid,albumTitle:album.name}:{}),source:`https://y.qq.com/n/ryqq/${row.kind==='album'?'albumDetail':'songDetail'}/${row.kind==='album'?album.mid:songMid(song)}`,verifiedAt,match:proof});
  for(const row of rows.filter(r=>r.kind==='album')){
   try{
    const artist=selected[row.artist];if(!artist){unresolved.push({id:row.id,kind:row.kind,reason:'artist-unresolved'});continue;}
@@ -106,6 +108,6 @@ if(stage==='artists'){
   const preferred=ids.find(id=>previous.entries[id]?.canonical===true)||ids.find(id=>previous.entries[id]&&previous.entries[id].canonical!==false)||[...ids].sort((a,b)=>(/-track-\d+|-\d{7,}$/.test(a)?10:0)-(/-track-\d+|-\d{7,}$/.test(b)?10:0)||a.localeCompare(b))[0];
   for(const id of ids)entries[id].canonical=id===preferred;
  }
- save('proposed',{version:1,entries});save('review',{inventory:{albums:rows.filter(r=>r.kind==='album').length,tracks:rows.filter(r=>r.kind==='track').length},matched:{albums:Object.values(entries).filter(e=>e.kind==='album').length,tracks:Object.values(entries).filter(e=>e.kind==='track').length},unresolved,artistUnresolved,evidence,requests:api.requests});
+ save('proposed',{version:1,entries});save('review',{verifiedAt,inventory:{albums:rows.filter(r=>r.kind==='album').length,tracks:rows.filter(r=>r.kind==='track').length},matched:{albums:Object.values(entries).filter(e=>e.kind==='album').length,tracks:Object.values(entries).filter(e=>e.kind==='track').length},unresolved,artistUnresolved,evidence,requests:api.requests});
  console.log(JSON.stringify({stage,mapped:Object.keys(entries).length,unresolved:unresolved.length,requests:api.requests}));
 }else throw Error('Unknown stage');

@@ -23,7 +23,7 @@ node scripts/music-listen/audit-catalog.mjs --stage songs --out /path/to/private
 node scripts/music-listen/audit-catalog.mjs --stage match --out /path/to/private-audit
 ```
 
-可显式传 `--proxy`；每次运行用 `--max-requests` 限制新增公开读取。脚本输出 `proposed.json` 与 `review.json`，不会自动覆盖正式目录。编辑者需复核新增候选、冲突与异常，保留已核验的录音版本，再将批准的提案写入 `src/data/music-listen.json`。核验日期使用本次目录批次日期；下次核验需同步更新脚本输出日期。
+可显式传 `--proxy`；每次运行用 `--max-requests` 限制新增公开读取。核验日期默认 UTC 当日，也可用 `--verified-at YYYY-MM-DD` 固定目录批次日期。脚本输出 `proposed.json` 与 `review.json`，不会自动覆盖正式目录。编辑者需复核新增候选、冲突与异常，保留已核验的录音版本，再将批准的提案写入 `src/data/music-listen.json`。
 
 ```sh
 node scripts/music-listen/check-catalog.mjs
