@@ -35,6 +35,6 @@ Folia 源库执行 `node dev/deploy/importWikiMusicCatalog.mjs /absolute/path/to
 
 ## 边界
 
-此目录验证作品对应关系，不证明 QQ 账号拥有完整播放权限。免费完整版/会员播放仍待原生播放器实测，不能用打开卡片替代音频验收。当前仅预览；`PUBLIC_FOLIA_ORIGIN` 默认关闭，Wiki 生产发布及音乐正式域名需要独立批准。
+此目录验证作品对应关系，不证明 QQ 账号拥有完整播放权限。2026-10-29 隔离预览中，非会员账号已在原生播放器将明透《ルートキュア》完整播放至 166.440635 秒自然结束，歌词、翻译及播放中拖动进度通过；会员专属完整版及双账号并发仍未实测，不能由该样本推断全目录权限。当前仅预览；本地默认关闭 `PUBLIC_FOLIA_ORIGIN`。候选的 `scripts/build-online.mjs` 固定正式来源为 `https://music.kamitsubaki.wiki`，仅在正式 Worker 验收完成、固定清单批准并经 main 的 Git 构建发布后启用。回滚入口时通过同一 Git 构建流程移除此配置，不绕过 Pages 发布入口。
 
 覆盖清单的 `release-not-found` / `song-not-found` 表示本次读取的目录没有通过核验的候选；部分艺人目录未完整返回，因此不表示平台不存在该作品。`tracklist-mismatch` 表示标题、曲数、曲序或时长不一致；`edition-date-unconfirmed` 表示未能唯一确定录音版本；`lookup-failed` 表示公开接口拒绝详情读取；`artist-unresolved` 表示艺人身份待确认。
