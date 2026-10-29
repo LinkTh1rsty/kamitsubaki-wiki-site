@@ -1,0 +1,4382 @@
+{
+  "verifiedAt": "2026-10-28",
+  "sourceSha256": "567cb73714791de43ac85d60a2d472645e9d12240daadb2e733ddb586adf2181",
+  "albums": {
+    "total": 158,
+    "mapped": 75
+  },
+  "tracks": {
+    "total": 1557,
+    "mapped": 1017
+  },
+  "identities": 1082,
+  "unresolvedReasons": {
+    "release-not-found": 52,
+    "tracklist-mismatch": 28,
+    "artist-unresolved": 3,
+    "song-not-found": 506,
+    "edition-date-unconfirmed": 29,
+    "lookup-failed": 5
+  },
+  "unresolved": [
+    {
+      "id": "guiano-1688154399",
+      "kind": "album",
+      "title": "Love & Music -DISC2-",
+      "artist": "guiano",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "guiano-1688523952",
+      "kind": "album",
+      "title": "あの夏の記憶だけ",
+      "artist": "guiano",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "kaf-love-and-flower",
+      "kind": "album",
+      "title": "愛と花",
+      "artist": "kaf",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "kaf-tomadoi-telepathy",
+      "kind": "album",
+      "title": "戸惑いテレパシー",
+      "artist": "kaf",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "kaf-yoru-ga-furiyamu-mae-ni",
+      "kind": "album",
+      "title": "夜が降り止む前に",
+      "artist": "kaf",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "kanzaki-iori-1688672421",
+      "kind": "album",
+      "title": "人生はコメディ",
+      "artist": "kanzaki-iori",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "kanzaki-iori-1697284180",
+      "kind": "album",
+      "title": "Boys and Girls",
+      "artist": "kanzaki-iori",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "sekai-1727860949",
+      "kind": "album",
+      "title": "Yumemigokochi",
+      "artist": "sekai",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "vwp-album-witch-plus",
+      "kind": "album",
+      "title": "魔女ぷらす",
+      "artist": "vwp",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "yunosuke-6779155525",
+      "kind": "album",
+      "title": "The first",
+      "artist": "yunosuke",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "yunosuke-6783610011",
+      "kind": "album",
+      "title": "The 13th Knot Ritual",
+      "artist": "yunosuke",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "yunosuke-6786951954",
+      "kind": "album",
+      "title": "Wild Ocean",
+      "artist": "yunosuke",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "asu-1712458671",
+      "kind": "album",
+      "title": "サンライトLIVE 2",
+      "artist": "asu",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "asu-1712470891",
+      "kind": "album",
+      "title": "サンライトLIVE",
+      "artist": "asu",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "bema-1858175130",
+      "kind": "album",
+      "title": "Dark Night LIVE (Cover Live)",
+      "artist": "bema",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "ciel-1669426651",
+      "kind": "album",
+      "title": "STRAWBERRY LIVE",
+      "artist": "ciel",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "kanzaki-iori-1784434167",
+      "kind": "album",
+      "title": "Acoustic Mini Live [Hibi, ]",
+      "artist": "kanzaki-iori",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "anmc-1781196523",
+      "kind": "album",
+      "title": "『ムーンレスムーン』BGM Soundtrack",
+      "artist": "anmc",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "anmc-1811934640",
+      "kind": "album",
+      "title": "『ガールズメイドプディング』BGM Soundtrack",
+      "artist": "anmc",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "city-ensemble-ost",
+      "kind": "album",
+      "title": "神椿市協奏中。Original Soundtrack",
+      "reason": "artist-unresolved"
+    },
+    {
+      "id": "moonless-moon-bgm",
+      "kind": "album",
+      "title": "Moonless Moon Original Soundtrack",
+      "reason": "artist-unresolved"
+    },
+    {
+      "id": "albemuth-1715604776",
+      "kind": "album",
+      "title": "ADAM (feat. 存流 & 明透)",
+      "artist": "albemuth",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "albemuth-1715607878",
+      "kind": "album",
+      "title": "eve (feat. 存流 & 明透)",
+      "artist": "albemuth",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "albemuth-1728182964",
+      "kind": "album",
+      "title": "Happy Merry Xmath (feat. 存流 & 明透)",
+      "artist": "albemuth",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "anmc-1849111185",
+      "kind": "album",
+      "title": "ガールズメイドプディング - Solo Collection -",
+      "artist": "anmc",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "awairo-1798638788",
+      "kind": "album",
+      "title": "グラデーション",
+      "artist": "awairo",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "grp-kaihen-kokoro",
+      "kind": "album",
+      "title": "改変 -心-",
+      "artist": "sinseiki",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "guiano-1688519665",
+      "kind": "album",
+      "title": "Love & Music -DISC1-",
+      "artist": "guiano",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "guiano-1688521398",
+      "kind": "album",
+      "title": "A",
+      "artist": "guiano",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "guiano-1688662053",
+      "kind": "album",
+      "title": "花鳥風月",
+      "artist": "guiano",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "guiano-1866810662",
+      "kind": "album",
+      "title": "The Sky",
+      "artist": "guiano",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "harusaruhi-album-cream-puff-live",
+      "kind": "album",
+      "title": "CREAM PUFF LIVE",
+      "artist": "harusaruhi",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "harusaruhi-album-cream-puff-live-2",
+      "kind": "album",
+      "title": "CREAM PUFF LIVE 2",
+      "artist": "harusaruhi",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "harusaruhi-album-cream-puff-live-4",
+      "kind": "album",
+      "title": "CREAM PUFF LIVE 4",
+      "artist": "harusaruhi",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "harusaruhi-album-glitch-stage",
+      "kind": "album",
+      "title": "GLITCH STAGE",
+      "artist": "harusaruhi",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "harusaruhi-album-shingan",
+      "kind": "album",
+      "title": "心眼",
+      "artist": "harusaruhi",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "harusaruhi-album-spice-of-life",
+      "kind": "album",
+      "title": "SPICE OF LIFE",
+      "artist": "harusaruhi",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "harusaruhi-jiyuritsu",
+      "kind": "album",
+      "title": "自由律",
+      "artist": "harusaruhi",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "harusaruhi-shinkyu",
+      "kind": "album",
+      "title": "心眼",
+      "artist": "harusaruhi",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "hiratayoshihisa-1389788816",
+      "kind": "album",
+      "title": "All in this summer LP",
+      "artist": "hiratayoshihisa",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "hiratayoshihisa-1460365637",
+      "kind": "album",
+      "title": "Hit The Floor L.P.",
+      "artist": "hiratayoshihisa",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "hiratayoshihisa-1820372816",
+      "kind": "album",
+      "title": "日本の夜",
+      "artist": "hiratayoshihisa",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "isekaijoucho-album-candy-live",
+      "kind": "album",
+      "title": "CANDY LIVE",
+      "artist": "isekaijoucho",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "isekaijoucho-album-candy-live-2",
+      "kind": "album",
+      "title": "CANDY LIVE 2",
+      "artist": "isekaijoucho",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "isekaijoucho-album-candy-live-3",
+      "kind": "album",
+      "title": "CANDY LIVE 3",
+      "artist": "isekaijoucho",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "kaf-guwa-gamma",
+      "kind": "album",
+      "title": "寓話γ",
+      "artist": "kaf",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "kaf-i-scream-live",
+      "kind": "album",
+      "title": "I SCREAM LIVE",
+      "artist": "kaf",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "kaf-i-scream-live-2",
+      "kind": "album",
+      "title": "I SCREAM LIVE2",
+      "artist": "kaf",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "kaf-i-scream-live-3",
+      "kind": "album",
+      "title": "I SCREAM LIVE3",
+      "artist": "kaf",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "kaf-i-scream-live-4",
+      "kind": "album",
+      "title": "I SCREAM LIVE4 - Cover Live Album -",
+      "artist": "kaf",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "kaf-maho-gamma",
+      "kind": "album",
+      "title": "魔法γ",
+      "artist": "kaf",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "kaf-suite",
+      "kind": "album",
+      "title": "組曲",
+      "artist": "kaf",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "kafu-1708165441",
+      "kind": "album",
+      "title": "Dead Delay Man",
+      "artist": "kafu",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "kanzaki-iori-1688516351",
+      "kind": "album",
+      "title": "白紙",
+      "artist": "kanzaki-iori",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "kanzaki-iori-1786566019",
+      "kind": "album",
+      "title": "Freely Captured",
+      "artist": "kanzaki-iori",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "kanzaki-iori-1831730283",
+      "kind": "album",
+      "title": "That Summer Saturates",
+      "artist": "kanzaki-iori",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "koko-album-arare-live",
+      "kind": "album",
+      "title": "ARARE LIVE",
+      "artist": "koko",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "koko-album-climbinge-the-remix",
+      "kind": "album",
+      "title": "ClimBinge the Remix",
+      "artist": "koko",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "koko-album-prayer",
+      "kind": "album",
+      "title": "prayer",
+      "artist": "koko",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "musical-isotope-1810142549",
+      "kind": "album",
+      "title": "あ行でかわいいミュージック",
+      "artist": "musical-isotope",
+      "reason": "artist-unresolved"
+    },
+    {
+      "id": "rim-album-chocolate-live",
+      "kind": "album",
+      "title": "CHOCOLATE LIVE",
+      "artist": "rim",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "rim-album-chocolate-live-3",
+      "kind": "album",
+      "title": "CHOCOLATE LIVE3",
+      "artist": "rim",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "rim-album-singularity-live",
+      "kind": "album",
+      "title": "Singularity Live",
+      "artist": "rim",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "rime-1786954898",
+      "kind": "album",
+      "title": "Only pitch-blackness can save you.",
+      "artist": "rime",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "rime-1798669277",
+      "kind": "album",
+      "title": "Adore",
+      "artist": "rime",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "sekai-1722527956",
+      "kind": "album",
+      "title": "Tropicariddim!",
+      "artist": "sekai",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "toa-1585735634",
+      "kind": "album",
+      "title": "MIKU TOA (feat. 初音ミク)",
+      "artist": "toa",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "toa-6790240020",
+      "kind": "album",
+      "title": "Muguet/Tagetes (feat. Hatsune Miku, 鏡音レン & 鏡音リン)",
+      "artist": "toa",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "valis-1680449934",
+      "kind": "album",
+      "title": "流転ファンタジア(深脊界 ver.)",
+      "artist": "valis",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "valis-1688154026",
+      "kind": "album",
+      "title": "覚醒ヒストリア(裏世界 ver.)",
+      "artist": "valis",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "valis-1688519146",
+      "kind": "album",
+      "title": "覚醒ヒストリア(覚醒 ver.)",
+      "artist": "valis",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "valis-1738198240",
+      "kind": "album",
+      "title": "再現ガールフレンド",
+      "artist": "valis",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "valis-1763997014",
+      "kind": "album",
+      "title": "青春イマジネーション 覚醒ver.",
+      "artist": "valis",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "valis-1763999465",
+      "kind": "album",
+      "title": "青春イマジネーション 瓦利斯飯店ver.",
+      "artist": "valis",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "valis-1829413076",
+      "kind": "album",
+      "title": "悠久オーケストラ",
+      "artist": "valis",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "vwp-album-fate",
+      "kind": "album",
+      "title": "運命",
+      "artist": "vwp",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "vwp-album-virtual-city-record",
+      "kind": "album",
+      "title": "仮想都市録",
+      "artist": "vwp",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "yunosuke-1011454503",
+      "kind": "album",
+      "title": "Unique Antique",
+      "artist": "yunosuke",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "yunosuke-1103188278",
+      "kind": "album",
+      "title": "Pathos",
+      "artist": "yunosuke",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "yunosuke-1419403824",
+      "kind": "album",
+      "title": "Fiction",
+      "artist": "yunosuke",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "yunosuke-1499035853",
+      "kind": "album",
+      "title": "Emotions",
+      "artist": "yunosuke",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "yunosuke-1535422307",
+      "kind": "album",
+      "title": "Proto",
+      "artist": "yunosuke",
+      "reason": "tracklist-mismatch"
+    },
+    {
+      "id": "yunosuke-1832605615",
+      "kind": "album",
+      "title": "Void (feat. Hatsune Miku, 鏡音リン, Megpoid, KAFU & Kasane Teto)",
+      "artist": "yunosuke",
+      "reason": "release-not-found"
+    },
+    {
+      "id": "albemuth-happy-merry-xmath",
+      "kind": "track",
+      "title": "Happy Merry X'math",
+      "artist": "albemuth",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-albemuth-no-be-feat",
+      "kind": "track",
+      "title": "星月夜の調べ (feat. 存流 & 明透)",
+      "artist": "albemuth",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-albemuth-tuberose-feat",
+      "kind": "track",
+      "title": "tuberose (feat. 存流 & 明透)",
+      "artist": "albemuth",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-albemuth-underdrain-feat",
+      "kind": "track",
+      "title": "Underdrain (feat. 存流 & 明透)",
+      "artist": "albemuth",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-anmc-autorain-shiisaido-feat-kahoca-haruha",
+      "kind": "track",
+      "title": "アウトライン・シーサイド feat. kahoca , ハルハ",
+      "artist": "anmc",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-anmc-mata-hanekomimito-feat-kahoca-no",
+      "kind": "track",
+      "title": "また旅はネコミミと feat. kahoca, 一ノ瀬陽鞠",
+      "artist": "anmc",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-aru-call-me-anytime-feat-demxntia",
+      "kind": "track",
+      "title": "Call Me Anytime (feat. Demxntia)",
+      "artist": "aru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-aru-no",
+      "kind": "track",
+      "title": "三日月の街",
+      "artist": "aru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-aru-pinkuribon-i",
+      "kind": "track",
+      "title": "ピンクリボン～願い～",
+      "artist": "aru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-awairo-feat-wami",
+      "kind": "track",
+      "title": "個性 (feat. WaMi & 雄之助)",
+      "artist": "awairo",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-awairo-feat-wami-songs",
+      "kind": "track",
+      "title": "烙印 (feat. 雄之助 & WaMi)",
+      "artist": "awairo",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-awairo-pale-deep-feat-wami",
+      "kind": "track",
+      "title": "Pale&Deep (feat. 雄之助 & WaMi)",
+      "artist": "awairo",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-awairo-satellite-feat-yunosuke-wami",
+      "kind": "track",
+      "title": "Satellite (feat. Yunosuke & WaMi)",
+      "artist": "awairo",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "ciel-mijikayo-no-hoshi",
+      "kind": "track",
+      "title": "短夜の星",
+      "artist": "ciel",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-coko-ballerina-feat-lil-wick",
+      "kind": "track",
+      "title": "Ballerina (feat. Lil wick)",
+      "artist": "coko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-coko-eteshimaitai-ni",
+      "kind": "track",
+      "title": "消えてしまいたい夜に",
+      "artist": "coko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-coko-gifuteddo-gimikku",
+      "kind": "track",
+      "title": "ギフテッド・ギミック",
+      "artist": "coko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-coko-killer-tune-feat",
+      "kind": "track",
+      "title": "KiLLer TuNe (feat. 狐子)",
+      "artist": "coko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-coko-nevermind-neverland",
+      "kind": "track",
+      "title": "NEVERMIND NEVERLAND",
+      "artist": "coko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-coko-no",
+      "kind": "track",
+      "title": "心の傘",
+      "artist": "coko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-coko-sukairain-feat",
+      "kind": "track",
+      "title": "スカイライン (feat. 狐子)",
+      "artist": "coko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-coko-teyandei-feat",
+      "kind": "track",
+      "title": "てやんでいっ! (feat. 狐子)",
+      "artist": "coko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-coko-tokyo-midnight-fantasy",
+      "kind": "track",
+      "title": "TOKYO MIDNIGHT FANTASY",
+      "artist": "coko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "grp-grp-collaborations-chromatic",
+      "kind": "track",
+      "title": "クロマティック",
+      "artist": "sinseiki",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "grp-grp-originals-gense-kaiki",
+      "kind": "track",
+      "title": "現世回帰",
+      "artist": "sinseiki",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "grp-grp-originals-kaihen",
+      "kind": "track",
+      "title": "改変",
+      "artist": "sinseiki",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "grp-grp-originals-shujin-kouro",
+      "kind": "track",
+      "title": "主人行路",
+      "artist": "sinseiki",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-30",
+      "kind": "track",
+      "title": "ずるいね feat.理芽",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-28",
+      "kind": "track",
+      "title": "ワールド・コーリング feat.春猿火",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1656389881",
+      "kind": "track",
+      "title": "君の望み、君の願い (Live at Virtual, 2022)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1656389882",
+      "kind": "track",
+      "title": "少年漫画 (Live at Virtual, 2022)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1679279236",
+      "kind": "track",
+      "title": "桜の子(Live) [feat. KAF]",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-21",
+      "kind": "track",
+      "title": "鏡面の波 feat.ヰ世界情緒",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-19",
+      "kind": "track",
+      "title": "食虫植物 feat. 花譜",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-coko-fake",
+      "kind": "track",
+      "title": "FAKE",
+      "artist": "coko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-haru-wo-su",
+      "kind": "track",
+      "title": "過去を刺す",
+      "artist": "haru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-musical-isotope",
+      "kind": "track",
+      "title": "口移詩",
+      "artist": "musical-isotope",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-musical-isotope-vip-enjoy",
+      "kind": "track",
+      "title": "VIPエンジョイ (feat. アテナ)",
+      "artist": "musical-isotope",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-no-feat-yukuewatto",
+      "kind": "track",
+      "title": "幽玄の詩 (feat. ◈*ゆくえわっと)",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1658950757",
+      "kind": "track",
+      "title": "再会 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1658950758",
+      "kind": "track",
+      "title": "輪廻 acoustic ver. (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1687247706",
+      "kind": "track",
+      "title": "魔女(真) [feat. KAF, RIM, Isekaijoucho, Harusaruhi & KOKO]",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1687478550",
+      "kind": "track",
+      "title": "電脳 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1688347684",
+      "kind": "track",
+      "title": "輪廻 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1688348679",
+      "kind": "track",
+      "title": "変身 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1688514158",
+      "kind": "track",
+      "title": "言霊 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1689357636",
+      "kind": "track",
+      "title": "共鳴 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1690114245",
+      "kind": "track",
+      "title": "定命 (feat. KAF, RIM, Isekaijoucho, Harusaruhi & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1694863307",
+      "kind": "track",
+      "title": "玩具 (feat. KAF, RIM, Isekaijoucho, Harusaruhi & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1696039390",
+      "kind": "track",
+      "title": "逆絶 (feat. V.W.P & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1696880422",
+      "kind": "track",
+      "title": "不的 (feat. ヰ世界情緒 & V.W.P)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1698252311",
+      "kind": "track",
+      "title": "飛翔 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700373286",
+      "kind": "track",
+      "title": "祭壇 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700379458",
+      "kind": "track",
+      "title": "開幕 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700379459",
+      "kind": "track",
+      "title": "魔女 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700379460",
+      "kind": "track",
+      "title": "共鳴 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700379461",
+      "kind": "track",
+      "title": "電脳 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700379464",
+      "kind": "track",
+      "title": "言霊 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700379465",
+      "kind": "track",
+      "title": "玩具 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700379526",
+      "kind": "track",
+      "title": "宣戦 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700379527",
+      "kind": "track",
+      "title": "定命 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700379528",
+      "kind": "track",
+      "title": "変身 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700379529",
+      "kind": "track",
+      "title": "輪廻 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700379530",
+      "kind": "track",
+      "title": "再会 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700379531",
+      "kind": "track",
+      "title": "魔女(真) [feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO]",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1700379532",
+      "kind": "track",
+      "title": "仮想 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1708852626",
+      "kind": "track",
+      "title": "秘密 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1714414165",
+      "kind": "track",
+      "title": "残火 (feat. 花譜 & V.W.P)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1719581060",
+      "kind": "track",
+      "title": "感情 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1729962973",
+      "kind": "track",
+      "title": "素的 (feat. 幸祜 & V.W.P)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1741511500",
+      "kind": "track",
+      "title": "私的 (feat. 春猿火 & V.W.P)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1778355588",
+      "kind": "track",
+      "title": "夢魔 (feat. V.W.P)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1781819684",
+      "kind": "track",
+      "title": "本懐 (feat. V.W.P)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1785776842",
+      "kind": "track",
+      "title": "此処で咲かせて (feat. 幸祜 & CIEL)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1785776844",
+      "kind": "track",
+      "title": "絵画のように美しくいたかった (feat. 理芽 & Guiano)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1785776845",
+      "kind": "track",
+      "title": "異世界転調リクヱスト (feat. ヰ世界情緒 & VALIS)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1785776846",
+      "kind": "track",
+      "title": "friction (feat. 春猿火 & 梓川) [Remix]",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1785776847",
+      "kind": "track",
+      "title": "千年奏者 (feat. 花譜 & Albemuth)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1807259068",
+      "kind": "track",
+      "title": "愛詩 (feat. KAF, RIM, Harusaruhi, Isekaijoucho & KOKO)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1818293104",
+      "kind": "track",
+      "title": "未遂 SINKA LIVE SERIES ver. (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1819865316",
+      "kind": "track",
+      "title": "玩具 SINKA LIVE SERIES ver. (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1821151118",
+      "kind": "track",
+      "title": "再会 SINKA LIVE SERIES ver. (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1837327944",
+      "kind": "track",
+      "title": "電脳 sinka ver. (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1840334635",
+      "kind": "track",
+      "title": "魔女(真) sinka ver. (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "vwp-song-track-1862499285",
+      "kind": "track",
+      "title": "照射 (feat. 花譜, 理芽, 春猿火, ヰ世界情緒 & 幸祜)",
+      "artist": "vwp",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-empty-old-city-rerufyiria-feat-dazbee",
+      "kind": "track",
+      "title": "青揺れるフィリア (feat. Dazbee)",
+      "artist": "empty-old-city",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "grp-garasumiya-originals-ai",
+      "kind": "track",
+      "title": "アイ",
+      "artist": "garasumiya",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "grp-garasumiya-originals-well",
+      "kind": "track",
+      "title": "well",
+      "artist": "garasumiya",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "guiano-shinde-shimatta-no-darouka",
+      "kind": "track",
+      "title": "死んでしまったのだろうか",
+      "artist": "guiano",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "guiano-sukitooru-sekai",
+      "kind": "track",
+      "title": "透き通る世界",
+      "artist": "guiano",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-guiano-black-gold-feat-ia",
+      "kind": "track",
+      "title": "Black Gold (feat. IA)",
+      "artist": "guiano",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-guiano-feat-rim",
+      "kind": "track",
+      "title": "透過夏 (feat. RIM)",
+      "artist": "guiano",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-guiano-songs",
+      "kind": "track",
+      "title": "月",
+      "artist": "guiano",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-guiano-songs-5703989daf",
+      "kind": "track",
+      "title": "風",
+      "artist": "guiano",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-guiano-songs-c2ba8f31ac",
+      "kind": "track",
+      "title": "花",
+      "artist": "guiano",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-guiano-suupaahiiroo",
+      "kind": "track",
+      "title": "スーパーヒーロー",
+      "artist": "guiano",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-guiano-with-guiano",
+      "kind": "track",
+      "title": "法螺話 (with Guiano)",
+      "artist": "guiano",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-haru-feat",
+      "kind": "track",
+      "title": "拒絶反応 feat. 羽累",
+      "artist": "haru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-haru-follow-me-now",
+      "kind": "track",
+      "title": "Follow Me Now!",
+      "artist": "haru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-haru-i-no-ri",
+      "kind": "track",
+      "title": "思い出の帰り道",
+      "artist": "haru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-haru-meguru",
+      "kind": "track",
+      "title": "meguru",
+      "artist": "haru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-haru-no-nopiano",
+      "kind": "track",
+      "title": "森の中のピアノ",
+      "artist": "haru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-haru-no-renopiano",
+      "kind": "track",
+      "title": "森の夕暮れのピアノ",
+      "artist": "haru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-haru-nosuteppu",
+      "kind": "track",
+      "title": "夢のステップ",
+      "artist": "haru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-haru-promise",
+      "kind": "track",
+      "title": "promise",
+      "artist": "haru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-haru-sana",
+      "kind": "track",
+      "title": "小さな冒険",
+      "artist": "haru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-haru-seorii",
+      "kind": "track",
+      "title": "光速セオリー",
+      "artist": "haru",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-02",
+      "kind": "track",
+      "title": "Twig",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-03",
+      "kind": "track",
+      "title": "colors",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-05",
+      "kind": "track",
+      "title": "ミュージック",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-06",
+      "kind": "track",
+      "title": "死んでしまったのだろうか",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-08",
+      "kind": "track",
+      "title": "最後の晩餐",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-09",
+      "kind": "track",
+      "title": "君の神様になりたい。",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-11",
+      "kind": "track",
+      "title": "ピロウトーク",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-12",
+      "kind": "track",
+      "title": "糸",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-13",
+      "kind": "track",
+      "title": "CULT",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-15",
+      "kind": "track",
+      "title": "腐りきった人生だ。",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-16",
+      "kind": "track",
+      "title": "春猿火自由律#05「iのアンサー」",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-19",
+      "kind": "track",
+      "title": "Mela!",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-20",
+      "kind": "track",
+      "title": "Caffeine",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-22",
+      "kind": "track",
+      "title": "CITI",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-23",
+      "kind": "track",
+      "title": "snow jam",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-24",
+      "kind": "track",
+      "title": "開戦前夜",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-26",
+      "kind": "track",
+      "title": "たぶん",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-28",
+      "kind": "track",
+      "title": "告げ口",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-archive-cream-puff-live-32",
+      "kind": "track",
+      "title": "夢の中",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1687478944",
+      "kind": "track",
+      "title": "覚醒 (feat. sanari)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1719580870",
+      "kind": "track",
+      "title": "friction(Remix)feat. 梓川",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1800090599",
+      "kind": "track",
+      "title": "オオゴト (DJ Genki Remix) [feat. Harusaruhi]",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427143",
+      "kind": "track",
+      "title": "キラーボール (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427295",
+      "kind": "track",
+      "title": "SAYONARA MAYBE (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427296",
+      "kind": "track",
+      "title": "花に亡霊 (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427297",
+      "kind": "track",
+      "title": "ターミナル (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427298",
+      "kind": "track",
+      "title": "弔花 (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427299",
+      "kind": "track",
+      "title": "NEUROMANCE (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427300",
+      "kind": "track",
+      "title": "空想少女 (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427301",
+      "kind": "track",
+      "title": "天照ダウン (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427302",
+      "kind": "track",
+      "title": "チルドレンレコード (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427303",
+      "kind": "track",
+      "title": "Drop (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427304",
+      "kind": "track",
+      "title": "Season (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427305",
+      "kind": "track",
+      "title": "曖昧なBEACH (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427306",
+      "kind": "track",
+      "title": "夏夜のマジック (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427307",
+      "kind": "track",
+      "title": "ソラニン (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427308",
+      "kind": "track",
+      "title": "おやすみ泣き声、さよなら歌姫 (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427309",
+      "kind": "track",
+      "title": "当事者 (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427310",
+      "kind": "track",
+      "title": "絶蝶 (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427311",
+      "kind": "track",
+      "title": "カワルミライ (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427312",
+      "kind": "track",
+      "title": "積乱雲グラフィティ (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1833427313",
+      "kind": "track",
+      "title": "Yeah! Yeah! Yeah! (Cover Live)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1866810859",
+      "kind": "track",
+      "title": "人に優しく",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1866811135",
+      "kind": "track",
+      "title": "昼の夢",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1866811144",
+      "kind": "track",
+      "title": "愛猫",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-1889319193",
+      "kind": "track",
+      "title": "Splash. (feat. 春猿火)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "harusaruhi-song-track-6772089274",
+      "kind": "track",
+      "title": "砂時計 (水槽 Remix)",
+      "artist": "harusaruhi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "grp-hinageshi-originals-alive",
+      "kind": "track",
+      "title": "アライブ",
+      "artist": "hinageshi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-hiratayoshihisa-ii-feat-azsagawa",
+      "kind": "track",
+      "title": "渇愛論II(梓川版) [feat. Azsagawa]",
+      "artist": "hiratayoshihisa",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-hiratayoshihisa-naitodoraibaa-feat-jolno",
+      "kind": "track",
+      "title": "ナイトドライバー (feat. JOLNO)",
+      "artist": "hiratayoshihisa",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-hiratayoshihisa-no-feat",
+      "kind": "track",
+      "title": "日本の夏 (feat. 七滝今 & 梓川)",
+      "artist": "hiratayoshihisa",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-hiratayoshihisa-ru",
+      "kind": "track",
+      "title": "夏至下る",
+      "artist": "hiratayoshihisa",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-hitogoto-aianmeedee-feat-nene",
+      "kind": "track",
+      "title": "アイアンメーデー (feat. ねね)",
+      "artist": "hitogoto",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-hitogoto-no-feat-nene",
+      "kind": "track",
+      "title": "箱庭の果実【始】 (feat. ねね)",
+      "artist": "hitogoto",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-hitogoto-to-feat",
+      "kind": "track",
+      "title": "信仰と存在 (feat. 否)",
+      "artist": "hitogoto",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-hitogoto-to-feat-70d",
+      "kind": "track",
+      "title": "偶像と悪魔 (feat. 70D)",
+      "artist": "hitogoto",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-hitogoto-to-feat-gurni",
+      "kind": "track",
+      "title": "偶像と悪魔 (feat. Gurni.)",
+      "artist": "hitogoto",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-hitogoto-wo-tta-he",
+      "kind": "track",
+      "title": "神を偽った悪魔へ【始】",
+      "artist": "hitogoto",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-monogatari-ga-arunara",
+      "kind": "track",
+      "title": "物語があるなら",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-02",
+      "kind": "track",
+      "title": "蜜月アン・ドゥ・トロワ",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-03",
+      "kind": "track",
+      "title": "MACARON",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-05",
+      "kind": "track",
+      "title": "共感覚おばけ",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-06",
+      "kind": "track",
+      "title": "Chaining Intentoin",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-08",
+      "kind": "track",
+      "title": "レプリカ",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-09",
+      "kind": "track",
+      "title": "垂直落下",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-11",
+      "kind": "track",
+      "title": "flos",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-12",
+      "kind": "track",
+      "title": "白い春",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-13",
+      "kind": "track",
+      "title": "彗星になれたなら",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-16",
+      "kind": "track",
+      "title": "回らないトゥシューズ",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-17",
+      "kind": "track",
+      "title": "Starduster",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-19",
+      "kind": "track",
+      "title": "FREELY TOMORROW",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-20",
+      "kind": "track",
+      "title": "VALON-1",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-22",
+      "kind": "track",
+      "title": "あなただけ",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-23",
+      "kind": "track",
+      "title": "ヴィーナスとジーザス",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-25",
+      "kind": "track",
+      "title": "HEART STATION",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-26",
+      "kind": "track",
+      "title": "シリウスの心臓",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-archive-candy-live-30",
+      "kind": "track",
+      "title": "鳥の詩",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1748965689",
+      "kind": "track",
+      "title": "new world",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1757778013",
+      "kind": "track",
+      "title": "セカイの箱庭 (feat. Isekaijoucho)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1760084630",
+      "kind": "track",
+      "title": "双生コンフリクト feat. ヰ世界情緒",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1800090318",
+      "kind": "track",
+      "title": "とめどなき白情 (Getty Remix) [feat. Isekaijoucho]",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1837107375",
+      "kind": "track",
+      "title": "Silhouette (feat. ヰ世界情緒)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1837107378",
+      "kind": "track",
+      "title": "Silhouette (feat. ヰ世界情緒) [Instrumental]",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052581",
+      "kind": "track",
+      "title": "Calc. (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052583",
+      "kind": "track",
+      "title": "アスノヨゾラ哨戒班 (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052584",
+      "kind": "track",
+      "title": "砂の惑星 (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052585",
+      "kind": "track",
+      "title": "きゅうくらりん (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052586",
+      "kind": "track",
+      "title": "ビビビビ (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052587",
+      "kind": "track",
+      "title": "non-reflection (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052588",
+      "kind": "track",
+      "title": "深海のリトルクライ (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052589",
+      "kind": "track",
+      "title": "コネクト (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052590",
+      "kind": "track",
+      "title": "God knows... (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052591",
+      "kind": "track",
+      "title": "ファンサ (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052592",
+      "kind": "track",
+      "title": "芝居の終焉 (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052593",
+      "kind": "track",
+      "title": "僕は依存症 (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052594",
+      "kind": "track",
+      "title": "rose (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052595",
+      "kind": "track",
+      "title": "月曜日戦争 (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052596",
+      "kind": "track",
+      "title": "Buffer (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052597",
+      "kind": "track",
+      "title": "愛のまま (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052598",
+      "kind": "track",
+      "title": "本当の音 (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052599",
+      "kind": "track",
+      "title": "All Alone With You (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052600",
+      "kind": "track",
+      "title": "奏(かなで) [Cover Live]",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052601",
+      "kind": "track",
+      "title": "鏡面の波 (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "isekaijoucho-song-track-1854052605",
+      "kind": "track",
+      "title": "君の知らない物語 (Cover Live)",
+      "artist": "isekaijoucho",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019430",
+      "kind": "track",
+      "title": "さよならミッドナイト (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019431",
+      "kind": "track",
+      "title": "少女レイ (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019432",
+      "kind": "track",
+      "title": "猛独が襲う (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019433",
+      "kind": "track",
+      "title": "美しく、闇 (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019435",
+      "kind": "track",
+      "title": "回る空うさぎ (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019436",
+      "kind": "track",
+      "title": "雨き声残響 (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019437",
+      "kind": "track",
+      "title": "イヤホンと蝉時雨 (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019439",
+      "kind": "track",
+      "title": "死んでしまったのだろうか (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019440",
+      "kind": "track",
+      "title": "忘れたいことばっかだ (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019441",
+      "kind": "track",
+      "title": "LAZY (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019443",
+      "kind": "track",
+      "title": "五月雨 (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019445",
+      "kind": "track",
+      "title": "死神 (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019446",
+      "kind": "track",
+      "title": "ミッドナイト清純異性交遊 (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019448",
+      "kind": "track",
+      "title": "プラスティック・ラブ (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019449",
+      "kind": "track",
+      "title": "ダンスが僕の恋人 (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019450",
+      "kind": "track",
+      "title": "宙ぶらりん (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019451",
+      "kind": "track",
+      "title": "電話をするよ (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019453",
+      "kind": "track",
+      "title": "明けない夜のリリィ (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019454",
+      "kind": "track",
+      "title": "あなたの夜が明けるまで (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019457",
+      "kind": "track",
+      "title": "Fall In Loveに恋してるっ♪ (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019458",
+      "kind": "track",
+      "title": "銀河 (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019459",
+      "kind": "track",
+      "title": "the MIRACLE (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019460",
+      "kind": "track",
+      "title": "ビームが撃てたらいいのに (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019462",
+      "kind": "track",
+      "title": "愛にできることはまだあるかい (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019463",
+      "kind": "track",
+      "title": "おやすみ泣き声、さよなら歌姫 (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019464",
+      "kind": "track",
+      "title": "ロックンロールは鳴り止まないっ (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019465",
+      "kind": "track",
+      "title": "今夜がおわらない (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019467",
+      "kind": "track",
+      "title": "命に嫌われている (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019469",
+      "kind": "track",
+      "title": "まほう (feat. 理芽) (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1707019471",
+      "kind": "track",
+      "title": "空洞です (I SCREAM LIVE ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096858",
+      "kind": "track",
+      "title": "水星 (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096859",
+      "kind": "track",
+      "title": "わたしは人類 (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096861",
+      "kind": "track",
+      "title": "ひらいて (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096863",
+      "kind": "track",
+      "title": "猫とアレルギー (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096864",
+      "kind": "track",
+      "title": "忘れっぽい天使 (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096865",
+      "kind": "track",
+      "title": "偽りのシンパシー (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096867",
+      "kind": "track",
+      "title": "The Story (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096871",
+      "kind": "track",
+      "title": "I Don't Wanna Dance In This Squall (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096872",
+      "kind": "track",
+      "title": "ユニ (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096875",
+      "kind": "track",
+      "title": "青 (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096876",
+      "kind": "track",
+      "title": "戦争を知らない大人たち (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096879",
+      "kind": "track",
+      "title": "チクタクボーイ (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096880",
+      "kind": "track",
+      "title": "こんな夜でもいいじゃないか (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096882",
+      "kind": "track",
+      "title": "抱きしめたって、近過ぎて (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096885",
+      "kind": "track",
+      "title": "真夜中のドア (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096886",
+      "kind": "track",
+      "title": "TREK TRUNK (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096888",
+      "kind": "track",
+      "title": "今夜はブギー・バック feat. 春猿火 (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096890",
+      "kind": "track",
+      "title": "ODDTAXI feat. 春猿火 (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096893",
+      "kind": "track",
+      "title": "ラムのラブソング (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096894",
+      "kind": "track",
+      "title": "宇宙は大ヘンだ! (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096895",
+      "kind": "track",
+      "title": "トウキョウ・シャンディ・ランデヴ (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1709096988",
+      "kind": "track",
+      "title": "ネトカノ (I SCREAM LIVE2 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774457838",
+      "kind": "track",
+      "title": "アイラ (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458079",
+      "kind": "track",
+      "title": "青のすみか (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458080",
+      "kind": "track",
+      "title": "あなたは煙草 私はシャボン (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458081",
+      "kind": "track",
+      "title": "look at the sea (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458082",
+      "kind": "track",
+      "title": "エメラルド (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458083",
+      "kind": "track",
+      "title": "靴の花火 (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458084",
+      "kind": "track",
+      "title": "美貌の青空 (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458085",
+      "kind": "track",
+      "title": "BATACO (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458086",
+      "kind": "track",
+      "title": "Gemini (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458087",
+      "kind": "track",
+      "title": "水面に、アイス (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458088",
+      "kind": "track",
+      "title": "9月になること (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458089",
+      "kind": "track",
+      "title": "生kill the time 4 you、、❤︎ (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458090",
+      "kind": "track",
+      "title": "PLACEBO (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458091",
+      "kind": "track",
+      "title": "不便な可愛げ (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458092",
+      "kind": "track",
+      "title": "むちっ (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458093",
+      "kind": "track",
+      "title": "八月は僕の名前 (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458094",
+      "kind": "track",
+      "title": "サークルゲーム (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458095",
+      "kind": "track",
+      "title": "スパークル (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458096",
+      "kind": "track",
+      "title": "言わないけどね。 (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458097",
+      "kind": "track",
+      "title": "BLUE SOULS (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1774458098",
+      "kind": "track",
+      "title": "恋は永遠 (I SCREAM LIVE3 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122480",
+      "kind": "track",
+      "title": "swim (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122661",
+      "kind": "track",
+      "title": "虎視眈々と淡々と (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122662",
+      "kind": "track",
+      "title": "鏡面の波 (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122663",
+      "kind": "track",
+      "title": "ひこうき雲 (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122664",
+      "kind": "track",
+      "title": "new world (feat. ヰ世界情緒) (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122665",
+      "kind": "track",
+      "title": "ニウ (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122666",
+      "kind": "track",
+      "title": "ふやけた友達 (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122667",
+      "kind": "track",
+      "title": "aimai (feat. 鎖那) (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122668",
+      "kind": "track",
+      "title": "行きたくない (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122669",
+      "kind": "track",
+      "title": "この星につっぷしながら (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122670",
+      "kind": "track",
+      "title": "初恋 (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122671",
+      "kind": "track",
+      "title": "異星人と熱帯夜 (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122672",
+      "kind": "track",
+      "title": "日本の夏 (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122673",
+      "kind": "track",
+      "title": "まつり (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122674",
+      "kind": "track",
+      "title": "アダルト (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122675",
+      "kind": "track",
+      "title": "猛暑です e.p ver (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122676",
+      "kind": "track",
+      "title": "ルシファー (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122677",
+      "kind": "track",
+      "title": "サラウンド (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122678",
+      "kind": "track",
+      "title": "渚にまつわるエトセトラ (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-covers-track-1864122679",
+      "kind": "track",
+      "title": "1984 (I SCREAM LIVE4 ver.)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-originals-track-1732389947",
+      "kind": "track",
+      "title": "ギミギミ逃避行 feat. #KTちゃん",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-originals-track-1819865325",
+      "kind": "track",
+      "title": "撃って (feat. CHiCO)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-remixes-sorekara-hideya-kojima-remix",
+      "kind": "track",
+      "title": "ソレカラ - HIDEYA KOJIMA Remix -",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-remixes-track-1688513313",
+      "kind": "track",
+      "title": "まほう(MIMI Remix) [feat. RIM]",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-remixes-track-1823861911",
+      "kind": "track",
+      "title": "スイマー(takachi Remix)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-remixes-track-1823861916",
+      "kind": "track",
+      "title": "カルぺ・ディエム(駱駝法師 Remix)",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kaf-suites-sanpachi-star",
+      "kind": "track",
+      "title": "サンパチスター feat. 花譜",
+      "artist": "kaf",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kafu-cute-na-kanojo",
+      "kind": "track",
+      "title": "キュートなカノジョ",
+      "artist": "kafu",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "kafu-marshall-maximizer",
+      "kind": "track",
+      "title": "マーシャル・マキシマイザー",
+      "artist": "kafu",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "kafu-phony",
+      "kind": "track",
+      "title": "フォニイ",
+      "artist": "kafu",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-kafu",
+      "kind": "track",
+      "title": "不可欠",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-anonimasu",
+      "kind": "track",
+      "title": "アノニマス",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-atto-za-shitei-steaka-remix",
+      "kind": "track",
+      "title": "アット・ザ・電脳シティ(STEAKA Remix)",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-bugi-cover",
+      "kind": "track",
+      "title": "混沌ブギ (Cover)",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-feat-kafu",
+      "kind": "track",
+      "title": "水面下 (feat. Kafu)",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-harouin-masukareido",
+      "kind": "track",
+      "title": "ハロウィン・マスカレイド",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-iishanten-oobaadoozu",
+      "kind": "track",
+      "title": "イーシャンテン・オーバードーズ",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-iris-out-feat-miku-hatsune-miku-cover",
+      "kind": "track",
+      "title": "IRIS OUT (feat. 初音ミク) [Hatsune Miku Cover]",
+      "artist": "kafu",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-kafu-iris-out-feat-teto-teto-cover",
+      "kind": "track",
+      "title": "IRIS OUT (feat. 重音テト) [Teto Cover]",
+      "artist": "kafu",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-kafu-iris-out-kafu-cover",
+      "kind": "track",
+      "title": "IRIS OUT (KAFU Cover)",
+      "artist": "kafu",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-kafu-kishimete",
+      "kind": "track",
+      "title": "『抱きしめて。』",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-koechitcha-tego-nne",
+      "kind": "track",
+      "title": "コぇちっちゃ<てゴ×ンネ",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-kurukuru",
+      "kind": "track",
+      "title": "くるくる",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-madiva",
+      "kind": "track",
+      "title": "MaDiVA",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-meedee",
+      "kind": "track",
+      "title": "流線形メーデー",
+      "artist": "kafu",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-kafu-meidoinbeibii",
+      "kind": "track",
+      "title": "メイドインベイビー",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-monitaringu-feat-teto-cover",
+      "kind": "track",
+      "title": "モニタリング (feat. 重音テト) [Cover]",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-ni-maretakara",
+      "kind": "track",
+      "title": "人間に産まれたから",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-no",
+      "kind": "track",
+      "title": "夜の自販機",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-no-songs",
+      "kind": "track",
+      "title": "最期の逢瀬",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-osakewo-ndarakusuriga-menaino-feat-miku",
+      "kind": "track",
+      "title": "おさけを飲んだらくすりが飲めないの唄 (feat. 初音ミク)",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-plazma-feat-teto-teto-with-kafu-cover",
+      "kind": "track",
+      "title": "Plazma (feat. 重音テト) [TETO with KAFU Cover]",
+      "artist": "kafu",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-kafu-rumurutoru",
+      "kind": "track",
+      "title": "ルムルトル",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-songs",
+      "kind": "track",
+      "title": "模範解答実験室",
+      "artist": "kafu",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-kafu-songs-31139cc036",
+      "kind": "track",
+      "title": "痣痣",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-songs-69ac6de835",
+      "kind": "track",
+      "title": "解/体",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-sutoreishiipu",
+      "kind": "track",
+      "title": "ストレイシープ",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-suwaroo-feat-kafu",
+      "kind": "track",
+      "title": "スワロー (feat. KAFU)",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-terepashi-feat-teto-cover",
+      "kind": "track",
+      "title": "テレパシ (feat. 重音テト) [Cover]",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-voyager",
+      "kind": "track",
+      "title": "Voyager",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-wo-ete",
+      "kind": "track",
+      "title": "病名を教えて",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-wo-yamimasu",
+      "kind": "track",
+      "title": "生涯、貴方を悔やみます。",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kafu-youyaku-ga-ndanda",
+      "kind": "track",
+      "title": "ようやく君が死んだんだ。",
+      "artist": "kafu",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-kafu-yurayura",
+      "kind": "track",
+      "title": "ゆらゆら",
+      "artist": "kafu",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "grp-kakyoin-originals-tsuki-e-yuku",
+      "kind": "track",
+      "title": "月へゆく",
+      "artist": "kakyoin",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "grp-kakyoin-originals-yume-no-yurikago",
+      "kind": "track",
+      "title": "夢の揺籠",
+      "artist": "kakyoin",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kanzaki-ano-natsu-ga-houwa-suru",
+      "kind": "track",
+      "title": "あの夏が飽和する。",
+      "artist": "kanzaki-iori",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "kanzaki-inochi-ni-kirawareteiru",
+      "kind": "track",
+      "title": "命に嫌われている。",
+      "artist": "kanzaki-iori",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kanzaki-iori-25-no",
+      "kind": "track",
+      "title": "25時の情熱",
+      "artist": "kanzaki-iori",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kanzaki-iori-ano-wo-shite-feat-rin",
+      "kind": "track",
+      "title": "あの春を返して (feat. 鏡音リン)",
+      "artist": "kanzaki-iori",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kanzaki-iori-antaha-nda-feat-teto",
+      "kind": "track",
+      "title": "あんたは死んだ (feat. 重音テト)",
+      "artist": "kanzaki-iori",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kanzaki-iori-feat-teto",
+      "kind": "track",
+      "title": "泥虫 (feat. 重音テト)",
+      "artist": "kanzaki-iori",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kanzaki-iori-naze",
+      "kind": "track",
+      "title": "なぜ",
+      "artist": "kanzaki-iori",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kanzaki-iori-ni-ru-feat-miku-teto",
+      "kind": "track",
+      "title": "旅に帰る (feat. 初音ミク & 重音テト)",
+      "artist": "kanzaki-iori",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kanzaki-iori-ninatteiku",
+      "kind": "track",
+      "title": "文化になっていく",
+      "artist": "kanzaki-iori",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kanzaki-iori-ri-vocaloid-ver-feat-noz",
+      "kind": "track",
+      "title": "怒り[VOCALOID ver.] [feat. Noz.]",
+      "artist": "kanzaki-iori",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kanzaki-iori-soyogi-ver",
+      "kind": "track",
+      "title": "成長痛 (梵そよぎ Ver.)",
+      "artist": "kanzaki-iori",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kanzaki-iori-suutsu-feat-teto-miku",
+      "kind": "track",
+      "title": "スーツ (feat. 重音テト & 初音ミク)",
+      "artist": "kanzaki-iori",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kashiimoimi-feat-kaito",
+      "kind": "track",
+      "title": "花色 (feat. KAITO)",
+      "artist": "kashiimoimi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kashiimoimi-flash-feat-kaito",
+      "kind": "track",
+      "title": "FLASH (feat. KAITO)",
+      "artist": "kashiimoimi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-kashiimoimi-kyattorabingu",
+      "kind": "track",
+      "title": "キャットラビング",
+      "artist": "kashiimoimi",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-kashiimoimi-songs-0ab39b40b1",
+      "kind": "track",
+      "title": "蜂蜜日記",
+      "artist": "kashiimoimi",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-kashiimoimi-sweet-for-you",
+      "kind": "track",
+      "title": "Sweet for You",
+      "artist": "kashiimoimi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-01",
+      "kind": "track",
+      "title": "Hearts",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-02",
+      "kind": "track",
+      "title": "About me",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-03",
+      "kind": "track",
+      "title": "はくしの春",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-04",
+      "kind": "track",
+      "title": "Uz",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-05",
+      "kind": "track",
+      "title": "夜咄ディセイブ",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-06",
+      "kind": "track",
+      "title": "虎視眈々",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-07",
+      "kind": "track",
+      "title": "幸福な死を",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-08",
+      "kind": "track",
+      "title": "ビターチョコデコレーション",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-09",
+      "kind": "track",
+      "title": "ラストリゾート",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-10",
+      "kind": "track",
+      "title": "過去を喰らう -inst.ver-",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-11",
+      "kind": "track",
+      "title": "命のユースティティア",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-12",
+      "kind": "track",
+      "title": "キレキャリオン",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-13",
+      "kind": "track",
+      "title": "悔やむと書いてミライ",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-14",
+      "kind": "track",
+      "title": "残響",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-15",
+      "kind": "track",
+      "title": "とめどなき白情",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-16",
+      "kind": "track",
+      "title": "エゴイスト",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-17",
+      "kind": "track",
+      "title": "終点",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-18",
+      "kind": "track",
+      "title": "君の脈で踊りたかった",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-19",
+      "kind": "track",
+      "title": "メリュー",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-20",
+      "kind": "track",
+      "title": "Leia",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-22",
+      "kind": "track",
+      "title": "unravel",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-archive-arare-live-23",
+      "kind": "track",
+      "title": "未来になれなかったあの夜に（ED）",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-track-1776963709",
+      "kind": "track",
+      "title": "ClimBinge(zensen Remix)",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-track-1800089805",
+      "kind": "track",
+      "title": "白昼夢 (Massive New Krew Remix) [feat. KOKO]",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-track-1800618747",
+      "kind": "track",
+      "title": "Tempest (feat. 幸祜)",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-track-1846506765",
+      "kind": "track",
+      "title": "詩月灯りに幸福を (feat. KOKO)",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-track-1857604520",
+      "kind": "track",
+      "title": "切り咲く (English Ver.)",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "koko-song-track-1857604521",
+      "kind": "track",
+      "title": "切り咲く (Instrumental)",
+      "artist": "koko",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-loluet-hanemuun-feat",
+      "kind": "track",
+      "title": "ハネムーン feat. 理芽",
+      "artist": "loluet",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-loluet-konfurikuto-feat-wi",
+      "kind": "track",
+      "title": "双生コンフリクト feat. ヰ世界情緒",
+      "artist": "loluet",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "grp-mikoto-originals-selfish",
+      "kind": "track",
+      "title": "セルフィッシュ",
+      "artist": "mikoto",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "mimi-mother",
+      "kind": "track",
+      "title": "マザー",
+      "artist": "mimi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-mimi-enai-feat-cover",
+      "kind": "track",
+      "title": "消えない温度 (feat. 可不) [Cover]",
+      "artist": "mimi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-mimi-feat",
+      "kind": "track",
+      "title": "月夜 (feat. 宵)",
+      "artist": "mimi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-mimi-haiindayo-feat-akarakai-cover",
+      "kind": "track",
+      "title": "今はいいんだよ。 (feat. アカラカイ) [Cover]",
+      "artist": "mimi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-mimi-haiindayo-feat-saewool-cover",
+      "kind": "track",
+      "title": "今はいいんだよ。 (feat. saewool) [Cover]",
+      "artist": "mimi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-mimi-saretaitte-tteru-feat-cover",
+      "kind": "track",
+      "title": "愛されたいって願ってる (feat. 可不) [Cover]",
+      "artist": "mimi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-mimi-suruyouni-feat-akarakai-cover",
+      "kind": "track",
+      "title": "愛するように (feat. アカラカイ) [Cover]",
+      "artist": "mimi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-mimi-tokaaten",
+      "kind": "track",
+      "title": "水音とカーテン",
+      "artist": "mimi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-musical-isotope-songs",
+      "kind": "track",
+      "title": "泡沫幸福論",
+      "artist": "musical-isotope",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "onuma-billy",
+      "kind": "track",
+      "title": "Billy",
+      "artist": "onuma-parsley",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "onuma-corruption",
+      "kind": "track",
+      "title": "Corruption",
+      "artist": "onuma-parsley",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "onuma-emerald",
+      "kind": "track",
+      "title": "エメラルド",
+      "artist": "onuma-parsley",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "onuma-poolside",
+      "kind": "track",
+      "title": "プールサイド",
+      "artist": "onuma-parsley",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "grp-orihime-originals-shin-yuu",
+      "kind": "track",
+      "title": "シンユウ",
+      "artist": "orihime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-ren-boshi",
+      "kind": "track",
+      "title": "死式、罪滅ぼし。",
+      "artist": "ren",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-ren-doorujiabisu",
+      "kind": "track",
+      "title": "ドールジアビス",
+      "artist": "ren",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-ren-ga-desune",
+      "kind": "track",
+      "title": "嘘月が綺麗ですね",
+      "artist": "ren",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-ren-goosutoarei",
+      "kind": "track",
+      "title": "ゴーストアレイ",
+      "artist": "ren",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-ren-maindokyassuru",
+      "kind": "track",
+      "title": "マインドキャッスル",
+      "artist": "ren",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-ren-mairuumu",
+      "kind": "track",
+      "title": "完結型マイルーム",
+      "artist": "ren",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-ren-ni-su",
+      "kind": "track",
+      "title": "冬月、凜然に帰す。",
+      "artist": "ren",
+      "reason": "lookup-failed"
+    },
+    {
+      "id": "single-ren-noizugoto",
+      "kind": "track",
+      "title": "ノイズゴト",
+      "artist": "ren",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-ren-reevuno",
+      "kind": "track",
+      "title": "レーヴの落日",
+      "artist": "ren",
+      "reason": "lookup-failed"
+    },
+    {
+      "id": "single-ren-roozenhaivu",
+      "kind": "track",
+      "title": "ローゼンハイヴ",
+      "artist": "ren",
+      "reason": "lookup-failed"
+    },
+    {
+      "id": "single-ren-sekaino-feat-isekaijoucho",
+      "kind": "track",
+      "title": "セカイの箱庭 (feat. Isekaijoucho)",
+      "artist": "ren",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-ren-torikkusutaa",
+      "kind": "track",
+      "title": "猫好的トリックスター",
+      "artist": "ren",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-ren-toshi",
+      "kind": "track",
+      "title": "神堕とし奇譚",
+      "artist": "ren",
+      "reason": "lookup-failed"
+    },
+    {
+      "id": "single-ren-wo-tsu",
+      "kind": "track",
+      "title": "始発駅、君を待つ。",
+      "artist": "ren",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-01",
+      "kind": "track",
+      "title": "サーカスナイト",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-02",
+      "kind": "track",
+      "title": "どうしよう",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-03",
+      "kind": "track",
+      "title": "クロノスタシス",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-04",
+      "kind": "track",
+      "title": "ガランド",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-05",
+      "kind": "track",
+      "title": "ロストワンの号哭",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-06",
+      "kind": "track",
+      "title": "melt bitter",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-07",
+      "kind": "track",
+      "title": "消えない",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-08",
+      "kind": "track",
+      "title": "コールドフィンガーガール",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-09",
+      "kind": "track",
+      "title": "官能と飽食",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-10",
+      "kind": "track",
+      "title": "悪魔",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-11",
+      "kind": "track",
+      "title": "me me she",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-12",
+      "kind": "track",
+      "title": "白日",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-13",
+      "kind": "track",
+      "title": "KISSのたびギュッとグッと",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-14",
+      "kind": "track",
+      "title": "Youthful Strangers",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-15",
+      "kind": "track",
+      "title": "告げ口",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-16",
+      "kind": "track",
+      "title": "過去を喰らう",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-17",
+      "kind": "track",
+      "title": "くねくね",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-18",
+      "kind": "track",
+      "title": "透過夏",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-archive-chocolate-live-20",
+      "kind": "track",
+      "title": "Rollin' Rollin'",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1687464469",
+      "kind": "track",
+      "title": "Flowering (with Misumi)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1687465026",
+      "kind": "track",
+      "title": "甘美な無法",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1687473630",
+      "kind": "track",
+      "title": "法螺話 (with Guiano)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1687474051",
+      "kind": "track",
+      "title": "胎児に月はキスをしない",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1688513829",
+      "kind": "track",
+      "title": "透過夏 (feat. RIM)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1746439231",
+      "kind": "track",
+      "title": "ハネムーン feat. 理芽",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1800090257",
+      "kind": "track",
+      "title": "クライベイビー (REDALiCE Remix) [feat. RIM]",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266423",
+      "kind": "track",
+      "title": "らしさ (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266424",
+      "kind": "track",
+      "title": "私以外私じゃないの (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266425",
+      "kind": "track",
+      "title": "ノックブーツ (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266426",
+      "kind": "track",
+      "title": "全方向美少女 (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266427",
+      "kind": "track",
+      "title": "好 -じょし- (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266428",
+      "kind": "track",
+      "title": "No.5 (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266429",
+      "kind": "track",
+      "title": "Maybe (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266430",
+      "kind": "track",
+      "title": "Heart Shakes (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266431",
+      "kind": "track",
+      "title": "SAPPORO TOKYO (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266432",
+      "kind": "track",
+      "title": "Namidairo (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266433",
+      "kind": "track",
+      "title": "藍 (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266434",
+      "kind": "track",
+      "title": "マスカラまつげ (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266435",
+      "kind": "track",
+      "title": "NAO (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266436",
+      "kind": "track",
+      "title": "缶ビール (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266438",
+      "kind": "track",
+      "title": "惑星 (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266439",
+      "kind": "track",
+      "title": "真白 (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266561",
+      "kind": "track",
+      "title": "センチメンタル・キス (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266562",
+      "kind": "track",
+      "title": "Chronicle A (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266563",
+      "kind": "track",
+      "title": "スーパーヒーロー (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266564",
+      "kind": "track",
+      "title": "かいか (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266565",
+      "kind": "track",
+      "title": "大迷惑星。 (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rim-song-track-1807266566",
+      "kind": "track",
+      "title": "ナイトオンザプラネット (Live)",
+      "artist": "rim",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rime-crisis",
+      "kind": "track",
+      "title": "クリシス",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "rime-manhattan",
+      "kind": "track",
+      "title": "マンハッタン",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-cheers",
+      "kind": "track",
+      "title": "cheers",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-doubt",
+      "kind": "track",
+      "title": "Doubt",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-eden-404",
+      "kind": "track",
+      "title": "eden-404",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-everything",
+      "kind": "track",
+      "title": "Everything",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-exam-feat-rime",
+      "kind": "track",
+      "title": "EXAM (feat. Rime)",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-gaki",
+      "kind": "track",
+      "title": "亜ガキ",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-gomenne-ii-janakute",
+      "kind": "track",
+      "title": "ごめんね、いい子じゃなくて",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-gyuttoshite",
+      "kind": "track",
+      "title": "ぎゅっとして",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-ha-ga-kinanda",
+      "kind": "track",
+      "title": "怪獣は猫が好きなんだ",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-haitsumo",
+      "kind": "track",
+      "title": "真夜中はいつも一人",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-i-ni-ha-zukanai",
+      "kind": "track",
+      "title": "赤い目に君は気づかない",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-loser",
+      "kind": "track",
+      "title": "LOSER",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-meta-i-2025ver",
+      "kind": "track",
+      "title": "秘めた想い (2025ver.)",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-mu",
+      "kind": "track",
+      "title": "微睡む夏",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-ni-u",
+      "kind": "track",
+      "title": "花に笑う",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-nouta",
+      "kind": "track",
+      "title": "半直線のうた",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-rasutoenputeisateraito",
+      "kind": "track",
+      "title": "ラストエンプティサテライト",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-reinii-remedei-feat-rime",
+      "kind": "track",
+      "title": "レイニー・レメディ (feat. Rime)",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-shiimono",
+      "kind": "track",
+      "title": "美しいもの",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-stargazer",
+      "kind": "track",
+      "title": "stargazer",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-timeover",
+      "kind": "track",
+      "title": "TIMEOVER",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-to-woshiteitakatta",
+      "kind": "track",
+      "title": "君と息をしていたかった",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-white-noise",
+      "kind": "track",
+      "title": "White Noise",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-rime-yookushanderera",
+      "kind": "track",
+      "title": "ヨークシャンデレラ",
+      "artist": "rime",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "sekai-nayuta",
+      "kind": "track",
+      "title": "ナユタ",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-gaou-feat",
+      "kind": "track",
+      "title": "ガオウ (feat. 星界)",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-hanabira",
+      "kind": "track",
+      "title": "ハナビラ",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-ni-ku",
+      "kind": "track",
+      "title": "仮面に咲く",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-no-niharisenbon",
+      "kind": "track",
+      "title": "言葉の中にはりせんぼん",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-noomofyiria",
+      "kind": "track",
+      "title": "ノーモフィリア",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-remonjuusu",
+      "kind": "track",
+      "title": "初恋レモンジュース",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-saikederikku",
+      "kind": "track",
+      "title": "サイケデリック感情戦",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-songs",
+      "kind": "track",
+      "title": "呼吸",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-songs-7c766717e9",
+      "kind": "track",
+      "title": "星追",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-songs-b40322396e",
+      "kind": "track",
+      "title": "真想",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-songs-c4555dba07",
+      "kind": "track",
+      "title": "空白",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-songs-f772a2c4a4",
+      "kind": "track",
+      "title": "雨霧",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-soudesuka",
+      "kind": "track",
+      "title": "soudesuka雪見",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sekai-towairaito-oobitto-feat-kisara",
+      "kind": "track",
+      "title": "トワイライト・オービット (feat. Kisara)",
+      "artist": "sekai",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "grp-sinseiki-originals-perfection",
+      "kind": "track",
+      "title": "パーフェクション",
+      "artist": "sinseiki",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-sooda-memoriizu",
+      "kind": "track",
+      "title": "メモリーズ",
+      "artist": "sooda",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-toa-feat-miku",
+      "kind": "track",
+      "title": "真白闇 (feat. 初音ミク)",
+      "artist": "toa",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-toa-pichikaatodoroppusu",
+      "kind": "track",
+      "title": "ピチカートドロップス",
+      "artist": "toa",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-toa-tsugihagisutakkaato-feat-miku",
+      "kind": "track",
+      "title": "ツギハギスタッカート (feat. 初音ミク)",
+      "artist": "toa",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-toa-yukisora-feat-miku",
+      "kind": "track",
+      "title": "ユキソラ (feat. 初音ミク)",
+      "artist": "toa",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-tokiwa-benden-nce",
+      "kind": "track",
+      "title": "Benden Önce",
+      "artist": "tokiwa",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-tokiwa-fallen",
+      "kind": "track",
+      "title": "fallen",
+      "artist": "tokiwa",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-tokiwa-meteusu",
+      "kind": "track",
+      "title": "メテウス",
+      "artist": "tokiwa",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-tokiwa-somunia",
+      "kind": "track",
+      "title": "ソムニア",
+      "artist": "tokiwa",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-valis-haatobiito",
+      "kind": "track",
+      "title": "共振ハートビート",
+      "artist": "valis",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "grp-yunagi-originals-about",
+      "kind": "track",
+      "title": "アバウト",
+      "artist": "yunagi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "grp-yunagi-originals-bakemono-de-isasete",
+      "kind": "track",
+      "title": "化け物でいさせて",
+      "artist": "yunagi",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-yunosuke-dreams-feat-jubyphonic",
+      "kind": "track",
+      "title": "Dreams (feat. JubyPhonic)",
+      "artist": "yunosuke",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-yunosuke-fashion-overdrive-from-denshattack",
+      "kind": "track",
+      "title": "Fashion Overdrive (From Denshattack!)",
+      "artist": "yunosuke",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-yunosuke-freak-out-hr-feat-no-popy-no-rose",
+      "kind": "track",
+      "title": "Freak Out Hr. (feat. 夢ノ結唱 POPY & 夢ノ結唱 ROSE)",
+      "artist": "yunosuke",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-yunosuke-loop-feat-wami",
+      "kind": "track",
+      "title": "Loop (feat. WaMi)",
+      "artist": "yunosuke",
+      "reason": "lookup-failed"
+    },
+    {
+      "id": "single-yunosuke-mr-dj-feat-miku",
+      "kind": "track",
+      "title": "Mr.DJ (feat. 初音ミク)",
+      "artist": "yunosuke",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-yunosuke-paiii-prediction",
+      "kind": "track",
+      "title": "PaIII.PREDICTION",
+      "artist": "yunosuke",
+      "reason": "edition-date-unconfirmed"
+    },
+    {
+      "id": "single-yunosuke-pathos-feat-hatsune-miku",
+      "kind": "track",
+      "title": "Pathos (feat. Hatsune Miku)",
+      "artist": "yunosuke",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-yunosuke-riryiaraato-from-raison-d-tre",
+      "kind": "track",
+      "title": "リリィアラート (from Raison d'être)",
+      "artist": "yunosuke",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-yunosuke-true-novel-feat-okaki",
+      "kind": "track",
+      "title": "True Novel (feat. おかき)",
+      "artist": "yunosuke",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-yunosuke-win-in-the-end",
+      "kind": "track",
+      "title": "win in the end",
+      "artist": "yunosuke",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "single-yunosuke-win-in-the-end-remix",
+      "kind": "track",
+      "title": "win in the end (前澤 Remix)",
+      "artist": "yunosuke",
+      "reason": "song-not-found"
+    },
+    {
+      "id": "yunosuke-paiii-sensation",
+      "kind": "track",
+      "title": "PaⅢ.SENSATION",
+      "artist": "yunosuke",
+      "reason": "edition-date-unconfirmed"
+    }
+  ]
+}

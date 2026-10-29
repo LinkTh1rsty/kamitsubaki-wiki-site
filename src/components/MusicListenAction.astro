@@ -1,0 +1,10 @@
+---
+import ContextAction from './ContextAction.astro';
+import {foliaListenUrl} from '../lib/musicListen.mjs';
+import {resolveLocaleCopy} from '../lib/i18n.mjs';
+const {data,locale,wikiPath}=Astro.props;
+const href=foliaListenUrl(data,{locale,wikiPath});
+const copy=resolveLocaleCopy({zh:{action:data.entityType==='work-release'?'在 Folia 打开专辑':'在 Folia 聆听',note:'独立标签打开 · 使用自己的 QQ 音乐账号，播放范围依账号权限而定。'},ja:{action:data.entityType==='work-release'?'Folia でアルバムを開く':'Folia で聴く',note:'新しいタブで開きます。ご自身の QQ Music アカウントで利用できます。'},en:{action:data.entityType==='work-release'?'Open album in Folia':'Listen in Folia',note:'Opens in a new tab. Listen with your own QQ Music account; availability depends on your account.'}},locale);
+---
+{href&&<aside class="music-listen"><ContextAction href={href} target="_blank" rel="noopener noreferrer" tone="primary">{copy.action}</ContextAction><p>{copy.note}</p></aside>}
+<style>.music-listen{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:0 0 28px;padding:18px 0;border-block:1px solid var(--reader-line)}.music-listen p{max-width:48ch;margin:0;color:var(--reader-muted);font:12px/1.8 var(--font-sans)}</style>

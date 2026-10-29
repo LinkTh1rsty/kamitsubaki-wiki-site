@@ -1,0 +1,54 @@
+---
+import Icon from './Icon.astro';
+import {resolveLocaleCopy} from '../lib/i18n.mjs';
+import {foliaOrigin} from '../lib/musicListen.mjs';
+import {requiredThumbnailUrl} from '../lib/imageAssets.mjs';
+const {locale='zh'}=Astro.props;
+const explorerBase=foliaOrigin();
+const entranceImages=["/images/albums/kaf/kansoku.jpg", "/images/albums/koko/prayer.jpg", "/images/albums/isekaijoucho/virtual-ties.jpg", "/images/albums/koko/arare-live.jpg", "/images/albums/koko/prayer-2.jpg", "/images/albums/fate-vwp-1400x1400.jpg", "/images/albums/ciel/再晴-1875196168.jpg", "/images/albums/ciel/STRAWBERRY-LIVE-1669426651.jpg", "/images/albums/ciel/空想少女-1718887889.jpg", "/images/albums/ciel/STRAWBERRY-LIVE-2-1708546500.jpg", "/images/albums/ciel/空想劇-1756276963.jpg", "/images/albums/rim/imagine.jpg"].map(src=>requiredThumbnailUrl(src,480));
+const copy=resolveLocaleCopy({
+ zh:{title:'音乐漫游',description:'换一种方式，听见神椿。',action:'开始聆听'},
+ ja:{title:'音楽散歩',description:'音から出会う、神椿の世界。',action:'聴きはじめる'},
+ en:{title:'Music roam',description:'Another way to hear KAMITSUBAKI.',action:'Start listening'},
+},locale);
+---
+{explorerBase&&<a id="music-roam" class="music-roam" href={`${explorerBase}/?lang=${locale}`} target="_blank" rel="noopener noreferrer" data-visual-roam data-astro-reload aria-labelledby={`music-roam-title-${locale}`}>
+ <div class="music-roam__art" aria-hidden="true">
+  {Array.from({length:6},(_,column)=><div class="music-roam__strip" style={`--roam-duration:${54+column*7}s;--roam-offset:${column%2?-70:-14}px`}>
+   <div class="music-roam__track">{[0,1].map(()=> <div class="music-roam__group">{[0,1].map(row=><img src={entranceImages[column*2+row]} alt="" width="480" height="480" loading="lazy" decoding="async" draggable="false"/>)}</div>)}</div>
+  </div>)}
+ </div>
+ <div class="music-roam__copy"><h2 id={`music-roam-title-${locale}`}>{copy.title}</h2><p>{copy.description}</p><span class="music-roam__action">{copy.action}<Icon name="arrow-up-right"/></span></div>
+</a>}
+<script>
+ import {initVisualRoamPortals} from '../scripts/visualRoamPortal.js';
+ initVisualRoamPortals();
+ document.addEventListener('astro:page-load',()=>{
+  initVisualRoamPortals();
+  if(location.hash==='#music-roam')document.querySelector('#music-roam')?.scrollIntoView({block:'start'});
+ });
+</script>
+<style>
+.music-roam{position:relative;isolation:isolate;display:flex;align-items:center;min-height:340px;margin-top:24px;overflow:hidden;border:1px solid #252728;border-radius:4px;background:#101214;color:#f6f5f1;text-decoration:none;contain:layout paint;scroll-margin-top:120px}
+.music-roam__art{position:absolute;z-index:-2;inset:-20px -4% -30px 23%;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px;transform:rotate(-5deg) scale(1.04);transform-origin:center;opacity:.86;pointer-events:none}
+.music-roam::after{content:'';position:absolute;z-index:-1;inset:0;background:linear-gradient(90deg,#101214 0%,rgb(16 18 20/.97) 19%,rgb(16 18 20/.82) 30%,rgb(16 18 20/.32) 49%,rgb(16 18 20/.06) 82%);pointer-events:none}
+.music-roam__strip{min-width:0;transform:translateY(var(--roam-offset))}
+.music-roam__track{animation:roam-stream var(--roam-duration) linear infinite;animation-play-state:paused}
+.music-roam__strip:nth-child(even) .music-roam__track{animation-direction:reverse}
+.music-roam[data-visible] .music-roam__track{animation-play-state:running}
+.music-roam__group{display:grid;gap:7px;padding-bottom:7px}
+.music-roam__group img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;border-radius:3px;background:#202226}
+.music-roam__group img:nth-child(2){aspect-ratio:1/1}
+.music-roam__copy{position:relative;padding:42px 48px;max-width:60%}
+.music-roam h2{margin:0;font:400 clamp(36px,4.3vw,60px)/1.3 var(--font-serif);letter-spacing:.015em;color:inherit;text-wrap:balance}
+.music-roam p{margin:14px 0 26px;font:18px/1.8 var(--font-serif);color:#dededb}
+.music-roam__action{display:inline-flex;align-items:center;justify-content:center;gap:20px;min-height:48px;padding:10px 22px;border:1px solid rgb(255 255 255/.7);border-radius:3px;font:14px/1.5 var(--font-sans);transition:background 180ms,border-color 180ms,transform 180ms}
+.music-roam__action :global(svg){width:18px;height:18px;transition:transform 180ms}
+.music-roam:hover .music-roam__action{background:rgb(255 255 255/.13);border-color:white}
+.music-roam:hover .music-roam__action :global(svg){transform:translate(2px,-2px)}
+.music-roam:focus-visible{outline:3px solid var(--theme-accent-color);outline-offset:5px}
+@keyframes roam-stream{to{transform:translateY(-50%)}}
+@media(max-width:850px){.music-roam__copy{padding:36px;max-width:74%}.music-roam h2{font-size:38px}.music-roam__art{left:15%}}
+@media(max-width:600px){.music-roam{min-height:480px;align-items:flex-start;margin-top:20px}.music-roam__copy{padding:28px 26px;max-width:100%;width:100%}.music-roam h2{font-size:40px}.music-roam p{font-size:16px;margin:10px 0 20px}.music-roam__action{min-height:46px;padding:10px 20px}.music-roam__art{inset:165px -25% -80px -8%;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;transform:rotate(-6deg)}.music-roam__strip:nth-child(n+5){display:none}.music-roam::after{background:linear-gradient(180deg,#101214 0%,rgb(16 18 20/.98) 20%,rgb(16 18 20/.84) 35%,rgb(16 18 20/.12) 59%,rgb(16 18 20/.08) 100%)}}
+@media(prefers-reduced-motion:reduce){.music-roam__track{animation:none!important}.music-roam__action,.music-roam__action :global(svg){transition:none}.music-roam:hover .music-roam__action :global(svg){transform:none}}
+</style>

@@ -6,6 +6,7 @@ checkNodeVersion();
 // Explicit release configuration: do not inherit a local fixture's service URLs.
 const api='https://api.kamitsubaki.wiki';
 const env={...process.env,PUBLIC_SITE_URL:'https://kamitsubaki.wiki',PUBLIC_EDITOR_ENABLED:'true',PUBLIC_EDITOR_LOCAL:'false',
+ PUBLIC_FOLIA_ORIGIN:'https://music.kamitsubaki.wiki',
  PUBLIC_EDITOR_API_BASE:api,PUBLIC_ARTICLE_API_URL:api,PUBLIC_GALLERY_API_URL:api,PUBLIC_COMMUNITY_API_URL:api,
  PUBLIC_AI_OBSERVER_API_BASE:api,PUBLIC_SUPPORT_API_BASE:api,PUBLIC_COLLABORATORS_API_BASE:api,
  PUBLIC_EVENTS_API_BASE:'https://kamitsubaki-events-api.apikatsuwiki.workers.dev'};
