@@ -230,3 +230,17 @@ test('resolving a conflict may intentionally retain the same prose, but a newer 
   server.entry.headSha = 'head-b'; server.entry.baseSha = 'sha-b'; server.entry.sync = 'synced';
   assert.equal((await client.load(resolved)).conflict, true, 'a new branch head cannot reuse an old approval even if main is unchanged');
 });
+
+test('explicit refresh reconciles upstream status and rejects a changed account', async()=>{
+ const calls:{path:string;method:string;body:any}[]=[];let owner='alice';
+ const request:typeof fetch=async(url,options)=>{
+  const path=String(url);if(path==='/api/editor/session')return Response.json({account:{id:owner,name:owner},mode:'local'});
+  calls.push({path,method:options?.method||'GET',body:JSON.parse(String(options?.body||'null'))});
+  return Response.json({id:'pr-1',status:'merged',sync:'synced'});
+ };
+ const service=new LocalReviewService(request,new MemoryStorage());
+ assert.equal((await service.refresh({id:'alice',name:'alice'},'pr-1')).status,'merged');
+ assert.deepEqual(calls,[{path:'/api/editor/submissions/pr-1/refresh',method:'POST',body:{accountId:'alice'}}]);
+ owner='bob';await assert.rejects(service.refresh({id:'alice',name:'alice'},'pr-1'),/账号已变化/);
+ assert.equal(calls.length,1);
+});
