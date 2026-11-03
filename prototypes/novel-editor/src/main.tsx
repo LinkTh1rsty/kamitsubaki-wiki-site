@@ -16,4 +16,4 @@ async function mount(){
  ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App /></React.StrictMode>);
  if(openingError){const {toast}=await import("sonner");setTimeout(()=>toast.error(openingError),200);}
 }
-void mount().catch(()=>{document.getElementById('root')!.textContent='编辑器暂时无法启动，请刷新重试。原有草稿不会被清除。';});
+void mount().catch(()=>{const navigation=document.querySelector<HTMLElement>('.novel-host-nav');if(navigation)navigation.hidden=false;document.getElementById('root')!.textContent='编辑器暂时无法启动，请刷新重试。原有草稿不会被清除。';});
