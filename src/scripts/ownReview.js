@@ -56,9 +56,8 @@ if(root){
   if(editorPath&&(q.kind!=='articles'||['rejected','withdrawn'].includes(q.status))){const needsChanges=['rejected','withdrawn','changes','closed','conflict'].includes(q.status);const a=el('a',needsChanges?c.draft:c.source);a.href=editorPath;}
   el('h3',c.discussion);
   for(const event of data.events){if(event.data.note)el('p',event.data.note);}
-  for(const thread of data.threads){
-   const card=el('article');for(const message of thread.messages){el('strong',message.actor_name||message.actor_id,card);el('p',message.body,card);}
-   const key=id+':'+thread.id,form=el('form',undefined,card),label=el('label',c.reply,form),input=el('textarea',undefined,label);
+  const replyForm=(threadId,card,labelText)=>{
+   const key=id+':'+(threadId||'new-discussion'),form=el('form',undefined,card),label=el('label',labelText,form),input=el('textarea',undefined,label);
    input.required=true;input.maxLength=10000;input.rows=3;input.value=drafts.get(key)||'';
    input.addEventListener('input',()=>{drafts.set(key,input.value);updateDirty();});
    const submit=el('button',c.send,form);submit.type='submit';
@@ -69,14 +68,19 @@ if(root){
     void perform(async()=>{
      submit.disabled=true;
      try{
-      await call('/'+encodeURIComponent(id)+'/messages',{threadId:thread.id,body,operationId:operation.id});
+      await call('/'+encodeURIComponent(id)+'/messages',{...(threadId?{threadId}:{}),body,operationId:operation.id});
       if(drafts.get(key)===body){drafts.delete(key);input.value='';}
       operations.delete(key);updateDirty();
       try{await open(id);return c.saved;}catch(error){return `${c.saved} · ${error.message||c.failure}`;}
      }finally{if(submit.isConnected)submit.disabled=false;}
     });
    });
+  };
+  for(const thread of data.threads){
+   const card=el('article');for(const message of thread.messages){el('strong',message.actor_name||message.actor_id,card);el('p',message.body,card);}
+   replyForm(thread.id,card,c.reply);
   }
+  replyForm(null,el('article'),c.newDiscussion);
   el('h3',c.versions);
   for(const revision of data.revisions){const details=el('details');el('summary',`${revision.round} · ${revision.snapshot.title} · ${revision.snapshot.sourceCreatedAt||c.unrecorded}`,details);const body=revision.snapshot.content;el('pre',body.body||body.content||JSON.stringify(body,null,2),details);}
  }

@@ -1,5 +1,5 @@
 import {attachmentFile} from '../../../../src/lib/editorAttachments.mjs';
-export type EditorHost = {locale:string; contentLocale:string; apiBase:string; mode:'entry'|'article'; transport:'local'|'production'; ownerId?:string; initialTarget?:string; admin?:boolean; initialDocument?:any; loginHref:string};
+export type EditorHost = {locale:string; contentLocale:string; apiBase:string; mode:'entry'|'article'; transport:'local'|'production'; ownerId?:string; accountName?:string; backHref?:string; backLabel?:string; initialTarget?:string; admin?:boolean; initialDocument?:any; loginHref:string};
 declare global {interface Window {__WIKI_EDITOR_HOST__?:EditorHost}}
 export const editorHost=()=>typeof window==='undefined'?undefined:window.__WIKI_EDITOR_HOST__;
 export const localEditorHost=()=>!editorHost()||editorHost()!.transport==='local';

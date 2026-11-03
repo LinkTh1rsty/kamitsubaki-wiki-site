@@ -26,7 +26,7 @@ function setup(handler=()=>null){
 test('sending one reply preserves drafts in other threads and typing during the request',async()=>{
  let resolveWrite;
  const q=setup(({path})=>path.endsWith('/messages')?new Promise(r=>{resolveWrite=r;}):null);
- try{q.start();await until(()=>q.w.document.querySelectorAll('textarea').length===2);q.type(0,'Sent reply');q.type(1,'Other unsent reply');q.send(0);await until(()=>resolveWrite);q.type(0,'Next unsent reply');resolveWrite(Response.json({data:{}}));await until(()=>!q.w.document.querySelector('[data-review-reload]').disabled);assert.deepEqual([...q.w.document.querySelectorAll('textarea')].map(n=>n.value),['Next unsent reply','Other unsent reply']);}finally{q.close();}
+ try{q.start();await until(()=>q.w.document.querySelectorAll('textarea').length===3);q.type(0,'Sent reply');q.type(1,'Other unsent reply');q.send(0);await until(()=>resolveWrite);q.type(0,'Next unsent reply');resolveWrite(Response.json({data:{}}));await until(()=>!q.w.document.querySelector('[data-review-reload]').disabled);assert.deepEqual([...q.w.document.querySelectorAll('textarea')].map(n=>n.value),['Next unsent reply','Other unsent reply','']);}finally{q.close();}
 });
 test('a late reply failure cannot overwrite the next account status or reveal previous drafts',async()=>{
  let resolveWrite;
@@ -43,5 +43,10 @@ test('GitHub review states have localized labels in every supported language',()
 test('successful send with failed readback keeps other drafts and reports that the reply was saved',async()=>{
  let sent=false;
  const q=setup(({path})=>{if(path.endsWith('/messages')){sent=true;return Response.json({data:{}});}if(sent&&!path.endsWith('/seen'))return new Response('<html>upstream unavailable</html>',{status:503,headers:{'Content-Type':'text/html'}});return null;});
- try{q.start();await until(()=>q.w.document.querySelectorAll('textarea').length===2);q.type(0,'Sent reply');q.type(1,'Retain other draft');q.send(0);await until(()=>!q.w.document.querySelector('[data-review-reload]').disabled);assert.deepEqual([...q.w.document.querySelectorAll('textarea')].map(n=>n.value),['','Retain other draft']);assert.ok(q.w.document.querySelector('[data-review-status]').textContent.includes(q.copy.saved));assert.ok(q.w.document.querySelector('[data-review-status]').textContent.includes(q.copy.failure));}finally{q.close();}
+ try{q.start();await until(()=>q.w.document.querySelectorAll('textarea').length===3);q.type(0,'Sent reply');q.type(1,'Retain other draft');q.send(0);await until(()=>!q.w.document.querySelector('[data-review-reload]').disabled);assert.deepEqual([...q.w.document.querySelectorAll('textarea')].map(n=>n.value),['','Retain other draft','']);assert.ok(q.w.document.querySelector('[data-review-status]').textContent.includes(q.copy.saved));assert.ok(q.w.document.querySelector('[data-review-status]').textContent.includes(q.copy.failure));}finally{q.close();}
+});
+
+test('an author can start a discussion when feedback contains only a review decision',async()=>{
+ const q=setup(({data})=>{data.threads=[];return null;});
+ try{q.start();await until(()=>q.w.document.querySelector('textarea'));assert.equal(q.w.document.querySelector('label').textContent,q.copy.newDiscussion);q.type(0,'Clarification for the reviewer');q.send(0);await until(()=>!q.w.document.querySelector('[data-review-reload]').disabled);const write=q.calls.find(c=>c.path.endsWith('/messages'));assert.equal(write.body.body,'Clarification for the reviewer');assert.equal(write.body.threadId,undefined);assert.ok(write.body.operationId);}finally{q.close();}
 });

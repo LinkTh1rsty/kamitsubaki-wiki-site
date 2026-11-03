@@ -2,6 +2,16 @@ import {editorHost} from './editor-host';
 import {editorCopy} from '../../../../src/lib/visualEditorCopy.mjs';
 import {convertChineseText} from '../../../../src/lib/traditionalChinese.mjs';
 const extra:Record<string,[string,string]>={
+ '· 草稿版本':['· Draft version ','・下書き版 '],'草稿版本':['Draft version','下書き版'],
+ '草稿版本记录保存次数，与审核轮次、当前公开版本分别计数。':['Draft versions count saves, separately from review rounds and published versions.','下書きの版は保存回数を表し、審査回数や公開版とは別に数えます。'],
+ '审核与上线':['Review and publication','審査と公開'],
+ '提交后会创建 GitHub PR。审核通过、合并和网站上线是不同阶段，请以最新状态为准。':['Submitting creates a GitHub PR. Approval, merge and website publication are separate stages; check the latest status.','提出すると GitHub PR を作成します。承認・マージ・サイト公開は別の段階です。最新の状態を確認してください。'],
+ '保存与投稿':['Saving and submitting','保存と提出'],'修改与重投':['Revise and resubmit','修正と再提出'],'撤回与删除':['Withdrawal and deletion','撤回と削除'],
+ '本地保存只在当前浏览器。保存账号草稿后可继续修改；提交审核后才会进入审核队列。':['Local saves stay in this browser. Account drafts remain editable; only submitted drafts enter review.','ローカル保存はこのブラウザー内のみです。アカウントの下書きは編集でき、審査へ提出した後に審査対象になります。'],
+ '审核中的稿件需先撤回；被退回或撤回后，可用当前正文创建修改稿。提交新稿后，原审核意见和旧版本仍会保留。':['Withdraw a pending submission before revising. Returned or withdrawn submissions can become new drafts; previous feedback and revisions are preserved.','審査中の稿件は先に撤回してください。差し戻し・撤回後は現在の本文から変更稿を作れます。以前の意見と版は保持されます。'],
+ '撤回会停止审核并保留正文和意见；删除会移除记录。已通过或公开的内容不能作为普通投稿删除。':['Withdrawal stops review and keeps the text and feedback. Deletion removes the record. Approved or published content cannot be deleted as an ordinary submission.','撤回すると審査が停止し、本文と意見は残ります。削除は記録を除去します。承認・公開済みの内容は通常の投稿として削除できません。'],
+
+ '返回 Wiki':['Back to Wiki','Wikiに戻る'],'投稿记录':['Submission history','提出履歴'],'我的账号':['My account','自分のアカウント'],'我的空间':['My space','マイスペース'],'登录 / 注册':['Sign in / Create account','ログイン / 登録'],'恢复旧版本地草稿':['Restore older drafts','旧形式の下書きを復元'],'正在处理…':['Working…','処理中…'],
  '已提交版本保持只读。创建修改稿会保留当前本地修改和原审核记录。':['Submitted versions stay read-only. A new draft preserves your local changes and the original review history.','提出済みの版は読み取り専用です。変更稿を作成すると、ローカルの変更と元の審査履歴が保持されます。'],
  '用当前正文创建修改稿':['Create a revision from this text','現在の本文から変更稿を作成'],
  '查看审查记录':['Open review record','審査記録を開く'],

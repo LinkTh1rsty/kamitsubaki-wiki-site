@@ -15,7 +15,7 @@ const adminReturnHref=adminURL('/content',{type:'articles'});
 ---
 <BaseLayout reading lang={locale} title={copy.title} metadata={{title:copy.title,canonicalPath:`/${locale}/${articleMode?'articles/submit':'contribute/editor'}/`,noindex:true}}>
  <main class="novel-host ve-workbench" data-novel-workbench data-locale={locale} data-editor-enabled={String(editorEnabled)} data-editor-local={String(localEditor)} data-editor-api={config.apiBase} data-article-api={articleMode?config.apiBase:undefined}>
-  <nav class="novel-host-nav"><a data-editor-back href={`/${locale}/`}>{copy.back}</a><div class="novel-host-actions"><WorkspaceButton type="button" data-legacy-recovery hidden>{copy.restore}</WorkspaceButton><WorkspaceButton tone="quiet" href={`/${locale}/account/creator/`}>{copy.history}</WorkspaceButton><a data-editor-login href={config.loginHref}>{copy.login}</a></div></nav>
+  <nav class="novel-host-nav" hidden><a data-editor-back href={`/${locale}/`}>{copy.back}</a><div class="novel-host-actions"><WorkspaceButton type="button" data-legacy-recovery hidden>{copy.restore}</WorkspaceButton><WorkspaceButton tone="quiet" href={`/${locale}/account/creator/`}>{copy.history}</WorkspaceButton><a data-editor-login href={config.loginHref}>{copy.login}</a></div></nav>
   <div id="root" role="region" aria-label={copy.title}><p role="status"><LoadingStatus label={copy.loading}/></p></div>
  <dialog data-legacy-dialog aria-labelledby="legacy-title"><h2 id="legacy-title">{copy.restore}</h2><p>{copy.recovery}</p><div data-legacy-list></div><WorkspaceButton type="button" data-legacy-close>{copy.close}</WorkspaceButton></dialog>
  </main>
@@ -23,6 +23,7 @@ const adminReturnHref=adminURL('/content',{type:'articles'});
  <script is:inline define:vars={{config,adminReturnHref}}>
   config.initialTarget=new URLSearchParams(location.search).get('target')||undefined;
   config.admin=config.mode==='article'&&new URLSearchParams(location.search).get('admin')==='1';
+  config.backHref=config.admin?adminReturnHref:`/${config.locale}/`;config.backLabel=config.admin?(config.locale==='en'?'Content management':config.locale==='ja'?'コンテンツ管理':'内容管理'):(config.locale==='en'?'Back to Wiki':config.locale==='ja'?'Wikiに戻る':'返回 Wiki');
   config.loginHref+='&returnTo='+encodeURIComponent(location.href);
   if(config.admin){document.querySelector('[data-editor-back]').href=adminReturnHref;document.querySelector('[data-editor-back]').textContent=config.locale==='en'?'Content management':config.locale==='ja'?'コンテンツ管理':'内容管理';}
   window.__WIKI_EDITOR_HOST__=config;
@@ -33,7 +34,10 @@ const adminReturnHref=adminURL('/content',{type:'articles'});
 <style is:global>
  .novel-host-nav{height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:var(--theme-panel-solid);border-bottom:1px solid var(--ui-line);font:14px var(--font-sans)}
  .novel-host-actions{display:flex;align-items:center;gap:20px;min-width:0}.novel-host-nav button{min-height:44px}.novel-host-nav a{display:inline-flex;align-items:center;min-height:44px;color:var(--theme-fg)}
- .novel-host #root .wiki-workbench{height:calc(100dvh - 52px)}
+ .novel-host #root .wiki-workbench{height:100dvh}
+ .novel-host-nav[hidden]{display:none}
+ .novel-host[data-ready]>.novel-host-nav{display:none}
+ .novel-host[data-ready] #root .wiki-workbench{height:100dvh}
  body:has(.novel-host) :is(.support-float,.community-float,.tools-dock,.ai-chat__launcher){display:none}
 </style>
 

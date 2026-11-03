@@ -1,0 +1,38 @@
+---
+interface Props {label:string;text:string;}
+const {label,text}=Astro.props;
+const id='help-'+crypto.randomUUID();
+---
+<span class="wiki-help"><button type="button" class="wiki-help-trigger" aria-label={`${label} — ?`} aria-expanded="false" popovertarget={id} title={text}>?</button><span id={id} class="wiki-help-content" popover="auto" role="note"><strong>{label}</strong><span>{text}</span></span></span>
+<script>
+ document.querySelectorAll<HTMLElement>('.wiki-help').forEach(host=>{
+  const button=host.querySelector<HTMLButtonElement>('button')!,content=host.querySelector<HTMLElement>('[popover]')!;
+  let listeners:AbortController|undefined;
+  const position=()=>{
+   const rect=button.getBoundingClientRect(),width=Math.min(320,window.innerWidth-32);
+   content.style.width=width+'px';
+   content.style.maxHeight=Math.max(80,window.innerHeight-32)+'px';
+   content.style.overflowY='auto';
+   content.style.left=Math.max(16,Math.min(rect.left,window.innerWidth-width-16))+'px';
+   const height=content.getBoundingClientRect().height;
+   const below=rect.bottom+8;
+   content.style.top=Math.max(16,Math.min(below+height<=window.innerHeight-16?below:rect.top-height-8,window.innerHeight-height-16))+'px';
+  };
+  content.addEventListener('beforetoggle',(event)=>{
+   const open=(event as ToggleEvent).newState==='open';
+   button.setAttribute('aria-expanded',String(open));
+   if(open)position();
+  });
+  content.addEventListener('toggle',()=>{
+   listeners?.abort();
+   if(!content.matches(':popover-open'))return;
+   position();
+   listeners=new AbortController();
+   window.addEventListener('resize',position,{signal:listeners.signal});
+   window.addEventListener('scroll',position,{signal:listeners.signal,capture:true,passive:true});
+  });
+ });
+</script>
+<style>
+.wiki-help{display:inline-flex;vertical-align:middle;margin-inline-start:6px;font:14px var(--font-sans)}.wiki-help-trigger{display:inline-grid;place-items:center;width:28px;height:28px;padding:0;border:1px solid rgb(var(--theme-fg-rgb)/.25);border-radius:50%;background:transparent;color:inherit;cursor:pointer;font:600 14px var(--font-sans)}.wiki-help-trigger:focus-visible{outline:2px solid currentColor;outline-offset:3px}.wiki-help-content{position:fixed;inset:auto;margin:0;box-sizing:border-box;max-width:calc(100vw - 32px);padding:14px 16px;border:1px solid rgb(var(--theme-fg-rgb)/.2);border-radius:8px;background:var(--theme-panel-solid,#fff);color:var(--theme-fg,#16191b);box-shadow:0 8px 30px #0002;font:14px/1.7 var(--font-sans);overflow-wrap:anywhere}.wiki-help-content strong,.wiki-help-content span{display:block}.wiki-help-content strong{margin-bottom:6px}@media(pointer:coarse){.wiki-help-trigger{width:36px;height:36px}}
+</style>
