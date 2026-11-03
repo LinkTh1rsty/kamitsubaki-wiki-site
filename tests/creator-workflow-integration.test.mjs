@@ -283,3 +283,8 @@ test('pending deletion polls until completion without a manual refresh',async()=
   assert.ok(reads>=2);assert.equal(q.calls.filter(call=>call.method==='DELETE').length,0);
  }finally{await q.close();}
 });
+
+test('pending deletion detail never offers synchronization retry',async()=>{
+ const q=await setup(async({path,invoke})=>path.startsWith('/api/account/contributions?')?Response.json({items:[{id:'deleting',type:'entry',kind:'entry',title:'Deleting',state:'review',phase:'deleting'}],nextOffset:null}):path.startsWith('/api/editor/submissions/deleting')?Response.json({id:'deleting',title:'Deleting',status:'open',sync:'pending',deleteAfterClose:true,version:1}):invoke());
+ try{q.w.history.replaceState(null,'','?record=deleting&recordType=entry');q.start();await until(()=>q.w.document.querySelector('#creator-detail-title')?.textContent==='Deleting');assert.ok(!q.w.document.querySelector('[data-detail-footer]').textContent.includes(q.copy.retrySync));}finally{await q.close();}
+});
