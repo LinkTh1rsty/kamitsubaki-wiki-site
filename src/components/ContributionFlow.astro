@@ -1,5 +1,6 @@
 ---
 import {contributionFlowCopy} from '../lib/contributionFlowCopy.mjs';
+import HelpTip from './HelpTip.astro';
 import ContextAction from './ContextAction.astro';
 interface Props {locale:string;kind?:'entry'|'image'|'article'|'timeline'|'activity';}
 const {locale,kind}=Astro.props,c=contributionFlowCopy(locale);
@@ -7,7 +8,7 @@ const kinds=kind?[kind]:['entry','image','article','timeline','activity'] as con
 ---
 <details class="contribution-flow" open={!kind}>
  <summary>{kind?`${c[kind].title} · ${c.title}`:c.title}</summary>
- <div class="contribution-flow-grid">{kinds.map(key=><section><h3>{c[key].title}</h3><p class="contribution-flow-route">{c[key].route}</p><p>{c[key].note}</p></section>)}</div>
+ <div class="contribution-flow-grid">{kinds.map(key=><section><h3>{c[key].title}<HelpTip label={c[key].title} text={c[key].note}/></h3><p class="contribution-flow-route">{c[key].route}</p></section>)}</div>
  <ContextAction href={`/${locale}/account/creator/`} tone="quiet">{c.track}</ContextAction>
 </details>
 <style>

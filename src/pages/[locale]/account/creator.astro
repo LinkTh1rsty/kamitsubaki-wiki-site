@@ -1,4 +1,6 @@
 ---
+import HelpTip from '../../../components/HelpTip.astro';
+import {contributionFlowCopy} from '../../../lib/contributionFlowCopy.mjs';
 import LoadingStatus from '../../../components/LoadingStatus.astro';
 import {reviewCopy} from '../../../lib/reviewCopy.mjs';
 import WorkspaceButton from '../../../components/WorkspaceButton.astro';
@@ -31,13 +33,13 @@ const create=[['entry',c.newEntry,`/${locale}/contribute/editor/`],['article',c.
     </section>
     <div class="creator-start-grid">
       <section class="creator-section creator-todo" aria-labelledby="creator-todo-title" hidden><div class="creator-heading"><div><span>01 / ACTION</span><h2 id="creator-todo-title">{c.todo}</h2></div><span data-todo-count></span></div><div data-creator-todo><p><LoadingStatus label={c.loading}/></p></div></section>
-      <section class="creator-section creator-local" aria-labelledby="creator-local-title" hidden><div class="creator-heading"><div><span>02 / DRAFTS</span><h2 id="creator-local-title">{c.local}</h2></div></div><p class="creator-section-intro">{c.localNote}</p><div data-creator-drafts></div></section>
+      <section class="creator-section creator-local" aria-labelledby="creator-local-title" hidden><div class="creator-heading"><div><span>02 / DRAFTS</span><h2 id="creator-local-title">{c.local}<HelpTip label={c.local} text={c.localNote}/></h2></div></div><div data-creator-drafts></div></section>
     </div>
     <div class="creator-secondary-grid">
       <section class="creator-section creator-notifications" aria-labelledby="creator-notifications-title" hidden><div class="creator-heading"><div><span>03 / UPDATES</span><h2 id="creator-notifications-title">{c.notifications}</h2></div><span data-notification-count></span></div><div data-creator-notifications><p><LoadingStatus label={c.loading}/></p></div></section>
-      <section class="creator-section creator-overview" aria-labelledby="creator-dashboard-title" hidden><div class="creator-heading"><div><span>04 / OVERVIEW</span><h2 id="creator-dashboard-title">{c.dashboard}</h2></div></div><div class="creator-metrics">{(['attention','draft','review','published'] as const).map(key=><WorkspaceButton type="button" data-metric={key}><span>{c[key]}</span><strong data-metric-count={key}>—</strong></WorkspaceButton>)}</div></section>
+      <section class="creator-section creator-overview" aria-labelledby="creator-dashboard-title" hidden><div class="creator-heading"><div><span>04 / OVERVIEW</span><h2 id="creator-dashboard-title">{c.dashboard}<HelpTip label={c.review} text={contributionFlowCopy(locale).entry.note}/></h2></div></div><div class="creator-metrics">{(['attention','draft','review','published'] as const).map(key=><WorkspaceButton type="button" data-metric={key}><span>{c[key]}</span><strong data-metric-count={key}>—</strong></WorkspaceButton>)}</div></section>
     </div>
-    <section class="creator-section creator-records-section" aria-labelledby="creator-records-title" hidden><div class="creator-heading"><div><span>05 / ARCHIVE</span><h2 id="creator-records-title">{c.records}</h2></div></div>
+    <section class="creator-section creator-records-section" aria-labelledby="creator-records-title" hidden><div class="creator-heading"><div><span>05 / ARCHIVE</span><h2 id="creator-records-title">{c.records}<HelpTip label={c.withdraw} text={c.withdrawHelp}/><HelpTip label={c.deleteSubmission} text={c.deleteHelp}/></h2></div></div>
       <WorkspaceFilters collapsible data-creator-filters class="creator-filters" role="search"><label>{c.search}<WorkspaceControl name="q" type="search" autocomplete="off"/></label><label>{c.type}<WorkspaceControl as="select" name="type"><option value="">{c.all}</option>{(['entry','article','gallery','timeline','community'] as const).map(key=><option value={key}>{c[key]}</option>)}</WorkspaceControl></label><label>{c.state}<WorkspaceControl as="select" name="state"><option value="">{c.all}</option>{(['attention','review','published','draft','withdrawn'] as const).map(key=><option value={key}>{c[key]}</option>)}</WorkspaceControl></label><WorkspaceButton type="button" data-creator-refresh>{c.retry}</WorkspaceButton></WorkspaceFilters>
       <div class="creator-record-list" data-creator-rows></div>
       <div class="creator-pagination"><span data-records-status role="status"></span><div><WorkspaceButton type="button" data-page-previous>{c.previous}</WorkspaceButton><WorkspaceButton type="button" data-page-next>{c.next}</WorkspaceButton></div></div>
