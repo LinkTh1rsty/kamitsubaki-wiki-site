@@ -105,6 +105,12 @@ function outputMetadata(draft){
  if(meta.duration==='')delete meta.duration;
  return meta;
 }
+function hasTimestamp(value, seen = new WeakSet()) {
+  if (value instanceof Date) return true;
+  if (value === null || typeof value !== 'object' || seen.has(value)) return false;
+  seen.add(value);
+  return Object.values(value).some(child => hasTimestamp(child, seen));
+}
 export function exportMarkdown(draft) {
   const doc = parseDocument(draft.originalMeta || '{}', {compat:'yaml-1.1'});
   if (doc.errors.length) throw new Error('Invalid frontmatter');
@@ -119,7 +125,7 @@ export function exportMarkdown(draft) {
   }
   // Astro uses YAML timestamp/number resolution; normalize ambiguous imported scalars too.
   const legacy = parseDocument(draft.originalMeta || '{}', {customTags:['timestamp']});
-  const compatible = !legacy.errors.length && JSON.stringify(legacy.toJS()) === JSON.stringify(old);
+  const compatible = !legacy.errors.length && !hasTimestamp(legacy.toJS({maxAliasCount:100}));
   const metaSame = compatible && JSON.stringify(old) === JSON.stringify(outputMeta);
   if (draft.originalDocument && metaSame && JSON.stringify(draft.blocks) === draft.originalBlocks) return draft.originalDocument;
   let body = draft.blocks.map(b => blockMarkdown(b, draft.meta.locale)).join('\n\n');

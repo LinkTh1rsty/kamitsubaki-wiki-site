@@ -22,3 +22,10 @@ test('unchanged imported drafts repair ambiguous dates without changing body',()
  assert.equal(read(result).lifecycle.startedAt,'2021-11-18');
  assert.ok(result.endsWith('Keep this body.\n'));
 });
+
+test('canonical ISO timestamps in unchanged imported aliases retain string types',()=>{
+ const draft=newDraft('people','zh');draft.meta.name='Sample';draft.meta.romanizedName='Sample';
+ const source=exportMarkdown(draft).replace('roles: []','roles: []\naliases: [2021-11-18T00:00:00.000Z]');
+ const output=exportMarkdown(importMarkdown(source,'people'));
+ assert.equal(read(output).aliases[0],'2021-11-18T00:00:00.000Z');
+});
