@@ -1,3 +1,4 @@
+import {normalizeYamlDates} from './yaml-compat';
 import { generateJSON, type Editor, type JSONContent } from '@tiptap/core';
 import type { Node as ProseMirrorNode } from '@tiptap/pm/model';
 import { closeHistory, isHistoryTransaction } from '@tiptap/pm/history';
@@ -156,7 +157,7 @@ export function exportWikiDocument(editor: Editor, context: WikiDocumentContext,
   const metadataSame = JSON.stringify(metadata) === JSON.stringify(context.metadata);
   const documentSame = snapshot === context.snapshot;
   // A no-op save is byte-for-byte, including YAML comments, BOM and line endings.
-  if (metadataSame && documentSame) return context.source;
+  if (metadataSame && documentSame) return normalizeYamlDates(context.source);
   const current: { id: string | null; nodes: ProseMirrorNode[] }[] = [];
   editor.state.doc.forEach(node => {
     const id = node.attrs.wikiSourceId || null;
@@ -193,7 +194,7 @@ export function exportWikiDocument(editor: Editor, context: WikiDocumentContext,
     frontmatter = document.toString({ lineWidth: 0 }).trimEnd();
   }
   frontmatter = frontmatter.replaceAll('\r\n', '\n').replaceAll('\n', context.newline);
-  return `${context.bom}---${context.newline}${frontmatter}${context.newline}---${context.newline}${body}`;
+  return normalizeYamlDates(`${context.bom}---${context.newline}${frontmatter}${context.newline}---${context.newline}${body}`);
 }
 
 export function createDomainBlock(type: string): WikiBlockData {

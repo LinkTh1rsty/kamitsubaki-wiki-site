@@ -1,3 +1,4 @@
+import {normalizeYamlDates} from './yaml-compat';
 import { diff3Merge } from 'node-diff3';
 import { parseDocument } from 'yaml';
 export type MergeChoice = 'mine' | 'current';
@@ -36,5 +37,5 @@ export function resolveReviewMerge(plan: ReviewMergePlan, choices: Record<string
   for (const [key, value] of Object.entries(next)) if (JSON.stringify(value) !== JSON.stringify(latest.metadata[key])) { latest.document.set(key, value); changed = true; }
   if (Object.keys(next).length !== Object.keys(latest.metadata).length) changed = true;
   const frontmatter = changed ? `${latest.bom}---${latest.newline}${latest.document.toString({ lineWidth: 0 }).trimEnd().replaceAll('\n', latest.newline)}${latest.newline}---${latest.newline}` : latest.match[0];
-  return frontmatter + plan.body.flatMap(chosen).join(latest.newline);
+  return normalizeYamlDates(frontmatter + plan.body.flatMap(chosen).join(latest.newline));
 }
