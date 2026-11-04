@@ -1,0 +1,4 @@
+/** The independent explorer owns only this namespace; existing gallery URLs stay intact. */
+export const VISUAL_EXPLORER_BASE='/visuals/';
+const previewIds=["curated-20261011-35a694c6e0f40502cdaf1356114c90ee", "curation-20261025r-n07568-ea0bf87cd18c133f", "curated-20261011-5ec37b87d13202677edddf035e7c1f2c", "curation-20261025r-c0648-9e4744b42ca5371a", "curation-20261025r-n07452-b9ba28f7cb1e6c92", "curated-20261011-e3edb31b8583ddd91b8cc31acbb1d724", "curated-20261011-c5cc0ca2fc2760641d0b299d840d5dca", "curation-20261025r-n07409-aad00333fd5fe2c0", "curation-20261025r-portrait-rim-4a33c2e79d558441", "site-asset-79803fa0d121f923a0b2d8c65e55877734be0d4bf3ae2a3f9f012fa6ae", "site-asset-deb154f81339264fb01ed70b8c689b926892a9fd9d261ca74ee9b7c460", "site-asset-d4ad06e7a216701d683d3240afc819a8e008988efa15b2ccbb78c026e6"];
+export const visualRoamImages=previewIds.map(id=>`${VISUAL_EXPLORER_BASE}api/media/${id}/thumbnail`);

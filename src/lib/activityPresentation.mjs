@@ -21,9 +21,25 @@ export function scheduleText(item,locale,copy,{local=false,compact=false}={}){
   return format(s.startAt)+(s.endAt?' – '+format(s.endAt):compact?'':' · '+copy.endUnknown)+' · '+(local?copy.localTime:s.timeZone);
  }catch{return copy.undated;}
 }
+export function formatActivityTimeForDay(item,dayKey,locale,viewerTimeZone=Intl.DateTimeFormat().resolvedOptions().timeZone,copy={allDay:'全天',endUnknown:'结束时间未公布',localTime:'本地'}){
+ const s=item.schedule;if(!s||s.kind==='undated')return scheduleText(item,locale,copy);
+ const day=(at,zone)=>new Intl.DateTimeFormat('en-CA',{timeZone:zone,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(at));
+ if(s.kind==='allDay')return s.startDate===dayKey&&(s.endDate||s.startDate)===dayKey?copy.allDay:scheduleText(item,locale,copy);
+ if(day(s.startAt,s.timeZone)!==dayKey||s.endAt&&day(s.endAt,s.timeZone)!==dayKey){
+  const original=scheduleText(item,locale,copy);
+  if(viewerTimeZone===s.timeZone)return original;
+  const localDateTime=at=>new Intl.DateTimeFormat(locale,{timeZone:viewerTimeZone,dateStyle:'medium',timeStyle:'short',hourCycle:'h23'}).format(new Date(at));
+  return original+'（'+copy.localTime+' '+localDateTime(s.startAt)+(s.endAt?' – '+localDateTime(s.endAt):' · '+copy.endUnknown)+' · '+viewerTimeZone+'）';
+ }
+ const time=(at,zone)=>new Intl.DateTimeFormat(locale,{timeZone:zone,hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(new Date(at));
+ const range=zone=>time(s.startAt,zone)+(s.endAt?' – '+time(s.endAt,zone):' · '+copy.endUnknown);
+ const local=viewerTimeZone===s.timeZone?'': '（'+copy.localTime+' '+(day(s.startAt,viewerTimeZone)!==dayKey?day(s.startAt,viewerTimeZone)+' ':'')+range(viewerTimeZone)+(s.endAt&&day(s.endAt,viewerTimeZone)!==day(s.startAt,viewerTimeZone)?' '+day(s.endAt,viewerTimeZone):'')+' · '+viewerTimeZone+'）';
+ return range(s.timeZone)+' · '+s.timeZone+local;
+}
+
 export function participationLinks(item,now=Date.now()){
  const links=(item.links||[]).filter(l=>safeHref(l.url)&&(!l.startsAt||Date.parse(l.startsAt)<=now)&&(!l.endsAt||Date.parse(l.endsAt)>now));
- const primary=['cancelled','postponed'].includes(item.eventStatus||item.status)?null:links.find(l=>l.primary)||links.find(l=>['registration','submission','live','replay'].includes(l.role));
+ const primary=['cancelled','postponed'].includes(item.eventStatus||item.status)?null:links.find(l=>l.primary)||links.find(l=>['registration','submission','live','replay'].includes(l.role))||links[0];
  return {links,primary};
 }
 
@@ -41,7 +57,7 @@ export function activityDetailMarkup(item,{locale,copy:c,bodyHtml='',factsHtml='
  const participation=section(bodyHtml,/参与|參與|participation|参加/i,'activity-participation');bodyHtml=participation.html;
  const state=item.eventStatus&&item.eventStatus!=='scheduled'?item.eventStatus:item.status;
  const status=['ongoing','ended','cancelled','postponed'].includes(state)?c[state]:'',category=c[item.category]||'';
- const nav=[...(bodyHtml.trim()?[['introduction',c.introduction]]:[]),...(participation.found||primary||secondary.length?[['participation',c.participate]]:[]),['schedule',c.timeline],...(note.found?[['notes',c.notes]]:[])];
+ const nav=[...(bodyHtml.trim()?[['introduction',c.introduction]]:[]),...(participation.found||primary?[['participation',c.participate]]:[]),['schedule',c.timeline],...(note.found?[['notes',c.notes]]:[])];
  const fact=(label,value)=>value?`<div><dt>${escape(label)}</dt><dd>${value}</dd></div>`:'';
  const deadlines=(item.deadlines||[]).map(d=>fact(text(d.label)||c[d.type]||c.supportDeadline,escape(scheduleText({schedule:d.schedule},locale,c))+(d.schedule?.kind==='timed'?`<small class="activity-local" data-community-local-time="${escape(d.schedule.startAt)}"></small>`:''))).join('');
  // These are the same header, reading frame, infobox and action primitives used
@@ -54,10 +70,11 @@ export function activityDetailMarkup(item,{locale,copy:c,bodyHtml='',factsHtml='
  <nav class="entity-section-nav activity-document-nav" aria-label="${escape(c.title)}">${nav.map(([id,label])=>`<a href="#activity-${id}">${escape(label)}</a>`).join('')}</nav></div>
  <div data-reader data-reader-variant="entry" class="reader-layout reader-frame mx-auto px-4 sm:px-6 grid items-start gap-8">
  <div class="reader-body">
- ${posterHref?`<figure class="activity-detail-art"><a href="${posterHref}" class="activity-poster-open" target="_blank" rel="noopener noreferrer" aria-label="${escape(c.viewPoster)}"><span class="activity-poster-frame"><img class="community-detail-poster" ${galleryPreviewMarkup(poster,{api,sizes:'(max-width:767px) calc(100vw - 32px), 720px'})} alt="${v(item.title)}" fetchpriority="high"></span><span class="activity-poster-caption">${escape(c.viewPoster)}${iconMarkup('arrow-up-right')}</span></a></figure>`:''}
+
+
  <article id="activity-introduction" class="community-detail-body wiki-reader wiki-prose" lang="${escape(locale)}">${bodyHtml}</article>
  ${creditHtml?`<details class="activity-detail-credits"><summary>${escape(c.materialCredits)}</summary>${creditHtml}</details>`:''}</div>
- <aside class="reader-sidebar"><section id="activity-schedule" class="wiki-infobox entity-info activity-info" aria-label="${escape(c.activityInfo)}"><header><small>${escape(c.communityTab)}</small><h2>${escape(c.activityInfo)}</h2></header><div class="entity-info-body">
+ <aside class="reader-sidebar"><section id="activity-schedule" class="wiki-infobox entity-info activity-info" aria-label="${escape(c.activityInfo)}"><header><h2>${escape(c.activityInfo)}</h2></header>${posterHref?`<figure class="activity-detail-art"><a href="${posterHref}" class="activity-poster-open" target="_blank" rel="noopener noreferrer" aria-label="${escape(c.viewPoster)}"><span class="activity-poster-frame"><img class="community-detail-poster" ${galleryPreviewMarkup(poster,{api,sizes:'(max-width:767px) 320px, 360px'})} alt="${v(item.title)}" fetchpriority="high"></span><span class="activity-poster-caption">${escape(c.viewPoster)}${iconMarkup('arrow-up-right')}</span></a></figure>`:''}<div class="entity-info-body">
  <dl class="entity-info-facts activity-detail-essentials">${fact(c.timeline,escape(scheduleText(item,locale,c)))}${item.schedule?.kind==='timed'?fact(c.localTime,`<span data-community-local-time="${escape(item.schedule.startAt)}"></span>`):''}${fact(c.locationShort,[c[item.mode],place].filter(Boolean).map(v).join(' · ')||escape(c.pending))}${deadlines}</dl>
  ${factsHtml||secondary.length||item.seriesId?`<details class="entity-info-more"><summary>${escape(c.moreInfo)}</summary><div class="entity-info-more-body">${factsHtml}${secondary.length||item.seriesId?`<div class="activity-detail-links">${secondary.map(l=>external(l)).join('')}${item.seriesId?`<a href="/${locale}/community/series/${escape(item.seriesId)}/">${escape(c.series)}</a>`:''}</div>`:''}</div></details>`:''}
  </div></section></aside></div>`;

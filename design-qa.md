@@ -59,3 +59,24 @@
 - [x] 相关行为回归和类型检查；完整构建最终日志由任务交付记录固定
 
 final result: passed
+
+
+## 活动中心第一方案验收（2026-10-25）
+
+主规范：[DESIGN.md](DESIGN.md)。用户明确选择第一方案后实施；先前活动中心视觉版本已被替代。本节不改变上文 Dashboard 验收结论。
+
+- 原稿：[第一方案](docs/design/activity-center/selected-option-1.png)。原始1536×1024方案板，标签中的视口尺寸是设计目标，不是各面板实际像素尺寸。
+- 实际页面：[桌面1440×1024](docs/design/activity-center/desktop.png)、[手机390×844](docs/design/activity-center/mobile.png)、[手机筛选](docs/design/activity-center/mobile-filters.png)。截图来自实际浏览器内同源固定尺寸 iframe，无截图重绘或拉伸。
+- [原稿与实图同画面对照](docs/design/activity-center/comparison.png)按比例缩放完整画面。保留阅读字体、细线、双栏企划、月历/当日详情及手机图片左置；未机械复制示意图的错误日期格、海报裁切或未定日期的导出按钮。复用当前主线页头、登录状态和原活动文本。
+- [桌面详情](docs/design/activity-center/detail-desktop.png)、[手机详情](docs/design/activity-center/detail-mobile.png)使用真实上海ONLY原海报，正文与资料栏按阅读器规则排列，原图放大/关闭已验证。
+- [作者回执](docs/design/activity-center/author-receipt.png)、[管理排期](docs/design/activity-center/admin-schedule.png)使用本机合成申请；通过审核与投放时间分开显示。下架活动显示下架，不再误报生效。
+
+已修正：移动端控件堆叠、重复详情入口、主参与链接在面板卡片的嵌套位置、搜索图标遮挡、加载时默认日期过早锁定、单日“全天”误导、后台状态矛盾与作者起止日期缺少标签。真实浏览器复验默认日期为4月4日，日历周次正确；筛选展开、未来30天、恢复月历及Esc关闭可用。
+
+视觉自检结果：passed（本机1440/390视口；最终审美验收仍交用户）。未验证生产登录、生产投放或通知送达。上海ONLY原介绍与海报的会场信息不一致，未擅自改动生产内容；原稿仅作为布局参考，不补造活动事实。
+
+补充证据：[首页活动索引](docs/design/activity-center/home-index.png)、[搜索空状态](docs/design/activity-center/empty-search.png)。9720页构建与9936项链接检查通过；全站文件数超默认部署上限，详见任务HANDOFF，不属于视觉验收通过的含义。
+
+用户复核纠正（2026-10-25）：此前“passed”漏掉月份文字与原生选择器图标重叠，不能作为无视觉缺陷证明。已为原生月份输入保留164px宽度、独立图标宽度及文字间距；重新检查1440/390截图，并操作4月→5月→4月。局部实图见 docs/design/activity-center/month-control-fixed.png。本次CSS修正晚于上一轮构建。
+
+发布前复核：此前24697文件的结论来自打包尚未结束的中间产物；完整构建结束后为18319，未超过20000。已撤销“文件数阻断发布”的判断。此次发现并修复英文手机来源标签换行（短标签+完整aria-label）及失败状态当日栏误报无活动；320中文、390英文、768日文、1440中文及深色已实际查看。新增错误/缓存截图均为本机注入，不代表生产故障。

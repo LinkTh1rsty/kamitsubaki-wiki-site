@@ -4,6 +4,7 @@ import { loadEnv } from 'vite';
 import searchIndex from './scripts/search-index-integration.mjs';
 import pagefind from './scripts/pagefind-integration.mjs';
 import localPagefind from './scripts/local-pagefind-plugin.mjs';
+import {visualExplorerProxy} from './scripts/visual-explorer-proxy.mjs';
 import { productionOrigin } from './src/lib/searchMetadata.mjs';
 
 import { unified } from '@astrojs/markdown-remark';
@@ -34,7 +35,7 @@ export default defineConfig({
   vite: {
     // Separate caches when running an isolated preview beside the main dev server.
     cacheDir: process.env.VITE_CACHE_DIR,
-    server: { strictPort: process.env.ONLINE_INTEGRATION === 'true' },
+    server: { strictPort: process.env.ONLINE_INTEGRATION === 'true', proxy: visualExplorerProxy() },
     plugins: [workspaceBoundary(),localPagefind(),stableFontDisplay(),tailwindcss()],
   },
   markdown: {

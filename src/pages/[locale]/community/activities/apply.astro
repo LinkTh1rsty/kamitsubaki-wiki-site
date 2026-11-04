@@ -6,15 +6,18 @@ import '../../../../styles/uiKit.css';
 import WorkspaceLayout from '../../../../layouts/WorkspaceLayout.astro';
 import {supportedLocales} from '../../../../lib/i18n.mjs';
 import {communityCopy} from '../../../../lib/communityCopy.mjs';
+import {activityCopy} from '../../../../lib/activityCopy.mjs';
 import {communityEditorMarkup} from '../../../../lib/communityEditor.js';
 import '../../../../styles/community.css';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
-const locale=Astro.params.locale||'zh',c=communityCopy(locale),api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
+const locale=Astro.params.locale||'zh',c={...activityCopy(locale),...communityCopy(locale)},api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
 <WorkspaceLayout locale={locale} title={c.apply} intro={c.applyIntro} path="/community/activities/apply/" eyebrow="CONTRIBUTE / ACTIVITY" backHref={`/${locale}/community/activities/`} backLabel={c.back} width="standard" noindex mainAttributes={{class:'community-page','data-community-apply':'','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
  <Fragment slot="actions"><WorkspaceButton href={`/${locale}/account/creator/?type=community`}>{c.creator}</WorkspaceButton></Fragment>
  <ContributionFlow locale={locale} kind="activity"/>
  <label class="community-submission-kind"><span>{c.submissionType}</span><WorkspaceControl as="select" data-community-kind><option value="information">{c.information}</option><option value="promotion">{c.promotion}</option></WorkspaceControl></label>
+ <p class="community-field-help">{c.promotionHelp}</p>
+ <nav data-apply-followup aria-label={c.promotionStatus} hidden></nav>
  <div set:html={communityEditorMarkup(c)} />
 </WorkspaceLayout>
 <script>
@@ -27,13 +30,20 @@ const locale=Astro.params.locale||'zh',c=communityCopy(locale),api=import.meta.e
  const c=JSON.parse(root.dataset.copy!),selector=root.querySelector<HTMLSelectElement>('[data-community-kind]')!,params=new URLSearchParams(location.search);
  if(!params.get('revision')&&!params.get('draft')){params.set('draft',crypto.randomUUID());history.replaceState(null,'',location.pathname+'?'+params);}
  selector.value=params.get('kind')==='promotion'?'promotion':'information';
- const options={locationPicker:createCommunityLocationPicker,operationId:params.get('draft')||undefined,apiBase:root.dataset.api,locale:root.dataset.locale,copy:{...c,support:c.supportDeadline},kind:selector.value,loginUrl:loginUrl(''),renderMarkdown:(target:any,body:string,media:any[])=>renderCommunityMarkdown(target,body,media,{api:root.dataset.api}),onSaved(result:any){selector.disabled=true;const url=new URL(location.href);url.searchParams.set('revision',result.revisionId);url.searchParams.delete('activity');url.searchParams.delete('copy');url.searchParams.delete('draft');history.replaceState(null,'',url);}};
+ const followup=(revisionId:string,publication?:{visible:boolean;activityId:string;promotion?:{state:string;startsAt?:string;endsAt?:string}})=>{
+  const box=root.querySelector<HTMLElement>('[data-apply-followup]')!;box.replaceChildren();box.hidden=false;
+  const discussion=document.createElement('a');discussion.className='workspace-button';discussion.textContent=c.discuss;discussion.href=`/${root.dataset.locale}/contribute/review/?kind=community&resource=${encodeURIComponent(revisionId)}`;box.append(discussion);
+  if(publication?.visible){const link=document.createElement('a');link.className='workspace-button';link.textContent=c.publicResult;link.href=`/${root.dataset.locale}/community/activities/${encodeURIComponent(publication.activityId)}/`;box.append(link);}
+  if(publication?.promotion){const p=document.createElement('p');p.textContent=c.promotionStatus+' · '+(c['promotion_'+publication.promotion.state]||c.promotionHelp);box.append(p);for(const [label,value] of [[c.promotionStarts,publication.promotion.startsAt],[c.promotionEnds,publication.promotion.endsAt]]){if(!value)continue;const row=document.createElement('p');row.append(label+' · ');const time=document.createElement('time');time.dateTime=value;time.textContent=new Date(value).toLocaleString(root.dataset.locale,{timeZoneName:'short'});row.append(time);box.append(row);}}
+ };
+ const options={locationPicker:createCommunityLocationPicker,operationId:params.get('draft')||undefined,apiBase:root.dataset.api,locale:root.dataset.locale,copy:{...c,support:c.supportDeadline},kind:selector.value,loginUrl:loginUrl(''),renderMarkdown:(target:any,body:string,media:any[])=>renderCommunityMarkdown(target,body,media,{api:root.dataset.api}),onSaved(result:any){selector.disabled=true;const url=new URL(location.href);url.searchParams.set('revision',result.revisionId);url.searchParams.delete('activity');url.searchParams.delete('copy');url.searchParams.delete('draft');history.replaceState(null,'',url);},onSubmitted(){const id=new URL(location.href).searchParams.get('revision');if(id)followup(id);}};
+
  selector.onchange=()=>{options.kind=selector.value;};
  const editor=initCommunityEditor(root.querySelector('[data-community-editor]'),options);
  editor.ready.then(async(session:any)=>{
   if(!session)return;
   try{
-   if(params.get('revision')){const {revision}=await editor.request('/revisions/'+encodeURIComponent(params.get('revision')!));selector.value=revision.kind==='promotion'?'promotion':'information';selector.disabled=true;editor.load(revision.content,{revisionId:revision.id,activityId:revision.activity_id,version:revision.version,baseVersion:revision.base_version,status:revision.status});if(revision.review_note){const note=document.createElement('p');note.setAttribute('role','status');note.textContent=c.reviewNote+' · '+revision.review_note;root.querySelector('[data-community-editor]')!.before(note);}}
+   if(params.get('revision')){const {revision,publication}=await editor.request('/revisions/'+encodeURIComponent(params.get('revision')!));if(revision.status!=='draft')followup(revision.id,publication);selector.value=revision.kind==='promotion'?'promotion':'information';selector.disabled=true;editor.load(revision.content,{revisionId:revision.id,activityId:revision.activity_id,version:revision.version,baseVersion:revision.base_version,status:revision.status});if(revision.review_note){const note=document.createElement('p');note.setAttribute('role','status');note.textContent=c.reviewNote+' · '+revision.review_note;root.querySelector('[data-community-editor]')!.before(note);}}
    else if(params.get('activity')||params.get('copy')){const {activity}=await editor.request('/items/'+encodeURIComponent(params.get('activity')||params.get('copy')!));if(params.get('copy')){activity.schedule={kind:'undated',timeZone:activity.schedule.timeZone};activity.deadlines=[];activity.edition='';activity.eventStatus='scheduled';activity.changeNote='';activity.media=activity.media.filter((ref:any)=>ref.role!=='poster');delete activity.originalSchedule;editor.load(activity);}else editor.load(activity,{activityId:activity.id,baseVersion:activity.version});}
    editor.restore();
   }catch(error:any){root.querySelector('[data-editor-status]')!.textContent=error.message;}

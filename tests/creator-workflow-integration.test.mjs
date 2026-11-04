@@ -245,3 +245,46 @@ test('series UI can save a hidden draft, restore its public version and publish 
  form.querySelector('[data-editor-publish]').click();await until(()=>!form.elements.title.disabled&&(q.root.querySelector('[data-detail-state]').textContent==='已公开'));assert.equal((await(await q.call('/api/community-activities/series/'+id)).json()).series.title,'Series next draft');
  }finally{await q.close();}
 });
+
+test('queued PR deletion is visible, cannot be submitted again, and disappears after refresh readback',async()=>{
+ let phase='pending_review',removed=false;
+ const q=await setup(async({path,options,invoke})=>{
+  if(path.startsWith('/api/account/contributions?'))return Response.json({items:removed?[]:[{id:'pr-delete',type:'entry',kind:'entry',title:'羽累',state:'review',phase,raw_status:'open',updated_at:'2026-10-25'}],nextOffset:null});
+  if(path==='/api/editor/submissions/pr-delete'){
+   if(options.method==='DELETE'){phase='deleting';return Response.json({deleting:true},{status:202});}
+   return Response.json({id:'pr-delete',title:'羽累',status:'open',sync:phase==='deleting'?'pending':'synced',version:1});
+  }
+  if(path==='/api/editor/submissions/pr-delete/refresh'){removed=true;return Response.json({status:'closed'});}
+  return invoke();
+ });
+ try{
+  q.start();await until(()=>q.w.document.querySelector('.creator-record .creator-delete-draft'));
+  q.w.document.querySelector('.creator-record .creator-delete-draft').click();await until(()=>q.w.document.querySelector('[data-confirm-dialog]'));
+  q.w.document.querySelector('.creator-delete-confirm').click();await until(()=>q.w.document.querySelector('.creator-state')?.textContent===q.copy.phase.deleting);
+  assert.equal(q.w.document.querySelector('.creator-record .creator-delete-draft'),null);
+  q.w.document.querySelector('[data-creator-refresh]').click();await until(()=>q.w.document.querySelectorAll('.creator-record').length===0);
+  assert.equal(q.calls.filter(call=>call.method==='DELETE').length,1);
+ }finally{await q.close();}
+});
+
+test('merged and failed-publication PRs keep their publication phase and never offer deletion',async()=>{
+ const q=await setup(async({path,invoke})=>path.startsWith('/api/account/contributions?')?Response.json({items:[{id:'merged',type:'entry',kind:'entry',title:'已合并',state:'review',phase:'approved_syncing',raw_status:'merged'},{id:'failed',type:'entry',kind:'entry',title:'公开失败',state:'attention',phase:'publish_failed',raw_status:'failed'}],nextOffset:null}):invoke());
+ try{q.start();await until(()=>q.w.document.querySelectorAll('.creator-record').length===2);assert.equal(q.w.document.querySelector('.creator-record .creator-delete-draft'),null);assert.match(q.w.document.querySelector('[data-creator-rows]').textContent,/已合并 · 公开失败/);assert.ok(!q.w.document.querySelector('[data-creator-rows]').textContent.includes(q.copy.reviewProgress),'merged records must not offer review progress');}finally{await q.close();}
+});
+
+test('pending deletion polls until completion without a manual refresh',async()=>{
+ let removed=false,reads=0;
+ const q=await setup(async({path,invoke})=>path.startsWith('/api/account/contributions?')?Response.json({items:++reads&&removed?[]:[{id:'poll-delete',type:'entry',kind:'entry',title:'自动刷新',state:'withdrawn',phase:'deleting'}],nextOffset:null}):invoke());
+ try{
+  Object.defineProperty(q.w.document,'hidden',{value:false,configurable:true});
+  const timeout=q.w.setTimeout.bind(q.w);q.w.setTimeout=(fn,ms,...args)=>timeout(fn,ms===3000?80:ms,...args);
+  q.start();await until(()=>q.w.document.querySelector('.creator-record'));
+  removed=true;await until(()=>!q.w.document.querySelector('.creator-record'));
+  assert.ok(reads>=2);assert.equal(q.calls.filter(call=>call.method==='DELETE').length,0);
+ }finally{await q.close();}
+});
+
+test('pending deletion detail never offers synchronization retry',async()=>{
+ const q=await setup(async({path,invoke})=>path.startsWith('/api/account/contributions?')?Response.json({items:[{id:'deleting',type:'entry',kind:'entry',title:'Deleting',state:'review',phase:'deleting'}],nextOffset:null}):path.startsWith('/api/editor/submissions/deleting')?Response.json({id:'deleting',title:'Deleting',status:'open',sync:'pending',deleteAfterClose:true,version:1}):invoke());
+ try{q.w.history.replaceState(null,'','?record=deleting&recordType=entry');q.start();await until(()=>q.w.document.querySelector('#creator-detail-title')?.textContent==='Deleting');assert.ok(!q.w.document.querySelector('[data-detail-footer]').textContent.includes(q.copy.retrySync));}finally{await q.close();}
+});

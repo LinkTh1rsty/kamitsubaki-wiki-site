@@ -1,0 +1,65 @@
+{
+  "name": "@chronoframe/webgl-image",
+  "version": "1.0.0",
+  "keywords": [
+    "webgl",
+    "image-viewer",
+    "vue3",
+    "zoom",
+    "pan",
+    "hardware-acceleration",
+    "high-performance"
+  ],
+  "author": {
+    "name": "ChronoFrame",
+    "email": "master@uniiem.com"
+  },
+  "license": "MIT",
+  "description": "A high-performance WebGL image viewer component for Vue.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./components": {
+      "types": "./dist/components.d.ts",
+      "import": "./dist/components.mjs",
+      "require": "./dist/components.cjs"
+    },
+    "./types": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/types.mjs",
+      "require": "./dist/types.cjs"
+    },
+    "./dist/webgl-image.css": "./dist/webgl-image.css",
+    "./style": "./dist/webgl-image.css"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "lint": "oxlint -c ../../.oxlintrc.json src",
+    "lint:fix": "oxlint -c ../../.oxlintrc.json src --fix",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.43"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "typescript": "^5.9.3",
+    "vite": "7.3.1",
+    "vite-plugin-dts": "^4.5.4",
+    "vue-tsc": "^2.2.12"
+  }
+}

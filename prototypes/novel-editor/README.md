@@ -80,3 +80,9 @@ pnpm --dir prototypes/novel-editor check:corpus --json /tmp/novel-corpus-check.j
 - [react-textarea-autosize](https://github.com/Andarist/react-textarea-autosize)：MIT，标题随内容及窗口宽度自动换行伸缩，使用 8.5.9。
 
 当前重构与验证状态见 [第一轮验证记录](../../qa/2026-10-13-novel-editor/README.md)。记录明确区分自动检查、浏览器实测和待验收项目。
+
+### 延续现有界面的帮助与反馈规则
+
+沿用已选写作工作台的字体、配色和布局。字段说明、保存/投稿区别、审核/上线阶段以及撤回/删除边界使用小问号，点击、触屏和键盘均能打开，Esc 关闭；必填标记与实际错误保持可见。弹层最大宽度 320px，距视口至少 16px，不推动正文。阅读辅助说明继续通过 aria-describedby 关联。
+
+网站导航与账号并入桌面侧栏及手机文档菜单，不另加顶部导航条。操作反馈保留在固定账号状态行，后台重读不插入新的整行提示；保留正在处理状态和可重试错误。旧稿版本号明确标记为草稿保存版本，避免与审查轮次或公开版本混淆。

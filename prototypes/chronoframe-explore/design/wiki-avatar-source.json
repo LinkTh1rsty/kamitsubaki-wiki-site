@@ -1,0 +1,8 @@
+{
+  "source": "public/brand/kamitsubakiwiki-square.svg (owning Wiki repository)",
+  "copy": "public/wiki-avatar.svg (independent gallery)",
+  "sha256": "d15b9888daa753c328705b0f7a07d9405f3fb5e45bd989852a1b26afcfa1da1b",
+  "viewBox": "0 0 400 400",
+  "adaptations": [],
+  "reason": "Replace blurry 192px raster avatar with the identical original vector mark."
+}

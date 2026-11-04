@@ -483,3 +483,10 @@ html body .wiki-properties-sheet .wiki-property-section textarea.workspace-contr
 .wiki-conflict-properties dt { font-size: 12px; color: var(--muted-foreground); }
 .wiki-conflict-properties dd { margin-block: 4px 12px; }
 @media (max-width: 700px) { .wiki-conflict-columns { grid-template-columns: minmax(0, 1fr); } .wiki-review-conflict { padding: 12px; } }
+
+.wiki-review-account {flex-wrap:wrap;gap:12px;min-height:44px}
+.wiki-review-inline-status {display:flex;align-items:center;gap:6px;flex:1;min-width:0;min-height:24px;font-size:13px;color:var(--muted-foreground);overflow-wrap:anywhere}
+.wiki-review-inline-status svg {width:16px;height:16px;flex:none}
+@media(max-width:600px){.wiki-review-inline-status{order:3;flex-basis:100%;min-height:40px}.wiki-review-account>button{margin-left:auto}}
+
+.wiki-help-trigger{display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;min-width:28px;min-height:28px;padding:4px;margin-left:4px;border:0;background:transparent;color:var(--muted-foreground);cursor:pointer;border-radius:4px}.wiki-help-trigger:focus-visible{outline:2px solid var(--ring);outline-offset:2px}.wiki-help-content{z-index:100;max-width:min(320px,calc(100vw - 32px));padding:14px 16px;border:1px solid var(--border);border-radius:8px;background:var(--popover);color:var(--popover-foreground);box-shadow:0 8px 30px #0002;font-size:13px;line-height:1.7;overflow-wrap:anywhere}.wiki-help-content p{margin:6px 0 0}.wiki-review-inline-status[data-error=true]{color:var(--destructive)}@media(pointer:coarse){.wiki-help-trigger{min-width:36px;min-height:36px}}

@@ -1,3 +1,5 @@
+import {HelpTip} from './components/help-tip';
+import {HostNavigation} from './components/host-navigation';
 import {workbenchText as t} from '@/lib/workbench-copy';
 import {editorFetch as fetch,editorHost,localEditorHost,previewAssetUrl,previewHTML,restoreBrowserImages,registerStagedImages} from '@/lib/editor-host';
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
@@ -57,6 +59,7 @@ function downloadMarkdown(source: string, title: string, locale: string) {
 }
 
 export default function App() {
+  useEffect(()=>{const host=document.querySelector<HTMLElement>('[data-novel-workbench]');if(host)host.dataset.ready='true';return()=>{if(host)delete host.dataset.ready;};},[]);
   const headerSize = useContainerWidth<HTMLElement>();
   const canvasSize = useContainerWidth<HTMLDivElement>();
   const [record, setRecord] = useState<DocumentRecord>(initialDocument);
@@ -368,7 +371,7 @@ export default function App() {
     <div className="wiki-desktop-library">{navigator}</div>
     <div className="wiki-workbench-main"><header ref={headerSize.ref} className="wiki-workbench-header">
       <Button variant="ghost" size="icon" className="wiki-mobile-menu" aria-label={t("打开写作导航")} onClick={() => setNavigationOpen(true)}><Menu /></Button>
-      <div className="wiki-document-heading"><div className="wiki-breadcrumb"><strong>{title || '词条'}</strong>{opening ? <Loader2 className="animate-spin" aria-label={t("正在读取词条")} /> : null}</div><span className="wiki-save-status" role="status">{storageError ? <AlertCircle aria-hidden="true" /> : status === '正在保存…' ? <Loader2 className="animate-spin" aria-hidden="true" /> : <Check aria-hidden="true" />}{status}</span></div>
+      <div className="wiki-document-heading"><div className="wiki-breadcrumb"><strong>{title || '词条'}</strong>{opening ? <Loader2 className="animate-spin" aria-label={t("正在读取词条")} /> : null}</div><span className="wiki-save-status" role="status">{storageError ? <AlertCircle aria-hidden="true" /> : status === '正在保存…' ? <Loader2 className="animate-spin" aria-hidden="true" /> : <Check aria-hidden="true" />}{status}<HelpTip label="保存与投稿" text="本地保存只在当前浏览器。保存账号草稿后可继续修改；提交审核后才会进入审核队列。"/></span></div>
       <div className="wiki-header-actions">
         {headerSize.width >= 1080 ? <Button variant="ghost" onClick={() => setMobileLibrary(true)}><FileText data-icon="inline-start" />{t("打开词条")}</Button> : null}
         {headerSize.width >= 1120 ? <Button variant="ghost" onClick={() => { if (persist()) toast.success('草稿已保存到本地'); }}><Save data-icon="inline-start" />{t("保存")}</Button> : null}
@@ -378,7 +381,7 @@ export default function App() {
         <Button variant="ghost" disabled={view === 'review'} aria-label={t("词条属性")} aria-expanded={compactLayout ? mobileProperties : showProperties && view !== 'preview'} aria-haspopup={compactLayout ? 'dialog' : undefined} onClick={() => { if (view === 'preview') { setView('edit'); setShowProperties(true); if (compactLayout) setMobileProperties(true); } else compactLayout ? setMobileProperties(true) : setShowProperties(!showProperties); }}><SlidersHorizontal data-icon="inline-start" /><span>{t("属性")}</span></Button>
         <DropdownMenu><DropdownMenuTrigger asChild><Button variant="ghost" size="icon" aria-label={t("文档操作")}><MoreHorizontal /></Button></DropdownMenuTrigger><DropdownMenuContent align="end" className="min-w-44"><DropdownMenuGroup>
           <DropdownMenuItem disabled={!editor || pending || view === 'review'} onSelect={openReview}><Send />{t("检查修改与投稿")}</DropdownMenuItem><DropdownMenuItem onSelect={() => { if (persist()) toast.success('草稿已保存到本地'); }}><Save />{t("保存本地草稿")}</DropdownMenuItem><DropdownMenuItem disabled={!editor || pending} onSelect={exportDocument}><Download />{t("导出 Markdown")}</DropdownMenuItem><DropdownMenuItem onSelect={() => { setMobileLibrary(true); }}>{t("打开其他词条")}</DropdownMenuItem><DropdownMenuItem onSelect={newDocument}>{t("新建词条")}</DropdownMenuItem><DropdownMenuItem onSelect={() => fileInput.current?.click()}>{t("导入 Markdown")}</DropdownMenuItem><DropdownMenuItem onSelect={openDrafts}>{t("本地草稿")}</DropdownMenuItem>
-        </DropdownMenuGroup><DropdownMenuSeparator /><DropdownMenuGroup><DropdownMenuItem onSelect={() => { document.documentElement.classList.toggle('dark', !dark); setDark(!dark); }}>{dark ? <Sun /> : <Moon />}{dark ? t("浅色主题") : t("深色主题")}</DropdownMenuItem><DropdownMenuItem onSelect={() => changeView(view === 'source' ? 'edit' : 'source')}><Code2 />{view === 'source' ? t("返回正文") : t("查看 Markdown 源码")}</DropdownMenuItem></DropdownMenuGroup></DropdownMenuContent></DropdownMenu>
+        </DropdownMenuGroup><DropdownMenuSeparator /><DropdownMenuGroup><DropdownMenuItem onSelect={() => { document.documentElement.classList.toggle('dark', !dark); setDark(!dark); }}>{dark ? <Sun /> : <Moon />}{dark ? t("浅色主题") : t("深色主题")}</DropdownMenuItem><DropdownMenuItem onSelect={() => changeView(view === 'source' ? 'edit' : 'source')}><Code2 />{view === 'source' ? t("返回正文") : t("查看 Markdown 源码")}</DropdownMenuItem></DropdownMenuGroup>{editorHost()?<><DropdownMenuSeparator/><DropdownMenuGroup><HostNavigation menu/></DropdownMenuGroup></>:null}</DropdownMenuContent></DropdownMenu>
       </div>
     </header><ResizablePanelGroup orientation="horizontal" className="wiki-content-grid" data-editing-dock={editingDock}>
       <ResizablePanel id="writing" minSize={compactLayout ? 0 : 350} className="wiki-writing-panel"><main className="wiki-writing-panel h-full"><div className={cn(view !== 'edit' && 'hidden')}><EditorToolbar editor={editor} open={openTarget} editingContent={Boolean(target)} /></div>

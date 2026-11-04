@@ -133,6 +133,10 @@ export class LocalReviewService {
     await this.session(account.id);
     return this.api<ReviewSubmission>('/api/editor/submissions/' + encodeURIComponent(id) + '?accountId=' + encodeURIComponent(account.id));
   }
+  async refresh(account: ReviewAccount, id: string) {
+    await this.session(account.id);
+    return this.api<ReviewSubmission>('/api/editor/submissions/' + encodeURIComponent(id) + '/refresh', 'POST', { accountId: account.id });
+  }
   async saveDraft(state: ReviewState) {
     await this.session(state.account.id);
     if (state.conflict) throw new ReviewError('原文已更新。请先核对最新内容，避免覆盖其他人的修改。', 409);

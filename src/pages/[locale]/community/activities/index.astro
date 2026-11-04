@@ -1,13 +1,48 @@
 ---
-import WorkspaceLayout from '../../../../layouts/WorkspaceLayout.astro';
-import WorkspaceButton from '../../../../components/WorkspaceButton.astro';
+import WorkspaceShell from '../../../../components/WorkspaceShell.astro';
+import { getBuildCollection as getCollection } from '../../../../lib/contentAuditContext';
 import ActivityCenter from '../../../../components/ActivityCenter.astro';
-import {supportedLocales} from '../../../../lib/i18n.mjs';
 import {activityCopy} from '../../../../lib/activityCopy.mjs';
-export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
-const locale=Astro.params.locale||'zh',c=activityCopy(locale);
+import SiteFooter from '../../../../components/SiteFooter.astro';
+import SiteNav from '../../../../components/SiteNav.astro';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { getLocalizedSite } from '../../../../lib/homeData.mjs';
+import { buildLocaleLinks, defaultLocale, supportedLocales } from '../../../../lib/i18n.mjs';
+
+export function getStaticPaths() {
+  return supportedLocales.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const localeCode = locale as 'zh' | 'zh-tw' | 'zh-hk' | 'ja' | 'en';
+const siteEntries = await getCollection('site');
+const homeContent = getLocalizedSite(siteEntries, localeCode, defaultLocale);
+const copy = homeContent.liveEvents;
+const centerCopy=activityCopy(localeCode);
+const currentPath = '/community/activities/';
+const localeLinks = buildLocaleLinks(homeContent, localeCode, currentPath);
+const alternates = supportedLocales.map((code) => ({ locale: code, href: `/${code}${currentPath}` }));
+const metadata = {
+  title: `${centerCopy.title} - Kamitsubaki Wiki`,
+  description: centerCopy.intro,
+  canonicalPath: `/${localeCode}${currentPath}`,
+};
 ---
-<WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/community/activities/" backHref={`/${locale}/`} backLabel={c.back} width="wide">
- <WorkspaceButton slot="actions" href={`/${locale}/community/activities/apply/`} tone="primary">{c.apply}</WorkspaceButton>
- <ActivityCenter locale={locale} source="community" />
-</WorkspaceLayout>
+
+<BaseLayout lang={localeCode} alternates={alternates} metadata={metadata}>
+  <div class="events-page min-h-screen">
+    <SiteNav
+      navItems={homeContent.navItems}
+      localeLinks={localeLinks}
+      brandLines={homeContent.hero.brandLines}
+      compact
+      homeHref={`/${localeCode}/`}
+    />
+
+    <WorkspaceShell width="wide" class="events-page__main">
+      <ActivityCenter locale={localeCode} source="community" />
+    </WorkspaceShell>
+
+    <SiteFooter footer={homeContent.footer} />
+  </div>
+</BaseLayout>

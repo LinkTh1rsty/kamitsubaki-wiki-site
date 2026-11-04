@@ -1,0 +1,7 @@
+packages:
+  - vendor/*
+allowBuilds:
+  esbuild: true
+  workerd: true
+  "@parcel/watcher": true
+  "@tailwindcss/oxide": true

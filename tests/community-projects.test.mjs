@@ -65,6 +65,13 @@ test('unavailable public details use the shared localized layout, hide actions a
  const original=globalThis.fetch;try{for(const locale of ['zh','zh-tw','zh-hk','ja','en'])for(const status of [404,503]){globalThis.fetch=async()=>new Response('Unavailable',{status});const c=communityCopy(locale),template='<html><head><title>Template</title><meta name="robots" content="noindex,nofollow"></head><body><main data-community-document="activity"><a data-community-correct>Suggest</a><button data-community-export>Export</button><section data-community-content><h1>Template</h1><p>Loading</p></section></main></body></html>';const response=await renderCommunityPage({request:new Request('https://wiki.example/'+locale+'/community/activities/hidden/'),env:{ASSETS:{fetch:async()=>new Response(template)}},params:{locale,id:'hidden'}});assert.equal(response.status,status);assert.equal(response.headers.get('Cache-Control'),'no-store');const dom=new JSDOM(await response.text());assert.equal(dom.window.document.querySelector('h1').textContent,status===404?c.notAvailable:c.serviceUnavailable);assert.equal(dom.window.document.querySelector('[data-community-correct]').hidden,true);assert.equal(dom.window.document.querySelector('[data-community-export]').hidden,true);assert.equal(dom.window.document.querySelector('[data-community-unavailable]').dataset.communityUnavailable,'true');dom.window.close();}}finally{globalThis.fetch=original;}
 });
 
+test('participation metadata survives edits and invalid validity windows block saving without losing input',async()=>{
+ const b=editor();try{await b.e.ready;b.e.load({title:'Keep',links:[{label:'Join',url:'https://example.org',role:'live',primary:true,startsAt:'2026-10-25T10:00:00Z',endsAt:'2026-10-26T10:00:00Z'}]});
+ let body;b.w.fetch=async(_,options)=>{body=JSON.parse(options.body);return {ok:true,json:async()=>({revisionId:'saved',id:'activity',version:1})};};
+ b.root.querySelector('[data-editor-save]').click();await new Promise(r=>setTimeout(r,20));assert.equal(body.content.links[0].role,'live');assert.equal(body.content.links[0].primary,true);
+ const end=b.root.querySelector('[data-link-ends]');end.value='2026-10-24T10:00:00Z';end.dispatchEvent(new b.w.Event('input',{bubbles:true}));body=null;b.root.querySelector('[data-editor-save]').click();await new Promise(r=>setTimeout(r,20));assert.equal(body,null);assert.equal(end.getAttribute('aria-invalid'),'true');assert.equal(end.value,'2026-10-24T10:00:00Z');
+ }finally{b.dom.window.close();}
+});
 test('public activity and series HTML start with bounded images and keep original links and metadata',async()=>{
  const original=globalThis.fetch,src='https://images.kamitsubaki.wiki/community-activities/assets/user/art.webp';
  const template='<html><head><title>Template</title></head><body><main data-community-document="activity"><section data-community-content><p>Loading</p></section></main></body></html>';
@@ -77,4 +84,5 @@ test('public activity and series HTML start with bounded images and keep origina
   if(kind==='activity')assert.equal(dom.window.document.querySelector('.activity-poster-open').href,src);
   assert.ok(!dom.window.document.body.innerHTML.includes('evil.example'));dom.window.close();
  }}finally{globalThis.fetch=original;}
+
 });

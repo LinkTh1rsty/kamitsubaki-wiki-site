@@ -1,0 +1,794 @@
+[
+  {
+    "id": "albemuth",
+    "type": "unit",
+    "name": "Albemuth",
+    "url": "/zh/database/artists/groups/albemuth/",
+    "image": "https://placehold.co/1200x800/0a0a12/a0a0b0?text=ALBEMUTH",
+    "labels": {
+      "zh": "Albemuth",
+      "ja": "Albemuth",
+      "en": "Albemuth"
+    }
+  },
+  {
+    "id": "anmc",
+    "type": "unit",
+    "name": "ANMC",
+    "url": "/zh/database/artists/groups/anmc/",
+    "image": "/images/artists/anmc.png",
+    "labels": {
+      "zh": "ANMC",
+      "ja": "ANMC",
+      "en": "ANMC"
+    }
+  },
+  {
+    "id": "aru",
+    "type": "virtual-avatar",
+    "name": "存流 / ARU",
+    "url": "/zh/database/artists/solo/aru/",
+    "image": "/images/artists/aru.png",
+    "labels": {
+      "zh": "存流 / ARU",
+      "ja": "存流 / ARU",
+      "en": "ARU"
+    }
+  },
+  {
+    "id": "asanushi-haru",
+    "type": "lore-concept",
+    "name": "朝主派流",
+    "url": "/zh/database/lore/asanushi-haru/",
+    "image": null,
+    "labels": {
+      "zh": "朝主派流",
+      "ja": "朝主派流",
+      "en": "Asanushi Haru"
+    }
+  },
+  {
+    "id": "asu",
+    "type": "virtual-avatar",
+    "name": "明透 / ASU",
+    "url": "/zh/database/artists/solo/asu/",
+    "image": "/images/artists/asu.png",
+    "labels": {
+      "zh": "明透 / ASU",
+      "ja": "明透 / ASU",
+      "en": "ASU"
+    }
+  },
+  {
+    "id": "awairo",
+    "type": "unit",
+    "name": "淡色 / Awairo",
+    "url": "/zh/database/artists/groups/awairo/",
+    "image": "/images/artists/awairo.jpg",
+    "labels": {
+      "zh": "淡色 / Awairo",
+      "ja": "淡色 / Awairo",
+      "en": "Awairo"
+    }
+  },
+  {
+    "id": "azsagawa",
+    "type": "person",
+    "name": "梓川",
+    "url": "/zh/database/artists/solo/azsagawa/",
+    "image": null,
+    "labels": {
+      "zh": "梓川",
+      "ja": "梓川",
+      "en": "Azsagawa"
+    }
+  },
+  {
+    "id": "bema",
+    "type": "person",
+    "name": "琶舞 / BEMA",
+    "url": "/zh/database/artists/solo/bema/",
+    "image": "/images/artists/bema.png",
+    "labels": {
+      "zh": "琶舞 / BEMA",
+      "ja": "琶舞 / BEMA",
+      "en": "BEMA"
+    }
+  },
+  {
+    "id": "chino",
+    "type": "person",
+    "name": "CHINO",
+    "url": "/zh/database/artists/groups/valis/members/chino/",
+    "image": null,
+    "labels": {
+      "zh": "CHINO",
+      "ja": "CHINO",
+      "en": "CHINO"
+    }
+  },
+  {
+    "id": "ciel",
+    "type": "virtual-avatar",
+    "name": "CIEL",
+    "url": "/zh/database/artists/solo/ciel/",
+    "image": "/images/artists/ciel.png",
+    "labels": {
+      "zh": "CIEL",
+      "ja": "CIEL",
+      "en": "CIEL"
+    }
+  },
+  {
+    "id": "coko",
+    "type": "software-voice",
+    "name": "狐子",
+    "url": "/zh/database/isotopes/coko/",
+    "image": "/images/artists/coko.jpg",
+    "labels": {
+      "zh": "狐子",
+      "ja": "狐子",
+      "en": "COKO"
+    }
+  },
+  {
+    "id": "dustcell",
+    "type": "unit",
+    "name": "DUSTCELL",
+    "url": "/zh/database/artists/groups/dustcell/",
+    "image": "/images/artists/dustcell.png",
+    "labels": {
+      "zh": "DUSTCELL",
+      "ja": "DUSTCELL",
+      "en": "DUSTCELL"
+    }
+  },
+  {
+    "id": "ema",
+    "type": "person",
+    "name": "EMA",
+    "url": "/zh/database/artists/groups/dustcell/members/ema/",
+    "image": null,
+    "labels": {
+      "zh": "EMA",
+      "ja": "EMA",
+      "en": "EMA"
+    }
+  },
+  {
+    "id": "empty-old-city",
+    "type": "unit",
+    "name": "Empty old City",
+    "url": "/zh/database/artists/groups/empty-old-city/",
+    "image": "/images/artists/empty-old-city.png",
+    "labels": {
+      "zh": "Empty old City",
+      "ja": "Empty old City",
+      "en": "Empty old City"
+    }
+  },
+  {
+    "id": "garasumiya",
+    "type": "virtual-avatar",
+    "name": "硝子宮",
+    "url": "/zh/database/artists/groups/sinseiki/members/garasumiya/",
+    "image": "/images/artists/garasumiya.png",
+    "labels": {
+      "zh": "硝子宮",
+      "ja": "硝子宮",
+      "en": "GARASUMIYA"
+    }
+  },
+  {
+    "id": "guiano",
+    "type": "person",
+    "name": "Guiano",
+    "url": "/zh/database/creators/guiano/",
+    "image": "https://placehold.co/1200x800/0a0a12/a0a0b0?text=GUIANO",
+    "labels": {
+      "zh": "Guiano",
+      "ja": "Guiano",
+      "en": "Guiano"
+    }
+  },
+  {
+    "id": "haru",
+    "type": "software-voice",
+    "name": "羽累",
+    "url": "/zh/database/isotopes/haru/",
+    "image": "/images/artists/haru.jpg",
+    "labels": {
+      "zh": "羽累",
+      "ja": "羽累",
+      "en": "HARU"
+    }
+  },
+  {
+    "id": "harusaruhi",
+    "type": "virtual-avatar",
+    "name": "春猿火",
+    "url": "/zh/database/artists/solo/harusaruhi/",
+    "image": "/images/artists/harusaruhi.png",
+    "labels": {
+      "zh": "春猿火",
+      "ja": "春猿火",
+      "en": "HARUSARUHI"
+    }
+  },
+  {
+    "id": "hifi-p",
+    "type": "person",
+    "name": "HiFi-P",
+    "url": "/zh/database/creators/hifi-p/",
+    "image": "/images/artists/hifi-p.jpg",
+    "labels": {
+      "zh": "HiFi-P",
+      "ja": "HiFi-P",
+      "en": "HiFi-P"
+    }
+  },
+  {
+    "id": "hinageshi",
+    "type": "virtual-avatar",
+    "name": "氷夏至",
+    "url": "/zh/database/artists/groups/tsumitobatsu/members/hinageshi/",
+    "image": "/images/artists/hinageshi.png",
+    "labels": {
+      "zh": "氷夏至",
+      "ja": "氷夏至",
+      "en": "HINAGESHI"
+    }
+  },
+  {
+    "id": "hiratayoshihisa",
+    "type": "person",
+    "name": "平田義久",
+    "url": "/zh/database/creators/hiratayoshihisa/",
+    "image": "/images/artists/hiratayoshihisa.png",
+    "labels": {
+      "zh": "平田義久",
+      "ja": "平田義久",
+      "en": "Hirata Yoshihisa"
+    }
+  },
+  {
+    "id": "hitogoto",
+    "type": "person",
+    "name": "他人事",
+    "url": "/zh/database/creators/hitogoto/",
+    "image": "/images/artists/hitogoto.jpg",
+    "labels": {
+      "zh": "他人事",
+      "ja": "ヒトゴト",
+      "en": "Hitogoto"
+    }
+  },
+  {
+    "id": "ichinose-ruri",
+    "type": "person",
+    "name": "市濑留莉",
+    "url": "/zh/database/creators/ichinose-ruri/",
+    "image": null,
+    "labels": {
+      "zh": "市濑留莉",
+      "ja": "一ノ瀬瑠璃",
+      "en": "Ichinose Ruri"
+    }
+  },
+  {
+    "id": "isekaijoucho",
+    "type": "virtual-avatar",
+    "name": "ヰ世界情緒",
+    "url": "/zh/database/artists/solo/isekaijoucho/",
+    "image": "/images/artists/isekaijoucho.png",
+    "labels": {
+      "zh": "ヰ世界情緒",
+      "ja": "ヰ世界情緒",
+      "en": "ISEKAIJOUCHO"
+    }
+  },
+  {
+    "id": "kaf",
+    "type": "virtual-avatar",
+    "name": "花譜",
+    "url": "/zh/database/artists/solo/kaf/",
+    "image": "/images/artists/kaf.jpg",
+    "labels": {
+      "zh": "花譜",
+      "ja": "花譜",
+      "en": "KAF"
+    }
+  },
+  {
+    "id": "kafu",
+    "type": "software-voice",
+    "name": "可不",
+    "url": "/zh/database/isotopes/kafu/",
+    "image": "/images/artists/kafu.jpg",
+    "labels": {
+      "zh": "可不",
+      "ja": "可不",
+      "en": "KAFU"
+    }
+  },
+  {
+    "id": "kaika",
+    "type": "person",
+    "name": "廻花",
+    "url": "/zh/database/artists/solo/kaika/",
+    "image": "/images/artists/kaika.png",
+    "labels": {
+      "zh": "廻花",
+      "ja": "廻花",
+      "en": "KAIKA"
+    }
+  },
+  {
+    "id": "kakyoin",
+    "type": "virtual-avatar",
+    "name": "佳鏡院",
+    "url": "/zh/database/artists/groups/sinseiki/members/kakyoin/",
+    "image": "/images/artists/kakyoin.png",
+    "labels": {
+      "zh": "佳鏡院",
+      "ja": "佳鏡院",
+      "en": "KAKYOIN"
+    }
+  },
+  {
+    "id": "kanzaki-iori",
+    "type": "person",
+    "name": "神崎一织",
+    "url": "/zh/database/creators/kanzaki-iori/",
+    "image": "https://placehold.co/1200x800/0a0a12/a0a0b0?text=KANZAKI-IORI",
+    "labels": {
+      "zh": "神崎一织",
+      "ja": "カンザキイオリ",
+      "en": "Kanzaki Iori"
+    }
+  },
+  {
+    "id": "kashiimoimi",
+    "type": "person",
+    "name": "香椎モイミ",
+    "url": "/zh/database/creators/kashiimoimi/",
+    "image": "/images/artists/kashiimoimi.png",
+    "labels": {
+      "zh": "香椎モイミ",
+      "ja": "香椎モイミ",
+      "en": "Kashii Moimi"
+    }
+  },
+  {
+    "id": "kawasaki",
+    "type": "person",
+    "name": "川サキ",
+    "url": "/zh/database/staff/kawasaki/",
+    "image": "/images/artists/kawasaki.jpg",
+    "labels": {
+      "zh": "川サキ",
+      "ja": "川サキ",
+      "en": "Kawasaki"
+    }
+  },
+  {
+    "id": "kazuhide-oka",
+    "type": "person",
+    "name": "Kazuhide Oka",
+    "url": "/zh/database/creators/kazuhide-oka/",
+    "image": "/images/artists/kazuhide-oka.png",
+    "labels": {
+      "zh": "Kazuhide Oka",
+      "ja": "Kazuhide Oka",
+      "en": "Kazuhide Oka"
+    }
+  },
+  {
+    "id": "koko",
+    "type": "virtual-avatar",
+    "name": "幸祜",
+    "url": "/zh/database/artists/solo/koko/",
+    "image": "/images/artists/koko.png",
+    "labels": {
+      "zh": "幸祜",
+      "ja": "幸祜",
+      "en": "KOKO"
+    }
+  },
+  {
+    "id": "kuusou",
+    "type": "virtual-avatar",
+    "name": "KUUSOU",
+    "url": "/zh/database/artists/solo/kuusou/",
+    "image": "/images/artists/kuusou.jpg",
+    "labels": {
+      "zh": "KUUSOU",
+      "ja": "KUUSOU",
+      "en": "KUUSOU"
+    }
+  },
+  {
+    "id": "loluet",
+    "type": "person",
+    "name": "LOLUET",
+    "url": "/zh/database/artists/solo/loluet/",
+    "image": "https://placehold.co/1200x800/0d0d12/b8b8c7?text=LOLUET",
+    "labels": {
+      "zh": "LOLUET",
+      "ja": "LOLUET",
+      "en": "LOLUET"
+    }
+  },
+  {
+    "id": "mikoto",
+    "type": "virtual-avatar",
+    "name": "美古途",
+    "url": "/zh/database/artists/groups/tsumitobatsu/members/mikoto/",
+    "image": "/images/artists/mikoto.png",
+    "labels": {
+      "zh": "美古途",
+      "ja": "美古途",
+      "en": "MIKOTO"
+    }
+  },
+  {
+    "id": "mimi",
+    "type": "person",
+    "name": "MIMI",
+    "url": "/zh/database/creators/mimi/",
+    "image": "/images/artists/mimi.png",
+    "labels": {
+      "zh": "MIMI",
+      "ja": "MIMI",
+      "en": "MIMI"
+    }
+  },
+  {
+    "id": "misumi",
+    "type": "person",
+    "name": "Misumi",
+    "url": "/zh/database/artists/groups/dustcell/members/misumi/",
+    "image": null,
+    "labels": {
+      "zh": "Misumi",
+      "ja": "Misumi",
+      "en": "Misumi"
+    }
+  },
+  {
+    "id": "morisaki-kaho",
+    "type": "lore-concept",
+    "name": "森先化歩",
+    "url": "/zh/database/lore/morisaki-kaho/",
+    "image": null,
+    "labels": {
+      "zh": "森先化歩",
+      "ja": "森先化歩",
+      "en": "Morisaki Kaho"
+    }
+  },
+  {
+    "id": "myu",
+    "type": "person",
+    "name": "MYU",
+    "url": "/zh/database/artists/groups/valis/members/myu/",
+    "image": null,
+    "labels": {
+      "zh": "MYU",
+      "ja": "MYU",
+      "en": "MYU"
+    }
+  },
+  {
+    "id": "neffy",
+    "type": "person",
+    "name": "NEFFY",
+    "url": "/zh/database/artists/groups/valis/members/neffy/",
+    "image": null,
+    "labels": {
+      "zh": "NEFFY",
+      "ja": "NEFFY",
+      "en": "NEFFY"
+    }
+  },
+  {
+    "id": "nina",
+    "type": "person",
+    "name": "NINA",
+    "url": "/zh/database/artists/groups/valis/members/nina/",
+    "image": null,
+    "labels": {
+      "zh": "NINA",
+      "ja": "NINA",
+      "en": "NINA"
+    }
+  },
+  {
+    "id": "onuma-parsley",
+    "type": "person",
+    "name": "大沼パセリ",
+    "url": "/zh/database/creators/onuma-parsley/",
+    "image": null,
+    "labels": {
+      "zh": "大沼パセリ",
+      "ja": "大沼パセリ",
+      "en": "Onuma Parsley"
+    }
+  },
+  {
+    "id": "orihime",
+    "type": "virtual-avatar",
+    "name": "御莉姫",
+    "url": "/zh/database/artists/groups/sinseiki/members/orihime/",
+    "image": "/images/artists/orihime.png",
+    "labels": {
+      "zh": "御莉姫",
+      "ja": "御莉姫",
+      "en": "ORIHIME"
+    }
+  },
+  {
+    "id": "palow",
+    "type": "person",
+    "name": "PALOW.",
+    "url": "/zh/database/staff/palow/",
+    "image": "/images/artists/palow.png",
+    "labels": {
+      "zh": "PALOW.",
+      "ja": "PALOW.",
+      "en": "PALOW."
+    }
+  },
+  {
+    "id": "piedpiper",
+    "type": "person",
+    "name": "PIEDPIPER",
+    "url": "/zh/database/staff/piedpiper/",
+    "image": "/images/artists/piedpiper.png",
+    "labels": {
+      "zh": "PIEDPIPER",
+      "ja": "PIEDPIPER",
+      "en": "PIEDPIPER"
+    }
+  },
+  {
+    "id": "rara",
+    "type": "person",
+    "name": "RARA",
+    "url": "/zh/database/artists/groups/valis/members/rara/",
+    "image": null,
+    "labels": {
+      "zh": "RARA",
+      "ja": "RARA",
+      "en": "RARA"
+    }
+  },
+  {
+    "id": "ren",
+    "type": "person",
+    "name": "Ren",
+    "url": "/zh/database/creators/ren/",
+    "image": "/images/artists/ren.jpg",
+    "labels": {
+      "zh": "Ren",
+      "ja": "Ren",
+      "en": "Ren"
+    }
+  },
+  {
+    "id": "rim",
+    "type": "virtual-avatar",
+    "name": "理芽",
+    "url": "/zh/database/artists/solo/rim/",
+    "image": "/images/artists/rim.png",
+    "labels": {
+      "zh": "理芽",
+      "ja": "理芽",
+      "en": "RIM"
+    }
+  },
+  {
+    "id": "rime",
+    "type": "software-voice",
+    "name": "裏命",
+    "url": "/zh/database/isotopes/rime/",
+    "image": "/images/artists/rime.jpg",
+    "labels": {
+      "zh": "裏命",
+      "ja": "裏命",
+      "en": "RIME"
+    }
+  },
+  {
+    "id": "rinne-koko",
+    "type": "lore-concept",
+    "name": "輪廻此処",
+    "url": "/zh/database/lore/rinne-koko/",
+    "image": null,
+    "labels": {
+      "zh": "輪廻此処",
+      "ja": "輪廻此処",
+      "en": "Rinne Koko"
+    }
+  },
+  {
+    "id": "sekai",
+    "type": "software-voice",
+    "name": "星界",
+    "url": "/zh/database/isotopes/sekai/",
+    "image": "/images/artists/sekai.jpg",
+    "labels": {
+      "zh": "星界",
+      "ja": "星界",
+      "en": "SEKAI"
+    }
+  },
+  {
+    "id": "sinseiki",
+    "type": "unit",
+    "name": "心世紀",
+    "url": "/zh/database/artists/groups/sinseiki/",
+    "image": "/images/artists/sinseiki.jpg",
+    "labels": {
+      "zh": "心世紀",
+      "ja": "心世紀",
+      "en": "SINSEIKI"
+    }
+  },
+  {
+    "id": "sooda",
+    "type": "unit",
+    "name": "Sooda",
+    "url": "/zh/database/artists/solo/sooda/",
+    "image": "/images/artists/sooda.jpg",
+    "labels": {
+      "zh": "Sooda",
+      "ja": "Sooda",
+      "en": "Sooda"
+    }
+  },
+  {
+    "id": "teresa",
+    "type": "virtual-avatar",
+    "name": "teresaAI",
+    "url": "/zh/database/artists/solo/teresa/",
+    "image": "/images/artists/teresa.jpg",
+    "labels": {
+      "zh": "teresaAI",
+      "ja": "teresaAI",
+      "en": "teresaAI"
+    }
+  },
+  {
+    "id": "toa",
+    "type": "person",
+    "name": "Toa",
+    "url": "/zh/database/creators/toa/",
+    "image": "/images/artists/toa.jpg",
+    "labels": {
+      "zh": "Toa",
+      "ja": "Toa",
+      "en": "Toa"
+    }
+  },
+  {
+    "id": "tokiwa",
+    "type": "person",
+    "name": "tokiwa",
+    "url": "/zh/database/creators/tokiwa/",
+    "image": "/images/artists/tokiwa.png",
+    "labels": {
+      "zh": "tokiwa",
+      "ja": "tokiwa",
+      "en": "tokiwa"
+    }
+  },
+  {
+    "id": "tsukisimasouki",
+    "type": "person",
+    "name": "月岛总记",
+    "url": "/zh/database/staff/tsukisimasouki/",
+    "image": "/images/artists/tsukisimasouki.jpg",
+    "labels": {
+      "zh": "月岛总记",
+      "ja": "月島総記",
+      "en": "Souki Tsukishima"
+    }
+  },
+  {
+    "id": "tsumitobatsu",
+    "type": "unit",
+    "name": "罪十罰",
+    "url": "/zh/database/artists/groups/tsumitobatsu/",
+    "image": "/images/artists/tsumitobatsu.jpg",
+    "labels": {
+      "zh": "罪十罰",
+      "ja": "罪十罰",
+      "en": "TSUMITOBATSU"
+    }
+  },
+  {
+    "id": "valis",
+    "type": "unit",
+    "name": "VALIS",
+    "url": "/zh/database/artists/groups/valis/",
+    "image": "/images/artists/valis.png",
+    "labels": {
+      "zh": "VALIS",
+      "ja": "ヴァリス",
+      "en": "VALIS"
+    }
+  },
+  {
+    "id": "vitte",
+    "type": "person",
+    "name": "VITTE",
+    "url": "/zh/database/artists/groups/valis/members/vitte/",
+    "image": null,
+    "labels": {
+      "zh": "VITTE",
+      "ja": "VITTE",
+      "en": "VITTE"
+    }
+  },
+  {
+    "id": "vwp",
+    "type": "unit",
+    "name": "V.W.P -Virtual Witch Phenomenon-",
+    "url": "/zh/database/artists/groups/vwp/",
+    "image": "/images/artists/vwp.jpg",
+    "labels": {
+      "zh": "V.W.P -Virtual Witch Phenomenon-",
+      "ja": "V.W.P -Virtual Witch Phenomenon-",
+      "en": "V.W.P -Virtual Witch Phenomenon-"
+    }
+  },
+  {
+    "id": "yagyu-rime",
+    "type": "lore-concept",
+    "name": "谷置狸眼",
+    "url": "/zh/database/lore/yagyu-rime/",
+    "image": null,
+    "labels": {
+      "zh": "谷置狸眼",
+      "ja": "谷置狸眼",
+      "en": "Yagoki Rime"
+    }
+  },
+  {
+    "id": "yogawa-sekai",
+    "type": "lore-concept",
+    "name": "夜河世界",
+    "url": "/zh/database/lore/yogawa-sekai/",
+    "image": null,
+    "labels": {
+      "zh": "夜河世界",
+      "ja": "夜河世界",
+      "en": "Yogawa Sekai"
+    }
+  },
+  {
+    "id": "yunagi",
+    "type": "virtual-avatar",
+    "name": "夕凪機",
+    "url": "/zh/database/artists/groups/tsumitobatsu/members/yunagi/",
+    "image": "/images/artists/yunagi.png",
+    "labels": {
+      "zh": "夕凪機",
+      "ja": "夕凪機",
+      "en": "YUNAGI"
+    }
+  },
+  {
+    "id": "yunosuke",
+    "type": "person",
+    "name": "Yunosuke",
+    "url": "/zh/database/creators/yunosuke/",
+    "image": "/images/artists/yunosuke.jpg",
+    "labels": {
+      "zh": "Yunosuke",
+      "ja": "Yunosuke",
+      "en": "Yunosuke"
+    }
+  }
+]

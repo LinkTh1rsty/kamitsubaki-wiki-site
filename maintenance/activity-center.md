@@ -24,3 +24,11 @@
 Wiki 启动必须按 `maintenance/README.md` 配置隔离注册表及全部业务 API；不得载入生产 .env。390px 验收入口由本机 API 的 `/__local__/responsive?path=/zh/events/` 提供。结束前记录进程、端口、截图、命令和限制。
 
 单元测试：`node --test tests/activity-center.test.mjs tests/calendar-month.test.mjs tests/workspace-boundary.test.mjs`。其余检查仍按 CONTRIBUTING 执行。生产联调和发布需要独立批准与证据；本机样例不证明上游真实连通性。
+
+## 已选第一方案（2026-10-25）
+
+主规范为 [DESIGN.md](../DESIGN.md)，选稿及桌面/手机实图见 [视觉验收](../design-qa.md#活动中心第一方案验收2026-10-25)。桌面标题与来源切换同排、单行工具栏、双栏完整海报索引、月历与当日详情；手机默认列表，时间范围、搜索及视图移动到唯一筛选面板，保留同一表单节点，不复制状态。布局切换监听器随组件卸载清理。
+
+未定日期不提供定位或单活动 ICS；仅日期已知不等于全天开放，不额外写“全天”。加载阶段不锁定默认日期，返回数据后选择实际活动日。月份列表标题使用月份，不显示日历补齐周造成的范围。
+
+本机真实内容展示可给后端预览脚本设置 `ACTIVITY_PREVIEW_PUBLIC_SNAPSHOT`（公开 API 快照）和 `ACTIVITY_PREVIEW_POSTER_DIR`（含 activity-poster-0.jpg、activity-poster-1.jpg）。这些只用于一次性内存库，不能导入私有记录。作者端回执分别标明宣传开始/结束与时区；审核通过不等于取得推荐位置。

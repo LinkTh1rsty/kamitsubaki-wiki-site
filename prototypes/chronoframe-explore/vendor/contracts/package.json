@@ -1,0 +1,33 @@
+{
+  "name": "@chronoframe/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./storage": "./src/storage.ts",
+    "./upload": "./src/upload.ts",
+    "./photo": "./src/photo.ts",
+    "./location": "./src/location.ts",
+    "./resources": "./src/resources.ts",
+    "./album-slug": "./src/album-slug.ts",
+    "./settings": "./src/settings.ts",
+    "./social-links": "./src/social-links.ts",
+    "./queue": "./src/queue.ts",
+    "./entry": "./src/entry.ts",
+    "./storage-diagnostics": "./src/storage-diagnostics.ts",
+    "./gallery-settings": "./src/gallery-settings.ts",
+    "./reactions": "./src/reactions.ts",
+    "./domains": "./src/domains.ts"
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^4.6.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "license": "MIT"
+}

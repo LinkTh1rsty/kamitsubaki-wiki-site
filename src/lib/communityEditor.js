@@ -87,7 +87,17 @@ export function initCommunityEditor(root,options={}){
  };
 
  const labeled=(control,text)=>{const label=element('label');label.append(element('span',text),control);return label;};
- const addLink=(data={})=>{const row=element('div');row.className='community-editor-row';row.dataset.linkMetadata=JSON.stringify(data);const label=element('input');label.dataset.linkLabel='';label.placeholder=c.label;label.value=data.label||'';const url=element('input');url.type='url';url.dataset.linkUrl='';url.placeholder='https://';url.value=data.url||'';row.append(labeled(label,c.label),labeled(url,c.url),button(c.remove,()=>{row.remove();retain();}));$('[data-editor-links]').append(row);};
+ const addLink=(data={})=>{
+  const row=element('div');row.className='community-editor-row';row.dataset.linkMetadata=JSON.stringify(data);
+  const label=element('input');label.dataset.linkLabel='';label.placeholder=c.label;label.value=data.label||'';
+  const url=element('input');url.type='url';url.dataset.linkUrl='';url.placeholder='https://';url.value=data.url||'';
+  const role=element('select');for(const [value,text]of [['other',c.otherLink||'其他'],['registration',c.registrationLink||'报名'],['submission',c.submissionLink||'投稿'],['live',c.liveLink||'直播'],['replay',c.replayLink||'回放']])option(role,value,text);role.value=data.role||'other';
+  const primary=element('input');primary.type='checkbox';primary.checked=!!data.primary;
+  const starts=element('input'),ends=element('input');starts.dataset.linkStarts='';ends.dataset.linkEnds='';starts.value=data.startsAt||'';ends.value=data.endsAt||'';starts.placeholder=ends.placeholder='2026-10-25T18:00:00+08:00';
+  const sync=()=>{row.dataset.linkMetadata=JSON.stringify({...data,role:role.value,primary:primary.checked,startsAt:starts.value,endsAt:ends.value});};
+  for(const control of [role,primary,starts,ends])control.addEventListener('input',sync);
+  row.append(labeled(label,c.label),labeled(url,c.url),labeled(role,c.linkRole||'链接用途'),labeled(primary,c.linkPrimary||'作为主参与入口'),labeled(starts,c.linkStarts||'生效时间（含时区，可留空）'),labeled(ends,c.linkEnds||'失效时间（含时区，可留空）'),button(c.remove,()=>{row.remove();retain();}));$('[data-editor-links]').append(row);
+ };
  const addDeadline=(d={})=>{
   const row=element('div');row.className='community-editor-row';row.dataset.pointId=d.id||crypto.randomUUID();
   const type=element('select');type.dataset.deadlineType='';type.setAttribute('aria-label',c.deadlines||'Deadline type');for(const t of ['registration','submission','support'])option(type,t,t==='support'?c.supportDeadline:c[t]);type.value=d.type||'registration';
@@ -116,6 +126,11 @@ export function initCommunityEditor(root,options={}){
   if(strict){required(field('title'));if(!options.series){for(const key of ['summary','organizer','sourceUrl'])required(field(key));if(picker&&field('mode').value!=='online'&&field('locationPrecision').value!=='pending'){required(field('country'));required(field(field('locationPrecision').value==='manual'?'city':'cityId'));}if(field('eventStatus').value!=='scheduled')required(field('changeNote'));}}
   for(const key of ['organizerUrl','sourceUrl'])validUrl(field(key));
   root.querySelectorAll('[data-link-url],.community-editor-media input[type=url]').forEach(validUrl);
+  for(const row of $('[data-editor-links]').children){
+   const start=row.querySelector('[data-link-starts]'),end=row.querySelector('[data-link-ends]');
+   for(const control of [start,end])if(control.value&&(!/T.*(?:Z|[+-]\d\d:\d\d)$/.test(control.value)||!Number.isFinite(Date.parse(control.value))))error(control,c.invalidTime);
+   if(start.value&&end.value&&Date.parse(end.value)<=Date.parse(start.value))error(end,c.endBeforeStart);
+  }
   if(!options.series){
    const schedule=(kind,start,end,zone,choice='earlier',endChoice='earlier')=>{
     try{new Intl.DateTimeFormat('en',{timeZone:zone.value}).format();}catch{error(zone,c.invalidZone);return;}

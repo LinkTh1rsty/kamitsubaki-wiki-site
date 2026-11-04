@@ -1,0 +1,50 @@
+{
+  "name": "wiki-chronoframe-explore",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "packageManager": "pnpm@11.1.1",
+  "scripts": {
+    "dev": "nuxt dev --host 127.0.0.1 --port 18360",
+    "build:viewer": "pnpm --dir vendor/webgl-image build",
+    "build": "pnpm build:viewer && nuxt build",
+    "preview": "wrangler dev --cwd .output --ip 127.0.0.1 --port 18360 --inspector-port 18361 --local",
+    "test": "node --test tests/*.test.mjs",
+    "prepare": "nuxt prepare"
+  },
+  "dependencies": {
+    "@chronoframe/gallery": "workspace:*",
+    "@chronoframe/contracts": "workspace:*",
+    "@chronoframe/webgl-image": "workspace:*",
+    "nuxt": "4.6.1",
+    "@nuxt/ui": "4.11.3",
+    "@nuxtjs/i18n": "10.6.0",
+    "@pinia/nuxt": "0.11.3",
+    "@vueuse/nuxt": "14.4.0",
+    "dayjs-nuxt": "2.1.11",
+    "motion-v": "2.6.0",
+    "nuxt-auth-utils": "0.5.31",
+    "nuxt-gtag": "4.1.0",
+    "nuxt-mapbox": "1.6.4",
+    "nuxt-maplibre": "1.2.2",
+    "nuxt-og-image": "6.10.3",
+    "vue": "3.5.43",
+    "pinia": "3.0.4",
+    "@nuxtjs/color-mode": "4.0.1",
+    "@iconify-json/tabler": "latest",
+    "@iconify-json/mdi": "latest",
+    "@fontsource/rubik": "latest",
+    "@fontsource/noto-sans-sc": "latest",
+    "dayjs": "1.11.23",
+    "maplibre-gl": "5.24.0",
+    "@indoorequal/vue-maplibre-gl": "8.4.2",
+    "file-type": "22.1.1",
+    "swiper": "12.2.0",
+    "tailwind-merge": "3.7.0",
+    "thumbhash": "0.1.1"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "wrangler": "4.151.3"
+  }
+}

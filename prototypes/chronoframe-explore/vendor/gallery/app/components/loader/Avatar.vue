@@ -1,0 +1,44 @@
+<script lang="ts" setup>
+import { DEFAULT_AVATAR_URL } from '#gallery/utils/avatar'
+</script>
+
+<template>
+  <div class="relative size-24">
+    <div
+      class="absolute inset-0 rounded-full border-2 border-transparent border-x-primary-600 border-y-secondary-600 dark:border-x-primary-400 dark:border-y-secondary-400 animate-spin drop-shadow-xl drop-shadow-primary/10"
+    ></div>
+
+    <div
+      class="absolute inset-1 rounded-full overflow-hidden drop-shadow-xl drop-shadow-primary/10 bg-neutral-100 dark:bg-neutral-800"
+    >
+      <img
+        v-if="getSetting('app:avatarUrl')"
+        class="w-full h-full object-cover"
+        :src="getSetting('app:avatarUrl')?.toString()"
+        :alt="$t('ui.loading')"
+        @error="handleAvatarError"
+      />
+      <img
+        v-else
+        class="w-full h-full object-cover"
+        :src="DEFAULT_AVATAR_URL"
+        :alt="$t('ui.loading')"
+      />
+    </div>
+  </div>
+</template>
+
+<style scoped>
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 0.8s linear infinite;
+}
+</style>

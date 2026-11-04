@@ -1,0 +1,80 @@
+[
+  {
+    "path": "app/components/masonry/Root.vue",
+    "matchesUpstream": false,
+    "upstreamSha256": "7e9cddc2823dd6ea6c81419e97a71abf8c3325a9eedaf6da1ba0e98918ecee11",
+    "adaptedSha256": "d21b26cc4598c92ba5132f37963dfaeff65fddfbccef5f99ee838afd78555e44",
+    "onlyChanges": "Bound rendered cards, preserve visible-window identity while preparing offscreen metadata, synchronize paginated viewer; type-only callback signature. Template geometry, CSS and animation definitions unchanged."
+  },
+  {
+    "path": "app/components/masonry/Item.vue",
+    "matchesUpstream": true,
+    "upstreamSha256": "dae5c58273a9c11ab182ae6db651d2498456be94da19638f20917b668bf64771",
+    "adaptedSha256": "dae5c58273a9c11ab182ae6db651d2498456be94da19638f20917b668bf64771"
+  },
+  {
+    "path": "app/components/masonry/item/Header.vue",
+    "matchesUpstream": false,
+    "upstreamSha256": "7bc663bf6a88ee4d263a1af3f765f037fcbeba07a4c6fd26399bd126effee20a",
+    "adaptedSha256": "039e98ce9263855267750738bc52dc4bddc7cf5d14e02f3f864a4d618656e12f",
+    "onlyChanges": "Use the original SVG as the loader fallback URL; template geometry, styles and motion retained."
+  },
+  {
+    "path": "app/components/masonry/item/HeaderIdentity.vue",
+    "matchesUpstream": false,
+    "upstreamSha256": "8ed98be6e4ecd1570182cd5755f7d6086dec78760d5f0ba2f01af70a81dee6c3",
+    "adaptedSha256": "053dc1435a77b67315a0c9c2eb087565dfe59019e862ea5719125de27840aba6",
+    "onlyChanges": "Close sign-in and use original SVG as fallback; geometry/styles/motion unchanged."
+  },
+  {
+    "path": "app/components/masonry/item/HeaderStats.vue",
+    "matchesUpstream": true,
+    "upstreamSha256": "8f54d51cd355507ab4f3797a1310099f0d740462ed18487840f77c955d696559",
+    "adaptedSha256": "8f54d51cd355507ab4f3797a1310099f0d740462ed18487840f77c955d696559"
+  },
+  {
+    "path": "app/components/masonry/item/Photo.vue",
+    "matchesUpstream": false,
+    "upstreamSha256": "5f9dcf9585d1c0961ab72dde332f5f55cff53c1b2ed3d71d129654ce6787625a",
+    "adaptedSha256": "fcb1ec7796feb3c1124c6b4d090c05fdfbf7eb8b4f4d974fe1350f35170551a4",
+    "onlyChanges": "Remove duplicate eager Image() preload for no-store proxy; ThumbImage alone preloads1200px before viewport. Original template geometry, styles and motion retained."
+  },
+  {
+    "path": "app/components/photo/InfoPanel.vue",
+    "matchesUpstream": false,
+    "upstreamSha256": "cdcb8aae1c29dab3af484f69a3a2d9688d5497da5595a5dfdfd801389f925e85",
+    "adaptedSha256": "a51ac8977ab9f2b4e8485914c632f4ed0f968c1eec4ffec72173f775c8691244",
+    "onlyChanges": "Prefix album document URLs with the mounted base; original styles/motion retained."
+  },
+  {
+    "path": "app/components/overlay/FilterPanel.vue",
+    "matchesUpstream": false,
+    "upstreamSha256": "e28e2db414023351cadb258c56a8afd2bd75076ddb7277eb273838808ee5b50b",
+    "adaptedSha256": "b7453cfb0018567ed7665f261c7427bd3ec8e27366e4d92d71d91fd489e3f249",
+    "onlyChanges": "Show only real tag/text filtering; original template and styles remain."
+  },
+  {
+    "path": "app/components/overlay/SortPanel.vue",
+    "matchesUpstream": true,
+    "upstreamSha256": "ee62ac4c247a5bb7ab119180f34adfb1ef14320d06e172d5a8210bc4dd61fe30",
+    "adaptedSha256": "ee62ac4c247a5bb7ab119180f34adfb1ef14320d06e172d5a8210bc4dd61fe30"
+  },
+  {
+    "path": "app/assets/css/tailwind.css",
+    "matchesUpstream": true,
+    "upstreamSha256": "d9789ca9ee4590ed3c5d66f5b2340d74faba33ef0ce1bae325bedffcf62c5067",
+    "adaptedSha256": "d9789ca9ee4590ed3c5d66f5b2340d74faba33ef0ce1bae325bedffcf62c5067"
+  },
+  {
+    "path": "app/components/album/Listing.vue",
+    "source": "v1.0.2:app/pages/albums/index.vue",
+    "sourceCommit": "730eaddc511662741f48c2fa80108847d24325ce",
+    "templateAndStylesSha256": "fa34598febd203bca4f4a6a35ef04c3bb9011913cec003b31a137c13f4d8ba4d",
+    "templateAndStylesMatchUpstream": true,
+    "motionScriptMatchesUpstream": true,
+    "onlyChanges": [
+      "type import",
+      "API transport"
+    ]
+  }
+]

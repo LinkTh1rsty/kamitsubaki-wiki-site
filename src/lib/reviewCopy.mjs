@@ -7,4 +7,11 @@ ja:{title:'自分の審査記録',intro:'意見を確認して返信し、修正
 };
 const states={zh:{pending:'待审核',rejected:'请求修改',approved:'已通过',draft:'草稿'},en:{pending:'Pending review',rejected:'Changes requested',approved:'Approved',draft:'Draft'},ja:{pending:'審査待ち',rejected:'修正依頼',approved:'承認済み',draft:'下書き'},'zh-tw':{pending:'待審核',rejected:'請求修改',approved:'已通過',draft:'草稿'},'zh-hk':{pending:'待審核',rejected:'請求修改',approved:'已通過',draft:'草稿'}};
 const recovery={zh:{unrecorded:'提交时间未记录',discard:'放弃尚未提交的回复或修改并重新读取？'},en:{unrecorded:'Submission time not recorded',discard:'Discard unsent replies or changes and reload?'},ja:{unrecorded:'提出日時は未記録です',discard:'未送信の返信や変更を破棄して再読み込みしますか？'},'zh-tw':{unrecorded:'提交時間未記錄',discard:'放棄尚未提交的回覆或修改並重新讀取？'},'zh-hk':{unrecorded:'提交時間未記錄',discard:'放棄尚未提交的回覆或修改並重新讀取？'}};
-export const reviewCopy=locale=>({...common[locale]||common.zh,...recovery[locale]||recovery.zh,states:{...(states[locale]||states.zh),withdrawn:({zh:'已撤回',en:'Withdrawn',ja:'撤回済み','zh-tw':'已撤回','zh-hk':'已撤回'})[locale]||'已撤回'},more:({zh:'加载更多',en:'Load more',ja:'さらに読み込む','zh-tw':'載入更多','zh-hk':'載入更多'})[locale]||'加载更多'});
+const githubStates={
+ zh:{open:'待审核',changes:'请求修改',closed:'已关闭',merged:'已合并 · 等待公开',published:'已公开',failed:'已合并 · 公开失败',paused:'同步已暂停',conflict:'需要处理版本冲突'},
+ en:{open:'Pending review',changes:'Changes requested',closed:'Closed',merged:'Merged · awaiting publication',published:'Published',failed:'Merged · publication failed',paused:'Sync paused',conflict:'Version conflict'},
+ ja:{open:'審査待ち',changes:'修正依頼',closed:'終了',merged:'マージ済み・公開待ち',published:'公開済み',failed:'マージ済み・公開失敗',paused:'同期停止中',conflict:'版の競合'},
+ 'zh-tw':{open:'待審核',changes:'請求修改',closed:'已關閉',merged:'已合併 · 等待公開',published:'已公開',failed:'已合併 · 公開失敗',paused:'同步已暫停',conflict:'需要處理版本衝突'},
+ 'zh-hk':{open:'待審核',changes:'請求修改',closed:'已關閉',merged:'已合併 · 等待公開',published:'已公開',failed:'已合併 · 公開失敗',paused:'同步已暫停',conflict:'需要處理版本衝突'}
+};
+export const reviewCopy=locale=>({...common[locale]||common.zh,...recovery[locale]||recovery.zh,newDiscussion:({zh:'补充说明或发起讨论',en:'Add information or start a discussion',ja:'補足情報や新しい議論を投稿','zh-tw':'補充說明或發起討論','zh-hk':'補充說明或發起討論'})[locale]||'补充说明或发起讨论',states:{...(states[locale]||states.zh),...(githubStates[locale]||githubStates.zh),withdrawn:({zh:'已撤回',en:'Withdrawn',ja:'撤回済み','zh-tw':'已撤回','zh-hk':'已撤回'})[locale]||'已撤回'},more:({zh:'加载更多',en:'Load more',ja:'さらに読み込む','zh-tw':'載入更多','zh-hk':'載入更多'})[locale]||'加载更多'});
