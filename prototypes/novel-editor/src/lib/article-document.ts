@@ -1,3 +1,4 @@
+import {normalizeYamlDates} from './yaml-compat';
 import {parseDocument} from 'yaml';
 import {importMarkdown,parseVisualBlocks} from '../../../../src/lib/visualEditor.mjs';
 import {reviewAttachments,type ReviewAttachment} from './review-attachments';
@@ -31,7 +32,7 @@ export function articleSourceWithContent(source:string,content:ArticleContent) {
  for(const [key,value]of Object.entries(next))if(!(meta[key]===undefined&&(value===''||Array.isArray(value)&&value.length===0||key==='articleCategory'&&value==='archival'))&&JSON.stringify(meta[key])!==JSON.stringify(value)){doc.set(key,value);changed=true;}
  if(!content.mediaRefs?.length&&meta.articleMediaRefs!==undefined){doc.delete('articleMediaRefs');changed=true;}
  const newline=match[0].includes('\r\n')?'\r\n':'\n',prefix=changed?`${source.startsWith('\uFEFF')?'\uFEFF':''}---${newline}${doc.toString({lineWidth:0}).trimEnd().replaceAll('\n',newline)}${newline}---${newline}`:match[0];
- return prefix+content.body;
+ return normalizeYamlDates(prefix+content.body);
 }
 export function validateArticleContent(content:ArticleContent,submit=false) {
  if(content.title.length>200)throw Error('文章标题最多 200 字。');if(content.summary.length>1000)throw Error('一句话简介最多 1000 字。');if(content.body.length>200000)throw Error('文章正文过长，请拆分为多篇文章。');

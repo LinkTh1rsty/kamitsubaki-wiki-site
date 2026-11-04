@@ -112,7 +112,7 @@ test('changing title retains body, YAML comments and unrecognized metadata', () 
   assert.ok(output.includes('# 保留 YAML 注释'));
 });
 test('cleared optional metadata is omitted and an untouched body remains byte-for-byte', () => {
-  const source = wrap('原文  {{ruby::花譜::かふ}}\n\n<!-- 资料说明 -->').replace('relations: []', 'publishDate: 2026-10-13\nrelations: []');
+  const source = wrap('原文  {{ruby::花譜::かふ}}\n\n<!-- 资料说明 -->').replace('relations: []', 'publishDate: "2026-10-13"\nrelations: []');
   const loaded = loadWikiDocument(editor, source);
   const output = exportWikiDocument(editor, loaded.context, { ...loaded.metadata, publishDate: '' });
   assert.equal(parseDocument(output.match(/^---\n([\s\S]*?)\n---/)![1]).toJS().publishDate, undefined);
@@ -368,4 +368,16 @@ test('unfinished block edits restore after reopening without reusing source prov
   assert.equal(recovered.range.from, editor.state.doc.content.size);
   assert.equal(recovered.draftAttrs.data.text, attrs.data.text);
   assert.equal(editor.state.doc.firstChild!.textContent, '另一份正文。');
+});
+
+test('actual workbench saves new dates and repairs unchanged imported dates',()=>{
+ const source=wrap('Body remains unchanged.').replace('relations: []','relations: []\naliases: [2021-11-18T00:00:00.000Z]');
+ const loaded=loadWikiDocument(editor,source);
+ for(const metadata of [loaded.metadata,{...loaded.metadata,publishDate:'2021-11-18'}]){
+  const result=exportWikiDocument(editor,loaded.context,metadata);
+  const data=parseDocument(result.split('---')[1],{customTags:['timestamp']}).toJS();
+  assert.equal(data.aliases[0],'2021-11-18T00:00:00.000Z');
+  if(metadata.publishDate)assert.equal(data.publishDate,'2021-11-18');
+  assert.equal(result.split('---').slice(2).join('---'),source.split('---').slice(2).join('---'));
+ }
 });
