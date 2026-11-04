@@ -12,16 +12,16 @@ roles:
   - composer
 lifecycle:
   activity: active
-  startedAt: 2021-11-18
+  startedAt: "2021-11-18"
 affiliations:
   - organization: sinsekai-record
     current: false
-    startDate: 2018-11-18
-    endDate: 2025-09-12
+    startDate: "2018-11-18"
+    endDate: "2025-09-12"
     endReason: transferred
   - organization: pndr
     current: true
-    startDate: 2025-09-12
+    startDate: "2025-09-12"
 summary: |-
   以玻璃般清澈、脆弱与温柔并存的声线专注于演唱；创作能在日常中悄然给予人前行力量的歌词并倾力于作曲。
   穿梭于民谣、网络音乐、流行音乐、独立音乐与实验音乐等数个音乐风格领域的创作型歌手。
