@@ -106,7 +106,7 @@ function outputMetadata(draft){
  return meta;
 }
 export function exportMarkdown(draft) {
-  const doc = parseDocument(draft.originalMeta || '{}');
+  const doc = parseDocument(draft.originalMeta || '{}', {compat:'yaml-1.1'});
   if (doc.errors.length) throw new Error('Invalid frontmatter');
   if (!draft.originalMeta) doc.contents.flow = false;
   const old = doc.toJS({ maxAliasCount: 100 });
@@ -117,7 +117,10 @@ export function exportMarkdown(draft) {
   for (const [key, value] of Object.entries(outputMeta)) {
     if (JSON.stringify(old?.[key]) !== JSON.stringify(value)) doc.set(key, value);
   }
-  const metaSame = JSON.stringify(old) === JSON.stringify(outputMeta);
+  // Astro uses YAML timestamp/number resolution; normalize ambiguous imported scalars too.
+  const legacy = parseDocument(draft.originalMeta || '{}', {version:'1.1'});
+  const compatible = !legacy.errors.length && JSON.stringify(legacy.toJS()) === JSON.stringify(old);
+  const metaSame = compatible && JSON.stringify(old) === JSON.stringify(outputMeta);
   if (draft.originalDocument && metaSame && JSON.stringify(draft.blocks) === draft.originalBlocks) return draft.originalDocument;
   let body = draft.blocks.map(b => blockMarkdown(b, draft.meta.locale)).join('\n\n');
   if (draft.originalBody !== undefined && draft.blockRanges?.length === draft.blocks.length && draft.blocks.every((b,i)=>b.id===draft.blockRanges[i].id)) {
