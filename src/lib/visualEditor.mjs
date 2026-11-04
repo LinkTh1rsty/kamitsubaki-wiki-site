@@ -118,7 +118,7 @@ export function exportMarkdown(draft) {
     if (JSON.stringify(old?.[key]) !== JSON.stringify(value)) doc.set(key, value);
   }
   // Astro uses YAML timestamp/number resolution; normalize ambiguous imported scalars too.
-  const legacy = parseDocument(draft.originalMeta || '{}', {version:'1.1'});
+  const legacy = parseDocument(draft.originalMeta || '{}', {customTags:['timestamp']});
   const compatible = !legacy.errors.length && JSON.stringify(legacy.toJS()) === JSON.stringify(old);
   const metaSame = compatible && JSON.stringify(old) === JSON.stringify(outputMeta);
   if (draft.originalDocument && metaSame && JSON.stringify(draft.blocks) === draft.originalBlocks) return draft.originalDocument;
