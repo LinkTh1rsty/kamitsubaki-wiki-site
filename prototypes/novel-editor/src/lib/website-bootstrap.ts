@@ -1,3 +1,4 @@
+import {normalizeYamlDates} from './yaml-compat';
 import {parseDocument} from 'yaml';
 import type {LocalDraft} from './local-drafts';
 import type {ReviewAttachment} from './review-attachments';
@@ -10,7 +11,7 @@ import {entryDraftStorageKeys,mayOpenScopedEntryDraft,legacyEntryDraftDispositio
 import {articleLocalDraftRecord} from '../../../../src/lib/articleDraftStorage.mjs';
 import {attachmentFile} from '../../../../src/lib/editorAttachments.mjs';
 async function json(path:string){const r=await editorFetch(path,{signal:AbortSignal.timeout(15000)}),d=await r.json();if(!r.ok)throw Error(typeof d.error==='string'?d.error:d.error?.message||'无法读取原有记录。');return d;}
-function properties(source:string,values:Record<string,any>){const match=source.match(/^(?:\uFEFF)?---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);if(!match)throw Error('文档属性无法读取。');const doc=parseDocument(match[1]);for(const [key,value] of Object.entries(values))doc.set(key,value);return '---\n'+doc.toString({lineWidth:0})+'---\n'+source.slice(match[0].length);}
+function properties(source:string,values:Record<string,any>){const match=source.match(/^(?:\uFEFF)?---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);if(!match)throw Error('文档属性无法读取。');const doc=parseDocument(match[1]);for(const [key,value] of Object.entries(values))doc.set(key,value);return normalizeYamlDates('---\n'+doc.toString({lineWidth:0})+'---\n'+source.slice(match[0].length));}
 type Classic={key:string;raw:any;automatic:boolean;identity?:string;novel?:LocalDraft};
 export function classicDrafts():Classic[]{
  const host=editorHost()!,owner=host.ownerId!;if(owner==='unverified')return [];
