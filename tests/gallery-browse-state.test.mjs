@@ -90,3 +90,33 @@ test('photos become ready while catalog requests are slow, and survive a catalog
     assert.equal(b.find('[data-gallery-retry]').hidden,false);
   }finally{release();b.w.close();}
 });
+
+for(const order of [['types','facets','entities','sets/facets'],['facets','sets/facets','entities','types']]){
+ test(`type filters stay unique as catalogs settle in ${order.join(', ')} order and retry`,async()=>{
+  const releases=new Map();
+  const b=browser(()=>Response.json({items:[photo('first')],total:1,nextOffset:null}),'?type=portrait',(url,data)=>new Promise(resolve=>{
+   const key=url.pathname.slice('/api/gallery/'.length);
+   releases.set(key,()=>resolve(Response.json(key==='types'?{types:[{id:'portrait',labels:{en:'Portrait'}},{id:'cover',labels:{en:'Cover'}}]}:key==='facets'?{facets:{typeCounts:[{id:'portrait',count:7},{id:'cover',count:3}],unclassified:2}}:data)));
+  }));
+  try{
+   await until(()=>releases.size===4);
+   for(const key of order){releases.get(key)();await sleep(10);}
+   await until(()=>b.root.dataset.catalogState==='ready');
+   const filters=b.find('[data-gallery-types]');
+   assert.equal(filters.querySelectorAll('button').length,4);
+   assert.equal(filters.querySelectorAll('.gallery-count-scope').length,1);
+   const active=filters.querySelector('[data-type="portrait"]');
+   assert.equal(active.getAttribute('aria-pressed'),'true');assert.equal(active.querySelector('small').textContent,'7');
+   active.focus();releases.clear();b.find('[data-gallery-retry]').click();await until(()=>releases.size===4);
+   for(const key of [...order].reverse()){releases.get(key)();await sleep(10);}
+   await until(()=>b.root.dataset.catalogState==='ready');
+   assert.equal(filters.querySelectorAll('button').length,4);
+   assert.equal(filters.querySelectorAll('.gallery-count-scope').length,1);
+   assert.equal(b.w.document.activeElement.dataset.type,'portrait');
+   b.w.history.pushState(null,'','?view=sets');b.w.dispatchEvent(new b.w.PopStateEvent('popstate'));await sleep(20);
+   b.w.history.pushState(null,'','');b.w.dispatchEvent(new b.w.PopStateEvent('popstate'));await sleep(20);
+   assert.equal(filters.querySelectorAll('button').length,4);
+   assert.equal(filters.querySelectorAll('[aria-pressed="true"]').length,1);
+  }finally{b.w.close();}
+ });
+}
