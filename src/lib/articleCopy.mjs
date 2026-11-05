@@ -32,3 +32,11 @@ const recoveries={
  en:{authUnavailable:'Your account cannot be confirmed right now. Your writing is saved on this device; save to the cloud after reconnecting.',guest:'Import pre-login draft',unverified:'Import draft saved while account was unverified',legacy:'Import older device draft',ownerMismatch:'This draft belongs to a different account.',replace:'Importing will replace your current edits. Continue?',invalid:'Could not restore this draft.'}
 };
 for(const locale of Object.keys(recoveries))copies[locale].recovery=recoveries[locale];
+
+for(const [locale,labels] of Object.entries({
+ zh:{filteredEmpty:'没有符合条件的文章，请调整或清除筛选。',unknownAuthor:'未署名',updated:'更新于',backToArticles:'返回文章列表',continueReading:'继续阅读'},
+ 'zh-tw':{filteredEmpty:'沒有符合條件的文章，請調整或清除篩選。',unknownAuthor:'未署名',updated:'更新於',backToArticles:'返回文章列表',continueReading:'繼續閱讀'},
+ 'zh-hk':{filteredEmpty:'沒有符合條件的文章，請調整或清除篩選。',unknownAuthor:'未署名',updated:'更新於',backToArticles:'返回文章列表',continueReading:'繼續閱讀'},
+ ja:{filteredEmpty:'条件に一致する記事がありません。検索条件を変更または解除してください。',unknownAuthor:'著者不明',updated:'更新',backToArticles:'記事一覧に戻る',continueReading:'続きを読む'},
+ en:{filteredEmpty:'No articles match. Adjust or clear your filters.',unknownAuthor:'Uncredited',updated:'Updated',backToArticles:'Back to articles',continueReading:'Continue reading'}
+}))Object.assign(copies[locale],labels);

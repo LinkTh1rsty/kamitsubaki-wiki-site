@@ -84,3 +84,15 @@ test('an API failure without an explanation uses the localized service error and
   assert.equal(b.title(),b.copy.title);
  } finally {b.w.close();}
 });
+
+test('a refresh failure preserves the server-rendered article and offers retry',async()=>{
+ const b=reader({id:'already-readable',fetchImpl:async()=>{throw Error('Offline');}});
+ try{
+  b.root.querySelector('[data-article-title]').textContent='Published title';
+  b.root.querySelector('[data-article-body]').textContent='Published body';
+  const retry=b.w.document.createElement('button');retry.dataset.articleRetry='';retry.hidden=true;b.root.append(retry);
+  b.init();await b.settled('Offline');
+  assert.equal(b.title(),'Published title');assert.equal(b.root.querySelector('[data-article-body]').textContent,'Published body');assert.equal(retry.hidden,false);
+  retry.click();await b.settled('Offline');assert.equal(b.requests.length,2);
+ }finally{b.w.close();}
+});

@@ -5,7 +5,7 @@ import Icon from '../../../components/Icon.astro';
 import {articleCopy} from '../../../lib/articleCopy.mjs';
 import ContextAction from '../../../components/ContextAction.astro';
 import 'katex/dist/katex.min.css';
-import BaseLayout from '../../../layouts/BaseLayout.astro';import SiteNav from '../../../components/SiteNav.astro';import SiteFooter from '../../../components/SiteFooter.astro';import Reader from '../../../components/Reader.astro';import SharePopover from '../../../components/SharePopover.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';import SiteNav from '../../../components/SiteNav.astro';import SiteFooter from '../../../components/SiteFooter.astro';import SharePopover from '../../../components/SharePopover.astro';
 import {getCollection} from 'astro:content';import {getLocalizedSite} from '../../../lib/homeData.mjs';import {buildLocaleLinks} from '../../../lib/i18n.mjs';import {entityLocales} from '../../../lib/entityRegistry.mjs';import '../../../styles/articleWorkspace.css';
 export function getStaticPaths(){return entityLocales.map(locale=>({params:{locale}}));}
 const locale=Astro.params.locale!,site=getLocalizedSite(await getCollection('site'),locale),api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
@@ -14,9 +14,26 @@ const copy=articleCopy(locale);
 <BaseLayout title={`${copy.title} · Kamitsubaki Wiki`} lang={locale} reading metadata={{noindex:true}}>
 <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/articles/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
 <main class="article-reader" data-article-page="read" data-article-api={api} data-locale={locale}>
- <header class="article-reader-header reader-frame"><a href={`/${locale}/articles/`}><Icon name="arrow-left" /> {copy.title}</a><div class="article-reader-title-row"><h1 data-article-title><LoadingStatus label={copy.loading}/></h1><div class="article-reader-actions"><SharePopover locale={locale} deferred /><ContextAction data-article-edit hidden><IconLabel text={copy.edit}/></ContextAction><ContextAction data-article-contribute href={`/${locale}/articles/submit/`}>{locale==='en'?'Write an article':locale==='ja'?'記事を投稿':'投稿文章'}</ContextAction></div></div><p data-article-meta></p><p data-article-summary></p><section data-article-related-panel hidden><h2>{copy.related}</h2><div data-article-related class="article-related-links"></div></section><p role="status" data-article-status></p></header>
- <Reader headings={[]} contentsTitle={copy.toc} variant="entry"><article class="wiki-reader wiki-prose prose max-w-none" data-article-body></article><Fragment slot="sidebar"><details class="article-toc" data-article-toc-panel hidden><summary>{copy.toc}</summary><nav aria-label={copy.toc} data-article-toc></nav></details></Fragment></Reader>
- <aside class="article-support-note"><a data-support-open href={`/${locale}/support/`}>{locale==='en'?'Support the observatory':locale==='ja'?'観測所を支援する':'为观测站发电'}</a></aside>
-
+ <div class="article-reader-toolbar">
+  <a class="article-reader-back" href={`/${locale}/articles/`}><Icon name="arrow-left" /> {copy.backToArticles}</a>
+  <div class="article-reader-actions"><SharePopover locale={locale} deferred /><ContextAction data-article-edit hidden><IconLabel text={copy.edit}/></ContextAction><ContextAction data-article-contribute href={`/${locale}/articles/submit/`}>{locale==='en'?'Write an article':locale==='ja'?'記事を投稿':'投稿文章'}</ContextAction></div>
+ </div>
+ <div class="article-reading-layout" data-reader data-reader-variant="entry">
+  <header class="article-reader-header">
+   <h1 data-article-title><LoadingStatus label={copy.loading}/></h1>
+   <p data-article-summary></p>
+   <p role="status" data-article-status></p>
+   <button class="article-reader-retry" type="button" data-article-retry hidden>{copy.retry}</button>
+  </header>
+  <aside class="article-reader-info">
+   <div data-article-meta></div>
+   <details class="article-related" data-article-related-panel hidden open><summary>{copy.related}</summary><div data-article-related class="article-related-links"></div></details>
+   <details class="article-toc" data-article-toc-panel hidden open><summary>{copy.toc}</summary><nav aria-label={copy.toc} data-article-toc></nav></details>
+  </aside>
+  <div class="article-reader-content">
+   <article class="wiki-reader wiki-prose prose max-w-none" data-article-body></article>
+   <footer class="article-reader-end" data-article-end hidden><a href={`/${locale}/articles/`}><Icon name="arrow-left" /> {copy.backToArticles}</a></footer>
+  </div>
+ </div>
 </main><SiteFooter footer={site.footer}/></BaseLayout>
 <script>import {initArticleBrowser} from '../../../lib/articleClient';initArticleBrowser(document.querySelector<HTMLElement>('[data-article-page]')!);</script>

@@ -3,6 +3,7 @@ import {setIconLabel} from './icons.mjs';
 import {articleEntities} from './articleEntities.mjs';
 import {localizeArticleText,localizeArticleBody} from './articlePresentation.mjs';
 import {articleCopy} from './articleCopy.mjs';
+import {articleMetaHTML,articleAuthorHTML,enhanceArticleAvatars} from './articleReaderPresentation.mjs';
 export function initArticleBrowser(root:HTMLElement){
  const api=root.dataset.articleApi||'',locale=root.dataset.locale||'zh';
  const copy=articleCopy(locale),contentLocale=locale.startsWith('zh')?'zh':locale;
@@ -14,19 +15,32 @@ export function initArticleBrowser(root:HTMLElement){
   const title=root.querySelector('[data-article-title]')!;
   const id=root.dataset.articleId||new URL(location.href).searchParams.get('id');
   if(!id){title.textContent=copy.title;status.textContent=copy.missing;return;}
-  call('/items/'+encodeURIComponent(id)+'?locale='+contentLocale).then(async({article,fallback,permissions})=>{
+  const retry=root.querySelector<HTMLButtonElement>('[data-article-retry]');
+  const body=root.querySelector<HTMLElement>('[data-article-body]')!;
+  enhanceArticleAvatars(root);
+  const load=()=>{
+   if(retry)retry.hidden=true;
+   root.setAttribute('aria-busy','true');
+   return call('/items/'+encodeURIComponent(id)+'?locale='+contentLocale).then(async({article,fallback,permissions})=>{
    const displayTitle=await localizeArticleText(article.title,locale);title.textContent=displayTitle;document.title=displayTitle+' · Kamitsubaki Wiki';
-   root.querySelector('[data-article-meta]')!.textContent=`${copy.origins[article.origin as keyof typeof copy.origins]} · ${article.author} · ${article.updatedAt} · v${article.version}`+(fallback?' · '+copy.fallback:'');
-   const body=root.querySelector<HTMLElement>('[data-article-body]')!;const {articleHTML}=await import('./articleMarkdown');body.innerHTML=articleHTML(article.body,locale);await localizeArticleBody(body,locale);root.querySelector('[data-article-summary]')!.textContent=await localizeArticleText(article.summary,locale);
-   let linksFailed=false;try{const {linkArticleBody}=await import('./articleWikiLinks');await linkArticleBody(body,locale);}catch{linksFailed=true;}const {enhanceReader}=await import('./readerEnhancements.mjs');enhanceReader(body,locale);body.addEventListener('click',async event=>{const target=event.target instanceof Element?event.target.closest('[data-load-media]'):null;if(target){const {loadPreviewMedia}=await import('./editorPreview.mjs');loadPreviewMedia(target);}});safeLinks(body);
-   const toc=root.querySelector('[data-article-toc]')!;body.querySelectorAll('h1,h2,h3,h4,h5,h6').forEach((h,i)=>{h.id='article-heading-'+i;const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent;a.className='article-toc-link';a.style.paddingInlineStart=`${(Number(h.tagName.slice(1))-1)*.5}rem`;toc.append(a);});
+   root.querySelector('[data-article-meta]')!.innerHTML=articleMetaHTML(article,locale,{fallback});enhanceArticleAvatars(root);
+   const {articleHTML}=await import('./articleMarkdown');body.innerHTML=articleHTML(article.body,locale);await localizeArticleBody(body,locale);root.querySelector('[data-article-summary]')!.textContent=await localizeArticleText(article.summary,locale);
+   let linksFailed=false;try{const {linkArticleBody}=await import('./articleWikiLinks');await linkArticleBody(body,locale);}catch{linksFailed=true;}const {enhanceReader}=await import('./readerEnhancements.mjs');enhanceReader(body,locale);body.onclick=async event=>{const target=event.target instanceof Element?event.target.closest('[data-load-media]'):null;if(target){const {loadPreviewMedia}=await import('./editorPreview.mjs');loadPreviewMedia(target);}};safeLinks(body);
+   const toc=root.querySelector('[data-article-toc]')!;toc.replaceChildren();body.querySelectorAll('h1,h2,h3,h4,h5,h6').forEach((h,i)=>{h.id='article-heading-'+i;const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent;a.className='article-toc-link';a.style.paddingInlineStart=`${(Number(h.tagName.slice(1))-1)*.5}rem`;toc.append(a);});
    root.querySelector<HTMLElement>('[data-article-toc-panel]')!.hidden=!toc.children.length;
    const edit=root.querySelector<HTMLAnchorElement>('[data-article-edit]')!;edit.href=`/${locale}/articles/submit/?id=${encodeURIComponent(id)}`;if(article.locale!==contentLocale)edit.href=`/${article.locale}/articles/submit/?id=${encodeURIComponent(id)}`;edit.hidden=!permissions?.canEdit;
    root.querySelector<HTMLElement>('[data-article-contribute]')!.hidden=Boolean(permissions?.canEdit);
    const share=root.querySelector<HTMLElement>('[data-share-popover]')!;share.dataset.sharePath=`/${locale}/articles/read/${encodeURIComponent(id)}/`;share.hidden=false;
-   const relatedPanel=root.querySelector<HTMLElement>('[data-article-related-panel]')!;const links=root.querySelector('[data-article-related]')!;if(article.relatedEntities?.length)articleEntities(locale).then((entities:any[])=>{for(const id of article.relatedEntities){const entity=entities.find((e:{id:string})=>e.id===id);if(!entity)continue;const a=text('a',entity.name||entity.title||id) as HTMLAnchorElement;a.href=entity.path;links.append(a);}relatedPanel.hidden=!links.children.length;}).catch(()=>{relatedPanel.hidden=false;links.append(text('p',copy.relatedError));});
+   const relatedPanel=root.querySelector<HTMLElement>('[data-article-related-panel]')!;const links=root.querySelector('[data-article-related]')!;links.replaceChildren();relatedPanel.hidden=true;if(article.relatedEntities?.length)articleEntities(locale).then((entities:any[])=>{for(const id of article.relatedEntities){const entity=entities.find((e:{id:string})=>e.id===id);if(!entity)continue;const a=text('a',entity.name||entity.title||id) as HTMLAnchorElement;a.href=entity.path;links.append(a);}relatedPanel.hidden=!links.children.length;}).catch(()=>{relatedPanel.hidden=false;links.append(text('p',copy.relatedError));});
+   const end=root.querySelector<HTMLElement>('[data-article-end]');if(end)end.hidden=false;
    status.textContent=linksFailed?copy.relatedError:'';
-  }).catch(e=>{title.textContent=copy.title;status.textContent=e.message;});return;
+  }).catch(e=>{if(!body.textContent?.trim())title.textContent=copy.title;status.textContent=e.message;if(retry)retry.hidden=false;})
+   .finally(()=>root.removeAttribute('aria-busy'));
+  };
+  if(retry)retry.onclick=()=>{void load();};
+  // Only collapse once; retries must not discard the reader's expanded/collapsed choice.
+  if(window.matchMedia?.('(max-width: 900px)').matches)for(const panel of root.querySelectorAll<HTMLDetailsElement>('.article-reader-info details'))panel.open=false;
+  void load();return;
  }
  let related=new URL(location.href).searchParams.get('related')||'';
  const write=root.querySelector<HTMLAnchorElement>('[data-article-write]')!,filter=root.querySelector<HTMLElement>('[data-related-filter]')!;
@@ -44,8 +58,16 @@ export function initArticleBrowser(root:HTMLElement){
    const page=await call('?'+q,current.signal);const localized=await Promise.all(page.items.map(async(article:any)=>({...article,title:await localizeArticleText(article.title,locale),summary:await localizeArticleText(article.summary,locale)})));if(current.signal.aborted)return;
    form.hidden=!localized.length&&!related&&!['q','category','origin'].some(name=>Boolean(q.get(name)));
    grid.replaceChildren();const address=new URL(location.href);for(const name of ['q','category','origin','sort','offset']){const value=q.get(name);if(value&&value!=='0'&&!(name==='sort'&&value==='newest'))address.searchParams.set(name,value);else address.searchParams.delete(name);}history.replaceState(null,'',address);
-   for(const article of localized){const card=document.createElement('a');card.className='article-list-card';card.href=`/${locale}/articles/read/${encodeURIComponent(article.id)}/`;card.append(text('small',`${copy.origins[article.origin as keyof typeof copy.origins]} · ${article.updatedAt} · ${copy.categories[article.category as keyof typeof copy.categories]||article.category} · ${article.author}`),text('h2',article.title),text('p',article.summary),text('span',copy.read));grid.append(card);}
-   const pageStart=Number(q.get('offset'));previous.hidden=pageStart===0;previous.onclick=()=>{offset=Math.max(0,pageStart-24);void load();};more.onclick=()=>void load();offset=page.nextOffset;more.hidden=offset===null;state.dataset.state=grid.children.length?'ready':'empty';emptyWrite.href=write.href;emptyWrite.hidden=Boolean(grid.children.length);status.textContent=grid.children.length?copy.shown.replace('{n}',String(grid.children.length)):copy.empty;
+   for(const article of localized){
+    const card=document.createElement('a');card.className='article-list-card';card.href=`/${locale}/articles/read/${encodeURIComponent(article.id)}/`;
+    const category=text('span',copy.categories[article.category as keyof typeof copy.categories]||article.category||'');category.className='article-list-category';
+    const summary=text('p',article.summary);summary.className='article-list-summary';
+    const byline=document.createElement('div');byline.className='article-list-byline';byline.innerHTML=articleAuthorHTML(article,locale,{compact:true});
+    const origin=text('span',copy.origins[article.origin as keyof typeof copy.origins]||'');origin.className='article-list-origin';byline.append(origin);
+    card.append(category,text('h2',article.title),summary,byline);grid.append(card);
+   }
+   enhanceArticleAvatars(grid);
+   const pageStart=Number(q.get('offset'));previous.hidden=pageStart===0;previous.onclick=()=>{offset=Math.max(0,pageStart-24);void load();};more.onclick=()=>void load();offset=page.nextOffset;more.hidden=offset===null;state.dataset.state=grid.children.length?'ready':'empty';emptyWrite.href=write.href;const filtered=Boolean(related||['q','category','origin'].some(name=>q.get(name)));emptyWrite.hidden=Boolean(grid.children.length)||filtered;status.textContent=grid.children.length?copy.shown.replace('{n}',String(grid.children.length)):filtered?copy.filteredEmpty:copy.empty;
   }catch(e){if(current.signal.aborted)return;status.textContent=(e as Error).message;state.dataset.state='error';more.hidden=true;retry.hidden=false;retry.onclick=()=>void load(reset);}
   finally{if(controller===current){more.disabled=false;previous.disabled=false;root.removeAttribute('aria-busy');}}
  };
