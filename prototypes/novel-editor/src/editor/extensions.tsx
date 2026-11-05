@@ -92,7 +92,7 @@ function PreservedPreview({ source }: { source: string }) {
     fetch('/__novel/preview', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ source }), signal: controller.signal }).then(async response => { const result = await response.json(); if (!response.ok) throw new Error(result.error); restoreBrowserImages(source).then(()=>setHtml(previewHTML(result.html))); }).catch(error => { if (error.name !== 'AbortError') setError('预览暂时无法读取，原有内容仍完整保留。'); });
     return () => controller.abort();
   }, [source]);
-  return html ? <div className="wiki-preserved-preview" dangerouslySetInnerHTML={{ __html: html }} /> : <p>{error || '正在读取原有内容…'}</p>;
+  return html ? <div className="wiki-preserved-preview" onErrorCapture={event=>{const image=event.target;if(image instanceof HTMLImageElement&&image.closest('.wiki-speech-avatar'))image.hidden=true;}} dangerouslySetInnerHTML={{ __html: html }} /> : <p>{error || '正在读取原有内容…'}</p>;
 }
 function BlockView(props: NodeViewProps) {
   const data = props.node.attrs.data as WikiBlockData;
