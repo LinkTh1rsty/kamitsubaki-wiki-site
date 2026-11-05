@@ -1,10 +1,10 @@
-import {SpeechToolbar} from '@/components/speech-tools';
+import {SpeechImportDialog} from '@/components/speech-tools';
 import {documentSpeechRoles} from '@/lib/speech-editor';
 import {workbenchText as t} from '@/lib/workbench-copy';
 import { useContext, useState } from 'react';
 import type { Editor } from '@tiptap/core';
 import { NodeSelection } from '@tiptap/pm/state';
-import { Bold, Italic, Strikethrough, Underline, Code, Link, Image, List, ListOrdered, ListTodo, Quote, Table2, Undo2, Redo2, Plus, Highlighter, Type, EyeOff, ChevronDown, Music2, Tv, Sigma, ChevronRight, Eraser } from 'lucide-react';
+import { Bold, Italic, Strikethrough, Underline, Code, Link, Image, List, ListOrdered, ListTodo, Quote, Table2, Undo2, Redo2, Plus, Highlighter, Type, EyeOff, ChevronDown, Music2, Tv, Sigma, ChevronRight, Eraser, MessageSquare, FileInput } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuTrigger, DropdownMenuSeparator } from '@/components/ui/dropdown-menu';
@@ -63,8 +63,10 @@ export function FormatActions({ editor, open }: { editor: Editor; open: OpenTarg
 export function EditorToolbar({ editor, open, editingContent = false }: { editor: Editor | null; open: OpenTarget; editingContent?: boolean }) {
   const resolveTitle = useTitleResolver();
   const [tableOpen, setTableOpen] = useState(false);
+  const [speechImportOpen, setSpeechImportOpen] = useState(false);
   const { ref, width } = useContainerWidth<HTMLDivElement>();
-  const visible = visibleToolbarShortcuts(width);
+  const showSpeechShortcuts = !editingContent && width >= 640;
+  const visible = visibleToolbarShortcuts(width - (showSpeechShortcuts ? 190 : 0));
   if (!editor) return <div ref={ref} className="wiki-format-toolbar" />;
   const heading = editor.isActive('heading') ? String(editor.getAttributes('heading').level) : 'paragraph';
   const formats = [
@@ -84,6 +86,10 @@ export function EditorToolbar({ editor, open, editingContent = false }: { editor
     { id: 'clear', label: '清除文字格式', icon: Eraser, run: () => clearSelectedFormatting(editor, true, resolveTitle), can: !editingContent, active: false },
   ];
   const inserts = [
+    ...(!editingContent ? [
+      { id: 'speech', label: '发言', icon: MessageSquare, run: () => openDomain(editor, 'speech', open) },
+      { id: 'speech-import', label: '快速导入', icon: FileInput, run: () => setSpeechImportOpen(true) },
+    ] : []),
     { id: 'table', label: '表格', icon: Table2, run: () => setTableOpen(true) },
     { id: 'image', label: '图片与来源', icon: Image, run: () => openImage(editor, open) },
     { id: 'ruby', label: '振假名注音', icon: Type, run: () => openInline(editor, 'ruby', open) },
@@ -109,5 +115,5 @@ export function EditorToolbar({ editor, open, editingContent = false }: { editor
     <DropdownMenu><DropdownMenuTrigger asChild><Button variant="secondary" size="sm"><Plus data-icon="inline-start" />{t("插入")}<ChevronDown data-icon="inline-end" /></Button></DropdownMenuTrigger><DropdownMenuContent className="min-w-44"><DropdownMenuGroup>
       {inserts.map(action => <DropdownMenuItem key={action.id} onSelect={action.run}><action.icon />{action.label}</DropdownMenuItem>)}
     </DropdownMenuGroup><DropdownMenuSeparator /><DropdownMenuGroup>{Object.entries(inlineLabels).filter(([kind]) => !['ruby', 'spoiler'].includes(kind)).map(([kind, label]) => <DropdownMenuItem key={kind} onSelect={() => openInline(editor, kind, open)}>{label}</DropdownMenuItem>)}</DropdownMenuGroup></DropdownMenuContent></DropdownMenu>
-  <SpeechToolbar editor={editor} disabled={editingContent} onInsert={()=>openDomain(editor,'speech',open)}/></div><TableControls editor={editor} /><TableInsertDialog editor={editor} open={tableOpen} onClose={() => setTableOpen(false)} /></div>;
+  {showSpeechShortcuts ? <><Button size="sm" variant="ghost" onClick={() => openDomain(editor,'speech',open)}><MessageSquare/>发言</Button><Button size="sm" variant="ghost" onClick={() => setSpeechImportOpen(true)}><FileInput/>快速导入</Button></> : null}</div><SpeechImportDialog editor={editor} open={speechImportOpen} onClose={() => setSpeechImportOpen(false)} /><TableControls editor={editor} /><TableInsertDialog editor={editor} open={tableOpen} onClose={() => setTableOpen(false)} /></div>;
 }
