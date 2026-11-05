@@ -1,0 +1,1036 @@
+{
+  "task": "20261105-speech-blocks-a1",
+  "productionApplied": false,
+  "publicReadAllowlist": [
+    "https://api.kamitsubaki.wiki/api/articles?locale=zh",
+    "https://api.kamitsubaki.wiki/api/articles/items/article-0ce3ab7e390724dda607461650fbcaa2ae10a4f4?locale=zh",
+    "https://api.kamitsubaki.wiki/api/articles/items/article-b4ab2f0716334c5972b13113826ac1944aaf6f90?locale=zh",
+    "https://api.kamitsubaki.wiki/api/articles/items/article-c9842b1db5138bd337c6896645903405125e6aa7?locale=zh"
+  ],
+  "previewMediaReadAllowlist": [
+    "https://api.kamitsubaki.wiki/api/account-avatar/fd1000e4-40d4-49ad-a107-137df3d63a0a",
+    "https://images.kamitsubaki.wiki/gallery/article-assets/19ac8faa81c371d875844a4e2773f7a5d93e0fbbdd9fdb27150fa7fb67e52de5.png",
+    "https://images.kamitsubaki.wiki/gallery/article-assets/3315d181dc1ed09a6751fe97226ad6b689eec894ae85f6193b441ddf7d66cf94.jpg",
+    "https://images.kamitsubaki.wiki/gallery/article-assets/42ae24602996a90b297e17e7c2b82b3e6a817cb9f8f8a4b145b64f29d661c00c.jpg",
+    "https://images.kamitsubaki.wiki/gallery/article-assets/58a0a89cb49a49437dc68d22d129848fef733f440d7c7b174534f2005eb8c4fb.jpg",
+    "https://images.kamitsubaki.wiki/gallery/article-assets/64c1e546a06818c8a4749303dc6b5195b754701b7dc097a90b55482e5cd9e4a3.png",
+    "https://images.kamitsubaki.wiki/gallery/article-assets/811d0cdb3871e689dcf00cdbe6425c52e953c9f132fe62a6077ecc73a98892fb.jpg",
+    "https://images.kamitsubaki.wiki/gallery/article-assets/838a83ab00b0cc7f78ae1765b4b7eb56729cedd814688e703f2cc1aedad6fdc9.jpg",
+    "https://images.kamitsubaki.wiki/gallery/article-assets/9b9e0b98b6afd2b970823149f2aa89927349210d374cca1382210f40880ce4a3.jpg",
+    "https://images.kamitsubaki.wiki/gallery/article-assets/c247ff47066519fe14d71c5a2946553cf6685a8857c18d7859a4d5917b3b547c.png",
+    "https://images.kamitsubaki.wiki/gallery/article-assets/d8faf50ae2835c3f49dc445e82b45e9f5ad0582f3401851952252a770d96a119.jpg",
+    "https://images.kamitsubaki.wiki/gallery/article-assets/f974ea52b44ba9f8e0f788fdb0a605622f0b23fb06b561bba8d1197fe0c6fa71.jpg",
+    "https://lh3.googleusercontent.com/a/ACg8ocKuhWZIX1a408_tp88tc78kxwQb4cHR-Y2isiJFuL_UM-PmWx6t=s96-c",
+    "https://lh3.googleusercontent.com/a/ACg8ocLIRlFyYlqOIsEC7hTxT90na3cjoCgGpGwbSX84oMYmhGSElA=s96-c"
+  ],
+  "articles": [
+    {
+      "id": "article-0ce3ab7e390724dda607461650fbcaa2ae10a4f4",
+      "title": "不可解弐Q1场刊 花谱&理芽对谈翻译",
+      "baseVersion": 1,
+      "status": "converted",
+      "sourceBodySha256": "a2ecd217abdb303921dee8e667982a223db8fdbcc56506aeaa048d16163bb869",
+      "convertedBodySha256": "586d7d4496db690a8c2959896d651ebf840a7e21461e919a3683fbe6aaf24ae0",
+      "speechCount": 36,
+      "roles": [
+        {
+          "id": "kaf",
+          "name": "花谱",
+          "color": "#F29AC2",
+          "entityId": "kaf",
+          "href": "/zh/database/artists/solo/kaf/",
+          "avatar": "/thumbnails/7392cd105f6d6e9a16de-192.webp"
+        },
+        {
+          "id": "rim",
+          "name": "理芽",
+          "color": "#8CBEE5",
+          "entityId": "rim",
+          "href": "/zh/database/artists/solo/rim/",
+          "avatar": "/thumbnails/d771f4031e6098cebad5-192.webp"
+        }
+      ],
+      "edits": [
+        {
+          "start": 1,
+          "end": 29,
+          "role": "kaf",
+          "removedHardBreak": false,
+          "convertedStart": 1,
+          "oldSha256": "7ea44fa3a74e39bce7ecbc407b5386fb7fad7156f05213bde94d9576c7cbea8c",
+          "newSha256": "acd1bbf81212659141d7b17b6b5b95d11532ca2f11cfe160cee7a9997998855d"
+        },
+        {
+          "start": 31,
+          "end": 102,
+          "role": "rim",
+          "removedHardBreak": false,
+          "convertedStart": 30,
+          "oldSha256": "e3c73893335947cfc9eb48a3c50ffd83f0000351d23483016c704f755150d5b7",
+          "newSha256": "43447c6b255197c6c06fb78cbee43246f5726c8ff6b0840a7fa8e3d812c603af"
+        },
+        {
+          "start": 104,
+          "end": 135,
+          "role": "kaf",
+          "removedHardBreak": false,
+          "convertedStart": 102,
+          "oldSha256": "7aebb00d8fd0d48f2c6fa34f7529f209b431dad9a54a0fa1656e671a945e11cf",
+          "newSha256": "e068ec90bf499531945102e7a1c615c8770024444de329ab288f9ba514baf8f9"
+        },
+        {
+          "start": 137,
+          "end": 170,
+          "role": "rim",
+          "removedHardBreak": false,
+          "convertedStart": 145,
+          "oldSha256": "02cebcf6fecfeaad711ca1dfe5ae07a40acc6880e1a01f887477e142fe43622e",
+          "newSha256": "9ed02909332da2192ba733ef06d77175ad6c9e39b0b8d3e9881187fc2d7ffebf"
+        },
+        {
+          "start": 172,
+          "end": 214,
+          "role": "kaf",
+          "removedHardBreak": false,
+          "convertedStart": 190,
+          "oldSha256": "483226c615fe10155587b20c7dcc6911e3af9589d6360da7d72954c6d86acf20",
+          "newSha256": "8e386db428964a22b7b83ea69590a4945c179bab5df7334efbac8aa7d8f1755b"
+        },
+        {
+          "start": 216,
+          "end": 232,
+          "role": "rim",
+          "removedHardBreak": false,
+          "convertedStart": 244,
+          "oldSha256": "29e1389bdfd4ab99dcc447a4b9f2369ea698581e916008fc9b84868b0679490e",
+          "newSha256": "76fd98acc810a42cea61713947bcd79841cb549b622081e6266d7eb65ea08c81"
+        },
+        {
+          "start": 234,
+          "end": 331,
+          "role": "kaf",
+          "removedHardBreak": false,
+          "convertedStart": 272,
+          "oldSha256": "795899d6aae54bac756f8c5a53e5367cf10bf808dc9dba21b55fa83092af0511",
+          "newSha256": "d7aba382da4aa91c0ddeaff61f5b3cfdb25f56b6c6767f5cada96ffc57aaf172"
+        },
+        {
+          "start": 333,
+          "end": 359,
+          "role": "rim",
+          "removedHardBreak": false,
+          "convertedStart": 381,
+          "oldSha256": "0da454b867ebe4e7a27f2eaf06e520dffc29d7b6eed7b0c5286c46a729357ad2",
+          "newSha256": "541b9ab9c6da5d0c00385ecfa0828b8b00df566f36a88d06ebd1829e0facd6ec"
+        },
+        {
+          "start": 361,
+          "end": 534,
+          "role": "kaf",
+          "removedHardBreak": false,
+          "convertedStart": 419,
+          "oldSha256": "4a0aeed7f470d1dcefe69ab5a447966e9166744e53aea145bb1537317c340697",
+          "newSha256": "498ce70faf348b44d0cfd859760b69d37fca4fd8bb8c35627b51130cffdafd5e"
+        },
+        {
+          "start": 536,
+          "end": 559,
+          "role": "rim",
+          "removedHardBreak": false,
+          "convertedStart": 604,
+          "oldSha256": "300fc2fa922dfb7ae76b7b5281b03b934308bef955f24b37c08c29c2ab85570a",
+          "newSha256": "a596295fe468d4c5693fb7c910dac2467b110543b7b9aba0c5efd3a61a0db815"
+        },
+        {
+          "start": 561,
+          "end": 681,
+          "role": "kaf",
+          "removedHardBreak": false,
+          "convertedStart": 639,
+          "oldSha256": "e87dfed163066b7d9066a6640ac787b66e94c8d11f8586e540b0aca854f0981f",
+          "newSha256": "ac672eee184fab9390d6925652640d8507e2ea1ba3bd2a3d52c958251feb94d3"
+        },
+        {
+          "start": 683,
+          "end": 744,
+          "role": "rim",
+          "removedHardBreak": false,
+          "convertedStart": 771,
+          "oldSha256": "76ce5d5f126d24c3b1ea69ed005d54231806de61faf6c37de8bc8903d4989232",
+          "newSha256": "415c4be7ae3446e65c51f4555af7968d44141d5cd1ca6f03811ab9af37079314"
+        },
+        {
+          "start": 746,
+          "end": 857,
+          "role": "kaf",
+          "removedHardBreak": false,
+          "convertedStart": 844,
+          "oldSha256": "1ffee796133e0e35b945498fd487386ddd435b3efdef6b93cd9f26f93afe6e16",
+          "newSha256": "2447b59f369abd0d1f67f085801828378a9c6731792e9e5630bc713e6c278dbd"
+        },
+        {
+          "start": 859,
+          "end": 880,
+          "role": "rim",
+          "removedHardBreak": false,
+          "convertedStart": 967,
+          "oldSha256": "38e89436cb968319983b0b6b45013b68dfa0b42c7d28946f2c5e648eaf5760db",
+          "newSha256": "5cf443a0813a35d4ea4064984280dae0e3e9e90c5ace223684c35265f0cc89b0"
+        },
+        {
+          "start": 882,
+          "end": 1158,
+          "role": "kaf",
+          "removedHardBreak": false,
+          "convertedStart": 1000,
+          "oldSha256": "0904107d07849b20051065b633bad4b660564a8fcdce1f7ecb79ecb695c6dc75",
+          "newSha256": "481ad7462e78523728a1069edc33adc834727058d39bd0d3b25409ac6f0f17c1"
+        },
+        {
+          "start": 1160,
+          "end": 1191,
+          "role": "rim",
+          "removedHardBreak": false,
+          "convertedStart": 1288,
+          "oldSha256": "87bfa6d1075876362f4503b5e8ea60bf7ad9fe669b1ae26e3b01761d1b19ee5a",
+          "newSha256": "f52bbfd0f89bd9a1f73c0aeeeb5a632ff8207a2cb8f64387272b99b91b853da2"
+        },
+        {
+          "start": 1193,
+          "end": 1348,
+          "role": "kaf",
+          "removedHardBreak": false,
+          "convertedStart": 1331,
+          "oldSha256": "07c1413c48f6196a52cd78d6ee8db1528179bb6d7e991373e2ea5fdfe7fede90",
+          "newSha256": "0cbb06b6dcc2d0cb2c91b9e9f1ab45bdbbdd75957464ddf5e7f86ff0585820e8"
+        },
+        {
+          "start": 1350,
+          "end": 1391,
+          "role": "rim",
+          "removedHardBreak": false,
+          "convertedStart": 1498,
+          "oldSha256": "ea370e488d5e1da50960e76efa61b6c7908bd747f6c016fcabeab4eff9e46545",
+          "newSha256": "e78a2e1627204902d450bb0d59bf3a817b9e109a7ef77f1bb90567e2ca94cfdb"
+        },
+        {
+          "start": 1393,
+          "end": 1597,
+          "role": "kaf",
+          "removedHardBreak": false,
+          "convertedStart": 1551,
+          "oldSha256": "ba84fdfdd9ff32fa2a7cc7ae8e27614fa9ccb65bdb5c55608a3117b4775da391",
+          "newSha256": "80468222ad7f0de371132e0664bbb58e927095798523ab5b809adde3fc81f880"
+        },
+        {
+          "start": 1599,
+          "end": 1651,
+          "role": "rim",
+          "removedHardBreak": false,
+          "convertedStart": 1767,
+          "oldSha256": "a0ed53b61d8859d4cbadde9d9eaa780fc69b6a0ae99e65aa845c633a87440fb9",
+          "newSha256": "79903517ece2cf52efd5d67bbdc0ac03e253c63440d6e9395b5477d75f2418d6"
+        },
+        {
+          "start": 1653,
+          "end": 1803,
+          "role": "kaf",
+          "removedHardBreak": false,
+          "convertedStart": 1831,
+          "oldSha256": "7cfc82f2f5cbcc44da078e76fcd3798de8aeea3032adf8e96e8398cda6ec4927",
+          "newSha256": "393a63c4b072b26f84d4d3fb0409d9a10594bf1132f00e159025a3a1cfb8cca9"
+        },
+        {
+          "start": 1805,
+          "end": 1863,
+          "role": "rim",
+          "removedHardBreak": false,
+          "convertedStart": 1993,
+          "oldSha256": "804dd9d4e97f37fd5bdd29423c23810329fa8c62fdfeb29816a6b8b06ad34a10",
+          "newSha256": "0794001a282fe88e0af928b5f5d6e9f2fd3d1259f1e338e181488c3a48c458e6"
+        },
+        {
+          "start": 1865,
+          "end": 2019,
+          "role": "kaf",
+          "removedHardBreak": false,
+          "convertedStart": 2063,
+          "oldSha256": "2bdfb848e617a3dda0a7907b9aa988e1d93c4cbcc1dd2a062f7f87fbb2f19c1d",
+          "newSha256": "56a51d6528bb704db3ac593e8cfadd42791d1f0440cc4d8f0b69f2ecc70df4c2"
+        },
+        {
+          "start": 2021,
+          "end": 2047,
+          "role": "rim",
+          "removedHardBreak": false,
+          "convertedStart": 2228,
+          "oldSha256": "be928c63828453ae15dfc6fc84f03f89d8b5a031035dda23b0285cdc3a9e660e",
+          "newSha256": "2b8daa3a16c6e34f10c091483cd7780035bf886ef2ff7faac723e3c4a23fb78f"
+        },
+        {
+          "start": 2049,
+          "end": 2184,
+          "role": "kaf",
+          "removedHardBreak": false,
+          "convertedStart": 2266,
+          "oldSha256": "22f8736d892ea684d818bd80095a94b1e65acc4891a8e40d4b95938dd961302d",
+          "newSha256": "e1776caeb22b72e69ec7d374f0f1e254146b49a8cd591da7d9b503629c615270"
+        },
+        {
+          "start": 2186,
+          "end": 2237,
+          "role": "rim",
+          "removedHardBreak": true,
+          "convertedStart": 2412,
+          "oldSha256": "10a1dd1b7cf6252a53a1ffb9367428b65662876bb6688098a568fe179f543694",
+          "newSha256": "f27b5649786cf5e70655ed64f5c9dc8991bc63c50a17c484c5e3a33e08749031"
+        },
+        {
+          "start": 2239,
+          "end": 2443,
+          "role": "kaf",
+          "removedHardBreak": true,
+          "convertedStart": 2472,
+          "oldSha256": "ae6595bfe03fe50bc08b3e07f3694e89b015de1738da492bf4ecfe83cc6156e8",
+          "newSha256": "5ac1ac813830ea3bb49d38c430fb198c777d1e2487410b2cb576f4073752d1d3"
+        },
+        {
+          "start": 2445,
+          "end": 2507,
+          "role": "rim",
+          "removedHardBreak": true,
+          "convertedStart": 2684,
+          "oldSha256": "f06687e180b2e6800d3bf805f7166de1475b0227ff4e216b34d4a5c2d72394e6",
+          "newSha256": "9eb5087817e731a9559d99cb893485b8a0afe3042d676c217a6805f612d4182d"
+        },
+        {
+          "start": 2509,
+          "end": 2660,
+          "role": "kaf",
+          "removedHardBreak": true,
+          "convertedStart": 2755,
+          "oldSha256": "cefdaa524a701c7da08d07ac0a49e684db134a5474b852898e1a0fdb91008fb7",
+          "newSha256": "a4ea2556d195a5b6c8335c52fdc31541d8240abf69dcea5b9ae6a162d7081581"
+        },
+        {
+          "start": 2662,
+          "end": 2717,
+          "role": "rim",
+          "removedHardBreak": true,
+          "convertedStart": 2914,
+          "oldSha256": "dd83fc4ad0e7d6128d9f1d5999f0f33203a2ca7d7ec472c5d137c87038565a6b",
+          "newSha256": "8e57ebece2ee3954ce4bd40fec85df242f2664b55cb97f82f6175a41576554a3"
+        },
+        {
+          "start": 2719,
+          "end": 2839,
+          "role": "kaf",
+          "removedHardBreak": true,
+          "convertedStart": 2978,
+          "oldSha256": "439e0c5503ae629a992b41c90cc3fe8dff5be87127a270819ca7b180622c6484",
+          "newSha256": "f676a1c25ad84ab1e8b11cbf19835de960e00a0a5deabc51c718881b846931b3"
+        },
+        {
+          "start": 2841,
+          "end": 2861,
+          "role": "rim",
+          "removedHardBreak": true,
+          "convertedStart": 3106,
+          "oldSha256": "3e58061dbb7dae9e57485725af07869f9c84e2ef4704a800e890eea1c73551d5",
+          "newSha256": "1f1a5556cdebb0babd39109c0790a300f15d829e1a29b826af55d53d887f5826"
+        },
+        {
+          "start": 2863,
+          "end": 3006,
+          "role": "kaf",
+          "removedHardBreak": true,
+          "convertedStart": 3135,
+          "oldSha256": "f5b2e97fb038a221938aded8ecdf227bf83630826fd4baaf1c2680c1c5bb6164",
+          "newSha256": "c3d2d87a8df30a60e91a579542f5b50585997c9f37e35c7f7dad51b997e4edfa"
+        },
+        {
+          "start": 3008,
+          "end": 3044,
+          "role": "rim",
+          "removedHardBreak": true,
+          "convertedStart": 3286,
+          "oldSha256": "9ac60799be38880fc263dd3b41445a64a600a60528d0a7ded1b8ede05761f90c",
+          "newSha256": "1ebfbaa0c431ea77720227fb60d1545981f09f03a03681e304bb16e05049b117"
+        },
+        {
+          "start": 3046,
+          "end": 3129,
+          "role": "kaf",
+          "removedHardBreak": true,
+          "convertedStart": 3331,
+          "oldSha256": "0350e817410244a5f00bd1d8c297709ceadb84353bff4c0109b6aca6563b8085",
+          "newSha256": "2bffeb117a0cebc0cc40c6665eb742676b58890dc96ee4c83f2a5a94a7efec4f"
+        },
+        {
+          "start": 3131,
+          "end": 3167,
+          "role": "rim",
+          "removedHardBreak": false,
+          "convertedStart": 3422,
+          "oldSha256": "faf33361a443f76c3cf905616faf072fd4a497a4ad655a7fe6c8b2d19f88aeb1",
+          "newSha256": "075d5fcf7d2e9432a064e09dcfb713cee1c5dd1d21d4778c269d2f70d003d26a"
+        }
+      ],
+      "checks": {
+        "reversible": true,
+        "metadataUnchanged": true,
+        "editorRoundtrip": true,
+        "rendered": true
+      }
+    },
+    {
+      "id": "article-b4ab2f0716334c5972b13113826ac1944aaf6f90",
+      "title": "《色彩》世界观+ α、β 盤 FANBOOK 长篇访谈",
+      "baseVersion": 1,
+      "status": "converted",
+      "sourceBodySha256": "4ac28636066a4d4325cb7a618ffa48d2a1427d6efb8d17d17dd0e9959c76dcd7",
+      "convertedBodySha256": "c776b7e80fbf39a646c716ceab88a2f694ea75c78c43f6e3121fb8bf25bf2b80",
+      "speechCount": 75,
+      "roles": [
+        {
+          "id": "interviewer",
+          "name": "Kanon Izumi",
+          "color": "#B7B7B0"
+        },
+        {
+          "id": "isekaijoucho",
+          "name": "ヰ世界情緒",
+          "color": "#B5A2D9",
+          "entityId": "isekaijoucho",
+          "href": "/zh/database/artists/solo/isekaijoucho/",
+          "avatar": "/thumbnails/de118c37895135074d63-192.webp"
+        }
+      ],
+      "edits": [
+        {
+          "start": 7565,
+          "end": 7792,
+          "role": "interviewer",
+          "convertedStart": 7565,
+          "oldSha256": "7a53500de2e54d9c41aac1d7349abe214d8803e372163504a74cd1ea77afd2d8",
+          "newSha256": "fa0a115787ef12ca332f556abe088cb8ef6698180f5060e8e4afb4f3ff883130"
+        },
+        {
+          "start": 7794,
+          "end": 8442,
+          "role": "isekaijoucho",
+          "convertedStart": 7820,
+          "oldSha256": "0ce5eb860d225bccc84cafb888f2c32a88d76801c7a8b5af84d515eb6abd3bec",
+          "newSha256": "aac6c3c8510c0598a8f7df1a6affc041672ee5232a10169beac852a11fa2443c"
+        },
+        {
+          "start": 8444,
+          "end": 8520,
+          "role": "interviewer",
+          "convertedStart": 8483,
+          "oldSha256": "05931bc7e00fa8f14854c6db1bcc7f255136f74330ca469497fa1e72821e9768",
+          "newSha256": "5fced564dc0b7b3bdcee364e8e7a5d695d75bd64db74560f5aa31c5b05143f41"
+        },
+        {
+          "start": 8522,
+          "end": 8961,
+          "role": "isekaijoucho",
+          "convertedStart": 8587,
+          "oldSha256": "bca8abb9f3649648e570f23c6a760b6819c2b2de3669aac523b2a1ea6ae82d66",
+          "newSha256": "fa16393041748d7e1a92d7f774c235d73589c64d9848648fef5e298c112919a2"
+        },
+        {
+          "start": 8963,
+          "end": 9063,
+          "role": "interviewer",
+          "convertedStart": 9041,
+          "oldSha256": "51680c4734190a5a159ff3faee027ded3c0353842941c2a41c3154ffaa721d07",
+          "newSha256": "452ccd2c6c2078eae5c7fbeebf571885d19daa610f8e33ac0b0ba95efe087670"
+        },
+        {
+          "start": 9065,
+          "end": 9400,
+          "role": "isekaijoucho",
+          "convertedStart": 9169,
+          "oldSha256": "248dc0ee07e41340b088574f9af085c9bd318fdb0919ccc99badc17cbd97e297",
+          "newSha256": "023287e2acaef1b3aa434c1a0dee6fcc2b7e62b2fc8f0380f1da8499b981b63e"
+        },
+        {
+          "start": 9402,
+          "end": 9464,
+          "role": "interviewer",
+          "convertedStart": 9519,
+          "oldSha256": "2e20c6e3f0fb95108a3184bb90fd0daf039c4742302d3781a534ab8b981ebd8e",
+          "newSha256": "c47a96130de1f9592d306857855a17a88bf767d1552364020547441d4b6f203a"
+        },
+        {
+          "start": 9466,
+          "end": 9896,
+          "role": "isekaijoucho",
+          "convertedStart": 9609,
+          "oldSha256": "fd8fe86ee8ad1ec77894e40ef9f187c830c664861a7f818a57d4d4207b38595b",
+          "newSha256": "24df8339938d2d5bfdde285fca1a29433d2d39dd12a254517bc304da024fc41d"
+        },
+        {
+          "start": 9898,
+          "end": 10175,
+          "role": "isekaijoucho",
+          "convertedStart": 10054,
+          "oldSha256": "5969be9bb379bdfda0d99e777e1d57707cfc1b691755aff92dd5dd5cb27a4ea7",
+          "newSha256": "bebee257794cabc00796f22c95da73018f96ad4827e577fc0b963b243c90c04a"
+        },
+        {
+          "start": 10177,
+          "end": 10269,
+          "role": "interviewer",
+          "convertedStart": 10346,
+          "oldSha256": "f66917b2dd8a9ed531a85d761102cccdcf0011f7db175ccd0b3b02aafc8e63ca",
+          "newSha256": "3b2d1933c0ab37648387e723dd9460bc9e393106b3f853011da71ea3f9f0063e"
+        },
+        {
+          "start": 10271,
+          "end": 10548,
+          "role": "isekaijoucho",
+          "convertedStart": 10466,
+          "oldSha256": "562444aec408184281ca54aed1fd36e55d6787d27d20728f6d12869ee7557f52",
+          "newSha256": "a6c4292b6b9dc01faf5e9b00f451cdcf9fa4336f84104929bb2ad4b209cfcdfa"
+        },
+        {
+          "start": 10550,
+          "end": 10686,
+          "role": "interviewer",
+          "convertedStart": 10758,
+          "oldSha256": "77f17282abfa1d84954537342541fcbecbea464af35975864657a15cd15c9a24",
+          "newSha256": "844594640dbc61b5f3c7792f63dd8c374bacb986b200f6949534c3958c282e89"
+        },
+        {
+          "start": 10732,
+          "end": 10921,
+          "role": "interviewer",
+          "convertedStart": 10966,
+          "oldSha256": "9b5dc3b62d9ab1b90b1fc588d227886caab9969c28c779d7e73eba3d04b51f27",
+          "newSha256": "f78f2745eb2cc944a3d8cd104882c70fa9bbebd0bd025820e56fd7ddc940596f"
+        },
+        {
+          "start": 10923,
+          "end": 11491,
+          "role": "isekaijoucho",
+          "convertedStart": 11183,
+          "oldSha256": "fff6297e7f67dc004d5f29566d1f0c40f3951ce9b33d735ab940469023da798b",
+          "newSha256": "85d247ffb90c0648b37f9a2cfbc13096a360ef2e8b2985cb50debd0445463fbc"
+        },
+        {
+          "start": 11493,
+          "end": 11693,
+          "role": "isekaijoucho",
+          "convertedStart": 11766,
+          "oldSha256": "f6e5ded8be5089053c468c7981160c62cdf867504963b63a9af13cc446389944",
+          "newSha256": "8689a584c075891ceaeab952defb5e8c417091d3172ff879c945a3b9b1bffd44"
+        },
+        {
+          "start": 11695,
+          "end": 11757,
+          "role": "interviewer",
+          "convertedStart": 11981,
+          "oldSha256": "78f1f6047a7dbc15dfb8df383cef98cb0775ac21f5c7b7c055ed94eec59052e5",
+          "newSha256": "8578c2c3e7ff6829de9b979a074cc1839303fdf8deabdcacb1abb8cf25f38166"
+        },
+        {
+          "start": 11759,
+          "end": 12119,
+          "role": "isekaijoucho",
+          "convertedStart": 12071,
+          "oldSha256": "5b494f54ce3702c96d9af1c3d2e0115d6d8589c299f72a0c8c32c4fc798f94a4",
+          "newSha256": "9aa71a38f64c7d3826896a666024c27ff2d82e9360e0b52db9c4c1efc150b1e0"
+        },
+        {
+          "start": 12174,
+          "end": 12356,
+          "role": "interviewer",
+          "convertedStart": 12499,
+          "oldSha256": "78219e1b1318dd3e51f2bf19f3d08f94de91083c3867e33fecf2d53dd24a6cc6",
+          "newSha256": "051037b447282bad63854bf759854d1ea5f2d8aa5e12416d08cb61331768c28e"
+        },
+        {
+          "start": 12358,
+          "end": 12784,
+          "role": "isekaijoucho",
+          "convertedStart": 12709,
+          "oldSha256": "ec7a7a72cfc5e3d567f4ad45487e139976fcc099c553ae33a5e510c562ebedbf",
+          "newSha256": "f3bc16c921d5c5f4caed14e330a2fc8f1251c095f497a56279322179c041b296"
+        },
+        {
+          "start": 12845,
+          "end": 13034,
+          "role": "interviewer",
+          "convertedStart": 13209,
+          "oldSha256": "b86a95f1118e3a9ecea8d869b794ffa4821c77946922a4c95c62882e17bfcc16",
+          "newSha256": "f39c962ec35e4a58c7d18fd9e1ed8a0406a81157b44171d168d9c99d6efc275c"
+        },
+        {
+          "start": 13036,
+          "end": 13486,
+          "role": "isekaijoucho",
+          "convertedStart": 13426,
+          "oldSha256": "3aa8c47778429d5c1f5682bed0cd1f9d538222fac68ebd3f3c66e967b225fcd8",
+          "newSha256": "a5f480b4a3ecdcafd6f2448b84727b96a77c65da2cd14c7f9961db83d1a6d1de"
+        },
+        {
+          "start": 13560,
+          "end": 13865,
+          "role": "isekaijoucho",
+          "convertedStart": 13963,
+          "oldSha256": "e4baa160c8f8ad8e0d2a7513042c174fd55f8f156245951448bd2c5854ece29a",
+          "newSha256": "6fd8e06ff67204aeb503fe9e9ba54199c4ff9669444671f253e58edab03c253d"
+        },
+        {
+          "start": 13867,
+          "end": 14044,
+          "role": "interviewer",
+          "convertedStart": 14283,
+          "oldSha256": "a3f1949cd4512dea810b7ce7c4b7c07840990dd8aade84782761395ed24ba248",
+          "newSha256": "cb0f364a9296ec0771e36209ee993d0dfd9158c479eb8c8132aaa54ff9aefec0"
+        },
+        {
+          "start": 14098,
+          "end": 14482,
+          "role": "isekaijoucho",
+          "convertedStart": 14540,
+          "oldSha256": "025aad1be0c8e20d02196d70317f2b7e2b2058f5871908dba20d801f58354e8b",
+          "newSha256": "78199e09eaac9089fb755cbef42c6133c83a3279ab812866ace12a1dc468534f"
+        },
+        {
+          "start": 14484,
+          "end": 14574,
+          "role": "interviewer",
+          "convertedStart": 14939,
+          "oldSha256": "a34592d7f97b654f1e06cdca7a0cd7f59249c60ed8708ba00da43dc70a1752e1",
+          "newSha256": "9df2fb29722d20319624a60fdaa46bd1d5707354067e611ad93a0b578203ebde"
+        },
+        {
+          "start": 14576,
+          "end": 14953,
+          "role": "isekaijoucho",
+          "convertedStart": 15057,
+          "oldSha256": "77ebf552f6ee4555217a00a762d91f6648a2a1308b2deb4412b450404b55d730",
+          "newSha256": "877658f24eb9043166231935eb9445f7b5e8a2ed81f05619378f5cfaff41be46"
+        },
+        {
+          "start": 14986,
+          "end": 15114,
+          "role": "interviewer",
+          "convertedStart": 15480,
+          "oldSha256": "058675efbbbefcfe7bf2c6b3a95fdd5e7bf2cfef7ca0a1191a3606783c2c3b17",
+          "newSha256": "6507faa70df711a98acf741356ac4ee80ea6e0cc2c64c502292b7d58ae2acdf1"
+        },
+        {
+          "start": 15116,
+          "end": 15162,
+          "role": "isekaijoucho",
+          "convertedStart": 15636,
+          "oldSha256": "6cf73dde0c543b1042a0b42fac0eb21abc1cb43f2ae76da8f70f38a627a36099",
+          "newSha256": "1cc6e9c3ca8128f19f6790f4d78990226e47f8d3fec03fc42ec18f1a148b9c06"
+        },
+        {
+          "start": 15164,
+          "end": 15535,
+          "role": "isekaijoucho",
+          "convertedStart": 15697,
+          "oldSha256": "cd57bf9c420240116589093cb2e6cd8ef72027e36c1741f0a3eee768924b0939",
+          "newSha256": "b1b3a88d55720aa8ce05228fd00ec81120d1f93d07c71fa68aec508576a6fe21"
+        },
+        {
+          "start": 15537,
+          "end": 15839,
+          "role": "isekaijoucho",
+          "convertedStart": 16083,
+          "oldSha256": "2d9ef6413b266e06a46aaa4d7a4307bba766db0175d831144d229998c601e96a",
+          "newSha256": "62424aa33b794bf25d0d1825e55731b5a86f141513f42f9b911d3e38a52171f2"
+        },
+        {
+          "start": 15841,
+          "end": 15981,
+          "role": "interviewer",
+          "convertedStart": 16400,
+          "oldSha256": "4675fa2613aae2058c0e434de5cd097c6733a4c636e667014dfa84dbaa988629",
+          "newSha256": "f97c78479484e5cd9d4698096af9122f745223244a0b1b3ebb53182fe09071df"
+        },
+        {
+          "start": 16009,
+          "end": 16093,
+          "role": "interviewer",
+          "convertedStart": 16594,
+          "oldSha256": "6249592553c84ba2569affe6dfad32b91ee8dded74da033447c4808d361e3947",
+          "newSha256": "c91330889a461c1c8bcd9edd082da79c1f12dfc78f46ef4b4d2319258bca6da9"
+        },
+        {
+          "start": 16095,
+          "end": 16510,
+          "role": "isekaijoucho",
+          "convertedStart": 16706,
+          "oldSha256": "d81e013e8104e3f13bba8e63784f21d14514b11d526cd7d6fc72b8f6dcd34538",
+          "newSha256": "f814573334d439bda8a11f13bef6989b8eea9e58fd591905db188dfcd30f095f"
+        },
+        {
+          "start": 16512,
+          "end": 16637,
+          "role": "interviewer",
+          "convertedStart": 17136,
+          "oldSha256": "4210978dfdf184a95528e6601488eaab37598e9e3aea5f9cf577b2f115835ddd",
+          "newSha256": "9715b7be92bc2edc022f66bd386fd8f8f3e3fa7c3d512d956b42aed7aa4b86a2"
+        },
+        {
+          "start": 16639,
+          "end": 16727,
+          "role": "isekaijoucho",
+          "convertedStart": 17289,
+          "oldSha256": "f6544f3ef4839dedc1e772c158c02ca06f97bd5ff0480d1646222121a8c408d4",
+          "newSha256": "1b5703e18b71612a76d41a19d6f6ffd75dd629192c67ec8e3397229eb9212d2b"
+        },
+        {
+          "start": 16755,
+          "end": 16949,
+          "role": "interviewer",
+          "convertedStart": 17418,
+          "oldSha256": "1bb27cc0c58837e96c068d56ac63f3d5d3fbc1e551e2bb3e60637c8b00fdbe3d",
+          "newSha256": "c75b69a8497f55b0e5d27e5572d167b78dbd07aae417a416e3c4f1b290d50756"
+        },
+        {
+          "start": 16951,
+          "end": 17435,
+          "role": "isekaijoucho",
+          "convertedStart": 17640,
+          "oldSha256": "541f2b8beb4cf651d3a639bf07992538638dd59740fa3d2c6bb4c964e5611c92",
+          "newSha256": "56e526980bff9dc70a733988407364d11023a9ac7b37aca89019183139c09bd4"
+        },
+        {
+          "start": 17437,
+          "end": 17674,
+          "role": "interviewer",
+          "convertedStart": 18139,
+          "oldSha256": "84d953fffa42a2655fb6642b6196be10888fe4e4521c5f164e77f2c1006eaa82",
+          "newSha256": "fc9ab000f88981e32604086f0c1f5c551ec9a7859a6028449ec6b38823c2ab49"
+        },
+        {
+          "start": 17676,
+          "end": 17838,
+          "role": "isekaijoucho",
+          "convertedStart": 18404,
+          "oldSha256": "010cb37678a3f51f41bf57042bf93ecae9f67b11ff8de7f41f1b8917ce6b4e84",
+          "newSha256": "018a3987f0f9a40157353fa6a32f295f8815ceebb3ef9d9be3056f742068f44d"
+        },
+        {
+          "start": 17840,
+          "end": 17898,
+          "role": "interviewer",
+          "convertedStart": 18581,
+          "oldSha256": "3f6759543f7041e62c141ccd8ebd97381bf945c91c55f531417711f896d97aff",
+          "newSha256": "7f04b94f6729fbff31d4488950ad330dc5d2bd44c5fa4d58c42c24a873b5dd21"
+        },
+        {
+          "start": 17900,
+          "end": 18192,
+          "role": "isekaijoucho",
+          "convertedStart": 18667,
+          "oldSha256": "87a5c80720876f8691196be2d1636ce3280707d8955223631925b7b6cfbe8e49",
+          "newSha256": "740416764df3115220251382d7829cae2ffeebf9695530e66d97dff78e28fdac"
+        },
+        {
+          "start": 18220,
+          "end": 18311,
+          "role": "interviewer",
+          "convertedStart": 19000,
+          "oldSha256": "9cc24389785449cb6ba29bce7dd8903275cc64f20f5e499ffe1ca6e289da7e4a",
+          "newSha256": "989543d1d83f4969aed713ccc9a39a54cc70dd5d02ac60ffad1e456f475af6bd"
+        },
+        {
+          "start": 18313,
+          "end": 18629,
+          "role": "isekaijoucho",
+          "convertedStart": 19119,
+          "oldSha256": "13a473e5cdd5d40a9892c2c7bab40404e36911b69a0212e886e043fe77482150",
+          "newSha256": "aa3e240a33606d6a1cfb60e17585858a921f7599cbd220251ea205d1b8ff1ef0"
+        },
+        {
+          "start": 18631,
+          "end": 18740,
+          "role": "interviewer",
+          "convertedStart": 19450,
+          "oldSha256": "285ee9683e4af405f309a2ca4cd08fb5234c65ec1f697139b96aec58b6b7b501",
+          "newSha256": "194cc51051a83a253ecd4e1fe764a8f69d16534a998152f7e1c7529cd9bb76b0"
+        },
+        {
+          "start": 18742,
+          "end": 19076,
+          "role": "isekaijoucho",
+          "convertedStart": 19587,
+          "oldSha256": "1c7716237ed6a5309f8762095cea7fbeeb54d1d1027140a394508d9c47e1b0db",
+          "newSha256": "197ba13e735bad5cedbb9aa0f575efa24ee89cf6ae835ee2a467d27bd0803fa2"
+        },
+        {
+          "start": 19104,
+          "end": 19227,
+          "role": "interviewer",
+          "convertedStart": 19962,
+          "oldSha256": "99805bbe3a9d19f532863a86eeec0e6f1c8c9a6db6bcf1194045b2f7720dea9b",
+          "newSha256": "3cb3c7a719dd3b8d44a7cbd3e0fc965c227a5012a23d4e1cb9f701f700a44582"
+        },
+        {
+          "start": 19229,
+          "end": 19559,
+          "role": "isekaijoucho",
+          "convertedStart": 20113,
+          "oldSha256": "b9e028b87110febdd1099604d007543414de8c4b65a5aeb8890c1b1062349120",
+          "newSha256": "4467392b2eb45684cb759009b49b3e0801e1e86ef06b7c5ef057382b2550fd07"
+        },
+        {
+          "start": 19561,
+          "end": 19763,
+          "role": "interviewer",
+          "convertedStart": 20458,
+          "oldSha256": "8e9f8453c89bfd2e34256e3803907e3e6958bf1a19b6d97b1b626ae7de3e5269",
+          "newSha256": "489d8cc49d1e4b83983941441fe1a9a082b8c86aa43320f0c9c190ee46f0491e"
+        },
+        {
+          "start": 19791,
+          "end": 20254,
+          "role": "isekaijoucho",
+          "convertedStart": 20714,
+          "oldSha256": "cee6ea28fe9e72b27c0cc91b138849beea7fa6865dcbd0b5d59f8fac9d8ee441",
+          "newSha256": "fac5f010566055c0f5370cfd08bce432e63556915f139d3d80602009eb5e87b0"
+        },
+        {
+          "start": 20256,
+          "end": 20343,
+          "role": "interviewer",
+          "convertedStart": 21192,
+          "oldSha256": "0b2bcf96218733a3ca03530ef947c8df03a211b8b048cf9403132941b2cdacbf",
+          "newSha256": "ba758408ebd9ffedb9b5901b91c84bdb70b36933382eeea66112959b2e696e9e"
+        },
+        {
+          "start": 20345,
+          "end": 20694,
+          "role": "isekaijoucho",
+          "convertedStart": 21307,
+          "oldSha256": "5c8ef9268ecc8d956e43924eaa6743b7ba7beca0e5bb6adf4c71c655d828e602",
+          "newSha256": "05f2d2d224602197d0b2e66cd21acaf3128152ee02362535d979364bc353bab6"
+        },
+        {
+          "start": 20727,
+          "end": 20822,
+          "role": "interviewer",
+          "convertedStart": 21702,
+          "oldSha256": "ab1e81d50694fd633147c83f86b5fb375da294ae37d881d21ce2066eab464be8",
+          "newSha256": "9b6783603b5fa10ca4fbf84ee844ce19991d920930f623a7f6dd73cc15a86290"
+        },
+        {
+          "start": 20824,
+          "end": 21012,
+          "role": "isekaijoucho",
+          "convertedStart": 21825,
+          "oldSha256": "e32a56e160fc6302ea0560a68a9b7621319bb8b00a52c06530232e88799f864b",
+          "newSha256": "8dc48d913d3c596f4289a8f45d2a8690edb343cbae7fe5b5b1a8d87ae0c9515c"
+        },
+        {
+          "start": 21014,
+          "end": 21152,
+          "role": "isekaijoucho",
+          "convertedStart": 22028,
+          "oldSha256": "5482a8d08f21cb6063905c480c9b135d5c85b863e0546e842bfb33117a221d3e",
+          "newSha256": "05613b7584310c7c7b38b701ede6aa7ff1efd9daa5ca7c8ef7e77ccb407e26fa"
+        },
+        {
+          "start": 21180,
+          "end": 21300,
+          "role": "interviewer",
+          "convertedStart": 22207,
+          "oldSha256": "412e07c2fda30dc3e3b57767e0e04aec1f8a84df90d43477b497f2788bcdda65",
+          "newSha256": "be618e6419bc9259b7628d46fa93a05ef2e75a2bf3bdee6d21c455a819204f82"
+        },
+        {
+          "start": 21302,
+          "end": 21582,
+          "role": "isekaijoucho",
+          "convertedStart": 22355,
+          "oldSha256": "62ee37ef8a8bc90aadaa612c1195e316dbca5869f5ce7b299368c83aa9328d15",
+          "newSha256": "a353b9e510bba80bd44f27c9721d01f68af0998303a50002380cd02053206bcb"
+        },
+        {
+          "start": 21610,
+          "end": 21690,
+          "role": "interviewer",
+          "convertedStart": 22676,
+          "oldSha256": "d23d634e91a3357ac3355d4983679214a366ab1e7622dd86fdd6d30d0f2ab17a",
+          "newSha256": "7113b1ff1db71743d520226be4102b706b969b342a77f20c494b26849a8246b3"
+        },
+        {
+          "start": 21692,
+          "end": 22057,
+          "role": "isekaijoucho",
+          "convertedStart": 22784,
+          "oldSha256": "c55f25aeb17a757be99ea9a4642d6f927bb5c2bc0110ab650673689a28be00b3",
+          "newSha256": "730cc27644a3f0f2491e68aec410c6feffbc1a5ee934ebbf6bd1190c804389e9"
+        },
+        {
+          "start": 22115,
+          "end": 22253,
+          "role": "interviewer",
+          "convertedStart": 23220,
+          "oldSha256": "079e4de0c010bc70695dc9ff272073cc98576b08bdddbce867792ed01d1bc717",
+          "newSha256": "c8da9802b2d286222573f7dbf297159a0bc6479a249b7df81be3a5f4438b686c"
+        },
+        {
+          "start": 22255,
+          "end": 22688,
+          "role": "isekaijoucho",
+          "convertedStart": 23386,
+          "oldSha256": "1c2aecf2347a0733a87cfd37bff78ee4fd32f3cb5cf628759bb6bad8b88726a7",
+          "newSha256": "6d19ed0e53f914a56d81fccf951888cd69aece9db74203ed358c94c8db4480a7"
+        },
+        {
+          "start": 22721,
+          "end": 22862,
+          "role": "interviewer",
+          "convertedStart": 23865,
+          "oldSha256": "7d750771c8571733c53512c4e82a85372106f33993fe036c88888e3aba7fb1d7",
+          "newSha256": "3ad3c3524396c4533120e099d6ffec899e4df200591948f02cfadebce64e171b"
+        },
+        {
+          "start": 22864,
+          "end": 23332,
+          "role": "isekaijoucho",
+          "convertedStart": 24034,
+          "oldSha256": "1b96fda0e1cb8f2239a568fbe75091f3596fb13d4000dd28e8c49ace546f0e8e",
+          "newSha256": "a4204039033672641d055afb5c7d6f4de2bb05e8fd6f08c4269bf223bf88a4e9"
+        },
+        {
+          "start": 23334,
+          "end": 23398,
+          "role": "interviewer",
+          "convertedStart": 24517,
+          "oldSha256": "629ac6bfd1a04236c079d6fa8d24567cff8c7579b4576613fd319e2d29403e4d",
+          "newSha256": "b04641cf384c67206fb9d705750837d64d38eff19fb887a8d0acd95c0cf2fa44"
+        },
+        {
+          "start": 23426,
+          "end": 23587,
+          "role": "interviewer",
+          "convertedStart": 24635,
+          "oldSha256": "d168777b9694548799892fb79ba94fe0a95ad918729ecb0f7f93269d341f9d03",
+          "newSha256": "51d8ce0444e43ec708e5a2fcdd6b6d36a766603585bad3f001d1569c25800e09"
+        },
+        {
+          "start": 23589,
+          "end": 24227,
+          "role": "isekaijoucho",
+          "convertedStart": 24824,
+          "oldSha256": "5f5d0866a37dcc8e214c960df57d0aa4b12ef472e4e3f6c404fb6b1e75e0be31",
+          "newSha256": "b80076e848de62ba0cd069a205e7a1d024f1841dae6f9a35196890099ef97cf4"
+        },
+        {
+          "start": 24229,
+          "end": 24360,
+          "role": "interviewer",
+          "convertedStart": 25477,
+          "oldSha256": "563615c1f34b784c6494cf5b68bf2584c400155e20c64700851f70c63e1d10c8",
+          "newSha256": "d40eeab5a2014af124f204d76c52806ffb4b651f78e37fc9c8e0269e711bd5df"
+        },
+        {
+          "start": 24362,
+          "end": 24772,
+          "role": "isekaijoucho",
+          "convertedStart": 25636,
+          "oldSha256": "6f453d7c8aa3e31351323923299d43cbbd4f5875a62a3192f3c0aefaf3403194",
+          "newSha256": "f004ddbefe9ed98dab5b4390c74c8510ed8e8eb0f11fcfc19f9f2b839fb3d864"
+        },
+        {
+          "start": 24810,
+          "end": 24897,
+          "role": "interviewer",
+          "convertedStart": 26097,
+          "oldSha256": "a763d9824e493f2e3ca13283b93b9fa228931bfd422b1c9eb40f08fa2e3c67cb",
+          "newSha256": "10a7d8ed4f97e6c007e539e58628c8d09d477f1116ea15a5af6ddc8958c749e2"
+        },
+        {
+          "start": 24899,
+          "end": 25172,
+          "role": "isekaijoucho",
+          "convertedStart": 26212,
+          "oldSha256": "29601e1b98706f77f3d7c2795bb83294381e560d44f60fc38b2d8357f73c7560",
+          "newSha256": "c39aea69dc4c84524c602598dbcbc517518ebfddef2b8e220b37a21da3654094"
+        },
+        {
+          "start": 25213,
+          "end": 25326,
+          "role": "interviewer",
+          "convertedStart": 26539,
+          "oldSha256": "e0ab8f7dd606a23e5ec6dccf548bb99e9821df094cf49039bc593c21ac638429",
+          "newSha256": "5e27f30819476d704bdf70b28b6e1cfe26297851974e0854610831d4bbbb0999"
+        },
+        {
+          "start": 25328,
+          "end": 25783,
+          "role": "isekaijoucho",
+          "convertedStart": 26680,
+          "oldSha256": "64ae62aa46e834ac7643852be9ad0e061cddf2262544e59c43acb8de72bf5b5a",
+          "newSha256": "0e3fe84373fb1097e38a4cdcbf66e2742dcbf4c725812d90133472b00d385d84"
+        },
+        {
+          "start": 25785,
+          "end": 25890,
+          "role": "interviewer",
+          "convertedStart": 27150,
+          "oldSha256": "9eea23eaa89b9df3dd6ac55905f5bbbd587b06f77880477550fe04629058ae4d",
+          "newSha256": "0333899183e6d3d5e219c3d601ac3c9062cd0cb4b7af88aa7d9e6e2e1e9ae539"
+        },
+        {
+          "start": 25892,
+          "end": 26554,
+          "role": "isekaijoucho",
+          "convertedStart": 27283,
+          "oldSha256": "65fbc864b7fa21790c8d9716a324bc09882d4424eb372936f4ea83953eb6342e",
+          "newSha256": "466e41ed60fc3bec517ec1ad2349f523ad143c55b85552fd113c54aba1be8fc6"
+        },
+        {
+          "start": 26556,
+          "end": 26745,
+          "role": "interviewer",
+          "convertedStart": 27960,
+          "oldSha256": "2f4dcdc175b62eea806407f09643269a5bb397ea7c80f607252e0e4858a33684",
+          "newSha256": "b80f9445679bb1b32676c8578c47f48585e34d8993752c3b23e88fe0e07a1102"
+        },
+        {
+          "start": 26747,
+          "end": 27409,
+          "role": "isekaijoucho",
+          "convertedStart": 28177,
+          "oldSha256": "f834490cbc4fcbf4b5e756e996ef13c525923b0e32f1f501ea946ad56ff40420",
+          "newSha256": "a162a1df053acf8f8f76fd1868f6ebfdf3d0bdf59eceb325ad604ef270051f86"
+        }
+      ],
+      "checks": {
+        "reversible": true,
+        "metadataUnchanged": true,
+        "editorRoundtrip": true,
+        "rendered": true
+      }
+    },
+    {
+      "id": "article-c9842b1db5138bd337c6896645903405125e6aa7",
+      "title": "SWAV Fanbox文章：「想聊聊「幸祜新服装」的制作过程」",
+      "baseVersion": 1,
+      "status": "unchanged-not-an-interview",
+      "sourceBodySha256": "3365800ed7f5127b817d0eee9889ce17392fd3a34ab74590380d35e7e453de6e",
+      "convertedBodySha256": "3365800ed7f5127b817d0eee9889ce17392fd3a34ab74590380d35e7e453de6e",
+      "speechCount": 0,
+      "roles": [],
+      "edits": [],
+      "checks": {
+        "reversible": true,
+        "metadataUnchanged": true,
+        "editorRoundtrip": "not-applicable",
+        "rendered": "not-applicable"
+      }
+    }
+  ]
+}

@@ -23,6 +23,7 @@ import '../styles/interface.css';
 import '../styles/contextActions.css';
 import '../styles/mediaSwitcher.css';
 import '../styles/reader.css';
+import '../styles/speech.css';
 import '../styles/readerFormats.css';
 import '../styles/polish.css';
 import '../styles/experienceMotion.css';
@@ -234,3 +235,7 @@ const liveEventsCopy = siteContent?.liveEvents;
     </script>
   </body>
 </html>
+
+<script>
+  document.addEventListener('error',event=>{const image=event.target;if(image instanceof HTMLImageElement&&image.closest('.wiki-speech-avatar'))image.hidden=true;},true);
+</script>

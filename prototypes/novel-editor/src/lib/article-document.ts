@@ -19,7 +19,7 @@ export function articleSnapshot(key:string,source:string,ledger:ReviewAttachment
  if(binding&&binding.locale!==meta.locale)throw Error('已有文章的语言需要保持不变。');
  const body=draft.originalBody as string;
  const currentImages=new Map<string,{alt:string;caption:string}>();
- const collect=(blocks:any[])=>{for(const block of blocks){if(block.type==='image')currentImages.set(block.url,{alt:block.text||'',caption:block.caption||''});if(block.type==='details')collect(parseVisualBlocks(block.text));}};collect(draft.blocks);
+ const collect=(blocks:any[])=>{for(const block of blocks){if(block.type==='image')currentImages.set(block.url,{alt:block.text||'',caption:block.caption||''});if(block.type==='speech-roles')for(const role of block.roles||[])if(role.avatar)currentImages.set(role.avatar,{alt:role.name+'头像',caption:''});if(['details','speech'].includes(block.type))collect(parseVisualBlocks(block.text));}};collect(draft.blocks);
  for(const image of bodyImages)currentImages.set(image.src,{alt:image.alt||'',caption:image.caption||''});
  const registered = [...(meta.articleMediaRefs || []), ...ledger.filter(asset => asset.staged?.purpose === 'article' && asset.staged.image && body.includes(asset.url)).map(asset => ({ ...asset.staged!.image!, assetId: asset.staged!.id }))];
  const mediaRefs=[...new Map(registered.filter((ref:ArticleImage)=>body.includes(articleImageUrl(ref))).map((ref:ArticleImage)=>[articleImageUrl(ref), {...ref,...currentImages.get(articleImageUrl(ref))}])).values()];
