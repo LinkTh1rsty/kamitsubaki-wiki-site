@@ -65,8 +65,7 @@ export function EditorToolbar({ editor, open, editingContent = false }: { editor
   const [tableOpen, setTableOpen] = useState(false);
   const [speechImportOpen, setSpeechImportOpen] = useState(false);
   const { ref, width } = useContainerWidth<HTMLDivElement>();
-  const showSpeechShortcuts = !editingContent && width >= 640;
-  const visible = visibleToolbarShortcuts(width - (showSpeechShortcuts ? 190 : 0));
+  const visible = visibleToolbarShortcuts(width);
   if (!editor) return <div ref={ref} className="wiki-format-toolbar" />;
   const heading = editor.isActive('heading') ? String(editor.getAttributes('heading').level) : 'paragraph';
   const formats = [
@@ -115,5 +114,5 @@ export function EditorToolbar({ editor, open, editingContent = false }: { editor
     <DropdownMenu><DropdownMenuTrigger asChild><Button variant="secondary" size="sm"><Plus data-icon="inline-start" />{t("插入")}<ChevronDown data-icon="inline-end" /></Button></DropdownMenuTrigger><DropdownMenuContent className="min-w-44"><DropdownMenuGroup>
       {inserts.map(action => <DropdownMenuItem key={action.id} onSelect={action.run}><action.icon />{action.label}</DropdownMenuItem>)}
     </DropdownMenuGroup><DropdownMenuSeparator /><DropdownMenuGroup>{Object.entries(inlineLabels).filter(([kind]) => !['ruby', 'spoiler'].includes(kind)).map(([kind, label]) => <DropdownMenuItem key={kind} onSelect={() => openInline(editor, kind, open)}>{label}</DropdownMenuItem>)}</DropdownMenuGroup></DropdownMenuContent></DropdownMenu>
-  {showSpeechShortcuts ? <><Button size="sm" variant="ghost" onClick={() => openDomain(editor,'speech',open)}><MessageSquare/>发言</Button><Button size="sm" variant="ghost" onClick={() => setSpeechImportOpen(true)}><FileInput/>快速导入</Button></> : null}</div><SpeechImportDialog editor={editor} open={speechImportOpen} onClose={() => setSpeechImportOpen(false)} /><TableControls editor={editor} /><TableInsertDialog editor={editor} open={tableOpen} onClose={() => setTableOpen(false)} /></div>;
+</div><SpeechImportDialog editor={editor} open={speechImportOpen} onClose={() => setSpeechImportOpen(false)} /><TableControls editor={editor} /><TableInsertDialog editor={editor} open={tableOpen} onClose={() => setTableOpen(false)} /></div>;
 }
