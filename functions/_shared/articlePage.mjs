@@ -1,3 +1,4 @@
+import {articleMetaHTML} from '../../src/lib/articleReaderPresentation.mjs';
 import {articleHTML} from '../../src/lib/articleMarkdownRenderer.mjs';
 
 const locales=new Set(['zh','zh-tw','zh-hk','ja','en']);
@@ -26,7 +27,7 @@ export async function renderArticlePage({request,env,params}){
  const title=String(article.title),summary=String(article.summary||article.body.replace(/<[^>]*>|[#*`\[\]{}]/g,' ').replace(/\s+/g,' ').trim().slice(0,180));
  const displayTitle=`${title} · Kamitsubaki Wiki`,url=canonical(fallback?'zh':locale,id);
  const body=articleHTML(article.body,locale);
- const metadata=[article.origin==='user-submission'?'User submission':'Site original',article.author,article.updatedAt,`v${article.version}`].filter(Boolean).join(' · ');
+ const metadata=articleMetaHTML(article,locale,{fallback});
  let html=await asset.text();
  const replace=(pattern,value)=>{html=html.replace(pattern,()=>value);};
  replace(/<title>[^<]*<\/title>/,`<title>${escape(displayTitle)}</title>`);
@@ -40,7 +41,7 @@ export async function renderArticlePage({request,env,params}){
  replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/,`<script type="application/ld+json">${JSON.stringify(structured).replace(/</g,'\\u003c')}</script>`);
  replace(/data-article-page="read"/,`data-article-page="read" data-article-id="${escape(id)}"`);
  replace(/<h1 data-article-title>[\s\S]*?<\/h1>/,`<h1 data-article-title>${escape(title)}</h1>`);
- replace(/<p data-article-meta><\/p>/,`<p data-article-meta>${escape(metadata)}${fallback?' · Chinese original':''}</p>`);
+ replace(/<(div|p) data-article-meta><\/(?:div|p)>/,`<div data-article-meta>${metadata}</div>`);
  replace(/<p data-article-summary><\/p>/,`<p data-article-summary>${escape(summary)}</p>`);
  html=html.replace(/(<article\b[^>]*\bdata-article-body\b[^>]*>)[\s\S]*?(<\/article>)/,(_match,open,close)=>open+body+close);
  return new Response(html,{status:200,headers:{...noStore,'Content-Type':'text/html; charset=utf-8'}});

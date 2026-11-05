@@ -42,3 +42,14 @@ test('dynamic sitemap includes only public API rows and Chinese locale variants'
  try{const response=await articleSitemap({env});assert.equal(response.status,200);const xml=await response.text();assert.match(xml,/\/zh\/articles\/read\/one\//);assert.match(xml,/\/zh-tw\/articles\/read\/one\//);assert.match(xml,/\/zh-hk\/articles\/read\/one\//);assert.match(xml,/\/ja\/articles\/read\/two\//);assert.doesNotMatch(xml,/\/en\/articles\/read\/two\//);}
  finally{globalThis.fetch=original;}
 });
+
+test('server first paint includes the same category and avatar metadata as the client',async()=>{
+ const {articleMetaHTML}=await import('../src/lib/articleReaderPresentation.mjs');
+ const original=globalThis.fetch;
+ const article={id:'safe-id',title:'对谈',summary:'简介',body:'正文',author:'署名',authorAvatarUrl:'https://wiki.example/avatar.png',category:'profile',origin:'user-submission',publishedAt:'2026-11-03',updatedAt:'2026-11-04',version:1};
+ globalThis.fetch=async()=>Response.json({article});
+ try{
+  const response=await renderArticlePage({request:new Request('https://kamitsubaki.wiki/zh/articles/read/safe-id/'),env:{ASSETS:{fetch:async()=>new Response(shell.replace('<p data-article-meta></p>','<div data-article-meta></div>'))}},params:{locale:'zh',id:'safe-id'}});
+  const html=await response.text();assert.ok(html.includes(articleMetaHTML(article,'zh')));assert.match(html,/data-article-avatar/);assert.match(html,/人物专访/);
+ }finally{globalThis.fetch=original;}
+});
