@@ -1,3 +1,4 @@
+import remarkSpeech,{rehypeSpeech} from './speechMarkdown.mjs';
 import rehypeExternalLinks from "rehype-external-links";
 import rehypeRaw from "rehype-raw";
 import rehypeSanitize from "rehype-sanitize";
@@ -12,6 +13,7 @@ import remarkImageCaptions from "./imageCaptions.mjs";
 import rehypeDocumentAnchors from "./documentAnchors.mjs";
 
 export const wikiRemarkPlugins = [
+  remarkSpeech,
   remarkWikiShortcodes,
   remarkMediaEmbed,
   remarkImageCaptions,
@@ -24,6 +26,7 @@ export const wikiRehypePlugins = [
   [rehypeDocumentAnchors, { prefix: wikiHtmlSchema.clobberPrefix }],
   rehypeDetailsSummary,
   rehypeMaterializeMediaEmbeds,
+  rehypeSpeech,
 ];
 export const wikiExternalLinks = [
   rehypeExternalLinks,

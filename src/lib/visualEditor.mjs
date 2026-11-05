@@ -1,3 +1,4 @@
+import {scanSpeech,speechRolesMarkdown,speechMarkdown} from './speech.mjs';
 import {entitySourcePath} from './contentLayout.mjs';
 import {z} from 'astro/zod';
 import {createEntitySchema} from './entitySchema.mjs';
@@ -73,6 +74,8 @@ const imageCaptionMarker = '<!-- wiki-editor:image-caption -->';
 export function blockMarkdown(b, locale = 'zh') {
   if (b.originalSource !== undefined && b.originalSnapshot === blockSnapshot(b)) return b.type === 'lyrics' ? b.originalSource.replace(/\{\{lyrics-controls::(?:zh|ja|en)\}\}/g, `{{lyrics-controls::${locale}}}`) : b.originalSource;
   switch (b.type) {
+    case 'speech': return speechMarkdown(b.roleId,b.text);
+    case 'speech-roles': return speechRolesMarkdown(b.roles);
     case 'paragraph': return b.text;
     case 'inline': return `{{${b.kind}::${b.args.filter((arg,i)=>b.kind!=='ruby'||i<2||arg).map(shortcodeArg).join('::')}}}`;
     case 'media-switcher': return `{{media-switcher::${shortcodeArg(b.title)}}}\n\n${b.items.map(item => blockMarkdown({...item,type:'media'})).join('\n\n')}\n\n{{/media-switcher}}`;
@@ -231,6 +234,9 @@ function lyricBlock(source) {
   return rows.length ? {...newBlock('lyrics'),rows} : null;
 }
 export function parseVisualBlocks(body) {
+  const speech=scanSpeech(body);
+  if(speech.parts.some(p=>p.type==='speech'||p.type==='speech-roles'))return speech.parts.flatMap(p=>p.type==='text'?parseVisualBlocks(p.source):[keepOriginal({...newBlock(p.type),...(p.type==='speech'?{roleId:p.roleId,text:p.text}:{roles:p.roles})},p.source)]);
+
   const lines = body.replaceAll('\r\n','\n').split('\n'); const blocks=[];
   const push=(block,source)=>blocks.push(keepOriginal(block,source));
   for (let i=0;i<lines.length;) {

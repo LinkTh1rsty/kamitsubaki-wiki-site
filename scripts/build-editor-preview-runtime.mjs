@@ -1,4 +1,5 @@
 import {readFile,readdir,writeFile} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
 import {resolve,relative} from 'node:path';
 import {createRequire} from 'node:module';
 import {fileURLToPath} from 'node:url';
@@ -22,4 +23,8 @@ const require=createRequire(import.meta.url),{build}=createRequire(require.resol
 const result=await build({stdin:{contents:'import {createEditorPreview} from "./src/lib/editorDocumentPreview.mjs";export const renderEditorPreview=createEditorPreview('+JSON.stringify(entries)+','+JSON.stringify(redirects)+');',resolveDir:root,sourcefile:'editor-preview-entry.mjs'},bundle:true,platform:'node',mainFields:['module','main'],plugins:[{name:'worker-yaml',setup(plugin){plugin.onResolve({filter:/^yaml$/},()=>({path:resolve(root,'node_modules/yaml/browser/index.js')}));}}],format:'esm',minify:true,write:false,legalComments:'inline'});
 const target=resolve(backend,'src/generated/editorPreviewRuntime.js'),output='// Generated from the shared Wiki reader and public entity metadata.\n'+result.outputFiles[0].text;
 if(process.argv.includes('--check')){if(await readFile(target,'utf8')!==output)throw Error('Editor preview runtime differs.');}else {await writeFile(target,output);await writeFile(resolve(backend,'src/generated/editorPreviewManifest.json'),JSON.stringify({version:'3.1.0',entityRecords:entries.length,runtimeSha256:createHash('sha256').update(output).digest('hex'),publicMetadataSha256:createHash('sha256').update(JSON.stringify(entries)).digest('hex'),redirectsSha256:createHash('sha256').update(JSON.stringify(redirects)).digest('hex')},null,2)+'\n');}
+const css=await readFile(resolve(root,'src/styles/speech.css'),'utf8');
+const styleTarget=resolve(backend,'admin-ui/src/editor/speechPreviewStyle.ts');
+const styleOutput=execFileSync(resolve(backend,'node_modules/.bin/biome'),['format','--stdin-file-path',styleTarget],{cwd:backend,encoding:'utf8',input:'// Generated from Wiki src/styles/speech.css.\nexport const speechPreviewStyle = '+JSON.stringify(css)+';\n'});
+if(process.argv.includes('--check')){if(await readFile(styleTarget,'utf8')!==styleOutput)throw Error('Editor speech preview style differs.');}else await writeFile(styleTarget,styleOutput);
 console.log('Shared editor preview:',entries.length,'records,',output.length,'bytes');

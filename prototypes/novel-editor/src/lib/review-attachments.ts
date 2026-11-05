@@ -5,7 +5,7 @@ const markdown = new MarkdownIt({ html: true });
 export function reviewAttachments(content: string, blocks: any[], ledger: ReviewAttachment[] = [], metadata: Record<string, any> = {}): ReviewAttachment[] {
   const images = new Map<string, ReviewAttachment>();
   const referenced = new Set<string>();
-  const collect = (nodes: any[]) => { for (const node of nodes) { if (node.type === 'image') { referenced.add(node.url); images.set(node.url, { url: node.url, alt: node.text || '', source: node.caption || '' }); } if (node.type === 'details' && node.text) collect(parseVisualBlocks(node.text)); } };
+  const collect = (nodes: any[]) => { for (const node of nodes) { if (node.type === 'image') { referenced.add(node.url); images.set(node.url, { url: node.url, alt: node.text || '', source: node.caption || '' }); } if (node.type === 'speech-roles') for(const role of node.roles||[]) { if(role.avatar){referenced.add(role.avatar);images.set(role.avatar,{url:role.avatar,alt:role.name+'头像',source:''});}} if (['details','speech'].includes(node.type) && node.text) collect(parseVisualBlocks(node.text)); } };
   collect(blocks);
   const remember = (url: string, alt = '') => { referenced.add(url); if (!images.has(url)) images.set(url, { url, alt, source: '' }); };
   const scan = (tokens: ReturnType<typeof markdown.parse>) => { for (const token of tokens) {

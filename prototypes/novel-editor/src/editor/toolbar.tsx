@@ -1,3 +1,5 @@
+import {SpeechToolbar} from '@/components/speech-tools';
+import {documentSpeechRoles} from '@/lib/speech-editor';
 import {workbenchText as t} from '@/lib/workbench-copy';
 import { useContext, useState } from 'react';
 import type { Editor } from '@tiptap/core';
@@ -31,7 +33,7 @@ export function openInline(editor: Editor, kind: string, open: OpenTarget) {
 }
 export function openDomain(editor: Editor, type: string, open: OpenTarget) {
   const { from, to } = insertionRange(editor);
-  open({ editor, type: 'wikiBlock', range: { from, to }, attrs: { data: createDomainBlock(type), source: '', edited: true } });
+  open({ editor, type: 'wikiBlock', range: { from, to }, attrs: { data: {...createDomainBlock(type),...(type==='speech'?{roleId:documentSpeechRoles(editor)[0]?.id||''}: {})}, source: '', edited: true } });
 }
 export function openImage(editor: Editor, open: OpenTarget) {
   const { from, to } = insertionRange(editor);
@@ -107,5 +109,5 @@ export function EditorToolbar({ editor, open, editingContent = false }: { editor
     <DropdownMenu><DropdownMenuTrigger asChild><Button variant="secondary" size="sm"><Plus data-icon="inline-start" />{t("插入")}<ChevronDown data-icon="inline-end" /></Button></DropdownMenuTrigger><DropdownMenuContent className="min-w-44"><DropdownMenuGroup>
       {inserts.map(action => <DropdownMenuItem key={action.id} onSelect={action.run}><action.icon />{action.label}</DropdownMenuItem>)}
     </DropdownMenuGroup><DropdownMenuSeparator /><DropdownMenuGroup>{Object.entries(inlineLabels).filter(([kind]) => !['ruby', 'spoiler'].includes(kind)).map(([kind, label]) => <DropdownMenuItem key={kind} onSelect={() => openInline(editor, kind, open)}>{label}</DropdownMenuItem>)}</DropdownMenuGroup></DropdownMenuContent></DropdownMenu>
-  </div><TableControls editor={editor} /><TableInsertDialog editor={editor} open={tableOpen} onClose={() => setTableOpen(false)} /></div>;
+  <SpeechToolbar editor={editor} disabled={editingContent} onInsert={()=>openDomain(editor,'speech',open)}/></div><TableControls editor={editor} /><TableInsertDialog editor={editor} open={tableOpen} onClose={() => setTableOpen(false)} /></div>;
 }
