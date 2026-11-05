@@ -45,3 +45,18 @@ test('incomplete drafts may save, but empty articles and incomplete image proven
  assert.throws(()=>validateArticleImage({...image,author:'原作者',sourceTitle:'官方发布',rightsBasis:'official'},true),/来源链接/);
  assert.throws(()=>validateArticleImage({...image,author:'原作者',sourceTitle:'原始发布',rightsBasis:'authorized'},true),/具体说明/);
 });
+
+// Uploaded avatars live in the body role registry and must keep their upload ledger.
+test('speech avatars and images retain article attachment provenance',()=>{
+ const id='d'.repeat(64),url='/_private/article-assets/'+id;
+ const image={assetId:id,alt:'旧头像',caption:'',author:'原作者',sourceTitle:'原始发布',sourceUrl:'',rightsBasis:'original',rightsEvidence:''};
+ const ledger=[{url,alt:image.alt,source:'来源说明',staged:{purpose:'article' as const,id,ownerId:'local-fixture',size:100,mime:'image/png',image}}];
+ const registry='```speech-roles\n'+JSON.stringify([{id:'guest',name:'嘉宾',avatar:url}])+'\n```';
+ const body=registry+'\n\n:::speech guest\n正文。\n\n![回答配图]('+url+')\n:::';
+ const snapshot=articleSnapshot('doc',source+'\n'+body,ledger);
+ assert.equal(snapshot.attachments.length,1);
+ assert.equal(snapshot.attachments[0].staged?.ownerId,'local-fixture');
+ assert.equal(snapshot.content.mediaRefs?.[0].author,'原作者');
+ assert.equal(snapshot.content.mediaRefs?.[0].alt,'回答配图');
+ assert.equal(articleSnapshot('doc',source,ledger).attachments.length,0);
+});

@@ -1,3 +1,6 @@
+import {SpeechRoleSelect} from '@/components/speech-tools';
+import {documentSpeechRoles} from '@/lib/speech-editor';
+import {speechMarkdown} from '../../../../src/lib/speech.mjs';
 import {editorHost,retainBrowserImage} from '@/lib/editor-host';
 import { lazy, Suspense, useContext, useEffect, useRef, useState } from 'react';
 import type { Editor } from '@tiptap/core';
@@ -78,9 +81,10 @@ function LyricsFields({ rows, onChange }: { rows: any[]; onChange: (rows: any[])
     <Button size="sm" variant="outline" onClick={() => changeRow(index, { units: [...(row.units?.length ? row.units : [{ original: row.original, kana: row.kana, romaji: row.romaji, time: row.time }]), { original: '', kana: '', romaji: '', time: '' }] })}><Plus data-icon="inline-start" />添加逐字片段</Button>
   </section>)}<Button variant="outline" onClick={() => onChange([...rows, { original: '', kana: '', romaji: '', translation: '', time: '' }])}><Plus data-icon="inline-start" />添加歌词行</Button></FieldGroup>;
 }
-function DomainFields({ attrs, setAttrs, onNestedPending, locale }: { attrs: any; setAttrs: (attrs: any) => void; onNestedPending: (pending: boolean) => void; locale: string }) {
+function DomainFields({ attrs, setAttrs, onNestedPending, locale, editor }: { editor: Editor; attrs: any; setAttrs: (attrs: any) => void; onNestedPending: (pending: boolean) => void; locale: string }) {
   const data = attrs.data;
   const change = (patch: any) => setAttrs({ ...attrs, edited: true, data: { ...data, ...patch } });
+  if(data.type==='speech')return <FieldGroup><SpeechRoleSelect editor={editor} value={data.roleId||''} onChange={roleId=>change({roleId})}/><Field><FieldLabel>发言正文</FieldLabel><RichContentField value={data.text||''} onChange={text=>change({text})} locale={locale} pendingDraft={attrs.pendingNested} onPendingChange={onNestedPending} onPendingDraft={draft => setAttrs((current: any) => { const next = { ...current }; if (draft) next.pendingNested = draft; else delete next.pendingNested; return next; })}/></Field></FieldGroup>;
   if (data.type === 'preserved') return <Alert><AlertDescription>这是保留的旧内容，保存时会完整保留原文。可在正文中移动或删除它。</AlertDescription></Alert>;
   if (data.type === 'lyrics') return <LyricsFields rows={data.rows || []} onChange={rows => change({ rows })} />;
   if (data.type === 'media') return <FieldGroup><MediaFields item={data} onChange={value => change(value)} /><TextField label="来源说明" value={data.caption || ''} onChange={caption => change({ caption })} /></FieldGroup>;
@@ -163,6 +167,7 @@ export function NodeEditor({ target, onClose, locale, onDirty, onDraft }: { targ
       if (data.type === 'lyrics' && (!data.rows?.length || !validLyricsTiming(data.rows) || data.rows.some((row: any) => !(row.units?.length ? row.units.map((unit: any) => unit.original).join('') : row.original)?.trim()))) return setError('歌词不能为空；时间戳需使用 00:01.000 格式，并按时间递增。');
       if (data.type === 'media' && !resolveMediaEmbed(data.provider, data.url)) return setError('媒体链接无法识别，请检查平台和链接。');
       if (data.type === 'media-switcher' && (!data.title?.trim() || data.items.length < 2 || data.items.some((item: any) => !resolveMediaEmbed(item.provider, item.url)))) return setError('请填写标题，并提供至少两个有效媒体链接。');
+      if(data.type==='speech'){if(!documentSpeechRoles(target.editor).some(r=>r.id===data.roleId))return setError('请先添加并选择有效的发言角色。');try{speechMarkdown(data.roleId,data.text||'');}catch(e:any){return setError(e.message);}}
       if (data.type === 'details' && !data.title?.trim()) return setError('请填写折叠标题。');
       nextAttrs.data.locale = locale;
     }
@@ -214,7 +219,7 @@ export function NodeEditor({ target, onClose, locale, onDirty, onDraft }: { targ
   const title = target?.type === 'wikiInline' ? inlineLabels[attrs?.kind] || '特殊语法' : target?.type === 'wikiBlock' ? blockLabels[attrs?.data?.type] || 'Wiki 内容' : target?.type === 'image' ? '图片与来源' : '链接';
   if (!target) return null;
   return <section ref={root} className="wiki-node-editor" aria-label={`编辑${title}`} contentEditable={false}><header className="wiki-node-editor-heading"><h3>{target.position === undefined ? '添加' : '编辑'}{title}</h3><p>{target?.type === 'wikiBlock' && attrs?.data?.type === 'lyrics' ? '原文、注音、译文和校时在这里一起编辑。' : '完成后应用到正文；取消会保留原来的内容。'}</p></header>
-    <div className="wiki-node-editor-fields" key={target?.range.from + '-' + target?.type + '-' + target?.position}>{attrs && target ? target.type === 'wikiInline' ? <InlineFields attrs={attrs} setAttrs={setAttrs} /> : target.type === 'wikiBlock' ? <DomainFields attrs={attrs} setAttrs={setAttrs} onNestedPending={setNestedPending} locale={locale} /> : target.type === 'image' ? <FieldGroup>
+    <div className="wiki-node-editor-fields" key={target?.range.from + '-' + target?.type + '-' + target?.position}>{attrs && target ? target.type === 'wikiInline' ? <InlineFields attrs={attrs} setAttrs={setAttrs} /> : target.type === 'wikiBlock' ? <DomainFields editor={target.editor} attrs={attrs} setAttrs={setAttrs} onNestedPending={setNestedPending} locale={locale} /> : target.type === 'image' ? <FieldGroup>
       <details><summary className="wiki-link-picker-heading">从站内素材选择</summary><EntrySearch imagesOnly onSelect={entry => setAttrs({ ...attrs, src: entry.image || '', alt: entry.title, caption: '站内词条：' + entry.title })} /></details>
       <TextField label="图片地址" value={attrs.src || ''} onChange={src => setAttrs({ ...attrs, src })} />
       {safeUrl(attrs.src) ? <img className="wiki-dialog-image-preview" src={attrs.src} alt={attrs.alt || '所选图片预览'} /> : null}

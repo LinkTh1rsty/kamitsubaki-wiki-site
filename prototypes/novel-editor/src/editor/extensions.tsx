@@ -1,3 +1,4 @@
+import {SpeechBlockPreview} from '@/components/speech-tools';
 import {editorFetch as fetch,editorHost,localEditorHost,previewAssetUrl,previewHTML,restoreBrowserImages,registerStagedImages} from '@/lib/editor-host';
 import { Extension, Node, Mark, mergeAttributes, nodeInputRule, type Editor } from '@tiptap/core';
 import { DOMSerializer } from '@tiptap/pm/model';
@@ -46,7 +47,7 @@ prose.inline.ruler.before('text', 'wiki-inline', (state, silent) => {
 });
 export const renderNestedMarkdown = (source: string) => prose.render(source);
 export const inlineLabels: Record<string, string> = { 'wiki-link': '词条链接', ruby: '振假名注音', spoiler: '剧透遮罩', mark: '高亮', abbr: '缩写说明', kbd: '按键', time: '日期', small: '小字', sub: '下标', sup: '上标', 'zh-variant': '中文变体', ja: '日语文本', math: '行内公式' };
-export const blockLabels: Record<string, string> = { media: '媒体', 'media-switcher': '媒体切换', details: '折叠说明', lyrics: '歌词时间轴', math: '数学公式', preserved: '保留内容' };
+export const blockLabels: Record<string, string> = { speech:'发言', 'speech-roles':'角色配置', media: '媒体', 'media-switcher': '媒体切换', details: '折叠说明', lyrics: '歌词时间轴', math: '数学公式', preserved: '保留内容' };
 export function parseInlineSource(source: string) {
   const match = source.match(/^\{\{([a-z-]+)(::(?:\\.|[^{}])*)\}\}$/);
   return match ? { kind: match[1], args: splitShortcodeArguments(match[2]) as string[], syntax: 'shortcode', source } : null;
@@ -91,11 +92,13 @@ function PreservedPreview({ source }: { source: string }) {
     fetch('/__novel/preview', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ source }), signal: controller.signal }).then(async response => { const result = await response.json(); if (!response.ok) throw new Error(result.error); restoreBrowserImages(source).then(()=>setHtml(previewHTML(result.html))); }).catch(error => { if (error.name !== 'AbortError') setError('预览暂时无法读取，原有内容仍完整保留。'); });
     return () => controller.abort();
   }, [source]);
-  return html ? <div className="wiki-preserved-preview" dangerouslySetInnerHTML={{ __html: html }} /> : <p>{error || '正在读取原有内容…'}</p>;
+  return html ? <div className="wiki-preserved-preview" onErrorCapture={event=>{const image=event.target;if(image instanceof HTMLImageElement&&image.closest('.wiki-speech-avatar'))image.hidden=true;}} dangerouslySetInnerHTML={{ __html: html }} /> : <p>{error || '正在读取原有内容…'}</p>;
 }
 function BlockView(props: NodeViewProps) {
   const data = props.node.attrs.data as WikiBlockData;
   const edit = () => { props.editor.commands.setNodeSelection(props.getPos()); props.extension.options.onEdit?.(props.editor, props.getPos()); };
+  if(data.type==='speech-roles')return <NodeViewWrapper className="speech-registry-node" contentEditable={false} aria-hidden="true"/>;
+  if(data.type==='speech')return <NodeViewWrapper className="speech-editor-block" contentEditable={false} data-wiki-block="speech"><SpeechBlockPreview editor={props.editor} roleId={data.roleId}><PreservedPreview source={data.text||''}/></SpeechBlockPreview><Button className="speech-edit-button" size="icon-sm" variant="ghost" aria-label="编辑发言" onClick={edit}><Pencil/></Button><div data-node-editor-slot/></NodeViewWrapper>;
   const Icon = data.type === 'lyrics' ? Music2 : data.type === 'math' ? Sigma : data.type === 'details' ? ChevronRight : data.type === 'preserved' ? FileText : Tv;
   return <NodeViewWrapper className="wiki-domain-block" contentEditable={false} data-wiki-block={data.type}>
     <div className="wiki-block-header"><span><Icon aria-hidden="true" />{blockLabels[data.type] || data.type}{data.title ? ` · ${data.title}` : ''}</span>{data.type !== 'preserved' ? <Button size="sm" variant="ghost" aria-label={`编辑${blockLabels[data.type] || '片段'}`} onClick={edit}><Pencil data-icon="inline-start" />编辑</Button> : <span>原有内容</span>}</div>

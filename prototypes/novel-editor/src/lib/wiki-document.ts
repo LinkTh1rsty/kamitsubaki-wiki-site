@@ -63,7 +63,7 @@ export function contentSnapshot(value: any): string {
   return JSON.stringify(clean(value));
 }
 
-const domainBlocks = new Set(['media', 'media-switcher', 'details', 'lyrics', 'math', 'preserved']);
+const domainBlocks = new Set(['speech', 'speech-roles', 'media', 'media-switcher', 'details', 'lyrics', 'math', 'preserved']);
 function asDomainNode(block: WikiBlockData): JSONContent {
   const data = structuredClone(block);
   // Original source preservation belongs to the document adapter, not node UI.

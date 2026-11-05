@@ -1,0 +1,10 @@
+/* Shared speech presentation: same structure in articles, entries and editor previews. */
+.wiki-speech{display:grid;grid-template-columns:136px minmax(0,1fr);gap:24px;margin:28px 0;align-items:start;overflow-wrap:anywhere;color:inherit}
+.wiki-speech-byline{display:flex;align-items:center;gap:10px;min-width:0;font:500 14px/1.6 var(--font-sans,inherit);padding-right:12px;border-right:2px solid var(--speech-color)}
+.wiki-speech-avatar{width:36px;height:36px;flex:0 0 36px;display:grid;place-items:center;position:relative;border-radius:50%;overflow:hidden;background:color-mix(in srgb,var(--speech-color) 14%,transparent);color:inherit}
+.wiki-speech-avatar>img{position:absolute;inset:0;width:100%!important;height:100%!important;object-fit:cover;margin:0!important;border-radius:50%}
+.wiki-speech-avatar>img[hidden]{display:none!important}
+.wiki-speech-name{color:inherit!important;text-decoration:none;overflow-wrap:anywhere}
+.wiki-speech-name[href]:hover{text-decoration:underline;text-underline-offset:4px}
+.wiki-speech-body{min-width:0;line-height:1.95}.wiki-speech-body>:first-child{margin-top:0!important}.wiki-speech-body>:last-child{margin-bottom:0!important}
+@media(max-width:600px){.wiki-speech{grid-template-columns:minmax(0,1fr);gap:12px;margin:24px 0}.wiki-speech-byline{border-right:0;border-left:2px solid var(--speech-color);padding-left:10px;padding-right:0}.wiki-speech-avatar{width:32px;height:32px;flex-basis:32px}}
