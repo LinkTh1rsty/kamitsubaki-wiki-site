@@ -6,8 +6,8 @@ const {locale='zh',section}=Astro.props;
 <div id="artist-bg-container" class="artist-bg fixed-bg-hack pointer-events-none" aria-hidden="true"><div class="artist-bg__veil absolute inset-0 z-10 bg-[var(--theme-bg)] opacity-65 mix-blend-multiply"></div><img id="artist-bg-img" alt="" class="artist-bg__image saturate-125"/><img alt="" class="artist-bg__image saturate-125"/></div>
 <ClassificationDirectory locale={locale} home>
  <header slot="heading" class="reveal-up">
-  <h3 class="text-[10px] tracking-kamidest-lg font-light text-white mb-2">{section.heading}</h3>
-  <p class="font-serif text-[10px] text-white/50 tracking-widest mb-12">{section.subheading}</p>
+  <h3 class="text-xs tracking-kamidest-lg font-light text-white mb-2">{section.heading}</h3>
+  <p class="font-serif text-xs text-white/50 tracking-widest mb-12">{section.subheading}</p>
  </header>
 </ClassificationDirectory>
 </section>

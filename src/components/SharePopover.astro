@@ -134,7 +134,7 @@ const copy = resolveLocaleCopy({
   .share-popover__actions { display: grid; gap: .35rem; padding-top: .55rem; border-top: 1px solid var(--reader-line); }
   .share-popover .share-popover__copy { display: flex; justify-content: center; align-items: center; min-height: 40px; width: 100%; border: 1px solid var(--reader-line); border-radius: var(--ui-radius-control, 4px); background: var(--theme-fg); color: var(--theme-bg); font: 500 .78rem/1.4 var(--font-sans); cursor: pointer; transition: opacity 180ms ease; }
   .share-popover .share-popover__copy:hover { opacity: .82; }
-  .share-popover__status { margin: .45rem 0 0; color: var(--reader-muted); font: .72rem/1.5 var(--font-sans); }
+  .share-popover__status { margin: .45rem 0 0; color: var(--reader-muted); font: var(--ui-font-xs)/1.5 var(--font-sans); }
   .share-popover__status:empty { display: none; }
   .share-popover :is(button, input):focus-visible { outline: 2px solid var(--theme-accent-color); outline-offset: 2px; }
   @keyframes share-enter { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }

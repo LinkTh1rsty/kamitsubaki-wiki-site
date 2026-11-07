@@ -110,14 +110,14 @@ const serialized = {
   hidden
 >
   <div class="flex flex-wrap items-baseline justify-between gap-3">
-    <h2 class="font-mono text-[9px] uppercase tracking-[0.24em] text-white/40">{copy.title}</h2>
+    <h2 class="font-mono text-xs uppercase tracking-[0.24em] text-white/40">{copy.title}</h2>
     <div class="flex items-center gap-4">
-      <p class="font-mono text-[10px] tracking-[0.12em] text-white/50" data-filter-count aria-live="polite">
+      <p class="font-mono text-xs tracking-[0.12em] text-white/50" data-filter-count aria-live="polite">
         {copy.countTemplate.replace('{matched}', String(totalCount)).replace('{total}', String(totalCount))}
       </p>
       <WorkspaceButton
         type="button"
-        class="font-mono text-[9px] uppercase tracking-[0.16em] text-white/40 transition-colors hover:text-white"
+        class="font-mono text-xs uppercase tracking-[0.16em] text-white/40 transition-colors hover:text-white"
         data-filter-clear
       >
         {copy.clear}
@@ -186,7 +186,7 @@ const serialized = {
     </div>
   </div>
 
-  <p class="song-catalog-filter__empty mt-4 font-mono text-[11px] tracking-wide text-white/45" data-filter-empty hidden>
+  <p class="song-catalog-filter__empty mt-4 font-mono text-xs tracking-wide text-white/45" data-filter-empty hidden>
     {copy.empty}
   </p>
 </section>
@@ -489,7 +489,7 @@ const serialized = {
   .song-catalog-filter__label {
     display: block;
     font-family: var(--font-mono, ui-monospace, monospace);
-    font-size: 9px;
+    font-size:var(--ui-font-xs);
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: rgb(255 255 255 / 0.4);
@@ -554,7 +554,7 @@ const serialized = {
     background: rgb(255 255 255 / 0.03);
     padding: 0.35rem 0.65rem;
     font-family: var(--font-mono, ui-monospace, monospace);
-    font-size: 10px;
+    font-size:var(--ui-font-xs);
     letter-spacing: 0.08em;
     color: rgb(255 255 255 / 0.55);
     cursor: pointer;

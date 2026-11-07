@@ -1,5 +1,6 @@
 ---
 import Icon from './Icon.astro';
+import {linkArrowIcon} from '../lib/icons.mjs';
 import {readerRecordYear,readerRecordSearchText} from '../lib/readerRecordFilters.mjs';
 interface Props {record:{title:string;href?:string;detail?:string;releaseDate?:string;searchTerms?:string[]};index:number;overflow?:boolean;filterable?:boolean}
 const {record,index,overflow=false,filterable=false}=Astro.props;
@@ -8,5 +9,5 @@ const Tag=record.href?'a':'div';
 <Tag href={record.href} class:list={['reader-record',overflow&&'artist-row-collapsed']} hidden={overflow} data-record-search={filterable?readerRecordSearchText(record):undefined} data-record-year={filterable?readerRecordYear(record.releaseDate):undefined}>
  <span class="reader-record-index">{String(index+1).padStart(2,'0')}</span>
  <span class="reader-record-text"><strong>{record.title}</strong>{record.detail&&<small>{record.detail}</small>}</span>
- {record.href&&<span class="reader-record-arrow" aria-hidden="true"><Icon name="arrow-up-right" /></span>}
+ {record.href&&<span class="reader-record-arrow" aria-hidden="true"><Icon name={linkArrowIcon(record.href)} /></span>}
 </Tag>

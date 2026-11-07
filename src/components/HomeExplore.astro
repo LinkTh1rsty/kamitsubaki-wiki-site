@@ -10,4 +10,4 @@ const section=featuresFor(locale,'main').find(item=>item.id==='explore')!;
  <div class="home-explore-grid">{featuresFor(locale,'explore').map((item,i)=><WorkspaceLinkCard href={item.href} title={item.title} description={item.summary} index={String(i+1).padStart(2,'0')}/>)}</div>
  <a href={section.href}>{section.title} <Icon name="arrow-right" /></a>
 </section>
-<style>header h2{font-size:10px;letter-spacing:.25em;font-weight:300}header p{font:10px var(--font-serif);opacity:.55;margin:8px 0 28px}.home-explore-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}section>a{display:inline-block;margin-top:20px;font-size:12px}@media(max-width:640px){.home-explore-grid{grid-template-columns:1fr}}</style>
+<style>header h2{font-size:var(--ui-font-xs);letter-spacing:.25em;font-weight:300}header p{font:var(--ui-font-xs) var(--font-serif);opacity:.55;margin:8px 0 28px}.home-explore-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}section>a{display:inline-block;margin-top:20px;font-size:12px}@media(max-width:640px){.home-explore-grid{grid-template-columns:1fr}}</style>

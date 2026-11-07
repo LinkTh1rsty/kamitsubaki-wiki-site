@@ -22,7 +22,7 @@
 .gallery-viewer-action-icon{display:flex;align-items:center;justify-content:center;flex:0 0 24px;font-size:22px;line-height:1}
 .gallery-viewer-action-caption{display:grid;gap:4px;min-width:0}
 .gallery-viewer-action-caption strong{font-size:14px;line-height:1.5;font-weight:600;overflow-wrap:anywhere}
-.gallery-viewer-action-caption small{font-size:11px;line-height:1.5;color:#bfc2c7;overflow-wrap:anywhere}
+.gallery-viewer-action-caption small{font-size:var(--ui-font-xs);line-height:1.5;color:#bfc2c7;overflow-wrap:anywhere}
 .gallery-viewer-details .gallery-viewer-action--primary{background:#f2f2f3;color:#191b1e;border-color:#f2f2f3}
 .gallery-viewer-details .gallery-viewer-action:hover{background:#484c52;border-color:#9398a0;color:#fff}
 .gallery-viewer-details .gallery-viewer-action--primary:hover{background:#fff;border-color:#fff;color:#111}

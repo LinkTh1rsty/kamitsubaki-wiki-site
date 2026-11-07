@@ -26,13 +26,13 @@ const { albums, section, locale } = Astro.props as {
   <div class="relative z-10 grid grid-cols-1 gap-9 sm:gap-12 lg:grid-cols-12 lg:gap-24">
     <div class="lg:col-span-3">
       <div class="sticky top-32 reveal-up">
-        <h3 class="mb-2 text-[10px] font-light tracking-kamidest-lg text-white">{section.heading}</h3>
-        <p class="mb-12 font-serif text-[10px] tracking-widest text-white/50">{section.subheading}</p>
+        <h3 class="mb-2 text-xs font-light tracking-kamidest-lg text-white">{section.heading}</h3>
+        <p class="mb-12 font-serif text-xs tracking-widest text-white/50">{section.subheading}</p>
 
         {section.viewAllLabel && (
           <a
             href={`/${locale}/database/music/albums/`}
-            class="group inline-flex items-center gap-3 text-[10px] tracking-widest text-white/40 transition-colors duration-300 hover:text-white"
+            class="group inline-flex items-center gap-3 text-xs tracking-widest text-white/40 transition-colors duration-300 hover:text-white"
           >
             <span class="border-b border-white/20 pb-1 transition-colors group-hover:border-white/60">
               {section.viewAllLabel}
@@ -45,9 +45,9 @@ const { albums, section, locale } = Astro.props as {
 
     <div class="flex flex-col pb-20 lg:col-span-9">
       <div class="mb-4 hidden items-end justify-between border-b border-white/20 pb-4 md:flex reveal-up">
-        <span class="w-12 font-mono text-[9px] text-white/40">COVER</span>
-        <span class="flex-1 pl-4 font-mono text-[9px] text-white/40">TITLE & ARTIST</span>
-        <span class="w-32 text-right font-mono text-[9px] text-white/40">RELEASE</span>
+        <span class="w-12 font-mono text-xs text-white/40">COVER</span>
+        <span class="flex-1 pl-4 font-mono text-xs text-white/40">TITLE & ARTIST</span>
+        <span class="w-32 text-right font-mono text-xs text-white/40">RELEASE</span>
       </div>
 
       {albums.length > 0 ? (
@@ -72,12 +72,12 @@ const { albums, section, locale } = Astro.props as {
                       <h4 class="font-serif text-lg tracking-wide text-white/80 transition-colors duration-300 group-hover:text-white md:text-xl">
                         {album.title}
                       </h4>
-                      <span class="mt-1 block text-[10px] font-light tracking-wider text-white/40 transition-colors group-hover:text-white/60">
+                      <span class="mt-1 block text-xs font-light tracking-wider text-white/40 transition-colors group-hover:text-white/60">
                         {album.subtitle}
                       </span>
                     </div>
                   </div>
-                  <div class="flex items-center gap-4 font-mono text-[9px] text-white/30 md:gap-8 md:text-right">
+                  <div class="flex items-center gap-4 font-mono text-xs text-white/30 md:gap-8 md:text-right">
                     {album.primaryInfo && <span class="w-20 text-left md:text-right">{album.primaryInfo}</span>}
                     <Icon name="chevron-right" class="h-4 w-4 -translate-x-4 text-white opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100" />
                   </div>
@@ -86,7 +86,7 @@ const { albums, section, locale } = Astro.props as {
           ))}
         </div>
       ) : (
-        <p class="border-y border-white/10 px-4 py-10 font-mono text-[10px] tracking-[0.18em] text-white/35 reveal-up">
+        <p class="border-y border-white/10 px-4 py-10 font-mono text-xs tracking-[0.18em] text-white/35 reveal-up">
           {section.emptyLabel ?? 'Album entries are being prepared.'}
         </p>
       )}
@@ -101,10 +101,10 @@ const { albums, section, locale } = Astro.props as {
               </span>
               <div>
                 <h4 data-home-music-title class="font-serif text-lg tracking-wide text-white/80 transition-colors duration-300 group-hover:text-white md:text-xl"></h4>
-                <span data-home-music-subtitle class="mt-1 block text-[10px] font-light tracking-wider text-white/40 transition-colors group-hover:text-white/60"></span>
+                <span data-home-music-subtitle class="mt-1 block text-xs font-light tracking-wider text-white/40 transition-colors group-hover:text-white/60"></span>
               </div>
             </div>
-            <div class="flex items-center gap-4 font-mono text-[9px] text-white/30 md:gap-8 md:text-right">
+            <div class="flex items-center gap-4 font-mono text-xs text-white/30 md:gap-8 md:text-right">
               <span data-home-music-primary-info class="w-20 text-left md:text-right"></span>
               <span data-home-music-secondary-info hidden></span>
               <Icon name="chevron-right" class="h-4 w-4 -translate-x-4 text-white opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100" />

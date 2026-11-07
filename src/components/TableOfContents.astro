@@ -18,7 +18,7 @@ const visibleHeadings = headings.filter((heading) => heading.depth === 2 || head
 <nav class="wiki-toc w-full max-h-[calc(100vh-10rem)] overflow-y-auto pr-2 custom-scrollbar" aria-label={title} data-animated={animated || undefined}>
   <div class="mb-4 flex items-center justify-between gap-3">
     <h3 class="text-xs font-mono tracking-widest text-white/40 uppercase">{title}</h3>
-    <span class="text-[10px] font-mono text-white/25">{visibleHeadings.length}</span>
+    <span class="text-xs font-mono text-white/25">{visibleHeadings.length}</span>
   </div>
   {visibleHeadings.length > 0 && (
     <ul class="space-y-1 text-sm font-sans border-l border-white/10 pl-4 toc-list">

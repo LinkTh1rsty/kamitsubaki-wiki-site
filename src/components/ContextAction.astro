@@ -1,6 +1,7 @@
 ---
 import Icon from './Icon.astro';
 import type { HTMLAttributes } from 'astro/types';
+import { linkArrowIcon } from '../lib/icons.mjs';
 
 interface Props extends HTMLAttributes<'a'> {
   href?: string;
@@ -20,5 +21,5 @@ const {
 ---
 <a {...attributes} href={href} class:list={['context-action', className]} data-tone={tone} data-layout={layout}>
   <span class="context-action__label"><slot /></span>
-  {direction === 'forward' && <span class="context-action__arrow" aria-hidden="true"><Icon name="arrow-up-right" /></span>}
+  {direction === 'forward' && <span class="context-action__arrow" aria-hidden="true"><Icon name={linkArrowIcon(href, attributes.target)} /></span>}
 </a>

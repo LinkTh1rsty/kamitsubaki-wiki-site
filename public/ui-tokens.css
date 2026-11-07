@@ -41,9 +41,13 @@
   --ui-duration-panel: var(--motion-standard, 280ms);
   --ui-duration-enter: var(--motion-surface, 460ms);
   --ui-ease: var(--motion-ease-glide, cubic-bezier(.22, 1, .36, 1));
+  --ui-layer-sticky: 20;
+  --ui-layer-floating: 42;
   --ui-layer-navigation: 50;
   --ui-layer-popover: 60;
   --ui-layer-dialog: 100;
+  --ui-layer-toast: 110;
+  --ui-layer-viewer: 100100;
 }
 html[data-theme='light'] {
   --ui-color-success: #286b43;

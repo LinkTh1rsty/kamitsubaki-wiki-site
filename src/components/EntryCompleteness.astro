@@ -73,7 +73,7 @@ const tierLabel = labels.tiers[tier] ?? labels.tiers.stub;
 <style>
   .entry-completeness { width:100%; margin-top:1.5rem; border:0; border-top:1px solid var(--reader-line); background:none; color:var(--reader-text,var(--theme-fg)); }
   .entry-completeness__summary { padding:18px 0; border-bottom:1px solid var(--reader-line); }
-  .entry-completeness__kicker,.entry-completeness__caption { margin:0; color:var(--reader-muted); font:10px/1.5 var(--font-mono); letter-spacing:.16em; }
+  .entry-completeness__kicker,.entry-completeness__caption { margin:0; color:var(--reader-muted); font:var(--ui-font-xs)/1.5 var(--font-mono); letter-spacing:.16em; }
   .entry-completeness__kicker { text-transform:uppercase; letter-spacing:.22em; }
   .entry-completeness__score-line { display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-top:6px; }
   .entry-completeness__score { font:600 26px/1.25 var(--font-serif); letter-spacing:.06em; }
@@ -83,12 +83,12 @@ const tierLabel = labels.tiers[tier] ?? labels.tiers.stub;
   .entry-completeness__missing { padding:12px 0 18px; border-top:1px solid var(--reader-line); }
   .entry-completeness__missing ul { list-style:none; display:grid; gap:8px; margin:10px 0 0; padding:0; }
   .entry-completeness__missing li { display:flex; align-items:baseline; justify-content:space-between; gap:12px; font-size:12px; }
-  .entry-completeness__weight { flex:0 0 auto; color:var(--reader-muted); font:10px var(--font-mono); }
+  .entry-completeness__weight { flex:0 0 auto; color:var(--reader-muted); font:var(--ui-font-xs) var(--font-mono); }
   .entry-completeness__empty { padding:14px 0; color:var(--reader-muted); font-size:12px; }
   .entry-completeness :global(.entry-completeness__action) { border:0; border-top:1px solid var(--reader-line); padding:14px 0; }
   .entry-completeness :global(.entry-completeness__action .context-action__label) { display:grid; gap:3px; }
   .entry-completeness :global(.entry-completeness__action strong) { font-weight:600; }
-  .entry-completeness :global(.entry-completeness__action small) { color:var(--reader-muted); font:11px/1.55 var(--font-sans); }
+  .entry-completeness :global(.entry-completeness__action small) { color:var(--reader-muted); font:var(--ui-font-xs)/1.55 var(--font-sans); }
   .entry-completeness__badge {
     display: inline-flex;
     align-items: center;
@@ -96,7 +96,7 @@ const tierLabel = labels.tiers[tier] ?? labels.tiers.stub;
     border: 1px solid transparent;
     padding: 0.15rem 0.55rem;
     font-family: var(--font-mono, ui-monospace, monospace);
-    font-size: 9px;
+    font-size:var(--ui-font-xs);
     letter-spacing: 0.18em;
     text-transform: uppercase;
     line-height: 1.4;

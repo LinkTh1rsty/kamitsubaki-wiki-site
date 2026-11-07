@@ -232,10 +232,14 @@ const liveEventsCopy = siteContent?.liveEvents;
       import '../scripts/siteInteractions.js';
       import '../scripts/readerEnhancements.js';
       import '../scripts/mediaSwitcher.js';
+      import '../scripts/floatingAutoHide.js';
     </script>
   </body>
 </html>
 
 <script>
-  document.addEventListener('error',event=>{const image=event.target;if(image instanceof HTMLImageElement&&image.closest('.wiki-speech-avatar'))image.hidden=true;},true);
+  // Broken images keep their box (and alt text for assistive tech) but never paint
+  // the browser's broken-image glyph or overlapping alt text; CSS shows a neutral placeholder.
+  document.addEventListener('error',event=>{const image=event.target;if(!(image instanceof HTMLImageElement))return;if(image.closest('.wiki-speech-avatar')){image.hidden=true;return;}image.dataset.broken='';},true);
+  for(const image of document.images)if(image.complete&&image.currentSrc&&!/\.svg(\?|$)/i.test(image.currentSrc)&&!image.naturalWidth&&!image.closest('.wiki-speech-avatar'))image.dataset.broken='';
 </script>

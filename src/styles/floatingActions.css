@@ -1,7 +1,7 @@
 /* Support stays independent; the observer dashboard owns the other tools. */
 :root { --floating-action-size:48px; --floating-action-step:calc(var(--floating-action-size) + 10px); }
 html body :is(.support-float,.community-float,.tools-dock,.ai-chat__launcher){bottom:max(var(--floating-action-edge),env(safe-area-inset-bottom));}
-html body .support-float{position:fixed;z-index:42;width:var(--floating-action-size);height:var(--floating-action-size);right:calc(var(--floating-action-edge) + var(--floating-action-step));}
+html body .support-float{position:fixed;z-index:var(--ui-layer-floating);width:var(--floating-action-size);height:var(--floating-action-size);right:calc(var(--floating-action-edge) + var(--floating-action-step));}
 html body .community-float{right:calc(var(--floating-action-edge) + 2 * var(--floating-action-step));}
 html body .tools-dock,html body .tools-dock--reader{right:calc(var(--floating-action-edge) + var(--floating-action-step));}
 html body .ai-chat__launcher{right:var(--floating-action-edge);transition-property:opacity,transform;}
@@ -12,7 +12,7 @@ html body :is(.support-float__toggle.workspace-button.dui-btn,.community-float__
  transition:translate 180ms ease,scale 180ms ease,background-color 180ms ease,color 180ms ease,box-shadow 180ms ease;
 }
 html body .support-float__toggle.workspace-button.dui-btn{display:flex;flex-direction:column;gap:2px;background:var(--theme-accent-color);color:var(--theme-bg);border-color:var(--theme-accent-color);}
-html body .support-float__label{font:500 10px/1.2 var(--font-sans);white-space:nowrap;}
+html body .support-float__label{font:500 var(--ui-font-xs)/1.2 var(--font-sans);letter-spacing:-.01em;white-space:nowrap;}
 html body :is(.support-float__toggle,.community-float__toggle,.tools-dock>summary,.ai-chat__orb)>svg{width:20px;height:20px;flex:none;transform:none;transition:none;}
 html body .support-float__toggle>svg{width:18px;height:18px;}
 html body .ai-chat__orb-corner,html body .ai-chat__bubble{display:none;}
@@ -27,3 +27,9 @@ html body .ai-chat__panel{transition:transform 180ms ease,opacity 180ms ease;}
 html body:has(.pswp--open) :is(.support-float,.community-float,.tools-dock,.ai-chat__launcher),html body:has(.ve-workbench) :is(.support-float,.community-float,.tools-dock,.ai-chat__launcher){display:none;}
 @media(max-width:540px){:root{--floating-action-size:44px;--floating-action-edge:max(12px,env(safe-area-inset-right));}}
 @media(prefers-reduced-motion:reduce){html body :is(.support-float,.support-float *,.community-float,.community-float *,.tools-dock,.tools-dock *,.ai-chat__orb,.ai-chat__orb>svg,.ai-chat__panel){animation:none!important;transition:none!important;}}
+/* Narrow screens: floatingAutoHide.js hides actions while scrolling down. */
+@media(max-width:760px){
+ html body :is(.support-float,.community-float,.tools-dock,.ai-chat__launcher,.dashboard-launcher){transition:translate 200ms ease,opacity 200ms ease;}
+ html.floating-actions-hidden body :is(.support-float,.community-float,.tools-dock,.ai-chat__launcher,.dashboard-launcher){translate:0 calc(100% + 24px);opacity:0;pointer-events:none;}
+}
+@media(max-width:760px) and (prefers-reduced-motion:reduce){html body :is(.support-float,.community-float,.tools-dock,.ai-chat__launcher,.dashboard-launcher){transition:none;}}

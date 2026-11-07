@@ -40,7 +40,7 @@ const footerLinks = [
       {footer.tagline}
     </p>
 
-    <div class="site-footer__nav mb-10 flex flex-wrap justify-center gap-x-7 gap-y-4 text-[9px] font-light tracking-kamidest text-white/40 sm:mb-16 sm:gap-12">
+    <div class="site-footer__nav mb-10 flex flex-wrap justify-center gap-x-7 gap-y-4 text-xs font-light tracking-kamidest text-white/40 sm:mb-16 sm:gap-12">
       {footerLinks.map((link) => (
         <a href={link.href} class="hover:text-white transition-colors relative after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[1px] after:bg-white hover:after:w-full after:transition-all">
           {link.label}
@@ -50,17 +50,17 @@ const footerLinks = [
 
     <div class="mb-8 h-10 w-px bg-white/10 sm:mb-12 sm:h-12"></div>
 
-    <p class="site-footer__disclaimer text-[9px] text-white/30 tracking-widest max-w-lg mb-6 font-light leading-loose uppercase">
+    <p class="site-footer__disclaimer text-xs text-white/30 tracking-widest max-w-lg mb-6 font-light leading-loose uppercase">
       {footer.disclaimer.map((line) => (
         <>
           {line}<br />
         </>
       ))}
     </p>
-    <div class="site-footer__license mb-6 max-w-2xl text-[10px] font-light leading-6 text-white/42">
+    <div class="site-footer__license mb-6 max-w-2xl text-xs font-light leading-6 text-white/42">
       <p>{footer.license.notice}</p>
       <p class="mt-1 text-white/30">{footer.license.mediaNotice}</p>
-      <p class="mt-2 flex flex-wrap justify-center gap-x-3 gap-y-1 font-mono text-[9px] uppercase tracking-[0.14em]">
+      <p class="mt-2 flex flex-wrap justify-center gap-x-3 gap-y-1 font-mono text-xs uppercase tracking-[0.14em]">
         <a href={footer.license.detailsHref} class="transition-colors hover:text-white">
           {footer.license.detailsLabel}
         </a>
@@ -70,7 +70,7 @@ const footerLinks = [
         </a>
       </p>
     </div>
-    <p class="site-footer__copyright text-[9px] font-mono text-white/20 tracking-widest">
+    <p class="site-footer__copyright text-xs font-mono text-white/20 tracking-widest">
       {footer.copyright}
     </p>
 

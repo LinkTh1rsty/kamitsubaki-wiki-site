@@ -20,7 +20,7 @@
 .chronicle-language-tabs{display:flex;gap:5px;flex-wrap:wrap;margin:18px 0 8px}
 .chronicle-language-tabs button{min-height:42px;padding:8px 12px;border:1px solid var(--workspace-line);border-radius:3px;background:transparent;color:var(--theme-fg);cursor:pointer}
 .chronicle-language-tabs button[aria-pressed=true]{border-color:var(--theme-fg);background:var(--theme-fg);color:var(--theme-bg)}
-.chronicle-language-tabs small{margin-left:5px;font-size:10px;opacity:.7}
+.chronicle-language-tabs small{margin-left:5px;font-size:var(--ui-font-xs);opacity:.7}
 .chronicle-editor-fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .chronicle-editor-layout fieldset{margin:16px 0;padding:18px 0;border:0;border-top:1px solid var(--workspace-line);}
 .chronicle-editor-layout legend{padding:0 7px;font:12px var(--font-sans)}
@@ -35,9 +35,9 @@
 .chronicle-editor-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
 .chronicle-editor-actions [data-submit]{border-color:var(--theme-fg);background:var(--theme-fg);color:var(--theme-bg)}
 .chronicle-editor-preview{position:sticky;top:80px;padding:20px 0;border:0;background:none;border-radius:0;box-shadow:none;border-top:1px solid var(--workspace-line);}
-.chronicle-editor-preview>span{font:10px var(--font-mono);letter-spacing:.12em;color:var(--workspace-muted)}
+.chronicle-editor-preview>span{font:var(--ui-font-xs) var(--font-mono);letter-spacing:.12em;color:var(--workspace-muted)}
 .chronicle-editor-preview h2{font-size:20px;margin:10px 0 22px}.chronicle-editor-preview h3{font:400 21px/1.5 var(--font-serif);margin:12px 0}
-.chronicle-editor-preview time,.chronicle-editor-preview [data-preview-language]{font:11px var(--font-mono);color:var(--theme-accent-color)}
+.chronicle-editor-preview time,.chronicle-editor-preview [data-preview-language]{font:var(--ui-font-xs) var(--font-mono);color:var(--theme-accent-color)}
 .chronicle-editor-preview p,.chronicle-editor-preview div{font:12px/1.8 var(--font-sans);overflow-wrap:anywhere}
 .chronicle-submit :is(button,input,textarea,select):focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:2px}
 @media(max-width:800px){.chronicle-editor-layout{grid-template-columns:1fr;gap:10px}.chronicle-editor-preview{position:static;border:0;border-radius:0;background:none;box-shadow:none;padding:20px 0;border-top:1px solid var(--workspace-line);}.chronicle-editor-fields{grid-template-columns:1fr 1fr}}

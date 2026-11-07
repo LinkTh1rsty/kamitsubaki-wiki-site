@@ -60,7 +60,7 @@ html body .reader-layout:not(:has(.reader-body)) > .reader-sidebar { grid-column
 html body div.reader-heading-frame { padding-bottom: 0; }
 html body .wiki-article-header { border-bottom: 1px solid var(--reader-line); padding-bottom: .75rem; }
 .wiki-article-context { display: flex; align-items: center; justify-content: space-between; gap: .75rem; margin-bottom: .5rem; }
-.wiki-article-breadcrumb { display: flex; flex-wrap: wrap; align-items: center; gap: .25rem .5rem; min-width: 0; color: var(--reader-muted); font-size: .72rem; }
+.wiki-article-breadcrumb { display: flex; flex-wrap: wrap; align-items: center; gap: .25rem .5rem; min-width: 0; color: var(--reader-muted); font-size: var(--ui-font-xs); }
 html body .wiki-article-breadcrumb .music-subnav { border: 0; border-radius: 0; background: none; }
 html body .wiki-article-breadcrumb .music-subnav > div { gap: .5rem; padding: 0; }
 html body .wiki-article-breadcrumb .music-subnav a { min-height: 28px; padding: 0; background: none; color: var(--reader-muted); font: inherit; letter-spacing: 0; }
@@ -82,7 +82,7 @@ html body .wiki-article-actions button[aria-pressed='true'] { color: var(--theme
 html body .wiki-article-actions [role='status']:empty { display: none; }
 html body .wiki-article-actions [role='status']:not(:empty) { flex-basis: 100%; order: 1; padding: .4rem .65rem; }
 .wiki-article-language-menu { position: relative; flex-shrink: 0; z-index: 10; }
-html body .wiki-article-language-menu > summary { display: flex; align-items: center; gap: .4rem; min-height: 28px; padding: .2rem .45rem; color: var(--reader-muted); font-size: .72rem; list-style: none; }
+html body .wiki-article-language-menu > summary { display: flex; align-items: center; gap: .4rem; min-height: 28px; padding: .2rem .45rem; color: var(--reader-muted); font-size: var(--ui-font-xs); list-style: none; }
 .wiki-article-language-menu > summary::-webkit-details-marker { display: none; }
 html body .wiki-article-language-menu[open] > summary { background: rgb(var(--theme-fg-rgb) / .05); color: var(--theme-fg); }
 .wiki-article-locales { position: absolute; top: calc(100% + 4px); right: 0; display: grid; min-width: 10.5rem; padding: .25rem; border: 1px solid var(--reader-line); border-radius: var(--ui-radius-control); background: var(--reader-paper); box-shadow: var(--ui-shadow); }
@@ -141,7 +141,7 @@ html body .wiki-reader :where(th) { background: rgb(var(--theme-fg-rgb) / .03); 
 html body .wiki-reader :where(pre) { font-size: .82rem; line-height: 1.8; border-color: var(--reader-line); box-shadow: none; }
 html body .wiki-reader .wiki-fact-grid { gap: 0; border-block: 1px solid var(--reader-line); }
 html body .wiki-reader .wiki-fact-card { padding: .85rem 1rem .85rem 0; border: 0; background: none; border-radius: 0; }
-html body .wiki-reader .wiki-fact-card__label { font: .73rem/1.7 var(--font-sans); letter-spacing: 0; }
+html body .wiki-reader .wiki-fact-card__label { font: var(--ui-font-xs)/1.7 var(--font-sans); letter-spacing: 0; }
 html body .wiki-reader .wiki-fact-card__value { margin: .25rem 0 0; }
 html body .wiki-reader .wiki-external-links { padding: 0; gap: .25rem 1.5rem; }
 html body .wiki-reader .wiki-external-links__item { padding: 0; margin: 0; }
@@ -167,7 +167,7 @@ html body.wiki-reading-page :is(.wiki-infobox, .wiki-side-card) { border: 1px so
 html body.wiki-reading-page .wiki-infobox > div:first-child { background: none; }
 html body.wiki-reading-page .wiki-infobox figure { background: none; padding: .6rem; }
 html body.wiki-reading-page .wiki-infobox figure img { filter: none; }
-html body.wiki-reading-page .wiki-infobox :is(dt, .font-mono) { font-family: var(--font-sans); font-size: .69rem; line-height: 1.65; letter-spacing: .01em; text-transform: none; }
+html body.wiki-reading-page .wiki-infobox :is(dt, .font-mono) { font-family: var(--font-sans); font-size: var(--ui-font-xs); line-height: 1.65; letter-spacing: .01em; text-transform: none; }
 html body.wiki-reading-page .wiki-infobox h2 { font-size: 1.35rem; letter-spacing: .015em; }
 html body.wiki-reading-page .wiki-infobox .animate-pulse { animation: none; }
 html body.wiki-reading-page .wiki-infobox .external-link-card { border: 0; border-bottom: 1px solid var(--reader-line); border-radius: 0; background: none; padding-inline: 0; }

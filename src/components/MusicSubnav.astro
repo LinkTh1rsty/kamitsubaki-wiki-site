@@ -19,7 +19,7 @@ const copy = resolveLocaleCopy({
       href={`/${locale}/database/music/songs/`}
       aria-current={current === 'songs' ? 'page' : undefined}
       class:list={[
-        'rounded-full px-5 py-2 font-mono text-[10px] uppercase tracking-[0.18em] transition-colors',
+        'rounded-full px-5 py-2 font-mono text-xs uppercase tracking-[0.18em] transition-colors',
         current === 'songs' ? 'bg-white text-black' : 'text-white/45 hover:bg-white/10 hover:text-white',
       ]}
     >
@@ -29,7 +29,7 @@ const copy = resolveLocaleCopy({
       href={`/${locale}/database/music/albums/`}
       aria-current={current === 'albums' ? 'page' : undefined}
       class:list={[
-        'rounded-full px-5 py-2 font-mono text-[10px] uppercase tracking-[0.18em] transition-colors',
+        'rounded-full px-5 py-2 font-mono text-xs uppercase tracking-[0.18em] transition-colors',
         current === 'albums' ? 'bg-white text-black' : 'text-white/45 hover:bg-white/10 hover:text-white',
       ]}
     >

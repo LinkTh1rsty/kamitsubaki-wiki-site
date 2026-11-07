@@ -1,4 +1,4 @@
-> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
+> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。全站 UI 标准见 [design-system.md](design-system.md)。
 
 # 共用按钮与表单控件
 

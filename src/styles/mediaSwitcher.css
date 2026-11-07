@@ -47,7 +47,7 @@
   color: rgb(var(--theme-fg-rgb) / 0.46);
   cursor: pointer;
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: var(--ui-font-xs);
   letter-spacing: 0.08em;
   line-height: 1;
   transition: color 160ms ease, border-color 160ms ease, background-color 160ms ease;

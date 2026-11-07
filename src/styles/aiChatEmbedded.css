@@ -50,7 +50,7 @@ html body .observer-dashboard .ai-chat--embedded .ai-chat__quick .dui-btn{min-he
 .observer-dashboard .ai-chat--embedded .ai-chat__composer textarea::placeholder{font:inherit;color:var(--reader-muted)}
 html body .observer-dashboard .ai-chat--embedded .ai-chat__submit-btn.dui-btn{align-self:flex-end;width:40px;height:40px;min-width:40px;min-height:40px;margin:2px 0;padding:10px;border:0;border-radius:var(--ui-radius-control);box-shadow:none;background:var(--reader-text);color:var(--reader-paper)}
 html body .observer-dashboard .ai-chat--embedded .ai-chat__submit-btn.dui-btn:disabled{background:var(--ai-accent-dim);color:var(--reader-muted)}
-.observer-dashboard .ai-chat--embedded .ai-chat__hint{margin:8px 0 0;text-align:right;text-transform:none;font:11px/1.5 var(--font-sans);color:var(--reader-muted)}
+.observer-dashboard .ai-chat--embedded .ai-chat__hint{margin:8px 0 0;text-align:right;text-transform:none;font:var(--ui-font-xs)/1.5 var(--font-sans);color:var(--reader-muted)}
 .observer-dashboard .ai-chat--embedded .ai-chat__loading{display:none;position:absolute;inset:0 0 120px;z-index:2;padding:24px 0;background:var(--reader-paper);align-content:start}
 .observer-dashboard .ai-chat--embedded.is-loading .ai-chat__loading{display:grid}
 .observer-dashboard .ai-chat--embedded .ai-chat__icon-btn svg{width:16px;height:16px;flex:none}

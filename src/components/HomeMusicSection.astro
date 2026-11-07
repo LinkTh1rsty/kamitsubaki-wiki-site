@@ -15,7 +15,7 @@ const copy=resolveLocaleCopy({zh:{title:'音乐作品',songs:'歌曲',albums:'�
  </ContentTabs></div>
 </section>
 <style>
-.home-music{display:grid;grid-template-columns:minmax(140px,1fr) minmax(0,3fr);gap:48px}.home-music header h2{font:300 10px var(--font-sans);letter-spacing:.25em}.home-music header p{font:10px var(--font-serif);opacity:.55;margin:8px 0 30px}.home-music header a{font-size:11px;opacity:.65}.home-music-content{min-width:0}
+.home-music{display:grid;grid-template-columns:minmax(140px,1fr) minmax(0,3fr);gap:48px}.home-music header h2{font:300 var(--ui-font-xs) var(--font-sans);letter-spacing:.25em}.home-music header p{font:var(--ui-font-xs) var(--font-serif);opacity:.55;margin:8px 0 30px}.home-music header a{font-size:var(--ui-font-xs);opacity:.65}.home-music-content{min-width:0}
 .home-music :global(#songs),.home-music :global(#albums){padding:0;max-width:none;border:0}.home-music :global(#songs>div),.home-music :global(#albums>div){display:block}.home-music :global(#songs>div>div:first-child),.home-music :global(#albums>div>div:first-child){display:none}.home-music :global(.pb-20){padding-bottom:0}
 @media(max-width:760px){.home-music{grid-template-columns:1fr;gap:24px}}
 </style>
