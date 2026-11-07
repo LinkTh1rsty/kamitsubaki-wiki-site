@@ -5,7 +5,7 @@ affiliations: []
 officialLinks:
   - label: "カンザキイオリ 官方网站"
     url: "https://kanzakiiori.com/"
-name: "神崎一织"
+name: "神绮一织"
 seo:
   keywords:
     - "カンザキイオリ"
@@ -49,11 +49,11 @@ summary: "以《被生命所厌恶。》为代表作，用极具穿透力的歌�
 ---
 ## 概述
 
-{{ruby::カンザキイオリ::かんざきいおり::kanzaki iori}}（神崎一织）是日本知名 Vocaloid Producer、词曲作家及小说家。
+{{ruby::カンザキイオリ::かんざきいおり::kanzaki iori}}（神绮一织）是日本知名 Vocaloid Producer、词曲作家及小说家。
 
 以 2017 年发布的 Vocaloid 代表作《{{ruby::命に嫌われている。::いのちにきらわれている。::inochi ni kirわれている}}》（被生命所厌恶。）引爆全网上亿播放。从 2018 年花譜出道起至 2023 年，他作为 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio) 的核心主创，为花譜创作了《糸》《[心臓と絡繰](/zh/songs/kaf/originals/shinzou-to-karakuri)》《魔女》《過去を喰らう》《[不可解](/zh/songs/kaf/originals/不可解-inexplicable)》《[海に化ける](/zh/songs/kaf/originals/海に化ける-turn-into-the-sea)》等数十首经典单曲，以及前三张个人专辑《[観測](/zh/albums/kaf/kansoku)》《[魔法](/zh/albums/kaf/maho)》《[狂想](/zh/albums/kaf/kyoso)》。
 
-2023年3月，随着[花譜](/zh/artists/vwp/kaf) 3rd LIVE「不可解参(想)」的举办，神崎一织宣布从神椿工作室独立毕业，以个人音乐家及小说家身份展开新阶段的独立创作。
+2023年3月，随着[花譜](/zh/artists/vwp/kaf) 3rd LIVE「不可解参(想)」的举办，神绮一织宣布从神椿工作室独立毕业，以个人音乐家及小说家身份展开新阶段的独立创作。
 
 - **代表音乐作品**：《命に嫌われている。》《[君の神様になりたい。](/zh/songs/harusaruhi/covers/君の神様になりたい-kimi-no-kamisama-ni-naritai)》《あの夏が飽和する。》《糸》《[魔女](/zh/songs/kaf/originals/majo)》《不可解》《過去を喰らう》《番外》
 - **代表小说著作**：《あの夏が飽和する。》《親愛なるあなたへ》
