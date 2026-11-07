@@ -1,17 +1,18 @@
 ---
 import Icon from './Icon.astro';
+import {linkArrowIcon} from '../lib/icons.mjs';
 interface Props {href:string;title:string;description?:string;index?:string;class?:string;}
 const {href,title,description,index,class:className}=Astro.props;
 ---
-<a href={href} class:list={['workspace-link-card',className]}>{index&&<span class="workspace-link-card-index" aria-hidden="true">{index}</span>}<span class="workspace-link-card-copy"><strong>{title}</strong>{description&&<small>{description}</small>}</span><span class="workspace-link-card-arrow" aria-hidden="true"><Icon name="arrow-up-right" /></span></a>
+<a href={href} class:list={['workspace-link-card',className]}>{index&&<span class="workspace-link-card-index" aria-hidden="true">{index}</span>}<span class="workspace-link-card-copy"><strong>{title}</strong>{description&&<small>{description}</small>}</span><span class="workspace-link-card-arrow" aria-hidden="true"><Icon name={linkArrowIcon(href)} /></span></a>
 <style>
 .workspace-link-card{display:flex;align-items:center;gap:20px;min-width:0;min-height:104px;padding:18px 0;border:0;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.15);background:none;color:var(--theme-fg);text-decoration:none;position:relative;isolation:isolate;transition:border-color 220ms,color 220ms}
 .workspace-link-card::before{content:'';position:absolute;inset:4px -12px;z-index:-1;border-radius:4px;background:rgb(var(--theme-fg-rgb)/.035);opacity:0;transform:translateX(-4px);transition:opacity 220ms,transform 220ms}
 .workspace-link-card:hover::before,.workspace-link-card:focus-visible::before{opacity:1;transform:none}
 
 .workspace-link-card-copy{flex:1;min-width:0}.workspace-link-card strong{display:block;font:400 19px/1.6 var(--font-serif);letter-spacing:.025em}.workspace-link-card small{display:block;margin-top:6px;font:12px/1.85 var(--font-sans);color:rgb(var(--theme-fg-rgb)/.62)}
-.workspace-link-card-index{font:10px var(--font-mono);color:rgb(var(--theme-fg-rgb)/.4)}.workspace-link-card-arrow{font-size:17px;transition:transform 220ms;color:rgb(var(--theme-fg-rgb)/.5)}
-.workspace-link-card:hover{color:var(--theme-fg);border-color:rgb(var(--theme-fg-rgb)/.35)}.workspace-link-card:hover .workspace-link-card-arrow{transform:translate(3px,-3px);color:var(--ui-accent-color)}.workspace-link-card:focus-visible{outline:2px solid var(--ui-accent-color);outline-offset:5px}
+.workspace-link-card-index{font:var(--ui-font-xs) var(--font-mono);color:rgb(var(--theme-fg-rgb)/.4)}.workspace-link-card-arrow{font-size:17px;transition:transform 220ms;color:rgb(var(--theme-fg-rgb)/.5)}
+.workspace-link-card:hover{color:var(--theme-fg);border-color:rgb(var(--theme-fg-rgb)/.35)}.workspace-link-card:hover .workspace-link-card-arrow{transform:translateX(3px);color:var(--ui-accent-color)}.workspace-link-card:focus-visible{outline:2px solid var(--ui-accent-color);outline-offset:5px}
 @media(max-width:760px){.workspace-link-card{padding-block:20px;gap:16px}.workspace-link-card strong{font-size:20px}}
 @media(prefers-reduced-motion:reduce){.workspace-link-card,.workspace-link-card-arrow,.workspace-link-card::before{transition:none}.workspace-link-card:hover .workspace-link-card-arrow{transform:none}}
 </style>

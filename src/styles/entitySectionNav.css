@@ -2,5 +2,5 @@
 .entity-section-nav a{display:inline-flex;align-items:center;min-height:44px;color:var(--reader-muted);font:12px/1.6 var(--font-sans);text-decoration:none;transition:color 160ms}
 .entity-section-nav a:hover,.entity-section-nav a[aria-current='location']{color:var(--theme-fg)}
 .entity-section-nav a:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:5px}
-@media(max-width:760px){.entity-section-nav{gap:0 20px}.entity-section-nav a{font-size:11px}}
+@media(max-width:760px){.entity-section-nav{gap:0 20px}.entity-section-nav a{font-size:var(--ui-font-xs)}}
 @media(prefers-reduced-motion:reduce){.entity-section-nav a{transition:none}}

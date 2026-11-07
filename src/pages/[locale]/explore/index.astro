@@ -47,7 +47,7 @@ const copy=resolveLocaleCopy({
 .explore-paths{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
 .explore-path{display:flex;flex-direction:column;min-width:0;min-height:445px;padding:24px;border:1px solid var(--workspace-line);border-radius:var(--workspace-radius);background:var(--workspace-surface);color:var(--theme-fg);text-decoration:none;transition:border-color 180ms,transform 180ms}
 .explore-path:hover{border-color:var(--theme-accent-color);transform:translateY(-3px)}
-.explore-path__kicker,.explore-related header>span,.explore-journal>span{font:10px/1.5 var(--font-mono);letter-spacing:.1em;color:var(--workspace-muted)}
+.explore-path__kicker,.explore-related header>span,.explore-journal>span{font:var(--ui-font-xs)/1.5 var(--font-mono);letter-spacing:.1em;color:var(--workspace-muted)}
 .explore-path__graphic{position:relative;display:flex;align-items:center;justify-content:center;height:212px;margin:24px 0;border:1px solid var(--workspace-line);overflow:hidden;background:var(--theme-bg)}
 .explore-path__graphic--time{flex-direction:column;gap:16px;padding:20px}
 .explore-path__graphic--time>span{display:flex;gap:9px;width:100%;height:36px;padding:7px 0;border-block:1px solid var(--workspace-line)}

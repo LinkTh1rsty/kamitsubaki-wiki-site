@@ -124,13 +124,13 @@ const licenseUrl = licenseUrls[resolvedLicense.code];
   data-license-code={resolvedLicense.code}
 >
   <div class="flex flex-wrap items-center justify-between gap-3">
-    <p class="font-mono text-[9px] uppercase tracking-[0.22em] text-white/35">{copy.eyebrow}</p>
+    <p class="font-mono text-xs uppercase tracking-[0.22em] text-white/35">{copy.eyebrow}</p>
     {licenseUrl ? (
-      <a rel="license" href={licenseUrl} class="font-mono text-[9px] uppercase tracking-[0.15em] text-cyan-50/65 transition-colors hover:text-cyan-50">
+      <a rel="license" href={licenseUrl} class="font-mono text-xs uppercase tracking-[0.15em] text-cyan-50/65 transition-colors hover:text-cyan-50">
         {licenseCopy.label}
       </a>
     ) : (
-      <span class="font-mono text-[9px] uppercase tracking-[0.15em] text-white/52">{licenseCopy.label}</span>
+      <span class="font-mono text-xs uppercase tracking-[0.15em] text-white/52">{licenseCopy.label}</span>
     )}
   </div>
 
@@ -140,7 +140,7 @@ const licenseUrl = licenseUrls[resolvedLicense.code];
     <dl class="mt-4 grid gap-3 border-t border-white/8 pt-4 text-xs leading-5 text-white/52 sm:grid-cols-3">
       {resolvedLicense.sourceUrl && (
         <div>
-          <dt class="font-mono text-[8px] uppercase tracking-[0.16em] text-white/28">{copy.source}</dt>
+          <dt class="font-mono text-xs uppercase tracking-[0.16em] text-white/28">{copy.source}</dt>
           <dd class="mt-1">
             <a href={resolvedLicense.sourceUrl} class="break-words text-cyan-50/65 transition-colors hover:text-cyan-50">
               {resolvedLicense.sourceTitle && !/^https?:\/\//i.test(resolvedLicense.sourceTitle) ? resolvedLicense.sourceTitle : copy.source}
@@ -150,22 +150,22 @@ const licenseUrl = licenseUrls[resolvedLicense.code];
       )}
       {resolvedLicense.attribution && (
         <div>
-          <dt class="font-mono text-[8px] uppercase tracking-[0.16em] text-white/28">{copy.attribution}</dt>
+          <dt class="font-mono text-xs uppercase tracking-[0.16em] text-white/28">{copy.attribution}</dt>
           <dd class="mt-1">{resolvedLicense.attribution}</dd>
         </div>
       )}
       {resolvedLicense.modifications && (
         <div>
-          <dt class="font-mono text-[8px] uppercase tracking-[0.16em] text-white/28">{copy.modifications}</dt>
+          <dt class="font-mono text-xs uppercase tracking-[0.16em] text-white/28">{copy.modifications}</dt>
           <dd class="mt-1">{resolvedLicense.modifications}</dd>
         </div>
       )}
     </dl>
   )}
 
-  {resolvedLicense.note && <p class="mt-3 text-[11px] leading-5 text-white/42">{resolvedLicense.note}</p>}
-  <p class="mt-4 border-t border-white/8 pt-4 text-[11px] leading-5 text-white/35">{copy.media}</p>
-  <a href={`/${locale}/license`} class="mt-3 inline-flex font-mono text-[9px] uppercase tracking-[0.16em] text-white/42 transition-colors hover:text-white">
+  {resolvedLicense.note && <p class="mt-3 text-xs leading-5 text-white/42">{resolvedLicense.note}</p>}
+  <p class="mt-4 border-t border-white/8 pt-4 text-xs leading-5 text-white/35">{copy.media}</p>
+  <a href={`/${locale}/license`} class="mt-3 inline-flex font-mono text-xs uppercase tracking-[0.16em] text-white/42 transition-colors hover:text-white">
     {copy.details} <Icon name="arrow-right" />
   </a>
 </aside>

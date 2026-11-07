@@ -40,7 +40,7 @@ html body main.workspace-page .workspace-header{position:relative;display:flex;a
 html body main.workspace-page .workspace-header::after{content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/plus.svg') center/contain no-repeat;position:absolute;right:0;bottom:-9px;padding-left:8px;background:var(--theme-bg);color:var(--workspace-muted);font:14px var(--font-mono)}
 html body main.workspace-page .workspace-heading{flex:1 1 320px;min-width:0}
 html body main.workspace-page .workspace-heading h1{font:400 var(--workspace-title)/1.35 var(--font-serif);letter-spacing:.025em;margin:0 0 12px;text-wrap:balance}
-html body main.workspace-page .workspace-heading>.workspace-eyebrow{font:11px/1.6 var(--font-mono);letter-spacing:.15em;margin:0 0 10px;color:var(--workspace-muted)}
+html body main.workspace-page .workspace-heading>.workspace-eyebrow{font:var(--ui-font-xs)/1.6 var(--font-mono);letter-spacing:.15em;margin:0 0 10px;color:var(--workspace-muted)}
 html body main.workspace-page .workspace-heading>p:not(.workspace-eyebrow){font:14px/1.8 var(--font-sans);max-width:64ch;margin:0;color:var(--workspace-muted);opacity:1;text-wrap:pretty}
 html body main.workspace-page .workspace-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-left:auto;justify-content:flex-end}
 html body main.workspace-page .workspace-header-status{flex-basis:100%;margin:0}

@@ -1,8 +1,8 @@
 html body .entity-info{overflow:hidden;border:1px solid var(--reader-line);border-radius:var(--ui-radius-panel);color:var(--reader-text);background:rgb(var(--theme-fg-rgb)/.025);backdrop-filter:blur(12px)}
 html body .entity-info>header{padding:20px 18px 18px;border-bottom:1px solid var(--reader-line)}
-html body .entity-info>header>small{font:10px/1.6 var(--font-sans);color:var(--reader-muted);letter-spacing:.025em}
+html body .entity-info>header>small{font:var(--ui-font-xs)/1.6 var(--font-sans);color:var(--reader-muted);letter-spacing:.025em}
 html body .entity-info>header h2{margin:8px 0 0;font:500 23px/1.45 var(--font-serif);overflow-wrap:anywhere}
-html body .entity-info .info-romanized{margin:6px 0 0;color:var(--reader-muted);font:11px/1.6 var(--font-sans);overflow-wrap:anywhere}
+html body .entity-info .info-romanized{margin:6px 0 0;color:var(--reader-muted);font:var(--ui-font-xs)/1.6 var(--font-sans);overflow-wrap:anywhere}
 html body .entity-info .info-artists{margin:12px 0 0;font:500 13px/1.7 var(--font-sans);overflow-wrap:anywhere}
 html body .entity-info .info-artists a{color:var(--reader-text);text-decoration:none}
 html body .entity-info>figure{margin:0;padding:5px}
@@ -10,7 +10,7 @@ html body .entity-info>figure img{width:100%;aspect-ratio:1;object-fit:cover;bor
 html body .entity-info-body{padding:2px 18px 12px}
 html body .entity-info :is(.entity-info-facts,.entity-info-credits){margin:0}
 html body .entity-info :is(.entity-info-facts,.entity-info-credits)>div{display:grid;grid-template-columns:minmax(4.5rem,.8fr) minmax(0,1.2fr);gap:12px;padding:9px 0;align-items:baseline}
-html body .entity-info dt{color:var(--reader-muted);font:11px/1.7 var(--font-sans);overflow-wrap:anywhere}
+html body .entity-info dt{color:var(--reader-muted);font:var(--ui-font-xs)/1.7 var(--font-sans);overflow-wrap:anywhere}
 html body .entity-info dd{margin:0;overflow-wrap:anywhere;color:var(--reader-text);font:500 13px/1.7 var(--font-sans);font-variant-numeric:tabular-nums}
 html body .entity-info .entity-info-more{margin:8px 0 0;padding:0;border:0;border-top:1px solid var(--reader-line);border-radius:0;background:none}
 html body .entity-info .entity-info-more>summary{display:flex;align-items:center;gap:12px;min-height:48px;padding:12px 0;margin:0;border:0;color:var(--reader-text);font:600 12px/1.7 var(--font-sans);list-style:none;cursor:pointer}
@@ -25,8 +25,8 @@ html body .entity-info-more-body>section:first-child{padding-top:6px;border-top:
 html body .entity-info-more-body>section:last-child{padding-bottom:4px}
 html body .entity-info-more-body h3{margin:0 0 8px;color:var(--reader-text);font:600 12px/1.6 var(--font-sans);letter-spacing:.025em}
 html body .entity-info .info-relation{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:7px 0;color:var(--reader-text);font:500 13px/1.7 var(--font-sans);overflow-wrap:anywhere}
-html body .entity-info .info-relation small{font:10px/1.6 var(--font-sans);color:var(--reader-muted);flex:none}
-html body .entity-info .info-relation-date{display:block;color:var(--reader-muted);font:11px/1.7 var(--font-sans);padding-bottom:8px}
+html body .entity-info .info-relation small{font:var(--ui-font-xs)/1.6 var(--font-sans);color:var(--reader-muted);flex:none}
+html body .entity-info .info-relation-date{display:block;color:var(--reader-muted);font:var(--ui-font-xs)/1.7 var(--font-sans);padding-bottom:8px}
 html body .entity-info .entity-info-credits>div{padding:5px 0}
 html body .entity-info .info-links{display:grid;gap:0}
 html body .wiki-infobox.entity-info .info-links .external-link-card{grid-template-columns:20px minmax(0,1fr) 16px;min-height:44px;gap:10px;padding:9px 0;border:0;background:none;border-radius:0;box-shadow:none}
@@ -38,4 +38,4 @@ html body .entity-info a:focus-visible{outline:2px solid var(--theme-accent-colo
 html body .entity-info .theme-swatch-row{display:flex;gap:10px;flex-wrap:wrap;padding-top:4px}
 html body .entity-info .theme-swatch-row>span{flex:1;min-width:40px}
 html body .entity-info .theme-swatch-row i{display:block;height:8px;border-radius:2px}
-html body .entity-info .theme-swatch-row small{display:block;margin-top:7px;color:var(--reader-muted);font:10px/1.6 var(--font-sans)}
+html body .entity-info .theme-swatch-row small{display:block;margin-top:7px;color:var(--reader-muted);font:var(--ui-font-xs)/1.6 var(--font-sans)}

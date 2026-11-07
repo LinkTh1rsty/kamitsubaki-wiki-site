@@ -2,6 +2,6 @@
 .submission-receipt[hidden]{display:none}
 .submission-receipt__details{display:grid;gap:3px;font:12px/1.6 var(--font-sans)}
 .submission-receipt__details strong{font-weight:600}
-.submission-receipt__details small{color:rgb(var(--theme-fg-rgb)/.64);font-size:11px}
-.submission-receipt__details code{font:11px var(--font-mono)}
+.submission-receipt__details small{color:rgb(var(--theme-fg-rgb)/.64);font-size:var(--ui-font-xs)}
+.submission-receipt__details code{font:var(--ui-font-xs) var(--font-mono)}
 @media(max-width:640px){.submission-receipt{align-items:flex-start;flex-direction:column}.submission-receipt .context-action{width:100%}}

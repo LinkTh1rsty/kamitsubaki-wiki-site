@@ -20,7 +20,7 @@ const column=locale==='en'?'Article column':locale==='ja'?'記事コラム':'文
  </ReaderDisclosure>
 </div>
 <style>
-.related-article-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:16px}.related-article-actions :global(a:first-of-type){margin-left:auto}.related-article-state{display:flex;align-items:center;justify-content:space-between;gap:8px 16px;min-height:48px}.related-article-state p{margin:0;color:var(--reader-muted);font:12px/1.7 var(--font-sans)}.related-article-state__actions{display:flex;align-items:center;gap:4px;flex-shrink:0}[hidden]{display:none!important}[data-db-articles] :global(.reader-disclosure-count){font:10px var(--font-mono);color:var(--reader-muted)}
+.related-article-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:16px}.related-article-actions :global(a:first-of-type){margin-left:auto}.related-article-state{display:flex;align-items:center;justify-content:space-between;gap:8px 16px;min-height:48px}.related-article-state p{margin:0;color:var(--reader-muted);font:12px/1.7 var(--font-sans)}.related-article-state__actions{display:flex;align-items:center;gap:4px;flex-shrink:0}[hidden]{display:none!important}[data-db-articles] :global(.reader-disclosure-count){font:var(--ui-font-xs) var(--font-mono);color:var(--reader-muted)}
 @media(max-width:600px){.related-article-actions :global(a:first-of-type){margin-left:0}.related-article-state{flex-wrap:wrap}.related-article-state__actions{width:100%;justify-content:flex-start}}
 </style>
 <script>

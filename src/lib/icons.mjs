@@ -43,6 +43,16 @@ export function createIcon(name, attributes={}, ownerDocument=document) {
  template.innerHTML=iconMarkup(name,attributes);
  return template.content.firstElementChild;
 }
+// Navigation icon convention: arrow-up-right only when the link leaves the site
+// (another origin or a new tab); internal navigation uses arrow-right.
+export function isExternalHref(href, target) {
+ if(target==='_blank')return true;
+ const value=String(href??'').trim();
+ if(!/^[a-z][a-z0-9+.-]*:/i.test(value)&&!value.startsWith('//'))return false;
+ if(/^(mailto|tel):/i.test(value))return true;
+ try{const origin=typeof location==='undefined'?'https://kamitsubaki.wiki':location.origin;return new URL(value,origin).origin!==origin;}catch{return false;}
+}
+export const linkArrowIcon=(href,target)=>isExternalHref(href,target)?'arrow-up-right':'arrow-right';
 // UI labels sometimes come from locale dictionaries. Convert an explicit edge
 // marker, preserving the label as text (never interpret user content as HTML).
 const labelIcons={'↗':'arrow-up-right','→':'arrow-right','←':'arrow-left','↑':'arrow-up','↓':'arrow-down','×':'x','✕':'x','＋':'plus','−':'minus','⧉':'copy','▶':'play'};
@@ -50,7 +60,9 @@ export function setIconLabel(element, value) {
  const label=String(value??''),match=label.match(/^([↗→←↑↓×✕＋−⧉▶])\s*(.*)$|^(.*?)\s*([↗→←↑↓×✕＋−⧉▶])$/s);
  if(!match){element.textContent=label;return element;}
  const leading=Boolean(match[1]),symbol=match[1]||match[4],text=leading?match[2]:match[3];
- const icon=createIcon(labelIcons[symbol],{},element.ownerDocument);
+ const link=element.closest?.('a[href]');
+ const name=symbol==='↗'&&link&&!isExternalHref(link.getAttribute('href'),link.getAttribute('target'))?'arrow-right':labelIcons[symbol];
+ const icon=createIcon(name,{},element.ownerDocument);
  element.replaceChildren(...(leading?[icon,element.ownerDocument.createTextNode(text?' '+text:'')]:[element.ownerDocument.createTextNode(text?text+' ':''),icon]));
  return element;
 }

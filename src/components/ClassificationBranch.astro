@@ -13,7 +13,7 @@ const pending=entries.filter(e=>e.data.contentStatus==='stub').length;
 const PAGE_SIZE=8;
 ---
 <div class="classification-branch" data-branch={node.id}>
- {own.length>0&&(node.children||node.overviewIds)&&<div class="classification-overview">{own.map(e=><a href={e.url}><span>{e.data.name||e.data.title}</span><small>{locale==='en'?'Open entry':locale==='ja'?'記事を開く':'阅读条目'} <Icon name="arrow-up-right" /></small></a>)}</div>}
+ {own.length>0&&(node.children||node.overviewIds)&&<div class="classification-overview">{own.map(e=><a href={e.url}><span>{e.data.name||e.data.title}</span><small>{locale==='en'?'Open entry':locale==='ja'?'記事を開く':'阅读条目'} <Icon name="arrow-right" /></small></a>)}</div>}
  {node.children?<>
  <SelectionGroup class="classification-children" role="tablist" aria-label={label} style={`--classification-columns:${node.children.length>5?3:node.children.length}`}>
  {node.children.map((child,i)=><WorkspaceButton type="button" role="tab" id={`choose-${child.id}`} aria-controls={`branch-${child.id}`} aria-selected={i===0} tabindex={i===0?0:-1} data-choose={child.id}><strong>{classificationLabel(child,locale)}</strong><small>{child.id==='groups'?child.children?.length||0:child.overviewIds?child.ids?.length||0:classificationEntries(registry,child,locale).length}</small></WorkspaceButton>)}

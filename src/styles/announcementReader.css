@@ -18,7 +18,7 @@
 .announcement-reader__archive-head span,
 .announcement-reader__article header > p:first-child {
   color: var(--workspace-muted);
-  font: 10px/1.5 var(--font-mono);
+  font: var(--ui-font-xs)/1.5 var(--font-mono);
   letter-spacing: .1em;
 }
 .announcement-reader__archive-head h2 { margin: 8px 0 0; font: 400 19px/1.4 var(--font-serif); }
@@ -40,7 +40,7 @@
 .announcement-reader__archive time,
 .announcement-reader__archive small {
   color: var(--workspace-muted);
-  font: 10px/1.5 var(--font-mono);
+  font: var(--ui-font-xs)/1.5 var(--font-mono);
 }
 .announcement-reader__archive a span { font: 400 13px/1.5 var(--font-sans); }
 .announcement-reader__pages { min-width: 0; }
@@ -51,7 +51,7 @@
   justify-content: space-between;
   gap: 20px;
   color: var(--workspace-muted);
-  font: 10px/1.5 var(--font-mono);
+  font: var(--ui-font-xs)/1.5 var(--font-mono);
   letter-spacing: .08em;
 }
 .announcement-reader__article header { padding: 36px 0 32px; border-bottom: 1px solid var(--workspace-line); }

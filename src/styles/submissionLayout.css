@@ -3,7 +3,7 @@
 .submission-panel{min-width:0;padding:20px 0;border:0;border-radius:0;background:none;box-shadow:none;border-top:1px solid rgb(var(--theme-fg-rgb)/.16);}
 .submission-panel .submission-panel-header{margin:0 0 18px;padding:0;border:0}
 .submission-panel .submission-panel-header :is(h2,h3,h4){display:flex;align-items:baseline;gap:10px;margin:0;font:400 21px/1.4 var(--font-serif)}
-.submission-panel-header :is(h2,h3,h4)>span{color:rgb(var(--theme-fg-rgb)/.55);font:11px/1.5 var(--font-mono)}
+.submission-panel-header :is(h2,h3,h4)>span{color:rgb(var(--theme-fg-rgb)/.55);font:var(--ui-font-xs)/1.5 var(--font-mono)}
 .submission-panel .submission-panel-header>p,.submission-hint{margin:10px 0 0;padding:4px 0;border-left:2px solid rgb(var(--theme-fg-rgb)/.25);border-radius:0;background:none;color:rgb(var(--theme-fg-rgb)/.7);font:12px/1.7 var(--font-sans);overflow-wrap:anywhere;border:0;}
 .submission-panel .submission-field-group{min-width:0;margin:0;padding:0;border:0}
 .submission-panel .submission-field-group+.submission-field-group{margin-top:22px;padding-top:18px;border-top:1px solid rgb(var(--theme-fg-rgb)/.12)}

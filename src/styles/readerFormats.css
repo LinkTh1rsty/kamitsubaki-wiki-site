@@ -20,7 +20,7 @@ html body .wiki-reader .reader-table-scroll :where(td,th) { min-width: 6rem; pad
 html body .wiki-reader .reader-table-scroll tr:last-child td { border-bottom: 0; }
 html body .wiki-reader .reader-table-scroll tbody tr:nth-child(even) { background: rgb(var(--theme-fg-rgb) / .018); }
 html body .wiki-reader .reader-code { margin-block: 1.5rem; border: 1px solid var(--reader-line,var(--ui-line)); border-radius: 7px; overflow: hidden; }
-html body .wiki-reader .reader-code__toolbar { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:.45rem .8rem; font:.72rem/1.5 var(--font-mono); background:rgb(var(--theme-fg-rgb)/.035); color:var(--theme-body); }
+html body .wiki-reader .reader-code__toolbar { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:.45rem .8rem; font:var(--ui-font-xs)/1.5 var(--font-mono); background:rgb(var(--theme-fg-rgb)/.035); color:var(--theme-body); }
 html body .wiki-reader .reader-code__toolbar button { padding:.2rem .5rem; border:1px solid var(--ui-line); border-radius:4px; background:transparent; color:inherit; cursor:pointer; font:inherit; }
 html body .wiki-reader .reader-code pre { margin:0; border:0; border-radius:0; padding:1rem; overflow:auto; line-height:1.8; }
 html body .wiki-reader .katex-display { overflow-x:auto; overflow-y:hidden; padding:.6em .2em; }

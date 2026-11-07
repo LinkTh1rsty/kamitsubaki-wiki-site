@@ -2,11 +2,11 @@
 html body .feature-workspace{max-width:1320px;padding:124px 32px 72px;margin:auto;color:var(--theme-fg)}
 .feature-workspace .toolbar.feature-filters{display:grid;grid-template-columns:minmax(180px,1.4fr) repeat(4,minmax(110px,1fr));gap:1px;border:1px solid var(--reader-line,rgb(var(--theme-fg-rgb)/.14));background:rgb(var(--theme-fg-rgb)/.12);padding:0;margin:28px 0 20px;border-radius:var(--ui-radius-panel);overflow:hidden}
 .feature-filters label{display:flex;flex-direction:column;gap:10px;min-width:0;padding:16px 18px;background:var(--theme-bg)}
-.feature-filters label>span{font-size:10px;letter-spacing:.06em;color:rgb(var(--theme-fg-rgb)/.5)}
+.feature-filters label>span{font-size:var(--ui-font-xs);letter-spacing:.06em;color:rgb(var(--theme-fg-rgb)/.5)}
 .feature-workspace .feature-filters :is(input,select){width:100%;min-width:0;border:0;border-radius:0;background:transparent;color:var(--theme-fg);padding:0 20px 0 0;font:13px/1.6 var(--font-sans);min-height:30px}
 .feature-workspace :is(input,select,button,a):focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:4px}
 .feature-workspace .feature-filters select option{background:var(--theme-bg);color:var(--theme-fg)}
-.feature-workspace .feature-count{display:flex;align-items:center;gap:12px;padding:18px 0;font:10px var(--font-mono);color:rgb(var(--theme-fg-rgb)/.5);letter-spacing:.1em}
+.feature-workspace .feature-count{display:flex;align-items:center;gap:12px;padding:18px 0;font:var(--ui-font-xs) var(--font-mono);color:rgb(var(--theme-fg-rgb)/.5);letter-spacing:.1em}
 .feature-count::after{content:'';height:1px;flex:1;background:rgb(var(--theme-fg-rgb)/.12)}
 .feature-workspace .empty{padding:32px 0;text-align:center;border:0;background:none;font:14px/2 var(--font-sans);color:rgb(var(--theme-fg-rgb)/.6);border-radius:0;box-shadow:none;border-top:1px solid rgb(var(--theme-fg-rgb)/.15);}
 @media(max-width:900px){.feature-workspace .toolbar.feature-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.feature-filters label:first-child{grid-column:1/-1}}

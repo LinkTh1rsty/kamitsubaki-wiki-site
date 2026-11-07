@@ -1,7 +1,7 @@
 /* V3 reuses the site's typography, surfaces, accent and native page motion. */
 .wiki-v3{max-width:1440px;margin:auto;padding:130px 32px 80px;color:var(--theme-fg,#eee)}
 .wiki-v3 h1{font-family:var(--font-serif);font-size:clamp(2rem,5vw,4.5rem);line-height:1.2;letter-spacing:-.03em;margin:.5em 0}
-.wiki-v3 h2{font-family:var(--font-serif);font-size:1.7rem;margin:2em 0 1em}.wiki-v3 .eyebrow{font:11px var(--font-mono);letter-spacing:.16em;opacity:.65;text-transform:uppercase}
+.wiki-v3 h2{font-family:var(--font-serif);font-size:1.7rem;margin:2em 0 1em}.wiki-v3 .eyebrow{font:var(--ui-font-xs) var(--font-mono);letter-spacing:.16em;opacity:.65;text-transform:uppercase}
 .wiki-v3 .intro{max-width:70ch;line-height:1.9;opacity:.8}.wiki-v3 a{text-underline-offset:4px}.wiki-v3 .toolbar,.wiki-v3 .morphs{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}
 .wiki-v3 :is(input,select,button,.chip){border:1px solid rgb(var(--theme-fg-rgb,255 255 255)/.2);background:transparent;color:inherit;border-radius:6px;padding:10px 14px;font:inherit}
 .wiki-v3 select option{color:var(--theme-fg,#eee);background:var(--theme-bg,#111)}.wiki-v3 .chip{display:inline-block;font-size:12px;text-decoration:none}.wiki-v3 [aria-current=page]{border-color:var(--theme-accent-color,#8eaaa8);background:rgb(var(--theme-fg-rgb,255 255 255)/.06)}

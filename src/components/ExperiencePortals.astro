@@ -72,7 +72,7 @@ const cards = reader ? [game, labs, chat] : [labs, game, chat];
   }
   @media (prefers-reduced-motion: reduce) { .experience-portal { transition: none; } }
   .experience-portals.experience-portals--compact { margin:24px 0 0; padding:0; max-width:none; }
-  .experience-portals--compact h2 { margin-bottom:10px; font-size:11px; color:rgb(var(--theme-fg-rgb)/.45); }
+  .experience-portals--compact h2 { margin-bottom:10px; font-size:var(--ui-font-xs); color:rgb(var(--theme-fg-rgb)/.45); }
   .experience-portals--compact .experience-portals__grid { display:grid; grid-template-columns:1fr; gap:10px; }
   .experience-portals--compact .experience-portal { min-height:76px; gap:12px; padding:13px 14px; background:rgb(var(--theme-fg-rgb)/.018); border-color:rgb(var(--theme-fg-rgb)/.1); }
   .experience-portals--compact .experience-portal:hover { background:var(--ui-hover); border-color:rgb(var(--theme-fg-rgb)/.24); }
@@ -80,7 +80,7 @@ const cards = reader ? [game, labs, chat] : [labs, game, chat];
   .experience-portals--compact .experience-portal__image { flex-basis:36px; width:36px; height:36px; border-radius:4px; }
   .experience-portals--compact .experience-portal__image svg { width:19px; height:19px; }
   .experience-portals--compact .experience-portal__copy strong { font-size:14px; white-space:normal; }
-  .experience-portals--compact .experience-portal__arrow { font-size:11px; }
+  .experience-portals--compact .experience-portal__arrow { font-size:var(--ui-font-xs); }
   .experience-portals--reader { max-width:none; margin:0; padding:0; color:var(--reader-text,var(--theme-fg)); }
   .experience-portals--reader .experience-portals__grid { display:grid; grid-template-columns:1fr; gap:0; }
   .experience-portals--reader .experience-portal { min-height:68px; gap:12px; padding:10px 6px; border:0; border-bottom:1px solid var(--reader-line); border-radius:0; background:transparent; transition:background-color 180ms ease,color 180ms ease; }
@@ -91,7 +91,7 @@ const cards = reader ? [game, labs, chat] : [labs, game, chat];
   .experience-portals--reader .experience-portal:hover .experience-portal__image img { filter:saturate(1); }
   .experience-portals--reader .experience-portal__image svg { width:21px; height:21px; }
   .experience-portals--reader .experience-portal__copy strong { font:400 15px/1.5 var(--font-serif); letter-spacing:.03em; }
-  .experience-portals--reader .experience-portal__copy small { margin-top:1px; color:var(--reader-muted); font:11px/1.6 var(--font-sans); }
+  .experience-portals--reader .experience-portal__copy small { margin-top:1px; color:var(--reader-muted); font:var(--ui-font-xs)/1.6 var(--font-sans); }
   .experience-portals--reader .experience-portal__arrow { color:var(--reader-muted); font-size:12px; transition:transform 180ms ease; }
   .experience-portals--reader .experience-portal:hover .experience-portal__arrow { transform:translateX(3px); }
   @media(max-width:640px) { .experience-portals--reader { padding:0; } .experience-portals--reader .experience-portal { min-height:68px; padding:10px 4px; } }

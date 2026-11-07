@@ -12,8 +12,8 @@ const { content } = Astro.props as { content: AboutContent };
 <section id="about" class="mx-auto max-w-7xl border-b border-white/10 px-5 py-20 relative ui-crosshair bl br sm:px-6 sm:py-32">
   <div class="grid grid-cols-1 gap-8 sm:gap-12 md:grid-cols-12 md:gap-14">
     <div class="md:col-span-4 reveal-up">
-      <h3 class="text-[10px] tracking-kamidest-lg font-light text-white mb-2">{content.heading}</h3>
-      <p class="font-serif text-[10px] text-white/50 tracking-widest mb-8">{content.subheading}</p>
+      <h3 class="text-xs tracking-kamidest-lg font-light text-white mb-2">{content.heading}</h3>
+      <p class="font-serif text-xs text-white/50 tracking-widest mb-8">{content.subheading}</p>
       <div class="w-8 h-[1px] bg-white/30"></div>
       <slot name="explore" />
     </div>
@@ -35,7 +35,7 @@ const { content } = Astro.props as { content: AboutContent };
                   class:list={[
                     'text-white/46',
                     index === 0
-                      ? 'text-[11px] leading-6 tracking-[0.08em] sm:text-xs'
+                      ? 'text-xs leading-6 tracking-[0.08em] sm:text-xs'
                       : 'text-[13px] leading-7 sm:text-[14px] sm:leading-8',
                   ]}
                 >

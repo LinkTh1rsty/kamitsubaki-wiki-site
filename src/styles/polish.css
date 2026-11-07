@@ -2,9 +2,9 @@
 html { overflow-x: clip; }
 body:not(.site-home) { cursor: auto; }
 body:not(.site-home) > :is(.noise-bg) { display: none !important; }
-body:not(.site-home) :is(a, button, summary, [role='button']) { cursor: pointer !important; }
+body:not(.site-home) :is(a[href], button:not(:disabled), summary, [role='button']:not([aria-disabled='true'])) { cursor: pointer; }
 body:not(.site-home) :is(input:not([type='checkbox'],[type='radio'],[type='range'],[type='color'],[type='file']), textarea) { cursor: text; }
-html body :is(button,input,textarea,select):disabled { cursor:not-allowed!important; }
+html body :is(button,input,textarea,select):disabled { cursor:not-allowed; }
 html body .catalog-page { padding-top: 100px; }
 html body .catalog-page > .mt-14 { margin-top: 28px; }
 html body .catalog-page h1 { font-size: clamp(28px, 3.4vw, 38px); line-height: 1.25; letter-spacing: .03em; }
@@ -64,14 +64,18 @@ html body .labs-feature { padding: 22px 24px; }
 /* The footer is part of the reading experience, including its small print. */
 .site-footer { padding-bottom:calc(48px + var(--floating-action-size) + env(safe-area-inset-bottom)); }
 .site-footer__nav { align-items:center;gap:8px 24px; }
-.site-footer__nav a { display:inline-flex;align-items:center;min-height:44px;font:11px/1.5 var(--font-mono);letter-spacing:.1em;color:var(--wiki-muted-color); }
-.site-footer__disclaimer { font-size:11px;line-height:1.9;color:var(--wiki-muted-color);letter-spacing:.035em; }
+.site-footer__nav a { display:inline-flex;align-items:center;min-height:44px;font:var(--ui-font-xs)/1.5 var(--font-mono);letter-spacing:.1em;color:var(--wiki-muted-color); }
+.site-footer__disclaimer { font-size:var(--ui-font-xs);line-height:1.8;color:var(--wiki-muted-color);letter-spacing:.035em; }
 .site-footer__license { font-size:12px;line-height:1.8;color:var(--wiki-muted-color); }
 .site-footer__license>p { color:inherit; }
-.site-footer__license a { display:inline-flex;align-items:center;min-height:36px;font-size:11px;letter-spacing:.04em; }
-.site-footer__copyright { color:var(--wiki-muted-color);font-size:10px;letter-spacing:.06em; }
+.site-footer__license a { display:inline-flex;align-items:center;min-height:36px;font-size:var(--ui-font-xs);letter-spacing:.04em; }
+.site-footer__copyright { color:var(--wiki-muted-color);font-size:var(--ui-font-xs);letter-spacing:.04em; }
 @media(max-width:760px){
  .site-footer__nav { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;gap:0 16px;margin-bottom:28px; }
  .site-footer__nav a { justify-content:center;padding:8px 4px;border-bottom:1px solid var(--ui-line); }
  .site-footer__license a { min-height:44px; }
 }
+
+/* Failed images: no broken glyph or overlapping alt text; the frame stays as a quiet placeholder. */
+html body img[data-broken]{opacity:0;}
+html body :has(> img[data-broken]){background-color:rgb(var(--theme-fg-rgb)/.06);}

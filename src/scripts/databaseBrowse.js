@@ -44,7 +44,7 @@ function renderRecord(record,view='grid',placeholderLabel='') {
   heading.append(textElement('h3','',record.title));
   if(record.summary)heading.append(textElement('p','',record.summary));
   main.append(heading);
-  const arrow=textElement('span','database-record-arrow','↗');
+  const arrow=textElement('span','database-record-arrow','→');
   arrow.setAttribute('aria-hidden','true');
   caption.append(main,textElement('span','database-record-type',record.typeLabel),textElement('span','database-record-artist',record.artistNames.join(' / ')||'—'),textElement('span','database-record-year',record.year||'—'),arrow);
   link.append(caption);

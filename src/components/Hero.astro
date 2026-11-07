@@ -5,7 +5,7 @@ const verticalRailHeight = hasCjkVerticalText ? 'h-[22rem] md:h-[24rem]' : 'h-72
 ---
 
 <header class="relative flex min-h-[100svh] flex-col items-center justify-center overflow-hidden border-b border-white/10 ui-crosshair bl br">
-  <div class="absolute left-6 top-28 text-[9px] font-mono leading-loose text-white/30 tracking-widest reveal-up md:left-12 md:top-32" style="transition-delay: 0.32s;">
+  <div aria-hidden="true" class="absolute left-6 top-28 text-[9px] font-mono leading-loose text-white/30 tracking-widest reveal-up md:left-12 md:top-32" style="transition-delay: 0.32s;">
     {hero.systemVersion}<br />
     {hero.coordinates}<br />
     {hero.status}
@@ -18,7 +18,7 @@ const verticalRailHeight = hasCjkVerticalText ? 'h-[22rem] md:h-[24rem]' : 'h-72
     <p class:list={[
       't-vertical whitespace-nowrap border-l border-white/10 pl-4 font-serif text-white/42',
       hasCjkVerticalText
-        ? 'text-[11px] tracking-[0.22em] md:text-sm'
+        ? 'text-xs tracking-[0.22em] md:text-sm'
         : 'text-xs tracking-[0.32em] md:text-sm',
     ]}>
       {hero.leftVertical}
@@ -36,14 +36,14 @@ const verticalRailHeight = hasCjkVerticalText ? 'h-[22rem] md:h-[24rem]' : 'h-72
 
   <div class="hero-center relative z-10 mt-18 px-4 text-center sm:mt-20" data-hero-parallax>
     <div class="absolute left-1/2 top-[-2.75rem] h-8 w-px -translate-x-1/2 bg-white/30 reveal-up" style="transition-delay: 0.36s;"></div>
-    <p class="mb-6 text-[9px] font-light text-white/40 tracking-kamidest-lg reveal-up md:text-xs">
+    <p class="mb-6 text-xs font-light text-white/60 tracking-kamidest-lg reveal-up md:text-xs">
       {hero.eyebrow}
     </p>
-    <h2 class="text-5xl font-extralight uppercase tracking-[0.12em] text-white reveal-up mix-blend-overlay sm:text-7xl md:text-8xl lg:text-[10rem]" style="transition-delay: 0.08s;">
+    <h1 class="text-5xl font-extralight uppercase tracking-[0.12em] text-white reveal-up mix-blend-overlay sm:text-7xl md:text-8xl lg:text-[10rem]" style="transition-delay: 0.08s;">
       {hero.title}
-    </h2>
+    </h1>
     <div class="mx-auto mt-10 h-18 w-px bg-white/20 reveal-up sm:mt-12 sm:h-24" style="transition-delay: 0.24s;"></div>
-    <p class="mx-auto mt-8 max-w-xs text-[11px] leading-7 text-white/36 lg:hidden">
+    <p class="mx-auto mt-8 max-w-xs text-xs leading-7 text-white/60 lg:hidden">
       {hero.leftVertical}
     </p>
   </div>

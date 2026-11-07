@@ -4,7 +4,7 @@
     "type": "unit",
     "name": "Albemuth",
     "url": "/zh/database/artists/groups/albemuth/",
-    "image": "https://placehold.co/1200x800/0a0a12/a0a0b0?text=ALBEMUTH",
+    "image": null,
     "labels": {
       "zh": "Albemuth",
       "ja": "Albemuth",
@@ -184,7 +184,7 @@
     "type": "person",
     "name": "Guiano",
     "url": "/zh/database/creators/guiano/",
-    "image": "https://placehold.co/1200x800/0a0a12/a0a0b0?text=GUIANO",
+    "image": null,
     "labels": {
       "zh": "Guiano",
       "ja": "Guiano",
@@ -340,7 +340,7 @@
     "type": "person",
     "name": "神崎一织",
     "url": "/zh/database/creators/kanzaki-iori/",
-    "image": "https://placehold.co/1200x800/0a0a12/a0a0b0?text=KANZAKI-IORI",
+    "image": null,
     "labels": {
       "zh": "神崎一织",
       "ja": "カンザキイオリ",
@@ -424,7 +424,7 @@
     "type": "person",
     "name": "LOLUET",
     "url": "/zh/database/artists/solo/loluet/",
-    "image": "https://placehold.co/1200x800/0d0d12/b8b8c7?text=LOLUET",
+    "image": null,
     "labels": {
       "zh": "LOLUET",
       "ja": "LOLUET",

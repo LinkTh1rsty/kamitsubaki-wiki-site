@@ -21,6 +21,7 @@ html body :is(a,button).context-action {
 html body .context-action__arrow { flex: 0 0 auto; font: 400 .85rem/1 var(--font-sans); opacity: .62; transition: transform 180ms ease, opacity 180ms ease; }
 html body :is(a,button).context-action:hover { border-color: rgb(var(--theme-fg-rgb) / .42); background: var(--action-hover); }
 html body .context-action:hover .context-action__arrow { transform: translate(2px,-2px); opacity: 1; }
+html body .context-action:hover .context-action__arrow:has(svg[data-icon='arrow-right']) { transform: translateX(2px); }
 html body :is(a,button).context-action:focus-visible { outline: 2px solid var(--ui-accent-color); outline-offset: 3px; }
 html body :is(a,button).context-action[data-tone='primary'] { background: var(--theme-fg); border-color: var(--theme-fg); color: var(--theme-bg); }
 html body :is(a,button).context-action[data-tone='primary']:hover { background: color-mix(in srgb,var(--theme-fg) 86%,var(--theme-bg)); }

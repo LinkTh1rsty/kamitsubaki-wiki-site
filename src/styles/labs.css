@@ -192,7 +192,7 @@ html[data-theme='light'] .labs-shell {
   color: var(--b-accent);
 }
 .labs-row small {
-  font-size: 11px;
+  font-size:var(--ui-font-xs);
   color: var(--b-muted);
 }
 .labs-actions {
@@ -367,7 +367,7 @@ html[data-theme='light'] .labs-shell {
   text-decoration: underline;
 }
 .labs-bookmark [role='status'] {
-  font-size: 11px;
+  font-size:var(--ui-font-xs);
 }
 @media (max-width: 760px) {
   .labs-shell {
@@ -391,7 +391,7 @@ html[data-theme='light'] .labs-shell {
   }
   .labs-row time {
     flex-basis: 85px;
-    font-size: 11px;
+    font-size:var(--ui-font-xs);
   }
   .labs-row .labs-actions {
     width: 100%;

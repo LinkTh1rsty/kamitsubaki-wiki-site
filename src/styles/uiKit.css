@@ -40,7 +40,7 @@ html body :is([data-ui-kit],[data-ui-kit] *):is(.dui-btn,.dui-input,.dui-select,
 
 /* Shared wrappers preserve the workspace action hierarchy and toolbar density. */
 html body .workspace-button.dui-btn {
-  height:auto; min-height:var(--workspace-control-height,44px); max-width:100%;
+  height:var(--workspace-control-block-size,auto); min-height:var(--workspace-control-height,44px); max-width:100%;
   gap:8px; padding:var(--workspace-control-padding,8px 14px); font:var(--workspace-control-font,500 13px/1.5 var(--font-sans));
   border-color:var(--tool-line,var(--workspace-line,rgb(var(--theme-fg-rgb)/.13)));
   background:var(--workspace-control-background,transparent); color:var(--workspace-control-color,var(--theme-fg)); text-decoration:none;

@@ -31,7 +31,7 @@ html body main.chronicle-editor[data-workspace-page] { --workspace-gap: 28px; }
 .chronicle-editor .timeline-era-index :is(span, small) {
   display: block;
   color: var(--workspace-muted);
-  font: 10px/1.5 var(--font-mono);
+  font: var(--ui-font-xs)/1.5 var(--font-mono);
 }
 .chronicle-editor .timeline-era-index strong {
   display: block;
@@ -71,7 +71,7 @@ html body main.chronicle-editor[data-workspace-page] { --workspace-gap: 28px; }
   min-height: 62px;
   padding: 11px 16px;
   border-bottom: 1px solid var(--workspace-line);
-  font: 11px var(--font-mono);
+  font: var(--ui-font-xs) var(--font-mono);
 }
 .chronicle-editor .timeline-transport button {
   min-height: 38px;
@@ -107,7 +107,7 @@ html body main.chronicle-editor[data-workspace-page] { --workspace-gap: 28px; }
   height: 44px;
   padding: 14px 12px;
   color: var(--workspace-muted);
-  font: 10px/1.6 var(--font-mono);
+  font: var(--ui-font-xs)/1.6 var(--font-mono);
   letter-spacing: .1em;
 }
 .chronicle-editor .timeline-track-label {
@@ -122,7 +122,7 @@ html body main.chronicle-editor[data-workspace-page] { --workspace-gap: 28px; }
 .chronicle-editor .timeline-track-label[data-muted="true"] { min-height: 36px; padding-top: 4px; padding-bottom: 4px; }
 .chronicle-editor .timeline-track-label[data-muted="true"] > span,
 .chronicle-editor .timeline-track-label[data-muted="true"] > button { display: none; }
-.chronicle-editor .timeline-track-label > span { color: var(--workspace-muted); font: 10px var(--font-mono); }
+.chronicle-editor .timeline-track-label > span { color: var(--workspace-muted); font: var(--ui-font-xs) var(--font-mono); }
 .chronicle-editor .timeline-track-label label {
   display: flex;
   gap: 7px;
@@ -138,7 +138,7 @@ html body main.chronicle-editor[data-workspace-page] { --workspace-gap: 28px; }
   border: 0;
   background: none;
   color: var(--workspace-muted);
-  font-size: 10px;
+  font-size:var(--ui-font-xs);
   cursor: pointer;
 }
 .chronicle-editor .timeline-track-label button[aria-pressed="true"] { color: var(--theme-accent-color); }
@@ -172,7 +172,7 @@ html body main.chronicle-editor[data-workspace-page] { --workspace-gap: 28px; }
   padding: 8px 0 0 7px;
   border-left: 1px solid rgb(var(--theme-fg-rgb) / .25);
   color: var(--workspace-muted);
-  font: 10px/1.4 var(--font-mono);
+  font: var(--ui-font-xs)/1.4 var(--font-mono);
   pointer-events: none;
 }
 .chronicle-editor .timeline-track {
@@ -215,7 +215,7 @@ html body .workspace-page.chronicle-editor .timeline-clip:is(:hover,:focus-visib
 .chronicle-editor .timeline-clip small {
   overflow: hidden;
   color: var(--workspace-muted);
-  font: 9px/1.4 var(--font-mono);
+  font: var(--ui-font-xs)/1.4 var(--font-mono);
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -223,7 +223,7 @@ html body .workspace-page.chronicle-editor .timeline-clip:is(:hover,:focus-visib
   display: -webkit-box;
   overflow: hidden;
   margin-top: 4px;
-  font: 500 11px/1.35 var(--font-sans);
+  font: 500 var(--ui-font-xs)/1.35 var(--font-sans);
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
@@ -234,12 +234,12 @@ html body .workspace-page.chronicle-editor .timeline-clip:is(:hover,:focus-visib
   padding: 2px 4px;
   color: var(--theme-bg);
   background: var(--theme-fg);
-  font: 9px var(--font-mono);
+  font: var(--ui-font-xs) var(--font-mono);
 }
 .chronicle-editor .timeline-clip[data-compact="true"] { padding: 3px !important; }
 .chronicle-editor .timeline-clip[data-compact="true"] :is(small,strong) { display: none; }
 .chronicle-editor .timeline-clip[data-compact="true"] .timeline-clip-count { left: 3px; right: auto; top: 50%; transform: translateY(-50%); }
-.chronicle-editor .timeline-preview-hint { display: block; margin-top: 12px; color: var(--workspace-muted); font: 11px var(--font-sans); }
+.chronicle-editor .timeline-preview-hint { display: block; margin-top: 12px; color: var(--workspace-muted); font: var(--ui-font-xs) var(--font-sans); }
 .chronicle-editor .timeline-clip[data-kind="uncertain"] { border-style: dashed !important; }
 .chronicle-editor .timeline-clip[data-milestone="true"] { border-top: 2px solid var(--theme-fg) !important; }
 .chronicle-editor .timeline-duration {
@@ -281,7 +281,7 @@ html body .workspace-page.chronicle-editor .timeline-clip:is(:hover,:focus-visib
   background: rgb(var(--theme-fg-rgb) / .04);
   overflow: hidden;
 }
-.chronicle-editor .timeline-overview-eras { position: absolute; inset: 0; font: 10px var(--font-mono); }
+.chronicle-editor .timeline-overview-eras { position: absolute; inset: 0; font: var(--ui-font-xs) var(--font-mono); }
 .chronicle-editor .timeline-overview-eras span {
   height: 100%;
   padding: 11px 6px;
@@ -318,7 +318,7 @@ html body .workspace-page.chronicle-editor .timeline-clip:is(:hover,:focus-visib
   margin: 0 !important;
   padding: 12px 16px !important;
   color: var(--workspace-muted);
-  font-size: 11px !important;
+  font-size:var(--ui-font-xs) !important;
 }
 .chronicle-editor .timeline-inspector {
   position: sticky;
@@ -335,7 +335,7 @@ html body .workspace-page.chronicle-editor .timeline-clip:is(:hover,:focus-visib
 }
 .chronicle-editor .timeline-kicker {
   color: var(--workspace-muted);
-  font: 10px var(--font-mono);
+  font: var(--ui-font-xs) var(--font-mono);
   letter-spacing: .06em;
 }
 .chronicle-editor .timeline-inspector-list > div { max-height: 210px; overflow: auto; margin-top: 10px; }
@@ -348,7 +348,7 @@ html body .workspace-page.chronicle-editor .timeline-clip:is(:hover,:focus-visib
   background: none;
   color: var(--theme-fg);
   text-align: left;
-  font: 11px/1.6 var(--font-sans);
+  font: var(--ui-font-xs)/1.6 var(--font-sans);
   cursor: pointer;
 }
 .chronicle-editor .timeline-inspector-list button:hover,
@@ -357,12 +357,12 @@ html body .workspace-page.chronicle-editor .timeline-clip:is(:hover,:focus-visib
   background: rgb(var(--theme-fg-rgb) / .05);
 }
 .chronicle-editor .timeline-detail { min-width: 0; border-top: 1px solid var(--workspace-line); padding-top: 18px; scroll-margin-top: 90px; }
-.chronicle-editor .timeline-detail time { color: var(--theme-accent-color); font: 11px var(--font-mono); }
+.chronicle-editor .timeline-detail time { color: var(--theme-accent-color); font: var(--ui-font-xs) var(--font-mono); }
 .chronicle-editor .timeline-detail h2 { margin: 12px 0; font: 400 24px/1.45 var(--font-serif); }
 .chronicle-editor .timeline-detail p { color: var(--workspace-muted); font: 12px/1.8 var(--font-sans); }
-.chronicle-editor .timeline-detail a { overflow-wrap: anywhere; font-size: 11px; text-underline-offset: 4px; }
+.chronicle-editor .timeline-detail a { overflow-wrap: anywhere; font-size:var(--ui-font-xs); text-underline-offset: 4px; }
 .chronicle-editor .timeline-detail-links { display: flex; flex-wrap: wrap; gap: 12px; }
-.chronicle-editor .timeline-detail details { margin-top: 18px; font-size: 11px; }
+.chronicle-editor .timeline-detail details { margin-top: 18px; font-size:var(--ui-font-xs); }
 .chronicle-editor .timeline-detail details a { display: block; margin: 8px 0; }
 .chronicle-editor .timeline-detail nav { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
 .chronicle-editor .timeline-detail nav button {
@@ -371,7 +371,7 @@ html body .workspace-page.chronicle-editor .timeline-clip:is(:hover,:focus-visib
   border-bottom: 1px solid var(--workspace-line);
   background: none;
   color: var(--theme-fg);
-  font-size: 11px;
+  font-size:var(--ui-font-xs);
   cursor: pointer;
 }
 .chronicle-editor .timeline-detail nav button:disabled { opacity: .35; cursor: default; }
@@ -384,8 +384,8 @@ html body .workspace-page.chronicle-editor .timeline-clip:is(:hover,:focus-visib
 @media (max-width: 760px) {
   .chronicle-editor .timeline-editor-body { grid-template-columns: 104px minmax(0, 1fr); }
   .chronicle-editor .timeline-track-label { padding: 8px; }
-  .chronicle-editor .timeline-track-label label { font-size: 10px; }
-  .chronicle-editor .timeline-track-label button { font-size: 9px; }
+  .chronicle-editor .timeline-track-label label { font-size:var(--ui-font-xs); }
+  .chronicle-editor .timeline-track-label button { font-size:var(--ui-font-xs); }
   .chronicle-editor .timeline-transport { padding: 10px; }
   .chronicle-editor [data-window] { flex-basis: 100%; margin-left: 0; }
   .chronicle-editor .timeline-hint { flex-direction: column; }
