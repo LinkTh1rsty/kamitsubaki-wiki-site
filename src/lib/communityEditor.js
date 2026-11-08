@@ -8,7 +8,7 @@ export function communityEditorMarkup(copy={}){
  const select=(key,options)=>`<label><span>${label(key)}</span><select class="workspace-control dui-select" data-ui-kit name="${key}">${options.map(([v,t])=>`<option value="${v}">${label(v,t)}</option>`).join('')}</select></label>`;
  const action=(key,attrs='',tone='secondary')=>`<button class="workspace-button dui-btn ${tone==='primary'?'dui-btn-primary':'dui-btn-ghost'}" data-ui-kit data-tone="${tone}" type="button" ${attrs}>${label(key)}</button>`;
  return `<form class="community-editor" data-ui-kit data-community-editor novalidate>
- <div class="community-error-summary" data-editor-errors role="alert" tabindex="-1" hidden></div><p data-editor-status role="status"></p><a class="workspace-button dui-btn dui-btn-primary" data-ui-kit data-tone="primary" data-editor-login hidden></a>
+ <div class="community-error-summary" data-editor-errors role="alert" tabindex="-1" hidden></div><div class="community-editor-notice"><p data-editor-status role="status"></p><a class="workspace-button dui-btn dui-btn-ghost" data-ui-kit data-tone="secondary" data-editor-login hidden></a></div>
  <fieldset class="community-editor-section"><legend>${label('basic')}</legend>
  <div class="community-editor-fields community-editor-fields--identity">${input('title')}${select('sourceLocale',[['zh','简体中文'],['zh-tw','繁體中文（台灣）'],['zh-hk','繁體中文（香港）'],['ja','日本語'],['en','English']])}</div>
  <label><span>${label('summary')}</span><textarea class="workspace-control dui-textarea" data-ui-kit name="summary" rows="3" maxlength="1000"></textarea></label>

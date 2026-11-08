@@ -43,3 +43,11 @@
 @media(max-width:800px){.chronicle-editor-layout{grid-template-columns:1fr;gap:10px}.chronicle-editor-preview{position:static;border:0;border-radius:0;background:none;box-shadow:none;padding:20px 0;border-top:1px solid var(--workspace-line);}.chronicle-editor-fields{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.chronicle-editor-fields,.chronicle-source-primary,.chronicle-source-secondary{grid-template-columns:1fr}.chronicle-source-primary>button{justify-self:start}.chronicle-editor-layout form>section{padding-block:20px}}
 @media(max-width:560px){.chronicle-conflict-columns{grid-template-columns:1fr}}
+/* Related entries: chips + name search (ids stay in the hidden source input). */
+.entity-chip-picker{display:grid;gap:8px}
+.entity-chip-picker__chips{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.entity-chip-picker__chips:empty{display:none}
+.entity-chip-picker__chips li{display:inline-flex;align-items:center;gap:4px;min-height:32px;padding:2px 4px 2px 10px;border:1px solid rgb(var(--theme-fg-rgb)/.18);border-radius:var(--ui-radius-control);font-size:var(--ui-font-sm)}
+.entity-chip-picker__chips button{display:grid;place-items:center;width:28px;height:28px;border:0;border-radius:var(--ui-radius-control);background:none;color:inherit;font-size:16px;cursor:pointer}
+.entity-chip-picker__chips button:hover{background:rgb(var(--theme-fg-rgb)/.08)}
+.entity-chip-picker__chips button:focus-visible{outline:2px solid var(--ui-color-accent);outline-offset:2px}

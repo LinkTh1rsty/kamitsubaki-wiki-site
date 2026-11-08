@@ -535,3 +535,7 @@ html body .wiki-properties-sheet .wiki-property-section textarea.workspace-contr
 .speech-role-options>summary{cursor:pointer;font-size:13px;color:var(--muted-foreground)}.speech-role-options-body{display:grid;gap:16px;padding-top:16px}
 .speech-inline-role-actions{display:flex;gap:8px;justify-content:flex-end}
 @media(max-width:640px){.speech-import-roles[open]{flex:none;max-height:none;min-height:0}}
+
+/* Field counter and inline error (submission title and other validated fields). */
+.wiki-field-counter{margin-left:auto;font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted-foreground)}
+.wiki-field-error{margin:0;font-size:13px;line-height:1.5;color:var(--destructive)}

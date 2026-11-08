@@ -480,3 +480,10 @@ html body [data-account-page] [hidden]{display:none!important;}
 @media(max-width:640px){.account-benefit-items>li{align-items:flex-start;gap:12px}.account-benefit-items .account-button{min-height:44px}.account-benefit-body{font-size:15px}}
 
 .account-benefit-application{padding:12px 0 20px;border-bottom:1px solid var(--workspace-line);margin-bottom:16px}.account-benefit-application p{white-space:pre-wrap;overflow-wrap:anywhere}
+/* Mobile: account navigation is one scrollable row instead of overflowing nested grids. */
+@media(max-width:760px){
+ .account-sections{display:flex;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;gap:16px;min-width:0}
+ .account-sections-group{display:flex;flex:none;align-items:center;gap:4px;min-width:0}
+ .account-sections-heading{display:none}
+ .account-sections a{flex:none;white-space:nowrap}
+}

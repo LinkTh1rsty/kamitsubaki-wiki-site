@@ -108,7 +108,7 @@ html.creator-detail-open{overflow:hidden}
 .creator-page .creator-guest-intro>p:first-child{margin:0 0 11px;font:var(--ui-font-xs) var(--font-mono);letter-spacing:.1em}
 .creator-page .creator-guest-intro h2{max-width:100%;margin:0 0 14px;font:400 clamp(24px,4vw,29px)/1.4 var(--font-serif);text-wrap:balance}
 .creator-page .creator-guest-intro>p:not(:first-child){margin:0;color:var(--workspace-muted);font:13px/1.8 var(--font-sans)}
-.creator-guest-intro>div{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:auto;padding-top:24px}
+.creator-guest-intro>div{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:0;padding-top:20px}
 .creator-guest-intro>div>a:not(.creator-login){color:var(--theme-fg);font-size:12px;text-underline-offset:4px}
 .creator-page .creator-guest-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:0}
 .creator-page .creator-guest-options>a{display:flex;flex-direction:column;align-items:start;gap:8px;min-height:156px;padding:17px;border:1px solid var(--workspace-line);margin:0;transition:background 180ms,border-color 180ms}
@@ -350,3 +350,7 @@ html[data-theme='light'] .creator-delete-dialog-actions .creator-delete-confirm{
 @media(max-width:760px){.creator-page .creator-record-action{justify-content:flex-start}.creator-page .creator-record-action :is(a,button){min-width:0;flex:0 1 auto}}
 
 @media(min-width:761px){.creator-page .creator-record,.creator-page .creator-todo-row{grid-template-columns:minmax(0,1fr) auto}}
+
+/* Signed out: only the sign-in card and task list; account navigation and the duplicate task block wait for sign-in. */
+.creator-page:has([data-creator-guest]:not([hidden])) :is(.account-sections,.creator-workflow){display:none}
+.creator-page:has([data-creator-guest]:not([hidden])) .account-workspace{grid-template-columns:minmax(0,1fr)}

@@ -55,7 +55,7 @@ if(root){
   for(const [selector,path,name] of [['[data-account-export]','/api/account/export','kamitsubaki-account.json'],['[data-ai-export]','/api/account/ai-export','kamitsubaki-ai.json']]){
     $(selector).addEventListener('click',event=>void action(event.currentTarget,'[data-data-status]',async()=>{const data=await api(path);download(name,data);$('[data-data-status]').textContent=c.saved;}));
   }
-  $('[data-deletion-form]').addEventListener('submit',event=>{event.preventDefault();void action(event.currentTarget.querySelector('button'),'[data-data-status]',async()=>{await api('/api/account/deletion',{method:'POST',body:{confirm:event.currentTarget.elements.confirmation.value}});await loadAccount();});});
+  $('[data-deletion-form]').addEventListener('submit',event=>{event.preventDefault();const form=event.currentTarget,confirmation=form.elements.confirmation;void action(form.querySelector('button'),'[data-data-status]',async()=>{await api('/api/account/deletion',{method:'POST',body:{confirm:confirmation.value.trim()===confirmation.dataset.deleteWord?'DELETE':''}});await loadAccount();});});
   $('[data-deletion-cancel]').addEventListener('click',event=>void action(event.currentTarget,'[data-data-status]',async()=>{await api('/api/account/deletion/cancel',{method:'POST',body:{}});await loadAccount();}));
 }
 

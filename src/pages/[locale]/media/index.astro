@@ -7,7 +7,7 @@ import {imageLibraryCopy} from '../../../lib/imageLibraryCopy.mjs';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
 const locale=Astro.params.locale||'zh',c=imageLibraryCopy(locale);
 ---
-<WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/media/" eyebrow="IMAGE LIBRARY" width="wide" backHref={`/${locale}/account/creator/`} backLabel={c.back}>
+<WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/media/" eyebrow="GALLERY / MINE" width="wide" backHref={`/${locale}/account/creator/`} backLabel={c.back}>
  <ContributionFlow locale={locale} kind="image"/>
  <ImageLibrary locale={locale}/>
 </WorkspaceLayout>

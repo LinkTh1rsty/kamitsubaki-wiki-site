@@ -1,3 +1,4 @@
+import { submissionTitleIssue, submissionTitleMessages } from './submission-title';
 import {editorFetch,localEditorHost} from './editor-host';
 import { entitySourcePath } from '../../../../src/lib/contentLayout.mjs';
 import { importMarkdown, validateDraft } from '../../../../src/lib/visualEditor.mjs';
@@ -148,7 +149,8 @@ export class LocalReviewService {
     if (state.conflict) throw new ReviewError('原文已更新，请先核对最新内容。', 409);
     const resolution = state.snapshot.resolution;
     if (resolution && (resolution.accountId !== state.account.id || resolution.currentSha !== state.base.sha || resolution.submissionId && (resolution.submissionId !== state.selected?.id || resolution.version !== state.selected.version || resolution.expectedHead !== state.selected.headSha))) throw new ReviewError('原文或审核记录又有更新，请重新核对两边修改。', 409);
-    if (!summary.trim() || summary.length > 200 || /[\u0000-\u001f\u007f]/.test(summary)) throw new ReviewError('请用 200 字以内说明这次修改了什么。');
+    const titleIssue = submissionTitleIssue(summary);
+    if (titleIssue) throw new ReviewError(submissionTitleMessages[titleIssue]);
     if (source.trim()) { try { const url = new URL(source.trim()); if (!['http:', 'https:'].includes(url.protocol)) throw Error(); } catch { throw new ReviewError('请填写完整的 HTTP 或 HTTPS 资料来源链接。'); } }
     if (!state.snapshot.resolution?.submissionId && state.snapshot.content === (state.selected?.content || state.base.content)) throw new ReviewError('这次没有新的修改，可返回正文继续编辑。');
     if (this.pending(state.account.id, state.snapshot.path)) throw new ReviewError('上一次提交的结果还未确认，请先重试上次提交。');

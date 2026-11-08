@@ -6,13 +6,16 @@ import { Textarea } from '@/components/ui/textarea';
 import { Field, FieldLabel, FieldDescription } from '@/components/ui/field';
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 
-export function TextField({ label, value, onChange, multiline = false, description, placeholder, disabled = false, required = false }: {
-  label: string; value: string; onChange: (value: string) => void; multiline?: boolean; description?: string; placeholder?: string; disabled?: boolean; required?: boolean;
+export function TextField({ label, value, onChange, multiline = false, description, placeholder, disabled = false, required = false, error, counter, visibleDescription = false }: {
+  label: string; value: string; onChange: (value: string) => void; multiline?: boolean; description?: string; placeholder?: string; disabled?: boolean; required?: boolean; error?: string; counter?: string; visibleDescription?: boolean;
 }) {
   const id = useId();
-  return <Field data-disabled={disabled || undefined}><div className="flex items-center gap-1"><FieldLabel htmlFor={id}>{t(label)}</FieldLabel>{description?<HelpTip label={label} text={description}/>:null}</div>
-    {multiline ? <Textarea id={id} value={value} onChange={event => onChange(event.target.value)} placeholder={t(placeholder)} disabled={disabled} required={required} aria-describedby={description ? id + '-help' : undefined} /> : <Input id={id} value={value} onChange={event => onChange(event.target.value)} placeholder={t(placeholder)} disabled={disabled} required={required} aria-describedby={description ? id + '-help' : undefined} />}
-    {description ? <FieldDescription className="sr-only" id={id + '-help'}>{t(description)}</FieldDescription> : null}
+  const describedBy = [description ? id + '-help' : '', error ? id + '-error' : ''].filter(Boolean).join(' ') || undefined;
+  const common = { id, value, placeholder: t(placeholder), disabled, required, 'aria-describedby': describedBy, 'aria-invalid': error ? true : undefined } as const;
+  return <Field data-disabled={disabled || undefined} data-invalid={error ? true : undefined}><div className="flex items-center gap-1"><FieldLabel htmlFor={id}>{t(label)}</FieldLabel>{description && !visibleDescription ? <HelpTip label={label} text={description}/> : null}{counter ? <span className="wiki-field-counter" aria-hidden="true">{counter}</span> : null}</div>
+    {multiline ? <Textarea {...common} onChange={event => onChange(event.target.value)} /> : <Input {...common} onChange={event => onChange(event.target.value)} />}
+    {description ? <FieldDescription className={visibleDescription ? undefined : 'sr-only'} id={id + '-help'}>{t(description)}</FieldDescription> : null}
+    {error ? <p className="wiki-field-error" id={id + '-error'} role="alert">{error}</p> : null}
   </Field>;
 }
 export function ChoiceField({ label, value, onChange, options, disabled = false, description }: {
