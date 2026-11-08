@@ -7,7 +7,7 @@ const copy=submissionCopy(Astro.props.locale||'zh');const t=(text: string)=>copy
 import {localEditor} from '../../lib/editorConfig.mjs';
 ---
 <dialog class="ve-pr-dialog" data-pr-dialog data-pr-copy={JSON.stringify(copy)} aria-labelledby="ve-pr-title">
-  <header class="ve-pr-heading"><div><small>{localEditor?t('站内编辑器 / 投稿 · 本地联调'):t('站内编辑器 / 投稿审核')}</small><h2 id="ve-pr-title">{t('提交与审核')}</h2></div><WorkspaceButton type="submit" data-pr-close aria-label={t('关闭投稿面板')}><Icon name="x" /></WorkspaceButton></header>
+  <header class="ve-pr-heading"><div><small>{localEditor?t('编辑器 / 投稿 · 本地联调'):t('编辑器 / 投稿审核')}</small><h2 id="ve-pr-title">{t('提交与审核')}</h2></div><WorkspaceButton type="submit" data-pr-close aria-label={t('关闭投稿面板')}><Icon name="x" /></WorkspaceButton></header>
   <p class="ve-pr-notice">{localEditor?t('本地调试：草稿与投稿保存在本机服务中，审核和发布使用模拟服务。'):t('提交后将创建公开的 GitHub PR，由维护者审核后发布。请勿填写密码或私人信息。')}</p>
   <p><span data-pr-account-name>{t('未连接')}</span> <WorkspaceButton type="submit" data-pr-switch-account hidden={!localEditor}>{t('切换本地测试账号')}</WorkspaceButton></p>
   <WorkspaceButton type="submit" data-pr-login data-account-login hidden>{t('登录站内账号')}</WorkspaceButton>

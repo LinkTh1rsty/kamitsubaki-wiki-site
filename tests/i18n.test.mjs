@@ -75,7 +75,7 @@ test('localized site config exposes language switcher labels and page chrome', a
     locales,
   );
   assert.equal(zh.hero.title, 'Observer');
-  assert.equal(zh.sections.database.heading, '01. DATABASE');
+  assert.equal(zh.sections.database.heading, 'DATABASE');
   assert.equal(zh.footer.disclaimer.length > 0, true);
 
   const localeLinks = buildLocaleLinks(zh, 'zh-tw', '/artists/vwp/kaf');

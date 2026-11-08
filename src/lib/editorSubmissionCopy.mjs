@@ -93,12 +93,12 @@ const phrases = [
 
   ["提交与审核", "Submit and review", "投稿とレビュー"],
   [
-    "站内编辑器 / 投稿审核",
+    "编辑器 / 投稿审核",
     "Article editor / Review",
     "記事エディター / レビュー",
   ],
   [
-    "站内编辑器 / 投稿 · 本地联调",
+    "编辑器 / 投稿 · 本地联调",
     "Article editor / Local testing",
     "記事エディター / ローカルテスト",
   ],

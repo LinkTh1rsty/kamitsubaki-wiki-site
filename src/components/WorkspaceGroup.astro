@@ -3,13 +3,13 @@ interface Props {title:string;description?:string;index?:string;}
 const {title,description,index}=Astro.props;
 ---
 <section class="workspace-group">
- <header>{index&&<span class="workspace-group-index" aria-hidden="true">{index}</span>}<h3>{title}</h3>{description&&<p>{description}</p>}</header>
+ <header><h3>{title}</h3>{description&&<p>{description}</p>}</header>
  <div class="workspace-group-items"><slot/></div>
 </section>
 <style>
 .workspace-group{min-width:0;padding:24px 0 8px;border:0;border-top:1px solid rgb(var(--theme-fg-rgb)/.13);background:none}
 .workspace-group>header{display:grid;grid-template-columns:32px minmax(0,1fr);column-gap:12px;align-items:center;margin-bottom:14px;padding-bottom:20px;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.13)}
-.workspace-group-index{font:var(--ui-font-xs) var(--font-mono);letter-spacing:.05em;color:var(--theme-accent-color)}
+
 .workspace-group h3{font:400 22px/1.5 var(--font-serif);letter-spacing:.025em;margin:0;color:var(--theme-fg)}
 .workspace-group p{grid-column:1/-1;margin:12px 0 0;font:12px/1.8 var(--font-sans);color:rgb(var(--theme-fg-rgb)/.62);opacity:1}
 .workspace-group-items{min-width:0}

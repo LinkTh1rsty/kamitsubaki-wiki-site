@@ -11,7 +11,7 @@ const copy = {
   'zh-tw': {
     title: '從神椿資料開始',
     description: '先選資料類型，再寫內文。若已有原稿，也可以直接載入繼續編輯。',
-    song: '新增歌曲', album: '新增專輯', isotope: '新增同位體', person: '新增人物', existing: '編輯現有條目',
+    song: '新增歌曲', album: '新增專輯', isotope: '新增同位體', person: '新增人物', existing: '編輯現有詞條',
     articleTitle: '開始寫文章', articleDescription: '先寫標題與內文。需要特殊排版時，可直接插入下方的內容區塊。',
     tools: '常用的神椿內容', lyrics: '雙語歌詞', media: '多平台影音', ruby: '日文注音', details: '摺疊資料',
     tip: '在空白行輸入 / 可搜尋全部內容區塊；輸入 @ 或 [[ 可引用站內資料。',
@@ -20,7 +20,7 @@ const copy = {
   'zh-hk': {
     title: '從神椿資料開始',
     description: '先選資料類型，再寫內文。如已有原稿，也可以直接載入繼續編輯。',
-    song: '新增歌曲', album: '新增專輯', isotope: '新增同位體', person: '新增人物', existing: '編輯現有條目',
+    song: '新增歌曲', album: '新增專輯', isotope: '新增同位體', person: '新增人物', existing: '編輯現有詞條',
     articleTitle: '開始寫文章', articleDescription: '先寫標題與內文。需要特殊排版時，可直接插入下方的內容區塊。',
     tools: '常用的神椿內容', lyrics: '雙語歌詞', media: '多平台影音', ruby: '日文注音', details: '摺疊資料',
     tip: '在空白行輸入 / 可搜尋全部內容區塊；輸入 @ 或 [[ 可引用站內資料。',

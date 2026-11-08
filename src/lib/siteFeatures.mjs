@@ -9,7 +9,7 @@ export const siteFeatures=[
  {id:'contribute',group:'main',path:'/contribute/',title:text('参与共建','Contribute','貢献'),summary:text('编辑词条、投稿文章与图片','Edit records, contribute articles and images','項目・記事・画像を投稿')},
  {id:'docs',group:'main',path:'/docs/',title:text('文档中心','Documents','ドキュメント'),summary:text('网站、贡献与开发说明书','Site, contribution, and development manuals','サイト・投稿・開発の説明書')},
  {id:'chronicle',group:'explore',section:'archive',path:'/chronicle/',title:text('纪元时间轴','Chronicle','年代記'),summary:text('四个纪元，交汇的历史','Four eras, connected histories','四つの時代、交差する歴史')},
- {id:'gallery',group:'explore',section:'archive',path:'/gallery/',title:text('图片档案','Image archive','画像アーカイブ'),summary:text('公开照片、设定图与视觉资料','Public photos, setting art and visual sources','公開写真・設定画・ビジュアル資料')},
+ {id:'gallery',group:'explore',section:'archive',path:'/gallery/',title:text('图库','Image archive','画像アーカイブ'),summary:text('公开照片、设定图与视觉资料','Public photos, setting art and visual sources','公開写真・設定画・ビジュアル資料')},
  {id:'relations',group:'explore',section:'connections',path:'/explore/relations/',title:text('关联网络','Connections','関係図'),summary:text('人物、作品与项目之间的联系','People, works and projects connected','人物・作品・企画のつながり')},
  {id:'world',group:'explore',section:'connections',path:'/explore/world/',title:text('世界观导览','World guide','世界観ガイド'),summary:text('故事与世界的阅读入口','Find your way through stories and worlds','物語と世界を読む')},
  {id:'game',group:'labs',path:'/games/memory-corridor',beta:true,title:text('记忆回廊','Memory Corridor','記憶回廊'),summary:text('在像素世界里探索神椿','Explore Kamitsubaki in pixels','ピクセルの神椿を探索')},

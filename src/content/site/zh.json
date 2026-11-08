@@ -64,7 +64,7 @@
   },
   "sections": {
     "about": {
-      "heading": "04. PREFACE",
+      "heading": "PREFACE",
       "subheading": "致观测者",
       "body": [
         "这是一个非官方的 KAMITSUBAKI STUDIO 粉丝百科站点。旨在为「观测者」们整理和记录神椿旗下的艺人、音乐、企划与世界线。所有内容由粉丝编写和维护，与 KAMITSUBAKI STUDIO 及 THINKR 无关联。"
@@ -79,23 +79,23 @@
       ]
     },
     "database": {
-      "heading": "01. DATABASE",
+      "heading": "DATABASE",
       "subheading": "观测对象一览",
       "expandLabel": "展开全部"
     },
     "songs": {
-      "heading": "02. RHYTHM",
+      "heading": "RHYTHM",
       "subheading": "音乐作品",
       "viewAllLabel": "VIEW ALL SONGS >>"
     },
     "albums": {
-      "heading": "03. ALBUMS",
+      "heading": "ALBUMS",
       "subheading": "专辑作品",
       "viewAllLabel": "VIEW ALL ALBUMS >>",
       "emptyLabel": "专辑词条正在整理中，欢迎参与补充。"
     },
     "log": {
-      "heading": "05. LOG",
+      "heading": "LOG",
       "subheading": "观测记录"
     }
   },

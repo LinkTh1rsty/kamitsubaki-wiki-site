@@ -8,7 +8,7 @@ const {songs,albums,locale,sections}=Astro.props;
 const copy=resolveLocaleCopy({zh:{title:'音乐作品',songs:'歌曲',albums:'专辑',all:'浏览音乐目录'},en:{title:'Music',songs:'Songs',albums:'Albums',all:'Browse music'},ja:{title:'音楽作品',songs:'楽曲',albums:'アルバム',all:'音楽一覧'}},locale);
 ---
 <section id="music" class="home-music relative mx-auto max-w-7xl px-5 py-20 ui-crosshair bl br tl tr sm:px-6 sm:py-32">
- <header><h2>02. RHYTHM</h2><p>{copy.title}</p><a href={`/${locale}/database/music/`}>{copy.all} <Icon name="arrow-right" /></a></header>
+ <header><h2>RHYTHM</h2><p>{copy.title}</p><a href={`/${locale}/database/music/`}>{copy.all} <Icon name="arrow-right" /></a></header>
  <div class="home-music-content"><ContentTabs id="home-music" label={copy.title} tabs={[{id:'songs',label:copy.songs},{id:'albums',label:copy.albums}]}>
  <SongsSection slot="songs" songs={songs} section={sections.songs} locale={locale}/>
  <AlbumsSection slot="albums" albums={albums} section={sections.albums} locale={locale}/>

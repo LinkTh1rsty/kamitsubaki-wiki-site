@@ -67,7 +67,7 @@ export default function ReviewPane({ snapshot, onBack, onRestore, onSubmitted, o
     finally { locked.current = false; if (mounted.current) setBusy(false); }
   }
   const reconnect = () => action(async () => { const selected=item||state?.selected;const refreshed=state&&selected?await service.refresh(state.account,selected.id):null;const next = await service.load(snapshot); if (mounted.current) { setState(next); setItem(next.recovered || refreshed || null); if (next.recovered) { setTab('records'); onSubmitted(next.recovered); } setMessage(next.recovered ? t("已恢复上次提交结果，之后新增的本地修改也会保留。") : t("已重新连接，请检查当前版本后继续。")); } });
-  const receipt = (result: ReviewSubmission) => { if (!mounted.current) return; setState(current => current ? { ...current, selected: result, pending: null, page: { ...current.page, submissions: [result, ...current.page.submissions.filter(entry => entry.id !== result.id)] } } : current); setItem(result); setTab('records'); setMessage(t('已提交审核，内容已保存。审核通过和网站上线会分别显示结果。')); onSubmitted(result); };
+  const receipt = (result: ReviewSubmission) => { if (!mounted.current) return; setState(current => current ? { ...current, selected: result, pending: null, page: { ...current.page, submissions: [result, ...current.page.submissions.filter(entry => entry.id !== result.id)] } } : current); setItem(result); setTab('records'); setMessage(t('已提交审核，内容已保存。审核通过和网站发布会分别显示结果。')); onSubmitted(result); };
   const updateRecord = (result: ReviewSubmission) => {
     if (!mounted.current) return;
     setItem(result);
@@ -78,7 +78,7 @@ export default function ReviewPane({ snapshot, onBack, onRestore, onSubmitted, o
   const hasLocalImages = snapshot.attachments?.some(asset => asset.url.startsWith('/images/novel-prototype/'));
   const canSubmit = state && !state.conflict && !state.pending && (!state.selected || state.selected.sync !== 'pending') && (Boolean(snapshot.resolution?.submissionId) || snapshot.content !== (state.selected?.content || state.base.content));
   return <section className="wiki-review-pane" aria-label={t("修改检查与投稿")}>
-    <header className="wiki-review-heading"><div><Button variant="ghost" onClick={onBack} disabled={busy}><ArrowLeft />{t("返回正文")}</Button><h2>{t("修改检查与投稿")}<HelpTip label="审核与上线" text="提交后会创建 GitHub PR。审核通过、合并和网站上线是不同阶段，请以最新状态为准。"/></h2><p>{t("先检查内容，再填写修改说明。你的正文始终有本地草稿。")}</p></div><Badge variant="secondary">{localEditorHost()?t("本地测试"):t("账号投稿")}</Badge></header>
+    <header className="wiki-review-heading"><div><Button variant="ghost" onClick={onBack} disabled={busy}><ArrowLeft />{t("返回正文")}</Button><h2>{t("修改检查与投稿")}<HelpTip label="审核与发布" text="提交后会创建 GitHub PR。审核通过和网站发布是不同阶段，请以最新状态为准。"/></h2><p>{t("先检查内容，再填写修改说明。你的正文始终有本地草稿。")}</p></div><Badge variant="secondary">{localEditorHost()?t("本地测试"):t("账号投稿")}</Badge></header>
     {localEditorHost()?<p className="wiki-review-local-note">{t("此原型使用本机测试账号和审核服务，提交不会写入线上仓库。")}</p>:null}
     {loading && !state ? <p role="status" className="wiki-review-loading"><Loader2 className="animate-spin" />{t("正在连接投稿服务…")}</p> : null}
     {error && !state ? <Alert variant="destructive"><AlertDescription>{error}</AlertDescription></Alert> : null}

@@ -15,9 +15,9 @@ const chronicle=features.find(item=>item.id==='chronicle')!;
 const gallery=features.find(item=>item.id==='gallery')!;
 const rest=features.filter(item=>item.section==='connections');
 const copy=resolveLocaleCopy({
- zh:{lead:'从一条线索，走进神椿。',leadNote:'想知道一件事发生在何时，或想看清一张照片？从时间与影像开始，再沿关联阅读人物与世界。',timeKicker:'01 / 按时间阅读',timeAction:'打开剪辑式时间轴',imageKicker:'02 / 按影像阅读',imageAction:'浏览图片档案',more:'继续探索',moreNote:'从一个人物、一部作品或一段故事，找到下一条线索。',journal:'站点公告',journalNote:'阅读网站更新和历史记录。',journalAction:'阅读公告历史'},
- ja:{lead:'ひとつの手がかりから、神椿へ。',leadNote:'出来事がいつ起きたか、写真を詳しく見たいときは、時間と画像から始めましょう。',timeKicker:'01 / 時間から読む',timeAction:'トラック型の年代記を開く',imageKicker:'02 / 画像から読む',imageAction:'画像アーカイブを見る',more:'さらに探索',moreNote:'人物・作品・物語のつながりから次の手がかりへ。',journal:'サイトのお知らせ',journalNote:'更新履歴と過去のお知らせを読む。',journalAction:'お知らせ一覧へ'},
- en:{lead:'Start with one thread. Explore KAMITSUBAKI.',leadNote:'Find when something happened, examine photos and visual references, then follow the connections between people and worlds.',timeKicker:'01 / Explore by time',timeAction:'Open the track timeline',imageKicker:'02 / Explore by image',imageAction:'Browse the image archive',more:'Follow the connections',moreNote:'Move from a person, work or story to the next thread.',journal:'Site announcements',journalNote:'Read updates and the complete notice history.',journalAction:'Read the archive'}
+ zh:{lead:'从一条线索，走进神椿。',leadNote:'想知道一件事发生在何时，或想看清一张照片？从时间与影像开始，再沿关联阅读人物与世界。',timeKicker:'按时间阅读',timeAction:'打开剪辑式时间轴',imageKicker:'按影像阅读',imageAction:'浏览图库',more:'继续探索',moreNote:'从一个人物、一部作品或一段故事，找到下一条线索。',journal:'站点公告',journalNote:'阅读网站更新和历史记录。',journalAction:'阅读公告历史'},
+ ja:{lead:'ひとつの手がかりから、神椿へ。',leadNote:'出来事がいつ起きたか、写真を詳しく見たいときは、時間と画像から始めましょう。',timeKicker:'時間から読む',timeAction:'トラック型の年代記を開く',imageKicker:'画像から読む',imageAction:'画像アーカイブを見る',more:'さらに探索',moreNote:'人物・作品・物語のつながりから次の手がかりへ。',journal:'サイトのお知らせ',journalNote:'更新履歴と過去のお知らせを読む。',journalAction:'お知らせ一覧へ'},
+ en:{lead:'Start with one thread. Explore KAMITSUBAKI.',leadNote:'Find when something happened, examine photos and visual references, then follow the connections between people and worlds.',timeKicker:'Explore by time',timeAction:'Open the track timeline',imageKicker:'Explore by image',imageAction:'Browse the image archive',more:'Follow the connections',moreNote:'Move from a person, work or story to the next thread.',journal:'Site announcements',journalNote:'Read updates and the complete notice history.',journalAction:'Read the archive'}
 },locale);
 ---
 <WorkspaceLayout locale={locale} title={section.title} intro={section.summary} path="/explore/" eyebrow="EXPLORE" backHref={`/${locale}/`} backLabel={pageLabels(locale).home} width="wide" mainAttributes={{class:'explore-page'}}>
@@ -37,7 +37,7 @@ const copy=resolveLocaleCopy({
     </a>
   </div>
   <VisualRoamPortal locale={locale}/>
-  <section class="explore-related"><header><span>03 / CONNECTIONS</span><h2>{copy.more}</h2><p>{copy.moreNote}</p></header><div>{rest.map((item,index)=><WorkspaceLinkCard href={item.href} index={String(index+1).padStart(2,'0')} title={item.title} description={item.summary}/>)}</div></section>
+  <section class="explore-related"><header><span>CONNECTIONS</span><h2>{copy.more}</h2><p>{copy.moreNote}</p></header><div>{rest.map((item,index)=><WorkspaceLinkCard href={item.href} index={String(index+1).padStart(2,'0')} title={item.title} description={item.summary}/>)}</div></section>
   <a class="explore-journal" href={`/${locale}/announcements/`}><span>SITE / JOURNAL</span><strong>{copy.journal}</strong><small>{copy.journalNote}</small><b>{copy.journalAction} <Icon name="arrow-up-right" /></b></a>
 </WorkspaceLayout>
 <style>

@@ -64,7 +64,7 @@
   },
   "sections": {
     "about": {
-      "heading": "04. PREFACE",
+      "heading": "PREFACE",
       "subheading": "観測者へ告ぐ",
       "body": [
         "これはKAMITSUBAKI STUDIOの非公式ファン百科事典サイトです。神椿所属のアーティスト・音楽・プロジェクト・世界線を「観測者」たちのために整理・記録することを目的としています。すべての内容はファンによって作成・管理されており、KAMITSUBAKI STUDIOおよびTHINKRとは無関係です。"
@@ -79,23 +79,23 @@
       ]
     },
     "database": {
-      "heading": "01. DATABASE",
+      "heading": "DATABASE",
       "subheading": "観測対象一覧",
       "expandLabel": "すべて展開"
     },
     "songs": {
-      "heading": "02. RHYTHM",
+      "heading": "RHYTHM",
       "subheading": "楽曲作品",
       "viewAllLabel": "VIEW ALL SONGS >>"
     },
     "albums": {
-      "heading": "03. ALBUMS",
+      "heading": "ALBUMS",
       "subheading": "アルバム作品",
       "viewAllLabel": "VIEW ALL ALBUMS >>",
       "emptyLabel": "アルバム記事を準備中です。編集への参加を歓迎します。"
     },
     "log": {
-      "heading": "05. LOG",
+      "heading": "LOG",
       "subheading": "観測記録"
     }
   },

@@ -44,7 +44,7 @@ const presetCopy = {
     voiceSource: '基於角色', voiceEngine: '聲音引擎', addEngine: '新增引擎',
     active: '活動中', hiatus: '暫停活動', ended: '結束活動', unknown: '未確認',
     lyricist: '填詞', composer: '作曲', arranger: '編曲', mixer: '混音', 'recording-engineer': '錄音',
-    ambiguous: '找到多個同名條目，請選擇附有 ID 的完整選項。', batchCredit:'從站內目錄批量加入', batchSearch:'搜尋人物、團體或聲音庫', batchSelected:'已選 {n} 位', batchAdd:'加入所選製作人員', batchEmpty:'沒有符合條件的站內人物。', batchAdded:'已加入 {n} 位製作人員。', batchDuplicate:'所選人物已在此職責下加入。',
+    ambiguous: '找到多個同名詞條，請選擇附有 ID 的完整選項。', batchCredit:'從站內目錄批量加入', batchSearch:'搜尋人物、團體或聲音庫', batchSelected:'已選 {n} 位', batchAdd:'加入所選製作人員', batchEmpty:'沒有符合條件的站內人物。', batchAdded:'已加入 {n} 位製作人員。', batchDuplicate:'所選人物已在此職責下加入。',
   },
   ja: {
     song: '制作クレジット', album: '収録曲順', isotope: '声の元とエンジン', person: '活動状況',

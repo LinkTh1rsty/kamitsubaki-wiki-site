@@ -57,7 +57,7 @@ const projects = registry.list(locale).filter(e=>e.data.entityType==='project');
     </section>
     <section class="labs-panel" id="labs-panel-world" data-labs-panel="world" aria-label={copy.tabs[3]} hidden={section !== 'world'}>
 
-      {labsWorlds.map((world, i) => <section class="labs-world-route"><small>{String(i+1).padStart(2,'0')} / {world.kind} · {world.date}</small><h2>{world.title}</h2><p>{resolveLocaleCopy(world.copy, locale)}</p><details><summary>{copy.spoiler}</summary><p>{resolveLocaleCopy(world.spoiler, locale)}</p></details><div class="labs-actions"><a class="labs-button" href={world.source} target="_blank" rel="noopener noreferrer">{copy.source} <Icon name="arrow-up-right" /></a>{world.entity && registry.resolveEntity(world.entity,locale) && <a class="labs-button" href={registry.resolveEntityUrl(world.entity,locale)}>{copy.open}</a>}</div></section>)}
+      {labsWorlds.map((world, i) => <section class="labs-world-route"><small>{world.kind} · {world.date}</small><h2>{world.title}</h2><p>{resolveLocaleCopy(world.copy, locale)}</p><details><summary>{copy.spoiler}</summary><p>{resolveLocaleCopy(world.spoiler, locale)}</p></details><div class="labs-actions"><a class="labs-button" href={world.source} target="_blank" rel="noopener noreferrer">{copy.source} <Icon name="arrow-up-right" /></a>{world.entity && registry.resolveEntity(world.entity,locale) && <a class="labs-button" href={registry.resolveEntityUrl(world.entity,locale)}>{copy.open}</a>}</div></section>)}
       <h2 style="margin-top:40px">{copy.projects}</h2>{projects.map(p => <div class="labs-row"><div class="labs-row-body"><h3><a href={p.url}>{p.data.title || p.data.name}</a></h3><p>{p.data.summary || copy.projects}</p></div></div>)}
     </section>
     </div>

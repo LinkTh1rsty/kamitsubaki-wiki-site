@@ -8,7 +8,7 @@ const copy=resolveLocaleCopy({zh:{title:'文章专栏',all:'阅读全部文章',
 const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
 <section id="articles" class="home-articles mx-auto max-w-7xl px-5 py-20 sm:px-6" data-ui-kit data-home-articles data-api={api} data-featured={homeFeaturedArticles[locale==='ja'?'ja':locale==='en'?'en':'zh']||undefined} data-locale={locale} data-copy={JSON.stringify(copy)}>
- <header><h2>03. ARTICLES</h2><p>{copy.title}</p><a href={`/${locale}/articles/`}>{copy.all} <Icon name="arrow-right" /></a></header>
+ <header><h2>ARTICLES</h2><p>{copy.title}</p><a href={`/${locale}/articles/`}>{copy.all} <Icon name="arrow-right" /></a></header>
  <div class="home-article-list"><p role="status" data-home-article-status hidden></p><ContentSkeleton count={3} data-home-article-loading/><div data-home-article-items></div></div>
 </section>
 <script>

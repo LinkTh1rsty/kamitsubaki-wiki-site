@@ -6,7 +6,7 @@ const {locale='zh'}=Astro.props;
 const section=featuresFor(locale,'main').find(item=>item.id==='explore')!;
 ---
 <section id="explore" class="mx-auto max-w-7xl px-5 py-20 sm:px-6">
- <header><h2>04. EXPLORE</h2><p>{section.title}</p></header>
+ <header><h2>EXPLORE</h2><p>{section.title}</p></header>
  <div class="home-explore-grid">{featuresFor(locale,'explore').map((item,i)=><WorkspaceLinkCard href={item.href} title={item.title} description={item.summary} index={String(i+1).padStart(2,'0')}/>)}</div>
  <a href={section.href}>{section.title} <Icon name="arrow-right" /></a>
 </section>

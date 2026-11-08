@@ -19,7 +19,7 @@ export const LibrarySidebar = memo(function LibrarySidebar({ catalog, loading, s
   const entries = catalog.filter(entry => entry.locale === locale && (!normalized || `${entry.title} ${entry.romanized} ${entry.id}`.toLowerCase().includes(normalized)))
     .sort((a, b) => { const ai = pinnedIds.indexOf(a.id), bi = pinnedIds.indexOf(b.id); return (ai < 0 ? 99 : ai) - (bi < 0 ? 99 : bi) || a.title.localeCompare(b.title, 'zh'); }).slice(0, normalized ? 60 : 24);
   return <nav className="wiki-library" aria-label={t("词条库")}>
-    <div className="wiki-library-brand"><strong>{t("神椿 Wiki")}</strong><span>{t("编辑工作台")}</span></div>
+    <div className="wiki-library-brand"><strong>{t("神椿 Wiki")}</strong><span>{t("编辑器")}</span></div>
     <Button className="w-full" onClick={onNew}><SquarePen data-icon="inline-start" />{t("新建词条")}</Button>
     <div className="wiki-library-search"><Search aria-hidden="true" /><Input aria-label={t("搜索词条")} placeholder={t("搜索词条")} value={search} onChange={event => onSearch(event.target.value)} /></div>
     <div className="wiki-library-languages" role="group" aria-label={t("词条语言")}>{[['zh', '中文'], ['ja', '日本語'], ['en', 'English']].map(([key, label]) => <Button key={key} size="xs" variant={locale === key ? 'secondary' : 'ghost'} aria-pressed={locale === key} onClick={() => onLocale(key)}>{label}</Button>)}</div>

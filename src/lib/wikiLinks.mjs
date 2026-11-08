@@ -47,7 +47,7 @@ export function renderWikiLinks(html,registry,locale){const previews={},missing=
    const candidates=referenceIndex(registry,match[1]).get(JSON.stringify([kind,['songs','albums'].includes(kind)?parts[1]:'',title.normalize('NFKC')]));
    if(candidates?.size===1)e=candidates.values().next().value;
   }
-  if(!e){missing.push(href);const note=match[1]==='en'?'Entry not yet linked':match[1]==='ja'?'項目リンク未登録':match[1]==='zh'?'条目链接待补全':'條目連結待補全';return `<span class="wiki-unresolved-link" title="${note}">${label}</span>`;}
+  if(!e){missing.push(href);const note=match[1]==='en'?'Entry not yet linked':match[1]==='ja'?'項目リンク未登録':match[1]==='zh'?'词条链接待补全':'詞條連結待補全';return `<span class="wiki-unresolved-link" title="${note}">${label}</span>`;}
   const d=e.data;previews[d.id]={id:d.id,title:d.name||d.title,url:e.url,type:d.entityType,summary:d.summary||'',image:d.presentation?.image};
   return `<a${before}href="${escape(e.url+suffix)}"${after} data-wiki-id="${d.id}">${label}</a>`;
  });

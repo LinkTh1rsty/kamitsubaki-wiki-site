@@ -18,7 +18,7 @@ export function WorkspaceSidebar({ editor, outline, resources, onNavigate, onBro
     const index = (matchIndex + direction + matches.length) % matches.length; setMatchIndex(index);
     onReveal(); requestAnimationFrame(() => editor.chain().focus().setTextSelection(matches[index]).scrollIntoView().run());
   };
-  return <nav className="wiki-workspace-nav" aria-label={t("当前写作导航")}><div className="wiki-library-brand"><strong>{t("神椿 Wiki")}</strong><span>{t("写作工作台")}</span></div>
+  return <nav className="wiki-workspace-nav" aria-label={t("当前写作导航")}><div className="wiki-library-brand"><strong>{t("神椿 Wiki")}</strong><span>{t("编辑器")}</span></div>
     <div className="flex gap-2"><Button variant="outline" onClick={onBrowse}><FolderOpen data-icon="inline-start" />{t("打开词条")}</Button><Button variant="ghost" size="icon" aria-label={t("新建词条")} onClick={onNew}><Plus /></Button></div>
     <Tabs defaultValue="outline" className="wiki-workspace-tabs"><TabsList variant="line"><TabsTrigger value="outline">{t("大纲")}</TabsTrigger><TabsTrigger value="resources">{t("素材")}</TabsTrigger><TabsTrigger value="find">{t("查找")}</TabsTrigger></TabsList>
       <TabsContent value="outline"><div className="wiki-nav-heading">{t("当前文档 ·")}{outline.length} {t("个章节")}</div>{outline.length ? outline.map((item, index) => <Button key={item.position + ':' + index} variant={activePosition === item.position ? 'secondary' : 'ghost'} aria-current={activePosition === item.position ? 'location' : undefined} className="wiki-nav-row" style={{ paddingLeft: 8 + Math.max(0, item.level - 2) * 12 }} onClick={() => onNavigate(item.position)}><span className="truncate">{item.text || '未命名章节'}</span></Button>) : <p className="wiki-library-empty">{t("添加章节标题后，可在这里快速定位。")}</p>}</TabsContent>

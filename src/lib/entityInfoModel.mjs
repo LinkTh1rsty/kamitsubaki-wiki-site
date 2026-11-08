@@ -4,7 +4,7 @@ import {entityArtwork,entityLeadArtists,entityPresentationKind} from './entityPr
 import {detectExternalPlatform} from './externalPlatforms.mjs';
 
 const copies={
- zh:{card:'资料卡',roles:'身份 / 职能',activity:'活动状态',start:'开始活动',end:'结束活动',date:'发行日期',eventDate:'演出日期',duration:'时长',affiliations:'所属 / 厂牌',links:'官方链接',theme:'条目配色',credits:'制作名单',engine:'声库引擎',venue:'场地',release:'发行形式',more:'更多资料',joined:'加入',left:'离开'},
+ zh:{card:'资料卡',roles:'身份 / 职能',activity:'活动状态',start:'开始活动',end:'结束活动',date:'发行日期',eventDate:'演出日期',duration:'时长',affiliations:'所属 / 厂牌',links:'官方链接',theme:'词条配色',credits:'制作名单',engine:'声库引擎',venue:'场地',release:'发行形式',more:'更多资料',joined:'加入',left:'离开'},
  ja:{card:'情報欄',roles:'役割',activity:'活動状況',start:'活動開始',end:'活動終了',date:'発売日',eventDate:'公演日程',duration:'長さ',affiliations:'所属',links:'公式リンク',theme:'テーマ配色',credits:'クレジット',engine:'音声エンジン',venue:'会場',release:'リリース形式',more:'詳しい情報',joined:'所属開始',left:'所属終了'},
  en:{card:'Record details',roles:'Roles',activity:'Activity',start:'Active since',end:'Active until',date:'Release date',eventDate:'Event dates',duration:'Duration',affiliations:'Affiliations',links:'Official links',theme:'Palette',credits:'Credits',engine:'Voice engines',venue:'Venue',release:'Release type',more:'More details',joined:'Joined',left:'Left'},
 };

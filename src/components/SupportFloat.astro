@@ -3,7 +3,7 @@ import WorkspaceButton from './WorkspaceButton.astro';
 import Icon from './Icon.astro';
 import { resolveLocaleCopy } from '../lib/i18n.mjs';
 const { locale = 'en' } = Astro.props;
-const giveCopy=resolveLocaleCopy({zh:{label:'发电',action:'为观测站发电'},ja:{label:'支援',action:'観測所を支援する'},en:{label:'Support',action:'Support the observatory'}},locale);
+const giveCopy=resolveLocaleCopy({zh:{label:'支持',action:'支持本站'},ja:{label:'支援',action:'観測所を支援する'},en:{label:'Support',action:'Support the observatory'}},locale);
 ---
 
 <aside class="support-float" data-support-float>

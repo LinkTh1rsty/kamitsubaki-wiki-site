@@ -18,7 +18,7 @@ type Chapter={title:string;summary:string;body:string;href:string};
 type Book={id:string;title:string;description:string;href:string;chapters:Chapter[]};
 const books=await getManualCatalog(locale,{includeBody:true}) as Book[];
 const tasks=resolveLocaleCopy({
- zh:{title:'我想做什么',items:[['第一次投稿','从资料准备到公开核对，完整走一遍。','contribute/walkthrough/'],['用站内编辑器','按页面步骤写词条、文章、设定图或时间轴。','contribute/start/#wiki-content-site-route'],['通过 GitHub 投稿','从源文件、分支、PR 到审核与合并。','contribute/start/#wiki-content-github-route'],['投稿时间轴','选择日期精度、关联词条和可核对来源。','contribute/chronicle/']]},
+ zh:{title:'我想做什么',items:[['第一次投稿','从资料准备到公开核对，完整走一遍。','contribute/walkthrough/'],['用编辑器','按页面步骤写词条、文章、设定图或时间轴。','contribute/start/#wiki-content-site-route'],['通过 GitHub 投稿','从源文件、分支、PR 到审核与合并。','contribute/start/#wiki-content-github-route'],['投稿时间轴','选择日期精度、关联词条和可核对来源。','contribute/chronicle/']]},
  ja:{title:'何をしますか',items:[['初めて投稿する','資料の準備から公開の確認まで順に進めます。','contribute/walkthrough/'],['サイト上で編集','項目・記事・画像・年表を画面から投稿。','contribute/start/#wiki-content-site-route'],['GitHub から投稿','元ファイル、ブランチ、PR、審査とマージ。','contribute/start/#wiki-content-github-route'],['年表に投稿','日付の精度、関連項目、確認できる出典。','contribute/chronicle/']]},
  en:{title:'What would you like to do?',items:[['First contribution','Follow the complete route from evidence to public release.','contribute/walkthrough/'],['Use the site editor','Follow the steps for entries, articles, images, or events.','contribute/start/#wiki-content-site-route'],['Contribute on GitHub','Find the source file, open a branch and PR, follow review.','contribute/start/#wiki-content-github-route'],['Add a chronicle event','Choose date precision, related entries, and verifiable sources.','contribute/chronicle/']]}
 },locale) as {title:string;items:[string,string,string][]};
@@ -33,7 +33,7 @@ const reference=resolveLocaleCopy({zh:{title:'完整参考与跟做练习',note:
   <div class="docs-search"><label for="docs-query">{copy.search}</label><WorkspaceControl id="docs-query" type="search" autocomplete="off" placeholder={copy.search} data-docs-query/></div>
   <div data-docs-groups>
    {books.map((book,index)=><section class="docs-book" data-docs-book aria-labelledby={`docs-book-${book.id}`}>
-    <header><span>{String(index+1).padStart(2,'0')} / {book.id.toUpperCase()}</span><h2 id={`docs-book-${book.id}`}>{book.title}</h2><p>{book.description}</p></header>
+    <header><span>{book.id.toUpperCase()}</span><h2 id={`docs-book-${book.id}`}>{book.title}</h2><p>{book.description}</p></header>
     <div class="docs-chapters">{book.chapters.map((chapter,chapterIndex)=><a href={chapter.href} class="docs-chapter" data-docs-item data-summary={chapter.summary} data-body={chapter.body.replace(/\s+/g,' ')} data-search={`${book.title} ${chapter.title} ${chapter.summary} ${chapter.body}`.toLocaleLowerCase()}><small>{String(chapterIndex+1).padStart(2,'0')}</small><span><strong>{chapter.title}</strong><em data-docs-snippet>{chapter.summary}</em></span><b aria-hidden="true"><Icon name="arrow-up-right" /></b></a>)}</div>
    </section>)}
   </div>

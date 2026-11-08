@@ -21,7 +21,7 @@ legacyMarkup=legacyMarkup.replace(imageBlock,'')
  .replace('</details><div class="gallery-actions">',`</details></section><section class="submission-panel"><header class="submission-panel-header"><h3><span>02</span>${layout.images}</h3></header>${imageBlock}</section></div><div class="gallery-actions">`);
 
 ---
-<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/manage/" eyebrow="EXPLORE / VISUAL ARCHIVE" backHref={`/${locale}/gallery/`} backLabel={copy.back} noindex mainAttributes={{class:'gallery-manage-shell','data-gallery-api':api,'data-locale':locale}}>
+<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/manage/" eyebrow="GALLERY / UPLOAD" backHref={`/${locale}/gallery/`} backLabel={copy.back} noindex mainAttributes={{class:'gallery-manage-shell','data-gallery-api':api,'data-locale':locale}}>
   <Fragment slot="actions"><a class="context-action" data-tone="secondary" data-gallery-login hidden>{copy.login}</a></Fragment>
   <style is:global set:html={galleryManagerStyles}/>
   <div set:html={legacyMarkup}/>

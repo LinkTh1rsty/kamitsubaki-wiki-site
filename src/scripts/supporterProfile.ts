@@ -79,7 +79,7 @@ if (root) {
     form.hidden=true;done.hidden=false;
     el('[data-done-title]').textContent=state==='approved'?'已通过审核':state==='rejected'?'请修改后重新提交':'已提交，等待审核';
     el('[data-done-name]').textContent=name.value;el('[data-done-email]').textContent=email.value;
-    el('[data-done-verify]').textContent=state==='rejected'?`退回原因：${reason}`:state==='approved'?'自定义资料已公开。后续修改需要重新审核，期间保留当前展示。':'通过或退回时会发送结果邮件。无需重复登记，原有公开资料保持展示。';
+    el('[data-done-verify]').textContent=state==='rejected'?`修改意见：${reason}`:state==='approved'?'自定义资料已公开。后续修改需要重新审核，期间保留当前展示。':'通过或退回时会发送结果邮件。无需重复登记，原有公开资料保持展示。';
     el('[data-profile-edit]').textContent=state==='rejected'?'修改后重新提交':'修改资料';
     report(state==='approved'?'资料已通过审核。':state==='rejected'?`请修改后重新提交：${reason}`:'资料已提交，正在等待管理员审核。');
   }

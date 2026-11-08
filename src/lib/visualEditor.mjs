@@ -12,7 +12,7 @@ import { validLyricsTiming } from './editorLyrics.mjs';
 export const entryTypes = ['songs', 'projects', 'logs', 'people', 'units', 'isotopes', 'releases', 'lives', 'organizations', 'lore', 'articles'];
 export const blockTypes = ['paragraph', 'heading', 'list', 'quote', 'image', 'table', 'media', 'ruby', 'details', 'lyrics', 'divider', 'inline', 'media-switcher', 'code', 'math'];
 const field = (key, zh, en, ja, required = false, type = 'text') => ({ key, labels: { zh, en, ja }, required, type });
-const common = [field('translationKey', '条目标识（各语言一致）', 'Entry key (shared across languages)', '記事キー（言語共通）', true), field('image', '封面图片地址', 'Cover image URL', 'カバー画像 URL')];
+const common = [field('translationKey', '词条标识（各语言一致）', 'Entry key (shared across languages)', '記事キー（言語共通）', true), field('image', '封面图片地址', 'Cover image URL', 'カバー画像 URL')];
 const title = field('title', '标题', 'Title', 'タイトル', true);
 const artist = field('artist', '艺人名称', 'Artist name', 'アーティスト名', true);
 const date = field('releaseDate', '发行日期', 'Release date', '発売日');

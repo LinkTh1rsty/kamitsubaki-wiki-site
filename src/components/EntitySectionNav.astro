@@ -3,7 +3,7 @@ import '../styles/entitySectionNav.css';
 import {resolveLocaleCopy} from '../lib/i18n.mjs';
 interface Props {items:{key:string;label:string;href:string}[];locale:string;}
 const {items,locale}=Astro.props;
-const label=resolveLocaleCopy({zh:'浏览本条目',ja:'記事内ナビゲーション',en:'Browse this record'},locale);
+const label=resolveLocaleCopy({zh:'浏览本词条',ja:'記事内ナビゲーション',en:'Browse this record'},locale);
 ---
 <nav class="entity-section-nav" aria-label={label} data-entity-sections>
  {items.map(item=><a href={item.href} data-entity-section={item.key} data-entity-section-link={item.href.startsWith('#')||undefined}>{item.label}</a>)}

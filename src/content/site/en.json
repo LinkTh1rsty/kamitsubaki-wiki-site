@@ -64,7 +64,7 @@
   },
   "sections": {
     "about": {
-      "heading": "04. PREFACE",
+      "heading": "PREFACE",
       "subheading": "To observers",
       "body": [
         "This is an unofficial fan wiki for KAMITSUBAKI STUDIO. It aims to document and organize the artists, music, projects, and storylines of Kamitsubaki for fellow \"observers.\" All content is written and maintained by fans, and is not affiliated with KAMITSUBAKI STUDIO or THINKR."
@@ -79,23 +79,23 @@
       ]
     },
     "database": {
-      "heading": "01. DATABASE",
+      "heading": "DATABASE",
       "subheading": "Observation targets",
       "expandLabel": "Expand all"
     },
     "songs": {
-      "heading": "02. RHYTHM",
+      "heading": "RHYTHM",
       "subheading": "Music works",
       "viewAllLabel": "VIEW ALL SONGS >>"
     },
     "albums": {
-      "heading": "03. ALBUMS",
+      "heading": "ALBUMS",
       "subheading": "Album works",
       "viewAllLabel": "VIEW ALL ALBUMS >>",
       "emptyLabel": "Album entries are being prepared. Contributions are welcome."
     },
     "log": {
-      "heading": "05. LOG",
+      "heading": "LOG",
       "subheading": "Observation log"
     }
   },
