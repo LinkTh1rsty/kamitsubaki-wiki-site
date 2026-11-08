@@ -20,11 +20,11 @@ entityType: "virtual-avatar"
 roles:
   - "virtual-singer"
 lifecycle:
-  activity: "unknown"
+  activity: ended
   startedAt: "2021-06-20"
   archive:
-    mode: "permanent"
-    archiveNote: "作品与历史记录持续保留。"
+    mode: permanent
+    archiveNote: 作品与历史记录持续保留。
 sources: []
 summary: "以低语感、气声与克制情绪推进为特征的虚拟歌手。"
 ---
