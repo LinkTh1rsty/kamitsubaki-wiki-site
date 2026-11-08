@@ -5,6 +5,7 @@ import {
   readLastLocalDraft,
   listLocalDrafts,
   saveLocalDraft,
+  DraftConflictError,
   type LocalDraft,
 } from "../src/lib/local-drafts";
 
@@ -107,4 +108,17 @@ test("unavailable storage is distinguishable from an empty draft library", () =>
     storage.denied = true;
     assert.equal(readLastLocalDraft(), null);
     assert.throws(() => listLocalDrafts(), { name: "SecurityError" });
+  }));
+
+test("a newer write from another tab blocks a silent overwrite of the same draft", () =>
+  withStorage((storage) => {
+    saveLocalDraft(draft("shared", 1));
+    const key = prefix + "shared";
+    const other = JSON.parse(storage.values.get(key)!);
+    storage.values.set(key, JSON.stringify({ ...other, tabId: "other-tab", savedAt: 5, source: "other tab text" }));
+    assert.throws(() => saveLocalDraft(draft("shared", 6)), DraftConflictError);
+    assert.equal(readLocalDraft("shared")?.source, "other tab text");
+    saveLocalDraft(draft("shared", 7), { force: true });
+    assert.equal(readLocalDraft("shared")?.savedAt, 7);
+    assert.equal("tabId" in readLocalDraft("shared")!, false);
   }));

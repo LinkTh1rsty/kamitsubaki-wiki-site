@@ -14,7 +14,7 @@ import {createCommunityLocationPicker} from '../src/lib/communityLocationPicker.
 import {initCommunityCalendar} from '../src/scripts/communityCalendar.js';
 import {renderCommunityPage} from '../functions/_shared/communityPage.mjs';
 
-function editor(locale='en'){const dom=new JSDOM(communityEditorMarkup(communityCopy(locale)),{url:'https://wiki.example/en/community/activities/apply/?draft=local',runScripts:'outside-only'}),w=dom.window;w.setLoadingStatus=setLoadingStatus;w.Intl=Intl;w.CommunityDateTime=DateTime;w.structuredClone=structuredClone;w.AbortSignal=AbortSignal;w.HTMLElement.prototype.scrollIntoView=()=>{};w.fetch=async url=>({ok:true,json:async()=>url.endsWith('/session')?{accountId:'bob',administrator:false}:{items:[]}});w.eval('window.initEditor='+initCommunityEditor.toString());const root=w.document.querySelector('form'),e=w.initEditor(root,{locale,copy:communityCopy(locale),operationId:'local'});return {dom,w,root,e};}
+function editor(locale='en',operationId='local',storage){const dom=new JSDOM(communityEditorMarkup(communityCopy(locale)),{url:'https://wiki.example/en/community/activities/apply/?draft=local',runScripts:'outside-only'}),w=dom.window;w.setLoadingStatus=setLoadingStatus;w.Intl=Intl;w.CommunityDateTime=DateTime;w.structuredClone=structuredClone;w.AbortSignal=AbortSignal;w.HTMLElement.prototype.scrollIntoView=()=>{};w.fetch=async url=>({ok:true,json:async()=>url.endsWith('/session')?{accountId:'bob',administrator:false}:{items:[]}});if(storage)for(const [k,v]of Object.entries(storage))w.localStorage.setItem(k,v);w.eval('window.initEditor='+initCommunityEditor.toString());const root=w.document.querySelector('form'),e=w.initEditor(root,{locale,copy:communityCopy(locale),operationId});return {dom,w,root,e};}
 test('editing preserves each original language and deadline labels remain distinct from categories',async()=>{
  for(const locale of ['zh','zh-tw','zh-hk','ja','en']){const b=editor(locale);try{await b.e.ready;assert.equal(b.root.elements.sourceLocale.value,locale);b.e.load({sourceLocale:locale,deadlines:[{id:'support',type:'support',schedule:{kind:'allDay',timeZone:'Asia/Shanghai',startDate:'2026-10-13'}}]});assert.equal(b.e.readContent().sourceLocale,locale);assert.equal(b.root.querySelector('[data-deadline-type] option[value="support"]').textContent,communityCopy(locale).supportDeadline);}finally{b.dom.window.close();}}
 });
@@ -85,4 +85,15 @@ test('public activity and series HTML start with bounded images and keep origina
   assert.ok(!dom.window.document.body.innerHTML.includes('evil.example'));dom.window.close();
  }}finally{globalThis.fetch=original;}
 
+});
+
+test('a new visit offers the newest unsaved draft from an earlier operation instead of orphaning it',async()=>{
+ const first=editor('en','first-visit');let saved;
+ try{await first.e.ready;first.root.elements.title.value='Draft from yesterday';first.root.dispatchEvent(new first.w.Event('input',{bubbles:true}));saved=first.w.localStorage.getItem('community-editor:v1:bob:first-visit');assert.ok(saved);}finally{first.dom.window.close();}
+ const second=editor('en','second-visit',{'community-editor:v1:bob:first-visit':saved});
+ try{await second.e.ready;second.w.confirm=()=>true;second.e.restore();assert.equal(second.root.elements.title.value,'Draft from yesterday');assert.equal(second.w.localStorage.getItem('community-editor:v1:bob:first-visit'),null);assert.ok(second.w.localStorage.getItem('community-editor:v1:bob:second-visit'));}finally{second.dom.window.close();}
+});
+test('local storage failures are reported instead of silently dropped',async()=>{
+ const b=editor('en');
+ try{await b.e.ready;b.w.Storage.prototype.setItem=()=>{throw new b.w.DOMException('quota','QuotaExceededError');};b.root.elements.title.value='x';b.root.dispatchEvent(new b.w.Event('input',{bubbles:true}));assert.equal(b.root.querySelector('[data-editor-status]').textContent,communityCopy('en').localSaveFailed);}finally{b.dom.window.close();}
 });

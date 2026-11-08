@@ -26,7 +26,7 @@ import { NovelSurface } from '@/editor/novel-surface';
 import { EditorToolbar } from '@/editor/toolbar';
 import { NodeEditor, type NodeEditTarget } from '@/editor/node-dialog';
 import { exportWikiDocument, loadWikiDocument, newDocumentSource, validateDocumentSource, type LoadedWikiDocument, type WikiDocumentContext, type WikiMetadata } from '@/lib/wiki-document';
-import { readLocalDraft, readLastLocalDraft, saveLocalDraft, listLocalDrafts, type LocalDraft } from '@/lib/local-drafts';
+import { readLocalDraft, readLastLocalDraft, saveLocalDraft, listLocalDrafts, DraftConflictError, type LocalDraft } from '@/lib/local-drafts';
 import type { CatalogEntry } from '../server/local-api';
 import demoSource from '../fixtures/wiki-demo.md?raw';
 import { cn } from '@/lib/utils';
@@ -160,7 +160,11 @@ export default function App() {
       if (!pendingRef.current) setSourceValue(source);
       setStorageError(''); setStatus(pendingRef.current ? t("源码已暂存，尚未应用") : pendingNode.current ? t("填写内容已暂存，尚未应用") : t("已保存到本地"));
       return true;
-    } catch { setStatus(t("尚未保存")); setStorageError(t("本地草稿无法保存。请导出 Markdown 备份当前内容。")); return false; }
+    } catch (error) {
+      setStatus(t("尚未保存"));
+      setStorageError(error instanceof DraftConflictError ? t("这份草稿已在另一个标签页中修改。请关闭其中一个标签页，或导出 Markdown 后再继续。") : t("本地草稿无法保存。请导出 Markdown 备份当前内容。"));
+      return false;
+    }
   }, [liveSource]);
   const currentSource = useCallback(() => recordRef.current.source, []);
   const changed = useCallback(() => {
