@@ -28,6 +28,7 @@ lifecycle:
 sources: []
 summary: "以低语感、气声与克制情绪推进为特征的虚拟歌手。"
 ---
+
 ## 概述
 
 存流（ARU / ある）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)、SINSEKAI STUDIO 体系中的虚拟歌手，曾与[明透](/zh/artists/solo/asu)（ASU）组成双人组合 [Albemuth](/zh/artists/solo/albemuth)。她于 2021年6月20日开始活动，并于 2024年4月9日毕业。
@@ -71,18 +72,6 @@ summary: "以低语感、气声与克制情绪推进为特征的虚拟歌手。"
 
 ## 代表作品
 
-{{details::展开完整单曲目录}}
-
-**单曲**
-
-| 发行日期 | 标题 |
-| --- | --- |
-| 2018-04-19 | [Call Me Anytime (feat. Demxntia)](</zh/songs/aru/originals/call-me-anytime-feat-demxntia>) |
-| 2026-03-02 | [三日月の街](</zh/songs/aru/originals/三日月no街>) |
-| 2026-04-24 | [ピンクリボン～願い～](</zh/songs/aru/originals/pinkuribon願i>) |
-
-{{/details}}
-
 ## 组合关系与记录边界
 
 存流与 Albemuth 的关系不是简单的个人艺人和临时合作对象关系。Albemuth 拥有独立的组合名称、视觉概念、现场项目和成员侧专辑；因此《eve》等作品应同时标记组合项目与存流侧创作语境。毕业后的个人活动记录也不应与组合时期混写。
@@ -100,3 +89,30 @@ summary: "以低语感、气声与克制情绪推进为特征的虚拟歌手。"
 存流是理解 SINSEKAI STUDIO、深脊界叙事和 Albemuth 早期阶段的重要入口。她的毕业既是个人履历的节点，也是 Albemuth 双人项目结束的时间边界。
 
 <!-- V3 RESEARCH SUPPLEMENT aru -->
+
+展开完整单曲目录
+
+**单曲**
+
+{{details::展开完整单曲目录}}
+
+**单曲**
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2021-08-14 | さよなら |
+| 2022-02-15 | いんさいどぐるう |
+| 2022-04-02 | まってるよ |
+| 2022-07-06 | あふれる |
+| 2022-12-28 | あおいゆめ |
+| 2023-03-18 | いのり |
+| 2023-04-19 | つきかげ |
+| 2023-06-21 | しるし |
+
+{{/details}}
+
+| 发行日期 | 标题 |
+| --- | --- |
+| 2021-08-14 | さよなら |
+| 2022-02-15 | いんさいどぐるう |
+| 2022-04-02 | まってるよ |
