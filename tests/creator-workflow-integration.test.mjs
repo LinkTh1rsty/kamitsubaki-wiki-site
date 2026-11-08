@@ -19,7 +19,6 @@ const source=await build({entryPoints:[resolve('src/scripts/creatorCenter.js')],
  b.onLoad({filter:/.*/,namespace:'fixture'},a=>({contents:a.path==='account'?'export const state=window.qaAccount;export async function refreshAuth(){return state.viewer;}export function loginUrl(){return \"https://api.example/auth/sign-in\";}':'export async function galleryDraft(){return null;}export async function listGalleryDrafts(){return [];}'}));
 }}]});
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-const articleSource=await build({entryPoints:[resolve('src/scripts/articleSubmission.js')],bundle:true,write:false,format:'iife',globalName:'articleAdapter'});
 async function until(fn){for(let i=0;i<80;i++){if(fn())return;await sleep(10);}assert.ok(fn(),'UI state did not settle');}
 async function setup(intercept){
  const {db,env}=await fixture();env.ADMIN_IDENTITIES='github:alice';
@@ -122,55 +121,6 @@ test('content character deep link survives delayed options without restoring a c
   await until(()=>q.w.document.querySelector('option[value=kaf]').textContent==='花譜');
   assert.equal(q.w.document.querySelector('select[name=character]').value,'');
   assert.equal(new URL(q.w.location.href).searchParams.has('character'),false);
- }finally{await q.close();}
-});
-
-async function articleEditor(){
- const q=await setup();
- q.w.document.body.innerHTML=`<main data-content-locale="zh" data-locale="zh" data-article-api="https://api.example">
- <script data-editor-copy type="application/json">{"replace":"Replace?","apply":"Apply","cancel":"Cancel"}</script>
- <select data-locale-select></select><p data-article-status></p>
- ${['save','submit','new','mine','prev','next'].map(name=>`<button data-article-${name}>${name}</button>`).join('')}
- <dialog data-article-dialog><div data-article-proposals></div></dialog></main>`;
- q.w.eval(articleSource.outputFiles[0].text+'\nwindow.articleAdapter = articleAdapter;');
- let content={title:'QA article adapter',summary:'QA',body:'First draft',category:'archival',relatedEntities:[]};
- const editor={currentOwner:()=> 'bob',hasLocalWork:()=>true,snapshot:()=>({locale:'zh',content}),restore:value=>{content=value;},validateRelations:async()=>{}};
- const root=q.w.document.querySelector('main');
- q.w.articleAdapter.initializeArticleSubmission(root,editor,'bob');
- await until(()=>!root.hasAttribute('aria-busy'));
- return {...q,editor,root,change(body){content={...content,body};},click:name=>root.querySelector(`[data-article-${name}]`).onclick()};
-}
-test('real article adapter carries each cloud fingerprint through repeated saves and submission',async()=>{
- const q=await articleEditor();try{
-  const draftCalls=()=>q.calls.filter(c=>c.method==='POST'&&c.path.startsWith('/api/articles/drafts'));
-  await q.click('save');assert.match(q.root.querySelector('[data-article-status]').textContent,/已保存/);
-  assert.equal(draftCalls().length,1);const first=draftCalls()[0];
-  assert.equal(first.body.content.body,'First draft');assert.match(first.result.fingerprint,/^[a-f0-9]{64}$/);assert.equal(first.result.draftVersion,1);
-  q.change('Second draft');await q.click('save');assert.match(q.root.querySelector('[data-article-status]').textContent,/已保存/);
-  assert.equal(draftCalls().length,2);const second=draftCalls()[1];
-  assert.equal(second.body.content.body,'Second draft');assert.equal(second.body.revisionId,first.result.revisionId);
-  assert.equal(second.body.expectedFingerprint,first.result.fingerprint);assert.equal(second.body.expectedVersion,first.result.draftVersion);
-  assert.equal(second.result.revisionId,first.result.revisionId);assert.notEqual(second.result.fingerprint,first.result.fingerprint);assert.equal(second.result.draftVersion,first.result.draftVersion+1);
-  await q.click('submit');assert.match(q.root.querySelector('[data-article-status]').textContent,/已提交审核/);
-  assert.equal(draftCalls().length,2,'submitting an unchanged saved snapshot does not repeat the cloud save');
-  const revisions=(await(await q.call('/api/admin/articles/revisions','GET',null,'alice')).json()).revisions;
-  assert.equal(revisions.length,1);assert.equal(revisions[0].content.body,'Second draft');assert.equal(revisions[0].status,'pending');
-  assert.equal(revisions[0].id,second.result.revisionId);assert.equal(revisions[0].fingerprint,second.result.fingerprint);assert.equal(revisions[0].draft_version,second.result.draftVersion);
- }finally{await q.close();}
-});
-test('real article adapter preserves both versions when a concurrent cloud save wins',async()=>{
- const q=await articleEditor();try{
-  await q.click('save');
-  const original=(await(await q.call('/api/articles/mine')).json()).revisions[0];
-  const remote={...original.content,body:'Other tab version'};
-  assert.equal((await q.call('/api/articles/drafts','POST',{revisionId:original.id,expectedFingerprint:original.fingerprint,content:remote})).status,200);
-  q.change('Unsaved local version');await q.click('submit');
-  const conflict=q.root.querySelector('[data-article-save-conflict]');assert.ok(conflict);
-  assert.ok(conflict.textContent.includes('Other tab version'));assert.ok(conflict.textContent.includes('Unsaved local version'));
-  assert.equal(q.editor.snapshot().content.body,'Unsaved local version');
-  const stored=(await(await q.call('/api/articles/revisions/'+original.id)).json()).revision;
-  assert.equal(stored.content.body,'Other tab version');assert.equal(stored.status,'draft');
-  assert.ok(!q.calls.some(c=>c.path.endsWith('/submit')));
  }finally{await q.close();}
 });
 

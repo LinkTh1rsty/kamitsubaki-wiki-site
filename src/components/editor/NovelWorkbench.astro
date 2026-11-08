@@ -7,11 +7,11 @@ import {editorApiBase,localEditor,editorEnabled} from '../../lib/editorConfig.mj
 import {resolveLocaleCopy,getEditableLocale} from '../../lib/i18n.mjs';
 import {adminURL} from '../../lib/adminOrigin.mjs';
 const {locale='zh',articleMode=false}=Astro.props;
-const copy=resolveLocaleCopy({en:{title:'Editing workbench',back:'Back to Wiki',login:'Sign in / Create account',loading:'Loading the editor…',history:'Submission history',restore:'Restore older drafts',close:'Close',recovery:'Restore a draft from this account or an unclaimed draft on this device. The original remains intact.'},ja:{title:'編集ワークスペース',back:'Wikiに戻る',login:'ログイン / 登録',loading:'エディターを読み込み中…',history:'提出履歴',restore:'旧形式の下書きを復元',close:'閉じる',recovery:'このアカウント、またはこの端末の未所属の下書きを復元します。原本は保持されます。'},zh:{title:'编辑器',back:'返回 Wiki',login:'登录 / 注册',loading:'正在载入编辑器…',history:'投稿记录',restore:'恢复旧版本地草稿',close:'关闭',recovery:'仅恢复当前账号或无账号标记的本机草稿。旧版本原件仍会保留。'}},locale);
+const copy=resolveLocaleCopy({en:{title:'Editor',back:'Back to Wiki',login:'Sign in / Create account',loading:'Loading the editor…',history:'Submission history',restore:'Restore older drafts',close:'Close',recovery:'Restore a draft from this account or an unclaimed draft on this device. The original remains intact.'},ja:{title:'エディター',back:'Wikiに戻る',login:'ログイン / 登録',loading:'エディターを読み込み中…',history:'提出履歴',restore:'旧形式の下書きを復元',close:'閉じる',recovery:'このアカウント、またはこの端末の未所属の下書きを復元します。原本は保持されます。'},zh:{title:'编辑器',back:'返回 Wiki',login:'登录 / 注册',loading:'正在载入编辑器…',history:'投稿记录',restore:'恢复旧版本地草稿',close:'关闭',recovery:'仅恢复当前账号或无账号标记的本机草稿。旧版本原件仍会保留。'}},locale);
 const manifest=await editorAssetManifest();
 const entry=manifest['src/main.tsx'];if(!entry)throw Error('Editor workbench must be built before the site.');
 const config={locale,contentLocale:getEditableLocale(locale),apiBase:editorApiBase,mode:articleMode?'article':'entry',transport:localEditor?'local':'production',loginHref:'/auth/sign-in?locale='+locale};
-const adminReturnHref=adminURL('/content',{type:'articles'});
+const adminReturnHref=adminURL('/content',{type:articleMode?'articles':'entries'});
 ---
 <BaseLayout reading lang={locale} title={copy.title} metadata={{title:copy.title,canonicalPath:`/${locale}/${articleMode?'articles/submit':'contribute/editor'}/`,noindex:true}}>
  <main class="novel-host ve-workbench" data-novel-workbench data-locale={locale} data-editor-enabled={String(editorEnabled)} data-editor-local={String(localEditor)} data-editor-api={config.apiBase} data-article-api={articleMode?config.apiBase:undefined}>
@@ -22,7 +22,7 @@ const adminReturnHref=adminURL('/content',{type:'articles'});
  {entry.css?.map((file:string)=><link rel="stylesheet" href={'/_editor/'+file}/>)}
  <script is:inline define:vars={{config,adminReturnHref}}>
   config.initialTarget=new URLSearchParams(location.search).get('target')||undefined;
-  config.admin=config.mode==='article'&&new URLSearchParams(location.search).get('admin')==='1';
+  config.admin=new URLSearchParams(location.search).get('admin')==='1';
   config.backHref=config.admin?adminReturnHref:`/${config.locale}/`;config.backLabel=config.admin?(config.locale==='en'?'Content management':config.locale==='ja'?'コンテンツ管理':'内容管理'):(config.locale==='en'?'Back to Wiki':config.locale==='ja'?'Wikiに戻る':'返回 Wiki');
   config.loginHref+='&returnTo='+encodeURIComponent(location.href);
   if(config.admin){document.querySelector('[data-editor-back]').href=adminReturnHref;document.querySelector('[data-editor-back]').textContent=config.locale==='en'?'Content management':config.locale==='ja'?'コンテンツ管理':'内容管理';}

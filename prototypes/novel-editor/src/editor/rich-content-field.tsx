@@ -1,3 +1,4 @@
+import {workbenchText as t} from '@/lib/workbench-copy';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useEditor, EditorContent } from '@tiptap/react';
 import type { Editor } from '@tiptap/core';
@@ -34,5 +35,5 @@ export function RichContentField({ value, onChange, locale = 'zh', pendingDraft,
       change.current(source.slice(separator + 5).replace(/^\n/, ''));
     },
   });
-  return <div className="wiki-rich-field" aria-busy={!isReady}><EditorToolbar editor={isReady ? editor as Editor | null : null} open={setTarget} editingContent={Boolean(target)} />{!isReady ? <p role="status">正在准备说明正文…</p> : null}<EditorContent editor={editor} /><NodeEditor target={target} locale={locale} onClose={closePending} onDraft={savePending} /></div>;
+  return <div className="wiki-rich-field" aria-busy={!isReady}><EditorToolbar editor={isReady ? editor as Editor | null : null} open={setTarget} editingContent={Boolean(target)} />{!isReady ? <p role="status">{t("正在准备说明正文…")}</p> : null}<EditorContent editor={editor} /><NodeEditor target={target} locale={locale} onClose={closePending} onDraft={savePending} /></div>;
 }

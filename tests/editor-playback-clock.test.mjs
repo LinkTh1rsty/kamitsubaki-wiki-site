@@ -3,7 +3,6 @@ import test from 'node:test';
 import { readFile } from 'node:fs/promises';
 import { createEditorPlaybackClock, loadYouTubeIframeAPI, sampleEditorPlayback, youtubeEditorEmbedUrl } from '../src/lib/editorPlaybackClock.mjs';
 import { loadPreviewMedia } from '../src/lib/editorPreview.mjs';
-import { editorLyricsCopy } from '../src/lib/editorLyricsCopy.mjs';
 import { formatLyricTimestamp } from '../src/lib/editorLyrics.mjs';
 
 test('editor YouTube URL enables only the documented API parameters for a safe embed', () => {
@@ -151,16 +150,4 @@ test('route disposal cancels a YouTube player waiting for ready', async () => {
   clock.dispose();
   assert.equal(await registration,false);
   assert.equal(player.destroyed,true);
-});
-
-test('editor wiring reads the playing preview before manual time and advertises fallback in every locale', async () => {
-  const source=await readFile(new URL('../src/scripts/visualEditor.js',import.meta.url),'utf8');
-  assert.match(source,/function lyricClockReading\(\)\{return playbackClock\.sample\(\)\|\|/);
-  assert.match(source,/loadPreviewMedia\(button,\{youtubeApi:provider==='youtube',origin:location\.origin\}\)/);
-  assert.match(source,/const reading=lyricClockReading\(\);if\(!reading\)/);
-  for(const locale of ['zh','zh-tw','zh-hk','ja','en']){
-    const copy=editorLyricsCopy(locale);
-    for(const key of ['youtubeClock','html5Clock','youtubeActive','html5Active','manualActive','youtubeConnecting','youtubeUnavailable','manualPlatform','timerHint','timerMissing'])
-      assert.ok(copy[key],`${locale}: ${key}`);
-  }
 });

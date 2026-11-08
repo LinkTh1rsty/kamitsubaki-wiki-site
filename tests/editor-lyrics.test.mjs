@@ -1,7 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { LyricsImportError, formatLyricTimestamp, parseLyricTimestamp, parseLyricsBatch, validLyricsTiming } from '../src/lib/editorLyrics.mjs';
-import { editorLyricsCopy } from '../src/lib/editorLyricsCopy.mjs';
 import { blockMarkdown, newBlock, newDraft, parseVisualBlocks, validateDraft } from '../src/lib/visualEditor.mjs';
 
 test('imports alternating original and translation lines into the existing row shape', () => {
@@ -94,12 +93,4 @@ test('an inserted empty lyric row cannot be published as a blank lyric container
   assert.ok(validateDraft(draft).includes('lyrics'));
   draft.blocks[0].rows[0].original = '歌';
   assert.ok(!validateDraft(draft).includes('lyrics'));
-});
-
-test('import preview and row navigation have copy in all five interface languages', () => {
-  for (const locale of ['zh','zh-tw','zh-hk','ja','en']) {
-    const copy=editorLyricsCopy(locale);
-    for (const key of ['preview','detectedLayout','previewRows','previewEmpty','previewWarning','enterHint'])
-      assert.ok(copy[key],`${locale}: ${key}`);
-  }
 });

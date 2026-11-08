@@ -6,7 +6,7 @@ intro: "A corrected word, a reliable source, a more accurate translation: each m
 ui:
   eyebrow: Written together
   start: Make your first edit
-  openEditor: Open visual editor
+  openEditor: Open the editor
   back: Back to home
   choose: Choose one small contribution
   chooseHint: Pick a direction you know, then follow the six steps. Times are approximate; save a draft and return whenever you need.
@@ -24,7 +24,7 @@ ui:
   allDone: All six steps complete. Check your PR for results and reviewer feedback.
   target: The file you are editing
   targetHint: The article source path is included. Check its title and language after loading.
-  unsupported: Edit this file on GitHub. The visual editor supports artists, songs, albums, projects and event records.
+  unsupported: Edit this file on GitHub. The editor supports artists, songs, albums, projects and event records.
   invalidTarget: This file path is not recognized. Return through the article’s Edit source link, or search inside the editor.
   github: Edit this file on GitHub
   mapTitle: Find your way around the editor
@@ -96,7 +96,7 @@ lessons:
     summary: Keep its original details and content.
     body: |-
       1. Select **Edit source** on an article. This guide will show its file path above.
-      2. Choose **Open visual editor** to load supported article types. If there is an existing draft, back it up before agreeing to replace it.
+      2. Choose **Open the editor** to load supported article types. If there is an existing draft, back it up before agreeing to replace it.
       3. Alternatively, choose **Edit existing article** in the editor, search by title or path, then **Load original**.
       4. Check the title, content and language: `zh.md`, `ja.md` and `en.md` mean Simplified Chinese, Japanese and English.
 

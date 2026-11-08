@@ -19,7 +19,7 @@ export function ReviewConflictPanel({ service, state, disabled, onApply }: { ser
     const controller = new AbortController(); comparison.current = controller; setPlan(null); setError(''); setChoices({});
     service.conflict(state, controller.signal).then(async context => {
       if (controller.signal.aborted) return;
-      if (!context.original) throw Error('找不到共同原文，暂时无法自动合并。两份版本均保留，请重新打开原文核对。');
+      if (!context.original) throw Error(t('找不到共同原文，暂时无法自动合并。两份版本均保留，请重新打开原文核对。'));
       const branchChanged = Boolean(context.branchContent && context.branchContent !== context.yours);
       setPhase(branchChanged ? 'branch' : 'main');
       const plan = await prepareReviewMerge(branchChanged ? context.yours : context.original, state.snapshot.content, branchChanged ? context.branchContent! : context.current, controller.signal);

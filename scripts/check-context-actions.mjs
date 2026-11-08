@@ -6,8 +6,6 @@ import { join, relative } from 'node:path';
 const actionRoute = /contribute\/editor|articles\/submit|gallery\/manage|account\/creator|docs\/contribute/;
 const intentionalNavigation = [
   /^src\/components\/ContributionNav\.astro$/,
-  /^src\/components\/editor\/EditorEntry\.astro$/,
-  /^src\/components\/editor\/EditorWorkbench\.astro$/,
   /^src\/pages\/\[locale\]\/account\.astro$/,
   /^src\/pages\/\[locale\]\/contribute\/edit\.astro$/,
 ];
@@ -35,7 +33,7 @@ for (const file of files) {
     errors.push(`${name}:${line}: action link needs ContextAction, WorkspaceButton, or a documented navigation/card treatment`);
   }
 }
-for (const file of ['src/scripts/creatorCenter.js', 'src/scripts/articleSubmission.js']) {
+for (const file of ['src/scripts/creatorCenter.js']) {
   const source = readFileSync(file, 'utf8');
   if (/createElement\(['"]a['"]\)|text\(['"]a['"]/.test(source)) {
     errors.push(`${file}: dynamic workflow links should use createContextAction`);

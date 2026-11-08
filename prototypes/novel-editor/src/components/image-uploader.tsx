@@ -59,9 +59,9 @@ export function ImageUploader({ source, image, dark, onUploaded, onBusy }: {
               await sessions.localAccount(account.id);
               if (cancelled || !scope.isCurrent()) return;
               const asset = result.response.asset || result.response;
-              if (!/^[a-f0-9]{64}$/.test(asset.id) || !(asset.reference || asset.url)) throw Error('图片暂存回执不完整，请重试。');
+              if (!/^[a-f0-9]{64}$/.test(asset.id) || !(asset.reference || asset.url)) throw Error(t('图片暂存回执不完整，请重试。'));
               const note = submittedNotes.get(result.id);
-              if (!note) throw Error('图片填写信息已变化，请重新选择。');
+              if (!note) throw Error(t('图片填写信息已变化，请重新选择。'));
               registerStagedImage(asset.id);
               const attachment: ReviewAttachment = { url: asset.reference || asset.url, alt: note.image.alt, source: note.source, staged: { purpose: scope.purpose, id: asset.id, ownerId: account.id, size: asset.size, mime: asset.mime, source: note.source, alt: note.image.alt.trim(), ...(scope.purpose === 'article' ? { image: { ...note.image, assetId: asset.id } } : {}) } };
               scope.remember(attachment); current.current.onUploaded(attachment); setError('');

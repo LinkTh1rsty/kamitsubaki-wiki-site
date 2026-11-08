@@ -1,3 +1,4 @@
+import {workbenchText as t} from '@/lib/workbench-copy';
 import { memo, useEffect, useMemo, useRef } from 'react';
 import { EditorRoot, EditorContent, EditorCommand, EditorCommandEmpty, EditorCommandList, EditorCommandItem, EditorBubble, Command, createSuggestionItems, renderItems, handleCommandNavigation, handleImageDrop, handleImagePaste, createImageUpload } from 'novel';
 import type { Editor } from '@tiptap/core';
@@ -38,15 +39,15 @@ export const NovelSurface = memo(function NovelSurface({ source, path, currentSo
   // Allocate in the effect so React's mount probe never leaves paste/drop with
   // an already aborted controller. Remounts read the latest saved source.
   useEffect(() => { const controller = new AbortController(); uploadController.current = controller; return () => { controller.abort(); if (uploadController.current === controller) uploadController.current = null; }; }, []);
-  const upload = useMemo(() => createImageUpload({ onUpload: async file => { try { const controller = uploadController.current; if (!controller) throw new DOMException('当前文档已关闭', 'AbortError'); return await uploadLocalImage(file, controller.signal); } catch (error: any) { if (error.name !== 'AbortError') toast.error(error.message); throw error; } } }), []);
+  const upload = useMemo(() => createImageUpload({ onUpload: async file => { try { const controller = uploadController.current; if (!controller) throw new DOMException(t('当前文档已关闭'), 'AbortError'); return await uploadLocalImage(file, controller.signal); } catch (error: any) { if (error.name !== 'AbortError') toast.error(t(error.message), { id: error.message }); throw error; } } }), []);
   const instance = useRef<Editor | null>(null);
   return <EditorRoot><EditorContent initialContent={{ type: 'doc', content: [{ type: 'paragraph' }] }} extensions={extensions} className="wiki-novel-surface"
-    onCreate={({ editor }) => { instance.current = editor; try { const loaded = loadWikiDocument(editor, callbacks.current.currentSource() || source, path); ready.current = true; callbacks.current.onReady(editor, loaded); } catch (error: any) { toast.error(error.message); } }}
+    onCreate={({ editor }) => { instance.current = editor; try { const loaded = loadWikiDocument(editor, callbacks.current.currentSource() || source, path); ready.current = true; callbacks.current.onReady(editor, loaded); } catch (error: any) { toast.error(t(error.message), { id: error.message }); } }}
     onUpdate={({ editor }) => { if (ready.current) callbacks.current.onUpdate(editor); }}
     onTransaction={({ editor, transaction }) => { if (ready.current) callbacks.current.onTransaction(editor, transaction.docChanged); }}
-    editorProps={{ attributes: { class: 'wiki-prose', role: 'textbox', 'aria-multiline': 'true', 'aria-label': '词条正文', 'data-testid': 'novel-editor' }, handleDOMEvents: { keydown: (_view, event) => handleCommandNavigation(event) }, handlePaste: (view, event) => handleImagePaste(view, event, upload), handleDrop: (view, event, _slice, moved) => handleImageDrop(view, event, moved, upload) }}
+    editorProps={{ attributes: { class: 'wiki-prose', role: 'textbox', 'aria-multiline': 'true', 'aria-label': t('词条正文'), 'data-testid': 'novel-editor' }, handleDOMEvents: { keydown: (_view, event) => handleCommandNavigation(event) }, handlePaste: (view, event) => handleImagePaste(view, event, upload), handleDrop: (view, event, _slice, moved) => handleImageDrop(view, event, moved, upload) }}
     >
-    <EditorCommand className="wiki-slash-menu"><EditorCommandEmpty>没有匹配的内容</EditorCommandEmpty><EditorCommandList>{items.map(item => <EditorCommandItem key={item.title} value={item.title} onCommand={props => item.command?.(props)} className="wiki-slash-item"><span className="wiki-slash-icon">{item.icon}</span><span><strong>{item.title}</strong><small>{item.description}</small></span></EditorCommandItem>)}</EditorCommandList></EditorCommand>
+    <EditorCommand className="wiki-slash-menu"><EditorCommandEmpty>{t("没有匹配的内容")}</EditorCommandEmpty><EditorCommandList>{items.map(item => <EditorCommandItem key={item.title} value={item.title} onCommand={props => item.command?.(props)} className="wiki-slash-item"><span className="wiki-slash-icon">{item.icon}</span><span><strong>{t(item.title)}</strong><small>{t(item.description)}</small></span></EditorCommandItem>)}</EditorCommandList></EditorCommand>
     <EditorBubble className="wiki-bubble-menu" tippyOptions={{ duration: 120 }}>
       {instance.current ? <FormatActions editor={instance.current} open={target => callbacks.current.open(target)} /> : null}
     </EditorBubble>

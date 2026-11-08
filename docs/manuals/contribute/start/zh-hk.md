@@ -5,7 +5,7 @@ locale: "zh-hk"
 order: 1
 title: "選擇投稿與開始準備"
 summary: "四類投稿、站內與 GitHub 兩條路線，以及保存、審核和公開的完整步驟。"
-generatedFromHash: "dc484d7ef1e65291678f"
+generatedFromHash: "2c997be62cbc5755b18d"
 generated: true
 generatedFrom: "zh"
 ---
@@ -51,7 +51,7 @@ generatedFrom: "zh"
 
 > 請只根據我下面提供的資料，把這條時間軸事件整理成“標題、日期及其精度、摘要、關聯詞條、來源”五欄。資料沒有寫出的日期或人物請標為“待核對”，不要猜測，也不要添加我未提供的事實。資料：[粘貼原始來源與摘錄]
 
-將結果與原始來源逐項對照，再錄入站內編輯器或 GitHub。AI 回答不能替代來源；歌詞、譯文、圖片授權和時間戳尤其需要人工核對。處理同步歌詞時可參考[舊版保留的 AI 排版提示詞](/zh-hk/docs/contribute/syntax/#ai-lyrics-html)。
+將結果與原始來源逐項對照，再錄入編輯器或 GitHub。AI 回答不能替代來源；歌詞、譯文、圖片授權和時間戳尤其需要人工核對。處理同步歌詞時可參考[舊版保留的 AI 排版提示詞](/zh-hk/docs/contribute/syntax/#ai-lyrics-html)。
 
 ## 按任務繼續
 

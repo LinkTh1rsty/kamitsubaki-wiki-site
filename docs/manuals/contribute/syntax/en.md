@@ -164,9 +164,9 @@ Place the file in `public/images/`, but use a public URL beginning with `/images
 
 See [Images and files](/en/contribute/files/) for original uploads, path mapping and folder rules. Originals are not compressed; upload through GitHub when they exceed the in-site attachment limits.
 
-## Use the built-in visual editor
+## Use the editor
 
-Follow the [contribution guide](/en/contribute/edit/) for your first small change, then load the original in the [visual editor](/en/contribute/editor/). Select text for bold, links, ruby or spoilers. Press `/` in an empty paragraph or use Insert content for tables, images, media and bilingual lyrics.
+Follow the [contribution guide](/en/contribute/edit/) for your first small change, then load the original in the [editor](/en/contribute/editor/). Select text for bold, links, ruby or spoilers. Press `/` in an empty paragraph or use Insert content for tables, images, media and bilingual lyrics.
 
 Use Article properties in the top bar for metadata, and Preview and Block properties to inspect content. Submit in-site or export complete Markdown and include it with originals in one GitHub PR. Local drafts save automatically; image drafts cannot be saved to cloud storage yet. Entering an image URL does not upload a file. Use Source for complex edits.
 

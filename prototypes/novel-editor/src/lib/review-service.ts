@@ -19,7 +19,7 @@ export type ReviewState = { account: ReviewAccount; snapshot: ReviewSnapshot; ba
 export type SubmissionRequest = ReviewSnapshot & { accountId: string; operation: string; id?: string; version?: number; resolve?: boolean; expectedHead?: string | null; summary: string; source: string; assetIds: string[]; clientAssets?: ReviewAttachment[]; clientOriginalContent?: string };
 export type ReviewNotes = { summary: string; source: string; imageSources?: Record<string, string> };
 export class ReviewError extends Error {
-  constructor(message: string, public status = 0) { super(message); }
+  constructor(message: string, public status = 0, public fields: { key: string; label: string }[] = []) { super(message); }
 }
 type Storage = Pick<globalThis.Storage, 'getItem' | 'setItem' | 'removeItem'>;
 const pendingKey = (account: string, path: string) => 'kamitsubaki-novel-local-prototype:review-operation:' + encodeURIComponent(account) + ':' + encodeURIComponent(path);
@@ -31,14 +31,15 @@ export function reviewSnapshot(path: string, content: string, baseContent?: stri
   const metadata = draft.meta as WikiMetadata;
   if (metadata.entityType === 'editorial-article' || path.startsWith('src/content/articles/')) throw new ReviewError('文章使用独立的文章投稿流程。词条审核入口适用于人物、作品、组织和企划。');
   if (!path) {
-    if (!metadata.id) throw new ReviewError('请先在词条属性的高级设置中填写永久标识，用小写英文、数字和连字符，例如 my-project。');
-    try { path = entitySourcePath(metadata); } catch { throw new ReviewError('请检查词条类型、永久标识和语言后再提交。'); }
+    if (!metadata.id) throw new ReviewError('请先在词条属性的高级设置中填写永久标识，用小写英文、数字和连字符，例如 my-project。', 0, [{ key: 'id', label: '永久 ID' }]);
+    try { path = entitySourcePath(metadata); } catch { throw new ReviewError('请检查词条类型、永久标识和语言后再提交。', 0, [{ key: 'entityType', label: '词条类型' }, { key: 'id', label: '永久 ID' }, { key: 'locale', label: '词条语言' }]); }
   }
   const errors = validateDraft({ ...draft, path }) as string[];
   if (errors.length) {
     const contentErrors: Record<string, string> = { path: '词条目录与分类', url: '正文中的图片或媒体地址', inline: '特殊文字格式', ruby: '振假名注音', details: '折叠说明的标题', lyrics: '歌词或时间标记', code: '代码块的语言', 'media-switcher': '媒体切换的名称和平台地址' };
-    const labels = [...new Set(errors.map(key => contentErrors[key] || metadataDisplayLabel(key)))];
-    throw new ReviewError('请补全或检查：' + labels.join('、') + '。可返回词条属性修改。');
+    const fields = [...new Map(errors.map(key => { const label = contentErrors[key] || metadataDisplayLabel(key); return [label, { key, label }] as const; })).values()];
+    const labels = fields.map(field => field.label);
+    throw new ReviewError('请补全或检查：' + labels.join('、') + '。可返回词条属性修改。', 0, fields);
   }
   const attachments = reviewAttachments(content, draft.blocks, ledger, metadata);
   if (attachments.some(asset => asset.url.startsWith('/images/novel-prototype/') && !/^\/images\/novel-prototype\/[a-f0-9]{64}\.(png|jpg|webp|gif)$/.test(asset.url))) throw new ReviewError('本机图片路径不完整，请返回正文重新选择图片。');

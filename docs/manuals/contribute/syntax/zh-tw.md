@@ -5,7 +5,7 @@ locale: "zh-tw"
 order: 4
 title: "Markdown 與詞條屬性完整指南"
 summary: "從第一次修改到新增完整詞條：本站 Markdown、frontmatter、媒體、內容結構和提交前檢查的統一參考。"
-generatedFromHash: "6c7ccd28ae2592b404b9"
+generatedFromHash: "4dbc999d8e7ac195dd8d"
 generated: true
 generatedFrom: "zh"
 ---
@@ -161,9 +161,9 @@ title: 示例词条
 
 圖片原本上傳、路徑填寫和檔案分類請看[圖片與檔案教程](/zh-tw/contribute/files/)。不要求壓縮原圖，超過站內附件限額時直接通過 GitHub 上傳。
 
-## 使用站內視覺化編輯器
+## 使用編輯器
 
-第一次編輯，先按[貢獻指南](/zh-tw/contribute/edit/)完成一處小修改，再到[視覺化編輯器](/zh-tw/contribute/editor/)載入原文。選中文字即可加粗、加連結、注音或隱藏劇透；空段落按 `/`，或點“插入內容”，新增表格、圖片、媒體與雙語歌詞。
+第一次編輯，先按[貢獻指南](/zh-tw/contribute/edit/)完成一處小修改，再到[編輯器](/zh-tw/contribute/editor/)載入原文。選中文字即可加粗、加連結、注音或隱藏劇透；空段落按 `/`，或點“插入內容”，新增表格、圖片、媒體與雙語歌詞。
 
 通過頂部“詞條屬性”填寫資料，右側預覽與內容塊屬性檢查效果。可站內提交稽核，也可匯出完整 Markdown 與原圖一起放入同一個 GitHub PR。本機草稿自動儲存，含圖片草稿暫不支援雲端儲存；填寫圖片地址不會自動上傳檔案。複雜內容可切換原始碼修改。
 

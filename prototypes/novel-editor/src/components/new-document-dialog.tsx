@@ -1,6 +1,6 @@
 import {workbenchText as t} from '@/lib/workbench-copy';
 import { useState } from "react";
-import { FileText } from "lucide-react";
+import { Newspaper, Sparkles, User, Users, AudioLines, Music, Disc3, CalendarDays, FolderKanban, Building2, MapPin, FileText, type LucideIcon } from "lucide-react";
 import {
   documentTemplates,
   type DocumentTemplateType,
@@ -14,6 +14,19 @@ import {
 } from "./ui/dialog";
 import { Button } from "./ui/button";
 import { ChoiceField } from "./form-fields";
+const templateIcons: Record<DocumentTemplateType, LucideIcon> = {
+  "editorial-article": Newspaper,
+  "virtual-avatar": Sparkles,
+  person: User,
+  unit: Users,
+  "software-voice": AudioLines,
+  "work-track": Music,
+  "work-release": Disc3,
+  "live-event": CalendarDays,
+  project: FolderKanban,
+  organization: Building2,
+  "lore-concept": MapPin,
+};
 export function NewDocumentDialog({
   open,
   onOpenChange,
@@ -45,7 +58,7 @@ export function NewDocumentDialog({
             ["ja", "日文"],
             ["en", "英文"],
           ]}
-          description={t("繁体页面由简体原文生成，无需重复填写。")}
+          note={t("繁体页面由简体原文生成，无需重复填写。")}
         />
         <div
           className="grid min-h-0 grid-cols-2 gap-2 overflow-y-auto pr-1 sm:grid-cols-3"
@@ -59,7 +72,7 @@ export function NewDocumentDialog({
               aria-label={t("新建")+t(template.label)}
               onClick={() => onCreate(template.type, locale)}
             >
-              <FileText className="mt-1 shrink-0" />
+              {(() => { const Icon = templateIcons[template.type] || FileText; return <Icon className="mt-1 shrink-0" aria-hidden="true" />; })()}
               <span>
                 <strong className="block">{t(template.label)}</strong>
                 <span className="mt-1 block text-xs font-normal leading-relaxed text-muted-foreground">
@@ -69,8 +82,6 @@ export function NewDocumentDialog({
             </Button>
           ))}
         </div>
-        <p className="text-xs text-muted-foreground">
-          {t("草稿自动保存在当前浏览器中。提交审核前，可以继续补全资料。")}</p>
       </DialogContent>
     </Dialog>
   );

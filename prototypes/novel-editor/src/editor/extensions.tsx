@@ -1,3 +1,4 @@
+import {workbenchText as t} from '@/lib/workbench-copy';
 import {SpeechBlockPreview} from '@/components/speech-tools';
 import {editorFetch as fetch,editorHost,localEditorHost,previewAssetUrl,previewHTML,restoreBrowserImages,registerStagedImages} from '@/lib/editor-host';
 import { Extension, Node, Mark, mergeAttributes, nodeInputRule, type Editor } from '@tiptap/core';
@@ -71,7 +72,7 @@ function InlineView(props: NodeViewProps) {
   const rendered = renderInlineAttributes(attrs);
   const content = attrs.kind === 'wiki-link' ? `<span class="wiki-link">${e(attrs.args[1] || entry?.title || attrs.args[0])}</span>` : attrs.kind === 'math' ? katex.renderToString(attrs.args[0] || '', { throwOnError: false, trust: false }) : typeof rendered === 'string' ? rendered : e(rendered?.value || attrs.args[0] || serializeInline(attrs));
   return <NodeViewWrapper as="span" className={`wiki-inline wiki-inline-${attrs.kind}`} contentEditable={false}>
-    <span role="button" tabIndex={0} title={`${inlineLabels[attrs.kind] || '特殊语法'} · 点击编辑`} onClick={() => { props.editor.commands.setNodeSelection(props.getPos()); props.extension.options.onEdit?.(props.editor, props.getPos()); }}
+    <span role="button" tabIndex={0} title={`${t(inlineLabels[attrs.kind] || '特殊语法')} · ${t('点击编辑')}`} onClick={() => { props.editor.commands.setNodeSelection(props.getPos()); props.extension.options.onEdit?.(props.editor, props.getPos()); }}
       onKeyDown={event => { if (event.key === 'Enter') { event.preventDefault(); props.extension.options.onEdit?.(props.editor, props.getPos()); } }} dangerouslySetInnerHTML={{ __html: content }} />
   </NodeViewWrapper>;
 }
@@ -81,15 +82,15 @@ function MediaPanel({ provider, url, caption }: { provider: string; url: string;
   if (playing && media) return <iframe src={media.src} title={caption || media.label} className="wiki-media-frame" allow="autoplay; encrypted-media; picture-in-picture" allowFullScreen loading="lazy" />;
   return <div className="wiki-media-placeholder">
     <Play aria-hidden="true" /><strong>{caption || media?.label || '添加媒体链接'}</strong>
-    <p>{media ? '点击播放官方平台内容' : '点击编辑，填写平台和链接'}</p>
-    {media ? <Button size="sm" variant="secondary" onClick={() => setPlaying(true)}><Play data-icon="inline-start" />播放</Button> : null}
+    <p>{media ?t('点击播放官方平台内容'):t('点击编辑，填写平台和链接')}</p>
+    {media ? <Button size="sm" variant="secondary" onClick={() => setPlaying(true)}><Play data-icon="inline-start" />{t("播放")}</Button> : null}
   </div>;
 }
 function PreservedPreview({ source }: { source: string }) {
   const [html, setHtml] = useState(''); const [error, setError] = useState('');
   useEffect(() => {
     const controller = new AbortController();
-    fetch('/__novel/preview', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ source }), signal: controller.signal }).then(async response => { const result = await response.json(); if (!response.ok) throw new Error(result.error); restoreBrowserImages(source).then(()=>setHtml(previewHTML(result.html))); }).catch(error => { if (error.name !== 'AbortError') setError('预览暂时无法读取，原有内容仍完整保留。'); });
+    fetch('/__novel/preview', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ source }), signal: controller.signal }).then(async response => { const result = await response.json(); if (!response.ok) throw new Error(result.error); restoreBrowserImages(source).then(()=>setHtml(previewHTML(result.html))); }).catch(error => { if (error.name !== 'AbortError') setError(t('预览暂时无法读取，原有内容仍完整保留。')); });
     return () => controller.abort();
   }, [source]);
   return html ? <div className="wiki-preserved-preview" onErrorCapture={event=>{const image=event.target;if(image instanceof HTMLImageElement&&image.closest('.wiki-speech-avatar'))image.hidden=true;}} dangerouslySetInnerHTML={{ __html: html }} /> : <p>{error || '正在读取原有内容…'}</p>;
@@ -98,10 +99,10 @@ function BlockView(props: NodeViewProps) {
   const data = props.node.attrs.data as WikiBlockData;
   const edit = () => { props.editor.commands.setNodeSelection(props.getPos()); props.extension.options.onEdit?.(props.editor, props.getPos()); };
   if(data.type==='speech-roles')return <NodeViewWrapper className="speech-registry-node" contentEditable={false} aria-hidden="true"/>;
-  if(data.type==='speech')return <NodeViewWrapper className="speech-editor-block" contentEditable={false} data-wiki-block="speech"><SpeechBlockPreview editor={props.editor} roleId={data.roleId}><PreservedPreview source={data.text||''}/></SpeechBlockPreview><Button className="speech-edit-button" size="icon-sm" variant="ghost" aria-label="编辑发言" onClick={edit}><Pencil/></Button><div data-node-editor-slot/></NodeViewWrapper>;
+  if(data.type==='speech')return <NodeViewWrapper className="speech-editor-block" contentEditable={false} data-wiki-block="speech"><SpeechBlockPreview editor={props.editor} roleId={data.roleId}><PreservedPreview source={data.text||''}/></SpeechBlockPreview><Button className="speech-edit-button" size="icon-sm" variant="ghost" aria-label={t("编辑发言")} onClick={edit}><Pencil/></Button><div data-node-editor-slot/></NodeViewWrapper>;
   const Icon = data.type === 'lyrics' ? Music2 : data.type === 'math' ? Sigma : data.type === 'details' ? ChevronRight : data.type === 'preserved' ? FileText : Tv;
   return <NodeViewWrapper className="wiki-domain-block" contentEditable={false} data-wiki-block={data.type}>
-    <div className="wiki-block-header"><span><Icon aria-hidden="true" />{blockLabels[data.type] || data.type}{data.title ? ` · ${data.title}` : ''}</span>{data.type !== 'preserved' ? <Button size="sm" variant="ghost" aria-label={`编辑${blockLabels[data.type] || '片段'}`} onClick={edit}><Pencil data-icon="inline-start" />编辑</Button> : <span>原有内容</span>}</div>
+    <div className="wiki-block-header"><span><Icon aria-hidden="true" />{t(blockLabels[data.type] || data.type)}{data.title ? ` · ${data.title}` : ''}</span>{data.type !== 'preserved' ? <Button size="sm" variant="ghost" aria-label={t('编辑{label}').replace('{label}', t(blockLabels[data.type] || '片段'))} onClick={edit}><Pencil data-icon="inline-start" />{t("编辑")}</Button> : <span>{t("原有内容")}</span>}</div>
     <div data-node-editor-slot />
     <div className="wiki-block-preview">{data.type === 'media-switcher' ? <Tabs defaultValue="0">
       <TabsList variant="line">{(data.items || []).map((item: any, index: number) => <TabsTrigger value={String(index)} key={index}>{({ youtube: 'YouTube', bilibili: 'Bilibili', spotify: 'Spotify', 'apple-music': 'Apple Music', netease: '网易云音乐', 'qq-music': 'QQ 音乐' } as any)[item.provider] || item.provider}</TabsTrigger>)}</TabsList>
@@ -124,7 +125,7 @@ function ImageView(props: NodeViewProps) {
   const moveable = useRef<Moveable | null>(null);
   useEffect(() => { if (!props.selected || !image || !container) return; const frame = requestAnimationFrame(() => moveable.current?.updateRect()); return () => cancelAnimationFrame(frame); }, [props.selected, image, container]);
   return <NodeViewWrapper ref={setContainer} as="figure" className="wiki-article-image" contentEditable={false}>
-    {safeUrl(attrs.src) ? <img ref={setImage} src={previewAssetUrl(attrs.src)} alt={attrs.alt || ''} title={attrs.title || undefined} width={imageDimension(attrs.width) || undefined} height={imageDimension(attrs.height) || undefined} style={{width: imageDimension(attrs.width) || undefined, height: 'auto'}} loading="lazy" onLoad={() => moveable.current?.updateRect()} draggable={false} onClick={event => { event.preventDefault(); event.stopPropagation(); props.editor.commands.setNodeSelection(props.getPos()); props.editor.view.focus(); requestAnimationFrame(() => moveable.current?.updateRect()); }} /> : <div className="wiki-media-placeholder"><ImageIcon /><span>添加图片链接</span></div>}
+    {safeUrl(attrs.src) ? <img ref={setImage} src={previewAssetUrl(attrs.src)} alt={attrs.alt || ''} title={attrs.title || undefined} width={imageDimension(attrs.width) || undefined} height={imageDimension(attrs.height) || undefined} style={{width: imageDimension(attrs.width) || undefined, height: 'auto'}} loading="lazy" onLoad={() => moveable.current?.updateRect()} draggable={false} onClick={event => { event.preventDefault(); event.stopPropagation(); props.editor.commands.setNodeSelection(props.getPos()); props.editor.view.focus(); requestAnimationFrame(() => moveable.current?.updateRect()); }} /> : <div className="wiki-media-placeholder"><ImageIcon /><span>{t("添加图片链接")}</span></div>}
     {props.selected && image && container ? <Moveable ref={moveable} target={image} container={container} origin={false} resizable keepRatio useResizeObserver useMutationObserver renderDirections={['nw', 'ne', 'sw', 'se']} stopPropagation onResizeStart={() => props.editor.view.dispatch(closeHistory(props.editor.state.tr))} onResize={({target, width}) => {target.style.width = `${width}px`;target.style.height = 'auto';}} onResizeEnd={({target, isDrag}) => {
       if (!isDrag || props.editor.isDestroyed) return;
       const current = props.editor.state.doc.nodeAt(props.getPos());
@@ -133,7 +134,7 @@ function ImageView(props: NodeViewProps) {
       props.updateAttributes({width: Math.round(bounds.width), height: Math.round(bounds.height)});
       props.editor.view.dispatch(closeHistory(props.editor.state.tr));
     }} /> : null}
-    <figcaption><span>{attrs.caption || attrs.alt || '图片说明'}</span><Button size="icon-sm" variant="ghost" aria-label="编辑图片与来源" onClick={() => props.extension.options.onEdit?.(props.editor, props.getPos())}><Pencil /></Button></figcaption>
+    <figcaption><span>{attrs.caption || attrs.alt || t('图片说明')}</span><Button size="icon-sm" variant="ghost" aria-label={t("编辑图片与来源")} onClick={() => props.extension.options.onEdit?.(props.editor, props.getPos())}><Pencil /></Button></figcaption>
     <div data-node-editor-slot />
   </NodeViewWrapper>;
 }
@@ -250,7 +251,7 @@ export function createWikiExtensions(onEdit?: EditNode, withViews = true, withDr
     TiptapLink.configure({ openOnClick: false, autolink: true }), TiptapUnderline, HighlightExtension.configure({ multicolor: false }),
     TaskList, TaskItem.configure({ nested: true }),
     table.configure({ resizable: true, allowTableNodeSelection: true }), TableRow, alignedCell(TableCell), alignedCell(TableHeader),
-    Placeholder.configure({ placeholder: '输入 / 插入内容', includeChildren: true }), CharacterCount,
+    Placeholder.configure({ placeholder: () => t('输入 / 插入内容'), includeChildren: true }), CharacterCount,
     SourceProvenance, inline, domain, image,
     semanticMark('wikiSpoiler', 'span'), semanticMark('wikiAbbr', 'abbr', 'title'), semanticMark('wikiKbd', 'kbd'), semanticMark('wikiTime', 'time', 'datetime'), semanticMark('wikiSmall', 'small'), semanticMark('wikiSub', 'sub'), semanticMark('wikiSup', 'sup'),
     ...(withViews && withDragHandle ? [GlobalDragHandle.configure({ dragHandleWidth: 20, scrollTreshold: 0 }), WikiDragScrolling] : []),

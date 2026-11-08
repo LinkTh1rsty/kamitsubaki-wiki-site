@@ -83,9 +83,9 @@ const text = {
   loadFailed: ['原文暂时无法读取，请重试或使用「导入原文」。当前草稿没有被替换。', 'Could not load the source. Retry or use Import source. Your draft has not been replaced.', '原文を読み込めません。再試行するか原文をインポートしてください。下書きは保持されています。'],
   notFound: ['没有找到匹配的词条', 'No matching articles', '一致する記事はありません'],
 
-  title: ['编辑器', 'Visual editor', 'ビジュアルエディター'],
+  title: ['编辑器', 'Editor', 'エディター'],
   intro: ['把资料写成词条，不必先学语法。', 'Turn your research into an article, without learning markup.', '構文を覚えずに、調べた資料を記事に。'],
-  open: ['打开编辑器', 'Open visual editor', 'ビジュアルエディターを開く'],
+  open: ['打开编辑器', 'Open the editor', 'エディターを開く'],
   entryIntro: ['用内容块编写词条、填写资料并预览，完成后复制到 GitHub。', 'Write with visual blocks, preview, then copy the finished file to GitHub.', 'ブロックで記事を書き、プレビューして GitHub にコピー。'],
   back: ['资料共建', 'Contribute', '資料の共同編集'],
   guide: ['贡献指南', 'Contribution guide', '貢献ガイド'],

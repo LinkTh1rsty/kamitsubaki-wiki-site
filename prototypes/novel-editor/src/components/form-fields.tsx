@@ -18,13 +18,13 @@ export function TextField({ label, value, onChange, multiline = false, descripti
     {error ? <p className="wiki-field-error" id={id + '-error'} role="alert">{error}</p> : null}
   </Field>;
 }
-export function ChoiceField({ label, value, onChange, options, disabled = false, description }: {
-  label: string; value: string; onChange: (value: string) => void; options: [string, string][]; disabled?: boolean; description?: string;
+export function ChoiceField({ label, value, onChange, options, disabled = false, description, note }: {
+  label: string; value: string; onChange: (value: string) => void; options: [string, string][]; disabled?: boolean; description?: string; note?: string;
 }) {
   const id = useId();
   const choices = [...new Map(options.filter(([key]) => typeof key === 'string' && key !== '').map(row => [row[0], row])).values()];
   return <Field data-disabled={disabled || undefined}><div className="flex items-center gap-1"><FieldLabel htmlFor={id}>{t(label)}</FieldLabel>{description?<HelpTip label={label} text={description}/>:null}</div>
-    <Select value={value} onValueChange={onChange} disabled={disabled}><SelectTrigger id={id} className="w-full" aria-describedby={description ? id + '-help' : undefined}><SelectValue placeholder={t("请选择")} /></SelectTrigger><SelectContent><SelectGroup>{choices.map(([key, text]) => <SelectItem key={key} value={key}>{t(text)}</SelectItem>)}</SelectGroup></SelectContent></Select>
-    {description ? <FieldDescription className="sr-only" id={id + '-help'}>{t(description)}</FieldDescription> : null}
+    <Select value={value} onValueChange={onChange} disabled={disabled}><SelectTrigger id={id} className="w-full" aria-describedby={description || note ? id + '-help' : undefined}><SelectValue placeholder={t("请选择")} /></SelectTrigger><SelectContent><SelectGroup>{choices.map(([key, text]) => <SelectItem key={key} value={key}>{t(text)}</SelectItem>)}</SelectGroup></SelectContent></Select>
+    {description ? <FieldDescription className="sr-only" id={id + '-help'}>{t(description)}</FieldDescription> : note ? <FieldDescription id={id + '-help'}>{t(note)}</FieldDescription> : null}
   </Field>;
 }
