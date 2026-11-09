@@ -21,7 +21,7 @@ test('support hero offers three recommended plans plus a custom amount for every
 });
 
 test('support profile page follows site tokens instead of a private palette',()=>{
- const page=read('src/pages/support/profile.astro'),style=page.slice(page.indexOf('<style>'));
+ const page=read('src/components/SupporterProfilePage.astro'),style=page.slice(page.indexOf('<style>'));
  assert.doesNotMatch(style,/#(?!d9534f)[0-9a-f]{3,8}\b/i);
  assert.doesNotMatch(style,/system-ui/);
  assert.match(page,/kamitsubaki-theme/,'respects the saved site theme');

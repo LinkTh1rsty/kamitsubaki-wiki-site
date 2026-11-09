@@ -29,11 +29,11 @@ const chineseMenuLabel = currentLocale === 'ja' ? '中国語：簡体字と繁�
         <span>中</span><Icon name="chevron-down" class="site-nav__language-chevron" size={10} />
       </WorkspaceButton>
       <div class="site-nav__language-menu" role="menu" aria-label="中文" aria-hidden="true" data-language-menu>
-        {chineseLinks.map(item => <a href={item.href} hreflang={item.code} lang={item.code} role="menuitem" aria-current={item.current ? 'page' : undefined} class={item.current ? 'is-current' : undefined}>{item.dropdownLabel ?? item.shortLabel}</a>)}
+        {chineseLinks.map(item => <a href={item.href} data-locale-href={item.href} hreflang={item.code} lang={item.code} role="menuitem" aria-current={item.current ? 'page' : undefined} class={item.current ? 'is-current' : undefined}>{item.dropdownLabel ?? item.shortLabel}</a>)}
       </div>
     </div>
   )}
-  {primaryLinks.map(item => <a href={item.href} hreflang={item.code} lang={item.code} aria-current={item.current ? 'page' : undefined} title={item.label}>{item.navShortLabel ?? item.shortLabel}</a>)}
+  {primaryLinks.map(item => <a href={item.href} data-locale-href={item.href} hreflang={item.code} lang={item.code} aria-current={item.current ? 'page' : undefined} title={item.label}>{item.navShortLabel ?? item.shortLabel}</a>)}
 </div>
 <script>
   import '../scripts/languageSwitcher.js';

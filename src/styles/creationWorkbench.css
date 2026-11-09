@@ -87,3 +87,5 @@ html body main.creation-preview-page .workspace-heading>.workspace-eyebrow{margi
 .creation-upload-footer{padding-bottom:max(16px,env(safe-area-inset-bottom))}
 
 .creation-new-draft{display:inline-flex;align-items:center;min-height:44px;padding:8px 0;color:var(--theme-fg);font:12px var(--font-sans);text-underline-offset:4px}
+
+.creation-upload-footer [data-upload-status] { white-space: pre-line; }

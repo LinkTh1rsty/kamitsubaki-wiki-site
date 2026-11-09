@@ -46,7 +46,7 @@ const editorHref = sourceHref.replace('/contribute/edit?', '/contribute/editor/?
 
 <header class="wiki-article-header">
   <div class="wiki-article-context">
-    <nav aria-label="Breadcrumb" class="wiki-article-breadcrumb">
+    <nav aria-label={currentLocale?.code === 'en' ? 'Breadcrumb' : currentLocale?.code === 'ja' ? 'パンくずリスト' : '頁面路徑'} class="wiki-article-breadcrumb">
       <a href={homeHref}>{labels.home}</a>
       {sectionLabel && <><span aria-hidden="true">/</span><slot name="section"><span>{sectionLabel}</span></slot></>}
       {data.categoryTitle && <><span aria-hidden="true">/</span><span>{data.categoryTitle}</span></>}
@@ -55,7 +55,7 @@ const editorHref = sourceHref.replace('/contribute/edit?', '/contribute/editor/?
       <summary aria-label={labels.languages}>{currentLocale?.shortLabel}<span aria-hidden="true"><Icon name="chevron-down" /></span></summary>
       <nav class="wiki-article-locales" aria-label={labels.languages}>
         {localeLinks.map((item) => (
-          <a href={item.href} aria-current={item.current ? 'page' : undefined} class="wiki-chip">{item.label}</a>
+          <a href={item.href} data-locale-href={item.href} aria-current={item.current ? 'page' : undefined} class="wiki-chip">{item.label}</a>
         ))}
       </nav>
     </details>

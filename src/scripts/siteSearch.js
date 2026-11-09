@@ -142,15 +142,17 @@ function initializeSearch(root) {
   const resultLinks = () => [...resultsRoot.querySelectorAll('.site-search__result')];
   const isOpen = () => !root.hidden && !root.classList.contains('is-closing');
   const moreButton=document.createElement('button');moreButton.type='button';moreButton.className='site-search__more';moreButton.hidden=true;resultsRoot.after(moreButton);
+  const retryText = copy.retry || ({zh:'重试','zh-tw':'重試','zh-hk':'重試',ja:'再試行',en:'Retry'})[root.dataset.locale] || 'Retry';
+  const setBusy = busy => resultsRoot.setAttribute('aria-busy', String(busy));
   let batchGeneration=0;
   const showNext=async()=>{
-    const generation=queryGeneration,query=input.value.trim();if(batchGeneration===generation)return;batchGeneration=generation;moreButton.disabled=true;
+    const generation=queryGeneration,query=input.value.trim();if(batchGeneration===generation)return;batchGeneration=generation;moreButton.disabled=true;setBusy(true);
     try{const batch=await Promise.all(matches.slice(shown,shown+12).map(result=>result.data()));if(generation!==queryGeneration)return;
       resultsRoot.append(...batch.map((record,index)=>createResult({path:record.url,...record.meta,excerpt:record.plain_excerpt},query,copy,shown+index)));shown+=batch.length;moreButton.hidden=shown>=matches.length;
       moreButton.textContent=({zh:`继续查看 · ${shown}/${matches.length}`,'zh-tw':`繼續查看 · ${shown}/${matches.length}`,'zh-hk':`繼續查看 · ${shown}/${matches.length}`,ja:`さらに表示 · ${shown}/${matches.length}`,en:`Show more · ${shown}/${matches.length}`})[root.dataset.locale]||`Show more · ${shown}/${matches.length}`;
       status.textContent=`${resultCount(copy,matches.length)} · ${shown}/${matches.length}`;
-    }catch{if(generation===queryGeneration){status.textContent=copy.error;moreButton.hidden=false;moreButton.textContent=copy.retry||'Retry';}}
-    finally{if(batchGeneration===generation)batchGeneration=0;moreButton.disabled=false;}
+    }catch{if(generation===queryGeneration){status.textContent=copy.error;moreButton.hidden=false;moreButton.textContent=retryText;}}
+    finally{if(batchGeneration===generation)batchGeneration=0;if(generation===queryGeneration){moreButton.disabled=false;setBusy(false);}}
   };
   moreButton.addEventListener('click',showNext);
 
@@ -167,6 +169,9 @@ function initializeSearch(root) {
   const closeSearch = () => {
     if (root.hidden || root.classList.contains('is-closing')) return;
     root.classList.add('is-closing');
+    queryGeneration++;
+    window.clearTimeout(searchTimer);
+    setBusy(false);
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     closeAnimationTimer = window.setTimeout(finishClose, reducedMotion ? 0 : 190);
   };
@@ -195,7 +200,7 @@ function initializeSearch(root) {
     const generation = ++queryGeneration;
     const query = input.value.trim();
     resultsRoot.replaceChildren();
-    matches=[];shown=0;moreButton.hidden=true;
+    matches=[];shown=0;moreButton.hidden=true;moreButton.disabled=false;setBusy(false);
     let articleLink = root.querySelector('[data-article-search-link]');
     if (!articleLink) {
       articleLink = document.createElement('a');
@@ -215,6 +220,7 @@ function initializeSearch(root) {
     }
 
     setLoadingStatus(status,copy.loading);
+    setBusy(true);
     try {
       engine ||= await loadEngine(root.dataset.locale || 'zh');
       queryNormalizer = await loadQueryNormalizer();
@@ -227,8 +233,10 @@ function initializeSearch(root) {
       if (generation !== queryGeneration) return;
       status.replaceChildren();
       const message=document.createElement('span');message.textContent=copy.error;
-      const retry=document.createElement('button');retry.type='button';retry.className='site-search__retry-btn';retry.textContent=copy.retry||'Retry';retry.onclick=render;
+      const retry=document.createElement('button');retry.type='button';retry.className='site-search__retry-btn';retry.textContent=retryText;retry.onclick=render;
       status.append(message,retry);return;
+    } finally {
+      if (generation === queryGeneration) setBusy(false);
     }
 
     if (!matches.length) {
@@ -239,12 +247,12 @@ function initializeSearch(root) {
     showNext();
   };
 
-  const openSearch = async () => {
+  const openSearch = async (trigger) => {
     window.clearTimeout(closeAnimationTimer);
     const wasHidden = root.hidden;
     root.classList.remove('is-closing');
     if (wasHidden) {
-      previouslyFocused = document.activeElement;
+      previouslyFocused = trigger || document.activeElement;
       root.hidden = false;
       releaseScroll=lockModalScroll();
       try{if(root instanceof HTMLDialogElement)root.showModal();}catch(error){releaseScroll?.();releaseScroll=null;root.hidden=true;throw error;}
@@ -262,7 +270,7 @@ function initializeSearch(root) {
       event.stopPropagation();
       const menu = trigger.closest('details');
       if (menu instanceof HTMLDetailsElement) menu.open = false;
-      openSearch();
+      openSearch(menu?.querySelector('summary') || trigger);
     });
   });
 
@@ -294,6 +302,11 @@ function initializeSearch(root) {
   });
 
   input.addEventListener('input', () => {
+    queryGeneration++;
+    resultsRoot.replaceChildren();
+    input.removeAttribute('aria-activedescendant');
+    activeIndex = -1;
+    moreButton.hidden = true;
     window.clearTimeout(searchTimer);
     searchTimer = window.setTimeout(render, 70);
   });

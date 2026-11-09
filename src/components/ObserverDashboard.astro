@@ -15,7 +15,7 @@ const sections=['overview','announcements',...(aiCopy?['ai']:[]),'tools'];
 ---
 <div data-observer-dashboard data-locale={locale} data-api={api} data-home={String(isHome)} data-preview={String(import.meta.env.DEV)} data-copy={JSON.stringify(c)}>
  <aside class="dashboard-float" id="social-contact">
-  <WorkspaceButton class="dashboard-launcher" data-dashboard-open hidden aria-label={c.enter} title={c.enter} aria-controls="observer-dashboard" aria-haspopup="dialog" aria-expanded="false"><span class="dashboard-launcher__cards" aria-hidden="true"><i></i><i></i><i></i></span><span class="dashboard-launcher__dot" data-dashboard-dot hidden></span></WorkspaceButton>
+  <WorkspaceButton class="dashboard-launcher" href={`/${locale}/announcements/`} data-dashboard-open aria-label={c.enter} title={c.enter} aria-controls="observer-dashboard" aria-haspopup="dialog" aria-expanded="false"><span class="dashboard-launcher__cards" aria-hidden="true"><i></i><i></i><i></i></span><span class="dashboard-launcher__dot" data-dashboard-dot hidden></span></WorkspaceButton>
   <noscript><nav aria-label={c.shortcuts}><a href={`/${locale}/events/`}>{c.viewCalendar}</a><a href={`/${locale}/announcements/`}>{c.announcements}</a><a href={`/${locale}/contribute/`}>{c.tools}</a><a href={`/${locale}/support/`}>{c.support}</a></nav></noscript>
  </aside>
  <dialog id="observer-dashboard" class="observer-dashboard reader-surface dui-modal" data-ui-kit aria-labelledby="observer-dashboard-title" data-dashboard-dialog>
@@ -41,4 +41,32 @@ const sections=['overview','announcements',...(aiCopy?['ai']:[]),'tools'];
   </div>
  </dialog>
 </div>
-<script>import {initObserverDashboard} from '../scripts/observerDashboard.js';document.querySelectorAll('[data-observer-dashboard]').forEach(initObserverDashboard);</script>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-observer-dashboard]').forEach(root => {
+    const launcher = root.querySelector<HTMLAnchorElement>('[data-dashboard-open]');
+    if (!launcher) return;
+    let ready = false;
+    let flight: Promise<ReturnType<typeof import('../scripts/observerDashboard.js').initObserverDashboard>> | undefined;
+    const load = () => flight ??= import('../scripts/observerDashboard.js').then(({ initObserverDashboard }) => {
+      const dashboard = initObserverDashboard(root);
+      ready = true;
+      window.removeEventListener('hashchange', onContact);
+      return dashboard;
+    }).catch(error => {
+      flight = undefined;
+      throw error;
+    });
+    const onContact = () => {
+      if (location.hash === '#social-contact') void load().catch(() => {});
+    };
+    launcher.addEventListener('click', event => {
+      if (ready || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      const intent = { currentTarget: launcher, detail: event.detail };
+      void load().then(dashboard => dashboard?.open('overview', { event: intent })).catch(() => location.assign(launcher.href));
+    });
+    window.addEventListener('hashchange', onContact);
+    if (root.dataset.home === 'true') void load().catch(() => {});
+    else onContact();
+  });
+</script>

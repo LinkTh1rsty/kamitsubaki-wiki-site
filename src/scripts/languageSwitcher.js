@@ -1,3 +1,21 @@
+import { preserveLocaleLocation } from '../lib/localeLocation.mjs';
+
+function refreshLocaleLink(link) {
+  link.href = preserveLocaleLocation(link.dataset.localeHref, location.href);
+}
+function refreshLocaleLinks() {
+  document.querySelectorAll('a[data-locale-href]').forEach(refreshLocaleLink);
+}
+for (const type of ['pointerdown', 'focusin', 'contextmenu', 'click']) {
+  document.addEventListener(type, event => {
+    const link = event.target.closest?.('a[data-locale-href]');
+    if (link) refreshLocaleLink(link);
+  }, true);
+}
+window.addEventListener('hashchange', refreshLocaleLinks);
+window.addEventListener('popstate', refreshLocaleLinks);
+refreshLocaleLinks();
+
 const languageFamilies = document.querySelectorAll('[data-language-family]');
 
 function setLanguageMenuOpen(family, open) {

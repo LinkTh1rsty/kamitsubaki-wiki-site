@@ -59,6 +59,7 @@ export function initObserverDashboard(root){
    catch{status.textContent=c.aiError;status.hidden=false;if(spinner)spinner.hidden=true;if(feedback)feedback.hidden=false;retry.hidden=false;}
   }
  }
+ /** @param {string} next @param {{automatic?: boolean, event?: {currentTarget: HTMLElement | null, detail: number}}} options */
  async function open(next='overview',{automatic=false,event}={}){
   motionVersion++;if(!automatic)interacted=true;trigger=automatic?launcher:event?.currentTarget||(document.activeElement===document.body?launcher:document.activeElement)||launcher;restore=true;
   closeMotion?.cancel();closeMotion=null;
@@ -72,7 +73,12 @@ export function initObserverDashboard(root){
   }
   await select(next);if(!dialog.open)return;acknowledge();void loadActivities();void loadIndex();
  }
- launcher.onclick=event=>dialog.open&&closeMotion?open('overview',{event}):dialog.open?close({instant:event.detail===0}):open('overview',{event});
+ launcher.onclick=event=>{
+  if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+  event.preventDefault();
+  if(dialog.open&&!closeMotion){close({instant:event.detail===0});return;}
+  void open('overview',{event}).catch(()=>{if(launcher.href)location.assign(launcher.href);});
+ };
  root.querySelectorAll('[data-dashboard-close]').forEach(n=>n.onclick=event=>close({instant:event.detail===0}));
  root.querySelectorAll('[data-dashboard-go]').forEach(n=>n.onclick=()=>select(n.dataset.dashboardGo));
  root.querySelectorAll('[data-dashboard-tab]').forEach(tab=>{

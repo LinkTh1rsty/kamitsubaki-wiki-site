@@ -1,0 +1,6 @@
+---
+import SupporterProfilePage from '../../../components/SupporterProfilePage.astro';
+import {supportedLocales} from '../../../lib/i18n.mjs';
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+---
+<SupporterProfilePage locale={Astro.params.locale}/>

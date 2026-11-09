@@ -1,0 +1,71 @@
+---
+import LoadingStatus from './LoadingStatus.astro';
+import CompactLanguageSwitcher from './CompactLanguageSwitcher.astro';
+import WorkspaceButton from './WorkspaceButton.astro';
+import '../styles/global.css';
+import '../styles/uiKit.css';
+import {buildLocaleLinks, getLanguageTag, resolveLocaleCopy} from '../lib/i18n.mjs';
+import {supporterProfileCopy} from '../lib/supporterProfileCopy.mjs';
+import {centralAccountReturnTo} from '../lib/centralAccountOrigins.mjs';
+const {locale='zh'}=Astro.props;
+const c=resolveLocaleCopy(supporterProfileCopy,locale);
+const back=`/${locale}/support/`;
+const apiBase=import.meta.env.PUBLIC_SUPPORT_API_BASE || import.meta.env.PUBLIC_AI_OBSERVER_API_BASE || 'https://api.kamitsubaki.wiki';
+const accountLink=(action:string)=>{
+ const query=new URLSearchParams({locale,returnTo:centralAccountReturnTo(new URL(back,Astro.url).href,apiBase,locale)});
+ return `/auth/${action}?${query}`;
+};
+---
+<!doctype html>
+<html lang={getLanguageTag(locale)}>
+<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><meta name="referrer" content="no-referrer"/><title>{c.title} · KAMITSUBAKI Wiki</title><script is:inline>(()=>{let p='system';try{const s=localStorage.getItem('kamitsubaki-theme');if(s==='light'||s==='dark'||s==='system')p=s}catch{}document.documentElement.dataset.theme=p==='system'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):p})();</script></head>
+<body>
+<main class="supporter-profile" data-supporter-profile data-api-base={apiBase}>
+ <script is:inline type="application/json" data-profile-copy set:html={JSON.stringify(c).replace(/</g,'\\u003c')}/>
+ <header><div class="profile-top"><a class="profile-brand" href={back}>KAMITSUBAKI WIKI</a><CompactLanguageSwitcher localeLinks={buildLocaleLinks(null,locale,'/support/profile/')}/></div><p class="profile-eyebrow">THANK YOU FOR YOUR SUPPORT</p><h1>{c.heading}</h1><p>{c.intro}</p></header>
+ <ol class="profile-steps" aria-label={c.steps}><li>{c.fill}</li><li>{c.choose}</li><li>{c.review}</li></ol>
+ <p class="profile-status" data-profile-status role="status" aria-live="polite" tabindex="-1"><LoadingStatus label={c.opening}/></p>
+ <WorkspaceButton data-email-confirm tone="primary" hidden>{c.verifyLegacy}</WorkspaceButton>
+ <section class="profile-done" data-profile-done hidden aria-live="polite">
+  <h2 data-done-title>{c.pending}</h2>
+  <dl><dt>{c.name}</dt><dd data-done-name></dd><dt>{c.email}</dt><dd data-done-email></dd></dl>
+  <p class="profile-done-verify" data-done-verify></p>
+
+  <div class="profile-actions"><WorkspaceButton data-profile-retry>{c.refresh}</WorkspaceButton><WorkspaceButton data-profile-edit>{c.resubmit}</WorkspaceButton><WorkspaceButton href={back}>{c.back}</WorkspaceButton></div>
+ </section>
+ <form data-profile-form hidden>
+  <div class="profile-avatar"><img data-avatar-preview hidden alt={c.avatarAlt} width="88" height="88"/><span data-avatar-placeholder aria-hidden="true">✦</span><label>{c.avatar} <span>{c.optional}</span><input type="file" data-avatar-input accept="image/png,image/jpeg,image/webp"/><small>{c.avatarHelp}</small></label></div>
+  <label for="supporter-email">{c.email} <span class="required">{c.required}</span></label><input id="supporter-email" name="email" type="email" required maxlength="254" autocomplete="email" class="dui-input"/><small>{c.emailHelp}</small>
+  <label for="supporter-name">{c.name} <span class="required">{c.required}</span></label><input id="supporter-name" name="name" type="text" required maxlength="60" autocomplete="nickname" class="dui-input"/><small>{c.nameHelp}</small>
+  <p data-code-verified hidden role="status">{c.verified}</p><fieldset class="profile-wiki" data-code-step><legend>{c.verifyStep}</legend><div class="profile-actions"><WorkspaceButton data-code-send>{c.send}</WorkspaceButton></div><label for="supporter-code">{c.code}</label><input class="dui-input" id="supporter-code" data-email-code inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" aria-describedby="supporter-code-status"/><small id="supporter-code-status" data-code-status role="status">{c.codeHelp}</small><div class="profile-actions"><WorkspaceButton data-code-confirm>{c.verify}</WorkspaceButton></div></fieldset>
+  <fieldset class="profile-wiki" data-wiki-step hidden><legend>{c.linkStep}</legend><label><input type="radio" name="binding" value="later" checked/> {c.later}</label><small>{c.laterHelp}</small><label><input type="radio" name="binding" value="now"/> {c.now}</label><small>{c.nowHelp}</small><div data-wiki-now hidden><p data-wiki-account-status><LoadingStatus label={c.loadingAccount}/></p><p data-wiki-account-choice hidden>{c.binding}<strong data-wiki-account-name></strong></p><div class="profile-actions"><WorkspaceButton href={accountLink('sign-in')} target="_blank" rel="noopener noreferrer" data-wiki-login>{c.login}</WorkspaceButton><WorkspaceButton href={accountLink('sign-up')} target="_blank" rel="noopener noreferrer" data-wiki-register>{c.register}</WorkspaceButton><WorkspaceButton data-wiki-refresh>{c.refreshAccount}</WorkspaceButton></div><small>{c.keepOpen}</small></div></fieldset>
+  <div class="profile-actions"><WorkspaceButton type="submit" tone="primary" data-profile-submit disabled>{c.verifyToSubmit}</WorkspaceButton><WorkspaceButton data-profile-retry>{c.reload}</WorkspaceButton></div>
+  <p class="profile-note">{c.reviewHelp}<br/>{c.privacy}</p>
+ </form>
+ <WorkspaceButton data-profile-retry data-profile-outside-retry hidden>{c.reload}</WorkspaceButton>
+ <section class="profile-reissue" data-reissue hidden><h2>{c.reissue}</h2><p>{c.reissueHelp}</p><form data-reissue-form><label for="supporter-afdian-account">{c.afdian}</label><input class="dui-input" id="supporter-afdian-account" name="afdianAccount" required maxlength="200" autocomplete="off" placeholder="https://afdian.com/u/…"/><div class="profile-actions"><WorkspaceButton type="submit" data-reissue-submit>{c.message}</WorkspaceButton></div><p data-reissue-status role="status"></p></form></section>
+ <footer><a href={back}>{c.back}</a><span>{c.footer}</span></footer>
+</main>
+<script>import '../scripts/supporterProfile.ts';</script>
+</body>
+</html>
+<style>
+ .supporter-profile{--muted:rgb(var(--theme-fg-rgb)/.62);}
+ :global(body){margin:0;background:var(--theme-bg);color:var(--theme-body);font-family:var(--font-sans);}
+ .supporter-profile{max-width:600px;margin:64px auto;padding:0 24px 40px;line-height:1.8;}
+ .profile-steps{list-style:decimal;padding-left:22px;font-size:14px;color:var(--muted);}.profile-reissue{margin-top:24px;}.profile-reissue h2{font:500 22px/1.5 var(--font-serif);}.profile-wiki input[type=radio]{min-width:20px;min-height:20px;vertical-align:middle;}.profile-wiki label{min-height:44px;display:flex;align-items:center;gap:8px;}
+ .profile-wiki strong{overflow-wrap:anywhere;}[data-code-verified]{font-size:14px;color:var(--theme-fg);}
+ .profile-top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+ .profile-brand{font-size:12px;font-weight:750;letter-spacing:.12em;color:inherit;text-decoration:none;}
+ .profile-eyebrow{font:var(--ui-font-xs)/1.8 var(--font-mono);letter-spacing:.16em;color:var(--theme-accent-color);margin-top:42px;}
+ h1{font:500 30px/1.5 var(--font-serif);color:var(--theme-fg);margin:12px 0 18px;}header>p:last-child{color:var(--muted);font-size:14px;}
+ form{background:var(--theme-panel-solid);border:1px solid var(--ui-line);border-radius:var(--ui-radius-panel,8px);padding:28px;margin-top:24px;}
+ label{display:block;margin:24px 0 8px;font-size:14px;font-weight:600;color:var(--theme-fg);}input.dui-input{display:block;width:100%;box-sizing:border-box;background:var(--theme-bg);color:var(--theme-fg);border:1px solid var(--ui-line);min-height:44px;border-radius:var(--ui-radius-control,6px);padding:10px 12px;font-size:16px;}
+ small{display:block;color:var(--muted);font-size:12px;margin-top:6px;}.required,label span{font-weight:400;font-size:12px;color:var(--muted);margin-left:8px;}
+ .profile-avatar{display:flex;gap:20px;align-items:center;margin-bottom:12px;}.profile-avatar img,.profile-avatar>span{width:88px;height:88px;object-fit:cover;border-radius:50%;flex-shrink:0;background:rgb(var(--theme-fg-rgb)/.06);}.profile-avatar>span{text-align:center;line-height:88px;font-size:32px;color:var(--muted);}.profile-avatar label{margin:0;min-width:0;}input[type=file]{display:block;margin-top:8px;max-width:100%;font-weight:400;font-size:12px;}
+ .profile-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px;}.profile-note{font-size:12px;color:var(--muted);margin:20px 0 0;}.profile-status{position:sticky;top:12px;z-index:5;font-size:14px;padding:14px 16px;border-radius:var(--ui-radius-control,6px);background:var(--theme-panel-solid);border:1px solid rgb(var(--theme-accent-rgb)/.35);color:var(--theme-fg);outline:none;}.profile-status[data-error=true]{background:color-mix(in srgb,var(--ui-color-error) 12%,var(--theme-panel-solid));border-color:var(--ui-color-error);color:var(--theme-fg);font-weight:600;}.profile-status:focus-visible{outline:2px solid var(--theme-accent-color);outline-offset:2px;}
+ .profile-done{background:var(--theme-panel-solid);border:1px solid var(--ui-line);border-radius:var(--ui-radius-panel,8px);padding:28px;margin-top:24px;}.profile-done h2{margin:0 0 16px;font:500 20px/1.5 var(--font-serif);color:var(--theme-fg);}.profile-done dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:14px;}.profile-done dt{color:var(--muted);}.profile-done dd{margin:0;word-break:break-all;color:var(--theme-fg);}.profile-done-verify{margin:18px 0 0;font-size:13px;color:var(--muted);background:rgb(var(--theme-fg-rgb)/.05);border-radius:var(--ui-radius-control,6px);padding:12px 14px;}.profile-done a[data-email-preview]{display:inline-block;margin-top:10px;font-size:13px;}
+ .profile-wiki{margin:24px 0 0;padding:16px;border:1px solid var(--ui-line);border-radius:var(--ui-radius-control,6px);}.profile-wiki legend{padding:0 6px;font-size:14px;font-weight:600;color:var(--theme-fg);}.profile-wiki legend span{font-size:12px;color:var(--muted);font-weight:400;}.profile-wiki label{font-size:13px;margin-top:10px;}.profile-wiki input{margin-right:8px;}.profile-wiki p{font-size:13px;color:var(--muted);margin:0;}.profile-wiki .profile-actions{margin-top:12px;}
+ footer{display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap;margin-top:24px;font-size:12px;color:var(--muted);}footer a{color:inherit;text-decoration:underline;}
+ @media(max-width:500px){.supporter-profile{margin-top:28px;padding-inline:16px;}form{padding:20px;}h1{font-size:26px;}.profile-avatar{gap:12px;}}
+</style>

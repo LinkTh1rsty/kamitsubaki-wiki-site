@@ -1075,6 +1075,7 @@ function initWidget(root) {
   };
 
   const presentation=chatPresentationStore(root);
+  let pendingRetry = null;
   if(root.dataset.aiPresentation==='embedded')presentation.subscribe(()=>{
     quick.hidden=presentation.getSnapshot().messages.some(message=>message.role==='user');
   });
@@ -1082,7 +1083,7 @@ function initWidget(root) {
   const ensureChatComponents=()=>componentFlight ||= loadSiteComponents().then(async runtime=>{
     if(!presentation.getSnapshot().messages.length)createMessage(root,'assistant',copy.greeting||'',root.dataset.locale);
     const composer=root.querySelector('.ai-chat__composer');
-    presentation.ui=await runtime.mountChat(messages,composer,{getSnapshot:presentation.getSnapshot,subscribe:presentation.subscribe,variant:'wiki',renderMarkdown:text=>renderMarkdown(text,root.dataset.locale),copy:{placeholder:copy.inputPlaceholder,send:copy.sendLabel,stop:copy.cancelLabel||'Stop',sources:convertAiResponseText('引用',root.dataset.locale),thinking:copy.thinkingPhrases||[copy.bubbleThinking||copy.status||'…'],retry:copy.retry||'Retry'},retry:entry=>{if(entry.retryText==='initialize')return ensureWidgetReady().catch(showLoadError);input.value=entry.retryText;presentation.setDraft(entry.retryText);input.focus();},initialDraft:input.value,inputAttributes:{'data-ai-input':'',id:'ai-chat-input'},onInputReady:element=>{input=element;input.maxLength=Number(root.dataset.messageMaxLength)||500;},send:text=>{input.value=text;form.requestSubmit();},cancel:()=>widgetRequests.get(root)?.abort()});
+    presentation.ui=await runtime.mountChat(messages,composer,{getSnapshot:presentation.getSnapshot,subscribe:presentation.subscribe,variant:'wiki',renderMarkdown:text=>renderMarkdown(text,root.dataset.locale),copy:{placeholder:copy.inputPlaceholder,send:copy.sendLabel,stop:copy.cancelLabel||'Stop',sources:convertAiResponseText('引用',root.dataset.locale),thinking:copy.thinkingPhrases||[copy.bubbleThinking||copy.status||'…'],retry:copy.retry||'Retry'},retry:entry=>{if(entry.retryText==='initialize')return ensureWidgetReady().catch(showLoadError);pendingRetry=entry.retryTurn || null;input.value=entry.retryText;presentation.setDraft(entry.retryText);input.focus();},initialDraft:input.value,inputAttributes:{'data-ai-input':'',id:'ai-chat-input'},onInputReady:element=>{input=element;input.maxLength=Number(root.dataset.messageMaxLength)||500;},send:text=>{input.value=text;form.requestSubmit();},cancel:()=>widgetRequests.get(root)?.abort()});
     window.addEventListener('pagehide',event=>{if(!event.persisted)presentation.ui?.destroy();});
   }).catch(error=>{componentFlight=null;throw error;});
 
@@ -1367,6 +1368,11 @@ function initWidget(root) {
       createMessage(root, 'assistant', aiChatErrorText('message_too_long', locale), locale);
       return;
     }
+    const turn = pendingRetry?.message === message && pendingRetry.revision === revision &&
+      (!root.dataset.currentThreadId || root.dataset.currentThreadId === pendingRetry.conversationId)
+      ? pendingRetry
+      : { message, revision, clientMessageId: crypto.randomUUID(), conversationId: root.dataset.currentThreadId || crypto.randomUUID() };
+    pendingRetry = null;
     const controller=new AbortController();widgetRequests.set(root,controller);
     const userMessage = createMessage(root,'user', message);
 
@@ -1385,8 +1391,8 @@ function initWidget(root) {
         agentId: 'observer',
         message,
         locale: localeRequest.locale,
-        conversationId: root.dataset.currentThreadId || undefined,
-        clientMessageId: crypto.randomUUID(),
+        conversationId: turn.conversationId,
+        clientMessageId: turn.clientMessageId,
         retrievalMode: root.querySelector('[data-ai-retrieval-mode]')?.dataset.value === 'forced' ? 'forced' : 'auto',
         pageContext: {
           ...collectPageContext(root),
@@ -1454,7 +1460,9 @@ function initWidget(root) {
       finishThinkingMessage(assistantMessage);
       setMessageMarkdown(assistantMessage.content, error?.name==='AbortError'?(assistantMessage.content.textContent||copy.cancelLabel||''):aiChatErrorText(error?.chatCode, localeRequest.locale, copy.fallbackOffline), localeRequest.locale);
       if (error?.name !== 'AbortError') assistantMessage.content.store.patch(assistantMessage.content, {error: true, retryText: message});
+      if (error?.name === 'AbortError') assistantMessage.content.store.patch(assistantMessage.content, {error: true, retryText: message});
     } finally {
+      assistantMessage.content.store.patch(assistantMessage.content, {retryTurn: turn});
       if(widgetRequests.get(root)===controller)widgetRequests.delete(root);
       if(revision===widgetRevision(root)){setThinking(root, copy, false);scrollMessages(messages);}
     }
