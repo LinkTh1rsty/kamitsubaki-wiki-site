@@ -1,0 +1,10 @@
+---
+interface Props { id: string; label: string; hint?: string; required?: boolean; class?: string }
+const { id, label, hint, required, class: className } = Astro.props;
+---
+<div class:list={['submission-field', className]}>
+  <label for={id}>{label}{required && <span class="submission-field-required" aria-hidden="true"> *</span>}</label>
+  <slot />
+  {hint && <small id={`${id}-hint`} class="submission-hint">{hint}</small>}
+  <small id={`${id}-error`} class="submission-field-error" data-field-error hidden></small>
+</div>

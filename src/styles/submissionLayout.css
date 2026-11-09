@@ -20,3 +20,11 @@
 
 .submission-panel .submission-optional>summary{cursor:pointer;font:600 13px/1.5 var(--font-sans)}
 .submission-panel .submission-optional[open]>summary{margin-bottom:14px}
+
+.submission-field { display: grid; min-width: 0; align-content: start; gap: 6px; }
+.submission-field > label { display: block; }
+.submission-field-required, .submission-field-error { color: var(--ui-color-error); }
+.submission-field-error[hidden] { display: none; }
+.submission-field :is(input, select, textarea)[aria-invalid=true] { border-color: var(--ui-color-error); }
+.submission-panel-collapsible > summary { cursor: pointer; min-height: 44px; padding-block: 8px; }
+.submission-panel-collapsible > summary > :is(h2,h3,h4) { display: inline; margin: 0; }

@@ -1,5 +1,5 @@
 ---
-import { defaultLocale, getLocalizedSiteName } from '../lib/i18n.mjs';
+import { defaultLocale, getLocalizedSiteName, resolveLocaleCopy } from '../lib/i18n.mjs';
 
 type FooterLink = {
   label: string;
@@ -26,11 +26,15 @@ const footerLogoAlt = getLocalizedSiteName(Astro.params.locale);
 const locale = Astro.params.locale ?? defaultLocale;
 const supportHref = `/${locale}/support/`;
 const docsHref = `/${locale}/docs/`;
-const docsLabel = 'DOCUMENTS';
+const footerNavigation = resolveLocaleCopy({
+ zh:{docs:'文档中心',support:'支持本站'},
+ ja:{docs:'ドキュメント',support:'サイトを支援'},
+ en:{docs:'Documentation',support:'Support the Wiki'},
+},locale);
 const footerLinks = [
   ...footer.links.filter((link) => ![supportHref,docsHref].map(value=>value.replace(/\/$/,'')).includes(link.href.replace(/\/$/,''))),
-  { label: docsLabel, href: docsHref },
-  { label: 'SUPPORT', href: supportHref },
+  { label: footerNavigation.docs, href: docsHref },
+  { label: footerNavigation.support, href: supportHref },
 ];
 ---
 
@@ -42,7 +46,7 @@ const footerLinks = [
 
     <div class="site-footer__nav mb-10 flex flex-wrap justify-center gap-x-7 gap-y-4 text-xs font-light tracking-kamidest text-white/40 sm:mb-16 sm:gap-12">
       {footerLinks.map((link) => (
-        <a href={link.href} class="hover:text-white transition-colors relative after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[1px] after:bg-white hover:after:w-full after:transition-all">
+        <a href={link.href} class="inline-flex min-h-11 items-center hover:text-white transition-colors relative after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[1px] after:bg-white hover:after:w-full after:transition-all">
           {link.label}
         </a>
       ))}

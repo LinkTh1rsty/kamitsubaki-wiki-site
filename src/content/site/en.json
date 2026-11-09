@@ -103,19 +103,19 @@
     "tagline": "Observe Kamitsubaki.",
     "links": [
       {
-        "label": "ABOUT",
+        "label": "About",
         "href": "/en/#about"
       },
       {
-        "label": "CONTRIBUTE",
+        "label": "Contribute",
         "href": "/en/contribute/"
       },
       {
-        "label": "CONTACT",
+        "label": "Contact",
         "href": "/en/#social-contact"
       },
       {
-        "label": "REPOSITORY",
+        "label": "Repository",
         "href": "https://github.com/LinkTh1rsty/kamitsubaki-wiki-site"
       }
     ],

@@ -115,3 +115,26 @@ html body .gallery-photo-actions .gallery-photo-submit-tools[data-workspace-tool
 .gallery-photo-drop{position:relative;grid-template-columns:minmax(0,1fr)}.gallery-photo-drop input.dui-file-input{max-width:100%}
 
 .gallery-photo-actions [data-photo-status] { white-space: pre-line; }
+
+/* Shared citation first, then one editable catalogue row per image. */
+.gallery-photo-workbench .gallery-photo-layout { grid-template-columns: minmax(0, 1fr); gap: var(--ui-space-6); }
+.gallery-photo-workbench .gallery-photo-main.submission-columns { grid-template-columns: minmax(0,1fr); gap: var(--ui-space-6); }
+.gallery-photo-workbench .gallery-photo-information { margin: 0; }
+.gallery-photo-workbench .gallery-photo-actions { top: auto; bottom: 0; z-index: 2; padding: var(--ui-space-3) var(--ui-space-4); background: var(--theme-bg); grid-template-columns: minmax(0,1fr) auto; align-items: center; }
+.gallery-photo-workbench .gallery-photo-actions h2 { display: none; }
+.gallery-photo-workbench .gallery-photo-actions [data-photo-status] { min-height: 0; padding: 0; border: 0; background: none; }
+.gallery-photo-workbench .gallery-photo-drop { min-height: 90px; }
+.gallery-photo-workbench .gallery-photo-media [data-photo-list] { grid-template-columns: minmax(0,1fr); }
+.gallery-photo-workbench .gallery-photo-media .gallery-photo-row {
+  display: grid;
+  grid-template-columns: 84px minmax(190px, 2fr) minmax(150px, 1fr) minmax(80px,auto);
+  align-items: start; padding: var(--ui-space-3); gap: var(--ui-space-3);
+}
+.gallery-photo-row__taxonomy, .gallery-photo-row__taxonomy label { display: grid; min-width: 0; gap: 6px; }
+.gallery-photo-row__taxonomy :is(button,select), .gallery-photo-row .submission-field input { min-height: 44px; }
+.gallery-photo-workbench .gallery-photo-row__tools { display: flex; flex-wrap: wrap; gap: 6px; }
+@media(max-width:700px){
+  .gallery-photo-workbench .gallery-photo-media .gallery-photo-row { grid-template-columns: minmax(0,1fr); }
+  .gallery-photo-workbench .gallery-photo-media .gallery-photo-row [data-photo-inspect] { width: 88px; }
+  .gallery-photo-workbench .gallery-photo-actions { grid-template-columns: minmax(0,1fr); position: static; }
+}

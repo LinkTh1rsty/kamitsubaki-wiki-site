@@ -103,19 +103,19 @@
     "tagline": "神椿を、観測せよ。",
     "links": [
       {
-        "label": "ABOUT",
+        "label": "サイトについて",
         "href": "/ja/#about"
       },
       {
-        "label": "CONTRIBUTE",
+        "label": "参加・投稿",
         "href": "/ja/contribute/"
       },
       {
-        "label": "CONTACT",
+        "label": "お問い合わせ",
         "href": "/ja/#social-contact"
       },
       {
-        "label": "REPOSITORY",
+        "label": "リポジトリ",
         "href": "https://github.com/LinkTh1rsty/kamitsubaki-wiki-site"
       }
     ],

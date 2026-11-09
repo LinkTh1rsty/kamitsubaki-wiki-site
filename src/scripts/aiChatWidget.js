@@ -12,7 +12,7 @@ import {
   isTraditionalAiResponseLocale,
   loadTraditionalConverters,
 } from '../lib/aiResponseLocale.mjs';
-import { createAiStreamParser } from '../lib/aiStream.mjs';
+import { readChatEvents } from '../lib/aiStream.mjs';
 
 const widgetRevision=root=>Number(root.dataset.accountGeneration)||0;
 const widgetRequests=new WeakMap();
@@ -880,26 +880,10 @@ async function loadThreadDetail(root, threadId) {
   return true;
 }
 
-async function readStream(response, assistantMessage, messages, copy, root, retryText) {
+async function readStream(response, assistantMessage, messages, copy, root, retryText, {signal, resume}) {
   const revision=widgetRevision(root);
   const { content } = assistantMessage;
   const locale = root?.dataset.locale || document.documentElement.lang || 'zh';
-  const contentType = response.headers.get('Content-Type') || '';
-  if (!contentType.includes('text/event-stream')) {
-    const data = contentType.includes('json') ? await response.json().catch(() => null) : null;
-    const code = data?.error?.code || (response.status === 429 ? 'rate_limited' : 'gateway_unavailable');
-    throw Object.assign(new Error("Chat request failed"), { chatCode: code });
-  }
-
-  if (!response.body) {
-    finishThinkingMessage(assistantMessage);
-    setMessageMarkdown(content, content.dataset.emptyResponse || '', locale);
-    return;
-  }
-
-  const reader = response.body.getReader();
-  const decoder = new TextDecoder();
-  const streamParser = createAiStreamParser();
   let assistantText = '';
   let hasDelta = false;
   let hasTerminalMessage = false;
@@ -907,16 +891,8 @@ async function readStream(response, assistantMessage, messages, copy, root, retr
   let needsChallenge = false;
   const streamRenderer = createStreamingRenderer(content, messages, locale);
 
-  try {while (true) {
-    const { value, done } = await reader.read();
-    if(revision!==widgetRevision(root)){await reader.cancel();return {needsChallenge:false};}
-    if (done) {
-      break;
-    }
-
-    const parsed = {events: streamParser.feed(decoder.decode(value, {stream: true}))};
-
-    for (const event of parsed.events) {
+  try {
+    for await (const event of readChatEvents(response, {signal, resume, stillCurrent:()=>revision===widgetRevision(root)})) {
       if (event.type === 'done') receivedDone = true;
       if (event.type === 'thread' && event.data.threadId) {
         root.dataset.currentThreadId = event.data.threadId;
@@ -946,6 +922,14 @@ async function readStream(response, assistantMessage, messages, copy, root, retr
         hasTerminalMessage = true;
       }
 
+      if (event.type === 'snapshot') {
+        assistantText=event.data.text || '';
+        hasDelta=Boolean(assistantText);
+        finishThinkingMessage(assistantMessage);
+        streamRenderer.update(assistantText);
+        for (const source of event.data.sources || []) appendSource(content, source);
+      }
+
       if (event.type === 'source') {
         appendSource(content, event.data);
       }
@@ -958,9 +942,16 @@ async function readStream(response, assistantMessage, messages, copy, root, retr
         hasTerminalMessage = true;
       }
     }
+  } catch(error) {
+    if(error?.name==='AbortError') throw error;
+    if(!assistantText)throw error;
+    finishThinkingMessage(assistantMessage);
+    streamRenderer.cancel();
+    setMessageMarkdown(content, [assistantText, aiChatErrorText(error?.chatCode,locale,copy.streamErrorFallback)].join('\n\n'), locale);
+    content.store.patch(content, {error: true, retryText});
+    return {needsChallenge:false};
   }
-
-  }finally{void reader.cancel().catch(()=>{});reader.releaseLock();}
+  if(revision!==widgetRevision(root))return {needsChallenge:false};
   if (!receivedDone && !hasTerminalMessage) {
     finishThinkingMessage(assistantMessage);
     streamRenderer.cancel();
@@ -1083,7 +1074,7 @@ function initWidget(root) {
   const ensureChatComponents=()=>componentFlight ||= loadSiteComponents().then(async runtime=>{
     if(!presentation.getSnapshot().messages.length)createMessage(root,'assistant',copy.greeting||'',root.dataset.locale);
     const composer=root.querySelector('.ai-chat__composer');
-    presentation.ui=await runtime.mountChat(messages,composer,{getSnapshot:presentation.getSnapshot,subscribe:presentation.subscribe,variant:'wiki',renderMarkdown:text=>renderMarkdown(text,root.dataset.locale),copy:{placeholder:copy.inputPlaceholder,send:copy.sendLabel,stop:copy.cancelLabel||'Stop',sources:convertAiResponseText('引用',root.dataset.locale),thinking:copy.thinkingPhrases||[copy.bubbleThinking||copy.status||'…'],retry:copy.retry||'Retry'},retry:entry=>{if(entry.retryText==='initialize')return ensureWidgetReady().catch(showLoadError);pendingRetry=entry.retryTurn || null;input.value=entry.retryText;presentation.setDraft(entry.retryText);input.focus();},initialDraft:input.value,inputAttributes:{'data-ai-input':'',id:'ai-chat-input'},onInputReady:element=>{input=element;input.maxLength=Number(root.dataset.messageMaxLength)||500;},send:text=>{input.value=text;form.requestSubmit();},cancel:()=>widgetRequests.get(root)?.abort()});
+    presentation.ui=await runtime.mountChat(messages,composer,{getSnapshot:presentation.getSnapshot,subscribe:presentation.subscribe,variant:'wiki',renderMarkdown:text=>renderMarkdown(text,root.dataset.locale),copy:{placeholder:copy.inputPlaceholder,send:copy.sendLabel,stop:copy.cancelLabel||'Stop',sources:convertAiResponseText('引用',root.dataset.locale),thinking:copy.thinkingPhrases||[copy.bubbleThinking||copy.status||'…'],retry:copy.retry||'Retry'},retry:entry=>{if(entry.retryText==='initialize')return ensureWidgetReady().catch(showLoadError);pendingRetry=entry.retryTurn || null;presentation.remove(entry);input.value=entry.retryText;presentation.setDraft(entry.retryText);input.focus();},initialDraft:input.value,inputAttributes:{'data-ai-input':'',id:'ai-chat-input'},onInputReady:element=>{input=element;input.maxLength=Number(root.dataset.messageMaxLength)||500;},send:text=>{input.value=text;form.requestSubmit();},cancel:()=>widgetRequests.get(root)?.abort()});
     window.addEventListener('pagehide',event=>{if(!event.persisted)presentation.ui?.destroy();});
   }).catch(error=>{componentFlight=null;throw error;});
 
@@ -1374,7 +1365,7 @@ function initWidget(root) {
       : { message, revision, clientMessageId: crypto.randomUUID(), conversationId: root.dataset.currentThreadId || crypto.randomUUID() };
     pendingRetry = null;
     const controller=new AbortController();widgetRequests.set(root,controller);
-    const userMessage = createMessage(root,'user', message);
+    if (!turn.userMessage) turn.userMessage = createMessage(root,'user', message);
 
     input.value = '';
     presentation.setDraft('');
@@ -1386,13 +1377,18 @@ function initWidget(root) {
     scrollMessages(messages);
     setThinking(root, copy, true);
 
-    const requestChat = (turnstileToken = '') => {
+    let sent=false;
+    const requestChat = (turnstileToken = '', resumeFrom, streamAction) => {
+      if(!streamAction)sent=true;
       const body = {
         agentId: 'observer',
         message,
         locale: localeRequest.locale,
         conversationId: turn.conversationId,
         clientMessageId: turn.clientMessageId,
+        streamVersion: 1,
+        resumeFrom,
+        streamAction,
         retrievalMode: root.querySelector('[data-ai-retrieval-mode]')?.dataset.value === 'forced' ? 'forced' : 'auto',
         pageContext: {
           ...collectPageContext(root),
@@ -1407,7 +1403,8 @@ function initWidget(root) {
       return fetch(`${apiBase}/api/ai/v2/chat`, {
         method: 'POST',
         credentials: 'include',
-        signal:controller.signal,
+        signal:streamAction?undefined:controller.signal,
+        keepalive:streamAction==='cancel',
         headers: {
           'Content-Type': 'application/json',
           Accept: 'text/event-stream',
@@ -1415,6 +1412,9 @@ function initWidget(root) {
         body: JSON.stringify(body),
       });
     };
+
+    const streamOptions={signal:controller.signal,resume:cursor=>requestChat('',cursor)};
+    controller.signal.addEventListener('abort',()=>{if(sent)void requestChat('',undefined,'cancel').catch(()=>{});},{once:true});
 
     try {
       let turnstileToken = '';
@@ -1437,7 +1437,7 @@ function initWidget(root) {
       if(revision!==widgetRevision(root)){await response.body?.cancel();return;}
       delete root.dataset.turnstileToken;
 
-      let result = await readStream(response, assistantMessage, messages, copy, root, message);
+      let result = await readStream(response, assistantMessage, messages, copy, root, message, streamOptions);
       if (result.needsChallenge && root.dataset.viewerKind === 'user') {
         const retryToken = await requestTurnstileToken(root, assistantMessage.content, copy, {
           action: 'ai_chat',
@@ -1449,7 +1449,7 @@ function initWidget(root) {
           response = await requestChat(retryToken);
           if(revision!==widgetRevision(root)){await response.body?.cancel();return;}
           delete root.dataset.turnstileToken;
-          result = await readStream(response, assistantMessage, messages, copy, root, message);
+          result = await readStream(response, assistantMessage, messages, copy, root, message, streamOptions);
         }
       }
       if (root.dataset.viewerKind === 'user') {
@@ -1460,7 +1460,6 @@ function initWidget(root) {
       finishThinkingMessage(assistantMessage);
       setMessageMarkdown(assistantMessage.content, error?.name==='AbortError'?(assistantMessage.content.textContent||copy.cancelLabel||''):aiChatErrorText(error?.chatCode, localeRequest.locale, copy.fallbackOffline), localeRequest.locale);
       if (error?.name !== 'AbortError') assistantMessage.content.store.patch(assistantMessage.content, {error: true, retryText: message});
-      if (error?.name === 'AbortError') assistantMessage.content.store.patch(assistantMessage.content, {error: true, retryText: message});
     } finally {
       assistantMessage.content.store.patch(assistantMessage.content, {retryTurn: turn});
       if(widgetRequests.get(root)===controller)widgetRequests.delete(root);

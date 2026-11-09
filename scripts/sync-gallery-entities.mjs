@@ -27,6 +27,7 @@ const output=JSON.stringify(entities,null,2)+'\n';
 // localized labels. Keep them when syncing the article-backed subset.
 const targets=new Map([[frontendTarget,output]]);
 if(backendCharacters){
+ targets.set(resolve(backend,'submission-fields.mjs'),await readFile('src/lib/gallerySubmissionFields.mjs','utf8'));
  const curated=new Map(previous.map(row=>[row.id,row]));
  const backendCatalog=JSON.parse(await readFile(resolve(backend,'entities.json'),'utf8').catch(error=>{
   if(error.code==='ENOENT')return '[]';

@@ -103,19 +103,19 @@
     "tagline": "观测神椿。",
     "links": [
       {
-        "label": "ABOUT",
+        "label": "关于本站",
         "href": "/zh/#about"
       },
       {
-        "label": "CONTRIBUTE",
+        "label": "参与共建",
         "href": "/zh/contribute/"
       },
       {
-        "label": "CONTACT",
+        "label": "联系",
         "href": "/zh/#social-contact"
       },
       {
-        "label": "REPOSITORY",
+        "label": "代码仓库",
         "href": "https://github.com/LinkTh1rsty/kamitsubaki-wiki-site"
       }
     ],

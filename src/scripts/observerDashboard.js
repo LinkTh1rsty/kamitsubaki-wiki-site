@@ -110,7 +110,13 @@ export function initObserverDashboard(root){
   // Keep loaded artwork and keyboard focus when a background refresh returns
   // the same records. Cache revalidation should not restart image skeletons.
   if(changed){cards.replaceChildren(...items.map((item,i)=>activityCard(source==='official'?{...item,poster:''}:item,{locale,copy:c,base,placement:'dashboard',compact:source==='community'&&i>0})));renderedActivities[source]=signature;}cards.dataset.loaded='true';
-  activityState(source,{message:data.cache?.stale?c.cached+(data.cache.fetchedAt?' · '+c.fetched+' '+new Date(data.cache.fetchedAt).toLocaleString(locale):''):data.items.length?'':c.emptyRange});
+  activityState(source,{message:data.cache?.stale?c.cached+(data.cache.fetchedAt?' · '+c.fetched+' '+new Date(data.cache.fetchedAt).toLocaleString(locale):''):data.items.length?'':c.noActivities});
+  if(!data.cache?.stale&&!data.items.length){
+   const status=$('[data-dashboard-activity-status="'+source+'"]'),link=document.createElement('a');
+   link.href=source==='community'?'/'+locale+'/community/activities/':'/'+locale+'/events/?source=official';
+   link.textContent=c.viewCalendar;
+   status.append(' ',link);
+  }
   if(changed&&fade&&!reduced())animate(cards,[{opacity:0},{opacity:1}],{duration:180,easing:'cubic-bezier(.23,1,.32,1)'});
   observeSelected();
  }

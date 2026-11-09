@@ -1,5 +1,6 @@
 const messages = {
   interrupted: ['回答传输中断，请重试。', 'The reply was interrupted. Please retry.', '回答が途中で中断されました。再試行してください。', '回答傳輸中斷，請重試。'],
+  expired: ['续传时间已过，请重试这条消息。', 'The resume window has expired. Retry this message.', '再開できる時間を過ぎました。このメッセージを再試行してください。', '續傳時間已過，請重試這則訊息。'],
   timeout: ['回答超时，请重试。', 'The reply timed out. Please retry.', '回答がタイムアウトしました。再試行してください。', '回答逾時，請重試。'],
   rate: ['请求过于频繁，请稍后再试。', 'Too many requests. Try again later.', 'リクエストが多すぎます。時間をおいて再試行してください。', '請求過於頻繁，請稍後再試。'],
   length: ['消息超过长度限制，请缩短后重试。', 'Your message is too long. Shorten it and try again.', 'メッセージが長すぎます。短くして再試行してください。', '訊息超過長度限制，請縮短後重試。'],
@@ -11,7 +12,8 @@ const messages = {
 
 export function aiChatErrorText(code, locale, fallback) {
   const value = String(code || '').trim().toLowerCase();
-  const kind = /interrupted|truncated/.test(value) ? 'interrupted'
+  const kind = value === 'stream_resume_expired' ? 'expired'
+    : /interrupted|truncated/.test(value) ? 'interrupted'
     : /timeout/.test(value) ? 'timeout'
     : /rate_limit|too_many_requests|quota/.test(value) ? 'rate'
     : /message_too_long|payload_too_large/.test(value) ? 'length'
