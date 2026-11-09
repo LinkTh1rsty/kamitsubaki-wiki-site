@@ -1,7 +1,11 @@
+import {metadataCopy} from './metadata-copy';
 import {editorHost} from './editor-host';
 import {editorCopy} from '../../../../src/lib/visualEditorCopy.mjs';
 import {convertChineseText} from '../../../../src/lib/traditionalChinese.mjs';
 const extra:Record<string,[string,string]>={
+ '重试':['Retry','再試行'],
+ '档案':['Archive','アーカイブ'],
+ '无法打开指定文档。原有草稿仍保留，请重试或返回内容管理。':['This document could not be opened. Your existing drafts are preserved. Retry or return to content management.','指定したドキュメントを開けません。既存の下書きは保持されています。再試行するか、コンテンツ管理に戻ってください。'],
  '· 草稿版本':['· Draft version ','・下書き版 '],'草稿版本':['Draft version','下書き版'],
  '草稿版本记录保存次数，与审核轮次、当前公开版本分别计数。':['Draft versions count saves, separately from review rounds and published versions.','下書きの版は保存回数を表し、審査回数や公開版とは別に数えます。'],
  '审核与发布':['Review and publication','審査と公開'],
@@ -631,7 +635,7 @@ const extra:Record<string,[string,string]>={
 
 };
 const copies=new Map<string,Map<string,string>>();
-function translations(locale:string){let result=copies.get(locale);if(result)return result;result=new Map();const base=editorCopy('zh'),target=editorCopy(locale);function walk(a:any,b:any){for(const [key,value] of Object.entries(a)){if(typeof value==='string'&&typeof b?.[key]==='string')result!.set(value,b[key]);else if(value&&typeof value==='object')walk(value,b?.[key]);}}walk(base,target);for(const [zh,[en,ja]] of Object.entries(extra))result.set(zh,locale==='ja'?ja:locale==='en'?en:convertChineseText(zh,locale));copies.set(locale,result);return result;}
+function translations(locale:string){let result=copies.get(locale);if(result)return result;result=new Map();const base=editorCopy('zh'),target=editorCopy(locale);function walk(a:any,b:any){for(const [key,value] of Object.entries(a)){if(typeof value==='string'&&typeof b?.[key]==='string')result!.set(value,b[key]);else if(value&&typeof value==='object')walk(value,b?.[key]);}}walk(base,target);for(const [zh,[en,ja]] of Object.entries({...extra,...metadataCopy}))result.set(zh,locale==='ja'?ja:locale==='en'?en:convertChineseText(zh,locale));copies.set(locale,result);return result;}
 /** Only interface text is translated. Source, metadata values and Markdown stay intact. */
 export function workbenchText(value:string):string;
 export function workbenchText(value:undefined):undefined;

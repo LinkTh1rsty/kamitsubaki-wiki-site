@@ -1,4 +1,4 @@
-import {editorFetch,localEditorHost,editorHost} from './editor-host';
+import {editorFetch,localEditorHost} from './editor-host';
 import {LocalReviewService,type ReviewAccount} from './review-service';
 import {articleImageUrl,articleLocalImages,articleSourceWithContent,sameArticleContent,validateArticleContent,validateArticleImage,type ArticleBinding,type ArticleSnapshot,type ArticleContent,type ArticleImage} from './article-document';
 import type {ReviewAttachment} from './review-attachments';
@@ -103,7 +103,7 @@ export class LocalArticleService {
  async submit(account:ReviewAccount,revision:ArticleRevision){
   validateArticleContent(revision.content,true);for(const image of revision.content.mediaRefs||[])validateArticleImage(image,true);
   if(articleLocalImages(revision.content.body).length)throw new ArticleError('文章还有未暂存的本机图片，请先保存账号草稿。');
-  try{await this.call(account,'/api/articles/revisions/'+revision.id+(editorHost()?.admin?'/publish':'/submit'),'POST',{expectedVersion:revision.draft_version,expectedFingerprint:revision.fingerprint});}catch(error){const fresh=await this.detail(account,revision.id).catch(()=>null);if(!fresh||!['pending','approved','rejected'].includes(fresh.status)||fresh.fingerprint!==revision.fingerprint||fresh.draft_version!==revision.draft_version)throw error;}
+  try{await this.call(account,'/api/articles/revisions/'+revision.id+'/submit','POST',{expectedVersion:revision.draft_version,expectedFingerprint:revision.fingerprint});}catch(error){const fresh=await this.detail(account,revision.id).catch(()=>null);if(!fresh||!['pending','approved','rejected'].includes(fresh.status)||fresh.fingerprint!==revision.fingerprint||fresh.draft_version!==revision.draft_version)throw error;}
   return this.detail(account,revision.id);
  }
  async withdraw(account:ReviewAccount,revision:ArticleRevision){await this.call(account,'/api/articles/revisions/'+revision.id+'/withdraw','POST',{updatedAt:revision.updated_at,fingerprint:revision.fingerprint});return this.detail(account,revision.id);}

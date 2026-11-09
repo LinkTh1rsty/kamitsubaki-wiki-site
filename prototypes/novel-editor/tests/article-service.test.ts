@@ -103,3 +103,21 @@ test('new images are staged for revision forks and an account change during imag
  assert.equal(state.writes.length,writes);
  assert.equal((await service.load({...next,binding:receipt.binding})).foreign,true);
 });
+
+
+test('the admin host submits articles for review instead of publishing them', async () => {
+ const previous = Object.getOwnPropertyDescriptor(globalThis, 'window');
+ try {
+  Object.defineProperty(globalThis, 'window', {configurable: true, value: {__WIKI_EDITOR_HOST__: {admin: true, transport: 'local', locale: 'en'}}});
+  const {state, request} = fakeServer(), service = new LocalArticleService(request, new MemoryStorage());
+  const snapshot = articleSnapshot('admin-host', source, []);
+  const saved = await service.saveDraft(snapshot, {id:'alice',name:'alice'});
+  const result = await service.submit({id:'alice',name:'alice'}, state.revisions.get(saved.binding.revisionId)!);
+  assert.equal(result.status, 'pending');
+  assert.ok(state.writes.some(row => row.path.endsWith('/submit')));
+  assert.ok(state.writes.every(row => !row.path.endsWith('/publish')));
+ } finally {
+  if (previous) Object.defineProperty(globalThis, 'window', previous);
+  else Reflect.deleteProperty(globalThis, 'window');
+ }
+});

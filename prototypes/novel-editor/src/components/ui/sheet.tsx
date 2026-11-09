@@ -1,3 +1,4 @@
+import {workbenchText as t} from '@/lib/workbench-copy';
 import * as React from "react"
 import { cn } from "cn"
 import { Dialog as SheetPrimitive } from "radix-ui"
@@ -77,7 +78,7 @@ function SheetContent({
             >
               <XIcon
               />
-              <span className="sr-only">关闭</span>
+              <span className="sr-only">{t('关闭')}</span>
             </Button>
           </SheetPrimitive.Close>
         )}

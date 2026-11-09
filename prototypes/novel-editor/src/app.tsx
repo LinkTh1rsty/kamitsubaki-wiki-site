@@ -1,3 +1,4 @@
+import {notifyEditorHost} from './lib/embedded-host';
 import {HostNavigation} from './components/host-navigation';
 import {workbenchText as t} from '@/lib/workbench-copy';
 import {editorFetch as fetch,editorHost,localEditorHost,previewAssetUrl,previewHTML,restoreBrowserImages,registerStagedImages} from '@/lib/editor-host';
@@ -59,7 +60,7 @@ function downloadMarkdown(source: string, title: string, locale: string) {
 }
 
 export default function App() {
-  useEffect(()=>{const host=document.querySelector<HTMLElement>('[data-novel-workbench]');if(host)host.dataset.ready='true';return()=>{if(host)delete host.dataset.ready;};},[]);
+  useEffect(()=>{const host=document.querySelector<HTMLElement>('[data-novel-workbench]');if(host)host.dataset.ready='true';notifyEditorHost('ready');return()=>{if(host)delete host.dataset.ready;};},[]);
   const headerSize = useContainerWidth<HTMLElement>();
   const canvasSize = useContainerWidth<HTMLDivElement>();
   const [record, setRecord] = useState<DocumentRecord>(initialDocument);
@@ -162,8 +163,10 @@ export default function App() {
       recordRef.current = { ...recordRef.current, source };
       if (!pendingRef.current) setSourceValue(source);
       setStorageError(''); setStatus(pendingRef.current ? t("源码已暂存，尚未应用") : pendingNode.current ? t("填写内容已暂存，尚未应用") : t("已保存到本地"));
+      notifyEditorHost('saved');
       return true;
     } catch (error) {
+      notifyEditorHost('dirty');
       setStatus(t("尚未保存"));
       setStorageError(error instanceof DraftConflictError ? t("这份草稿已在另一个标签页中修改。请关闭其中一个标签页，或导出 Markdown 后再继续。") : t("本地草稿无法保存。请导出 Markdown 备份当前内容。"));
       return false;
@@ -171,7 +174,7 @@ export default function App() {
   }, [liveSource]);
   const currentSource = useCallback(() => recordRef.current.source, []);
   const changed = useCallback(() => {
-    try { setTouched(true); setStatus(t("正在保存…")); clearTimeout(timer.current); timer.current = setTimeout(persist, 300); }
+    try { notifyEditorHost('dirty'); setTouched(true); setStatus(t("正在保存…")); clearTimeout(timer.current); timer.current = setTimeout(persist, 300); }
     catch (error: any) { setStorageError(error.message); }
   }, [liveSource, persist]);
   scheduleSave.current = changed;

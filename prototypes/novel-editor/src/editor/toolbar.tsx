@@ -67,7 +67,7 @@ export function EditorToolbar({ editor, open, editingContent = false }: { editor
   const [tableOpen, setTableOpen] = useState(false);
   const [speechImportOpen, setSpeechImportOpen] = useState(false);
   const { ref, width } = useContainerWidth<HTMLDivElement>();
-  const visible = visibleToolbarShortcuts(width);
+  const visible = visibleToolbarShortcuts(width, window.matchMedia('(max-width: 820px), (pointer: coarse)').matches);
   if (!editor) return <div ref={ref} className="wiki-format-toolbar" />;
   const heading = editor.isActive('heading') ? String(editor.getAttributes('heading').level) : 'paragraph';
   const formats = [

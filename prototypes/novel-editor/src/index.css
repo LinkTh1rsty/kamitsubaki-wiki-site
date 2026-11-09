@@ -571,9 +571,9 @@ html body .wiki-properties-sheet :is(input:not([type=checkbox]):not([type=color]
 @media (max-width: 760px) { html body .wiki-properties-content :is(input:not([type=checkbox]):not([type=color]), textarea, [data-slot=select-trigger]) { font-size: 16px; } }
 .wiki-format-toolbar [data-slot=select-trigger] { font-size: var(--ui-font-sm); }
 @media (max-width: 820px), (pointer: coarse) {
-  .wiki-mobile-menu, .wiki-header-actions > [data-slot=button] { min-width: 44px; min-height: 44px; }
-  .wiki-format-toolbar > [data-slot=button], .wiki-format-toolbar > [data-slot=select-trigger] { min-height: 44px; }
-  .wiki-format-toolbar > [data-slot=button][data-size^=icon] { min-width: 44px; }
+  .wiki-mobile-menu, .wiki-header-actions > button { min-width: 44px; min-height: 44px; }
+  .wiki-format-toolbar > button { min-height: 44px; }
+  .wiki-format-toolbar > button[data-size^=icon] { min-width: 44px; }
   .wiki-review-issues { margin-inline: 12px; }
 }
 @media (max-width: 560px) { .wiki-header-actions > [data-slot=button] > span { display: none; } }

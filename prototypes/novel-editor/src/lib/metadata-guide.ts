@@ -1,3 +1,4 @@
+import {workbenchText as t} from './workbench-copy';
 import { metadataOptions, metadataLabel } from '../../../../src/lib/editorMetadata.mjs';
 
 const commonLabels: Record<string, string> = { id: '永久标识', schemaVersion: '数据版本', locale: '语言', entityType: '词条类型', name: '名称', title: '标题', romanizedName: '罗马字名称', romanizedTitle: '罗马字标题', summary: '简介', aliases: '别名', tags: '标签', sources: '资料来源', relations: '关联词条', affiliations: '所属组织', officialLinks: '官方链接', roles: '身份', lifecycle: '活动信息', presentation: '展示设置', classification: '收录分类', seo: '搜索设置', tracks: '曲目列表', performers: '演唱者', credits: '制作名单', voiceEngines: '声库引擎', dateRange: '演出日期', venue: '场地', author: '作者', publishDate: '发布日期', relatedEntities: '相关词条', articleCategory: '文章分类', url: '链接地址', href: '链接地址', target: '关联词条', entity: '参与人物', releaseDate: '发行日期', releaseType: '发行形式' };
@@ -161,7 +162,7 @@ const guides: Record<string, Guide> = {
   ruby: { label: '名称注音', description: '词条名称的官方读法。', placeholder: '例如 かふ' },
 };
 const dates = ['startedAt', 'endedAt', 'startDate', 'endDate', 'start', 'end', 'archiveDate', 'checkedAt'];
-export function metadataGuide(path: string): Guide {
+function rawMetadataGuide(path: string): Guide {
   const normalized = path.split('.').filter(key => !/^\d+$/.test(key)).join('.');
   const name = normalized.split('.').at(-1)!;
   if (guides[normalized]) return guides[normalized];
@@ -171,4 +172,9 @@ export function metadataGuide(path: string): Guide {
   if (['entity', 'organization', 'target'].includes(name)) return { description: '从词条库选择对应资料，让读者可以继续查阅。' };
   if (guides[name]) return guides[name];
   return { description: '导入文件中的兼容资料会保持原样。不确定用途时可保留原值。' };
+}
+
+export function metadataGuide(path: string): Guide {
+  const guide = rawMetadataGuide(path);
+  return { description: t(guide.description), label: t(guide.label), placeholder: t(guide.placeholder) };
 }
