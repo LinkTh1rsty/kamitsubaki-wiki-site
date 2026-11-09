@@ -1,3 +1,4 @@
+import {galleryHeicCopy, isGalleryHeic, prepareGalleryImage} from '../lib/galleryImageInput.mjs';
 import {uploadStatusTarget} from '../lib/uploadStatusTarget.mjs';
 import {adminURL} from '../lib/adminOrigin.mjs';
 import {setIconLabel} from '../lib/icons.mjs';
@@ -24,6 +25,7 @@ if(root){
  const admin=new URLSearchParams(location.search).get('admin')==='1';
  const controller=new AbortController();
  const locale=root.dataset.locale||'zh';
+ const heic=galleryHeicCopy(locale);
  if(admin){
   const page=document.querySelector('.gallery-manage-shell');
   const intro=document.querySelector('.gallery-manage-shell .workspace-heading p:last-child');
@@ -85,10 +87,15 @@ else if(item.state==='failed'&&!item.existingAsset){const retry=text('button',c.
  async function addFiles(list,setId=active){
   if(simulating||disposed||!owner)return;
   const messages=[];
-  for(const file of list){
+  for(const original of list){
    if(files.length>=uploadLimits.batchFiles){messages.push(c.batchLimit);break;}
-   if(!['image/png','image/jpeg','image/webp','image/gif'].includes(file.type)){messages.push(format(c.unsupported,{name:file.name}));continue;}
-   if(file.size>uploadLimits.fileBytes){messages.push(format(c.tooLarge,{name:file.name}));continue;}
+   if(original.size>uploadLimits.fileBytes){messages.push(format(c.tooLarge,{name:original.name}));continue;}
+   if(isGalleryHeic(original))status(heic.converting);
+   let file;
+   try{file=await prepareGalleryImage(original);}
+   catch{messages.push(original.name+' · '+heic.failed);continue;}
+   if(!file){messages.push(format(c.unsupported,{name:original.name}));continue;}
+   if(file.size>uploadLimits.fileBytes){messages.push(format(c.tooLarge,{name:original.name}));continue;}
    let sha256;
    try{sha256=await galleryFileHash(file);}catch{/* Upload still validates the file on the server. */}
    if(disposed)return;
@@ -109,7 +116,7 @@ else if(item.state==='failed'&&!item.existingAsset){const retry=text('button',c.
  root.addEventListener('input',event=>{if(event.target.matches('[data-character-filter]')){roleOptions(event.target.closest('[data-set]'),event.target.value);return;}if(event.target.matches('[name=title],[name=form]'))index();changed();});
  root.addEventListener('change',event=>{if(event.target.matches('[name=character]')){index();void formOptions(event.target.closest('[data-set]'));changed();}});
  root.addEventListener('dragover',event=>{const zone=event.target.closest('[data-drop-set]');if(zone){event.preventDefault();zone.dataset.dragging='';}});root.addEventListener('dragleave',event=>event.target.closest('[data-drop-set]')?.removeAttribute('data-dragging'));root.addEventListener('drop',event=>{const zone=event.target.closest('[data-drop-set]');if(!zone)return;event.preventDefault();zone.removeAttribute('data-dragging');active=zone.dataset.dropSet;void addFiles([...event.dataTransfer.files],active);});
- root.addEventListener('paste',event=>{const set=event.target.closest('[data-set]');const images=[...(event.clipboardData?.files||[])].filter(file=>file.type.startsWith('image/'));if(images.length&&owner&&!disposed&&!simulating){event.preventDefault();void addFiles(images,set?.dataset.set||active);}});
+ root.addEventListener('paste',event=>{const set=event.target.closest('[data-set]');const images=[...(event.clipboardData?.files||[])].filter(file=>file.type.startsWith('image/')||isGalleryHeic(file));if(images.length&&owner&&!disposed&&!simulating){event.preventDefault();void addFiles(images,set?.dataset.set||active);}});
  $('[data-add-set]').onclick=()=>{if(simulating||disposed)return;serial++;const node=template.cloneNode(true);node.dataset.set=`set-${serial}`;node.id=`creation-set-${serial}`;node.querySelector('.creation-caption').textContent=`${String(serial).padStart(2,'0')} / SET`;node.querySelector('h3').textContent=format(c.numberedSet,{n:serial});node.querySelector('[data-image-list]').replaceChildren();node.querySelectorAll('[name]').forEach(e=>{e.value='';e.id=`set-${serial}-${e.name}`;e.closest('label')?.setAttribute('for',e.id);});node.querySelector('[data-form-options]').id=`set-${serial}-forms`;node.querySelector('[name=form]').setAttribute('list',`set-${serial}-forms`);node.querySelectorAll('[data-select-set]').forEach(e=>e.dataset.selectSet=node.dataset.set);node.querySelector('[data-drop-set]').dataset.dropSet=node.dataset.set;$('[data-set-container]').append(node);roleOptions(node);active=node.dataset.set;index();changed();node.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});};
  async function uploadItems(items){
   if(disposed)return;const jobs=[];

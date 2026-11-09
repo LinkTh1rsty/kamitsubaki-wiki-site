@@ -4,13 +4,13 @@ import WorkspaceButton from './WorkspaceButton.astro';
 import {imageLibraryCopy} from '../lib/imageLibraryCopy.mjs';
 import ContextAction from './ContextAction.astro';
 import '../styles/imageLibrary.css';
-interface Props {locale:string;picker?:boolean;allowUpload?:boolean;}
-const {locale,picker=false,allowUpload=true}=Astro.props,c=imageLibraryCopy(locale);
+interface Props {locale:string;picker?:boolean;allowUpload?:boolean;mineOnly?:boolean;}
+const {locale,picker=false,allowUpload=true,mineOnly=false}=Astro.props,c=imageLibraryCopy(locale);
 const api=import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
-<section class="image-library" data-image-library data-api={api} data-locale={locale} data-copy={JSON.stringify(c)} data-picker={String(picker)} data-allow-upload={String(allowUpload)}>
+<section class="image-library" data-image-library data-api={api} data-locale={locale} data-copy={JSON.stringify(c)} data-picker={String(picker)} data-allow-upload={String(allowUpload)} data-library-start={mineOnly?"mine":"public"}>
  {picker&&<p class="image-library-intro">{allowUpload?c.intro:c.browseOnly}</p>}
- <div class="image-library-toolbar"><nav aria-label={c.title}>{(['public','mine','upload'] as const).filter(key=>allowUpload||key!=='upload').map(key=><WorkspaceButton type="button" data-library-tab={key} aria-pressed={key==='public'}>{c[key]}</WorkspaceButton>)}</nav><ContextAction href={`/${locale}/account/creator/`} target={picker?'_blank':undefined} rel="noopener" tone="quiet">{c.creator}</ContextAction></div>
+ {!mineOnly && <div class="image-library-toolbar"><nav aria-label={c.title}>{(['public','mine','upload'] as const).filter(key=>allowUpload||key!=='upload').map(key=><WorkspaceButton type="button" data-library-tab={key} aria-pressed={key==='public'}>{c[key]}</WorkspaceButton>)}</nav><ContextAction href={`/${locale}/account/creator/`} target={picker?'_blank':undefined} rel="noopener" tone="quiet">{c.creator}</ContextAction></div>}
  <div data-library-browse><div class="image-library-filters"><label><span>{c.search}</span><WorkspaceControl type="search" data-library-search maxlength="120"/></label><label><span>{c.purpose}</span><WorkspaceControl as="select" data-library-purpose><option value="">{c.all}</option><option value="gallery">{c.gallery}</option><option value="entry">{c.entry}</option></WorkspaceControl></label><WorkspaceButton type="button" data-library-refresh>{c.refresh}</WorkspaceButton></div><div data-library-grid class="image-library-grid"></div><WorkspaceButton type="button" data-library-more hidden>{c.more}</WorkspaceButton></div>
  <WorkspaceButton type="button" data-library-restore hidden>{c.restore}</WorkspaceButton>
  <p data-library-local-status role="status"></p>

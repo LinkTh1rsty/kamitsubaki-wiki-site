@@ -1,4 +1,4 @@
-const contributionPath=/^\/(?:zh|zh-tw|zh-hk|ja|en)\/(?:media|account\/creator|articles\/submit|contribute(?:\/(?:editor|review))?|chronicle\/submit|gallery\/(?:manage(?:\/photos|\/legacy)?|classify))\/$/;
+const contributionPath=/^\/(?:zh|zh-tw|zh-hk|ja|en)\/(?:media|account\/creator|articles\/submit|contribute(?:\/(?:editor|review))?|chronicle\/submit|gallery\/(?:manage(?:\/photos|\/legacy)?|classify|mine))\/$/;
 
 export function safeAccountReturnTo(raw,origin){
   if(!raw)return null;

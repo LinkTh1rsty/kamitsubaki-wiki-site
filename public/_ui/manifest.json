@@ -1,6 +1,6 @@
 {
   "schema": "wiki-site-components-v1",
-  "version": "3b10236333eda63e",
+  "version": "997c0616730ab1b6",
   "builder": "kamitsubaki-wiki-site-backend/auth-ui/vite.site.config.ts",
   "artifacts": {
     "chat-CLLUwC7P.js": "4ea4e500485322098b34d49eaa61db60e7a4b68d1619c0b020feb38c91a37335",
@@ -13,7 +13,7 @@
   },
   "inputs": {
     "src/AccountBoundary.tsx": "93ef5c9c8178027bf79161aab7abff1cfd210fd6a82c1cc505c2a05e7d552599",
-    "src/App.tsx": "bf74fedfc07e77e3ae5c7f0be8829543f1327c3214d3d093c175dc1e092e2d86",
+    "src/App.tsx": "195cb1321965e25190ca02446fd04f2464c3ae3eb8a8366626904f6552c757ec",
     "src/MergeAccount.tsx": "6bf078566d2ea100de40eb5e18a3fd09c678d8e261e945687b016358a9a9e55f",
     "src/accountQuery.ts": "4b6f26a0181afb26bda1304afba33f50f875ec2cd4f896f84dccf27586e7209c",
     "src/adminEntry.d.mts": "d259832238ee51b8bdddb994c59fe9daad3c85a7170e3ae3adb741cad6919f67",

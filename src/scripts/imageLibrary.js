@@ -115,5 +115,5 @@ export function mountImageLibrary(root,{onChoose,onCover}={}){
  window.addEventListener('kamitsubaki-account-state',()=>{if(owner&&state.viewer?.userId!==owner){owner=null;operation=null;selected=[];locallySaved=false;$('[data-library-restore]').hidden=true;$('[data-library-local-status]').textContent='';urls.forEach(URL.revokeObjectURL);urls=[];form.reset();evidence();$('[data-library-files]').replaceChildren();++epoch;controller?.abort();$('[data-library-grid]').replaceChildren();$('[data-library-links]').replaceChildren();status(c.login);}});
  const unload=event=>{if(busy||selected.length&&!locallySaved){event.preventDefault();event.returnValue='';}};window.addEventListener('beforeunload',unload);
  document.addEventListener('astro:before-swap',()=>{controller?.abort();clearTimeout(searchTimer);urls.forEach(URL.revokeObjectURL);window.removeEventListener('beforeunload',unload);},{once:true});
- return {open(files=[]){show(files.length&&allowUpload?'upload':'public');if(files.length&&allowUpload)setFiles(files);},refresh:load};
+ return {open(files=[],initialTab=root.dataset.libraryStart||'public'){show(files.length&&allowUpload?'upload':initialTab);if(files.length&&allowUpload)setFiles(files);},refresh:load};
 }

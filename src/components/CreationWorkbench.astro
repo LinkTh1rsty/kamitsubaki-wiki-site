@@ -1,4 +1,5 @@
 ---
+import {galleryImageAccept,galleryHeicCopy} from '../lib/galleryImageInput.mjs';
 import WorkspaceControl from './WorkspaceControl.astro';
 import IconLabel from './IconLabel.astro';
 import Icon from './Icon.astro';
@@ -26,7 +27,7 @@ const c=creationWorkbenchCopy(locale),layout=contributionLayoutCopy(locale),guid
   <div class="creation-workspace">
    <aside class="creation-index"><p class="creation-caption">{c.currentSets}</p><nav data-set-index aria-label={c.setIndex}></nav></aside>
    <div class="creation-content" data-set-container>
-    <section class="creation-set" data-set="set-1" id="creation-set-1"><header><div><span class="creation-caption">SET</span><h3>{c.firstSet}</h3></div><div class="creation-set-actions">{live&&<><WorkspaceButton type="button" data-remove-set>{c.removeSet}</WorkspaceButton></>}</div></header><div class="submission-columns creation-set-layout"><SubmissionPanel title={layout.info} hint={layout.setHint} step="01" heading="h4"><CreationFields prefix="set-1" live={live} locale={locale}/></SubmissionPanel><SubmissionPanel title={layout.images} hint={layout.imageHint} step="02" heading="h4" class="creation-set-media"><div class="creation-image-heading"><strong data-set-photo-count>0 {c.photosUnit}</strong><span>{c.coverHint}</span></div><div class="creation-drop" data-drop-set="set-1" tabindex="0" aria-label={c.dropAria}><span aria-hidden="true"><Icon name="plus" /></span><strong>{c.dropPrompt}</strong><WorkspaceButton type="button" data-select-set="set-1">{c.selectPhotos}</WorkspaceButton><WorkspaceControl data-file-picker type="file" accept="image/png,image/jpeg,image/webp,image/gif" multiple hidden/></div><div data-image-list></div></SubmissionPanel></div></section>
+    <section class="creation-set" data-set="set-1" id="creation-set-1"><header><div><span class="creation-caption">SET</span><h3>{c.firstSet}</h3></div><div class="creation-set-actions">{live&&<><WorkspaceButton type="button" data-remove-set>{c.removeSet}</WorkspaceButton></>}</div></header><div class="submission-columns creation-set-layout"><SubmissionPanel title={layout.info} hint={layout.setHint} step="01" heading="h4"><CreationFields prefix="set-1" live={live} locale={locale}/></SubmissionPanel><SubmissionPanel title={layout.images} hint={layout.imageHint} step="02" heading="h4" class="creation-set-media"><div class="creation-image-heading"><strong data-set-photo-count>0 {c.photosUnit}</strong><span>{c.coverHint}</span></div><div class="creation-drop" data-drop-set="set-1" tabindex="0" aria-label={c.dropAria}><span aria-hidden="true"><Icon name="plus" /></span><strong>{c.dropPrompt}</strong><WorkspaceButton type="button" data-select-set="set-1">{c.selectPhotos}</WorkspaceButton><WorkspaceControl data-file-picker type="file" accept={galleryImageAccept} title={galleryHeicCopy(locale).note} multiple hidden/></div><div data-image-list></div></SubmissionPanel></div></section>
    </div>
 
   </div>

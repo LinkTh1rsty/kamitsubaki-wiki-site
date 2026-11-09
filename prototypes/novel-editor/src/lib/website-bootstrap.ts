@@ -64,7 +64,12 @@ export async function initializeWebsiteDocument(){
  const host=editorHost();if(!host)return;
  const query=new URLSearchParams(location.search),candidates=classicDrafts();setupRecovery(candidates);
  const revisionId=query.get('revision'),articleId=query.get('id'),submissionId=query.get('submission'),draftPath=query.get('draftPath');
- if(!readLastLocalDraft()&&!revisionId&&!articleId&&!submissionId&&!draftPath){const identity=query.get('draft');const known=candidates.find(item=>item.automatic&&(!host.initialTarget||item.raw.path===host.initialTarget)&&(!identity||item.identity===identity));if(known)host.initialDocument=await restoreClassicDraft(known);}
+ const localDraft=query.get('localDraft');
+ if(host.mode==='article'&&!revisionId&&!articleId&&localDraft){
+  const key='article-local:'+localDraft;
+  host.initialDocument=readLocalDraft(key)||{key,path:'',source:newDocumentSource(host.contentLocale)};
+ }
+ if(!host.initialDocument&&!readLastLocalDraft()&&!revisionId&&!articleId&&!submissionId&&!draftPath){const identity=query.get('draft');const known=candidates.find(item=>item.automatic&&(!host.initialTarget||item.raw.path===host.initialTarget)&&(!identity||item.identity===identity));if(known)host.initialDocument=await restoreClassicDraft(known);}
  if(host.mode==='article'&&revisionId){
   const {revision:r}=await json('/api/articles/revisions/'+encodeURIComponent(revisionId));if(r.author_id!==host.ownerId)throw Error('请在内容管理中审核其他作者的稿件。');
   const key='article:'+host.ownerId+':'+r.article_id,saved=readLocalDraft(key);const source=r.status==='draft'&&saved&&saved.article&&saved.article.revisionId===r.id&&saved.article.fingerprint===r.fingerprint?saved.source:properties(articleSourceWithContent(newDocumentSource(r.locale),r.content),{id:r.article_id});

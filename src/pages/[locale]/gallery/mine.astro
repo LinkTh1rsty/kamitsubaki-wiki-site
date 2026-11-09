@@ -1,0 +1,38 @@
+---
+import GalleryNavigation from '../../../components/GalleryNavigation.astro';
+import ImageLibrary from '../../../components/ImageLibrary.astro';
+import WorkspaceButton from '../../../components/WorkspaceButton.astro';
+import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
+import {supportedLocales,resolveLocaleCopy} from '../../../lib/i18n.mjs';
+export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
+const locale=Astro.params.locale!;
+const c=resolveLocaleCopy({
+ zh:{title:'我的投稿',intro:'查看你上传的图片和审核状态。',drafts:'管理草稿与审核记录',restore:'恢复旧版上传草稿'},
+ en:{title:'My submissions',intro:'View the images you submitted and their review status.',drafts:'Manage drafts and review history',restore:'Recover an older upload draft'},
+ ja:{title:'自分の投稿',intro:'投稿した画像と審査状況を確認できます。',drafts:'下書きと審査履歴を管理',restore:'旧版のアップロード下書きを復元'},
+},locale);
+---
+<WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/gallery/mine/" eyebrow="GALLERY" width="wide" noindex>
+ <GalleryNavigation slot="navigation" locale={locale} current="mine"/>
+ <WorkspaceButton slot="actions" href={`/${locale}/account/creator/?recordType=gallery`}>{c.drafts}</WorkspaceButton>
+ <WorkspaceButton href={`/${locale}/media/?restore=1`} data-legacy-gallery-draft hidden>{c.restore}</WorkspaceButton>
+ <ImageLibrary locale={locale} allowUpload={false} mineOnly/>
+</WorkspaceLayout>
+<script>
+ import {mountImageLibrary} from '../../../scripts/imageLibrary.js';
+ import {refreshAuth} from '../../../scripts/accountStore.js';
+ import {galleryDraft} from '../../../lib/galleryDraftStore.mjs';
+ const root=document.querySelector<HTMLElement>('[data-image-library]');
+ mountImageLibrary(root)?.open();
+ if(root){
+  const saved=async()=>{
+   const viewer=await refreshAuth();
+   if(!viewer)return;
+   const api=root.dataset.api?.replace(/\/$/,'');
+   const draft=await galleryDraft('get',`shared-images:${api}:${viewer.userId}:false`);
+   const link=document.querySelector<HTMLElement>('[data-legacy-gallery-draft]');
+   if(link&&draft?.files?.length)link.hidden=false;
+  };
+  void saved().catch(()=>{});
+ }
+</script>

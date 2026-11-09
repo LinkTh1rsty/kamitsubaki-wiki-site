@@ -18,7 +18,7 @@ const security=new URL('/auth/security',centralAccountUIOrigin(apiBase));securit
 ---
 <nav class="account-sections" aria-label={c.title}>
   {groups.map(group=><div class="account-sections-group"><span class="account-sections-heading">{group.label}</span>{group.items.map(([key,label])=>{
-    const href=key==='security'?security.toString():key==='images'?`/${locale}/media/`:key==='creator'?`${base}creator/`:active==='creator'?`${base}#${key}`:`#${key}`;
+    const href=key==='security'?security.toString():key==='images'?`/${locale}/gallery/mine/`:key==='creator'?`${base}creator/`:active==='creator'?`${base}#${key}`:`#${key}`;
     return <a href={href} data-account-security={key==='security'||undefined} data-account-label={label} aria-current={key==='creator'&&active==='creator'?'page':key==='overview'&&active==='account'?'location':undefined}>{label}{key==='creator'&&<b data-creator-unread hidden></b>}</a>;
   })}</div>)}
 </nav>

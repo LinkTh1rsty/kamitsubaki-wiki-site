@@ -1,6 +1,6 @@
 ---
 import '../../../styles/uploadComponents.css';
-import Icon from '../../../components/Icon.astro';
+import GalleryNavigation from '../../../components/GalleryNavigation.astro';
 import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
 import {supportedLocales,resolveLocaleCopy} from '../../../lib/i18n.mjs';
 import CreationWorkbench from '../../../components/CreationWorkbench.astro';
@@ -9,20 +9,14 @@ export function getStaticPaths(){return supportedLocales.map(locale=>({params:{l
 const locale=Astro.params.locale!;
 const api=import.meta.env.PUBLIC_GALLERY_API_URL||import.meta.env.PUBLIC_AI_OBSERVER_API_BASE||'https://api.kamitsubaki.wiki';
 const copy=resolveLocaleCopy({
- zh:{title:'投稿图片资料',intro:'可以直接上传照片，也可以把一套设定作为完整资料投稿。图片与后续分类都经审核后公开。',back:'返回图库',login:'登录后参与',photos:'直接上传照片',photosHint:'先收录可核对来源的照片；角色、类型与标签以后也能补。',sets:'创建设定组',setsHint:'一组设定填写一次角色、形态与共用来源，再安排组内照片。'},
- ja:{title:'画像資料を投稿',intro:'画像を直接投稿するか、設定資料をセットとして提出できます。公開前に審査します。',back:'ギャラリーへ',login:'ログインして参加',photos:'画像を直接投稿',photosHint:'出典を記して画像を収集。人物や種類は後から追加できます。',sets:'設定セットを作成',setsHint:'人物・形態・共通出典を記して画像をまとめます。'},
- en:{title:'Contribute images',intro:'Upload photos directly or submit a complete design set. Images and later classification appear after review.',back:'Back to gallery',login:'Sign in to contribute',photos:'Upload photos',photosHint:'Start with attributable photos; people, types and tags can be added later.',sets:'Create a design set',setsHint:'Group related images with a shared person, form and source.'}
+ zh:{title:'投稿设定组',intro:'填写共用的角色、形态和来源，再选择组内图片。',back:'返回图库',login:'登录后参与',photos:'直接上传照片',photosHint:'先收录可核对来源的照片；角色、类型与标签以后也能补。',sets:'创建设定组',setsHint:'一组设定填写一次角色、形态与共用来源，再安排组内照片。'},
+ ja:{title:'設定セットを投稿',intro:'人物・形態・出典を入力し、セットに含める画像を選択します。',back:'ギャラリーへ',login:'ログインして参加',photos:'画像を直接投稿',photosHint:'出典を記して画像を収集。人物や種類は後から追加できます。',sets:'設定セットを作成',setsHint:'人物・形態・共通出典を記して画像をまとめます。'},
+ en:{title:'Submit a design set',intro:'Add the shared subject, form and source, then select the images in the set.',back:'Back to gallery',login:'Sign in to contribute',photos:'Upload photos',photosHint:'Start with attributable photos; people, types and tags can be added later.',sets:'Create a design set',setsHint:'Group related images with a shared person, form and source.'}
 },locale);
 ---
-<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/manage/" eyebrow="GALLERY / UPLOAD" backHref={`/${locale}/gallery/`} backLabel={copy.back} noindex mainAttributes={{class:'gallery-manage-shell creation-preview-page','data-gallery-api':api,'data-gallery-login':`/${locale}/account/`,'data-admin-intro':resolveLocaleCopy({zh:'管理员可以直接发布；暂存的图片在发布前不会公开。',ja:'管理者は直接公開できます。一時保存した画像は公開前には表示されません。',en:'Administrators can publish directly. Staged images remain private until publication.'},locale)}}>
+<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/manage/" eyebrow="GALLERY / UPLOAD" noindex mainAttributes={{class:'gallery-manage-shell creation-preview-page','data-gallery-api':api,'data-gallery-login':`/${locale}/account/`,'data-admin-intro':resolveLocaleCopy({zh:'管理员可以直接发布；暂存的图片在发布前不会公开。',ja:'管理者は直接公開できます。一時保存した画像は公開前には表示されません。',en:'Administrators can publish directly. Staged images remain private until publication.'},locale)}}>
  <Fragment slot="actions"><ContextAction data-gallery-login hidden>{copy.login}</ContextAction></Fragment>
-  <nav class="gallery-manage-path" aria-label={copy.title}><a class="gallery-manage-path__link" href={`/${locale}/gallery/`}>{copy.back}</a><span aria-hidden="true">/</span><a class="gallery-manage-path__link" href={`/${locale}/gallery/manage/`}>{copy.title}</a><span aria-hidden="true">/</span><strong>{copy.sets}</strong></nav>
-  <div class="gallery-upload-choices"><a class="gallery-upload-choice" href={`/${locale}/gallery/manage/photos/`}><small>PHOTO ARCHIVE</small><strong>{copy.photos}</strong><span>{copy.photosHint}</span><b aria-hidden="true"><Icon name="arrow-up-right" /></b></a><a class="gallery-upload-choice" href={`/${locale}/gallery/manage/?mode=sets`}><small>DESIGN SET</small><strong>{copy.sets}</strong><span>{copy.setsHint}</span><b aria-hidden="true"><Icon name="arrow-up-right" /></b></a></div>
-  <div class="gallery-set-workbench" data-set-workbench><CreationWorkbench live locale={locale}/></div>
+ <GalleryNavigation slot="navigation" locale={locale} current="upload" kind="sets"/>
+ <CreationWorkbench live locale={locale}/>
 </WorkspaceLayout>
 <script>import '../../../scripts/galleryUploader.js';</script>
-<script is:inline>if(new URLSearchParams(location.search).has('mode')||['set','revision','batch','edit'].some(key=>new URLSearchParams(location.search).has(key))){document.querySelector('[data-set-workbench]')?.setAttribute('data-open','');document.querySelector('.gallery-manage-shell')?.setAttribute('data-edit-mode','');}</script>
-<style>
-.gallery-upload-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:8px 0 24px}.gallery-upload-choices a{position:relative;display:grid;align-content:start;gap:12px;min-height:210px;padding:24px;border:1px solid color-mix(in srgb,var(--theme-fg) 18%,transparent);border-radius:var(--ui-radius-card);text-decoration:none;color:var(--theme-fg);transition:border-color .18s,translate .18s}.gallery-upload-choices a:hover,.gallery-upload-choices a:focus-visible{border-color:var(--theme-accent-color);translate:0 -3px}.gallery-upload-choices small{font:var(--ui-font-xs) var(--font-mono);letter-spacing:.16em;opacity:.6}.gallery-upload-choices strong{font:400 27px var(--font-serif)}.gallery-upload-choices span{max-width:28rem;font:13px/1.8 var(--font-sans);opacity:.7}.gallery-upload-choices b{position:absolute;right:24px;top:24px;font-weight:400}.gallery-set-workbench:not([data-open]){display:none}@media(max-width:650px){.gallery-upload-choices{grid-template-columns:1fr}.gallery-upload-choices a{min-height:170px}}@media(prefers-reduced-motion:reduce){.gallery-upload-choices a{transition:none}}
-.gallery-manage-path{display:none;align-items:center;flex-wrap:wrap;gap:9px;margin:4px 0 18px;padding:12px 14px;border:1px solid color-mix(in srgb,var(--theme-fg) 18%,transparent);border-radius:var(--ui-radius-control);font:12px/1.5 var(--font-sans)}.gallery-manage-path a{color:var(--theme-fg);text-underline-offset:3px}.gallery-manage-path span{opacity:.4}.gallery-manage-path strong{font-weight:600}:global(.gallery-manage-shell[data-edit-mode]) .gallery-manage-path{display:flex}:global(.gallery-manage-shell[data-edit-mode]) .gallery-upload-choices{display:none}
-</style>

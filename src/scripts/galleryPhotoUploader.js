@@ -1,3 +1,4 @@
+import {galleryHeicCopy, galleryImageAccept, isGalleryHeic, prepareGalleryImage} from '../lib/galleryImageInput.mjs';
 import {uploadStatusTarget} from '../lib/uploadStatusTarget.mjs';
 import {uploadGalleryFiles} from '../lib/galleryUploadQueue.mjs';
 import {uploadLimits,formatBytes} from '../lib/uploadPresentation.mjs';
@@ -11,6 +12,7 @@ import {refreshAuth,state} from './accountStore.js';
 const root=document.querySelector('[data-photo-workbench]');
 if(root){
  const $=selector=>root.querySelector(selector),api=root.dataset.api.replace(/\/$/,''),copy=JSON.parse(root.dataset.copy||'{}'),locale=root.dataset.locale;
+ const heic=galleryHeicCopy(locale);
  const create=(tag,value='')=>{const node=document.createElement(tag);node.textContent=value;return node;};
  let owner=null,batch=null,files=[],busy=false,busyAction='',entities=[],mediaTypes=[],disposed=false,draftController=null,draftId=null,stageFlight=null,selectedPhoto=null,localFilesUnavailable=false;
  const draftStatus=mountGalleryDraftStatus(root,locale,()=>draftController),metadataCopy=photoMetadataCopy(locale);
@@ -72,14 +74,35 @@ if(root){
    const body=create('div');body.className='gallery-photo-row__body';body.append(create('strong',file.name||'Photo'));const detail=create('small');detail.dataset.fileState='';body.append(detail);
    const tools=create('div');tools.className='gallery-photo-row__tools';const edit=create('button',copy.inspectPhoto||copy.override);edit.type='button';edit.onclick=()=>inspector(file,edit);const retry=create('button',copy.retryPhoto||copy.stage);retry.type='button';retry.dataset.photoRetry='';retry.onclick=()=>void stagePending([file]);const remove=create('button',copy.remove);remove.type='button';remove.dataset.photoRemove='';remove.onclick=()=>{if(['uploading','saving'].includes(file.state)||busyAction==='submit')return;if(file.url?.startsWith('blob:'))URL.revokeObjectURL(file.url);files=files.filter(item=>item!==file);render();void saveLocal();};tools.append(edit,retry,remove);body.append(tools);
    if(file.existingAsset?.kind==='public'){const link=create('a',copy.existingImage||copy.duplicateFile);link.href=`/${locale}/gallery/?photo=${encodeURIComponent(file.existingAsset.id)}`;link.target='_blank';link.rel='noopener';body.append(link);}
-   if(!(file.file instanceof Blob)&&file.state!=='staged'){const rebind=create('label',copy.reselectFile),input=document.createElement('input');input.type='file';input.accept='image/png,image/jpeg,image/webp,image/gif';input.onchange=()=>{const replacement=input.files?.[0];if(!replacement)return;if(!['image/png','image/jpeg','image/webp','image/gif'].includes(replacement.type)||replacement.size>uploadLimits.fileBytes){say(copy.invalidFile,'error');return;}if(file.url?.startsWith('blob:'))URL.revokeObjectURL(file.url);Object.assign(file,{file:replacement,name:replacement.name,size:replacement.size,url:URL.createObjectURL(replacement),state:'queued',error:'',sha256:null,existingAsset:null});render();void saveLocal();void stagePending([file]);};rebind.append(input);body.append(rebind);}
+   if(!(file.file instanceof Blob)&&file.state!=='staged'){const rebind=create('label',copy.reselectFile),input=document.createElement('input');input.type='file';input.accept=galleryImageAccept;input.onchange=async()=>{const original=input.files?.[0];if(!original)return;let replacement;try{replacement=await acceptedPhoto(original);}catch(error){say(error.message,'error');return;}if(disposed||busyAction==='submit')return;if(file.url?.startsWith('blob:'))URL.revokeObjectURL(file.url);Object.assign(file,{file:replacement,name:replacement.name,size:replacement.size,url:URL.createObjectURL(replacement),state:'queued',error:'',sha256:null,existingAsset:null});render();void saveLocal();void stagePending([file]);};rebind.append(input);body.append(rebind);}
    if(file.reviewNote)body.append(create('p',`${copy.reviewReason}：${file.reviewNote}`));row.append(preview,body);list.append(row);
   }updateRows();
  }
  function toggleEvidence(){const authorized=$('[data-default="rightsBasis"]').value==='authorized';$('[data-evidence-field]').hidden=!authorized;}
- async function addFiles(input){if(!owner||disposed){say(copy.loginFirst,'error');return;}if(busyAction==='submit')return;const errors=[];for(const file of input){if(files.length>=uploadLimits.batchFiles){errors.push(copy.tooMany);break;}if(!['image/png','image/jpeg','image/webp','image/gif'].includes(file.type)||file.size>uploadLimits.fileBytes){errors.push(`${file.name}：${copy.invalidFile}`);continue;}files.push({id:crypto.randomUUID(),file,name:file.name,size:file.size,url:URL.createObjectURL(file),metadata:{},state:'queued'});}render();say(errors.length?errors.join('；'):copy.queued,errors.length?'error':'info');await saveLocal();void stagePending();}
+ async function acceptedPhoto(original){
+  if(original.size>uploadLimits.fileBytes)throw Error(copy.invalidFile);
+  if(isGalleryHeic(original))say(heic.converting,'progress');
+  let file;
+  try{file=await prepareGalleryImage(original);}catch{throw Error(heic.failed);}
+  if(!file||file.size>uploadLimits.fileBytes)throw Error(copy.invalidFile);
+  return file;
+ }
+ async function addFiles(input){
+  if(!owner||disposed){say(copy.loginFirst,'error');return;}
+  if(busyAction==='submit')return;
+  const errors=[];
+  for(const original of input){
+   let file;
+   if(files.length>=uploadLimits.batchFiles){errors.push(copy.tooMany);break;}
+   try{file=await acceptedPhoto(original);}catch(error){errors.push(original.name+' · '+error.message);continue;}
+   if(disposed||busyAction==='submit')return;
+   if(files.length>=uploadLimits.batchFiles){errors.push(copy.tooMany);break;}
+   files.push({id:crypto.randomUUID(),file,name:file.name,size:file.size,url:URL.createObjectURL(file),metadata:{},state:'queued'});
+  }
+  render();say(errors.length?errors.join('\n'):copy.queued,errors.length?'error':'info');await saveLocal();void stagePending();
+ }
  $('[data-photo-files]').onchange=event=>{void addFiles([...event.target.files]);event.target.value='';};
- root.addEventListener('paste',event=>{const images=[...(event.clipboardData?.files||[])].filter(file=>file.type.startsWith('image/'));if(!images.length||!owner||disposed||busyAction==='submit')return;event.preventDefault();void addFiles(images);});
+ root.addEventListener('paste',event=>{const images=[...(event.clipboardData?.files||[])].filter(file=>file.type.startsWith('image/')||isGalleryHeic(file));if(!images.length||!owner||disposed||busyAction==='submit')return;event.preventDefault();void addFiles(images);});
  const drop=$('[data-photo-drop]');drop.ondragover=event=>{event.preventDefault();if(owner&&!busy&&!disposed)drop.dataset.dragging='';};drop.ondragleave=()=>delete drop.dataset.dragging;drop.ondrop=event=>{event.preventDefault();delete drop.dataset.dragging;void addFiles([...event.dataTransfer.files]);};
  root.querySelectorAll('[data-default]').forEach(input=>input.addEventListener('input',()=>{if(input.dataset.default==='rightsBasis')toggleEvidence();void saveLocal();}));
  $('[data-entity-search]').oninput=event=>{const q=event.target.value.trim().toLocaleLowerCase();root.querySelectorAll('[data-entity-options] label').forEach(label=>{label.hidden=Boolean(q&&!label.textContent.toLocaleLowerCase().includes(q));});};

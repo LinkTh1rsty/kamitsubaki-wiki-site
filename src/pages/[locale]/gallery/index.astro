@@ -1,4 +1,5 @@
 ---
+import GalleryNavigation from '../../../components/GalleryNavigation.astro';
 import galleryEntities from '../../../data/gallery-entities.json';
 import {imageAttributes} from '../../../lib/imageAssets.mjs';
 import WorkspaceControl from '../../../components/WorkspaceControl.astro';
@@ -24,9 +25,14 @@ Object.assign(copy,resolveLocaleCopy({
  en:{roleSort:'Sort subjects',roleOrderSite:'Directory order',roleOrderCount:'Most photos',roleOrderName:'Name',roleNoMatch:'No matching people or groups. Try another name.',roleCount:'People and groups shown',roleSearch:'Find a person or group',showAllRoles:'Show more people and groups',collapseRoles:'Collapse',moreLoading:'Loading next page…',loaded:'Showing',noSets:'No published design sets yet',noSetsHint:'Existing images are available as individual photos. Curated sets will appear here after contribution and review.',browsePhotos:'Browse all photos',createSet:'Create a design set',suggestedPhotos:'Explore these public photos',download:'Download photo',imageType:'Image type',subject:'Related subjects',author:'Image creator',attribution:'Source check',setName:'Design set',globalCount:'Archive-wide count'}
 },locale));
 ---
-<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/" eyebrow="EXPLORE / VISUAL ARCHIVE" backHref={`/${locale}/explore/`} backLabel={copy.back} width="wide" mainAttributes={{class:'gallery-archive','data-gallery':'','data-mobile-filters':'closed','data-api':api,'data-image-origin':import.meta.env.PUBLIC_GALLERY_IMAGE_ORIGIN||'https://images.kamitsubaki.wiki','data-locale':locale,'data-copy':JSON.stringify(copy)}}>
- <Fragment slot="actions"><WorkspaceButton href={`/${locale}/gallery/manage/`} tone="primary">{copy.upload}</WorkspaceButton></Fragment>
+<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/gallery/" eyebrow="VISUAL ARCHIVE" width="wide" mainAttributes={{class:'gallery-archive','data-gallery':'','data-mobile-filters':'closed','data-api':api,'data-image-origin':import.meta.env.PUBLIC_GALLERY_IMAGE_ORIGIN||'https://images.kamitsubaki.wiki','data-locale':locale,'data-copy':JSON.stringify(copy)}}>
+ <GalleryNavigation slot="actions" locale={locale} current="browse"/>
  <div class="gallery-overview" data-gallery-overview>
+  <section class="gallery-set-section" aria-labelledby="gallery-sets-title"><div class="gallery-section-heading"><div><h2 id="gallery-sets-title" data-gallery-section-title tabindex="-1">{copy.latestPhotos}</h2></div><output data-gallery-count></output></div>
+   <WorkspaceToolbar class="gallery-controls"><div class="gallery-view-switch workspace-tool-segments" role="group" aria-label={copy.title}><WorkspaceButton type="button" data-gallery-view="photos" aria-pressed="true">{copy.photos}</WorkspaceButton><WorkspaceButton type="button" data-gallery-view="sets" aria-pressed="false">{copy.viewSets}</WorkspaceButton></div>
+    <form class="gallery-toolbar gallery-primary-search" id="gallery-search-filters" data-gallery-search role="search"><label class="workspace-tool-field"><span class="sr-only">{copy.search}</span><WorkspaceControl type="search" name="q" placeholder={copy.search} autocomplete="off"/></label></form>
+   <WorkspaceButton class="gallery-filter-toggle" type="button" data-gallery-filter-toggle aria-expanded="false" aria-controls="gallery-filter-panel"><span data-gallery-filter-label>{copy.filters}</span><Icon name="chevron-down" class="gallery-filter-chevron" /></WorkspaceButton>
+   <div class="gallery-filter-panel" id="gallery-filter-panel" hidden>
   <section class="gallery-role-section" id="gallery-role-filters" aria-labelledby="gallery-roles-title">
    <div class="gallery-role-head"><div><span>PEOPLE / GROUPS</span><h2 id="gallery-roles-title">{copy.roles}</h2><p>{copy.rolesHint}</p></div></div>
    <div class="gallery-role-tools">
@@ -38,12 +44,7 @@ Object.assign(copy,resolveLocaleCopy({
    <output class="gallery-role-count" data-gallery-role-count aria-label={copy.roleCount} aria-live="polite"></output>
    <ExpandControl controls="gallery-role-list" expandLabel={copy.showAllRoles} collapseLabel={copy.collapseRoles} galleryRoles initiallyHidden withCollapse />
   </section>
-  <section class="gallery-set-section" aria-labelledby="gallery-sets-title"><div class="gallery-section-heading"><div><h2 id="gallery-sets-title" data-gallery-section-title tabindex="-1">{copy.latestPhotos}</h2></div><output data-gallery-count></output></div>
-   <WorkspaceToolbar class="gallery-controls"><div class="gallery-view-switch workspace-tool-segments" role="group" aria-label={copy.title}><WorkspaceButton type="button" data-gallery-view="photos" aria-pressed="true">{copy.photos}</WorkspaceButton><WorkspaceButton type="button" data-gallery-view="sets" aria-pressed="false">{copy.viewSets}</WorkspaceButton></div>
-   <WorkspaceButton class="gallery-filter-toggle" type="button" data-gallery-filter-toggle aria-expanded="false" aria-controls="gallery-filter-panel"><span data-gallery-filter-label>{copy.filters}</span><Icon name="chevron-down" class="gallery-filter-chevron" /></WorkspaceButton>
-   <div class="gallery-filter-panel" id="gallery-filter-panel" hidden>
-    <form class="gallery-toolbar" id="gallery-search-filters" data-gallery-search role="search"><label class="workspace-tool-field"><span class="sr-only">{copy.search}</span><WorkspaceControl type="search" name="q" placeholder={copy.search} autocomplete="off"/></label><WorkspaceButton type="button" data-gallery-clear>{copy.clear}</WorkspaceButton></form>
-    <div class="gallery-extra-tools workspace-tool-group"><label class="workspace-tool-field"><span class="sr-only">{copy.tags}</span><WorkspaceControl as="select" data-gallery-tag><option value="">{copy.tags}</option></WorkspaceControl></label><WorkspaceButton type="button" data-gallery-select>{copy.choose}</WorkspaceButton><a class="workspace-tool-action" data-gallery-classify hidden href={`/${locale}/gallery/classify/`}>{copy.classify}</a></div>
+    <div class="gallery-extra-tools workspace-tool-group"><label class="workspace-tool-field"><span class="sr-only">{copy.tags}</span><WorkspaceControl as="select" data-gallery-tag><option value="">{copy.tags}</option></WorkspaceControl></label><WorkspaceButton type="button" data-gallery-select>{copy.choose}</WorkspaceButton><a class="workspace-tool-action" data-gallery-classify hidden href={`/${locale}/gallery/classify/`}>{copy.classify}</a><WorkspaceButton type="button" data-gallery-clear>{copy.clear}</WorkspaceButton></div>
     <nav class="gallery-type-list workspace-tool-filters" data-gallery-types aria-label={copy.allTypes}></nav>
     <nav class="gallery-form-list workspace-tool-filters" id="gallery-form-filters" data-gallery-forms aria-label={copy.allForms}></nav>
    </div></WorkspaceToolbar>

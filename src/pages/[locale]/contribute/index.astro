@@ -12,7 +12,7 @@ const chronicleTask=resolveLocaleCopy({zh:{title:'投稿时间轴事件',note:'�
 copy.tasks.push(chronicleTask.title);copy.notes.push(chronicleTask.note);
 const activityTask=resolveLocaleCopy({zh:{title:'提交观测者企划',note:'登记聚会、应援与创作企划，补充日程、地区与来源。'},ja:{title:'観測者企画を投稿',note:'集まりや応援、創作企画の日程・地域・出典を登録します。'},en:{title:'Submit an observer project',note:'List meetups, support campaigns and creative projects with schedule, region and sources.'}},locale);
 copy.tasks.push(activityTask.title);copy.notes.push(activityTask.note);
-const paths=['contribute/editor/','articles/submit/','media/','chronicle/submit/','community/activities/apply/'];
+const paths=['contribute/editor/','articles/submit/','gallery/manage/photos/','chronicle/submit/','community/activities/apply/'];
 const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
 <WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/contribute/" eyebrow="CONTRIBUTE" width="wide" backHref={`/${locale}/`} backLabel={copy.home} mainAttributes={{'data-contribution-dashboard':'','data-api':api,'data-gallery-api':import.meta.env.PUBLIC_GALLERY_API_URL||api,'data-editor-api':import.meta.env.PUBLIC_EDITOR_API_BASE||api,'data-locale':locale,'data-copy':JSON.stringify(copy)}}>

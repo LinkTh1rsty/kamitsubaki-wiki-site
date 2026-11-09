@@ -1,4 +1,5 @@
 ---
+import GalleryNavigation from '../../../components/GalleryNavigation.astro';
 import ContributionFlow from '../../../components/ContributionFlow.astro';
 import WorkspaceLayout from '../../../layouts/WorkspaceLayout.astro';
 import ImageLibrary from '../../../components/ImageLibrary.astro';
@@ -8,7 +9,12 @@ export function getStaticPaths(){return supportedLocales.map(locale=>({params:{l
 const locale=Astro.params.locale||'zh',c=imageLibraryCopy(locale);
 ---
 <WorkspaceLayout locale={locale} title={c.title} intro={c.intro} path="/media/" eyebrow="GALLERY / MINE" width="wide" backHref={`/${locale}/account/creator/`} backLabel={c.back}>
+ <GalleryNavigation slot="navigation" locale={locale} current="mine"/>
  <ContributionFlow locale={locale} kind="image"/>
  <ImageLibrary locale={locale}/>
 </WorkspaceLayout>
-<script>import {mountImageLibrary} from '../../../scripts/imageLibrary.js';const library=mountImageLibrary(document.querySelector('[data-image-library]'));library?.open();</script>
+<script is:inline define:vars={{locale}}>
+ const params=new URLSearchParams(location.search);
+ if(!params.has('restore'))location.replace('/'+locale+'/gallery/mine/'+location.search+location.hash);
+</script>
+<script>import {mountImageLibrary} from '../../../scripts/imageLibrary.js';const library=mountImageLibrary(document.querySelector('[data-image-library]'));library?.open([], 'upload');</script>

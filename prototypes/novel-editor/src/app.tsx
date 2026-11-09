@@ -43,6 +43,8 @@ const ArticleReviewPane = lazy(() => import('@/components/article-review-pane'))
 const ReviewPane = lazy(() => import('@/components/review-pane'));
 type DocumentRecord = { key: string; path: string; source: string; baseSource?: string; create?: boolean; attachments?: ReviewAttachment[]; resolution?: ReviewResolution; article?: ArticleBinding; pendingSource?: string; pendingNode?: StoredNodeEdit; articleBase?: {articleId:string;version:number} };
 type View = 'edit' | 'source' | 'preview' | 'review';
+const articleWorkspace = editorHost()?.mode === 'article';
+const unnamedDocument = () => t(articleWorkspace ? '未命名文章' : '未命名词条');
 type ReviewIssue = { message: string; fields: { key: string; label: string }[] };
 async function jsonRequest(url: string, options?: RequestInit) {
   const response = await fetch(url, options); const body = await response.json();
@@ -159,7 +161,7 @@ export default function App() {
     try {
       const meta = metadataRef.current;
       const source = liveSource();
-      saveLocalDraft({ key: recordRef.current.key, path: recordRef.current.path, source, baseSource: recordRef.current.baseSource, create: recordRef.current.create, attachments: recordRef.current.attachments, resolution: recordRef.current.resolution, article: recordRef.current.article, articleBase:recordRef.current.articleBase, title: meta.name || meta.title || t('未命名词条'), locale: meta.locale || 'zh', savedAt: Date.now(), pendingSource: pendingRef.current, pendingNode: pendingNode.current });
+      saveLocalDraft({ key: recordRef.current.key, path: recordRef.current.path, source, baseSource: recordRef.current.baseSource, create: recordRef.current.create, attachments: recordRef.current.attachments, resolution: recordRef.current.resolution, article: recordRef.current.article, articleBase:recordRef.current.articleBase, title: meta.name || meta.title || unnamedDocument(), locale: meta.locale || 'zh', savedAt: Date.now(), pendingSource: pendingRef.current, pendingNode: pendingNode.current });
       recordRef.current = { ...recordRef.current, source };
       if (!pendingRef.current) setSourceValue(source);
       setStorageError(''); setStatus(pendingRef.current ? t("源码已暂存，尚未应用") : pendingNode.current ? t("填写内容已暂存，尚未应用") : t("已保存到本地"));
@@ -398,11 +400,11 @@ export default function App() {
     <div className="wiki-desktop-library">{navigator}</div>
     <div className="wiki-workbench-main"><header ref={headerSize.ref} className="wiki-workbench-header">
       <Button variant="ghost" size="icon" className="wiki-mobile-menu" aria-label={t("打开写作导航")} onClick={() => setNavigationOpen(true)}><Menu /></Button>
-      <div className="wiki-document-heading"><div className="wiki-breadcrumb"><strong title={title || t("未命名词条")}>{title || t("未命名词条")}</strong>{opening ? <Loader2 className="animate-spin" aria-label={t("正在读取词条")} /> : null}</div>{showSaveStatus ? <span className="wiki-save-status" role="status" data-error={storageError ? true : undefined}>{storageError ? <AlertCircle aria-hidden="true" /> : status === t("正在保存…") ? <Loader2 className="animate-spin" aria-hidden="true" /> : <Check aria-hidden="true" />}{status}</span> : <span className="sr-only" role="status" />}</div>
+      <div className="wiki-document-heading"><div className="wiki-breadcrumb"><strong title={title || unnamedDocument()}>{title || unnamedDocument()}</strong>{opening ? <Loader2 className="animate-spin" aria-label={t("正在读取词条")} /> : null}</div>{showSaveStatus ? <span className="wiki-save-status" role="status" data-error={storageError ? true : undefined}>{storageError ? <AlertCircle aria-hidden="true" /> : status === t("正在保存…") ? <Loader2 className="animate-spin" aria-hidden="true" /> : <Check aria-hidden="true" />}{status}</span> : <span className="sr-only" role="status" />}</div>
       <div className="wiki-header-actions">
         {headerSize.width >= 620 ? reviewButton() : null}
         <Button variant="outline" aria-label={view === 'preview' ? t("继续编辑") : t("预览")} aria-pressed={view === 'preview'} disabled={pending} onClick={() => changeView(view === 'preview' ? 'edit' : 'preview')}>{view === 'preview' ? <Pencil data-icon="inline-start" /> : <Eye data-icon="inline-start" />}<span>{view === 'preview' ? t("编辑") : t("预览")}</span></Button>
-        <Button variant="ghost" disabled={view === 'review'} aria-label={t("词条属性")} aria-expanded={compactLayout ? mobileProperties : showProperties && view !== 'preview'} aria-haspopup={compactLayout ? 'dialog' : undefined} onClick={() => { if (view === 'preview') { setView('edit'); setShowProperties(true); if (compactLayout) setMobileProperties(true); } else compactLayout ? setMobileProperties(true) : setShowProperties(!showProperties); }}><SlidersHorizontal data-icon="inline-start" /><span>{t("属性")}</span></Button>
+        <Button variant="ghost" disabled={view === 'review'} aria-label={t(articleWorkspace ? "文章属性" : "词条属性")} aria-expanded={compactLayout ? mobileProperties : showProperties && view !== 'preview'} aria-haspopup={compactLayout ? 'dialog' : undefined} onClick={() => { if (view === 'preview') { setView('edit'); setShowProperties(true); if (compactLayout) setMobileProperties(true); } else compactLayout ? setMobileProperties(true) : setShowProperties(!showProperties); }}><SlidersHorizontal data-icon="inline-start" /><span>{t("属性")}</span></Button>
         <DropdownMenu><DropdownMenuTrigger asChild><Button variant="ghost" size="icon" aria-label={t("文档操作")}><MoreHorizontal /></Button></DropdownMenuTrigger><DropdownMenuContent align="end" className="min-w-52"><DropdownMenuGroup>
           <DropdownMenuItem onSelect={newDocument}><FilePlus2 />{t("新建词条")}</DropdownMenuItem><DropdownMenuItem onSelect={() => { setMobileLibrary(true); }}><FolderOpen />{t("打开其他词条")}</DropdownMenuItem><DropdownMenuItem onSelect={openDrafts}><FileText />{t("本地草稿")}</DropdownMenuItem>
         </DropdownMenuGroup><DropdownMenuSeparator /><DropdownMenuGroup><DropdownMenuLabel>{t("高级")}</DropdownMenuLabel><DropdownMenuItem onSelect={() => fileInput.current?.click()}><Upload />{t("导入 Markdown")}</DropdownMenuItem><DropdownMenuItem disabled={!editor || pending} onSelect={exportDocument}><Download />{t("导出 Markdown")}</DropdownMenuItem><DropdownMenuItem onSelect={() => changeView(view === 'source' ? 'edit' : 'source')}><Code2 />{view === 'source' ? t("返回正文") : t("查看 Markdown 源码")}</DropdownMenuItem></DropdownMenuGroup><DropdownMenuSeparator /><DropdownMenuGroup><DropdownMenuItem onSelect={() => { document.documentElement.classList.toggle('dark', !dark); setDark(!dark); }}>{dark ? <Sun /> : <Moon />}{dark ? t("浅色主题") : t("深色主题")}</DropdownMenuItem></DropdownMenuGroup>{editorHost()?<><DropdownMenuSeparator/><DropdownMenuGroup><HostNavigation menu/></DropdownMenuGroup></>:null}</DropdownMenuContent></DropdownMenu>
@@ -422,7 +424,7 @@ export default function App() {
             setActiveOutline(position);
           });
         }}><div ref={canvasSize.ref} className="wiki-article-canvas">
-          <TextareaAutosize ref={titleInput} minRows={1} className="wiki-article-title resize-none overflow-hidden" aria-label={t("词条标题")} placeholder={t("未命名词条")} value={title} onChange={event => changeMetadata({ ...metadata, [metadata.name !== undefined ? 'name' : 'title']: event.target.value.replace(/\r?\n/g, ' ') })} onKeyDown={event => {
+          <TextareaAutosize ref={titleInput} minRows={1} className="wiki-article-title resize-none overflow-hidden" aria-label={t(articleWorkspace ? "文章标题" : "词条标题")} placeholder={unnamedDocument()} value={title} onChange={event => changeMetadata({ ...metadata, [metadata.name !== undefined ? 'name' : 'title']: event.target.value.replace(/\r?\n/g, ' ') })} onKeyDown={event => {
             if (event.key === 'Enter' && !event.nativeEvent.isComposing) {
               event.preventDefault();
               editorRef.current?.commands.focus('start');
@@ -441,7 +443,7 @@ export default function App() {
     </ResizablePanelGroup></div>
     <Sheet open={navigationOpen} onOpenChange={setNavigationOpen}><SheetContent side="left" className="wiki-library-sheet"><SheetHeader className="sr-only"><SheetTitle>{t("写作导航")}</SheetTitle></SheetHeader>{navigator}</SheetContent></Sheet>
     <Sheet open={mobileLibrary} onOpenChange={setMobileLibrary}><SheetContent side="left" className="wiki-library-sheet"><SheetHeader className="sr-only"><SheetTitle>{t("词条库")}</SheetTitle></SheetHeader>{sidebar}</SheetContent></Sheet>
-    <Sheet open={mobileProperties} onOpenChange={setMobileProperties}><SheetContent side="right" className="wiki-properties-sheet"><SheetHeader className="sr-only"><SheetTitle>{t("词条属性")}</SheetTitle></SheetHeader><div className="wiki-properties-sheet-scroll">{properties}</div></SheetContent></Sheet>
+    <Sheet open={mobileProperties} onOpenChange={setMobileProperties}><SheetContent side="right" className="wiki-properties-sheet"><SheetHeader className="sr-only"><SheetTitle>{t(articleWorkspace ? "文章属性" : "词条属性")}</SheetTitle></SheetHeader><div className="wiki-properties-sheet-scroll">{properties}</div></SheetContent></Sheet>
     <Dialog open={discardOpen} onOpenChange={setDiscardOpen}><DialogContent><DialogHeader><DialogTitle>{t("放弃源码修改？")}</DialogTitle><DialogDescription>{t("尚未应用的 Markdown 修改会被删除，正文保持上次应用的内容。此操作无法撤销。")}</DialogDescription></DialogHeader><DialogFooter><Button variant="outline" onClick={() => setDiscardOpen(false)}>{t("继续修改")}</Button><Button variant="destructive" onClick={() => { setDiscardOpen(false); pendingRef.current = undefined; setPending(false); setSourceValue(liveSource()); persist(); setView('edit'); }}>{t("放弃修改")}</Button></DialogFooter></DialogContent></Dialog>
     {nodeEditorHost && nodeEditor ? createPortal(nodeEditor, nodeEditorHost) : null}
     {newDocumentOpen?<NewDocumentDialog open onOpenChange={setNewDocumentOpen} initialLocale={metadata.locale||'zh'} onCreate={createDocument}/>:null}

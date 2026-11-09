@@ -66,7 +66,7 @@ export async function initGallery(){
      const heading=$<HTMLElement>('[data-gallery-section-title]');heading.focus({preventScroll:true});heading.scrollIntoView({block:'start'});
     });
    };
-   const all=newButton('',()=>choose(null),'gallery-role-card gallery-role-card--all');all.dataset.role='';all.append(text('strong',copy.allRoles),text('small',view==='sets'?copy.viewSets:copy.photos));target.append(all);
+   const all=newButton('',()=>choose(null),'gallery-role-card gallery-role-card--all');all.dataset.role='';all.append(text('strong',copy.allRoles));target.append(all);
    const available=ready?galleryRoleRows(view,archiveFacets.entityCounts||[],facets):characters.map(role=>({id:role.id,count:0,coverUrl:role.image||undefined}));
    for(const [index,row] of sortGalleryRoles(available,characterName,locale).entries()){
     const role=characters.find(value=>value.id===row.id),name=characterName(row.id);

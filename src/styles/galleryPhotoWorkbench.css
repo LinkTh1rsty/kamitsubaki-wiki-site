@@ -113,3 +113,5 @@ html body .gallery-photo-actions .gallery-photo-submit-tools[data-workspace-tool
 .gallery-photo-draft-nav{display:flex;flex-wrap:wrap;gap:12px 24px;margin:-16px 0 18px;font:12px var(--font-sans)}.gallery-photo-draft-nav a{display:inline-flex;align-items:center;min-height:36px;color:var(--theme-fg);text-underline-offset:4px}
 
 .gallery-photo-drop{position:relative;grid-template-columns:minmax(0,1fr)}.gallery-photo-drop input.dui-file-input{max-width:100%}
+
+.gallery-photo-actions [data-photo-status] { white-space: pre-line; }

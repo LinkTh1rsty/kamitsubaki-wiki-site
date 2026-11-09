@@ -1,0 +1,28 @@
+---
+import {resolveLocaleCopy} from '../lib/i18n.mjs';
+interface Props {locale:string; current:'browse'|'mine'|'upload'; kind?:'photos'|'sets';}
+const {locale,current,kind}=Astro.props;
+const c=resolveLocaleCopy({
+ zh:{title:'图库',browse:'浏览',mine:'我的投稿',upload:'上传',type:'图片投稿类型',photos:'照片',sets:'设定组'},
+ en:{title:'Gallery',browse:'Browse',mine:'My submissions',upload:'Upload',type:'Image submission type',photos:'Photos',sets:'Design sets'},
+ ja:{title:'ギャラリー',browse:'閲覧',mine:'自分の投稿',upload:'投稿',type:'画像投稿の種類',photos:'画像',sets:'設定一覧'},
+},locale);
+const base=`/${locale}/gallery/`;
+const destinations=[{key:'browse',href:base},{key:'mine',href:base+'mine/'},{key:'upload',href:base+'manage/photos/'}] as const;
+---
+<nav class="gallery-navigation" aria-label={c.title}>
+ {destinations.map(({key,href})=><a href={href} aria-current={current===key?'page':undefined}>{c[key]}</a>)}
+</nav>
+{kind&&<nav class="gallery-upload-types" aria-label={c.type}>
+ <a href={base+'manage/photos/'} aria-current={kind==='photos'?'page':undefined}>{c.photos}</a>
+ <a href={base+'manage/?mode=sets'} aria-current={kind==='sets'?'page':undefined}>{c.sets}</a>
+</nav>}
+<style>
+ .gallery-navigation{display:flex;align-items:stretch;gap:var(--ui-space-6);border-bottom:1px solid var(--ui-line);margin-block:0 var(--ui-space-6)}
+ .gallery-navigation a,.gallery-upload-types a{display:flex;align-items:center;justify-content:center;min-height:var(--ui-hit-target);padding-inline:var(--ui-space-3);color:var(--ui-color-body);font-size:var(--ui-font-control);text-decoration:none;text-align:center}
+ .gallery-navigation a{border-bottom:2px solid transparent;margin-bottom:-1px}
+ .gallery-navigation a[aria-current="page"]{border-color:var(--ui-color-text);color:var(--ui-color-text);font-weight:650}
+ .gallery-upload-types{display:flex;width:fit-content;border:1px solid var(--ui-line);border-radius:var(--ui-radius-control);margin-block:0 var(--ui-space-4)}
+ .gallery-upload-types a[aria-current="page"]{background:rgb(var(--theme-fg-rgb)/.07);color:var(--ui-color-text);font-weight:650}
+ @media(max-width:700px){.gallery-navigation{gap:0}.gallery-navigation a{flex:1 1 0;padding-inline:4px}}
+</style>

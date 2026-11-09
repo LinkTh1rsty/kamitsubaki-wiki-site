@@ -79,6 +79,7 @@
     "dexie": "4.4.6",
     "eventsource-parser": "3.0.6",
     "fuse.js": "7.5.0",
+    "heic-to": "1.6.7",
     "katex": "^0.17.0",
     "kuroshiro": "^1.2.0",
     "kuroshiro-analyzer-kuromoji": "^1.1.0",
