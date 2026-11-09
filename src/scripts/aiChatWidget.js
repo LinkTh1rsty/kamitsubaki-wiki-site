@@ -1,3 +1,4 @@
+import { aiChatErrorText } from '../lib/aiChatErrors.mjs';
 import {chatPresentationStore} from '../lib/chatPresentationStore.mjs';
 import {loadSiteComponents} from '../lib/siteComponentRuntime.mjs';
 import {iconMarkup} from '../lib/icons.mjs';
@@ -423,6 +424,12 @@ async function bootstrap(root) {
   const data = await response.json();
   if(revision!==widgetRevision(root))return;
   const copy = normalizeCopy(root);
+  const limit = Number(data.limits?.messageMaxLength);
+  if (Number.isSafeInteger(limit) && limit > 0) {
+    root.dataset.messageMaxLength = String(limit);
+    const field = root.querySelector('[data-ai-input]');
+    if (field instanceof HTMLTextAreaElement) field.maxLength = limit;
+  }
   updateAuthState(root, copy, data.viewer);
   if (data.viewer?.kind === 'user') {
     loadThreadList(root).catch(() => {});
@@ -873,13 +880,15 @@ async function loadThreadDetail(root, threadId) {
   return true;
 }
 
-async function readStream(response, assistantMessage, messages, copy, root) {
+async function readStream(response, assistantMessage, messages, copy, root, retryText) {
   const revision=widgetRevision(root);
   const { content } = assistantMessage;
   const locale = root?.dataset.locale || document.documentElement.lang || 'zh';
   const contentType = response.headers.get('Content-Type') || '';
   if (!contentType.includes('text/event-stream')) {
-    throw new Error('AI observer response is not an event stream.');
+    const data = contentType.includes('json') ? await response.json().catch(() => null) : null;
+    const code = data?.error?.code || (response.status === 429 ? 'rate_limited' : 'gateway_unavailable');
+    throw Object.assign(new Error("Chat request failed"), { chatCode: code });
   }
 
   if (!response.body) {
@@ -894,6 +903,7 @@ async function readStream(response, assistantMessage, messages, copy, root) {
   let assistantText = '';
   let hasDelta = false;
   let hasTerminalMessage = false;
+  let receivedDone = false;
   let needsChallenge = false;
   const streamRenderer = createStreamingRenderer(content, messages, locale);
 
@@ -907,6 +917,7 @@ async function readStream(response, assistantMessage, messages, copy, root) {
     const parsed = {events: streamParser.feed(decoder.decode(value, {stream: true}))};
 
     for (const event of parsed.events) {
+      if (event.type === 'done') receivedDone = true;
       if (event.type === 'thread' && event.data.threadId) {
         root.dataset.currentThreadId = event.data.threadId;
       }
@@ -923,7 +934,7 @@ async function readStream(response, assistantMessage, messages, copy, root) {
       if (event.type === 'challenge_required') {
         finishThinkingMessage(assistantMessage);
         streamRenderer.cancel();
-        setMessageMarkdown(content, event.data.message || copy.challengeFallback || '', locale);
+        setMessageMarkdown(content, copy.challengeFallback || '', locale);
         needsChallenge = true;
         hasTerminalMessage = true;
       }
@@ -931,7 +942,7 @@ async function readStream(response, assistantMessage, messages, copy, root) {
       if (event.type === 'login_required') {
         finishThinkingMessage(assistantMessage);
         streamRenderer.cancel();
-        setMessageMarkdown(content, event.data.message || copy.loginRequiredFallback || copy.authErrorFallback || '', locale);
+        setMessageMarkdown(content, copy.loginRequiredFallback || copy.authErrorFallback || '', locale);
         hasTerminalMessage = true;
       }
 
@@ -942,13 +953,22 @@ async function readStream(response, assistantMessage, messages, copy, root) {
       if (event.type === 'error') {
         finishThinkingMessage(assistantMessage);
         streamRenderer.cancel();
-        setMessageMarkdown(content, event.data.message || copy.streamErrorFallback || '', locale);
+        setMessageMarkdown(content, aiChatErrorText(event.data.code, locale, copy.streamErrorFallback), locale);
+        content.store.patch(content, {error: true, retryText});
         hasTerminalMessage = true;
       }
     }
   }
 
   }finally{void reader.cancel().catch(()=>{});reader.releaseLock();}
+  if (!receivedDone && !hasTerminalMessage) {
+    finishThinkingMessage(assistantMessage);
+    streamRenderer.cancel();
+    const notice = aiChatErrorText('stream_interrupted', locale);
+    setMessageMarkdown(content, [assistantText, notice].filter(Boolean).join('\n\n'), locale);
+    content.store.patch(content, {error: true, retryText});
+    hasTerminalMessage = true;
+  }
   if (hasDelta && !hasTerminalMessage) {
     streamRenderer.complete(assistantText);
   }
@@ -1062,7 +1082,7 @@ function initWidget(root) {
   const ensureChatComponents=()=>componentFlight ||= loadSiteComponents().then(async runtime=>{
     if(!presentation.getSnapshot().messages.length)createMessage(root,'assistant',copy.greeting||'',root.dataset.locale);
     const composer=root.querySelector('.ai-chat__composer');
-    presentation.ui=await runtime.mountChat(messages,composer,{getSnapshot:presentation.getSnapshot,subscribe:presentation.subscribe,variant:'wiki',renderMarkdown:text=>renderMarkdown(text,root.dataset.locale),copy:{placeholder:copy.inputPlaceholder,send:copy.sendLabel,stop:copy.cancelLabel||'Stop',sources:convertAiResponseText('引用',root.dataset.locale),thinking:copy.thinkingPhrases||[copy.bubbleThinking||copy.status||'…'],retry:copy.retry||'Retry'},retry:()=>ensureWidgetReady().catch(showLoadError),initialDraft:input.value,inputAttributes:{'data-ai-input':'',id:'ai-chat-input'},onInputReady:element=>{input=element;},send:text=>{input.value=text;form.requestSubmit();},cancel:()=>widgetRequests.get(root)?.abort()});
+    presentation.ui=await runtime.mountChat(messages,composer,{getSnapshot:presentation.getSnapshot,subscribe:presentation.subscribe,variant:'wiki',renderMarkdown:text=>renderMarkdown(text,root.dataset.locale),copy:{placeholder:copy.inputPlaceholder,send:copy.sendLabel,stop:copy.cancelLabel||'Stop',sources:convertAiResponseText('引用',root.dataset.locale),thinking:copy.thinkingPhrases||[copy.bubbleThinking||copy.status||'…'],retry:copy.retry||'Retry'},retry:entry=>{if(entry.retryText==='initialize')return ensureWidgetReady().catch(showLoadError);input.value=entry.retryText;presentation.setDraft(entry.retryText);input.focus();},initialDraft:input.value,inputAttributes:{'data-ai-input':'',id:'ai-chat-input'},onInputReady:element=>{input=element;input.maxLength=Number(root.dataset.messageMaxLength)||500;},send:text=>{input.value=text;form.requestSubmit();},cancel:()=>widgetRequests.get(root)?.abort()});
     window.addEventListener('pagehide',event=>{if(!event.persisted)presentation.ui?.destroy();});
   }).catch(error=>{componentFlight=null;throw error;});
 
@@ -1343,6 +1363,10 @@ function initWidget(root) {
     const apiBase = root.dataset.apiBase || '';
     const locale = root.dataset.locale || document.documentElement.lang || 'zh';
     const localeRequest = buildAiLocaleRequest(locale);
+    if (message.length > (Number(root.dataset.messageMaxLength) || 500)) {
+      createMessage(root, 'assistant', aiChatErrorText('message_too_long', locale), locale);
+      return;
+    }
     const controller=new AbortController();widgetRequests.set(root,controller);
     const userMessage = createMessage(root,'user', message);
 
@@ -1407,7 +1431,7 @@ function initWidget(root) {
       if(revision!==widgetRevision(root)){await response.body?.cancel();return;}
       delete root.dataset.turnstileToken;
 
-      let result = await readStream(response, assistantMessage, messages, copy, root);
+      let result = await readStream(response, assistantMessage, messages, copy, root, message);
       if (result.needsChallenge && root.dataset.viewerKind === 'user') {
         const retryToken = await requestTurnstileToken(root, assistantMessage.content, copy, {
           action: 'ai_chat',
@@ -1419,7 +1443,7 @@ function initWidget(root) {
           response = await requestChat(retryToken);
           if(revision!==widgetRevision(root)){await response.body?.cancel();return;}
           delete root.dataset.turnstileToken;
-          result = await readStream(response, assistantMessage, messages, copy, root);
+          result = await readStream(response, assistantMessage, messages, copy, root, message);
         }
       }
       if (root.dataset.viewerKind === 'user') {
@@ -1428,7 +1452,8 @@ function initWidget(root) {
     } catch(error) {
       if(revision!==widgetRevision(root))return;
       finishThinkingMessage(assistantMessage);
-      setMessageMarkdown(assistantMessage.content, error?.name==='AbortError'?(assistantMessage.content.textContent||copy.cancelLabel||''):copy.fallbackOffline||'', localeRequest.locale);
+      setMessageMarkdown(assistantMessage.content, error?.name==='AbortError'?(assistantMessage.content.textContent||copy.cancelLabel||''):aiChatErrorText(error?.chatCode, localeRequest.locale, copy.fallbackOffline), localeRequest.locale);
+      if (error?.name !== 'AbortError') assistantMessage.content.store.patch(assistantMessage.content, {error: true, retryText: message});
     } finally {
       if(widgetRequests.get(root)===controller)widgetRequests.delete(root);
       if(revision===widgetRevision(root)){setThinking(root, copy, false);scrollMessages(messages);}
