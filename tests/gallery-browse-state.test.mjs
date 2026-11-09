@@ -22,7 +22,7 @@ function browser(respond,search='',metadata){
     <div data-gallery-overview><section id="gallery-role-filters"><input data-gallery-role-search><select data-gallery-role-sort><option value="site">Site</option></select><div data-gallery-roles></div><p data-gallery-role-empty hidden></p><output data-gallery-role-count></output><button data-gallery-roles-toggle><span data-artist-expand-count></span></button><button data-artist-collapse hidden></button></section>
     <h2 data-gallery-section-title></h2><output data-gallery-count></output>
     <button data-gallery-view="photos"></button><button data-gallery-view="sets"></button>
-    <button data-gallery-filter-toggle aria-expanded="false"><span data-gallery-filter-label></span></button><div id="gallery-filter-panel" hidden></div><div data-gallery-active-filters></div>
+    <button data-gallery-filter-toggle aria-expanded="false"><span data-gallery-filter-label></span></button><div id="gallery-filter-panel" hidden></div><div data-gallery-active-filters><span data-gallery-filter-chips></span></div>
     <form data-gallery-search><input name="q"></form><button data-gallery-clear></button><select data-gallery-tag><option value=""></option></select><button data-gallery-select></button><a data-gallery-classify></a><div data-gallery-types></div><div data-gallery-forms></div>
     <div data-gallery-set-filter><span data-gallery-set-filter-name></span><button data-gallery-set-filter-clear></button></div>
     <p data-gallery-feedback></p><div data-gallery-grid></div><button data-gallery-more hidden></button><button data-gallery-retry hidden></button></div>

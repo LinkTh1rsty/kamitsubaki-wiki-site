@@ -100,7 +100,7 @@ test('AI chat widget exposes interaction hooks and stream parser integration', a
   assert.equal(component.includes("dataset.launcherDragging==='true'"), false);
   assert.equal(component.includes('onclick='), false);
   assert.equal(component.includes('data-ai-custom-model'), false);
-  assert.match(script, /createAiStreamParser/);
+  assert.match(script, /for await \(const event of readChatEvents\(/);
   assert.match(script, /text\/event-stream/);
   assert.match(script, /event\.type === 'thread'/);
   assert.match(script, /event\.type === 'source'/);

@@ -51,7 +51,8 @@
 .gallery-view-switch{display:inline-flex;flex:none;gap:3px;margin:0;padding:3px;border:1px solid var(--gallery-line);border-radius:5px}
 .gallery-filter-toggle{display:none}
 .gallery-filter-panel{display:grid;gap:10px;margin:0 0 15px}
-.gallery-active-filters{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 14px}
+.gallery-active-filters{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin:0 0 14px}
+.gallery-filter-chips{display:flex;flex-wrap:wrap;gap:7px;min-width:0}
 .gallery-active-filter{min-height:32px;padding:5px 10px;border:1px solid var(--gallery-line);border-radius:20px;background:rgb(var(--theme-fg-rgb)/.055);color:var(--theme-fg);font:var(--ui-font-xs) var(--font-sans);cursor:pointer}
 .gallery-active-filter:hover{border-color:var(--theme-fg)}
 .gallery-view-switch button{min-height:38px;padding:7px 18px;border:0;border-radius:3px;background:transparent;color:var(--workspace-muted);font:12px var(--font-sans);cursor:pointer}

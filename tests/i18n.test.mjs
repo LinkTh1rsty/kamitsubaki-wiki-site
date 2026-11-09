@@ -94,9 +94,10 @@ test('localized site config exposes language switcher labels and page chrome', a
 });
 
 test('localized site config exposes configurable social contact links', async () => {
+  const labels = { zh: '联系', 'zh-tw': '聯絡', 'zh-hk': '聯絡', ja: 'お問い合わせ', en: 'Contact' };
   for (const locale of locales) {
     const site = await readJson(`../src/content/site/${locale}.json`);
-    const contactLink = site.footer.links.find((link) => link.label === 'CONTACT');
+    const contactLink = site.footer.links.find((link) => link.label === labels[locale]);
 
     assert.equal(contactLink.href, `/${locale}/#social-contact`);
     assert.equal(site.socialContact.enabled, true);
@@ -141,7 +142,7 @@ test('Traditional Chinese site chrome is derived at runtime without falling back
     '/zh-tw/contribute/',
   );
   assert.equal(
-    hk.footer.links.find((item) => item.label === 'CONTACT')?.href,
+    hk.footer.links.find((item) => item.label === '聯絡')?.href,
     '/zh-hk/#social-contact',
   );
 });

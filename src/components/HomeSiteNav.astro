@@ -22,7 +22,7 @@ type LocaleLink = {
   current: boolean;
 };
 
-const { navItems, localeLinks, brandLines, homeHref = '/', compact = false } = Astro.props as {
+const { localeLinks, brandLines, homeHref = '/', compact = false } = Astro.props as {
   navItems: NavItem[];
   localeLinks: LocaleLink[];
   brandLines: string[];
@@ -34,6 +34,8 @@ const { navItems, localeLinks, brandLines, homeHref = '/', compact = false } = A
 const currentLocale = localeLinks.find((item) => item.current)?.code ?? 'en';
 const primaryFeatures=featuresFor(currentLocale,'main');
 const labsLabel=primaryFeatures.find(item=>item.id==='explore')!.title;
+const chronicle = featuresFor(currentLocale, 'explore').find(item => item.id === 'chronicle')!;
+const menuFeatures = primaryFeatures.flatMap(item => item.id === 'explore' ? [item, chronicle] : [item]);
 const preferencesCopy = resolveLocaleCopy({
   zh: {language: '语言', theme: '主题'},
   ja: {language: '言語', theme: 'テーマ'},
@@ -95,11 +97,11 @@ const themeCopy = resolveLocaleCopy({
         <p class="home-chrome__eyebrow">{menuCopy.title} <kbd data-search-shortcut>Ctrl+K</kbd></p>
         <div class="home-chrome__links">
           <a href={`/${currentLocale}/account/`} data-account-nav style="--menu-step:0">{accountCopy(currentLocale).title}</a>
-          {primaryFeatures.map((item, index) => <a href={item.href} style={`--menu-step:${index + 1}`}>{item.title}<span aria-hidden="true"><Icon name="arrow-right" /></span></a>)}
+          {menuFeatures.map((item, index) => <a href={item.href} style={`--menu-step:${index + 1}`}>{item.title}<span aria-hidden="true"><Icon name="arrow-right" /></span></a>)}
         </div>
         <div class="site-nav__controls-origin" data-home-nav-controls-origin>
           <div class="site-nav__portable-controls" data-home-nav-portable-controls>
-            <div class="home-chrome__preferences" style={`--menu-step:${navItems.length + 1}`}>
+            <div class="home-chrome__preferences" style={`--menu-step:${menuFeatures.length + 1}`}>
               <div class="home-chrome__preference-row home-chrome__preference-row--language">
                 <span class="home-chrome__preference-label">{preferencesCopy.language}</span>
                 <CompactLanguageSwitcher localeLinks={localeLinks} />
