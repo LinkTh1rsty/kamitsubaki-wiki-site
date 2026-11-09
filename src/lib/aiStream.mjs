@@ -23,14 +23,40 @@ export function parseAiStreamChunk(chunk, previousRemainder = '') {
   return {events, remainder: input.slice(boundary < 0 ? 0 : boundary + 2) + (trailingCR ? '\r' : '')};
 }
 
-// Keep the cursor local to this turn. A new connection always starts with a
-// fresh parser, and only complete events advance the cursor.
+const reconnectDelays = [0, 250, 750, 1500, 3000, 6000, 12000];
+
+function waitForReconnect(delay, signal) {
+  return new Promise(resolve => {
+    const finish = () => {
+      clearTimeout(timer);
+      signal.removeEventListener('abort', finish);
+      resolve();
+    };
+    const timer = setTimeout(finish, delay);
+    signal.addEventListener('abort', finish, { once: true });
+  });
+}
+
+// A new connection uses a fresh parser. Only complete events advance the
+// cursor, including when a browser stays offline across several attempts.
 export async function* readChatEvents(initial, { signal, resume, stillCurrent = () => true }) {
   let response = initial;
   let cursor = 0;
-  for (let attempt = 0; attempt < 3; attempt++) {
+  for (const delay of reconnectDelays) {
     signal.throwIfAborted();
-    if (attempt) response = await resume(cursor);
+    if (!stillCurrent()) return;
+    if (delay) {
+      await waitForReconnect(delay, signal);
+      signal.throwIfAborted();
+      if (!stillCurrent()) return;
+      try {
+        response = await resume(cursor);
+      } catch (error) {
+        signal.throwIfAborted();
+        if (!(error instanceof TypeError)) throw error;
+        continue;
+      }
+    }
     if (!response.body || !response.headers.get('Content-Type')?.includes('text/event-stream')) {
       const detail = await response.json().catch(() => null);
       const code = detail?.error?.code || (response.status === 429 ? 'rate_limited' : 'gateway_unavailable');
@@ -61,7 +87,7 @@ export async function* readChatEvents(initial, { signal, resume, stillCurrent = 
       }
     } catch (error) {
       signal.throwIfAborted();
-      if (attempt === 2) throw error;
+      if (!(error instanceof TypeError)) throw error;
     } finally {
       void reader.cancel().catch(() => {});
       reader.releaseLock();
