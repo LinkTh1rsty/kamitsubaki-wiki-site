@@ -23,7 +23,7 @@ The [image archive](/en/gallery/) includes every approved public photo, includin
 
 ## Upload photos directly
 
-1. Sign in, open [Upload photos](/en/gallery/manage/photos/), then select or drop files. Supported formats are PNG, JPEG, WebP and GIF. A batch holds up to 100 images, with a 20 MiB limit per image. People and image type are optional.
+1. Sign in, open [Upload photos](/en/gallery/manage/photos/), then select or drop files. Supported formats are PNG, JPEG, WebP and GIF. A batch holds up to 100 images, with a 20 MiB limit per image. People and image type are optional. Enter a **title for every photo** in the table. Press Enter to move to the next title.
 2. Enter the shared **creator, verifiable source, original source URL and basis for use**. Choose official public material, your original work or authorized use. Official material requires the original page URL; authorized material requires an explanation. Select a thumbnail to edit the actual photo’s details when its source or creator differs. Close the inspector to return to the same place in the grid.
 3. Choosing files creates a batch draft and starts private staging automatically. You can enter details during upload. Save draft manually syncs your changes; Stage photos privately retries unfinished files. A transfer reaching 100% only means the bytes arrived; wait for the server’s Staged result. `?batch=ID` can restore a cloud batch, though a file saved only in this browser may need to be selected again.
 4. Once every file is staged, separately submit the batch for review. Follow its receipt in [Creator Center](/en/account/creator/). Reviewers accept or return each image; only accepted photos join the public archive.

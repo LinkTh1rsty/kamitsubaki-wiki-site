@@ -85,44 +85,56 @@ if(root){
   error.id=input.id+'-error';
   const validate=()=>setSubmissionFieldError(input,input.value.trim()?'':copy.titleError);
   input.onblur=validate;
+  input.onkeydown=event=>{
+   if(event.key!=='Enter'||event.isComposing)return;
+   const next=input.closest('tr')?.nextElementSibling?.querySelector('[data-row-title]');
+   if(next){event.preventDefault();next.focus();}
+  };
   input.oninput=()=>{file.metadata.title=input.value;validate();updateButtons();void saveLocal();};
   return field;
  }
  function validateSubmission() {
+  const withoutTitle=files.find(file=>!file.metadata.title?.trim());
+  if(withoutTitle){
+   const input=$(`[data-photo-id="${withoutTitle.id}"] [data-row-title]`);
+   setSubmissionFieldError(input,copy.titleError);
+   focusSubmissionField(input);
+   say('', 'info');
+   return false;
+  }
   const shared=defaults();
   for(const file of files){
    const issues=photoSubmissionIssues({...shared,...file.metadata,title:file.metadata.title});
    const key=Object.keys(issues)[0];
    if(!key)continue;
-   const row=root.querySelector(`[data-photo-id="${file.id}"]`);
-   if(key==='title'){
-    const input=row.querySelector('[data-row-title]');
-    input.dispatchEvent(new Event('blur'));
+   const input=$(`[data-default="${key}"]`);
+   if(input&&!input.closest('[hidden]')){
+    setSubmissionFieldError(input,copy.fieldErrors[issues[key]]||copy.required);
     focusSubmissionField(input);
-    say('', 'info');
-   }else{
-    const input=$(`[data-default="${key}"]`);
-    if(input&&!input.closest('[hidden]')){
-     setSubmissionFieldError(input,copy.fieldErrors[issues[key]]||copy.required);
-     focusSubmissionField(input);
-    }else inspector(file,row.querySelector('[data-photo-inspect]'));
-    say(copy.fieldErrors[issues[key]]||copy.required,'error');
-   }
+   }else inspector(file,$(`[data-photo-id="${file.id}"] [data-photo-inspect]`));
+   say(copy.fieldErrors[issues[key]]||copy.required,'error');
    return false;
   }
   return true;
  }
  function render(){
-  const list=$('[data-photo-list]');list.replaceChildren();if(!files.length)list.append(create('p',copy.empty));
+  const list=$('[data-photo-list]');list.replaceChildren();
+  $('[data-photo-table]').hidden=!files.length;
+  $('[data-photo-empty]').hidden=Boolean(files.length);
+  $('[data-photo-keyboard]').hidden=files.length<2;
   for(const file of files){
-   const row=create('div');row.className='gallery-photo-row';row.dataset.photoId=file.id;row.dataset.selected=String(selectedPhoto===file.id);
+   const row=create('tr');row.setAttribute('role','row');row.className='gallery-photo-row';row.dataset.photoId=file.id;row.dataset.selected=String(selectedPhoto===file.id);
    const preview=create('button');preview.type='button';preview.dataset.photoInspect='';preview.className='gallery-photo-row__preview';preview.setAttribute('aria-label',`${copy.inspectPhoto||copy.override} · ${file.name}`);const image=new Image();image.src=file.url||'';image.alt=file.metadata.title||file.name||'';image.loading='lazy';preview.append(image);preview.onclick=()=>inspector(file,preview);
    const body=create('div');body.className='gallery-photo-row__body';body.append(titleField(file));const detail=create('small');detail.dataset.fileState='';body.append(detail);
    const tools=create('div');tools.className='gallery-photo-row__tools';const edit=create('button',copy.inspectPhoto||copy.override);edit.type='button';edit.onclick=()=>inspector(file,edit);const retry=create('button',copy.retryPhoto||copy.stage);retry.type='button';retry.dataset.photoRetry='';retry.onclick=()=>void stagePending([file]);const remove=create('button',copy.remove);remove.type='button';remove.dataset.photoRemove='';remove.onclick=()=>{if(['uploading','saving'].includes(file.state)||busyAction==='submit')return;if(file.url?.startsWith('blob:'))URL.revokeObjectURL(file.url);files=files.filter(item=>item!==file);render();void saveLocal();};edit.textContent=copy.details;
    const taxonomy=create('div');taxonomy.className='gallery-photo-row__taxonomy';
    const entitiesLabel=create('button',copy.linked);entitiesLabel.type='button';entitiesLabel.onclick=()=>inspector(file,entitiesLabel);
    taxonomy.append(entitiesLabel,rowSelect(copy.type,'mediaType',file,[['',copy.inherit],['__none__',copy.noType],...mediaTypes.map(type=>[type.id,type.labels?.[locale]||type.labels?.zh||type.id])]));
-   tools.append(edit,retry,remove);row.append(preview,body,taxonomy,tools);
+   tools.append(edit,retry,remove);
+   for(const [name,content] of [['photo',preview],['title',body],['classification',taxonomy],['actions',tools]]){
+    const cell=create('td');cell.className='gallery-photo-cell--'+name;
+    cell.setAttribute('role','cell');cell.append(content);row.append(cell);
+   }
    if(file.existingAsset?.kind==='public'){const link=create('a',copy.existingImage||copy.duplicateFile);link.href=`/${locale}/gallery/?photo=${encodeURIComponent(file.existingAsset.id)}`;link.target='_blank';link.rel='noopener';body.append(link);}
    if(!(file.file instanceof Blob)&&file.state!=='staged'){const rebind=create('label',copy.reselectFile),input=document.createElement('input');input.type='file';input.accept=galleryImageAccept;input.onchange=async()=>{const original=input.files?.[0];if(!original)return;let replacement;try{replacement=await acceptedPhoto(original);}catch(error){say(error.message,'error');return;}if(disposed||busyAction==='submit')return;if(file.url?.startsWith('blob:'))URL.revokeObjectURL(file.url);Object.assign(file,{file:replacement,name:replacement.name,size:replacement.size,url:URL.createObjectURL(replacement),state:'queued',error:'',sha256:null,existingAsset:null});render();void saveLocal();void stagePending([file]);};rebind.append(input);body.append(rebind);}
    if(file.reviewNote)body.append(create('p',`${copy.reviewReason}：${file.reviewNote}`));list.append(row);
