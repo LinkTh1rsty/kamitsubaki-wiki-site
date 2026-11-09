@@ -89,7 +89,10 @@ export const supporterProfileCopy = {
     "previewCode": "仅本地预览：验证码 {code}，10 分钟内有效。",
     "codeSent": "验证码已进入发送队列，收件邮箱为 {email}。收到邮件后在本页输入 6 位验证码；10 分钟内有效。",
     "codeFailed": "验证码暂未发出。输入已保留，请重试发送。",
-    "reissueDone": "如果可补发，我们会把链接发到你的爱发电私信。"
+    "reissueDone": "如果可补发，我们会把链接发到你的爱发电私信。",
+    "badCode": "验证码不正确、已过期或尝试次数已用完，请检查或重新发送。",
+    "expiredVerification": "验证已过期，请重新发送验证码。",
+    "tryLater": "发送过于频繁，请在倒计时结束后重试。"
   },
   "en": {
     "title": "Supporter profile",
@@ -181,7 +184,10 @@ export const supporterProfileCopy = {
     "previewCode": "Local preview only. Code {code}, valid for 10 minutes.",
     "codeSent": "We queued a code for {email}. Enter its six digits within 10 minutes of receiving the email.",
     "codeFailed": "The code could not be sent. Your details are still here. Try sending it again.",
-    "reissueDone": "If you are eligible for a new link, it will arrive by Afdian direct message."
+    "reissueDone": "If you are eligible for a new link, it will arrive by Afdian direct message.",
+    "badCode": "The code is invalid, has expired, or has reached its attempt limit. Check it or request a new code.",
+    "expiredVerification": "Verification expired. Request a new code.",
+    "tryLater": "Too many requests. Try again when the countdown ends."
   },
   "ja": {
     "title": "支援者プロフィール",
@@ -273,6 +279,9 @@ export const supporterProfileCopy = {
     "previewCode": "ローカルプレビュー用。コードは {code}、有効期限は10分です。",
     "codeSent": "{email} 宛てのコードを送信キューに追加しました。メールに記載された6桁のコードを有効期限の10分以内に入力してください。",
     "codeFailed": "コードを送信できませんでした。入力内容は保持されています。再送信してください。",
-    "reissueDone": "再発行できる場合は、愛発電のメッセージにリンクをお送りします。"
+    "reissueDone": "再発行できる場合は、愛発電のメッセージにリンクをお送りします。",
+    "badCode": "確認コードが無効か、有効期限または試行回数の上限に達しました。コードを確認するか再送信してください。",
+    "expiredVerification": "確認の有効期限が切れました。コードを再送信してください。",
+    "tryLater": "送信回数が上限に達しました。カウントダウンが終了してから再試行してください。"
   }
 };

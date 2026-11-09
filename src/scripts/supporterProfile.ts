@@ -49,7 +49,19 @@ if (root) {
     });
     if(!response.headers.get('content-type')?.includes('application/json'))throw new ProfileRequestError(t('unavailable'),'service_unavailable',response.status);
     const result=await response.json();
-    if(!response.ok)throw new ProfileRequestError(t(result.error?.code==='invitation_expired'?'invitationExpired':'requestFailed'),result.error?.code,response.status);
+    if(!response.ok){
+      const code=result.error?.code;
+      if(response.status===429&&path==='/profile/email'){
+        const seconds=Number(response.headers.get('Retry-After'));
+        resendAt=Date.now()+(Number.isFinite(seconds)&&seconds>0?seconds:60)*1000;
+      }
+      const messages:Record<string,string>={
+        invitation_expired:'invitationExpired',invitation_required:'invitationRequired',
+        invalid_verification_code:'badCode',verification_expired:'expiredVerification',
+        email_verification_limited:'tryLater',email_verification_required:'verifyFirst',invalid_avatar:'invalidAvatar',
+      };
+      throw new ProfileRequestError(t(messages[code]||'requestFailed'),code,response.status);
+    }
     return result.data;
   }
   function failureMessage(error:unknown) {
