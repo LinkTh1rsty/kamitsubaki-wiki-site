@@ -29,6 +29,7 @@ html body:has(.pswp--open) :is(.support-float,.community-float,.tools-dock,.ai-c
 @media(prefers-reduced-motion:reduce){html body :is(.support-float,.support-float *,.community-float,.community-float *,.tools-dock,.tools-dock *,.ai-chat__orb,.ai-chat__orb>svg,.ai-chat__panel){animation:none!important;transition:none!important;}}
 /* Narrow screens: floatingAutoHide.js hides actions while scrolling down. */
 @media(max-width:760px){
+ html body:has(main:is(.gallery-photo-workbench,.gallery-manage-shell)) :is(.support-float,.community-float,.tools-dock,.ai-chat__launcher,.dashboard-float){display:none;}
  html body :is(.support-float,.community-float,.tools-dock,.ai-chat__launcher,.dashboard-launcher){transition:translate 200ms ease,opacity 200ms ease;}
  html.floating-actions-hidden body :is(.support-float,.community-float,.tools-dock,.ai-chat__launcher,.dashboard-launcher){translate:0 calc(100% + 24px);opacity:0;pointer-events:none;}
 }

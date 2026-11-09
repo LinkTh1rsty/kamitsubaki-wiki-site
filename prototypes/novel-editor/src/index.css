@@ -88,11 +88,11 @@
   --sidebar-foreground: #eeeef0; --sidebar-accent: #2c2837; --sidebar-accent-foreground: #eeeef0;
   --destructive: #ed8b93;
 }
-body { font-family: var(--font-sans); font-size: 14px; }
+body { font-family: var(--font-sans); font-size: var(--ui-font-body); }
 .wiki-review-pane { height: 100%; overflow-y: auto; overflow-x: hidden; padding: 28px clamp(16px, 4vw, 48px) 64px; }
 .wiki-review-pane > * { max-width: 880px; margin-inline: auto; }
 .wiki-review-heading, .wiki-review-account { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
-.wiki-review-heading h2 { font-size: 24px; font-weight: 650; margin-top: 14px; }
+.wiki-review-heading h2 { font-size: var(--ui-font-section); font-weight: 650; margin-top: 14px; }
 .wiki-review-heading p, .wiki-review-help, .wiki-review-local-note, .wiki-review-testing p { color: var(--muted-foreground); line-height: 1.7; }
 .wiki-review-local-note { padding: 12px 0 16px; font-size: 12px; border-bottom: 1px solid var(--border); }
 .wiki-review-account { align-items: center; margin-block: 16px; }
@@ -137,7 +137,6 @@ html body .wiki-workbench .wiki-review-submit textarea.workspace-control.dui-tex
 @media (max-width: 600px) {
   .wiki-review-pane { padding-top: 16px; }
   .wiki-review-pane button { min-height: 44px; }
-  .wiki-review-heading h2 { font-size: 21px; }
   .wiki-review-actions > button { flex: 1; min-width: 140px; }
   .wiki-review-changes dl > div { grid-template-columns: 1fr; gap: 4px; }
   .wiki-review-attachment { grid-template-columns: 64px minmax(0, 1fr); gap: 12px; }
@@ -181,7 +180,7 @@ button, input, textarea { font: inherit; }
 .wiki-format-toolbar > * { flex-shrink: 0; }
 .wiki-format-toolbar [data-slot=separator] { height: 20px; margin: 0 5px; }
 .wiki-article-canvas { padding: 38px 54px 80px; max-width: 1120px; margin: auto; }
-.wiki-article-title { display: block; width: 100%; outline: 0; border: 0; background: transparent; padding: 0; font-family: 'Noto Serif SC Variable', serif; font-size: 44px; line-height: 1.5; font-weight: 600; letter-spacing: .025em; }
+.wiki-article-title { display: block; width: 100%; outline: 0; border: 0; background: transparent; padding: 0; font-family: 'Noto Serif SC Variable', serif; font-size: var(--ui-font-title); line-height: var(--ui-leading-heading); font-weight: 600; letter-spacing: .025em; }
 .wiki-article-romanized { font: 400 22px/1.4 'Noto Serif SC Variable', serif; color: var(--muted-foreground); margin: 4px 0 34px; }
 .wiki-prose { font-family: 'Noto Serif SC Variable', 'Noto Sans JP Variable', serif; font-size: 16px; line-height: 1.9; color: var(--foreground); outline: 0; overflow-wrap: anywhere; }
 .wiki-prose > :first-child { margin-top: 30px; }
@@ -252,7 +251,7 @@ button, input, textarea { font: inherit; }
 .wiki-continue-writing { padding-left: 0; color: var(--muted-foreground); margin-top: 20px; font-size: 12px; }
 .wiki-desktop-properties { border-left: 1px solid var(--border); background: var(--sidebar); overflow: auto; }
 .wiki-properties-content { min-height: 100%; flex: none; display: flex; flex-direction: column; container-type: inline-size; }
-.wiki-properties-content h2 { font-family: 'Noto Serif SC Variable', serif; font-size: 18px; font-weight: 600; margin-bottom: 2px; }
+.wiki-properties-content h2 { font-family: 'Noto Serif SC Variable', serif; font-size: var(--ui-font-section); font-weight: 600; margin-bottom: 2px; }
 .wiki-properties-content h3 { font-size: 12px; color: var(--muted-foreground); margin-bottom: 12px; }
 .wiki-property-tags { display: flex; flex-direction: column; gap: 6px; }
 .wiki-property-tags h3 { margin-bottom: 4px; }
@@ -330,7 +329,7 @@ button, input, textarea { font: inherit; }
 .wiki-properties-sheet { width: min(560px, 100vw); max-width: min(560px, 100vw); overflow: auto; }
 @media (max-width: 1380px) { .wiki-workbench { grid-template-columns: 224px minmax(0, 1fr); } .wiki-content-grid { grid-template-columns: minmax(0, 1fr) 260px; } .wiki-save-status { display: none; } .wiki-article-canvas { padding-inline: 40px; } .wiki-format-toolbar { padding-inline: 14px; } }
 @media (max-width: 1180px) { .wiki-content-grid { grid-template-columns: minmax(0, 1fr); } .wiki-desktop-properties { display: none; } .wiki-article-canvas { max-width: 950px; } }
-@media (max-width: 820px) { .wiki-workbench { grid-template-columns: minmax(0, 1fr); } .wiki-desktop-library { display: none; } .wiki-mobile-menu { display: inline-flex; } .wiki-workbench-header { padding-inline: 12px; gap: 8px; } .wiki-breadcrumb { gap: 8px; flex: 1; } .wiki-header-actions { gap: 4px; } .wiki-header-actions > button { min-width: 30px; padding-inline: 7px; } .wiki-header-actions > button span { display: none; } .wiki-header-actions > button[data-variant=default] { min-width: 36px; } .wiki-article-canvas { padding: 28px 28px 60px; } .wiki-article-title { font-size: 36px; } .wiki-prose { font-size: 15px; } .wiki-prose h2 { font-size: 25px; } .wiki-format-toolbar { padding-inline: 12px; } .wiki-source-pane { padding: 20px; } .wiki-preview-pane { padding: 30px 28px; } }
+@media (max-width: 820px) { .wiki-workbench { grid-template-columns: minmax(0, 1fr); } .wiki-desktop-library { display: none; } .wiki-mobile-menu { display: inline-flex; } .wiki-workbench-header { padding-inline: 12px; gap: 8px; } .wiki-breadcrumb { gap: 8px; flex: 1; } .wiki-header-actions { gap: 4px; } .wiki-header-actions > button { min-width: 30px; padding-inline: 7px; } .wiki-header-actions > button span { display: none; } .wiki-header-actions > button[data-variant=default] { min-width: 36px; } .wiki-article-canvas { padding: 28px 28px 60px; } .wiki-prose { font-size: 15px; } .wiki-prose h2 { font-size: 25px; } .wiki-format-toolbar { padding-inline: 12px; } .wiki-source-pane { padding: 20px; } .wiki-preview-pane { padding: 30px 28px; } }
 @media (max-width: 430px) { .wiki-workbench-header { padding-inline: 8px; } .wiki-breadcrumb > span { display: none; } .wiki-article-canvas { padding-inline: 24px; } .wiki-prose table { font-size: 12px; } .wiki-prose th, .wiki-prose td { padding: 6px 9px; } .wiki-bubble-menu { max-width: calc(100vw - 24px); flex-wrap: wrap; } }
 
 /* Task-focused navigation and wrapping controls share shadcn's semantic tokens. */

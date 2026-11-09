@@ -11,3 +11,8 @@ export function setSubmissionFieldError(control, message = '') {
   if (ids.length) control.setAttribute('aria-describedby', ids.join(' '));
   else control.removeAttribute('aria-describedby');
 }
+
+export function focusSubmissionField(control) {
+  control.focus({ preventScroll: true });
+  control.scrollIntoView({ block: 'center' });
+}

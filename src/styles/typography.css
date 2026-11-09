@@ -43,6 +43,6 @@ html body .ve-pr-list-item p { margin-block:6px; }
 html body .workspace-page .workspace-heading h1 { letter-spacing:.015em; }
 html body .workspace-page .workspace-section-heading { flex-wrap:wrap; }
 @media(max-width:640px){
-  html body .workspace-page :is(input:not([type=checkbox],[type=radio]),textarea,select){font-size:16px}
+  html body .workspace-page :is(input:not([type=checkbox],[type=radio]),textarea,select){font-size:var(--ui-font-input-mobile)}
   html body .wiki-reader :where(table){font-size:var(--ui-font-body)}
 }

@@ -29,7 +29,7 @@
 .article-reader-actions{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:4px}
 .article-reading-layout{display:grid;grid-template-columns:224px minmax(0,736px);column-gap:48px;row-gap:28px;align-items:start}
 .article-reader-header{grid-column:2;grid-row:1;min-width:0;overflow-wrap:anywhere;border-bottom:1px solid var(--reader-line);padding-bottom:28px}
-.article-reader-header h1{font:400 clamp(28px,2.7vw,38px)/1.5 var(--font-serif);margin:0 0 20px;letter-spacing:.01em;text-wrap:pretty;color:var(--reader-text)}
+.article-reader-header h1{font:400 var(--ui-font-title)/var(--ui-leading-heading) var(--font-serif);margin:0 0 20px;letter-spacing:.01em;text-wrap:pretty;color:var(--reader-text)}
 .article-reader-header [data-article-summary]{font:400 15px/1.9 var(--font-sans);color:var(--reader-muted);margin:0;white-space:pre-line}
 .article-reader-header [data-article-summary]:empty,.article-reader-header [data-article-status]:empty{display:none}
 .article-reader-header [data-article-status]{font-size:14px;line-height:1.7;margin:16px 0 0}
@@ -60,7 +60,7 @@ html body .article-reader-content .wiki-reader.wiki-prose{font-size:17px;line-he
  .article-reader-actions{max-width:60%}
  .article-reading-layout{display:flex;flex-direction:column;gap:0}
  .article-reader-header{display:contents}
- .article-reader-header h1{order:1;width:100%;font-size:28px;line-height:1.5;margin-bottom:16px}
+ .article-reader-header h1{order:1;width:100%;margin-bottom:16px}
  .article-reader-header [data-article-summary]{order:3;font-size:14px;line-height:1.85;margin:0 0 20px}
  .article-reader-header [data-article-status]{order:4}
  .article-reader-retry{order:5;margin-bottom:16px}
@@ -87,7 +87,6 @@ html body .article-reader-content .wiki-reader.wiki-prose{font-size:17px;line-he
  .article-reader{padding-inline:22px}
  .article-reader-toolbar{flex-wrap:wrap}
  .article-reader-actions{max-width:100%}
- .article-reader-header h1{font-size:26px}
  html body .article-reader-content .wiki-reader.wiki-prose{font-size:16px;line-height:1.95}
  .article-avatar{width:40px;height:40px;flex-basis:40px}
 }

@@ -14,7 +14,8 @@ React 端的 shadcn 主题变量（`--background`、`--foreground`、`--primary`
 ## 2. 设计 token（`public/ui-tokens.css`）
 
 - **颜色**：`--ui-color-canvas / surface / text / body / muted / accent / success / warning / error`，深浅主题由站点主题变量驱动。
-- **字号**：`--ui-font-xs` 12px（**全站最小可见字号**）、`--ui-font-sm` 13px、`--ui-font-control` / `--ui-font-body` 14px、`--ui-font-large` 18px、`--ui-font-title`、`--ui-font-reading`。
+- **字号**：辅助信息 12–13px，表单标签、控件及工作区正文 14px，分区内小标题 16px，分区与对话框标题 20px，页面主标题统一用 `--ui-font-title`（26–32px）。页面标题、分区标题与正文左侧使用同一条对齐线。长文正文使用 `--ui-font-reading`，维持独立的阅读行距。
+  - 使用 `--ui-font-title`、`--ui-font-section`、`--ui-font-subheading` 和 `--ui-leading-heading`；审核详情和邮件主题属于分区，按 20px 处理。
   - 例外：注音 `rt`、上下标、`aria-hidden` 的纯装饰坐标文字。
   - 手机上的输入框用 16px，防止 iOS 自动缩放。
 - **间距**：4 / 8 / 12 / 16 / 24 / 32 / 48（`--ui-space-*`）。
@@ -92,6 +93,6 @@ node scripts/build-community-ui-kit.mjs --backend <path> [--check]   # daisyUI �
 
 ### 图库投稿表单
 
-上传采用第 3 套批量编目方案。共用出处在前，可折叠。桌面一张图占一行，手机改为逐图卡片。每张图的标题直接在行内填写，不使用文件名或共用标题代填。作者、出处和使用依据可以继承同批资料，原始链接和授权说明按使用依据提示。关联词条、类型和补充说明可以稍后填写。
+上传采用第 3 套批量编目方案。共用出处在前，字段始终可见。桌面一张图占一行，手机改为逐图卡片。每张图的标题直接在行内填写，不使用文件名或共用标题代填。作者、出处和使用依据可以继承同批资料，原始链接和授权说明按使用依据提示。分类和补充区直接显示并标明选填，关联词条在可见的搜索框中选取。上传说明用直达文档的链接。
 
 Wiki 的照片、设定组和年表表单复用投稿字段结构。React 管理端沿用已有输入控件，使用同样的标签、说明和字段错误顺序。缺失资料定位到该字段；审核进度以服务端状态和操作回执显示。表单不使用「资料已确认」之类的人工勾选。

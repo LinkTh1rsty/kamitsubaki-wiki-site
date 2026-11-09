@@ -1,4 +1,4 @@
-import {setSubmissionFieldError} from '../lib/submissionField.mjs';
+import {focusSubmissionField, setSubmissionFieldError} from '../lib/submissionField.mjs';
 import {photoSubmissionIssues} from '../lib/gallerySubmissionFields.mjs';
 import {galleryHeicCopy, galleryImageAccept, isGalleryHeic, prepareGalleryImage} from '../lib/galleryImageInput.mjs';
 import {uploadStatusTarget} from '../lib/uploadStatusTarget.mjs';
@@ -22,9 +22,16 @@ if(root){
  const draftKey=()=>galleryDraftKey(owner,draftId);
  const say=(value,tone='info')=>{const status=$('[data-photo-status]');status.textContent=value;status.dataset.tone=tone;};
  const request=async(path,method='GET',body)=>{const url=new URL(api+'/api/gallery'+path);if(owner)url.searchParams.set('accountId',owner);const response=await fetch(url,{method,credentials:'include',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined,signal:AbortSignal.timeout(20000)});const data=await response.json();if(!response.ok)throw Object.assign(Error(data.error?.message||copy.failed),{status:response.status,code:data.error?.code,fileId:data.error?.fileId,itemId:data.error?.itemId});return data;};
+ function filterEntityChoices() {
+  const query=$('[data-entity-search]').value.trim().toLocaleLowerCase(locale);
+  for (const label of root.querySelectorAll('[data-entity-options] label')) {
+   const input=label.querySelector('input');
+   label.hidden=!input.checked&&(!query||!label.textContent.toLocaleLowerCase(locale).includes(query));
+  }
+ }
  const defaults=()=>{const fields=Object.fromEntries([...root.querySelectorAll('[data-default]')].map(input=>[input.dataset.default,input.value.trim()]));return {...fields,mediaType:fields.mediaType||null,tags:fields.tags.split(/[,，]/).map(value=>value.trim()).filter(Boolean),entityIds:[...root.querySelectorAll('[data-entity-options] input:checked')].map(input=>input.value)};};
  const manifest=()=>({kind:'photos',defaults:defaults(),photos:files.map(file=>({fileId:file.id,metadata:Object.fromEntries(Object.entries(file.metadata).filter(([,value])=>value!==''&&value!==undefined))}))});
- function fieldsFromManifest(data){for(const [key,value] of Object.entries(data.defaults||{})){const input=root.querySelector(`[data-default="${key}"]`);if(input)input.value=Array.isArray(value)?value.join(', '):value||'';}root.querySelectorAll('[data-entity-options] input').forEach(input=>{input.checked=(data.defaults?.entityIds||[]).includes(input.value);});toggleEvidence();}
+ function fieldsFromManifest(data){for(const [key,value] of Object.entries(data.defaults||{})){const input=root.querySelector(`[data-default="${key}"]`);if(input)input.value=Array.isArray(value)?value.join(', '):value||'';}root.querySelectorAll('[data-entity-options] input').forEach(input=>{input.checked=(data.defaults?.entityIds||[]).includes(input.value);});filterEntityChoices();toggleEvidence();}
  const snapshot=()=>({manifest:manifest(),files:files.map(({url,...file})=>({...file,state:file.state==='staged'?'staged':'queued'})),ownerId:owner});
  async function persistSnapshot(value){try{await galleryDraft('put',draftKey(),value);localFilesUnavailable=false;}catch{localFilesUnavailable=true;await galleryDraft('put',draftKey(),{...value,files:value.files.map(({file,...row})=>row)});say(copy.localStorageFull,'error');}}
  function setupDraft(local){
@@ -91,15 +98,13 @@ if(root){
    if(key==='title'){
     const input=row.querySelector('[data-row-title]');
     input.dispatchEvent(new Event('blur'));
-    input.focus();
+    focusSubmissionField(input);
     say('', 'info');
    }else{
     const input=$(`[data-default="${key}"]`);
     if(input&&!input.closest('[hidden]')){
-     const section=input.closest('details');
-     if(section)section.open=true;
      setSubmissionFieldError(input,copy.fieldErrors[issues[key]]||copy.required);
-     input.focus();
+     focusSubmissionField(input);
     }else inspector(file,row.querySelector('[data-photo-inspect]'));
     say(copy.fieldErrors[issues[key]]||copy.required,'error');
    }
@@ -150,8 +155,8 @@ if(root){
  root.addEventListener('paste',event=>{const images=[...(event.clipboardData?.files||[])].filter(file=>file.type.startsWith('image/')||isGalleryHeic(file));if(!images.length||!owner||disposed||busyAction==='submit')return;event.preventDefault();void addFiles(images);});
  const drop=$('[data-photo-drop]');drop.ondragover=event=>{event.preventDefault();if(owner&&!busy&&!disposed)drop.dataset.dragging='';};drop.ondragleave=()=>delete drop.dataset.dragging;drop.ondrop=event=>{event.preventDefault();delete drop.dataset.dragging;void addFiles([...event.dataTransfer.files]);};
  root.querySelectorAll('[data-default]').forEach(input=>input.addEventListener('input',()=>{if(input.dataset.default==='rightsBasis')toggleEvidence();setSubmissionFieldError(input);void saveLocal();}));
- $('[data-entity-search]').oninput=event=>{const q=event.target.value.trim().toLocaleLowerCase();root.querySelectorAll('[data-entity-options] label').forEach(label=>{label.hidden=Boolean(q&&!label.textContent.toLocaleLowerCase().includes(q));});};
- $('[data-entity-options]').onchange=()=>void saveLocal();
+ $('[data-entity-search]').oninput=filterEntityChoices;
+ $('[data-entity-options]').onchange=()=>{filterEntityChoices();void saveLocal();};
  async function stageFiles(items){
   const jobs=[];for(const file of items){if(file.state==='staged')continue;if(!(file.file instanceof Blob)){file.state='failed';file.error=copy.reselectFile;continue;}
    file.state='checking';updateRows();const existing=await findExistingGalleryFile(file,files,request);if(disposed)return;
@@ -180,7 +185,7 @@ if(root){
  }
  async function initialize(){try{
   const viewer=await refreshAuth();owner=viewer?.userId;if(!owner){const loginHref=`/${locale}/account/?returnTo=${encodeURIComponent(location.href)}`;$('[data-photo-login]').href=loginHref;$('[data-photo-access-login]').href=loginHref;$('[data-photo-login]').hidden=state.auth==='unavailable';say(state.auth==='unavailable'?copy.authUnavailable:copy.loginFirst,state.auth==='unavailable'?'error':'info');updateButtons();return;}
-  const [catalog,types]=await Promise.all([request('/entities'),request('/types')]);entities=catalog.entities;mediaTypes=types.types;for(const type of mediaTypes)$('[data-default="mediaType"]').add(new Option(type.labels?.[locale]||type.labels?.zh||type.id,type.id));const options=$('[data-entity-options]');for(const entity of entities){const label=create('label'),checkbox=document.createElement('input');checkbox.type='checkbox';checkbox.value=entity.id;label.append(checkbox,create('span',entity.labels?.[locale]||entity.name));options.append(label);}
+  const [catalog,types]=await Promise.all([request('/entities'),request('/types')]);entities=catalog.entities;mediaTypes=types.types;for(const type of mediaTypes)$('[data-default="mediaType"]').add(new Option(type.labels?.[locale]||type.labels?.zh||type.id,type.id));const options=$('[data-entity-options]');for(const entity of entities){const label=create('label'),checkbox=document.createElement('input');label.hidden=true;checkbox.type='checkbox';checkbox.value=entity.id;label.append(checkbox,create('span',entity.labels?.[locale]||entity.name));options.append(label);}
   const localDrafts=await listGalleryDrafts(owner).catch(()=>[]),search=new URLSearchParams(location.search),retry=search.get('retry');let id=search.get('batch');let local=id?localDrafts.find(draft=>draft.id===id):!retry&&!search.has('new')?localDrafts.find(draft=>draft.kind==='photos'):null;id||=local?.id;let remote=null;
   if(retry&&!id){let retryDraft=search.get('retryDraft');if(!retryDraft||!/^[-\w]{1,100}$/.test(retryDraft)){retryDraft=crypto.randomUUID();const url=new URL(location.href);url.searchParams.set('retryDraft',retryDraft);history.replaceState(null,'',url);}const resumed=await request('/batches/'+encodeURIComponent(retry)+'/retry','POST',{id:retryDraft});id=resumed.batch.id;const url=new URL(location.href);url.searchParams.delete('retry');url.searchParams.delete('retryDraft');url.searchParams.set('batch',id);history.replaceState(null,'',url);}
   if(id){remote=await request('/batches/'+encodeURIComponent(id)).catch(error=>{if(local&&(error.status===404||!error.status))return null;throw error;});batch=remote?.batch;if(batch&&batch.kind!=='photos')throw Error(copy.wrongBatch);if(batch&&batch.status!=='draft'){say(copy.review);$('[data-photo-receipt]').href=`/${locale}/account/creator/?recordType=gallery&record=${encodeURIComponent(batch.id)}`;$('[data-photo-receipt]').hidden=false;disposed=true;updateButtons();return;}}

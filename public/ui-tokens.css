@@ -16,6 +16,10 @@
   --ui-font-body: 14px;
   --ui-font-large: 18px;
   --ui-font-title: clamp(26px, 2.4vw, 32px);
+  --ui-font-section: 20px;
+  --ui-font-subheading: 16px;
+  --ui-font-input-mobile: 16px;
+  --ui-leading-heading: 1.3;
   --ui-font-reading: clamp(16px, .25vw + 15px, 18px);
   --ui-leading-reading: 1.9;
   --ui-leading-control: 1.5;

@@ -1,9 +1,9 @@
 ---
 import '../styles/submissionLayout.css';
-interface Props {title:string; hint?:string; step?:string; class?:string; heading?:'h2'|'h3'|'h4'; collapsible?:boolean}
-const {title,hint,step,class:className,heading:Heading='h2',collapsible=false}=Astro.props;
+interface Props {title:string; hint?:string; step?:string; class?:string; heading?:'h2'|'h3'|'h4'}
+const {title,hint,step,class:className,heading:Heading='h2'}=Astro.props;
 ---
-{collapsible ? <details open class:list={['submission-panel','submission-panel-collapsible',className]}><summary><Heading>{title}</Heading></summary>{hint&&<p class="submission-hint">{hint}</p>}<slot/></details> : <section class:list={['submission-panel',className]}>
+<section class:list={['submission-panel',className]}>
  <header class="submission-panel-header"><Heading>{step&&<span aria-hidden="true">{step}</span>}{title}</Heading>{hint&&<p>{hint}</p>}</header>
  <slot/>
-</section>}
+</section>

@@ -7,14 +7,14 @@ body:not(.site-home) :is(input:not([type='checkbox'],[type='radio'],[type='range
 html body :is(button,input,textarea,select):disabled { cursor:not-allowed; }
 html body .catalog-page { padding-top: 100px; }
 html body .catalog-page > .mt-14 { margin-top: 28px; }
-html body .catalog-page h1 { font-size: clamp(28px, 3.4vw, 38px); line-height: 1.25; letter-spacing: .03em; }
+html body .catalog-page h1 { font-size: var(--ui-font-title); line-height: var(--ui-leading-heading); letter-spacing: .03em; }
 html body .catalog-hero__body { padding: 28px; }
 html body .catalog-hero__media { min-height: 260px; }
 html body .album-artist-card { border-radius: var(--ui-radius-panel); border-color: var(--ui-line); }
 html body .events-page__main { padding-top: 100px; }
 html body .events-page__hero { margin-bottom: 28px; padding-left: 0; }
 html body .events-page__hero::before { display: none; }
-html body .events-page__hero h1 { font-size: clamp(28px, 3.4vw, 38px); line-height: 1.25; letter-spacing: .03em; }
+html body .events-page__hero h1 { font-size: var(--ui-font-title); line-height: var(--ui-leading-heading); letter-spacing: .03em; }
 html body .events-page__hero > span { margin-top: 14px; }
 html body .labs-head > p { margin-bottom: 0; font-size: 14px; }
 html body .labs-head > a { font-size: 12px; color: var(--b-muted); }

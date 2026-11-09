@@ -1,2 +1,2 @@
 // Generated from the shared UI build.
-export const siteComponentVersion="997c0616730ab1b6";
+export const siteComponentVersion="413089e3e786747e";
