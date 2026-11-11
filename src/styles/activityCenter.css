@@ -131,7 +131,7 @@
 [data-activity-status]:empty{display:none}
 @media(prefers-reduced-motion:reduce){.activity-card__art img{transition:none}}
 
-/* Selected Activity Center option 1. Shared reading rules are documented in DESIGN.md. */
+/* Activity Center layout. */
 html body main.workspace-page.events-page__main{--workspace-top:112px;--workspace-max:1440px;--workspace-gutter:48px}
 .activity-center{--reader-line:var(--workspace-line);--reader-muted:var(--ui-color-muted);--reader-surface:var(--theme-bg)}
 .activity-home{gap:8px;margin-bottom:8px;min-height:32px}

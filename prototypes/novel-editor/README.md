@@ -79,7 +79,7 @@ pnpm --dir prototypes/novel-editor check:corpus --json /tmp/novel-corpus-check.j
 - [Moveable](https://github.com/daybrush/moveable)：MIT，直接绑定原生图片，处理比例缩放与控件定位。
 - [react-textarea-autosize](https://github.com/Andarist/react-textarea-autosize)：MIT，标题随内容及窗口宽度自动换行伸缩，使用 8.5.9。
 
-当前重构与验证状态见 [第一轮验证记录](../../qa/2026-10-13-novel-editor/README.md)。记录明确区分自动检查、浏览器实测和待验收项目。
+当前重构与验证状态见 第一轮验证记录。记录明确区分自动检查、浏览器实测和待验收项目。
 
 ### 延续现有界面的帮助与反馈规则
 

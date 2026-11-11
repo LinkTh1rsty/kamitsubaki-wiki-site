@@ -16,7 +16,7 @@ Local workerd: http://127.0.0.1:18360/visuals/ (inspector 18361). Stop preview/d
 
 ## First release scope
 
-- Original ChronoFrame wall, photo animations, WebGL/Swiper viewer, panels and stable v1.0.2 animated album listing. See DESIGN.md and UPSTREAM.md.
+- Original ChronoFrame wall, photo animations, WebGL/Swiper viewer, panels and stable v1.0.2 animated album listing. See UPSTREAM.md for provenance.
 - All anonymous published Wiki images, 24 records per upstream page. First paint loads one page; after mounting, the remaining metadata is prepared continuously with four concurrent requests. The original masonry automatically mounts48-card windows1800px before the tail, without a count/load-more footer; metadata preparation is independent from scrolling. Thumbnail images alone are fetched near the viewport (1200px lookahead), and the redundant no-store Image() preload is removed. At local verification: 1830 published records.
 - Nine artist/type album projections with independent pagination and canonical slug routes. Original IDs, authors and sources are retained. Direct public photo links can resolve outside the first page.
 - Public JSON cache: 15 seconds, no stale-on-error fallback. Every thumbnail/original request rechecks anonymous publication status. Withdrawn images return 404; upstream failure returns 503. Captured fallback thumbnails are private server assets and are used only when live source URL and SHA-256 still match. No static public thumbnail snapshot bypasses that check.
@@ -31,10 +31,10 @@ pnpm exec vue-tsc --noEmit -p tsconfig.json
 pnpm build
 ```
 
-Read `design-qa.md`, `INTEGRATION.md`, `UPSTREAM.md` and retained LICENSE/LICENSING.md. The footer links to this corresponding modified source; upstream credits and licenses remain. Image rights are independent of UI licensing.
+Read `INTEGRATION.md`, `UPSTREAM.md` and LICENSE/LICENSING.md. The footer links to this corresponding modified source; upstream credits and licenses remain. Image rights are independent of UI licensing.
 
 The capture/cache scripts and data files are historical anonymous test material. They do not supply a live catalog fallback or expose unpublished images. Regenerated thumbnails belong in private server assets.
 
 ## Release preparation
 
-After all source changes are committed and the app rebuilt, `node scripts/prepare-release.mjs` prepares local production config and a public revision marker. Dry-run with `pnpm exec wrangler deploy --config .output/server/wrangler.production.json --dry-run`. Actual release requires approval of the fixed workspace release manifest. Never substitute a direct Pages upload for the Wiki's existing Git release entry.
+After all source changes are committed and the app rebuilt, `node scripts/prepare-release.mjs` prepares local production config and a public revision marker. Dry-run with `pnpm exec wrangler deploy --config .output/server/wrangler.production.json --dry-run`. The Wiki site and this independent Worker have separate build and deployment entries.

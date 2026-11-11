@@ -1,5 +1,3 @@
-> 历史参考：本文不再定义开发维护流程；当前规范见仓库 maintenance/README.md。
-
 # KAMITSUBAKI FAN WIKI 全景详细架构展开图 (Detailed Architecture Map)
 
 > **版本**：v2.0.0 (Master Detailed Map)  

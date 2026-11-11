@@ -17,17 +17,17 @@
 
 ## 本机验收
 
-在登记的独立任务目录安装前后端及后端 auth-ui/admin-ui 的锁文件依赖。Wiki 正式构建另需安装 `prototypes/novel-editor` 依赖；构建脚本会运行该子包。
+安装前后端及后端 auth-ui/admin-ui 的锁文件依赖。Wiki 正式构建另需安装 `prototypes/novel-editor` 依赖；构建脚本会运行该子包。
 
-后端 `scripts/activity-center-preview.mjs` 提供合成身份、内存数据库和注入的官方来源。仅监听本任务登记端口。开发边界在隔离模式把动态企划详情交给这个本机渲染器；生产仍由 Pages Functions 处理。
+后端 `scripts/activity-center-preview.mjs` 提供合成身份、内存数据库和注入的官方来源。监听地址和端口由脚本配置。开发边界在隔离模式把动态企划详情交给这个本机渲染器；生产仍由 Pages Functions 处理。
 
-Wiki 启动必须按 `maintenance/README.md` 配置隔离注册表及全部业务 API；不得载入生产 .env。390px 验收入口由本机 API 的 `/__local__/responsive?path=/zh/events/` 提供。结束前记录进程、端口、截图、命令和限制。
+Wiki 启动必须按 `README.md` 配置隔离注册表及全部业务 API；不得载入生产 .env。390px 验收入口由本机 API 的 `/__local__/responsive?path=/zh/events/` 提供。
 
-单元测试：`node --test tests/activity-center.test.mjs tests/calendar-month.test.mjs tests/workspace-boundary.test.mjs`。其余检查仍按 CONTRIBUTING 执行。生产联调和发布需要独立批准与证据；本机样例不证明上游真实连通性。
+单元测试：`node --test tests/activity-center.test.mjs tests/calendar-month.test.mjs tests/workspace-boundary.test.mjs`。其余检查仍按 README 执行。生产联调和发布需要独立批准与证据；本机样例不证明上游真实连通性。
 
-## 已选第一方案（2026-10-25）
+## 页面行为
 
-主规范为 [DESIGN.md](../DESIGN.md)，选稿及桌面/手机实图见 [视觉验收](../design-qa.md#活动中心第一方案验收2026-10-25)。桌面标题与来源切换同排、单行工具栏、双栏完整海报索引、月历与当日详情；手机默认列表，时间范围、搜索及视图移动到唯一筛选面板，保留同一表单节点，不复制状态。布局切换监听器随组件卸载清理。
+桌面标题与来源切换同排、单行工具栏、双栏完整海报索引、月历与当日详情；手机默认列表，时间范围、搜索及视图移动到唯一筛选面板，保留同一表单节点，不复制状态。布局切换监听器随组件卸载清理。
 
 未定日期不提供定位或单活动 ICS；仅日期已知不等于全天开放，不额外写“全天”。加载阶段不锁定默认日期，返回数据后选择实际活动日。月份列表标题使用月份，不显示日历补齐周造成的范围。
 

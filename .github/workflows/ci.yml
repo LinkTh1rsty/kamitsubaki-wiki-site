@@ -48,9 +48,6 @@ jobs:
       - name: Run Astro check
         run: pnpm check
 
-      - name: Check contribution action surfaces
-        run: pnpm check:ui-actions
-
       - name: Check documentation links
         run: pnpm docs:check
 

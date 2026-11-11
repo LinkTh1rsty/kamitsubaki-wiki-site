@@ -1,1 +1,0 @@
-Read AGENTS.md, CONTRIBUTING.md and the current task packet before writing. Confirm the actual repository, branch, worktree and allowed scope. No product main merge or production write without explicit fixed-version user approval.

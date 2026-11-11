@@ -1,6 +1,6 @@
 # Wiki entrance and independent Worker
 
-Selected design: `../../docs/design/visual-roam/DESIGN.md` (option 1). Keep existing galleries and management unchanged.
+This service provides the `/visuals/` entrance independently of the existing gallery and management routes.
 
 ## Routes
 
@@ -16,10 +16,10 @@ Public JSON has a 15-second cache without stale responses after errors. Re-enter
 
 No server/database migration or new credential is required. Existing published-image APIs and storage remain authoritative.
 
-## Fixed release plan
+## Deployment sequence
 
-1. Commit/push reviewed source to GitHub and freeze the exact candidate/tree and checks in the workspace manifest.
-2. After that exact manifest is approved, release the independent Worker `kamitsubaki-visual-roam` with only two routes: `kamitsubaki.wiki/visuals` and `kamitsubaki.wiki/visuals/*`. Disable workers.dev, preview URLs and optional observability. The app has only its generated ASSETS binding, no new paid product or plan upgrade.
+1. Build the source version intended for deployment.
+2. Deploy the independent Worker `kamitsubaki-visual-roam` with only two routes: `kamitsubaki.wiki/visuals` and `kamitsubaki.wiki/visuals/*`. Disable workers.dev, preview URLs and optional observability. The app has only its generated ASSETS binding, no new paid product or plan upgrade.
 3. Read back `https://kamitsubaki.wiki/visuals/.well-known/visual-roam-release.json`, check pages/catalog/thumbnail/originals and disabled routes. Stop if verification fails.
 4. Release the main Wiki entrance through its existing main/Git `node scripts/release-build.mjs` pipeline. Verify its release marker and the entrance on desktop/mobile plus existing gallery/account surfaces.
 

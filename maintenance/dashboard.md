@@ -26,7 +26,7 @@ AI 复用一个 AiChatWidget 的 embedded 模式，首次选择 AI 才动态加�
 
 后端预览脚本可显式设置 ACTIVITY_PREVIEW_AI_FIXTURE=true，提供标明「本机合成」的 bootstrap、历史和 SSE；默认关闭，计数可从 `/__local__/fixtures` 查看。不调用真实模型。改期、取消、权限、缓存及统计口径继续按活动中心契约验证。
 
-受影响测试包括 tests/dashboard.test.mjs、tests/reader-tools.test.mjs、tests/intro-skip.test.mjs 及后端 activity-center 测试。交付仍须执行 CONTRIBUTING 中的完整检查、实际手机/桌面开关与导航、公告去重、AI 草稿/串流/停止、账号及图库回归。截图须标明本机合成数据；本机通过不代表生产发布。
+受影响测试包括 tests/dashboard.test.mjs、tests/reader-tools.test.mjs、tests/intro-skip.test.mjs 及后端 activity-center 测试。
 
 首次无缓存读取使用既有daisyUI Skeleton；有五分钟内的精确查询缓存则立即展示并后台刷新。更新不清空已有卡片或写入可见加载文本；响应相同时保留卡片、已加载图片和焦点，避免重复图片加载。骨架与主企划及紧凑记录的最终结构对应。公告正文和首页文章也使用骨架，AI控制器使用既有loading图标。错误、空状态及过期缓存仍提供真实说明与重试。切换器仅对当前活动来源统计曝光，支持方向键和焦点恢复。
 
@@ -36,6 +36,6 @@ AI 复用一个 AiChatWidget 的 embedded 模式，首次选择 AI 才动态加�
 
 外壳在桌面采用 min(780px,88dvh)，手机采用 94dvh；四个区域共享同一内容槽位，切换和加载不重算外壳高度。标题与页签固定，普通区域滚动正文。AI 由父级 flex 分配剩余空间，仅 assistant-ui 的 Viewport 滚动消息，输入栏始终可见。嵌入模式不再显示浮窗标题、返回按钮或终端提示符；账号、历史、新对话、设置沿用原控制器，首次选择按需加载单实例，保留草稿和请求状态，不自动聚焦或唤起手机键盘。加载使用既有 Skeleton，失败在同一内容槽内重试，完整海报规则不变。
 
-已选视觉方向与组件规范统一维护于 [DESIGN.md](../DESIGN.md)，参考稿和浏览器对照见 [设计验收](../design-qa.md)。主企划整卡中的详情操作使用同一链接；手机日历为40px图标入口，保持五语言来源切换横排。AI 新对话、历史、设置使用文字工具栏，账号入口收在设置中，认证提示仍直接显示于正文上方。
+主企划整卡中的详情操作使用同一链接；手机日历为40px图标入口，保持五语言来源切换横排。AI 新对话、历史、设置使用文字工具栏，账号入口收在设置中，认证提示仍直接显示于正文上方。
 
 本机后端脚本的 `/__local__/activity-network?delay=4000` 和 `?fail=1` 可验证真实延迟/失败，空参数恢复；不会写入活动或生产环境。`/__local__/identity?user=viewer&returnTo=wiki` 使用明确合成身份返回当前本机 Wiki，供 AI 操作验收。
