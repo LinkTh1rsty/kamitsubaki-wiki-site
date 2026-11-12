@@ -1,12 +1,12 @@
 import {readFile,readdir,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-import {join,relative,resolve} from 'node:path';
+import {join,relative,resolve,isAbsolute,sep} from 'node:path';
 import YAML from 'yaml';
 import entities from '../src/data/gallery-entities.json' with {type:'json'};
 
 const contentRoot=resolve('src/content'),publicRoot=resolve('public'),entityIds=new Set(entities.map(entity=>entity.id));
-async function walk(dir){const result=[];for(const entry of await readdir(dir,{withFileTypes:true})){const path=join(dir,entry.name);if(entry.isDirectory())result.push(...await walk(path));else if(entry.name.endsWith('.md'))result.push(path);}return result;}
-async function walkImages(dir){const result=[];for(const entry of await readdir(dir,{withFileTypes:true})){const path=join(dir,entry.name);if(entry.isDirectory())result.push(...await walkImages(path));else if(/\.(?:png|jpe?g|webp|gif|avif)$/i.test(entry.name))result.push(path);}return result;}
+async function walk(dir){const result=[];for(const entry of await readdir(dir,{withFileTypes:true})){const path=join(dir,entry.name);if(entry.isDirectory())result.push(...await walk(path));else if(entry.name.endsWith('.md'))result.push(path.replaceAll('\\','/'));}return result;}
+async function walkImages(dir){const result=[];for(const entry of await readdir(dir,{withFileTypes:true})){const path=join(dir,entry.name);if(entry.isDirectory())result.push(...await walkImages(path));else if(/\.(?:png|jpe?g|webp|gif|avif)$/i.test(entry.name))result.push(path.replaceAll('\\','/'));}return result;}
 const digest=value=>createHash('sha256').update(value).digest('hex');
 const sources=new Map(),missing=[];
 for(const path of (await walk(contentRoot)).sort()){
@@ -18,7 +18,7 @@ for(const path of (await walk(contentRoot)).sort()){
  for(const relation of data.relations||[])if(entityIds.has(relation.target))suggestions.add(relation.target);
  for(const sourceUrl of new Set(matches)){
   if(sourceUrl.startsWith('/images/contributors/')||/placehold\.co|placeholder/i.test(sourceUrl))continue;
-  let hash=null;if(sourceUrl.startsWith('/images/')){const file=resolve(publicRoot,'.'+sourceUrl);if(!file.startsWith(publicRoot+'/'))continue;try{hash=digest(await readFile(file));}catch{missing.push({sourceUrl,contentPath});continue;}}
+  let hash=null;if(sourceUrl.startsWith('/images/')){const file=resolve(publicRoot,'.'+sourceUrl),local=relative(publicRoot,file);if(local==='..'||local.startsWith('..'+sep)||isAbsolute(local))continue;try{hash=digest(await readFile(file));}catch{missing.push({sourceUrl,contentPath});continue;}}
   const key=hash||'url-'+digest(sourceUrl);let item=sources.get(key);
   if(!item){item={id:'asset-'+key.slice(0,64),sourceUrl,sha256:hash,references:[],suggestedEntities:[]};sources.set(key,item);}
   item.references.push({kind:'content',path:contentPath,locale,entityId:data.id||null});

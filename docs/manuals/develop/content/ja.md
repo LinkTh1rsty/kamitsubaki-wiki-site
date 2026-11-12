@@ -2,11 +2,37 @@
 book: develop
 chapter: content
 locale: ja
-order: 2
-title: 分類・メタデータ・コンテンツ
-summary: 分類図、スキーマ、明示的な関連を使って百科と探索資料を維持します。
+order: 3
+title: コンテンツモデルと多言語
+summary: 実際の schema に従って実体・ディレクトリ・関連・五言語を保守します。
 ---
 
-安定したエンティティ ID を使い、src/content/README.md と実装済みのメタデータ規則に従って編集します。中国語・日本語・英語で同じ ID を保ち、繁体字は既存の生成処理を使用します。変更後は pnpm validate:content、pnpm docs:check、ビルドとリンク検証を実行します。閲覧・投稿の操作手順はそれぞれの手引きで管理します。他の作業を古いディレクトリ全体で上書きしないでください。
+## 事実の参照元を特定する
 
-[Repository maintenance / 仓库维护 / 保守手順](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/README.md)
+配置ルールは `src/content/README.md` と `src/lib/contentLayout.mjs`、実際のフィールドは `src/content.config.ts`、`src/lib/entitySchema.mjs` とレジストリ、分類は `src/data/classification-map.json` が基準です。歴史的仕様は背景資料であり、現在の検証ルールを上書きしません。
+
+同じ実体の `zh.md`、`ja.md`、`en.md` を一つのディレクトリに置き、安定 ID を共有します。表示名、配置、URL は別の概念です。表示名の変更で ID を変えず、分類修正のためにコンテンツ全体をコピーしません。
+
+## フィールド、関連、機能データ
+
+実体の種類に応じたフィールドを使います。歌唱者、制作クレジット、リリースの関連などは索引と表示に使われます。本文リンクだけですべての関連が成立するわけではありません。変更後は順方向・逆方向の表示を確認します。
+
+年表イベント、分類辞書、百科本文の役割を分けます。画像・記事の投稿状態はサービスが提供し、静的な実体のフィールドにしません。執筆とフィールドの例は[表記ガイド](/ja/docs/contribute/format/)と[構文ガイド](/ja/docs/contribute/syntax/)を参照してください。
+
+## 多言語の変更手順
+
+対象の元言語を確認します。簡体字中国語、日本語、英語は独立して保守し、台湾・香港の繁体字は `pnpm i18n:generate` で生成します。コード識別子、URL、ライセンス、引用情報、安定 ID を翻訳しません。
+
+正式なドキュメントは `docs/manuals/{分類}/{章}/{言語}.md` に置きます。frontmatter の `book`、`chapter`、`locale` を配置と一致させ、`order` で並べます。各言語の章と順序をそろえ、同じ言語にリンクします。
+
+## 検証と保護対象
+
+```sh
+pnpm validate:content
+pnpm i18n:generate
+pnpm docs:check
+```
+
+差分を確認し、生成処理による無関係な変更を含めないでください。検証が読む過去の JSON、記事の原稿、変換前データは業務資料です。docs や maintenance 内でも旧説明書と一緒に移動しません。
+
+検証後にビルドし、記事リンク、言語切り替え、関連表示を確認します。失敗時は最初のフィールド・パスエラーを修正し、本文の欠落を隠すために監査基準を作り直さないでください。

@@ -1,33 +1,20 @@
 ---
-import Icon from '../../../../components/Icon.astro';
-import BaseLayout from '../../../../layouts/BaseLayout.astro';
-import SiteNav from '../../../../components/SiteNav.astro';
-import SiteFooter from '../../../../components/SiteFooter.astro';
+import DocsLayout from '../../../../layouts/DocsLayout.astro';
 import Reader from '../../../../components/Reader.astro';
-import WorkspaceShell from '../../../../components/WorkspaceShell.astro';
-import WorkspaceHeader from '../../../../components/WorkspaceHeader.astro';
-import {buildLocaleLinks,supportedLocales} from '../../../../lib/i18n.mjs';
-import {getLocalizedSite} from '../../../../lib/homeData.mjs';
-import {getCollection} from 'astro:content';
-import {bookCopy,docsCenterCopy,getManualCatalog,getManualChapter,getManualPaths} from '../../../../lib/docsCenter.mjs';
+import Icon from '../../../../components/Icon.astro';
+import {supportedLocales} from '../../../../lib/i18n.mjs';
+import {docsCopy} from '../../../../lib/docsCopy.mjs';
+import {getManualCatalog,getManualChapter,getManualPaths} from '../../../../lib/docsCenter.mjs';
 export async function getStaticPaths(){const paths=await getManualPaths();return supportedLocales.flatMap(locale=>paths.map(({book,chapter})=>({params:{locale,book,chapter}})));}
 const {locale='zh',book='site',chapter='start'}=Astro.params;
-const site=getLocalizedSite(await getCollection('site'),locale);
-const copy=docsCenterCopy(locale);
-type Chapter={title:string;summary:string;href:string;slug:string};
 const entry=await getManualChapter(book,chapter,locale) as Awaited<ReturnType<typeof getManualChapter>> & {html:string;headings:{depth:number;slug:string;text:string}[]};
-const bookTitle=bookCopy(book,locale).title;
-const chapters=((await getManualCatalog(locale)).find(item=>item.id===book)?.chapters||[]) as Chapter[];
-const position=chapters.findIndex(item=>item.slug===chapter);
-const previous=chapters[position-1],next=chapters[position+1];
+const chapters=(await getManualCatalog(locale)).find(item=>item.id===book)?.chapters||[];
+const position=chapters.findIndex(item=>item.slug===chapter),previous=chapters[position-1],next=chapters[position+1],copy=docsCopy(locale);
 ---
-<BaseLayout lang={locale} title={entry.data.title} metadata={{title:entry.data.title,description:entry.data.summary,canonicalPath:entry.href}} alternates={supportedLocales.map(code=>({locale:code,href:`/${code}/docs/${book}/${chapter}/`}))}>
- <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,`/docs/${book}/${chapter}/`)} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
- <WorkspaceShell width="wide" class="manual-reader">
-  <nav class="manual-crumb" aria-label="Breadcrumb"><a href={`/${locale}/docs/`}>{copy.title}</a><span aria-hidden="true">/</span><a href={`/${locale}/docs/#docs-book-${book}`}>{bookTitle}</a></nav>
-  <WorkspaceHeader title={entry.data.title} intro={entry.data.summary} eyebrow={`DOCUMENTS / ${book.toUpperCase()}`} backHref={`/${locale}/docs/#docs-book-${book}`} backLabel={bookTitle}/>
-  <Reader variant="guide" headings={entry.headings} contentsTitle={copy.toc}><Fragment set:html={entry.html}/></Reader>
-  <nav class="manual-neighbors" aria-label={bookTitle}>{previous?<a href={previous.href}><small>{copy.previous}</small><strong><Icon name="arrow-left" /> {previous.title}</strong></a>:<span/>}{next?<a href={next.href}><small>{copy.next}</small><strong>{next.title} <Icon name="arrow-right" /></strong></a>:<span/>}</nav>
- </WorkspaceShell><SiteFooter footer={site.footer}/>
-</BaseLayout>
-<style>.manual-crumb{display:flex;align-items:center;gap:10px;margin:12px 0 3px;font:12px var(--font-sans);color:var(--workspace-muted)}.manual-crumb a{color:inherit;text-decoration:none}.manual-crumb a:hover{text-decoration:underline}.manual-reader :global([data-reader]){margin-top:25px}.manual-reader :global(.hub-prose){max-width:74ch}.manual-reader :global(.wiki-prose h2){scroll-margin-top:100px}.manual-neighbors{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:36px;border-top:1px solid var(--ui-line);padding-top:18px}.manual-neighbors a{display:grid;gap:5px;color:inherit;text-decoration:none}.manual-neighbors a:last-of-type{text-align:right}.manual-neighbors small{font:10px var(--font-mono);letter-spacing:.1em;color:var(--workspace-muted)}.manual-neighbors strong{font:500 13px/1.6 var(--font-sans)}.manual-neighbors a:focus-visible{outline:2px solid var(--theme-fg);outline-offset:3px}@media(max-width:650px){.manual-neighbors{grid-template-columns:1fr;gap:16px}.manual-neighbors a:last-of-type{text-align:left}}</style>
+<DocsLayout locale={locale} title={entry.data.title} summary={entry.data.summary} book={book} chapter={chapter}>
+ <Reader variant="guide" headings={entry.headings} contentsTitle={copy.contents}><Fragment set:html={entry.html}/></Reader>
+ <nav class="docs-neighbors" aria-label={copy.navigation}>
+  {previous?<a href={previous.href}><small><Icon name="arrow-left"/>{copy.previous}</small><strong>{previous.title}</strong></a>:<span/>}
+  {next?<a href={next.href}><small>{copy.next}<Icon name="arrow-right"/></small><strong>{next.title}</strong></a>:<span/>}
+ </nav>
+</DocsLayout>

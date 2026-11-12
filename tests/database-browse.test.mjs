@@ -1,3 +1,4 @@
+import {fileURLToPath} from 'node:url';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { build } from 'vite';
@@ -93,7 +94,7 @@ test('the complete browser bundle has no externalized Node built-ins', async () 
     build: {
       write: false,
       minify: false,
-      lib: { entry: new URL('../src/lib/databaseBrowse.mjs', import.meta.url).pathname, formats: ['es'] },
+      lib: { entry: fileURLToPath(new URL('../src/lib/databaseBrowse.mjs', import.meta.url)), formats: ['es'] },
     },
   });
   const bundles = (Array.isArray(result) ? result : [result]).flatMap(bundle => bundle.output);

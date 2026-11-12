@@ -1,0 +1,16 @@
+---
+import Icon from './Icon.astro';
+import {docsCopy} from '../lib/docsCopy.mjs';
+const {locale='zh'}=Astro.props,copy=docsCopy(locale);
+---
+<div class="docs-search" data-docs-search data-index={`/${locale}/docs/search-index.json`} data-copy={JSON.stringify(copy)}>
+ <button type="button" class="docs-search-trigger" data-docs-search-open><Icon name="search"/><span>{copy.search}</span></button>
+ <dialog class="docs-search-dialog" aria-label={copy.search} data-docs-search-dialog>
+  <div class="docs-search-heading"><label for="docs-search-query">{copy.search}</label><button type="button" data-docs-search-close aria-label={copy.close}><Icon name="x"/></button></div>
+  <input id="docs-search-query" type="search" autocomplete="off" placeholder={copy.query} data-docs-search-input aria-controls="docs-search-results"/>
+  <p role="status" aria-live="polite" data-docs-search-status>{copy.hint}</p>
+  <button type="button" data-docs-search-retry hidden>{copy.retry}</button>
+  <div id="docs-search-results" class="docs-search-results" data-docs-search-results></div>
+ </dialog>
+</div>
+<script>import {initDocsSearch} from '../scripts/docsSearch.js';initDocsSearch();</script>

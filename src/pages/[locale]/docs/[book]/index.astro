@@ -1,7 +1,12 @@
 ---
+import DocsLayout from '../../../../layouts/DocsLayout.astro';
+import {manualBooks,getManualCatalog} from '../../../../lib/docsCenter.mjs';
 import {supportedLocales} from '../../../../lib/i18n.mjs';
-import {manualBooks} from '../../../../lib/docsCenter.mjs';
+import {docsCopy} from '../../../../lib/docsCopy.mjs';
 export function getStaticPaths(){return supportedLocales.flatMap(locale=>manualBooks.map(book=>({params:{locale,book}})));}
 const {locale='zh',book='site'}=Astro.params;
-return Astro.redirect(`/${locale}/docs/#docs-book-${book}`,301);
+const catalog=(await getManualCatalog(locale)).find(item=>item.id===book)!,copy=docsCopy(locale);
 ---
+<DocsLayout locale={locale} title={copy.books[book]} summary={catalog.description} book={book}>
+ <ol class="docs-chapter-list">{catalog.chapters.map((chapter,index)=><li><a href={chapter.href}><small>{String(index+1).padStart(2,'0')}</small><div><h2>{chapter.title}</h2><p>{chapter.summary}</p></div></a></li>)}</ol>
+</DocsLayout>
