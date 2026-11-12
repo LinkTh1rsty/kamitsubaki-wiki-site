@@ -48,7 +48,7 @@ const migration=JSON.parse(await readFile(join(root,'docs/migration-map.json'),'
 for(const entry of migration.entries){
  try{
   const archived=await readFile(join(root,entry.archive),'utf8');
-  if(documentContentDigest(archived.replace(/^>[^\n]*\n\n/,''))!==entry.contentSha256)missing.push(`Archive content changed: ${entry.archive}`);
+  if(documentContentDigest(archived.replace(/^>[^\r\n]*\r?\n\r?\n/,''))!==entry.contentSha256)missing.push(`Archive content changed: ${entry.archive}`);
  }catch{missing.push(`Missing archive ${entry.archive}`);}
  for(const chapter of entry.chapters)if(!manualPaths.has(chapter))missing.push(`Missing migration target ${chapter}`);
 }

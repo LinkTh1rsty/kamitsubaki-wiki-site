@@ -43,11 +43,17 @@ test('redirects and archival mappings point at published chapters while business
  const migration=JSON.parse(await readFile('docs/migration-map.json','utf8'));
  for(const entry of migration.entries){
   assert.match(entry.sourceSha256,/^[a-f0-9]{64}$/);assert.ok(entry.archive.startsWith('docs/legacy/'));
-  const archived=(await readFile(entry.archive,'utf8')).replace(/^>[^\n]*\n\n/,'');
+  const archived=(await readFile(entry.archive,'utf8')).replace(/^>[^\r\n]*\r?\n\r?\n/,'');
   assert.equal(documentContentDigest(archived),entry.contentSha256,entry.archive);
   for(const target of entry.chapters)assert.ok(paths.has(target));
  }
  for(const path of ['docs/v3/reports/content-layout.json','docs/v3/reports/migration-report.json','maintenance/article-speech-conversion/manifest.json'])await readFile(path);
+});
+
+test('archive integrity accepts Windows line endings while detecting changes to examples',()=>{
+ const source='# Guide\n\nUse `WORKSPACE_ISOLATED`.\n\n```md\n@[youtube](original-id)\n```\n';
+ assert.equal(documentContentDigest(source.replaceAll('\n','\r\n')),documentContentDigest(source));
+ assert.notEqual(documentContentDigest(source.replace('original-id','changed-id')),documentContentDigest(source));
 });
 
 const require=createRequire(import.meta.url);
