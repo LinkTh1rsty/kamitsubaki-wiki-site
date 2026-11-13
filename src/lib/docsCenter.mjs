@@ -2,8 +2,14 @@ import {readFile,readdir} from 'node:fs/promises';
 import {join,resolve} from 'node:path';
 import {pathToFileURL} from 'node:url';
 import YAML from 'yaml';
-import {resolveLocaleCopy} from './i18n.mjs';
+import {resolveLocaleCopy,supportedLocales} from './i18n.mjs';
+import {unified} from 'unified';
+import remarkParse from 'remark-parse';
+import {docsCopy} from './docsCopy.mjs';
 import {renderMarkdownDocument} from './markdown.mjs';
+
+/** @typedef {{title:string,summary:string,order:number,locale:string,book:string,chapter:string,href:string,slug:string,body?:string}} ManualChapterSummary */
+/** @typedef {{id:string,title:string,description:string,href:string,chapters:ManualChapterSummary[]}} ManualBook */
 
 export const manualBooks=['site','contribute','develop'];
 // Astro bundles this module into dist during prerendering, so resolve the
@@ -18,7 +24,7 @@ export const retiredDocTargets={
  'files-and-images':'contribute/entry','licensing':'contribute/rights',
  'article-publishing':'contribute/article','gallery-r2':'contribute/gallery',
  'metadata-schema':'develop/content','entity-classification':'develop/content',
- 'feature-maintenance':'develop/content','frontend-system':'develop/frontend',
+ 'feature-maintenance':'develop/features','frontend-system':'develop/frontend',
  'page-system':'develop/frontend','architecture':'develop/architecture',
  'release-runbook':'develop/operations',
 };
@@ -55,6 +61,7 @@ export async function getManualPaths(){
 }
 
 export async function getManualChapter(book,chapter,locale,{render=true}={}){
+ assertPart(locale,supportedLocales);
  assertPart(book,manualBooks);
  const chapters=(await readdir(join(manualRoot,book),{withFileTypes:true})).filter(item=>item.isDirectory()).map(item=>item.name);
  assertPart(chapter,chapters);
@@ -67,11 +74,22 @@ export async function getManualChapter(book,chapter,locale,{render=true}={}){
  return render?{...result,...await renderMarkdownDocument(body,{fileURL:pathToFileURL(file)})}:result;
 }
 
+export async function getManualSearchIndex(locale){
+ const books=await getManualCatalog(locale,{includeBody:true}),copy=docsCopy(locale);
+ const parser=unified().use(remarkParse);
+ const text=node=>node.type==='html'?'':typeof node.value==='string'?node.value:node.type==='image'?node.alt||'':(node.children||[]).map(text).join(' ');
+ return {locale,entries:books.flatMap(book=>book.chapters.map(chapter=>({
+  href:chapter.href,title:chapter.title,summary:chapter.summary,group:copy.books[book.id],
+  body:text(parser.parse(chapter.body)).replace(/\s+/gu,' ').trim(),
+ })))};
+}
+
+/** @returns {Promise<ManualBook[]>} */
 export async function getManualCatalog(locale,{includeBody=false}={}){
  const paths=await getManualPaths();
  const chapters=await Promise.all(paths.map(({book,chapter})=>getManualChapter(book,chapter,locale,{render:false})));
  return manualBooks.map(book=>({
-  id:book,...bookCopy(book,locale),href:`/${locale}/docs/#docs-book-${book}`,
+  id:book,...bookCopy(book,locale),href:`/${locale}/docs/${book}/`,
   chapters:chapters.filter(item=>item.book===book).sort((a,b)=>a.data.order-b.data.order).map(item=>({
    ...item.data,href:item.href,slug:item.chapter,...includeBody?{body:item.body}:{},
   })),

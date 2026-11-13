@@ -2,11 +2,48 @@
 book: develop
 chapter: operations
 locale: ja
-order: 4
-title: フロントエンドの開発と確認
-summary: 変更範囲に応じて確認し、ローカル表示と実際の投稿を区別します。
+order: 6
+title: 検証と公開
+summary: リポジトリの検証、実際の動作確認、既存の公開入口による出所確認を行います。
 ---
 
-開発と確認のコマンドはリポジトリの README を参照してください。本番ビルドは Cloudflare Git 連携から `node scripts/release-build.mjs` を実行し、ソースのコミットを確認して公開リリース情報を生成します。
+## 検証の準備
 
-[README](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/README.md)
+現在のコミットと作業状態を記録し、固定 Node 版とロックファイルの依存関係を使います。以下はリポジトリルートで実行します。エディター子パッケージは主サイトのビルドで準備します。連携確認には隔離されたローカル設定を使います。
+
+```sh
+pnpm node:check
+pnpm test
+pnpm check
+pnpm ui:tokens:check
+pnpm check:ui-icons
+pnpm docs:check
+pnpm lyrics:timestamps:audit -- --strict
+pnpm build
+node scripts/v3/check-built-links.mjs
+pnpm pages:assets:audit
+```
+
+現在のコマンドは package.json と CI を基準にします。上流で削除された検証は「提供終了」と記録し、成功扱いにしたり旧スクリプトを復元しません。バックエンドのチェックアウトがない場合、一部の連携テストはスキップされるため結果に明記します。
+
+## 成功が示す範囲
+
+テストはルールと状態、Astro は型とテンプレート、文書検証は言語とリンク、出力リンク監査は生成ページ、リソース監査は Pages の制限を確認します。終了コード 0 は実ログイン、プロバイダー、審査、本番公開の成功を証明しません。
+
+アカウント、画像、エディターの変更は一覧、詳細、操作、再読み込み後の状態を確認します。UI はデスクトップ・スマートフォン、明暗、キーボード、通信エラーと復旧を確認します。模擬データを使った範囲も明示します。
+
+## 候補と統合
+
+開始時、統合前、公開前にリモートを更新して main を確認します。候補コミット、各 head、検証、レビュー、復旧方法を固定し、他タスクと著作者のコミットを保ちます。main が進んだら再統合し、影響範囲を検証します。
+
+main へのマージと本番書き込みには具体的な候補へのユーザー承認が必要です。CI の成功や計画の提出は公開承認ではありません。
+
+## 正式ビルドと公開マーカー
+
+Cloudflare Git 連携は main から `node scripts/release-build.mjs` を実行します。出所を検証して `/.well-known/wiki-release.json` を生成します。別ディレクトリの古い成果物を直接アップロードして迂回しません。
+
+ビルド前後に出所コミットを確認し、公開後にマーカーとデプロイ ID を照合します。クラウドビルドの復旧でも同じ入口の production 成果物を使い、main を再確認します。本番ログとマーカーが本番の証拠です。
+
+## 証拠を保存する
+
+環境、コミット、コマンド、終了コード、画面、制約を記録します。ローカルの模擬例、実際のローカル動作、本番の証拠を分けます。失敗時は最初のエラーと周辺情報を残します。[トラブルシューティング](/ja/docs/develop/troubleshooting/)も参照してください。

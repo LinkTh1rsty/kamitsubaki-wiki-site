@@ -7,13 +7,20 @@ export {createEntityRegistry} from './entityRegistryCore.mjs';
 import {convertChineseContentValue,convertChineseMarkdown} from './traditionalChinese.mjs';
 const locales=['zh','ja','en','zh-tw','zh-hk'];
 async function walk(dir){const paths=[];for(const e of await readdir(dir,{withFileTypes:true})){const p=join(dir,e.name);if(e.isDirectory())paths.push(...await walk(p));else paths.push(p);}return paths;}
+// Registry paths are also public metadata consumed by validators and route builders.
+// Normalize at this boundary so native Windows separators do not erase the inventory.
+export function entitySourceFiles(paths,root){
+ const prefix=root.replaceAll('\\','/')+'/';
+ const collections=new Set(entityCollections);
+ return paths.map(path=>path.replaceAll('\\','/')).filter(path=>path.startsWith(prefix)&&collections.has(path.slice(prefix.length).split('/')[0])&&/\/(zh|ja|en)\.md$/.test(path));
+}
 let cached,signature='',pending;
 export async function getEntityRegistry(){
  if(import.meta.env?.PROD&&cached)return cached;
  if(pending)return pending;
  pending=(async()=>{
-  const root=resolve('src/content');const collections=new Set(entityCollections);
-  const paths=(await walk(root)).filter(p=>collections.has(p.slice(root.length+1).split('/')[0])&&/\/(zh|ja|en)\.md$/.test(p));
+  const root=resolve('src/content');
+  const paths=entitySourceFiles(await walk(root),root);
   const redirectsPath=resolve('src/data/entity-redirects.json');
   const nextSignature=import.meta.env?.PROD?'production':(await Promise.all([...paths,redirectsPath].map(async p=>{const info=await stat(p);return p+':'+info.mtimeMs+':'+info.size;}))).join('|');
   if(cached&&signature===nextSignature)return cached;

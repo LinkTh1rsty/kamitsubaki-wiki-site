@@ -1,63 +1,13 @@
 ---
-import WorkspaceControl from '../../../components/WorkspaceControl.astro';
+import DocsLayout from '../../../layouts/DocsLayout.astro';
 import Icon from '../../../components/Icon.astro';
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import SiteNav from '../../../components/SiteNav.astro';
-import SiteFooter from '../../../components/SiteFooter.astro';
-import WorkspaceShell from '../../../components/WorkspaceShell.astro';
-import WorkspaceHeader from '../../../components/WorkspaceHeader.astro';
-import {buildLocaleLinks,supportedLocales,resolveLocaleCopy} from '../../../lib/i18n.mjs';
-import {getLocalizedSite} from '../../../lib/homeData.mjs';
-import {getCollection} from 'astro:content';
-import {docsCenterCopy,getManualCatalog} from '../../../lib/docsCenter.mjs';
+import {supportedLocales} from '../../../lib/i18n.mjs';
+import {docsCopy} from '../../../lib/docsCopy.mjs';
+import {getManualCatalog} from '../../../lib/docsCenter.mjs';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
-const {locale='zh'}=Astro.params;
-const site=getLocalizedSite(await getCollection('site'),locale);
-const copy=docsCenterCopy(locale);
-type Chapter={title:string;summary:string;body:string;href:string};
-type Book={id:string;title:string;description:string;href:string;chapters:Chapter[]};
-const books=await getManualCatalog(locale,{includeBody:true}) as Book[];
-const tasks=resolveLocaleCopy({
- zh:{title:'我想做什么',items:[['第一次投稿','从资料准备到公开核对，完整走一遍。','contribute/walkthrough/'],['用站内编辑器','按页面步骤写词条、文章、设定图或时间轴。','contribute/start/#wiki-content-site-route'],['通过 GitHub 投稿','从源文件、分支、PR 到审核与合并。','contribute/start/#wiki-content-github-route'],['投稿时间轴','选择日期精度、关联词条和可核对来源。','contribute/chronicle/']]},
- ja:{title:'何をしますか',items:[['初めて投稿する','資料の準備から公開の確認まで順に進めます。','contribute/walkthrough/'],['サイト上で編集','項目・記事・画像・年表を画面から投稿。','contribute/start/#wiki-content-site-route'],['GitHub から投稿','元ファイル、ブランチ、PR、審査とマージ。','contribute/start/#wiki-content-github-route'],['年表に投稿','日付の精度、関連項目、確認できる出典。','contribute/chronicle/']]},
- en:{title:'What would you like to do?',items:[['First contribution','Follow the complete route from evidence to public release.','contribute/walkthrough/'],['Use the site editor','Follow the steps for entries, articles, images, or events.','contribute/start/#wiki-content-site-route'],['Contribute on GitHub','Find the source file, open a branch and PR, follow review.','contribute/start/#wiki-content-github-route'],['Add a chronicle event','Choose date precision, related entries, and verifiable sources.','contribute/chronicle/']]}
-},locale) as {title:string;items:[string,string,string][]};
-const reference=resolveLocaleCopy({zh:{title:'完整参考与跟做练习',note:'保留旧版教程的详细字段、词条骨架、语法示例和 AI 排版提示。遇到不会的步骤，可以先跟做，再按需查阅。',items:[['跟做式学习中心','在页面中选择投稿路线并展开练习。',`/${locale}/contribute/edit/`],['内容与格式完整指南','结构、来源、文风、多语言与提交前清单。',`/${locale}/docs/contribute/format/`],['语法与属性完整指南','Markdown、元数据、站内扩展语法与示例。',`/${locale}/docs/contribute/syntax/`]]},ja:{title:'完全な資料と実践',note:'旧版の詳細なフィールド、項目の構成、構文例、AI 用プロンプトを残しています。操作しながら必要な章を参照できます。',items:[['実践型の学習センター','投稿経路を選び、画面上で例を展開。',`/${locale}/contribute/edit/`],['内容と表記の完全ガイド','構成、出典、文章、多言語、提出前の確認。',`/${locale}/docs/contribute/format/`],['構文と属性の完全ガイド','Markdown、メタデータ、拡張記法、例。',`/${locale}/docs/contribute/syntax/`]]},en:{title:'Full references and guided practice',note:'The detailed fields, entry outlines, syntax examples, and AI formatting prompts from the earlier guides remain available. Practice a route, then consult the full references as needed.',items:[['Interactive learning center','Choose a contribution route and work through examples on the page.',`/${locale}/contribute/edit/`],['Complete content and style guide','Structure, sources, voice, language, and the final checklist.',`/${locale}/docs/contribute/format/`],['Complete syntax and fields guide','Markdown, metadata, site shortcodes, and examples.',`/${locale}/docs/contribute/syntax/`]]}},locale) as {title:string;note:string;items:[string,string,string][]};
+const {locale='zh'}=Astro.params,copy=docsCopy(locale),books=await getManualCatalog(locale);
 ---
-<BaseLayout lang={locale} title={copy.title} metadata={{title:copy.title,description:copy.intro,canonicalPath:`/${locale}/docs/`}} alternates={supportedLocales.map(code=>({locale:code,href:`/${code}/docs/`}))}>
- <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,'/docs/')} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
- <WorkspaceShell width="wide" class="docs-center">
-  <WorkspaceHeader title={copy.title} intro={copy.intro} eyebrow={copy.eyebrow} backHref={`/${locale}/`} backLabel={copy.home}/>
-  <section class="docs-task-start"><h2>{tasks.title}</h2><div>{tasks.items.map(([title,description,path],index)=><a href={`/${locale}/docs/${path}`}><small>0{index+1}</small><strong>{title}</strong><span>{description}</span><b aria-hidden="true"><Icon name="arrow-up-right" /></b></a>)}</div></section>
-  <section class="docs-reference"><div><span>DEEP REFERENCE</span><h2>{reference.title}</h2><p>{reference.note}</p></div><nav aria-label={reference.title}>{reference.items.map(([title,note,href])=><a href={href}><strong>{title}</strong><small>{note}</small><b aria-hidden="true"><Icon name="arrow-up-right" /></b></a>)}</nav></section>
-  <div class="docs-search"><label for="docs-query">{copy.search}</label><WorkspaceControl id="docs-query" type="search" autocomplete="off" placeholder={copy.search} data-docs-query/></div>
-  <div data-docs-groups>
-   {books.map((book,index)=><section class="docs-book" data-docs-book aria-labelledby={`docs-book-${book.id}`}>
-    <header><span>{String(index+1).padStart(2,'0')} / {book.id.toUpperCase()}</span><h2 id={`docs-book-${book.id}`}>{book.title}</h2><p>{book.description}</p></header>
-    <div class="docs-chapters">{book.chapters.map((chapter,chapterIndex)=><a href={chapter.href} class="docs-chapter" data-docs-item data-summary={chapter.summary} data-body={chapter.body.replace(/\s+/g,' ')} data-search={`${book.title} ${chapter.title} ${chapter.summary} ${chapter.body}`.toLocaleLowerCase()}><small>{String(chapterIndex+1).padStart(2,'0')}</small><span><strong>{chapter.title}</strong><em data-docs-snippet>{chapter.summary}</em></span><b aria-hidden="true"><Icon name="arrow-up-right" /></b></a>)}</div>
-   </section>)}
-  </div>
-  <p class="docs-empty" data-docs-empty hidden>{copy.empty}</p>
- </WorkspaceShell>
- <SiteFooter footer={site.footer}/>
-</BaseLayout>
-<script>
- const input=document.querySelector<HTMLInputElement>('[data-docs-query]');
- const groups=[...document.querySelectorAll<HTMLElement>('[data-docs-book]')];
- input?.addEventListener('input',()=>{
-  const q=input.value.trim().toLocaleLowerCase();let matches=0;
-  for(const group of groups){let visible=0;for(const item of group.querySelectorAll<HTMLElement>('[data-docs-item]')){
-   const found=!q||Boolean(item.dataset.search?.includes(q));item.hidden=!found;if(found){visible++;matches++;}
-   const snippet=item.querySelector<HTMLElement>('[data-docs-snippet]');if(snippet){const source=item.dataset.body||'';const at=q?source.toLocaleLowerCase().indexOf(q):-1;const excerpt=at>=0?source.slice(Math.max(0,at-42),at+100).replace(/\[([^\]]+)\]\([^)]+\)/g,'$1').replace(/\*\*|__|~~|`/g,'').trim():'';snippet.textContent=at>=0?`…${excerpt}…`:item.dataset.summary||'';}
-  }group.hidden=!visible;}
-  const empty=document.querySelector<HTMLElement>('[data-docs-empty]');if(empty)empty.hidden=matches>0;
- });
-</script>
-<style>
- .docs-search{margin:26px 0 20px;display:grid;gap:7px}.docs-search label{font:11px var(--font-mono);letter-spacing:.1em;color:var(--workspace-muted)}.docs-search input{width:100%;min-height:44px;border:1px solid var(--ui-line);border-radius:4px;background:transparent;color:inherit;padding:10px 13px;font:14px var(--font-sans)}.docs-search input:focus-visible,.docs-book a:focus-visible{outline:2px solid var(--theme-fg);outline-offset:3px}
- .docs-task-start{margin:26px 0 34px}.docs-task-start h2{font:400 26px var(--font-serif);margin:0 0 14px}.docs-task-start>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.docs-task-start a{position:relative;display:grid;grid-template-columns:28px minmax(0,1fr) 16px;gap:0 8px;min-height:95px;padding:15px;border:1px solid var(--ui-line);border-radius:3px;color:inherit;text-decoration:none}.docs-task-start a:hover{border-color:var(--theme-fg);background:rgb(var(--theme-fg-rgb)/.025)}.docs-task-start :is(small,b){font:11px var(--font-mono);color:var(--workspace-muted)}.docs-task-start strong{font:500 14px var(--font-sans)}.docs-task-start span{grid-column:2;max-width:40ch;color:var(--workspace-muted);font:12px/1.6 var(--font-sans)}.docs-task-start a:focus-visible{outline:2px solid var(--theme-fg);outline-offset:3px}
- .docs-reference{display:grid;grid-template-columns:minmax(180px,.7fr) minmax(0,1.3fr);gap:28px;margin:0 0 34px;padding:24px 0;border:0;border-left:0;border-radius:0;background:none;box-shadow:none;border-block:1px solid var(--ui-line);}.docs-reference>div>span{font:10px var(--font-mono);letter-spacing:.12em;color:var(--workspace-muted)}.docs-reference h2{margin:9px 0;font:400 22px/1.4 var(--font-serif)}.docs-reference p{max-width:37ch;margin:0;color:var(--workspace-muted);font:12px/1.75 var(--font-sans)}.docs-reference nav{display:grid}.docs-reference a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 10px;align-items:center;min-height:64px;padding:9px 0;border-bottom:1px solid var(--ui-line);color:inherit;text-decoration:none}.docs-reference a:last-child{border-bottom:0}.docs-reference a:hover strong{color:var(--theme-accent-color)}.docs-reference a strong{font:500 13px var(--font-sans)}.docs-reference a small{grid-column:1;color:var(--workspace-muted);font:11px/1.5 var(--font-sans)}.docs-reference a b{grid-column:2;grid-row:1/3;font:12px var(--font-sans)}
- .docs-book{display:grid;grid-template-columns:minmax(190px,.7fr) minmax(0,1.7fr);gap:28px;border-top:1px solid var(--ui-line);padding:25px 0 33px}.docs-book header>span{font:10px var(--font-mono);letter-spacing:.14em;color:var(--workspace-muted)}.docs-book h2{margin:10px 0 7px;font:400 clamp(21px,2.4vw,27px)/1.35 var(--font-serif)}.docs-book h2 a{text-decoration:none;color:inherit}.docs-book h2 a span{font:14px var(--font-sans);opacity:.45}.docs-book p{margin:0;max-width:27ch;font:13px/1.8 var(--font-sans);color:var(--workspace-muted)}.docs-chapters{min-width:0}.docs-chapter{display:grid;grid-template-columns:25px minmax(0,1fr) 15px;gap:13px;align-items:start;padding:12px 2px;border-bottom:1px solid var(--ui-line);color:inherit;text-decoration:none;transition:padding 180ms ease,background 180ms ease}.docs-chapter:hover{padding-left:9px;background:color-mix(in srgb,currentColor 4%,transparent)}.docs-chapter small{font:11px var(--font-mono);opacity:.5}.docs-chapter strong{display:block;font:500 14px/1.45 var(--font-sans)}.docs-chapter em{display:block;margin-top:3px;font:12px/1.65 var(--font-sans);color:var(--workspace-muted);font-style:normal}.docs-chapter b{font:13px var(--font-sans);opacity:.4}.docs-empty{padding:24px 0;color:var(--workspace-muted)}[hidden]{display:none!important}
- @media(max-width:760px){.docs-task-start>div,.docs-reference{grid-template-columns:1fr}.docs-reference{gap:28px;border:0;border-radius:0;background:none;box-shadow:none;padding:24px 0;border-block:1px solid var(--ui-line);border-left:0;}.docs-book{grid-template-columns:1fr;gap:13px;padding:21px 0 27px}.docs-book p{max-width:none}}
- @media(prefers-reduced-motion:reduce){.docs-chapter{transition:none}}
-</style>
+<DocsLayout locale={locale} title={copy.title} summary={copy.intro}>
+ <div class="docs-books">{books.map((book,index)=><section id={`docs-book-${book.id}`}><p class="docs-eyebrow">0{index+1}</p><h2><a href={book.href}>{copy.books[book.id]} <Icon name="arrow-up-right"/></a></h2><p>{book.description}</p><ul>{book.chapters.map(chapter=><li><a href={chapter.href}>{chapter.title}</a></li>)}</ul><a class="docs-browse" href={book.href}>{copy.browse}<Icon name="arrow-right"/></a></section>)}</div>
+ <section class="docs-practice"><h2><a href={`/${locale}/contribute/edit/`}>{copy.practice}<Icon name="arrow-up-right"/></a></h2><p>{copy.practiceNote}</p></section>
+</DocsLayout>

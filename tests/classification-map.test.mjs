@@ -6,7 +6,8 @@ const records=new Map();
 for(const collection of ['people','units','isotopes','songs','releases','projects','lives','organizations','lore','articles']) {
  const base=`src/content/${collection}`;
  if(!fs.existsSync(base))continue;
- for(const relative of fs.readdirSync(base,{recursive:true})) {
+ for(const nativePath of fs.readdirSync(base,{recursive:true})) {
+  const relative=nativePath.replaceAll('\\','/');
   if(!relative.endsWith('/zh.md'))continue;
   const data=parse(fs.readFileSync(`${base}/${relative}`,'utf8').split('---')[1]);records.set(data.id,{data});
  }

@@ -2,16 +2,53 @@
 book: "develop"
 chapter: "operations"
 locale: "zh-hk"
-order: 4
-title: "前台開發與驗收"
-summary: "按修改範圍檢查前台，並區分本地效果與真實投稿流程。"
-generatedFromHash: "288532f828de9d77ad8c"
+order: 6
+title: "檢查與發佈"
+summary: "運行倉庫門禁，核對真實行為，並通過既有發佈入口追溯來源。"
+generatedFromHash: "610d658444d3c06b23c7"
 generated: true
 generatedFrom: "zh"
 ---
 
 <!-- AUTO-GENERATED FROM zh; DO NOT EDIT DIRECTLY. -->
 
-main 是生產來源。任務與外部 PR 保持目標 main，由協調者固定原始提交併集成到短期 release 分支。每個 PR 的檢查和審查通過後，再驗證整體候選。用户明確批准具體候選清單後，使用 merge commit 一次合入發佈批次。正常生產由 Cloudflare Git 集成執行 node scripts/release-build.mjs，發佈前後核對 main 和公開發布標記。禁止繞過發佈入口上傳舊構建。記錄實際來源提交、部署 ID，以及賬號導航和圖庫迴歸結果。
+## 準備檢查
 
-[Repository maintenance / 倉庫維護 / 保守手順](https://github.com/LinkTh1rsty/kamitsubaki-wiki-site/blob/main/README.md)
+記錄當前提交與工作區狀態，使用固定 Node 版本和鎖文件依賴。下面命令在倉庫根目錄執行；編輯器子包由主站構建準備。與其他服務聯調時採用本機隔離配置。
+
+```sh
+pnpm node:check
+pnpm test
+pnpm check
+pnpm ui:tokens:check
+pnpm check:ui-icons
+pnpm docs:check
+pnpm lyrics:timestamps:audit -- --strict
+pnpm build
+node scripts/v3/check-built-links.mjs
+pnpm pages:assets:audit
+```
+
+當前命令以 package.json 和 CI 為準。上游刪除的檢查記錄為“不再提供”，不能偽報通過或為了舊清單恢復過時腳本。缺少後端檢出時，測試啓動器會跳過部分跨倉庫測試；必須在結果中註明。
+
+## 檢查通過意味着什麼
+
+測試檢查規則與狀態，Astro 檢查類型與模板，文檔檢查語言和鏈接，構建鏈接審計檢查輸出頁面，資源審計檢查 Pages 文件限制。命令退出 0 不能證明真實登錄、供應商、投稿審核或生產發佈成功。
+
+賬號、圖庫和編輯器變更檢查列表、詳情、操作、刷新後讀回。界面變更覆蓋桌面和手機、明暗主題、鍵盤、網絡錯誤與恢復。使用模擬數據時明確標記模擬範圍。
+
+## 候選與集成
+
+開始任務、集成前和發佈前刷新遠端並核對 main。固定候選提交、成員原始 head、檢查結果、審查證據及回退方式；保留其他任務和作者的提交。新 main 到來後重新集成並驗證受影響部分。
+
+代碼倉庫 main 合併和生產寫入需要用户對具體候選的明確批准。通過 CI 或提交計劃不等於發佈授權。
+
+## 正式構建與發佈標記
+
+Cloudflare Git 集成從 main 執行 `node scripts/release-build.mjs`。該入口校驗來源並生成 `/.well-known/wiki-release.json`。不要直接上傳其他目錄的舊產物來繞過入口。
+
+構建前後核對來源提交，部署後核對公開標記和部署 ID。雲構建恢復仍須使用同一入口的 production 產物並再次核對 main。實際生產日誌和發佈標記才是生產證據。
+
+## 保存證據
+
+記錄環境、提交、命令、退出碼、截圖和限制。分別説明本機樣例、實際本地行為及生產證據。失敗時保留首個錯誤和上下文；恢復方法見[故障排查](/zh-hk/docs/develop/troubleshooting/)。
