@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V3.0.0：图片档案、时间轴与投稿体验"
 summary: "图片档案与可投稿时间轴上线，统一图片库、投稿与审核流程，完善草稿保护和前后台界面。"
 order: -8
-pinned: true
+pinned: false
 draft: false
 autoOpen: true
 ---

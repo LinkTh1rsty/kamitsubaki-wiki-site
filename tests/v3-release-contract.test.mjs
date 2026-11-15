@@ -31,7 +31,7 @@ test('homepage keeps the established numbered music sections and shared director
  const home=await source('src/pages/[locale]/index.astro');assert.match(home,/<HomeDirectory/);assert.match(home,/buildEntityMusicCatalog/);assert.match(home,/sampleRandom/);assert.ok(home.indexOf('<HomeMusicSection')<home.indexOf('<ContributorRoster'));
  const music=await source('src/components/HomeMusicSection.astro');assert.match(music,/02\. RHYTHM/);assert.match(music,/songs/);assert.match(music,/albums/);
  const sites=await Promise.all(['zh','ja','en'].map(async locale=>({data:JSON.parse(await source(`src/content/site/${locale}.json`))})));
- for(const locale of entityLocales){const site=getLocalizedSite(sites,locale);assert.match(JSON.stringify(site.hero),/3\.1\.0/);assert.ok(site.sections.songs.heading);assert.ok(site.sections.albums.heading);}
+ for(const locale of entityLocales){const site=getLocalizedSite(sites,locale);assert.match(JSON.stringify(site.hero),/3\.3\.0/);assert.ok(site.sections.songs.heading);assert.ok(site.sections.albums.heading);}
 });
 test('homepage music uses entry artwork first, then performer artwork, with canonical links',()=>{
  const registry={list:()=>[{data:{id:'song',entityType:'work-track',title:'Song',performers:[{entity:'kaf'}]},url:'/zh/database/music/songs/song/'},{data:{id:'album',entityType:'work-release',title:'Album',primaryArtist:'kaf',presentation:{image:'/own.webp'}},url:'/zh/database/music/albums/album/'}],resolveEntity:()=>({data:{name:'花譜',presentation:{image:'/artist.webp'}}})};

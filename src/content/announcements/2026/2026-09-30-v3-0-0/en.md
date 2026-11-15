@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V3.0.0: The image archive, timeline and contribution experience"
 summary: "Introducing the image archive and contributor timeline, with a shared image library, clearer review workflows, safer drafts and consistent interfaces."
 order: -8
-pinned: true
+pinned: false
 draft: false
 autoOpen: true
 ---

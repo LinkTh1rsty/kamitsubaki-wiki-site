@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V3.1.0：观测者企划与全新编辑工作台"
 summary: "观测者企划与新编辑工作台上线，整理前后台操作和发电入口，一起记录、一起共建。"
 order: -9
-pinned: true
+pinned: false
 draft: false
 autoOpen: true
 ---

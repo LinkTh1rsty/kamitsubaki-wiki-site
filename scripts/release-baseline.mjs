@@ -18,7 +18,7 @@ export async function checkReleaseBaseline({final=false}={}) {
   const started=JSON.parse(await readFile('.local/release-start.json','utf8'));
   if(started.commit!==head)throw Error('Source changed during build.');
   await mkdir('dist/.well-known',{recursive:true});
-  await writeFile('dist/.well-known/wiki-release.json',JSON.stringify({version:'3.1.0',commit:head,branch:'main',builtAt:new Date().toISOString(),includes:['account-20261011','gallery-icons-20261011','observer-projects-20261013','novel-editor-20261013','support-dialog-20261014']},null,2)+'\n');
+  await writeFile('dist/.well-known/wiki-release.json',JSON.stringify({version:'3.3.0',commit:head,branch:'main',builtAt:new Date().toISOString(),includes:['account-20261011','gallery-icons-20261011','observer-projects-20261013','novel-editor-20261013','support-dialog-20261014']},null,2)+'\n');
  }else{
   await mkdir('.local',{recursive:true});
   await writeFile('.local/release-start.json',JSON.stringify({commit:head}));

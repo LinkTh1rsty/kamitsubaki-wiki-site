@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V3.1.0: Observer Projects and a new editing workbench"
 summary: "A community project calendar, a new editing workbench, and clearer contribution, management, and support flows."
 order: -9
-pinned: true
+pinned: false
 draft: false
 autoOpen: true
 ---

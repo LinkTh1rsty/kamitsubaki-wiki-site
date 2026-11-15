@@ -141,3 +141,69 @@ test('V2.4.0 renders its navigation and account links in every locale',async()=>
     assert.doesNotMatch(rendered.html,/href="[^"]*\/contact\//);
   }
 });
+
+test('V3.1.1 through V3.3.0 announcements render localized routes and pin only V3.3.0', async () => {
+  for (const archivedId of [
+    '2026-09-30-v3-0-0',
+    '2026-10-15-v3-1-0',
+    '2026-10-20-v3-1-1',
+    '2026-10-26-v3-1-2',
+    '2026-10-27-v3-2-0',
+  ]) {
+    const items = await Promise.all(locales.map((locale) => readAnnouncement(archivedId, locale)));
+    assert.equal(items.every((item) => item.pinned === false && item.draft === false), true, archivedId);
+  }
+
+  for (const backfillId of ['2026-10-20-v3-1-1', '2026-10-26-v3-1-2', '2026-10-27-v3-2-0']) {
+    const items = await Promise.all(locales.map((locale) => readAnnouncement(backfillId, locale)));
+    assert.equal(items.every((item) => item.autoOpen === false), true, backfillId);
+  }
+
+  const latestItems = await Promise.all(locales.map((locale) => readAnnouncement('2026-11-05-v3-3-0', locale)));
+  assert.equal(
+    latestItems.every((item) => item.pinned === true && item.autoOpen === true && item.draft === false),
+    true,
+  );
+
+  const v3Entries = await Promise.all(
+    [
+      '2026-09-30-v3-0-0',
+      '2026-10-15-v3-1-0',
+      '2026-10-20-v3-1-1',
+      '2026-10-26-v3-1-2',
+      '2026-10-27-v3-2-0',
+      '2026-11-05-v3-3-0',
+    ].map((id) => entryFor(id, 'zh')),
+  );
+  assert.equal(selectFeaturedAnnouncement(v3Entries)?.id, '2026/2026-11-05-v3-3-0/zh');
+
+  const routeExpectations = [
+    ['2026-10-20-v3-1-1', ['account/', 'support/', 'contribute/review/', 'database/isotopes/kafu/']],
+    ['2026-10-26-v3-1-2', ['', 'events/', 'community/activities/']],
+    ['2026-10-27-v3-2-0', ['explore/#visual-roam', 'gallery/', 'gallery/manage/']],
+    [
+      '2026-11-05-v3-3-0',
+      [
+        'contribute/editor/',
+        'articles/submit/',
+        'articles/',
+        'database/artists/solo/local-486b0763-fb4c-4598-a4b0-670297287b00/',
+      ],
+    ],
+  ];
+
+  for (const locale of [...locales, 'zh-tw', 'zh-hk']) {
+    for (const [id, routes] of routeExpectations) {
+      const rendered = await renderAnnouncement(await entryFor(id, locale));
+      assert.equal(rendered.id, id);
+      assert.match(rendered.html, /<h2\b/);
+      for (const route of routes) {
+        assert.ok(rendered.html.includes(`href="/${locale}/${route}"`), `${id} (${locale}): missing /${locale}/${route}`);
+      }
+      if (id === '2026-10-27-v3-2-0') {
+        assert.ok(rendered.html.includes('href="/visuals/"'), `${id} (${locale}): missing /visuals/`);
+        assert.ok(rendered.html.includes('href="/visuals/albums"'), `${id} (${locale}): missing /visuals/albums`);
+      }
+    }
+  }
+});

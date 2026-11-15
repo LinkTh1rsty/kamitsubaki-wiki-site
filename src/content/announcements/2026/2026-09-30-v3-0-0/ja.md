@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V3.0.0：画像アーカイブ・年表・投稿体験"
 summary: "画像アーカイブと投稿できる年表を公開。画像ライブラリ、投稿と審査の流れ、下書きの保護、管理画面も整えました。"
 order: -8
-pinned: true
+pinned: false
 draft: false
 autoOpen: true
 ---

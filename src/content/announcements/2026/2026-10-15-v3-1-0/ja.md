@@ -6,7 +6,7 @@ type: "SITE UPDATE"
 title: "V3.1.0：観測者企画と新しい編集ワークスペース"
 summary: "観測者企画と新しい編集画面を追加し、投稿・管理・支援の操作を整えました。"
 order: -9
-pinned: true
+pinned: false
 draft: false
 autoOpen: true
 ---
