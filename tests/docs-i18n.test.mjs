@@ -9,9 +9,9 @@ const localizedDocs = [
   'docs/manuals/contribute/format/zh.md',
   'docs/manuals/contribute/format/en.md',
   'docs/manuals/contribute/format/ja.md',
-  'docs/architecture.md',
-  'docs/architecture.en.md',
-  'docs/architecture.ja.md',
+  'docs/manuals/develop/architecture/zh.md',
+  'docs/manuals/develop/architecture/en.md',
+  'docs/manuals/develop/architecture/ja.md',
 ];
 
 async function fileExists(path) {
@@ -35,9 +35,9 @@ test('readme files link to documentation in their own language', async () => {
   const ja = await readFile(new URL('../README.ja.md', import.meta.url), 'utf8');
 
   assert.match(zh, /\(docs\/manuals\/contribute\/start\/zh\.md\)/);
-  assert.match(zh, /\(docs\/architecture\.md\)/);
+  assert.match(zh, /\(docs\/manuals\/develop\/architecture\/zh\.md\)/);
   assert.match(en, /\(docs\/manuals\/contribute\/start\/en\.md\)/);
-  assert.match(en, /\(docs\/architecture\.en\.md\)/);
+  assert.match(en, /\(docs\/manuals\/develop\/architecture\/en\.md\)/);
   assert.match(ja, /\(docs\/manuals\/contribute\/start\/ja\.md\)/);
-  assert.match(ja, /\(docs\/architecture\.ja\.md\)/);
+  assert.match(ja, /\(docs\/manuals\/develop\/architecture\/ja\.md\)/);
 });

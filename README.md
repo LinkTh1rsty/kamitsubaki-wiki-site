@@ -16,7 +16,8 @@ pnpm dev
 - [读者手册](docs/manuals/site/start/zh.md)
 - [投稿手册](docs/manuals/contribute/start/zh.md)
 - [内容目录说明](src/content/README.md)
-- [架构](docs/architecture.md)
-- [活动中心](maintenance/activity-center.md)、[观测面板](maintenance/dashboard.md)、[文章阅读器](maintenance/article-reader.md)
+- [环境与启动](docs/manuals/develop/start/zh.md) · [架构与集成](docs/manuals/develop/architecture/zh.md)
+- [功能维护](docs/manuals/develop/features/zh.md) · [检查与发布](docs/manuals/develop/operations/zh.md) · [故障排查](docs/manuals/develop/troubleshooting/zh.md)
+- [文档来源与历史归档](docs/README.md)
 
 本地跨服务隔离模式使用 WORKSPACE_ISOLATED=true、PUBLIC_WORKSPACE_ISOLATED=true，以及 PUBLIC_WORKSPACE_API_ORIGIN、PUBLIC_WORKSPACE_WIKI_ORIGIN、PUBLIC_WORKSPACE_COMPANION_ORIGIN 三个不同端口的回环地址。普通单站开发无需启用该模式。

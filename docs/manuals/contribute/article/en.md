@@ -7,7 +7,7 @@ title: Submit and revise articles
 summary: Write with the shared editor, save a cloud draft, and submit for publication review.
 ---
 
-> This flow becomes available with the updated upload workspace and article editor. Maintainers must apply the matching incremental backend migrations before releasing the frontend and this guide. A completed private upload is still private; explicit submission and approval are required.
+> A completed private upload is still private; explicit submission and approval are required. Check that your draft is saved, then use the submission record to confirm the public result.
 
 ## Create or revise
 

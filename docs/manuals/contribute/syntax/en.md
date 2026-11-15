@@ -713,6 +713,24 @@ pnpm build
 
 Review official names, unchanged code and URLs, locale-correct internal links, and the absence of unresolved placeholders.
 
+## Speech blocks and bulk import
+
+Entries and articles share speech tools. Choose a speech block or bulk import from the editor's Insert menu. Add or edit speakers while editing a speech block; only a name is required. Avatars, colors, and related entries are optional. A speaker is separate from the document author.
+
+Bulk import accepts “Name: text”. Check the preview, then insert it directly. Unlabelled passages remain ordinary prose. Use the dialog's template for multi-paragraph speeches. Import does not overwrite document properties, and insertion can be undone in one step. Never treat AI-inferred speakers or invented dialogue as source material.
+
+After registering a speaker in the editor, source mode uses its stable role ID:
+
+```md
+:::speech speaker_1
+Speech text checked against its source.
+
+One speech can contain several paragraphs.
+:::
+```
+
+The speaker registry is stored in a `speech-roles` JSON code block in the document. Preserve it rather than duplicating the registry or casually changing role IDs. Correct undefined speakers, duplicate IDs, and unclosed markers. Check names, paragraphs, links, and source fidelity in preview, then submit through the entry or article workflow.
+
 ## Advanced: supported raw HTML
 
 Shortcodes are the easiest option, but the original safe HTML forms remain supported for maintaining older entries or controlling markup precisely. HTML must stay within the allowlist described above. The sanitizer removes `style`, `onmouseover`, `onclick`, `script`, and raw `iframe` content.

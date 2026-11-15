@@ -1,0 +1,39 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import SiteNav from '../components/SiteNav.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import WorkspaceShell from '../components/WorkspaceShell.astro';
+import DocsSearch from '../components/DocsSearch.astro';
+import {getCollection} from 'astro:content';
+import {getLocalizedSite} from '../lib/homeData.mjs';
+import {getManualCatalog} from '../lib/docsCenter.mjs';
+import {docsCopy} from '../lib/docsCopy.mjs';
+import {buildLocaleLinks,supportedLocales} from '../lib/i18n.mjs';
+import '../styles/docs.css';
+const {locale='zh',title,summary,book,chapter}=Astro.props;
+const site=getLocalizedSite(await getCollection('site'),locale),copy=docsCopy(locale),books=await getManualCatalog(locale);
+const path=`/docs/${book?book+'/':''}${chapter?chapter+'/':''}`;
+---
+<BaseLayout lang={locale} title={title} metadata={{title,description:summary,canonicalPath:`/${locale}${path}`}} alternates={supportedLocales.map(code=>({locale:code,href:`/${code}${path}`}))} reading={true}>
+ <SiteNav navItems={site.navItems} localeLinks={buildLocaleLinks(site,locale,path)} brandLines={site.hero.brandLines} homeHref={`/${locale}/`}/>
+ <WorkspaceShell width="wide" class="docs-site">
+  <aside class="docs-sidebar">
+   <a class="docs-brand" href={`/${locale}/docs/`}>{copy.title}</a>
+   <DocsSearch locale={locale}/>
+   <details open class="docs-navigation"><summary>{copy.navigation}</summary>
+    <nav aria-label={copy.navigation}>{books.map(group=><section><a class="docs-group" href={group.href} aria-current={book===group.id&&!chapter?'page':undefined}>{copy.books[group.id]}</a><ul>{group.chapters.map(item=><li><a href={item.href} aria-current={book===group.id&&chapter===item.slug?'page':undefined}>{item.title}</a></li>)}</ul></section>)}</nav>
+   </details>
+  </aside>
+  <div class="docs-main">
+   <nav class="docs-breadcrumb" aria-label={copy.breadcrumb}><a href={`/${locale}/docs/`}>{copy.title}</a>{book&&<><span aria-hidden="true">/</span><a href={`/${locale}/docs/${book}/`}>{copy.books[book]}</a></>}{chapter&&<><span aria-hidden="true">/</span><span aria-current="page">{title}</span></>}</nav>
+   <header class="docs-header"><p class="docs-eyebrow">KAMITSUBAKI WIKI</p><h1>{title}</h1><p>{summary}</p></header>
+   <slot/>
+  </div>
+ </WorkspaceShell>
+ <SiteFooter footer={site.footer}/>
+</BaseLayout>
+<script>
+ const navigation=document.querySelector<HTMLDetailsElement>('.docs-navigation');
+ const wide=matchMedia('(min-width:901px)');
+ if(navigation){navigation.open=wide.matches;wide.addEventListener('change',event=>{navigation.open=event.matches;});}
+</script>

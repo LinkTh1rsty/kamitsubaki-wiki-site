@@ -1,0 +1,665 @@
+{
+  "task": "20261112-docs-site",
+  "baseline": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+  "policy": "Archive surviving documentation only. Upstream-deleted materials remain deleted. Business data stays in place.",
+  "entries": [
+    {
+      "source": "docs/account.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "c56543a84ffec68ca1e3ee2a38daa49bcc0e6d2bc31e8e1b64a073cb1b9ed5da",
+      "archive": "docs/legacy/account.md",
+      "chapters": [
+        "site/account"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "c29a454061518f978e7131eceea68eb0fda79879cdb8d8d9f97489feae9fc50a"
+    },
+    {
+      "source": "docs/ai-terminal.en.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "7e073932a13a265b74415338b3bf53165aaecf86f0eb99514c75d79cf1a751ba",
+      "archive": "docs/legacy/ai-terminal.en.md",
+      "chapters": [
+        "site/explore",
+        "develop/features"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "b25736cd1c2e91c59885a688e4d424bab9a099e29e6947ad79d802e4bf9ca8fa"
+    },
+    {
+      "source": "docs/ai-terminal.ja.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "9c2b9b78a91679f99a6b6fd960b9872c71f5b9d341910198a7afb9ee81fe4ac5",
+      "archive": "docs/legacy/ai-terminal.ja.md",
+      "chapters": [
+        "site/explore",
+        "develop/features"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "205bf7e00a048909c15df09e9ff5dc98e9f150d38c9c7c4436009850b7da579c"
+    },
+    {
+      "source": "docs/ai-terminal.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "c56543a84ffec68ca1e3ee2a38daa49bcc0e6d2bc31e8e1b64a073cb1b9ed5da",
+      "archive": "docs/legacy/ai-terminal.md",
+      "chapters": [
+        "site/explore",
+        "develop/features"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "c29a454061518f978e7131eceea68eb0fda79879cdb8d8d9f97489feae9fc50a"
+    },
+    {
+      "source": "docs/architecture-overview.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "273c29b6066a61370ab6de4dbca8949146029d8d5413c25ae88f9b96e838c156",
+      "archive": "docs/legacy/architecture-overview.md",
+      "chapters": [
+        "develop/architecture"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "da395026d1dc0e96eeba4be2e2a36e416323dc960397f80788b89df3d9b35a2f"
+    },
+    {
+      "source": "docs/architecture.en.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "f3632ee89fc54b67ad281939c01e5039588daa0bb95b1e102f28a7ef1d7f851f",
+      "archive": "docs/legacy/architecture.en.md",
+      "chapters": [
+        "develop/architecture"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "86e6d88eb195b17126895d1203ff6ec17321b1c46ed2e7a1543ce50abd4ce381"
+    },
+    {
+      "source": "docs/architecture.ja.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "3c92e0952fef40ad64f22033642b3b84ffcc58ffa4049b486eb6854e382e581e",
+      "archive": "docs/legacy/architecture.ja.md",
+      "chapters": [
+        "develop/architecture"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "90be0d896a634d8081c0cf92dd8c364ae59feaeaeff239fa0fcfb61b5597f8ed"
+    },
+    {
+      "source": "docs/architecture.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "73358f3b4dfd6f06109ec8dd3ece10e5e6dc23eb1cf787128f3ff44dd5fe01b9",
+      "archive": "docs/legacy/architecture.md",
+      "chapters": [
+        "develop/architecture"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "316a5d32641c53125023f56e3e5010794353e40eb70b2f0104d731205d3c1669"
+    },
+    {
+      "source": "docs/architecture/README.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "86973d39f94ae7677984b562023b76525781e42722dd331759366cee469b55ec",
+      "archive": "docs/legacy/architecture/README.md",
+      "chapters": [
+        "develop/architecture"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "499ae49c966322a9fa384ac62fc96bd8b2b1802331528ee13a889b55dbdd0bba"
+    },
+    {
+      "source": "docs/archive/README.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "5bd7d9bdd619eaeebf85f22247549e65578beb0024a822a98ce475f3ddcb52b2",
+      "archive": "docs/legacy/archive/README.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "f9572ad9b8aa68cddc85368b323c5eb1c909bdcf65570ebe2e71fbc1c052998e"
+    },
+    {
+      "source": "docs/archive/architecture-v2.en.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "914d1f9bcfe7194b2bebee38d6564807660dd1ac754643443f9838900171c036",
+      "archive": "docs/legacy/archive/architecture-v2.en.md",
+      "chapters": [
+        "develop/architecture"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "b25736cd1c2e91c59885a688e4d424bab9a099e29e6947ad79d802e4bf9ca8fa"
+    },
+    {
+      "source": "docs/archive/architecture-v2.ja.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "9a99622a0eddcad426f95ef1f947c6c4e1499a625f0bfda071b11b9133a7f5a5",
+      "archive": "docs/legacy/archive/architecture-v2.ja.md",
+      "chapters": [
+        "develop/architecture"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "205bf7e00a048909c15df09e9ff5dc98e9f150d38c9c7c4436009850b7da579c"
+    },
+    {
+      "source": "docs/archive/architecture-v2.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "e2366e48238ab476fe40cfe7405f55404c04a89a0631b43df1a24129e09ff58a",
+      "archive": "docs/legacy/archive/architecture-v2.md",
+      "chapters": [
+        "develop/architecture"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "c29a454061518f978e7131eceea68eb0fda79879cdb8d8d9f97489feae9fc50a"
+    },
+    {
+      "source": "docs/archive/v2-property-guide.en.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "37b5c3fe88fa6803abffd3df61fe1b80aba65f20297ee5fa3ab0ada1597f12d3",
+      "archive": "docs/legacy/archive/v2-property-guide.en.md",
+      "chapters": [
+        "develop/content",
+        "contribute/syntax"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "94363e9647973c004d9d1b0c1718d7c4f1289c4bae50c505f9399b4a62c0a267"
+    },
+    {
+      "source": "docs/archive/v2-property-guide.ja.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "f529f531abc19039be6fed776c1424eb272d100f1491152826ac00cc5e255b0c",
+      "archive": "docs/legacy/archive/v2-property-guide.ja.md",
+      "chapters": [
+        "develop/content",
+        "contribute/syntax"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "b5bd0f4cbc3231370d5fb0e3228e880ffa67c29575ed8a999554c2d119ad8254"
+    },
+    {
+      "source": "docs/archive/v2-property-guide.zh.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "93ad12cfce8417bd13a8afa71e6efe49cc3d6c752bc084ebac19e0e08805477e",
+      "archive": "docs/legacy/archive/v2-property-guide.zh.md",
+      "chapters": [
+        "develop/content",
+        "contribute/syntax"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "d6d0bb91b35b3ff14154feb6ea6d1fd71ce08c1301798e52cf025f61632aa7be"
+    },
+    {
+      "source": "docs/category-optimization/README.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "56aba47c62fdf6dfe224df16c573d7638b8188562c9e774c8ec6c6cd58fe4fd3",
+      "archive": "docs/legacy/category-optimization/README.md",
+      "chapters": [
+        "develop/content",
+        "contribute/syntax"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "ba45679b9285506c9cdc95cd35063ae9161071ecd58559d91a8bc734a245f753"
+    },
+    {
+      "source": "docs/category-optimization/classification-detailed-map.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "c6d299cd9ba09d332bbef15209e0aa6ed85b50aabba64e80c3a258ea41c7ebc1",
+      "archive": "docs/legacy/category-optimization/classification-detailed-map.md",
+      "chapters": [
+        "develop/content",
+        "contribute/syntax"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "b7b9de82e43ea9712f5cdf632b637e5201fc613827b983bef2e5a9657b674e2c"
+    },
+    {
+      "source": "docs/category-optimization/classification-master-plan.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "8f6ecb7609826d6287b273f3b1cf78b662a383eb6233d154e1c3ed5c48e7bec7",
+      "archive": "docs/legacy/category-optimization/classification-master-plan.md",
+      "chapters": [
+        "develop/content",
+        "contribute/syntax"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "df1fb99b8942cc711eafafa200b8f743d32d8a631dd429bb813df041efd778fe"
+    },
+    {
+      "source": "docs/category-optimization/feature-data-architecture.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "ff40878f57934322074f267c7a5d0d2d0bb5888c15f4ba3025d23d47f691f34b",
+      "archive": "docs/legacy/category-optimization/feature-data-architecture.md",
+      "chapters": [
+        "develop/content",
+        "contribute/syntax"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "c6cdfacf46db368fcedf02ea3bf8ea09e8d66e1f256c162eab02a34c20bc5af9"
+    },
+    {
+      "source": "docs/category-optimization/metadata-schema-v2.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "3f30659682c54fc2919f3bea5cb750c775115baebdea3eb9920de9588b50e357",
+      "archive": "docs/legacy/category-optimization/metadata-schema-v2.md",
+      "chapters": [
+        "develop/content",
+        "contribute/syntax"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "a7b3394e6711376a8b1cc2fcded599f73017e59b5644ba9d9bfeba0bc0273726"
+    },
+    {
+      "source": "docs/community-activities.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "19e18e022220fe3005a263a86b6655e87be614851283e0de6f135b1431b2c349",
+      "archive": "docs/legacy/community-activities.md",
+      "chapters": [
+        "develop/features"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "5f02a233ebc108d83cc74e5d7cfe66450bee77c6e7177e7a177aa31e4847e9b3"
+    },
+    {
+      "source": "docs/community-location-audit.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "981be1a2a45c8f18e7fde903c45a3d9984e1619eee436c629d0bc15032ed11b0",
+      "archive": "docs/legacy/community-location-audit.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "edd32158a603fd43b653a9b23d1a59bc93bf2d2f0861372a5542e7a116ef8708"
+    },
+    {
+      "source": "docs/content-security.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "90e607cceb627b34007e987c9a4a64aef9c07138fc3a5da015fd49d9a057bf13",
+      "archive": "docs/legacy/content-security.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "dbf126f4b99f97f6c20937ef368498a03b8d12377922b791340d9a7db09b489a"
+    },
+    {
+      "source": "docs/editor/speech-ai-prompt.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "4ae0085a4562831cf8e075fa4739fc65e043912d01e7ef9cf0708fa30151f68d",
+      "archive": "docs/legacy/editor/speech-ai-prompt.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "7e3c538a1f4b06c317dfc7b4a4b52a96e992aa59c3b1939ae39f35c81238512f"
+    },
+    {
+      "source": "docs/editor/speech-blocks.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "e8fd831ec9d0ca3a1912536139150ddf70591879200735c47d0e610d9940617a",
+      "archive": "docs/legacy/editor/speech-blocks.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "eda2aad21bdb64d53a301f98426e34b00638cf1716dc7e7375b138588ae31329"
+    },
+    {
+      "source": "docs/editor/speech-template.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "90acd7878915f96b6a5b234bed16445759c338beb9f7e229123f6779c2afc565",
+      "archive": "docs/legacy/editor/speech-template.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "f7659864cc889e9dac7bb81b573d59a2ca45679901b90740d62f6c5a0c96df3d"
+    },
+    {
+      "source": "docs/external-links.en.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "107c3f8d1d7f18730901fd0118f03718634eac06a68c6c7baf1cdbd4a5eec2f7",
+      "archive": "docs/legacy/external-links.en.md",
+      "chapters": [
+        "contribute/rights"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "32f7735ffd452069dbd523400f4d0e16c7aa61ccb2649088960ec70e4c68470f"
+    },
+    {
+      "source": "docs/external-links.ja.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "62e7058f3cdcbaf3201c1326fe5f365877e68a4dcacb004d33ecd5dbdb6d7ce0",
+      "archive": "docs/legacy/external-links.ja.md",
+      "chapters": [
+        "contribute/rights"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "d741d514f1c78d209c228e6fc9859c6eb9d52967c290ce34beb5852efedc8d74"
+    },
+    {
+      "source": "docs/external-links.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "922b02bbf2aad67a92129c48e5275f8aa5016765570c024e10b7308b63a597e7",
+      "archive": "docs/legacy/external-links.md",
+      "chapters": [
+        "contribute/rights"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "7c3c934cb8db14f072adc53e8e447fb3b668607bb4c1c1e2617e20d3c4aad3d0"
+    },
+    {
+      "source": "docs/guides/README.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "003d6403b21322722bd4d2dee2f8fe3b78be20593c758c00d451ae0e3ed11ee0",
+      "archive": "docs/legacy/guides/README.md",
+      "chapters": [
+        "contribute/start",
+        "contribute/entry"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "1cff68ebe6403af70549f1bd7a5de6a081f284a56d487d4e099910ed7a099275"
+    },
+    {
+      "source": "docs/guides/reviewer-checklist.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "1e2ddeaf91afb3e2e299fb55c97bb429c060c49de21d60796c04ecafba571945",
+      "archive": "docs/legacy/guides/reviewer-checklist.md",
+      "chapters": [
+        "contribute/start",
+        "contribute/entry"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "d30acb4777c0c2413da7c3fab6e810de800406425ba6f7add9b6ed232c0088bc"
+    },
+    {
+      "source": "docs/image-thumbnails.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "99b86cb99ede1034dc827374313b0572ef61959b8634fb393d60731744560d7a",
+      "archive": "docs/legacy/image-thumbnails.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "c6ef95084adb4a1a1ca71358d1501b7c41e84947a8dc32c704ffa425eba5bfc9"
+    },
+    {
+      "source": "docs/live-events-api-configuration.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "c56543a84ffec68ca1e3ee2a38daa49bcc0e6d2bc31e8e1b64a073cb1b9ed5da",
+      "archive": "docs/legacy/live-events-api-configuration.md",
+      "chapters": [
+        "develop/features"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "c29a454061518f978e7131eceea68eb0fda79879cdb8d8d9f97489feae9fc50a"
+    },
+    {
+      "source": "docs/maintenance/README.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "9175ed9b45db92bb833916d99ac623db12ed84e6edebb38673eed965bded4824",
+      "archive": "docs/legacy/maintenance/README.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "9459579a21dea99f7d142fe355661d9dd6f8ad4f4d323e7790a7e55cad9e915b"
+    },
+    {
+      "source": "docs/maintenance/entity-classification.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "6bacda3386bba8fcb96e937151602fe39bd7f3f6ae2329c7486db5a7e8f9ce2a",
+      "archive": "docs/legacy/maintenance/entity-classification.md",
+      "chapters": [
+        "develop/content",
+        "contribute/syntax"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "a7170b66ce87e00bf8e73c2fd394dd38e26a8db8060bdb3fc31867873269a38e"
+    },
+    {
+      "source": "docs/medle-game-integration.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "045a1f44400f004990c770446d0572f1500b04244471b818d04d6f1554a7f89f",
+      "archive": "docs/legacy/medle-game-integration.md",
+      "chapters": [
+        "site/explore",
+        "develop/features"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "d8f99e48accc31371f24a1fbb368b9ddb1de6046700b2eb309d9131df7ff85a7"
+    },
+    {
+      "source": "docs/operations/README.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "1961132e89c9a78f1202d39de280e3933ddd134cd73d4b30ae65536b0fcb6638",
+      "archive": "docs/legacy/operations/README.md",
+      "chapters": [
+        "develop/operations"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "24df78313a1d4148707062f7f315078582861bb7be8669c39e26adf8ec10d06c"
+    },
+    {
+      "source": "docs/operations/release-runbook.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "ecb18253cac7a93fd5ae5e475f7345555f9a7479f7c4db160fbbcf97c0a328c9",
+      "archive": "docs/legacy/operations/release-runbook.md",
+      "chapters": [
+        "develop/operations"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "2637eba3c1a2898a592749b76e3f679361a0e7226215fcf339320e82768d9148"
+    },
+    {
+      "source": "docs/reader-component.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "50013ee71d7ddffc06524645f5466e895a149de7599340c8fceeec2cf9170fea",
+      "archive": "docs/legacy/reader-component.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "eab524692096f7dde2b2ce1fab1a46d7fe8a3b6b4d307b08d93dcb8fd5dd55a2"
+    },
+    {
+      "source": "docs/support-page.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "c56543a84ffec68ca1e3ee2a38daa49bcc0e6d2bc31e8e1b64a073cb1b9ed5da",
+      "archive": "docs/legacy/support-page.md",
+      "chapters": [
+        "site/explore",
+        "develop/features"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "c29a454061518f978e7131eceea68eb0fda79879cdb8d8d9f97489feae9fc50a"
+    },
+    {
+      "source": "docs/survey-labs.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "f2e9b62f234363b42546e7c74b24ea6001653279cd0d99c51e829e180eadc28f",
+      "archive": "docs/legacy/survey-labs.md",
+      "chapters": [
+        "site/explore",
+        "develop/features"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "3ea255ebb07a46f4a937fd708de63e95b5a0131a3be113bb38eea0191c61bdd0"
+    },
+    {
+      "source": "docs/ui-controls.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "f05af48b72a5e436f3b294e3e7d087e6adb1e7024b0bf11db1cc6a93dc8e927f",
+      "archive": "docs/legacy/ui-controls.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "b48162d2b73cbcbc428bdb14ca0db422de1773e56e9d50a77dae080daffc4665"
+    },
+    {
+      "source": "docs/ui-icons.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "8df2058b0b50058deb3b834a6fe9480343a46b23f2166d992e897a51b4a2cb39",
+      "archive": "docs/legacy/ui-icons.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "0b6cf83ad13c1f5e66528be6882630a4279f2169f5b4ef198cec9be0a8d66e0b"
+    },
+    {
+      "source": "docs/v3/README.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "0f04aff85d13e5b9ce651c6af7aca4548f68259a5869707bf6488207a5538202",
+      "archive": "docs/legacy/v3/README.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "481a3989f9f8b3a6ff05f3cd7d862196be1c1cea94e8e1405f792238cc81d7f8"
+    },
+    {
+      "source": "docs/v3/article-database-rollout.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "e2366e48238ab476fe40cfe7405f55404c04a89a0631b43df1a24129e09ff58a",
+      "archive": "docs/legacy/v3/article-database-rollout.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "c29a454061518f978e7131eceea68eb0fda79879cdb8d8d9f97489feae9fc50a"
+    },
+    {
+      "source": "docs/v3/article-publishing.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "e2366e48238ab476fe40cfe7405f55404c04a89a0631b43df1a24129e09ff58a",
+      "archive": "docs/legacy/v3/article-publishing.md",
+      "chapters": [
+        "contribute/start",
+        "contribute/entry"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "c29a454061518f978e7131eceea68eb0fda79879cdb8d8d9f97489feae9fc50a"
+    },
+    {
+      "source": "docs/v3/content-layout.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "e2366e48238ab476fe40cfe7405f55404c04a89a0631b43df1a24129e09ff58a",
+      "archive": "docs/legacy/v3/content-layout.md",
+      "chapters": [
+        "develop/content",
+        "contribute/syntax"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "c29a454061518f978e7131eceea68eb0fda79879cdb8d8d9f97489feae9fc50a"
+    },
+    {
+      "source": "docs/v3/feature-maintenance.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "17264b2dae8c202035f400aa95504e4b2849e105b10497aa39abf0053bf4e04b",
+      "archive": "docs/legacy/v3/feature-maintenance.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "577b36dbbed958feb2c42283bd7981454239a65630f5649188cd269a7b2fe5ca"
+    },
+    {
+      "source": "docs/v3/gallery-r2.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "e2366e48238ab476fe40cfe7405f55404c04a89a0631b43df1a24129e09ff58a",
+      "archive": "docs/legacy/v3/gallery-r2.md",
+      "chapters": [
+        "contribute/start",
+        "contribute/entry"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "c29a454061518f978e7131eceea68eb0fda79879cdb8d8d9f97489feae9fc50a"
+    },
+    {
+      "source": "docs/v3/reports/README.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "9a18b8dd79cb1435e4181080a1ac134f8fe22658c0240d6795202e06abe93baf",
+      "archive": "docs/legacy/v3/reports/README.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "55cefcddb8abf6a958071a10c9a8bd628f9edb88ba3847402f1862d5068e5c3b"
+    },
+    {
+      "source": "docs/v3/static-output-optimization.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "20f8812a900b6a22fddc9e8cce9c961ac5479accf4629122da82b58a2fae2f03",
+      "archive": "docs/legacy/v3/static-output-optimization.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "c3124fa50c6c52317f3392f5303675655eb17670467b935461b602f0597daf39"
+    },
+    {
+      "source": "docs/v3/translation-handoff.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "fe74f512280129b61e0243303bd3b12a138961649fc79b87e8b7a448ed59b913",
+      "archive": "docs/legacy/v3/translation-handoff.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "a14f652b1c17f652cc05de68862c23e63600f1b7244907ef0a1cc464a0ff208f"
+    },
+    {
+      "source": "docs/workspace-components.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "4350b79a14c0dc93a1b942e91a6f173ddcd8bb82da6bc8768eb65a39c8c40bf0",
+      "archive": "docs/legacy/workspace-components.md",
+      "chapters": [
+        "develop/frontend"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "af5dd18a4be131695b9fa31375fd771f8be201f52303e698c60fa93288d7fa73"
+    },
+    {
+      "source": "maintenance/activity-center.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "378d275fbf5750661bd0037afb17e4191edbc61db81188304b37c05dacc91639",
+      "archive": "docs/legacy/maintenance/activity-center.md",
+      "chapters": [
+        "develop/features"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "21d6362d5b7880a05a47c34f1984e012784e665a570285d90106bdac2ff67275"
+    },
+    {
+      "source": "maintenance/article-reader.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "f583be2c4b80c475ac7720adec156b54dc6571c149be7b07b359ce93d0876102",
+      "archive": "docs/legacy/maintenance/article-reader.md",
+      "chapters": [
+        "develop/features"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "579672087560ddeb55853998c345e229b4a8fdf991e33e259e136113559b3dbe"
+    },
+    {
+      "source": "maintenance/dashboard.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "0c881b99adf945689baa8a67a918fc5d6e349e1ea8d079c70cb7df49e25e8da8",
+      "archive": "docs/legacy/maintenance/dashboard.md",
+      "chapters": [
+        "develop/features"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "080991ea2e0f2ebcc37443db4429971a1621ebdd03e21ac03c644e904092cc83"
+    },
+    {
+      "source": "maintenance/review-conversations.md",
+      "sourceCommit": "b2e4a2792c5f2c91daab040f727a1c9ce6ca21e0",
+      "sourceSha256": "89261b534257632748edb3850c061353ec9ef6c7cd70192a80caa2bccd35560c",
+      "archive": "docs/legacy/maintenance/review-conversations.md",
+      "chapters": [
+        "develop/features"
+      ],
+      "decision": "Current behavior rechecked against source; historical plans retained only as background.",
+      "contentSha256": "c225655b2248e10ee0709b9a8665aafb65ec64610cbb4cc332a0736548904511"
+    }
+  ]
+}

@@ -1,11 +1,16 @@
 ---
-book: contribute
-chapter: rights
-locale: zh-tw
+book: "contribute"
+chapter: "rights"
+locale: "zh-tw"
 order: 9
-title: 來源、版權與多語言
-summary: 給事實和圖片保留可核對的出處，並正確維護語言版本。
+title: "來源、版權與多語言"
+summary: "給事實和圖片保留可核對的出處，並正確維護語言版本。"
+generatedFromHash: "955a0aee42ed306a8b62"
+generated: true
+generatedFrom: "zh"
 ---
+
+<!-- AUTO-GENERATED FROM zh; DO NOT EDIT DIRECTLY. -->
 
 ## 事實與資料來源
 

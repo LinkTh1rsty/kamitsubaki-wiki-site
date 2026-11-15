@@ -1,13 +1,18 @@
 ---
-book: contribute
-chapter: gallery
-locale: zh-hk
+book: "contribute"
+chapter: "gallery"
+locale: "zh-hk"
 order: 6
-title: 投稿照片、設定組與分類建議
-summary: 直接上傳未分類照片，或創建成套設定；核對來源、暫存、提交，並跟蹤逐圖審核。
+title: "投稿照片、設定組與分類建議"
+summary: "直接上傳未分類照片，或創建成套設定；核對來源、暫存、提交，並跟蹤逐圖審核。"
+generatedFromHash: "8b837f68a020542af0d4"
+generated: true
+generatedFrom: "zh"
 ---
 
-> 新流程隨上傳與文章工作台更新一同啟用。維護者應先完成配套後端的增量遷移，再發布前端和本說明；私有暫存已上傳不等於已公開，仍須明確提交並通過審核。
+<!-- AUTO-GENERATED FROM zh; DO NOT EDIT DIRECTLY. -->
+
+> 新流程隨上傳與文章工作台更新一同啓用。維護者應先完成配套後端的增量遷移，再發布前端和本説明；私有暫存已上傳不等於已公開，仍須明確提交併通過審核。
 
 ## 先決定要做什麼
 

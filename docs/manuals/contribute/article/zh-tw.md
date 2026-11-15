@@ -1,13 +1,18 @@
 ---
-book: contribute
-chapter: article
-locale: zh-tw
+book: "contribute"
+chapter: "article"
+locale: "zh-tw"
 order: 5
-title: 投稿與修改文章
-summary: 使用共享編輯器撰寫，儲存雲端草稿，提交稽核後在專欄公開。
+title: "投稿與修改文章"
+summary: "使用共享編輯器撰寫，儲存雲端草稿，提交稽核後在專欄公開。"
+generatedFromHash: "83d14777424cfff2da30"
+generated: true
+generatedFrom: "zh"
 ---
 
-> 新流程隨上傳與文章工作臺更新一同啟用。維護者應先完成配套後端的增量遷移，再發布前端和本說明；私有暫存已上傳不等於已公開，仍須明確提交並通過審核。
+<!-- AUTO-GENERATED FROM zh; DO NOT EDIT DIRECTLY. -->
+
+> 私有暫存已上傳不等於已公開，仍須明確提交併通過稽核。先核對草稿儲存狀態，再通過投稿記錄確認公開結果。
 
 ## 建立或修改
 

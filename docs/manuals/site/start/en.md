@@ -34,3 +34,9 @@ If search misses a record, try translated and original names, aliases, another l
 ## Interface language and content language
 
 Changing interface language changes navigation and available content, but it does not translate an article that has no supplied translation. Simplified Chinese, Japanese, and English entries have maintained sources; Traditional Chinese is generated from Simplified Chinese. Include the exact language and URL when reporting an error so a maintainer can locate the source.
+
+## Use the documentation site
+
+Documentation is grouped into using the site, editing and contributing, and development and maintenance. On desktop, choose a chapter in the left sidebar and use the page outline to jump to a section. On phones, expand the chapter navigation and page outline. Search on any page covers titles and prose in published chapters of the current language. Historical archives are excluded.
+
+Switching languages keeps you in the same chapter. Close search to continue reading. An already opened body and its chapter links remain usable when the network is unavailable.
