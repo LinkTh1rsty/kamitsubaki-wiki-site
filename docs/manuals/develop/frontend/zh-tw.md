@@ -5,7 +5,7 @@ locale: "zh-tw"
 order: 3
 title: "前臺頁面與共享元件"
 summary: "用統一頁面骨架、Reader 和控制元件規範擴充套件網站而不破壞既有體驗。"
-generatedFromHash: "5947ff99ebf7305dee66"
+generatedFromHash: "dd9491935d1fe3134e84"
 generated: true
 generatedFrom: "zh"
 ---
