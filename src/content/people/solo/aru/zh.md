@@ -20,14 +20,15 @@ entityType: "virtual-avatar"
 roles:
   - "virtual-singer"
 lifecycle:
-  activity: "unknown"
+  activity: ended
   startedAt: "2021-06-20"
   archive:
-    mode: "permanent"
-    archiveNote: "作品与历史记录持续保留。"
+    mode: permanent
+    archiveNote: 作品与历史记录持续保留。
 sources: []
 summary: "以低语感、气声与克制情绪推进为特征的虚拟歌手。"
 ---
+
 ## 概述
 
 存流（ARU / ある）是 [KAMITSUBAKI STUDIO](/zh/projects/labels/kamitsubaki-studio)、SINSEKAI STUDIO 体系中的虚拟歌手，曾与[明透](/zh/artists/solo/asu)（ASU）组成双人组合 [Albemuth](/zh/artists/solo/albemuth)。她于 2021年6月20日开始活动，并于 2024年4月9日毕业。
@@ -63,7 +64,9 @@ summary: "以低语感、气声与克制情绪推进为特征的虚拟歌手。"
 ## 活动历程
 
 - **2021年6月20日**：开始以 ARU / 存流名义活动。
+- **2022年6月19日**：开展第一场个人翻唱演唱会「むーんらいとライブ」。
 - **2022年11月19日**：与明透组成 Albemuth，并在 1st LIVE「eve / ADAM」中展开组合活动。
+- **2023年4月25日**：正式推出第一张个人专辑《ARU》。
 - **2023年7月5日**：发行 Albemuth 成员侧专辑《eve》；同日发行明透侧《ADAM》。
 - **2024年4月9日**：正式毕业，Albemuth 的双人活动阶段结束。
 
@@ -75,11 +78,19 @@ summary: "以低语感、气声与克制情绪推进为特征的虚拟歌手。"
 
 **单曲**
 
-| 发行日期 | 标题 |
-| --- | --- |
-| 2018-04-19 | [Call Me Anytime (feat. Demxntia)](</zh/songs/aru/originals/call-me-anytime-feat-demxntia>) |
-| 2026-03-02 | [三日月の街](</zh/songs/aru/originals/三日月no街>) |
-| 2026-04-24 | [ピンクリボン～願い～](</zh/songs/aru/originals/pinkuribon願i>) |
+| 发行日期 | 标题 | 作词 | 作曲 & 编曲 |
+| --- | --- | --- | --- |
+| 2021-08-14 | さよなら | 水野あつ | 水野あつ |
+| 2022-02-15 | いんさいどぐるう | みきとP | みきとP |
+| 2022-04-02 | まってるよ | MIMI | MIMI |
+| 2022-07-06 | あふれる | 牛肉 | 雄之助 |
+| 2022-12-28 | あおいゆめ | 祭日ハネダ | HiFi-P |
+| 2023-03-18 | いのり | Wiz_nicc | Wiz_nicc |
+| 2023-04-19 | つきかげ | Feryquitous | Feryquitous |
+| 2023-04-25 | めいきゅう | 堀江晶太 | 堀江晶太 |
+| 2023-04-25 | れぞんでーとる | とあ | とあ |
+| 2023-04-25 | しれね | Guiano | Guiano |
+| 2023-06-21 | しるし | Wiz_nicc | Wiz_nicc |
 
 {{/details}}
 
@@ -98,5 +109,3 @@ summary: "以低语感、气声与克制情绪推进为特征的虚拟歌手。"
 ## 相关企划 / 关联设定
 
 存流是理解 SINSEKAI STUDIO、深脊界叙事和 Albemuth 早期阶段的重要入口。她的毕业既是个人履历的节点，也是 Albemuth 双人项目结束的时间边界。
-
-<!-- V3 RESEARCH SUPPLEMENT aru -->
