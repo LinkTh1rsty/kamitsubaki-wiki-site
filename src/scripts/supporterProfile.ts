@@ -1,6 +1,8 @@
+import {installCursorLayer} from '../lib/cursorLayer.mjs';
 import {setLoadingStatus} from '../lib/loadingStatus.mjs';
 import { failureMessage, isExpiredLink, isStaleVersion, ProfileRequestError, verificationNotice } from '../lib/supporterProfileFlow.mjs';
 
+installCursorLayer(document.getElementById('cursor'));
 window.addEventListener('hashchange', () => window.location.reload());
 const root = document.querySelector<HTMLElement>('[data-supporter-profile]');
 if (root) {

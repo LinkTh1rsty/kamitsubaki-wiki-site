@@ -96,7 +96,7 @@
   overflow: hidden;
   border: 1px solid color-mix(in srgb, var(--theme-accent-color) 22%, rgb(var(--theme-fg-rgb) / 0.14));
   border-radius: 0.65rem;
-  background: rgb(var(--theme-fg-rgb) / 0.96);
+  background: var(--theme-panel-solid);
   box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.22);
 }
 

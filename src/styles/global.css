@@ -1652,7 +1652,7 @@ html.site-search-open body {
 .wiki-guide-action[aria-disabled="false"] {
   border-color: rgb(var(--theme-fg-rgb) / 0.5);
   background-color: rgb(var(--theme-fg-rgb) / 0.92);
-  color: black;
+  color: var(--theme-bg);
 }
 
 .wiki-guide-action[aria-disabled="false"]:hover {
@@ -2526,7 +2526,7 @@ html[data-theme='light'] .guide-shell {
   font-family: var(--font-mono);
   font-size: 0.64rem;
   letter-spacing: 0.15em;
-  color: rgba(213, 255, 249, 0.92);
+  color: var(--theme-fg);
   transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease;
 }
 
@@ -2697,7 +2697,7 @@ html[data-theme='light'] .guide-shell {
   border: 1px solid var(--guide-border);
   background:
     linear-gradient(135deg, rgb(var(--guide-accent-rgb) / 0.055), transparent 62%),
-    rgba(6, 7, 8, 0.88);
+    var(--theme-panel-solid);
   padding: 1rem;
 }
 
@@ -2879,7 +2879,7 @@ html[data-theme='light'] .guide-shell {
   border: 1px solid rgb(var(--guide-accent-rgb) / 0.2);
   background:
     linear-gradient(135deg, rgb(var(--guide-accent-rgb) / 0.045), transparent 52%),
-    rgba(0, 0, 0, 0.24);
+    rgb(var(--theme-fg-rgb) / 0.03);
 }
 
 .guide-ai-help summary {
@@ -2934,8 +2934,8 @@ html[data-theme='light'] .guide-shell {
   width: 100%;
   resize: vertical;
   border: 1px solid rgb(var(--theme-fg-rgb) / 0.12);
-  border-radius: 0;
-  background: rgba(0, 0, 0, 0.32);
+  border-radius: var(--ui-radius-control, 4px);
+  background: var(--theme-bg);
   padding: 0.8rem 0.9rem;
   font-size: 0.82rem;
   line-height: 1.7;
@@ -5580,6 +5580,12 @@ html[data-theme='light'] .ai-message__sources {
   background: #ffffff;
 }
 
+html[data-theme='light'] .ai-markdown pre {
+  background: #eef0f2;
+  color: #1c2024;
+  border-color: rgba(0, 0, 0, 0.14);
+}
+
 html[data-theme='light'] .ai-chat__quick button {
   border-color: #000000;
   background: #ffffff;
@@ -5625,6 +5631,9 @@ html[data-theme='light'] .ai-chat__submit-btn:focus-visible {
 
 .contributor-roster {
   position: relative;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
   border-top: 1px solid rgb(var(--theme-fg-rgb) / 0.14);
   border-bottom: 1px solid rgb(var(--theme-fg-rgb) / 0.1);
   background: rgb(var(--theme-panel-rgb) / 0.24);
@@ -5912,11 +5921,11 @@ html[data-theme='light'] .ai-chat__submit-btn:focus-visible {
 
 /* Contributor honor wall */
 .contributor-roster--summary {
-  margin: 0 auto 4.5rem;
-  padding: 0 clamp(1.25rem, 4vw, 3rem);
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
   overflow: visible;
   border: 0;
-  border-top: 1px solid rgb(var(--theme-fg-rgb) / 0.14);
   border-bottom: 1px solid rgb(var(--theme-fg-rgb) / 0.1);
   background: transparent;
 }
@@ -6323,6 +6332,35 @@ html[data-theme='light'] .ai-chat__submit-btn:focus-visible {
 
 .contributor-roster--entry {
   padding: 0 1rem;
+  overflow: hidden;
+}
+
+.contributor-roster--entry .contributor-roster__owner {
+  grid-template-columns: 3.25rem minmax(0, 1fr);
+  gap: 0.75rem;
+  padding: 0.85rem 0;
+}
+
+.contributor-roster--entry .contributor-roster__owner-avatar {
+  width: 3.25rem;
+  height: 3.25rem;
+}
+
+.contributor-roster--entry .contributor-roster__owner-metrics {
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.contributor-roster--entry .contributor-roster__owner-metrics > span {
+  border-top: 1px solid rgb(var(--theme-fg-rgb) / 0.1);
+  border-left: 0;
+  padding: 0.55rem 0;
+}
+
+.contributor-roster--entry .contributor-roster__owner-arrow {
+  position: absolute;
+  top: 0.85rem;
+  right: 0;
 }
 
 .contributor-roster--entry .contributor-roster__header {
@@ -6720,7 +6758,8 @@ html[data-theme='light'] .ai-chat__submit-btn:focus-visible {
   }
 
   .contributor-roster--summary {
-    margin: -1rem 1rem 4rem;
+    margin: 0 auto;
+    padding: 3.5rem 1rem;
   }
 
   .contributor-roster__header {
@@ -6730,6 +6769,7 @@ html[data-theme='light'] .ai-chat__submit-btn:focus-visible {
 
   .contributor-roster__header p {
     max-width: none;
+    text-align: left;
   }
 
   .contributor-roster__stats,
@@ -6753,10 +6793,6 @@ html[data-theme='light'] .ai-chat__submit-btn:focus-visible {
 
   .contributor-roster__recent-meta {
     justify-content: flex-start;
-  }
-
-  .contributor-roster--summary {
-    padding: 0 1rem;
   }
 
   .contributor-roster__stats {
@@ -6874,27 +6910,32 @@ html[data-theme='light'] .ai-chat__submit-btn:focus-visible {
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
+    animation: none !important;
     scroll-behavior: auto !important;
-    transition-duration: 0.01ms !important;
+    translate: none !important;
+  }
+  .marquee-content {
+    transform: none !important;
   }
 }
 
-/* Enable hiding the OS pointer only once the custom pointer is actually visible. */
-html[data-custom-cursor][data-custom-cursor],
-html[data-custom-cursor][data-custom-cursor] body,
-html[data-custom-cursor][data-custom-cursor] body *,
-html[data-custom-cursor][data-custom-cursor] body *::before,
-html[data-custom-cursor][data-custom-cursor] body *::after,
-html[data-custom-cursor][data-custom-cursor] dialog::backdrop,
-html[data-custom-cursor][data-custom-cursor] [popover]::backdrop {cursor:none!important}
+/* Hide the OS pointer across all pages once the custom pointer is active. */
+html[data-custom-cursor][data-custom-cursor][data-custom-cursor],
+html[data-custom-cursor][data-custom-cursor][data-custom-cursor] *,
+html[data-custom-cursor][data-custom-cursor][data-custom-cursor] *::before,
+html[data-custom-cursor][data-custom-cursor][data-custom-cursor] *::after,
+html[data-custom-cursor][data-custom-cursor][data-custom-cursor] dialog::backdrop,
+html[data-custom-cursor][data-custom-cursor][data-custom-cursor] [popover]::backdrop {cursor:none!important}
 #cursor{display:none;pointer-events:none}
-#cursor[popover]:popover-open{display:block;position:fixed;inset:auto;left:0;top:0;margin:0;padding:0;width:8px;height:8px;border:0;border-radius:50%;background:#fff;color:#fff;overflow:visible;pointer-events:none;transform:translate(-50%,-50%);mix-blend-mode:difference;transition:width 180ms var(--motion-ease-glide),height 180ms var(--motion-ease-glide),border-radius 180ms var(--motion-ease-glide);z-index:2147483647}
-#cursor[popover].hovering{width:36px;height:36px;background:transparent;border:1px solid #fff}
+#cursor[popover]:popover-open{display:block;box-sizing:border-box;position:fixed;inset:auto;left:0;top:0;margin:0;padding:0;width:8px;height:8px;border:1px solid #fff;border-radius:50%;background:#fff;color:#fff;overflow:visible;pointer-events:none;transform-origin:0 0;transform:translate3d(var(--cursor-x,-100px),var(--cursor-y,-100px),0) translate(-50%,-50%);mix-blend-mode:difference;will-change:transform,width,height;transition:width 160ms var(--motion-ease-glide),height 160ms var(--motion-ease-glide),border-radius 160ms var(--motion-ease-glide),background-color 160ms var(--motion-ease-glide),border-color 160ms var(--motion-ease-glide),opacity 140ms ease;z-index:2147483647}
+#cursor[popover].is-pressing{width:6px;height:6px}
+#cursor[popover].hovering{width:36px;height:36px;background:rgb(255 255 255 / 0);border:1px solid #fff}
+#cursor[popover].hovering.is-pressing{width:28px;height:28px}
+#cursor[popover].is-disabled{opacity:0.42}
 #cursor[popover].text-entry{width:2px;height:1.35rem;border-radius:1px}
 #cursor[popover]::backdrop{display:none}
-@media(prefers-reduced-motion:reduce){#cursor[popover]:popover-open{transition:none}}
+@media(hover:none) and (pointer:coarse){#cursor[popover]:popover-open{display:none!important}}
+@media(prefers-reduced-motion:reduce){#cursor[popover]:popover-open{transition:none!important}}
 
 /* Reserve the viewport gutter before content arrives and across overlay locks. */
 html { scrollbar-gutter: stable; }
@@ -6907,7 +6948,7 @@ html { scrollbar-gutter: stable; }
 /* Search owns its layout while the shared kit owns states and semantics. */
 html body .site-search__panel{background:var(--theme-panel-solid);background-image:none;}
 html body .site-search__panel::before,html body .site-search__panel::after{display:none;}
-html body .site-search__filters .workspace-button.dui-btn{--workspace-control-padding:6px 12px;--workspace-control-height:38px;--workspace-control-font:500 12px/1.5 var(--font-sans);--workspace-control-background:transparent;--workspace-control-shadow:none;--workspace-control-color:var(--ui-color-muted);min-height:38px;}
+html body .site-search__filters .workspace-button.dui-btn{--workspace-control-padding:6px 12px;--workspace-control-height:36px;--workspace-control-font:500 12px/1.5 var(--font-sans);--workspace-control-background:transparent;--workspace-control-shadow:none;--workspace-control-color:var(--ui-color-muted);min-height:36px;}
 html body .site-search__filters .workspace-button.dui-btn.is-active{--workspace-control-background:rgb(var(--theme-accent-rgb)/.1);--workspace-control-color:var(--theme-accent-color);border-color:rgb(var(--theme-accent-rgb)/.35);}
 html body .site-search__close.workspace-button.dui-btn{--workspace-control-padding:0;width:44px;height:44px;min-width:44px;display:grid;place-items:center;}
 html body .site-search__input.workspace-control{border:0;box-shadow:none;--workspace-control-height:44px;background:transparent;border-radius:0;font-size:16px;}

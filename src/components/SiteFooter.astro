@@ -34,47 +34,47 @@ const footerLinks = [
 ];
 ---
 
-<footer class="site-footer relative mt-14 overflow-hidden border-t border-white/10 py-14 text-center ui-crosshair tl tr sm:mt-20 sm:py-20">
-  <div class="mx-auto flex max-w-4xl flex-col items-center px-5 sm:px-6">
-    <p class="mb-8 font-serif text-sm tracking-[0.34em] text-white/80 sm:mb-12 sm:tracking-[0.5em] md:text-base">
+<footer class="site-footer relative mt-14 overflow-hidden border-t border-[rgb(var(--theme-fg-rgb)/0.1)] py-14 text-center ui-crosshair tl tr sm:mt-20 sm:py-20">
+  <div class="mx-auto flex max-w-4xl flex-col items-center px-4 sm:px-6">
+    <p class="mb-8 font-serif text-sm tracking-[0.34em] text-[rgb(var(--theme-fg-rgb)/0.82)] sm:mb-12 sm:tracking-[0.5em] md:text-base">
       {footer.tagline}
     </p>
 
-    <div class="site-footer__nav mb-10 flex flex-wrap justify-center gap-x-7 gap-y-4 text-[9px] font-light tracking-kamidest text-white/40 sm:mb-16 sm:gap-12">
+    <div class="site-footer__nav mb-10 flex flex-wrap justify-center gap-x-7 gap-y-4 text-[11px] font-light tracking-kamidest text-[rgb(var(--theme-fg-rgb)/0.56)] sm:mb-14 sm:gap-12">
       {footerLinks.map((link) => (
-        <a href={link.href} class="hover:text-white transition-colors relative after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[1px] after:bg-white hover:after:w-full after:transition-all">
+        <a href={link.href} class="relative transition-colors hover:text-[var(--theme-fg)] after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-[var(--theme-fg)] after:transition-transform hover:after:scale-x-100">
           {link.label}
         </a>
       ))}
     </div>
 
-    <div class="mb-8 h-10 w-px bg-white/10 sm:mb-12 sm:h-12"></div>
+    <div class="mb-8 h-10 w-px bg-[rgb(var(--theme-fg-rgb)/0.14)] sm:mb-12 sm:h-12"></div>
 
-    <p class="site-footer__disclaimer text-[9px] text-white/30 tracking-widest max-w-lg mb-6 font-light leading-loose uppercase">
+    <p class="site-footer__disclaimer mb-6 max-w-lg text-[11px] font-light uppercase leading-loose tracking-widest text-[rgb(var(--theme-fg-rgb)/0.48)]">
       {footer.disclaimer.map((line) => (
         <>
           {line}<br />
         </>
       ))}
     </p>
-    <div class="site-footer__license mb-6 max-w-2xl text-[10px] font-light leading-6 text-white/42">
+    <div class="site-footer__license mb-6 max-w-2xl text-xs font-light leading-6 text-[rgb(var(--theme-fg-rgb)/0.56)]">
       <p>{footer.license.notice}</p>
-      <p class="mt-1 text-white/30">{footer.license.mediaNotice}</p>
-      <p class="mt-2 flex flex-wrap justify-center gap-x-3 gap-y-1 font-mono text-[9px] uppercase tracking-[0.14em]">
-        <a href={footer.license.detailsHref} class="transition-colors hover:text-white">
+      <p class="mt-1 text-[rgb(var(--theme-fg-rgb)/0.46)]">{footer.license.mediaNotice}</p>
+      <p class="mt-2 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 font-mono text-[11px] uppercase tracking-[0.14em]">
+        <a href={footer.license.detailsHref} class="transition-colors hover:text-[var(--theme-fg)]">
           {footer.license.detailsLabel}
         </a>
-        <span aria-hidden="true" class="text-white/15">/</span>
-        <a rel="license" href={footer.license.deedHref} class="transition-colors hover:text-white">
+        <span aria-hidden="true" class="text-[rgb(var(--theme-fg-rgb)/0.22)]">/</span>
+        <a rel="license" href={footer.license.deedHref} class="transition-colors hover:text-[var(--theme-fg)]">
           {footer.license.deedLabel}
         </a>
       </p>
     </div>
-    <p class="site-footer__copyright text-[9px] font-mono text-white/20 tracking-widest">
+    <p class="site-footer__copyright font-mono text-[10px] tracking-widest text-[rgb(var(--theme-fg-rgb)/0.4)]">
       {footer.copyright}
     </p>
 
-    <div class="mt-12 w-full pr-12 sm:mt-16 sm:pr-0">
+    <div class="mt-12 w-full sm:mt-16">
       <img
         src="/brand/kamitsubakiwiki-long-dark.svg"
         alt={footerLogoAlt}

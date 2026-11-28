@@ -7,8 +7,8 @@ const {locale='zh'}=Astro.props as {locale?:string};
 const copy=resolveLocaleCopy({zh:{title:'文章专栏',all:'阅读全部文章',loading:'正在载入文章…',empty:'尚无已公开文章',error:'文章暂时无法载入，请前往专栏重试。'},en:{title:'Articles',all:'All articles',loading:'Loading articles…',empty:'No published articles yet',error:'Articles are unavailable. Visit the column to retry.'},ja:{title:'記事',all:'記事一覧',loading:'記事を読み込み中…',empty:'公開記事はまだありません',error:'記事を読み込めません。一覧から再試行してください。'}},locale);
 const api=import.meta.env.PUBLIC_ARTICLE_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
-<section id="articles" class="home-articles mx-auto max-w-7xl px-5 py-20 sm:px-6" data-ui-kit data-home-articles data-api={api} data-featured={homeFeaturedArticles[locale==='ja'?'ja':locale==='en'?'en':'zh']||undefined} data-locale={locale} data-copy={JSON.stringify(copy)}>
- <header><h2>03. ARTICLES</h2><p>{copy.title}</p><a href={`/${locale}/articles/`}>{copy.all} <Icon name="arrow-right" /></a></header>
+<section id="articles" class="home-articles relative mx-auto max-w-7xl border-b border-[rgb(var(--theme-fg-rgb)/0.1)] px-4 py-20 ui-crosshair bl br sm:px-6 sm:py-28" data-ui-kit data-home-articles data-api={api} data-featured={homeFeaturedArticles[locale==='ja'?'ja':locale==='en'?'en':'zh']||undefined} data-locale={locale} data-copy={JSON.stringify(copy)}>
+ <header class="home-articles__header reveal-up"><h2>03. ARTICLES</h2><p>{copy.title}</p><a class="home-articles__action" href={`/${locale}/articles/`}><span>{copy.all}</span><Icon name="arrow-right" /></a></header>
  <div class="home-article-list"><p role="status" data-home-article-status hidden></p><ContentSkeleton count={3} data-home-article-loading/><div data-home-article-items></div></div>
 </section>
 <script>
@@ -22,5 +22,22 @@ for(const root of document.querySelectorAll<HTMLElement>('[data-home-articles]')
 }
 </script>
 <style>
-.home-articles{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,3fr);gap:48px}header h2{font-size:10px;letter-spacing:.25em;font-weight:300}header p{font:10px var(--font-serif);opacity:.55;margin:8px 0 28px}header a{font-size:12px}.home-article-list{min-width:0;min-height:260px;overflow-wrap:anywhere}.home-article-list :global(a){display:block;padding:18px 0;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.14);transition:color 180ms}.home-article-list :global(a:hover){color:var(--theme-accent-color)}.home-article-list :global(h3){font:22px/1.5 var(--font-serif);margin:8px 0}.home-article-list :global(a:first-child h3){font-size:28px}.home-article-list :global(p){font-size:13px;opacity:.65;line-height:1.8}.home-article-list :global(small){font-size:10px;opacity:.5}@media(max-width:760px){.home-articles{grid-template-columns:minmax(0,1fr);gap:24px}}
+.home-articles{display:grid;grid-template-columns:minmax(220px,260px) minmax(0,1fr);gap:clamp(48px,5vw,72px);align-items:start}
+.home-articles__header{position:sticky;top:120px;align-self:start}
+.home-articles__header h2{margin:0 0 8px;font:400 10px/1.5 var(--font-mono);letter-spacing:.36em;color:var(--theme-fg)}
+.home-articles__header p{margin:0 0 28px;font:400 12px/1.7 var(--font-serif);letter-spacing:.16em;color:rgb(var(--theme-fg-rgb)/.56)}
+.home-articles__action{display:inline-flex;align-items:center;gap:8px;padding-bottom:4px;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.2);font-size:12px;letter-spacing:.08em;color:rgb(var(--theme-fg-rgb)/.62);transition:color 180ms ease,border-color 180ms ease}
+.home-articles__action:hover{color:var(--theme-fg);border-color:rgb(var(--theme-fg-rgb)/.55)}
+.home-articles__action :global(svg){width:13px;height:13px;transition:transform 180ms ease}
+.home-articles__action:hover :global(svg){transform:translateX(3px)}
+.home-article-list{min-width:0;min-height:240px;overflow-wrap:anywhere}
+.home-article-list :global(a){display:block;padding:22px 0;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.14);color:var(--theme-fg);transition:color 180ms ease,border-color 180ms ease}
+.home-article-list :global(a:first-child){padding-top:0}
+.home-article-list :global(a:hover){color:var(--theme-accent-color);border-color:rgb(var(--theme-fg-rgb)/.28)}
+.home-article-list :global(h3){font:400 22px/1.5 var(--font-serif);margin:8px 0}
+.home-article-list :global(a:first-child h3){font-size:27px}
+.home-article-list :global(p){font-size:13.5px;color:rgb(var(--theme-fg-rgb)/.66);line-height:1.85;margin:0}
+.home-article-list :global(small){display:block;font:11px/1.5 var(--font-mono);color:rgb(var(--theme-fg-rgb)/.48);letter-spacing:.04em}
+@media(max-width:1023px){.home-articles{grid-template-columns:minmax(0,1fr);gap:32px}.home-articles__header{position:static}}
+@media(prefers-reduced-motion:reduce){.home-articles__action,.home-articles__action :global(svg),.home-article-list :global(a){transition:none}.home-articles__action:hover :global(svg){transform:none}}
 </style>

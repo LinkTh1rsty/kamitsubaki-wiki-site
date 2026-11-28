@@ -13,7 +13,7 @@
 .personal-tools :is(button, select, input) {
   color: inherit; background: var(--personal-paper); border: 1px solid var(--personal-line);
   border-radius: var(--ui-radius-control); font: inherit; font-size: .8125rem;
-  min-height: 38px; padding: .45rem .75rem; min-width: 0;
+  min-height: 40px; padding: .45rem .75rem; min-width: 0;
 }
 .personal-tools button { cursor: pointer; display: inline-flex; justify-content: center; align-items: center; gap: .5rem; transition: background var(--ui-duration), color var(--ui-duration); }
 .personal-tools button:hover { background: var(--personal-soft); border-color: var(--personal-accent); color: var(--personal-accent); }
@@ -110,7 +110,7 @@
 html body .my-lyric-controls { gap: .25rem .5rem; padding-block: .45rem; border-block: 1px solid rgb(var(--theme-fg-rgb)/.12); }
 html body .my-lyric-controls :is(button,summary) { min-height: 44px; border-radius: var(--ui-radius-control); font-family: inherit; font-size: .75rem; padding: .35rem .7rem; }
 html body .my-lyric-controls button[aria-pressed='true'] { color: var(--theme-accent-color); }
-html body .wiki-article-actions :is(button,a) { min-height: 36px; }
+html body .wiki-article-actions :is(button,a) { min-height: 40px; }
 .labs-bookmark button::before { content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/plus.svg') center/contain no-repeat; margin-right: .35rem; }
 .labs-bookmark button[aria-pressed='true']::before { content: '✓'; }
 @media (max-width: 760px) {
@@ -123,7 +123,7 @@ html body .wiki-article-actions :is(button,a) { min-height: 36px; }
   .library-filters { grid-template-columns: 1fr 1fr; }
   .library-filters > label:first-child { grid-column: 1/-1; }
   .library-row .library-row-actions { width: 100%; margin-left: 0; }
-  .personal-tools :is(button,select,input) { min-height: 40px; }
+  .personal-tools :is(button,select,input) { min-height: 44px; }
   .practice-body { padding: .875rem; }
   .practice-display { gap: .5rem; }
   .practice-display > button { flex: 1; }

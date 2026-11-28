@@ -2,20 +2,10 @@
 html { overflow-x: clip; }
 body:not(.site-home) { cursor: auto; }
 body:not(.site-home) > :is(.noise-bg) { display: none !important; }
-body:not(.site-home) :is(a, button, summary, [role='button']) { cursor: pointer !important; }
+body:not(.site-home) :is(a, button, summary, [role='button']) { cursor: pointer; }
 body:not(.site-home) :is(input:not([type='checkbox'],[type='radio'],[type='range'],[type='color'],[type='file']), textarea) { cursor: text; }
-html body :is(button,input,textarea,select):disabled { cursor:not-allowed!important; }
-html body .catalog-page { padding-top: 100px; }
-html body .catalog-page > .mt-14 { margin-top: 28px; }
-html body .catalog-page h1 { font-size: clamp(28px, 3.4vw, 38px); line-height: 1.25; letter-spacing: .03em; }
-html body .catalog-hero__body { padding: 28px; }
-html body .catalog-hero__media { min-height: 260px; }
+html body :is(button,input,textarea,select):disabled { cursor:not-allowed; }
 html body .album-artist-card { border-radius: var(--ui-radius-panel); border-color: var(--ui-line); }
-html body .events-page__main { padding-top: 100px; }
-html body .events-page__hero { margin-bottom: 28px; padding-left: 0; }
-html body .events-page__hero::before { display: none; }
-html body .events-page__hero h1 { font-size: clamp(28px, 3.4vw, 38px); line-height: 1.25; letter-spacing: .03em; }
-html body .events-page__hero > span { margin-top: 14px; }
 html body .labs-head > p { margin-bottom: 0; font-size: 14px; }
 html body .labs-head > a { font-size: 12px; color: var(--b-muted); }
 html body .labs-shell h2 { font-size: 22px; }
@@ -23,37 +13,10 @@ html body .labs-banner { padding: 22px 24px; }
 html body .labs-feature { padding: 22px 24px; }
 
 @media (prefers-reduced-motion: no-preference) {
-  html body :is(.home-chrome__actions, .home-chrome__links, .tools-dock, .reader-actions, .labs-shell, .music-subnav, .category-jump) :is(a, button, summary),
-  html body :is(.wiki-chip, .wiki-toc a, .wiki-media-switcher__tab) {
-    transition: color var(--ui-duration) ease, background-color var(--ui-duration) ease, border-color var(--ui-duration) ease;
-  }
-  html body :is(.experience-portal, .artist-card, .album-artist-card, .external-link-card) {
-    transition: transform var(--ui-duration-panel) var(--ui-ease), border-color var(--ui-duration) ease, background-color var(--ui-duration) ease;
-  }
   .experience-portal__arrow { transition: transform var(--ui-duration-panel) var(--ui-ease), color var(--ui-duration) ease; }
   .experience-portal:is(:hover, :focus-visible) .experience-portal__arrow { transform: translateX(3px); color: var(--theme-accent-color); }
-  .home-chrome__menu[open] .home-chrome__panel,
-  .tools-dock[open] .tools-dock__menu,
-  .wiki-article-language-menu[open] > .wiki-article-locales {
-    transform-origin: top right;
-    animation: menu-arrive var(--ui-duration-panel) var(--ui-ease) both;
-  }
-  .tools-dock[open] .tools-dock__menu { transform-origin: bottom right; }
-  .labs-nav[data-slider-ready] .labs-nav__indicator {
-    transition: transform var(--ui-duration-panel) var(--ui-ease), width var(--ui-duration-panel) var(--ui-ease);
-  }
-  @media (hover: hover) and (pointer: fine) {
-    html body :is(.experience-portal, .artist-card, .album-artist-card, .external-link-card):hover { transform: translateY(-2px); }
-  }
-}
-@keyframes menu-arrive {
-  from { opacity: 0; transform: scale(.98) translateY(-4px); }
-  to { opacity: 1; transform: scale(1) translateY(0); }
 }
 @media (max-width: 767px) {
-  html body .catalog-page, html body .events-page__main { padding-top: 90px; }
-  html body .catalog-hero__body { padding: 22px; }
-  html body .catalog-hero__media { min-height: 210px; }
   html body .labs-banner, html body .labs-feature { padding: 18px; }
 }
 @media (prefers-reduced-motion: reduce) {

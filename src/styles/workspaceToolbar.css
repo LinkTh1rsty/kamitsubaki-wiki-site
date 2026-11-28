@@ -2,6 +2,7 @@
    Keep these rules scoped so document forms and reader typography are unaffected. */
 html body [data-workspace-toolbar].workspace-toolbar {
   --tool-height:40px;
+  --workspace-control-height:40px;
   --tool-line:rgb(var(--theme-fg-rgb)/.18);
   display:flex;align-items:flex-end;flex-wrap:wrap;gap:12px;
   min-width:0;margin:0 0 16px;padding:12px 0;
@@ -30,21 +31,21 @@ html body [data-workspace-toolbar].workspace-toolbar :is(button,.workspace-tool-
 html body [data-workspace-toolbar].workspace-toolbar :is(button,.workspace-tool-action):disabled{opacity:.45;cursor:not-allowed}
 html body [data-workspace-toolbar].workspace-toolbar :is(button[aria-pressed=true],[data-tone=primary]){background:var(--theme-fg);color:var(--theme-bg);border-color:var(--theme-fg)}
 html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-group{display:flex;align-items:flex-end;flex-wrap:wrap;gap:8px;min-width:0}
-html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-segments{display:inline-flex;align-items:center;gap:2px;flex:none;padding:2px;border:1px solid var(--tool-line);border-radius:var(--ui-radius-control,4px);margin:0}
-html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-segments>button{min-height:calc(var(--tool-height) - 6px);border-color:transparent;padding:6px 12px;font-size:12px;white-space:nowrap}
+html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-segments{display:inline-flex;align-items:center;gap:2px;flex:none;padding:1px;border:1px solid var(--tool-line);border-radius:var(--ui-radius-control,4px);margin:0}
+html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-segments>button{min-height:calc(var(--tool-height) - 4px);border-color:transparent;padding:6px 12px;font-size:12px;white-space:nowrap}
 html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters{display:flex;flex:0 0 100%;align-items:center;flex-wrap:wrap;gap:6px;margin:0;padding:10px 0 0;border-top:1px solid var(--tool-line)}
 html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters:empty{display:none}
-html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters>button{min-height:32px;padding:5px 10px;font-size:12px;border-color:transparent;color:var(--workspace-muted,rgb(var(--theme-fg-rgb)/.65))}
+html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters>button{min-height:36px;padding:5px 10px;font-size:12px;border-color:transparent;color:var(--workspace-muted,rgb(var(--theme-fg-rgb)/.65))}
 html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters>button[aria-pressed=true]{color:var(--theme-fg);background:rgb(var(--theme-fg-rgb)/.07);border-color:var(--tool-line)}
 html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters small{font:10px var(--font-mono);margin-left:4px;opacity:.7}
 @media(max-width:700px){
- html body [data-workspace-toolbar].workspace-toolbar{--tool-height:44px;gap:10px}
+ html body [data-workspace-toolbar].workspace-toolbar{--tool-height:44px;--workspace-control-height:44px;gap:10px}
  html body [data-workspace-toolbar].workspace-toolbar>label,html body [data-workspace-toolbar].workspace-toolbar>form>label{flex-basis:calc(50% - 10px)}
  html body [data-workspace-toolbar].workspace-toolbar>label:has(input[type=search]),html body [data-workspace-toolbar].workspace-toolbar>form>label:has(input[type=search]){flex-basis:100%}
  html body [data-workspace-toolbar].workspace-toolbar :is(input[type=search],select):not(.workspace-control){font-size:16px}
  html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters>button{min-height:44px}
 }
-@media(pointer:coarse){html body [data-workspace-toolbar].workspace-toolbar{--tool-height:44px}html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters>button{min-height:44px}}
+@media(pointer:coarse){html body [data-workspace-toolbar].workspace-toolbar{--tool-height:44px;--workspace-control-height:44px}html body [data-workspace-toolbar].workspace-toolbar .workspace-tool-filters>button{min-height:44px}}
 
 /* Domain toolbars share controls while keeping their meaningful groups together. */
 html body .timeline-options.workspace-toolbar[data-workspace-toolbar]{align-items:center;gap:10px}

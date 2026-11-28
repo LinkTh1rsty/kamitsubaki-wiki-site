@@ -13,7 +13,7 @@ const copy=resolveLocaleCopy({
   en:{title:'Page not found',intro:'The address may be incorrect or the record may have moved. Search for it or browse the archive.',search:'Search the site',home:'Go home',explore:'Browse the archive',docs:'Read the guides',game:'Open Memory Corridor',gameHint:'The game is here when you want a break.'}
 },locale);
 ---
-<WorkspaceLayout locale={locale} title={`404 / ${copy.title}`} intro={copy.intro} path="/404/" eyebrow="PAGE NOT FOUND" backHref={`/${locale}/`} backLabel={copy.home} noindex>
+<WorkspaceLayout locale={locale} title={`404 / ${copy.title}`} intro={copy.intro} path="/404/" eyebrow="PAGE NOT FOUND" backHref={`/${locale}/`} backLabel={copy.home} width="wide" noindex>
   <section class="not-found-recovery" aria-label={copy.title}>
     <WorkspaceButton type="button" class="not-found-search" data-search-open>{copy.search} <span aria-hidden="true"><Icon name="arrow-up-right" /></span></WorkspaceButton>
     <div class="not-found-destinations">

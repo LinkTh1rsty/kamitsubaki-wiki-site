@@ -4,7 +4,7 @@
 .submission-panel .submission-panel-header{margin:0 0 18px;padding:0;border:0}
 .submission-panel .submission-panel-header :is(h2,h3,h4){display:flex;align-items:baseline;gap:10px;margin:0;font:400 21px/1.4 var(--font-serif)}
 .submission-panel-header :is(h2,h3,h4)>span{color:rgb(var(--theme-fg-rgb)/.55);font:11px/1.5 var(--font-mono)}
-.submission-panel .submission-panel-header>p,.submission-hint{margin:10px 0 0;padding:4px 0;border-left:2px solid rgb(var(--theme-fg-rgb)/.25);border-radius:0;background:none;color:rgb(var(--theme-fg-rgb)/.7);font:12px/1.7 var(--font-sans);overflow-wrap:anywhere;border:0;}
+.submission-panel .submission-panel-header>p,.submission-hint{margin:10px 0 0;padding:4px 0;border:0;border-radius:0;background:none;color:rgb(var(--theme-fg-rgb)/.7);font:12px/1.7 var(--font-sans);overflow-wrap:anywhere}
 .submission-panel .submission-field-group{min-width:0;margin:0;padding:0;border:0}
 .submission-panel .submission-field-group+.submission-field-group{margin-top:22px;padding-top:18px;border-top:1px solid rgb(var(--theme-fg-rgb)/.12)}
 .submission-panel .submission-field-group>legend{float:left;width:100%;padding:0;margin:0 0 12px;font:600 13px/1.5 var(--font-sans)}
@@ -12,7 +12,7 @@
 .submission-panel .submission-field-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .submission-panel .submission-field-grid>label{display:grid;gap:6px;min-width:0;margin:0;color:rgb(var(--theme-fg-rgb)/.7);font:12px/1.5 var(--font-sans)}
 .submission-panel .submission-field-wide{grid-column:1/-1}
-.submission-panel :is(input:not([type=checkbox],[type=radio],[type=file]),select,textarea):not(.workspace-control){box-sizing:border-box;width:100%;min-width:0;max-width:100%;min-height:42px;padding:9px 11px;border:1px solid rgb(var(--theme-fg-rgb)/.18);border-radius:var(--ui-radius-control,4px);background:var(--theme-bg);color:var(--theme-fg);font:13px/1.5 var(--font-sans)}
+.submission-panel :is(input:not([type=checkbox],[type=radio],[type=file]),select,textarea):not(.workspace-control){box-sizing:border-box;width:100%;min-width:0;max-width:100%;min-height:var(--workspace-control-height,44px);padding:8px 11px;border:1px solid rgb(var(--theme-fg-rgb)/.18);border-radius:var(--ui-radius-control,4px);background:var(--theme-bg);color:var(--theme-fg);font:13px/1.5 var(--font-sans)}
 .submission-panel textarea{resize:vertical}
 .submission-panel .submission-hint{margin:0 0 12px}
 @media(max-width:900px){.submission-columns{grid-template-columns:minmax(0,1fr);gap:18px}}

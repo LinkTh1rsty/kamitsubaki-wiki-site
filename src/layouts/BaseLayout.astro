@@ -157,8 +157,26 @@ const liveEventsCopy = siteContent?.liveEvents;
 
         if (!shouldPlayIntro) document.documentElement.classList.add('site-page-transition-enabled');
         document.documentElement.classList.add('has-js');
+        try {
+          if (window.matchMedia('(hover: hover) and (pointer: fine)').matches && typeof HTMLElement !== 'undefined' && typeof HTMLElement.prototype.showPopover === 'function') {
+            const rawCursor = window.sessionStorage.getItem('kamitsubaki-cursor-state');
+            if (rawCursor) {
+              const savedCursor = JSON.parse(rawCursor);
+              if (Number.isFinite(savedCursor?.x) && Number.isFinite(savedCursor?.y) && savedCursor.x >= 0 && savedCursor.y >= 0) {
+                document.documentElement.setAttribute('data-custom-cursor', '');
+                document.documentElement.style.setProperty('--cursor-x', `${savedCursor.x}px`);
+                document.documentElement.style.setProperty('--cursor-y', `${savedCursor.y}px`);
+              }
+            }
+          }
+        } catch {}
       })();
     </script>
+    <style is:inline>
+      html[data-custom-cursor],html[data-custom-cursor] *{cursor:none!important}
+      #cursor{display:none;pointer-events:none}
+      #cursor[popover]:popover-open{display:block;box-sizing:border-box;position:fixed;inset:auto;left:0;top:0;margin:0;padding:0;width:8px;height:8px;border:1px solid rgb(255 255 255);border-radius:50%;background:rgb(255 255 255);pointer-events:none;transform-origin:0 0;transform:translate3d(var(--cursor-x,-100px),var(--cursor-y,-100px),0) translate(-50%,-50%);mix-blend-mode:difference;z-index:2147483647}
+    </style>
     <link rel="stylesheet" href={`/ui-tokens.css?v=${uiTokensVersion}`} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{pageTitle}</title>
@@ -200,6 +218,33 @@ const liveEventsCopy = siteContent?.liveEvents;
 
   </head>
   <body class:list={['antialiased font-sans selection:bg-white selection:text-black', { 'wiki-reading-page': reading, 'site-home': isLocalizedHome }]} id="body-wrap">
+    <div id="cursor" class="cursor-dot" aria-hidden="true"></div>
+    <script is:inline>
+      (() => {
+        const cursor = document.getElementById('cursor');
+        const root = document.documentElement;
+        if (!cursor || typeof cursor.showPopover !== 'function') return;
+        cursor.setAttribute('popover', 'manual');
+        if (root.hasAttribute('data-custom-cursor')) {
+          cursor.style.visibility = 'visible';
+          try { cursor.showPopover(); } catch {}
+        }
+        const earlyMove = (event) => {
+          if (event.pointerType && event.pointerType !== 'mouse') return;
+          root.style.setProperty('--cursor-x', `${event.clientX}px`);
+          root.style.setProperty('--cursor-y', `${event.clientY}px`);
+          cursor.style.setProperty('--cursor-x', `${event.clientX}px`);
+          cursor.style.setProperty('--cursor-y', `${event.clientY}px`);
+          cursor.style.visibility = 'visible';
+          root.setAttribute('data-custom-cursor', '');
+          if (!cursor.matches(':popover-open')) {
+            try { cursor.showPopover(); } catch {}
+          }
+        };
+        document.addEventListener('pointermove', earlyMove, { passive: true });
+        window.__earlyCursorCleanup = () => document.removeEventListener('pointermove', earlyMove);
+      })();
+    </script>
     {isLocalizedHome && <SiteIntro locale={lang} />}
     <div id="preloader" data-page-transition aria-hidden="true">
       <div class="flex flex-col items-center">
@@ -218,7 +263,6 @@ const liveEventsCopy = siteContent?.liveEvents;
 
     <slot />
     <AccountChrome locale={lang} />
-    <div id="cursor" class="cursor-dot" aria-hidden="true"></div>
     <SiteSearch lang={lang} />
 
 

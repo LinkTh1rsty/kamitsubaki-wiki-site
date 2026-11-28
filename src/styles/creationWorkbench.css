@@ -8,10 +8,9 @@
 @media(max-width:1100px){.creation-workspace{grid-template-columns:minmax(0,1fr) 230px}.creation-index{grid-column:1/-1;position:static}.creation-index nav{display:flex;flex-wrap:wrap}.creation-index .creation-muted{display:none}.creation-review-workspace{grid-template-columns:155px minmax(0,1fr)}.creation-review-actions{grid-column:2;position:static;border-left:0;padding-left:0;border-top:1px solid var(--creation-line);padding-top:20px}.creation-fields{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.creation-toolbar{align-items:flex-start;flex-direction:column}.creation-toolbar>div:last-child{flex-wrap:wrap}.creation-workspace,.creation-review-workspace{grid-template-columns:1fr;gap:20px}.creation-preview{position:static;border-left:0;padding-left:0;border-top:1px solid var(--creation-line);padding-top:20px}.creation-review-actions{grid-column:auto}.creation-review-queue [data-review-queue]{display:flex;overflow:auto}.creation-review-queue [data-review-queue]>button{min-width:160px}.creation-fields{gap:12px}.creation-image-row{grid-template-columns:54px minmax(0,1fr);gap:8px}.creation-image-inputs{grid-template-columns:1fr}.creation-upload-footer{flex-wrap:wrap;gap:12px}.creation-upload-footer>div{flex-basis:100%}.creation-upload-footer .workspace-button{width:100%}.creation-prototype :is(button,input:not([type=checkbox]),select){min-height:44px}.creation-review-large img{height:260px}.creation-diff{gap:12px}.creation-preview-stage img{height:240px}}
 
-/* Dense workbench preview keeps the shell but avoids a second oversized hero. */
-html body main.creation-preview-page .workspace-header{gap:10px;margin-bottom:12px;padding-bottom:16px}
-html body main.creation-preview-page .workspace-heading h1{font-size:26px;margin-bottom:6px}
-html body main.creation-preview-page .workspace-heading>.workspace-eyebrow{margin-bottom:6px}
+/* Dense workbench preview keeps the shared WorkspaceHeader title scale. */
+html body main.creation-preview-page .workspace-header{gap:14px 24px;margin-bottom:20px;padding-bottom:20px}
+html body main.creation-preview-page .workspace-heading>.workspace-eyebrow{margin-bottom:8px}
 .creation-preview-page .creation-demo-note{margin:0;padding:8px 0}
 .creation-preview-page .creation-modes{margin-bottom:16px}
 .creation-preview-page .creation-toolbar{margin-bottom:20px}

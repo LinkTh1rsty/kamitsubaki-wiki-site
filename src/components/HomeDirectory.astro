@@ -2,13 +2,19 @@
 import ClassificationDirectory from './ClassificationDirectory.astro';
 const {locale='zh',section}=Astro.props;
 ---
-<section id="database" class="observatory-directory relative mx-auto max-w-7xl px-5 py-20 ui-crosshair bl br tl tr sm:px-6 sm:py-32">
-<div id="artist-bg-container" class="artist-bg fixed-bg-hack pointer-events-none" aria-hidden="true"><div class="artist-bg__veil absolute inset-0 z-10 bg-[var(--theme-bg)] opacity-65 mix-blend-multiply"></div><img id="artist-bg-img" alt="" class="artist-bg__image saturate-125"/><img alt="" class="artist-bg__image saturate-125"/></div>
+<section id="database" class="observatory-directory relative mx-auto max-w-7xl border-b border-[rgb(var(--theme-fg-rgb)/0.1)] px-4 py-20 ui-crosshair bl br sm:px-6 sm:py-28">
+<div id="artist-bg-container" class="artist-bg fixed-bg-hack pointer-events-none" aria-hidden="true"><div class="artist-bg__veil absolute inset-0 z-10 bg-[var(--theme-bg)] opacity-70"></div><img id="artist-bg-img" alt="" class="artist-bg__image saturate-125"/><img alt="" class="artist-bg__image saturate-125"/></div>
 <ClassificationDirectory locale={locale} home>
- <header slot="heading" class="reveal-up">
-  <h3 class="text-[10px] tracking-kamidest-lg font-light text-white mb-2">{section.heading}</h3>
-  <p class="font-serif text-[10px] text-white/50 tracking-widest mb-12">{section.subheading}</p>
+ <header slot="heading" class="home-directory-heading reveal-up">
+  <h3 class="home-section-kicker">{section.heading}</h3>
+  <p class="home-section-subtitle">{section.subheading}</p>
  </header>
 </ClassificationDirectory>
 </section>
-<style>.observatory-directory{scroll-margin-top:90px}.artist-bg__veil{position:absolute;inset:0}</style>
+<style>
+  .observatory-directory { scroll-margin-top: 90px; }
+  .artist-bg__veil { position: absolute; inset: 0; }
+  :global(html:not([data-theme='light'])) .artist-bg__veil { mix-blend-mode: multiply; opacity: 0.65; }
+  .home-section-kicker { margin: 0 0 8px; font: 400 10px/1.5 var(--font-mono); letter-spacing: 0.36em; color: var(--theme-fg); }
+  .home-section-subtitle { margin: 0 0 28px; font: 400 12px/1.7 var(--font-serif); letter-spacing: 0.16em; color: rgb(var(--theme-fg-rgb) / 0.56); }
+</style>

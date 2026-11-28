@@ -5,9 +5,26 @@ import WorkspaceLinkCard from './WorkspaceLinkCard.astro';
 const {locale='zh'}=Astro.props;
 const section=featuresFor(locale,'main').find(item=>item.id==='explore')!;
 ---
-<section id="explore" class="mx-auto max-w-7xl px-5 py-20 sm:px-6">
- <header><h2>04. EXPLORE</h2><p>{section.title}</p></header>
+<section id="explore" class="home-explore relative mx-auto max-w-7xl border-b border-[rgb(var(--theme-fg-rgb)/0.1)] px-4 py-20 ui-crosshair bl br sm:px-6 sm:py-28">
+ <header class="home-explore__header reveal-up">
+  <h2>04. EXPLORE</h2>
+  <p>{section.title}</p>
+  <a class="home-explore__action" href={section.href}><span>{section.title}</span><Icon name="arrow-right" /></a>
+ </header>
  <div class="home-explore-grid">{featuresFor(locale,'explore').map((item,i)=><WorkspaceLinkCard href={item.href} title={item.title} description={item.summary} index={String(i+1).padStart(2,'0')}/>)}</div>
- <a href={section.href}>{section.title} <Icon name="arrow-right" /></a>
 </section>
-<style>header h2{font-size:10px;letter-spacing:.25em;font-weight:300}header p{font:10px var(--font-serif);opacity:.55;margin:8px 0 28px}.home-explore-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}section>a{display:inline-block;margin-top:20px;font-size:12px}@media(max-width:640px){.home-explore-grid{grid-template-columns:1fr}}</style>
+<style>
+.home-explore{display:grid;grid-template-columns:minmax(220px,260px) minmax(0,1fr);gap:clamp(48px,5vw,72px);align-items:start}
+.home-explore__header{position:sticky;top:120px;align-self:start}
+.home-explore__header h2{margin:0 0 8px;font:400 10px/1.5 var(--font-mono);letter-spacing:.36em;color:var(--theme-fg)}
+.home-explore__header p{margin:0 0 28px;font:400 12px/1.7 var(--font-serif);letter-spacing:.16em;color:rgb(var(--theme-fg-rgb)/.56)}
+.home-explore__action{display:inline-flex;align-items:center;gap:8px;padding-bottom:4px;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.2);font-size:12px;letter-spacing:.08em;color:rgb(var(--theme-fg-rgb)/.62);transition:color 180ms ease,border-color 180ms ease}
+.home-explore__action:hover{color:var(--theme-fg);border-color:rgb(var(--theme-fg-rgb)/.55)}
+.home-explore__action :global(svg){width:13px;height:13px;transition:transform 180ms ease}
+.home-explore__action:hover :global(svg){transform:translateX(3px)}
+.home-explore-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 40px;min-width:0}
+.home-explore-grid :global(.workspace-link-card:nth-child(-n+2)){padding-top:0}
+@media(max-width:1023px){.home-explore{grid-template-columns:minmax(0,1fr);gap:32px}.home-explore__header{position:static}}
+@media(max-width:640px){.home-explore-grid{grid-template-columns:1fr}.home-explore-grid :global(.workspace-link-card:nth-child(2)){padding-top:20px}}
+@media(prefers-reduced-motion:reduce){.home-explore__action,.home-explore__action :global(svg){transition:none}.home-explore__action:hover :global(svg){transform:none}}
+</style>

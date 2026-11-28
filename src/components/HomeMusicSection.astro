@@ -7,15 +7,27 @@ import {resolveLocaleCopy} from '../lib/i18n.mjs';
 const {songs,albums,locale,sections}=Astro.props;
 const copy=resolveLocaleCopy({zh:{title:'音乐作品',songs:'歌曲',albums:'专辑',all:'浏览音乐目录'},en:{title:'Music',songs:'Songs',albums:'Albums',all:'Browse music'},ja:{title:'音楽作品',songs:'楽曲',albums:'アルバム',all:'音楽一覧'}},locale);
 ---
-<section id="music" class="home-music relative mx-auto max-w-7xl px-5 py-20 ui-crosshair bl br tl tr sm:px-6 sm:py-32">
- <header><h2>02. RHYTHM</h2><p>{copy.title}</p><a href={`/${locale}/database/music/`}>{copy.all} <Icon name="arrow-right" /></a></header>
+<section id="music" class="home-music relative mx-auto max-w-7xl border-b border-[rgb(var(--theme-fg-rgb)/0.1)] px-4 py-20 ui-crosshair bl br sm:px-6 sm:py-28">
+ <header class="home-music__header reveal-up"><h2>02. RHYTHM</h2><p>{copy.title}</p><a class="home-music__action" href={`/${locale}/database/music/`}><span>{copy.all}</span><Icon name="arrow-right" /></a></header>
  <div class="home-music-content"><ContentTabs id="home-music" label={copy.title} tabs={[{id:'songs',label:copy.songs},{id:'albums',label:copy.albums}]}>
  <SongsSection slot="songs" songs={songs} section={sections.songs} locale={locale}/>
  <AlbumsSection slot="albums" albums={albums} section={sections.albums} locale={locale}/>
  </ContentTabs></div>
 </section>
 <style>
-.home-music{display:grid;grid-template-columns:minmax(140px,1fr) minmax(0,3fr);gap:48px}.home-music header h2{font:300 10px var(--font-sans);letter-spacing:.25em}.home-music header p{font:10px var(--font-serif);opacity:.55;margin:8px 0 30px}.home-music header a{font-size:11px;opacity:.65}.home-music-content{min-width:0}
-.home-music :global(#songs),.home-music :global(#albums){padding:0;max-width:none;border:0}.home-music :global(#songs>div),.home-music :global(#albums>div){display:block}.home-music :global(#songs>div>div:first-child),.home-music :global(#albums>div>div:first-child){display:none}.home-music :global(.pb-20){padding-bottom:0}
-@media(max-width:760px){.home-music{grid-template-columns:1fr;gap:24px}}
+.home-music{display:grid;grid-template-columns:minmax(220px,260px) minmax(0,1fr);gap:clamp(48px,5vw,72px);align-items:start}
+.home-music__header{position:sticky;top:120px;align-self:start}
+.home-music__header h2{margin:0 0 8px;font:400 10px/1.5 var(--font-mono);letter-spacing:.36em;color:var(--theme-fg)}
+.home-music__header p{margin:0 0 28px;font:400 12px/1.7 var(--font-serif);letter-spacing:.16em;color:rgb(var(--theme-fg-rgb)/.56)}
+.home-music__action{display:inline-flex;align-items:center;gap:8px;padding-bottom:4px;border-bottom:1px solid rgb(var(--theme-fg-rgb)/.2);font-size:12px;letter-spacing:.08em;color:rgb(var(--theme-fg-rgb)/.62);transition:color 180ms ease,border-color 180ms ease}
+.home-music__action:hover{color:var(--theme-fg);border-color:rgb(var(--theme-fg-rgb)/.55)}
+.home-music__action :global(svg){width:13px;height:13px;transition:transform 180ms ease}
+.home-music__action:hover :global(svg){transform:translateX(3px)}
+.home-music-content{min-width:0}
+.home-music :global(#songs),.home-music :global(#albums){padding:0;max-width:none;border:0}
+.home-music :global(#songs>div),.home-music :global(#albums>div){display:block}
+.home-music :global(#songs>div>div:first-child),.home-music :global(#albums>div>div:first-child){display:none}
+.home-music :global(.pb-20){padding-bottom:0}
+@media(max-width:1023px){.home-music{grid-template-columns:minmax(0,1fr);gap:32px}.home-music__header{position:static}}
+@media(prefers-reduced-motion:reduce){.home-music__action,.home-music__action :global(svg){transition:none}.home-music__action:hover :global(svg){transform:none}}
 </style>

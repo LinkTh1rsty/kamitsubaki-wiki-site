@@ -8,17 +8,17 @@
 .chronicle-conflict-columns>div{min-width:0;padding:16px 0;border:0;border-radius:0;background:none;box-shadow:none;border-top:1px solid var(--workspace-line);}
 .chronicle-conflict-columns h3{margin:0 0 8px;font:600 12px var(--font-sans)}
 .chronicle-conflict-columns p{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.7 var(--font-sans)}
-.chronicle-conflict>button{min-height:43px;padding:9px 14px;border:1px solid var(--theme-fg);border-radius:3px;background:var(--theme-fg);color:var(--theme-bg);font:12px var(--font-sans);cursor:pointer}
+.chronicle-conflict>button{min-height:40px;padding:8px 14px;border:1px solid var(--theme-fg);border-radius:var(--ui-radius-control);background:var(--theme-fg);color:var(--theme-bg);font:12px var(--font-sans);cursor:pointer}
 .chronicle-editor-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(230px,.75fr);gap:38px;align-items:start}
 .chronicle-editor-layout form{min-width:0}
 .chronicle-editor-layout form>section{padding:22px 0 30px;border-top:1px solid var(--workspace-line)}
 .chronicle-editor-layout h2{font:400 24px/1.45 var(--font-serif);margin:0 0 17px}
 .chronicle-editor-layout form p{font:12px/1.8 var(--font-sans);color:var(--workspace-muted)}
 .chronicle-editor-layout label{display:grid;gap:7px;margin:14px 0;font:12px/1.5 var(--font-sans)}
-.chronicle-editor-layout input:not([type=checkbox]),.chronicle-editor-layout textarea,.chronicle-editor-layout select{width:100%;min-height:43px;padding:9px 11px;border:1px solid var(--workspace-line);border-radius:3px;background:var(--theme-bg);color:var(--theme-fg);font:13px/1.5 var(--font-sans)}
+.chronicle-editor-layout input:not([type=checkbox]),.chronicle-editor-layout textarea,.chronicle-editor-layout select{width:100%;min-height:40px;padding:8px 11px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);background:var(--theme-bg);color:var(--theme-fg);font:13px/1.5 var(--font-sans)}
 .chronicle-editor-layout textarea{min-height:100px;resize:vertical}
 .chronicle-language-tabs{display:flex;gap:5px;flex-wrap:wrap;margin:18px 0 8px}
-.chronicle-language-tabs button{min-height:42px;padding:8px 12px;border:1px solid var(--workspace-line);border-radius:3px;background:transparent;color:var(--theme-fg);cursor:pointer}
+.chronicle-language-tabs button{min-height:40px;padding:8px 12px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);background:transparent;color:var(--theme-fg);cursor:pointer}
 .chronicle-language-tabs button[aria-pressed=true]{border-color:var(--theme-fg);background:var(--theme-fg);color:var(--theme-bg)}
 .chronicle-language-tabs small{margin-left:5px;font-size:10px;opacity:.7}
 .chronicle-editor-fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
@@ -30,7 +30,7 @@
 .chronicle-source-primary{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) auto;gap:12px;align-items:end}
 .chronicle-source-secondary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .chronicle-source-row label{margin:7px 0}
-.chronicle-source-row>button,.chronicle-add-source,.chronicle-editor-actions button{min-height:43px;padding:9px 13px;border:1px solid var(--workspace-line);border-radius:3px;background:var(--theme-bg);color:var(--theme-fg);cursor:pointer}
+.chronicle-source-row>button,.chronicle-add-source,.chronicle-editor-actions button{min-height:40px;padding:8px 14px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);background:var(--theme-bg);color:var(--theme-fg);cursor:pointer}
 .chronicle-add-source{margin-top:13px}
 .chronicle-editor-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
 .chronicle-editor-actions [data-submit]{border-color:var(--theme-fg);background:var(--theme-fg);color:var(--theme-bg)}

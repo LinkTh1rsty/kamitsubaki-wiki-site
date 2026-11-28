@@ -4,21 +4,22 @@ const hasCjkVerticalText = /[\u3040-\u30ff\u3400-\u9fff]/.test(hero.leftVertical
 const verticalRailHeight = hasCjkVerticalText ? 'h-[22rem] md:h-[24rem]' : 'h-72 md:h-80';
 ---
 
-<header class="relative flex min-h-[100svh] flex-col items-center justify-center overflow-hidden border-b border-white/10 ui-crosshair bl br">
-  <div class="absolute left-6 top-28 text-[9px] font-mono leading-loose text-white/30 tracking-widest reveal-up md:left-12 md:top-32" style="transition-delay: 0.32s;">
+<header class="hero-stage relative flex min-h-[100svh] flex-col items-center justify-center overflow-hidden border-b border-[rgb(var(--theme-fg-rgb)/0.1)] ui-crosshair bl br">
+  <h1 class="sr-only">{hero.title}</h1>
+  <div class="absolute left-4 top-24 font-mono text-[10px] leading-loose tracking-widest text-[rgb(var(--theme-fg-rgb)/0.42)] reveal-up sm:left-6 sm:top-28 md:left-8 md:top-32" style="transition-delay: 0.32s;">
     {hero.systemVersion}<br />
     {hero.coordinates}<br />
     {hero.status}
   </div>
 
   <div class:list={[
-    'absolute left-4 top-1/2 hidden -translate-y-1/2 items-center reveal-up sm:left-6 md:left-10 lg:flex',
+    'absolute left-4 top-1/2 hidden -translate-y-1/2 items-center reveal-up sm:left-6 md:left-8 lg:flex',
     verticalRailHeight,
   ]} style="transition-delay: 0.14s;">
     <p class:list={[
-      't-vertical whitespace-nowrap border-l border-white/10 pl-4 font-serif text-white/42',
+      't-vertical whitespace-nowrap border-l border-[rgb(var(--theme-fg-rgb)/0.14)] pl-4 font-serif text-[rgb(var(--theme-fg-rgb)/0.5)]',
       hasCjkVerticalText
-        ? 'text-[11px] tracking-[0.22em] md:text-sm'
+        ? 'text-xs tracking-[0.22em] md:text-sm'
         : 'text-xs tracking-[0.32em] md:text-sm',
     ]}>
       {hero.leftVertical}
@@ -26,38 +27,38 @@ const verticalRailHeight = hasCjkVerticalText ? 'h-[22rem] md:h-[24rem]' : 'h-72
   </div>
 
   <div class:list={[
-    'absolute right-4 top-1/2 hidden -translate-y-1/2 items-center justify-end reveal-up sm:right-6 md:right-10 lg:flex',
+    'absolute right-4 top-1/2 hidden -translate-y-1/2 items-center justify-end reveal-up sm:right-6 md:right-8 lg:flex',
     verticalRailHeight,
   ]} style="transition-delay: 0.22s;">
-    <p class="t-vertical whitespace-nowrap border-r border-white/10 pr-4 font-serif text-sm font-light tracking-[0.34em] text-white/62 md:text-base">
+    <p class="t-vertical whitespace-nowrap border-r border-[rgb(var(--theme-fg-rgb)/0.14)] pr-4 font-serif text-sm font-light tracking-[0.34em] text-[rgb(var(--theme-fg-rgb)/0.68)] md:text-base">
       {hero.rightVertical}
     </p>
   </div>
 
   <div class="hero-center relative z-10 mt-18 px-4 text-center sm:mt-20" data-hero-parallax>
-    <div class="absolute left-1/2 top-[-2.75rem] h-8 w-px -translate-x-1/2 bg-white/30 reveal-up" style="transition-delay: 0.36s;"></div>
-    <p class="mb-6 text-[9px] font-light text-white/40 tracking-kamidest-lg reveal-up md:text-xs">
+    <div class="absolute left-1/2 top-[-2.75rem] h-8 w-px -translate-x-1/2 bg-[rgb(var(--theme-fg-rgb)/0.28)] reveal-up" style="transition-delay: 0.36s;"></div>
+    <p class="mb-6 text-[10px] font-light tracking-kamidest-lg text-[rgb(var(--theme-fg-rgb)/0.52)] reveal-up md:text-xs">
       {hero.eyebrow}
     </p>
-    <h2 class="text-5xl font-extralight uppercase tracking-[0.12em] text-white reveal-up mix-blend-overlay sm:text-7xl md:text-8xl lg:text-[10rem]" style="transition-delay: 0.08s;">
+    <h2 class="hero-stage__title text-5xl font-extralight uppercase tracking-[0.12em] text-[var(--theme-fg)] reveal-up sm:text-7xl md:text-8xl lg:text-[10rem]" style="transition-delay: 0.08s;">
       {hero.title}
     </h2>
-    <div class="mx-auto mt-10 h-18 w-px bg-white/20 reveal-up sm:mt-12 sm:h-24" style="transition-delay: 0.24s;"></div>
-    <p class="mx-auto mt-8 max-w-xs text-[11px] leading-7 text-white/36 lg:hidden">
+    <div class="mx-auto mt-10 h-18 w-px bg-[rgb(var(--theme-fg-rgb)/0.2)] reveal-up sm:mt-12 sm:h-24" style="transition-delay: 0.24s;"></div>
+    <p class="mx-auto mt-8 max-w-xs text-xs leading-7 text-[rgb(var(--theme-fg-rgb)/0.5)] lg:hidden">
       {hero.leftVertical}
     </p>
   </div>
 
-  <div class="pointer-events-none absolute bottom-20 right-20 hidden opacity-8 lg:block motion-safe:animate-[spin_80s_linear_infinite]">
+  <div class="hero-stage__astrolabe pointer-events-none absolute bottom-20 right-20 hidden text-[var(--theme-fg)] opacity-10 lg:block motion-safe:animate-[spin_80s_linear_infinite]">
     <svg width="200" height="200" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <circle cx="50" cy="50" r="49" stroke="white" stroke-width="0.5" stroke-dasharray="2 4"></circle>
-      <circle cx="50" cy="50" r="30" stroke="white" stroke-width="0.5"></circle>
-      <line x1="50" y1="0" x2="50" y2="100" stroke="white" stroke-width="0.5"></line>
-      <line x1="0" y1="50" x2="100" y2="50" stroke="white" stroke-width="0.5"></line>
+      <circle cx="50" cy="50" r="49" stroke="currentColor" stroke-width="0.5" stroke-dasharray="2 4"></circle>
+      <circle cx="50" cy="50" r="30" stroke="currentColor" stroke-width="0.5"></circle>
+      <line x1="50" y1="0" x2="50" y2="100" stroke="currentColor" stroke-width="0.5"></line>
+      <line x1="0" y1="50" x2="100" y2="50" stroke="currentColor" stroke-width="0.5"></line>
     </svg>
   </div>
 
-  <div class="pointer-events-none absolute bottom-6 w-full select-none opacity-[0.04] md:bottom-8">
+  <div class="pointer-events-none absolute bottom-6 w-full select-none text-[var(--theme-fg)] opacity-[0.045] md:bottom-8">
     <div class="marquee-container">
       <div class="marquee-content text-[96px] font-bold leading-none tracking-tighter md:text-[150px]">
         {hero.marquee}
@@ -65,3 +66,12 @@ const verticalRailHeight = hasCjkVerticalText ? 'h-[22rem] md:h-[24rem]' : 'h-72
     </div>
   </div>
 </header>
+
+<style>
+  :global(html:not([data-theme='light'])) .hero-stage__title {
+    mix-blend-mode: overlay;
+  }
+  :global(html[data-theme='light']) .hero-stage__astrolabe {
+    opacity: 0.14;
+  }
+</style>

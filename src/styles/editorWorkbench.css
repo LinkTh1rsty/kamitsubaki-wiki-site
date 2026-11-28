@@ -6,7 +6,7 @@ body:has(.ve-workbench) > :is(.noise-bg,#preloader,.tools-dock,.ai-chat,.ai-chat
 html body .ve-workbench { --ve-paper:var(--theme-bg); --ve-surface:var(--theme-panel-solid); --ve-muted:rgb(var(--theme-fg-rgb)/.62); --theme-accent-color:var(--ui-accent-color); --theme-accent-rgb:var(--ui-accent-rgb); --ve-select-bg:color-mix(in srgb, var(--theme-panel-solid) 97%, var(--theme-fg)); position:relative; z-index:20; display:flex; flex-direction:column; width:100%; height:100dvh; max-width:none; margin:0; padding:0; background:var(--ve-paper); font:13px/1.65 var(--font-sans); }
 html[data-theme='light'] .ve-workbench { --ve-paper:#fff; --ve-surface:#f8f9fa; }
 html body .ve-workbench :is(button,input,select,textarea) { font-family:var(--font-sans); letter-spacing:0; }
-html body .ve-workbench :is(button,summary,a) { cursor:pointer !important; }
+html body .ve-workbench :is(button,summary,a) { cursor:pointer; }
 html body .ve-workbench :is(button,input,select,textarea):focus-visible { outline:2px solid var(--theme-accent-color); outline-offset:-2px; }
 html body .ve-workbench button { min-height:30px; padding:4px 9px; font-size:12px; border-radius:var(--ui-radius-control); }
 .ve-topbar { flex-shrink:0; display:flex; min-height:60px; align-items:center; gap:18px; padding:0 18px; border-bottom:1px solid var(--ui-line); }
@@ -381,7 +381,7 @@ html body .ve-workbench .ve-document-properties { display:inline-flex; align-ite
 html body .ve-workbench :is(.ve-properties-entry,.ve-document-properties)[aria-pressed='true'] { border-color:var(--theme-accent-color); }
 
 html body .ve-workbench .ve-toolbar-arrow { flex:0 0 28px; width:28px; padding:0; font-size:20px; border-color:transparent; color:var(--ve-muted); }
-html body .ve-workbench .ve-toolbar-arrow:disabled { opacity:.25; cursor:default !important; }
+html body .ve-workbench .ve-toolbar-arrow:disabled { opacity:.25; cursor:default; }
 
 .ve-entry-dialog { width:min(580px,calc(100vw - 32px)); padding:24px; overflow:auto; }
 .ve-entry-dialog label { display:grid; gap:6px; margin:12px 0; }

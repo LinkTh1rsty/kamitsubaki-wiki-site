@@ -1,6 +1,6 @@
 .dashboard-float{position:fixed;right:var(--floating-action-edge);bottom:max(var(--floating-action-edge),env(safe-area-inset-bottom));z-index:42}
-html body .dashboard-launcher.workspace-button.dui-btn{display:grid;place-items:center;position:relative;width:var(--floating-action-size);height:var(--floating-action-size);min-height:var(--floating-action-size);min-width:var(--floating-action-size);padding:0;background:var(--theme-panel-solid);color:var(--theme-fg);border:1px solid var(--workspace-line);box-shadow:0 4px 16px rgb(0 0 0/.1)}
-.dashboard-launcher__cards{position:relative;display:block;width:24px;height:24px}
+html body .dashboard-launcher.workspace-button.dui-btn{display:grid;place-items:center;position:relative;width:var(--floating-action-size);height:var(--floating-action-size);min-height:var(--floating-action-size);min-width:var(--floating-action-size);padding:0}
+.dashboard-launcher__cards{position:relative;display:block;width:22px;height:22px}
 .dashboard-launcher__cards i{display:block;position:absolute;inset:4px 3px;border:1.5px solid currentColor;border-radius:2px;background:var(--theme-panel-solid);transform-origin:center;transition:transform 120ms cubic-bezier(.23,1,.32,1)}
 .dashboard-launcher__cards i:nth-child(1){transform:translate(-3px,-3px) rotate(-9deg)}
 .dashboard-launcher__cards i:nth-child(2){transform:translate(1px,-1px) rotate(5deg)}

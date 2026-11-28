@@ -40,7 +40,7 @@ html body :is([data-ui-kit],[data-ui-kit] *):is(.dui-btn,.dui-input,.dui-select,
 
 /* Shared wrappers preserve the workspace action hierarchy and toolbar density. */
 html body .workspace-button.dui-btn {
-  height:auto; min-height:var(--workspace-control-height,44px); max-width:100%;
+  height:auto; min-height:var(--tool-height,var(--workspace-control-height,44px)); max-width:100%;
   gap:8px; padding:var(--workspace-control-padding,8px 14px); font:var(--workspace-control-font,500 13px/1.5 var(--font-sans));
   border-color:var(--tool-line,var(--workspace-line,rgb(var(--theme-fg-rgb)/.13)));
   background:var(--workspace-control-background,transparent); color:var(--workspace-control-color,var(--theme-fg)); text-decoration:none;
@@ -54,12 +54,12 @@ html body .workspace-button.dui-btn[data-tone=quiet] {border-color:transparent;b
 html body .workspace-button.dui-btn[data-tone=quiet]:hover {color:var(--theme-fg);background:var(--workspace-surface,rgb(var(--theme-fg-rgb)/.025));}
 html body .workspace-button.dui-btn:is(:disabled,[aria-disabled=true]) {opacity:.45;cursor:not-allowed;transform:none;pointer-events:none;}
 html body .workspace-control:is(.dui-input,.dui-select,.dui-textarea) {
-  height:var(--tool-height,44px);min-height:var(--tool-height,44px);padding:8px 11px;
+  height:var(--tool-height,var(--workspace-control-height,44px));min-height:var(--tool-height,var(--workspace-control-height,44px));padding:8px 11px;
   font-size:13px; border-color:var(--tool-line,var(--workspace-line,rgb(var(--theme-fg-rgb)/.18)));
 }
 html body .workspace-control.dui-select {padding-right:28px;}
-html body .workspace-control.dui-textarea {height:auto;min-height:44px;resize:vertical;}
-html body .workspace-control.dui-checkbox {width:16px;height:16px;flex-shrink:0;border-radius:3px;--input-color:var(--ui-color-accent);}
+html body .workspace-control.dui-textarea {height:auto;min-height:88px;resize:vertical;}
+html body .workspace-control.dui-checkbox {width:16px;height:16px;flex-shrink:0;border-radius:var(--ui-radius-control,4px);--input-color:var(--ui-color-accent);}
 html body .submission-panel .workspace-control:is(.dui-input,.dui-select,.dui-textarea) {border-color:rgb(var(--theme-fg-rgb)/.18);}
 html body .workspace-control:is(.dui-input,.dui-select,.dui-textarea)[aria-invalid=true] {border-color:var(--ui-color-error);}
 /* Editor dialogs retain their compact desktop density; the canvas stays separate. */
@@ -72,9 +72,11 @@ html body .ve-workbench .workspace-control.dui-select {padding-right:28px;}
 html body .ve-workbench .workspace-button.dui-btn {min-height:32px;padding:5px 10px;font-size:12px;}
 /* Native rows and error/disabled semantics remain intact; no client initializer is needed. */
 @media(max-width:760px) {
-  html body .workspace-control:is(.dui-input,.dui-select,.dui-textarea) {min-height:44px;font-size:16px;}
+  html body .workspace-control:is(.dui-input,.dui-select) {height:44px;min-height:44px;font-size:16px;}
+  html body .workspace-control.dui-textarea {height:auto;min-height:88px;font-size:16px;}
   html body .workspace-button.dui-btn {min-height:44px;}
-  html body .ve-workbench .workspace-control:is(.dui-input,.dui-select,.dui-textarea) {min-height:44px;font-size:16px;}
+  html body .ve-workbench .workspace-control:is(.dui-input,.dui-select) {height:44px;min-height:44px;font-size:16px;}
+  html body .ve-workbench .workspace-control.dui-textarea {height:auto;min-height:88px;font-size:16px;}
   html body .ve-workbench .workspace-button.dui-btn {min-height:44px;}
 }
 

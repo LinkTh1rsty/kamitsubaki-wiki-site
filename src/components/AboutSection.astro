@@ -9,33 +9,33 @@ type AboutContent = {
 const { content } = Astro.props as { content: AboutContent };
 ---
 
-<section id="about" class="mx-auto max-w-7xl border-b border-white/10 px-5 py-20 relative ui-crosshair bl br sm:px-6 sm:py-32">
-  <div class="grid grid-cols-1 gap-8 sm:gap-12 md:grid-cols-12 md:gap-14">
-    <div class="md:col-span-4 reveal-up">
-      <h3 class="text-[10px] tracking-kamidest-lg font-light text-white mb-2">{content.heading}</h3>
-      <p class="font-serif text-[10px] text-white/50 tracking-widest mb-8">{content.subheading}</p>
-      <div class="w-8 h-[1px] bg-white/30"></div>
+<section id="about" class="home-about relative mx-auto max-w-7xl border-b border-[rgb(var(--theme-fg-rgb)/0.1)] px-4 py-20 ui-crosshair bl br sm:px-6 sm:py-28">
+  <div class="home-about__layout">
+    <div class="home-about__sidebar reveal-up">
+      <h3 class="home-about__kicker">{content.heading}</h3>
+      <p class="home-about__subtitle">{content.subheading}</p>
+      <div class="h-px w-8 bg-[rgb(var(--theme-fg-rgb)/0.26)]"></div>
       <slot name="explore" />
     </div>
-    <div class="md:col-span-8 reveal-up" style="transition-delay: 0.2s;">
+    <div class="home-about__body reveal-up" style="transition-delay: 0.2s;">
       <div class="max-w-3xl space-y-8 sm:space-y-10">
         <div class="space-y-5 sm:space-y-6">
           {content.body.map((line) => (
-            <p class="max-w-2xl font-serif text-[15px] leading-8 text-white/80 sm:text-[17px] sm:leading-9 md:text-[18px]">
+            <p class="max-w-2xl font-serif text-[15px] leading-8 text-[rgb(var(--theme-fg-rgb)/0.84)] sm:text-[17px] sm:leading-9 md:text-[18px]">
               {line}
             </p>
           ))}
         </div>
 
         {content.note.length > 0 && (
-          <div class="border-l border-white/10 pl-4 sm:pl-5">
+          <div class="border-l border-[rgb(var(--theme-fg-rgb)/0.16)] pl-4 sm:pl-5">
             <div class="space-y-3 sm:space-y-4">
               {content.note.map((line, index) => (
                 <p
                   class:list={[
-                    'text-white/46',
+                    'text-[rgb(var(--theme-fg-rgb)/0.54)]',
                     index === 0
-                      ? 'text-[11px] leading-6 tracking-[0.08em] sm:text-xs'
+                      ? 'text-xs leading-6 tracking-[0.08em]'
                       : 'text-[13px] leading-7 sm:text-[14px] sm:leading-8',
                   ]}
                 >
@@ -49,3 +49,42 @@ const { content } = Astro.props as { content: AboutContent };
     </div>
   </div>
 </section>
+
+<style>
+  .home-about__layout {
+    display: grid;
+    grid-template-columns: minmax(220px, 260px) minmax(0, 1fr);
+    gap: clamp(48px, 5vw, 72px);
+    align-items: start;
+  }
+  .home-about__sidebar {
+    position: sticky;
+    top: 120px;
+    align-self: start;
+    min-width: 0;
+  }
+  .home-about__body {
+    min-width: 0;
+  }
+  .home-about__kicker {
+    margin: 0 0 8px;
+    font: 400 10px/1.5 var(--font-mono);
+    letter-spacing: 0.36em;
+    color: var(--theme-fg);
+  }
+  .home-about__subtitle {
+    margin: 0 0 28px;
+    font: 400 12px/1.7 var(--font-serif);
+    letter-spacing: 0.16em;
+    color: rgb(var(--theme-fg-rgb) / 0.56);
+  }
+  @media (max-width: 1023px) {
+    .home-about__layout {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 32px;
+    }
+    .home-about__sidebar {
+      position: static;
+    }
+  }
+</style>
