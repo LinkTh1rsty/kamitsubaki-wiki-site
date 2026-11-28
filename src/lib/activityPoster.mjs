@@ -6,7 +6,7 @@ export function adaptActivityPoster(image,{onError}={}){
 }
 
 // Load the existing viewer only after a request to enlarge the artwork.
-export async function openActivityPoster(image,opener,{closeLabel,zoomLabel,keyboard=false}={}){
+export async function openActivityPoster(image,opener,{closeLabel='',zoomLabel='',keyboard=false}={}){
  if(opener.dataset.posterOpening||!image.complete||!image.naturalWidth)return;
  opener.dataset.posterOpening='true';
  const progress=opener.ownerDocument.createElement('span'),previousBusy=opener.getAttribute('aria-busy');

@@ -122,3 +122,49 @@ test('cross-midnight agenda retains the full viewer-local date and time range',a
  const sameZone=formatActivityTimeForDay(item,'2026-10-31','en','America/New_York',activityCopy('en'));
  assert.equal(sameZone.split('America/New_York').length,2);
 });
+
+test('promotional detail layout renders native meta line, change note, deadline rows and GFM tables',async()=>{
+ const {JSDOM}=await import('jsdom'),{activityDetailMarkup}=await import('../src/lib/activityPresentation.mjs'),{renderCommunityMarkdownHtml}=await import('../src/lib/communityClient.js');
+ const bodyHtml=renderCommunityMarkdownHtml('## 节目单\n\n| 时间 | 环节 |\n| --- | --- |\n| 20:00 | 开场曲 |\n\n> 请提前入场。');
+ const item={title:'2027 观测者新春接力企划',category:'new-year',mode:'hybrid',status:'ongoing',cooperation:true,organizer:'观测者企划组',summary:'年度联合同人企划',changeNote:'场馆入口调整至北门',poster:'https://images.example/kv.webp',schedule:{kind:'allDay',timeZone:'Asia/Shanghai',startDate:'2027-02-06',endDate:'2027-02-07'},deadlines:[{id:'reg',type:'registration',schedule:{kind:'allDay',timeZone:'Asia/Shanghai',startDate:'2027-01-20'}},{id:'sub',type:'submission',schedule:{kind:'allDay',timeZone:'Asia/Shanghai',startDate:'2027-01-25'}}],links:[{label:'预约观影',url:'https://example.org/signup',primary:true},{label:'直播间',url:'https://example.org/live',role:'live'}]};
+ const dom=new JSDOM(activityDetailMarkup(item,{locale:'zh',copy,bodyHtml})),d=dom.window.document;
+ assert.ok(d.querySelector('.wiki-article-breadcrumb')?.textContent.includes(copy['new-year']));
+ assert.ok(d.querySelector('.activity-meta-line')?.textContent.includes('观测者企划组'));
+ assert.ok(d.querySelector('.activity-change-note')?.textContent.includes('北门'));
+ assert.equal(d.querySelectorAll('.activity-deadline-row').length,2);
+ assert.ok(d.querySelector('.activity-detail-participation a[href="https://example.org/live"]'));
+ assert.equal(d.querySelector('.community-detail-body table tbody td')?.textContent,'20:00');
+ assert.ok(d.querySelector('.community-detail-body blockquote')?.textContent.includes('请提前入场'));
+ dom.window.close();
+});
+
+test('share tools mount popover with link/copy/studio actions and deadline countdown annotates remaining days',async()=>{
+ const {JSDOM}=await import('jsdom');
+ const {activityDetailMarkup,annotateActivityDeadlines}=await import('../src/lib/activityPresentation.mjs');
+ const {mountActivityShareTools,shareText}=await import('../src/lib/activityShare.js');
+ const item={id:'demo-event',source:'community',title:'测试企划',organizer:'测试组',category:'new-year',mode:'online',summary:'简短介绍',schedule:{kind:'allDay',timeZone:'Asia/Shanghai',startDate:'2027-02-06',endDate:'2027-02-06'},deadlines:[{id:'d1',type:'registration',label:'报名截止',schedule:{kind:'allDay',timeZone:'Asia/Shanghai',startDate:'2027-01-31'}},{id:'d2',type:'submission',label:'早鸟截止',schedule:{kind:'allDay',timeZone:'Asia/Shanghai',startDate:'2026-11-01'}}],links:[]};
+ const dom=new JSDOM(activityDetailMarkup(item,{locale:'zh',copy}),{url:'https://kamitsubaki.wiki/zh/community/activities/demo-event/'});
+ const prevDoc=globalThis.document,prevWin=globalThis.window;
+ globalThis.document=dom.window.document;globalThis.window=dom.window;
+ try{
+  const d=dom.window.document;
+  annotateActivityDeadlines(d,copy,Date.parse('2027-01-26T00:00:00Z'));
+  const badges=[...d.querySelectorAll('[data-deadline-countdown]')];
+  assert.equal(badges.length,2);
+  assert.equal(badges[0].dataset.state,'urgent');
+  assert.ok(badges[0].textContent.includes('5'));
+  assert.equal(badges[1].dataset.state,'passed');
+  const tools=d.querySelector('[data-activity-detail-tools]');
+  mountActivityShareTools(tools,item,{locale:'zh',copy,base:'https://api.example',placement:'detail'});
+  assert.ok(tools.querySelector('.share-popover__trigger'));
+  assert.ok(tools.querySelector('.activity-share-popover__panel'));
+  const text=shareText(item,{locale:'zh',copy});
+  assert.ok(text.includes('测试企划'));
+  assert.ok(text.includes('测试组'));
+  assert.ok(text.includes('/zh/community/activities/demo-event/'));
+ }finally{
+  if(prevDoc===undefined)delete globalThis.document;else globalThis.document=prevDoc;
+  if(prevWin===undefined)delete globalThis.window;else globalThis.window=prevWin;
+  dom.window.close();
+ }
+});

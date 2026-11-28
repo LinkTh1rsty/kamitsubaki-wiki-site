@@ -7,6 +7,7 @@ import ContentSkeleton from '../../../../components/ContentSkeleton.astro';
 import {getLocalizedSite} from '../../../../lib/homeData.mjs';
 import {buildLocaleLinks,supportedLocales} from '../../../../lib/i18n.mjs';
 import {activityCopy} from '../../../../lib/activityCopy.mjs';
+import '../../../../styles/uiKit.css';
 import '../../../../styles/community.css';
 import '../../../../styles/activityCenter.css';
 import '../../../../styles/entityInfoBox.css';
@@ -26,6 +27,45 @@ const site=getLocalizedSite(await getCollection('site'),locale),path='/community
 <script>
  import {initCommunityDocument} from '../../../../scripts/communityDocument.js';
  import {enhanceActivityDocument} from '../../../../scripts/activityDocument.js';
- const root=document.querySelector('[data-community-document]');
- void (async()=>{await initCommunityDocument(root);await enhanceActivityDocument(root);})();
+ import {activityDetailMarkup,annotateActivityDeadlines} from '../../../../lib/activityPresentation.mjs';
+ import {renderCommunityMarkdownHtml} from '../../../../lib/communityClient.js';
+ import {openActivityPoster} from '../../../../lib/activityPoster.mjs';
+ import {mountActivityShareTools} from '../../../../lib/activityShare.js';
+ const root=document.querySelector<HTMLElement>('[data-community-document]');
+ const params=new URLSearchParams(location.search);
+ if(import.meta.env.DEV&&root&&!params.get('id')&&params.get('preview')==='showcase'){
+  const locale=root.dataset.locale||'zh',c=JSON.parse(root.dataset.copy||'{}'),poster=new URL('/thumbnails/000d8a157577cef96b8f-960.webp',location.origin).href;
+  const demoItem={
+   id:'dev-showcase',source:'community',sourceLocale:'zh',category:'new-year',mode:'hybrid',status:'ongoing',eventStatus:'scheduled',cooperation:true,edition:'2027',
+   title:'2027 观测者新春接力企划',organizer:'观测者新春筹备组',organizerUrl:'https://kamitsubaki.wiki',sourceUrl:'https://kamitsubaki.wiki',
+   summary:'面向社群创作者的新春视频与同人插画接力放映，除夕夜线上公开首播，上海设小型同好线下观影场。',
+   changeNote:'上海观影场因场地排期调整，入场核验时间改为 18:30。',
+   country:'CN',city:'上海',locationPrecision:'manual',venue:'静安区新闸路放映空间 B1',poster,
+   schedule:{kind:'timed',timeZone:'Asia/Shanghai',startAt:'2027-02-06T11:00:00Z',endAt:'2027-02-06T14:30:00Z'},
+   deadlines:[
+    {id:'sub',type:'submission',label:'成片交稿截止',schedule:{kind:'timed',timeZone:'Asia/Shanghai',startAt:'2027-01-20T15:59:00Z'}},
+    {id:'reg',type:'registration',label:'线下观影预约截止',schedule:{kind:'timed',timeZone:'Asia/Shanghai',startAt:'2027-01-31T15:59:00Z'}}
+   ],
+   links:[
+    {label:'预约线下观影',url:'https://kamitsubaki.wiki/zh/community/activities/',role:'registration',primary:true},
+    {label:'首播直播间',url:'https://kamitsubaki.wiki/zh/events/',role:'live'},
+    {label:'无料交换登记',url:'https://kamitsubaki.wiki/zh/community/activities/apply/?kind=promotion',role:'submission'}
+   ],
+   media:[{src:poster,role:'poster',alt:'2027 观测者新春接力企划主视觉',author:'筹备组视觉担当',sourceTitle:'企划公开告知'}]
+  };
+  const demoBody=renderCommunityMarkdownHtml(`## 活动介绍\n\n本企划为社群成员自发组织的非营利新春同人联播，收录翻唱、手书、器乐改编与短篇混剪共 18 组作品。线上首播无需预约，线下场仅均摊场地费用。\n\n## 时间安排\n\n| 时间（UTC+8） | 环节 | 说明 |\n| --- | --- | --- |\n| 18:30 | 线下签到 | 领取纪念票根与无料交换 |\n| 19:00 – 20:40 | 上半场放映 | 器乐重编与单人曲目单元 |\n| 20:50 – 22:30 | 下半场放映 | 合唱组曲与制作人员名单 |\n\n## 参与方式\n\n线上观众可于首播时间直接前往直播间观看；计划参加上海线下观影的同好请提前通过预约链接提交实名通行信息。\n\n## 注意事项\n\n- 放映期间请勿对未单独公开的稿件进行录屏转载。\n- 现场无官方周边贩售，无料仅限同好间无偿交换。`);
+  const factsHtml=`<dl class="community-facts entity-info-facts"><div><dt>${c.organizer}</dt><dd>${demoItem.organizer}</dd></div><div><dt>${c.edition}</dt><dd>${demoItem.edition}</dd></div><div><dt>${c.updated}</dt><dd>2026-11-26</dd></div></dl>`;
+  const creditHtml=`<p class="community-image-credit">2027 观测者新春接力企划主视觉 · 筹备组视觉担当 · 企划公开告知</p>`;
+  if(!root.querySelector('.reader-artwork')){const bg=document.createElement('div'),bgImg=document.createElement('img');bg.className='reader-artwork';bg.setAttribute('aria-hidden','true');bg.style.cssText='position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none';bgImg.src=poster;bgImg.alt='';bgImg.style.cssText='width:100%;height:100%;object-fit:cover;object-position:center 30%;filter:blur(40px) saturate(.85);transform:scale(1.14)';bg.append(bgImg);root.prepend(bg);}
+  const target=root.querySelector<HTMLElement>('[data-community-content]')!;
+  target.innerHTML=activityDetailMarkup(demoItem,{locale,copy:c,api:root.dataset.api,bodyHtml:demoBody,factsHtml,creditHtml});
+  document.title=demoItem.title+' · Kamitsubaki Wiki';
+  for(const n of target.querySelectorAll<HTMLElement>('[data-community-local-time]')){try{n.textContent=(n.matches('small')?c.localTime+' · ':'')+new Intl.DateTimeFormat(locale,{dateStyle:'medium',timeStyle:'short'}).format(new Date(n.dataset.communityLocalTime!));}catch{}}
+  annotateActivityDeadlines(target,c);
+  mountActivityShareTools(target.querySelector('[data-activity-detail-tools]'),demoItem,{locale,copy:c,base:root.dataset.api||'',placement:'detail',statusElement:target.querySelector('[data-activity-share-status]')});
+  const posterImg=target.querySelector<HTMLImageElement>('.community-detail-poster'),opener=target.querySelector<HTMLAnchorElement>('.activity-poster-open');
+  if(posterImg&&opener){opener.onclick=async e=>{if(!posterImg.complete||!posterImg.naturalWidth)return;e.preventDefault();try{await openActivityPoster(posterImg,opener,{closeLabel:c.closePoster,zoomLabel:c.viewPoster,keyboard:e.detail===0});}catch{location.assign(opener.href);}};}
+ }else{
+  void (async()=>{await initCommunityDocument(root);await enhanceActivityDocument(root);})();
+ }
 </script>

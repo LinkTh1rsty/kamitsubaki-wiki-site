@@ -9,25 +9,38 @@ import {communityCopy} from '../../../../lib/communityCopy.mjs';
 import {activityCopy} from '../../../../lib/activityCopy.mjs';
 import {communityEditorMarkup} from '../../../../lib/communityEditor.js';
 import '../../../../styles/community.css';
+import '../../../../styles/activityCenter.css';
+import '../../../../styles/entityInfoBox.css';
+import '../../../../styles/entitySectionNav.css';
 export function getStaticPaths(){return supportedLocales.map(locale=>({params:{locale}}));}
 const locale=Astro.params.locale||'zh',c={...activityCopy(locale),...communityCopy(locale)},api=import.meta.env.PUBLIC_COMMUNITY_API_URL||import.meta.env.PUBLIC_GALLERY_API_URL||'https://api.kamitsubaki.wiki';
 ---
-<WorkspaceLayout locale={locale} title={c.apply} intro={c.applyIntro} path="/community/activities/apply/" eyebrow="CONTRIBUTE / ACTIVITY" backHref={`/${locale}/community/activities/`} backLabel={c.back} width="standard" noindex mainAttributes={{class:'community-page','data-community-apply':'','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
- <Fragment slot="actions"><WorkspaceButton href={`/${locale}/account/creator/?type=community`}>{c.creator}</WorkspaceButton></Fragment>
+<WorkspaceLayout locale={locale} title={c.apply} intro={c.applyIntro} path="/community/activities/apply/" eyebrow="CONTRIBUTE / ACTIVITY" backHref={`/${locale}/community/activities/`} backLabel={c.back} width="wide" noindex mainAttributes={{class:'community-page','data-community-apply':'','data-locale':locale,'data-api':api,'data-copy':JSON.stringify(c)}}>
+ <Fragment slot="actions"><WorkspaceButton data-toggle-split-preview aria-pressed="false">{c.splitPreview}</WorkspaceButton><WorkspaceButton href={`/${locale}/account/creator/?type=community`}>{c.creator}</WorkspaceButton></Fragment>
  <ContributionFlow locale={locale} kind="activity"/>
- <label class="community-submission-kind"><span>{c.submissionType}</span><WorkspaceControl as="select" data-community-kind><option value="information">{c.information}</option><option value="promotion">{c.promotion}</option></WorkspaceControl></label>
- <p class="community-field-help">{c.promotionHelp}</p>
- <nav data-apply-followup aria-label={c.promotionStatus} hidden></nav>
- <div set:html={communityEditorMarkup(c)} />
+ <div class="community-apply-banner">
+  <label class="community-submission-kind"><span>{c.submissionType}</span><WorkspaceControl as="select" data-community-kind><option value="information">{c.information}</option><option value="promotion">{c.promotion}</option></WorkspaceControl></label>
+  <p class="community-field-help community-apply-banner__help">{c.promotionHelp}</p>
+ </div>
+ <nav class="community-apply-followup" data-apply-followup aria-label={c.promotionStatus} hidden></nav>
+ <div class="community-apply-workbench" data-apply-workbench>
+  <div class="community-apply-editor-pane" set:html={communityEditorMarkup(c)} />
+  <aside class="community-split-preview-pane" data-split-preview-pane aria-label={c.livePreviewTitle} hidden>
+   <header class="community-split-preview-header"><span>{c.livePreviewTitle}</span></header>
+   <div class="community-split-preview-canvas entity-reader activity-detail-page reader-surface" data-split-preview-body></div>
+  </aside>
+ </div>
 </WorkspaceLayout>
 <script>
  import '../../../../lib/communityLocationRuntime.js';
  import {createCommunityLocationPicker} from '../../../../lib/communityLocationPicker.js';
  import {initCommunityEditor} from '../../../../lib/communityEditor.js';
  import {renderCommunityMarkdown} from '../../../../lib/communityClient.js';
+ import {activityDetailMarkup} from '../../../../lib/activityPresentation.mjs';
  import {loginUrl} from '../../../../scripts/accountStore.js';
  const root=document.querySelector<HTMLElement>('[data-community-apply]')!;
  const c=JSON.parse(root.dataset.copy!),selector=root.querySelector<HTMLSelectElement>('[data-community-kind]')!,params=new URLSearchParams(location.search);
+ const workbench=root.querySelector<HTMLElement>('[data-apply-workbench]')!,splitPane=root.querySelector<HTMLElement>('[data-split-preview-pane]')!,splitBody=root.querySelector<HTMLElement>('[data-split-preview-body]')!,splitToggle=root.querySelector<HTMLButtonElement>('[data-toggle-split-preview]')!;
  if(!params.get('revision')&&!params.get('draft')){params.set('draft',crypto.randomUUID());history.replaceState(null,'',location.pathname+'?'+params);}
  selector.value=params.get('kind')==='promotion'?'promotion':'information';
  const followup=(revisionId:string,publication?:{visible:boolean;activityId:string;promotion?:{state:string;startsAt?:string;endsAt?:string}})=>{
@@ -36,10 +49,45 @@ const locale=Astro.params.locale||'zh',c={...activityCopy(locale),...communityCo
   if(publication?.visible){const link=document.createElement('a');link.className='workspace-button';link.textContent=c.publicResult;link.href=`/${root.dataset.locale}/community/activities/${encodeURIComponent(publication.activityId)}/`;box.append(link);}
   if(publication?.promotion){const p=document.createElement('p');p.textContent=c.promotionStatus+' · '+(c['promotion_'+publication.promotion.state]||c.promotionHelp);box.append(p);for(const [label,value] of [[c.promotionStarts,publication.promotion.startsAt],[c.promotionEnds,publication.promotion.endsAt]]){if(!value)continue;const row=document.createElement('p');row.append(label+' · ');const time=document.createElement('time');time.dateTime=value;time.textContent=new Date(value).toLocaleString(root.dataset.locale,{timeZoneName:'short'});row.append(time);box.append(row);}}
  };
- const options={locationPicker:createCommunityLocationPicker,operationId:params.get('draft')||undefined,apiBase:root.dataset.api,locale:root.dataset.locale,copy:{...c,support:c.supportDeadline},kind:selector.value,loginUrl:loginUrl(''),renderMarkdown:(target:any,body:string,media:any[])=>renderCommunityMarkdown(target,body,media,{api:root.dataset.api}),onSaved(result:any){selector.disabled=true;const url=new URL(location.href);url.searchParams.set('revision',result.revisionId);url.searchParams.delete('activity');url.searchParams.delete('copy');url.searchParams.delete('draft');history.replaceState(null,'',url);},onSubmitted(){const id=new URL(location.href).searchParams.get('revision');if(id)followup(id);}};
+ const paintPreview=(target:HTMLElement,snap:any)=>{
+  const raw=snap?.rawFields||{},media=(snap?.media||[]).map((ref:any)=>({...ref,src:ref.src||(root.dataset.api||'')+'/api/community-activities/assets/'+ref.assetId}));
+  const bodySource=media.reduce((acc:string,ref:any)=>acc.split('/_private/community-assets/'+ref.assetId).join(ref.src),String(raw.body||snap?.content?.body||''));
+  const baseItem=snap?.content||{...raw,schedule:{kind:'undated',timeZone:raw.timeZone||'Asia/Shanghai'},links:snap?.links||[],deadlines:[]};
+  const proseHolder=document.createElement('div');
+  renderCommunityMarkdown(proseHolder,bodySource,media,{api:root.dataset.api});
+  const poster=media.find((ref:any)=>ref.role==='poster')?.src||'';
+  const previewItem={...baseItem,title:baseItem.title||c.title,poster,media,cooperation:selector.value==='promotion'};
+  target.innerHTML=activityDetailMarkup(previewItem,{locale:root.dataset.locale,copy:c,api:root.dataset.api,bodyHtml:proseHolder.innerHTML});
+  for(const n of target.querySelectorAll<HTMLElement>('[data-community-local-time]')){try{n.textContent=(n.matches('small')?c.localTime+' · ':'')+new Date(n.dataset.communityLocalTime!).toLocaleString(root.dataset.locale,{dateStyle:'medium',timeStyle:'short'});}catch{}}
+ };
+ const options={locationPicker:createCommunityLocationPicker,operationId:params.get('draft')||undefined,apiBase:root.dataset.api,locale:root.dataset.locale,copy:{...c,support:c.supportDeadline},kind:selector.value,loginUrl:loginUrl(''),renderMarkdown:(target:any,body:string,media:any[])=>renderCommunityMarkdown(target,body,media,{api:root.dataset.api}),renderPreview(target:HTMLElement,{readSnapshot}:any){
+  target.className='community-live-preview entity-reader activity-detail-page reader-surface';
+  paintPreview(target,readSnapshot?.());
+ },onSaved(result:any){selector.disabled=true;const url=new URL(location.href);url.searchParams.set('revision',result.revisionId);url.searchParams.delete('activity');url.searchParams.delete('copy');url.searchParams.delete('draft');history.replaceState(null,'',url);},onSubmitted(){const id=new URL(location.href).searchParams.get('revision');if(id)followup(id);}};
 
- selector.onchange=()=>{options.kind=selector.value;};
  const editor=initCommunityEditor(root.querySelector('[data-community-editor]'),options);
+ const refreshAllPreviews=()=>{
+  const snap=editor.getSnapshot();
+  if(!splitPane.hidden)paintPreview(splitBody,snap);
+  const inlinePreview=root.querySelector<HTMLElement>('[data-editor-preview-body]');
+  if(inlinePreview&&!inlinePreview.hidden)paintPreview(inlinePreview,snap);
+ };
+ const setSplitPreview=(open:boolean)=>{
+  splitPane.hidden=!open;
+  workbench.dataset.split=open?'true':'false';
+  splitToggle.setAttribute('aria-pressed',String(open));
+  splitToggle.textContent=open?c.hidePreview:c.splitPreview;
+  if(open)refreshAllPreviews();
+ };
+ splitToggle.onclick=()=>setSplitPreview(Boolean(splitPane.hidden));
+ if(selector.value==='promotion'&&matchMedia('(min-width: 1120px)').matches)setSplitPreview(true);
+ selector.onchange=()=>{options.kind=selector.value;refreshAllPreviews();};
+ let previewTimer:ReturnType<typeof setTimeout>|undefined;
+ const formEl=root.querySelector('[data-community-editor]')!;
+ const schedulePreview=()=>{clearTimeout(previewTimer);previewTimer=setTimeout(refreshAllPreviews,140);};
+ formEl.addEventListener('input',schedulePreview);
+ formEl.addEventListener('change',schedulePreview);
+ formEl.addEventListener('click',e=>{if((e.target as HTMLElement).closest('button'))schedulePreview();});
  editor.ready.then(async(session:any)=>{
   if(!session)return;
   try{
