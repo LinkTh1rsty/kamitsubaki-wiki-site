@@ -4,12 +4,13 @@
   --motion-ease-spring:cubic-bezier(.2,.85,.25,1.06);
   --motion-ease-exit:cubic-bezier(.4,0,1,1);
   --motion-fast:160ms;
-  --motion-standard:280ms;
+  --motion-standard:260ms;
   --motion-surface:360ms;
-  --motion-glass:480ms;
+  --motion-glass:460ms;
   /* Older components already use these aliases. */
   --ui-duration:var(--motion-fast);
   --ui-duration-panel:var(--motion-standard);
+  --ui-duration-enter:var(--motion-surface);
   --ui-ease:var(--motion-ease-glide);
 }
 /* State changes only: typing and article layout never animate. */
@@ -24,47 +25,37 @@ html body .wiki-toc::-webkit-scrollbar-track {background:transparent}
 html body .home-chrome__actions :is(a,button,summary):focus-visible,
 html body .ve-workbench :is(button,summary):focus-visible {outline:2px solid var(--theme-accent-color);outline-offset:3px}
 @media(prefers-reduced-motion:no-preference){
-  .ve-workbench dialog[open], .personal-dialog[open] {animation:ui-dialog-enter var(--motion-surface) var(--motion-ease-spring)}
   .ve-workbench dialog[open]::backdrop, .personal-dialog[open]::backdrop {animation:ui-backdrop-enter var(--motion-standard) var(--motion-ease-glide)}
   .ve-workbench :is(.ve-export-menu,.ve-theme-menu,.ve-format-more)[open] > :not(summary) {animation:ui-dialog-enter var(--motion-fast) var(--motion-ease-glide)}
-  html body :is(.home-chrome__actions,.tools-dock,.ve-top-actions,.ve-toolbar) :is(button,a,summary) {transition:background-color var(--motion-fast) var(--motion-ease-glide),color var(--motion-fast) var(--motion-ease-glide),box-shadow var(--motion-fast) var(--motion-ease-glide)}
   html body :is(.home-chrome__actions,.tools-dock,.ve-top-actions,.ve-toolbar) :is(button,a,summary):active {box-shadow:inset 0 0 0 1px rgb(var(--theme-accent-rgb)/.25);background-color:rgb(var(--theme-accent-rgb)/.09)}
   @supports (interpolate-size:allow-keywords){
     :is(.wiki-mobile-toc,.ve-meta-section)::details-content {interpolate-size:allow-keywords;block-size:0;overflow:clip;transition:block-size var(--motion-standard) var(--motion-ease-glide),content-visibility var(--motion-standard) allow-discrete}
     :is(.wiki-mobile-toc,.ve-meta-section)[open]::details-content {block-size:auto}
   }
-}
-@keyframes ui-dialog-enter {from{opacity:0;translate:0 5px}to{opacity:1;translate:0 0}}
-@keyframes ui-backdrop-enter {from{opacity:0}to{opacity:1}}
-@media(prefers-reduced-motion:reduce){
-  [data-motion-ready] > .ui-tab-marker {transition:none}
-  html {scroll-behavior:auto!important}
-}
-
-@media(prefers-reduced-motion:no-preference){
-  html body :is(.home-chrome,.tools-dock,.labs-shell,.visual-editor,.reader-actions,.site-search,.personal-tools,.account-shell,.music-subnav,.category-jump) :is(a,button,summary,select) {
-    transition-property:color,background-color,border-color,box-shadow,opacity;
-  }
-  /* Preserve each component's transition properties; share timing, not layout. */
-  html body :is(.home-chrome,.tools-dock,.labs-shell,.visual-editor,.reader-actions,.site-search,.personal-tools,.account-shell,.music-subnav,.category-jump) :is(a,button,summary,select),
-  html body :is(.wiki-chip,.experience-portal,.artist-card,.album-card,.album-artist-card,.external-link-card,.site-search__result,.wiki-media-switcher__tab) {
-    transition-duration:var(--motion-fast);
-    transition-timing-function:var(--motion-ease-glide);
-  }
-  html body :is(.home-chrome__panel,.tools-dock__menu,.wiki-article-locales,.site-search__panel,.announcement-modal__panel,.ai-chat__panel,.ai-chat__thread-actions) {
-    animation-duration:var(--motion-surface);
-    animation-timing-function:var(--motion-ease-spring);
-  }
   html body :is(.site-search.is-closing,.announcement-modal.is-closing) :is(.site-search__panel,.announcement-modal__panel) {
-    animation-duration:180ms;
+    animation-duration:var(--motion-fast);
     animation-timing-function:var(--motion-ease-exit);
   }
   html body :is(.labs-nav__indicator,.toc-slider,.ui-tab-marker) {
     transition-duration:var(--motion-standard);
     transition-timing-function:var(--motion-ease-glide);
   }
-  html body :is(.experience-portal,.artist-card,.album-artist-card,.external-link-card) {
-    transition-duration:var(--motion-standard);
-    transition-timing-function:var(--motion-ease-spring);
+  html body :is(.wiki-chip,.music-subnav a,.category-jump a,.site-search__result,.wiki-media-switcher__tab) {
+    transition:color var(--motion-fast) var(--motion-ease-glide),background-color var(--motion-fast) var(--motion-ease-glide),border-color var(--motion-fast) var(--motion-ease-glide);
   }
+}
+@keyframes ui-dialog-enter {from{opacity:0;translate:0 5px}to{opacity:1;translate:0 0}}
+@keyframes ui-backdrop-enter {from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){
+  :root {
+    --motion-fast:0ms;
+    --motion-standard:0ms;
+    --motion-surface:0ms;
+    --motion-glass:0ms;
+    --ui-duration:0ms;
+    --ui-duration-panel:0ms;
+    --ui-duration-enter:0ms;
+  }
+  [data-motion-ready] > .ui-tab-marker {transition:none}
+  html {scroll-behavior:auto!important}
 }

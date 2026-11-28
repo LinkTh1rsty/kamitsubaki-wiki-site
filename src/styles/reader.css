@@ -14,16 +14,22 @@ html[data-theme='light'] :is(body.wiki-reading-page, .reader-surface) {
   --reader-muted: #70766d;
 }
 .wiki-reading-page > :is(.noise-bg) { display: none !important; }
-:is(.wiki-reading-page, .reader-surface) :is(a, button, summary, [role='button'], input[type='submit'], input[type='button']) { cursor: pointer !important; }
+:is(.wiki-reading-page, .reader-surface) :is(a, button, summary, [role='button'], input[type='submit'], input[type='button']) { cursor: pointer; }
 :is(.wiki-reading-page, .reader-surface) :is(input, textarea, [contenteditable='true']) { cursor: text; }
 
-html body .reader-frame { max-width: 82rem; }
+html body .reader-frame { width: 100%; max-width: 82rem; min-width: 0; box-sizing: border-box; }
 html body .reader-heading-frame { padding-top: var(--reader-sticky-top, 7.5rem); }
 html body .reader-layout {
   grid-template-columns: minmax(0, 1fr);
   column-gap: 2.75rem;
   row-gap: 3rem;
   padding-block: 1.5rem;
+  min-width: 0;
+}
+html body :where(.reader-layout > *, .reader-sidebar > *) {
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 html body .reader-layout > :is(.reader-body, .reader-sidebar, .reader-toc-column) {
   grid-column: auto;
@@ -40,8 +46,14 @@ html body .reader-layout:not(:has(.reader-body)) { grid-template-columns: minmax
 html body .reader-layout:not(:has(.reader-body)) > .reader-sidebar { grid-column: 1; }
 
 @media (max-width: 1023px) {
-  /* Unwrap sidebar so infobox and roster can sit on either side of the body. */
+  /* Unwrap sidebar so infobox and roster can sit on either side of the body without escaping min-width: 0. */
   html body .reader-layout > .reader-sidebar { display: contents; }
+  html body .reader-sidebar > * {
+    min-width: 0;
+    width: 100%;
+    max-width: 46rem;
+    margin-inline: auto;
+  }
   html body .reader-sidebar > :is(.wiki-infobox, .wiki-side-card) {
     order: 0;
     width: 100%;
@@ -58,9 +70,9 @@ html body .reader-layout:not(:has(.reader-body)) > .reader-sidebar { grid-column
 }
 
 html body div.reader-heading-frame { padding-bottom: 0; }
-html body .wiki-article-header { border-bottom: 1px solid var(--reader-line); padding-bottom: .75rem; }
-.wiki-article-context { display: flex; align-items: center; justify-content: space-between; gap: .75rem; margin-bottom: .5rem; }
-.wiki-article-breadcrumb { display: flex; flex-wrap: wrap; align-items: center; gap: .25rem .5rem; min-width: 0; color: var(--reader-muted); font-size: .72rem; }
+html body .wiki-article-header { min-width: 0; max-width: 100%; border-bottom: 1px solid var(--reader-line); padding-bottom: .9rem; }
+.wiki-article-context { display: flex; align-items: center; justify-content: space-between; gap: .75rem; margin-bottom: .55rem; min-width: 0; }
+.wiki-article-breadcrumb { display: flex; flex-wrap: wrap; align-items: center; gap: .25rem .5rem; min-width: 0; color: var(--reader-muted); font-size: .75rem; }
 html body .wiki-article-breadcrumb .music-subnav { border: 0; border-radius: 0; background: none; }
 html body .wiki-article-breadcrumb .music-subnav > div { gap: .5rem; padding: 0; }
 html body .wiki-article-breadcrumb .music-subnav a { min-height: 28px; padding: 0; background: none; color: var(--reader-muted); font: inherit; letter-spacing: 0; }
@@ -167,7 +179,7 @@ html body.wiki-reading-page :is(.wiki-infobox, .wiki-side-card) { border: 1px so
 html body.wiki-reading-page .wiki-infobox > div:first-child { background: none; }
 html body.wiki-reading-page .wiki-infobox figure { background: none; padding: .6rem; }
 html body.wiki-reading-page .wiki-infobox figure img { filter: none; }
-html body.wiki-reading-page .wiki-infobox :is(dt, .font-mono) { font-family: var(--font-sans); font-size: .69rem; line-height: 1.65; letter-spacing: .01em; text-transform: none; }
+html body.wiki-reading-page .wiki-infobox :is(dt, .font-mono) { font-family: var(--font-sans); font-size: .75rem; line-height: 1.65; letter-spacing: .01em; text-transform: none; }
 html body.wiki-reading-page .wiki-infobox h2 { font-size: 1.35rem; letter-spacing: .015em; }
 html body.wiki-reading-page .wiki-infobox .animate-pulse { animation: none; }
 html body.wiki-reading-page .wiki-infobox .external-link-card { border: 0; border-bottom: 1px solid var(--reader-line); border-radius: 0; background: none; padding-inline: 0; }
@@ -247,6 +259,11 @@ html[data-theme='light'] body:has(.reader-artwork){--reader-art-paper:252 251 24
 @media(prefers-reduced-transparency:reduce),(forced-colors:active){.reader-artwork{display:none}}
 
 @media(max-width:760px){
- html body .wiki-article-actions :is(a,button),html body .wiki-article-language-menu>summary{min-height:44px}
- html body .reader-heading-frame{padding-top:96px}
+ html body .wiki-article-actions :is(a,button),html body .wiki-article-language-menu>summary{min-height:42px}
+ html body .reader-heading-frame{padding-top:88px}
+}
+@media(max-width:540px){
+ .wiki-article-title-row{align-items:flex-start}
+ .wiki-article-actions{width:100%;justify-content:stretch}
+ html body .wiki-article-actions :is(button,a){flex:1 1 auto;padding-inline:.6rem}
 }

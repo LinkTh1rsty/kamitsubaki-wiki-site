@@ -21,13 +21,13 @@
 .article-author--compact .article-avatar>.site-icon{width:16px;height:16px}
 .article-author--compact .article-author-text{flex-direction:row;flex-wrap:wrap;align-items:baseline;gap:4px 12px}
 .article-author--compact{font-size:13px;gap:8px}
-.article-reader{max-width:1192px;margin-inline:auto;padding:112px 40px 64px;color:var(--reader-text);font-family:var(--font-sans)}
+.article-reader{--article-rail:224px;--article-gap:48px;--article-prose:736px;max-width:calc(var(--article-rail) + var(--article-gap) + var(--article-prose) + 80px);margin-inline:auto;padding:112px 40px 64px;box-sizing:border-box;color:var(--reader-text);font-family:var(--font-sans)}
 .article-reader [hidden]{display:none!important}
-.article-reader-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 32px;padding-left:272px}
+.article-reader-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 32px;padding-inline-start:calc(var(--article-rail) + var(--article-gap))}
 .article-reader-back{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-size:13px;color:var(--reader-muted);text-decoration:none}
 .article-reader-back:hover{color:var(--reader-text)}
-.article-reader-actions{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:4px}
-.article-reading-layout{display:grid;grid-template-columns:224px minmax(0,736px);column-gap:48px;row-gap:28px;align-items:start}
+.article-reader-actions{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:6px}
+.article-reading-layout{display:grid;grid-template-columns:var(--article-rail) minmax(0,var(--article-prose));column-gap:var(--article-gap);row-gap:28px;align-items:start}
 .article-reader-header{grid-column:2;grid-row:1;min-width:0;overflow-wrap:anywhere;border-bottom:1px solid var(--reader-line);padding-bottom:28px}
 .article-reader-header h1{font:400 clamp(28px,2.7vw,38px)/1.5 var(--font-serif);margin:0 0 20px;letter-spacing:.01em;text-wrap:pretty;color:var(--reader-text)}
 .article-reader-header [data-article-summary]{font:400 15px/1.9 var(--font-sans);color:var(--reader-muted);margin:0;white-space:pre-line}
@@ -53,10 +53,10 @@ html body .article-reader-content .wiki-reader.wiki-prose{font-size:17px;line-he
 .article-reader-end{margin-top:48px;padding-top:20px;border-top:1px solid var(--reader-line);font-size:13px}
 .article-reader-end>a{display:inline-flex;align-items:center;gap:8px;min-height:44px;color:var(--reader-muted)}
 [data-related-filter]{display:flex;align-items:center;gap:12px}[data-related-filter][hidden]{display:none}
-@media(max-width:1100px){.article-list-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.article-reader{padding-inline:32px}.article-reading-layout{grid-template-columns:200px minmax(0,1fr);column-gap:32px}.article-reader-toolbar{padding-left:232px}}
+@media(max-width:1100px){.article-list-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.article-reader{--article-rail:200px;--article-gap:32px;padding-inline:32px}.article-reading-layout{grid-template-columns:var(--article-rail) minmax(0,1fr)}}
 @media(max-width:900px){
  .article-reader{padding:96px 24px 48px;max-width:784px}
- .article-reader-toolbar{padding-left:0;margin-bottom:24px;align-items:flex-start;gap:8px}
+ .article-reader-toolbar{padding-inline-start:0;margin-bottom:24px;align-items:center;gap:8px}
  .article-reader-actions{max-width:60%}
  .article-reading-layout{display:flex;flex-direction:column;gap:0}
  .article-reader-header{display:contents}
@@ -79,12 +79,15 @@ html body .article-reader-content .wiki-reader.wiki-prose{font-size:17px;line-he
  .article-related-links a,.article-toc-link{min-height:44px;align-content:center}
  .article-reader-content{order:8;width:100%;margin-top:28px}
 }
+@media(max-width:760px){
+ .article-reader{padding-inline:16px}
+}
 @media(max-width:600px){
  .article-list-grid{grid-template-columns:1fr;gap:0}
  .article-list-card{padding:24px 0}
  .article-list-card h2{font-size:21px;margin-block:10px}
  .article-list-card .article-list-summary{margin-bottom:18px}
- .article-reader{padding-inline:22px}
+ .article-reader{padding-inline:16px}
  .article-reader-toolbar{flex-wrap:wrap}
  .article-reader-actions{max-width:100%}
  .article-reader-header h1{font-size:26px}
@@ -99,16 +102,13 @@ html body .article-reader-content .wiki-reader.wiki-prose{font-size:17px;line-he
 .ve-article-save-conflict button{min-height:40px;padding:8px 12px;border:1px solid var(--theme-fg);border-radius:var(--ui-radius-control);background:var(--theme-bg);color:var(--theme-fg);cursor:pointer}
 .ve-draft-recovery{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .ve-draft-recovery button{min-height:40px;padding:8px 12px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);background:var(--theme-bg);color:var(--theme-fg);cursor:pointer}
-/* Keep the archive entrance compact so the first article is visible on phones. */
-html body main[data-article-page=list] .workspace-header{gap:14px 24px;margin-bottom:20px;padding-bottom:20px}
-html body main[data-article-page=list] .workspace-header::after{display:none}
-html body main[data-article-page=list] .workspace-heading>.workspace-eyebrow{display:none}
-html body main[data-article-page=list] .workspace-heading>p:not(.workspace-eyebrow){font-size:13px}
+/* Keep the archive entrance aligned with WorkspaceHeader while staying compact on phones. */
 @media(max-width:760px){
  html body main[data-article-page=list] .workspace-header{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px 12px}
  html body main[data-article-page=list] .workspace-back-row{grid-column:1 / -1;margin:0}
  html body main[data-article-page=list] .workspace-heading{display:contents}
- html body main[data-article-page=list] .workspace-heading h1{grid-column:1;grid-row:2;margin:0}
- html body main[data-article-page=list] .workspace-heading>p:not(.workspace-eyebrow){grid-column:1 / -1;grid-row:3;margin-top:4px}
- html body main[data-article-page=list] .workspace-actions{grid-column:2;grid-row:2;justify-content:flex-end}
+ html body main[data-article-page=list] .workspace-heading>.workspace-eyebrow{grid-column:1 / -1;grid-row:2;margin:0}
+ html body main[data-article-page=list] .workspace-heading h1{grid-column:1;grid-row:3;margin:0}
+ html body main[data-article-page=list] .workspace-heading>p:not(.workspace-eyebrow){grid-column:1 / -1;grid-row:4;margin-top:4px;font-size:13px}
+ html body main[data-article-page=list] .workspace-actions{grid-column:2;grid-row:3;justify-content:flex-end}
 }

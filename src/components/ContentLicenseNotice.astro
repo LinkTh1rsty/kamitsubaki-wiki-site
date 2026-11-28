@@ -126,7 +126,7 @@ const licenseUrl = licenseUrls[resolvedLicense.code];
   <div class="flex flex-wrap items-center justify-between gap-3">
     <p class="font-mono text-[9px] uppercase tracking-[0.22em] text-white/35">{copy.eyebrow}</p>
     {licenseUrl ? (
-      <a rel="license" href={licenseUrl} class="font-mono text-[9px] uppercase tracking-[0.15em] text-cyan-50/65 transition-colors hover:text-cyan-50">
+      <a rel="license" href={licenseUrl} class="font-mono text-[9px] uppercase tracking-[0.15em] text-[var(--theme-accent-color)] opacity-85 transition-opacity hover:opacity-100">
         {licenseCopy.label}
       </a>
     ) : (
@@ -142,7 +142,7 @@ const licenseUrl = licenseUrls[resolvedLicense.code];
         <div>
           <dt class="font-mono text-[8px] uppercase tracking-[0.16em] text-white/28">{copy.source}</dt>
           <dd class="mt-1">
-            <a href={resolvedLicense.sourceUrl} class="break-words text-cyan-50/65 transition-colors hover:text-cyan-50">
+            <a href={resolvedLicense.sourceUrl} class="break-words text-[var(--theme-accent-color)] opacity-85 transition-opacity hover:opacity-100">
               {resolvedLicense.sourceTitle && !/^https?:\/\//i.test(resolvedLicense.sourceTitle) ? resolvedLicense.sourceTitle : copy.source}
             </a>
           </dd>

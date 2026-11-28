@@ -74,10 +74,10 @@ html body main.chronicle-editor[data-workspace-page] { --workspace-gap: 28px; }
   font: 11px var(--font-mono);
 }
 .chronicle-editor .timeline-transport button {
-  min-height: 38px;
-  padding: 7px 12px;
+  min-height: 36px;
+  padding: 6px 12px;
   border: 1px solid var(--workspace-line);
-  border-radius: 3px;
+  border-radius: var(--ui-radius-control);
   background: var(--theme-bg);
   color: var(--theme-fg);
   cursor: pointer;
@@ -199,7 +199,7 @@ html body .workspace-page.chronicle-editor .timeline-clip {
   overflow: hidden;
   border: 1px solid rgb(var(--theme-fg-rgb) / .25) !important;
   border-left: 3px solid var(--theme-accent-color) !important;
-  border-radius: 3px !important;
+  border-radius: var(--ui-radius-control) !important;
   background: color-mix(in srgb, var(--theme-bg) 92%, var(--theme-accent-color)) !important;
   color: var(--theme-fg) !important;
   text-align: left;

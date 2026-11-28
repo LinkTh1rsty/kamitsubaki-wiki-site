@@ -6,7 +6,7 @@ export function getStaticPaths(){return supportedLocales.map(locale=>({params:{l
 const {locale='zh'}=Astro.params;
 const copy=resolveLocaleCopy({zh:{title:'音乐作品',intro:'歌曲与专辑，共同构成的音乐档案。',songs:'歌曲',albums:'专辑',back:'百科'},en:{title:'Music',intro:'Songs and albums in one collection.',songs:'Songs',albums:'Albums',back:'Encyclopedia'},ja:{title:'音楽作品',intro:'楽曲とアルバムのアーカイブ。',songs:'楽曲',albums:'アルバム',back:'百科'}},locale);
 ---
-<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/database/music/" eyebrow="RHYTHM" backHref={`/${locale}/database/`} backLabel={copy.back}>
+<WorkspaceLayout locale={locale} title={copy.title} intro={copy.intro} path="/database/music/" eyebrow="RHYTHM" backHref={`/${locale}/database/`} backLabel={copy.back} width="wide">
  <WorkspaceLinkCard href={`/${locale}/database/music/songs/`} title={copy.songs} index="01"/>
  <WorkspaceLinkCard href={`/${locale}/database/music/albums/`} title={copy.albums} index="02"/>
 </WorkspaceLayout>

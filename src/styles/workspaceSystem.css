@@ -10,6 +10,7 @@ html body main.workspace-page[data-workspace-page] {
   --workspace-muted:var(--ui-color-muted);
   --workspace-title:clamp(28px,2.6vw,36px);
   --workspace-control-height:40px;
+  --tool-height:40px;
   --workspace-motion:var(--ui-duration-panel);
   --workspace-surface:rgb(var(--theme-fg-rgb)/.025);
   --workspace-shadow:var(--ui-shadow-panel);
@@ -37,7 +38,7 @@ html body main.workspace-page[data-workspace-width=reading]{--workspace-max:1120
 
 /* One action hierarchy: parent link, heading + primary action, then content tools. */
 html body main.workspace-page .workspace-header{position:relative;display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:18px 32px;padding:0 0 24px;margin:0 0 var(--workspace-gap);border-bottom:1px solid var(--workspace-line)}
-html body main.workspace-page .workspace-header::after{content:'';display:inline-block;width:1em;height:1em;background:currentColor;mask:url('/icons/lucide/plus.svg') center/contain no-repeat;position:absolute;right:0;bottom:-9px;padding-left:8px;background:var(--theme-bg);color:var(--workspace-muted);font:14px var(--font-mono)}
+html body main.workspace-page .workspace-header::after{content:'';display:inline-block;width:14px;height:14px;background:currentColor;mask:url('/icons/lucide/plus.svg') center/contain no-repeat;position:absolute;right:0;bottom:-7px;color:var(--workspace-muted)}
 html body main.workspace-page .workspace-heading{flex:1 1 320px;min-width:0}
 html body main.workspace-page .workspace-heading h1{font:400 var(--workspace-title)/1.35 var(--font-serif);letter-spacing:.025em;margin:0 0 12px;text-wrap:balance}
 html body main.workspace-page .workspace-heading>.workspace-eyebrow{font:11px/1.6 var(--font-mono);letter-spacing:.15em;margin:0 0 10px;color:var(--workspace-muted)}
@@ -54,7 +55,7 @@ html body main.workspace-page .workspace-back:hover>span:first-child{transform:t
 /* Unmigrated action-slot links retain their appearance during scoped adoption. */
 html body .workspace-page :is(.workspace-actions>a,.workspace-actions>button):not(.dui-btn){display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:var(--workspace-control-height);padding:8px 14px;border:1px solid var(--workspace-line);border-radius:var(--ui-radius-control);background:transparent;color:var(--theme-fg);font:500 13px/1.5 var(--font-sans);text-decoration:none;cursor:pointer;box-shadow:none;transition:background var(--workspace-motion),border-color var(--workspace-motion),color var(--workspace-motion)}
 html body .workspace-page :is(.workspace-actions>a,.workspace-actions>button):not(.dui-btn):hover{border-color:rgb(var(--theme-fg-rgb)/.35);background:rgb(var(--theme-fg-rgb)/.055)}
-.workspace-group-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start}
+.workspace-group-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:stretch}
 
 .workspace-filter-actions{display:flex;gap:4px;flex:0 0 auto;align-items:center}
 .workspace-filter-more{position:relative;flex:0 0 auto}
@@ -73,9 +74,10 @@ html body .workspace-page :is(.workspace-actions>a,.workspace-actions>button):no
 .workspace-state__actions:empty{display:none}
 .workspace-pagination{display:flex;justify-content:flex-end;gap:8px;padding-top:16px;border-top:1px solid var(--workspace-line)}
 .workspace-pagination:not(:has(>:not([hidden]))){display:none}
+html body main.workspace-page[data-workspace-page]+.site-footer{margin-top:0}
 @media(max-width:1100px){html body main.workspace-page[data-workspace-page]{--workspace-gutter:32px}.workspace-group-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){
- html body main.workspace-page[data-workspace-page]{--workspace-gutter:20px;--workspace-top:96px;--workspace-gap:24px;--workspace-title:26px;--workspace-control-height:44px;padding-bottom:64px}
+ html body main.workspace-page[data-workspace-page]{--workspace-gutter:16px;--workspace-top:96px;--workspace-gap:24px;--workspace-title:26px;--workspace-control-height:44px;--tool-height:44px;padding-bottom:64px}
  html body main.workspace-page .workspace-header{gap:16px;padding-bottom:24px}
  html body main.workspace-page .workspace-heading{flex-basis:100%}
  html body main.workspace-page .workspace-actions{flex-basis:100%;margin:0;justify-content:flex-start}
@@ -83,9 +85,9 @@ html body .workspace-page :is(.workspace-actions>a,.workspace-actions>button):no
  html body main.workspace-page .workspace-back-row{margin-bottom:-12px}
  .workspace-page .workspace-surface{padding:24px 0;border:0;border-radius:0;background:none;box-shadow:none;border-top:1px solid var(--workspace-line);}.workspace-page .workspace-section-heading{flex-wrap:wrap}.workspace-page .workspace-section-heading h2{font-size:21px}
  .workspace-group-grid{grid-template-columns:1fr}
- .workspace-filter-more>div{left:0;right:auto;max-width:calc(100vw - 40px)}
+ .workspace-filter-more>div{left:0;right:auto;max-width:calc(100vw - 32px)}
 }
-@media(pointer:coarse){html body main.workspace-page[data-workspace-page]{--workspace-control-height:44px}html body main.workspace-page .workspace-back{min-height:44px}}
+@media(pointer:coarse){html body main.workspace-page[data-workspace-page]{--workspace-control-height:44px;--tool-height:44px}html body main.workspace-page .workspace-back{min-height:44px}}
 @media(prefers-reduced-motion:reduce){html body main.workspace-page[data-workspace-page]{--workspace-motion:0ms}html body main.workspace-page .workspace-back:hover>span:first-child{transform:none}}
 
 @media(min-width:761px) and (max-width:1100px){html body main[data-article-page=list] form.workspace-filters label:has(input[type=search]){flex-basis:100%}}

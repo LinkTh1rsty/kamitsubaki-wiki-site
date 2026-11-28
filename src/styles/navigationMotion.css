@@ -3,39 +3,43 @@ html[data-native-page-motion] #preloader {display:none!important}
 @media (prefers-reduced-motion:no-preference) {
   @view-transition { navigation:auto; }
   .home-chrome {view-transition-name:site-navigation}
+  #cursor[popover]:popover-open {view-transition-name:site-cursor}
   ::view-transition-old(root) {animation:page-leave 300ms cubic-bezier(.4,0,1,1) both}
   ::view-transition-new(root) {animation:page-arrive 520ms cubic-bezier(.2,.8,.2,1) both}
   ::view-transition-group(site-navigation) {animation-duration:0s}
   ::view-transition-old(site-navigation) {animation:none;opacity:0}
   ::view-transition-new(site-navigation) {animation:none}
+  ::view-transition-group(site-cursor) {animation-duration:0s;mix-blend-mode:difference}
+  ::view-transition-old(site-cursor) {animation:none;opacity:0}
+  ::view-transition-new(site-cursor) {animation:none}
   html[data-page-direction='back']::view-transition-old(root) {animation-name:page-leave-back}
   html[data-page-direction='back']::view-transition-new(root) {animation-name:page-arrive-back}
   html body :is(.home-chrome__actions,.tools-dock,.ve-top-actions,.ve-toolbar,.labs-actions,.reader-actions,.account-actions) :is(a,button,summary),
   html body :is(.contributor-roster__action,.manual-contributors__card,.manual-contributors__toggle,.hub-editor-button,.labs-button) {
-    transition:scale 440ms cubic-bezier(.2,.9,.25,1.16),translate 440ms cubic-bezier(.2,.9,.25,1.16),background-color 160ms ease,color 160ms ease,box-shadow 160ms ease;
+    transition:scale var(--motion-surface) var(--motion-ease-spring),translate var(--motion-surface) var(--motion-ease-spring),background-color var(--motion-fast) var(--motion-ease-glide),border-color var(--motion-fast) var(--motion-ease-glide),color var(--motion-fast) var(--motion-ease-glide),box-shadow var(--motion-fast) var(--motion-ease-glide);
   }
   html body :is(.home-chrome__actions,.tools-dock,.ve-top-actions,.ve-toolbar,.labs-actions,.reader-actions,.account-actions) :is(a,button,summary):active,
   html body :is(.contributor-roster__action,.manual-contributors__card,.manual-contributors__toggle,.hub-editor-button,.labs-button):active {
-    scale:.94;transition-duration:90ms;
+    scale:.97;transition-duration:90ms;
   }
-  html body :is(.home-chrome__menu[open] .home-chrome__panel,.tools-dock[open] .tools-dock__menu,.wiki-article-language-menu[open] > .wiki-article-locales) {
-    animation:surface-unfold 460ms cubic-bezier(.2,.85,.25,1.1) both;
+  html body .wiki-article-language-menu[open] > .wiki-article-locales {
+    animation:surface-unfold var(--motion-surface) var(--motion-ease-spring) both;
     transform-origin:var(--surface-origin,top right);
   }
-  html body .tools-dock[open] .tools-dock__menu {transform-origin:bottom right}
   html body .home-chrome__menu[open] .home-chrome__panel {
-    animation:menu-shell-unfold 560ms cubic-bezier(.22,1,.36,1) backwards;
+    animation:menu-shell-unfold var(--motion-glass) var(--motion-ease-glide) backwards;
+    transform-origin:top right;
   }
   html body .home-chrome__menu[open] :is(.home-chrome__links > a,.home-chrome__preferences) {
-    animation:menu-item-cascade 580ms backwards;
-    animation-delay:calc(25ms + min(var(--menu-step,0),10) * 38ms);
+    animation:menu-item-cascade var(--motion-glass) backwards;
+    animation-delay:calc(20ms + min(var(--menu-step,0),10) * 32ms);
     transform-origin:top left;
   }
   html body .home-chrome__links > a {
-    transition:translate 360ms cubic-bezier(.22,1,.36,1),background-color 180ms ease,color 180ms ease;
+    transition:translate var(--motion-standard) var(--motion-ease-glide),background-color var(--motion-fast) var(--motion-ease-glide),color var(--motion-fast) var(--motion-ease-glide);
   }
   html body .home-chrome__links > a > span {
-    transition:translate 380ms cubic-bezier(.22,1,.36,1),opacity 180ms ease;
+    transition:translate var(--motion-standard) var(--motion-ease-glide),opacity var(--motion-fast) var(--motion-ease-glide);
   }
   @media(hover:hover) and (pointer:fine) {
     html body .home-chrome__links > a:hover {translate:3px 0}
@@ -46,13 +50,15 @@ html[data-native-page-motion] #preloader {display:none!important}
     animation:none;
   }
   html body .ve-workbench dialog[open],html body .personal-dialog[open],html body .account-dialog[open] {
-    animation:dialog-unfold 480ms cubic-bezier(.2,.85,.25,1.1) both;
+    animation:dialog-unfold var(--motion-surface) var(--motion-ease-spring) both;
   }
-  html body .manual-contributors__card-mark {transition:transform 440ms cubic-bezier(.2,.85,.25,1.15)}
-  html body :is(.experience-portal,.artist-card,.album-card,.album-artist-card) {transition:scale 440ms cubic-bezier(.2,.9,.25,1.1),transform 440ms cubic-bezier(.2,.9,.25,1.1)}
-  html body :is(.experience-portal,.artist-card,.album-card,.album-artist-card):active {scale:.975;transition-duration:100ms}
+  html body .manual-contributors__card-mark {transition:transform var(--motion-surface) var(--motion-ease-spring)}
+  html body :is(.experience-portal,.artist-card,.album-card,.album-artist-card,.external-link-card) {
+    transition:translate var(--motion-standard) var(--motion-ease-spring),scale var(--motion-standard) var(--motion-ease-spring),border-color var(--motion-fast) var(--motion-ease-glide),background-color var(--motion-fast) var(--motion-ease-glide),box-shadow var(--motion-fast) var(--motion-ease-glide);
+  }
+  html body :is(.experience-portal,.artist-card,.album-card,.album-artist-card,.external-link-card):active {scale:.985;transition-duration:90ms}
   @media(hover:hover) and (pointer:fine){
-    html body :is(.contributor-roster__action,.manual-contributors__card,.hub-editor-button,.labs-button):hover {translate:0 -3px}
+    html body :is(.experience-portal,.artist-card,.album-artist-card,.external-link-card,.contributor-roster__action,.manual-contributors__card,.hub-editor-button,.labs-button):hover {translate:0 -2px}
   }
 }
 @keyframes page-arrive {from{opacity:0;transform:translateX(36px) scale(.98)}to{opacity:1;transform:translateX(0) scale(1)}}

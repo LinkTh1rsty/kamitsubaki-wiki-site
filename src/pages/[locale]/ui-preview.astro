@@ -43,11 +43,12 @@ document.querySelector('[data-preview-open]')?.addEventListener('click',()=>docu
 document.querySelectorAll<HTMLFormElement>('[data-preview-form]').forEach(form=>form.addEventListener('submit',event=>event.preventDefault()));
 </script>
 <style>
-.ui-preview{max-width:1120px;margin:auto;padding:120px 24px 60px;color:var(--theme-fg)}
-h1{font:500 30px/1.5 var(--font-sans)}header>p{color:var(--wiki-muted-color)}nav,.preview-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:16px 0}nav a[aria-current]{text-decoration:underline}
-header .preview-actions>button{min-height:44px;padding:8px 12px;border:1px solid rgb(var(--theme-fg-rgb)/.16);background:none;color:var(--theme-fg)}
-.preview-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}.preview-column{min-width:0;border-top:1px solid rgb(var(--theme-fg-rgb)/.16);padding-top:20px}h2{font:500 18px/1.6 var(--font-sans)}
+.ui-preview{max-width:1440px;margin:auto;padding:124px 48px 80px;box-sizing:border-box;color:var(--theme-fg)}
+h1{font:400 clamp(28px,2.6vw,36px)/1.35 var(--font-serif);letter-spacing:.025em;margin:0 0 12px}header>p{color:var(--wiki-muted-color)}nav,.preview-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:16px 0}nav a[aria-current]{text-decoration:underline}
+header .preview-actions>button{min-height:40px;padding:8px 14px;border:1px solid rgb(var(--theme-fg-rgb)/.16);background:none;color:var(--theme-fg)}
+.preview-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}.preview-column{min-width:0;border-top:1px solid rgb(var(--theme-fg-rgb)/.16);padding-top:20px}h2{font:400 23px/1.5 var(--font-serif)}
 form>label{display:grid;gap:8px;margin:20px 0;font-size:14px}form>.preview-check{display:flex;align-items:center;min-height:44px;gap:12px}.preview-error{color:var(--ui-color-error);font-size:13px}
 .ui-preview fieldset label{display:flex;align-items:center;gap:12px;min-height:44px}.ui-preview dialog{margin:auto;padding:24px;background:var(--theme-bg);color:var(--theme-fg);max-width:calc(100vw - 32px);border:1px solid currentColor;border-radius:var(--ui-radius-panel)}.ui-preview dialog::backdrop{background:#0008}
-@media(max-width:760px){.ui-preview{padding-inline:16px}}
+@media(max-width:1100px){.ui-preview{padding-inline:32px}}
+@media(max-width:760px){.ui-preview{padding:96px 16px 64px}h1{font-size:26px}header .preview-actions>button{min-height:44px}}
 </style>

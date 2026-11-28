@@ -2,13 +2,10 @@
   --b-line: rgb(var(--theme-fg-rgb)/0.16);
   --b-soft: rgb(var(--theme-fg-rgb)/0.04);
   --b-muted: rgb(var(--theme-fg-rgb)/0.62);
-  --b-accent: #6bd7c3;
+  --b-accent: var(--theme-accent-color);
   color: var(--theme-fg);
   font-size: 15px;
   line-height: 1.7;
-}
-html[data-theme='light'] .labs-shell {
-  --b-accent: #006f61;
 }
 .labs-shell * {
   box-sizing: border-box;
@@ -361,7 +358,7 @@ html[data-theme='light'] .labs-shell {
   cursor: pointer;
 }
 .labs-bookmark button[aria-pressed='true'] {
-  color: #168c79;
+  color: var(--theme-accent-color);
 }
 .labs-bookmark a {
   text-decoration: underline;
@@ -371,7 +368,7 @@ html[data-theme='light'] .labs-shell {
 }
 @media (max-width: 760px) {
   .labs-shell {
-    padding: 90px 18px 70px;
+    padding: 96px 16px 64px;
   }
   .labs-nav {
     gap: 22px;
@@ -453,4 +450,4 @@ html body main.workspace-page .labs-toolbar{gap:16px;padding:20px;border:1px sol
 html body main.workspace-page .labs-row{transition:background var(--workspace-motion),border-color var(--workspace-motion);border-radius:8px;padding:16px}
 html body main.workspace-page .labs-row:hover{background:rgb(var(--theme-fg-rgb)/.025);border-color:var(--theme-accent-color)}
 html body main.workspace-page .labs-panel>label:has([data-query]){display:grid;gap:8px;max-width:560px;margin:0 0 16px;font-size:12px}
-html body main.workspace-page .labs-panel :is(input[type=search],select){min-height:44px;border-radius:8px}
+html body main.workspace-page .labs-panel :is(input[type=search],select){min-height:var(--workspace-control-height,44px);border-radius:var(--ui-radius-control)}

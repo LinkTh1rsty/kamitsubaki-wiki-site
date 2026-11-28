@@ -19,8 +19,8 @@ for(const root of document.querySelectorAll<HTMLElement>('[data-content-tabs]'))
 }
 </script>
 <style is:global>
-.content-tabs{display:flex;width:fit-content;gap:4px;padding:4px;margin-bottom:24px;border:1px solid rgb(var(--theme-fg-rgb)/.12);border-radius:8px}
-.content-tabs button{padding:8px 18px;color:rgb(var(--theme-fg-rgb)/.6);font-size:12px;cursor:pointer;background:none;border:0;min-height:40px}
-.content-tabs button[aria-selected=true]{color:var(--theme-fg)}
+.content-tabs{display:flex;width:fit-content;gap:3px;padding:3px;margin-bottom:24px;border:1px solid rgb(var(--theme-fg-rgb)/.12);border-radius:var(--ui-radius-panel,8px)}
+html body .content-tabs .workspace-button.dui-btn{padding:6px 18px;color:rgb(var(--theme-fg-rgb)/.6);font-size:12px;cursor:pointer;background:none;border-color:transparent;min-height:36px}
+html body .content-tabs .workspace-button.dui-btn[aria-selected=true]{color:var(--theme-fg)}
 [data-content-panel][hidden]{display:none!important}
 </style>
